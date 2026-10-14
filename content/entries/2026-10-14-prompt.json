@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-prompt",
+  "date": "2026-10-14",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["prompts"],
+    "es": ["prompts"]
+  },
+  "image": "img/2026-10-14-prompt.svg",
+  "imageAlt": {
+    "en": "A message made of three stacked parts, instructions, context and question, going into a model that returns an answer",
+    "es": "Un mensaje hecho de tres partes apiladas, instrucciones, contexto y pregunta, que entra a un modelo y vuelve como respuesta"
+  },
+  "en": {
+    "title": "Prompt",
+    "tagline": "Everything you send to an AI model: the question, the instructions, the context.",
+    "explanation": [
+      "A **prompt** is everything you send to an LLM before it answers: your question, any instructions ('answer in three bullet points'), examples of what you want, and material to work with (an email to summarize, a table to read). The model has no memory of you beyond what is in the prompt, so for that request the prompt is its whole world.",
+      "Small changes in the prompt change the answer a lot. 'Write a summary' and 'Write a two-sentence summary for a busy doctor, no jargon' produce very different text. Saying who it is for, what format you want, how long, and what to avoid gets better results than hoping the model guesses. This craft is called **prompt engineering**, though most of it is just clear writing.",
+      "Products built on LLMs add a hidden part, the **system prompt**: instructions from the developer that sit before yours and set the tone, the rules and the persona. When a chatbot answers in a particular style or declines something, the system prompt is often the reason.",
+      "Why it matters: with the same model, the quality of what you get depends mostly on what you ask. Learning to write a good prompt is the cheapest way to get more out of any AI tool."
+    ],
+    "analogy": "Briefing a very capable new colleague who has read everything but knows nothing about you or today's task. The clearer the brief, the better the work.",
+    "keyPoints": [
+      "The prompt is all the model knows about your request: say what you want, for whom, in what format.",
+      "Showing one or two examples often beats describing the format.",
+      "System prompts are hidden instructions from the developer that shape every answer.",
+      "Prompt and answer are both measured in tokens, which is what you pay for."
+    ],
+    "links": [
+      { "label": "Anthropic: prompt engineering overview", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" },
+      { "label": "Prompt engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Prompt_engineering" }
+    ]
+  },
+  "es": {
+    "title": "Prompt",
+    "tagline": "Todo lo que le mandás a un modelo de IA: la pregunta, las instrucciones, el contexto.",
+    "explanation": [
+      "Un **prompt** es todo lo que le mandás a un LLM antes de que responda: tu pregunta, las instrucciones que le des ('contestá en tres puntos'), ejemplos de lo que querés y el material con el que tiene que trabajar (un mail para resumir, una tabla para leer). El modelo no se acuerda de vos más allá de lo que hay en el prompt, así que para ese pedido el prompt es todo su mundo.",
+      "Cambios chicos en el prompt cambian mucho la respuesta. 'Hacé un resumen' y 'Hacé un resumen de dos oraciones para una médica apurada, sin jerga' producen textos muy distintos. Decir para quién es, en qué formato lo querés, qué largo y qué evitar da mejores resultados que esperar a que el modelo adivine. A ese oficio le dicen **prompt engineering**, aunque en el fondo es escribir claro.",
+      "Los productos armados sobre LLMs agregan una parte oculta, el **system prompt**: instrucciones del desarrollador que van antes de las tuyas y fijan el tono, las reglas y la personalidad. Cuando un chatbot responde con cierto estilo o se niega a algo, muchas veces la razón está ahí.",
+      "Por qué importa: con el mismo modelo, la calidad de lo que recibís depende sobre todo de lo que pedís. Aprender a escribir un buen prompt es la forma más barata de sacarle más jugo a cualquier herramienta de IA."
+    ],
+    "analogy": "Darle instrucciones a un colega nuevo muy capaz que leyó de todo pero no sabe nada de vos ni de la tarea de hoy. Cuanto más claro el pedido, mejor el trabajo.",
+    "keyPoints": [
+      "El prompt es todo lo que el modelo sabe de tu pedido: decí qué querés, para quién y en qué formato.",
+      "Mostrar uno o dos ejemplos suele funcionar mejor que describir el formato.",
+      "El system prompt son instrucciones ocultas del desarrollador que moldean cada respuesta.",
+      "Prompt y respuesta se miden en tokens, que es lo que pagás."
+    ],
+    "links": [
+      { "label": "Anthropic: introducción al prompt engineering (en inglés)", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" },
+      { "label": "Prompt engineering en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Prompt_engineering" }
+    ]
+  }
+}

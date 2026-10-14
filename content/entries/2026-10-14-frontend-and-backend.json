@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-14-frontend-and-backend",
+  "date": "2026-10-14",
+  "subjects": [
+    "software"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "frontend",
+      "backend",
+      "front end",
+      "back end"
+    ],
+    "es": [
+      "frontend",
+      "backend",
+      "front end",
+      "back end"
+    ]
+  },
+  "image": "img/2026-10-14-frontend-and-backend.svg",
+  "imageAlt": {
+    "en": "A phone screen on the left (frontend) exchanging requests and responses with a server and database on the right (backend)",
+    "es": "La pantalla de un celular a la izquierda (frontend) intercambiando pedidos y respuestas con un servidor y una base de datos a la derecha (backend)"
+  },
+  "en": {
+    "title": "Frontend and backend",
+    "tagline": "The part of an app you see and touch, and the part that works behind it.",
+    "explanation": [
+      "Almost every app is split in two. The **frontend** is what runs on your device: the screens, buttons and forms of a website or mobile app. The **backend** runs on a server somewhere else: it checks your password, reads and writes the database, charges the card and sends the data the frontend displays. The two talk through an API, usually over HTTPS.",
+      "Frontends are built with HTML, CSS and JavaScript in the browser (often with a framework like React), or with Swift and Kotlin on phones. Backends are written in Python, Java, Go, Node.js and many others, and run on a cloud machine, in a container or as a serverless function. When you tap \"buy\", the frontend sends a request; the backend validates it, updates stock and orders, and replies \"done\"; the frontend shows the confirmation.",
+      "The split matters because each side has different problems. The frontend worries about screen sizes, speed on old phones and accessibility; the backend about security, data integrity and handling thousands of users at once. Anything that must be trusted (prices, permissions) lives in the backend, because anything in the frontend can be read and modified by the user. A \"full-stack\" developer works on both."
+    ],
+    "analogy": "A restaurant. The dining room, the menu and the waiters are the frontend; the kitchen, the pantry and the cash register are the backend. You only ever see the dining room, but the kitchen decides what can actually be served.",
+    "keyPoints": [
+      "Frontend: runs on the user's device, built with HTML, CSS, JavaScript or native mobile code.",
+      "Backend: runs on servers, owns the data and the business rules.",
+      "They communicate through APIs, and the backend never trusts the frontend blindly.",
+      "\"Full stack\" means working on both sides."
+    ],
+    "links": [
+      {
+        "label": "How the web works (MDN)",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works"
+      },
+      {
+        "label": "Frontend and backend (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Frontend_and_backend"
+      }
+    ]
+  },
+  "es": {
+    "title": "Frontend y backend",
+    "tagline": "La parte de una app que ves y tocás, y la parte que trabaja detrás.",
+    "explanation": [
+      "Casi toda app está partida en dos. El **frontend** es lo que corre en tu dispositivo: las pantallas, los botones y los formularios de un sitio o de una app móvil. El **backend** corre en un servidor en otro lado: revisa tu contraseña, lee y escribe la base de datos, cobra la tarjeta y manda los datos que el frontend muestra. Los dos se hablan a través de una API, casi siempre por HTTPS.",
+      "Los frontends se hacen con HTML, CSS y JavaScript en el navegador (muchas veces con un framework como React), o con Swift y Kotlin en los celulares. Los backends se escriben en Python, Java, Go, Node.js y muchos más, y corren en una máquina en la nube, en un contenedor o como una función serverless. Cuando tocás \"comprar\", el frontend manda un pedido; el backend lo valida, actualiza stock y pedidos, y responde \"listo\"; el frontend muestra la confirmación.",
+      "La división importa porque cada lado tiene problemas distintos. El frontend se preocupa por tamaños de pantalla, velocidad en celulares viejos y accesibilidad; el backend por seguridad, integridad de los datos y atender miles de usuarios a la vez. Todo lo que tiene que ser confiable (precios, permisos) vive en el backend, porque cualquier cosa en el frontend la puede leer y modificar el usuario. Un desarrollador \"full-stack\" trabaja en los dos."
+    ],
+    "analogy": "Un restaurante. El salón, el menú y los mozos son el frontend; la cocina, la despensa y la caja son el backend. Vos solo ves el salón, pero la cocina decide qué se puede servir de verdad.",
+    "keyPoints": [
+      "Frontend: corre en el dispositivo del usuario, hecho con HTML, CSS, JavaScript o código nativo de celular.",
+      "Backend: corre en servidores, es dueño de los datos y de las reglas del negocio.",
+      "Se comunican por APIs, y el backend nunca confía ciegamente en el frontend.",
+      "\"Full stack\" quiere decir trabajar en los dos lados."
+    ],
+    "links": [
+      {
+        "label": "Cómo funciona la web (MDN)",
+        "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works"
+      },
+      {
+        "label": "Front end y back end (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Front_end_y_back_end"
+      }
+    ]
+  }
+}

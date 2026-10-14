@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-14-amazon-vpc",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws",
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "VPC",
+      "VPCs",
+      "Virtual Private Cloud"
+    ],
+    "es": [
+      "VPC",
+      "VPCs",
+      "Virtual Private Cloud"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-vpc.svg",
+  "imageAlt": {
+    "en": "A dashed box labeled VPC with a public subnet reachable from the internet and a private subnet holding a database",
+    "es": "Un recuadro punteado llamado VPC con una subred pública accesible desde internet y una subred privada con una base de datos"
+  },
+  "en": {
+    "title": "Amazon VPC",
+    "tagline": "Your own private slice of the AWS network, with walls you draw yourself.",
+    "explanation": [
+      "**Amazon VPC** (Virtual Private Cloud) is the service that gives you an isolated network inside AWS. Everything you launch, an Amazon EC2 server, an Amazon RDS database, a container, lives inside a VPC, with its own range of private IP addresses that nobody else on AWS can reach.",
+      "Inside the VPC you cut **subnets**: smaller blocks of addresses, each tied to one Availability Zone. A public subnet has a route to the internet; a private one does not. **Security groups** act as a firewall around each machine, saying which ports can be reached and from where. Route tables decide where traffic goes next.",
+      "A typical setup: a load balancer in a public subnet, application servers in a private subnet, and the database in another private subnet that only those servers can talk to. Even if someone learns the database's address, there is no path to it from outside.",
+      "Every AWS account comes with a default VPC so you can start without thinking about networking, but production systems almost always design their own."
+    ],
+    "analogy": "An empty office building you rent. You decide which floors have a street entrance, which are staff-only, and which doors need a key card.",
+    "keyPoints": [
+      "A VPC lives in one region and spans its Availability Zones.",
+      "Public subnets can reach the internet; private ones cannot unless you add a NAT gateway.",
+      "Security groups are per-machine firewalls: closed by default, you open only what you need.",
+      "The default VPC is fine for experiments, not for production."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon VPC? (official docs)",
+        "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html"
+      },
+      {
+        "label": "Amazon VPC product page",
+        "url": "https://aws.amazon.com/vpc/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon VPC",
+    "tagline": "Tu propio pedazo privado de la red de AWS, con paredes que dibujás vos.",
+    "explanation": [
+      "**Amazon VPC** (Virtual Private Cloud) es el servicio que te da una red aislada adentro de AWS. Todo lo que lanzás, un servidor Amazon EC2, una base Amazon RDS, un contenedor, vive dentro de una VPC, con su propio rango de direcciones IP privadas al que nadie más en AWS puede llegar.",
+      "Adentro de la VPC recortás **subredes**: bloques más chicos de direcciones, cada uno atado a una zona de disponibilidad. Una subred pública tiene ruta hacia internet; una privada no. Los **security groups** funcionan como un Firewall alrededor de cada máquina y dicen qué puertos se pueden alcanzar y desde dónde. Las tablas de ruteo deciden a dónde sigue el tráfico.",
+      "Un armado típico: un balanceador de carga en una subred pública, los servidores de la aplicación en una privada, y la base de datos en otra privada con la que solo esos servidores pueden hablar. Aunque alguien averigüe la dirección de la base, no hay camino hasta ahí desde afuera.",
+      "Toda cuenta de AWS trae una VPC por defecto para que arranques sin pensar en redes, pero los sistemas en producción casi siempre diseñan la suya."
+    ],
+    "analogy": "Un edificio de oficinas que alquilás vacío. Vos decidís qué pisos tienen entrada desde la calle, cuáles son solo para el personal y qué puertas piden tarjeta.",
+    "keyPoints": [
+      "Una VPC vive en una región y abarca sus zonas de disponibilidad.",
+      "Las subredes públicas llegan a internet; las privadas no, salvo que agregues un NAT gateway.",
+      "Los security groups son firewalls por máquina: cerrados por defecto, abrís solo lo que necesitás.",
+      "La VPC por defecto sirve para experimentar, no para producción."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon VPC? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/vpc/latest/userguide/what-is-amazon-vpc.html"
+      },
+      {
+        "label": "Página de Amazon VPC",
+        "url": "https://aws.amazon.com/es/vpc/"
+      }
+    ]
+  }
+}

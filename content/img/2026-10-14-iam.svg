@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="60" cy="86" r="16" fill="#ffd166"/>
+    <path d="M34 140 a26 26 0 0 1 52 0 z" fill="#ffd166"/>
+    <rect x="124" y="70" width="112" height="84" rx="8" fill="#e6dfd0"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">
+    <text x="134" y="98">Allow</text>
+    <text x="134" y="114">s3:GetObject</text>
+    <text x="134" y="130">on invoices</text>
+  </g>
+  <text x="180" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">policy</text>
+  <text x="60" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">user / role</text>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 112 H118"/><path d="M112 108 l6 4 -6 4"/>
+    <path d="M240 96 Q270 80 288 76"/><path d="M281 73 l7 3 -5 6"/>
+    <path d="M240 130 Q270 150 288 158" stroke-dasharray="4 4"/><path d="M281 161 l7 -3 -5 -6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M300 58 l6 46 h40 l6 -46 z" fill="#9ac7ea"/>
+    <ellipse cx="326" cy="58" rx="26" ry="7" fill="#bfdcf2"/>
+    <path d="M302 150 v34 a24 7 0 0 0 48 0 v-34" fill="#f4a7a7"/>
+    <ellipse cx="326" cy="150" rx="24" ry="7" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="3" fill="none">
+    <path d="M362 70 l6 6 10 -12" stroke="#2b2b2b"/>
+    <path d="M362 162 l14 14 M376 162 l-14 14"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="326" y="120">bucket: invoices</text>
+    <text x="326" y="204">database</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">denied by default · allowed by policy</text>
+</svg>

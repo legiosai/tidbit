@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-14-phishing",
+  "date": "2026-10-14",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "phishing email",
+      "phishing emails",
+      "spear phishing",
+      "smishing"
+    ],
+    "es": [
+      "suplantación de identidad",
+      "correo de phishing",
+      "smishing"
+    ]
+  },
+  "image": "img/2026-10-14-phishing.svg",
+  "imageAlt": {
+    "en": "An urgent message with a fish hook pointing to a look-alike address, next to the real address",
+    "es": "Un mensaje urgente con un anzuelo que apunta a una dirección imitación, junto a la dirección real"
+  },
+  "en": {
+    "title": "Phishing",
+    "tagline": "A fake message that tricks you into handing over a password or a payment.",
+    "explanation": [
+      "**Phishing** is a message (email, SMS, WhatsApp, a phone call) that pretends to come from someone you trust, such as your bank, a courier, the tax office or your boss, and pushes you to act fast: click a link, log in, pay a small fee, open an attachment. The link goes to a copy of the real site that captures what you type. The attachment installs Malware. Nothing is hacked; you are convinced to open the door yourself.",
+      "The classic example: 'Your package is on hold, pay $2.50 in customs fees' with a link to `correo-envios-ar.com`, a page that looks exactly like the courier. Targeted versions (**spear phishing**) use your name, your company and a believable story, like an invoice from a real supplier with a changed bank account. Most large breaches in the news started with one of these.",
+      "The tells are consistent: urgency, a request for credentials or money, and an address that is almost right. A real company rarely needs you to confirm your password through a link, and the sender name in an email is just text anyone can write; the domain after the `@` is what counts.",
+      "Practical takeaway: do not click, go. Open the bank or courier by typing its address or from its app and check there. A Password manager helps because it refuses to fill your password on a look-alike domain, and two-factor authentication with a passkey cannot be phished at all. If you already clicked, change that password and tell the service; it happens to careful people too."
+    ],
+    "analogy": "Someone in a convincing uniform knocking at your door, saying they are from the gas company and need to check the meter inside. They never pick the lock; they get you to open it.",
+    "keyPoints": [
+      "Phishing targets people, not software: it convinces you to hand over the keys.",
+      "Urgency plus a request for a password or a payment is the pattern to recognize.",
+      "Check the domain after the @ and in the link, not the display name.",
+      "Do not click: open the site yourself, from your bookmarks or the app."
+    ],
+    "links": [
+      {
+        "label": "What is a phishing attack? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/access-management/phishing-attack/"
+      },
+      {
+        "label": "Phishing on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Phishing"
+      }
+    ]
+  },
+  "es": {
+    "title": "Phishing",
+    "tagline": "Un mensaje falso que te engaña para que entregues una contraseña o un pago.",
+    "explanation": [
+      "El **phishing** es un mensaje (correo, SMS, WhatsApp, una llamada) que finge venir de alguien en quien confiás, como tu banco, un correo postal, la AFIP o tu jefe, y te apura a actuar: hacer clic en un enlace, iniciar sesión, pagar una tasa chica, abrir un adjunto. El enlace lleva a una copia del sitio real que captura lo que escribís. El adjunto instala Malware. Nadie hackea nada; te convencen de abrir la puerta vos.",
+      "El ejemplo clásico: 'Tu paquete está retenido, pagá $2.500 de aduana' con un enlace a `correo-envios-ar.com`, una página idéntica a la del correo. Las versiones dirigidas (**spear phishing**) usan tu nombre, tu empresa y una historia creíble, como una factura de un proveedor real con el CBU cambiado. La mayoría de las grandes filtraciones que salen en las noticias empezaron con uno de estos mensajes.",
+      "Las señales se repiten: urgencia, un pedido de credenciales o de plata, y una dirección que es casi la correcta. Una empresa real rara vez necesita que confirmes tu contraseña por un enlace, y el nombre del remitente en un correo es solo texto que cualquiera puede escribir; lo que cuenta es el dominio después de la `@`.",
+      "Para hacer hoy: no hagas clic, andá. Abrí el banco o el correo escribiendo la dirección o desde su app, y fijate ahí. Un gestor de contraseñas ayuda porque se niega a completar tu contraseña en un dominio imitación, y la autenticación de dos factores con passkey directamente no se puede phishear. Si ya hiciste clic, cambiá esa contraseña y avisale al servicio; le pasa a gente cuidadosa también."
+    ],
+    "analogy": "Alguien con un uniforme convincente que toca el timbre, dice que viene de la empresa de gas y necesita revisar el medidor adentro. Nunca fuerza la cerradura; logra que le abras vos.",
+    "keyPoints": [
+      "El phishing apunta a las personas, no al software: te convence de entregar las llaves.",
+      "Urgencia más un pedido de contraseña o de pago es el patrón a reconocer.",
+      "Mirá el dominio después de la @ y en el enlace, no el nombre que se muestra.",
+      "No hagas clic: entrá al sitio por tu cuenta, desde tus favoritos o la app."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es un ataque de phishing? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/access-management/phishing-attack/"
+      },
+      {
+        "label": "Phishing en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Phishing"
+      }
+    ]
+  }
+}

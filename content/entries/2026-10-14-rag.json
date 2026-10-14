@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-rag",
+  "date": "2026-10-14",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["retrieval-augmented generation", "Retrieval-Augmented Generation"],
+    "es": ["generación aumentada por recuperación"]
+  },
+  "image": "img/2026-10-14-rag.svg",
+  "imageAlt": {
+    "en": "A question goes to a search step over a stack of documents, the matching pages are attached to the question, and an LLM answers with a citation",
+    "es": "Una pregunta pasa por una búsqueda sobre una pila de documentos, las páginas que coinciden se pegan a la pregunta y un LLM responde con una cita"
+  },
+  "en": {
+    "title": "RAG",
+    "tagline": "Let the model look things up in your documents before it answers.",
+    "explanation": [
+      "**RAG** (Retrieval-Augmented Generation) is a way to make an LLM answer from documents it never saw during training: your company's manuals, last week's contracts, a product catalog. Instead of retraining the model, you fetch the relevant pages at question time and paste them into the prompt. The model then writes its answer with those pages in front of it.",
+      "It works in two steps. First, **retrieval**: the documents are split into chunks and each chunk is turned into embeddings, numbers that capture its meaning, stored in a database. When a question arrives, the system finds the chunks closest in meaning to it. Second, **generation**: the question plus those chunks go to the LLM, which answers and can say where it found each thing.",
+      "Why it matters: an LLM's knowledge is frozen at training time, and it knows nothing private. RAG fixes both without the cost of training, keeps the data where it already lives, and makes hallucinations rarer because the model is grounded in real text. It is the most common architecture behind 'chat with your documents' products and internal company assistants.",
+      "Example: a support bot for an airline. The question 'can I bring my cat?' retrieves the pet policy page, and the model answers from that page instead of guessing what airlines usually do."
+    ],
+    "analogy": "An open-book exam. The student (the model) is smart but did not memorize your files; you hand them the three relevant pages and they answer from those.",
+    "keyPoints": [
+      "RAG adds knowledge at question time, through the prompt, not by retraining.",
+      "Retrieval usually relies on embeddings and a vector search.",
+      "Answers can cite their sources, which makes them easier to check.",
+      "Quality depends on retrieval: if the wrong chunks come back, the answer is wrong too."
+    ],
+    "links": [
+      { "label": "Retrieval-augmented generation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation" },
+      { "label": "AWS: what is RAG?", "url": "https://aws.amazon.com/what-is/retrieval-augmented-generation/" }
+    ]
+  },
+  "es": {
+    "title": "RAG",
+    "tagline": "Dejar que el modelo busque en tus documentos antes de responder.",
+    "explanation": [
+      "**RAG** (Retrieval-Augmented Generation, generación aumentada por recuperación) es una forma de hacer que un LLM responda a partir de documentos que nunca vio durante el entrenamiento: los manuales de tu empresa, los contratos de la semana pasada, un catálogo de productos. En vez de reentrenar el modelo, buscás las páginas relevantes en el momento de la pregunta y las pegás en el prompt. El modelo escribe su respuesta con esas páginas adelante.",
+      "Funciona en dos pasos. Primero, la **recuperación**: los documentos se parten en fragmentos y cada fragmento se convierte en embeddings, números que capturan su significado, guardados en una base de datos. Cuando llega una pregunta, el sistema busca los fragmentos más cercanos en significado. Segundo, la **generación**: la pregunta más esos fragmentos van al LLM, que responde y puede decir de dónde sacó cada cosa.",
+      "Por qué importa: el conocimiento de un LLM queda congelado al entrenarlo, y no sabe nada privado. RAG resuelve las dos cosas sin el costo de entrenar, deja los datos donde ya viven y hace las alucinaciones menos frecuentes porque el modelo se apoya en texto real. Es la arquitectura más común detrás de los productos de 'chateá con tus documentos' y de los asistentes internos de las empresas.",
+      "Ejemplo: un bot de atención de una aerolínea. La pregunta '¿puedo llevar a mi gato?' recupera la página de la política de mascotas, y el modelo responde con esa página en vez de adivinar lo que suelen hacer las aerolíneas."
+    ],
+    "analogy": "Un examen a libro abierto. El alumno (el modelo) es inteligente pero no se memorizó tus archivos; le alcanzás las tres páginas que importan y responde con esas.",
+    "keyPoints": [
+      "RAG agrega conocimiento en el momento de la pregunta, a través del prompt, no reentrenando.",
+      "La recuperación suele apoyarse en embeddings y en una búsqueda vectorial.",
+      "Las respuestas pueden citar sus fuentes, lo que las hace más fáciles de verificar.",
+      "La calidad depende de la búsqueda: si vuelven los fragmentos equivocados, la respuesta también está mal."
+    ],
+    "links": [
+      { "label": "Generación aumentada por recuperación en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation" },
+      { "label": "AWS: ¿qué es RAG?", "url": "https://aws.amazon.com/es/what-is/retrieval-augmented-generation/" }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-serverless",
+  "date": "2026-10-14",
+  "subjects": [
+    "cloud"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "serverless computing",
+      "FaaS"
+    ],
+    "es": [
+      "sin servidor",
+      "FaaS"
+    ]
+  },
+  "image": "img/2026-10-14-serverless.svg",
+  "imageAlt": {
+    "en": "Three triggers (HTTP, file, timer) waking a function that multiplies into copies when traffic grows",
+    "es": "Tres disparadores (HTTP, archivo, reloj) despertando una función que se multiplica en copias cuando crece el tráfico"
+  },
+  "en": {
+    "title": "Serverless",
+    "tagline": "Code that runs only when called; you never see or manage the server.",
+    "explanation": [
+      "**Serverless** is a way of running code in the cloud where you upload a function and the provider runs it only when something triggers it: an HTTP request, a new file landing in Amazon S3, a timer. There are still servers, of course, but you never see them, size them or patch them. AWS Lambda is the best-known example, and the word also describes services like Amazon DynamoDB that scale by themselves with no machines to manage.",
+      "Billing is per execution. If your function runs 10 times a day for 200 milliseconds each, you pay for 2 seconds of computing. If a viral post sends a million requests, the provider starts thousands of copies in parallel and bills for those. Zero traffic costs zero, or close to it.",
+      "It suits spiky or small workloads: generating thumbnails, receiving webhooks, nightly reports, glue between services. It fits worse for long jobs, since a function usually has a time limit (15 minutes on Lambda), and the first call after a quiet period can be slow while the provider spins it up (a \"cold start\")."
+    ],
+    "analogy": "A taxi instead of owning a car. With a server you pay for the car even while it sits parked; with serverless you pay per trip, and someone else worries about the maintenance.",
+    "keyPoints": [
+      "You pay per invocation and per millisecond, not per hour of a running machine.",
+      "It scales from zero to thousands of copies with no configuration.",
+      "Functions are short-lived and stateless: save anything that matters in a database or in storage.",
+      "Cold starts and vendor lock-in are the usual complaints."
+    ],
+    "links": [
+      {
+        "label": "Serverless on AWS",
+        "url": "https://aws.amazon.com/serverless/"
+      },
+      {
+        "label": "What is AWS Lambda? (official docs)",
+        "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+      },
+      {
+        "label": "Serverless computing (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Serverless_computing"
+      }
+    ]
+  },
+  "es": {
+    "title": "Serverless",
+    "tagline": "Código que corre solo cuando alguien lo llama; el servidor no lo ves nunca.",
+    "explanation": [
+      "**Serverless** es una forma de correr código en la nube donde subís una función y el proveedor la ejecuta solo cuando algo la dispara: un pedido HTTP, un archivo nuevo en Amazon S3, un reloj. Servidores hay, claro, pero nunca los ves, ni los dimensionás, ni los actualizás. AWS Lambda es el ejemplo más conocido, y la palabra también describe servicios como Amazon DynamoDB que escalan solos sin máquinas que administrar.",
+      "Se cobra por ejecución. Si tu función corre 10 veces por día durante 200 milisegundos, pagás 2 segundos de cómputo. Si un posteo viral manda un millón de pedidos, el proveedor levanta miles de copias en paralelo y cobra esas. Tráfico cero cuesta cero, o casi.",
+      "Le queda bien a cargas chicas o con picos: generar miniaturas, recibir webhooks, reportes nocturnos, pegamento entre servicios. Le queda peor a trabajos largos, porque una función suele tener un límite de tiempo (15 minutos en Lambda), y la primera llamada después de un rato quieta puede ser lenta mientras el proveedor la levanta (el \"cold start\")."
+    ],
+    "analogy": "Un taxi en vez de auto propio. Con un servidor pagás el auto aunque esté estacionado; con serverless pagás por viaje, y del mantenimiento se preocupa otro.",
+    "keyPoints": [
+      "Pagás por invocación y por milisegundo, no por hora de máquina prendida.",
+      "Escala de cero a miles de copias sin configurar nada.",
+      "Las funciones son cortas y sin estado: lo que importa se guarda en una base de datos o en almacenamiento.",
+      "Los cold starts y la dependencia del proveedor son las quejas de siempre."
+    ],
+    "links": [
+      {
+        "label": "Serverless en AWS",
+        "url": "https://aws.amazon.com/es/serverless/"
+      },
+      {
+        "label": "¿Qué es AWS Lambda? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/lambda/latest/dg/welcome.html"
+      },
+      {
+        "label": "Serverless computing (Wikipedia, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Serverless_computing"
+      }
+    ]
+  }
+}

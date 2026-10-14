@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-14-openai",
+  "date": "2026-10-14",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["ChatGPT"],
+    "es": ["ChatGPT"]
+  },
+  "image": "img/2026-10-14-openai.svg",
+  "imageAlt": {
+    "en": "A chat window labeled ChatGPT on top of a model box labeled GPT, with arrows out to an API, to Microsoft and to image and voice products",
+    "es": "Una ventana de chat que dice ChatGPT sobre una caja de modelo que dice GPT, con flechas hacia una API, hacia Microsoft y hacia productos de imagen y voz"
+  },
+  "en": {
+    "title": "OpenAI",
+    "tagline": "The company that made ChatGPT and turned AI into a household topic.",
+    "explanation": [
+      "**OpenAI** is the company that made AI something everyone talks about. It was founded in 2015 in San Francisco as a nonprofit research lab, with Sam Altman among its founders and now its CEO, and it builds the **GPT** family of large language models. On 30 November 2022 it released **ChatGPT**, a chat interface on top of GPT, and it became one of the fastest-adopted consumer products in history. For many people 'ChatGPT' is still the name of the whole category.",
+      "What it sells: ChatGPT subscriptions for individuals and companies; an API where developers pay per token to use GPT models, image generation, speech-to-text (Whisper) and video generation (Sora) inside their own products; and enterprise deals. Microsoft is its largest partner and investor: OpenAI's models run on Microsoft's Azure cloud and power Copilot across Windows and Office.",
+      "Its structure is unusual and has changed several times. OpenAI started as a nonprofit, created a for-profit subsidiary in 2019 to raise the money that training frontier models requires, and reorganized again in 2025 into a public benefit corporation still controlled by the nonprofit. The tension between its original mission ('ensure that AGI benefits all of humanity') and the commercial race has been a recurring source of news, including the brief removal and return of Altman as CEO in November 2023.",
+      "Why it matters: it set the pace. GPT-3 showed that scaling up models produced surprising abilities, ChatGPT showed the public cared, and since then every big tech company has been racing to match it. OpenAI is also one of the largest buyers of NVIDIA GPUs and is building its own data centers through the Stargate project."
+    ],
+    "analogy": "The company that turned a lab curiosity into a product everyone could try, the way the first iPhone did for smartphones. Others make comparable phones now, but that launch is the one people remember.",
+    "keyPoints": [
+      "Founded in 2015 as a nonprofit; today a for-profit structure under nonprofit control.",
+      "ChatGPT (2022) made LLMs mainstream; the GPT models power it and the API.",
+      "Microsoft is its main partner; its models run on Azure and inside Copilot.",
+      "Also makes image, speech and video models (DALL-E, Whisper, Sora)."
+    ],
+    "links": [
+      { "label": "openai.com", "url": "https://openai.com" },
+      { "label": "OpenAI developer platform", "url": "https://platform.openai.com/docs" },
+      { "label": "OpenAI on Wikipedia", "url": "https://en.wikipedia.org/wiki/OpenAI" }
+    ]
+  },
+  "es": {
+    "title": "OpenAI",
+    "tagline": "La empresa que hizo ChatGPT y convirtió a la IA en tema de sobremesa.",
+    "explanation": [
+      "**OpenAI** es la empresa que hizo que todo el mundo hable de IA. Se fundó en 2015 en San Francisco como un laboratorio de investigación sin fines de lucro, con Sam Altman entre sus fundadores y hoy su CEO, y construye la familia **GPT** de modelos de lenguaje grandes. El 30 de noviembre de 2022 lanzó **ChatGPT**, una interfaz de chat sobre GPT, y se convirtió en uno de los productos de consumo adoptados más rápido de la historia. Para mucha gente 'ChatGPT' sigue siendo el nombre de toda la categoría.",
+      "Lo que vende: suscripciones a ChatGPT para personas y empresas; una API donde los desarrolladores pagan por token para usar los modelos GPT, generación de imágenes, transcripción de voz (Whisper) y generación de video (Sora) en sus propios productos; y acuerdos corporativos. Microsoft es su socio e inversor principal: los modelos de OpenAI corren en la nube Azure de Microsoft y están detrás de Copilot en Windows y Office.",
+      "Su estructura es rara y cambió varias veces. OpenAI arrancó como organización sin fines de lucro, creó una subsidiaria con fines de lucro en 2019 para juntar la plata que exige entrenar modelos de frontera, y se reorganizó de nuevo en 2025 como public benefit corporation, todavía controlada por la entidad sin fines de lucro. La tensión entre su misión original ('asegurar que la AGI beneficie a toda la humanidad') y la carrera comercial fue fuente recurrente de noticias, incluida la breve salida y vuelta de Altman como CEO en noviembre de 2023.",
+      "Por qué importa: marcó el ritmo. GPT-3 mostró que agrandar los modelos producía capacidades sorprendentes, ChatGPT mostró que al público le importaba, y desde entonces todas las grandes tecnológicas corren para alcanzarla. OpenAI es además uno de los mayores compradores de GPUs de NVIDIA y está construyendo sus propios data centers a través del proyecto Stargate."
+    ],
+    "analogy": "La empresa que convirtió una curiosidad de laboratorio en un producto que cualquiera podía probar, como hizo el primer iPhone con los smartphones. Hoy otros hacen teléfonos comparables, pero ese lanzamiento es el que la gente recuerda.",
+    "keyPoints": [
+      "Fundada en 2015 sin fines de lucro; hoy una estructura con fines de lucro bajo control de la entidad sin fines de lucro.",
+      "ChatGPT (2022) hizo masivos a los LLMs; los modelos GPT están detrás de él y de la API.",
+      "Microsoft es su socio principal; sus modelos corren en Azure y adentro de Copilot.",
+      "También hace modelos de imagen, voz y video (DALL-E, Whisper, Sora)."
+    ],
+    "links": [
+      { "label": "openai.com (en inglés)", "url": "https://openai.com" },
+      { "label": "Plataforma para desarrolladores de OpenAI (en inglés)", "url": "https://platform.openai.com/docs" },
+      { "label": "OpenAI en Wikipedia", "url": "https://es.wikipedia.org/wiki/OpenAI" }
+    ]
+  }
+}

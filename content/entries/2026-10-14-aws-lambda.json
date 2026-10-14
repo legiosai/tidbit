@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-aws-lambda",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["Lambda", "Lambda function", "Lambda functions"],
+    "es": ["Lambda", "función Lambda", "funciones Lambda", "función de Lambda", "funciones de Lambda"]
+  },
+  "image": "img/2026-10-14-aws-lambda.svg",
+  "imageAlt": {
+    "en": "Three event icons (an upload, a request, a clock) pointing at a lambda box that produces a result",
+    "es": "Tres íconos de evento (una subida, un pedido, un reloj) apuntando a una caja lambda que produce un resultado"
+  },
+  "en": {
+    "title": "AWS Lambda",
+    "tagline": "Run a piece of code only when something happens, with no server to manage.",
+    "explanation": [
+      "**Lambda** lets you upload a function (a chunk of code in Python, JavaScript, Java and other languages) and tell AWS when to run it: when a file lands in Amazon S3, when an HTTP request arrives through Amazon API Gateway, when a message shows up in an Amazon SQS queue, or every day at 3 a.m. AWS finds a machine, runs your code, and throws the machine away. You never see a server.",
+      "You pay per request and per millisecond of execution. If nobody calls the function, the bill is zero. If a million people call it at once, AWS runs thousands of copies in parallel without you changing anything. The limits: one run lasts at most 15 minutes, and the first call after a quiet period is a bit slower (a **cold start**) while AWS prepares a fresh copy.",
+      "This is what people mean by serverless: there are still servers, but someone else owns them. A typical example: a photo app uploads an image to S3, which triggers a Lambda function that makes a thumbnail and stores it back. No machine sits idle waiting for the next photo."
+    ],
+    "analogy": "A plumber on call instead of one on your payroll. You pay only for the visits, you do not care where they park the van, and if ten pipes burst at once the company sends ten plumbers.",
+    "keyPoints": [
+      "A function runs in response to an event: an upload, a request, a schedule.",
+      "Billing is per request and per millisecond; idle time costs nothing.",
+      "One execution lasts up to 15 minutes; longer jobs belong somewhere else.",
+      "Scales on its own, from zero to thousands of parallel copies."
+    ],
+    "links": [
+      { "label": "What is AWS Lambda? (official docs)", "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html" },
+      { "label": "AWS Lambda", "url": "https://aws.amazon.com/lambda/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Lambda",
+    "tagline": "Correr un pedazo de código solo cuando pasa algo, sin ningún servidor que administrar.",
+    "explanation": [
+      "**Lambda** te deja subir una función (un pedazo de código en Python, JavaScript, Java u otros lenguajes) y decirle a AWS cuándo correrla: cuando cae un archivo en Amazon S3, cuando llega un pedido HTTP por Amazon API Gateway, cuando aparece un mensaje en una cola de Amazon SQS, o todos los días a las 3 de la mañana. AWS consigue una máquina, corre tu código y la descarta. Nunca ves un servidor.",
+      "Pagás por pedido y por milisegundo de ejecución. Si nadie llama a la función, la factura es cero. Si un millón de personas la llaman a la vez, AWS corre miles de copias en paralelo sin que cambies nada. Los límites: una ejecución dura como máximo 15 minutos, y la primera llamada después de un rato de silencio es un poco más lenta (un **cold start**) mientras AWS prepara una copia nueva.",
+      "Esto es lo que la gente quiere decir con serverless: servidores sigue habiendo, pero son de otro. Un ejemplo típico: una app de fotos sube una imagen a S3, eso dispara una función Lambda que arma una miniatura y la guarda de vuelta. Ninguna máquina queda prendida esperando la próxima foto."
+    ],
+    "analogy": "Un plomero de guardia en vez de uno en planta. Pagás solo las visitas, no te importa dónde estaciona la camioneta, y si revientan diez caños a la vez la empresa manda diez plomeros.",
+    "keyPoints": [
+      "Una función corre en respuesta a un evento: una subida, un pedido, un horario.",
+      "Se cobra por pedido y por milisegundo; el tiempo ocioso no cuesta nada.",
+      "Una ejecución dura hasta 15 minutos; los trabajos largos van en otro lado.",
+      "Escala sola, de cero a miles de copias en paralelo."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Lambda? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/lambda/latest/dg/welcome.html" },
+      { "label": "AWS Lambda", "url": "https://aws.amazon.com/es/lambda/" }
+    ]
+  }
+}

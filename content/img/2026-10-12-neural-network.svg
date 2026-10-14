@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#b8b0a0" stroke-width="1.5">
+    <line x1="80" y1="70" x2="200" y2="50"/><line x1="80" y1="70" x2="200" y2="120"/><line x1="80" y1="70" x2="200" y2="190"/>
+    <line x1="80" y1="120" x2="200" y2="50"/><line x1="80" y1="120" x2="200" y2="120"/><line x1="80" y1="120" x2="200" y2="190"/>
+    <line x1="80" y1="170" x2="200" y2="50"/><line x1="80" y1="170" x2="200" y2="120"/><line x1="80" y1="170" x2="200" y2="190"/>
+    <line x1="200" y1="50" x2="320" y2="120"/><line x1="200" y1="120" x2="320" y2="120"/><line x1="200" y1="190" x2="320" y2="120"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="80" cy="70" r="16" fill="#9ac7ea"/><circle cx="80" cy="120" r="16" fill="#9ac7ea"/><circle cx="80" cy="170" r="16" fill="#9ac7ea"/>
+    <circle cx="200" cy="50" r="16" fill="#ffd166"/><circle cx="200" cy="120" r="16" fill="#ffd166"/><circle cx="200" cy="190" r="16" fill="#ffd166"/>
+    <circle cx="320" cy="120" r="18" fill="#9bd1b9"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#6b6357" text-anchor="middle">
+    <text x="80" y="212">input</text><text x="200" y="226">hidden layer</text><text x="320" y="160">"cat"</text>
+  </g>
+</svg>

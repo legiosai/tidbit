@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-ai-agent",
+  "date": "2026-10-14",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["agents", "agent", "AI agents"],
+    "es": ["agentes", "agente", "agentes de IA"]
+  },
+  "image": "img/2026-10-14-ai-agent.svg",
+  "imageAlt": {
+    "en": "A loop with three steps, think, act and observe, where the act step reaches out to tools: web, files, code",
+    "es": "Un ciclo de tres pasos, pensar, actuar y observar, donde el paso de actuar usa herramientas: web, archivos, código"
+  },
+  "en": {
+    "title": "AI agent",
+    "tagline": "An LLM that can take actions, check the results and keep going until the job is done.",
+    "explanation": [
+      "An **AI agent** is an LLM wrapped in a loop with tools. A plain chatbot answers once and stops. An agent receives a goal, decides what to do, uses a tool (search the web, read a file, run code, call an API, send an email), looks at the result, and decides the next step. It repeats until the goal is met or it gets stuck.",
+      "The tools are what make it an agent. Each tool is a function the developer exposes with a description; the model chooses when to call it and with what arguments. A coding agent like Claude Code, for example, can read your project, edit files, run the tests, see them fail and fix the code, without a person typing each command.",
+      "This is powerful and also where the risks live. An agent that can act can also act wrongly: delete the wrong file, buy the wrong ticket, loop forever. That is why serious agents ask for confirmation before irreversible steps, run in sandboxes with limited permissions, and keep a log of what they did.",
+      "Why it matters now: in 2023 the question was 'what can the model say?'; by 2026 it is 'what can the model do?'. Agents are how AI moves from answering questions to completing tasks, which is where most of the economic value, and most of the open problems, are."
+    ],
+    "analogy": "A chatbot is a consultant who writes you a memo. An agent is an assistant with your calendar, your inbox and a company card, who gets the trip booked and tells you when it is done.",
+    "keyPoints": [
+      "Agent = model + tools + a loop: think, act, observe, repeat.",
+      "Tools are ordinary functions or APIs the model can choose to call.",
+      "Agents act on the world, so permissions, confirmations and logs matter.",
+      "Open standards like MCP (Model Context Protocol) let agents connect to tools and data in a uniform way."
+    ],
+    "links": [
+      { "label": "Anthropic: building effective agents", "url": "https://www.anthropic.com/research/building-effective-agents" },
+      { "label": "Intelligent agent on Wikipedia", "url": "https://en.wikipedia.org/wiki/Intelligent_agent" }
+    ]
+  },
+  "es": {
+    "title": "Agente de IA",
+    "tagline": "Un LLM que puede actuar, mirar el resultado y seguir hasta terminar la tarea.",
+    "explanation": [
+      "Un **agente de IA** es un LLM metido en un ciclo con herramientas. Un chatbot común responde una vez y para. Un agente recibe un objetivo, decide qué hacer, usa una herramienta (buscar en la web, leer un archivo, correr código, llamar a una API, mandar un mail), mira el resultado y decide el próximo paso. Repite hasta cumplir el objetivo o quedarse trabado.",
+      "Las herramientas son lo que lo convierte en agente. Cada herramienta es una función que el desarrollador expone con una descripción; el modelo elige cuándo llamarla y con qué argumentos. Un agente de programación como Claude Code, por ejemplo, puede leer tu proyecto, editar archivos, correr los tests, verlos fallar y arreglar el código, sin que una persona tipee cada comando.",
+      "Eso es potente y también es donde viven los riesgos. Un agente que puede actuar también puede actuar mal: borrar el archivo equivocado, comprar el pasaje equivocado, quedarse en un bucle infinito. Por eso los agentes serios piden confirmación antes de pasos irreversibles, corren en entornos aislados con permisos limitados y guardan un registro de lo que hicieron.",
+      "Por qué importa ahora: en 2023 la pregunta era '¿qué puede decir el modelo?'; en 2026 es '¿qué puede hacer?'. Los agentes son la forma en que la IA pasa de responder preguntas a completar tareas, que es donde está la mayor parte del valor económico, y de los problemas abiertos."
+    ],
+    "analogy": "Un chatbot es un consultor que te escribe un informe. Un agente es un asistente con tu agenda, tu casilla de mail y la tarjeta de la empresa, que te reserva el viaje y te avisa cuando está listo.",
+    "keyPoints": [
+      "Agente = modelo + herramientas + un ciclo: pensar, actuar, observar, repetir.",
+      "Las herramientas son funciones o APIs comunes que el modelo puede elegir llamar.",
+      "Los agentes actúan sobre el mundo, así que importan los permisos, las confirmaciones y los registros.",
+      "Estándares abiertos como MCP (Model Context Protocol) permiten conectar agentes a herramientas y datos de forma uniforme."
+    ],
+    "links": [
+      { "label": "Anthropic: cómo construir agentes efectivos (en inglés)", "url": "https://www.anthropic.com/research/building-effective-agents" },
+      { "label": "Agente inteligente en Wikipedia", "url": "https://es.wikipedia.org/wiki/Agente_inteligente" }
+    ]
+  }
+}

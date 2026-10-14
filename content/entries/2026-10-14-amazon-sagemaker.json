@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-amazon-sagemaker",
+  "date": "2026-10-14",
+  "subjects": ["aws", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["SageMaker", "SageMaker AI"],
+    "es": ["SageMaker", "SageMaker AI"]
+  },
+  "image": "img/2026-10-14-amazon-sagemaker.svg",
+  "imageAlt": {
+    "en": "A pipeline from data in S3 to a training job on GPUs, a saved model, and an endpoint that an app calls",
+    "es": "Un recorrido desde datos en S3 hasta un entrenamiento en GPUs, un modelo guardado, y un endpoint al que llama una app"
+  },
+  "en": {
+    "title": "Amazon SageMaker",
+    "tagline": "The AWS workshop for building, training and serving machine learning models.",
+    "explanation": [
+      "**Amazon SageMaker** is the AWS platform for the whole machine learning lifecycle: preparing data, writing and running notebooks, training a model on GPU machines, and deploying it as an endpoint your app can call. Each step is a managed piece. You say 'train this script on four GPU instances', SageMaker launches them, runs the job, saves the model to Amazon S3 and shuts the machines down.",
+      "The difference with Amazon Bedrock is who makes the model. Bedrock gives you ready-made foundation models (Claude, Llama, Amazon's own) through an API. SageMaker is for when you train or fine-tune your own, whether a small fraud detector on tabular data or a custom vision model. SageMaker JumpStart sits in between: a catalog of open models you can deploy or fine-tune in a few clicks.",
+      "Example: a retailer wants to predict which customers will stop buying. A data scientist explores the data in a SageMaker notebook, launches a training job with XGBoost on past purchases, compares a few experiments, and deploys the best model to a real-time endpoint. Each night a batch job scores every customer and writes the result to a table that marketing reads.",
+      "SageMaker has grown into a large family (Studio, Pipelines, Feature Store, Model Monitor, Ground Truth for labeling). Nobody uses all of it; most teams start with notebooks, training jobs and endpoints."
+    ],
+    "analogy": "A fully equipped professional kitchen rented by the hour. The ovens (GPUs), the prep stations and the pass are already there; you bring the recipe and the ingredients (your data), and you stop paying when the dish is out.",
+    "keyPoints": [
+      "Covers data prep, notebooks, training, deployment and monitoring in one managed service.",
+      "Training jobs spin up GPU instances only while they run; endpoints serve predictions over HTTPS.",
+      "Bedrock is for using existing foundation models; SageMaker is for training or fine-tuning your own.",
+      "JumpStart offers open models ready to deploy or fine-tune."
+    ],
+    "links": [
+      { "label": "What is Amazon SageMaker? (official docs)", "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html" },
+      { "label": "Amazon SageMaker product page", "url": "https://aws.amazon.com/sagemaker/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon SageMaker",
+    "tagline": "El taller de AWS para armar, entrenar y servir modelos de machine learning.",
+    "explanation": [
+      "**Amazon SageMaker** es la plataforma de AWS para todo el ciclo de vida del machine learning: preparar datos, escribir y correr notebooks, entrenar un modelo en máquinas con GPU, y desplegarlo como un endpoint al que tu app puede llamar. Cada paso es una pieza administrada. Decís 'entrená este script en cuatro instancias con GPU', SageMaker las levanta, corre el trabajo, guarda el modelo en Amazon S3 y apaga las máquinas.",
+      "La diferencia con Amazon Bedrock es quién hace el modelo. Bedrock te da modelos fundacionales ya listos (Claude, Llama, los propios de Amazon) a través de una API. SageMaker es para cuando entrenás o ajustás el tuyo, sea un detector de fraude chico sobre datos tabulares o un modelo de visión a medida. SageMaker JumpStart queda en el medio: un catálogo de modelos abiertos que podés desplegar o ajustar en pocos clicks.",
+      "Ejemplo: un retailer quiere predecir qué clientes van a dejar de comprar. Una científica de datos explora los datos en un notebook de SageMaker, lanza un entrenamiento con XGBoost sobre las compras pasadas, compara algunos experimentos y despliega el mejor modelo a un endpoint en tiempo real. Cada noche un trabajo por lotes puntúa a todos los clientes y escribe el resultado en una tabla que lee marketing.",
+      "SageMaker creció hasta ser una familia grande (Studio, Pipelines, Feature Store, Model Monitor, Ground Truth para etiquetar). Nadie usa todo; la mayoría de los equipos arranca con notebooks, entrenamientos y endpoints."
+    ],
+    "analogy": "Una cocina profesional totalmente equipada que alquilás por hora. Los hornos (GPUs), las mesadas y la ventana de despacho ya están; vos traés la receta y los ingredientes (tus datos), y dejás de pagar cuando el plato salió.",
+    "keyPoints": [
+      "Cubre preparación de datos, notebooks, entrenamiento, despliegue y monitoreo en un solo servicio administrado.",
+      "Los entrenamientos levantan instancias con GPU solo mientras corren; los endpoints sirven predicciones por HTTPS.",
+      "Bedrock es para usar modelos fundacionales existentes; SageMaker es para entrenar o ajustar los tuyos.",
+      "JumpStart ofrece modelos abiertos listos para desplegar o ajustar."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon SageMaker? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/sagemaker/latest/dg/whatis.html" },
+      { "label": "Página de Amazon SageMaker", "url": "https://aws.amazon.com/es/sagemaker/" }
+    ]
+  }
+}

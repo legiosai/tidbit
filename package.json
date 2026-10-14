@@ -1,0 +1,17 @@
+{
+  "name": "tidbit",
+  "private": true,
+  "description": "One technology concept a day, explained simply, in English and Spanish.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "npx -y serve -l 3000 .",
+    "index": "node scripts/build-index.mjs",
+    "generate": "node scripts/generate.mjs",
+    "build": "rm -rf dist && mkdir -p dist && cp -R index.html app.js style.css content dist/"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "zod": "^4.1.0"
+  }
+}

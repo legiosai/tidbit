@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-cpu",
+  "date": "2026-10-14",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["CPUs", "processor"],
+    "es": ["CPUs", "procesador"]
+  },
+  "image": "img/2026-10-14-cpu.svg",
+  "imageAlt": {
+    "en": "A chip with four cores inside, a stream of instructions entering from the left and a clock ticking above",
+    "es": "Un chip con cuatro núcleos adentro, una fila de instrucciones que entra por la izquierda y un reloj arriba"
+  },
+  "en": {
+    "title": "CPU",
+    "tagline": "The chip that runs your programs, one instruction after another, very fast.",
+    "explanation": [
+      "The **CPU** (Central Processing Unit) is the chip that executes programs. Everything a computer does, from opening a file to running a browser, is a stream of tiny instructions (add these two numbers, copy this to memory, jump to that line), and the CPU runs through them billions of times per second. It is the general-purpose brain: not specialized in anything, able to do everything.",
+      "A modern CPU has several **cores**, each one an independent processor, so it can run several programs (or several parts of one) at once; a laptop has around 8, a server 64 or more. Its speed is quoted in gigahertz (clock ticks per second), but the design of each core matters as much as the clock. Intel and AMD make most PC and server CPUs; Apple designs its own (the M series) on the ARM architecture, as do phone makers.",
+      "The CPU is good at varied, branching work with lots of decisions, which is most software. It is bad at doing the same simple calculation on millions of numbers at once, which is why graphics and AI moved to the GPU. Even then the CPU is still there, running the operating system and feeding the GPU its work.",
+      "When a computer feels slow today, the CPU is rarely the reason; more often it is waiting on RAM, the SSD or the network. But the CPU still decides how fast a single task finishes, and its power use decides how long a laptop battery lasts."
+    ],
+    "analogy": "A chef who can cook any recipe, one step at a time, very fast. More cores means more chefs in the kitchen; a GPU is a separate room with a thousand helpers who only chop.",
+    "keyPoints": [
+      "Runs all general-purpose software, instruction by instruction.",
+      "Cores work in parallel; clock speed (GHz) is how fast each core ticks.",
+      "Two instruction families dominate: x86 (Intel, AMD) and ARM (Apple, phones, more and more servers).",
+      "Great at varied logic, weak at massive repeated math; that is the GPU's job."
+    ],
+    "links": [
+      { "label": "Central processing unit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Central_processing_unit" },
+      { "label": "Multi-core processor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multi-core_processor" }
+    ]
+  },
+  "es": {
+    "title": "CPU",
+    "tagline": "El chip que ejecuta tus programas, una instrucción tras otra, muy rápido.",
+    "explanation": [
+      "La **CPU** (Central Processing Unit, unidad central de procesamiento) es el chip que ejecuta los programas. Todo lo que hace una computadora, desde abrir un archivo hasta correr un navegador, es una fila de instrucciones chiquitas (sumá estos dos números, copiá esto a memoria, saltá a aquella línea), y la CPU las recorre miles de millones de veces por segundo. Es el cerebro de uso general: no está especializada en nada y puede hacer de todo.",
+      "Una CPU moderna tiene varios **núcleos**, cada uno un procesador independiente, así que puede correr varios programas (o varias partes de uno) a la vez; una laptop tiene unos 8, un servidor 64 o más. Su velocidad se expresa en gigahertz (ciclos de reloj por segundo), pero el diseño de cada núcleo importa tanto como el reloj. Intel y AMD hacen la mayoría de las CPUs de PCs y servidores; Apple diseña las suyas (la serie M) sobre la arquitectura ARM, igual que los fabricantes de celulares.",
+      "La CPU es buena para trabajo variado, con muchas decisiones y bifurcaciones, que es casi todo el software. Es mala para hacer el mismo cálculo simple sobre millones de números a la vez, y por eso los gráficos y la IA se mudaron a la GPU. Aun así la CPU sigue ahí, corriendo el sistema operativo y alcanzándole el trabajo a la GPU.",
+      "Cuando una computadora se siente lenta hoy, rara vez la culpa es de la CPU; casi siempre está esperando a la RAM, al SSD o a la red. Pero la CPU sigue decidiendo qué tan rápido termina una tarea sola, y su consumo decide cuánto dura la batería de una laptop."
+    ],
+    "analogy": "Un chef que puede cocinar cualquier receta, paso por paso, muy rápido. Más núcleos son más chefs en la cocina; una GPU es otra sala con mil ayudantes que solo pican.",
+    "keyPoints": [
+      "Ejecuta todo el software de uso general, instrucción por instrucción.",
+      "Los núcleos trabajan en paralelo; la velocidad de reloj (GHz) es qué tan rápido late cada núcleo.",
+      "Dominan dos familias de instrucciones: x86 (Intel, AMD) y ARM (Apple, celulares, cada vez más servidores).",
+      "Excelente para lógica variada, floja para matemática masiva repetida; eso es trabajo de la GPU."
+    ],
+    "links": [
+      { "label": "Unidad central de procesamiento en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento" },
+      { "label": "Procesador multinúcleo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Procesador_multin%C3%BAcleo" }
+    ]
+  }
+}

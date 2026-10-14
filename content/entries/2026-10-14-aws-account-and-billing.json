@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-aws-account-and-billing",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["AWS account", "AWS accounts", "AWS bill", "AWS billing", "Free Tier"],
+    "es": ["cuenta de AWS", "cuentas de AWS", "factura de AWS", "facturación de AWS", "capa gratuita", "Free Tier"]
+  },
+  "image": "img/2026-10-14-aws-account-and-billing.svg",
+  "imageAlt": {
+    "en": "An account card with metered services inside and a monthly invoice next to it",
+    "es": "Una tarjeta de cuenta con servicios medidos adentro y una factura mensual al lado"
+  },
+  "en": {
+    "title": "AWS account and billing",
+    "tagline": "What an AWS account is, how you get charged, and how to avoid a surprise bill.",
+    "explanation": [
+      "An **AWS account** is the container for everything you create in AWS: it has a twelve-digit id, an email, a **root user** that can do anything, and one monthly bill. Companies usually have many accounts (one per team or per environment, like test and production) grouped under AWS Organizations, so a mistake in one does not touch the others and each one's cost is visible on its own.",
+      "Billing is **pay as you go**: no upfront payment, no contract. Each service is metered in its own unit: Amazon EC2 by the second an instance runs, Amazon S3 by gigabyte stored and gigabyte sent out, AWS Lambda by request and millisecond. At the end of the month everything is added up and charged to your card. Prices vary by Region, and sending data out of AWS to the internet is the line people most often forget to budget.",
+      "New accounts get a **Free Tier**: a starter allowance to try many services at no cost, within limits, plus small always-free quotas on services like Lambda and Amazon DynamoDB (the exact rules change, so check the current ones). The important habit: set a **budget** with an email alert on day one, because a forgotten instance or a public bucket serving a viral file keeps metering while you sleep. For steady workloads, Savings Plans and Reserved Instances cut the price in exchange for a one- or three-year commitment."
+    ],
+    "analogy": "A utility bill, electricity rather than rent. Nobody asks for a deposit, every outlet has its own meter, and the bill at the end of the month depends on what you left switched on.",
+    "keyPoints": [
+      "One account means one bill, one root user and one set of resources.",
+      "Everything is metered: seconds, gigabytes, requests. Nothing is flat-rate.",
+      "Set a budget alert the day you open the account.",
+      "Steady workloads get discounts through Savings Plans or Reserved Instances."
+    ],
+    "links": [
+      { "label": "What is AWS Billing? (official docs)", "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html" },
+      { "label": "AWS Free Tier", "url": "https://aws.amazon.com/free/" },
+      { "label": "AWS pricing", "url": "https://aws.amazon.com/pricing/" }
+    ]
+  },
+  "es": {
+    "title": "Cuenta y facturación de AWS",
+    "tagline": "Qué es una cuenta de AWS, cómo te cobran, y cómo evitar una factura sorpresa.",
+    "explanation": [
+      "Una **cuenta de AWS** es el contenedor de todo lo que creás en AWS: tiene un id de doce dígitos, un mail, un **usuario root** que puede hacer cualquier cosa, y una factura mensual. Las empresas suelen tener muchas cuentas (una por equipo o por entorno, como pruebas y producción) agrupadas bajo AWS Organizations, para que un error en una no toque a las otras y el costo de cada una se vea por separado.",
+      "La facturación es **pagar por uso**: sin adelanto, sin contrato. Cada servicio se mide en su propia unidad: Amazon EC2 por segundo que corre una instancia, Amazon S3 por gigabyte guardado y gigabyte enviado afuera, AWS Lambda por pedido y por milisegundo. A fin de mes se suma todo y se cobra a tu tarjeta. Los precios cambian según la Región, y mandar datos desde AWS hacia internet es el renglón que más seguido se olvida presupuestar.",
+      "Las cuentas nuevas tienen una **capa gratuita** (Free Tier): un cupo inicial para probar muchos servicios sin costo, con límites, más cuotas chicas siempre gratis en servicios como Lambda y Amazon DynamoDB (las reglas exactas cambian, así que mirá las vigentes). El hábito importante: armá un **presupuesto** con alerta por mail el primer día, porque una instancia olvidada o un bucket público sirviendo un archivo viral sigue contando mientras dormís. Para cargas estables, los Savings Plans y las Reserved Instances bajan el precio a cambio de un compromiso de uno o tres años."
+    ],
+    "analogy": "Una boleta de servicios, más la luz que el alquiler. Nadie te pide depósito, cada enchufe tiene su propio medidor, y la factura de fin de mes depende de lo que dejaste prendido.",
+    "keyPoints": [
+      "Una cuenta es una factura, un usuario root y un conjunto de recursos.",
+      "Todo se mide: segundos, gigabytes, pedidos. Nada es tarifa plana.",
+      "Armá una alerta de presupuesto el mismo día que abrís la cuenta.",
+      "Las cargas estables tienen descuento con Savings Plans o Reserved Instances."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Billing? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/awsaccountbilling/latest/aboutv2/billing-what-is.html" },
+      { "label": "Capa gratuita de AWS", "url": "https://aws.amazon.com/es/free/" },
+      { "label": "Precios de AWS", "url": "https://aws.amazon.com/es/pricing/" }
+    ]
+  }
+}

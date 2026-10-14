@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-amazon-sqs",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["SQS", "Simple Queue Service", "SQS queue", "SQS queues"],
+    "es": ["SQS", "Simple Queue Service", "cola SQS", "colas SQS"]
+  },
+  "image": "img/2026-10-14-amazon-sqs.svg",
+  "imageAlt": {
+    "en": "A producer dropping messages into a queue and a consumer picking them up one at a time",
+    "es": "Un productor dejando mensajes en una cola y un consumidor tomándolos de a uno"
+  },
+  "en": {
+    "title": "Amazon SQS",
+    "tagline": "A waiting line for messages between programs, so none of them gets lost.",
+    "explanation": [
+      "**Amazon SQS** (Simple Queue Service) is a managed message queue. One program (the producer) drops messages into the queue; another (the consumer) picks them up when it is ready. The two never talk directly and do not even need to be running at the same time.",
+      "It solves a common problem: one part of a system is faster than another. An online shop takes 5,000 orders in a minute during a sale, but the service that prints shipping labels handles 50 per minute. With a queue in the middle, orders wait in line instead of failing, and the label printer works through them at its own pace.",
+      "SQS keeps each message until a consumer deletes it. If the consumer crashes halfway, the message becomes visible again after a timeout and another consumer retries it. Messages that fail too many times are moved to a **dead-letter queue** for a human to inspect. It pairs naturally with AWS Lambda: a function can be triggered for every batch of messages that arrives.",
+      "There are two kinds: standard queues (very high throughput, order mostly preserved, a message may rarely be delivered twice) and FIFO queues (strict order, no duplicates, lower throughput)."
+    ],
+    "analogy": "The number dispenser at a deli counter. Customers take a ticket and wait; the staff calls the next number when free. Nobody gets lost, even when the line is long.",
+    "keyPoints": [
+      "Producer and consumer are decoupled: neither needs to know about the other or be online at the same time.",
+      "A message stays in the queue until it is explicitly deleted, so a crashed consumer does not lose it.",
+      "Standard queues favor throughput; FIFO queues guarantee order and no duplicates.",
+      "Messages can wait in a queue for up to 14 days (4 by default)."
+    ],
+    "links": [
+      { "label": "What is Amazon SQS? (official docs)", "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html" },
+      { "label": "Amazon SQS product page", "url": "https://aws.amazon.com/sqs/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon SQS",
+    "tagline": "Una fila de espera para mensajes entre programas, para que ninguno se pierda.",
+    "explanation": [
+      "**Amazon SQS** (Simple Queue Service) es una cola de mensajes administrada. Un programa (el productor) deja mensajes en la cola; otro (el consumidor) los va tomando cuando está listo. Los dos nunca hablan directamente y ni siquiera necesitan estar corriendo al mismo tiempo.",
+      "Resuelve un problema muy común: una parte del sistema es más rápida que otra. Una tienda online recibe 5.000 pedidos por minuto en una liquidación, pero el servicio que imprime las etiquetas de envío procesa 50 por minuto. Con una cola en el medio, los pedidos esperan en fila en vez de fallar, y la impresora de etiquetas los va sacando a su ritmo.",
+      "SQS guarda cada mensaje hasta que un consumidor lo borra. Si el consumidor se cae a mitad de camino, el mensaje vuelve a hacerse visible después de un tiempo y otro consumidor lo reintenta. Los que fallan demasiadas veces van a una **dead-letter queue** para que una persona los revise. Se combina muy bien con AWS Lambda: una función se puede disparar por cada lote de mensajes que llega.",
+      "Hay dos tipos: colas estándar (muchísimo caudal, orden casi siempre respetado, un mensaje puede llegar dos veces muy de vez en cuando) y colas FIFO (orden estricto, sin duplicados, menos caudal)."
+    ],
+    "analogy": "El dispensador de números de una fiambrería. Cada cliente saca un ticket y espera; el empleado llama al siguiente cuando se desocupa. Nadie se pierde, aunque la fila sea larga.",
+    "keyPoints": [
+      "Productor y consumidor están desacoplados: ninguno necesita conocer al otro ni estar online al mismo tiempo.",
+      "Un mensaje queda en la cola hasta que alguien lo borra explícitamente, así que un consumidor caído no lo pierde.",
+      "Las colas estándar priorizan caudal; las FIFO garantizan orden y cero duplicados.",
+      "Un mensaje puede esperar en la cola hasta 14 días (4 por defecto)."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon SQS? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html" },
+      { "label": "Página de Amazon SQS", "url": "https://aws.amazon.com/es/sqs/" }
+    ]
+  }
+}

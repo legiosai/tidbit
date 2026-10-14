@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-14-bandwidth-and-latency",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": { "en": ["bandwidth", "latency"], "es": ["ancho de banda", "latencia"] },
+  "image": "img/2026-10-14-bandwidth-and-latency.svg",
+  "imageAlt": {
+    "en": "A wide pipe full of packets labeled bandwidth, and below it a long thin path with a stopwatch labeled latency",
+    "es": "Un caño ancho lleno de paquetes etiquetado ancho de banda, y debajo un camino largo y fino con un cronómetro etiquetado latencia"
+  },
+  "en": {
+    "title": "Bandwidth and latency",
+    "tagline": "How much data fits per second, and how long each trip takes. Two different things.",
+    "explanation": [
+      "**Bandwidth** is how much data a connection can move per second, measured in megabits per second (Mbps) or gigabits (Gbps). **Latency** is how long a single piece of data takes to go from you to the other end and back, measured in milliseconds (ms) and often called **ping**. A connection can have lots of one and little of the other, and they feel very different.",
+      "Downloading a movie or streaming in 4K needs bandwidth: the pipe has to be wide. A video call, an online game or just clicking around a site needs low latency: each action waits for a round trip, and 200 ms of lag is noticeable even on a gigabit line. Latency is mostly physics and distance: light in a fiber takes roughly 100 ms to cross the Atlantic and come back, and every router on the way adds a bit more. That is why a CDN puts copies of content near you.",
+      "When the internet feels slow, ask which one it is. A page that takes a moment to start loading but then arrives all at once is a latency problem (far server, satellite link, overloaded Wi-Fi). A video that keeps buffering is a bandwidth problem (too many devices, a small plan, a weak Wi-Fi link). Internet plans advertise bandwidth; they almost never mention latency."
+    ],
+    "analogy": "A highway. Bandwidth is the number of lanes: how many cars pass per minute. Latency is the length of the trip: even on a ten-lane highway, going to the next city takes an hour.",
+    "keyPoints": [
+      "Bandwidth: Mbps, how much per second. Latency: ms, how long each trip takes.",
+      "Streaming and downloads need bandwidth; calls, games and clicks need low latency.",
+      "Distance sets a floor on latency; nothing beats the speed of light, so CDNs move content closer.",
+      "More bandwidth does not fix lag."
+    ],
+    "links": [
+      { "label": "What is latency? (Cloudflare)", "url": "https://www.cloudflare.com/learning/performance/glossary/what-is-latency/" },
+      { "label": "What is bandwidth? (Cloudflare)", "url": "https://www.cloudflare.com/learning/network-layer/what-is-bandwidth/" },
+      { "label": "Latency (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Latency" }
+    ]
+  },
+  "es": {
+    "title": "Ancho de banda y latencia",
+    "tagline": "Cuántos datos entran por segundo, y cuánto tarda cada viaje. Dos cosas distintas.",
+    "explanation": [
+      "El **ancho de banda** es cuántos datos puede mover una conexión por segundo, medido en megabits por segundo (Mbps) o gigabits (Gbps). La **latencia** es cuánto tarda un dato en ir de vos al otro extremo y volver, medida en milisegundos (ms) y conocida como **ping**. Una conexión puede tener mucho de una cosa y poco de la otra, y se sienten muy distinto.",
+      "Bajar una película o ver algo en 4K necesita ancho de banda: el caño tiene que ser ancho. Una videollamada, un juego online o simplemente clickear por un sitio necesitan latencia baja: cada acción espera un viaje de ida y vuelta, y 200 ms de retraso se notan aunque tengas un giga. La latencia es sobre todo física y distancia: la luz en una fibra tarda aproximadamente 100 ms en cruzar el Atlántico y volver, y cada router del camino suma un poquito. Por eso una CDN pone copias del contenido cerca tuyo.",
+      "Cuando internet anda lento, preguntate cuál de las dos es. Una página que tarda en arrancar pero después llega toda junta es un problema de latencia (servidor lejano, enlace satelital, Wi-Fi saturado). Un video que se traba a cada rato es un problema de ancho de banda (muchos dispositivos, un plan chico, un Wi-Fi flojo). Los planes de internet publicitan ancho de banda; casi nunca mencionan latencia."
+    ],
+    "analogy": "Una autopista. El ancho de banda es la cantidad de carriles: cuántos autos pasan por minuto. La latencia es el largo del viaje: aunque tenga diez carriles, ir a la ciudad de al lado lleva una hora.",
+    "keyPoints": [
+      "Ancho de banda: Mbps, cuánto por segundo. Latencia: ms, cuánto tarda cada viaje.",
+      "Streaming y descargas necesitan ancho de banda; llamadas, juegos y clicks necesitan latencia baja.",
+      "La distancia pone un piso a la latencia; nada le gana a la velocidad de la luz, por eso las CDN acercan el contenido.",
+      "Más ancho de banda no arregla el lag."
+    ],
+    "links": [
+      { "label": "¿Qué es la latencia? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/performance/glossary/what-is-latency/" },
+      { "label": "¿Qué es el ancho de banda? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/network-layer/what-is-bandwidth/" },
+      { "label": "Latencia (glosario de MDN, en inglés)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Latency" }
+    ]
+  }
+}

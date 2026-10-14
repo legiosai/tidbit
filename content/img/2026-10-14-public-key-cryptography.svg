@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="60" width="100" height="120" rx="10" fill="#9ac7ea"/>
+    <rect x="170" y="78" width="60" height="8" rx="4" fill="#2b2b2b"/>
+    <rect x="165" y="110" width="70" height="56" rx="6" fill="#e6dfd0"/>
+    <circle cx="200" cy="138" r="5" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="96" width="60" height="40" rx="4" fill="#ffd166"/><path d="M40 96 l30 22 30 -22" fill="none"/>
+    <rect x="300" y="96" width="60" height="40" rx="4" fill="#ffd166"/><path d="M300 96 l30 22 30 -22" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M104 100 C130 90 150 84 168 82"/><path d="M160 78 l8 4 -7 5"/>
+    <path d="M296 100 C270 90 250 84 232 82"/><path d="M240 78 l-8 4 7 5"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="200" cy="208" r="11" fill="#f4a7a7"/><circle cx="200" cy="208" r="3" fill="#f3efe6"/>
+    <path d="M211 208 h26 M230 208 v6 M237 208 v6" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none"><path d="M200 196 V172"/><path d="M196 178 l4 -6 4 6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="70" y="156">anyone can</text><text x="70" y="170">drop a letter</text>
+    <text x="330" y="156">anyone can</text><text x="330" y="170">drop a letter</text>
+    <text x="268" y="228">private key: only the owner opens</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="44">public key = the slot</text>
+  </g>
+</svg>

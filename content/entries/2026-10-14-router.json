@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-14-router",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": { "en": ["routers"], "es": ["routers"] },
+  "image": "img/2026-10-14-router.svg",
+  "imageAlt": {
+    "en": "A phone, a laptop and a TV connected to a router with antennas, which connects to a cloud labeled internet",
+    "es": "Un celular, una notebook y una tele conectados a un router con antenas, que a su vez se conecta a una nube llamada internet"
+  },
+  "en": {
+    "title": "Router",
+    "tagline": "The box that connects your devices to each other and to the internet.",
+    "explanation": [
+      "A **router** is a device that passes data between networks. The one at home connects your local network (phones, laptop, TV) to your internet provider's network, and from there to the rest of the world. Big routers at providers and data centers do the same job between huge networks, millions of times per second.",
+      "Its core trick is choosing the next hop. Every packet carries a destination IP address; the router looks it up in its **routing table** and forwards the packet out the right door. No single router knows the whole path to a server across the ocean; each one only knows which neighbour is closer, and the packet gets there by a chain of such decisions.",
+      "The home router actually bundles several things in one box: a router, a Wi-Fi access point, a small switch for the Ethernet sockets, a DHCP server that hands out private IP addresses, NAT so all devices share one public address, and a basic firewall. That is why turning it off and on again fixes so much: you are restarting half a dozen services at once."
+    ],
+    "analogy": "A roundabout with signposts. Each car arriving reads the sign for its destination and takes the right exit; the roundabout does not need to know the whole trip, only the next road.",
+    "keyPoints": [
+      "A router forwards packets between networks using a routing table.",
+      "Each router only decides the next hop; the internet is a chain of those decisions.",
+      "Your home router also does Wi-Fi, NAT, DHCP and a basic firewall.",
+      "A modem talks to the provider's line; the router shares that connection. Often it is the same box."
+    ],
+    "links": [
+      { "label": "What is a router? (Cloudflare)", "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-router/" },
+      { "label": "Router (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Router_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Router",
+    "tagline": "La cajita que conecta tus dispositivos entre sí y con internet.",
+    "explanation": [
+      "Un **router** es un dispositivo que pasa datos entre redes. El de tu casa conecta tu red local (celulares, notebook, tele) con la red de tu proveedor de internet, y desde ahí con el resto del mundo. Los routers grandes de los proveedores y los data centers hacen el mismo trabajo entre redes enormes, millones de veces por segundo.",
+      "Su truco central es elegir el próximo salto. Cada paquete lleva una dirección IP de destino; el router la busca en su **tabla de ruteo** y manda el paquete por la puerta correcta. Ningún router conoce el camino completo hasta un servidor del otro lado del océano; cada uno sabe solamente qué vecino está más cerca, y el paquete llega por una cadena de esas decisiones.",
+      "El router de tu casa en realidad junta varias cosas en una caja: un router, un punto de acceso Wi-Fi, un pequeño switch para las bocas de cable, un servidor DHCP que reparte direcciones IP privadas, NAT para que todos compartan una sola IP pública y un firewall básico. Por eso apagarlo y prenderlo arregla tantas cosas: estás reiniciando media docena de servicios de una."
+    ],
+    "analogy": "Una rotonda con carteles. Cada auto que llega lee el cartel de su destino y toma la salida correcta; la rotonda no necesita conocer el viaje entero, solo la próxima ruta.",
+    "keyPoints": [
+      "Un router reenvía paquetes entre redes usando una tabla de ruteo.",
+      "Cada router decide solo el próximo salto; internet es una cadena de esas decisiones.",
+      "El router de tu casa también hace de Wi-Fi, NAT, DHCP y firewall básico.",
+      "El módem habla con la línea del proveedor; el router comparte esa conexión. Muchas veces es la misma caja."
+    ],
+    "links": [
+      { "label": "¿Qué es un router? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/network-layer/what-is-a-router/" },
+      { "label": "Router (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Router" }
+    ]
+  }
+}

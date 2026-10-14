@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-two-factor-authentication",
+  "date": "2026-10-14",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "2FA",
+      "MFA",
+      "two-factor",
+      "multi-factor authentication",
+      "second factor"
+    ],
+    "es": [
+      "2FA",
+      "MFA",
+      "doble factor",
+      "autenticación de múltiples factores",
+      "segundo factor"
+    ]
+  },
+  "image": "img/2026-10-14-two-factor-authentication.svg",
+  "imageAlt": {
+    "en": "Two gates before an account: a password field and a phone showing a six-digit code",
+    "es": "Dos puertas antes de una cuenta: un campo de contraseña y un teléfono que muestra un código de seis dígitos"
+  },
+  "en": {
+    "title": "Two-factor authentication",
+    "tagline": "A second proof that you are you, so a stolen password alone is not enough.",
+    "explanation": [
+      "**Two-factor authentication** (2FA, or MFA when there can be more than two) means logging in with two different kinds of proof: something you **know** (a password) plus something you **have** (your phone, a hardware key) or something you **are** (a fingerprint, your face). A password can be guessed, leaked or phished from across the world. Your phone cannot, at least not as easily.",
+      "In practice: you type your password, and the service asks for a six-digit code from an authenticator app, a tap on a notification, or a touch on a small USB key. Codes sent by SMS also count, but they are the weakest option, because attackers can take over a phone number by convincing the carrier to move it to a new SIM.",
+      "The strongest and most convenient option today is a **passkey** or hardware key: it only works on the real site, so a phishing page cannot ask you for it. For the rest, an authenticator app (Google Authenticator, Microsoft Authenticator, or the one inside your password manager) is a solid default.",
+      "Practical takeaway: turn it on for your email account first, because the email is what resets every other password. Then your bank, your main social network and your work accounts. Save the backup codes somewhere safe, so that losing your phone does not mean losing the account."
+    ],
+    "analogy": "A debit card at the ATM: you need the card (something you have) and the PIN (something you know). A thief who shoulder-surfed your PIN still cannot withdraw a peso without the card.",
+    "keyPoints": [
+      "Two different kinds of proof: know, have, are. A second password is not a second factor.",
+      "Authenticator apps and hardware keys beat SMS codes; SMS still beats nothing.",
+      "Passkeys and hardware keys resist phishing because they only answer the real site.",
+      "Enable it on your email first: it is the account that resets all the others."
+    ],
+    "links": [
+      {
+        "label": "What is two-factor authentication? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/access-management/what-is-two-factor-authentication/"
+      },
+      {
+        "label": "Multi-factor authentication on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication"
+      }
+    ]
+  },
+  "es": {
+    "title": "Autenticación de dos factores",
+    "tagline": "Una segunda prueba de que sos vos, para que una contraseña robada no alcance.",
+    "explanation": [
+      "La **autenticación de dos factores** (2FA, o MFA cuando pueden ser más de dos) significa iniciar sesión con dos tipos distintos de prueba: algo que **sabés** (una contraseña) más algo que **tenés** (tu teléfono, una llave física) o algo que **sos** (tu huella, tu cara). Una contraseña se puede adivinar, filtrar o robar con phishing desde la otra punta del mundo. Tu teléfono no, o al menos no tan fácil.",
+      "En la práctica: escribís la contraseña y el servicio te pide un código de seis dígitos de una app autenticadora, un toque en una notificación o apoyar el dedo en una llavecita USB. Los códigos por SMS también cuentan, pero son la opción más débil, porque un atacante puede quedarse con tu número convenciendo a la operadora de pasarlo a un chip nuevo.",
+      "La opción más fuerte y más cómoda hoy es una **passkey** o una llave física: solo funciona en el sitio real, así que una página de Phishing no puede pedírtela. Para el resto, una app autenticadora (Google Authenticator, Microsoft Authenticator o la que viene dentro de tu gestor de contraseñas) es un muy buen piso.",
+      "Para hacer hoy: activala primero en tu cuenta de correo, porque el correo es lo que restablece todas las demás contraseñas. Después el banco, tu red social principal y las cuentas del trabajo. Guardá los códigos de respaldo en un lugar seguro, para que perder el teléfono no signifique perder la cuenta."
+    ],
+    "analogy": "La tarjeta de débito en el cajero: necesitás la tarjeta (algo que tenés) y el PIN (algo que sabés). Alguien que te espió el PIN por encima del hombro igual no puede sacar un peso sin la tarjeta.",
+    "keyPoints": [
+      "Dos tipos distintos de prueba: saber, tener, ser. Una segunda contraseña no es un segundo factor.",
+      "Las apps autenticadoras y las llaves físicas le ganan al SMS; el SMS igual le gana a nada.",
+      "Las passkeys y las llaves físicas resisten el phishing porque solo responden al sitio real.",
+      "Activala primero en el correo: es la cuenta que restablece todas las demás."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es la autenticación de dos factores? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/access-management/what-is-two-factor-authentication/"
+      },
+      {
+        "label": "Autenticación de múltiples factores en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Autenticaci%C3%B3n_de_m%C3%BAltiples_factores"
+      }
+    ]
+  }
+}

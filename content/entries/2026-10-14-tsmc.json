@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-14-tsmc",
+  "date": "2026-10-14",
+  "subjects": ["companies", "hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["Taiwan Semiconductor"],
+    "es": ["Taiwan Semiconductor"]
+  },
+  "image": "img/2026-10-14-tsmc.svg",
+  "imageAlt": {
+    "en": "Chip designs from Apple, NVIDIA and AMD arriving at a silicon wafer labeled TSMC in Taiwan, with finished chips leaving on the right",
+    "es": "Diseños de chips de Apple, NVIDIA y AMD llegan a una oblea de silicio que dice TSMC en Taiwán, y los chips terminados salen por la derecha"
+  },
+  "en": {
+    "title": "TSMC",
+    "tagline": "The factory that makes the world's most advanced chips for everyone else.",
+    "explanation": [
+      "**TSMC** (Taiwan Semiconductor Manufacturing Company) manufactures chips for other companies and sells none under its own name. Apple designs the chip in your iPhone, NVIDIA designs the GPU in an AI data center, AMD designs its CPUs, and all of them send those designs to TSMC, which fabricates them in its factories (**fabs**) in Taiwan. A company that only manufactures is called a **foundry**, and TSMC invented the model in 1987 under its founder Morris Chang.",
+      "What makes it matter is that it is the best at it. Making a modern chip means printing billions of transistors a few nanometers wide onto silicon wafers, in a process with hundreds of steps and machines (from the Dutch company ASML) that cost hundreds of millions each. Only a handful of companies can do it at the leading edge (Samsung and Intel are the others), and TSMC has led for years: nearly every cutting-edge AI and smartphone chip is made there.",
+      "That concentration is a global risk. Most of the world's most advanced chips come from a few fabs on one island that China claims as its territory. Governments noticed: the United States, Japan and Germany have subsidized TSMC fabs on their own soil (Arizona, Kumamoto, Dresden), and 'chip sovereignty' became policy. Export controls on which chips may be sold to China run partly through what TSMC is allowed to make for whom.",
+      "Why you hear about it: when NVIDIA cannot ship enough GPUs, when Apple announces a new iPhone chip, or when a '2-nanometer' process is in the news, TSMC is the factory behind it. Its capacity, more than any single design, sets the ceiling on how much AI hardware exists in a given year."
+    ],
+    "analogy": "The world's finest printing press, owned by one company. Authors (Apple, NVIDIA, AMD) write the books; TSMC is the only press that can print them at that resolution, so everyone lines up at its door.",
+    "keyPoints": [
+      "A pure foundry: manufactures chips designed by others, never its own brand.",
+      "Makes the most advanced chips for Apple, NVIDIA, AMD, Qualcomm and many more.",
+      "Based in Taiwan, which makes it a geopolitical concern; new fabs in the US, Japan and Germany.",
+      "Its capacity is a bottleneck for the whole AI industry."
+    ],
+    "links": [
+      { "label": "tsmc.com", "url": "https://www.tsmc.com" },
+      { "label": "TSMC on Wikipedia", "url": "https://en.wikipedia.org/wiki/TSMC" },
+      { "label": "Semiconductor fabrication plant on Wikipedia", "url": "https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant" }
+    ]
+  },
+  "es": {
+    "title": "TSMC",
+    "tagline": "La fábrica que hace los chips más avanzados del mundo para todos los demás.",
+    "explanation": [
+      "**TSMC** (Taiwan Semiconductor Manufacturing Company) fabrica chips para otras empresas y no vende ninguno con su propio nombre. Apple diseña el chip de tu iPhone, NVIDIA diseña la GPU de un data center de IA, AMD diseña sus CPUs, y todas mandan esos diseños a TSMC, que los fabrica en sus plantas (**fabs**) en Taiwán. A una empresa que solo fabrica se la llama **foundry**, y TSMC inventó ese modelo en 1987 con su fundador Morris Chang.",
+      "Lo que la hace importante es que es la mejor en eso. Hacer un chip moderno significa imprimir miles de millones de transistores de pocos nanómetros sobre obleas de silicio, en un proceso de cientos de pasos y con máquinas (de la empresa holandesa ASML) que cuestan cientos de millones cada una. Solo un puñado de empresas puede hacerlo en la frontera (Samsung e Intel son las otras), y TSMC lidera hace años: casi todos los chips de punta de IA y de celulares se hacen ahí.",
+      "Esa concentración es un riesgo global. La mayoría de los chips más avanzados del mundo sale de unas pocas fábricas en una isla que China reclama como territorio propio. Los gobiernos lo notaron: Estados Unidos, Japón y Alemania subsidiaron fábricas de TSMC en su propio suelo (Arizona, Kumamoto, Dresde), y la 'soberanía de chips' se volvió política de Estado. Los controles a la exportación sobre qué chips se le pueden vender a China pasan en parte por qué puede fabricar TSMC y para quién.",
+      "Por qué la escuchás nombrar: cuando NVIDIA no logra despachar suficientes GPUs, cuando Apple anuncia un chip nuevo para el iPhone o cuando un proceso 'de 2 nanómetros' sale en las noticias, TSMC es la fábrica que está atrás. Su capacidad, más que cualquier diseño, pone el techo a cuánto hardware de IA existe en un año dado."
+    ],
+    "analogy": "La imprenta más fina del mundo, en manos de una sola empresa. Los autores (Apple, NVIDIA, AMD) escriben los libros; TSMC es la única imprenta que puede imprimirlos con esa resolución, así que todos hacen fila en su puerta.",
+    "keyPoints": [
+      "Foundry pura: fabrica chips diseñados por otros, nunca de marca propia.",
+      "Hace los chips más avanzados para Apple, NVIDIA, AMD, Qualcomm y muchas más.",
+      "Tiene sede en Taiwán, lo que la vuelve un tema geopolítico; fábricas nuevas en EE. UU., Japón y Alemania.",
+      "Su capacidad es un cuello de botella para toda la industria de la IA."
+    ],
+    "links": [
+      { "label": "tsmc.com (en inglés)", "url": "https://www.tsmc.com" },
+      { "label": "TSMC en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/TSMC" },
+      { "label": "Planta de fabricación de semiconductores en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant" }
+    ]
+  }
+}

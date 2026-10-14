@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-amazon-sns",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["SNS", "Simple Notification Service", "SNS topic", "SNS topics"],
+    "es": ["SNS", "Simple Notification Service", "tema SNS", "temas SNS"]
+  },
+  "image": "img/2026-10-14-amazon-sns.svg",
+  "imageAlt": {
+    "en": "One message entering a topic and copies fanning out to a function, a queue, an email and a phone",
+    "es": "Un mensaje entrando a un topic y copias saliendo hacia una función, una cola, un email y un celular"
+  },
+  "en": {
+    "title": "Amazon SNS",
+    "tagline": "One message in, many copies out: a megaphone for systems.",
+    "explanation": [
+      "**Amazon SNS** (Simple Notification Service) is a publish/subscribe service. You create a **topic**, several subscribers sign up to it, and every message published to the topic is delivered to all of them at once. A subscriber can be an AWS Lambda function, an Amazon SQS queue, an HTTPS endpoint, an email address or a phone number (SMS).",
+      "The difference with a queue: Amazon SQS hands each message to one consumer; a topic copies each message to every subscriber. The two are often combined: SNS fans an event out to several SQS queues, each owned by a different team, and each team processes it at its own pace.",
+      "Example: when an order is paid, the shop publishes 'order 4521 paid' to a topic. The warehouse queue receives it, the invoicing function receives it, the analytics pipeline receives it, and the customer gets an SMS. The checkout code published once and has no idea who is listening.",
+      "SNS is also how Amazon CloudWatch alarms reach people: the alarm publishes to a topic, and the topic emails or texts whoever is on call."
+    ],
+    "analogy": "A WhatsApp broadcast list. You write the message once; every contact on the list gets their own copy and does whatever they want with it.",
+    "keyPoints": [
+      "Publish once, deliver to every subscriber at the same time (fan-out).",
+      "Subscribers can be code (Lambda, SQS, HTTPS) or people (email, SMS, push notifications).",
+      "SNS does not keep messages for later: if nobody is subscribed when you publish, the message is gone.",
+      "Filters let each subscriber receive only the messages it cares about."
+    ],
+    "links": [
+      { "label": "What is Amazon SNS? (official docs)", "url": "https://docs.aws.amazon.com/sns/latest/dg/welcome.html" },
+      { "label": "Amazon SNS product page", "url": "https://aws.amazon.com/sns/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon SNS",
+    "tagline": "Entra un mensaje, salen muchas copias: un megáfono para sistemas.",
+    "explanation": [
+      "**Amazon SNS** (Simple Notification Service) es un servicio de publicación y suscripción. Creás un **topic**, varios suscriptores se anotan, y cada mensaje que se publica en el topic les llega a todos a la vez. Un suscriptor puede ser una función AWS Lambda, una cola de Amazon SQS, un endpoint HTTPS, una dirección de email o un número de teléfono (SMS).",
+      "La diferencia con una cola: Amazon SQS le entrega cada mensaje a un solo consumidor; un topic le copia cada mensaje a todos los suscriptores. Se suelen combinar: SNS reparte un evento a varias colas SQS, cada una de un equipo distinto, y cada equipo lo procesa a su ritmo.",
+      "Ejemplo: cuando se paga un pedido, la tienda publica 'pedido 4521 pagado' en un topic. Lo recibe la cola del depósito, la función que factura, el pipeline de analítica, y el cliente recibe un SMS. El código del checkout publicó una sola vez y no tiene idea de quién escucha.",
+      "SNS es también la forma en que las alarmas de Amazon CloudWatch llegan a las personas: la alarma publica en un topic, y el topic le manda un email o un mensaje a quien esté de guardia."
+    ],
+    "analogy": "Una lista de difusión de WhatsApp. Escribís el mensaje una vez; cada contacto de la lista recibe su propia copia y hace con ella lo que quiera.",
+    "keyPoints": [
+      "Publicás una vez y les llega a todos los suscriptores al mismo tiempo (fan-out).",
+      "Los suscriptores pueden ser código (Lambda, SQS, HTTPS) o personas (email, SMS, notificaciones push).",
+      "SNS no guarda mensajes para después: si nadie está suscripto cuando publicás, el mensaje se pierde.",
+      "Con filtros, cada suscriptor recibe solo los mensajes que le interesan."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon SNS? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/sns/latest/dg/welcome.html" },
+      { "label": "Página de Amazon SNS", "url": "https://aws.amazon.com/es/sns/" }
+    ]
+  }
+}

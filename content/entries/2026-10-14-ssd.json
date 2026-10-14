@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-ssd",
+  "date": "2026-10-14",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["SSDs", "solid-state drive"],
+    "es": ["SSDs", "disco de estado sólido"]
+  },
+  "image": "img/2026-10-14-ssd.svg",
+  "imageAlt": {
+    "en": "A spinning hard disk with a moving arm on the left, a flat board of flash chips on the right, with their access times",
+    "es": "Un disco rígido giratorio con brazo móvil a la izquierda, una placa plana de chips flash a la derecha, con sus tiempos de acceso"
+  },
+  "en": {
+    "title": "SSD",
+    "tagline": "Storage with no moving parts: where your files live when the power is off.",
+    "explanation": [
+      "An **SSD** (Solid-State Drive) is the storage in almost every modern laptop, phone and server: the place where files, programs and the operating system stay saved when the power is off. It stores data in flash memory chips, the same technology as a USB stick, and it has no moving parts. The older alternative, the **hard disk drive** (HDD), spins magnetic platters and reads them with a moving arm.",
+      "The difference you feel is speed. An SSD finds any file in a fraction of a millisecond; a hard disk has to physically move its arm, which takes several milliseconds. That is why a computer with an SSD boots in seconds and opens apps instantly, and why replacing an old laptop's hard disk with an SSD was for years the single best upgrade. SSDs are also silent, lighter and survive drops.",
+      "Hard disks have not disappeared: per gigabyte they are still much cheaper, so data centers use them for backups and the bulk of cloud storage like Amazon S3, with SSDs in front for the hot, frequently accessed part. Flash cells also wear out after many writes, though modern drives manage this well enough that a normal user never notices.",
+      "SSD versus RAM, since people confuse them: RAM is the fast working memory that empties when you shut down; the SSD is the persistent storage that keeps your files. More RAM makes multitasking smoother; a bigger SSD lets you keep more files."
+    ],
+    "analogy": "A hard disk is a record player: the needle has to travel to the right groove. An SSD is a book with tabs: you open straight to any page, with nothing to move.",
+    "keyPoints": [
+      "Persistent storage made of flash chips; no moving parts, very fast access.",
+      "Replaced hard disks in laptops and phones; hard disks remain for cheap bulk storage.",
+      "Connects through SATA (older, slower) or NVMe over PCIe (newer, much faster).",
+      "Not the same as RAM: the SSD keeps data when powered off, RAM does not."
+    ],
+    "links": [
+      { "label": "Solid-state drive on Wikipedia", "url": "https://en.wikipedia.org/wiki/Solid-state_drive" },
+      { "label": "Flash memory on Wikipedia", "url": "https://en.wikipedia.org/wiki/Flash_memory" }
+    ]
+  },
+  "es": {
+    "title": "SSD",
+    "tagline": "Almacenamiento sin partes móviles: donde viven tus archivos cuando está apagado.",
+    "explanation": [
+      "Un **SSD** (Solid-State Drive, unidad de estado sólido) es el almacenamiento de casi toda laptop, celular y servidor moderno: el lugar donde los archivos, los programas y el sistema operativo quedan guardados cuando se apaga la energía. Guarda los datos en chips de memoria flash, la misma tecnología que un pendrive, y no tiene partes móviles. La alternativa vieja, el **disco rígido** (HDD), hace girar platos magnéticos y los lee con un brazo que se mueve.",
+      "La diferencia que sentís es la velocidad. Un SSD encuentra cualquier archivo en una fracción de milisegundo; un disco rígido tiene que mover físicamente el brazo, y eso lleva varios milisegundos. Por eso una computadora con SSD arranca en segundos y abre las aplicaciones al instante, y por eso cambiarle el disco rígido a una laptop vieja por un SSD fue durante años la mejor mejora posible. Los SSD además son silenciosos, más livianos y aguantan golpes.",
+      "Los discos rígidos no desaparecieron: por gigabyte siguen siendo mucho más baratos, así que los data centers los usan para backups y para el grueso del almacenamiento en la nube como Amazon S3, con SSDs adelante para la parte 'caliente', la que se consulta seguido. Las celdas flash también se desgastan después de muchas escrituras, aunque los discos modernos lo manejan tan bien que un usuario normal nunca lo nota.",
+      "SSD contra RAM, porque se confunden: la RAM es la memoria de trabajo rápida que se vacía al apagar; el SSD es el almacenamiento persistente que conserva tus archivos. Más RAM hace que abrir muchas cosas a la vez ande mejor; un SSD más grande te deja guardar más archivos."
+    ],
+    "analogy": "Un disco rígido es un tocadiscos: la púa tiene que viajar hasta el surco correcto. Un SSD es un libro con pestañas: abrís directo en cualquier página, sin mover nada.",
+    "keyPoints": [
+      "Almacenamiento persistente hecho de chips flash; sin partes móviles, acceso muy rápido.",
+      "Reemplazó a los discos rígidos en laptops y celulares; los rígidos quedan para almacenamiento masivo barato.",
+      "Se conecta por SATA (más viejo y lento) o por NVMe sobre PCIe (más nuevo y mucho más rápido).",
+      "No es lo mismo que la RAM: el SSD conserva los datos sin energía, la RAM no."
+    ],
+    "links": [
+      { "label": "Unidad de estado sólido en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unidad_de_estado_s%C3%B3lido" },
+      { "label": "Memoria flash en Wikipedia", "url": "https://es.wikipedia.org/wiki/Memoria_flash" }
+    ]
+  }
+}

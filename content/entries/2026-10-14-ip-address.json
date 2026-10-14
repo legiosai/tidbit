@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-14-ip-address",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": { "en": ["IP addresses", "IP"], "es": ["direcciones IP", "IP"] },
+  "image": "img/2026-10-14-ip-address.svg",
+  "imageAlt": {
+    "en": "A laptop and a server, each with its numeric address, exchanging an envelope that carries both addresses",
+    "es": "Una notebook y un servidor, cada uno con su dirección numérica, intercambiando un sobre que lleva las dos direcciones"
+  },
+  "en": {
+    "title": "IP address",
+    "tagline": "The number that identifies a device on a network, like a postal address.",
+    "explanation": [
+      "An **IP address** is a number that identifies a device on a network, so that data can find its way to it. Your phone has one on the café Wi-Fi, the server hosting a website has one, your router has one. The classic form (IPv4) looks like `192.168.1.10`: four numbers from 0 to 255 separated by dots.",
+      "Every packet of data travelling the internet carries a destination IP address and a sender IP address, exactly like an envelope with two addresses. Routers along the way read the destination and pass the packet closer, hop by hop. When you open a website, your browser first asks DNS to turn the name into an IP address, then sends its request there.",
+      "There are two kinds. A **public IP address** is visible to the whole internet and is usually assigned to your home connection by your provider. A **private IP address** (like the `192.168.x.x` range) only works inside your local network; many devices share one public address through NAT. Because the world ran out of IPv4 numbers, the newer **IPv6** uses much longer addresses such as `2001:db8::1`, with room for every device on the planet."
+    ],
+    "analogy": "A postal address. The mail carrier does not know who you are, but with the street and number the letter arrives, and the sender's address on the back lets you reply.",
+    "keyPoints": [
+      "IPv4 addresses look like `192.168.1.10`; IPv6 addresses are longer, like `2001:db8::1`.",
+      "Public IPs are reachable from the internet; private IPs only work inside your local network.",
+      "Your IP usually reveals your rough location and your internet provider, not your name.",
+      "DNS exists so people type names, not IP addresses."
+    ],
+    "links": [
+      { "label": "What is my IP address? (Cloudflare)", "url": "https://www.cloudflare.com/learning/dns/glossary/what-is-my-ip-address/" },
+      { "label": "IP address (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/IP_Address" },
+      { "label": "IP address (Wikipedia)", "url": "https://en.wikipedia.org/wiki/IP_address" }
+    ]
+  },
+  "es": {
+    "title": "Dirección IP",
+    "tagline": "El número que identifica a un dispositivo en una red, como una dirección postal.",
+    "explanation": [
+      "Una **dirección IP** es un número que identifica a un dispositivo dentro de una red, para que los datos sepan cómo llegarle. Tu celular tiene una en el Wi-Fi del bar, el servidor que aloja un sitio tiene otra, tu router tiene la suya. La forma clásica (IPv4) se ve así: `192.168.1.10`, cuatro números de 0 a 255 separados por puntos.",
+      "Cada paquete de datos que viaja por internet lleva la dirección IP de destino y la de origen, igual que un sobre con dos direcciones. Los routers del camino leen el destino y pasan el paquete un tramo más cerca, salto a salto. Cuando abrís un sitio, tu navegador primero le pide a DNS que convierta el nombre en una dirección IP y después manda el pedido ahí.",
+      "Hay dos tipos. Una **IP pública** es visible desde todo internet y suele asignársela tu proveedor a tu conexión de casa. Una **IP privada** (como las del rango `192.168.x.x`) solo sirve dentro de tu red local; muchos dispositivos comparten una sola IP pública gracias a NAT. Como las direcciones IPv4 se agotaron, la versión nueva, **IPv6**, usa direcciones mucho más largas, como `2001:db8::1`, con lugar para cada dispositivo del planeta."
+    ],
+    "analogy": "Una dirección postal. El cartero no sabe quién sos, pero con calle y número la carta llega, y el remitente en el dorso permite contestar.",
+    "keyPoints": [
+      "Las direcciones IPv4 se ven como `192.168.1.10`; las IPv6 son más largas, como `2001:db8::1`.",
+      "Las IP públicas se alcanzan desde internet; las privadas solo funcionan en tu red local.",
+      "Tu IP suele revelar tu ubicación aproximada y tu proveedor, no tu nombre.",
+      "DNS existe para que la gente escriba nombres y no direcciones IP."
+    ],
+    "links": [
+      { "label": "¿Cuál es mi dirección IP? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/dns/glossary/what-is-my-ip-address/" },
+      { "label": "Dirección IP (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/IP_Address" },
+      { "label": "Dirección IP (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP" }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2026-10-14-https",
+  "date": "2026-10-14",
+  "subjects": [
+    "security",
+    "networks"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-10-14-https.svg",
+  "imageAlt": {
+    "en": "A browser and a server exchanging a locked envelope while an eavesdropper sees only noise",
+    "es": "Un navegador y un servidor intercambiando un sobre con candado mientras un espía solo ve ruido"
+  },
+  "en": {
+    "title": "HTTPS",
+    "tagline": "The padlock in your browser: web traffic nobody in between can read.",
+    "explanation": [
+      "**HTTPS** is plain HTTP (the language browsers and websites speak) wrapped in encryption, using a protocol called **TLS**. When you open a site with the padlock, your browser and the server first agree on a secret key that only they know, then every request and response is scrambled with it.",
+      "Anyone sitting in the middle (the café Wi-Fi, your internet provider, a hacker on the same network) sees that you are talking to a site, but not what you send: no passwords, no card numbers, no page content.",
+      "HTTPS also proves identity. The server shows a **certificate** signed by an authority your browser trusts, so you know you are talking to your bank and not to a copy of it. Since Let's Encrypt made certificates free in 2015, almost the whole web moved to HTTPS."
+    ],
+    "analogy": "Sending a letter in a locked box where only you and the recipient have the key. The mail carrier still delivers it, but can only see the address, never the letter.",
+    "keyPoints": [
+      "HTTPS = HTTP + TLS encryption. The padlock means the connection is encrypted.",
+      "It hides what you send, not which site you visit.",
+      "Certificates prove the site is who it says it is."
+    ],
+    "links": [
+      {
+        "label": "How HTTPS works (comic)",
+        "url": "https://howhttps.works/"
+      },
+      {
+        "label": "Let's Encrypt: how it works",
+        "url": "https://letsencrypt.org/how-it-works/"
+      }
+    ]
+  },
+  "es": {
+    "title": "HTTPS",
+    "tagline": "El candadito del navegador: tráfico web que nadie en el medio puede leer.",
+    "explanation": [
+      "**HTTPS** es HTTP común (el idioma que hablan navegadores y sitios) envuelto en cifrado, con un protocolo llamado **TLS**. Cuando abrís un sitio con el candado, tu navegador y el servidor primero acuerdan una clave secreta que solo ellos conocen, y después cada pedido y cada respuesta se mezcla con esa clave.",
+      "Cualquiera que esté en el medio (el Wi-Fi del bar, tu proveedor de internet, alguien en la misma red) ve que hablás con un sitio, pero no qué mandás: ni contraseñas, ni números de tarjeta, ni el contenido de la página.",
+      "HTTPS también prueba identidad. El servidor muestra un **certificado** firmado por una autoridad en la que tu navegador confía, así sabés que hablás con tu banco y no con una copia. Desde que Let's Encrypt hizo gratis los certificados en 2015, casi toda la web pasó a HTTPS."
+    ],
+    "analogy": "Mandar una carta en una caja con candado de la que solo vos y el destinatario tienen llave. El cartero la entrega igual, pero solo ve la dirección, nunca la carta.",
+    "keyPoints": [
+      "HTTPS = HTTP + cifrado TLS. El candado significa que la conexión está cifrada.",
+      "Oculta qué mandás, no qué sitio visitás.",
+      "Los certificados prueban que el sitio es quien dice ser."
+    ],
+    "links": [
+      {
+        "label": "Cómo funciona HTTPS (historieta, en inglés)",
+        "url": "https://howhttps.works/es/"
+      },
+      {
+        "label": "Let's Encrypt: cómo funciona",
+        "url": "https://letsencrypt.org/es/how-it-works/"
+      }
+    ]
+  }
+}

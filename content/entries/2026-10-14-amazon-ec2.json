@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-ec2",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["EC2", "EC2 instance", "EC2 instances"],
+    "es": ["EC2", "instancia EC2", "instancias EC2", "instancia de EC2", "instancias de EC2"]
+  },
+  "image": "img/2026-10-14-amazon-ec2.svg",
+  "imageAlt": {
+    "en": "A physical server at the bottom with three virtual machines of different sizes drawn above it",
+    "es": "Un servidor físico abajo y tres máquinas virtuales de distintos tamaños dibujadas encima"
+  },
+  "en": {
+    "title": "Amazon EC2",
+    "tagline": "Virtual computers you rent by the hour, in any size, and switch off when done.",
+    "explanation": [
+      "**EC2** (Elastic Compute Cloud) is the AWS service for renting virtual machines, called **instances**. You choose an operating system (Linux or Windows), a size (how many CPU cores, how much RAM), press launch, and about a minute later you have a computer you can log into and run anything on: a website, a database, a game server, a script that runs once a night.",
+      "You pay by the second while the instance is running and nothing for the machine while it is stopped. Sizes go from tiny (one shared core, half a gigabyte of RAM, a fraction of a cent per hour) to huge machines with hundreds of cores or several GPUs for training AI models. Instance types have names like `t3.micro` or `m7g.large`: the letters say what the family is good for, the suffix says how big it is.",
+      "An instance lives in one Availability Zone of a Region, its disk is usually an Amazon EBS volume, and its permissions come from an IAM role. EC2 is the most classic piece of AWS: when something cannot run as a container or as an AWS Lambda function, it ends up on an EC2 instance."
+    ],
+    "analogy": "Renting a car instead of buying one. You pick the size you need today (a compact for errands, a truck for moving house), pay for the hours you drive, and return it. Tomorrow you can take a different one.",
+    "keyPoints": [
+      "An instance is a virtual machine; you choose the OS, the CPU and the RAM.",
+      "Billing is per second while running; a stopped instance only pays for its disk.",
+      "Families: `t` and `m` for general work, `c` for compute, `r` for memory, `p` and `g` for GPUs.",
+      "Spot instances are the same machines at a steep discount, with the risk of being reclaimed."
+    ],
+    "links": [
+      { "label": "What is Amazon EC2? (official docs)", "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" },
+      { "label": "Amazon EC2", "url": "https://aws.amazon.com/ec2/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon EC2",
+    "tagline": "Computadoras virtuales que alquilás por hora, del tamaño que quieras, y después apagás.",
+    "explanation": [
+      "**EC2** (Elastic Compute Cloud) es el servicio de AWS para alquilar máquinas virtuales, llamadas **instancias**. Elegís un sistema operativo (Linux o Windows), un tamaño (cuántos núcleos de CPU, cuánta RAM), apretás lanzar, y un minuto después tenés una computadora donde podés entrar y correr lo que sea: un sitio web, una base de datos, un servidor de juegos, un script que corre una vez por noche.",
+      "Pagás por segundo mientras la instancia está prendida y nada por la máquina mientras está apagada. Los tamaños van desde lo diminuto (un núcleo compartido, medio gigabyte de RAM, una fracción de centavo por hora) hasta máquinas enormes con cientos de núcleos o varias GPUs para entrenar modelos de IA. Los tipos de instancia tienen nombres como `t3.micro` o `m7g.large`: las letras dicen para qué sirve la familia, el sufijo dice qué tan grande es.",
+      "Una instancia vive en una zona de disponibilidad de una Región, su disco suele ser un volumen de Amazon EBS y sus permisos vienen de un rol de IAM. EC2 es la pieza más clásica de AWS: cuando algo no puede correr como contenedor ni como función de AWS Lambda, termina en una instancia EC2."
+    ],
+    "analogy": "Alquilar un auto en vez de comprarlo. Elegís el tamaño que necesitás hoy (uno chico para trámites, una camioneta para una mudanza), pagás las horas que lo usás y lo devolvés. Mañana podés llevarte otro distinto.",
+    "keyPoints": [
+      "Una instancia es una máquina virtual; vos elegís el sistema operativo, la CPU y la RAM.",
+      "Se factura por segundo mientras corre; una instancia apagada solo paga su disco.",
+      "Familias: `t` y `m` para uso general, `c` para cómputo, `r` para memoria, `p` y `g` para GPUs.",
+      "Las instancias spot son las mismas máquinas con gran descuento, a cambio de que AWS pueda reclamarlas."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon EC2? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/concepts.html" },
+      { "label": "Amazon EC2", "url": "https://aws.amazon.com/es/ec2/" }
+    ]
+  }
+}

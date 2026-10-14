@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <line x1="200" y1="30" x2="200" y2="210" stroke="#b8b0a0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle" font-weight="bold">
+    <text x="100" y="40">training</text><text x="300" y="40">inference</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="34" y="96" width="34" height="42" rx="3" fill="#e6dfd0"/>
+    <rect x="28" y="90" width="34" height="42" rx="3" fill="#e6dfd0"/>
+    <rect x="22" y="84" width="34" height="42" rx="3" fill="#e6dfd0"/>
+    <rect x="104" y="80" width="70" height="60" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5" fill="none">
+    <path d="M116 96 H162"/><path d="M116 110 H162"/><path d="M116 124 H162"/>
+    <circle cx="162" cy="96" r="3" fill="#2b2b2b"/><circle cx="128" cy="110" r="3" fill="#2b2b2b"/><circle cx="148" cy="124" r="3" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M72 110 H98"/><path d="M92 106 l6 4 -6 4"/>
+    <path d="M160 146 C 180 170, 100 170, 108 146"/><path d="M106 152 l2 -7 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="45" y="150">lots of data</text><text x="139" y="68">adjust weights</text>
+    <text x="100" y="196">once, weeks, thousands of GPUs</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="218" y="92" width="50" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="286" y="80" width="70" height="60" rx="8" fill="#9bd1b9"/>
+    <rect x="300" y="170" width="70" height="26" rx="8" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5" fill="none">
+    <path d="M298 96 H344"/><path d="M298 110 H344"/><path d="M298 124 H344"/>
+    <circle cx="344" cy="96" r="3" fill="#2b2b2b"/><circle cx="310" cy="110" r="3" fill="#2b2b2b"/><circle cx="330" cy="124" r="3" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M270 110 H282"/><path d="M276 106 l6 4 -6 4"/>
+    <path d="M321 142 V166"/><path d="M317 160 l4 6 4 -6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="243" y="113">question</text><text x="335" y="187">answer</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="321" y="68">weights fixed</text><text x="300" y="216">every request, in milliseconds</text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M36 44 h30 l12 12 v30 h-42 z" fill="#9ac7ea"/>
+    <rect x="34" y="100" width="46" height="32" rx="6" fill="#9bd1b9"/>
+    <circle cx="57" cy="172" r="18" fill="#f4a7a7"/>
+    <rect x="160" y="78" width="80" height="80" rx="12" fill="#ffd166"/>
+    <path d="M306 94 h40 l12 12 v40 h-52 z" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M57 164 v8 h8"/>
+    <path d="M90 68 Q130 68 150 108"/><path d="M144 101 l6 7 2 -9"/>
+    <path d="M90 116 H150"/><path d="M144 112 l6 4 -6 4"/>
+    <path d="M90 168 Q130 168 150 128"/><path d="M144 135 l6 -7 2 9"/>
+    <path d="M248 118 H296"/><path d="M290 114 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="57" y="36">S3 upload</text>
+    <text x="57" y="146">HTTP request</text>
+    <text x="57" y="206">every day 3:00</text>
+    <text x="332" y="84">result</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="57" y="121">GET</text>
+    <text x="332" y="128">thumb.jpg</text>
+  </g>
+  <text x="200" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" fill="#2b2b2b">λ</text>
+  <text x="200" y="176" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">your function</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">event in · code runs · idle costs nothing</text>
+</svg>

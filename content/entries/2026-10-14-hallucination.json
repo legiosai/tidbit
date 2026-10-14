@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-hallucination",
+  "date": "2026-10-14",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["hallucinations", "hallucinate"],
+    "es": ["alucinaciones", "alucinar"]
+  },
+  "image": "img/2026-10-14-hallucination.svg",
+  "imageAlt": {
+    "en": "A chat bubble confidently citing a court case next to a magnifying glass over an empty archive marked not found",
+    "es": "Un globo de chat que cita con seguridad un fallo judicial junto a una lupa sobre un archivo vacío marcado como no encontrado"
+  },
+  "en": {
+    "title": "Hallucination",
+    "tagline": "When an AI model states something false with total confidence.",
+    "explanation": [
+      "A **hallucination** is an answer from an AI model that sounds right and is wrong: a court case that never existed, a quote nobody said, a library function that does not exist, a wrong date delivered in a perfect sentence. The model is not lying; it has no idea it is wrong. It produced the most plausible-sounding text, and plausible is not the same as true.",
+      "It happens because of how an LLM works. It writes by predicting likely next tokens, based on patterns in its training data. When the fact was well represented in that data, the likely continuation is usually correct. When it was not (an obscure topic, a private detail, something after its training cutoff), the likely continuation is still fluent, just invented. There is no built-in step that checks against reality.",
+      "Hallucinations are the main reason you cannot use a chatbot as an encyclopedia. Lawyers have been sanctioned for filing briefs with made-up citations. The fixes are partial: giving the model the real documents (RAG), letting it search and cite its sources, asking it to say 'I don't know', and newer models trained to decline more often when unsure. None of them bring the rate to zero.",
+      "The practical rule: use models for drafting, summarizing, explaining and brainstorming, and verify any specific fact, number, name or citation before you rely on it."
+    ],
+    "analogy": "A confident student in an oral exam who, instead of saying 'I don't remember', improvises an answer in the same assured tone as the ones they actually know. From the tone alone you cannot tell which is which.",
+    "keyPoints": [
+      "A hallucination is fluent, confident and false; the model cannot tell the difference.",
+      "Most common with obscure facts, exact citations, numbers and recent events.",
+      "Grounding the model in real documents (RAG) and letting it cite sources lowers the rate, but does not eliminate it.",
+      "Verify names, numbers and sources before you act on them."
+    ],
+    "links": [
+      { "label": "Hallucination (artificial intelligence) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)" },
+      { "label": "Anthropic: reduce hallucinations", "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations" }
+    ]
+  },
+  "es": {
+    "title": "Alucinación",
+    "tagline": "Cuando un modelo de IA afirma algo falso con total seguridad.",
+    "explanation": [
+      "Una **alucinación** es una respuesta de un modelo de IA que suena bien y está mal: un fallo judicial que nunca existió, una cita que nadie dijo, una función de programación que no existe, una fecha equivocada en una oración perfecta. El modelo no miente; no tiene idea de que se equivocó. Produjo el texto que sonaba más plausible, y plausible no es lo mismo que cierto.",
+      "Pasa por cómo funciona un LLM. Escribe prediciendo tokens probables según los patrones de sus datos de entrenamiento. Cuando el dato estaba bien representado en esos datos, la continuación probable suele ser correcta. Cuando no (un tema oscuro, un detalle privado, algo posterior a su fecha de corte), la continuación probable sigue siendo fluida, pero inventada. No hay ningún paso interno que la compare con la realidad.",
+      "Las alucinaciones son la razón principal por la que no podés usar un chatbot como enciclopedia. Hubo abogados sancionados por presentar escritos con citas inventadas. Las soluciones son parciales: darle al modelo los documentos reales (RAG), dejarlo buscar y citar fuentes, pedirle que diga 'no sé', y modelos nuevos entrenados para abstenerse más seguido cuando dudan. Ninguna lleva la tasa a cero.",
+      "La regla práctica: usá los modelos para redactar, resumir, explicar y tirar ideas, y verificá cualquier dato puntual, número, nombre o cita antes de apoyarte en eso."
+    ],
+    "analogy": "Un alumno seguro de sí mismo en un examen oral que, en vez de decir 'no me acuerdo', improvisa una respuesta con el mismo tono firme que usa para las que sí sabe. Solo por el tono no distinguís cuál es cuál.",
+    "keyPoints": [
+      "Una alucinación es fluida, segura y falsa; el modelo no nota la diferencia.",
+      "Es más común con datos oscuros, citas exactas, números y hechos recientes.",
+      "Apoyar al modelo en documentos reales (RAG) y dejarlo citar baja la tasa, pero no la elimina.",
+      "Verificá nombres, números y fuentes antes de actuar con ellos."
+    ],
+    "links": [
+      { "label": "Alucinación (inteligencia artificial) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)" },
+      { "label": "Anthropic: cómo reducir alucinaciones (en inglés)", "url": "https://docs.anthropic.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations" }
+    ]
+  }
+}

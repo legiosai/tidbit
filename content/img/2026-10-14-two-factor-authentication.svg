@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="28" y="70" width="110" height="100" rx="10" fill="#9ac7ea"/>
+    <rect x="42" y="110" width="82" height="24" rx="4" fill="#f3efe6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="83" y="127">••••••••</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="172" y="56" width="70" height="128" rx="12" fill="#e6dfd0"/>
+    <rect x="180" y="68" width="54" height="100" rx="4" fill="#f3efe6"/>
+    <rect x="184" y="108" width="46" height="24" rx="4" fill="#ffd166"/>
+    <circle cx="207" cy="176" r="3" fill="#2b2b2b"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="207" y="125">482 913</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="286" y="80" width="86" height="80" rx="10" fill="#9bd1b9"/>
+    <path d="M308 122 l12 12 l24 -28" fill="none" stroke-width="3"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M142 120 H166"/><path d="M161 116 l6 4 -6 4"/>
+    <path d="M246 120 H280"/><path d="M275 116 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="83" y="96">password</text><text x="207" y="46">code</text><text x="329" y="70">account</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="83" y="192">something you know</text><text x="207" y="206">something you have</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">a stolen password alone opens nothing</text>
+</svg>

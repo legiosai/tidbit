@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-aws-step-functions",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 3,
+  "aliases": {
+    "en": ["Step Functions", "state machine", "state machines"],
+    "es": ["Step Functions", "máquina de estados", "máquinas de estados"]
+  },
+  "image": "img/2026-10-14-aws-step-functions.svg",
+  "imageAlt": {
+    "en": "A flowchart with a start, a validate step that retries, two parallel steps, a wait step and an end",
+    "es": "Un diagrama de flujo con un inicio, un paso de validación que reintenta, dos pasos en paralelo, una espera y un final"
+  },
+  "en": {
+    "title": "AWS Step Functions",
+    "tagline": "A flowchart that runs: it chains steps, retries failures and remembers where it was.",
+    "explanation": [
+      "**AWS Step Functions** orchestrates processes that have many steps. You describe a **state machine**: step A, then B; if B fails retry it three times; then C and D in parallel; wait 24 hours; then E. Each step calls something, most often an AWS Lambda function, but also Amazon ECS tasks, Amazon SQS, Amazon DynamoDB and most AWS APIs. Step Functions runs the flow, tracks exactly where every execution is, and shows it as a live diagram.",
+      "The problem it solves: once a process has several steps, someone has to answer 'what if step 3 fails after step 2 already charged the card?'. Writing that logic inside one big function is fragile, and a crashed process forgets everything. A state machine keeps its state outside your code, so an execution can pause for days and pick up again, and a failure in one step triggers the retry or the compensation you defined.",
+      "Example: a loan application. Validate the form (Lambda), run a credit check (an external API with a 2-minute timeout and retries), then in parallel calculate the offer and generate the PDF. Then wait for the applicant to sign, up to 7 days, paused at no cost. Then open the account. If any step fails for good, a notification goes out through Amazon SNS.",
+      "Definitions are written in a JSON dialect called Amazon States Language, or drawn in the visual Workflow Studio. Standard workflows can run for up to a year; Express workflows are for short, high-volume flows that finish in under five minutes."
+    ],
+    "analogy": "A production-line foreman with a clipboard. The foreman builds nothing, but knows which station every product is at, sends it back when a station fails, and never loses track even when the shift changes.",
+    "keyPoints": [
+      "A state machine defines sequence, choices, parallel branches, waits and retries.",
+      "State lives in the service, not in your code: an execution can pause for days and survive crashes.",
+      "Every execution is visible as a diagram with the input and output of each step.",
+      "Standard workflows for long processes, Express for fast, high-volume ones."
+    ],
+    "links": [
+      { "label": "What is AWS Step Functions? (official docs)", "url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html" },
+      { "label": "AWS Step Functions product page", "url": "https://aws.amazon.com/step-functions/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Step Functions",
+    "tagline": "Un diagrama de flujo que corre: encadena pasos, reintenta fallas y recuerda dónde iba.",
+    "explanation": [
+      "**AWS Step Functions** orquesta procesos que tienen muchos pasos. Describís una **máquina de estados**: paso A, después B; si B falla reintentalo tres veces; después C y D en paralelo; esperá 24 horas; después E. Cada paso llama a algo, casi siempre una función AWS Lambda, pero también tareas de Amazon ECS, Amazon SQS, Amazon DynamoDB y la mayoría de las APIs de AWS. Step Functions corre el flujo, sabe exactamente en qué punto está cada ejecución y lo muestra como un diagrama en vivo.",
+      "El problema que resuelve: apenas un proceso tiene varios pasos, alguien tiene que contestar '¿y si el paso 3 falla cuando el paso 2 ya cobró la tarjeta?'. Escribir esa lógica adentro de una función gigante es frágil, y un proceso que se cae se olvida de todo. Una máquina de estados guarda su estado fuera de tu código, así que una ejecución puede quedar en pausa días y retomar, y una falla en un paso dispara el reintento o la compensación que definiste.",
+      "Ejemplo: una solicitud de préstamo. Validar el formulario (Lambda), consultar el historial crediticio (una API externa con timeout de 2 minutos y reintentos), después en paralelo calcular la oferta y generar el PDF. Después esperar la firma del solicitante, hasta 7 días, en pausa y sin costo. Después abrir la cuenta. Si algún paso falla del todo, sale una notificación por Amazon SNS.",
+      "Las definiciones se escriben en un dialecto de JSON llamado Amazon States Language, o se dibujan en el Workflow Studio visual. Los workflows estándar pueden correr hasta un año; los Express son para flujos cortos y de mucho volumen que terminan en menos de cinco minutos."
+    ],
+    "analogy": "Un capataz de línea de producción con una planilla. No fabrica nada, pero sabe en qué estación está cada producto, lo manda de vuelta cuando una estación falla, y nunca pierde el hilo aunque cambie el turno.",
+    "keyPoints": [
+      "Una máquina de estados define secuencia, decisiones, ramas paralelas, esperas y reintentos.",
+      "El estado vive en el servicio, no en tu código: una ejecución puede pausar días y sobrevivir caídas.",
+      "Cada ejecución se ve como un diagrama con la entrada y la salida de cada paso.",
+      "Workflows estándar para procesos largos, Express para los rápidos y de mucho volumen."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Step Functions? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/step-functions/latest/dg/welcome.html" },
+      { "label": "Página de AWS Step Functions", "url": "https://aws.amazon.com/es/step-functions/" }
+    ]
+  }
+}

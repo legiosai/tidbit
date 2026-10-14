@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-14-packet",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": { "en": ["packets"], "es": ["paquetes"] },
+  "image": "img/2026-10-14-packet.svg",
+  "imageAlt": {
+    "en": "A file being cut into four numbered packets, each with a header strip and a data block, and reassembled on the other side",
+    "es": "Un archivo cortado en cuatro paquetes numerados, cada uno con una tira de header y un bloque de datos, y vuelto a armar del otro lado"
+  },
+  "en": {
+    "title": "Packet",
+    "tagline": "The small chunk every piece of internet data is cut into before it travels.",
+    "explanation": [
+      "Nothing travels the internet in one piece. A photo, a web page, a second of a video call: everything is chopped into **packets**, small blocks of roughly 1,500 bytes at most, each sent on its own. A packet has a **header** (sender and destination IP address, ports, a sequence number, a few flags) and a **payload**, the actual slice of data. The receiving side puts the slices back in order.",
+      "Cutting data up is what makes the internet work at all. Packets from thousands of conversations share the same cables, interleaved; a router handles each one independently, reading only the header; if one gets lost or corrupted, only that small piece is resent. Two packets of the same file can even take different routes and still arrive, because each one carries the full destination address. This design, called **packet switching**, is the opposite of an old phone call, where a line was reserved end to end.",
+      "You meet packets when things go wrong. **Packet loss** is the share of packets that never arrive; a few percent is enough to make a video call stutter or a game lag, because TCP waits and resends. Tools like `ping` and `traceroute` send small test packets to measure latency and see which routers are on the way. Firewalls, VPNs and NAT all work by looking at, rewriting or wrapping packets."
+    ],
+    "analogy": "Moving a library by mail. You cannot ship the building, so you box the books, number every box, and the boxes may take different trucks. At the other end you shelve them back in order and ask for any box that went missing.",
+    "keyPoints": [
+      "A packet = header (addresses, ports, sequence number) + payload (the data).",
+      "Packets from many conversations share the same cables; routers forward each one on its own.",
+      "Packet loss, not low bandwidth, is what usually makes calls stutter.",
+      "`ping` and `traceroute` are test packets that measure the path."
+    ],
+    "links": [
+      { "label": "What is a packet? (Cloudflare)", "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-packet/" },
+      { "label": "Packet (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Packet" },
+      { "label": "Network packet (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Network_packet" }
+    ]
+  },
+  "es": {
+    "title": "Paquete",
+    "tagline": "El pedacito en que se corta cada dato de internet antes de viajar.",
+    "explanation": [
+      "Nada viaja por internet de una sola pieza. Una foto, una página web, un segundo de videollamada: todo se corta en **paquetes**, bloques chicos de como mucho 1500 bytes aproximadamente, y cada uno se manda por su cuenta. Un paquete tiene un **header** (dirección IP de origen y de destino, puertos, un número de secuencia, algunas banderas) y un **payload**, la porción de datos en sí. El lado que recibe vuelve a poner las porciones en orden.",
+      "Cortar los datos es lo que hace que internet funcione. Paquetes de miles de conversaciones comparten los mismos cables, intercalados; un router procesa cada uno por separado, leyendo solo el header; si uno se pierde o llega dañado, se reenvía solo ese pedacito. Dos paquetes del mismo archivo pueden incluso tomar rutas distintas y llegar igual, porque cada uno lleva la dirección de destino completa. Este diseño, llamado **conmutación de paquetes**, es lo opuesto a una llamada telefónica antigua, donde se reservaba una línea de punta a punta.",
+      "Te cruzás con los paquetes cuando algo falla. La **pérdida de paquetes** es la proporción de paquetes que nunca llegan; con un par por ciento alcanza para que una videollamada se trabe o un juego tenga lag, porque TCP espera y reenvía. Herramientas como `ping` y `traceroute` mandan paquetitos de prueba para medir la latencia y ver qué routers hay en el camino. Firewalls, VPNs y NAT trabajan mirando, reescribiendo o envolviendo paquetes."
+    ],
+    "analogy": "Mudar una biblioteca por correo. No podés mandar el edificio, así que encajonás los libros, numerás cada caja, y las cajas pueden ir en camiones distintos. Del otro lado las volvés a ordenar en los estantes y reclamás la caja que falte.",
+    "keyPoints": [
+      "Un paquete = header (direcciones, puertos, número de secuencia) + payload (los datos).",
+      "Paquetes de muchas conversaciones comparten los mismos cables; los routers reenvían cada uno por separado.",
+      "La pérdida de paquetes, más que el ancho de banda, es lo que suele trabar las llamadas.",
+      "`ping` y `traceroute` son paquetes de prueba que miden el camino."
+    ],
+    "links": [
+      { "label": "¿Qué es un paquete? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/network-layer/what-is-a-packet/" },
+      { "label": "Paquete de red (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Paquete_de_red" }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-amazon-cognito",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws",
+    "security"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "Cognito",
+      "Cognito user pool",
+      "Cognito user pools",
+      "user pool",
+      "user pools"
+    ],
+    "es": [
+      "Cognito",
+      "user pool",
+      "user pools",
+      "user pool de Cognito"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-cognito.svg",
+  "imageAlt": {
+    "en": "A person logging in to Cognito, receiving a token, and presenting the token to an API",
+    "es": "Una persona que inicia sesión en Cognito, recibe un token y le presenta el token a una API"
+  },
+  "en": {
+    "title": "Amazon Cognito",
+    "tagline": "Sign-up, login and passwords for your app, handled by AWS instead of you.",
+    "explanation": [
+      "**Amazon Cognito** manages the users of an application: sign-up, login, password reset, email or phone verification, two-factor authentication, and 'log in with Google' style federation. Your app does not store passwords; Cognito does, and hands your app a signed token that says who the user is.",
+      "It has two parts. A **user pool** is the directory of users plus the login machinery: it issues JSON Web Tokens (JWT) that your backend, or Amazon API Gateway directly, can verify. An **identity pool** goes one step further: it exchanges that token for temporary AWS credentials, so a mobile app can upload a photo straight to Amazon S3 under IAM rules, with no server in between.",
+      "Example: the app of a gym. Members sign up with their email, confirm with a code, and log in with a password plus an SMS code. The app sends the Cognito token to the API; API Gateway checks the signature and the expiry, and the AWS Lambda function behind it reads the member id from the token. Nobody wrote login code, and the passwords live in a store that AWS hardens.",
+      "Why it matters: login is where many security mistakes happen (passwords stored badly, reset flows that leak). Handing it to a managed service is one of the cheapest wins in security. Cognito has a free tier for a first batch of monthly active users, then charges per user."
+    ],
+    "analogy": "The membership desk of a club. It issues cards, checks faces, handles lost cards and renewals. Every other door in the club only has to look at the card.",
+    "keyPoints": [
+      "User pools authenticate people and issue JWT tokens; identity pools turn tokens into temporary AWS credentials.",
+      "Supports MFA, social login (Google, Apple, Facebook) and corporate SAML or OIDC through OAuth and SSO standards.",
+      "API Gateway can verify Cognito tokens with zero backend code.",
+      "Your app never touches a password."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon Cognito? (official docs)",
+        "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
+      },
+      {
+        "label": "Amazon Cognito product page",
+        "url": "https://aws.amazon.com/cognito/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon Cognito",
+    "tagline": "Registro, login y contraseñas de tu app, a cargo de AWS y no tuyo.",
+    "explanation": [
+      "**Amazon Cognito** administra los usuarios de una aplicación: registro, login, recuperación de contraseña, verificación por email o teléfono, autenticación de dos factores, y federación estilo 'ingresar con Google'. Tu app no guarda contraseñas; las guarda Cognito, y le entrega a tu app un token firmado que dice quién es el usuario.",
+      "Tiene dos partes. Un **user pool** es el directorio de usuarios más la maquinaria de login: emite JSON Web Tokens (JWT) que tu backend, o Amazon API Gateway directamente, puede verificar. Un **identity pool** va un paso más allá: cambia ese token por credenciales temporales de AWS, así una app móvil puede subir una foto directo a Amazon S3 bajo reglas de IAM, sin ningún servidor en el medio.",
+      "Ejemplo: la app de un gimnasio. Los socios se registran con su email, confirman con un código, y entran con contraseña más un código por SMS. La app le manda el token de Cognito a la API; API Gateway revisa la firma y el vencimiento, y la función AWS Lambda de atrás lee el id del socio desde el token. Nadie escribió código de login, y las contraseñas viven en un almacén que AWS protege.",
+      "Por qué importa: el login es donde pasan muchos errores de seguridad (contraseñas mal guardadas, flujos de recuperación que filtran datos). Delegarlo a un servicio administrado es una de las mejoras más baratas en seguridad. Cognito tiene una capa gratuita para un primer grupo de usuarios activos por mes, y después cobra por usuario."
+    ],
+    "analogy": "La mesa de socios de un club. Emite carnets, mira caras, se ocupa de los carnets perdidos y las renovaciones. Todas las demás puertas del club solo tienen que mirar el carnet.",
+    "keyPoints": [
+      "Los user pools autentican personas y emiten tokens JWT; los identity pools convierten tokens en credenciales temporales de AWS.",
+      "Soporta MFA, login social (Google, Apple, Facebook) y SAML u OIDC corporativo a través de los estándares de OAuth y SSO.",
+      "API Gateway puede verificar tokens de Cognito sin una línea de backend.",
+      "Tu app nunca toca una contraseña."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon Cognito? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/cognito/latest/developerguide/what-is-amazon-cognito.html"
+      },
+      {
+        "label": "Página de Amazon Cognito",
+        "url": "https://aws.amazon.com/es/cognito/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-14-dns",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": { "en": ["Domain Name System"], "es": ["Domain Name System"] },
+  "image": "img/2026-10-14-dns.svg",
+  "imageAlt": {
+    "en": "A laptop asking a phone book for wikipedia.org and getting back an IP address before connecting to the server",
+    "es": "Una notebook preguntándole a una agenda por wikipedia.org y recibiendo una dirección IP antes de conectarse al servidor"
+  },
+  "en": {
+    "title": "DNS",
+    "tagline": "The internet's phone book: it turns names like wikipedia.org into IP addresses.",
+    "explanation": [
+      "**DNS** (Domain Name System) is the service that translates the names people type, like `wikipedia.org`, into the IP address computers actually use to find each other. Every time you open a website, send an email or tap an app, a DNS lookup happens first, usually in a few milliseconds and without you noticing.",
+      "The lookup is a chain of questions. Your device asks a **resolver** (normally run by your internet provider, or a public one like `1.1.1.1` or `8.8.8.8`). If the resolver does not have the answer cached, it asks the root servers, then the servers for `.org`, then the servers responsible for `wikipedia.org`, which reply with the IP address. The answer is cached along the way, so the next person asking gets it instantly.",
+      "DNS matters because names are stable and addresses are not. A company can move its site to another server or a CDN, change the DNS record, and nobody has to update anything. It is also a point of control: a DNS outage makes sites look down even when they are fine, and swapping resolvers is how some networks block or filter sites. Services like Amazon Route 53 sell DNS hosting."
+    ],
+    "analogy": "Your contacts app. You tap a name, not a number; if someone changes their number, you update one entry and keep tapping the same name.",
+    "keyPoints": [
+      "DNS turns a domain name into an IP address before any connection is made.",
+      "Resolvers cache answers, so most lookups are answered close to you.",
+      "A DNS record change takes time to propagate because of those caches.",
+      "If DNS is down, the site may be fine but nobody can find it."
+    ],
+    "links": [
+      { "label": "What is DNS? (Cloudflare)", "url": "https://www.cloudflare.com/learning/dns/what-is-dns/" },
+      { "label": "DNS (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/DNS" },
+      { "label": "Domain Name System (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Domain_Name_System" }
+    ]
+  },
+  "es": {
+    "title": "DNS",
+    "tagline": "La agenda de internet: convierte nombres como wikipedia.org en direcciones IP.",
+    "explanation": [
+      "**DNS** (Domain Name System) es el servicio que traduce los nombres que la gente escribe, como `wikipedia.org`, a la dirección IP que las computadoras usan de verdad para encontrarse. Cada vez que abrís un sitio, mandás un mail o tocás una app, antes hubo una consulta DNS, casi siempre en milisegundos y sin que lo notes.",
+      "La consulta es una cadena de preguntas. Tu dispositivo le pregunta a un **resolver** (normalmente el de tu proveedor, o uno público como `1.1.1.1` u `8.8.8.8`). Si el resolver no tiene la respuesta guardada, les pregunta a los servidores raíz, después a los de `.org`, y después a los responsables de `wikipedia.org`, que contestan con la dirección IP. La respuesta queda en caché en el camino, así que al próximo que pregunte le llega al instante.",
+      "DNS importa porque los nombres son estables y las direcciones no. Una empresa puede mudar su sitio a otro servidor o a una CDN, cambiar el registro DNS, y nadie tiene que actualizar nada. También es un punto de control: una caída de DNS hace que los sitios parezcan caídos aunque estén perfectos, y cambiar el resolver es la forma en que algunas redes bloquean o filtran sitios. Servicios como Amazon Route 53 venden alojamiento de DNS."
+    ],
+    "analogy": "La agenda de contactos del celular. Tocás un nombre, no un número; si alguien cambia de número, actualizás una sola entrada y seguís tocando el mismo nombre.",
+    "keyPoints": [
+      "DNS convierte un nombre de dominio en una dirección IP antes de cualquier conexión.",
+      "Los resolvers guardan las respuestas en caché, así que la mayoría se contesta cerca tuyo.",
+      "Un cambio de registro DNS tarda en propagarse justamente por esas cachés.",
+      "Si DNS se cae, el sitio puede estar bien, pero nadie lo encuentra."
+    ],
+    "links": [
+      { "label": "¿Qué es DNS? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/dns/what-is-dns/" },
+      { "label": "DNS (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/DNS" },
+      { "label": "Sistema de nombres de dominio (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio" }
+    ]
+  }
+}

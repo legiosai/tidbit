@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-14-tcp-and-udp",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": { "en": ["TCP", "UDP"], "es": ["TCP", "UDP"] },
+  "image": "img/2026-10-14-tcp-and-udp.svg",
+  "imageAlt": {
+    "en": "Two lanes: in the TCP lane every packet gets an acknowledgement and a lost one is resent; in the UDP lane packets fly without confirmation and one is lost",
+    "es": "Dos carriles: en el de TCP cada paquete recibe confirmación y el perdido se reenvía; en el de UDP los paquetes vuelan sin confirmación y uno se pierde"
+  },
+  "en": {
+    "title": "TCP and UDP",
+    "tagline": "Two ways to send packets: TCP checks everything arrives, UDP just sends and moves on.",
+    "explanation": [
+      "IP gets packets to the right machine, but it promises nothing: packets can get lost, duplicated or arrive out of order. **TCP** (Transmission Control Protocol) and **UDP** (User Datagram Protocol) are the two protocols that sit on top of IP and decide how much to care. Every connection on the internet uses one or the other, plus a port number to reach the right program.",
+      "**TCP** is reliable. It opens a connection with a three-step handshake, numbers every packet, waits for acknowledgements, resends what went missing and delivers everything in order. It also slows down when the network is congested. Web pages (HTTP, HTTPS), email, file transfers and almost every API use TCP, because a web page with a missing chunk is useless.",
+      "**UDP** is the opposite: no handshake, no acknowledgements, no retries. Each packet goes out on its own, and if it is lost, it is lost. That sounds worse, but it is exactly right when a late packet is as useless as a missing one: a video call, a live stream, an online game, a DNS lookup. Better to skip a frame than to freeze while waiting for it. HTTP/3, the newest version of the web's protocol, runs on top of UDP (through QUIC) and adds its own reliability, to avoid some of TCP's delays."
+    ],
+    "analogy": "TCP is a phone conversation with confirmation: did you get that? yes, go on; repeat if not. UDP is shouting across a stadium: fast, no confirmation, and if a word gets lost you do not stop the game to repeat it.",
+    "keyPoints": [
+      "TCP: connection, ordering, retransmission. Reliable but with some delay.",
+      "UDP: no connection, no retries. Fast and simple; losing a packet is acceptable.",
+      "Web, email and APIs use TCP; calls, streaming, games and DNS use UDP.",
+      "HTTP/3 runs over UDP (QUIC) and brings its own reliability."
+    ],
+    "links": [
+      { "label": "What is TCP/IP? (Cloudflare)", "url": "https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/" },
+      { "label": "What is UDP? (Cloudflare)", "url": "https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/" },
+      { "label": "RFC 9293: Transmission Control Protocol", "url": "https://datatracker.ietf.org/doc/html/rfc9293" }
+    ]
+  },
+  "es": {
+    "title": "TCP y UDP",
+    "tagline": "Dos formas de mandar paquetes: TCP verifica que llegue todo, UDP manda y sigue.",
+    "explanation": [
+      "IP lleva los paquetes hasta la máquina correcta, pero no promete nada: los paquetes se pueden perder, duplicar o llegar desordenados. **TCP** (Transmission Control Protocol) y **UDP** (User Datagram Protocol) son los dos protocolos que van arriba de IP y deciden cuánto importa eso. Cada conexión de internet usa uno u otro, más un número de puerto para llegar al programa correcto.",
+      "**TCP** es confiable. Abre una conexión con un saludo de tres pasos, numera cada paquete, espera confirmaciones, reenvía lo que faltó y entrega todo en orden. Además baja el ritmo cuando la red está congestionada. Las páginas web (HTTP, HTTPS), el mail, las transferencias de archivos y casi todas las APIs usan TCP, porque una página a la que le falta un pedazo no sirve.",
+      "**UDP** es lo contrario: sin saludo, sin confirmaciones, sin reintentos. Cada paquete sale solo y, si se pierde, se perdió. Suena peor, pero es justo lo que conviene cuando un paquete atrasado sirve tan poco como uno perdido: una videollamada, una transmisión en vivo, un juego online, una consulta DNS. Mejor saltear un cuadro que congelarse esperándolo. HTTP/3, la versión más nueva del protocolo de la web, corre arriba de UDP (a través de QUIC) y agrega su propia confiabilidad, para evitar algunas demoras de TCP."
+    ],
+    "analogy": "TCP es una llamada telefónica con confirmación: ¿me escuchaste? sí, seguí; y repetir si no. UDP es gritar de una punta a la otra de una cancha: rápido, sin confirmación, y si se pierde una palabra no parás el partido para repetirla.",
+    "keyPoints": [
+      "TCP: conexión, orden, retransmisión. Confiable pero con algo de demora.",
+      "UDP: sin conexión ni reintentos. Rápido y simple; perder un paquete es aceptable.",
+      "Web, mail y APIs usan TCP; llamadas, streaming, juegos y DNS usan UDP.",
+      "HTTP/3 corre sobre UDP (QUIC) y trae su propia confiabilidad."
+    ],
+    "links": [
+      { "label": "¿Qué es TCP/IP? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/ddos/glossary/tcp-ip/" },
+      { "label": "¿Qué es UDP? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/ddos/glossary/user-datagram-protocol-udp/" },
+      { "label": "Protocolo de control de transmisión (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n" }
+    ]
+  }
+}

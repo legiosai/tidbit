@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-regions-and-availability-zones",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["Region", "Regions", "Availability Zone", "Availability Zones", "AZ", "AZs"],
+    "es": ["Región", "Regiones", "zona de disponibilidad", "zonas de disponibilidad", "AZ", "AZs"]
+  },
+  "image": "img/2026-10-14-regions-and-availability-zones.svg",
+  "imageAlt": {
+    "en": "A large Region box holding three separate zone buildings, and a second Region far away",
+    "es": "Una caja grande de Región con tres edificios de zona separados, y una segunda Región lejos"
+  },
+  "en": {
+    "title": "Regions and Availability Zones",
+    "tagline": "Where AWS physically lives: cities worldwide, each split into separate data centers.",
+    "explanation": [
+      "A **Region** is a geographic area where AWS has built its infrastructure: Northern Virginia, São Paulo, Frankfurt, Tokyo and a few dozen more. Each Region is independent from the others. When you create something in AWS (a bucket in Amazon S3, a server in Amazon EC2) you pick the Region it lives in, and it stays there unless you copy it somewhere else.",
+      "Inside each Region there are several **Availability Zones** (AZs): groups of one or more data centers with their own power, cooling and network, far enough apart that a fire or a flood in one does not take down the others, but close enough to talk to each other in a couple of milliseconds. A Region has a code like `us-east-1` and each zone adds a letter: `us-east-1a`, `us-east-1b`.",
+      "Why it matters: picking a Region near your users makes your app feel faster, and sometimes the law requires it (some data cannot leave the country). Spreading an app across two or more AZs is the standard way to survive a data center outage without anybody noticing. A bank in Buenos Aires might run its app in `sa-east-1` (São Paulo) across three zones, with a backup copy in Virginia."
+    ],
+    "analogy": "A supermarket chain. A Region is a city where the chain operates; each Availability Zone is a separate store in that city with its own stock and its own generator. If one store loses power, customers still shop at the other two.",
+    "keyPoints": [
+      "Regions are isolated from each other; nothing is shared or copied automatically.",
+      "An Availability Zone is one or more data centers; every Region has at least three.",
+      "Running in two AZs is the usual minimum for an app that must stay up.",
+      "Prices and the list of available services differ a little from Region to Region."
+    ],
+    "links": [
+      { "label": "Regions and Availability Zones (official docs)", "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" },
+      { "label": "AWS global infrastructure", "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/" }
+    ]
+  },
+  "es": {
+    "title": "Regiones y zonas de disponibilidad",
+    "tagline": "Dónde vive AWS físicamente: ciudades del mundo, cada una con varios centros de datos.",
+    "explanation": [
+      "Una **Región** es un área geográfica donde AWS construyó su infraestructura: Virginia del Norte, San Pablo, Frankfurt, Tokio y unas cuantas decenas más. Cada Región es independiente de las otras. Cuando creás algo en AWS (un bucket en Amazon S3, un servidor en Amazon EC2) elegís en qué Región vive, y ahí se queda salvo que lo copies a otro lado.",
+      "Adentro de cada Región hay varias **zonas de disponibilidad** (AZs): grupos de uno o más centros de datos con su propia energía, refrigeración y red, lo bastante lejos entre sí para que un incendio o una inundación en uno no tire abajo a los otros, pero lo bastante cerca para hablarse en un par de milisegundos. Una Región tiene un código como `us-east-1` y cada zona agrega una letra: `us-east-1a`, `us-east-1b`.",
+      "Por qué importa: elegir una Región cerca de tus usuarios hace que la app se sienta más rápida, y a veces la ley lo exige (hay datos que no pueden salir del país). Repartir una app en dos o más AZs es la forma estándar de sobrevivir a la caída de un centro de datos sin que nadie lo note. Un banco de Buenos Aires podría correr su app en `sa-east-1` (San Pablo) en tres zonas, con una copia de respaldo en Virginia."
+    ],
+    "analogy": "Una cadena de supermercados. Una Región es una ciudad donde la cadena opera; cada zona de disponibilidad es una sucursal distinta de esa ciudad con su propio stock y su propio generador. Si una sucursal se queda sin luz, la gente sigue comprando en las otras dos.",
+    "keyPoints": [
+      "Las Regiones están aisladas entre sí; nada se comparte ni se copia solo.",
+      "Una zona de disponibilidad es uno o más centros de datos; toda Región tiene al menos tres.",
+      "Correr en dos AZs es el mínimo habitual para una app que no puede caerse.",
+      "Los precios y la lista de servicios disponibles cambian un poco de Región a Región."
+    ],
+    "links": [
+      { "label": "Regiones y zonas de disponibilidad (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/using-regions-availability-zones.html" },
+      { "label": "Infraestructura global de AWS", "url": "https://aws.amazon.com/es/about-aws/global-infrastructure/regions_az/" }
+    ]
+  }
+}

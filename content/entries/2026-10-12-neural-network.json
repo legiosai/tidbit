@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-12-neural-network",
+  "date": "2026-10-12",
+  "subjects": [
+    "ai"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "neural networks"
+    ],
+    "es": [
+      "redes neuronales"
+    ]
+  },
+  "image": "img/2026-10-12-neural-network.svg",
+  "imageAlt": {
+    "en": "Layers of circles connected by lines, an input on the left and an answer on the right",
+    "es": "Capas de círculos unidos por líneas, una entrada a la izquierda y una respuesta a la derecha"
+  },
+  "en": {
+    "title": "Neural network",
+    "tagline": "A pile of tiny math units that learns patterns from examples.",
+    "explanation": [
+      "A **neural network** is a program made of layers of simple units called neurons. Each neuron takes some numbers, multiplies them by its own **weights**, adds them up, and passes the result to the next layer. Alone, a neuron is trivial. Millions of them, stacked, can recognize a face or write a paragraph.",
+      "Nobody programs the weights by hand. During **training**, the network sees examples (a photo and the word 'cat'), makes a guess, measures how wrong it was, and nudges every weight a tiny bit in the direction that would have made the guess better. Repeat billions of times.",
+      "Large language models like Claude are neural networks of a specific shape (transformers) trained on text. Their 'knowledge' is nothing more than a very large set of adjusted weights."
+    ],
+    "analogy": "Tuning a radio with millions of knobs. You turn them a little, listen if the music got clearer, and keep the turns that helped. After enough rounds, it plays the station.",
+    "keyPoints": [
+      "Neurons are simple; the power comes from stacking millions of them.",
+      "Training means adjusting weights to reduce errors on examples.",
+      "A trained model is just a file full of numbers (the weights)."
+    ],
+    "links": [
+      {
+        "label": "3Blue1Brown: But what is a neural network?",
+        "url": "https://www.3blue1brown.com/lessons/neural-networks"
+      },
+      {
+        "label": "Neural network on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
+      }
+    ]
+  },
+  "es": {
+    "title": "Red neuronal",
+    "tagline": "Una pila de unidades matemáticas chiquitas que aprende patrones a partir de ejemplos.",
+    "explanation": [
+      "Una **red neuronal** es un programa hecho de capas de unidades simples llamadas neuronas. Cada neurona toma algunos números, los multiplica por sus propios **pesos**, los suma y pasa el resultado a la capa siguiente. Sola, una neurona es trivial. Millones apiladas pueden reconocer una cara o escribir un párrafo.",
+      "Nadie programa los pesos a mano. Durante el **entrenamiento**, la red ve ejemplos (una foto y la palabra 'gato'), arriesga una respuesta, mide cuánto se equivocó y mueve cada peso un poquito en la dirección que habría mejorado la respuesta. Se repite miles de millones de veces.",
+      "Los modelos de lenguaje grandes como Claude son redes neuronales con una forma específica (transformers) entrenadas con texto. Su 'conocimiento' no es más que un conjunto enorme de pesos ajustados."
+    ],
+    "analogy": "Sintonizar una radio con millones de perillas. Las girás un poco, escuchás si la música se oye más clara y conservás los giros que ayudaron. Después de suficientes rondas, suena la emisora.",
+    "keyPoints": [
+      "Las neuronas son simples; el poder viene de apilar millones.",
+      "Entrenar significa ajustar pesos para reducir errores sobre ejemplos.",
+      "Un modelo entrenado es solo un archivo lleno de números (los pesos)."
+    ],
+    "links": [
+      {
+        "label": "3Blue1Brown: ¿Qué es una red neuronal? (subtítulos en español)",
+        "url": "https://www.3blue1brown.com/lessons/neural-networks"
+      },
+      {
+        "label": "Red neuronal artificial en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Red_neuronal_artificial"
+      }
+    ]
+  }
+}

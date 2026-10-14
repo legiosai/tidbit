@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidbit · tech, explained simply</title>
+  <meta name="description" content="Technology concepts explained simply: AI, AWS, networks, security, hardware, software. English and Spanish, no login, open source.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ffd166'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='system-ui' font-weight='700' font-size='18' fill='%232b2b2b'%3ET%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#/">
+      <span class="brand-mark">T</span>
+      <span class="brand-name">tidbit</span>
+    </a>
+    <nav class="top-nav">
+      <a href="#/" data-i18n="nav.today">Hoy</a>
+      <a href="#/all" data-i18n="nav.all">Todas</a>
+      <a href="#/learned" data-i18n="nav.learned">Aprendidas</a>
+    </nav>
+    <div class="top-right">
+      <span class="progress" id="progress" title=""></span>
+      <button class="lang" id="lang-toggle" type="button" aria-label="Change language"></button>
+    </div>
+  </header>
+
+  <main id="app" class="app">
+    <p class="loading" data-i18n="loading">Cargando…</p>
+  </main>
+
+  <footer class="foot">
+    <p>
+      <span data-i18n="foot.made">Hecho por</span>
+      <a href="https://github.com/legiosai" rel="noopener">Legios</a>
+      · <span data-i18n="foot.progress">Tu progreso queda en este navegador, no hay cuenta ni login.</span>
+      · <a href="https://github.com/legiosai/tidbit" rel="noopener" data-i18n="foot.source">Código</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

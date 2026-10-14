@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-ram",
+  "date": "2026-10-14",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["random access memory"],
+    "es": ["memoria RAM"]
+  },
+  "image": "img/2026-10-14-ram.svg",
+  "imageAlt": {
+    "en": "Three boxes from fast and small to slow and big, CPU, RAM and SSD, with a power switch showing that RAM empties when off",
+    "es": "Tres cajas de rápida y chica a lenta y grande, CPU, RAM y SSD, con un interruptor que muestra que la RAM se vacía al apagar"
+  },
+  "en": {
+    "title": "RAM",
+    "tagline": "The computer's short-term memory: fast, small and wiped when you turn it off.",
+    "explanation": [
+      "**RAM** (Random Access Memory) is where a computer keeps whatever it is working on right now: the open programs, the document you are editing, the browser tabs. The CPU can read and write any part of it in nanoseconds, far faster than an SSD. The catch is that it is volatile: cut the power and everything in it is gone, which is why you save files to disk.",
+      "For most people the amount matters more than the speed. If the programs you have open need more RAM than you have, the operating system starts shuffling parts of them to the SSD (swapping) and everything crawls. That is the classic 'my laptop is slow with 40 tabs open' problem. Phones have roughly 6 to 12 GB, laptops 8 to 32, servers hundreds.",
+      "RAM comes as chips soldered onto the board or on removable sticks. Samsung, SK Hynix and Micron make most of the memory chips in the world. GPUs have their own, faster kind (VRAM, and HBM in AI chips), and for AI the question 'does the model fit in memory?' is usually about that.",
+      "Example: an LLM with 7 billion parameters needs roughly 14 GB just to hold its weights. On a laptop with 16 GB of RAM it barely fits; on one with 8 GB it does not run at all. Memory, not speed, is the first wall you hit."
+    ],
+    "analogy": "Your desk versus your filing cabinet. The desk (RAM) holds the papers you are working on, within reach; the cabinet (SSD) holds everything else. A bigger desk lets you work on more things at once, and when you leave, the desk is cleared.",
+    "keyPoints": [
+      "Fast and volatile: holds running programs, forgets everything when powered off.",
+      "Too little RAM forces swapping to disk, the usual cause of a sluggish computer.",
+      "Measured in gigabytes; more RAM lets you keep more open at once.",
+      "AI models must fit in memory (GPU VRAM or system RAM) to run at all."
+    ],
+    "links": [
+      { "label": "Random-access memory on Wikipedia", "url": "https://en.wikipedia.org/wiki/Random-access_memory" },
+      { "label": "Memory hierarchy on Wikipedia", "url": "https://en.wikipedia.org/wiki/Memory_hierarchy" }
+    ]
+  },
+  "es": {
+    "title": "RAM",
+    "tagline": "La memoria de corto plazo de la computadora: rápida, chica y se borra al apagar.",
+    "explanation": [
+      "La **RAM** (Random Access Memory, memoria de acceso aleatorio) es donde la computadora guarda lo que está usando en este momento: los programas abiertos, el documento que estás editando, las pestañas del navegador. La CPU puede leer y escribir cualquier parte en nanosegundos, muchísimo más rápido que un SSD. La trampa es que es volátil: cortás la energía y se pierde todo lo que había, por eso guardás los archivos en el disco.",
+      "Para la mayoría de la gente importa más la cantidad que la velocidad. Si los programas que tenés abiertos necesitan más RAM de la que hay, el sistema operativo empieza a mover pedazos al SSD (swapping) y todo se arrastra. Es el clásico 'la laptop anda lenta con 40 pestañas abiertas'. Un celular tiene más o menos de 6 a 12 GB, una laptop de 8 a 32, un servidor cientos.",
+      "La RAM viene en chips soldados a la placa o en módulos removibles. Samsung, SK Hynix y Micron fabrican la mayoría de los chips de memoria del mundo. Las GPUs tienen la suya, más rápida (VRAM, y HBM en los chips de IA), y en IA la pregunta '¿el modelo entra en memoria?' casi siempre se refiere a esa.",
+      "Ejemplo: un LLM de 7 mil millones de parámetros necesita unos 14 GB solo para tener sus pesos cargados. En una laptop con 16 GB de RAM entra apenas; en una con 8 GB no corre. La memoria, no la velocidad, es la primera pared contra la que chocás."
+    ],
+    "analogy": "Tu escritorio contra tu archivero. El escritorio (RAM) tiene los papeles en los que estás trabajando, a mano; el archivero (SSD) guarda todo lo demás. Un escritorio más grande te deja trabajar en más cosas a la vez, y cuando te vas, el escritorio se vacía.",
+    "keyPoints": [
+      "Rápida y volátil: guarda los programas en ejecución y se olvida de todo al apagar.",
+      "Poca RAM obliga a hacer swapping al disco, la causa habitual de una computadora lenta.",
+      "Se mide en gigabytes; más RAM te deja tener más cosas abiertas a la vez.",
+      "Los modelos de IA tienen que entrar en memoria (VRAM de la GPU o RAM del sistema) para correr."
+    ],
+    "links": [
+      { "label": "Memoria de acceso aleatorio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Memoria_de_acceso_aleatorio" },
+      { "label": "Jerarquía de memoria en Wikipedia", "url": "https://es.wikipedia.org/wiki/Jerarqu%C3%ADa_de_memoria" }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="50" width="60" height="110" rx="10" fill="#9ac7ea"/><rect x="38" y="60" width="44" height="84" rx="3" fill="#f3efe6"/><circle cx="60" cy="152" r="3" fill="#2b2b2b"/>
+    <rect x="310" y="50" width="60" height="110" rx="10" fill="#9ac7ea"/><rect x="318" y="60" width="44" height="84" rx="3" fill="#f3efe6"/><circle cx="340" cy="152" r="3" fill="#2b2b2b"/>
+    <rect x="160" y="60" width="80" height="100" rx="8" fill="#e6dfd0"/><line x1="172" y1="84" x2="228" y2="84"/><line x1="172" y1="108" x2="228" y2="108"/><line x1="172" y1="132" x2="228" y2="132"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="98">hi!</text><text x="340" y="98">hi!</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="52" y="112" width="16" height="12" rx="2" fill="#9bd1b9"/><path d="M55 112 v-4 a5 5 0 0 1 10 0" fill="none"/>
+    <rect x="332" y="112" width="16" height="12" rx="2" fill="#9bd1b9"/><path d="M335 112 v-4 a5 5 0 0 1 10 0" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M94 110 H154"/><path d="M149 106 l6 4 -6 4"/>
+    <path d="M246 110 H304"/><path d="M299 106 l6 4 -6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="112" y="92" width="24" height="18" rx="3" fill="#2b2b2b"/><path d="M117 92 v-6 a7 7 0 0 1 14 0 v6" fill="none"/>
+    <rect x="264" y="92" width="24" height="18" rx="3" fill="#2b2b2b"/><path d="M269 92 v-6 a7 7 0 0 1 14 0 v6" fill="none"/>
+    <rect x="188" y="92" width="24" height="18" rx="3" fill="#2b2b2b"/><path d="M193 92 v-6 a7 7 0 0 1 14 0 v6" fill="none"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="60" y="184">unlocked here</text><text x="340" y="184">unlocked here</text>
+    <text x="200" y="184">server stores</text><text x="200" y="198">only locked boxes</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="38">sender</text><text x="340" y="38">recipient</text><text x="200" y="46">the service</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">keys live only on the two phones</text>
+</svg>

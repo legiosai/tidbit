@@ -1,0 +1,84 @@
+{
+  "id": "2026-10-14-container",
+  "date": "2026-10-14",
+  "subjects": [
+    "cloud",
+    "software"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "containers",
+      "Docker"
+    ],
+    "es": [
+      "contenedores",
+      "Docker"
+    ]
+  },
+  "image": "img/2026-10-14-container.svg",
+  "imageAlt": {
+    "en": "One packaged image with app, libraries and runtime, copied unchanged onto a laptop, a server and the cloud",
+    "es": "Una imagen empaquetada con app, librerías y runtime, copiada sin cambios a una laptop, un servidor y la nube"
+  },
+  "en": {
+    "title": "Container",
+    "tagline": "A sealed box with a program and everything it needs to run anywhere.",
+    "explanation": [
+      "A **container** packages a program together with everything it needs to run: the libraries, the settings, the exact version of the language runtime. That package, called an **image**, runs the same on your laptop, on a colleague's machine and on a server in the cloud. **Docker** is the tool that made containers popular, and a `Dockerfile` is the recipe that builds an image.",
+      "Before containers, \"it works on my machine\" was a daily problem: the server had a different Python version, a missing library, a setting nobody remembered. A container ends that argument, because the environment travels with the code. It also starts in seconds and is far lighter than a full virtual machine, since containers share the operating system of the machine that hosts them.",
+      "Today most web services ship as containers. One server can run dozens of them, isolated from each other, and tools like Kubernetes or Amazon ECS and Fargate decide where each one runs and restart it if it dies."
+    ],
+    "analogy": "A shipping container. Whatever is inside, every crane, truck and ship knows how to handle the box, so the cargo moves from port to port without being repacked.",
+    "keyPoints": [
+      "An image is the frozen package; a container is a running copy of it.",
+      "Registries like Docker Hub or Amazon ECR are where images are stored and shared.",
+      "Containers share the host's operating system, so they start fast and use little memory.",
+      "Lighter than a virtual machine, with somewhat weaker isolation."
+    ],
+    "links": [
+      {
+        "label": "What is Docker? (official docs)",
+        "url": "https://docs.docker.com/get-started/docker-overview/"
+      },
+      {
+        "label": "What is containerization? (AWS)",
+        "url": "https://aws.amazon.com/what-is/containerization/"
+      },
+      {
+        "label": "Containerization (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Containerization_(computing)"
+      }
+    ]
+  },
+  "es": {
+    "title": "Contenedor",
+    "tagline": "Una caja cerrada con un programa y todo lo que necesita para correr en cualquier lado.",
+    "explanation": [
+      "Un **contenedor** empaqueta un programa junto con todo lo que necesita para correr: las librerías, la configuración, la versión exacta del lenguaje. Ese paquete, llamado **imagen**, corre igual en tu laptop, en la máquina de un compañero y en un servidor en la nube. **Docker** es la herramienta que hizo populares a los contenedores, y un `Dockerfile` es la receta con la que se arma una imagen.",
+      "Antes de los contenedores, \"en mi máquina anda\" era un problema de todos los días: el servidor tenía otra versión de Python, faltaba una librería, había un ajuste que nadie recordaba. Un contenedor termina esa discusión, porque el entorno viaja con el código. Además arranca en segundos y es mucho más liviano que una máquina virtual completa, porque los contenedores comparten el sistema operativo de la máquina que los aloja.",
+      "Hoy la mayoría de los servicios web se entregan como contenedores. Un servidor puede correr decenas, aislados entre sí, y herramientas como Kubernetes o Amazon ECS y Fargate deciden dónde corre cada uno y lo reinician si se cae."
+    ],
+    "analogy": "Un contenedor de barco. Sea lo que sea que tenga adentro, cualquier grúa, camión o barco sabe cómo manejar la caja, y la carga va de puerto en puerto sin reempacarse.",
+    "keyPoints": [
+      "Una imagen es el paquete congelado; un contenedor es una copia corriendo.",
+      "Los registros como Docker Hub o Amazon ECR son donde se guardan y comparten las imágenes.",
+      "Los contenedores comparten el sistema operativo del host, por eso arrancan rápido y usan poca memoria.",
+      "Más liviano que una máquina virtual, con un aislamiento algo menor."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Docker? (documentación oficial, en inglés)",
+        "url": "https://docs.docker.com/get-started/docker-overview/"
+      },
+      {
+        "label": "¿Qué es la contenedorización? (AWS)",
+        "url": "https://aws.amazon.com/es/what-is/containerization/"
+      },
+      {
+        "label": "Contenedor de software (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Docker_(software)"
+      }
+    ]
+  }
+}

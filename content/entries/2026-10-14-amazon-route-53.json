@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-route-53",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["Route 53", "Route53"],
+    "es": ["Route 53", "Route53"]
+  },
+  "image": "img/2026-10-14-amazon-route-53.svg",
+  "imageAlt": {
+    "en": "A laptop asks Route 53 for a domain name and receives an IP address, then reaches the server",
+    "es": "Una laptop le pregunta a Route 53 por un nombre de dominio, recibe una dirección IP y llega al servidor"
+  },
+  "en": {
+    "title": "Amazon Route 53",
+    "tagline": "AWS's DNS service: it turns your domain name into the address of your servers.",
+    "explanation": [
+      "**Route 53** is the AWS service for DNS, the system that translates a name like `example.com` into an IP address. You register a domain or bring one, create a **hosted zone** for it, and add **records**: 'the website is at this CloudFront distribution', 'mail goes to this server', 'the API is at this load balancer'. When someone types your domain, Route 53 answers in a few milliseconds from servers spread around the world.",
+      "Beyond plain name-to-address answers, it can route traffic cleverly: send users to the closest Region (latency routing), split them 90/10 between two versions of a site (weighted routing), or check that a server is healthy and stop sending people to it when it is not (**health checks** with failover). The name is a nod to port 53, the port DNS uses.",
+      "A typical example: a startup buys `miapp.com` through Route 53, points `www` at Amazon CloudFront, `api` at a load balancer in front of Amazon EC2, and sets a failover so that if the main Region goes down, traffic moves to a backup. It costs roughly half a dollar per hosted zone per month plus a small fee per million queries."
+    ],
+    "analogy": "A phone book that updates itself. You look up a name, it gives you the number, and if that line is down it quietly gives you the backup number instead.",
+    "keyPoints": [
+      "A hosted zone holds the DNS records for one domain.",
+      "Routing policies: simple, weighted, latency, geolocation, failover.",
+      "Health checks let it stop pointing users at a server that is down.",
+      "You can register domains here too, but any registrar works with it."
+    ],
+    "links": [
+      { "label": "What is Amazon Route 53? (official docs)", "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html" },
+      { "label": "Amazon Route 53", "url": "https://aws.amazon.com/route53/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Route 53",
+    "tagline": "El DNS de AWS: convierte tu nombre de dominio en la dirección de tus servidores.",
+    "explanation": [
+      "**Route 53** es el servicio de AWS para DNS, el sistema que traduce un nombre como `ejemplo.com` en una dirección IP. Registrás un dominio o traés uno, creás una **zona alojada** (hosted zone) y agregás **registros**: 'el sitio está en esta distribución de CloudFront', 'el mail va a este servidor', 'la API está en este balanceador'. Cuando alguien escribe tu dominio, Route 53 responde en pocos milisegundos desde servidores repartidos por el mundo.",
+      "Más allá de la respuesta simple de nombre a dirección, puede enrutar el tráfico con criterio: mandar a cada usuario a la Región más cercana (routing por latencia), repartirlos 90/10 entre dos versiones de un sitio (routing ponderado), o chequear que un servidor está sano y dejar de mandarle gente cuando no lo está (**health checks** con failover). El nombre es un guiño al puerto 53, el que usa DNS.",
+      "Un ejemplo típico: una startup compra `miapp.com` en Route 53, apunta `www` a Amazon CloudFront, `api` a un balanceador delante de Amazon EC2, y arma un failover para que si la Región principal se cae, el tráfico pase a una de respaldo. Cuesta más o menos medio dólar por zona alojada por mes más un cargo chico por millón de consultas."
+    ],
+    "analogy": "Una guía telefónica que se actualiza sola. Buscás un nombre, te da el número, y si esa línea está caída te da sin avisar el número de respaldo.",
+    "keyPoints": [
+      "Una zona alojada guarda los registros DNS de un dominio.",
+      "Políticas de enrutamiento: simple, ponderada, por latencia, por ubicación, failover.",
+      "Los health checks le permiten dejar de apuntar usuarios a un servidor caído.",
+      "También podés registrar dominios acá, pero funciona con cualquier registrador."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Route 53? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/Route53/latest/DeveloperGuide/Welcome.html" },
+      { "label": "Amazon Route 53", "url": "https://aws.amazon.com/es/route53/" }
+    ]
+  }
+}

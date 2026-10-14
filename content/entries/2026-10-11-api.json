@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-11-api",
+  "date": "2026-10-11",
+  "subjects": [
+    "software"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "APIs"
+    ],
+    "es": [
+      "APIs"
+    ]
+  },
+  "image": "img/2026-10-11-api.svg",
+  "imageAlt": {
+    "en": "An app sending a request through a counter window and getting a response back",
+    "es": "Una app mandando un pedido por una ventanilla y recibiendo una respuesta"
+  },
+  "en": {
+    "title": "API",
+    "tagline": "The menu of things one program lets another program ask for.",
+    "explanation": [
+      "An **API** (Application Programming Interface) is a set of rules for how two programs talk. One side publishes what you can ask for and in what format; the other side sends requests and gets answers. You never see the kitchen, only the menu and the dishes.",
+      "On the web, most APIs work over HTTP: your app sends a request to a URL like `/weather?city=Rosario` and receives data back, usually as JSON. Maps in a food delivery app, the login with Google button, a chatbot inside a website: all APIs.",
+      "APIs are how companies sell software to other software. AWS, Stripe, and Anthropic are, at their core, collections of APIs with a bill attached."
+    ],
+    "analogy": "A restaurant counter. You do not walk into the kitchen; you order from the menu, in the restaurant's language, and your plate comes out the window.",
+    "keyPoints": [
+      "An API defines what you can ask, how to ask it, and what you get back.",
+      "Web APIs usually use HTTP and return JSON.",
+      "An API key is the credential that says who is asking (and who pays)."
+    ],
+    "links": [
+      {
+        "label": "What is an API? (MDN)",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+      },
+      {
+        "label": "Example: the Claude API reference",
+        "url": "https://docs.anthropic.com/en/api/messages"
+      }
+    ]
+  },
+  "es": {
+    "title": "API",
+    "tagline": "El menú de cosas que un programa le deja pedir a otro programa.",
+    "explanation": [
+      "Una **API** (Application Programming Interface) es un conjunto de reglas para que dos programas se hablen. Un lado publica qué se puede pedir y en qué formato; el otro manda pedidos y recibe respuestas. Nunca ves la cocina, solo el menú y los platos.",
+      "En la web, la mayoría de las APIs funcionan sobre HTTP: tu app manda un pedido a una URL como `/clima?ciudad=Rosario` y recibe datos de vuelta, casi siempre en JSON. El mapa dentro de una app de delivery, el botón de iniciar sesión con Google, un chatbot dentro de un sitio: todo son APIs.",
+      "Las APIs son la forma en que las empresas le venden software a otro software. AWS, Stripe y Anthropic son, en el fondo, colecciones de APIs con una factura adosada."
+    ],
+    "analogy": "El mostrador de un restaurante. No entrás a la cocina: pedís del menú, en el idioma del restaurante, y el plato sale por la ventanilla.",
+    "keyPoints": [
+      "Una API define qué podés pedir, cómo pedirlo y qué recibís.",
+      "Las APIs web suelen usar HTTP y devolver JSON.",
+      "Una API key es la credencial que dice quién está pidiendo (y quién paga)."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es una API? (MDN)",
+        "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+      },
+      {
+        "label": "Ejemplo: la referencia de la API de Claude",
+        "url": "https://docs.anthropic.com/en/api/messages"
+      }
+    ]
+  }
+}

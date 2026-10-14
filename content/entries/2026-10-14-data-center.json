@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-data-center",
+  "date": "2026-10-14",
+  "subjects": ["hardware", "cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["data centers"],
+    "es": ["centros de datos", "data center"]
+  },
+  "image": "img/2026-10-14-data-center.svg",
+  "imageAlt": {
+    "en": "A building with rows of server racks inside, a power line coming in from the left, a cooling unit on the roof and a fiber line going out to the internet",
+    "es": "Un edificio con filas de racks de servidores adentro, una línea de energía que entra por la izquierda, un equipo de refrigeración en el techo y una fibra que sale hacia internet"
+  },
+  "en": {
+    "title": "Data center",
+    "tagline": "A building full of servers where the internet, the cloud and AI actually run.",
+    "explanation": [
+      "A **data center** is a building designed to hold thousands of computers (servers) running around the clock. When you watch a video, send a message, pay with your phone or ask an AI a question, the work happens in one of these buildings, not on your device. The cloud is not a cloud; it is data centers, owned by companies like AWS, Google, Microsoft and Meta, or rented out rack by rack by operators like Equinix.",
+      "Inside, servers sit in rows of metal racks connected by fast networks. Around them is the real engineering: a huge electricity supply with backup generators and batteries, so nothing ever goes dark; cooling that removes the heat all those machines produce; physical security; and redundant fiber links to the internet. A big data center draws as much power as a small city, which is why they are built near cheap electricity and, increasingly, next to their own power plants.",
+      "AI changed the scale. Training and running LLMs needs tens of thousands of GPUs packed together, drawing far more power per rack than ordinary servers and often needing liquid cooling. The 'AI data center' buildout, now measured in gigawatts, is why electricity, water and land became part of the AI conversation, and where NVIDIA's chips end up.",
+      "For the cloud, data centers are grouped into regions (a city or area) with several separate buildings each, so that a fire or a power failure in one does not take down the others. When a cloud provider says a service lives in `us-east-1`, it means a cluster of data centers in northern Virginia."
+    ],
+    "analogy": "A factory for computing. Electricity goes in, racks of machines do the work, heat comes out, and the product (every web page, stream and AI answer) ships out over fiber.",
+    "keyPoints": [
+      "The physical place where cloud services, websites and AI models run.",
+      "Power and cooling matter as much as the servers; big sites draw hundreds of megawatts.",
+      "Built with redundancy: duplicated power, network and buildings so failures stay invisible.",
+      "AI data centers pack GPUs densely and are driving a global race for electricity."
+    ],
+    "links": [
+      { "label": "Data center on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_center" },
+      { "label": "AWS global infrastructure", "url": "https://aws.amazon.com/about-aws/global-infrastructure/" }
+    ]
+  },
+  "es": {
+    "title": "Centro de datos",
+    "tagline": "Un edificio lleno de servidores donde realmente corren internet, la nube y la IA.",
+    "explanation": [
+      "Un **centro de datos** (data center) es un edificio diseñado para alojar miles de computadoras (servidores) funcionando las 24 horas. Cuando mirás un video, mandás un mensaje, pagás con el celular o le preguntás algo a una IA, el trabajo pasa en uno de estos edificios, no en tu dispositivo. La nube no es una nube; son data centers, propiedad de empresas como AWS, Google, Microsoft y Meta, o alquilados rack por rack por operadores como Equinix.",
+      "Adentro, los servidores van en filas de racks metálicos conectados por redes rápidas. Alrededor está la ingeniería de verdad: una provisión eléctrica enorme con generadores y baterías de respaldo, para que nunca se apague nada; refrigeración que saca el calor que producen todas esas máquinas; seguridad física; y enlaces de fibra redundantes a internet. Un data center grande consume tanta energía como una ciudad chica, por eso se construyen cerca de electricidad barata y, cada vez más, al lado de su propia central.",
+      "La IA cambió la escala. Entrenar y correr LLMs requiere decenas de miles de GPUs juntas, que consumen muchísima más energía por rack que los servidores comunes y suelen necesitar refrigeración líquida. La construcción de 'data centers de IA', que ya se mide en gigawatts, es la razón por la que la electricidad, el agua y la tierra pasaron a ser parte de la conversación sobre IA, y es donde terminan los chips de NVIDIA.",
+      "Para la nube, los data centers se agrupan en regiones (una ciudad o zona) con varios edificios separados cada una, para que un incendio o un corte de luz en uno no tire abajo a los demás. Cuando un proveedor de nube dice que un servicio vive en `us-east-1`, se refiere a un grupo de data centers en el norte de Virginia."
+    ],
+    "analogy": "Una fábrica de cómputo. Entra electricidad, racks de máquinas hacen el trabajo, sale calor, y el producto (cada página web, cada stream y cada respuesta de IA) se despacha por fibra.",
+    "keyPoints": [
+      "El lugar físico donde corren los servicios en la nube, los sitios web y los modelos de IA.",
+      "La energía y la refrigeración importan tanto como los servidores; los sitios grandes consumen cientos de megawatts.",
+      "Se construyen con redundancia: energía, red y edificios duplicados para que las fallas no se noten.",
+      "Los data centers de IA concentran GPUs de forma densa y empujan una carrera mundial por la electricidad."
+    ],
+    "links": [
+      { "label": "Centro de procesamiento de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Centro_de_procesamiento_de_datos" },
+      { "label": "Infraestructura global de AWS", "url": "https://aws.amazon.com/es/about-aws/global-infrastructure/" }
+    ]
+  }
+}

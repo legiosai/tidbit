@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <text x="200" y="58" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="20" fill="#2b2b2b">The cat sat on the mat</text>
+  <g stroke="#b8b0a0" stroke-width="2" stroke-dasharray="4 4"><line x1="200" y1="78" x2="200" y2="106"/></g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#2b2b2b">
+    <rect x="34" y="118" width="52" height="40" rx="8" fill="#ffd166"/><text x="60" y="144" text-anchor="middle">The</text>
+    <rect x="94" y="118" width="52" height="40" rx="8" fill="#9bd1b9"/><text x="120" y="144" text-anchor="middle">cat</text>
+    <rect x="154" y="118" width="52" height="40" rx="8" fill="#9ac7ea"/><text x="180" y="144" text-anchor="middle">sat</text>
+    <rect x="214" y="118" width="44" height="40" rx="8" fill="#f4a7a7"/><text x="236" y="144" text-anchor="middle">on</text>
+    <rect x="266" y="118" width="46" height="40" rx="8" fill="#ffd166"/><text x="289" y="144" text-anchor="middle">the</text>
+    <rect x="320" y="118" width="48" height="40" rx="8" fill="#9bd1b9"/><text x="344" y="144" text-anchor="middle">mat</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#6b6357" text-anchor="middle">
+    <text x="60" y="190">464</text><text x="120" y="190">2368</text><text x="180" y="190">3332</text><text x="236" y="190">389</text><text x="289" y="190">262</text><text x="344" y="190">2450</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">6 tokens · 6 numbers</text>
+</svg>

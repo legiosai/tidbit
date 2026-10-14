@@ -1,0 +1,68 @@
+{
+  "id": "2026-10-13-nvidia",
+  "date": "2026-10-13",
+  "subjects": [
+    "companies",
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-10-13-nvidia.svg",
+  "imageAlt": {
+    "en": "A chip at the center with arrows to a game console, a data center and a car",
+    "es": "Un chip en el centro con flechas a una consola, un data center y un auto"
+  },
+  "en": {
+    "title": "NVIDIA",
+    "tagline": "The company that sells the shovels of the AI gold rush.",
+    "explanation": [
+      "**NVIDIA** designs GPUs. For twenty years that meant graphics cards for gamers. Around 2012 researchers discovered those same chips were ideal for training neural networks, and NVIDIA leaned in hard: it built **CUDA**, the software layer that lets programmers use its GPUs for any kind of math, and it became the default for AI.",
+      "Today its data center chips (H100, B200 and successors) are what OpenAI, Anthropic, Google and Meta use to train and run models. Demand is so high that access to NVIDIA GPUs is a geopolitical topic and a line item in national budgets.",
+      "NVIDIA does not manufacture the chips itself: it designs them and TSMC in Taiwan fabricates them. Its moat is less the silicon than the software ecosystem everyone already wrote on top of CUDA."
+    ],
+    "analogy": "During a gold rush, the surest money is in selling shovels. NVIDIA sells the shovels (GPUs) and the only handle that fits them (CUDA).",
+    "keyPoints": [
+      "Started with gaming graphics; now most revenue is AI data centers.",
+      "CUDA is the software lock-in that keeps developers on NVIDIA.",
+      "Fabless: designs chips, TSMC manufactures them."
+    ],
+    "links": [
+      {
+        "label": "NVIDIA on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia"
+      },
+      {
+        "label": "NVIDIA data center platforms",
+        "url": "https://www.nvidia.com/en-us/data-center/"
+      }
+    ]
+  },
+  "es": {
+    "title": "NVIDIA",
+    "tagline": "La empresa que vende las palas de la fiebre del oro de la IA.",
+    "explanation": [
+      "**NVIDIA** diseña GPUs. Durante veinte años eso significó placas de video para gamers. Alrededor de 2012, investigadores descubrieron que esos mismos chips eran ideales para entrenar redes neuronales, y NVIDIA apostó fuerte: construyó **CUDA**, la capa de software que deja usar sus GPUs para cualquier tipo de matemática, y se volvió el estándar de la IA.",
+      "Hoy sus chips para data center (H100, B200 y sucesores) son lo que usan OpenAI, Anthropic, Google y Meta para entrenar y correr modelos. La demanda es tan alta que el acceso a GPUs de NVIDIA es un tema geopolítico y un renglón en presupuestos nacionales.",
+      "NVIDIA no fabrica los chips: los diseña y TSMC, en Taiwán, los produce. Su ventaja no es tanto el silicio como el ecosistema de software que todo el mundo ya escribió sobre CUDA."
+    ],
+    "analogy": "En una fiebre del oro, la plata segura está en vender palas. NVIDIA vende las palas (GPUs) y el único mango que les calza (CUDA).",
+    "keyPoints": [
+      "Empezó con gráficos para juegos; hoy casi todo su ingreso son data centers de IA.",
+      "CUDA es el software que mantiene a los desarrolladores atados a NVIDIA.",
+      "Fabless: diseña los chips, TSMC los fabrica."
+    ],
+    "links": [
+      {
+        "label": "NVIDIA en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Nvidia"
+      },
+      {
+        "label": "Plataformas de data center de NVIDIA",
+        "url": "https://www.nvidia.com/es-la/data-center/"
+      }
+    ]
+  }
+}

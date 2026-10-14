@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-git",
+  "date": "2026-10-14",
+  "subjects": [
+    "software"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "GitHub",
+      "version control"
+    ],
+    "es": [
+      "GitHub",
+      "control de versiones"
+    ]
+  },
+  "image": "img/2026-10-14-git.svg",
+  "imageAlt": {
+    "en": "A line of commits on main, a feature branch splitting off and merging back",
+    "es": "Una línea de commits en main, una rama feature que se abre y se vuelve a unir"
+  },
+  "en": {
+    "title": "Git",
+    "tagline": "A time machine for code: every change saved, by whom and why.",
+    "explanation": [
+      "**Git** is a program that records the history of a folder of files. Each time you save a set of changes you make a **commit**: a snapshot with a message (\"fix login bug\"), an author and a date. You can go back to any snapshot, compare two of them, or see who changed a given line and when. Linus Torvalds wrote it in 2005 to manage the Linux kernel, and today it is used for almost all software.",
+      "Its second trick is **branches**. A branch is a parallel line of history: you open one to try a new feature, commit freely without touching the main version, and when it works you **merge** it back. Several people can work on different branches of the same project at once, and Git combines the results, flagging the rare lines where two people changed the same thing (a \"conflict\").",
+      "Git itself works on your machine. **GitHub**, GitLab and Bitbucket are websites that host a copy of the repository so a team can share it: `git push` sends your commits there and `git pull` brings down everyone else's. A **pull request** on GitHub is a proposal to merge a branch, with a review conversation attached. Most open source software lives this way."
+    ],
+    "analogy": "Track changes in a document, but for a whole folder, with the option of trying an edit in a parallel copy and folding it back in once it is ready.",
+    "keyPoints": [
+      "A commit is a snapshot plus a message; the history is a chain of them.",
+      "Branches let several people work in parallel; merging joins the work.",
+      "Git is the tool; GitHub is one place to host the repository.",
+      "`clone`, `commit`, `push`, `pull` and `merge` are the five commands you will hear most."
+    ],
+    "links": [
+      {
+        "label": "Pro Git book (official)",
+        "url": "https://git-scm.com/book/en/v2"
+      },
+      {
+        "label": "Git documentation",
+        "url": "https://git-scm.com/doc"
+      },
+      {
+        "label": "Git (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Git"
+      }
+    ]
+  },
+  "es": {
+    "title": "Git",
+    "tagline": "Una máquina del tiempo para el código: cada cambio guardado, por quién y por qué.",
+    "explanation": [
+      "**Git** es un programa que registra la historia de una carpeta de archivos. Cada vez que guardás un conjunto de cambios hacés un **commit**: una foto con un mensaje (\"arreglo del login\"), un autor y una fecha. Podés volver a cualquier foto, comparar dos, o ver quién cambió una línea y cuándo. Lo escribió Linus Torvalds en 2005 para manejar el kernel de Linux, y hoy se usa para casi todo el software.",
+      "Su segundo truco son las **ramas** (branches). Una rama es una línea de historia paralela: abrís una para probar algo nuevo, hacés commits tranquilo sin tocar la versión principal, y cuando funciona la **mergeás** de vuelta. Varias personas pueden trabajar en distintas ramas del mismo proyecto a la vez, y Git combina los resultados, avisando en las pocas líneas donde dos personas cambiaron lo mismo (un \"conflicto\").",
+      "Git en sí trabaja en tu máquina. **GitHub**, GitLab y Bitbucket son sitios que alojan una copia del repositorio para que un equipo lo comparta: `git push` manda tus commits para allá y `git pull` baja los de los demás. Un **pull request** en GitHub es una propuesta de mergear una rama, con una conversación de revisión adjunta. Casi todo el código abierto vive así."
+    ],
+    "analogy": "El control de cambios de un documento, pero para una carpeta entera, con la opción de probar una edición en una copia paralela y volver a juntarla cuando está lista.",
+    "keyPoints": [
+      "Un commit es una foto más un mensaje; la historia es una cadena de commits.",
+      "Las ramas permiten trabajar en paralelo; el merge junta el trabajo.",
+      "Git es la herramienta; GitHub es un lugar donde alojar el repositorio.",
+      "`clone`, `commit`, `push`, `pull` y `merge` son los cinco comandos que más vas a escuchar."
+    ],
+    "links": [
+      {
+        "label": "Libro Pro Git (oficial, en español)",
+        "url": "https://git-scm.com/book/es/v2"
+      },
+      {
+        "label": "Documentación de Git (en inglés)",
+        "url": "https://git-scm.com/doc"
+      },
+      {
+        "label": "Git (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Git"
+      }
+    ]
+  }
+}

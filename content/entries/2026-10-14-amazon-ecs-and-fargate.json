@@ -1,0 +1,84 @@
+{
+  "id": "2026-10-14-amazon-ecs-and-fargate",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws",
+    "cloud"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "ECS",
+      "Fargate",
+      "AWS Fargate",
+      "Amazon ECS",
+      "Elastic Container Service"
+    ],
+    "es": [
+      "ECS",
+      "Fargate",
+      "AWS Fargate",
+      "Amazon ECS",
+      "Elastic Container Service"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-ecs-and-fargate.svg",
+  "imageAlt": {
+    "en": "On the left containers sitting on servers you manage, on the right the same containers floating on a cloud with no servers",
+    "es": "A la izquierda contenedores sobre servidores que administrás vos, a la derecha los mismos contenedores flotando en una nube sin servidores"
+  },
+  "en": {
+    "title": "Amazon ECS and Fargate",
+    "tagline": "AWS runs your containers; with Fargate you never see the servers at all.",
+    "explanation": [
+      "**Amazon ECS** (Elastic container Service) is the AWS service that runs containers for you. You write a **task definition**: which container image to use, how much CPU and memory it needs, which ports it opens, which environment variables it gets. Then you create a **service**: 'keep three copies of this task running behind this load balancer', and ECS makes sure three are always alive, replacing any that die.",
+      "Where do those containers physically run? Two options. With the EC2 launch type you keep a fleet of Amazon EC2 instances and ECS places tasks on them; you patch and size the machines. With **Fargate** there is no machine to manage: you say 'this task needs 1 vCPU and 2 GB', AWS finds the capacity, starts the container and bills you per second while it runs.",
+      "Example: a Python API packaged as a Docker image and pushed to Amazon ECR, the AWS image registry. An ECS service on Fargate runs two copies in private subnets of a VPC with a load balancer in front; autoscaling adds copies when CPU stays above 70%. Shipping a new version means pushing a new image tag and letting ECS roll it out copy by copy.",
+      "ECS is the simpler, AWS-native way to run containers. Amazon EKS is the choice when a team already works with Kubernetes and wants to keep that toolset."
+    ],
+    "analogy": "A food court. ECS is the manager who guarantees your stall is always open and staffed. With Fargate you also stop renting floor space: you say how big a stall you need and it appears, and you pay only while it is open.",
+    "keyPoints": [
+      "A task definition is the recipe; a service keeps N copies of it running and healthy.",
+      "Fargate removes servers entirely: you pay per vCPU and GB for the seconds a task runs.",
+      "Images usually live in Amazon ECR, the AWS container registry.",
+      "ECS plugs into IAM, load balancers and CloudWatch without extra setup."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon ECS? (official docs)",
+        "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+      },
+      {
+        "label": "AWS Fargate product page",
+        "url": "https://aws.amazon.com/fargate/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon ECS y Fargate",
+    "tagline": "AWS corre tus contenedores; con Fargate ni siquiera ves los servidores.",
+    "explanation": [
+      "**Amazon ECS** (Elastic Container Service) es el servicio de AWS que corre contenedores por vos. Escribís una **task definition**: qué imagen de contenedor usar, cuánta CPU y memoria necesita, qué puertos abre, qué variables de entorno recibe. Después creás un **service**: 'mantené tres copias de esta tarea corriendo detrás de este balanceador', y ECS se encarga de que siempre haya tres vivas, reemplazando las que se caen.",
+      "¿Dónde corren físicamente esos contenedores? Dos opciones. Con el tipo de lanzamiento EC2 mantenés una flota de instancias Amazon EC2 y ECS ubica las tareas ahí; vos parcheás y dimensionás las máquinas. Con **Fargate** no hay máquina que administrar: decís 'esta tarea necesita 1 vCPU y 2 GB', AWS consigue la capacidad, arranca el contenedor y te cobra por segundo mientras corre.",
+      "Ejemplo: una API en Python empaquetada como imagen Docker y subida a Amazon ECR, el registro de imágenes de AWS. Un service de ECS sobre Fargate corre dos copias en subredes privadas de una VPC con un balanceador de carga adelante; el autoscaling agrega copias cuando la CPU se mantiene arriba del 70%. Sacar una versión nueva es subir un tag de imagen nuevo y dejar que ECS lo despliegue copia por copia.",
+      "ECS es la forma más simple y más nativa de AWS para correr contenedores. Amazon EKS es la opción cuando un equipo ya trabaja con Kubernetes y quiere conservar esas herramientas."
+    ],
+    "analogy": "Un patio de comidas. ECS es el encargado que garantiza que tu local esté siempre abierto y con gente atendiendo. Con Fargate además dejás de alquilar el espacio físico: decís qué tamaño de local necesitás, aparece, y pagás solo mientras está abierto.",
+    "keyPoints": [
+      "La task definition es la receta; el service mantiene N copias corriendo y sanas.",
+      "Fargate elimina los servidores: pagás por vCPU y GB durante los segundos que corre una tarea.",
+      "Las imágenes suelen vivir en Amazon ECR, el registro de contenedores de AWS.",
+      "ECS se conecta con IAM, balanceadores y CloudWatch sin configuración extra."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon ECS? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/AmazonECS/latest/developerguide/Welcome.html"
+      },
+      {
+        "label": "Página de AWS Fargate",
+        "url": "https://aws.amazon.com/es/fargate/"
+      }
+    ]
+  }
+}

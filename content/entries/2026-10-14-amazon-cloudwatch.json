@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-cloudwatch",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["CloudWatch", "CloudWatch Logs", "CloudWatch alarm", "CloudWatch alarms"],
+    "es": ["CloudWatch", "CloudWatch Logs", "alarma de CloudWatch", "alarmas de CloudWatch"]
+  },
+  "image": "img/2026-10-14-amazon-cloudwatch.svg",
+  "imageAlt": {
+    "en": "A CPU chart crossing a threshold line and ringing a bell, with log lines underneath",
+    "es": "Un gráfico de CPU que cruza una línea de umbral y hace sonar una campana, con líneas de log debajo"
+  },
+  "en": {
+    "title": "Amazon CloudWatch",
+    "tagline": "The dashboard and alarm system that watches everything running in your AWS account.",
+    "explanation": [
+      "**CloudWatch** is the AWS service for monitoring. Almost every AWS service reports **metrics** to it on its own: CPU use of an Amazon EC2 instance, number of calls to an AWS Lambda function, free space in an Amazon RDS database, messages waiting in a queue. You see them as charts going back months, without installing anything.",
+      "Second piece: **logs**. Applications and services send their text output to CloudWatch Logs, where you can search it ('every line with `error` in the last hour') instead of logging into machines. Third piece: **alarms**. You write a rule such as 'CPU above 80% for five minutes' or 'more than ten errors a minute', and CloudWatch sends an email through Amazon SNS, pages the on-call person, or triggers an action like adding servers.",
+      "Why it matters: in the cloud you cannot walk over to a machine and look at it. CloudWatch is how you find out something broke, ideally before the users do. A team sets an alarm on a Lambda function's error count; at 2 a.m. it fires, the on-call engineer gets a text, and the fix goes in before the morning rush."
+    ],
+    "analogy": "The dashboard of a car. Speed, fuel and engine temperature in one place, with a red light that comes on before the engine actually overheats.",
+    "keyPoints": [
+      "Metrics are numbers over time, logs are text, alarms act on either.",
+      "Most AWS services send basic metrics for free; detailed metrics and logs cost per gigabyte.",
+      "Alarms can notify people or trigger automatic actions like scaling.",
+      "Dashboards put metrics from many services on one screen."
+    ],
+    "links": [
+      { "label": "What is Amazon CloudWatch? (official docs)", "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" },
+      { "label": "Amazon CloudWatch", "url": "https://aws.amazon.com/cloudwatch/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon CloudWatch",
+    "tagline": "El tablero y el sistema de alarmas que vigila todo lo que corre en tu cuenta de AWS.",
+    "explanation": [
+      "**CloudWatch** es el servicio de AWS para monitoreo. Casi todos los servicios de AWS le reportan **métricas** solos: uso de CPU de una instancia de Amazon EC2, cantidad de llamadas a una función de AWS Lambda, espacio libre en una base de Amazon RDS, mensajes esperando en una cola. Las ves como gráficos con meses de historia, sin instalar nada.",
+      "Segunda pieza: los **logs**. Las aplicaciones y servicios mandan su salida de texto a CloudWatch Logs, donde podés buscar ('toda línea con `error` en la última hora') en vez de entrar máquina por máquina. Tercera pieza: las **alarmas**. Escribís una regla como 'CPU arriba de 80% por cinco minutos' o 'más de diez errores por minuto', y CloudWatch manda un mail por Amazon SNS, le avisa a la persona de guardia o dispara una acción como agregar servidores.",
+      "Por qué importa: en la nube no podés acercarte a una máquina y mirarla. CloudWatch es cómo te enterás de que algo se rompió, idealmente antes que los usuarios. Un equipo pone una alarma sobre los errores de una función Lambda; a las 2 de la mañana se dispara, la persona de guardia recibe un mensaje, y el arreglo entra antes del pico de la mañana."
+    ],
+    "analogy": "El tablero de un auto. Velocidad, nafta y temperatura del motor en un solo lugar, con una luz roja que se prende antes de que el motor se recaliente de verdad.",
+    "keyPoints": [
+      "Las métricas son números en el tiempo, los logs son texto, las alarmas actúan sobre cualquiera de los dos.",
+      "La mayoría de los servicios de AWS mandan métricas básicas gratis; las detalladas y los logs se cobran por gigabyte.",
+      "Las alarmas pueden avisar a personas o disparar acciones automáticas como escalar.",
+      "Los tableros juntan métricas de muchos servicios en una sola pantalla."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon CloudWatch? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" },
+      { "label": "Amazon CloudWatch", "url": "https://aws.amazon.com/es/cloudwatch/" }
+    ]
+  }
+}

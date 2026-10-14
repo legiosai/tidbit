@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-14-encryption",
+  "date": "2026-10-14",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "encrypted",
+      "encrypt"
+    ],
+    "es": [
+      "cifrar",
+      "cifrada",
+      "encriptación",
+      "encriptado"
+    ]
+  },
+  "image": "img/2026-10-14-encryption.svg",
+  "imageAlt": {
+    "en": "A readable message turned into noise with a key, and back into the message with the same key",
+    "es": "Un mensaje legible convertido en ruido con una llave, y de vuelta al mensaje con la misma llave"
+  },
+  "en": {
+    "title": "Encryption",
+    "tagline": "Scrambling data so that only someone with the key can read it.",
+    "explanation": [
+      "**Encryption** turns readable data (a message, a photo, a card number) into scrambled bytes that look like noise, using a **key**. Without the key the scrambled version is useless; with it, the original comes back exactly. The recipe for scrambling is called a cipher, and the good ones, like **AES**, are public and studied by everyone. The only secret is the key.",
+      "It exists for one situation: someone else can see your bytes and you do not want them to understand them. The storage in your phone is encrypted, so a thief who pulls out the chip gets gibberish. Your messages travel encrypted, so the owner of the café Wi-Fi sees traffic but not words. HTTPS is exactly this, applied to web pages.",
+      "There are two families. **Symmetric** encryption uses the same key to lock and unlock; it is fast, so it protects the bulk of the data. Public-key cryptography uses a pair of keys and solves a different problem: agreeing on a secret with someone you have never met. Real systems combine both. Encryption also hides content, not context: who you talk to, when, and how much is usually still visible.",
+      "Practical takeaway: turn on disk encryption on your laptop (FileVault on a Mac, BitLocker or Device encryption on Windows). Phones with a lock screen already have it. And when an app says end-to-end encryption, it means not even the company can read what you send."
+    ],
+    "analogy": "Shuffling a deck of cards following a precise sequence written on a note. Anyone can look at the shuffled deck, but only someone with the note can put it back in order.",
+    "keyPoints": [
+      "The algorithm is public; the key is the only secret.",
+      "Symmetric encryption uses one key; public-key encryption uses a pair.",
+      "It hides what you send, not usually who you send it to.",
+      "Turn on disk encryption on your laptop; most phones already have it."
+    ],
+    "links": [
+      {
+        "label": "What is encryption? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/ssl/what-is-encryption/"
+      },
+      {
+        "label": "Encryption on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Encryption"
+      }
+    ]
+  },
+  "es": {
+    "title": "Cifrado",
+    "tagline": "Mezclar datos para que solo quien tiene la clave pueda leerlos.",
+    "explanation": [
+      "El **cifrado** convierte datos legibles (un mensaje, una foto, un número de tarjeta) en bytes revueltos que parecen ruido, usando una **clave**. Sin la clave, la versión revuelta no sirve para nada; con la clave, el original vuelve exacto. La receta para revolver se llama algoritmo de cifrado, y los buenos, como **AES**, son públicos y los estudia todo el mundo. Lo único secreto es la clave.",
+      "Existe para una situación concreta: alguien más puede ver tus bytes y no querés que los entienda. El almacenamiento de tu teléfono está cifrado, así que un ladrón que le saque el chip se lleva basura. Tus mensajes viajan cifrados, así que el dueño del Wi-Fi del bar ve tráfico pero no palabras. HTTPS es exactamente esto, aplicado a las páginas web.",
+      "Hay dos familias. El cifrado **simétrico** usa la misma clave para cerrar y abrir; es rápido, así que protege el grueso de los datos. La criptografía de clave pública usa un par de claves y resuelve otro problema: acordar un secreto con alguien que nunca viste. Los sistemas reales combinan las dos. Además, el cifrado oculta el contenido, no el contexto: con quién hablás, cuándo y cuánto suele seguir siendo visible.",
+      "Para hacer hoy: activá el cifrado del disco en tu notebook (FileVault en Mac, BitLocker o Cifrado de dispositivo en Windows). Los teléfonos con bloqueo de pantalla ya lo tienen. Y cuando una app dice cifrado de extremo a extremo, significa que ni la empresa puede leer lo que mandás."
+    ],
+    "analogy": "Mezclar un mazo de cartas siguiendo una secuencia exacta anotada en un papel. Cualquiera puede mirar el mazo mezclado, pero solo quien tiene el papel puede volver a ordenarlo.",
+    "keyPoints": [
+      "El algoritmo es público; la clave es el único secreto.",
+      "El cifrado simétrico usa una clave; el de clave pública usa un par.",
+      "Oculta qué mandás, no necesariamente a quién.",
+      "Activá el cifrado de disco en tu notebook; casi todos los teléfonos ya lo tienen."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es el cifrado? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/ssl/what-is-encryption/"
+      },
+      {
+        "label": "Cifrado en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Cifrado_(criptograf%C3%ADa)"
+      }
+    ]
+  }
+}

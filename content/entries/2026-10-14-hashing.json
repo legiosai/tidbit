@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-14-hashing",
+  "date": "2026-10-14",
+  "subjects": [
+    "security"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "hash",
+      "hashes",
+      "hash function",
+      "hashed"
+    ],
+    "es": [
+      "hash",
+      "hashes",
+      "función hash",
+      "hasheado"
+    ]
+  },
+  "image": "img/2026-10-14-hashing.svg",
+  "imageAlt": {
+    "en": "Two almost identical inputs going through a hash function and coming out as completely different fingerprints, with no way back",
+    "es": "Dos entradas casi iguales que pasan por una función hash y salen como huellas totalmente distintas, sin camino de vuelta"
+  },
+  "en": {
+    "title": "Hashing",
+    "tagline": "A one-way fingerprint of data: easy to compute, not meant to be reversed.",
+    "explanation": [
+      "A **hash function** takes any input (a word, a file, a whole disk) and produces a short, fixed-size string called a **hash**: `SHA-256` always gives 64 hexadecimal characters. The same input always gives the same hash. Change one letter and the hash is completely different. And there is no way to run it backwards: from the hash you cannot rebuild the input, and finding two inputs with the same hash is, for a good function, impractical.",
+      "That makes hashes useful as fingerprints. A download page shows the file's hash so you can check your copy is intact. Git names every commit by a hash of its content. Blockchains chain blocks by hashing the previous one. And websites store a hash of your password instead of the password: when you log in, they hash what you typed and compare. If the database leaks, the attacker gets fingerprints, not passwords.",
+      "The catch with passwords is that attackers can hash billions of guesses per second and compare. So passwords are hashed with slow, purpose-built functions (`bcrypt`, `scrypt`, `Argon2`) and a random **salt** per user, so that the same password gives different hashes for different people and precomputed tables are useless. A fast hash like `MD5` for passwords is a classic mistake that keeps appearing in breach reports.",
+      "Hashing is not encryption. Encryption is reversible with the key; a hash has no key and no way back. If a site can email you your old password, it was not hashing it."
+    ],
+    "analogy": "A fingerprint. It identifies a person reliably and fits on a small card, but you cannot rebuild the person from the print.",
+    "keyPoints": [
+      "Same input, same hash; a tiny change gives a completely different hash.",
+      "It is one way: the hash does not reveal the input.",
+      "Passwords should be stored as slow, salted hashes (Argon2, bcrypt), never as plain text.",
+      "Hashing verifies and identifies; encryption hides. They are different tools."
+    ],
+    "links": [
+      {
+        "label": "Cryptographic hash function on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cryptographic_hash_function"
+      },
+      {
+        "label": "OWASP Password Storage Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
+      }
+    ]
+  },
+  "es": {
+    "title": "Hashing",
+    "tagline": "Una huella digital de los datos en un solo sentido: fácil de calcular, imposible de revertir.",
+    "explanation": [
+      "Una **función hash** toma cualquier entrada (una palabra, un archivo, un disco entero) y produce una cadena corta de tamaño fijo llamada **hash**: `SHA-256` siempre da 64 caracteres hexadecimales. La misma entrada siempre da el mismo hash. Cambiá una letra y el hash es completamente distinto. Y no hay forma de correrla al revés: desde el hash no podés reconstruir la entrada, y encontrar dos entradas con el mismo hash es, para una buena función, impracticable.",
+      "Eso convierte a los hashes en huellas digitales útiles. Una página de descarga muestra el hash del archivo para que verifiques que tu copia está intacta. Git nombra cada commit con un hash de su contenido. Las blockchains encadenan bloques hasheando el anterior. Y los sitios web guardan un hash de tu contraseña en vez de la contraseña: cuando iniciás sesión, hashean lo que escribiste y comparan. Si la base de datos se filtra, el atacante se lleva huellas, no contraseñas.",
+      "La trampa con las contraseñas es que un atacante puede hashear miles de millones de intentos por segundo y comparar. Por eso las contraseñas se hashean con funciones lentas hechas a propósito (`bcrypt`, `scrypt`, `Argon2`) y con una **sal** aleatoria por usuario, para que la misma contraseña dé hashes distintos en personas distintas y las tablas precalculadas no sirvan. Usar un hash rápido como `MD5` para contraseñas es un error clásico que sigue apareciendo en los informes de filtraciones.",
+      "Hashing no es cifrado. El cifrado se revierte con la clave; un hash no tiene clave ni camino de vuelta. Si un sitio puede mandarte por correo tu contraseña vieja, no la estaba hasheando."
+    ],
+    "analogy": "Una huella digital. Identifica a una persona con confianza y entra en una tarjeta chiquita, pero no podés reconstruir a la persona a partir de la huella.",
+    "keyPoints": [
+      "Misma entrada, mismo hash; un cambio mínimo da un hash completamente distinto.",
+      "Es de un solo sentido: el hash no revela la entrada.",
+      "Las contraseñas se guardan como hashes lentos y con sal (Argon2, bcrypt), nunca en texto plano.",
+      "El hashing verifica e identifica; el cifrado oculta. Son herramientas distintas."
+    ],
+    "links": [
+      {
+        "label": "Función hash criptográfica en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Funci%C3%B3n_hash_criptogr%C3%A1fica"
+      },
+      {
+        "label": "OWASP: cómo guardar contraseñas (en inglés)",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-14-llm",
+  "date": "2026-10-14",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["LLMs", "large language model", "language model"],
+    "es": ["LLMs", "modelo de lenguaje", "modelos de lenguaje"]
+  },
+  "image": "img/2026-10-14-llm.svg",
+  "imageAlt": {
+    "en": "An unfinished sentence entering a box labeled LLM, with three candidate next words and their probabilities coming out",
+    "es": "Una oración sin terminar entra a una caja que dice LLM y salen tres palabras candidatas con sus probabilidades"
+  },
+  "en": {
+    "title": "LLM",
+    "tagline": "A neural network trained on huge amounts of text to predict the next word.",
+    "explanation": [
+      "An **LLM** (Large Language Model) is a neural network trained on an enormous amount of text: books, websites, code, conversations. Its only job during training is to guess the next token in a sequence. Do that well enough across trillions of words and the model ends up absorbing grammar, facts, writing styles and a surprising amount of reasoning.",
+      "When you type a question into Claude or ChatGPT, the model does not look anything up. It reads your prompt, turns it into tokens, and produces the answer one token at a time, each time picking a likely continuation. The text you see is that stream of predictions, glued together.",
+      "'Large' refers to the number of weights (parameters), billions of them, and to the scale of data and GPU time used to train it. Bigger models usually generalize better, but they are also slower and more expensive to run, which is why companies offer several sizes of the same model.",
+      "LLMs matter because they turned language into an interface: you describe what you want in plain words and get a draft, a summary, a translation or working code. They also make things up with confidence (hallucination), so they work best with a person checking the output."
+    ],
+    "analogy": "The autocomplete on your phone, but trained on most of the written internet and so good at guessing the next word that it can hold a conversation.",
+    "keyPoints": [
+      "An LLM generates text one token at a time, predicting the most likely next one.",
+      "Its knowledge is frozen in its weights at training time; it does not browse unless given tools.",
+      "Claude, GPT, Gemini and Llama are all LLMs; they differ in size, data and training choices.",
+      "Fluent is not the same as correct: check the facts."
+    ],
+    "links": [
+      { "label": "3Blue1Brown: But what is a GPT?", "url": "https://www.3blue1brown.com/lessons/gpt" },
+      { "label": "Large language model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Large_language_model" }
+    ]
+  },
+  "es": {
+    "title": "LLM",
+    "tagline": "Una red neuronal entrenada con muchísimo texto para predecir la próxima palabra.",
+    "explanation": [
+      "Un **LLM** (Large Language Model, modelo de lenguaje grande) es una red neuronal entrenada con una cantidad enorme de texto: libros, sitios web, código, conversaciones. Su único trabajo durante el entrenamiento es adivinar el próximo token de una secuencia. Hacelo lo suficientemente bien sobre billones de palabras y el modelo termina absorbiendo gramática, hechos, estilos de escritura y una cantidad sorprendente de razonamiento.",
+      "Cuando escribís una pregunta en Claude o en ChatGPT, el modelo no busca nada en ningún lado. Lee tu prompt, lo convierte en tokens y produce la respuesta de a un token por vez, eligiendo cada vez una continuación probable. El texto que ves es esa cadena de predicciones, pegada.",
+      "'Grande' se refiere a la cantidad de pesos (parámetros), miles de millones, y a la escala de datos y de horas de GPU que llevó entrenarlo. Los modelos más grandes suelen generalizar mejor, pero también son más lentos y más caros de correr; por eso las empresas ofrecen varios tamaños del mismo modelo.",
+      "Los LLMs importan porque convirtieron el lenguaje en una interfaz: describís lo que querés en palabras comunes y recibís un borrador, un resumen, una traducción o código que funciona. También inventan cosas con total seguridad (alucinación), así que funcionan mejor con una persona revisando el resultado."
+    ],
+    "analogy": "El autocompletado del celular, pero entrenado con casi todo lo escrito en internet y tan bueno adivinando la próxima palabra que puede sostener una conversación.",
+    "keyPoints": [
+      "Un LLM genera texto de a un token por vez, prediciendo el más probable.",
+      "Su conocimiento queda congelado en los pesos al momento de entrenarlo; no navega salvo que le den herramientas.",
+      "Claude, GPT, Gemini y Llama son todos LLMs; difieren en tamaño, datos y decisiones de entrenamiento.",
+      "Que suene bien no significa que sea cierto: verificá los datos."
+    ],
+    "links": [
+      { "label": "3Blue1Brown: ¿Qué es un GPT? (subtítulos en español)", "url": "https://www.3blue1brown.com/lessons/gpt" },
+      { "label": "Modelo de lenguaje grande en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Large_language_model" }
+    ]
+  }
+}

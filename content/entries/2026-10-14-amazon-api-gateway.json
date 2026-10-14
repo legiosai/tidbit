@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-14-amazon-api-gateway",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "API Gateway"
+    ],
+    "es": [
+      "API Gateway"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-api-gateway.svg",
+  "imageAlt": {
+    "en": "A phone sending a request to a gateway that checks it and forwards it to a Lambda function",
+    "es": "Un celular mandando un pedido a un gateway que lo revisa y lo reenvía a una función Lambda"
+  },
+  "en": {
+    "title": "Amazon API Gateway",
+    "tagline": "The front door of your API: it receives requests and passes them to your code.",
+    "explanation": [
+      "**Amazon API Gateway** gives your API a public address on the internet and takes care of everything that happens before your code runs. You define routes like `GET /orders` or `POST /users`, tell it where each one goes (usually an AWS Lambda function, sometimes a server or another AWS service), and it handles the rest.",
+      "'The rest' is a lot: serving over HTTPS, checking API keys or login tokens (it works directly with Amazon Cognito), limiting how many requests per second each client can make, caching responses, logging every call to Amazon CloudWatch, and even keeping WebSocket connections open and turning their messages into events for your code.",
+      "Example: a mobile app calls `https://api.example.com/orders`. API Gateway receives the request, verifies the user's token, rejects it if that client already exceeded its quota, and otherwise invokes a Lambda function with the request body. The function returns JSON, and the gateway sends it back to the phone. No server was ever provisioned.",
+      "Together with Lambda and Amazon DynamoDB it is the classic recipe for a serverless backend: you pay per request, and it scales from zero to millions of calls without touching anything."
+    ],
+    "analogy": "The receptionist of an office building. Visitors do not walk straight to a desk: the receptionist checks their ID, limits how many go up at once, and points each one to the right door.",
+    "keyPoints": [
+      "You define routes and point each one at Lambda, a server or an AWS service.",
+      "Authentication, rate limiting, caching and logging happen before your code runs.",
+      "Two flavors: HTTP APIs (simpler and cheaper) and REST APIs (more features).",
+      "Billed per million requests; nothing to run or pay for while idle."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon API Gateway? (official docs)",
+        "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html"
+      },
+      {
+        "label": "Amazon API Gateway product page",
+        "url": "https://aws.amazon.com/api-gateway/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon API Gateway",
+    "tagline": "La puerta de entrada de tu API: recibe los pedidos y se los pasa a tu código.",
+    "explanation": [
+      "**Amazon API Gateway** le da a tu API una dirección pública en internet y se ocupa de todo lo que pasa antes de que corra tu código. Definís rutas como `GET /orders` o `POST /users`, le decís a dónde va cada una (casi siempre una función AWS Lambda, a veces un servidor u otro servicio de AWS), y él hace el resto.",
+      "'El resto' es bastante: servir por HTTPS, verificar API keys o tokens de login (se integra directo con Amazon Cognito), limitar cuántos pedidos por segundo puede hacer cada cliente, cachear respuestas, registrar cada llamada en Amazon CloudWatch, e incluso mantener conexiones WebSocket abiertas y convertir sus mensajes en eventos para tu código.",
+      "Ejemplo: una app móvil llama a `https://api.ejemplo.com/orders`. API Gateway recibe el pedido, verifica el token del usuario, lo rechaza si ese cliente ya pasó su cuota, y si no invoca una función Lambda con el cuerpo del pedido. La función devuelve JSON y el gateway se lo manda al celular. Nunca hubo que levantar un servidor.",
+      "Junto con Lambda y Amazon DynamoDB es la receta clásica de un backend Serverless: pagás por pedido, y escala de cero a millones de llamadas sin que toques nada."
+    ],
+    "analogy": "La recepción de un edificio de oficinas. Las visitas no suben directo a un escritorio: la recepcionista pide documento, limita cuántas personas suben a la vez y le indica a cada una qué puerta buscar.",
+    "keyPoints": [
+      "Definís rutas y apuntás cada una a Lambda, a un servidor o a un servicio de AWS.",
+      "Autenticación, límites de uso, caché y logs ocurren antes de que corra tu código.",
+      "Dos variantes: HTTP APIs (más simples y baratas) y REST APIs (más funciones).",
+      "Se cobra por millón de pedidos; no hay nada corriendo ni pagando cuando nadie llama."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon API Gateway? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/apigateway/latest/developerguide/welcome.html"
+      },
+      {
+        "label": "Página de Amazon API Gateway",
+        "url": "https://aws.amazon.com/es/api-gateway/"
+      }
+    ]
+  }
+}

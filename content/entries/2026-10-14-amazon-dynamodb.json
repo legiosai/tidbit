@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-dynamodb",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["DynamoDB", "Dynamo"],
+    "es": ["DynamoDB", "Dynamo"]
+  },
+  "image": "img/2026-10-14-amazon-dynamodb.svg",
+  "imageAlt": {
+    "en": "A table of keys and items; a key is looked up and its item comes back in milliseconds",
+    "es": "Una tabla de claves e ítems; se busca una clave y su ítem vuelve en milisegundos"
+  },
+  "en": {
+    "title": "Amazon DynamoDB",
+    "tagline": "A key-value database that answers in milliseconds no matter how big the table gets.",
+    "explanation": [
+      "**DynamoDB** is AWS's NoSQL database. Instead of tables with rows and columns joined by SQL, it stores **items** (JSON-like documents) and finds them by a **key** you choose, such as a user id or an order number. Fetching an item by key takes a few milliseconds whether the table holds a thousand items or a billion.",
+      "There is no server to size: you pay per read, per write and per gigabyte stored, and AWS spreads the table over as many machines as it needs. It is fully managed, replicated across three Availability Zones, and can keep live copies in other Regions. The catch is that it only does fast what it was designed for: getting items by key. A question like 'all orders over 100 dollars last March' needs either a careful table design or a different tool, such as Amazon RDS or Amazon Athena.",
+      "Typical uses: shopping carts, user sessions and profiles, game leaderboards, the state behind a mobile app. Amazon's own retail site leans on it for its busiest shopping days, which is roughly the scale it was built for."
+    ],
+    "analogy": "A coat check. You hand over a coat, get a numbered ticket, and later get the coat back instantly by showing the ticket. Asking the attendant for 'all the blue coats' is not what the system is for.",
+    "keyPoints": [
+      "You access items by a key you choose; design the key around the questions you will ask.",
+      "Serverless pricing: per read, per write and per gigabyte, with no instance to manage.",
+      "Reads take single-digit milliseconds at any table size.",
+      "Great for carts, sessions and profiles; a poor fit for ad hoc reporting."
+    ],
+    "links": [
+      { "label": "What is Amazon DynamoDB? (official docs)", "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html" },
+      { "label": "Amazon DynamoDB", "url": "https://aws.amazon.com/dynamodb/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon DynamoDB",
+    "tagline": "Una base de datos clave-valor que responde en milisegundos por más que crezca la tabla.",
+    "explanation": [
+      "**DynamoDB** es la base de datos NoSQL de AWS. En vez de tablas con filas y columnas unidas por SQL, guarda **ítems** (documentos parecidos a JSON) y los encuentra por una **clave** que elegís vos, como un id de usuario o un número de pedido. Buscar un ítem por clave tarda unos milisegundos, tenga la tabla mil ítems o mil millones.",
+      "No hay servidor que dimensionar: pagás por lectura, por escritura y por gigabyte guardado, y AWS reparte la tabla en tantas máquinas como haga falta. Es totalmente administrada, replicada en tres zonas de disponibilidad, y puede mantener copias vivas en otras Regiones. La trampa es que solo hace rápido lo que fue diseñada para hacer: traer ítems por clave. Una pregunta como 'todos los pedidos de más de 100 dólares de marzo' necesita un diseño de tabla muy pensado o directamente otra herramienta, como Amazon RDS o Amazon Athena.",
+      "Usos típicos: carritos de compra, sesiones y perfiles de usuario, rankings de juegos, el estado detrás de una app móvil. El propio sitio de ventas de Amazon se apoya en ella en sus días de más tráfico, que es más o menos la escala para la que fue construida."
+    ],
+    "analogy": "Un guardarropa. Entregás el abrigo, te dan un ticket con número, y después lo recuperás al instante mostrando el ticket. Pedirle al encargado 'todos los abrigos azules' no es para lo que sirve el sistema.",
+    "keyPoints": [
+      "Accedés a los ítems por una clave que elegís; diseñá la clave según las preguntas que vas a hacer.",
+      "Precio serverless: por lectura, por escritura y por gigabyte, sin ninguna instancia que administrar.",
+      "Las lecturas tardan pocos milisegundos sin importar el tamaño de la tabla.",
+      "Ideal para carritos, sesiones y perfiles; mala opción para reportes a medida."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon DynamoDB? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/Introduction.html" },
+      { "label": "Amazon DynamoDB", "url": "https://aws.amazon.com/es/dynamodb/" }
+    ]
+  }
+}

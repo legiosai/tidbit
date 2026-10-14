@@ -1,0 +1,84 @@
+{
+  "id": "2026-10-14-aws-cloudformation",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws",
+    "cloud"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "CloudFormation",
+      "CloudFormation stack",
+      "CloudFormation stacks",
+      "CloudFormation template",
+      "CloudFormation templates"
+    ],
+    "es": [
+      "CloudFormation",
+      "stack de CloudFormation",
+      "stacks de CloudFormation",
+      "plantilla de CloudFormation",
+      "plantillas de CloudFormation"
+    ]
+  },
+  "image": "img/2026-10-14-aws-cloudformation.svg",
+  "imageAlt": {
+    "en": "A template file with a few YAML lines, an arrow labeled deploy, and a stack containing a bucket, a function and a table",
+    "es": "Un archivo de plantilla con unas líneas de YAML, una flecha que dice deploy, y un stack con un bucket, una función y una tabla"
+  },
+  "en": {
+    "title": "AWS CloudFormation",
+    "tagline": "Describe your AWS infrastructure in a text file; AWS builds it exactly like that.",
+    "explanation": [
+      "**AWS CloudFormation** is the AWS service for infrastructure as code. Instead of clicking through the console to create a VPC, two servers, a database and the permissions between them, you write a **template** (a YAML or JSON file) that lists those resources and their settings. You hand the template to CloudFormation and it creates everything, in the right order, as a **stack**.",
+      "The value shows up the second time. Need the same environment for testing? Deploy the same template under another name. Need a bigger database? Edit the file, update the stack, and CloudFormation works out the difference and applies only that. Did the change break? It rolls back to the previous state. The template lives in Git, so every change to the infrastructure has an author, a review and a history.",
+      "Example: a 150-line template defines an AWS Lambda function, its IAM role, an Amazon API Gateway in front and an Amazon DynamoDB table. One command (`aws cloudformation deploy`) creates all four in a couple of minutes; deleting the stack deletes all four, with nothing forgotten and still billing.",
+      "Raw templates get verbose, so many teams generate them: the AWS CDK lets you describe the same resources in TypeScript or Python code that compiles to CloudFormation, and AWS SAM is a shorthand for serverless apps. Terraform is the popular alternative that works across clouds."
+    ],
+    "analogy": "A LEGO instruction booklet. Anyone with the booklet builds the same model, and when you want a second one you do not design it again, you follow the booklet.",
+    "keyPoints": [
+      "A template (YAML or JSON) describes resources; a stack is the deployed result.",
+      "Updates are diffs: CloudFormation changes only what differs, and rolls back on failure.",
+      "Deleting a stack removes every resource it created.",
+      "CDK and SAM generate CloudFormation templates from code; Terraform is the multi-cloud alternative."
+    ],
+    "links": [
+      {
+        "label": "What is AWS CloudFormation? (official docs)",
+        "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"
+      },
+      {
+        "label": "AWS CloudFormation product page",
+        "url": "https://aws.amazon.com/cloudformation/"
+      }
+    ]
+  },
+  "es": {
+    "title": "AWS CloudFormation",
+    "tagline": "Describís tu infraestructura de AWS en un archivo de texto y AWS la construye tal cual.",
+    "explanation": [
+      "**AWS CloudFormation** es el servicio de AWS para infraestructura como código. En vez de ir clickeando en la consola para crear una VPC, dos servidores, una base de datos y los permisos entre ellos, escribís una **plantilla** (un archivo YAML o JSON) que lista esos recursos y su configuración. Le entregás la plantilla a CloudFormation y crea todo, en el orden correcto, como un **stack**.",
+      "El valor aparece la segunda vez. ¿Necesitás el mismo ambiente para pruebas? Desplegás la misma plantilla con otro nombre. ¿Necesitás una base más grande? Editás el archivo, actualizás el stack, y CloudFormation calcula la diferencia y aplica solo eso. ¿El cambio salió mal? Vuelve al estado anterior. La plantilla vive en Git, así que cada cambio en la infraestructura tiene autor, revisión e historia.",
+      "Ejemplo: una plantilla de 150 líneas define una función AWS Lambda, su rol de IAM, un Amazon API Gateway adelante y una tabla de Amazon DynamoDB. Un comando (`aws cloudformation deploy`) crea las cuatro cosas en un par de minutos; borrar el stack borra las cuatro, sin que quede nada olvidado y facturando.",
+      "Las plantillas crudas se vuelven largas, así que muchos equipos las generan: el AWS CDK permite describir los mismos recursos en código TypeScript o Python que se compila a CloudFormation, y AWS SAM es una forma abreviada para apps serverless. Terraform es la alternativa popular que funciona en cualquier nube."
+    ],
+    "analogy": "El manual de instrucciones de un LEGO. Cualquiera con el manual arma el mismo modelo, y cuando querés un segundo no lo diseñás de nuevo, seguís el manual.",
+    "keyPoints": [
+      "Una plantilla (YAML o JSON) describe recursos; el stack es el resultado desplegado.",
+      "Las actualizaciones son diferencias: CloudFormation cambia solo lo que cambió, y vuelve atrás si falla.",
+      "Borrar un stack elimina todos los recursos que creó.",
+      "CDK y SAM generan plantillas de CloudFormation desde código; Terraform es la alternativa multinube."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es AWS CloudFormation? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/AWSCloudFormation/latest/UserGuide/Welcome.html"
+      },
+      {
+        "label": "Página de AWS CloudFormation",
+        "url": "https://aws.amazon.com/es/cloudformation/"
+      }
+    ]
+  }
+}

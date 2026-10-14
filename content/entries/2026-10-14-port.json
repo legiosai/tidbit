@@ -1,0 +1,54 @@
+{
+  "id": "2026-10-14-port",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": { "en": ["ports"], "es": ["puertos"] },
+  "image": "img/2026-10-14-port.svg",
+  "imageAlt": {
+    "en": "A server drawn as a building with numbered doors 22, 53, 80 and 443, and a packet arriving at door 443",
+    "es": "Un servidor dibujado como un edificio con puertas numeradas 22, 53, 80 y 443, y un paquete llegando a la puerta 443"
+  },
+  "en": {
+    "title": "Port",
+    "tagline": "The numbered door on a computer that says which program a connection is for.",
+    "explanation": [
+      "An IP address gets a packet to the right computer; a **port** gets it to the right program on that computer. It is a number from 0 to 65535 that both TCP and UDP attach to every packet, next to the address. A server listens on a port, and anything arriving there is handed to the program behind it: a web server, a database, a mail server.",
+      "Many ports are conventions everyone follows. `80` is HTTP, `443` is HTTPS, `22` is SSH (remote terminals), `53` is DNS, `25` is email between servers, `5432` is PostgreSQL. When you type `https://example.com`, the browser silently uses port 443; a URL like `http://localhost:3000` is how a developer reaches an app running on port 3000 on their own machine. Your side of the connection also gets a port, a random high number, so the reply knows which browser tab it belongs to.",
+      "Ports are also where security starts. A firewall is, at its simplest, a list of which ports are open to whom: a web server exposes 443 and nothing else. An open port is a door that answers; scanning a server's ports is the first thing an attacker (or a security audit) does. Closing everything you do not use is the cheapest hardening there is."
+    ],
+    "analogy": "An office building with one street address and many numbered doors. The mail arrives at the building (the IP address) and the number on the envelope (the port) says which office gets it.",
+    "keyPoints": [
+      "IP address = which machine; port = which program on that machine.",
+      "Well-known ports: 80 HTTP, 443 HTTPS, 22 SSH, 53 DNS.",
+      "A firewall decides which ports are reachable from outside.",
+      "The browser hides the port when it is the standard one for the scheme."
+    ],
+    "links": [
+      { "label": "What is a computer port? (Cloudflare)", "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/" },
+      { "label": "Port (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Port" },
+      { "label": "Port, computer networking (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Port_(computer_networking)" }
+    ]
+  },
+  "es": {
+    "title": "Puerto",
+    "tagline": "La puerta numerada de una computadora que dice a qué programa va una conexión.",
+    "explanation": [
+      "Una dirección IP lleva un paquete hasta la computadora correcta; un **puerto** lo lleva hasta el programa correcto dentro de esa computadora. Es un número de 0 a 65535 que tanto TCP como UDP agregan a cada paquete, al lado de la dirección. Un servidor escucha en un puerto, y todo lo que llega ahí se le entrega al programa que está detrás: un servidor web, una base de datos, un servidor de mail.",
+      "Muchos puertos son convenciones que todos respetan. `80` es HTTP, `443` es HTTPS, `22` es SSH (terminales remotas), `53` es DNS, `25` es mail entre servidores, `5432` es PostgreSQL. Cuando escribís `https://ejemplo.com`, el navegador usa el puerto 443 sin decirlo; una URL como `http://localhost:3000` es la forma en que un desarrollador llega a una app que corre en el puerto 3000 de su propia máquina. Tu lado de la conexión también recibe un puerto, un número alto al azar, para que la respuesta sepa a qué pestaña del navegador pertenece.",
+      "Los puertos son además donde empieza la seguridad. Un firewall es, en su forma más simple, una lista de qué puertos están abiertos y para quién: un servidor web expone el 443 y nada más. Un puerto abierto es una puerta que responde; escanear los puertos de un servidor es lo primero que hace un atacante (o una auditoría de seguridad). Cerrar todo lo que no usás es el blindaje más barato que existe."
+    ],
+    "analogy": "Un edificio de oficinas con una sola dirección y muchas puertas numeradas. El correo llega al edificio (la dirección IP) y el número en el sobre (el puerto) dice a qué oficina va.",
+    "keyPoints": [
+      "Dirección IP = qué máquina; puerto = qué programa dentro de esa máquina.",
+      "Puertos conocidos: 80 HTTP, 443 HTTPS, 22 SSH, 53 DNS.",
+      "Un firewall decide qué puertos se pueden alcanzar desde afuera.",
+      "El navegador esconde el puerto cuando es el estándar del esquema."
+    ],
+    "links": [
+      { "label": "¿Qué es un puerto de computadora? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/network-layer/what-is-a-computer-port/" },
+      { "label": "Puerto (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Port" },
+      { "label": "Puerto de red (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Puerto_de_red" }
+    ]
+  }
+}

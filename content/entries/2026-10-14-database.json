@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-14-database",
+  "date": "2026-10-14",
+  "subjects": [
+    "software",
+    "data"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "databases"
+    ],
+    "es": [
+      "bases de datos"
+    ]
+  },
+  "image": "img/2026-10-14-database.svg",
+  "imageAlt": {
+    "en": "A database cylinder holding a table of rows and columns, queried by a web app and a mobile app",
+    "es": "Un cilindro de base de datos con una tabla de filas y columnas, consultado por una app web y una app móvil"
+  },
+  "en": {
+    "title": "Database",
+    "tagline": "An organized store of data that programs can search and update safely.",
+    "explanation": [
+      "A **database** is a program whose whole job is to store data and answer questions about it quickly and safely: every user of an app, every order, every message. Unlike a spreadsheet, it is built to be used by many programs at once, to hold millions of rows, and to never lose or half-save a change, even if the power goes out in the middle of a write.",
+      "The most common kind is **relational**: data lives in tables with rows and columns (a `customers` table, an `orders` table), tables point to each other by ids, and you ask questions in SQL. PostgreSQL, MySQL and SQLite are relational and open source; Amazon RDS runs them for you in the cloud. **NoSQL** databases drop the strict tables for flexible documents (MongoDB), key-value pairs (Redis, Amazon DynamoDB) or graphs, trading some guarantees for speed or scale.",
+      "Almost every app you use is a thin layer over a database. Open Instagram and a query fetches your feed; pay someone and a **transaction** moves money between two accounts as a single all-or-nothing step. Backups, indexes (so a row can be found without scanning the whole table) and permissions are the daily work of keeping one healthy."
+    ],
+    "analogy": "A library with a catalog. Books (data) sit on numbered shelves (tables), the catalog (index) tells you where to look without walking every aisle, and the librarian (the database engine) makes sure two people do not rewrite the same card at the same time.",
+    "keyPoints": [
+      "Relational databases store tables and speak SQL; NoSQL ones store documents, key-value pairs or graphs.",
+      "A transaction is a group of changes that either all happen or none do.",
+      "An index makes searches fast at the cost of some space and slightly slower writes.",
+      "The database is usually the hardest part of a system to scale and the most important to back up."
+    ],
+    "links": [
+      {
+        "label": "What is a database? (AWS)",
+        "url": "https://aws.amazon.com/what-is/database/"
+      },
+      {
+        "label": "Database (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Database"
+      }
+    ]
+  },
+  "es": {
+    "title": "Base de datos",
+    "tagline": "Un depósito ordenado de datos que los programas consultan y actualizan sin riesgo.",
+    "explanation": [
+      "Una **base de datos** es un programa cuyo único trabajo es guardar datos y responder preguntas sobre ellos rápido y de forma segura: cada usuario de una app, cada pedido, cada mensaje. A diferencia de una planilla, está hecha para que la usen muchos programas a la vez, para tener millones de filas, y para no perder ni guardar a medias un cambio, aunque se corte la luz en el medio de una escritura.",
+      "El tipo más común es la **relacional**: los datos viven en tablas con filas y columnas (una tabla `clientes`, una tabla `pedidos`), las tablas se apuntan entre sí por ids, y las preguntas se hacen en SQL. PostgreSQL, MySQL y SQLite son relacionales y de código abierto; Amazon RDS las corre por vos en la nube. Las bases **NoSQL** dejan las tablas estrictas por documentos flexibles (MongoDB), pares clave-valor (Redis, Amazon DynamoDB) o grafos, cambiando algunas garantías por velocidad o escala.",
+      "Casi toda app que usás es una capa finita sobre una base de datos. Abrís Instagram y una consulta trae tu feed; le pagás a alguien y una **transacción** mueve plata entre dos cuentas como un único paso de todo o nada. Backups, índices (para encontrar una fila sin recorrer toda la tabla) y permisos son el trabajo diario de mantener una sana."
+    ],
+    "analogy": "Una biblioteca con catálogo. Los libros (datos) están en estantes numerados (tablas), el catálogo (índice) te dice dónde buscar sin recorrer todos los pasillos, y el bibliotecario (el motor de la base) se asegura de que dos personas no reescriban la misma ficha a la vez.",
+    "keyPoints": [
+      "Las bases relacionales guardan tablas y hablan SQL; las NoSQL guardan documentos, pares clave-valor o grafos.",
+      "Una transacción es un grupo de cambios que ocurren todos o ninguno.",
+      "Un índice hace rápidas las búsquedas a cambio de algo de espacio y escrituras un poco más lentas.",
+      "La base de datos suele ser la parte más difícil de escalar de un sistema y la más importante de respaldar."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es una base de datos? (AWS)",
+        "url": "https://aws.amazon.com/es/what-is/database/"
+      },
+      {
+        "label": "Base de datos (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Base_de_datos"
+      }
+    ]
+  }
+}

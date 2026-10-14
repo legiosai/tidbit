@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-10-gpu",
+  "date": "2026-10-10",
+  "subjects": [
+    "hardware",
+    "ai"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "GPUs"
+    ],
+    "es": [
+      "GPUs"
+    ]
+  },
+  "image": "img/2026-10-10-gpu.svg",
+  "imageAlt": {
+    "en": "One big CPU core next to a grid of many tiny GPU cores",
+    "es": "Un núcleo de CPU grande junto a una grilla de muchos núcleos de GPU chiquitos"
+  },
+  "en": {
+    "title": "GPU",
+    "tagline": "The chip that does thousands of simple calculations at once.",
+    "explanation": [
+      "A **GPU** (Graphics Processing Unit) was invented to draw video game frames: millions of pixels that all need the same small calculation at the same time. Instead of a few powerful cores like a CPU, a GPU has thousands of small ones that work in parallel.",
+      "It turns out that training and running AI models is the same kind of problem. A neural network is mostly huge multiplications of number grids (matrices), and a GPU can do those much faster than a CPU.",
+      "That is why NVIDIA became one of the most valuable companies in the world, why data centers are full of GPUs, and why a modern AI model is measured in how many GPUs it took to train."
+    ],
+    "analogy": "A CPU is a brilliant chef who can cook any dish. A GPU is a thousand line cooks who each chop one onion. For a banquet of onions, the line cooks win.",
+    "keyPoints": [
+      "CPU: few fast cores, good at varied tasks. GPU: many simple cores, good at repeated math.",
+      "AI training and inference run mostly on GPUs or similar chips (TPUs).",
+      "GPU memory (VRAM) decides how big a model fits on one card."
+    ],
+    "links": [
+      {
+        "label": "GPU on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+      },
+      {
+        "label": "NVIDIA: what is accelerated computing",
+        "url": "https://blogs.nvidia.com/blog/what-is-accelerated-computing/"
+      }
+    ]
+  },
+  "es": {
+    "title": "GPU",
+    "tagline": "El chip que hace miles de cálculos simples al mismo tiempo.",
+    "explanation": [
+      "Una **GPU** (Graphics Processing Unit) se inventó para dibujar cuadros de videojuegos: millones de píxeles que necesitan el mismo cálculo chiquito a la vez. En lugar de pocos núcleos potentes como una CPU, una GPU tiene miles de núcleos pequeños que trabajan en paralelo.",
+      "Resulta que entrenar y ejecutar modelos de IA es el mismo tipo de problema. Una red neuronal es, en el fondo, multiplicaciones enormes de grillas de números (matrices), y una GPU las hace mucho más rápido que una CPU.",
+      "Por eso NVIDIA se volvió una de las empresas más valiosas del mundo, por eso los data centers están llenos de GPUs, y por eso un modelo de IA moderno se mide en cuántas GPUs hicieron falta para entrenarlo."
+    ],
+    "analogy": "Una CPU es un chef brillante que puede cocinar cualquier plato. Una GPU son mil ayudantes que pican una cebolla cada uno. Para un banquete de cebollas, ganan los ayudantes.",
+    "keyPoints": [
+      "CPU: pocos núcleos rápidos, buena para tareas variadas. GPU: muchos núcleos simples, buena para matemática repetida.",
+      "El entrenamiento y la inferencia de IA corren casi siempre en GPUs o chips parecidos (TPUs).",
+      "La memoria de la GPU (VRAM) decide qué tamaño de modelo entra en una placa."
+    ],
+    "links": [
+      {
+        "label": "GPU en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Unidad_de_procesamiento_gr%C3%A1fico"
+      },
+      {
+        "label": "NVIDIA: qué es la computación acelerada",
+        "url": "https://blogs.nvidia.com/blog/what-is-accelerated-computing/"
+      }
+    ]
+  }
+}

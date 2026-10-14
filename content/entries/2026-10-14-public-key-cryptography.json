@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-public-key-cryptography",
+  "date": "2026-10-14",
+  "subjects": [
+    "security"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "asymmetric encryption",
+      "public key",
+      "private key",
+      "key pair",
+      "digital signature"
+    ],
+    "es": [
+      "criptografía asimétrica",
+      "clave pública",
+      "clave privada",
+      "par de claves",
+      "firma digital"
+    ]
+  },
+  "image": "img/2026-10-14-public-key-cryptography.svg",
+  "imageAlt": {
+    "en": "A mailbox with a slot anyone can drop a letter into, and a single private key that opens it",
+    "es": "Un buzón con una ranura por la que cualquiera puede meter una carta, y una única llave privada que lo abre"
+  },
+  "en": {
+    "title": "Public-key cryptography",
+    "tagline": "Two linked keys: one you share with everyone to lock, one you keep to unlock.",
+    "explanation": [
+      "**Public-key cryptography** uses a mathematically linked **key pair**. What the **public key** locks, only the **private key** opens, and the public key cannot be used to work out the private one. So you can publish your public key anywhere, and anyone can send you something only you can read. The older kind, symmetric encryption, uses one shared key for both directions, which leaves a hard problem: how do two strangers agree on a secret over a network everyone can listen to?",
+      "That is the problem it solves, and it is why the internet works. When your browser opens an HTTPS site, it uses the server's public key (delivered inside its TLS certificate) to agree on a fresh symmetric key, and the rest of the session runs on that faster key. The same idea protects your `ssh` login to a server (your public key sits on the server, your private key never leaves your laptop), the messages in end-to-end encryption apps, cryptocurrency wallets and passkeys.",
+      "The pair also works backwards, as a **digital signature**: something locked with your private key can be opened by anyone with your public key, which proves it came from you and was not changed. Software updates, Git commits and certificates are signed this way. Common algorithms are RSA and elliptic-curve ones like Ed25519; the latter are smaller and faster and are now the default.",
+      "The one rule that matters in daily life: the private key is the whole secret. Whoever has the file (or the seed phrase of a crypto wallet) is you, as far as the math is concerned."
+    ],
+    "analogy": "A mailbox with a slot. Anyone can drop a letter in (the public key), but only the owner's key opens the door (the private key). A signature is the reverse: a wax seal only you can press, which anyone can recognize.",
+    "keyPoints": [
+      "A key pair: public to lock, private to unlock, and the public one does not reveal the private one.",
+      "It lets two strangers agree on a secret over a network anyone can listen to.",
+      "Reversed, it makes digital signatures: proof of who sent something and that it was not altered.",
+      "The private key is the whole secret; whoever holds it is you."
+    ],
+    "links": [
+      {
+        "label": "How does public key encryption work? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/ssl/how-does-public-key-encryption-work/"
+      },
+      {
+        "label": "Public-key cryptography on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+      }
+    ]
+  },
+  "es": {
+    "title": "Criptografía de clave pública",
+    "tagline": "Dos claves ligadas: una que compartís con todos para cerrar, otra que guardás para abrir.",
+    "explanation": [
+      "La **criptografía de clave pública** usa un **par de claves** ligadas matemáticamente. Lo que cierra la **clave pública** solo lo abre la **clave privada**, y la pública no sirve para deducir la privada. Entonces podés publicar tu clave pública donde quieras, y cualquiera puede mandarte algo que solo vos podés leer. La variante más vieja, el cifrado simétrico, usa una sola clave compartida para los dos sentidos, lo que deja un problema difícil: ¿cómo acuerdan un secreto dos desconocidos sobre una red que todos pueden escuchar?",
+      "Ese es el problema que resuelve, y es la razón por la que internet funciona. Cuando tu navegador abre un sitio HTTPS, usa la clave pública del servidor (que viene adentro de su Certificado TLS) para acordar una clave simétrica nueva, y el resto de la sesión corre sobre esa clave más rápida. La misma idea protege tu acceso por `ssh` a un servidor (tu clave pública queda en el servidor, la privada nunca sale de tu notebook), los mensajes en apps con cifrado de extremo a extremo, las billeteras de criptomonedas y las passkeys.",
+      "El par también funciona al revés, como **firma digital**: algo cerrado con tu clave privada lo puede abrir cualquiera con tu clave pública, lo que prueba que vino de vos y que no fue modificado. Las actualizaciones de software, los commits de Git y los certificados se firman así. Los algoritmos comunes son RSA y los de curva elíptica como Ed25519; estos últimos son más chicos y rápidos y hoy son el estándar.",
+      "La única regla que importa en el día a día: la clave privada es todo el secreto. Quien tenga el archivo (o la frase semilla de una billetera cripto) es vos, en lo que a la matemática respecta."
+    ],
+    "analogy": "Un buzón con ranura. Cualquiera puede meter una carta (la clave pública), pero solo la llave del dueño abre la puertita (la clave privada). La firma es al revés: un sello de lacre que solo vos podés estampar y cualquiera puede reconocer.",
+    "keyPoints": [
+      "Un par de claves: la pública cierra, la privada abre, y la pública no revela la privada.",
+      "Permite que dos desconocidos acuerden un secreto sobre una red que cualquiera puede escuchar.",
+      "Al revés, produce firmas digitales: prueba de quién mandó algo y de que no fue alterado.",
+      "La clave privada es todo el secreto; quien la tiene sos vos."
+    ],
+    "links": [
+      {
+        "label": "¿Cómo funciona el cifrado de clave pública? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/ssl/how-does-public-key-encryption-work/"
+      },
+      {
+        "label": "Criptografía asimétrica en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Criptograf%C3%ADa_asim%C3%A9trica"
+      }
+    ]
+  }
+}

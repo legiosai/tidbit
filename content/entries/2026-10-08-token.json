@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-08-token",
+  "date": "2026-10-08",
+  "subjects": [
+    "ai"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "tokens"
+    ],
+    "es": [
+      "tokens"
+    ]
+  },
+  "image": "img/2026-10-08-token.svg",
+  "imageAlt": {
+    "en": "A sentence being cut into small labeled pieces",
+    "es": "Una oración cortada en pedacitos etiquetados"
+  },
+  "en": {
+    "title": "Token",
+    "tagline": "The small chunk of text a language model actually reads.",
+    "explanation": [
+      "A language model like Claude or ChatGPT does not read letters or whole words. It reads **tokens**: pieces of text that are usually a short word, part of a long word, or a punctuation mark. The word `cat` is one token; `unbelievable` might be three.",
+      "Before the model sees your message, a program called a tokenizer splits it into tokens and turns each one into a number. The model works with those numbers, predicts the next token, and the output is turned back into text.",
+      "Tokens matter in practice because that is what you pay for and what fits in the model's memory. A page of English is roughly 400 tokens; Spanish and code usually need a bit more."
+    ],
+    "analogy": "Think of Lego bricks. You do not build with raw plastic, and you do not buy a whole castle: you work with standard pieces that snap together. Tokens are the bricks of text.",
+    "keyPoints": [
+      "One token is about 3 or 4 English characters on average.",
+      "Prices and limits for AI models are measured in tokens, not words.",
+      "The same text can be more tokens in another language or in code."
+    ],
+    "links": [
+      {
+        "label": "Anthropic tokenizer and token counting",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/token-counting"
+      },
+      {
+        "label": "OpenAI tokenizer playground",
+        "url": "https://platform.openai.com/tokenizer"
+      }
+    ]
+  },
+  "es": {
+    "title": "Token",
+    "tagline": "El pedacito de texto que un modelo de lenguaje realmente lee.",
+    "explanation": [
+      "Un modelo de lenguaje como Claude o ChatGPT no lee letras ni palabras completas. Lee **tokens**: trozos de texto que suelen ser una palabra corta, una parte de una palabra larga o un signo de puntuación. La palabra `gato` es un token; `increíblemente` puede ser tres.",
+      "Antes de que el modelo vea tu mensaje, un programa llamado tokenizador lo parte en tokens y convierte cada uno en un número. El modelo trabaja con esos números, predice el siguiente token y la salida se vuelve a convertir en texto.",
+      "Los tokens importan en la práctica porque es lo que pagás y lo que entra en la memoria del modelo. Una página en inglés son unos 400 tokens; el español y el código suelen necesitar un poco más."
+    ],
+    "analogy": "Pensá en bloques de Lego. No construís con plástico crudo ni comprás un castillo entero: trabajás con piezas estándar que encajan. Los tokens son los bloques del texto.",
+    "keyPoints": [
+      "Un token son unos 3 o 4 caracteres en inglés, en promedio.",
+      "Los precios y límites de los modelos de IA se miden en tokens, no en palabras.",
+      "El mismo texto puede ser más tokens en otro idioma o en código."
+    ],
+    "links": [
+      {
+        "label": "Conteo de tokens en la documentación de Anthropic",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/token-counting"
+      },
+      {
+        "label": "Tokenizador interactivo de OpenAI",
+        "url": "https://platform.openai.com/tokenizer"
+      }
+    ]
+  }
+}

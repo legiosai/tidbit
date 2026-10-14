@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="28" y="36" width="230" height="110" rx="8" fill="#e6dfd0"/>
+    <rect x="28" y="160" width="230" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="286" y="36" width="86" height="168" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M44 130 V52 M44 130 H244"/>
+    <path d="M44 100 H244" stroke-dasharray="4 4"/>
+    <path d="M44 118 L70 112 L96 116 L120 108 L146 110 L170 96 L194 80 L216 68 L238 60" stroke="#2b2b2b" stroke-width="2"/>
+  </g>
+  <circle cx="194" cy="80" r="5" fill="#f4a7a7" stroke="#2b2b2b" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">
+    <text x="50" y="48">CPU %</text>
+    <text x="190" y="96">80% for 5 min</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b">
+    <text x="38" y="178">02:14 INFO  request ok</text>
+    <text x="38" y="194">02:15 ERROR timeout db</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M314 112 a15 15 0 0 1 30 0 v14 l6 8 h-42 l6 -8 z" fill="#f4a7a7"/>
+    <circle cx="329" cy="140" r="4" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="329" y="66">alarm</text>
+    <text x="329" y="84">metric &gt; limit</text>
+    <text x="329" y="170">email</text>
+    <text x="329" y="186">or scale</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M258 90 H280"/><path d="M274 86 l6 4 -6 4"/>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">metrics · logs · alarms</text>
+</svg>

@@ -1,0 +1,49 @@
+name: site
+
+# Valida el contenido y publica el sitio en GitHub Pages en cada push a main.
+# No genera entradas: las entradas se escriben a mano (ver CONTRIBUTING.md), con
+# o sin ayuda de scripts/generate.mjs, y se pushean. Sin secretos.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      # El índice commiteado tiene que ser el que sale de las entradas commiteadas.
+      - run: node scripts/build-index.mjs
+      - run: git diff --exit-code -- content/index.json || (echo "content/index.json está desactualizado: corré 'npm run index' y commiteá" && exit 1)
+
+  publish:
+    if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: mkdir -p dist && cp -R index.html app.js style.css content dist/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4

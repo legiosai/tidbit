@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-14-json",
+  "date": "2026-10-14",
+  "subjects": [
+    "software"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-10-14-json.svg",
+  "imageAlt": {
+    "en": "A JSON document with keys and values, read by programs in two different languages",
+    "es": "Un documento JSON con claves y valores, leído por programas en dos lenguajes distintos"
+  },
+  "en": {
+    "title": "JSON",
+    "tagline": "The plain-text format programs use to hand each other structured data.",
+    "explanation": [
+      "**JSON** (JavaScript Object Notation, said \"jason\") is a text format for writing structured data: names with values, lists, and nested groups of them. A user might be `{\"name\": \"Ana\", \"age\": 31, \"languages\": [\"es\", \"en\"]}`. Humans can read it, every programming language can parse it, and it takes one line of code to turn it into an object you can work with.",
+      "It was born inside JavaScript in the early 2000s and spread because it is far simpler than XML, the format it replaced. Today nearly every web API answers in JSON, many configuration files are JSON (`package.json`, `tsconfig.json`), and databases like Amazon DynamoDB or MongoDB store documents that are essentially JSON.",
+      "It has only six kinds of value: string, number, true/false, null, array (`[...]`) and object (`{...}`). No dates, no comments, no trailing commas. That strictness is why it is so portable, and also why a single missing quote breaks the whole file. When size or speed matter more than readability, binary formats like Protocol Buffers or Parquet take over."
+    ],
+    "analogy": "A filled-in form with labeled boxes. Any clerk in any office can read \"Name: Ana, Age: 31\" because the labels travel with the values, and a box can contain another whole form.",
+    "keyPoints": [
+      "Keys are strings in double quotes; values can be text, numbers, booleans, null, lists or objects.",
+      "It is the default response format of web APIs.",
+      "Every major language has a built-in JSON parser.",
+      "Strict syntax: one stray comma makes the file invalid."
+    ],
+    "links": [
+      {
+        "label": "Introducing JSON (json.org)",
+        "url": "https://www.json.org/json-en.html"
+      },
+      {
+        "label": "Working with JSON (MDN)",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON"
+      },
+      {
+        "label": "JSON (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/JSON"
+      }
+    ]
+  },
+  "es": {
+    "title": "JSON",
+    "tagline": "El formato de texto con el que los programas se pasan datos estructurados.",
+    "explanation": [
+      "**JSON** (JavaScript Object Notation, se dice \"yeison\") es un formato de texto para escribir datos con estructura: nombres con valores, listas, y grupos anidados de eso. Un usuario puede ser `{\"nombre\": \"Ana\", \"edad\": 31, \"idiomas\": [\"es\", \"en\"]}`. Una persona lo puede leer, cualquier lenguaje de programación lo puede interpretar, y con una línea de código lo convertís en un objeto con el que trabajar.",
+      "Nació adentro de JavaScript a principios de los 2000 y se extendió porque es mucho más simple que XML, el formato que reemplazó. Hoy casi toda API web responde en JSON, muchos archivos de configuración son JSON (`package.json`, `tsconfig.json`), y bases como Amazon DynamoDB o MongoDB guardan documentos que son, en el fondo, JSON.",
+      "Tiene solo seis tipos de valor: texto, número, verdadero/falso, null, lista (`[...]`) y objeto (`{...}`). Sin fechas, sin comentarios, sin comas al final. Esa rigidez es lo que lo hace tan portable, y también por lo que una comilla faltante rompe el archivo entero. Cuando importa más el tamaño o la velocidad que la legibilidad, aparecen formatos binarios como Protocol Buffers o Parquet."
+    ],
+    "analogy": "Un formulario con casilleros rotulados. Cualquier empleado de cualquier oficina puede leer \"Nombre: Ana, Edad: 31\" porque los rótulos viajan con los valores, y un casillero puede contener otro formulario entero.",
+    "keyPoints": [
+      "Las claves son texto entre comillas dobles; los valores pueden ser texto, números, booleanos, null, listas u objetos.",
+      "Es el formato de respuesta por defecto de las APIs web.",
+      "Todos los lenguajes importantes traen un parser de JSON incorporado.",
+      "Sintaxis estricta: una coma de más deja el archivo inválido."
+    ],
+    "links": [
+      {
+        "label": "Introducción a JSON (json.org)",
+        "url": "https://www.json.org/json-es.html"
+      },
+      {
+        "label": "Trabajar con JSON (MDN)",
+        "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Core/Scripting/JSON"
+      },
+      {
+        "label": "JSON (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/JSON"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-14-end-to-end-encryption",
+  "date": "2026-10-14",
+  "subjects": [
+    "security"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "E2EE",
+      "end-to-end encrypted",
+      "end to end encryption"
+    ],
+    "es": [
+      "E2EE",
+      "cifrado de punta a punta",
+      "cifrado extremo a extremo",
+      "cifrado de extremo a extremo"
+    ]
+  },
+  "image": "img/2026-10-14-end-to-end-encryption.svg",
+  "imageAlt": {
+    "en": "Two phones exchanging a locked message through a server that only ever sees it locked",
+    "es": "Dos teléfonos intercambiando un mensaje con candado a través de un servidor que solo lo ve cerrado"
+  },
+  "en": {
+    "title": "End-to-end encryption",
+    "tagline": "Only the sender and the recipient can read a message; the service in between cannot.",
+    "explanation": [
+      "**End-to-end encryption** (E2EE) means a message is encrypted on your phone and decrypted only on the recipient's phone. The company that carries it (WhatsApp, Signal, Apple for iMessage) stores and forwards scrambled bytes it cannot read, because the keys exist only on the two devices. That is the difference with ordinary HTTPS, which protects the trip to the server but lets the server read everything once it arrives.",
+      "It works with public-key cryptography: each device publishes a public key, and your phone uses the recipient's public key to lock the message so that only their private key opens it. The Signal protocol, used by Signal, WhatsApp and others, adds a trick: keys rotate with every message, so even a key stolen later cannot unlock old conversations.",
+      "The limits matter. E2EE hides content, not metadata: the service still knows who talks to whom, when and how often. It does nothing if the phone itself is compromised, if someone screenshots the chat, or if your cloud backup of the chat is not encrypted the same way (check that setting; it is often the weak spot). And when a government asks for a 'backdoor' for investigators, the technical answer is that a door for one party is a door for anyone who finds it.",
+      "Practically: your chat app probably already has it on; the setting worth checking is encrypted backups. For email, E2EE is rare and awkward, so treat email as a postcard."
+    ],
+    "analogy": "HTTPS is an armored truck between post offices: safe on the road, opened at each office. End-to-end encryption is a letter in a box only the recipient's key opens; the post office just carries the box.",
+    "keyPoints": [
+      "Encrypted on one device, decrypted on the other; the service never has the key.",
+      "HTTPS protects the road to the server; E2EE also protects against the server.",
+      "It hides content, not who talks to whom or when.",
+      "Unencrypted cloud backups are the usual gap; check that setting."
+    ],
+    "links": [
+      {
+        "label": "What is end-to-end encryption? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/privacy/what-is-end-to-end-encryption/"
+      },
+      {
+        "label": "End-to-end encryption on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/End-to-end_encryption"
+      }
+    ]
+  },
+  "es": {
+    "title": "Cifrado de extremo a extremo",
+    "tagline": "Solo quien manda y quien recibe pueden leer el mensaje; el servicio del medio, no.",
+    "explanation": [
+      "El **cifrado de extremo a extremo** (E2EE) significa que un mensaje se cifra en tu teléfono y se descifra solo en el teléfono de quien lo recibe. La empresa que lo transporta (WhatsApp, Signal, Apple para iMessage) guarda y reenvía bytes revueltos que no puede leer, porque las claves existen únicamente en los dos dispositivos. Esa es la diferencia con el HTTPS común, que protege el viaje hasta el servidor pero deja que el servidor lea todo cuando llega.",
+      "Funciona con criptografía de clave pública: cada dispositivo publica una clave pública, y tu teléfono usa la clave pública del destinatario para cerrar el mensaje de modo que solo su clave privada lo abra. El protocolo Signal, que usan Signal, WhatsApp y otros, agrega un truco: las claves rotan con cada mensaje, así que ni una clave robada más adelante puede abrir conversaciones viejas.",
+      "Los límites importan. El E2EE oculta el contenido, no los metadatos: el servicio igual sabe quién habla con quién, cuándo y cuánto. No sirve de nada si el teléfono mismo está comprometido, si alguien saca una captura del chat, o si el backup del chat en la nube no está cifrado de la misma forma (revisá esa opción; suele ser el punto débil). Y cuando un gobierno pide una 'puerta trasera' para investigadores, la respuesta técnica es que una puerta para uno es una puerta para cualquiera que la encuentre.",
+      "En la práctica: tu app de chat seguramente ya lo tiene activado; lo que vale la pena revisar es el backup cifrado. Para el correo electrónico el E2EE es raro e incómodo, así que tratá al email como una postal."
+    ],
+    "analogy": "HTTPS es un camión blindado entre oficinas de correo: seguro en la ruta, abierto en cada oficina. El cifrado de extremo a extremo es una carta en una caja que solo abre la llave del destinatario; el correo nada más lleva la caja.",
+    "keyPoints": [
+      "Se cifra en un dispositivo y se descifra en el otro; el servicio nunca tiene la clave.",
+      "HTTPS protege el camino hasta el servidor; el E2EE también protege del servidor.",
+      "Oculta el contenido, no quién habla con quién ni cuándo.",
+      "Los backups en la nube sin cifrar son el hueco habitual; revisá esa opción."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es el cifrado de extremo a extremo? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/privacy/what-is-end-to-end-encryption/"
+      },
+      {
+        "label": "Cifrado de extremo a extremo en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Cifrado_de_extremo_a_extremo"
+      }
+    ]
+  }
+}

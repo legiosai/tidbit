@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle"><text x="100" y="40">CPU</text><text x="290" y="40">GPU</text></g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="56" width="120" height="120" rx="10" fill="#e6dfd0"/>
+    <rect x="52" y="68" width="46" height="46" rx="6" fill="#ffd166"/><rect x="102" y="68" width="46" height="46" rx="6" fill="#ffd166"/>
+    <rect x="52" y="118" width="46" height="46" rx="6" fill="#ffd166"/><rect x="102" y="118" width="46" height="46" rx="6" fill="#ffd166"/>
+    <rect x="210" y="56" width="160" height="120" rx="10" fill="#e6dfd0"/>
+  </g>
+  <g fill="#9bd1b9" stroke="#2b2b2b" stroke-width="1">
+    <g id="r"><rect x="218" y="64" width="12" height="12" rx="2"/><rect x="232" y="64" width="12" height="12" rx="2"/><rect x="246" y="64" width="12" height="12" rx="2"/><rect x="260" y="64" width="12" height="12" rx="2"/><rect x="274" y="64" width="12" height="12" rx="2"/><rect x="288" y="64" width="12" height="12" rx="2"/><rect x="302" y="64" width="12" height="12" rx="2"/><rect x="316" y="64" width="12" height="12" rx="2"/><rect x="330" y="64" width="12" height="12" rx="2"/><rect x="344" y="64" width="12" height="12" rx="2"/></g>
+    <use href="#r" y="14"/><use href="#r" y="28"/><use href="#r" y="42"/><use href="#r" y="56"/><use href="#r" y="70"/><use href="#r" y="84"/><use href="#r" y="98"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="200">4 big cores</text><text x="290" y="200">thousands of small cores</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">few &amp; smart vs many &amp; simple</text>
+</svg>

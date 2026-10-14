@@ -1,0 +1,11 @@
+{
+  "ai":        { "en": "AI",             "es": "IA",              "hint": "neural networks, LLMs, Claude, ChatGPT, training, inference, agents, embeddings" },
+  "aws":       { "en": "AWS",            "es": "AWS",             "hint": "S3, EC2, Lambda, IAM, CloudFront, DynamoDB, VPC, SQS, Bedrock" },
+  "cloud":     { "en": "Cloud",          "es": "Cloud",           "hint": "regions, serverless, containers, Kubernetes, CDN, autoscaling, infra as code" },
+  "hardware":  { "en": "Hardware",       "es": "Hardware",        "hint": "CPU, GPU, TPU, RAM, SSD, chips, transistors, ARM vs x86, data centers" },
+  "software":  { "en": "Software",       "es": "Software",        "hint": "APIs, compilers, git, databases, testing, open source, protocols, design patterns" },
+  "data":      { "en": "Data",           "es": "Datos",           "hint": "SQL, data warehouse, ETL, indexes, Parquet, streaming, data lake" },
+  "security":  { "en": "Security",       "es": "Seguridad",       "hint": "encryption, HTTPS, hashing, passwords, 2FA, zero trust, phishing" },
+  "networks":  { "en": "Networks",       "es": "Redes",           "hint": "DNS, TCP/IP, HTTP, latency, Wi-Fi, 5G, VPN, load balancers" },
+  "companies": { "en": "Tech companies", "es": "Empresas tech",   "hint": "what NVIDIA, Anthropic, OpenAI, AWS, Google, Apple, TSMC actually do and sell" }
+}

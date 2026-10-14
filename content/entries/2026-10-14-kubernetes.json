@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-kubernetes",
+  "date": "2026-10-14",
+  "subjects": [
+    "cloud"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "K8s",
+      "k8s"
+    ],
+    "es": [
+      "K8s",
+      "k8s"
+    ]
+  },
+  "image": "img/2026-10-14-kubernetes.svg",
+  "imageAlt": {
+    "en": "A control plane watching three nodes with pods; one pod has died and a replacement starts on another node",
+    "es": "Un control plane vigilando tres nodos con pods; un pod se cayó y arranca un reemplazo en otro nodo"
+  },
+  "en": {
+    "title": "Kubernetes",
+    "tagline": "The system that runs and babysits containers across many machines.",
+    "explanation": [
+      "**Kubernetes** (often shortened to **K8s**) is open source software that runs containers across a group of machines, called a **cluster**. You tell it what you want: \"run three copies of this image, give each one 1 GB of memory, expose them on port 80\". Kubernetes finds room on the machines, starts the containers, and if one dies or a whole machine fails, it starts a replacement somewhere else without anyone being paged.",
+      "That desired state is written in YAML files. A **Pod** is the smallest unit (one container, or a few that must run together); a **Deployment** keeps N copies of a Pod alive and rolls out new versions gradually; a **Service** gives them a stable address so traffic can find them. Change the YAML, apply it, and Kubernetes moves the cluster from the old state to the new one.",
+      "Google built it from its internal system (Borg) and open-sourced it in 2014; today it is the default way to run large fleets of containers, and every cloud sells a managed version (Amazon EKS, Google GKE, Azure AKS). The cost is complexity: for one small app it is usually overkill, and simpler options like Amazon ECS and Fargate or a serverless function do the job."
+    ],
+    "analogy": "A conductor and an orchestra. The score says what each section should play; the conductor keeps everyone in time, brings in a substitute when a musician gets sick, and the audience only hears the music.",
+    "keyPoints": [
+      "You declare the desired state; Kubernetes keeps reality matching it.",
+      "Pods, Deployments and Services are the three words to learn first.",
+      "It scales by adding machines to the cluster and copies of your Pods.",
+      "Managed offerings (EKS, GKE, AKS) run the control plane for you."
+    ],
+    "links": [
+      {
+        "label": "Kubernetes overview (official docs)",
+        "url": "https://kubernetes.io/docs/concepts/overview/"
+      },
+      {
+        "label": "What is Kubernetes? (AWS)",
+        "url": "https://aws.amazon.com/what-is/kubernetes/"
+      },
+      {
+        "label": "Kubernetes (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Kubernetes"
+      }
+    ]
+  },
+  "es": {
+    "title": "Kubernetes",
+    "tagline": "El sistema que corre y cuida contenedores en muchas máquinas a la vez.",
+    "explanation": [
+      "**Kubernetes** (abreviado **K8s**) es software de código abierto que corre contenedores sobre un grupo de máquinas, llamado **cluster**. Vos le decís qué querés: \"corré tres copias de esta imagen, dale 1 GB de memoria a cada una, exponelas en el puerto 80\". Kubernetes busca lugar en las máquinas, arranca los contenedores, y si uno se muere o se cae una máquina entera, levanta un reemplazo en otro lado sin que nadie tenga que despertarse.",
+      "Ese estado deseado se escribe en archivos YAML. Un **Pod** es la unidad mínima (un contenedor, o unos pocos que tienen que correr juntos); un **Deployment** mantiene N copias de un Pod vivas y despliega versiones nuevas de a poco; un **Service** les da una dirección estable para que el tráfico las encuentre. Cambiás el YAML, lo aplicás, y Kubernetes lleva el cluster del estado viejo al nuevo.",
+      "Google lo armó a partir de su sistema interno (Borg) y lo liberó en 2014; hoy es la forma estándar de correr flotas grandes de contenedores, y cada nube vende una versión administrada (Amazon EKS, Google GKE, Azure AKS). El costo es la complejidad: para una app chica suele ser demasiado, y opciones más simples como Amazon ECS y Fargate o una función serverless alcanzan."
+    ],
+    "analogy": "Un director y una orquesta. La partitura dice qué toca cada sección; el director mantiene a todos en tiempo, trae un suplente cuando un músico se enferma, y el público solo escucha la música.",
+    "keyPoints": [
+      "Vos declarás el estado deseado; Kubernetes se encarga de que la realidad coincida.",
+      "Pods, Deployments y Services son las tres palabras para aprender primero.",
+      "Escala sumando máquinas al cluster y copias de tus Pods.",
+      "Las versiones administradas (EKS, GKE, AKS) corren el control plane por vos."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Kubernetes? (documentación oficial)",
+        "url": "https://kubernetes.io/es/docs/concepts/overview/"
+      },
+      {
+        "label": "¿Qué es Kubernetes? (AWS)",
+        "url": "https://aws.amazon.com/es/what-is/kubernetes/"
+      },
+      {
+        "label": "Kubernetes (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Kubernetes"
+      }
+    ]
+  }
+}

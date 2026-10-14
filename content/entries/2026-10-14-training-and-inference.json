@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-14-training-and-inference",
+  "date": "2026-10-14",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["training", "inference"],
+    "es": ["entrenamiento", "inferencia"]
+  },
+  "image": "img/2026-10-14-training-and-inference.svg",
+  "imageAlt": {
+    "en": "Left: a pile of data feeding a model whose weights are being adjusted in a loop. Right: one question going through the finished model and coming out as an answer",
+    "es": "Izquierda: una pila de datos alimenta un modelo cuyos pesos se ajustan en un bucle. Derecha: una pregunta atraviesa el modelo terminado y sale como respuesta"
+  },
+  "en": {
+    "title": "Training and inference",
+    "tagline": "Training builds the model once; inference is using it, millions of times a day.",
+    "explanation": [
+      "An AI model has two very different lives. **Training** is when it learns: the neural network sees enormous amounts of data, makes predictions, measures its errors and adjusts its weights, over and over, for weeks or months on thousands of GPUs. At the end you have a file of numbers, the trained model. It happens once per model version, and it is the expensive part.",
+      "**Inference** is everything after: using the trained model to answer. Every time you send a prompt to Claude or ChatGPT, that is one inference. The weights do not change; the model runs the input through the network and produces an output, token by token. Each one is cheap compared with training, but there are billions of them, so inference ends up being most of the computing bill.",
+      "The split explains a lot of what you read in the news. A model's 'knowledge cutoff' is the end of its training data. **Fine-tuning** is a short extra round of training on specific examples. 'Serving' a model means running inference for users, which is why companies need data centers full of GPUs even after the model is finished.",
+      "Example: a model that reads chest X-rays is trained on hundreds of thousands of labeled scans over several weeks. Afterward, in a hospital, it looks at one new scan in under a second. That second is inference."
+    ],
+    "analogy": "Training is medical school: years, expensive, done once. Inference is every patient the doctor sees after graduating: fast, repeated, and what the school was for.",
+    "keyPoints": [
+      "Training adjusts the weights; inference uses them without changing them.",
+      "Training is a huge one-time cost; inference is a small cost repeated billions of times.",
+      "Fine-tuning is a short, targeted extra round of training.",
+      "Both run mostly on GPUs, but small models can do inference on a laptop or a phone."
+    ],
+    "links": [
+      { "label": "3Blue1Brown: gradient descent, how neural networks learn", "url": "https://www.3blue1brown.com/lessons/gradient-descent" },
+      { "label": "NVIDIA: the difference between training and inference", "url": "https://blogs.nvidia.com/blog/difference-deep-learning-training-inference-ai/" },
+      { "label": "Machine learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Machine_learning" }
+    ]
+  },
+  "es": {
+    "title": "Entrenamiento e inferencia",
+    "tagline": "Entrenar construye el modelo una vez; inferir es usarlo, millones de veces por día.",
+    "explanation": [
+      "Un modelo de IA tiene dos vidas muy distintas. El **entrenamiento** es cuando aprende: la red neuronal ve cantidades enormes de datos, hace predicciones, mide sus errores y ajusta sus pesos, una y otra vez, durante semanas o meses en miles de GPUs. Al final queda un archivo de números, el modelo entrenado. Pasa una vez por versión del modelo, y es la parte cara.",
+      "La **inferencia** es todo lo que viene después: usar el modelo entrenado para responder. Cada vez que le mandás un prompt a Claude o a ChatGPT, eso es una inferencia. Los pesos no cambian; el modelo pasa la entrada por la red y produce una salida, token por token. Cada una es barata comparada con el entrenamiento, pero hay miles de millones, así que la inferencia termina siendo la mayor parte de la cuenta de cómputo.",
+      "Esta división explica mucho de lo que leés en las noticias. La 'fecha de corte' de un modelo es donde terminan sus datos de entrenamiento. El **fine-tuning** es una ronda corta extra de entrenamiento con ejemplos específicos. 'Servir' un modelo es correr inferencia para los usuarios; por eso las empresas necesitan data centers llenos de GPUs incluso cuando el modelo ya está terminado.",
+      "Ejemplo: un modelo que lee radiografías de tórax se entrena con cientos de miles de placas etiquetadas durante varias semanas. Después, en un hospital, mira una placa nueva en menos de un segundo. Ese segundo es inferencia."
+    ],
+    "analogy": "Entrenar es la carrera de medicina: años, cara, se hace una vez. Inferir es cada paciente que la médica atiende después de recibirse: rápido, repetido, y para eso era la carrera.",
+    "keyPoints": [
+      "El entrenamiento ajusta los pesos; la inferencia los usa sin cambiarlos.",
+      "Entrenar es un costo enorme por única vez; inferir es un costo chico repetido miles de millones de veces.",
+      "El fine-tuning es una ronda corta y puntual de entrenamiento extra.",
+      "Las dos corren casi siempre en GPUs, pero un modelo chico puede inferir en una laptop o un celular."
+    ],
+    "links": [
+      { "label": "3Blue1Brown: descenso de gradiente, cómo aprenden las redes neuronales (subtítulos en español)", "url": "https://www.3blue1brown.com/lessons/gradient-descent" },
+      { "label": "NVIDIA: la diferencia entre entrenamiento e inferencia (en inglés)", "url": "https://blogs.nvidia.com/blog/difference-deep-learning-training-inference-ai/" },
+      { "label": "Aprendizaje automático en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico" }
+    ]
+  }
+}

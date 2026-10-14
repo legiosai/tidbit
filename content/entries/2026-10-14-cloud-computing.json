@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-14-cloud-computing",
+  "date": "2026-10-14",
+  "subjects": [
+    "cloud"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "the cloud",
+      "cloud"
+    ],
+    "es": [
+      "la nube",
+      "nube"
+    ]
+  },
+  "image": "img/2026-10-14-cloud-computing.svg",
+  "imageAlt": {
+    "en": "A cloud holding servers for compute, storage and database, used from a laptop and a phone",
+    "es": "Una nube con servidores de cómputo, almacenamiento y base de datos, usada desde una laptop y un celular"
+  },
+  "en": {
+    "title": "Cloud computing",
+    "tagline": "Renting computers over the internet instead of buying your own.",
+    "explanation": [
+      "**Cloud computing** means using someone else's computers over the internet, paid by the hour or by use, instead of buying and running your own. The \"cloud\" is not in the sky: it is huge buildings full of servers (a data center) owned by companies like AWS, Microsoft and Google, which rent out slices of them.",
+      "What you rent ranges from a bare virtual machine (Amazon EC2), to file storage (Amazon S3), to a managed database, to a function that runs for a few milliseconds (AWS Lambda). You click a button or call an API, and the machine exists a minute later; delete it and the bill stops.",
+      "Why it matters: a startup can begin with one small server and grow to thousands without ever buying hardware. Netflix, your bank's app and most AI chatbots run in the cloud. The trade-off is that you depend on the provider, and the bill grows with use, so a mistake left running over a weekend can get expensive."
+    ],
+    "analogy": "Electricity from the grid. You do not build a power plant in your backyard; you plug in, use what you need, and pay the meter at the end of the month.",
+    "keyPoints": [
+      "The three biggest providers are AWS, Microsoft Azure and Google Cloud.",
+      "You pay for what you use: per hour, per gigabyte or per request.",
+      "\"Public cloud\" means shared data centers; \"on-premises\" means servers you own.",
+      "Elasticity, adding or removing capacity in minutes, is the whole point."
+    ],
+    "links": [
+      {
+        "label": "What is cloud computing? (AWS)",
+        "url": "https://aws.amazon.com/what-is-cloud-computing/"
+      },
+      {
+        "label": "Cloud computing (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Cloud_computing"
+      }
+    ]
+  },
+  "es": {
+    "title": "Computación en la nube",
+    "tagline": "Alquilar computadoras por internet en vez de comprar las tuyas.",
+    "explanation": [
+      "**Computación en la nube** (o simplemente **la nube**) es usar computadoras de otro a través de internet, pagando por hora o por uso, en vez de comprar y mantener las tuyas. La nube no está en el cielo: son edificios enormes llenos de servidores (un centro de datos) de empresas como AWS, Microsoft o Google, que alquilan pedacitos.",
+      "Lo que alquilás va desde una máquina virtual pelada (Amazon EC2), pasando por almacenamiento de archivos (Amazon S3) o una base de datos administrada, hasta una función que corre unos milisegundos (AWS Lambda). Apretás un botón o llamás a una API y un minuto después la máquina existe; la borrás y la factura se frena.",
+      "Por qué importa: una startup arranca con un servidor chiquito y puede crecer a miles sin comprar nunca un fierro. Netflix, la app de tu banco y casi todos los chatbots de IA corren en la nube. La contra: dependés del proveedor y la cuenta crece con el uso, así que una máquina olvidada un fin de semana puede salir cara."
+    ],
+    "analogy": "La electricidad de la red. No construís una central en el fondo de tu casa: enchufás, usás lo que necesitás y pagás el medidor a fin de mes.",
+    "keyPoints": [
+      "Los tres proveedores más grandes son AWS, Microsoft Azure y Google Cloud.",
+      "Pagás por lo que usás: por hora, por gigabyte o por pedido.",
+      "\"Nube pública\" son centros de datos compartidos; \"on-premises\" son servidores propios.",
+      "Elasticidad, sumar o sacar capacidad en minutos, es todo el punto."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es la computación en la nube? (AWS)",
+        "url": "https://aws.amazon.com/es/what-is-cloud-computing/"
+      },
+      {
+        "label": "Computación en la nube (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube"
+      }
+    ]
+  }
+}

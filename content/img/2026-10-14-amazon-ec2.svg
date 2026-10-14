@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="150" width="320" height="50" rx="8" fill="#e6dfd0"/>
+    <rect x="56" y="166" width="60" height="18" rx="3" fill="#f3efe6"/>
+    <rect x="124" y="166" width="60" height="18" rx="3" fill="#f3efe6"/>
+    <rect x="192" y="166" width="60" height="18" rx="3" fill="#f3efe6"/>
+    <circle cx="330" cy="175" r="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="52" y="96" width="52" height="40" rx="6" fill="#ffd166"/>
+    <rect x="130" y="72" width="90" height="64" rx="6" fill="#9bd1b9"/>
+    <rect x="246" y="44" width="110" height="92" rx="6" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M78 136 V150 M175 136 V150 M301 136 V150"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="78" y="113">t3.micro</text>
+    <text x="175" y="98">m7g.large</text>
+    <text x="301" y="78">c7i.4xlarge</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="78" y="128">2 vCPU · 1 GB</text>
+    <text x="175" y="116">2 vCPU · 8 GB</text>
+    <text x="301" y="98">16 vCPU · 32 GB</text>
+    <text x="301" y="118">per second</text>
+  </g>
+  <text x="200" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">one physical server in an AWS data center</text>
+  <text x="200" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">instances: virtual machines, pick a size</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">launch · use · stop · pay for the time it ran</text>
+</svg>

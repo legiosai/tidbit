@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-bedrock",
+  "date": "2026-10-14",
+  "subjects": ["aws", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["Bedrock"],
+    "es": ["Bedrock"]
+  },
+  "image": "img/2026-10-14-amazon-bedrock.svg",
+  "imageAlt": {
+    "en": "An app sends a prompt to a Bedrock box that fans out to a row of model cards from different providers",
+    "es": "Una app manda un prompt a una caja Bedrock que se abre en una fila de tarjetas de modelos de distintos proveedores"
+  },
+  "en": {
+    "title": "Amazon Bedrock",
+    "tagline": "A single AWS service to call AI models from Anthropic, Meta, Amazon and others.",
+    "explanation": [
+      "**Bedrock** is the AWS service for using generative AI models through an API. Instead of running a model yourself, you send a prompt and get the answer back, paying per token. The catalog includes Claude from Anthropic, Llama from Meta, Mistral, Amazon's own Nova models and more, all behind the same API, so trying a different model is a one-line change.",
+      "What AWS adds on top of the models: your data stays in your account and your Region (it is not used to train anyone's models), access is controlled with IAM, and there are building blocks for the common patterns: **Knowledge Bases** for RAG (letting a model answer from your own documents), **Agents** that can call tools and APIs, **Guardrails** that filter topics and personal data, and fine-tuning for some models.",
+      "Typical example: a bank already on AWS builds an internal assistant that answers questions from its policy manuals. The documents live in Amazon S3, Bedrock indexes them into a Knowledge Base, and Claude writes the answers. Nothing leaves the company's AWS account, which is usually the reason Bedrock gets picked over calling a model provider directly."
+    ],
+    "analogy": "A restaurant with one menu and several kitchens. You order from the same waiter, and whether the dish comes from the Anthropic kitchen or the Meta kitchen, the bill, the plates and the health inspection are the restaurant's job.",
+    "keyPoints": [
+      "Pay per token; no servers or GPUs to manage.",
+      "Several model providers behind one API, including Claude.",
+      "Your prompts and data are not used to train the models.",
+      "Built-in pieces for RAG, agents and content guardrails."
+    ],
+    "links": [
+      { "label": "What is Amazon Bedrock? (official docs)", "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html" },
+      { "label": "Amazon Bedrock", "url": "https://aws.amazon.com/bedrock/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Bedrock",
+    "tagline": "Un solo servicio de AWS para llamar a modelos de IA de Anthropic, Meta, Amazon y otros.",
+    "explanation": [
+      "**Bedrock** es el servicio de AWS para usar modelos de IA generativa a través de una API. En vez de correr un modelo vos, mandás un prompt y recibís la respuesta, pagando por token. El catálogo incluye Claude de Anthropic, Llama de Meta, Mistral, los modelos Nova de Amazon y más, todos detrás de la misma API, así que probar otro modelo es cambiar una línea.",
+      "Lo que AWS suma encima de los modelos: tus datos se quedan en tu cuenta y en tu Región (no se usan para entrenar el modelo de nadie), el acceso se controla con IAM, y hay piezas listas para los patrones comunes: **Knowledge Bases** para RAG (que un modelo responda a partir de tus propios documentos), **Agents** que pueden llamar herramientas y APIs, **Guardrails** que filtran temas y datos personales, y fine-tuning para algunos modelos.",
+      "Ejemplo típico: un banco que ya está en AWS arma un asistente interno que responde preguntas sobre sus manuales de políticas. Los documentos viven en Amazon S3, Bedrock los indexa en una Knowledge Base y Claude escribe las respuestas. Nada sale de la cuenta de AWS de la empresa, que suele ser la razón por la que eligen Bedrock en vez de llamar directo al proveedor del modelo."
+    ],
+    "analogy": "Un restaurante con una sola carta y varias cocinas. Le pedís al mismo mozo, y venga el plato de la cocina de Anthropic o de la de Meta, la cuenta, la vajilla y la inspección de bromatología son cosa del restaurante.",
+    "keyPoints": [
+      "Pagás por token; no hay servidores ni GPUs que administrar.",
+      "Varios proveedores de modelos detrás de una misma API, Claude incluido.",
+      "Tus prompts y tus datos no se usan para entrenar los modelos.",
+      "Piezas incorporadas para RAG, agentes y guardrails de contenido."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Bedrock? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/bedrock/latest/userguide/what-is-bedrock.html" },
+      { "label": "Amazon Bedrock", "url": "https://aws.amazon.com/es/bedrock/" }
+    ]
+  }
+}

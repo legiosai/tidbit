@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <line x1="200" y1="30" x2="200" y2="200" stroke="#6b6357" stroke-width="2" stroke-dasharray="6 5"/>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="44">frontend</text><text x="300" y="44">backend</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="10" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="60">your device</text><text x="300" y="60">a server far away</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="62" y="72" width="76" height="128" rx="10" fill="#e6dfd0"/>
+    <rect x="72" y="86" width="56" height="12" rx="3" fill="#f3efe6"/>
+    <rect x="72" y="106" width="56" height="12" rx="3" fill="#f3efe6"/>
+    <rect x="72" y="130" width="56" height="20" rx="5" fill="#ffd166"/>
+    <rect x="72" y="158" width="56" height="20" rx="5" fill="#9ac7ea"/>
+  </g>
+  <circle cx="100" cy="190" r="3" fill="#2b2b2b"/>
+  <g font-family="system-ui, sans-serif" font-size="10" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="144">Buy</text><text x="100" y="172">Cancel</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="236" y="80" width="80" height="60" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <line x1="246" y1="96" x2="306" y2="96"/><line x1="246" y1="110" x2="306" y2="110"/><line x1="246" y1="124" x2="306" y2="124"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M336 150 V190 a22 7 0 0 0 44 0 V150" fill="#f4a7a7"/>
+    <ellipse cx="358" cy="150" rx="22" ry="7" fill="#f4a7a7"/>
+  </g>
+  <path d="M316 120 C332 120 336 136 346 144" stroke="#2b2b2b" stroke-width="2" fill="none"/>
+  <g font-family="system-ui, sans-serif" font-size="10" fill="#6b6357" text-anchor="middle">
+    <text x="276" y="156">app server</text><text x="358" y="212">database</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M144 112 H228"/><path d="M222 108 l6 4 -6 4"/>
+    <path d="M228 134 H144"/><path d="M150 130 l-6 4 6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#6b6357" text-anchor="middle">
+    <text x="186" y="104">POST /buy</text><text x="186" y="148">200 OK</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">what you see · what does the work</text>
+</svg>

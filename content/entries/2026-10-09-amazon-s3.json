@@ -1,0 +1,72 @@
+{
+  "id": "2026-10-09-amazon-s3",
+  "date": "2026-10-09",
+  "subjects": [
+    "aws",
+    "cloud"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "S3"
+    ],
+    "es": [
+      "S3"
+    ]
+  },
+  "image": "img/2026-10-09-amazon-s3.svg",
+  "imageAlt": {
+    "en": "Buckets holding labeled files, reached from a laptop and a phone",
+    "es": "Baldes con archivos etiquetados, accedidos desde una laptop y un celular"
+  },
+  "en": {
+    "title": "Amazon S3",
+    "tagline": "A giant online drawer for files, rented by the gigabyte.",
+    "explanation": [
+      "**S3** (Simple Storage Service) is the AWS service for storing files of any size: photos, backups, videos, logs, website pages. You create a **bucket** (a named container) and put **objects** (files) inside it, each with a key that works like a file path.",
+      "There is no disk to manage and no limit to worry about. AWS copies every object to several machines so it survives hardware failures, and you pay only for the space you use and the data you move out.",
+      "S3 is the quiet foundation of a lot of the internet: static websites are served from it, data warehouses read from it, and machine learning datasets live in it."
+    ],
+    "analogy": "A self-storage facility with infinite units. You get a unit (bucket), you drop boxes in it (objects), each box has a label (key), and the facility is responsible for keeping the building standing.",
+    "keyPoints": [
+      "Bucket names are unique across all of AWS, worldwide.",
+      "Objects are private by default; you choose who can read them.",
+      "Cheaper storage classes exist for files you rarely open."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon S3? (official docs)",
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+      },
+      {
+        "label": "S3 pricing",
+        "url": "https://aws.amazon.com/s3/pricing/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon S3",
+    "tagline": "Un cajón gigante en internet para guardar archivos, alquilado por gigabyte.",
+    "explanation": [
+      "**S3** (Simple Storage Service) es el servicio de AWS para guardar archivos de cualquier tamaño: fotos, backups, videos, logs, páginas de un sitio. Creás un **bucket** (un contenedor con nombre) y adentro ponés **objetos** (archivos), cada uno con una clave que funciona como una ruta.",
+      "No hay disco que administrar ni límite del que preocuparse. AWS copia cada objeto en varias máquinas para que sobreviva fallas de hardware, y pagás solo por el espacio que usás y los datos que sacás.",
+      "S3 es la base silenciosa de buena parte de internet: desde ahí se sirven sitios estáticos, de ahí leen los data warehouses y ahí viven los datasets de machine learning."
+    ],
+    "analogy": "Un depósito de bauleras con unidades infinitas. Te dan una unidad (bucket), dejás cajas adentro (objetos), cada caja tiene una etiqueta (clave), y el depósito se encarga de que el edificio siga en pie.",
+    "keyPoints": [
+      "Los nombres de bucket son únicos en todo AWS, a nivel mundial.",
+      "Los objetos son privados por defecto; vos elegís quién puede leerlos.",
+      "Hay clases de almacenamiento más baratas para archivos que casi nunca abrís."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon S3? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/AmazonS3/latest/userguide/Welcome.html"
+      },
+      {
+        "label": "Precios de S3",
+        "url": "https://aws.amazon.com/es/s3/pricing/"
+      }
+    ]
+  }
+}

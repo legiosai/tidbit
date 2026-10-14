@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-iam",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["Identity and Access Management", "IAM role", "IAM roles", "IAM user", "IAM users", "IAM policy", "IAM policies"],
+    "es": ["rol de IAM", "roles de IAM", "usuario de IAM", "usuarios de IAM", "política de IAM", "políticas de IAM"]
+  },
+  "image": "img/2026-10-14-iam.svg",
+  "imageAlt": {
+    "en": "A user holding a policy card; a green check lets them into one bucket and a red cross blocks a database",
+    "es": "Un usuario con una tarjeta de política; un tilde verde lo deja entrar a un bucket y una cruz roja le bloquea una base de datos"
+  },
+  "en": {
+    "title": "IAM",
+    "tagline": "The rulebook that says who can do what in your AWS account.",
+    "explanation": [
+      "**IAM** (Identity and Access Management) is the AWS service that controls permissions. Every action in AWS (reading a file in Amazon S3, starting an Amazon EC2 instance, deleting a database) is checked against IAM first: who is asking, and are they allowed? By default the answer is no; you grant permissions explicitly.",
+      "It has three main pieces. **Users** are people or programs with their own credentials. **Roles** are sets of permissions that something can take on temporarily: an AWS Lambda function, an EC2 instance, a person from another account. **Policies** are JSON documents that list what is allowed, for example 'allow `s3:GetObject` on the bucket `invoices` and nothing else'. You attach policies to users, groups or roles.",
+      "Why it matters: most cloud security incidents are not clever hacks but leaked keys with too many permissions. The habit IAM encourages is **least privilege**: give each person and each program exactly what it needs. A reporting script should be able to read one bucket, not wipe the account."
+    ],
+    "analogy": "A building's badge system. Each badge (a user or a role) opens only the doors listed on it (the policies). The cleaning crew's badge opens the offices at night but not the server room, and a lost badge gets cancelled without changing the locks.",
+    "keyPoints": [
+      "Everything is denied until a policy explicitly allows it.",
+      "Prefer roles over long-lived access keys; roles hand out temporary credentials.",
+      "Protect the root user with MFA and almost never use it.",
+      "IAM is free and comes with every AWS account."
+    ],
+    "links": [
+      { "label": "What is IAM? (official docs)", "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html" },
+      { "label": "AWS IAM", "url": "https://aws.amazon.com/iam/" }
+    ]
+  },
+  "es": {
+    "title": "IAM",
+    "tagline": "El reglamento que dice quién puede hacer qué en tu cuenta de AWS.",
+    "explanation": [
+      "**IAM** (Identity and Access Management) es el servicio de AWS que controla los permisos. Cada acción en AWS (leer un archivo en Amazon S3, prender una instancia de Amazon EC2, borrar una base de datos) pasa primero por IAM: ¿quién pide, y tiene permiso? Por defecto la respuesta es no; los permisos los otorgás vos explícitamente.",
+      "Tiene tres piezas principales. Los **usuarios** son personas o programas con sus propias credenciales. Los **roles** son conjuntos de permisos que algo puede asumir por un rato: una función de AWS Lambda, una instancia EC2, una persona de otra cuenta. Las **políticas** son documentos JSON que listan qué está permitido, por ejemplo 'permitir `s3:GetObject` sobre el bucket `facturas` y nada más'. Las políticas se adjuntan a usuarios, grupos o roles.",
+      "Por qué importa: la mayoría de los incidentes de seguridad en la nube no son hackeos ingeniosos sino claves filtradas con demasiados permisos. El hábito que IAM fomenta es el **mínimo privilegio**: darle a cada persona y a cada programa exactamente lo que necesita. Un script de reportes tiene que poder leer un bucket, no vaciar la cuenta."
+    ],
+    "analogy": "El sistema de tarjetas de un edificio. Cada tarjeta (un usuario o un rol) abre solo las puertas que tiene listadas (las políticas). La tarjeta del equipo de limpieza abre las oficinas de noche pero no la sala de servidores, y una tarjeta perdida se cancela sin cambiar las cerraduras.",
+    "keyPoints": [
+      "Todo está denegado hasta que una política lo permite explícitamente.",
+      "Preferí roles antes que claves de acceso permanentes; los roles entregan credenciales temporales.",
+      "Protegé al usuario root con MFA y casi nunca lo uses.",
+      "IAM es gratis y viene con toda cuenta de AWS."
+    ],
+    "links": [
+      { "label": "¿Qué es IAM? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/IAM/latest/UserGuide/introduction.html" },
+      { "label": "AWS IAM", "url": "https://aws.amazon.com/es/iam/" }
+    ]
+  }
+}

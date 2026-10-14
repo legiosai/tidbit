@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-14-load-balancer",
+  "date": "2026-10-14",
+  "subjects": ["networks", "cloud"],
+  "level": 2,
+  "aliases": { "en": ["load balancers", "load balancing"], "es": ["balanceadores de carga", "balanceo de carga"] },
+  "image": "img/2026-10-14-load-balancer.svg",
+  "imageAlt": {
+    "en": "Several users sending requests to one load balancer, which spreads them over three servers and skips the one marked as unhealthy",
+    "es": "Varios usuarios mandando pedidos a un balanceador de carga, que los reparte entre tres servidores y saltea el marcado como caído"
+  },
+  "en": {
+    "title": "Load balancer",
+    "tagline": "The traffic cop that spreads incoming requests across many servers.",
+    "explanation": [
+      "A **load balancer** sits in front of a group of servers and distributes incoming requests among them. Users all connect to one address (the balancer's); behind it, the same website or API runs on two, ten or a thousand identical machines, and each request is sent to one of them. The user never knows which.",
+      "It solves two problems at once. **Capacity**: one server can only handle so many requests per second, so you add more and split the load. **Availability**: the balancer checks each server's health every few seconds and stops sending traffic to one that fails, so a crashed machine means a slightly busier fleet instead of an outage. It also lets you update servers one at a time with no downtime.",
+      "Balancers choose servers with simple rules (round robin, fewest connections, by region) and many also terminate HTTPS, so the TLS certificate lives in one place. In the cloud this is a managed service: AWS has the Application Load Balancer and the Network Load Balancer, and platforms like Kubernetes build one in. Combined with autoscaling (add servers when busy, remove them when quiet), a load balancer is what lets a site survive being on the news."
+    ],
+    "analogy": "The person at the bank entrance who sends each customer to the next free window. Ten windows, one queue; if a teller goes on break, nobody is sent there.",
+    "keyPoints": [
+      "One public address in front, many identical servers behind.",
+      "Health checks pull a broken server out of rotation automatically.",
+      "It is what makes zero-downtime deploys and autoscaling possible.",
+      "Often also terminates HTTPS, so certificates live in one place."
+    ],
+    "links": [
+      { "label": "What is load balancing? (Cloudflare)", "url": "https://www.cloudflare.com/learning/performance/what-is-load-balancing/" },
+      { "label": "Load balancing, computing (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Load_balancing_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Balanceador de carga",
+    "tagline": "El agente de tránsito que reparte los pedidos que llegan entre muchos servidores.",
+    "explanation": [
+      "Un **balanceador de carga** se para adelante de un grupo de servidores y reparte entre ellos los pedidos que llegan. Todos los usuarios se conectan a una sola dirección (la del balanceador); detrás, el mismo sitio o la misma API corre en dos, diez o mil máquinas idénticas, y cada pedido va a parar a una de ellas. El usuario nunca sabe a cuál.",
+      "Resuelve dos problemas a la vez. **Capacidad**: un servidor aguanta una cantidad limitada de pedidos por segundo, así que agregás más y dividís la carga. **Disponibilidad**: el balanceador revisa la salud de cada servidor cada pocos segundos y deja de mandarle tráfico al que falla, así que una máquina caída significa una flota un poco más ocupada en vez de un sitio caído. También te deja actualizar los servidores de a uno sin cortar el servicio.",
+      "Los balanceadores eligen servidor con reglas simples (round robin, menos conexiones, por región) y muchos además terminan HTTPS, así el certificado TLS vive en un solo lugar. En la nube es un servicio administrado: AWS tiene el Application Load Balancer y el Network Load Balancer, y plataformas como Kubernetes traen uno integrado. Combinado con autoscaling (sumar servidores cuando hay demanda, sacarlos cuando no), el balanceador de carga es lo que permite que un sitio sobreviva a salir en las noticias."
+    ],
+    "analogy": "La persona en la entrada del banco que manda a cada cliente a la próxima caja libre. Diez cajas, una sola fila; si un cajero sale a descansar, no le mandan a nadie.",
+    "keyPoints": [
+      "Una sola dirección pública adelante, muchos servidores idénticos atrás.",
+      "Los chequeos de salud sacan de la rotación a un servidor roto automáticamente.",
+      "Es lo que hace posibles los deploys sin cortes y el autoscaling.",
+      "Muchas veces también termina HTTPS, así los certificados viven en un solo lugar."
+    ],
+    "links": [
+      { "label": "¿Qué es el balanceo de carga? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/performance/what-is-load-balancing/" },
+      { "label": "Balanceador de carga (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Balanceador_de_carga" }
+    ]
+  }
+}

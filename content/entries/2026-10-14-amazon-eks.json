@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-14-amazon-eks",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws",
+    "cloud"
+  ],
+  "level": 3,
+  "aliases": {
+    "en": [
+      "EKS",
+      "Elastic Kubernetes Service"
+    ],
+    "es": [
+      "EKS",
+      "Elastic Kubernetes Service"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-eks.svg",
+  "imageAlt": {
+    "en": "A control plane box run by AWS on top, three worker nodes with pods below, and kubectl talking to the control plane",
+    "es": "Un recuadro de control plane a cargo de AWS arriba, tres nodos con pods abajo, y kubectl hablando con el control plane"
+  },
+  "en": {
+    "title": "Amazon EKS",
+    "tagline": "Kubernetes with the hard part, the control plane, run by AWS.",
+    "explanation": [
+      "**Amazon EKS** (Elastic Kubernetes Service) is managed Kubernetes on AWS. Kubernetes has two halves: the **control plane** (the brain: the API server, the scheduler and the etcd database that stores the state of the cluster) and the **worker nodes** (the machines where your containers actually run). EKS runs the control plane for you, spread across several Availability Zones, patched and backed up, and exposes the standard Kubernetes API so your usual tools (`kubectl`, Helm, GitOps pipelines) work unchanged.",
+      "For the nodes you choose: managed node groups of Amazon EC2 instances that EKS creates and upgrades, Fargate so pods run with no node to manage at all, or the Karpenter autoscaler that launches the right-sized instance on demand. EKS also wires Kubernetes into AWS: a pod can carry an IAM role, a Kubernetes Service of type LoadBalancer becomes a real AWS Load balancer, and a persistent volume becomes an Amazon EBS disk.",
+      "Why pick it over Amazon ECS and Fargate? Portability and ecosystem. A team that already runs Kubernetes elsewhere, or depends on its tools (operators, service meshes, Argo CD), brings its manifests to EKS almost as they are. The price is complexity: Kubernetes has many moving parts, and version upgrades still need planning on your side.",
+      "Example: a company with 40 microservices runs them on one EKS cluster with three node groups (general purpose, memory-heavy, and GPU for model inference), one Helm chart per service, and Argo CD deploying every merge to main."
+    ],
+    "analogy": "Renting a theater with the technical crew included. AWS runs the lighting booth and the sound desk (the control plane); you bring the actors (your containers) and decide how big a stage you need (the nodes).",
+    "keyPoints": [
+      "AWS runs and patches the control plane; you choose how nodes run: EC2, Fargate or Karpenter.",
+      "It is upstream Kubernetes: standard API, standard tooling, portable manifests.",
+      "Deep AWS integration: IAM roles for pods, load balancers, EBS and EFS volumes.",
+      "More flexible than ECS, and noticeably more to learn and operate."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon EKS? (official docs)",
+        "url": "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html"
+      },
+      {
+        "label": "Amazon EKS product page",
+        "url": "https://aws.amazon.com/eks/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon EKS",
+    "tagline": "Kubernetes con la parte difícil, el control plane, a cargo de AWS.",
+    "explanation": [
+      "**Amazon EKS** (Elastic Kubernetes Service) es Kubernetes administrado en AWS. Kubernetes tiene dos mitades: el **control plane** (el cerebro: el API server, el scheduler y la base etcd que guarda el estado del cluster) y los **nodos** (las máquinas donde de verdad corren tus contenedores). EKS corre el control plane por vos, repartido en varias zonas de disponibilidad, parcheado y con backups, y expone la API estándar de Kubernetes, así que tus herramientas de siempre (`kubectl`, Helm, pipelines de GitOps) funcionan sin cambios.",
+      "Para los nodos elegís: grupos de nodos administrados con instancias Amazon EC2 que EKS crea y actualiza, Fargate para que los pods corran sin ningún nodo que administrar, o el autoscaler Karpenter que lanza la instancia del tamaño justo cuando hace falta. EKS también conecta Kubernetes con AWS: un pod puede tener un rol de IAM, un Service de tipo LoadBalancer se convierte en un balanceador de carga real de AWS, y un volumen persistente se convierte en un disco de Amazon EBS.",
+      "¿Por qué elegirlo en vez de Amazon ECS y Fargate? Portabilidad y ecosistema. Un equipo que ya corre Kubernetes en otro lado, o que depende de sus herramientas (operators, service meshes, Argo CD), trae sus manifiestos a EKS casi sin tocarlos. El precio es la complejidad: Kubernetes tiene muchas piezas, y las actualizaciones de versión siguen necesitando planificación de tu lado.",
+      "Ejemplo: una empresa con 40 microservicios los corre en un cluster de EKS con tres grupos de nodos (uso general, mucha memoria, y GPU para inferencia de modelos), un chart de Helm por servicio, y Argo CD desplegando cada merge a main."
+    ],
+    "analogy": "Alquilar un teatro con el equipo técnico incluido. AWS maneja la cabina de luces y la consola de sonido (el control plane); vos traés a los actores (tus contenedores) y decidís qué tamaño de escenario necesitás (los nodos).",
+    "keyPoints": [
+      "AWS corre y parchea el control plane; vos elegís cómo corren los nodos: EC2, Fargate o Karpenter.",
+      "Es Kubernetes estándar: la misma API, las mismas herramientas, manifiestos portables.",
+      "Integración profunda con AWS: roles de IAM para pods, balanceadores, volúmenes EBS y EFS.",
+      "Más flexible que ECS, y bastante más para aprender y operar."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon EKS? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/eks/latest/userguide/what-is-eks.html"
+      },
+      {
+        "label": "Página de Amazon EKS",
+        "url": "https://aws.amazon.com/es/eks/"
+      }
+    ]
+  }
+}

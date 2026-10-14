@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="50" width="100" height="60" rx="8" fill="#9bd1b9"/>
+    <rect x="260" y="50" width="100" height="60" rx="8" fill="#e6dfd0" stroke-dasharray="5 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M62 142 v38 a28 9 0 0 0 56 0 v-38" fill="#9ac7ea"/>
+    <ellipse cx="90" cy="142" rx="28" ry="9" fill="#bfdcf2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 110 V132"/>
+    <path d="M124 160 Q200 176 282 120" stroke-dasharray="5 4"/><path d="M276 118 l7 -2 -1 7"/>
+    <path d="M90 196 V212"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M170 150 l6 40 h48 l6 -40 z" fill="#ffd166"/>
+    <ellipse cx="200" cy="150" rx="30" ry="8" fill="#ffe29a"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M120 168 H164"/><path d="M158 164 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="90" y="76">EC2 instance</text>
+    <text x="90" y="94">running</text>
+    <text x="310" y="76">another</text>
+    <text x="310" y="94">instance</text>
+    <text x="200" y="176">snapshot</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="90" y="168">gp3 100 GB</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="208">backup in S3</text>
+    <text x="230" y="140">detach, attach elsewhere</text>
+    <text x="90" y="128">volume</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the disk outlives the instance</text>
+</svg>

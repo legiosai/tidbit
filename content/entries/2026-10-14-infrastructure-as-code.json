@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-infrastructure-as-code",
+  "date": "2026-10-14",
+  "subjects": [
+    "cloud"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "IaC",
+      "Terraform"
+    ],
+    "es": [
+      "IaC",
+      "Terraform"
+    ]
+  },
+  "image": "img/2026-10-14-infrastructure-as-code.svg",
+  "imageAlt": {
+    "en": "A text file describing a server, a bucket and a database, applied to create those resources in the cloud",
+    "es": "Un archivo de texto que describe un servidor, un bucket y una base de datos, aplicado para crear esos recursos en la nube"
+  },
+  "en": {
+    "title": "Infrastructure as code",
+    "tagline": "Describing servers, networks and databases in files instead of clicking.",
+    "explanation": [
+      "**Infrastructure as code** (**IaC**) means writing down the cloud resources you need in a text file and letting a tool create them. Instead of clicking through the AWS console to make a virtual machine, a bucket and a database, you write \"one Amazon EC2 instance of this size, one Amazon S3 bucket with this name, one Amazon RDS database\", run a command, and the tool makes the cloud match the file.",
+      "The big win is repeatability. The file lives in Git next to the application code, so every change is reviewed, has an author and can be undone. Need an identical staging environment? Run the same file again. Someone deleted a server by accident? Re-apply and it comes back. Clicking gives you none of that, and nobody remembers what was clicked six months ago.",
+      "The common tools are **Terraform** (works with every cloud, with its own language called HCL), AWS CloudFormation (AWS only, in YAML or JSON), Pulumi and the AWS CDK (both use regular programming languages). All of them compare what the file says with what exists and show a plan (\"will create 2, change 1, destroy 0\") before touching anything."
+    ],
+    "analogy": "A written recipe instead of a chef's memory. With the recipe on paper, any kitchen can cook the same dish tonight, next week or in another city, and a typo in it is visible before dinner, not during.",
+    "keyPoints": [
+      "Infrastructure files are versioned, reviewed and reused like application code.",
+      "Tools show a plan of changes before applying them.",
+      "Terraform is multi-cloud; CloudFormation and CDK are AWS-native.",
+      "\"Drift\" is when someone changes things by hand and the file no longer matches reality."
+    ],
+    "links": [
+      {
+        "label": "What is infrastructure as code? (AWS)",
+        "url": "https://aws.amazon.com/what-is/iac/"
+      },
+      {
+        "label": "What is Terraform? (official docs)",
+        "url": "https://developer.hashicorp.com/terraform/intro"
+      },
+      {
+        "label": "Infrastructure as code (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Infrastructure_as_code"
+      }
+    ]
+  },
+  "es": {
+    "title": "Infraestructura como código",
+    "tagline": "Describir servidores, redes y bases de datos en archivos en vez de a clics.",
+    "explanation": [
+      "**Infraestructura como código** (**IaC**) es escribir en un archivo de texto los recursos de nube que necesitás y dejar que una herramienta los cree. En vez de ir clickeando por la consola de AWS para armar una máquina virtual, un bucket y una base de datos, escribís \"una instancia de Amazon EC2 de este tamaño, un bucket de Amazon S3 con este nombre, una base Amazon RDS\", corrés un comando, y la herramienta hace que la nube coincida con el archivo.",
+      "La gran ganancia es la repetibilidad. El archivo vive en Git al lado del código de la aplicación, así que cada cambio se revisa, tiene autor y se puede deshacer. ¿Necesitás un entorno de prueba idéntico? Corrés el mismo archivo de nuevo. ¿Alguien borró un servidor sin querer? Lo volvés a aplicar y reaparece. Con clics no tenés nada de eso, y nadie se acuerda qué se clickeó hace seis meses.",
+      "Las herramientas habituales son **Terraform** (funciona con todas las nubes, con un lenguaje propio llamado HCL), AWS CloudFormation (solo AWS, en YAML o JSON), Pulumi y el AWS CDK (los dos usan lenguajes de programación comunes). Todas comparan lo que dice el archivo con lo que existe y muestran un plan (\"va a crear 2, cambiar 1, destruir 0\") antes de tocar nada."
+    ],
+    "analogy": "Una receta escrita en vez de la memoria del cocinero. Con la receta en papel, cualquier cocina puede hacer el mismo plato hoy, la semana que viene o en otra ciudad, y un error de tipeo se ve antes de la cena, no durante.",
+    "keyPoints": [
+      "Los archivos de infraestructura se versionan, revisan y reutilizan como el código de la app.",
+      "Las herramientas muestran un plan de cambios antes de aplicarlos.",
+      "Terraform es multi-nube; CloudFormation y CDK son nativos de AWS.",
+      "\"Drift\" es cuando alguien cambia cosas a mano y el archivo ya no coincide con la realidad."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es la infraestructura como código? (AWS)",
+        "url": "https://aws.amazon.com/es/what-is/iac/"
+      },
+      {
+        "label": "¿Qué es Terraform? (documentación oficial, en inglés)",
+        "url": "https://developer.hashicorp.com/terraform/intro"
+      },
+      {
+        "label": "Infraestructura como código (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Infraestructura_como_c%C3%B3digo"
+      }
+    ]
+  }
+}

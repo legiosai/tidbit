@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-ebs",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["EBS", "EBS volume", "EBS volumes"],
+    "es": ["EBS", "volumen EBS", "volúmenes EBS", "volumen de EBS", "volúmenes de EBS"]
+  },
+  "image": "img/2026-10-14-amazon-ebs.svg",
+  "imageAlt": {
+    "en": "A disk cylinder plugged into an EC2 instance, a second instance it could move to, and a snapshot going to a bucket",
+    "es": "Un cilindro de disco enchufado a una instancia EC2, una segunda instancia a la que podría pasar, y un snapshot yendo a un bucket"
+  },
+  "en": {
+    "title": "Amazon EBS",
+    "tagline": "The virtual hard drive of an EC2 instance, kept alive even when the instance stops.",
+    "explanation": [
+      "**EBS** (Elastic Block Store) provides **volumes**: virtual disks that you attach to an Amazon EC2 instance and that the operating system sees as a normal drive. The instance's root disk is an EBS volume; you can add more, like plugging in extra hard drives, and each one can be resized while in use.",
+      "The key property is that a volume is independent from the instance. Stop or terminate the machine and the volume can stay, be attached to a different instance in the same Availability Zone, or be captured as a **snapshot**: a backup stored in Amazon S3 that you can turn into a new volume anywhere in the Region, or copy to another one. AWS replicates every volume inside its zone, so one failed disk does not lose data.",
+      "Volume types trade price for speed: `gp3` (general purpose SSD) is the default for almost everything, `io2` offers guaranteed high performance for demanding databases, `st1` and `sc1` are cheap spinning disks for large sequential files. You pay per gigabyte provisioned per month, used or not, plus the snapshots. EBS is block storage attached to one machine; for files shared by many or served to the web, Amazon S3 is the tool."
+    ],
+    "analogy": "An external hard drive. You plug it into one laptop, unplug it, plug it into another, and keep a copy in a safe (the snapshot). It is still a drive: one computer at a time, and it has to be in the same room (the zone).",
+    "keyPoints": [
+      "A volume lives in one Availability Zone and attaches to one instance at a time.",
+      "Snapshots are incremental backups stored in S3; copy them across Regions for disaster recovery.",
+      "`gp3` is the default; pick `io2` for heavy databases, `st1` or `sc1` for cheap bulk storage.",
+      "You pay for the gigabytes you provision, not for the ones you fill."
+    ],
+    "links": [
+      { "label": "What is Amazon EBS? (official docs)", "url": "https://docs.aws.amazon.com/ebs/latest/userguide/what-is-ebs.html" },
+      { "label": "Amazon EBS", "url": "https://aws.amazon.com/ebs/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon EBS",
+    "tagline": "El disco rígido virtual de una instancia EC2, que sobrevive cuando la instancia se apaga.",
+    "explanation": [
+      "**EBS** (Elastic Block Store) provee **volúmenes**: discos virtuales que enchufás a una instancia de Amazon EC2 y que el sistema operativo ve como un disco común. El disco raíz de la instancia es un volumen EBS; podés agregar más, como conectar discos externos, y cada uno se puede agrandar mientras está en uso.",
+      "La propiedad clave es que el volumen es independiente de la instancia. Apagás o eliminás la máquina y el volumen puede quedarse, enchufarse a otra instancia de la misma zona de disponibilidad, o capturarse como un **snapshot**: un backup guardado en Amazon S3 que podés convertir en un volumen nuevo en cualquier lugar de la Región, o copiar a otra. AWS replica cada volumen dentro de su zona, así que un disco roto no pierde datos.",
+      "Los tipos de volumen cambian precio por velocidad: `gp3` (SSD de uso general) es el default para casi todo, `io2` ofrece rendimiento alto garantizado para bases de datos exigentes, `st1` y `sc1` son discos giratorios baratos para archivos grandes y secuenciales. Pagás por gigabyte aprovisionado por mes, lo uses o no, más los snapshots. EBS es almacenamiento en bloques pegado a una máquina; para archivos compartidos entre muchos o servidos a la web, la herramienta es Amazon S3."
+    ],
+    "analogy": "Un disco externo. Lo enchufás a una laptop, lo desenchufás, lo enchufás a otra, y guardás una copia en una caja fuerte (el snapshot). Sigue siendo un disco: una computadora a la vez, y tiene que estar en la misma habitación (la zona).",
+    "keyPoints": [
+      "Un volumen vive en una zona de disponibilidad y se enchufa a una instancia a la vez.",
+      "Los snapshots son backups incrementales guardados en S3; copialos a otra Región para recuperación ante desastres.",
+      "`gp3` es el default; elegí `io2` para bases de datos pesadas, `st1` o `sc1` para volumen barato.",
+      "Pagás los gigabytes que aprovisionás, no los que llenás."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon EBS? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/ebs/latest/userguide/what-is-ebs.html" },
+      { "label": "Amazon EBS", "url": "https://aws.amazon.com/es/ebs/" }
+    ]
+  }
+}

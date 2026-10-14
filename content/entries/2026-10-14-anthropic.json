@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-14-anthropic",
+  "date": "2026-10-14",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["Claude"],
+    "es": ["Claude"]
+  },
+  "image": "img/2026-10-14-anthropic.svg",
+  "imageAlt": {
+    "en": "A model labeled Claude at the center, arrows to an app, an API and a terminal, and a shield labeled safety research underneath",
+    "es": "Un modelo llamado Claude en el centro, flechas hacia una app, una API y una terminal, y un escudo que dice investigación en seguridad debajo"
+  },
+  "en": {
+    "title": "Anthropic",
+    "tagline": "The AI company behind Claude, built around making models safe and useful.",
+    "explanation": [
+      "**Anthropic** is an AI company based in San Francisco, founded in 2021 by a group of researchers who left OpenAI, among them the siblings Dario and Daniela Amodei. It builds **Claude**, a family of large language models, and safety is its stated reason to exist: the founders' bet is that powerful AI is coming either way, and that it is better to have safety-focused labs at the frontier than to leave it to others.",
+      "What it sells is access to Claude. People and teams use the Claude app (web, desktop, mobile); developers call the models through an API, paying per token, and can also reach them inside Amazon Bedrock and Google Cloud. Claude Code, a tool that lets Claude work inside a software project (reading files, editing code, running tests), became one of its best-known products. The models come in sizes with different price and speed, named Haiku, Sonnet and Opus.",
+      "Anthropic is also a research lab. It published **Constitutional AI**, a method for training a model to follow a written set of principles; it is a leading group in **interpretability**, the effort to understand what happens inside a neural network; and it maintains a Responsible Scaling Policy that defines which safety measures each level of capability requires. In late 2024 it released the Model Context Protocol (MCP), an open standard for connecting AI models to tools and data that other companies adopted.",
+      "Why it matters: it is one of a handful of labs training frontier models, Claude is widely used for coding and for enterprise work, and its research and policy positions shape how governments and other labs think about AI risk. Amazon and Google are among its major investors. It is organized as a public benefit corporation, which lets it weigh its mission alongside profit."
+    ],
+    "analogy": "A pharmaceutical lab that makes the drug and also runs the trials on its side effects. Anthropic sells Claude and spends much of its effort studying what could go wrong with models like it.",
+    "keyPoints": [
+      "Founded in 2021 by former OpenAI researchers; based in San Francisco.",
+      "Products: the Claude models, the Claude app, the API and Claude Code.",
+      "Known for safety research: Constitutional AI, interpretability, the Responsible Scaling Policy.",
+      "Backed by Amazon and Google; Claude is also sold through their clouds."
+    ],
+    "links": [
+      { "label": "anthropic.com", "url": "https://www.anthropic.com" },
+      { "label": "Claude developer docs", "url": "https://docs.anthropic.com" },
+      { "label": "Anthropic on Wikipedia", "url": "https://en.wikipedia.org/wiki/Anthropic" }
+    ]
+  },
+  "es": {
+    "title": "Anthropic",
+    "tagline": "La empresa de IA detrás de Claude, armada alrededor de hacer modelos seguros y útiles.",
+    "explanation": [
+      "**Anthropic** es una empresa de IA con sede en San Francisco, fundada en 2021 por un grupo de investigadores que se fueron de OpenAI, entre ellos los hermanos Dario y Daniela Amodei. Construye **Claude**, una familia de modelos de lenguaje grandes, y la seguridad es su razón de ser declarada: la apuesta de los fundadores es que la IA potente viene de todas formas, y que es mejor tener laboratorios enfocados en seguridad en la frontera que dejársela a otros.",
+      "Lo que vende es acceso a Claude. Personas y equipos usan la app de Claude (web, escritorio, celular); los desarrolladores llaman a los modelos por una API, pagando por token, y también pueden usarlos dentro de Amazon Bedrock y Google Cloud. Claude Code, una herramienta que deja a Claude trabajar adentro de un proyecto de software (leer archivos, editar código, correr tests), se volvió uno de sus productos más conocidos. Los modelos vienen en tamaños con distinto precio y velocidad, llamados Haiku, Sonnet y Opus.",
+      "Anthropic también es un laboratorio de investigación. Publicó **Constitutional AI**, un método para entrenar un modelo a seguir un conjunto escrito de principios; es uno de los grupos líderes en **interpretabilidad**, el esfuerzo por entender qué pasa adentro de una red neuronal; y mantiene una Responsible Scaling Policy que define qué medidas de seguridad exige cada nivel de capacidad. A fines de 2024 lanzó el Model Context Protocol (MCP), un estándar abierto para conectar modelos de IA con herramientas y datos que otras empresas adoptaron.",
+      "Por qué importa: es uno de los pocos laboratorios que entrenan modelos de frontera, Claude se usa mucho para programar y en empresas, y su investigación y sus posiciones de política pública influyen en cómo gobiernos y otros laboratorios piensan el riesgo de la IA. Amazon y Google están entre sus inversores principales. Está organizada como public benefit corporation, lo que le permite ponderar su misión junto con la ganancia."
+    ],
+    "analogy": "Un laboratorio farmacéutico que fabrica el remedio y además hace los ensayos sobre sus efectos secundarios. Anthropic vende Claude y dedica buena parte de su esfuerzo a estudiar qué podría salir mal con modelos como ese.",
+    "keyPoints": [
+      "Fundada en 2021 por ex investigadores de OpenAI; sede en San Francisco.",
+      "Productos: los modelos Claude, la app de Claude, la API y Claude Code.",
+      "Conocida por su investigación en seguridad: Constitutional AI, interpretabilidad, la Responsible Scaling Policy.",
+      "Respaldada por Amazon y Google; Claude también se vende a través de sus nubes."
+    ],
+    "links": [
+      { "label": "anthropic.com (en inglés)", "url": "https://www.anthropic.com" },
+      { "label": "Documentación para desarrolladores de Claude (en inglés)", "url": "https://docs.anthropic.com" },
+      { "label": "Anthropic en Wikipedia", "url": "https://es.wikipedia.org/wiki/Anthropic" }
+    ]
+  }
+}

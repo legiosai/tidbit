@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-14-amazon-rds",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "RDS",
+      "Amazon Aurora",
+      "Aurora"
+    ],
+    "es": [
+      "RDS",
+      "Amazon Aurora",
+      "Aurora"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-rds.svg",
+  "imageAlt": {
+    "en": "An app talking SQL to a database cylinder, with a standby copy in another zone and a list of chores AWS handles",
+    "es": "Una app hablando SQL con un cilindro de base de datos, una copia en espera en otra zona y la lista de tareas que hace AWS"
+  },
+  "en": {
+    "title": "Amazon RDS",
+    "tagline": "A ready-made relational database that AWS keeps patched, backed up and running.",
+    "explanation": [
+      "**RDS** (Relational database Service) gives you a database such as PostgreSQL, MySQL, MariaDB, SQL Server or Oracle without installing or maintaining it yourself. You choose the engine and the size, and AWS hands you an address and a password. Your app connects with SQL exactly as it would to a database on your own server.",
+      "What you stop doing: installing updates, scheduling backups, replacing a failed disk, getting up at night when it crashes. RDS takes automatic backups, applies patches in a maintenance window you pick, and with **Multi-AZ** keeps a synchronized standby copy in another Availability Zone that takes over in a minute or two if the main one fails. **Aurora** is AWS's own engine, compatible with PostgreSQL and MySQL, built for more speed and resilience.",
+      "A typical example: an online shop keeps its customers, orders and products in a PostgreSQL database on RDS, and the developers never log into the database server, because there is none to log into. The trade-off is money: you pay for the instance every hour it runs, busy or idle, and it costs more than running the same engine yourself on Amazon EC2."
+    ],
+    "analogy": "A rented office with cleaning, security and maintenance included. You bring your furniture (the data) and get to work; the landlord fixes the leaks and keeps a spare key in case you lose yours.",
+    "keyPoints": [
+      "Managed engines: PostgreSQL, MySQL, MariaDB, SQL Server, Oracle and Aurora.",
+      "Automatic backups let you restore to any point within the last 35 days.",
+      "Multi-AZ keeps a standby copy that takes over if the main one fails.",
+      "You still design the tables and write the queries; RDS only runs the server."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon RDS? (official docs)",
+        "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html"
+      },
+      {
+        "label": "Amazon RDS",
+        "url": "https://aws.amazon.com/rds/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon RDS",
+    "tagline": "Una base de datos relacional lista para usar, que AWS mantiene parchada y respaldada.",
+    "explanation": [
+      "**RDS** (Relational Database Service) te da una base de datos como PostgreSQL, MySQL, MariaDB, SQL Server u Oracle sin que tengas que instalarla ni mantenerla. Elegís el motor y el tamaño, y AWS te entrega una dirección y una contraseña. Tu app se conecta con SQL exactamente igual que a una base en tu propio servidor.",
+      "Lo que dejás de hacer: instalar actualizaciones, programar backups, cambiar un disco roto, levantarte de noche cuando se cae. RDS hace backups automáticos, aplica parches en una ventana de mantenimiento que elegís, y con **Multi-AZ** mantiene una copia sincronizada en otra zona de disponibilidad que toma el mando en uno o dos minutos si la principal falla. **Aurora** es el motor propio de AWS, compatible con PostgreSQL y MySQL, pensado para más velocidad y resistencia.",
+      "Un ejemplo típico: una tienda online guarda sus clientes, pedidos y productos en una base PostgreSQL en RDS, y los desarrolladores nunca entran al servidor de la base, porque no hay servidor al que entrar. El costo es la contra: pagás la instancia cada hora que corre, ocupada u ociosa, y sale más caro que correr el mismo motor vos en Amazon EC2."
+    ],
+    "analogy": "Una oficina alquilada con limpieza, seguridad y mantenimiento incluidos. Vos traés los muebles (los datos) y te ponés a trabajar; el dueño arregla las goteras y guarda una llave de repuesto por si perdés la tuya.",
+    "keyPoints": [
+      "Motores administrados: PostgreSQL, MySQL, MariaDB, SQL Server, Oracle y Aurora.",
+      "Los backups automáticos permiten volver a cualquier momento de los últimos 35 días.",
+      "Multi-AZ mantiene una copia en espera que toma el mando si la principal falla.",
+      "Las tablas y las consultas las seguís diseñando vos; RDS solo corre el servidor."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon RDS? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/AmazonRDS/latest/UserGuide/Welcome.html"
+      },
+      {
+        "label": "Amazon RDS",
+        "url": "https://aws.amazon.com/es/rds/"
+      }
+    ]
+  }
+}

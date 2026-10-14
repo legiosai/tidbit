@@ -1,0 +1,76 @@
+{
+  "id": "2026-10-14-amazon-athena",
+  "date": "2026-10-14",
+  "subjects": [
+    "aws",
+    "data"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "Athena"
+    ],
+    "es": [
+      "Athena"
+    ]
+  },
+  "image": "img/2026-10-14-amazon-athena.svg",
+  "imageAlt": {
+    "en": "Files in an S3 bucket on the left, a SQL query in the middle, and a small result table on the right",
+    "es": "Archivos en un bucket de S3 a la izquierda, una consulta SQL en el medio, y una tabla de resultados chiquita a la derecha"
+  },
+  "en": {
+    "title": "Amazon Athena",
+    "tagline": "Run SQL directly on files sitting in S3, with no database to set up.",
+    "explanation": [
+      "**Amazon Athena** is a query service: you point it at files stored in Amazon S3 (CSV, JSON, Parquet, logs), describe their columns once, and run standard SQL against them. There is no server to start and no data to load: Athena reads the files when you run the query, and you pay per amount of data scanned (roughly 5 dollars per terabyte).",
+      "It exists because a lot of valuable data lives as files, not inside a database: application logs, exports from other systems, clickstreams, sensor readings. Loading all of that into a data warehouse is slow and costly; with Athena you query it where it is. It is the query engine of the data lake pattern: S3 as the storage, the AWS Glue Data Catalog as the list of tables and columns, Athena as the SQL layer.",
+      "Example: a company keeps a year of web server logs in S3, in one folder per day. An analyst runs `SELECT status, COUNT(*) FROM logs WHERE day = '2026-10-01' GROUP BY status` and gets the answer in seconds, scanning only that day's folder. Converting the logs to Parquet, a compressed column-oriented format, makes the same query scan far less data and cost far less.",
+      "Athena is built on Trino (formerly Presto) and can also run Apache Spark. It shines for ad hoc analysis and scheduled reports; for a team hitting the same tables all day and expecting sub-second answers, a warehouse like Amazon Redshift is the better fit."
+    ],
+    "analogy": "A librarian who answers questions by reading the boxes in the archive directly, instead of first copying every document into a filing system. Slower per question than a filing system, but it works on day one and you pay only for what gets read.",
+    "keyPoints": [
+      "Serverless SQL over files in S3: no cluster to run, no loading step.",
+      "Billed per data scanned, so columnar formats like Parquet and folder partitions cut costs a lot.",
+      "Table definitions live in the Glue Data Catalog and are shared with other AWS tools.",
+      "Great for ad hoc analysis and logs; a warehouse suits heavy, constant workloads."
+    ],
+    "links": [
+      {
+        "label": "What is Amazon Athena? (official docs)",
+        "url": "https://docs.aws.amazon.com/athena/latest/ug/what-is.html"
+      },
+      {
+        "label": "Amazon Athena product page",
+        "url": "https://aws.amazon.com/athena/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Amazon Athena",
+    "tagline": "Corré SQL directo sobre archivos guardados en S3, sin armar ninguna base de datos.",
+    "explanation": [
+      "**Amazon Athena** es un servicio de consultas: lo apuntás a archivos guardados en Amazon S3 (CSV, JSON, Parquet, logs), describís sus columnas una vez, y corrés SQL estándar sobre ellos. No hay servidor que prender ni datos que cargar: Athena lee los archivos cuando ejecutás la consulta, y pagás por la cantidad de datos que escanea (unos 5 dólares por terabyte, aproximadamente).",
+      "Existe porque muchísimos datos valiosos viven como archivos y no adentro de una base de datos: logs de aplicaciones, exportaciones de otros sistemas, clickstreams, lecturas de sensores. Cargar todo eso en un Data warehouse es lento y caro; con Athena lo consultás donde está. Es el motor de consultas del patrón data lake: S3 como almacenamiento, el AWS Glue Data Catalog como lista de tablas y columnas, Athena como capa SQL.",
+      "Ejemplo: una empresa guarda un año de logs de su servidor web en S3, en una carpeta por día. Una analista corre `SELECT status, COUNT(*) FROM logs WHERE day = '2026-10-01' GROUP BY status` y tiene la respuesta en segundos, escaneando solo la carpeta de ese día. Convertir los logs a Parquet, un formato comprimido orientado a columnas, hace que la misma consulta escanee mucho menos y cueste mucho menos.",
+      "Athena está construido sobre Trino (antes Presto) y también puede correr Apache Spark. Brilla para análisis puntuales y reportes programados; para un equipo que pega todo el día a las mismas tablas y espera respuestas en menos de un segundo, un warehouse como Amazon Redshift encaja mejor."
+    ],
+    "analogy": "Una bibliotecaria que responde preguntas leyendo directamente las cajas del archivo, en vez de primero copiar cada documento a un fichero. Más lenta por pregunta que un fichero, pero funciona desde el primer día y pagás solo por lo que se lee.",
+    "keyPoints": [
+      "SQL serverless sobre archivos en S3: sin cluster que correr, sin paso de carga.",
+      "Se cobra por datos escaneados, así que formatos columnares como Parquet y particiones por carpeta bajan mucho el costo.",
+      "Las definiciones de tablas viven en el Glue Data Catalog y se comparten con otras herramientas de AWS.",
+      "Ideal para análisis puntuales y logs; un warehouse conviene para cargas pesadas y constantes."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es Amazon Athena? (documentación oficial)",
+        "url": "https://docs.aws.amazon.com/es_es/athena/latest/ug/what-is.html"
+      },
+      {
+        "label": "Página de Amazon Athena",
+        "url": "https://aws.amazon.com/es/athena/"
+      }
+    ]
+  }
+}

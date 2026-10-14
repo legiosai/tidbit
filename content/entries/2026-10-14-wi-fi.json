@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-14-wi-fi",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": { "en": ["WiFi", "wifi"], "es": ["WiFi", "wifi"] },
+  "image": "img/2026-10-14-wi-fi.svg",
+  "imageAlt": {
+    "en": "A router radiating signal arcs: a nearby phone gets a strong signal, a laptop behind a wall gets a weak one",
+    "es": "Un router irradiando arcos de señal: un celular cerca recibe señal fuerte, una notebook detrás de una pared recibe señal débil"
+  },
+  "en": {
+    "title": "Wi-Fi",
+    "tagline": "Networking over radio waves: the internet without the cable, within a few rooms.",
+    "explanation": [
+      "**Wi-Fi** is a way of connecting devices to a local network using radio waves instead of cables. An **access point** (usually built into your router) broadcasts a network name, your phone picks it and, with the password, they start exchanging data over the air. Wi-Fi only covers the last few meters: from your device to the router. From the router onwards, the internet is mostly cables and fiber.",
+      "It is a family of standards called IEEE 802.11, which is why newer versions have friendlier names: Wi-Fi 5, Wi-Fi 6, Wi-Fi 7. Each one is faster and handles crowded rooms better. Two radio bands are common: **2.4 GHz** reaches further and goes through walls better but is slower and crowded (microwaves and Bluetooth live there too), and **5 GHz** (and now 6 GHz) is faster but shorter range.",
+      "Because it is radio, anyone in range can hear it. That is why the password matters: with WPA2 or WPA3 the traffic between you and the router is encrypted. An open café network has no such protection, so what keeps your bank login private there is HTTPS, not the Wi-Fi. Slow Wi-Fi is also the most common reason a slow internet is not actually the internet: walls, distance and many neighbours sharing the same channel all cost speed."
+    ],
+    "analogy": "A conversation across a room. Close and quiet, you understand everything; far away, through walls, with thirty people talking at once, you both have to repeat yourselves and it all slows down.",
+    "keyPoints": [
+      "Wi-Fi connects your device to the router over radio; the rest of the trip is cables.",
+      "2.4 GHz reaches further; 5 GHz and 6 GHz are faster but shorter range.",
+      "WPA2/WPA3 encrypt the air link; on open networks only HTTPS protects you.",
+      "Walls, distance and crowded channels are the usual cause of slow internet at home."
+    ],
+    "links": [
+      { "label": "Wi-Fi (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Wi-Fi" },
+      { "label": "IEEE 802.11, the standards behind Wi-Fi (Wikipedia)", "url": "https://en.wikipedia.org/wiki/IEEE_802.11" }
+    ]
+  },
+  "es": {
+    "title": "Wi-Fi",
+    "tagline": "Red por ondas de radio: internet sin cable, dentro de unas pocas habitaciones.",
+    "explanation": [
+      "**Wi-Fi** es una forma de conectar dispositivos a una red local usando ondas de radio en vez de cables. Un **punto de acceso** (casi siempre integrado en tu router) anuncia un nombre de red, tu celular lo elige y, con la contraseña, empiezan a intercambiar datos por el aire. El Wi-Fi cubre solamente los últimos metros: de tu dispositivo al router. Del router en adelante, internet es casi todo cable y fibra.",
+      "Es una familia de estándares llamada IEEE 802.11, por eso las versiones nuevas tienen nombres más amigables: Wi-Fi 5, Wi-Fi 6, Wi-Fi 7. Cada una es más rápida y se banca mejor los lugares llenos de gente. Hay dos bandas de radio comunes: **2,4 GHz** llega más lejos y atraviesa mejor las paredes, pero es más lenta y está saturada (ahí viven también el microondas y el Bluetooth), y **5 GHz** (y ahora 6 GHz) es más rápida pero de menor alcance.",
+      "Como es radio, cualquiera que esté cerca puede escucharlo. Por eso importa la contraseña: con WPA2 o WPA3 el tráfico entre vos y el router viaja cifrado. Una red abierta de bar no tiene esa protección, así que lo que mantiene privado tu login del banco ahí es HTTPS, no el Wi-Fi. Un Wi-Fi lento es además la causa más común de un internet lento que en realidad no es internet: paredes, distancia y muchos vecinos compartiendo el mismo canal, todo cuesta velocidad."
+    ],
+    "analogy": "Una conversación de una punta a la otra de un salón. Cerca y en silencio se entiende todo; lejos, con paredes en el medio y treinta personas hablando a la vez, los dos tienen que repetir y todo se vuelve lento.",
+    "keyPoints": [
+      "El Wi-Fi conecta tu dispositivo con el router por radio; el resto del viaje es cable.",
+      "2,4 GHz llega más lejos; 5 GHz y 6 GHz son más rápidas pero de menor alcance.",
+      "WPA2/WPA3 cifran el tramo por el aire; en redes abiertas solo te protege HTTPS.",
+      "Paredes, distancia y canales saturados son la causa habitual del internet lento en casa."
+    ],
+    "links": [
+      { "label": "Wifi (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Wifi" },
+      { "label": "IEEE 802.11, los estándares detrás del Wi-Fi (Wikipedia)", "url": "https://es.wikipedia.org/wiki/IEEE_802.11" }
+    ]
+  }
+}

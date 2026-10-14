@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="56" width="90" height="36" rx="6" fill="#9ac7ea"/>
+    <rect x="24" y="148" width="90" height="36" rx="6" fill="#9ac7ea"/>
+    <path d="M150 40 h100 l-30 80 v40 l-40 20 v-60 z" fill="#ffd166"/>
+    <rect x="282" y="56" width="96" height="36" rx="6" fill="#e6dfd0"/>
+    <rect x="282" y="148" width="96" height="36" rx="6" fill="#e6dfd0"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="69" y="79">hello</text><text x="69" y="171">Hello</text>
+    <text x="200" y="68">SHA-256</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="330" y="79">2cf24d…9824</text><text x="330" y="171">185f8d…e969</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M118 74 H144"/><path d="M139 70 l6 4 -6 4"/>
+    <path d="M118 166 H162"/><path d="M157 162 l6 4 -6 4"/>
+    <path d="M232 74 H276"/><path d="M271 70 l6 4 -6 4"/>
+    <path d="M212 166 H276"/><path d="M271 162 l6 4 -6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M330 100 C330 130 200 110 200 190 C200 200 160 200 118 200" stroke-dasharray="5 5"/>
+    <circle cx="200" cy="200" r="11" fill="#f4a7a7"/><path d="M194 194 l12 12 M206 194 l-12 12"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="69" y="112">one letter apart</text><text x="330" y="112">nothing alike</text>
+    <text x="300" y="222">no way back</text>
+  </g>
+</svg>

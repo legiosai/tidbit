@@ -1,0 +1,50 @@
+{
+  "id": "2026-10-14-url",
+  "date": "2026-10-14",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": { "en": ["URLs"], "es": ["URLs"] },
+  "image": "img/2026-10-14-url.svg",
+  "imageAlt": {
+    "en": "A URL split into colored segments labeled scheme, host, path, query and fragment",
+    "es": "Una URL partida en segmentos de colores etiquetados esquema, host, ruta, query y fragmento"
+  },
+  "en": {
+    "title": "URL",
+    "tagline": "The full address of something on the web: protocol, site and path.",
+    "explanation": [
+      "A **URL** (Uniform Resource Locator) is the address of one specific thing on the web: a page, an image, a video, an API endpoint. It is what you type in the address bar or share in a chat. `https://es.wikipedia.org/wiki/Mate?lang=es#historia` is one URL, and every piece of it means something.",
+      "Read it left to right. `https://` is the **scheme**: how to talk (HTTPS, encrypted). `es.wikipedia.org` is the **host**, the domain name DNS turns into an IP address. `/wiki/Mate` is the **path**, which page on that site. `?lang=es` is the **query**, extra options for the server. `#historia` is the **fragment**, a spot inside the page that only the browser uses. Sometimes a port appears after the host, like `:8080`, when the server is not on the standard one.",
+      "URLs matter because they are the web's links: a search result, a QR code, a share button, all just pass a URL around. For you, the host is the part to check: a phishing page can copy a bank's look, but `banco-seguro.ejemplo.com` is not `banco.com`, and the browser shows the real host in the bar."
+    ],
+    "analogy": "A full postal address on an envelope: country, city, street, floor and apartment. Each part narrows it down until there is exactly one door.",
+    "keyPoints": [
+      "Scheme, host, path, query, fragment: `https://` + `site.com` + `/page` + `?a=1` + `#section`.",
+      "The host is the part that says who you are really talking to.",
+      "Spaces and special characters get encoded, which is why you see `%20` in links."
+    ],
+    "links": [
+      { "label": "What is a URL? (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL" },
+      { "label": "URL (Wikipedia)", "url": "https://en.wikipedia.org/wiki/URL" }
+    ]
+  },
+  "es": {
+    "title": "URL",
+    "tagline": "La dirección completa de algo en la web: protocolo, sitio y ruta.",
+    "explanation": [
+      "Una **URL** (Uniform Resource Locator) es la dirección de una cosa concreta en la web: una página, una imagen, un video, un endpoint de una API. Es lo que escribís en la barra de direcciones o lo que compartís por chat. `https://es.wikipedia.org/wiki/Mate?lang=es#historia` es una URL, y cada pedazo quiere decir algo.",
+      "Leela de izquierda a derecha. `https://` es el **esquema**: cómo hablar (HTTPS, cifrado). `es.wikipedia.org` es el **host**, el nombre de dominio que DNS convierte en una dirección IP. `/wiki/Mate` es la **ruta**, qué página dentro de ese sitio. `?lang=es` es la **query**, opciones extra para el servidor. `#historia` es el **fragmento**, un lugar dentro de la página que solo usa el navegador. A veces aparece un puerto después del host, como `:8080`, cuando el servidor no está en el estándar.",
+      "Las URLs importan porque son los links de la web: un resultado de búsqueda, un código QR, un botón de compartir, todos pasan una URL de mano en mano. Para vos, el host es la parte que hay que mirar: una página de phishing puede copiar el diseño de un banco, pero `banco-seguro.ejemplo.com` no es `banco.com`, y el navegador muestra el host real en la barra."
+    ],
+    "analogy": "Una dirección postal completa: país, ciudad, calle, piso y departamento. Cada parte acota hasta que queda exactamente una puerta.",
+    "keyPoints": [
+      "Esquema, host, ruta, query, fragmento: `https://` + `sitio.com` + `/pagina` + `?a=1` + `#seccion`.",
+      "El host es la parte que dice con quién estás hablando de verdad.",
+      "Los espacios y caracteres raros se codifican, por eso ves `%20` en los links."
+    ],
+    "links": [
+      { "label": "¿Qué es una URL? (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL" },
+      { "label": "Localizador de recursos uniforme (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme" }
+    ]
+  }
+}

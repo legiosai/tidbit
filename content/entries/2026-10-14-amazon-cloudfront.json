@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-14-amazon-cloudfront",
+  "date": "2026-10-14",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["CloudFront"],
+    "es": ["CloudFront"]
+  },
+  "image": "img/2026-10-14-amazon-cloudfront.svg",
+  "imageAlt": {
+    "en": "One origin bucket feeding three edge locations, each serving nearby users with short arrows",
+    "es": "Un bucket de origen alimentando tres puntos de borde, cada uno sirviendo a usuarios cercanos con flechas cortas"
+  },
+  "en": {
+    "title": "Amazon CloudFront",
+    "tagline": "AWS's CDN: copies of your content kept close to users all over the world.",
+    "explanation": [
+      "**CloudFront** is AWS's CDN (content delivery network). You point it at an **origin** (an Amazon S3 bucket, a load balancer, any web server) and it serves your files from hundreds of **edge locations**: small data centers in cities on every continent. A visitor in Buenos Aires gets your images from an edge nearby instead of from a server in Virginia, so the page loads noticeably faster.",
+      "The first visitor near an edge triggers a fetch from the origin; the edge keeps a copy (a **cache**) for as long as you configure and serves everyone else from it. That also protects the origin: a million visitors turn into a handful of requests to your server. CloudFront handles HTTPS with a free certificate, blocks common attacks in front of your site, and charges per gigabyte served.",
+      "A common setup is a static website: HTML, CSS and images in an S3 bucket, CloudFront in front, a domain from Amazon Route 53. No server at all, and it holds up fine when a post goes viral."
+    ],
+    "analogy": "A bakery chain that bakes once at headquarters and keeps fresh loaves on shelves in every neighborhood. You buy around the corner instead of driving to the factory, and the factory only bakes again when a shelf runs empty.",
+    "keyPoints": [
+      "The origin is where the content lives; the edges keep temporary copies.",
+      "Faster for users and cheaper for the origin: most requests never reach it.",
+      "Includes HTTPS with a free certificate and basic protection against attacks.",
+      "You decide how long each file stays cached (its TTL)."
+    ],
+    "links": [
+      { "label": "What is Amazon CloudFront? (official docs)", "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" },
+      { "label": "Amazon CloudFront", "url": "https://aws.amazon.com/cloudfront/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon CloudFront",
+    "tagline": "El CDN de AWS: copias de tu contenido guardadas cerca de los usuarios en todo el mundo.",
+    "explanation": [
+      "**CloudFront** es el CDN (content delivery network) de AWS. Lo apuntás a un **origen** (un bucket de Amazon S3, un balanceador de carga, cualquier servidor web) y sirve tus archivos desde cientos de **puntos de presencia** (edge locations): centros de datos chicos en ciudades de todos los continentes. Alguien en Buenos Aires recibe tus imágenes desde un punto cercano en vez de un servidor en Virginia, y la página carga notablemente más rápido.",
+      "El primer visitante cerca de un punto dispara una búsqueda al origen; el punto guarda una copia (un **cache**) por el tiempo que configures y se la sirve a todos los demás. Eso además protege al origen: un millón de visitantes se convierten en un puñado de pedidos a tu servidor. CloudFront se encarga de HTTPS con un certificado gratis, frena ataques comunes antes de que lleguen a tu sitio, y cobra por gigabyte servido.",
+      "Un armado común es un sitio estático: HTML, CSS e imágenes en un bucket de S3, CloudFront adelante, un dominio en Amazon Route 53. Ningún servidor, y aguanta sin problema cuando un posteo se vuelve viral."
+    ],
+    "analogy": "Una cadena de panaderías que hornea una vez en la central y mantiene pan fresco en las estanterías de cada barrio. Comprás a la vuelta en vez de ir hasta la fábrica, y la fábrica solo vuelve a hornear cuando una estantería se vacía.",
+    "keyPoints": [
+      "El origen es donde vive el contenido; los puntos de presencia guardan copias temporales.",
+      "Más rápido para los usuarios y más barato para el origen: la mayoría de los pedidos nunca le llegan.",
+      "Incluye HTTPS con certificado gratis y protección básica contra ataques.",
+      "Vos decidís cuánto tiempo queda cada archivo en cache (su TTL)."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon CloudFront? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" },
+      { "label": "Amazon CloudFront", "url": "https://aws.amazon.com/es/cloudfront/" }
+    ]
+  }
+}

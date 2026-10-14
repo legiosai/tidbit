@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-14-firewall",
+  "date": "2026-10-14",
+  "subjects": [
+    "security",
+    "networks"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "firewalls"
+    ],
+    "es": [
+      "cortafuegos",
+      "firewalls"
+    ]
+  },
+  "image": "img/2026-10-14-firewall.svg",
+  "imageAlt": {
+    "en": "A brick wall between the internet and a laptop, letting one allowed connection through and bouncing the rest",
+    "es": "Una pared de ladrillos entre internet y una notebook, que deja pasar una conexión permitida y rebota las demás"
+  },
+  "en": {
+    "title": "Firewall",
+    "tagline": "A gatekeeper that decides which network traffic gets in or out.",
+    "explanation": [
+      "A **firewall** sits between a network (or a single computer) and the outside world and checks every connection against a list of rules: where it comes from, where it goes, which port it uses, which direction. Whatever matches an allow rule passes; the rest is dropped. The usual default is simple: anything that starts from inside can go out, nothing that starts from outside can come in unless a rule says so.",
+      "You already have several. The router at home blocks unsolicited connections to your laptop and TV. Windows and macOS ship with a firewall turned on, so a random machine on the café Wi-Fi cannot open a connection to your file sharing. In the cloud, a web server might allow exactly two ports, `443` for HTTPS and `22` for the admin, and nothing else. Specialized ones, like a **WAF** (web application firewall), read the content of web requests and block known attack patterns.",
+      "What it does not do is just as important. A firewall does not stop you from downloading Malware, does not detect phishing, and cannot see inside traffic that is encrypted. It is a border control, not a bodyguard: one layer among several.",
+      "Practical takeaway: leave the firewall on your laptop enabled, and do not open ports on your home router ('port forwarding') unless you know exactly which device and why. Every open port is a door that you are now responsible for."
+    ],
+    "analogy": "A building receptionist with a list. Residents walk out whenever they want; visitors only get in if someone registered them, and only to the floor they were registered for.",
+    "keyPoints": [
+      "A firewall allows or drops connections based on rules: address, port, direction.",
+      "The default that matters: outbound is free, inbound is blocked unless allowed.",
+      "Your router, your laptop and every cloud server already have one.",
+      "It does not stop malware you download or phishing you click; it is one layer."
+    ],
+    "links": [
+      {
+        "label": "What is a firewall? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/security/what-is-a-firewall/"
+      },
+      {
+        "label": "Firewall on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Firewall_(computing)"
+      }
+    ]
+  },
+  "es": {
+    "title": "Firewall",
+    "tagline": "Un portero que decide qué tráfico de red entra o sale.",
+    "explanation": [
+      "Un **firewall** se ubica entre una red (o una sola computadora) y el mundo exterior, y revisa cada conexión contra una lista de reglas: de dónde viene, adónde va, qué puerto usa, en qué dirección. Lo que coincide con una regla de permiso pasa; el resto se descarta. El valor por defecto habitual es simple: todo lo que empieza desde adentro puede salir, nada que empiece desde afuera puede entrar salvo que una regla lo diga.",
+      "Ya tenés varios. El router de tu casa bloquea las conexiones no solicitadas hacia tu notebook y tu tele. Windows y macOS vienen con un firewall activado, así que una máquina cualquiera en el Wi-Fi del bar no puede abrir una conexión a tus archivos compartidos. En la nube, un servidor web puede permitir exactamente dos puertos, `443` para HTTPS y `22` para el administrador, y nada más. Los especializados, como un **WAF** (firewall de aplicaciones web), leen el contenido de los pedidos web y bloquean patrones de ataque conocidos.",
+      "Lo que no hace es igual de importante. Un firewall no te impide descargar Malware, no detecta Phishing y no puede ver adentro del tráfico cifrado. Es un control de frontera, no un guardaespaldas: una capa entre varias.",
+      "Para hacer hoy: dejá activado el firewall de tu notebook y no abras puertos en el router de tu casa ('port forwarding') salvo que sepas exactamente para qué dispositivo y por qué. Cada puerto abierto es una puerta de la que ahora sos responsable."
+    ],
+    "analogy": "La recepción de un edificio con una lista. Los que viven ahí salen cuando quieren; las visitas solo entran si alguien las anotó, y solo al piso para el que las anotaron.",
+    "keyPoints": [
+      "Un firewall permite o descarta conexiones según reglas: dirección, puerto, sentido.",
+      "El valor por defecto que importa: salir es libre, entrar está bloqueado salvo permiso.",
+      "Tu router, tu notebook y cada servidor en la nube ya tienen uno.",
+      "No frena el malware que descargás ni el phishing en el que hacés clic; es una capa."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es un firewall? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/security/what-is-a-firewall/"
+      },
+      {
+        "label": "Cortafuegos en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)"
+      }
+    ]
+  }
+}

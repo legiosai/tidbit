@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-14-open-source",
+  "date": "2026-10-14",
+  "subjects": [
+    "software"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "open-source",
+      "open source software"
+    ],
+    "es": [
+      "open source",
+      "software libre"
+    ]
+  },
+  "image": "img/2026-10-14-open-source.svg",
+  "imageAlt": {
+    "en": "A source code file with an open padlock, surrounded by people who read it, change it and share it",
+    "es": "Un archivo de código fuente con un candado abierto, rodeado de personas que lo leen, lo cambian y lo comparten"
+  },
+  "en": {
+    "title": "Open source",
+    "tagline": "Software whose code anyone can read, use, change and share.",
+    "explanation": [
+      "**Open source** software is software whose source code, the human-readable text that programmers write, is published for anyone to read, use, modify and redistribute. The rules are set by a license. Some (MIT, Apache) let you do almost anything, including selling it inside a closed product; others (GPL) require that if you distribute a modified version, you publish your changes too.",
+      "It is not a niche. Linux runs most servers and every Android phone, Git tracks most of the world's code, Python and JavaScript are open source, and so are Kubernetes, PostgreSQL and the browser engine behind Chrome. Most of it lives on GitHub, where anyone can report a bug or propose a fix in a pull request, and a small group of maintainers decides what gets in.",
+      "Companies fund it because shared infrastructure is cheaper than everyone building their own, and because an open project attracts users and talent. The business models are paid support, hosted versions (you can run PostgreSQL yourself for free, or pay AWS for Amazon RDS) and \"open core\", where the base is free and the extras are paid. In AI, \"open-weight\" models like Llama publish the trained model but not always the data or code that produced it."
+    ],
+    "analogy": "A recipe printed in the cookbook rather than kept in the chef's safe. Anyone can cook it, improve it and pass it on; the license says whether you must share your improvements.",
+    "keyPoints": [
+      "\"Free\" here means the freedom to read and change the code; it is usually also free of charge, but that is a separate thing.",
+      "The license decides what you may do: MIT and Apache are permissive, GPL requires sharing changes.",
+      "It is maintained by volunteers and by paid engineers at large companies alike.",
+      "Open source does not mean no owner: maintainers decide what gets merged."
+    ],
+    "links": [
+      {
+        "label": "The Open Source Definition (OSI)",
+        "url": "https://opensource.org/osd"
+      },
+      {
+        "label": "Open Source Guides (GitHub)",
+        "url": "https://opensource.guide/"
+      },
+      {
+        "label": "Open-source software (Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Open-source_software"
+      }
+    ]
+  },
+  "es": {
+    "title": "Código abierto",
+    "tagline": "Software cuyo código cualquiera puede leer, usar, cambiar y compartir.",
+    "explanation": [
+      "El software de **código abierto** (**open source**) es aquel cuyo código fuente, el texto legible que escriben los programadores, está publicado para que cualquiera lo lea, lo use, lo modifique y lo redistribuya. Las reglas las pone una licencia. Algunas (MIT, Apache) te dejan hacer casi cualquier cosa, incluso venderlo adentro de un producto cerrado; otras (GPL) exigen que si distribuís una versión modificada, publiques tus cambios también.",
+      "No es un nicho. Linux corre en la mayoría de los servidores y en todos los Android, Git lleva el registro de casi todo el código del mundo, Python y JavaScript son de código abierto, y también Kubernetes, PostgreSQL y el motor de navegador detrás de Chrome. La mayor parte vive en GitHub, donde cualquiera puede reportar un error o proponer un arreglo en un pull request, y un grupo chico de mantenedores decide qué entra.",
+      "Las empresas lo financian porque una infraestructura compartida sale más barata que armar cada uno la suya, y porque un proyecto abierto atrae usuarios y talento. Los modelos de negocio son soporte pago, versiones hospedadas (podés correr PostgreSQL vos gratis, o pagarle a AWS por Amazon RDS) y el \"open core\", donde la base es gratis y los extras se pagan. En IA, los modelos \"de pesos abiertos\" como Llama publican el modelo entrenado pero no siempre los datos ni el código que lo produjeron."
+    ],
+    "analogy": "Una receta impresa en el libro de cocina en vez de guardada en la caja fuerte del chef. Cualquiera puede cocinarla, mejorarla y pasarla; la licencia dice si tenés que compartir tus mejoras.",
+    "keyPoints": [
+      "\"Libre\" acá es la libertad de leer y cambiar el código; suele ser gratis además, pero eso es otra cosa.",
+      "La licencia decide qué podés hacer: MIT y Apache son permisivas, GPL exige compartir los cambios.",
+      "Lo mantienen tanto voluntarios como ingenieros pagos de empresas grandes.",
+      "Código abierto no significa sin dueño: los mantenedores deciden qué se mergea."
+    ],
+    "links": [
+      {
+        "label": "La definición de código abierto (OSI, en inglés)",
+        "url": "https://opensource.org/osd"
+      },
+      {
+        "label": "Guías de código abierto (GitHub)",
+        "url": "https://opensource.guide/es/"
+      },
+      {
+        "label": "Código abierto (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/C%C3%B3digo_abierto"
+      }
+    ]
+  }
+}

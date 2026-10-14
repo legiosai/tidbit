@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-14-vpn",
+  "date": "2026-10-14",
+  "subjects": ["networks", "security"],
+  "level": 2,
+  "aliases": { "en": ["VPNs"], "es": ["VPNs"] },
+  "image": "img/2026-10-14-vpn.svg",
+  "imageAlt": {
+    "en": "A laptop sending traffic through a sealed tunnel across the café Wi-Fi to a VPN server, which forwards it to the internet; an onlooker sees only question marks",
+    "es": "Una notebook mandando tráfico por un túnel sellado a través del Wi-Fi del bar hasta un servidor VPN, que lo reenvía a internet; un curioso ve solo signos de pregunta"
+  },
+  "en": {
+    "title": "VPN",
+    "tagline": "An encrypted tunnel that sends all your traffic through another network first.",
+    "explanation": [
+      "A **VPN** (Virtual Private Network) wraps all the traffic from your device inside an encrypted tunnel to a VPN server, which then sends it on to the internet on your behalf. Everything in between (the café Wi-Fi, your provider, the network you are on) sees only scrambled packets going to one address. The websites you visit see the VPN server's IP address, not yours.",
+      "There are two very different uses. Companies use VPNs so that a laptop at home can reach the office network as if it were plugged in there: internal tools, file servers, databases that are not exposed to the internet. Consumers use VPN services to hide their traffic from the local network, to appear to be in another country, or to get around blocks. Same technology (protocols like WireGuard, OpenVPN or IPsec), different purpose.",
+      "A VPN moves trust, it does not remove it. The VPN provider can see everything your internet provider used to see, so a VPN is only as trustworthy as the company running it. It does not make you anonymous (the sites you log into still know who you are), and it does not replace HTTPS, which already protects the content of each site. It does protect you on untrusted networks and hides which sites you visit from whoever runs that network. Many companies are replacing the office VPN with zero trust access, where each app checks identity directly."
+    ],
+    "analogy": "Mailing all your letters inside one sealed bag to a trusted friend in another city, who opens the bag and posts them from there. Your local post office sees only bags addressed to your friend; the recipients see your friend's return address.",
+    "keyPoints": [
+      "All traffic goes encrypted to the VPN server, which forwards it to the internet.",
+      "Sites see the VPN's IP address; your local network sees only an encrypted tunnel.",
+      "The VPN provider can see what your ISP could: you are choosing whom to trust.",
+      "Office VPN = reach the internal network; consumer VPN = privacy on untrusted networks, or location."
+    ],
+    "links": [
+      { "label": "What is a VPN? (Cloudflare)", "url": "https://www.cloudflare.com/learning/access-management/what-is-a-vpn/" },
+      { "label": "Virtual private network (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Virtual_private_network" }
+    ]
+  },
+  "es": {
+    "title": "VPN",
+    "tagline": "Un túnel cifrado que manda todo tu tráfico a través de otra red primero.",
+    "explanation": [
+      "Una **VPN** (Virtual Private Network) envuelve todo el tráfico de tu dispositivo en un túnel cifrado hasta un servidor VPN, que después lo manda a internet en tu nombre. Todo lo que hay en el medio (el Wi-Fi del bar, tu proveedor, la red en la que estés) ve solo paquetes ilegibles que van a una única dirección. Los sitios que visitás ven la dirección IP del servidor VPN, no la tuya.",
+      "Hay dos usos muy distintos. Las empresas usan VPN para que una notebook en tu casa llegue a la red de la oficina como si estuviera enchufada ahí: herramientas internas, servidores de archivos, bases de datos que no están expuestas a internet. La gente usa servicios de VPN para esconder su tráfico de la red local, para aparecer en otro país o para saltar bloqueos. Misma tecnología (protocolos como WireGuard, OpenVPN o IPsec), distinto propósito.",
+      "Una VPN mueve la confianza, no la elimina. El proveedor de VPN puede ver todo lo que antes veía tu proveedor de internet, así que una VPN es tan confiable como la empresa que la opera. No te vuelve anónimo (los sitios en los que iniciás sesión siguen sabiendo quién sos) y no reemplaza a HTTPS, que ya protege el contenido de cada sitio. Lo que sí hace es protegerte en redes que no son de confianza y esconder qué sitios visitás de quien maneje esa red. Muchas empresas están reemplazando la VPN de la oficina por acceso zero trust, donde cada app verifica la identidad directamente."
+    ],
+    "analogy": "Mandar todas tus cartas dentro de una bolsa sellada a un amigo de confianza en otra ciudad, que abre la bolsa y las despacha desde ahí. Tu correo local ve solo bolsas para tu amigo; los destinatarios ven el remitente de tu amigo.",
+    "keyPoints": [
+      "Todo el tráfico va cifrado hasta el servidor VPN, que lo reenvía a internet.",
+      "Los sitios ven la IP de la VPN; tu red local ve solo un túnel cifrado.",
+      "El proveedor de VPN puede ver lo que veía tu ISP: estás eligiendo en quién confiar.",
+      "VPN de oficina = llegar a la red interna; VPN de consumo = privacidad en redes ajenas, o ubicación."
+    ],
+    "links": [
+      { "label": "¿Qué es una VPN? (Cloudflare)", "url": "https://www.cloudflare.com/es-es/learning/access-management/what-is-a-vpn/" },
+      { "label": "Red privada virtual (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Red_privada_virtual" }
+    ]
+  }
+}

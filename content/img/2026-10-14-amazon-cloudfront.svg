@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M300 60 l8 70 h44 l8 -70 z" fill="#9ac7ea"/>
+    <ellipse cx="330" cy="60" rx="30" ry="8" fill="#bfdcf2"/>
+  </g>
+  <text x="330" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b">origin (S3)</text>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="5 4">
+    <path d="M298 80 Q200 40 70 70"/>
+    <path d="M298 96 Q220 100 150 112"/>
+    <path d="M300 112 Q240 160 200 170"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="56" width="48" height="30" rx="6" fill="#ffd166"/>
+    <rect x="118" y="98" width="48" height="30" rx="6" fill="#ffd166"/>
+    <rect x="170" y="156" width="48" height="30" rx="6" fill="#ffd166"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="64" y="75">edge</text><text x="142" y="117">edge</text><text x="194" y="175">edge</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="30" cy="120" r="7" fill="#9bd1b9"/><circle cx="60" cy="128" r="7" fill="#9bd1b9"/><circle cx="94" cy="122" r="7" fill="#9bd1b9"/>
+    <circle cx="112" cy="160" r="7" fill="#9bd1b9"/><circle cx="146" cy="166" r="7" fill="#9bd1b9"/>
+    <circle cx="160" cy="204" r="7" fill="#9bd1b9"/><circle cx="230" cy="204" r="7" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M34 112 L54 88 M60 120 V88 M92 114 L76 88"/>
+    <path d="M116 152 L132 130 M146 158 V130"/>
+    <path d="M166 196 L182 188 M226 196 L208 188"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="64" y="40">Madrid</text><text x="142" y="146">São Paulo</text><text x="250" y="178">Buenos Aires</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">fetched once from the origin · served nearby</text>
+</svg>

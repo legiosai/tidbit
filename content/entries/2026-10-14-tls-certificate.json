@@ -1,0 +1,94 @@
+{
+  "id": "2026-10-14-tls-certificate",
+  "date": "2026-10-14",
+  "subjects": [
+    "security",
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "TLS certificates",
+      "SSL certificate",
+      "SSL certificates",
+      "certificate",
+      "certificates",
+      "certificate authority"
+    ],
+    "es": [
+      "certificados TLS",
+      "certificado SSL",
+      "certificados SSL",
+      "certificado",
+      "certificados",
+      "autoridad certificante"
+    ]
+  },
+  "image": "img/2026-10-14-tls-certificate.svg",
+  "imageAlt": {
+    "en": "An ID card for a domain, with its public key and expiry date, stamped by a certificate authority and checked by a browser",
+    "es": "Una credencial de un dominio, con su clave pública y vencimiento, sellada por una autoridad certificante y revisada por un navegador"
+  },
+  "en": {
+    "title": "TLS certificate",
+    "tagline": "The ID card a website shows your browser to prove it is who it claims to be.",
+    "explanation": [
+      "A **TLS certificate** is a small file that says 'the public key for `example.com` is this one', signed by a **certificate authority** (CA) that your browser already trusts. When you open a site over HTTPS, the server sends its certificate. The browser checks that the signature is from a known CA, that the name matches the site you asked for and that it has not expired. If all three pass, you get the padlock and the browser uses the public key from the certificate to start encryption with that server, and nobody else.",
+      "The CA's job is to check, before signing, that whoever asked for the certificate actually controls the domain. Since 2015 Let's Encrypt does this automatically and for free: the server proves control by publishing a token the CA asked for, gets a certificate valid for 90 days, and renews it on its own. That is why nearly every site has HTTPS today and why 'SSL certificate', the old name, is still what many people call it.",
+      "What a certificate proves is narrow: that you are really talking to `mybank.com`. It says nothing about whether `mybank-secure-login.com` is honest; a phishing site can have a perfectly valid certificate for its own look-alike name. And an 'expired certificate' warning usually means an administrator forgot to renew, not an attack, although the safe move is still not to type anything there.",
+      "Click the padlock in your browser and you can read the certificate yourself: who issued it, for which names, and until when. It is the same mechanism, in reverse, that lets a company sign its software so your computer knows an update really came from them."
+    ],
+    "analogy": "A passport. An authority the border guard trusts issued it, it binds a name to a face (a domain to a public key) and it expires. A valid passport proves identity, not good intentions.",
+    "keyPoints": [
+      "A certificate binds a domain name to a public key, signed by a trusted authority.",
+      "The browser checks the signature, the name and the expiry date before showing the padlock.",
+      "Let's Encrypt made certificates free and automatic; most sites renew every 90 days.",
+      "It proves you reached the real domain, not that the domain is trustworthy."
+    ],
+    "links": [
+      {
+        "label": "What is an SSL certificate? (Cloudflare Learning Center)",
+        "url": "https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/"
+      },
+      {
+        "label": "Let's Encrypt: how it works",
+        "url": "https://letsencrypt.org/how-it-works/"
+      },
+      {
+        "label": "Public key certificate on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Public_key_certificate"
+      }
+    ]
+  },
+  "es": {
+    "title": "Certificado TLS",
+    "tagline": "La credencial que un sitio le muestra a tu navegador para probar que es quien dice ser.",
+    "explanation": [
+      "Un **certificado TLS** es un archivo chico que dice 'la clave pública de `ejemplo.com` es esta', firmado por una **autoridad certificante** (CA) en la que tu navegador ya confía. Cuando abrís un sitio por HTTPS, el servidor manda su certificado. El navegador revisa que la firma sea de una CA conocida, que el nombre coincida con el sitio que pediste y que no esté vencido. Si pasan las tres, aparece el candado y el navegador usa la clave pública del certificado para arrancar el cifrado con ese servidor, y con ningún otro.",
+      "El trabajo de la CA es verificar, antes de firmar, que quien pide el certificado controla de verdad el dominio. Desde 2015 Let's Encrypt lo hace automáticamente y gratis: el servidor prueba el control publicando un token que la CA le pidió, recibe un certificado válido por 90 días y lo renueva solo. Por eso casi todos los sitios tienen HTTPS hoy, y por eso 'certificado SSL', el nombre viejo, sigue siendo como mucha gente lo llama.",
+      "Lo que prueba un certificado es acotado: que estás hablando de verdad con `mibanco.com`. No dice nada sobre si `mibanco-acceso-seguro.com` es honesto; un sitio de Phishing puede tener un certificado perfectamente válido para su propio nombre parecido. Y una advertencia de 'certificado vencido' suele significar que un administrador se olvidó de renovar, no un ataque, aunque lo prudente sigue siendo no escribir nada ahí.",
+      "Hacé clic en el candado del navegador y podés leer el certificado vos: quién lo emitió, para qué nombres y hasta cuándo. Es el mismo mecanismo, al revés, que le permite a una empresa firmar su software para que tu computadora sepa que una actualización vino de ellos."
+    ],
+    "analogy": "Un pasaporte. Lo emitió una autoridad en la que el control de frontera confía, une un nombre con una cara (un dominio con una clave pública) y vence. Un pasaporte válido prueba identidad, no buenas intenciones.",
+    "keyPoints": [
+      "Un certificado une un nombre de dominio con una clave pública, firmado por una autoridad confiable.",
+      "El navegador revisa firma, nombre y vencimiento antes de mostrar el candado.",
+      "Let's Encrypt hizo los certificados gratis y automáticos; la mayoría se renueva cada 90 días.",
+      "Prueba que llegaste al dominio real, no que el dominio sea confiable."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es un certificado SSL? (Cloudflare)",
+        "url": "https://www.cloudflare.com/es-es/learning/ssl/what-is-an-ssl-certificate/"
+      },
+      {
+        "label": "Let's Encrypt: cómo funciona",
+        "url": "https://letsencrypt.org/es/how-it-works/"
+      },
+      {
+        "label": "Certificado de clave pública en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Certificado_de_clave_p%C3%BAblica"
+      }
+    ]
+  }
+}

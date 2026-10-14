@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="110" y="40" width="260" height="150" rx="8" fill="#e6dfd0"/>
+    <rect x="110" y="40" width="260" height="28" rx="8" fill="#9ac7ea"/>
+    <rect x="110" y="100" width="260" height="30" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M110 68 H370 M110 100 H370 M110 130 H370 M110 160 H370 M200 68 V190"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="155" y="59">key</text><text x="285" y="59">item</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="155" y="88">user#17</text><text x="285" y="88">{name, plan}</text>
+    <text x="155" y="119">user#42</text><text x="285" y="119">{name, plan, cart}</text>
+    <text x="155" y="149">order#9</text><text x="285" y="149">{items, total}</text>
+    <text x="155" y="179">…</text><text x="285" y="179">…</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="40" cy="115" r="12" fill="#ffd166"/>
+    <path d="M52 115 h30 M72 115 v8 M80 115 v6" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M86 115 H104"/><path d="M98 111 l6 4 -6 4"/>
+  </g>
+  <text x="40" y="146" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357">user#42</text>
+  <text x="40" y="162" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">in 3 ms</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">give the key · get the item · any table size</text>
+</svg>
