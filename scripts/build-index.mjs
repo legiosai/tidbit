@@ -85,6 +85,6 @@ if (problems.length) {
 
 // Newest first; within a day, by level and then title, so a batch reads in a sensible order.
 entries.sort((a, b) => (a.date !== b.date ? (a.date < b.date ? 1 : -1) : a.level !== b.level ? a.level - b.level : a.title.en.localeCompare(b.title.en)));
-const out = { generated: new Date().toISOString(), count: entries.length, entries };
+const out = { count: entries.length, entries };
 await writeFile(path.join(root, "content", "index.json"), JSON.stringify(out, null, 2) + "\n");
 console.log(`index.json: ${entries.length} entries`);
