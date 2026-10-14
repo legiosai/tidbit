@@ -29,7 +29,11 @@ jobs:
           node-version: 22
       # El índice commiteado tiene que ser el que sale de las entradas commiteadas.
       - run: node scripts/build-index.mjs
-      - run: git diff --exit-code -- content/index.json || (echo "content/index.json está desactualizado: corré 'npm run index' y commiteá" && exit 1)
+      - run: |
+          if ! git diff --exit-code -- content/index.json; then
+            echo "content/index.json está desactualizado: corré 'npm run index' y commiteá"
+            exit 1
+          fi
 
   publish:
     if: github.event_name != 'pull_request'
