@@ -44,7 +44,7 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
-      - run: mkdir -p dist && cp -R index.html app.js style.css content dist/
+      - run: mkdir -p dist && cp -R index.html app.js style.css favicon.svg content dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

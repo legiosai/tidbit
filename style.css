@@ -108,13 +108,16 @@ code {
   backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
   border-bottom: 1px solid var(--line);
 }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--f-mono); font-size: 15px; }
-.brand-mark {
-  width: 26px; height: 26px; border-radius: 7px;
-  background: linear-gradient(135deg, var(--sol), var(--sol-2)); color: var(--accent-ink);
-  display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; font-size: 16px;
-  box-shadow: 0 0 14px -2px color-mix(in srgb, var(--sol) 55%, transparent);
+.brand { display: flex; align-items: center; gap: 7px; text-decoration: none; }
+.brand-mark { width: 30px; height: 30px; flex: none; filter: drop-shadow(0 0 8px color-mix(in srgb, var(--sol) 35%, transparent)); transition: transform .3s ease; }
+.brand:hover .brand-mark { transform: rotate(-6deg) scale(1.05); }
+.brand-name { font-family: var(--f-display); font-weight: 800; font-size: 22px; letter-spacing: -0.035em; line-height: 1; }
+.dot-i { position: relative; display: inline-block; }
+.dot-i::after {
+  content: ""; position: absolute; left: 50%; top: .02em; width: .2em; height: .2em; border-radius: 50%;
+  transform: translateX(-50%); background: var(--sol);
 }
+.dot-i.moon::after { background: var(--luna); }
 .top-nav { display: flex; gap: 4px; font-family: var(--f-mono); font-size: 13.5px; }
 .top-nav a { text-decoration: none; color: var(--muted); padding: 6px 10px; border-radius: 8px; transition: color .2s, background .2s; }
 .top-nav a:hover { color: var(--sol); }
