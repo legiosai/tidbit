@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="40" width="120" height="120" rx="4" fill="#e6dfd0"/>
+    <rect x="34" y="50" width="30" height="30" fill="#f3efe6"/><rect x="104" y="50" width="30" height="30" fill="#f3efe6"/><rect x="34" y="120" width="30" height="30" fill="#f3efe6"/>
+    <rect x="160" y="40" width="64" height="112" rx="10" fill="#e6dfd0"/>
+    <rect x="168" y="56" width="48" height="76" rx="4" fill="#9ac7ea"/>
+    <rect x="252" y="40" width="124" height="120" rx="4" fill="#e6dfd0"/>
+    <rect x="276" y="60" width="84" height="84" fill="#f4a7a7"/>
+  </g>
+  <g fill="#2b2b2b">
+    <rect x="42" y="58" width="14" height="14"/><rect x="112" y="58" width="14" height="14"/><rect x="42" y="128" width="14" height="14"/>
+    <rect x="74" y="52" width="10" height="10"/><rect x="88" y="66" width="10" height="10"/><rect x="74" y="84" width="10" height="10"/>
+    <rect x="96" y="94" width="10" height="10"/><rect x="118" y="96" width="10" height="10"/><rect x="40" y="96" width="10" height="10"/>
+    <rect x="58" y="94" width="10" height="10"/><rect x="80" y="108" width="10" height="10"/><rect x="104" y="120" width="10" height="10"/>
+    <rect x="120" y="136" width="10" height="10"/><rect x="78" y="138" width="10" height="10"/><rect x="94" y="132" width="10" height="10"/>
+    <rect x="290" y="74" width="12" height="12"/><rect x="334" y="74" width="12" height="12"/><rect x="290" y="118" width="12" height="12"/>
+    <rect x="316" y="96" width="10" height="10"/><rect x="334" y="114" width="10" height="10"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    
+    <path d="M276 60 L268 52"/><path d="M360 144 L368 152"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="192" y="88">menu.</text><text x="192" y="102">site</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="84" y="180">real code</text><text x="192" y="172">check link</text><text x="314" y="180">fake sticker</text>
+  </g>
+  <text x="314" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">pasted on top</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">look before you open it</text>
+</svg>

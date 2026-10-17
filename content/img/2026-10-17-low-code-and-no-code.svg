@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="44" width="110" height="120" rx="10" fill="#e6dfd0"/>
+    <rect x="145" y="44" width="110" height="120" rx="10" fill="#e6dfd0"/>
+    <rect x="270" y="44" width="110" height="120" rx="10" fill="#e6dfd0"/>
+    <rect x="34" y="60" width="50" height="22" rx="4" fill="#ffd166"/>
+    <rect x="66" y="98" width="50" height="22" rx="4" fill="#9ac7ea"/>
+    <rect x="34" y="136" width="50" height="22" rx="4" fill="#9bd1b9"/>
+    <rect x="159" y="60" width="50" height="22" rx="4" fill="#ffd166"/>
+    <rect x="191" y="98" width="50" height="22" rx="4" fill="#9ac7ea"/>
+    <rect x="159" y="132" width="82" height="24" rx="4" fill="#f3efe6"/>
+    <rect x="282" y="58" width="86" height="94" rx="4" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M60 84 V96"/><path d="M90 122 L64 134"/>
+    <path d="M184 84 V96"/><path d="M216 122 V130"/>
+    <path d="M30 196 H370"/><path d="M364 192 l6 4 -6 4"/><path d="M36 192 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="10" fill="#2b2b2b" text-anchor="middle">
+    <text x="59" y="75">form</text><text x="91" y="113">rule</text><text x="59" y="151">email</text>
+    <text x="184" y="75">form</text><text x="216" y="113">rule</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b" text-anchor="start">
+    <text x="166" y="148">if x &gt; 3:</text>
+    <text x="290" y="76">def run():</text><text x="298" y="94">rows = db</text><text x="298" y="112">for r in</text><text x="306" y="130">send(r)</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="34">no-code</text><text x="200" y="34">low-code</text><text x="325" y="34">code</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="75" y="186">faster to start</text><text x="325" y="186">more control</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">from dragging blocks to writing code</text>
+</svg>

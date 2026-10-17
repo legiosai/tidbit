@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-agile-and-scrum",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Agile methodology", "agile methodologies", "agile development", "Agile Manifesto", "Scrum", "Kanban", "Scrum Master", "product backlog"],
+    "es": ["metodología ágil", "metodologías ágiles", "desarrollo ágil", "Manifiesto Ágil", "Scrum", "Kanban", "Scrum Master", "product backlog"]
+  },
+  "image": "img/2026-10-17-agile-and-scrum.svg",
+  "imageAlt": {
+    "en": "A backlog of cards feeds a two-week sprint loop with a daily stand-up, ending in a working product increment and a retrospective",
+    "es": "Un backlog de tarjetas alimenta un ciclo de sprint de dos semanas con una daily, y termina en un incremento del producto que funciona y una retrospectiva"
+  },
+  "en": {
+    "title": "Agile and Scrum",
+    "tagline": "Building software in short cycles, showing results often and adjusting as you learn.",
+    "explanation": [
+      "**Agile** is a family of ways to organize software work around short cycles and constant feedback, instead of one big plan carried out over a year. It was named in 2001 by a group of developers who wrote the **Agile Manifesto**, which values working software, collaboration with the customer and responding to change over heavy documentation and rigid contracts. The older style it reacted against is often called **waterfall**: specify everything, then build everything, then test everything, then deliver.",
+      "**Scrum** is the most widely used way of putting Agile into practice. Work is done in **sprints**, fixed periods of up to a month, very often two weeks. All pending work lives in a prioritized list called the **product backlog**. At the start of a sprint the team picks what it can finish; every day it holds a short meeting, the **daily scrum** or stand-up; at the end it shows what it built in a **sprint review** and discusses how to work better in a **retrospective**.",
+      "Scrum defines three roles: the **product owner**, who decides what matters most; the **Scrum Master**, who helps the team follow the process and removes obstacles; and the developers, who do the work. **Kanban** is a lighter alternative without sprints: tasks move across a board from \"to do\" to \"done\", with a limit on how many can be in progress at once. In practice many teams mix both, and \"agile\" sometimes ends up meaning just \"lots of meetings\", which misses the point."
+    ],
+    "analogy": "Like driving with a GPS that recalculates, instead of printing the whole route before leaving. You still know where you are going, but every few kilometers you check where you actually are and adjust.",
+    "keyPoints": [
+      "Agile is a set of values; Scrum is one concrete way to apply them.",
+      "Scrum works in sprints of up to a month, often two weeks.",
+      "Each sprint should end with something working that people can see and use.",
+      "Kanban drops sprints and limits how much work is in progress."
+    ],
+    "links": [
+      { "label": "Manifesto for Agile Software Development", "url": "https://agilemanifesto.org/" },
+      { "label": "The Scrum Guide", "url": "https://scrumguides.org/scrum-guide.html" },
+      { "label": "Scrum on Wikipedia", "url": "https://en.wikipedia.org/wiki/Scrum_(software_development)" }
+    ]
+  },
+  "es": {
+    "title": "Agile y Scrum",
+    "tagline": "Hacer software en ciclos cortos, mostrar resultados seguido y ajustar sobre la marcha.",
+    "explanation": [
+      "**Agile** (ágil) es una familia de formas de organizar el trabajo de software alrededor de ciclos cortos y feedback constante, en lugar de un gran plan ejecutado durante un año. Lo bautizó en 2001 un grupo de developers que escribió el **Manifiesto Ágil**, que valora el software que funciona, la colaboración con el cliente y la respuesta al cambio por encima de la documentación pesada y los contratos rígidos. El estilo anterior contra el que reaccionaba suele llamarse **cascada** (waterfall): especificar todo, después construir todo, después probar todo y recién ahí entregar.",
+      "**Scrum** es la forma más usada de llevar Agile a la práctica. El trabajo se hace en **sprints**, períodos fijos de hasta un mes, muy seguido de dos semanas. Todo lo pendiente vive en una lista priorizada llamada **product backlog**. Al arrancar un sprint, el equipo elige lo que puede terminar; todos los días hace una reunión corta, la **daily scrum** o daily; al final muestra lo que construyó en una **sprint review** y charla cómo trabajar mejor en una **retrospectiva**.",
+      "Scrum define tres roles: el **product owner**, que decide qué importa más; el **Scrum Master**, que ayuda al equipo a seguir el proceso y saca obstáculos del camino; y los developers, que hacen el trabajo. **Kanban** es una alternativa más liviana, sin sprints: las tareas avanzan por un tablero de \"por hacer\" a \"hecho\", con un límite de cuántas pueden estar en curso a la vez. En la práctica muchos equipos mezclan las dos, y a veces \"ágil\" termina queriendo decir solo \"muchas reuniones\", que es justo no entender la idea."
+    ],
+    "analogy": "Como manejar con un GPS que recalcula, en vez de imprimir toda la ruta antes de salir. Seguís sabiendo a dónde vas, pero cada pocos kilómetros revisás dónde estás de verdad y corregís.",
+    "keyPoints": [
+      "Agile es un conjunto de valores; Scrum es una forma concreta de aplicarlos.",
+      "Scrum trabaja en sprints de hasta un mes, muchas veces de dos semanas.",
+      "Cada sprint debería terminar con algo que funcione y que la gente pueda ver y usar.",
+      "Kanban deja de lado los sprints y limita cuánto trabajo hay en curso."
+    ],
+    "links": [
+      { "label": "Manifiesto por el Desarrollo Ágil de Software", "url": "https://agilemanifesto.org/iso/es/manifesto.html" },
+      { "label": "Qué es Scrum (Atlassian)", "url": "https://www.atlassian.com/es/agile/scrum" },
+      { "label": "Scrum en Wikipedia", "url": "https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-hypervisor",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["hypervisors", "virtualization", "virtualisation"],
+    "es": ["hipervisores", "hypervisor", "virtualización"]
+  },
+  "image": "img/2026-10-17-hypervisor.svg",
+  "imageAlt": {
+    "en": "Two stacks side by side: type 1, where the hypervisor runs directly on the hardware, and type 2, where it runs as an app on top of a normal operating system",
+    "es": "Dos pilas lado a lado: tipo 1, donde el hipervisor corre directo sobre el hardware, y tipo 2, donde corre como una app arriba de un sistema operativo común"
+  },
+  "en": {
+    "title": "Hypervisor",
+    "tagline": "The software layer that splits one physical computer into many virtual machines.",
+    "explanation": [
+      "A **hypervisor** is the software that creates and runs virtual machines. It sits between the physical hardware and the VMs, hands each one a share of CPU time, memory, storage and network, and keeps them isolated: a VM thinks it has a whole computer to itself, and it cannot read another VM's memory. This whole technique is called **virtualization**.",
+      "There are two broad kinds. A **type 1** or bare-metal hypervisor runs directly on the hardware, with no ordinary operating system underneath; this is what data centers use, with examples like VMware ESXi, Microsoft Hyper-V, Xen and KVM, which is built into Linux. A **type 2** hypervisor runs as an app on your normal operating system, like VirtualBox or Parallels on a laptop; it is convenient for testing but adds a layer of overhead.",
+      "Modern CPUs include special instructions that let hypervisors run VMs at close to native speed. Cloud providers build their own on top of these: AWS uses the **Nitro** system, which moves much of the virtualization work onto dedicated hardware cards, and **Firecracker**, a tiny hypervisor that starts lightweight VMs in a fraction of a second for AWS Lambda and Fargate. Because the hypervisor is the wall between customers, its security is critical."
+    ],
+    "analogy": "The manager of a shared office building who assigns each tenant their own floor, meters their electricity and makes sure nobody's key opens someone else's door. The tenants only see their own floor; the manager sees the whole building.",
+    "keyPoints": [
+      "Creates virtual machines and shares out CPU, memory, disk and network among them.",
+      "Type 1 runs on bare hardware (ESXi, Hyper-V, KVM); type 2 runs on top of an OS (VirtualBox).",
+      "CPU support for virtualization makes VMs run at near-native speed.",
+      "The hypervisor is the isolation boundary between cloud customers."
+    ],
+    "links": [
+      { "label": "What is a hypervisor? (AWS)", "url": "https://aws.amazon.com/what-is/hypervisor/" },
+      { "label": "Hypervisor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hypervisor" }
+    ]
+  },
+  "es": {
+    "title": "Hipervisor",
+    "tagline": "La capa de software que divide una computadora física en muchas máquinas virtuales.",
+    "explanation": [
+      "Un **hipervisor** es el software que crea y hace correr máquinas virtuales. Se ubica entre el hardware físico y las VMs, le da a cada una su parte de tiempo de CPU, memoria, almacenamiento y red, y las mantiene aisladas: una VM cree que tiene una computadora entera para ella, y no puede leer la memoria de otra. Toda esta técnica se llama **virtualización**.",
+      "Hay dos grandes tipos. Un hipervisor de **tipo 1**, o bare metal, corre directo sobre el hardware, sin un sistema operativo común debajo; es el que usan los centros de datos, con ejemplos como VMware ESXi, Microsoft Hyper-V, Xen y KVM, que viene incluido en Linux. Un hipervisor de **tipo 2** corre como una app más sobre tu sistema operativo, como VirtualBox o Parallels en una notebook; es cómodo para hacer pruebas pero suma una capa que cuesta rendimiento.",
+      "Las CPUs modernas traen instrucciones especiales que permiten correr VMs casi a velocidad nativa. Los proveedores de nube arman los suyos encima de eso: AWS usa el sistema **Nitro**, que pasa buena parte del trabajo de virtualización a placas de hardware dedicadas, y **Firecracker**, un hipervisor mínimo que arranca VMs livianas en una fracción de segundo para AWS Lambda y Fargate. Como el hipervisor es la pared entre clientes, su seguridad es crítica."
+    ],
+    "analogy": "El administrador de un edificio de oficinas compartido que le asigna a cada inquilino su piso, le mide la luz y se asegura de que ninguna llave abra la puerta de otro. Los inquilinos solo ven su piso; el administrador ve todo el edificio.",
+    "keyPoints": [
+      "Crea máquinas virtuales y reparte CPU, memoria, disco y red entre ellas.",
+      "El tipo 1 corre sobre el hardware (ESXi, Hyper-V, KVM); el tipo 2, arriba de un sistema operativo (VirtualBox).",
+      "El soporte de virtualización en la CPU hace que las VMs corran casi a velocidad nativa.",
+      "El hipervisor es la frontera de aislamiento entre clientes de la nube."
+    ],
+    "links": [
+      { "label": "¿Qué es un hipervisor? (AWS)", "url": "https://aws.amazon.com/es/what-is/hypervisor/" },
+      { "label": "Hipervisor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hipervisor" }
+    ]
+  }
+}

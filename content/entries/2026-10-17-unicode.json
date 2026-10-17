@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-unicode",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["UTF-8", "character encoding", "character encodings", "mojibake"],
+    "es": ["UTF-8", "codificación de caracteres", "codificaciones de caracteres", "mojibake"]
+  },
+  "image": "img/2026-10-17-unicode.svg",
+  "imageAlt": {
+    "en": "The letter ñ gets the Unicode number U+00F1, UTF-8 stores it as two bytes, and reading those bytes with the wrong encoding shows Ã± instead",
+    "es": "La letra ñ recibe el número Unicode U+00F1, UTF-8 la guarda como dos bytes, y leer esos bytes con la codificación equivocada muestra Ã± en su lugar"
+  },
+  "en": {
+    "title": "Unicode",
+    "tagline": "The universal numbering of every letter and symbol, and why accents sometimes break.",
+    "explanation": [
+      "Computers store text as numbers, so every character needs a number. **Unicode** is the worldwide standard that assigns one: `A` is U+0041, `ñ` is U+00F1, the Greek `Ω` is U+03A9, and the emoji 😀 is U+1F600. It covers virtually every writing system in use, plus many historic ones and a lot of symbols, well over a hundred thousand characters in all. Before Unicode, each region used its own incompatible table, and a file written in one often came out garbled in another.",
+      "Unicode says which number each character gets; an **encoding** says how to write those numbers as bytes in a file or a network message. The dominant one is **UTF-8**. It stores plain English letters in one byte each, exactly like the old ASCII standard, and uses two to four bytes for everything else. That backward compatibility is a big reason it won: today the vast majority of web pages are UTF-8.",
+      "When accents break, this is usually why. If a program writes \"año\" in UTF-8 and another reads those bytes assuming an older encoding such as Latin-1, each half of the two-byte `ñ` is shown as a separate character and you get \"aÃ±o\". That garbage has a name, **mojibake**. The fix is almost never to edit the text by hand, but to make both sides agree that the text is UTF-8."
+    ],
+    "analogy": "A global phone book that gives every character on Earth its own number. UTF-8 is the way of writing those numbers on paper: short numbers take one box, long ones take several. If the reader assumes every number fits in one box, a two-box number turns into two wrong ones.",
+    "keyPoints": [
+      "Unicode gives every character, from A to ñ to emoji, a unique number.",
+      "UTF-8 is the most common way to store those numbers as bytes.",
+      "Plain English text in UTF-8 is identical to old ASCII.",
+      "\"Ã±\" instead of \"ñ\" means the text was read with the wrong encoding."
+    ],
+    "links": [
+      { "label": "What is Unicode? (Unicode Consortium)", "url": "https://www.unicode.org/standard/WhatIsUnicode.html" },
+      { "label": "UTF-8 (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/UTF-8" },
+      { "label": "The Absolute Minimum Every Software Developer Must Know About Unicode (Joel Spolsky)", "url": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/" }
+    ]
+  },
+  "es": {
+    "title": "Unicode",
+    "tagline": "La numeración universal de cada letra y símbolo, y por qué a veces se rompen los acentos.",
+    "explanation": [
+      "Las computadoras guardan el texto como números, así que cada carácter necesita uno. **Unicode** es el estándar mundial que se los asigna: la `A` es U+0041, la `ñ` es U+00F1, la `Ω` griega es U+03A9 y el emoji 😀 es U+1F600. Cubre prácticamente todos los sistemas de escritura en uso, además de muchos históricos y montones de símbolos: bastante más de cien mil caracteres en total. Antes de Unicode, cada región usaba su propia tabla incompatible, y un archivo escrito en una muchas veces salía desfigurado en otra.",
+      "Unicode dice qué número le toca a cada carácter; una **codificación** dice cómo escribir esos números como bytes en un archivo o en un mensaje por la red. La que domina es **UTF-8**. Guarda las letras básicas del inglés en un byte cada una, exactamente igual que el viejo estándar ASCII, y usa de dos a cuatro bytes para todo lo demás. Esa compatibilidad hacia atrás es una gran razón de su éxito: hoy la enorme mayoría de las páginas web están en UTF-8.",
+      "Cuando se rompen los acentos, casi siempre es por esto. Si un programa escribe \"año\" en UTF-8 y otro lee esos bytes suponiendo una codificación más vieja, como Latin-1, cada mitad de la `ñ` de dos bytes se muestra como un carácter aparte y aparece \"aÃ±o\". Ese engendro tiene nombre: **mojibake**. El arreglo casi nunca es corregir el texto a mano, sino lograr que las dos partes estén de acuerdo en que el texto es UTF-8."
+    ],
+    "analogy": "Una guía telefónica mundial que le da a cada carácter del planeta su propio número. UTF-8 es la forma de anotar esos números en papel: los cortos ocupan un casillero y los largos, varios. Si quien lee supone que todo número entra en un casillero, uno de dos casilleros se convierte en dos números equivocados.",
+    "keyPoints": [
+      "Unicode le da a cada carácter, de la A a la ñ y los emoji, un número único.",
+      "UTF-8 es la forma más común de guardar esos números como bytes.",
+      "Un texto en inglés básico en UTF-8 es idéntico al viejo ASCII.",
+      "Ver \"Ã±\" en vez de \"ñ\" significa que el texto se leyó con la codificación equivocada."
+    ],
+    "links": [
+      { "label": "Unicode en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unicode" },
+      { "label": "UTF-8 (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/UTF-8" },
+      { "label": "Mojibake en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mojibake" }
+    ]
+  }
+}

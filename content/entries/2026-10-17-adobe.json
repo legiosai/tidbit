@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-adobe",
+  "date": "2026-10-17",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Adobe Inc.", "Creative Cloud", "Adobe Creative Cloud"],
+    "es": ["Adobe Inc.", "Creative Cloud", "Adobe Creative Cloud"]
+  },
+  "image": "img/2026-10-17-adobe.svg",
+  "imageAlt": {
+    "en": "A monthly subscription opens three groups of tools: photo and design, video, and documents as PDF",
+    "es": "Una suscripción mensual abre tres grupos de herramientas: foto y diseño, video, y documentos en PDF"
+  },
+  "en": {
+    "title": "Adobe",
+    "tagline": "The company behind Photoshop, Illustrator, Premiere Pro, Acrobat and the PDF format.",
+    "explanation": [
+      "**Adobe** is an American software company founded in 1982 by John Warnock and Charles Geschke, two researchers from Xerox's lab in Palo Alto. Its first product, PostScript, was a language that described a page so that any printer could print it exactly. That idea of a page that looks the same everywhere led, in 1993, to the **PDF** format and the Acrobat software to read and create it. PDF later became an open ISO standard.",
+      "Adobe also makes the tools most creative professionals use: **Photoshop** for editing photos, **Illustrator** for drawings and logos, **InDesign** for magazines and books, **Premiere Pro** for video and **Lightroom** for organizing and developing photos. In recent years it added generative AI to them, through its own Firefly models, so you can fill or extend an image by describing what you want.",
+      "For decades Adobe sold its programs in boxes, for a single large payment. In 2013 it switched to **Creative Cloud**, a monthly or yearly subscription, and today most of its money comes from subscriptions: Creative Cloud for creative work, Document Cloud for Acrobat and PDFs, and Experience Cloud, software that helps large companies run their websites, marketing campaigns and analytics."
+    ],
+    "analogy": "A gym membership for creative tools. Instead of buying each machine for your home, you pay every month and get access to the whole room, with new equipment added over time.",
+    "keyPoints": [
+      "Founded in 1982 by John Warnock and Charles Geschke, both from Xerox PARC.",
+      "Created PostScript and the PDF format, which is now an open ISO standard.",
+      "Makes Photoshop, Illustrator, InDesign, Premiere Pro, Lightroom and Acrobat.",
+      "Since 2013 it sells its software mainly as subscriptions."
+    ],
+    "links": [
+      { "label": "Adobe Inc. on Wikipedia", "url": "https://en.wikipedia.org/wiki/Adobe_Inc." },
+      { "label": "Adobe Creative Cloud on Wikipedia", "url": "https://en.wikipedia.org/wiki/Adobe_Creative_Cloud" },
+      { "label": "PDF on Wikipedia", "url": "https://en.wikipedia.org/wiki/PDF" }
+    ]
+  },
+  "es": {
+    "title": "Adobe",
+    "tagline": "La empresa detrás de Photoshop, Illustrator, Premiere Pro, Acrobat y el formato PDF.",
+    "explanation": [
+      "**Adobe** es una empresa estadounidense de software fundada en 1982 por John Warnock y Charles Geschke, dos investigadores del laboratorio de Xerox en Palo Alto. Su primer producto, PostScript, era un lenguaje que describía una página para que cualquier impresora la imprimiera exacta. Esa idea de una página que se ve igual en todos lados llevó, en 1993, al formato **PDF** y al programa Acrobat para leerlo y crearlo. Con el tiempo el PDF se volvió un estándar abierto de ISO.",
+      "Adobe también hace las herramientas que usan la mayoría de los profesionales creativos: **Photoshop** para editar fotos, **Illustrator** para dibujos y logos, **InDesign** para revistas y libros, **Premiere Pro** para video y **Lightroom** para organizar y revelar fotos. En los últimos años les sumó IA generativa con sus propios modelos Firefly, así podés rellenar o agrandar una imagen describiendo lo que querés.",
+      "Durante décadas Adobe vendió sus programas en caja, con un pago grande y único. En 2013 pasó a **Creative Cloud**, una suscripción mensual o anual, y hoy la mayor parte de su plata viene de suscripciones: Creative Cloud para el trabajo creativo, Document Cloud para Acrobat y los PDF, y Experience Cloud, software que ayuda a empresas grandes a manejar sus sitios web, campañas de marketing y métricas."
+    ],
+    "analogy": "Una cuota de gimnasio para herramientas creativas. En vez de comprar cada máquina para tu casa, pagás todos los meses y tenés acceso a todo el salón, con aparatos nuevos que se van sumando.",
+    "keyPoints": [
+      "Fundada en 1982 por John Warnock y Charles Geschke, los dos de Xerox PARC.",
+      "Creó PostScript y el formato PDF, que hoy es un estándar abierto de ISO.",
+      "Hace Photoshop, Illustrator, InDesign, Premiere Pro, Lightroom y Acrobat.",
+      "Desde 2013 vende su software sobre todo como suscripción."
+    ],
+    "links": [
+      { "label": "Adobe Inc. en Wikipedia", "url": "https://es.wikipedia.org/wiki/Adobe_Inc." },
+      { "label": "Adobe Creative Cloud en Wikipedia", "url": "https://es.wikipedia.org/wiki/Adobe_Creative_Cloud" },
+      { "label": "PDF en Wikipedia", "url": "https://es.wikipedia.org/wiki/PDF" }
+    ]
+  }
+}

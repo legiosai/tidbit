@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-dhcp",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["DHCP server", "DHCP lease", "Dynamic Host Configuration Protocol"],
+    "es": ["servidor DHCP", "Dynamic Host Configuration Protocol"]
+  },
+  "image": "img/2026-10-17-dhcp.svg",
+  "imageAlt": {
+    "en": "A phone and a DHCP server exchange four messages: anyone there, an offer of address .23, I'll take it, it's yours; below, a lease card for 192.168.1.23 for 24 hours",
+    "es": "Un celular y un servidor DHCP se cruzan cuatro mensajes: hay alguien, una oferta de la dirección .23, la tomo, es tuya; abajo, un préstamo de 192.168.1.23 por 24 horas"
+  },
+  "en": {
+    "title": "DHCP",
+    "tagline": "The service that gives each device an IP address automatically when it joins a network.",
+    "explanation": [
+      "**DHCP** (Dynamic Host Configuration Protocol) is why you can walk into a café, pick the Wi-Fi and be online a second later without typing any numbers. When a device joins a network, it shouts 'is there a DHCP server here?'. The server, usually built into the router at home or a dedicated machine at an office, answers with an IP address that is free, and the device accepts it.",
+      "The answer contains more than the address. It also says which addresses are local (the subnet mask), which router to send everything else to (the default gateway) and which DNS servers to use for looking up names. Before DHCP, someone had to type all of that by hand into every computer, and two machines given the same address would knock each other offline.",
+      "The address is a **lease**, not a gift: it is lent for a while, from minutes to days, and the device quietly renews it while it stays. When it leaves, the address goes back to the pool for the next visitor. Printers and servers that need to be found at the same place every day get a **reservation**: the server always hands that device, recognized by its MAC address, the same IP address.",
+      "When something goes wrong, DHCP is a common suspect. If your computer shows an address starting with `169.254`, it asked and nobody answered, so it gave itself a placeholder that cannot reach the internet. Restarting the router or turning Wi-Fi off and on usually triggers a fresh request."
+    ],
+    "analogy": "The front desk of a hotel. You arrive, they hand you a room key, tell you where breakfast is and when checkout is, and when you leave the room goes to the next guest.",
+    "keyPoints": [
+      "Hands out an IP address, the gateway and the DNS servers automatically.",
+      "Addresses are leased for a time and renewed while the device stays.",
+      "At home, the router is almost always the DHCP server.",
+      "An address starting with `169.254` means the device got no answer."
+    ],
+    "links": [
+      { "label": "DHCP on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol" },
+      { "label": "Dynamic Host Configuration Protocol (Microsoft Learn)", "url": "https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-top" }
+    ]
+  },
+  "es": {
+    "title": "DHCP",
+    "tagline": "El servicio que le da a cada dispositivo una dirección IP al conectarse a una red.",
+    "explanation": [
+      "**DHCP** (Dynamic Host Configuration Protocol) es la razón por la que podés entrar a un café, elegir el Wi-Fi y estar en línea un segundo después sin escribir ningún número. Cuando un dispositivo se conecta a una red, grita '¿hay un servidor DHCP por acá?'. El servidor, que en casa suele venir dentro del router y en una oficina puede ser una máquina dedicada, le contesta con una dirección IP libre, y el dispositivo la acepta.",
+      "La respuesta trae más que la dirección. También dice qué direcciones son locales (la máscara de subred), a qué router mandar todo lo demás (la puerta de enlace o gateway) y qué servidores DNS usar para buscar nombres. Antes de DHCP, alguien tenía que escribir todo eso a mano en cada computadora, y si dos máquinas terminaban con la misma dirección, se dejaban sin conexión una a la otra.",
+      "La dirección es un **préstamo** (lease), no un regalo: se presta por un tiempo, de minutos a días, y el dispositivo la renueva solo mientras siga ahí. Cuando se va, la dirección vuelve a la bolsa para el próximo. Las impresoras y los servidores que tienen que estar siempre en el mismo lugar reciben una **reserva**: el servidor le da siempre la misma dirección IP a ese dispositivo, al que reconoce por su dirección MAC.",
+      "Cuando algo falla, DHCP es un sospechoso habitual. Si tu computadora muestra una dirección que empieza con `169.254`, preguntó y nadie le contestó, así que se puso una dirección provisoria que no llega a internet. Reiniciar el router o apagar y prender el Wi-Fi suele disparar un pedido nuevo."
+    ],
+    "analogy": "La recepción de un hotel. Llegás, te dan la llave de una habitación, te dicen dónde es el desayuno y a qué hora es el check-out, y cuando te vas la habitación queda para el próximo huésped.",
+    "keyPoints": [
+      "Reparte automáticamente la dirección IP, el gateway y los servidores DNS.",
+      "Las direcciones se prestan por un tiempo y se renuevan mientras el dispositivo siga.",
+      "En casa, el servidor DHCP es casi siempre el router.",
+      "Una dirección que empieza con `169.254` quiere decir que nadie contestó."
+    ],
+    "links": [
+      { "label": "DHCP en Wikipedia", "url": "https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host" },
+      { "label": "Protocolo de configuración dinámica de host (Microsoft Learn)", "url": "https://learn.microsoft.com/es-es/windows-server/networking/technologies/dhcp/dhcp-top" }
+    ]
+  }
+}

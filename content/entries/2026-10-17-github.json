@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-github",
+  "date": "2026-10-17",
+  "subjects": ["software", "companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["GitHub repository", "GitHub repositories", "GitHub.com"],
+    "es": ["repositorio de GitHub", "repositorios de GitHub", "GitHub.com"]
+  },
+  "image": "img/2026-10-17-github.svg",
+  "imageAlt": {
+    "en": "Two laptops push and pull code to a shared repository online, which also holds issues, pull requests and automated checks",
+    "es": "Dos laptops suben y bajan código a un repositorio compartido online, que también guarda issues, pull requests y chequeos automáticos"
+  },
+  "en": {
+    "title": "GitHub",
+    "tagline": "A website where teams store their code with Git and work on it together.",
+    "explanation": [
+      "**GitHub** is an online service for hosting code. Each project lives in a **repository**: a folder of files plus its full history, tracked with Git. Developers keep a copy on their laptop, make changes, and **push** them to GitHub so the rest of the team can **pull** them. It started in 2008 and has been owned by Microsoft since 2018.",
+      "Git is the tool; GitHub is a place built around it. On top of storing code, it adds what a team needs to collaborate: **pull requests** to propose a change and discuss it before it is merged, **issues** to track bugs and ideas, **GitHub Actions** to run tests and deployments automatically, and pages to document the project.",
+      "It matters because it became the default meeting point for software. Most well-known open source projects live there, companies use private repositories for their own code, and a developer's public GitHub profile often works as a portfolio. Alternatives like GitLab and Bitbucket do similar things, and since everything is plain Git, a project can move between them."
+    ],
+    "analogy": "Git is like keeping a detailed diary of every edit to a document. GitHub is the shared office where everyone's diaries meet, with a meeting room for proposing changes and a bulletin board for problems.",
+    "keyPoints": [
+      "Git tracks changes; GitHub hosts Git repositories online and adds collaboration tools.",
+      "A pull request is a proposed change that others review before it joins the main code.",
+      "Repositories can be public, open to anyone, or private to a team.",
+      "Owned by Microsoft since 2018; GitLab and Bitbucket are common alternatives."
+    ],
+    "links": [
+      { "label": "About GitHub and Git (official docs)", "url": "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" },
+      { "label": "GitHub on Wikipedia", "url": "https://en.wikipedia.org/wiki/GitHub" }
+    ]
+  },
+  "es": {
+    "title": "GitHub",
+    "tagline": "Un sitio donde los equipos guardan su código con Git y trabajan juntos en él.",
+    "explanation": [
+      "**GitHub** es un servicio online para alojar código. Cada proyecto vive en un **repositorio**: una carpeta de archivos más toda su historia, registrada con Git. Cada developer tiene una copia en su laptop, hace cambios y los **pushea** a GitHub para que el resto del equipo los **pullee**. Arrancó en 2008 y es de Microsoft desde 2018.",
+      "Git es la herramienta; GitHub es un lugar armado alrededor de ella. Además de guardar el código, suma lo que un equipo necesita para colaborar: **pull requests** para proponer un cambio y discutirlo antes de integrarlo, **issues** para registrar bugs e ideas, **GitHub Actions** para correr tests y deploys de forma automática, y páginas para documentar el proyecto.",
+      "Importa porque se convirtió en el punto de encuentro por defecto del software. La mayoría de los proyectos open source conocidos viven ahí, las empresas usan repositorios privados para su propio código y el perfil público de GitHub de alguien muchas veces funciona como portfolio. Alternativas como GitLab y Bitbucket hacen cosas parecidas y, como todo es Git, un proyecto se puede mudar de una a otra."
+    ],
+    "analogy": "Git es como llevar un diario detallado de cada cambio a un documento. GitHub es la oficina compartida donde se juntan los diarios de todos, con una sala para proponer cambios y una cartelera para anotar problemas.",
+    "keyPoints": [
+      "Git registra cambios; GitHub aloja repositorios de Git online y suma herramientas para colaborar.",
+      "Un pull request es un cambio propuesto que otros revisan antes de sumarlo al código principal.",
+      "Los repositorios pueden ser públicos, abiertos a cualquiera, o privados de un equipo.",
+      "Es de Microsoft desde 2018; GitLab y Bitbucket son alternativas comunes."
+    ],
+    "links": [
+      { "label": "Acerca de GitHub y Git (documentación oficial)", "url": "https://docs.github.com/es/get-started/start-your-journey/about-github-and-git" },
+      { "label": "GitHub en Wikipedia", "url": "https://es.wikipedia.org/wiki/GitHub" }
+    ]
+  }
+}

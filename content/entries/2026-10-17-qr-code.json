@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-qr-code",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["QR codes"],
+    "es": ["códigos QR"]
+  },
+  "image": "img/2026-10-17-qr-code.svg",
+  "imageAlt": {
+    "en": "A QR code with its three corner squares, scanned by a phone that shows the link before opening it; next to it, a fake sticker pasted over a real code",
+    "es": "Un código QR con sus tres cuadrados en las esquinas, escaneado por un celular que muestra el link antes de abrirlo; al lado, un sticker falso pegado sobre un código real"
+  },
+  "en": {
+    "title": "QR code",
+    "tagline": "A square pattern of dots that a phone camera reads, usually to open a link.",
+    "explanation": [
+      "A **QR code** (\"quick response\") is a two-dimensional barcode: a square grid of black and white modules that stores text, most often a web address. It was invented in 1994 by Masahiro Hara at Denso Wave, a Japanese company of the Toyota group, to track car parts in factories. Denso Wave holds the patent but chose not to enforce it, so anyone can create and read QR codes for free, which helped them spread everywhere.",
+      "The three big squares in the corners tell the camera where the code is and which way it is turned, so it can be read at any angle. The data is stored with **error correction**: extra information that lets the code be read even when part of it is dirty, torn or covered, up to roughly a third of it at the highest setting. That is why some codes can have a logo in the middle. Today any phone camera can read them, and they are used for restaurant menus, payments, boarding passes, Wi-Fi passwords and tickets.",
+      "The risk is that a QR code is unreadable to people: you cannot tell where it leads just by looking. Scammers print fake codes and stick them over real ones on parking meters, posters or restaurant tables, sending you to a copy of a payment or login page to steal your card or password. This is sometimes called **quishing**, a mix of QR and phishing. Before opening a link from a code, check the address your phone shows, be suspicious of stickers on top of other codes, and pay through the official app or website when you can."
+    ],
+    "analogy": "A sealed envelope with an address written in a language only phones can read. Convenient, but if someone swaps the envelope, you won't notice until you've already gone to the wrong place.",
+    "keyPoints": [
+      "Invented in 1994 at Denso Wave to track car parts; free to use.",
+      "Error correction lets it work even when part of it is damaged.",
+      "Most codes just hold a link; the phone opens it for you.",
+      "Fake codes stuck over real ones are a common scam: check the link first."
+    ],
+    "links": [
+      { "label": "History of QR Code (Denso Wave)", "url": "https://www.qrcode.com/en/history/" },
+      { "label": "QR code on Wikipedia", "url": "https://en.wikipedia.org/wiki/QR_code" }
+    ]
+  },
+  "es": {
+    "title": "Código QR",
+    "tagline": "Un cuadrado de puntitos que lee la cámara del celular, casi siempre para abrir un link.",
+    "explanation": [
+      "Un **código QR** (\"quick response\", respuesta rápida) es un código de barras en dos dimensiones: una grilla cuadrada de módulos blancos y negros que guarda texto, casi siempre una dirección web. Lo inventó en 1994 Masahiro Hara en Denso Wave, una empresa japonesa del grupo Toyota, para seguir piezas de autos en las fábricas. Denso Wave tiene la patente pero decidió no hacerla valer, así que cualquiera puede crear y leer códigos QR gratis, y eso ayudó a que se usen en todos lados.",
+      "Los tres cuadrados grandes de las esquinas le indican a la cámara dónde está el código y para qué lado está girado, así se puede leer en cualquier ángulo. Los datos se guardan con **corrección de errores**: información extra que permite leer el código aunque una parte esté sucia, rota o tapada, hasta aproximadamente un tercio en el nivel más alto. Por eso algunos códigos pueden tener un logo en el medio. Hoy cualquier cámara de celular los lee, y se usan para menús de restaurantes, pagos, tarjetas de embarque, claves de Wi-Fi y entradas.",
+      "El riesgo es que un QR es ilegible para las personas: no podés saber adónde lleva con solo mirarlo. Los estafadores imprimen códigos falsos y los pegan encima de los reales en parquímetros, carteles o mesas de restaurantes, para mandarte a una copia de una página de pago o de inicio de sesión y robarte la tarjeta o la contraseña. A esto a veces se lo llama **quishing**, una mezcla de QR y phishing. Antes de abrir un link de un código, mirá la dirección que te muestra el celular, desconfiá de los stickers pegados sobre otros códigos y, cuando puedas, pagá desde la app o el sitio oficial."
+    ],
+    "analogy": "Un sobre cerrado con una dirección escrita en un idioma que solo leen los celulares. Es cómodo, pero si alguien cambia el sobre, no te das cuenta hasta que ya fuiste al lugar equivocado.",
+    "keyPoints": [
+      "Lo inventó Denso Wave en 1994 para seguir piezas de autos; se usa gratis.",
+      "La corrección de errores permite leerlo aunque esté dañado en parte.",
+      "La mayoría solo guarda un link, que el celular abre por vos.",
+      "Pegar códigos falsos sobre los reales es una estafa común: revisá el link antes."
+    ],
+    "links": [
+      { "label": "Código QR en Wikipedia", "url": "https://es.wikipedia.org/wiki/C%C3%B3digo_QR" },
+      { "label": "Historia del código QR (Denso Wave, en inglés)", "url": "https://www.qrcode.com/en/history/" }
+    ]
+  }
+}

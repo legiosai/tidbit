@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-aws-cloudtrail",
+  "date": "2026-10-17",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["CloudTrail", "CloudTrail log", "CloudTrail logs", "CloudTrail event", "CloudTrail events", "CloudTrail Lake"],
+    "es": ["CloudTrail", "log de CloudTrail", "logs de CloudTrail", "evento de CloudTrail", "eventos de CloudTrail", "CloudTrail Lake"]
+  },
+  "image": "img/2026-10-17-aws-cloudtrail.svg",
+  "imageAlt": {
+    "en": "A person and a script make calls to AWS; each call becomes a line in a logbook listing who, what, when and from where",
+    "es": "Una persona y un script hacen llamadas a AWS; cada llamada se convierte en una línea de un libro de registro con quién, qué, cuándo y desde dónde"
+  },
+  "en": {
+    "title": "AWS CloudTrail",
+    "tagline": "The logbook of an AWS account: who did what, when, and from where.",
+    "explanation": [
+      "Everything that happens in AWS, whether someone clicks in the console, a script runs a command or a service acts on its own, is an API call. **CloudTrail** records those calls. Each **event** says who made it (which user or role), what they did (`DeleteBucket`, `RunInstances`), on which resource, when, from which IP address, and whether it succeeded.",
+      "That record answers the questions that come up after something goes wrong. Who deleted this database? When was this firewall rule opened to the internet? Did anyone use the leaked access key, and for what? Security teams also feed CloudTrail into alerting, so that a sensitive action, like disabling logging or creating a new admin user, sets off an alarm right away.",
+      "It is on by default: the console shows the recent history of management actions (roughly the last 90 days) at no cost. To keep events longer, or to record finer-grained activity like every file read in Amazon S3, you create a **trail** that delivers the logs to an S3 bucket, or you use CloudTrail Lake to store and query them with SQL. Many companies send the trails of all their accounts to one locked-down account, so an intruder cannot erase their own tracks."
+    ],
+    "analogy": "The visitor log and the security cameras of a building, combined. Every door opened is written down with a name and a time, so when something goes missing you can rewind and see who was there.",
+    "keyPoints": [
+      "Records API calls: who, what, which resource, when, from where, and the result.",
+      "The recent history of management events is available by default.",
+      "A trail stores events long-term in Amazon S3; CloudTrail Lake lets you query them with SQL.",
+      "Essential for audits, incident investigation and compliance."
+    ],
+    "links": [
+      { "label": "What is AWS CloudTrail? (official docs)", "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html" },
+      { "label": "AWS CloudTrail", "url": "https://aws.amazon.com/cloudtrail/" }
+    ]
+  },
+  "es": {
+    "title": "AWS CloudTrail",
+    "tagline": "El libro de registro de una cuenta de AWS: quién hizo qué, cuándo y desde dónde.",
+    "explanation": [
+      "Todo lo que pasa en AWS, ya sea que alguien haga clic en la consola, que un script corra un comando o que un servicio actúe solo, es una llamada a una API. **CloudTrail** registra esas llamadas. Cada **evento** dice quién la hizo (qué usuario o rol), qué hizo (`DeleteBucket`, `RunInstances`), sobre qué recurso, cuándo, desde qué dirección IP, y si salió bien.",
+      "Ese registro responde las preguntas que aparecen cuando algo sale mal. ¿Quién borró esta base de datos? ¿Cuándo se abrió esta regla del firewall a internet? ¿Alguien usó la clave de acceso que se filtró, y para qué? Los equipos de seguridad además conectan CloudTrail a sus alertas, para que una acción delicada, como apagar los logs o crear un usuario administrador nuevo, dispare una alarma en el momento.",
+      "Viene prendido por defecto: la consola muestra el historial reciente de acciones de administración (más o menos los últimos 90 días) sin costo. Para guardar los eventos más tiempo, o para registrar actividad más fina como cada lectura de archivos en Amazon S3, creás un **trail** que manda los logs a un bucket de S3, o usás CloudTrail Lake para guardarlos y consultarlos con SQL. Muchas empresas mandan los trails de todas sus cuentas a una sola cuenta blindada, para que un intruso no pueda borrar sus propias huellas."
+    ],
+    "analogy": "El libro de visitas y las cámaras de seguridad de un edificio, juntos. Cada puerta que se abre queda anotada con nombre y hora, así que cuando falta algo podés rebobinar y ver quién estuvo.",
+    "keyPoints": [
+      "Registra llamadas a la API: quién, qué, sobre qué recurso, cuándo, desde dónde y con qué resultado.",
+      "El historial reciente de eventos de administración está disponible por defecto.",
+      "Un trail guarda los eventos a largo plazo en Amazon S3; CloudTrail Lake permite consultarlos con SQL.",
+      "Clave para auditorías, investigación de incidentes y cumplimiento normativo."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS CloudTrail? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-user-guide.html" },
+      { "label": "AWS CloudTrail", "url": "https://aws.amazon.com/es/cloudtrail/" }
+    ]
+  }
+}

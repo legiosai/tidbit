@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-high-availability",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["highly available", "failover", "single point of failure"],
+    "es": ["high availability", "failover", "punto único de falla"]
+  },
+  "image": "img/2026-10-17-high-availability.svg",
+  "imageAlt": {
+    "en": "A load balancer sends traffic to servers in two availability zones; one zone is crossed out and traffic keeps flowing to the other",
+    "es": "Un balanceador de carga manda tráfico a servidores en dos zonas de disponibilidad; una zona está tachada y el tráfico sigue yendo a la otra"
+  },
+  "en": {
+    "title": "High availability",
+    "tagline": "Designing a system so it keeps working when one of its parts fails.",
+    "explanation": [
+      "**High availability** (HA) is the goal of keeping a service up nearly all the time, even when individual parts break. Servers crash, disks fail, networks drop and whole data centers lose power; a highly available system is built so that none of those events, on its own, takes the service down. It is usually measured as a percentage of uptime, like 99.9% or 99.99%.",
+      "The core idea is **redundancy**: no **single point of failure**. Instead of one server, run several behind a load balancer. Instead of one data center, spread them across two or three **availability zones**, separate buildings in the same cloud region. Keep a standby copy of the database that takes over automatically if the main one fails, a switch called **failover**. Health checks constantly test each piece and route traffic away from anything that stops answering.",
+      "High availability is about everyday failures and keeps the service running through them, often without anyone noticing. Disaster recovery is the plan for the rare big event that knocks out a whole region. Every extra \"nine\" of uptime costs more in duplicated machines and engineering effort, so teams pick a target that matches how much an outage really hurts, and write it down in an SLA."
+    ],
+    "analogy": "A plane with two engines. It can fly on one if the other fails, so a single engine problem is an incident, not a crash. You pay for the second engine on every flight so that you never need to think about it.",
+    "keyPoints": [
+      "Keeps a service up when individual servers, disks or data centers fail.",
+      "Built on redundancy: no single point of failure, spread across availability zones.",
+      "Health checks and automatic failover move traffic away from broken parts.",
+      "Each extra nine of uptime costs more; match the target to the real impact."
+    ],
+    "links": [
+      { "label": "Reliability pillar, AWS Well-Architected", "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html" },
+      { "label": "High availability on Wikipedia", "url": "https://en.wikipedia.org/wiki/High_availability" }
+    ]
+  },
+  "es": {
+    "title": "Alta disponibilidad",
+    "tagline": "Diseñar un sistema para que siga funcionando cuando falla una de sus partes.",
+    "explanation": [
+      "La **alta disponibilidad** (high availability, HA) es el objetivo de mantener un servicio funcionando casi todo el tiempo, aunque se rompan partes. Los servidores se cuelgan, los discos fallan, las redes se cortan y centros de datos enteros se quedan sin luz; un sistema de alta disponibilidad está armado para que ninguno de esos eventos, por sí solo, lo tire abajo. Se suele medir como porcentaje de tiempo en línea, por ejemplo 99,9% o 99,99%.",
+      "La idea central es la **redundancia**: que no haya un **punto único de falla**. En lugar de un servidor, varios detrás de un balanceador de carga. En lugar de un centro de datos, repartirlos en dos o tres **zonas de disponibilidad**, edificios separados dentro de la misma región de la nube. Tener una copia de la base de datos en espera que tome el control sola si la principal falla, un cambio que se llama **failover**. Los chequeos de salud prueban cada pieza todo el tiempo y desvían el tráfico de lo que deja de responder.",
+      "La alta disponibilidad se ocupa de las fallas de todos los días y mantiene el servicio andando a través de ellas, muchas veces sin que nadie se entere. La recuperación ante desastres es el plan para el evento grande y raro que voltea una región entera. Cada \"nueve\" extra de disponibilidad cuesta más en máquinas duplicadas y trabajo de ingeniería, así que los equipos eligen una meta acorde a cuánto duele de verdad una caída, y la dejan por escrito en un SLA."
+    ],
+    "analogy": "Un avión con dos motores. Puede volar con uno si el otro falla, así que un problema en un motor es un incidente y no una tragedia. Pagás el segundo motor en cada vuelo para no tener que pensar nunca en él.",
+    "keyPoints": [
+      "Mantiene un servicio en pie cuando fallan servidores, discos o centros de datos.",
+      "Se basa en la redundancia: sin puntos únicos de falla, repartido en zonas de disponibilidad.",
+      "Los chequeos de salud y el failover automático desvían el tráfico de las partes rotas.",
+      "Cada nueve extra cuesta más; ajustá la meta al impacto real."
+    ],
+    "links": [
+      { "label": "Pilar de fiabilidad, AWS Well-Architected", "url": "https://docs.aws.amazon.com/es_es/wellarchitected/latest/reliability-pillar/welcome.html" },
+      { "label": "Alta disponibilidad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Alta_disponibilidad" }
+    ]
+  }
+}

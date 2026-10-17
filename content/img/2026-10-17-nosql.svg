@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="14" y="44" width="88" height="130" rx="8" fill="#9ac7ea"/>
+    <rect x="110" y="44" width="88" height="130" rx="8" fill="#ffd166"/>
+    <rect x="206" y="44" width="88" height="130" rx="8" fill="#9bd1b9"/>
+    <rect x="302" y="44" width="84" height="130" rx="8" fill="#f4a7a7"/>
+    <rect x="118" y="60" width="72" height="22" rx="4" fill="#f3efe6"/>
+    <rect x="118" y="90" width="72" height="22" rx="4" fill="#f3efe6"/>
+    <rect x="118" y="120" width="72" height="22" rx="4" fill="#f3efe6"/>
+    <rect x="214" y="62" width="40" height="18" fill="#f3efe6"/><rect x="254" y="62" width="32" height="18" fill="#f3efe6"/>
+    <rect x="214" y="90" width="24" height="18" fill="#f3efe6"/><rect x="238" y="90" width="24" height="18" fill="#f3efe6"/><rect x="262" y="90" width="24" height="18" fill="#f3efe6"/>
+    <rect x="214" y="118" width="72" height="18" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M326 80 L364 100 M326 80 L334 136 M364 100 L334 136 M364 100 L366 146"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f3efe6">
+    <circle cx="326" cy="80" r="9"/><circle cx="364" cy="100" r="9"/><circle cx="334" cy="136" r="9"/><circle cx="366" cy="148" r="7"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b" text-anchor="start">
+    <text x="22" y="70">{</text><text x="28" y="86">"name":</text><text x="34" y="100">"Ana",</text>
+    <text x="28" y="116">"tags":</text><text x="34" y="130">["vip"]</text><text x="22" y="146">}</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b" text-anchor="middle">
+    <text x="154" y="75">user:7 → …</text><text x="154" y="105">cart:3 → …</text><text x="154" y="135">sess:9 → …</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="58" y="34">document</text><text x="154" y="34">key-value</text><text x="250" y="34">wide-column</text><text x="344" y="34">graph</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no fixed table · shape fits the use</text>
+</svg>

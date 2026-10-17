@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-aws-glue",
+  "date": "2026-10-17",
+  "subjects": ["aws", "data"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Glue", "Glue Data Catalog", "AWS Glue Data Catalog", "Glue crawler", "Glue crawlers", "Glue job", "Glue jobs"],
+    "es": ["Glue", "Glue Data Catalog", "AWS Glue Data Catalog", "catálogo de Glue", "crawler de Glue", "crawlers de Glue", "job de Glue", "jobs de Glue"]
+  },
+  "image": "img/2026-10-17-aws-glue.svg",
+  "imageAlt": {
+    "en": "Raw files on the left pass through a Glue box running a job, come out as clean tables, while a crawler writes their description into a catalog",
+    "es": "Archivos crudos a la izquierda pasan por una caja Glue que corre un job y salen como tablas limpias, mientras un crawler anota su descripción en un catálogo"
+  },
+  "en": {
+    "title": "AWS Glue",
+    "tagline": "AWS's service for finding, describing and cleaning up data, with no servers to run.",
+    "explanation": [
+      "**AWS Glue** is the AWS service for ETL: taking data from where it lands, cleaning and reshaping it, and putting it where people can analyze it. A typical case: every night an app drops thousands of JSON files into Amazon S3, and a **Glue job** reads them, removes duplicates, fixes dates, joins them with a customer table and writes the result as Parquet files ready for queries.",
+      "Its second half is the **Glue Data Catalog**, a register of every dataset: where the files live, what columns they have and of what type. A **crawler** can fill it for you by opening the files and guessing their structure. The catalog is what lets Amazon Athena or Amazon Redshift query a folder of files in S3 as if it were a table.",
+      "Glue is serverless: you write the transformation (in Python or SQL on top of Apache Spark, or by dragging boxes in a visual editor), say when it should run, and AWS spins up the machines for the duration of the job. You pay for the processing time used, not for idle clusters. That makes it the glue, as the name says, of many data lakes built on AWS."
+    ],
+    "analogy": "A librarian and a bookbinder in one. The librarian walks the shelves writing down what each book contains; the bookbinder takes loose, messy pages and turns them into clean volumes that readers can actually use.",
+    "keyPoints": [
+      "Runs ETL jobs on Apache Spark without you managing a cluster.",
+      "The Data Catalog describes datasets so Athena and Redshift can query them as tables.",
+      "Crawlers inspect files and infer their columns and types automatically.",
+      "Billed by processing time while jobs run; nothing runs between jobs."
+    ],
+    "links": [
+      { "label": "What is AWS Glue? (official docs)", "url": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html" },
+      { "label": "AWS Glue", "url": "https://aws.amazon.com/glue/" },
+      { "label": "What is ETL? (AWS)", "url": "https://aws.amazon.com/what-is/etl/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Glue",
+    "tagline": "El servicio de AWS para encontrar, describir y limpiar datos, sin servidores que correr.",
+    "explanation": [
+      "**AWS Glue** es el servicio de AWS para hacer ETL: tomar los datos de donde caen, limpiarlos y darles forma, y dejarlos donde la gente los pueda analizar. Un caso típico: todas las noches una app tira miles de archivos JSON en Amazon S3, y un **job de Glue** los lee, saca duplicados, corrige fechas, los cruza con una tabla de clientes y escribe el resultado como archivos Parquet listos para consultar.",
+      "Su otra mitad es el **Glue Data Catalog**, un registro de cada conjunto de datos: dónde están los archivos, qué columnas tienen y de qué tipo. Un **crawler** lo puede llenar por vos: abre los archivos y deduce su estructura. El catálogo es lo que permite que Amazon Athena o Amazon Redshift consulten una carpeta de archivos en S3 como si fuera una tabla.",
+      "Glue es serverless: escribís la transformación (en Python o SQL sobre Apache Spark, o arrastrando cajas en un editor visual), decís cuándo tiene que correr, y AWS levanta las máquinas mientras dura el job. Pagás por el tiempo de procesamiento usado, no por clusters ociosos. Por eso es el pegamento, como dice su nombre (glue), de muchos data lakes armados en AWS."
+    ],
+    "analogy": "Un bibliotecario y un encuadernador en uno. El bibliotecario recorre los estantes anotando qué tiene cada libro; el encuadernador agarra hojas sueltas y desordenadas y las convierte en tomos prolijos que los lectores pueden usar de verdad.",
+    "keyPoints": [
+      "Corre jobs de ETL sobre Apache Spark sin que administres un cluster.",
+      "El Data Catalog describe los datos para que Athena y Redshift los consulten como tablas.",
+      "Los crawlers revisan archivos y deducen solos sus columnas y tipos.",
+      "Se cobra por tiempo de procesamiento mientras corren los jobs; entre jobs no corre nada."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Glue? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/glue/latest/dg/what-is-glue.html" },
+      { "label": "AWS Glue", "url": "https://aws.amazon.com/es/glue/" }
+    ]
+  }
+}

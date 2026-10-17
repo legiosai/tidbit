@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-aws-amplify",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Amplify", "Amplify Hosting", "AWS Amplify Hosting"],
+    "es": ["Amplify", "Amplify Hosting", "AWS Amplify Hosting"]
+  },
+  "image": "img/2026-10-17-aws-amplify.svg",
+  "imageAlt": {
+    "en": "Code pushed to a git repository flows into Amplify, which builds it and publishes a live website, with login, data and file storage attached",
+    "es": "Código subido a un repositorio git pasa a Amplify, que lo compila y publica un sitio en vivo, con login, datos y archivos conectados"
+  },
+  "en": {
+    "title": "AWS Amplify",
+    "tagline": "A shortcut for building and publishing web and mobile apps on AWS.",
+    "explanation": [
+      "**AWS Amplify** is a set of tools for people who want to build an app, not learn fifty AWS services first. It covers the two halves of a typical web or mobile app: putting the frontend online, and giving it a backend with sign-in, a database and file uploads.",
+      "The hosting part is what most people meet first. You connect a Git repository, and every time you push a change Amplify builds the site and publishes it at a URL with HTTPS, served through a global CDN. Each branch can get its own preview address, so a teammate can try a change before it goes live. It works with common frameworks like React, Next.js or Vue.",
+      "For the backend, Amplify sets up real AWS services behind the scenes: Amazon Cognito for user accounts, a database on Amazon DynamoDB, file storage on Amazon S3. You describe what you need in a few lines of code, and its client libraries let the app sign users in or save a record without writing that plumbing yourself. The trade-off is the usual one for shortcuts: it is fast to start, and very custom architectures may eventually outgrow it."
+    ],
+    "analogy": "A furnished apartment instead of an empty plot of land. You move in and start living right away; the wiring and plumbing are already there, even if you cannot easily move the walls.",
+    "keyPoints": [
+      "Hosts web apps straight from a Git repository, rebuilding on every push.",
+      "Sets up sign-in, data and storage using Cognito, DynamoDB and S3.",
+      "Gives each branch its own preview URL.",
+      "Aimed at frontend and full-stack developers who want speed over fine control."
+    ],
+    "links": [
+      { "label": "What is AWS Amplify Hosting? (official docs)", "url": "https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html" },
+      { "label": "AWS Amplify documentation", "url": "https://docs.amplify.aws/" },
+      { "label": "AWS Amplify", "url": "https://aws.amazon.com/amplify/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Amplify",
+    "tagline": "Un atajo para armar y publicar apps web y móviles en AWS.",
+    "explanation": [
+      "**AWS Amplify** es un conjunto de herramientas para quien quiere hacer una app, no aprender primero cincuenta servicios de AWS. Cubre las dos mitades de una app web o móvil típica: poner el frontend en línea, y darle un backend con inicio de sesión, base de datos y subida de archivos.",
+      "La parte de hosting es lo primero que conoce la mayoría. Conectás un repositorio de Git, y cada vez que subís un cambio Amplify compila el sitio y lo publica en una URL con HTTPS, servido a través de un CDN global. Cada rama puede tener su propia dirección de prueba, así alguien del equipo prueba un cambio antes de que salga en vivo. Funciona con frameworks comunes como React, Next.js o Vue.",
+      "Para el backend, Amplify arma servicios reales de AWS por detrás: Amazon Cognito para las cuentas de usuario, una base en Amazon DynamoDB, archivos en Amazon S3. Describís lo que necesitás en unas pocas líneas de código, y sus librerías le permiten a la app loguear usuarios o guardar un registro sin que escribas esa plomería vos. La contracara es la de todo atajo: arrancar es rápido, y arquitecturas muy a medida pueden terminar quedándole grandes."
+    ],
+    "analogy": "Un departamento amueblado en vez de un terreno vacío. Te mudás y empezás a vivir enseguida; la instalación eléctrica y la plomería ya están, aunque mover las paredes no sea tan fácil.",
+    "keyPoints": [
+      "Publica apps web directo desde un repositorio de Git, recompilando en cada push.",
+      "Arma login, datos y almacenamiento con Cognito, DynamoDB y S3.",
+      "Le da a cada rama su propia URL de prueba.",
+      "Pensado para devs de frontend y full-stack que priorizan velocidad sobre control fino."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Amplify Hosting? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/amplify/latest/userguide/welcome.html" },
+      { "label": "AWS Amplify", "url": "https://aws.amazon.com/es/amplify/" },
+      { "label": "Documentación de AWS Amplify (en inglés)", "url": "https://docs.amplify.aws/" }
+    ]
+  }
+}

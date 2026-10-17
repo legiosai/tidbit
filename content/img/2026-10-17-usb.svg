@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="28" y="56" width="96" height="44" rx="3" fill="#e6dfd0"/>
+    <rect x="40" y="66" width="72" height="14" fill="#9ac7ea"/>
+    <path d="M160 60 H236 L226 96 H170 Z" fill="#e6dfd0"/>
+    <rect x="178" y="70" width="40" height="10" fill="#9ac7ea"/>
+    <rect x="270" y="58" width="104" height="40" rx="20" fill="#e6dfd0"/>
+    <rect x="290" y="72" width="64" height="12" rx="6" fill="#9ac7ea"/>
+    <rect x="80" y="160" width="240" height="30" rx="15" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M322 132 V142 H200 V154"/><path d="M196 148 l4 6 4 -6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="76" y="124">USB-A</text><text x="198" y="124">micro-USB</text><text x="322" y="124">USB-C</text>
+    <text x="200" y="180">data + power + video</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="76" y="44">older</text><text x="198" y="44">old phones</text><text x="322" y="44">reversible</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one plug for data and power</text>
+</svg>

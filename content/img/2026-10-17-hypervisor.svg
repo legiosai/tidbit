@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M200 30 V200" stroke="#2b2b2b" stroke-width="2" stroke-dasharray="4 6" fill="none"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="28" y="50" width="68" height="40" rx="6" fill="#9ac7ea"/>
+    <rect x="104" y="50" width="68" height="40" rx="6" fill="#9bd1b9"/>
+    <rect x="28" y="98" width="144" height="34" rx="6" fill="#ffd166"/>
+    <rect x="28" y="140" width="144" height="34" rx="6" fill="#e6dfd0"/>
+    <rect x="228" y="50" width="68" height="40" rx="6" fill="#9ac7ea"/>
+    <rect x="304" y="50" width="68" height="40" rx="6" fill="#9bd1b9"/>
+    <rect x="228" y="98" width="144" height="26" rx="6" fill="#ffd166"/>
+    <rect x="228" y="128" width="144" height="26" rx="6" fill="#f4a7a7"/>
+    <rect x="228" y="158" width="144" height="26" rx="6" fill="#e6dfd0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="62" y="74">VM</text><text x="138" y="74">VM</text>
+    <text x="100" y="119">hypervisor</text><text x="100" y="161">hardware</text>
+    <text x="262" y="74">VM</text><text x="338" y="74">VM</text>
+    <text x="300" y="115" font-size="11">hypervisor app</text><text x="300" y="145" font-size="11">host OS</text><text x="300" y="175" font-size="11">hardware</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="34">type 1</text><text x="300" y="34">type 2</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="212">bare metal · data centers</text><text x="300" y="212">on a laptop</text>
+  </g>
+</svg>

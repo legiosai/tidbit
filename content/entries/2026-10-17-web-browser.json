@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-web-browser",
+  "date": "2026-10-17",
+  "subjects": ["software", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["web browsers", "browser", "browsers"],
+    "es": ["navegador", "navegadores", "navegadores web", "browser", "browsers"]
+  },
+  "image": "img/2026-10-17-web-browser.svg",
+  "imageAlt": {
+    "en": "A browser window sends a request for an address to a server, gets back HTML, CSS and JavaScript files, and draws them as a page",
+    "es": "Una ventana de navegador le pide una dirección a un servidor, recibe archivos HTML, CSS y JavaScript, y los dibuja como una página"
+  },
+  "en": {
+    "title": "Web browser",
+    "tagline": "The app that fetches web pages from the internet and draws them on your screen.",
+    "explanation": [
+      "A **web browser** is the app you use to visit websites: Chrome, Safari, Firefox and Edge are browsers. When you type an address or click a link, the browser looks up which server holds that site (using DNS), asks it for the page over HTTP or HTTPS, and receives a bundle of files back: HTML for the content, CSS for the looks, JavaScript for the behavior, plus images and fonts.",
+      "Then comes the hard part. The browser's **rendering engine** turns those files into the page you see, working out the position of every word and box, and runs the JavaScript that makes the page interactive. A modern site can involve hundreds of files, and the browser fetches and assembles them in a fraction of a second.",
+      "Browsers are also a security wall. Each site runs in its own sandbox, so a page cannot read your files or peek at what another tab is doing. The browser shows the padlock for HTTPS, stores passwords and cookies, warns about known phishing sites and asks before a page uses your camera or location. Under the hood only a few engines exist, so many browsers with different names share the same core."
+    ],
+    "analogy": "A translator and builder in one. It phones the store (the server), receives a box of flat-pack parts and instructions, and assembles the furniture in your living room in an instant.",
+    "keyPoints": [
+      "Fetches pages from servers using DNS and HTTP(S), then draws them.",
+      "Its rendering engine turns HTML and CSS into pixels and runs JavaScript.",
+      "Each site is isolated, so pages cannot read your files or other tabs.",
+      "Many browsers share the same few engines underneath."
+    ],
+    "links": [
+      { "label": "How the web works (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works" },
+      { "label": "Browser (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Browser" },
+      { "label": "Web browser on Wikipedia", "url": "https://en.wikipedia.org/wiki/Web_browser" }
+    ]
+  },
+  "es": {
+    "title": "Navegador web",
+    "tagline": "La app que trae páginas web desde internet y las dibuja en tu pantalla.",
+    "explanation": [
+      "Un **navegador web** es la app que usás para entrar a sitios: Chrome, Safari, Firefox y Edge son navegadores. Cuando escribís una dirección o hacés clic en un link, el navegador averigua qué servidor tiene ese sitio (con DNS), le pide la página por HTTP o HTTPS y recibe un paquete de archivos: HTML para el contenido, CSS para el aspecto, JavaScript para el comportamiento, más imágenes y tipografías.",
+      "Ahí viene la parte difícil. El **motor de renderizado** del navegador convierte esos archivos en la página que ves, calculando la posición de cada palabra y cada caja, y ejecuta el JavaScript que la vuelve interactiva. Un sitio moderno puede tener cientos de archivos, y el navegador los trae y los arma en una fracción de segundo.",
+      "El navegador también es una muralla de seguridad. Cada sitio corre en su propio sandbox, así que una página no puede leer tus archivos ni espiar qué hace otra pestaña. Muestra el candadito del HTTPS, guarda contraseñas y cookies, avisa sobre sitios de phishing conocidos y te pregunta antes de que una página use tu cámara o tu ubicación. Por debajo existen pocos motores, así que muchos navegadores con nombres distintos comparten el mismo corazón."
+    ],
+    "analogy": "Un traductor y armador en uno. Llama a la tienda (el servidor), recibe una caja de piezas para armar con sus instrucciones y te deja el mueble armado en el living en un instante.",
+    "keyPoints": [
+      "Trae páginas de los servidores usando DNS y HTTP(S), y después las dibuja.",
+      "Su motor de renderizado convierte HTML y CSS en píxeles y ejecuta JavaScript.",
+      "Cada sitio está aislado: una página no puede leer tus archivos ni otras pestañas.",
+      "Muchos navegadores comparten por debajo los mismos pocos motores."
+    ],
+    "links": [
+      { "label": "Cómo funciona la web (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works" },
+      { "label": "Navegador (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Browser" },
+      { "label": "Navegador web en Wikipedia", "url": "https://es.wikipedia.org/wiki/Navegador_web" }
+    ]
+  }
+}

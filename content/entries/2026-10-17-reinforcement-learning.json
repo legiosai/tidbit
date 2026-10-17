@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-reinforcement-learning",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["RL", "RLHF", "reinforcement learning from human feedback"],
+    "es": ["RL", "RLHF", "reinforcement learning", "aprendizaje por refuerzo con retroalimentación humana"]
+  },
+  "image": "img/2026-10-17-reinforcement-learning.svg",
+  "imageAlt": {
+    "en": "A loop between an agent and an environment: the agent sends an action, the environment sends back a new state and a reward",
+    "es": "Un ciclo entre un agente y un entorno: el agente manda una acción y el entorno le devuelve un estado nuevo y una recompensa"
+  },
+  "en": {
+    "title": "Reinforcement learning",
+    "tagline": "Learning by trial and error, guided by rewards for good outcomes.",
+    "explanation": [
+      "**Reinforcement learning** (RL) is a way of training AI where nobody shows the system the right answers. Instead, an **agent** acts in some environment (a game, a simulation, a conversation), gets a **reward** when things go well and a penalty when they go badly, and gradually learns which actions lead to more reward. It is trial and error, repeated millions of times.",
+      "Its most famous success came in 2016, when DeepMind's AlphaGo beat Lee Sedol, one of the world's best players of Go, a board game long thought too subtle for computers. AlphaGo improved partly by playing against itself over and over. RL is also used to train robots to walk or grasp, to control cooling in data centers, and in many game-playing systems.",
+      "For today's chatbots, RL matters in two ways. **RLHF** (reinforcement learning from human feedback) is a step where people compare pairs of answers, a separate model learns their preferences, and the chatbot is then trained to produce answers that preference model scores well. It is a big part of why assistants sound helpful and polite. More recently, RL on problems with checkable answers, like math and code, has been used to train models that reason step by step. The classic risk is **reward hacking**: the agent finds a loophole that earns points without doing what you actually wanted, so the reward has to be designed with care."
+    ],
+    "analogy": "Like training a dog with treats. You never explain the rule; you reward the behavior you want, and the dog figures out what earns the treat. If you reward the wrong thing by accident, it will learn that instead.",
+    "keyPoints": [
+      "Learns from rewards and penalties, not from labeled answers.",
+      "AlphaGo's 2016 win at Go is the landmark example.",
+      "RLHF uses human preferences to shape how chatbots respond.",
+      "A badly designed reward gets gamed: reward hacking."
+    ],
+    "links": [
+      { "label": "Reinforcement learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Reinforcement_learning" },
+      { "label": "Illustrating RLHF (Hugging Face)", "url": "https://huggingface.co/blog/rlhf" },
+      { "label": "What is reinforcement learning? (IBM)", "url": "https://www.ibm.com/think/topics/reinforcement-learning" }
+    ]
+  },
+  "es": {
+    "title": "Aprendizaje por refuerzo",
+    "tagline": "Aprender por prueba y error, guiado por recompensas cuando algo sale bien.",
+    "explanation": [
+      "El **aprendizaje por refuerzo** (reinforcement learning, RL) es una forma de entrenar IA en la que nadie le muestra al sistema las respuestas correctas. En cambio, un **agente** actúa en algún entorno (un juego, una simulación, una conversación), recibe una **recompensa** cuando las cosas salen bien y una penalización cuando salen mal, y de a poco aprende qué acciones le dan más recompensa. Es prueba y error, repetido millones de veces.",
+      "Su éxito más famoso llegó en 2016, cuando AlphaGo, de DeepMind, le ganó a Lee Sedol, uno de los mejores jugadores del mundo de Go, un juego de mesa que durante mucho tiempo se creyó demasiado sutil para una computadora. AlphaGo mejoró en parte jugando contra sí mismo una y otra vez. El RL también se usa para enseñarles a robots a caminar o agarrar cosas, para controlar la refrigeración de centros de datos y en muchos sistemas que juegan.",
+      "Para los chatbots de hoy, el RL importa de dos maneras. El **RLHF** (aprendizaje por refuerzo con retroalimentación humana) es una etapa en la que personas comparan pares de respuestas, un modelo aparte aprende sus preferencias y después se entrena al chatbot para que dé respuestas que ese modelo de preferencias puntúe bien. Es buena parte de por qué los asistentes suenan útiles y amables. Más recientemente, el RL sobre problemas con respuestas verificables, como matemática y código, se usó para entrenar modelos que razonan paso a paso. El riesgo clásico es el **reward hacking**: el agente encuentra un atajo que suma puntos sin hacer lo que de verdad querías, así que la recompensa hay que diseñarla con cuidado."
+    ],
+    "analogy": "Es como entrenar a un perro con premios. Nunca le explicás la regla; premiás la conducta que buscás y el perro descubre qué le da el premio. Si sin querer premiás otra cosa, va a aprender eso.",
+    "keyPoints": [
+      "Aprende de recompensas y penalizaciones, no de respuestas etiquetadas.",
+      "La victoria de AlphaGo en Go en 2016 es el ejemplo emblemático.",
+      "El RLHF usa preferencias humanas para moldear cómo responden los chatbots.",
+      "Una recompensa mal diseñada se aprovecha: reward hacking."
+    ],
+    "links": [
+      { "label": "Aprendizaje por refuerzo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aprendizaje_por_refuerzo" },
+      { "label": "¿Qué es el aprendizaje por refuerzo? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/reinforcement-learning" },
+      { "label": "RLHF explicado, Hugging Face (en inglés)", "url": "https://huggingface.co/blog/rlhf" }
+    ]
+  }
+}

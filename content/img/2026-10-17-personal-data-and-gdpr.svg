@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <rect x="160" y="36" width="104" height="150" rx="10" fill="none" stroke="#6b6357" stroke-width="2" stroke-dasharray="5 5"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="58" width="112" height="108" rx="8" fill="#ffd166"/>
+    <circle cx="44" cy="82" r="10" fill="#f3efe6"/>
+    <rect x="34" y="104" width="84" height="14" rx="3" fill="#f3efe6"/>
+    <rect x="34" y="126" width="84" height="14" rx="3" fill="#f3efe6"/>
+    <rect x="34" y="146" width="84" height="14" rx="3" fill="#f3efe6"/>
+    <path d="M182 96 L212 78 L242 96 V146 H182 Z" fill="#9ac7ea"/>
+    <rect x="290" y="34" width="86" height="28" rx="14" fill="#9bd1b9"/>
+    <rect x="290" y="76" width="86" height="28" rx="14" fill="#9bd1b9"/>
+    <rect x="290" y="118" width="86" height="28" rx="14" fill="#9bd1b9"/>
+    <rect x="290" y="160" width="86" height="28" rx="14" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M134 112 H174"/><path d="M168 108 l6 4 -6 4"/>
+    <path d="M284 48 C268 48 270 104 248 108"/><path d="M284 90 C270 90 268 112 248 112"/>
+    <path d="M284 132 C270 132 268 116 248 116"/><path d="M284 174 C268 174 270 120 248 120"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="76" y="115">name</text><text x="76" y="137">email</text><text x="76" y="157">location</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="88" y="86">you</text><text x="212" y="166">company</text>
+    <text x="333" y="52">see</text><text x="333" y="94">fix</text><text x="333" y="136">delete</text><text x="333" y="178">take</text>
+  </g>
+  <text x="212" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#2b2b2b">the law</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">your data · their duties · your rights</text>
+</svg>

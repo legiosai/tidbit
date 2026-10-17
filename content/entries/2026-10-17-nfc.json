@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-nfc",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["near-field communication", "near field communication", "contactless payment", "contactless payments", "NFC tag", "NFC tags"],
+    "es": ["comunicación de campo cercano", "pago sin contacto", "pagos sin contacto", "etiqueta NFC", "etiquetas NFC"]
+  },
+  "image": "img/2026-10-17-nfc.svg",
+  "imageAlt": {
+    "en": "A phone held a few centimeters from a payment terminal, with small radio waves between them, and a card with a chip labeled tag, no battery",
+    "es": "Un celular a pocos centímetros de una terminal de pago, con ondas de radio chiquitas entre los dos, y una tarjeta con chip marcada como etiqueta sin batería"
+  },
+  "en": {
+    "title": "NFC",
+    "tagline": "Very short-range wireless that works with a tap: contactless cards, phones, transit.",
+    "explanation": [
+      "**NFC** (near-field communication) is a wireless technology that only works over a few centimeters, roughly the distance of a tap. It is what happens when you pay by holding a card or a phone against a terminal, go through a subway gate with a transit card, or open a door with a badge. Two devices come close, exchange a small amount of data, and that is it.",
+      "One side can be a **tag** with no battery at all: a tiny chip and an antenna inside a card, a sticker or a key fob. The reader's own radio field powers the tag for an instant, just long enough for it to answer. Phones can act as a reader, as a tag, or both, which lets them pay, read a label on a museum display or start pairing with headphones just by touching them.",
+      "The very short range is a feature, not a limitation. Because you have to bring the device almost into contact, it is hard to trigger a payment by accident, and someone across the room cannot easily listen in. Cards and phone wallets add their own protections on top: phones usually ask you to unlock them or confirm with your face or fingerprint, and each payment uses a one-time code instead of your real card number. NFC is slow and carries little data, so it is used to start things, not to move files."
+    ],
+    "analogy": "A handshake instead of a phone call. It only happens when you are close enough to touch, it is over in a second, and it is enough to say \"it's me, go ahead\".",
+    "keyPoints": [
+      "Works only within a few centimeters, about the distance of a tap.",
+      "Tags in cards and stickers need no battery; the reader powers them.",
+      "Used for contactless payments, transit cards, badges and quick pairing.",
+      "The tiny range makes accidental or remote triggering hard."
+    ],
+    "links": [
+      { "label": "NFC technology (NFC Forum)", "url": "https://nfc-forum.org/learn/nfc-technology/" },
+      { "label": "Near-field communication on Wikipedia", "url": "https://en.wikipedia.org/wiki/Near-field_communication" }
+    ]
+  },
+  "es": {
+    "title": "NFC",
+    "tagline": "Conexión inalámbrica de alcance mínimo: alcanza con apoyar la tarjeta o el celular.",
+    "explanation": [
+      "**NFC** (near-field communication, comunicación de campo cercano) es una tecnología inalámbrica que solo funciona a unos pocos centímetros, más o menos la distancia de apoyar algo. Es lo que pasa cuando pagás acercando una tarjeta o el celular a una terminal, cuando pasás el molinete del subte con una tarjeta de transporte o cuando abrís una puerta con una credencial. Dos aparatos se acercan, intercambian unos pocos datos y listo.",
+      "Uno de los lados puede ser una **etiqueta** (tag) sin ninguna batería: un chip diminuto y una antena dentro de una tarjeta, un sticker o un llavero. El campo de radio del lector le da energía a la etiqueta por un instante, lo justo para que responda. Los celulares pueden funcionar como lector, como etiqueta o como las dos cosas, y así pueden pagar, leer el cartel de una vitrina en un museo o empezar a vincularse con unos auriculares con solo tocarlos.",
+      "El alcance cortísimo es una ventaja, no una limitación. Como tenés que acercar el aparato casi hasta tocar, es difícil disparar un pago sin querer, y alguien en la otra punta del cuarto no puede espiar fácilmente. Las tarjetas y las billeteras del celular suman sus propias protecciones: el celular suele pedirte que lo desbloquees o que confirmes con la cara o la huella, y cada pago usa un código de un solo uso en lugar del número real de tu tarjeta. NFC es lento y lleva pocos datos, así que se usa para arrancar cosas, no para pasar archivos."
+    ],
+    "analogy": "Un apretón de manos en lugar de una llamada. Solo pasa cuando están lo bastante cerca como para tocarse, dura un segundo y alcanza para decir \"soy yo, dale\".",
+    "keyPoints": [
+      "Solo funciona a unos pocos centímetros, la distancia de apoyar algo.",
+      "Las etiquetas de tarjetas y stickers no necesitan batería; el lector les da energía.",
+      "Se usa para pagos sin contacto, tarjetas de transporte, credenciales y vincular aparatos rápido.",
+      "El alcance mínimo hace difícil activarlo sin querer o desde lejos."
+    ],
+    "links": [
+      { "label": "Comunicación de campo cercano en Wikipedia", "url": "https://es.wikipedia.org/wiki/Comunicaci%C3%B3n_de_campo_cercano" },
+      { "label": "NFC technology, NFC Forum (en inglés)", "url": "https://nfc-forum.org/learn/nfc-technology/" }
+    ]
+  }
+}

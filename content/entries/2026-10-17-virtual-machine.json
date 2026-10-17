@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-virtual-machine",
+  "date": "2026-10-17",
+  "subjects": ["cloud", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["virtual machines", "VM", "VMs"],
+    "es": ["máquinas virtuales", "VM", "VMs", "virtual machine"]
+  },
+  "image": "img/2026-10-17-virtual-machine.svg",
+  "imageAlt": {
+    "en": "One physical server at the bottom, a hypervisor layer above it, and three separate virtual machines on top, each with its own operating system and app",
+    "es": "Un servidor físico abajo, una capa de hipervisor encima y tres máquinas virtuales separadas arriba, cada una con su propio sistema operativo y su app"
+  },
+  "en": {
+    "title": "Virtual machine",
+    "tagline": "A complete computer made of software, running inside a real one.",
+    "explanation": [
+      "A **virtual machine** (VM) is a computer that exists as software. It has what looks like its own processor, memory, disk and network card, runs its own operating system and its own programs, and as far as that software can tell, it is a real machine. Underneath, it is sharing a physical computer with other virtual machines.",
+      "A layer called a **hypervisor** makes this possible: it splits the real CPU, RAM and disks into slices and gives each VM its own, keeping them isolated so one cannot see or crash another. That lets you run Windows inside a Mac, test software on several systems at once, or keep an old program alive on an operating system that no longer runs on modern hardware.",
+      "VMs are the foundation of cloud computing. When you launch an Amazon EC2 instance or a Google Compute Engine machine, you get a virtual machine on a server in someone's data center, ready in a minute and billed while it runs. Containers are a lighter alternative: they share the host's operating system instead of each bringing their own, so they start faster but are less isolated."
+    ],
+    "analogy": "Apartments in a building. Everyone shares the same foundation, pipes and wiring, but each apartment has its own door, its own key and its own furniture, and what happens in one does not spill into the next.",
+    "keyPoints": [
+      "Software that behaves like a full computer, with its own operating system.",
+      "A hypervisor splits one physical machine into many isolated VMs.",
+      "Cloud servers like EC2 instances are virtual machines.",
+      "Containers are lighter because they share the host's operating system."
+    ],
+    "links": [
+      { "label": "What is a virtual machine? (AWS)", "url": "https://aws.amazon.com/what-is/virtual-machine/" },
+      { "label": "Virtual machine on Wikipedia", "url": "https://en.wikipedia.org/wiki/Virtual_machine" }
+    ]
+  },
+  "es": {
+    "title": "Máquina virtual",
+    "tagline": "Una computadora completa hecha de software, que corre adentro de una real.",
+    "explanation": [
+      "Una **máquina virtual** (VM) es una computadora que existe como software. Tiene lo que parece ser su propio procesador, memoria, disco y placa de red, corre su propio sistema operativo y sus propios programas, y para ese software es una máquina real. Por debajo, está compartiendo una computadora física con otras máquinas virtuales.",
+      "Lo que lo hace posible es una capa llamada **hipervisor**: reparte la CPU, la RAM y los discos reales en porciones, le da a cada VM la suya y las mantiene aisladas, para que ninguna pueda ver ni tirar abajo a otra. Así podés correr Windows adentro de una Mac, probar un programa en varios sistemas a la vez o mantener vivo un programa viejo en un sistema operativo que ya no anda en hardware moderno.",
+      "Las VMs son la base de la computación en la nube. Cuando lanzás una instancia de Amazon EC2 o una máquina de Google Compute Engine, recibís una máquina virtual en un servidor de un centro de datos, lista en un minuto y cobrada mientras está prendida. Los contenedores son una alternativa más liviana: comparten el sistema operativo del anfitrión en lugar de traer cada uno el suyo, así que arrancan más rápido pero están menos aislados."
+    ],
+    "analogy": "Los departamentos de un edificio. Todos comparten los cimientos, los caños y la instalación eléctrica, pero cada uno tiene su puerta, su llave y sus muebles, y lo que pasa en uno no se filtra al de al lado.",
+    "keyPoints": [
+      "Software que se comporta como una computadora completa, con su propio sistema operativo.",
+      "Un hipervisor divide una máquina física en muchas VMs aisladas.",
+      "Los servidores en la nube, como las instancias EC2, son máquinas virtuales.",
+      "Los contenedores son más livianos porque comparten el sistema operativo del anfitrión."
+    ],
+    "links": [
+      { "label": "¿Qué es una máquina virtual? (AWS)", "url": "https://aws.amazon.com/es/what-is/virtual-machine/" },
+      { "label": "Máquina virtual en Wikipedia", "url": "https://es.wikipedia.org/wiki/M%C3%A1quina_virtual" }
+    ]
+  }
+}

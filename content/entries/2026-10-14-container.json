@@ -8,12 +8,10 @@
   "level": 1,
   "aliases": {
     "en": [
-      "containers",
-      "Docker"
+      "containers"
     ],
     "es": [
-      "contenedores",
-      "Docker"
+      "contenedores"
     ]
   },
   "image": "img/2026-10-14-container.svg",

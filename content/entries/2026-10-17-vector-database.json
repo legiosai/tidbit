@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-vector-database",
+  "date": "2026-10-17",
+  "subjects": ["ai", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["vector databases", "vector store", "vector stores", "vector DB", "pgvector"],
+    "es": ["bases de datos vectoriales", "vector database", "vector store", "pgvector"]
+  },
+  "image": "img/2026-10-17-vector-database.svg",
+  "imageAlt": {
+    "en": "A map of dots where cat, kitten and dog sit close together and invoice and receipt sit far away; a query for puppy draws a circle around the nearby animal words",
+    "es": "Un mapa de puntos donde gato, gatito y perro están cerca entre sí y factura y recibo quedan lejos; una búsqueda de cachorro dibuja un círculo alrededor de las palabras de animales cercanas"
+  },
+  "en": {
+    "title": "Vector database",
+    "tagline": "A database that finds things by similar meaning instead of exact matching words.",
+    "explanation": [
+      "A **vector database** stores **embeddings**: lists of numbers that an AI model produces to represent the meaning of a piece of text, an image or a sound. Things with similar meaning get similar numbers, so they end up close together, like points on a map. 'Puppy' lands near 'dog' and 'kitten', far from 'invoice'. A vector database is built to answer one question fast: which stored items are closest to this one?",
+      "That is different from a regular database search. Searching a help center for 'cannot log in' with plain keywords misses an article titled 'Resetting your password'. Searching by vectors finds it, because the meanings are close even though the words are different. To do this over millions of items without comparing against every single one, vector databases use special indexes (names like HNSW come up) that find nearly the closest matches very quickly, trading a tiny bit of precision for a lot of speed.",
+      "Vector databases became popular with large language models because they are the usual memory behind **RAG**: your documents are split into chunks, each chunk is embedded and stored, and when someone asks a question, the closest chunks are fetched and handed to the model as context. They also power semantic search, 'similar products' recommendations and duplicate detection. Some are dedicated products; others are features added to existing systems, like the `pgvector` extension for PostgreSQL."
+    ],
+    "analogy": "A library where books are shelved by what they are about rather than by title. Walk to the shelf for the book you have in mind, and the neighbors on that shelf are the ones most similar to it, whatever their titles say.",
+    "keyPoints": [
+      "Stores embeddings: numbers that represent meaning.",
+      "Finds the nearest items to a query, not exact word matches.",
+      "Uses approximate search to stay fast with millions of items.",
+      "The usual storage behind RAG and semantic search."
+    ],
+    "links": [
+      { "label": "What is a vector database? (AWS)", "url": "https://aws.amazon.com/what-is/vector-databases/" },
+      { "label": "Vector database on Wikipedia", "url": "https://en.wikipedia.org/wiki/Vector_database" },
+      { "label": "What is a vector database? (IBM)", "url": "https://www.ibm.com/think/topics/vector-database" }
+    ]
+  },
+  "es": {
+    "title": "Base de datos vectorial",
+    "tagline": "Una base de datos que busca por significado parecido y no por palabras exactas.",
+    "explanation": [
+      "Una **base de datos vectorial** (vector database) guarda **embeddings**: listas de números que produce un modelo de IA para representar el significado de un texto, una imagen o un sonido. Las cosas con significado parecido reciben números parecidos, así que quedan cerca, como puntos en un mapa. 'Cachorro' cae cerca de 'perro' y de 'gatito', lejos de 'factura'. Una base de datos vectorial está hecha para responder rápido una sola pregunta: ¿qué elementos guardados están más cerca de este?",
+      "Eso es distinto de buscar en una base de datos común. Si buscás 'no puedo entrar' por palabras clave en un centro de ayuda, no aparece el artículo 'Cómo restablecer tu contraseña'. Buscando por vectores sí aparece, porque los significados están cerca aunque las palabras sean otras. Para hacer esto entre millones de elementos sin comparar contra cada uno, las bases vectoriales usan índices especiales (aparecen nombres como HNSW) que encuentran casi los más cercanos muy rápido, a cambio de resignar un poquito de precisión.",
+      "Se volvieron populares con los grandes modelos de lenguaje porque son la memoria habitual detrás de **RAG**: tus documentos se parten en pedazos, cada pedazo se convierte en embedding y se guarda, y cuando alguien hace una pregunta se buscan los pedazos más cercanos y se le pasan al modelo como contexto. También sirven para búsqueda semántica, recomendaciones de 'productos parecidos' y detección de duplicados. Algunas son productos dedicados; otras son funciones agregadas a sistemas que ya existían, como la extensión `pgvector` para PostgreSQL."
+    ],
+    "analogy": "Es como una biblioteca donde los libros se ordenan por el tema y no por el título. Vas al estante del libro que tenés en mente, y los vecinos de ese estante son los más parecidos, digan lo que digan sus títulos.",
+    "keyPoints": [
+      "Guarda embeddings: números que representan significado.",
+      "Encuentra lo más cercano a una consulta, no coincidencias exactas de palabras.",
+      "Usa búsqueda aproximada para seguir siendo rápida con millones de elementos.",
+      "Es el almacenamiento habitual detrás de RAG y de la búsqueda semántica."
+    ],
+    "links": [
+      { "label": "¿Qué es una base de datos vectorial? (AWS)", "url": "https://aws.amazon.com/es/what-is/vector-databases/" },
+      { "label": "¿Qué es una base de datos vectorial? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/vector-database" },
+      { "label": "Vector database en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Vector_database" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-spotify",
+  "date": "2026-10-17",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Spotify Premium"],
+    "es": ["Spotify Premium"]
+  },
+  "image": "img/2026-10-17-spotify.svg",
+  "imageAlt": {
+    "en": "Songs stored in the cloud stream in small pieces to a phone, while a recommender compares listening history to suggest a new playlist",
+    "es": "Canciones guardadas en la nube llegan en pedacitos a un celular, mientras un recomendador compara historiales de escucha para sugerir una playlist nueva"
+  },
+  "en": {
+    "title": "Spotify",
+    "tagline": "A Swedish streaming service for music and podcasts, free with ads or paid monthly.",
+    "explanation": [
+      "**Spotify** was founded in 2006 in Stockholm by Daniel Ek and Martin Lorentzon, and launched in 2008, at a time when much of the music online was pirated. Its bet was that listening instantly, without downloading files, could be more convenient than piracy. You open the app, pick a song and it starts playing in a second or two, from a catalog of many millions of tracks, plus podcasts and audiobooks.",
+      "Behind that second there is a lot of engineering. Each song is stored on servers in the cloud, compressed at several quality levels. The app asks for the first few seconds, starts playing and keeps fetching the rest while you listen, with a small buffer so a weak connection does not cut the music. Songs you play often are kept on your phone, and Premium users can download them, encrypted, to listen offline. In 2016 Spotify started moving its infrastructure to Google Cloud.",
+      "The other big piece is **recommendations**. Spotify looks at what millions of people play, skip and save, and finds patterns: people who love these ten songs also tend to love this other one. It combines that with an analysis of the audio itself and of what is written about artists online, and turns it into personalized playlists such as Discover Weekly. It makes money in two ways: ads for free listeners and **Premium** subscriptions, and it pays a large share of that money to record labels, publishers and artists for the rights to the music."
+    ],
+    "analogy": "A radio station that plays only for you. It has almost every record ever made, and its DJ learns your taste by watching what you skip.",
+    "keyPoints": [
+      "Founded in 2006 in Stockholm by Daniel Ek and Martin Lorentzon; launched in 2008.",
+      "Streams music in small pieces with a buffer, instead of downloading whole files.",
+      "Recommendations come from comparing the listening habits of many people.",
+      "Earns money from ads and Premium subscriptions, and pays rights holders a large share."
+    ],
+    "links": [
+      { "label": "About Spotify (official newsroom)", "url": "https://newsroom.spotify.com/company-info/" },
+      { "label": "Spotify Research", "url": "https://research.atspotify.com/" },
+      { "label": "Spotify on Wikipedia", "url": "https://en.wikipedia.org/wiki/Spotify" }
+    ]
+  },
+  "es": {
+    "title": "Spotify",
+    "tagline": "Un servicio sueco de streaming de música y podcasts, gratis con anuncios o pago.",
+    "explanation": [
+      "**Spotify** se fundó en 2006 en Estocolmo, de la mano de Daniel Ek y Martin Lorentzon, y se lanzó en 2008, cuando buena parte de la música en internet era pirata. Su apuesta fue que escuchar al instante, sin bajar archivos, podía ser más cómodo que piratear. Abrís la app, elegís un tema y empieza a sonar en un segundo o dos, de un catálogo de muchos millones de canciones, además de podcasts y audiolibros.",
+      "Detrás de ese segundo hay mucha ingeniería. Cada canción está guardada en servidores en la nube, comprimida en varios niveles de calidad. La app pide los primeros segundos, arranca a reproducir y sigue trayendo el resto mientras escuchás, con un pequeño buffer para que una conexión floja no corte la música. Los temas que escuchás seguido quedan guardados en tu celular, y los usuarios Premium pueden descargarlos, cifrados, para escuchar sin conexión. En 2016 Spotify empezó a mudar su infraestructura a Google Cloud.",
+      "La otra gran pieza son las **recomendaciones**. Spotify mira qué escuchan, saltean y guardan millones de personas y encuentra patrones: a la gente que ama estos diez temas también le suele gustar este otro. Combina eso con un análisis del audio mismo y de lo que se escribe sobre los artistas en internet, y lo convierte en playlists personalizadas como Descubrimiento semanal. Gana plata de dos formas: anuncios para quienes usan la versión gratis y suscripciones **Premium**, y le paga una parte grande de esa plata a discográficas, editoriales y artistas por los derechos de la música."
+    ],
+    "analogy": "Una radio que pasa música solo para vos. Tiene casi todos los discos que se grabaron, y su DJ aprende tus gustos mirando qué temas salteás.",
+    "keyPoints": [
+      "Fundada en 2006 en Estocolmo por Daniel Ek y Martin Lorentzon; lanzada en 2008.",
+      "Transmite la música en pedacitos con un buffer, en vez de bajar archivos enteros.",
+      "Las recomendaciones salen de comparar los hábitos de escucha de mucha gente.",
+      "Gana plata con anuncios y con Premium, y le paga una parte grande a los dueños de los derechos."
+    ],
+    "links": [
+      { "label": "Spotify en Wikipedia", "url": "https://es.wikipedia.org/wiki/Spotify" },
+      { "label": "Acerca de Spotify (sala de prensa oficial, en inglés)", "url": "https://newsroom.spotify.com/company-info/" },
+      { "label": "Spotify Research (en inglés)", "url": "https://research.atspotify.com/" }
+    ]
+  }
+}

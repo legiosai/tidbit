@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="30" width="76" height="140" rx="12" fill="#e6dfd0"/>
+    <circle cx="78" cy="82" r="22" fill="#9bd1b9"/>
+    <rect x="284" y="44" width="88" height="112" rx="10" fill="#9ac7ea"/>
+    <circle cx="66" cy="134" r="7" fill="#ffd166"/>
+    <circle cx="310" cy="128" r="7" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 92 a8 8 0 0 1 16 0"/><path d="M64 92 a14 14 0 0 1 28 0"/><path d="M78 92 V84"/>
+    <path d="M73 134 H96 M90 134 V141 M96 134 V141"/>
+    <path d="M317 128 H340 M334 128 V135 M340 128 V135"/>
+    <path d="M296 70 H360"/><path d="M296 88 H360"/>
+    <path d="M276 76 H128"/><path d="M134 72 l-6 4 6 4"/>
+    <path d="M128 124 H276"/><path d="M270 120 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="202" y="68">challenge</text>
+    <text x="202" y="116">signed reply</text>
+    <text x="78" y="190">private key</text>
+    <text x="328" y="190">public key</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="78" y="206">stays on device</text>
+    <text x="328" y="206">kept by the site</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no password to steal · the secret never leaves</text>
+</svg>

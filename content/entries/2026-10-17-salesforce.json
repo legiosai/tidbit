@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-salesforce",
+  "date": "2026-10-17",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Salesforce.com"],
+    "es": ["Salesforce.com"]
+  },
+  "image": "img/2026-10-17-salesforce.svg",
+  "imageAlt": {
+    "en": "A customer card in the center, shared through the cloud by sales, support and marketing teams, each paying a monthly subscription per user",
+    "es": "La ficha de un cliente en el centro, compartida por la nube entre los equipos de ventas, soporte y marketing, cada uno pagando una suscripción mensual por usuario"
+  },
+  "en": {
+    "title": "Salesforce",
+    "tagline": "The company that sells, as an online subscription, the software to manage customers.",
+    "explanation": [
+      "**Salesforce** is an American company founded in 1999 in San Francisco by Marc Benioff and partners. It sells **CRM** (customer relationship management) software: the system where a company keeps everything about its customers, such as who they are, what they bought, every call and email, which deals are in progress and which complaints are open. Sales, support and marketing teams all work from the same record.",
+      "What made it famous was how it sold it. Business software used to come on discs, installed on the company's own servers after long projects. Salesforce ran everything on its own servers and customers just logged in through the browser, paying a monthly fee per user. It was one of the pioneers of **SaaS** (software as a service), the model most business software follows today.",
+      "Over time it added products, often by buying companies: tools for customer service, marketing and online stores, **Slack** for team chat, **Tableau** for charts and dashboards, and **MuleSoft** for connecting systems together. Companies also build their own apps on top of its platform, and a whole profession of administrators and consultants works on it. It makes money mainly from those subscriptions, priced per user and per product, and lately from AI assistants that work inside the CRM."
+    ],
+    "analogy": "A shared address book and diary for a whole company, kept in the cloud, where every salesperson, support agent and marketer writes down what happened with each customer, and the company pays a monthly fee per person who uses it.",
+    "keyPoints": [
+      "Founded in 1999; its core product is CRM, software to manage customer relationships.",
+      "A SaaS pioneer: software in the browser, paid by subscription per user.",
+      "Owns Slack, Tableau and MuleSoft, among other products.",
+      "Many companies build custom apps on its platform."
+    ],
+    "links": [
+      { "label": "About Salesforce (official site)", "url": "https://www.salesforce.com/company/about-us/" },
+      { "label": "What is CRM? (Salesforce)", "url": "https://www.salesforce.com/crm/what-is-crm/" },
+      { "label": "Salesforce on Wikipedia", "url": "https://en.wikipedia.org/wiki/Salesforce" }
+    ]
+  },
+  "es": {
+    "title": "Salesforce",
+    "tagline": "La empresa que vende, como suscripción online, el software para gestionar clientes.",
+    "explanation": [
+      "**Salesforce** es una empresa estadounidense fundada en 1999 en San Francisco por Marc Benioff y sus socios. Vende software de **CRM** (gestión de la relación con los clientes): el sistema donde una empresa guarda todo sobre sus clientes, como quiénes son, qué compraron, cada llamado y cada mail, qué ventas están en curso y qué reclamos siguen abiertos. Los equipos de ventas, soporte y marketing trabajan todos sobre la misma ficha.",
+      "Lo que la hizo famosa fue cómo lo vendía. El software para empresas venía en discos y se instalaba en los servidores propios después de proyectos largos. Salesforce corría todo en sus servidores y los clientes entraban desde el navegador, pagando una cuota mensual por usuario. Fue una de las pioneras del **SaaS** (software como servicio), el modelo que hoy sigue la mayoría del software empresarial.",
+      "Con el tiempo sumó productos, muchas veces comprando empresas: herramientas de atención al cliente, marketing y tiendas online, **Slack** para el chat de equipos, **Tableau** para gráficos y tableros, y **MuleSoft** para conectar sistemas entre sí. Las empresas también arman sus propias apps sobre su plataforma, y existe toda una profesión de administradores y consultores que trabaja con ella. Gana plata sobre todo con esas suscripciones, cobradas por usuario y por producto, y últimamente con asistentes de IA que trabajan adentro del CRM."
+    ],
+    "analogy": "Una agenda y un cuaderno de notas compartidos por toda la empresa, guardados en la nube, donde cada vendedor, agente de soporte y persona de marketing anota qué pasó con cada cliente, y la empresa paga una cuota mensual por cada persona que lo usa.",
+    "keyPoints": [
+      "Fundada en 1999; su producto central es el CRM, software para gestionar la relación con los clientes.",
+      "Pionera del SaaS: software en el navegador, pagado con suscripción por usuario.",
+      "Es dueña de Slack, Tableau y MuleSoft, entre otros productos.",
+      "Muchas empresas arman apps propias sobre su plataforma."
+    ],
+    "links": [
+      { "label": "Salesforce en Wikipedia", "url": "https://es.wikipedia.org/wiki/Salesforce" },
+      { "label": "¿Qué es un CRM? (Salesforce)", "url": "https://www.salesforce.com/mx/crm/what-is-crm/" },
+      { "label": "Acerca de Salesforce (sitio oficial, en inglés)", "url": "https://www.salesforce.com/company/about-us/" }
+    ]
+  }
+}

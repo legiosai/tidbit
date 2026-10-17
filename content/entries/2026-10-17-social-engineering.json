@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-17-social-engineering",
+  "date": "2026-10-17",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "social engineer",
+      "social engineers",
+      "social engineering attack",
+      "social engineering attacks",
+      "pretexting",
+      "vishing"
+    ],
+    "es": [
+      "ingeniero social",
+      "ingenieros sociales",
+      "pretexting",
+      "vishing"
+    ]
+  },
+  "image": "img/2026-10-17-social-engineering.svg",
+  "imageAlt": {
+    "en": "A caller says IT support here, I need your code, fast, and the person on the other side hands over a key",
+    "es": "Alguien llama diciendo que es soporte técnico y que necesita tu código ya, y la persona del otro lado le entrega una llave"
+  },
+  "en": {
+    "title": "Social engineering",
+    "tagline": "Manipulating people, instead of machines, into giving away access or information.",
+    "explanation": [
+      "**Social engineering** is the art of getting what you want from a system by working on the people around it. Instead of breaking encryption or finding a bug, the attacker convinces someone to share a password, read out a verification code, approve a payment or hold a door open. Phishing is its most common form, but it also happens by phone, in person, through social networks and in messaging apps.",
+      "The tricks lean on ordinary human instincts. **Authority**: 'This is your bank's fraud department' or 'the CEO needs this transfer today'. **Urgency**: 'your account will be closed in one hour'. **Helpfulness**: a new 'colleague' who forgot their badge. **Curiosity or fear**: a USB stick labeled 'salaries' left in the parking lot. A carefully built cover story is called **pretexting**; a fraudulent phone call is **vishing** (voice phishing).",
+      "It works on smart, careful people because it does not attack intelligence; it attacks routine and good manners. The attacker often does homework first, using public information from LinkedIn or a company's website, so the story includes real names and details. Voice cloning and convincing fake messages make the stories even more believable.",
+      "The defense is mostly process. Verify requests through a separate channel you already know, such as calling back the official number or asking the person face to face. No real support team needs your password or the code a service just texted you. In companies, clear rules help: payments to new bank accounts need a second approval, and nobody gets punished for slowing down to check."
+    ],
+    "analogy": "A con artist in a hotel lobby who never touches a lock. With a confident smile and a believable story about a lost key card, he gets the receptionist to hand him a new one.",
+    "keyPoints": [
+      "It targets people's trust, habits and good manners, not the technology.",
+      "Authority, urgency, helpfulness and fear are the usual levers.",
+      "Verify any unusual request through a channel you choose, not the one offered.",
+      "Never share passwords or one-time codes, whoever asks."
+    ],
+    "links": [
+      {
+        "label": "Avoiding social engineering and phishing attacks (CISA)",
+        "url": "https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks"
+      },
+      {
+        "label": "Social engineering on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Social_engineering_(security)"
+      }
+    ]
+  },
+  "es": {
+    "title": "Ingeniería social",
+    "tagline": "Manipular a personas, en vez de máquinas, para conseguir acceso o información.",
+    "explanation": [
+      "La **ingeniería social** es el arte de conseguir algo de un sistema trabajando sobre la gente que lo rodea. En lugar de romper un cifrado o encontrar un bug, el atacante convence a alguien de compartir una contraseña, dictar un código de verificación, aprobar un pago o sostener una puerta abierta. El phishing es su forma más común, pero también pasa por teléfono, en persona, en redes sociales y en apps de mensajería.",
+      "Los trucos se apoyan en instintos humanos comunes. **Autoridad**: 'te hablamos del área de fraudes de tu banco' o 'el gerente necesita esta transferencia hoy'. **Urgencia**: 'tu cuenta se cierra en una hora'. **Ganas de ayudar**: un 'compañero nuevo' que se olvidó la credencial. **Curiosidad o miedo**: un pendrive con la etiqueta 'sueldos' tirado en el estacionamiento. Una historia de cobertura armada con cuidado se llama **pretexting**; una llamada fraudulenta es **vishing** (phishing por voz).",
+      "Funciona con gente inteligente y cuidadosa porque no ataca la inteligencia, ataca la rutina y la buena educación. Muchas veces el atacante hace la tarea antes, con información pública de LinkedIn o de la web de la empresa, así que la historia trae nombres y detalles reales. La clonación de voz y los mensajes falsos bien hechos vuelven las historias todavía más creíbles.",
+      "La defensa es sobre todo de procedimiento. Verificá los pedidos por otro canal que ya conozcas, como llamar al número oficial o preguntarle a la persona cara a cara. Ningún soporte real necesita tu contraseña ni el código que un servicio te acaba de mandar por SMS. En las empresas ayudan reglas claras: los pagos a cuentas nuevas necesitan una segunda aprobación, y nadie recibe un reto por frenar a chequear."
+    ],
+    "analogy": "Un estafador en el lobby de un hotel que nunca toca una cerradura. Con una sonrisa segura y una historia creíble sobre una tarjeta perdida, consigue que el recepcionista le dé una nueva.",
+    "keyPoints": [
+      "Apunta a la confianza, los hábitos y la buena educación de la gente, no a la tecnología.",
+      "Autoridad, urgencia, ganas de ayudar y miedo son las palancas típicas.",
+      "Verificá cualquier pedido raro por un canal que elijas vos, no el que te ofrecen.",
+      "Nunca compartas contraseñas ni códigos de un solo uso, te los pida quien te los pida."
+    ],
+    "links": [
+      {
+        "label": "Ingeniería social en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)"
+      },
+      {
+        "label": "INCIBE: ciberseguridad para la ciudadanía",
+        "url": "https://www.incibe.es/ciudadania"
+      }
+    ]
+  }
+}

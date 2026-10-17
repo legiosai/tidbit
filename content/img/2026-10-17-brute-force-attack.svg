@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="34" width="110" height="26" rx="6" fill="#e6dfd0"/>
+    <rect x="30" y="70" width="110" height="26" rx="6" fill="#e6dfd0"/>
+    <rect x="30" y="106" width="110" height="26" rx="6" fill="#e6dfd0"/>
+    <rect x="30" y="142" width="110" height="26" rx="6" fill="#e6dfd0"/>
+    <rect x="30" y="178" width="110" height="26" rx="6" fill="#ffd166"/>
+    <rect x="196" y="100" width="64" height="54" rx="8" fill="#9ac7ea"/>
+    <circle cx="228" cy="122" r="6" fill="#2b2b2b"/>
+    <rect x="292" y="96" width="88" height="62" rx="10" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M208 100 V84 a20 20 0 0 1 40 0 V100"/>
+    <path d="M228 128 V140"/>
+    <path d="M146 120 H186"/><path d="M180 116 l6 4 -6 4"/>
+    <path d="M264 127 H286"/><path d="M280 123 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="85" y="52">123456 ✗</text><text x="85" y="88">password ✗</text>
+    <text x="85" y="124">qwerty ✗</text><text x="85" y="160">letmein ✗</text>
+    <text x="85" y="196">… try #5</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="336" y="122">too many</text><text x="336" y="138">tries: wait</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">guess after guess, until one fits or the door locks</text>
+</svg>

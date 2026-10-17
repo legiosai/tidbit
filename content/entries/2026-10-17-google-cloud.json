@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-google-cloud",
+  "date": "2026-10-17",
+  "subjects": ["cloud", "companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Google Cloud Platform", "GCP"],
+    "es": ["Google Cloud Platform", "GCP"]
+  },
+  "image": "img/2026-10-17-google-cloud.svg",
+  "imageAlt": {
+    "en": "A cloud holding four groups of rented services: compute, storage, data and AI, all running in Google's own data centers below",
+    "es": "Una nube con cuatro grupos de servicios para alquilar: cómputo, almacenamiento, datos e IA, todo corriendo en los centros de datos propios de Google debajo"
+  },
+  "en": {
+    "title": "Google Cloud",
+    "tagline": "Google's cloud business: computing, storage, data and AI services rented by the hour.",
+    "explanation": [
+      "**Google Cloud**, often called **GCP** (Google Cloud Platform), is the part of Google that rents computing infrastructure and services to other companies, running in the same kind of global data centers that power Google Search and YouTube. It competes with AWS and Microsoft Azure, and is usually counted as the third-largest of the big public clouds.",
+      "It offers the usual building blocks: virtual machines (Compute Engine), object storage (Cloud Storage), databases, networking and serverless options like Cloud Run. Its best-known strengths come from technology Google built for itself. **BigQuery** is a serverless data warehouse that can scan huge tables with plain SQL. **GKE** runs Kubernetes, which started at Google before being released as open source. **Vertex AI** and Google's own AI chips, called **TPUs**, are used to train and serve machine learning models, including Google's Gemini models.",
+      "Like other clouds, it is organized into regions and zones around the world, and you pay for what you use, with discounts for steady or committed usage. In Google's financial reports, the Google Cloud segment also includes Google Workspace (Gmail, Docs and Drive for businesses), so the name covers both renting infrastructure and selling office software to companies."
+    ],
+    "analogy": "Renting space and tools in the same workshop where a famous manufacturer builds its own products. You get access to the machines they designed for themselves, and you pay by the hour for what you use.",
+    "keyPoints": [
+      "Google's public cloud, also called GCP, competing with AWS and Azure.",
+      "Known for BigQuery, Kubernetes (GKE), and AI services with its own TPU chips.",
+      "Pay-as-you-go pricing across regions and zones worldwide.",
+      "As a business segment, it also includes Google Workspace."
+    ],
+    "links": [
+      { "label": "Google Cloud overview (official docs)", "url": "https://cloud.google.com/docs/overview" },
+      { "label": "Google Cloud Platform on Wikipedia", "url": "https://en.wikipedia.org/wiki/Google_Cloud_Platform" }
+    ]
+  },
+  "es": {
+    "title": "Google Cloud",
+    "tagline": "El negocio de nube de Google: cómputo, almacenamiento, datos e IA que se pagan por uso.",
+    "explanation": [
+      "**Google Cloud**, muchas veces llamado **GCP** (Google Cloud Platform), es la parte de Google que le alquila infraestructura y servicios de computación a otras empresas, corriendo en el mismo tipo de centros de datos globales que mueven el buscador de Google y YouTube. Compite con AWS y con Microsoft Azure, y en general se lo cuenta como la tercera más grande de las grandes nubes públicas.",
+      "Ofrece las piezas de siempre: máquinas virtuales (Compute Engine), almacenamiento de objetos (Cloud Storage), bases de datos, redes y opciones serverless como Cloud Run. Sus puntos fuertes más conocidos vienen de tecnología que Google armó para sí misma. **BigQuery** es un data warehouse serverless que recorre tablas enormes con SQL común. **GKE** corre Kubernetes, que nació en Google antes de liberarse como open source. **Vertex AI** y los chips de IA propios de Google, llamados **TPUs**, se usan para entrenar y servir modelos de machine learning, incluidos los modelos Gemini de Google.",
+      "Como las otras nubes, está organizado en regiones y zonas en todo el mundo, y pagás por lo que usás, con descuentos por uso estable o comprometido. En los informes financieros de Google, el segmento Google Cloud también incluye Google Workspace (Gmail, Docs y Drive para empresas), así que el nombre abarca tanto el alquiler de infraestructura como la venta de software de oficina a empresas."
+    ],
+    "analogy": "Alquilar lugar y herramientas en el mismo taller donde un fabricante famoso hace sus propios productos. Accedés a las máquinas que diseñaron para ellos, y pagás por hora lo que usás.",
+    "keyPoints": [
+      "La nube pública de Google, también llamada GCP, que compite con AWS y Azure.",
+      "Conocida por BigQuery, Kubernetes (GKE) y servicios de IA con sus propios chips TPU.",
+      "Se paga por uso, con regiones y zonas en todo el mundo.",
+      "Como segmento de negocio, también incluye Google Workspace."
+    ],
+    "links": [
+      { "label": "Descripción general de Google Cloud (documentación oficial)", "url": "https://cloud.google.com/docs/overview?hl=es-419" },
+      { "label": "Google Cloud Platform en Wikipedia", "url": "https://es.wikipedia.org/wiki/Google_Cloud_Platform" }
+    ]
+  }
+}

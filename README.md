@@ -23,7 +23,7 @@ MIT
 
 </div>
 
-> **Status: 102 terms in 9 topics**, each one in English and Spanish: AI, AWS, cloud, networks, security, data, hardware, software and tech companies. No account and no tracking: the terms you learned and the term of the day live in your browser.
+> **Status: 304 terms in 9 topics**, each one in English and Spanish: AI, AWS, cloud, networks, security, data, hardware, software and tech companies. No account and no tracking: the terms you learned and the term of the day live in your browser.
 
 ## What an entry looks like
 

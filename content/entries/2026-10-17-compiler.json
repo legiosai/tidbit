@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-compiler",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["compilers", "compiled language", "compiled languages", "compile time"],
+    "es": ["compiladores", "lenguaje compilado", "lenguajes compilados", "compilación"]
+  },
+  "image": "img/2026-10-17-compiler.svg",
+  "imageAlt": {
+    "en": "Source code goes into a compiler, which checks it, reports an error on one line, and otherwise produces machine code ready to run on a CPU",
+    "es": "El código fuente entra a un compilador, que lo revisa, marca un error en una línea y, si no hay errores, produce código máquina listo para correr en una CPU"
+  },
+  "en": {
+    "title": "Compiler",
+    "tagline": "A program that translates source code into instructions a computer can run directly.",
+    "explanation": [
+      "A **compiler** is a program that reads source code written in a language like C, Rust, Go or Swift and translates the whole thing, ahead of time, into **machine code**: the low-level instructions a specific kind of CPU executes. The result is a file you can run on its own, like the app you double-click, without the original source code or the compiler.",
+      "Along the way the compiler checks the code. If you call something that does not exist, pass text where a number is required or forget a bracket, it refuses to finish and points at the line. It also optimizes: it rearranges and simplifies the instructions so the program runs faster than a literal translation would. That is a big reason compiled programs tend to be fast.",
+      "The alternative is an **interpreter**, which reads the code and runs it on the spot, as Python and JavaScript traditionally do. In practice the line is blurry. Java and C# compile to an intermediate form that a virtual machine runs, and browsers compile JavaScript to machine code while the page is running (**just-in-time compilation**). Because machine code is specific to a processor family, the same program has to be compiled separately for, say, Intel and Arm chips."
+    ],
+    "analogy": "A translator who receives a whole book, translates it carefully, checks it for mistakes and hands you a finished edition. An interpreter is more like a live interpreter, translating sentence by sentence as the speaker talks.",
+    "keyPoints": [
+      "Translates source code into machine code before the program runs.",
+      "Catches many mistakes early and refuses to build broken code.",
+      "Optimizes the result, so compiled programs are often fast.",
+      "Machine code is tied to a CPU family, so builds differ for Intel and Arm."
+    ],
+    "links": [
+      { "label": "Compile (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Compile" },
+      { "label": "Compiler on Wikipedia", "url": "https://en.wikipedia.org/wiki/Compiler" },
+      { "label": "Interpreter (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Interpreter_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Compilador",
+    "tagline": "Un programa que traduce código fuente a instrucciones que la computadora corre directo.",
+    "explanation": [
+      "Un **compilador** es un programa que lee código fuente escrito en un lenguaje como C, Rust, Go o Swift y lo traduce entero, de antemano, a **código máquina**: las instrucciones de bajo nivel que ejecuta un tipo específico de CPU. El resultado es un archivo que corre por sí solo, como la app a la que le hacés doble clic, sin necesitar el código fuente original ni el compilador.",
+      "En el camino, el compilador revisa el código. Si llamás a algo que no existe, pasás texto donde va un número u olvidás cerrar un paréntesis, se niega a terminar y te marca la línea. También optimiza: reordena y simplifica las instrucciones para que el programa corra más rápido que una traducción literal. Esa es una de las razones por las que los programas compilados suelen ser veloces.",
+      "La alternativa es un **intérprete**, que lee el código y lo ejecuta en el momento, como hacen tradicionalmente Python y JavaScript. En la práctica la frontera es difusa. Java y C# se compilan a una forma intermedia que corre una máquina virtual, y los navegadores compilan JavaScript a código máquina mientras la página está abierta (**compilación just-in-time**). Como el código máquina depende de la familia de procesador, el mismo programa se tiene que compilar por separado para, por ejemplo, chips Intel y Arm."
+    ],
+    "analogy": "Un traductor que recibe un libro entero, lo traduce con cuidado, lo revisa y te entrega una edición terminada. Un intérprete se parece más a un intérprete simultáneo, que traduce frase por frase mientras habla el orador.",
+    "keyPoints": [
+      "Traduce el código fuente a código máquina antes de que el programa corra.",
+      "Atrapa muchos errores temprano y no arma código roto.",
+      "Optimiza el resultado, por eso los programas compilados suelen ser rápidos.",
+      "El código máquina depende de la CPU: se compila distinto para Intel y para Arm."
+    ],
+    "links": [
+      { "label": "Compilar (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Compile" },
+      { "label": "Compilador en Wikipedia", "url": "https://es.wikipedia.org/wiki/Compilador" },
+      { "label": "Intérprete (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Intérprete_(informática)" }
+    ]
+  }
+}

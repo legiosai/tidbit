@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-stripe",
+  "date": "2026-10-17",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Stripe API", "Stripe Checkout"],
+    "es": ["Stripe API", "Stripe Checkout"]
+  },
+  "image": "img/2026-10-17-stripe.svg",
+  "imageAlt": {
+    "en": "A customer pays on a shop's website; the card details go to Stripe, which talks to the card network and the bank, and sends the shop a token and later the money",
+    "es": "Un cliente paga en el sitio de una tienda; los datos de la tarjeta van a Stripe, que habla con la red de tarjetas y el banco, y le manda a la tienda un token y después la plata"
+  },
+  "en": {
+    "title": "Stripe",
+    "tagline": "A company that lets websites and apps accept online payments with a few lines of code.",
+    "explanation": [
+      "**Stripe** was founded in 2010 by Patrick and John Collison, two brothers from Ireland, and is based in San Francisco and Dublin. It sells the plumbing for **online payments**: when you pay with a card in an app or on a website, there is a good chance Stripe is the one moving the money behind the scenes.",
+      "Accepting cards used to mean contracts with banks, long paperwork and strict security rules for storing card numbers. Stripe turned it into an API: a developer adds a few lines of code, the customer's card details go straight from the payment form to Stripe, and the shop receives a **token**, a stand-in that represents the card without revealing it. Stripe then talks to the card networks and the customer's bank, checks for fraud, and later deposits the money in the shop's account.",
+      "Around that core it built more products: recurring billing for subscriptions, tools for marketplaces that split each payment among many sellers, invoices, tax calculation and support for many local payment methods. It makes money by charging a fee on each transaction, usually a small percentage plus a fixed amount, so it earns more as its customers sell more."
+    ],
+    "analogy": "A cashier you can hire for your online shop. You never touch the customer's card: the cashier takes it, checks it with the bank, keeps the details locked away and hands you the money minus a small cut.",
+    "keyPoints": [
+      "Founded in 2010 by brothers Patrick and John Collison, from Ireland.",
+      "Turns accepting card payments into a few calls to its API.",
+      "Card data goes to Stripe; the shop only keeps a token that stands for it.",
+      "Earns a fee on each payment it processes."
+    ],
+    "links": [
+      { "label": "About Stripe (official site)", "url": "https://stripe.com/about" },
+      { "label": "Stripe payments documentation", "url": "https://docs.stripe.com/payments" },
+      { "label": "Stripe on Wikipedia", "url": "https://en.wikipedia.org/wiki/Stripe,_Inc." }
+    ]
+  },
+  "es": {
+    "title": "Stripe",
+    "tagline": "Una empresa que deja que sitios y apps cobren online con unas pocas líneas de código.",
+    "explanation": [
+      "**Stripe** la fundaron en 2010 Patrick y John Collison, dos hermanos irlandeses, y tiene sede en San Francisco y Dublín. Vende la plomería de los **pagos online**: cuando pagás con tarjeta en una app o en un sitio web, es bastante probable que Stripe sea la que mueve la plata por detrás.",
+      "Aceptar tarjetas antes implicaba contratos con bancos, mucho papeleo y reglas de seguridad estrictas para guardar números de tarjeta. Stripe lo convirtió en una API: un desarrollador agrega unas pocas líneas de código, los datos de la tarjeta del cliente van directo del formulario de pago a Stripe, y la tienda recibe un **token**, un reemplazo que representa la tarjeta sin revelarla. Después Stripe habla con las redes de tarjetas y con el banco del cliente, revisa que no haya fraude y más tarde deposita la plata en la cuenta de la tienda.",
+      "Alrededor de eso armó más productos: cobros recurrentes para suscripciones, herramientas para marketplaces que reparten cada pago entre muchos vendedores, facturas, cálculo de impuestos y soporte para muchos medios de pago locales. Gana plata cobrando una comisión por cada transacción, en general un porcentaje chico más un monto fijo, así que gana más a medida que sus clientes venden más."
+    ],
+    "analogy": "Un cajero que podés contratar para tu tienda online. Vos nunca tocás la tarjeta del cliente: el cajero la toma, la verifica con el banco, guarda los datos bajo llave y te da la plata menos una pequeña comisión.",
+    "keyPoints": [
+      "Fundada en 2010 por los hermanos irlandeses Patrick y John Collison.",
+      "Convierte aceptar pagos con tarjeta en unas pocas llamadas a su API.",
+      "Los datos de la tarjeta van a Stripe; la tienda solo guarda un token que la representa.",
+      "Cobra una comisión por cada pago que procesa."
+    ],
+    "links": [
+      { "label": "Sobre Stripe (sitio oficial)", "url": "https://stripe.com/es/about" },
+      { "label": "Stripe en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Stripe,_Inc." },
+      { "label": "Documentación de pagos de Stripe (en inglés)", "url": "https://docs.stripe.com/payments" }
+    ]
+  }
+}

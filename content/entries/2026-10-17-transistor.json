@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-transistor",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["transistors", "MOSFET", "MOSFETs"],
+    "es": ["transistores", "MOSFET", "MOSFETs"]
+  },
+  "image": "img/2026-10-17-transistor.svg",
+  "imageAlt": {
+    "en": "Two side-by-side transistors: with the gate off, current from source to drain is blocked and reads 0; with the gate on, it flows and reads 1",
+    "es": "Dos transistores lado a lado: con la compuerta apagada, la corriente de fuente a drenador está cortada y vale 0; con la compuerta prendida, fluye y vale 1"
+  },
+  "en": {
+    "title": "Transistor",
+    "tagline": "An electrically controlled switch, the basic building block of every chip.",
+    "explanation": [
+      "A **transistor** is a switch with no moving parts. It has three connections: current wants to flow between two of them (the **source** and the **drain**), and a small voltage on the third (the **gate**) decides whether it can. Gate on, current flows; gate off, it stops. On means 1, off means 0, and that is where the ones and zeros of computing physically live.",
+      "One switch does not do much. But wire a few together and you get **logic gates**, little circuits that answer questions like \"are both inputs on?\" (AND) or \"is at least one on?\" (OR). Combine gates and you can add numbers, compare them, and store a bit of memory. Stack that up by the billion and you have a CPU. The kind used in almost every modern chip is the **MOSFET**, built directly into silicon.",
+      "The first transistor was built at Bell Labs in 1947, a fist-sized device that replaced fragile vacuum tubes. Since then they have shrunk so much that a modern phone chip holds tens of billions of them, so small that more than a thousand would fit side by side across a human hair. Smaller transistors switch faster, use less energy and fit more per chip, which is the story Moore's law describes."
+    ],
+    "analogy": "A water tap controlled by a tiny lever. Pressure is always waiting in the pipe; flick the lever and water flows, release it and the flow stops. A computer is billions of these taps opening and closing in patterns, billions of times per second.",
+    "keyPoints": [
+      "A switch controlled by voltage: gate on lets current through, gate off blocks it.",
+      "On and off are the 1s and 0s of digital computing.",
+      "Combined into logic gates, they add, compare and remember.",
+      "Invented in 1947; modern chips hold billions of them."
+    ],
+    "links": [
+      { "label": "Transistor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Transistor" },
+      { "label": "MOSFET on Wikipedia", "url": "https://en.wikipedia.org/wiki/MOSFET" }
+    ]
+  },
+  "es": {
+    "title": "Transistor",
+    "tagline": "Un interruptor controlado por electricidad, el ladrillo básico de todo chip.",
+    "explanation": [
+      "Un **transistor** es un interruptor sin partes móviles. Tiene tres conexiones: la corriente quiere pasar entre dos de ellas (la **fuente** y el **drenador**), y un voltaje chico en la tercera (la **compuerta**) decide si puede. Compuerta prendida, la corriente pasa; compuerta apagada, se corta. Prendido es 1, apagado es 0, y ahí es donde viven físicamente los unos y ceros de la computación.",
+      "Un interruptor solo no hace mucho. Pero si conectás unos cuantos obtenés **compuertas lógicas**, circuitos chiquitos que responden preguntas como \"¿están prendidas las dos entradas?\" (AND) o \"¿hay al menos una prendida?\" (OR). Combinando compuertas podés sumar números, compararlos y guardar un bit de memoria. Apilá eso de a miles de millones y tenés una CPU. El tipo que se usa en casi todos los chips modernos es el **MOSFET**, construido directamente en el silicio.",
+      "El primer transistor se construyó en los Bell Labs en 1947, un aparato del tamaño de un puño que reemplazó a las frágiles válvulas de vacío. Desde entonces se achicaron tanto que el chip de un celular moderno tiene decenas de miles de millones, tan chicos que más de mil entrarían en fila a lo ancho de un pelo. Transistores más chicos conmutan más rápido, gastan menos energía y entran más por chip, que es la historia que cuenta la ley de Moore."
+    ],
+    "analogy": "Una canilla controlada por una palanquita. La presión siempre está esperando en el caño; movés la palanca y el agua corre, la soltás y se corta. Una computadora son miles de millones de estas canillas abriéndose y cerrándose en patrones, miles de millones de veces por segundo.",
+    "keyPoints": [
+      "Un interruptor controlado por voltaje: con la compuerta prendida pasa corriente, apagada la bloquea.",
+      "Prendido y apagado son los 1 y 0 de la computación digital.",
+      "Combinados en compuertas lógicas, suman, comparan y recuerdan.",
+      "Se inventó en 1947; los chips modernos tienen miles de millones."
+    ],
+    "links": [
+      { "label": "Transistor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Transistor" },
+      { "label": "MOSFET en Wikipedia", "url": "https://es.wikipedia.org/wiki/MOSFET" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-semiconductor-chip",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["chips", "microchip", "microchips", "semiconductor chip", "semiconductor chips", "integrated circuit", "integrated circuits", "semiconductor", "semiconductors", "silicon wafer"],
+    "es": ["chips", "microchip", "microchips", "circuito integrado", "circuitos integrados", "semiconductor", "semiconductores", "oblea de silicio"]
+  },
+  "image": "img/2026-10-17-semiconductor-chip.svg",
+  "imageAlt": {
+    "en": "A round silicon wafer divided into a grid of squares; one square is cut out and shown packaged as a chip with metal pins",
+    "es": "Una oblea redonda de silicio dividida en una grilla de cuadrados; uno se recorta y aparece encapsulado como un chip con patas metálicas"
+  },
+  "en": {
+    "title": "Chip",
+    "tagline": "A sliver of silicon carrying billions of tiny switches that compute and remember.",
+    "explanation": [
+      "A **chip** (or **integrated circuit**) is a small square of silicon, often smaller than a fingernail, with an entire electronic circuit built into its surface: billions of transistors, the tiny switches that do all digital work, plus the microscopic wiring between them. The CPU and GPU are chips, so is the RAM, the flash memory in an SSD, and the controllers inside a microwave or a car.",
+      "Silicon is a **semiconductor**: a material that can be made to conduct electricity or block it, depending on how it is treated and on the voltage applied. That on/off control is exactly what a switch needs. Chips are made on round, polished **wafers** of pure silicon. In a factory called a **fab**, the circuit is projected onto the wafer with light, layer after layer, with features measured in nanometers. The wafer is then cut into hundreds of individual chips, each one tested and sealed in a plastic or ceramic package with metal contacts.",
+      "Two kinds of companies are involved, and the news often mixes them up. Some design chips (NVIDIA, Apple, AMD), and some manufacture them (TSMC, Samsung, Intel, which also designs its own). Building a leading-edge fab costs many billions of dollars and needs machines only a few suppliers can make, which is why chips have become a matter of economics and geopolitics, not just engineering."
+    ],
+    "analogy": "A city printed on a stamp. Streets, buildings and traffic lights, all drawn so small that a whole metropolis fits on a fingernail, and all printed at once, many cities per sheet.",
+    "keyPoints": [
+      "A whole circuit of transistors and wiring built into one piece of silicon.",
+      "Silicon is a semiconductor: it can be made to conduct or to block current.",
+      "Made by the hundreds on a wafer, then cut, tested and packaged.",
+      "Designing chips and manufacturing them are often done by different companies."
+    ],
+    "links": [
+      { "label": "Integrated circuit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Integrated_circuit" },
+      { "label": "Semiconductor device fabrication on Wikipedia", "url": "https://en.wikipedia.org/wiki/Semiconductor_device_fabrication" },
+      { "label": "Semiconductor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Semiconductor" }
+    ]
+  },
+  "es": {
+    "title": "Chip",
+    "tagline": "Un pedacito de silicio con miles de millones de interruptores que calculan y recuerdan.",
+    "explanation": [
+      "Un **chip** (o **circuito integrado**) es un cuadradito de silicio, muchas veces más chico que una uña, con un circuito electrónico entero construido en su superficie: miles de millones de transistores, los interruptores diminutos que hacen todo el trabajo digital, más el cableado microscópico entre ellos. La CPU y la GPU son chips, también la RAM, la memoria flash de un SSD, y los controladores adentro de un microondas o de un auto.",
+      "El silicio es un **semiconductor**: un material al que se puede hacer conducir electricidad o bloquearla, según cómo se lo trate y qué voltaje se le aplique. Ese control de prendido/apagado es justo lo que necesita un interruptor. Los chips se fabrican sobre **obleas** redondas y pulidas de silicio puro. En una fábrica llamada **fab**, el circuito se proyecta sobre la oblea con luz, capa por capa, con detalles que se miden en nanómetros. Después la oblea se corta en cientos de chips individuales, y cada uno se prueba y se sella en un encapsulado de plástico o cerámica con contactos metálicos.",
+      "Hay dos tipos de empresas en juego, y las noticias suelen mezclarlas. Algunas diseñan chips (NVIDIA, Apple, AMD) y otras los fabrican (TSMC, Samsung, Intel, que además diseña los suyos). Construir una fab de punta cuesta muchos miles de millones de dólares y requiere máquinas que muy pocos proveedores saben hacer, y por eso los chips se volvieron un tema de economía y de geopolítica, no solo de ingeniería."
+    ],
+    "analogy": "Una ciudad impresa en una estampilla. Calles, edificios y semáforos, dibujados tan chiquitos que una metrópolis entera entra en una uña, y todos impresos de una, muchas ciudades por hoja.",
+    "keyPoints": [
+      "Un circuito entero de transistores y cableado construido en una sola pieza de silicio.",
+      "El silicio es un semiconductor: se lo puede hacer conducir o bloquear la corriente.",
+      "Se fabrican de a cientos en una oblea, que después se corta, se prueba y se encapsula.",
+      "Diseñar chips y fabricarlos suelen hacerlo empresas distintas."
+    ],
+    "links": [
+      { "label": "Circuito integrado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Circuito_integrado" },
+      { "label": "Fabricación de circuitos integrados en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fabricaci%C3%B3n_de_circuitos_integrados" },
+      { "label": "Semiconductor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Semiconductor" }
+    ]
+  }
+}

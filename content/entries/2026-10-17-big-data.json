@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-big-data",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["three Vs of big data"],
+    "es": ["macrodatos", "datos masivos"]
+  },
+  "image": "img/2026-10-17-big-data.svg",
+  "imageAlt": {
+    "en": "Clicks, sensors, transactions and videos pour in, too much for one computer, so the work is split across a cluster of many machines",
+    "es": "Clics, sensores, transacciones y videos entran a raudales, demasiado para una computadora, así que el trabajo se reparte en un cluster de muchas máquinas"
+  },
+  "en": {
+    "title": "Big data",
+    "tagline": "Data so large, fast or messy that one ordinary computer cannot handle it.",
+    "explanation": [
+      "**Big data** describes collections of data too big or too fast for the usual tools on a single computer. The classic definition uses three Vs: **volume** (huge amounts, far beyond what fits on one machine), **velocity** (arriving constantly, like every click on a website or every reading from thousands of sensors) and **variety** (many shapes at once: tables, text, images, logs).",
+      "The term became popular in the late 2000s, when companies like Google and Yahoo needed to process the whole web. Their answer was to split the data into pieces and process them in parallel across many cheap machines, an idea that led to open source tools like Hadoop and later Spark. Today the same idea powers cloud data warehouses, data lakes and streaming systems, so a company can query years of records without owning a single server.",
+      "Examples are everywhere: a streaming service recommending shows from what millions of people watched, a bank flagging an unusual card payment in real time, a city timing traffic lights from road sensors. The term itself has faded a little, because handling large data has become normal. What has not changed is the lesson behind it: more data only helps if it is good data and someone asks it a useful question."
+    ],
+    "analogy": "Counting the coins in your pocket is easy. Counting every coin that passes through a country's shops in a day needs thousands of counters working at once, each on its own pile, and someone adding up their totals.",
+    "keyPoints": [
+      "The three Vs: volume, velocity and variety.",
+      "Handled by splitting work across many machines in parallel.",
+      "Hadoop and Spark started it; cloud warehouses and lakes made it common.",
+      "Big is not the same as useful: quality and good questions still matter."
+    ],
+    "links": [
+      { "label": "What is big data? (AWS)", "url": "https://aws.amazon.com/what-is/big-data/" },
+      { "label": "Big data on Wikipedia", "url": "https://en.wikipedia.org/wiki/Big_data" }
+    ]
+  },
+  "es": {
+    "title": "Big data",
+    "tagline": "Datos tan grandes, rápidos o desordenados que una computadora común no puede con ellos.",
+    "explanation": [
+      "**Big data** (macrodatos) describe colecciones de datos demasiado grandes o rápidas para las herramientas habituales en una sola computadora. La definición clásica usa tres V: **volumen** (cantidades enormes, mucho más de lo que entra en una máquina), **velocidad** (datos que llegan todo el tiempo, como cada clic en un sitio o cada lectura de miles de sensores) y **variedad** (muchas formas a la vez: tablas, texto, imágenes, logs).",
+      "El término se hizo popular a fines de los 2000, cuando empresas como Google y Yahoo necesitaban procesar toda la web. Su respuesta fue partir los datos en pedazos y procesarlos en paralelo en muchas máquinas baratas, una idea que llevó a herramientas open source como Hadoop y, más tarde, Spark. Hoy esa misma idea mueve los data warehouses en la nube, los data lakes y los sistemas de streaming, así que una empresa puede consultar años de registros sin tener ni un servidor propio.",
+      "Hay ejemplos por todos lados: una plataforma de streaming que te recomienda series según lo que vieron millones de personas, un banco que marca un pago con tarjeta raro en tiempo real, una ciudad que ajusta los semáforos con sensores en las calles. El término en sí perdió un poco de brillo, porque manejar muchos datos se volvió normal. Lo que no cambió es la lección de fondo: más datos solo ayudan si son buenos datos y alguien les hace una pregunta útil."
+    ],
+    "analogy": "Contar las monedas que tenés en el bolsillo es fácil. Contar todas las monedas que pasan por los comercios de un país en un día necesita miles de personas contando a la vez, cada una su pila, y alguien que sume los totales.",
+    "keyPoints": [
+      "Las tres V: volumen, velocidad y variedad.",
+      "Se maneja repartiendo el trabajo entre muchas máquinas en paralelo.",
+      "Hadoop y Spark lo empezaron; los warehouses y lakes en la nube lo volvieron común.",
+      "Grande no es lo mismo que útil: la calidad y las buenas preguntas siguen importando."
+    ],
+    "links": [
+      { "label": "¿Qué es big data? (AWS)", "url": "https://aws.amazon.com/es/what-is/big-data/" },
+      { "label": "Macrodatos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Macrodatos" }
+    ]
+  }
+}

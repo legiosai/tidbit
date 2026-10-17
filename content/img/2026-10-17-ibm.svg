@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="18" width="100" height="32" rx="8" fill="#9ac7ea"/>
+    <rect x="20" y="84" width="112" height="50" rx="8" fill="#9bd1b9"/>
+    <rect x="144" y="84" width="112" height="50" rx="8" fill="#ffd166"/>
+    <rect x="268" y="84" width="112" height="50" rx="8" fill="#e6dfd0"/>
+    <rect x="70" y="164" width="260" height="28" rx="14" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M170 52 C150 66 90 64 78 80"/><path d="M200 52 V80"/><path d="M230 52 C250 66 310 64 322 80"/>
+    <path d="M74 75 l4 6 4 -6"/><path d="M196 74 l4 6 4 -6"/><path d="M318 75 l4 6 4 -6"/>
+    <path d="M76 136 L110 160" stroke="#6b6357" stroke-dasharray="3 4"/>
+    <path d="M200 136 V160" stroke="#6b6357" stroke-dasharray="3 4"/>
+    <path d="M324 136 L290 160" stroke="#6b6357" stroke-dasharray="3 4"/>
+  </g>
+  <text x="200" y="39" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#2b2b2b">IBM</text>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="76" y="105">software</text><text x="200" y="105">consulting</text><text x="324" y="105">infrastructure</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="76" y="123">hybrid cloud</text><text x="200" y="123">modernize, AI</text><text x="324" y="123">mainframes</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="182">banks · airlines · governments</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">technology for large organizations</text>
+</svg>

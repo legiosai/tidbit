@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="220" height="130" rx="10" fill="#e6dfd0"/>
+    <rect x="30" y="92" width="150" height="26" rx="4" fill="#f4a7a7"/>
+    <rect x="272" y="56" width="108" height="98" rx="10" fill="#9ac7ea"/>
+    <ellipse cx="210" cy="110" rx="9" ry="12" fill="#9bd1b9"/>
+    <circle cx="210" cy="95" r="5" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M201 104 l-8 -4"/><path d="M201 112 l-9 0"/><path d="M201 120 l-8 4"/>
+    <path d="M219 104 l8 -4"/><path d="M219 112 l9 0"/><path d="M219 120 l8 4"/>
+    <path d="M207 91 l-4 -7"/><path d="M213 91 l4 -7"/>
+    <path d="M244 110 H266"/><path d="M260 105 l6 5 -6 5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">
+    <text x="36" y="72">price = 30</text>
+    <text x="36" y="110">total = price * 100</text>
+    <text x="36" y="148">show(total)</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="326" y="84">Total</text>
+    <text x="326" y="112" font-size="20">3000</text>
+    <text x="326" y="138" font-size="11" fill="#6b6357">should be 30</text>
+    <text x="130" y="30">one wrong line</text><text x="326" y="44">user sees</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the computer did what it was told · the instruction was wrong</text>
+</svg>

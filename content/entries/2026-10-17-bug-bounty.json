@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-bug-bounty",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["bug bounties", "bug bounty program", "bug bounty programs"],
+    "es": ["bug bounties", "programa de bug bounty", "programas de bug bounty"]
+  },
+  "image": "img/2026-10-17-bug-bounty.svg",
+  "imageAlt": {
+    "en": "A researcher sends a private report to a company, the company fixes the flaw and pays a reward, and only then the issue is made public",
+    "es": "Una investigadora manda un reporte privado a una empresa, la empresa arregla la falla y paga una recompensa, y recién entonces el problema se hace público"
+  },
+  "en": {
+    "title": "Bug bounty",
+    "tagline": "A company pays outside researchers who find and privately report its security holes.",
+    "explanation": [
+      "A **bug bounty** is a standing offer from a company: if you find a security flaw in our products and tell us privately, following our rules, we will pay you. The amount depends on how serious the problem is, from a small thank-you for a minor issue to large sums for a flaw that could expose user accounts. Big tech companies, banks, governments and many startups run them, often through platforms that handle the reports and payments.",
+      "Every program publishes a policy that is the heart of the deal. It lists which sites and apps are **in scope**, what is off limits (attacking other users, overloading servers, touching real customer data beyond what is needed to prove the point), and how to report. Inside those rules, researchers have permission to test; outside them, the same activity can be illegal. Reports go privately to the company, which confirms the flaw, fixes it, pays, and often lets the researcher publish a write-up afterwards.",
+      "That last step is called **coordinated disclosure** (or responsible disclosure): the problem is made public only once users are protected. Even companies without a paid program usually publish a **vulnerability disclosure policy** that says how to report a flaw and promises not to take legal action against people acting in good faith.",
+      "Bug bounties complement penetration testing rather than replace it. A pentest is a small team for a few weeks; a bounty is many people with different skills looking all year. The catch is that the company must be ready to triage a steady stream of reports, many of them duplicates or not real problems."
+    ],
+    "analogy": "A reward poster in reverse: instead of paying to catch the burglar, the shop pays anyone who points out an unlocked window, as long as they tell the owner and do not climb in.",
+    "keyPoints": [
+      "Researchers get paid for privately reporting real security flaws.",
+      "The program policy defines scope and rules; testing outside it is not authorized.",
+      "Coordinated disclosure: fix first, publish after.",
+      "It complements pentests: many testers, all year, paid per finding."
+    ],
+    "links": [
+      { "label": "Vulnerability Disclosure Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html" },
+      { "label": "Vulnerability Disclosure Policy Template (CISA)", "url": "https://www.cisa.gov/vulnerability-disclosure-policy-template" },
+      { "label": "Bug bounty program on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bug_bounty_program" }
+    ]
+  },
+  "es": {
+    "title": "Bug bounty",
+    "tagline": "Una empresa le paga a quien encuentra sus fallas de seguridad y se las avisa en privado.",
+    "explanation": [
+      "Un **bug bounty** (literalmente, recompensa por bugs) es una oferta permanente de una empresa: si encontrás una falla de seguridad en nuestros productos y nos avisás en privado, siguiendo nuestras reglas, te pagamos. El monto depende de qué tan grave sea el problema, desde un agradecimiento chico por algo menor hasta sumas grandes por una falla que podría exponer cuentas de usuarios. Los tienen las grandes tecnológicas, bancos, gobiernos y muchas startups, a menudo a través de plataformas que gestionan los reportes y los pagos.",
+      "Cada programa publica una política que es el corazón del acuerdo. Lista qué sitios y apps están **en alcance**, qué está prohibido (atacar a otros usuarios, saturar servidores, tocar datos reales de clientes más allá de lo necesario para demostrar el punto) y cómo reportar. Dentro de esas reglas, los investigadores tienen permiso para probar; fuera de ellas, la misma actividad puede ser ilegal. Los reportes van en privado a la empresa, que confirma la falla, la arregla, paga y muchas veces deja que el investigador publique un análisis después.",
+      "Ese último paso se llama **divulgación coordinada** (o divulgación responsable): el problema se hace público recién cuando los usuarios están protegidos. Incluso las empresas sin un programa pago suelen publicar una **política de divulgación de vulnerabilidades** que explica cómo reportar una falla y promete no iniciar acciones legales contra quien actúa de buena fe.",
+      "Los bug bounties complementan a las pruebas de penetración, no las reemplazan. Un pentest es un equipo chico durante unas semanas; un bounty es mucha gente con habilidades distintas mirando todo el año. La contra es que la empresa tiene que estar lista para revisar un flujo constante de reportes, muchos repetidos o que no son problemas reales."
+    ],
+    "analogy": "Un cartel de recompensa al revés: en vez de pagar por atrapar al ladrón, el negocio le paga a cualquiera que le avise de una ventana sin traba, siempre que se lo diga al dueño y no se meta por ella.",
+    "keyPoints": [
+      "Se paga a investigadores por reportar en privado fallas de seguridad reales.",
+      "La política del programa define el alcance y las reglas; probar fuera de eso no está autorizado.",
+      "Divulgación coordinada: primero se arregla, después se publica.",
+      "Complementa a los pentests: muchas personas, todo el año, pago por hallazgo."
+    ],
+    "links": [
+      { "label": "Vulnerability Disclosure Cheat Sheet, OWASP (en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html" },
+      { "label": "Plantilla de política de divulgación, CISA (en inglés)", "url": "https://www.cisa.gov/vulnerability-disclosure-policy-template" },
+      { "label": "Bug bounty program en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Bug_bounty_program" }
+    ]
+  }
+}

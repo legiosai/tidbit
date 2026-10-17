@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="50" width="96" height="110" rx="8" fill="#e6dfd0"/>
+    <circle cx="68" cy="92" r="22" fill="#9bd1b9"/>
+    <path d="M36 150 q32 -40 64 0" fill="#9bd1b9"/>
+    <rect x="152" y="76" width="70" height="56" rx="10" fill="#ffd166"/>
+    <rect x="258" y="40" width="124" height="130" rx="8" fill="#e6dfd0"/>
+    <circle cx="320" cy="96" r="22" fill="#f4a7a7"/>
+    <path d="M288 156 q32 -40 64 0" fill="#f4a7a7"/>
+    <rect x="266" y="48" width="108" height="24" rx="10" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M120 104 H146"/><path d="M141 100 l6 4 -6 4"/>
+    <path d="M226 104 H252"/><path d="M247 100 l6 4 -6 4"/>
+    <path d="M60 88 v2"/><path d="M76 88 v2"/><path d="M60 100 q8 6 16 0"/>
+    <path d="M312 92 v2"/><path d="M328 92 v2"/><path d="M312 104 q8 6 16 0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="187" y="109">AI</text><text x="320" y="65">wire the money!</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="68" y="40">real photos, voice</text><text x="320" y="30">fake video call</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">urgent request? verify another way</text>
+</svg>

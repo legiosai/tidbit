@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-ftp-and-sftp",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["FTP", "SFTP", "FTPS", "File Transfer Protocol", "FTP server"],
+    "es": ["FTP", "SFTP", "FTPS", "File Transfer Protocol", "servidor FTP"]
+  },
+  "image": "img/2026-10-17-ftp-and-sftp.svg",
+  "imageAlt": {
+    "en": "Two rows. FTP on port 21 sends a file from you to a server in the open, with password and files readable on the way. SFTP on port 22 sends the same file inside an encrypted SSH tunnel",
+    "es": "Dos filas. FTP en el puerto 21 manda un archivo de vos a un servidor a la vista, con contraseña y archivos legibles en el camino. SFTP en el puerto 22 manda el mismo archivo dentro de un túnel SSH cifrado"
+  },
+  "en": {
+    "title": "FTP and SFTP",
+    "tagline": "Two ways to move files to and from a server; only one of them keeps them private.",
+    "explanation": [
+      "**FTP** (File Transfer Protocol) is one of the oldest services on the internet, older than the web itself. You connect to an **FTP server** with a username and password, see its folders, and upload or download files. For decades it was how people published websites to their web hosting, how printers dropped scans into shared folders and how companies swapped files with banks and suppliers.",
+      "Its big flaw is that it was designed before anyone worried about eavesdroppers. FTP sends everything as plain text, including the password, so anyone on the path, such as someone on the same café Wi-Fi, can read it. It also opens separate connections for commands (port 21) and for each file, which makes it awkward to get through firewalls and NAT.",
+      "**SFTP** is the modern replacement, and despite the name it is not FTP with security added: it is a different protocol that runs inside SSH, over a single encrypted connection, usually on port 22. Logins can use SSH keys instead of passwords, and the files travel encrypted. There is also **FTPS**, which is the old FTP wrapped in TLS, the same encryption HTTPS uses; it works, but keeps FTP's multi-connection complications.",
+      "In practice: if a provider or a partner asks you to send files 'by FTP', ask for SFTP. Many businesses still exchange daily files this way, and cloud services can offer an SFTP endpoint that stores everything straight into object storage like Amazon S3. For sharing with people, a link from a cloud drive is usually simpler."
+    ],
+    "analogy": "FTP is mailing documents on postcards: they arrive, but every mail carrier on the way can read them. SFTP is the same documents in a locked courier bag that only the recipient can open.",
+    "keyPoints": [
+      "FTP sends passwords and files as plain text.",
+      "SFTP runs inside SSH: one encrypted connection, usually on port 22.",
+      "FTPS is FTP wrapped in TLS; similar goal, different protocol.",
+      "If someone asks for FTP, ask for SFTP instead."
+    ],
+    "links": [
+      { "label": "File Transfer Protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol" },
+      { "label": "SSH File Transfer Protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol" },
+      { "label": "RFC 959, the FTP standard", "url": "https://www.rfc-editor.org/rfc/rfc959" }
+    ]
+  },
+  "es": {
+    "title": "FTP y SFTP",
+    "tagline": "Dos formas de mover archivos hacia y desde un servidor; solo una los mantiene privados.",
+    "explanation": [
+      "**FTP** (File Transfer Protocol) es uno de los servicios más viejos de internet, más que la web misma. Te conectás a un **servidor FTP** con usuario y contraseña, ves sus carpetas y subís o bajás archivos. Durante décadas fue la forma de publicar un sitio en el hosting web, la manera en que las impresoras dejaban escaneos en carpetas compartidas y el canal por el que las empresas intercambiaban archivos con bancos y proveedores.",
+      "Su gran falla es que se diseñó antes de que a alguien le preocupara que lo espiaran. FTP manda todo como texto plano, incluida la contraseña, así que cualquiera en el camino, como alguien en el mismo Wi-Fi del café, puede leerla. Además abre conexiones separadas para los comandos (puerto 21) y para cada archivo, lo que complica pasar por firewalls y NAT.",
+      "**SFTP** es el reemplazo moderno y, aunque el nombre confunda, no es FTP con seguridad agregada: es otro protocolo que corre dentro de SSH, por una sola conexión cifrada, normalmente en el puerto 22. Se puede entrar con claves SSH en vez de contraseñas, y los archivos viajan cifrados. También existe **FTPS**, que es el FTP de siempre envuelto en TLS, el mismo cifrado que usa HTTPS; funciona, pero conserva las complicaciones de las conexiones múltiples.",
+      "En la práctica: si un proveedor o un socio te pide mandar archivos 'por FTP', pedí SFTP. Muchas empresas todavía intercambian archivos diarios así, y hay servicios en la nube que ofrecen un punto de acceso SFTP que guarda todo directo en almacenamiento de objetos como Amazon S3. Para compartir con personas, un enlace de un drive en la nube suele ser más simple."
+    ],
+    "analogy": "FTP es mandar documentos en postales: llegan, pero cada cartero del camino los puede leer. SFTP son los mismos documentos en un bolso de courier con candado que solo abre quien los recibe.",
+    "keyPoints": [
+      "FTP manda contraseñas y archivos como texto plano.",
+      "SFTP corre dentro de SSH: una sola conexión cifrada, normalmente en el puerto 22.",
+      "FTPS es FTP envuelto en TLS; objetivo parecido, otro protocolo.",
+      "Si te piden FTP, pedí SFTP."
+    ],
+    "links": [
+      { "label": "Protocolo de transferencia de archivos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos" },
+      { "label": "SSH File Transfer Protocol en Wikipedia", "url": "https://es.wikipedia.org/wiki/SSH_File_Transfer_Protocol" },
+      { "label": "RFC 959, el estándar de FTP (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc959" }
+    ]
+  }
+}

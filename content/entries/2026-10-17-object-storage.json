@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-object-storage",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["object store", "object stores", "blob storage"],
+    "es": ["object storage", "object store", "blob storage"]
+  },
+  "image": "img/2026-10-17-object-storage.svg",
+  "imageAlt": {
+    "en": "A flat bucket holding objects, each with a key, the data and a small metadata tag, reached with simple PUT and GET requests over the web",
+    "es": "Un bucket plano con objetos, cada uno con una clave, los datos y una etiqueta de metadatos, al que se accede con pedidos PUT y GET por la web"
+  },
+  "en": {
+    "title": "Object storage",
+    "tagline": "Files stored as whole named objects, reached over the web, almost without limit.",
+    "explanation": [
+      "**Object storage** keeps data as **objects**: a whole file (a photo, a video, a backup, a CSV export) plus some metadata about it, saved under a unique name called a **key**, inside a container usually called a **bucket**. There are no real folders and no disks to manage; you save an object with a `PUT` request over HTTP and get it back with a `GET`. Amazon S3 made this model popular, and Google Cloud Storage, Azure Blob Storage and many others follow it.",
+      "It is different from the two older kinds of storage. **Block storage**, like a laptop's disk or an EBS volume, is split into small blocks a computer formats and edits in place, which is fast for databases. **File storage** is the shared drive with folders that many machines can open at once. Object storage gives up editing in place (you replace the whole object) and in return scales to billions of objects, spreads copies across several data centers for durability and is cheap per gigabyte.",
+      "That combination makes it the default home for things that are written once and read many times: website images and videos, app uploads, backups, logs and the files of a data lake. Most providers offer storage classes, from fast to archive, where colder data costs less to keep but more, or longer, to get back."
+    ],
+    "analogy": "A coat check. You hand over the whole coat and get a numbered ticket; to get it back you show the ticket. You cannot sew a button on while it is hanging there, but the coat check can hold an enormous number of coats and never loses one.",
+    "keyPoints": [
+      "Data is stored as whole objects with a key and metadata, inside buckets.",
+      "Read and written over HTTP with simple requests like PUT and GET.",
+      "Objects are replaced, not edited in place, unlike block or file storage.",
+      "Cheap, durable and nearly unlimited: the home of backups, media and data lakes."
+    ],
+    "links": [
+      { "label": "What is object storage? (AWS)", "url": "https://aws.amazon.com/what-is/object-storage/" },
+      { "label": "What is object storage? (Google Cloud)", "url": "https://cloud.google.com/learn/what-is-object-storage" },
+      { "label": "Object storage on Wikipedia", "url": "https://en.wikipedia.org/wiki/Object_storage" }
+    ]
+  },
+  "es": {
+    "title": "Almacenamiento de objetos",
+    "tagline": "Archivos guardados como objetos con nombre, accesibles por la web y casi sin límite.",
+    "explanation": [
+      "El **almacenamiento de objetos** (object storage) guarda los datos como **objetos**: un archivo entero (una foto, un video, un backup, una exportación CSV) más algunos metadatos, guardado con un nombre único llamado **clave** (key), dentro de un contenedor que se suele llamar **bucket**. No hay carpetas reales ni discos que administrar; guardás un objeto con un pedido `PUT` por HTTP y lo recuperás con un `GET`. Amazon S3 popularizó este modelo, y Google Cloud Storage, Azure Blob Storage y muchos otros lo siguen.",
+      "Es distinto de los dos tipos de almacenamiento más viejos. El **almacenamiento en bloques**, como el disco de una notebook o un volumen EBS, se divide en bloques chicos que la computadora formatea y modifica en el lugar, algo rápido para bases de datos. El **almacenamiento de archivos** es la unidad compartida con carpetas que muchas máquinas abren a la vez. El de objetos renuncia a editar en el lugar (reemplazás el objeto entero) y a cambio escala a miles de millones de objetos, reparte copias en varios centros de datos para no perder nada y es barato por gigabyte.",
+      "Esa combinación lo vuelve el lugar por defecto para cosas que se escriben una vez y se leen muchas: imágenes y videos de sitios web, archivos que suben los usuarios, backups, logs y los archivos de un data lake. La mayoría de los proveedores ofrece clases de almacenamiento, de rápidas a archivo, donde los datos fríos cuestan menos de guardar pero más, o más tiempo, de recuperar."
+    ],
+    "analogy": "El guardarropa de un teatro. Entregás el abrigo entero y te dan un número; para recuperarlo mostrás el número. No podés coserle un botón mientras está colgado, pero el guardarropa entra una cantidad enorme de abrigos y nunca pierde ninguno.",
+    "keyPoints": [
+      "Los datos se guardan como objetos enteros con clave y metadatos, dentro de buckets.",
+      "Se leen y escriben por HTTP con pedidos simples como PUT y GET.",
+      "Los objetos se reemplazan, no se editan en el lugar, a diferencia del almacenamiento en bloques o de archivos.",
+      "Barato, durable y casi ilimitado: el hogar de backups, contenido multimedia y data lakes."
+    ],
+    "links": [
+      { "label": "¿Qué es el almacenamiento de objetos? (AWS)", "url": "https://aws.amazon.com/es/what-is/object-storage/" },
+      { "label": "¿Qué es el almacenamiento de objetos? (Google Cloud)", "url": "https://cloud.google.com/learn/what-is-object-storage?hl=es-419" }
+    ]
+  }
+}

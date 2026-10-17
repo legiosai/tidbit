@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="120" y="88" width="160" height="52" rx="8" fill="#e6dfd0"/>
+    <rect x="130" y="116" width="16" height="12" rx="2" fill="#9ac7ea"/>
+    <rect x="154" y="116" width="16" height="12" rx="2" fill="#9ac7ea"/>
+    <rect x="178" y="116" width="16" height="12" rx="2" fill="#9ac7ea"/>
+    <rect x="210" y="116" width="16" height="12" rx="2" fill="#f4a7a7"/>
+    <rect x="234" y="116" width="16" height="12" rx="2" fill="#f4a7a7"/>
+    <rect x="258" y="116" width="16" height="12" rx="2" fill="#f4a7a7"/>
+    <rect x="22" y="52" width="48" height="32" rx="5" fill="#9ac7ea"/>
+    <rect x="22" y="100" width="48" height="32" rx="5" fill="#9ac7ea"/>
+    <rect x="22" y="148" width="48" height="32" rx="5" fill="#9ac7ea"/>
+    <rect x="330" y="52" width="48" height="32" rx="5" fill="#f4a7a7"/>
+    <rect x="330" y="100" width="48" height="32" rx="5" fill="#f4a7a7"/>
+    <rect x="330" y="148" width="48" height="32" rx="5" fill="#f4a7a7"/>
+    <rect x="160" y="22" width="80" height="30" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 68 L120 102"/><path d="M70 116 H120"/><path d="M70 164 L120 130"/>
+    <path d="M330 68 L280 102"/><path d="M330 116 H280"/><path d="M330 164 L280 130"/>
+    <path d="M200 88 V52"/>
+  </g>
+  <line x1="200" y1="148" x2="200" y2="200" stroke="#6b6357" stroke-width="2" stroke-dasharray="5 5"/>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="42">router</text>
+    <text x="200" y="106" font-size="12">switch</text>
+    <text x="46" y="202">VLAN 10</text>
+    <text x="354" y="202">VLAN 20</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one switch · separate networks</text>
+</svg>

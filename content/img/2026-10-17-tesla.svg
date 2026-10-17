@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M320 58 C300 58 298 32 318 30 C320 12 350 8 358 26 C376 22 388 40 376 54 C374 58 368 58 362 58 Z" fill="#9ac7ea" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M40 160 V138 C40 128 50 124 64 122 L120 96 C150 84 210 84 240 96 L284 120 C320 124 344 130 350 144 V160 Z" fill="#e6dfd0"/>
+    <path d="M128 102 C150 92 200 92 228 100 L250 120 H112 Z" fill="#9ac7ea"/>
+    <rect x="92" y="140" width="190" height="16" rx="3" fill="#9bd1b9"/>
+    <circle cx="96" cy="164" r="18" fill="#2b2b2b"/>
+    <circle cx="290" cy="164" r="18" fill="#2b2b2b"/>
+    <circle cx="96" cy="164" r="7" fill="#e6dfd0"/>
+    <circle cx="290" cy="164" r="7" fill="#e6dfd0"/>
+    <circle cx="180" cy="98" r="4" fill="#ffd166"/>
+    <circle cx="348" cy="138" r="4" fill="#ffd166"/>
+    <circle cx="44" cy="136" r="4" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5" fill="#f3efe6">
+    <circle cx="124" cy="148" r="4"/><circle cx="136" cy="148" r="4"/><circle cx="148" cy="148" r="4"/><circle cx="160" cy="148" r="4"/><circle cx="172" cy="148" r="4"/><circle cx="184" cy="148" r="4"/><circle cx="196" cy="148" r="4"/><circle cx="208" cy="148" r="4"/><circle cx="220" cy="148" r="4"/><circle cx="232" cy="148" r="4"/><circle cx="244" cy="148" r="4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M318 62 C300 74 280 80 256 96" stroke-dasharray="4 4"/><path d="M262 89 l-6 7 9 0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="187" y="200">battery: thousands of cells</text>
+    <text x="322" y="84" text-anchor="start">OTA update</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="90" y="72">cameras</text>
+  </g>
+  <path d="M90 78 L176 96" stroke="#6b6357" stroke-width="1.5" fill="none"/>
+  <path d="M74 78 L48 130" stroke="#6b6357" stroke-width="1.5" fill="none"/>
+  <path d="M187 188 V160" stroke="#6b6357" stroke-width="1.5" fill="none"/>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a computer on wheels</text>
+</svg>

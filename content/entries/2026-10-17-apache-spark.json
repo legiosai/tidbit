@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-apache-spark",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 3,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Spark", "PySpark", "Spark SQL"],
+    "es": ["Spark", "PySpark", "Spark SQL"]
+  },
+  "image": "img/2026-10-17-apache-spark.svg",
+  "imageAlt": {
+    "en": "A driver splits a big dataset into partitions, hands them to four workers that process them in parallel, and combines their results",
+    "es": "Un driver divide un conjunto de datos grande en particiones, se las reparte a cuatro workers que las procesan en paralelo y junta los resultados"
+  },
+  "en": {
+    "title": "Apache Spark",
+    "tagline": "An open source engine that splits work on huge datasets across many machines.",
+    "explanation": [
+      "**Apache Spark** is an open source engine for processing data that is too big, or too slow, for one computer. You describe what you want (read these files, filter, join, group, write the result) and Spark splits the data into **partitions**, sends them to many machines in a cluster, runs the steps in parallel and gathers the answer. You can write it in SQL (**Spark SQL**), Python (**PySpark**), Scala, Java or R.",
+      "It started at UC Berkeley around 2009 and became an Apache project, designed to improve on Hadoop MapReduce, which wrote intermediate results to disk between every step. Spark keeps as much as it can in memory and plans the whole job before running it, which makes multi-step work much faster. A central **driver** builds that plan; **executors** on the worker machines do the actual work, and if one fails, Spark recomputes only the lost pieces.",
+      "Today Spark is a workhorse of data engineering: nightly ETL jobs over a data lake, cleaning billions of events, preparing training data for machine learning, and processing streams in small batches. You rarely install it by hand; it runs as a managed service in Databricks, Amazon EMR, AWS Glue or Google Cloud Dataproc. For data that fits on one machine, simpler tools are often faster and cheaper."
+    ],
+    "analogy": "Counting all the votes of a country. One person would take months; instead, each polling station counts its own box at the same time and phones the total to a central office that adds them up. Spark is the system that organizes the stations and the phone calls.",
+    "keyPoints": [
+      "Splits data into partitions and processes them in parallel on a cluster.",
+      "Keeps intermediate data in memory, which made it much faster than MapReduce.",
+      "Used from SQL, Python (PySpark), Scala, Java or R.",
+      "Usually run as a managed service, such as Databricks, EMR or Glue."
+    ],
+    "links": [
+      { "label": "Apache Spark (official site)", "url": "https://spark.apache.org/" },
+      { "label": "What is Apache Spark? (AWS)", "url": "https://aws.amazon.com/what-is/apache-spark/" },
+      { "label": "Apache Spark on Wikipedia", "url": "https://en.wikipedia.org/wiki/Apache_Spark" }
+    ]
+  },
+  "es": {
+    "title": "Apache Spark",
+    "tagline": "Un motor open source que reparte el trabajo con datos enormes entre muchas máquinas.",
+    "explanation": [
+      "**Apache Spark** es un motor open source para procesar datos que son demasiado grandes, o demasiado lentos, para una sola computadora. Vos describís lo que querés (leé estos archivos, filtrá, juntá, agrupá, escribí el resultado) y Spark divide los datos en **particiones**, las manda a muchas máquinas de un cluster, corre los pasos en paralelo y junta la respuesta. Se puede escribir en SQL (**Spark SQL**), Python (**PySpark**), Scala, Java o R.",
+      "Nació en la Universidad de Berkeley alrededor de 2009 y se convirtió en un proyecto de Apache, pensado para mejorar a Hadoop MapReduce, que escribía los resultados intermedios en disco entre cada paso. Spark guarda todo lo que puede en memoria y planifica el trabajo completo antes de correrlo, y eso hace mucho más rápidas las tareas de varios pasos. Un **driver** central arma ese plan; los **executors** en las máquinas worker hacen el trabajo, y si uno falla, Spark recalcula solo las partes perdidas.",
+      "Hoy Spark es un caballo de batalla de la ingeniería de datos: procesos de ETL nocturnos sobre un data lake, limpieza de miles de millones de eventos, preparación de datos para entrenar modelos de machine learning y procesamiento de streams en tandas chicas. Casi nunca se instala a mano; corre como servicio administrado en Databricks, Amazon EMR, AWS Glue o Google Cloud Dataproc. Para datos que entran en una sola máquina, muchas veces hay herramientas más simples, más rápidas y más baratas."
+    ],
+    "analogy": "Contar los votos de todo un país. Una sola persona tardaría meses; en cambio, cada mesa cuenta su urna al mismo tiempo y le pasa el total a un centro que suma todo. Spark es el sistema que organiza las mesas y las llamadas.",
+    "keyPoints": [
+      "Divide los datos en particiones y las procesa en paralelo en un cluster.",
+      "Guarda los datos intermedios en memoria, y por eso fue mucho más rápido que MapReduce.",
+      "Se usa desde SQL, Python (PySpark), Scala, Java o R.",
+      "Suele correr como servicio administrado, como Databricks, EMR o Glue."
+    ],
+    "links": [
+      { "label": "Apache Spark (sitio oficial, en inglés)", "url": "https://spark.apache.org/" },
+      { "label": "¿Qué es Apache Spark? (AWS)", "url": "https://aws.amazon.com/es/what-is/apache-spark/" },
+      { "label": "Apache Spark en Wikipedia", "url": "https://es.wikipedia.org/wiki/Apache_Spark" }
+    ]
+  }
+}

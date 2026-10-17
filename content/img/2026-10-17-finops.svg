@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M236 52 C300 60 322 100 318 130"/><path d="M313 124 l5 7 5 -7"/>
+    <path d="M276 178 C240 204 160 204 124 178"/><path d="M131 176 l-8 2 3 7"/>
+    <path d="M82 130 C78 100 100 60 164 52"/><path d="M157 48 l8 4 -7 5"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="164" y="30" width="72" height="30" rx="15" fill="#9ac7ea"/>
+    <rect x="276" y="134" width="84" height="30" rx="15" fill="#9bd1b9"/>
+    <rect x="40" y="134" width="84" height="30" rx="15" fill="#ffd166"/>
+    <rect x="166" y="80" width="68" height="84" rx="4" fill="#e6dfd0"/>
+    <path d="M178 100 H222 M178 116 H222 M178 132 H206" fill="none"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="49">inform</text><text x="318" y="153">optimize</text><text x="82" y="153">operate</text>
+  </g>
+  <text x="200" y="154" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">$$$</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">see costs · cut waste · set budgets · repeat</text>
+</svg>

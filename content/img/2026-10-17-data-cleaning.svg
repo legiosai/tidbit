@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="44" width="136" height="128" rx="6" fill="#e6dfd0"/>
+    <rect x="21" y="77" width="134" height="31" fill="#f4a7a7"/>
+    <rect x="75" y="141" width="78" height="28" fill="#ffd166"/>
+    <path d="M20 76 H156 M20 108 H156 M20 140 H156 M74 44 V172" fill="none"/>
+    <path d="M172 76 H228 L208 108 V140 H192 V108 Z" fill="#9ac7ea"/>
+    <rect x="244" y="44" width="136" height="128" rx="6" fill="#9bd1b9"/>
+    <path d="M244 76 H380 M244 108 H380 M244 140 H380 M298 44 V172" fill="none"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="47" y="64">Ana</text><text x="115" y="64">3/4/25</text>
+    <text x="47" y="96">ana </text><text x="115" y="96">3/4/25</text>
+    <text x="47" y="128">Luis</text><text x="115" y="128">2025-04-05</text>
+    <text x="47" y="160">Mia</text><text x="115" y="160">?</text>
+    <text x="271" y="64">Ana</text><text x="339" y="64">2025-04-03</text>
+    <text x="271" y="96">Luis</text><text x="339" y="96">2025-04-05</text>
+    <text x="271" y="128">Mia</text><text x="339" y="128">missing</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="88" y="32">raw</text><text x="200" y="64">rules</text><text x="312" y="32">clean</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">dedupe · standardize · flag gaps</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-programming-language",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["programming languages", "coding language", "coding languages"],
+    "es": ["lenguajes de programación"]
+  },
+  "image": "img/2026-10-17-programming-language.svg",
+  "imageAlt": {
+    "en": "A few readable lines of code on the left are translated into rows of ones and zeros that the computer runs",
+    "es": "Unas líneas de código legibles a la izquierda se traducen en filas de unos y ceros que la computadora ejecuta"
+  },
+  "en": {
+    "title": "Programming language",
+    "tagline": "A precise, written language people use to give instructions to a computer.",
+    "explanation": [
+      "A **programming language** is a set of words, symbols and rules for writing instructions that a computer can follow. Computers only understand very simple operations expressed as numbers; a language like Python or JavaScript lets a person write `if total > 100: apply_discount()` instead, and a tool translates that into something the machine can run.",
+      "Unlike English or Spanish, a programming language leaves no room for interpretation. Every line has exactly one meaning, and a missing comma can stop a program from running. That strictness is the point: the computer does exactly what it is told, so the instructions have to be exact.",
+      "There are hundreds of languages because they make different trade-offs. Some are built for speed and control over the hardware (C, Rust), some for the web (JavaScript), some for being easy to read and quick to write (Python), and some for one narrow job, like querying a database with SQL. Most working programmers know a few and pick the one that suits the task."
+    ],
+    "analogy": "A recipe written for a cook who follows it literally and has no common sense. \"A pinch of salt\" will not do; you must say how many grams, in which bowl, at which step.",
+    "keyPoints": [
+      "It lets humans write instructions in readable text instead of raw numbers.",
+      "Every statement has one exact meaning; small typos cause errors.",
+      "A compiler or an interpreter turns the text into something the machine runs.",
+      "Different languages suit different jobs: web pages, data, apps, hardware."
+    ],
+    "links": [
+      { "label": "Programming language on Wikipedia", "url": "https://en.wikipedia.org/wiki/Programming_language" },
+      { "label": "History of programming languages on Wikipedia", "url": "https://en.wikipedia.org/wiki/History_of_programming_languages" }
+    ]
+  },
+  "es": {
+    "title": "Lenguaje de programación",
+    "tagline": "Un idioma escrito y preciso que usamos para darle instrucciones a una computadora.",
+    "explanation": [
+      "Un **lenguaje de programación** es un conjunto de palabras, símbolos y reglas para escribir instrucciones que una computadora puede seguir. Las computadoras solo entienden operaciones muy simples expresadas como números; un lenguaje como Python o JavaScript te deja escribir `if total > 100: aplicar_descuento()`, y una herramienta lo traduce a algo que la máquina puede ejecutar.",
+      "A diferencia del castellano o del inglés, un lenguaje de programación no deja lugar a interpretaciones. Cada línea tiene un único significado, y una coma que falta puede hacer que el programa no arranque. Esa rigidez es justamente la idea: la computadora hace exactamente lo que le decís, así que las instrucciones tienen que ser exactas.",
+      "Hay cientos de lenguajes porque cada uno elige compromisos distintos. Algunos apuntan a la velocidad y al control fino del hardware (C, Rust), otros a la web (JavaScript), otros a ser fáciles de leer y rápidos de escribir (Python), y otros a una tarea puntual, como consultar una base de datos con SQL. La mayoría de quienes programan saben varios y eligen según el trabajo."
+    ],
+    "analogy": "Una receta escrita para un cocinero que la sigue al pie de la letra y no tiene sentido común. \"Una pizca de sal\" no sirve: tenés que decirle cuántos gramos, en qué bol y en qué paso.",
+    "keyPoints": [
+      "Permite escribir instrucciones en texto legible en vez de números crudos.",
+      "Cada instrucción tiene un significado exacto; un error de tipeo rompe todo.",
+      "Un compilador o un intérprete convierte el texto en algo que la máquina ejecuta.",
+      "Cada lenguaje sirve mejor para algo: web, datos, apps, hardware."
+    ],
+    "links": [
+      { "label": "Lenguaje de programación en Wikipedia", "url": "https://es.wikipedia.org/wiki/Lenguaje_de_programación" },
+      { "label": "Historia de los lenguajes de programación en Wikipedia", "url": "https://es.wikipedia.org/wiki/Historia_de_los_lenguajes_de_programación" }
+    ]
+  }
+}

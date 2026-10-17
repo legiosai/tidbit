@@ -1,0 +1,89 @@
+{
+  "id": "2026-10-17-web-hosting",
+  "date": "2026-10-17",
+  "subjects": [
+    "cloud"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "web host",
+      "web hosts",
+      "hosting provider",
+      "hosting providers",
+      "shared hosting"
+    ],
+    "es": [
+      "hosting",
+      "alojamiento web",
+      "proveedor de hosting",
+      "proveedores de hosting",
+      "hosting compartido"
+    ]
+  },
+  "image": "img/2026-10-17-web-hosting.svg",
+  "imageAlt": {
+    "en": "A website's files live on a rented server in a data center that is always on, and visitors from anywhere reach it through its domain name",
+    "es": "Los archivos de un sitio viven en un servidor alquilado en un centro de datos siempre prendido, y visitantes de cualquier lugar llegan a él por su dominio"
+  },
+  "en": {
+    "title": "Web hosting",
+    "tagline": "Renting space on an always-on computer so your website is reachable by anyone.",
+    "explanation": [
+      "**Web hosting** is the service of keeping a website's files and programs on a server that is connected to the internet day and night. You could run a site from your own laptop, but it would vanish whenever the laptop slept or the Wi-Fi dropped. A hosting provider rents you space on machines in a data center with stable power, fast connections and people watching them.",
+      "Hosting comes in several sizes. **Shared hosting** puts many small sites on one server, which is cheap and simple. A virtual private server (VPS) gives you your own slice of a machine to configure. Cloud platforms let you rent exactly the computing you use and grow when traffic spikes. **Static hosting** serves plain HTML, CSS and JavaScript files, often through a CDN, and is ideal for blogs, portfolios and documentation.",
+      "Hosting is separate from the domain name. The domain is the address people type; the hosting is the place where the site actually lives. You connect them by pointing the domain's DNS records at the host. Many companies sell both together, but you can keep them apart and move your site to another host without changing its address."
+    ],
+    "analogy": "Renting a shop on a busy street instead of selling from your living room. The landlord keeps the lights on and the doors open; you just stock the shelves.",
+    "keyPoints": [
+      "Keeps a website on servers that are always on and online.",
+      "Options range from cheap shared hosting to VPS and full cloud platforms.",
+      "Domain and hosting are different things, connected through DNS.",
+      "Static sites can be hosted very cheaply, often through a CDN."
+    ],
+    "links": [
+      {
+        "label": "Publishing your website (MDN)",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website"
+      },
+      {
+        "label": "What is a web server? (MDN)",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+      },
+      {
+        "label": "Web hosting service on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Web_hosting_service"
+      }
+    ]
+  },
+  "es": {
+    "title": "Hosting web",
+    "tagline": "Alquilar lugar en una computadora siempre prendida para que cualquiera vea tu sitio.",
+    "explanation": [
+      "El **hosting web** (o alojamiento web) es el servicio de tener los archivos y programas de un sitio en un servidor conectado a internet de día y de noche. Podrías servir un sitio desde tu notebook, pero desaparecería cada vez que se suspende o se corta el Wi-Fi. Un proveedor de hosting te alquila lugar en máquinas de un centro de datos con energía estable, conexiones rápidas y gente vigilándolas.",
+      "Hay hosting de varios tamaños. El **hosting compartido** pone muchos sitios chicos en un mismo servidor: es barato y simple. Un servidor privado virtual (VPS) te da tu propia porción de una máquina para configurar a gusto. Las plataformas de cloud te dejan alquilar exactamente lo que usás y crecer cuando sube el tráfico. El **hosting estático** sirve archivos HTML, CSS y JavaScript tal cual, muchas veces a través de una CDN, y es ideal para blogs, portfolios y documentación.",
+      "El hosting no es lo mismo que el nombre de dominio. El dominio es la dirección que escribe la gente; el hosting es el lugar donde el sitio realmente vive. Se conectan apuntando los registros DNS del dominio al hosting. Muchas empresas venden las dos cosas juntas, pero podés tenerlas separadas y mudar tu sitio a otro hosting sin cambiar su dirección."
+    ],
+    "analogy": "Alquilar un local en una calle transitada en vez de vender desde el living de tu casa. El dueño mantiene las luces prendidas y la puerta abierta; vos solo llenás las góndolas.",
+    "keyPoints": [
+      "Mantiene un sitio en servidores siempre prendidos y conectados.",
+      "Va desde el hosting compartido barato hasta un VPS o una plataforma cloud completa.",
+      "Dominio y hosting son cosas distintas, que se conectan por DNS.",
+      "Los sitios estáticos se pueden alojar muy barato, a menudo con una CDN."
+    ],
+    "links": [
+      {
+        "label": "Publicar tu sitio web (MDN)",
+        "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website"
+      },
+      {
+        "label": "¿Qué es un servidor web? (MDN)",
+        "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+      },
+      {
+        "label": "Alojamiento web en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Alojamiento_web"
+      }
+    ]
+  }
+}

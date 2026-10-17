@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="40" width="84" height="56" rx="8" fill="#9ac7ea"/>
+    <rect x="24" y="136" width="84" height="56" rx="8" fill="#9bd1b9"/>
+    <rect x="200" y="28" width="176" height="176" rx="12" fill="#e6dfd0"/>
+    <rect x="216" y="62" width="144" height="28" rx="6" fill="#ffd166"/>
+    <rect x="216" y="100" width="144" height="28" rx="6" fill="#f4a7a7"/>
+    <rect x="216" y="138" width="144" height="28" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M112 62 H190"/><path d="M184 58 l6 4 -6 4"/>
+    <path d="M190 78 H112"/><path d="M118 74 l-6 4 6 4"/>
+    <path d="M112 158 H190"/><path d="M184 154 l6 4 -6 4"/>
+    <path d="M190 174 H112"/><path d="M118 170 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="66" y="73">laptop</text><text x="66" y="169">laptop</text>
+    <text x="288" y="50">repository</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="288" y="80">code + history</text><text x="288" y="118">pull requests</text><text x="288" y="156">issues · checks</text>
+    <text x="150" y="56">push</text><text x="150" y="92">pull</text>
+    <text x="150" y="152">push</text><text x="150" y="188">pull</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one shared home for the team's code</text>
+</svg>

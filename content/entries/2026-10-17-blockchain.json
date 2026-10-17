@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-blockchain",
+  "date": "2026-10-17",
+  "subjects": ["security", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["blockchains", "distributed ledger", "distributed ledgers"],
+    "es": ["blockchains", "cadena de bloques", "cadenas de bloques"]
+  },
+  "image": "img/2026-10-17-blockchain.svg",
+  "imageAlt": {
+    "en": "Three blocks in a row, each holding transactions and the hash of the block before it, copied identically on several computers",
+    "es": "Tres bloques en fila, cada uno con transacciones y el hash del bloque anterior, copiados igual en varias computadoras"
+  },
+  "en": {
+    "title": "Blockchain",
+    "tagline": "A shared record book, copied on many computers, where old pages can't be quietly changed.",
+    "explanation": [
+      "A **blockchain** is a way of keeping a record, a **ledger**, that many parties share without having to trust a single owner. Entries, such as \"Ana sent 5 units to Ben\", are grouped into **blocks**. Each block also stores the **hash** of the previous block: a short fingerprint calculated from its contents. That chains the blocks together, because if someone edits an old block, its fingerprint changes and no longer matches the one stored in the next block, so the tampering is obvious.",
+      "The second idea is that the ledger is not kept in one place. Thousands of computers, called **nodes**, each keep a full copy and follow the same rules to agree on which block comes next. That agreement is called **consensus**. In Bitcoin, the first blockchain, described in 2008 by someone using the name Satoshi Nakamoto, nodes compete to solve a costly math puzzle (**proof of work**); newer systems such as Ethereum let nodes that lock up funds as a deposit take turns adding blocks (**proof of stake**). Rewriting history would require outvoting or outspending most of the network.",
+      "Blockchains are best known for cryptocurrencies, but the structure can record anything: ownership of digital items, steps in a supply chain, or small programs called **smart contracts** that run automatically when conditions are met. The trade-offs are real: they are slower and more expensive than an ordinary database, mistakes are hard to undo, and proof of work uses a lot of electricity. When one trusted organization keeps the records, a normal database is usually the better tool."
+    ],
+    "analogy": "A notebook that a whole neighborhood keeps in copies, where each new page starts by quoting the last line of the previous page. Tearing out or rewriting a page would not match everyone else's copy, so nobody gets away with it.",
+    "keyPoints": [
+      "Each block stores the hash of the previous one, so edits break the chain.",
+      "Many computers keep copies and agree on new blocks through consensus rules.",
+      "Proof of work and proof of stake are the two main ways to reach consensus.",
+      "Useful when parties don't trust a single keeper; otherwise a database is simpler."
+    ],
+    "links": [
+      { "label": "Blockchain Technology Overview (NIST)", "url": "https://csrc.nist.gov/pubs/ir/8202/final" },
+      { "label": "Bitcoin: the original 2008 paper", "url": "https://bitcoin.org/bitcoin.pdf" },
+      { "label": "Blockchain on Wikipedia", "url": "https://en.wikipedia.org/wiki/Blockchain" }
+    ]
+  },
+  "es": {
+    "title": "Blockchain",
+    "tagline": "Un libro de registros compartido en muchas compus, donde no se puede cambiar el pasado.",
+    "explanation": [
+      "Una **blockchain** (cadena de bloques) es una forma de llevar un registro, un **libro contable**, que comparten muchas partes sin tener que confiar en un único dueño. Las anotaciones, como \"Ana le mandó 5 unidades a Beto\", se agrupan en **bloques**. Cada bloque guarda además el **hash** del bloque anterior: una huella corta que se calcula a partir de su contenido. Eso encadena los bloques, porque si alguien edita un bloque viejo, su huella cambia y deja de coincidir con la que guarda el bloque siguiente, así que la trampa queda a la vista.",
+      "La segunda idea es que el registro no está en un solo lugar. Miles de computadoras, llamadas **nodos**, guardan cada una una copia completa y siguen las mismas reglas para ponerse de acuerdo sobre cuál es el próximo bloque. Ese acuerdo se llama **consenso**. En Bitcoin, la primera blockchain, descrita en 2008 por alguien que usó el nombre Satoshi Nakamoto, los nodos compiten por resolver un problema matemático costoso (**prueba de trabajo**); sistemas más nuevos como Ethereum dejan que los nodos que bloquean fondos como depósito se turnen para agregar bloques (**prueba de participación**). Reescribir la historia exigiría ganarle en votos o en gasto a la mayor parte de la red.",
+      "Las blockchains son famosas por las criptomonedas, pero la estructura puede registrar cualquier cosa: la propiedad de objetos digitales, los pasos de una cadena de suministro, o programas chicos llamados **contratos inteligentes** que se ejecutan solos cuando se cumplen ciertas condiciones. Las contras son reales: son más lentas y caras que una base de datos común, los errores son difíciles de deshacer y la prueba de trabajo gasta mucha electricidad. Cuando una sola organización confiable lleva los registros, casi siempre conviene una base de datos normal."
+    ],
+    "analogy": "Un cuaderno que todo un barrio lleva en copias, donde cada página nueva empieza copiando el último renglón de la anterior. Arrancar o reescribir una página no coincidiría con las copias de los demás, así que nadie se sale con la suya.",
+    "keyPoints": [
+      "Cada bloque guarda el hash del anterior, así que cualquier edición rompe la cadena.",
+      "Muchas computadoras guardan copias y acuerdan los bloques nuevos con reglas de consenso.",
+      "La prueba de trabajo y la prueba de participación son las dos formas principales de consenso.",
+      "Sirve cuando las partes no confían en un único custodio; si no, una base de datos es más simple."
+    ],
+    "links": [
+      { "label": "Cadena de bloques en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cadena_de_bloques" },
+      { "label": "Panorama de la tecnología blockchain (NIST, en inglés)", "url": "https://csrc.nist.gov/pubs/ir/8202/final" },
+      { "label": "Bitcoin: el documento original de 2008 (en inglés)", "url": "https://bitcoin.org/bitcoin.pdf" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-ci-cd",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["continuous integration", "continuous delivery", "continuous deployment", "CI pipeline", "CI pipelines", "CI/CD pipeline", "CI/CD pipelines"],
+    "es": ["integración continua", "entrega continua", "despliegue continuo", "pipeline de CI", "pipelines de CI", "pipeline de CI/CD", "pipelines de CI/CD"]
+  },
+  "image": "img/2026-10-17-ci-cd.svg",
+  "imageAlt": {
+    "en": "A commit flows through a pipeline of build, test and deploy stages, with a failed test stopping the line before production",
+    "es": "Un commit pasa por un pipeline con etapas de build, tests y deploy, y un test que falla frena la línea antes de producción"
+  },
+  "en": {
+    "title": "CI/CD",
+    "tagline": "Automation that builds, tests and ships every code change, so releases become routine.",
+    "explanation": [
+      "**CI/CD** names two linked practices. **Continuous integration** (CI) means developers merge their changes into the shared code often, at least daily, and every merge automatically triggers a build and a run of the automated tests. If something breaks, the team learns within minutes, while the change is still fresh, instead of weeks later.",
+      "The CD half has two flavors. **Continuous delivery** keeps the code always ready to release: every change that passes the checks is packaged and can go to production with the press of a button. **Continuous deployment** goes one step further and releases every passing change automatically, with no button. Teams pick based on how much risk and human approval their product needs.",
+      "The automation runs as a **pipeline**: a list of steps written in a file inside the repository, such as \"install, build, run tests, scan for vulnerabilities, build the container image, deploy to staging, deploy to production\". Services like GitHub Actions, GitLab CI and Jenkins run these pipelines on every push. The payoff is that shipping software stops being a scary monthly event and becomes a small, frequent, boring one, which is exactly what you want."
+    ],
+    "analogy": "An assembly line with quality checks at every station. Each part is inspected as soon as it is added, and a defective one stops the belt before it reaches the customer, not after a full truck has left.",
+    "keyPoints": [
+      "CI: merge often and test every change automatically.",
+      "Continuous delivery: always ready to release. Continuous deployment: releases automatically.",
+      "The pipeline is a file in the repository, so it is versioned like code.",
+      "Small, frequent releases are easier to check and to undo than big ones."
+    ],
+    "links": [
+      { "label": "What is continuous integration? (AWS)", "url": "https://aws.amazon.com/devops/continuous-integration/" },
+      { "label": "What is CI/CD? (GitLab)", "url": "https://about.gitlab.com/topics/ci-cd/" },
+      { "label": "CI/CD on Wikipedia", "url": "https://en.wikipedia.org/wiki/CI/CD" }
+    ]
+  },
+  "es": {
+    "title": "CI/CD",
+    "tagline": "Automatización que construye, prueba y publica cada cambio, para que lanzar sea rutina.",
+    "explanation": [
+      "**CI/CD** nombra dos prácticas ligadas. La **integración continua** (CI) significa que los developers suman sus cambios al código compartido seguido, al menos una vez por día, y cada integración dispara automáticamente un build y una corrida de los tests automáticos. Si algo se rompe, el equipo se entera en minutos, con el cambio todavía fresco, y no semanas después.",
+      "La mitad CD tiene dos variantes. La **entrega continua** (continuous delivery) mantiene el código siempre listo para publicar: cada cambio que pasa los chequeos queda empaquetado y puede ir a producción apretando un botón. El **despliegue continuo** (continuous deployment) va un paso más allá y publica solo cada cambio que pasa, sin botón. Cada equipo elige según cuánto riesgo y cuánta aprobación humana necesita su producto.",
+      "La automatización corre como un **pipeline**: una lista de pasos escrita en un archivo dentro del repositorio, como \"instalar, compilar, correr tests, buscar vulnerabilidades, armar la imagen del contenedor, desplegar en staging, desplegar en producción\". Servicios como GitHub Actions, GitLab CI y Jenkins corren estos pipelines en cada push. La ganancia es que publicar software deja de ser un evento mensual que da miedo y pasa a ser algo chico, frecuente y aburrido, que es justo lo que querés."
+    ],
+    "analogy": "Una línea de montaje con controles de calidad en cada estación. Cada pieza se revisa apenas se agrega, y una fallada frena la cinta antes de llegar al cliente, no después de que salió un camión entero.",
+    "keyPoints": [
+      "CI: integrar seguido y probar cada cambio de forma automática.",
+      "Entrega continua: siempre listo para publicar. Despliegue continuo: publica solo.",
+      "El pipeline es un archivo en el repositorio, así que se versiona como el código.",
+      "Los lanzamientos chicos y frecuentes son más fáciles de revisar y de deshacer que los grandes."
+    ],
+    "links": [
+      { "label": "¿Qué es la integración continua? (AWS)", "url": "https://aws.amazon.com/es/devops/continuous-integration/" },
+      { "label": "¿Qué es la entrega continua? (AWS)", "url": "https://aws.amazon.com/es/devops/continuous-delivery/" },
+      { "label": "Integración continua en Wikipedia", "url": "https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-css",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Cascading Style Sheets", "stylesheet", "stylesheets", "style sheet", "style sheets"],
+    "es": ["Cascading Style Sheets", "hoja de estilo", "hojas de estilo", "hojas de estilo en cascada"]
+  },
+  "image": "img/2026-10-17-css.svg",
+  "imageAlt": {
+    "en": "The same plain web page shown twice: before CSS it is plain text, after a few CSS rules it has colors, a header and a card layout",
+    "es": "La misma página web dos veces: antes del CSS es texto plano, después de unas reglas de CSS tiene colores, un encabezado y tarjetas"
+  },
+  "en": {
+    "title": "CSS",
+    "tagline": "The language that decides how a web page looks: colors, fonts, spacing, layout.",
+    "explanation": [
+      "**CSS** (Cascading Style Sheets) is the language that styles web pages. HTML says \"this is a heading, this is a list\"; CSS says \"headings are dark blue and large, the list sits in a column on the right, and on a phone everything stacks\". A CSS file is a list of **rules**, each one picking some elements and setting properties, like `h1 { color: navy; }`.",
+      "Keeping looks separate from content is the big idea. The same HTML can look completely different with another stylesheet, and one stylesheet can restyle thousands of pages at once. It also lets a single site adapt to a big monitor, a phone, a printer or a dark mode setting without rewriting the content.",
+      "The \"cascading\" part is how CSS settles conflicts. When several rules apply to the same element, the more specific one wins, and among equals the later one wins. That makes it powerful and, for beginners, sometimes puzzling: a color that \"will not change\" is usually being overridden by another rule somewhere else."
+    ],
+    "analogy": "HTML is the furniture in a house; CSS is the interior designer's instructions: paint this wall green, put the sofa against the window, use smaller chairs in the small room.",
+    "keyPoints": [
+      "Styles HTML: colors, fonts, spacing, layout and animations.",
+      "A rule picks elements with a selector and sets properties on them.",
+      "When rules conflict, the more specific one wins (the cascade).",
+      "Lets one page adapt to phones, big screens, print and dark mode."
+    ],
+    "links": [
+      { "label": "CSS: Cascading Style Sheets (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+      { "label": "CSS on Wikipedia", "url": "https://en.wikipedia.org/wiki/CSS" }
+    ]
+  },
+  "es": {
+    "title": "CSS",
+    "tagline": "El lenguaje que decide cómo se ve una página web: colores, letras, espacios.",
+    "explanation": [
+      "**CSS** (Cascading Style Sheets, hojas de estilo en cascada) es el lenguaje que le da estilo a las páginas web. El HTML dice \"esto es un título, esto es una lista\"; el CSS dice \"los títulos son grandes y azul oscuro, la lista va en una columna a la derecha y en el celular todo se apila\". Un archivo CSS es una lista de **reglas**, cada una elige algunos elementos y les fija propiedades, como `h1 { color: navy; }`.",
+      "La gran idea es separar el aspecto del contenido. El mismo HTML puede verse totalmente distinto con otra hoja de estilo, y una sola hoja de estilo puede cambiarles la cara a miles de páginas a la vez. También permite que un sitio se adapte a un monitor grande, a un celular, a la impresora o al modo oscuro sin reescribir el contenido.",
+      "Lo de \"en cascada\" es cómo CSS resuelve los conflictos. Cuando varias reglas se aplican al mismo elemento, gana la más específica, y entre iguales gana la última. Eso lo hace potente y, al principio, a veces desconcertante: un color que \"no cambia\" casi siempre es otra regla que lo está pisando en otro lado."
+    ],
+    "analogy": "El HTML son los muebles de una casa; el CSS son las indicaciones de la decoradora: pintá esta pared de verde, poné el sillón contra la ventana, usá sillas más chicas en el cuarto chico.",
+    "keyPoints": [
+      "Le da estilo al HTML: colores, tipografías, espacios, diagramación y animaciones.",
+      "Una regla elige elementos con un selector y les fija propiedades.",
+      "Cuando las reglas chocan, gana la más específica (la cascada).",
+      "Permite que una página se adapte a celulares, pantallas grandes, impresión y modo oscuro."
+    ],
+    "links": [
+      { "label": "CSS (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/CSS" },
+      { "label": "Hojas de estilo en cascada en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" }
+    ]
+  }
+}

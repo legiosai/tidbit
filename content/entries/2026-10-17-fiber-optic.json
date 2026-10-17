@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-fiber-optic",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["fiber-optic", "fiber optics", "fibre optics", "fibre optic", "optical fiber", "optical fibre", "fiber-optic cable", "fiber-optic cables", "FTTH", "fiber to the home"],
+    "es": ["cable de fibra óptica", "cables de fibra óptica", "FTTH", "fibra hasta el hogar", "fiber optic"]
+  },
+  "image": "img/2026-10-17-fiber-optic.svg",
+  "imageAlt": {
+    "en": "A laser on the left sends flashes of light into a glass strand; the light zigzags off the walls to a sensor on the right, which reads them as ones and zeros",
+    "es": "Un láser a la izquierda manda destellos de luz a una hebra de vidrio; la luz rebota en zigzag contra las paredes hasta un sensor a la derecha, que los lee como unos y ceros"
+  },
+  "en": {
+    "title": "Fiber optic",
+    "tagline": "Thin strands of glass that carry data as pulses of light, fast and over long distances.",
+    "explanation": [
+      "A **fiber-optic** cable carries data as light instead of electricity. Inside is a strand of very pure glass, about as thin as a human hair, that guides light along its length by reflecting it off its own walls. A laser at one end switches on and off extremely fast, and a sensor at the other end reads those flashes back as ones and zeros.",
+      "Light in glass has big advantages over electrical signals in copper. It loses very little strength with distance, so a signal can travel many kilometers before it needs a boost. Electrical interference from motors or storms does not disturb it. And one fiber can carry many separate signals at once, each on a different color of light. That is why the backbone of the internet, including the cables on the ocean floor that connect continents, is made of fiber.",
+      "At home, **fiber to the home** (FTTH) means the fiber reaches your building or your door, instead of stopping at a cabinet down the street and finishing the trip over old copper phone or TV cable. You notice it in steadier speeds, faster uploads and lower latency. At your end, a small box called an ONT turns the light back into electrical signals; it is often combined with the modem and the router in a single device."
+    ],
+    "analogy": "Signaling with a flashlight down a long tube lined with mirrors. The light cannot escape, so the message arrives clear even very far away, and you can send several colors at once without them mixing.",
+    "keyPoints": [
+      "Carries data as pulses of light through thin strands of glass.",
+      "Travels far with little loss and ignores electrical interference.",
+      "The internet's backbone, including undersea cables, runs on fiber.",
+      "FTTH brings the fiber all the way to your home for faster, steadier connections."
+    ],
+    "links": [
+      { "label": "Optical fiber on Wikipedia", "url": "https://en.wikipedia.org/wiki/Optical_fiber" },
+      { "label": "Fiber-optic communication on Wikipedia", "url": "https://en.wikipedia.org/wiki/Fiber-optic_communication" },
+      { "label": "Fiber to the x on Wikipedia", "url": "https://en.wikipedia.org/wiki/Fiber_to_the_x" }
+    ]
+  },
+  "es": {
+    "title": "Fibra óptica",
+    "tagline": "Hebras finitas de vidrio que llevan datos como pulsos de luz, rápido y muy lejos.",
+    "explanation": [
+      "Un cable de **fibra óptica** lleva datos con luz en lugar de electricidad. Adentro tiene una hebra de vidrio purísimo, más o menos tan fina como un pelo, que guía la luz a lo largo de su recorrido haciéndola rebotar en sus propias paredes. Un láser en una punta se prende y se apaga rapidísimo, y un sensor en la otra lee esos destellos como unos y ceros.",
+      "La luz en el vidrio tiene grandes ventajas sobre las señales eléctricas en el cobre. Pierde muy poca fuerza con la distancia, así que una señal puede recorrer muchos kilómetros antes de necesitar un refuerzo. La interferencia eléctrica de motores o tormentas no la afecta. Y una sola fibra puede llevar muchas señales a la vez, cada una en un color de luz distinto. Por eso la columna vertebral de internet, incluidos los cables del fondo del mar que unen continentes, es de fibra.",
+      "En tu casa, **fibra hasta el hogar** (FTTH, fiber to the home) significa que la fibra llega a tu edificio o a tu puerta, en lugar de quedarse en un gabinete a la vuelta y hacer el último tramo por el viejo cable de cobre del teléfono o la tele. Se nota en velocidades más estables, subidas más rápidas y menos latencia. De tu lado, una cajita llamada ONT vuelve a convertir la luz en señales eléctricas; muchas veces viene combinada con el módem y el router en un solo aparato."
+    ],
+    "analogy": "Hacer señales con una linterna por un tubo largo forrado de espejos. La luz no se puede escapar, así que el mensaje llega claro aunque sea lejísimos, y podés mandar varios colores a la vez sin que se mezclen.",
+    "keyPoints": [
+      "Lleva datos como pulsos de luz por hebras finas de vidrio.",
+      "Llega lejos con poca pérdida y no le afecta la interferencia eléctrica.",
+      "La columna vertebral de internet, incluidos los cables submarinos, es de fibra.",
+      "FTTH lleva la fibra hasta tu casa, para conexiones más rápidas y estables."
+    ],
+    "links": [
+      { "label": "Fibra óptica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica" },
+      { "label": "Fiber to the x en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Fiber_to_the_x" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-clock-speed",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["clock rate", "clock frequency", "GHz", "gigahertz", "clock cycle", "clock cycles", "turbo boost"],
+    "es": ["frecuencia de reloj", "GHz", "gigahertz", "gigahercio", "gigahercios", "ciclo de reloj", "ciclos de reloj"]
+  },
+  "image": "img/2026-10-17-clock-speed.svg",
+  "imageAlt": {
+    "en": "A square wave of clock ticks, each tick moving a row of instructions one step forward, labeled 3 GHz as three billion ticks per second",
+    "es": "Una onda cuadrada de pulsos de reloj, cada pulso avanza una fila de instrucciones un paso, con la etiqueta 3 GHz como tres mil millones de pulsos por segundo"
+  },
+  "en": {
+    "title": "Clock speed",
+    "tagline": "How many times per second a processor ticks, measured in gigahertz (GHz).",
+    "explanation": [
+      "Inside every CPU there is a **clock**: a signal that pulses at a perfectly regular rhythm, and every part of the chip moves one step forward on each pulse. **Clock speed** is how fast that rhythm is. One hertz is one tick per second, so a CPU at 3 **GHz** (gigahertz) ticks three billion times every second. Typical desktop and laptop processors run at roughly 2 to 5 GHz.",
+      "A faster clock means more steps per second, but it is not the whole story. How much work a core gets done on each tick depends on its design, so a newer CPU at 3 GHz can easily beat an older one at 4 GHz. The number of cores matters too. Comparing GHz only makes sense between chips of the same family and generation.",
+      "Clock speeds climbed fast until the mid-2000s and then mostly stopped, at a few gigahertz. Each extra tick costs power, and power turns into heat; past a point the chip simply gets too hot to cool. The industry turned to more cores and smarter designs instead. Modern CPUs also change speed constantly: they slow down when idle to save battery, and briefly speed up (**boost** or **turbo**) when you need a burst, as long as they stay cool enough."
+    ],
+    "analogy": "The drummer on a galley ship. Every beat, the rowers pull once. A faster drummer means more strokes per minute, but how far the boat moves also depends on how strong each rower is and how many there are.",
+    "keyPoints": [
+      "Clock speed is the number of ticks per second; 1 GHz is a billion ticks.",
+      "Work per tick depends on the chip's design, so GHz alone does not rank CPUs.",
+      "Speeds plateaued at a few GHz because heat grows with every extra tick.",
+      "CPUs slow down when idle and boost briefly under load."
+    ],
+    "links": [
+      { "label": "Clock rate on Wikipedia", "url": "https://en.wikipedia.org/wiki/Clock_rate" },
+      { "label": "Hertz on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hertz" }
+    ]
+  },
+  "es": {
+    "title": "Velocidad de reloj",
+    "tagline": "Cuántas veces por segundo late un procesador, medido en gigahertz (GHz).",
+    "explanation": [
+      "Adentro de toda CPU hay un **reloj**: una señal que pulsa con un ritmo perfectamente regular, y cada parte del chip avanza un paso en cada pulso. La **velocidad de reloj** es qué tan rápido es ese ritmo. Un hertz es un pulso por segundo, así que una CPU a 3 **GHz** (gigahertz) late tres mil millones de veces por segundo. Los procesadores típicos de escritorio y laptop andan más o menos entre 2 y 5 GHz.",
+      "Un reloj más rápido significa más pasos por segundo, pero no es toda la historia. Cuánto trabajo hace un núcleo en cada pulso depende de su diseño, así que una CPU nueva a 3 GHz le puede ganar tranquilamente a una vieja a 4 GHz. La cantidad de núcleos también cuenta. Comparar GHz solo tiene sentido entre chips de la misma familia y generación.",
+      "Las velocidades de reloj subieron rápido hasta mediados de los 2000 y después casi se frenaron, en unos pocos gigahertz. Cada pulso extra cuesta energía, y la energía se vuelve calor; a partir de cierto punto el chip se calienta demasiado como para enfriarlo. La industria se volcó a más núcleos y diseños más inteligentes. Las CPUs modernas además cambian de velocidad todo el tiempo: bajan cuando no hacen nada para ahorrar batería, y suben un rato (**boost** o **turbo**) cuando necesitás un empujón, siempre que no se calienten de más."
+    ],
+    "analogy": "El tambor de una galera. En cada golpe, los remeros tiran una vez. Un tambor más rápido da más remadas por minuto, pero cuánto avanza el barco también depende de la fuerza de cada remero y de cuántos haya.",
+    "keyPoints": [
+      "La velocidad de reloj es la cantidad de pulsos por segundo; 1 GHz son mil millones.",
+      "El trabajo por pulso depende del diseño, así que los GHz solos no ordenan CPUs.",
+      "Las velocidades se estancaron en pocos GHz porque el calor crece con cada pulso extra.",
+      "Las CPUs bajan la velocidad en reposo y la suben un rato cuando hay carga."
+    ],
+    "links": [
+      { "label": "Frecuencia de reloj en Wikipedia", "url": "https://es.wikipedia.org/wiki/Frecuencia_de_reloj" },
+      { "label": "Hercio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hercio" }
+    ]
+  }
+}

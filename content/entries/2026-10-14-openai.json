@@ -4,8 +4,8 @@
   "subjects": ["companies", "ai"],
   "level": 1,
   "aliases": {
-    "en": ["ChatGPT"],
-    "es": ["ChatGPT"]
+    "en": [],
+    "es": []
   },
   "image": "img/2026-10-14-openai.svg",
   "imageAlt": {

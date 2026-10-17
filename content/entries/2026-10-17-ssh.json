@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-ssh",
+  "date": "2026-10-17",
+  "subjects": ["networks", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["Secure Shell", "SSH key", "SSH keys"],
+    "es": ["Secure Shell", "clave SSH", "claves SSH"]
+  },
+  "image": "img/2026-10-17-ssh.svg",
+  "imageAlt": {
+    "en": "A laptop terminal typing ssh ana@srv connects to a server through an encrypted tunnel with a padlock on port 22; below, a private key on the laptop side and a public key on the server side must match",
+    "es": "La terminal de una laptop escribe ssh ana@srv y se conecta a un servidor por un túnel cifrado con un candado en el puerto 22; abajo, una clave privada del lado de la laptop y una pública del lado del servidor tienen que coincidir"
+  },
+  "en": {
+    "title": "SSH",
+    "tagline": "An encrypted way to log in to another computer and type commands on it.",
+    "explanation": [
+      "**SSH** (Secure Shell) lets you open the command line of a computer somewhere else, usually a server in a data center or in the cloud, and work on it as if you were sitting in front of it. You type `ssh ana@server.example.com`, and from then on every command runs over there. Everything that travels between the two machines, including what you type and what comes back, is encrypted.",
+      "It replaced older tools like Telnet that sent everything, passwords included, as plain text anyone on the path could read. SSH normally listens on port 22, and the same encrypted channel also carries file copies (`scp` and SFTP), connections to Git hosts like GitHub, and **tunnels** that forward one program's traffic through the server.",
+      "You can log in with a password, but the usual way is a **key pair**, an application of public-key cryptography. You create two matching keys on your laptop: the private key stays there, ideally protected with a passphrase, and the public key is copied to the server. When you connect, the server checks that you hold the private key without the key ever being sent. Losing a public key is harmless; leaking a private key is like losing the master key.",
+      "The server also proves who it is. The first time you connect, SSH shows the server's **fingerprint** and asks whether to trust it; afterwards, if that fingerprint ever changes, you get a loud warning, because someone could be impersonating the machine. Common hardening steps are turning off password logins, disallowing direct login as the administrator account, and removing keys of people who left."
+    ],
+    "analogy": "A sealed, private phone line straight into a room in another building, where the door opens only for the key you carry, and the room has to show you its badge before you speak.",
+    "keyPoints": [
+      "Gives you a remote command line over an encrypted connection, usually on port 22.",
+      "Key pairs beat passwords: the public key goes on the server, the private key never leaves you.",
+      "A changed server fingerprint warning means stop and check.",
+      "Also carries file transfers (SFTP, `scp`) and Git connections."
+    ],
+    "links": [
+      { "label": "Secure Shell on Wikipedia", "url": "https://en.wikipedia.org/wiki/Secure_Shell" },
+      { "label": "About SSH (GitHub Docs)", "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh" },
+      { "label": "OpenSSH (official site)", "url": "https://www.openssh.com/" }
+    ]
+  },
+  "es": {
+    "title": "SSH",
+    "tagline": "Una forma cifrada de entrar a otra computadora y escribirle comandos.",
+    "explanation": [
+      "**SSH** (Secure Shell) te deja abrir la línea de comandos de una computadora que está en otro lado, casi siempre un servidor en un centro de datos o en la nube, y trabajar en ella como si estuvieras sentado adelante. Escribís `ssh ana@servidor.ejemplo.com`, y desde ahí cada comando se ejecuta allá. Todo lo que viaja entre las dos máquinas, incluido lo que tipeás y lo que vuelve, va cifrado.",
+      "Reemplazó a herramientas viejas como Telnet, que mandaban todo, contraseñas incluidas, como texto plano que cualquiera en el camino podía leer. SSH escucha normalmente en el puerto 22, y por el mismo canal cifrado también viajan copias de archivos (`scp` y SFTP), conexiones a servicios de Git como GitHub y **túneles** que llevan el tráfico de otro programa a través del servidor.",
+      "Podés entrar con contraseña, pero lo habitual es un **par de claves**, una aplicación de la criptografía de clave pública. Creás dos claves que se corresponden en tu laptop: la privada se queda ahí, idealmente protegida con una frase de contraseña, y la pública se copia al servidor. Cuando te conectás, el servidor comprueba que tenés la clave privada sin que esa clave viaje nunca. Perder una clave pública no pasa nada; filtrar una privada es como perder la llave maestra.",
+      "El servidor también demuestra quién es. La primera vez que te conectás, SSH te muestra la **huella** (fingerprint) del servidor y te pregunta si confiás; después, si esa huella cambia alguna vez, te avisa con una advertencia bien visible, porque alguien podría estar haciéndose pasar por esa máquina. Las medidas de refuerzo típicas son desactivar el acceso con contraseña, no permitir entrar directo como administrador y borrar las claves de la gente que ya no está."
+    ],
+    "analogy": "Una línea telefónica privada y sellada directo a una habitación de otro edificio, donde la puerta solo abre con la llave que llevás vos, y la habitación te muestra su credencial antes de que hables.",
+    "keyPoints": [
+      "Te da una línea de comandos remota por una conexión cifrada, normalmente en el puerto 22.",
+      "Las claves ganan a las contraseñas: la pública va al servidor, la privada nunca sale de tu máquina.",
+      "Si aparece la advertencia de huella cambiada, frená y verificá.",
+      "También lleva transferencias de archivos (SFTP, `scp`) y conexiones de Git."
+    ],
+    "links": [
+      { "label": "Secure Shell en Wikipedia", "url": "https://es.wikipedia.org/wiki/Secure_Shell" },
+      { "label": "Acerca de SSH (GitHub Docs)", "url": "https://docs.github.com/es/authentication/connecting-to-github-with-ssh/about-ssh" },
+      { "label": "OpenSSH (sitio oficial, en inglés)", "url": "https://www.openssh.com/" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-sap",
+  "date": "2026-10-17",
+  "subjects": ["companies", "data"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["SAP SE", "S/4HANA", "SAP S/4HANA"],
+    "es": ["SAP SE", "S/4HANA", "SAP S/4HANA"]
+  },
+  "image": "img/2026-10-17-sap.svg",
+  "imageAlt": {
+    "en": "Finance, purchasing, inventory, sales and HR departments all connect to one shared central system labeled ERP",
+    "es": "Finanzas, compras, inventario, ventas y recursos humanos se conectan todos a un único sistema central que dice ERP"
+  },
+  "en": {
+    "title": "SAP",
+    "tagline": "The German company whose software runs the back office of many large businesses.",
+    "explanation": [
+      "**SAP** is a German software company founded in 1972 by five former IBM engineers and based in Walldorf. It is best known for **ERP** (enterprise resource planning) software: one system where a company records its accounting, purchases, inventory, sales, production and payroll. When a factory sells a truckload of goods, the same record updates the stock, the invoice and the books, instead of each department keeping its own spreadsheet.",
+      "Its flagship product today is **S/4HANA**, which runs on **HANA**, SAP's own database that keeps data in memory so reports can be computed on the fly. Around it, SAP sells software for specific jobs: SuccessFactors for human resources, Ariba for purchasing, Concur for travel expenses, plus tools to analyze the data that all these systems collect.",
+      "SAP makes money from software licenses, yearly maintenance fees and, more and more, cloud subscriptions where SAP runs the system for the customer. Installing SAP is rarely quick: big companies spend months or years adapting it to their processes, usually with consulting firms that specialize in it. Once a company runs on SAP, its whole operation depends on it, which is why changing systems is a big decision."
+    ],
+    "analogy": "The nervous system of a company. Every department is an organ doing its own job, but they all report to the same spine, so a sale in one place is instantly felt in the warehouse and in the accounts.",
+    "keyPoints": [
+      "Founded in 1972 by five former IBM engineers; based in Walldorf, Germany.",
+      "Best known for ERP software that ties finance, stock, sales and payroll together.",
+      "S/4HANA is its main ERP; HANA is its in-memory database.",
+      "Earns money from licenses, maintenance and cloud subscriptions."
+    ],
+    "links": [
+      { "label": "SAP on Wikipedia", "url": "https://en.wikipedia.org/wiki/SAP" },
+      { "label": "Enterprise resource planning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Enterprise_resource_planning" },
+      { "label": "SAP HANA on Wikipedia", "url": "https://en.wikipedia.org/wiki/SAP_HANA" }
+    ]
+  },
+  "es": {
+    "title": "SAP",
+    "tagline": "La empresa alemana cuyo software maneja la trastienda de muchas grandes empresas.",
+    "explanation": [
+      "**SAP** es una empresa alemana de software fundada en 1972 por cinco ex ingenieros de IBM, con sede en Walldorf. Es conocida sobre todo por el software **ERP** (planificación de recursos empresariales): un único sistema donde una empresa registra su contabilidad, compras, inventario, ventas, producción y sueldos. Cuando una fábrica vende un camión de mercadería, el mismo registro actualiza el stock, la factura y los libros contables, en vez de que cada área tenga su propia planilla.",
+      "Su producto principal hoy es **S/4HANA**, que corre sobre **HANA**, la base de datos propia de SAP que guarda los datos en memoria para calcular reportes al instante. Alrededor de eso, SAP vende software para tareas puntuales: SuccessFactors para recursos humanos, Ariba para compras, Concur para gastos de viaje, y herramientas para analizar los datos que juntan todos esos sistemas.",
+      "SAP gana plata con licencias de software, cuotas anuales de mantenimiento y, cada vez más, suscripciones en la nube donde SAP opera el sistema por el cliente. Instalar SAP casi nunca es rápido: las grandes empresas pasan meses o años adaptándolo a sus procesos, en general con consultoras especializadas. Una vez que una empresa funciona sobre SAP, toda su operación depende de él, y por eso cambiar de sistema es una decisión enorme."
+    ],
+    "analogy": "El sistema nervioso de una empresa. Cada área es un órgano que hace lo suyo, pero todas reportan a la misma médula, así que una venta en un lugar se siente al instante en el depósito y en la contabilidad.",
+    "keyPoints": [
+      "Fundada en 1972 por cinco ex ingenieros de IBM; tiene sede en Walldorf, Alemania.",
+      "Conocida por su ERP, que une finanzas, stock, ventas y sueldos.",
+      "S/4HANA es su ERP principal; HANA es su base de datos en memoria.",
+      "Gana plata con licencias, mantenimiento y suscripciones en la nube."
+    ],
+    "links": [
+      { "label": "SAP SE en Wikipedia", "url": "https://es.wikipedia.org/wiki/SAP_SE" },
+      { "label": "Planificación de recursos empresariales en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_de_planificaci%C3%B3n_de_recursos_empresariales" }
+    ]
+  }
+}

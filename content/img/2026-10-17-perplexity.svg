@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="94" width="84" height="40" rx="10" fill="#ffd166"/>
+    <rect x="140" y="30" width="56" height="36" rx="4" fill="#e6dfd0"/>
+    <rect x="140" y="96" width="56" height="36" rx="4" fill="#e6dfd0"/>
+    <rect x="140" y="162" width="56" height="36" rx="4" fill="#e6dfd0"/>
+    <rect x="248" y="66" width="136" height="100" rx="10" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M102 104 L136 54"/><path d="M102 114 H136"/><path d="M102 124 L136 176"/>
+    <path d="M198 48 L244 92"/><path d="M198 114 H244"/><path d="M198 180 L244 140"/>
+    <path d="M238 110 l6 4 -6 4"/>
+    <path d="M150 42 H186"/><path d="M150 50 H178"/>
+    <path d="M150 108 H186"/><path d="M150 116 H178"/>
+    <path d="M150 174 H186"/><path d="M150 182 H178"/>
+    <path d="M262 98 H330"/><path d="M262 112 H350"/><path d="M262 126 H320"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="344" y="102">[1]</text><text x="364" y="116">[2]</text><text x="334" y="130">[3]</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="58" y="118">question</text>
+    <text x="316" y="86" font-weight="bold">answer</text>
+    <text x="316" y="154" font-size="11">with sources</text>
+  </g>
+  <text x="168" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">web pages</text>
+  <text x="200" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">search · read · summarize with citations</text>
+</svg>

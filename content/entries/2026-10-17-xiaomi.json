@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-xiaomi",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["HyperOS", "Redmi"],
+    "es": ["HyperOS", "Redmi"]
+  },
+  "image": "img/2026-10-17-xiaomi.svg",
+  "imageAlt": {
+    "en": "A phone in the center connects to a ring of smart devices: a TV, a vacuum robot, a scooter, a fitness band and a car",
+    "es": "Un celular en el centro se conecta con un círculo de dispositivos inteligentes: un televisor, una aspiradora robot, un monopatín, una pulsera y un auto"
+  },
+  "en": {
+    "title": "Xiaomi",
+    "tagline": "A Chinese maker of phones and smart home gadgets, and more recently electric cars.",
+    "explanation": [
+      "**Xiaomi** was founded in 2010 in Beijing by Lei Jun and a group of partners. It started with software: MIUI, a customized version of Android that it updated every week based on users' comments. A year later it sold its first phone, with high-end parts at a low price, sold mostly online to save on stores and middlemen. Phones, including its cheaper **Redmi** line, are still its biggest business.",
+      "Around the phone it built an **ecosystem** of connected devices: TVs, fitness bands, robot vacuums, air purifiers, electric scooters, rice cookers, lamps. Many are made by smaller companies that Xiaomi invests in and helps with design and distribution, all controlled from the same app. In 2023 it replaced MIUI with **HyperOS**, a system meant to run across phones, home devices and cars alike. In 2024 it started selling its own electric cars in China.",
+      "Its business model is unusual: Xiaomi has said it keeps the profit margin on its hardware low and earns more from **internet services**, such as ads, app recommendations and paid content inside its software. The idea is to sell many affordable devices, keep people in its ecosystem and make money over time from the services they use."
+    ],
+    "analogy": "A supermarket that sells its own brand of almost everything at low prices. You come for cheap milk, and soon your whole kitchen is the same brand, all talking to the same app.",
+    "keyPoints": [
+      "Founded in 2010 in Beijing by Lei Jun; started with the MIUI software.",
+      "Sells phones, including the Redmi line, mostly at low prices.",
+      "Built an ecosystem of smart home gadgets, now running on HyperOS, and since 2024 electric cars.",
+      "Keeps hardware margins thin and earns money from internet services."
+    ],
+    "links": [
+      { "label": "About Xiaomi (official site)", "url": "https://www.mi.com/global/about/" },
+      { "label": "Xiaomi on Wikipedia", "url": "https://en.wikipedia.org/wiki/Xiaomi" }
+    ]
+  },
+  "es": {
+    "title": "Xiaomi",
+    "tagline": "Una fabricante china de celulares y aparatos inteligentes, y ahora de autos eléctricos.",
+    "explanation": [
+      "**Xiaomi** se fundó en 2010 en Pekín, de la mano de Lei Jun y un grupo de socios. Arrancó con software: MIUI, una versión modificada de Android que actualizaba todas las semanas según los comentarios de los usuarios. Un año después vendió su primer celular, con componentes de gama alta a un precio bajo, vendido sobre todo online para ahorrarse locales e intermediarios. Los celulares, incluida su línea más barata **Redmi**, siguen siendo su negocio más grande.",
+      "Alrededor del celular armó un **ecosistema** de dispositivos conectados: televisores, pulseras deportivas, aspiradoras robot, purificadores de aire, monopatines eléctricos, arroceras, lámparas. Muchos los fabrican empresas más chicas en las que Xiaomi invierte y a las que ayuda con el diseño y la distribución, y todos se manejan desde la misma app. En 2023 reemplazó MIUI por **HyperOS**, un sistema pensado para correr igual en celulares, aparatos de la casa y autos. En 2024 empezó a vender sus propios autos eléctricos en China.",
+      "Su modelo de negocio es poco común: Xiaomi dijo que mantiene bajo el margen de ganancia de su hardware y gana más con **servicios de internet**, como publicidad, recomendaciones de apps y contenido pago dentro de su software. La idea es vender muchos dispositivos accesibles, mantener a la gente dentro de su ecosistema y ganar plata con el tiempo por los servicios que usa."
+    ],
+    "analogy": "Un supermercado que vende su propia marca de casi todo a precios bajos. Vas por la leche barata y al tiempo tenés toda la cocina de la misma marca, todo hablando con la misma app.",
+    "keyPoints": [
+      "Fundada en 2010 en Pekín por Lei Jun; arrancó con el software MIUI.",
+      "Vende celulares, incluida la línea Redmi, en general a precios bajos.",
+      "Armó un ecosistema de aparatos inteligentes, hoy con HyperOS, y desde 2024 hace autos eléctricos.",
+      "Mantiene márgenes bajos en el hardware y gana plata con servicios de internet."
+    ],
+    "links": [
+      { "label": "Xiaomi en Wikipedia", "url": "https://es.wikipedia.org/wiki/Xiaomi" },
+      { "label": "Acerca de Xiaomi (sitio oficial de España)", "url": "https://www.mi.com/es/about/" }
+    ]
+  }
+}

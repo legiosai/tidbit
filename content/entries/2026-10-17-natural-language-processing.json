@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-natural-language-processing",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["NLP"],
+    "es": ["PLN", "NLP", "procesamiento de lenguaje natural", "natural language processing"]
+  },
+  "image": "img/2026-10-17-natural-language-processing.svg",
+  "imageAlt": {
+    "en": "One sentence, the movie was not bad, feeds three tasks: a translation into Spanish, a sentiment label that says positive, and the sentence split into tokens",
+    "es": "Una oración en inglés, the movie was not bad, alimenta tres tareas: una traducción al español, una etiqueta de sentimiento que dice positivo y la oración partida en tokens"
+  },
+  "en": {
+    "title": "Natural language processing",
+    "tagline": "The field of AI that works with human language: reading, writing, translating.",
+    "explanation": [
+      "**Natural language processing** (NLP) is the branch of AI that deals with human language, the 'natural' kind we speak and write, as opposed to programming languages. Its goal is to get computers to do useful things with text and speech: translate it, summarize it, answer questions about it, sort it, or turn it into a spoken reply.",
+      "Language is hard for machines because meaning depends on context. 'The movie was not bad' is mildly positive, even though it contains the word 'bad'. 'Bank' can be a river or a place for money. For decades, NLP relied on grammar rules written by linguists, then on statistics over large collections of text. Since the late 2010s it has been dominated by neural networks, especially the **transformer**, and today's large language models are its most visible product.",
+      "Classic NLP tasks are still everywhere, often hidden: spam filters, autocomplete on your phone, machine translation, voice assistants that turn speech into text, search engines that understand what you meant, systems that read thousands of customer reviews and tell a company which ones are angry. Many of these tasks that used to need a separate specialized model can now be done by one general language model with the right prompt."
+    ],
+    "analogy": "NLP is to computers what learning a second language is to people: first memorizing grammar rules, then picking up patterns from lots of reading, and finally getting a feel for sarcasm and context.",
+    "keyPoints": [
+      "Covers translation, summarizing, classifying, search and speech.",
+      "Hard because the same words change meaning with context.",
+      "Moved from hand-written rules to statistics to neural networks.",
+      "Large language models are the current, most general form of NLP."
+    ],
+    "links": [
+      { "label": "Natural language processing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Natural_language_processing" },
+      { "label": "What is NLP? (IBM)", "url": "https://www.ibm.com/think/topics/natural-language-processing" }
+    ]
+  },
+  "es": {
+    "title": "Procesamiento del lenguaje natural",
+    "tagline": "El campo de la IA que trabaja con el lenguaje humano: leer, escribir, traducir.",
+    "explanation": [
+      "El **procesamiento del lenguaje natural** (PLN, o NLP en inglés) es la rama de la IA que se ocupa del lenguaje humano, el 'natural' que hablamos y escribimos, a diferencia de los lenguajes de programación. Su objetivo es que una computadora haga cosas útiles con textos y voz: traducirlos, resumirlos, responder preguntas sobre ellos, clasificarlos o convertirlos en una respuesta hablada.",
+      "El lenguaje es difícil para las máquinas porque el significado depende del contexto. 'La película no estuvo mal' es una opinión levemente positiva, aunque tenga la palabra 'mal'. 'Banco' puede ser un asiento o un lugar con plata. Durante décadas el PLN se apoyó en reglas gramaticales escritas por lingüistas, después en estadísticas sobre grandes colecciones de textos. Desde fines de la década de 2010 lo dominan las redes neuronales, en especial el **transformer**, y los grandes modelos de lenguaje de hoy son su producto más visible.",
+      "Las tareas clásicas del PLN siguen en todos lados, muchas veces escondidas: filtros de spam, el autocompletar del celular, la traducción automática, los asistentes de voz que pasan lo que decís a texto, los buscadores que entienden lo que quisiste decir, sistemas que leen miles de reseñas de clientes y le avisan a una empresa cuáles están enojadas. Muchas de estas tareas, que antes pedían un modelo especializado aparte, hoy las resuelve un solo modelo de lenguaje general con el prompt adecuado."
+    ],
+    "analogy": "El PLN es para las computadoras lo que aprender un segundo idioma es para las personas: primero memorizar reglas de gramática, después absorber patrones leyendo mucho y, al final, entender la ironía y el contexto.",
+    "keyPoints": [
+      "Abarca traducir, resumir, clasificar, buscar y trabajar con voz.",
+      "Es difícil porque las mismas palabras cambian de sentido según el contexto.",
+      "Pasó de reglas escritas a mano a estadísticas y a redes neuronales.",
+      "Los grandes modelos de lenguaje son su forma actual y más general."
+    ],
+    "links": [
+      { "label": "Procesamiento de lenguajes naturales en Wikipedia", "url": "https://es.wikipedia.org/wiki/Procesamiento_de_lenguajes_naturales" },
+      { "label": "¿Qué es el procesamiento del lenguaje natural? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/natural-language-processing" }
+    ]
+  }
+}

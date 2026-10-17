@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="18" y="40" width="120" height="150" rx="10" fill="#e6dfd0"/>
+    <rect x="30" y="62" width="96" height="16" rx="3" fill="#f3efe6"/>
+    <rect x="30" y="94" width="96" height="34" rx="3" fill="#f3efe6"/>
+    <rect x="30" y="134" width="40" height="22" rx="3" fill="#9bd1b9"/>
+    <rect x="58" y="164" width="68" height="18" rx="9" fill="#f4a7a7"/>
+    <rect x="164" y="88" width="72" height="54" rx="10" fill="#ffd166"/>
+    <rect x="262" y="40" width="120" height="150" rx="10" fill="#f3efe6"/>
+    <rect x="262" y="40" width="120" height="24" rx="10" fill="#9ac7ea"/>
+    <rect x="276" y="76" width="72" height="12" rx="3" fill="#2b2b2b"/>
+    <rect x="276" y="98" width="44" height="34" rx="3" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M140 115 H158"/><path d="M152 110 l6 5 -6 5"/>
+    <path d="M238 115 H256"/><path d="M250 110 l6 5 -6 5"/>
+    <path d="M328 104 H368"/><path d="M328 118 H360"/><path d="M276 146 H368"/><path d="M276 160 H350"/><path d="M276 174 H362"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="10" fill="#6b6357">
+    <text x="34" y="74">Title</text><text x="34" y="106">Text...</text><text x="34" y="149">photo</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="78" y="30">editor fills a form</text><text x="322" y="30">published page</text>
+    <text x="200" y="112">CMS</text><text x="92" y="177" font-size="11">Publish</text>
+  </g>
+  <text x="200" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6b6357">+ template</text>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no code · content stored · design applied</text>
+</svg>

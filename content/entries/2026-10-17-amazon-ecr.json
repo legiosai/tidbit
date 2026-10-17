@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-amazon-ecr",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["ECR", "Elastic Container Registry", "Amazon Elastic Container Registry", "ECR repository", "ECR repositories", "container registry", "container registries"],
+    "es": ["ECR", "Elastic Container Registry", "Amazon Elastic Container Registry", "repositorio de ECR", "repositorios de ECR", "registro de contenedores", "registros de contenedores"]
+  },
+  "image": "img/2026-10-17-amazon-ecr.svg",
+  "imageAlt": {
+    "en": "A laptop pushes a container image into a registry shelf with tagged images, and ECS, EKS and Lambda pull it from there",
+    "es": "Una laptop sube una imagen de contenedor a un estante del registro con imágenes etiquetadas, y ECS, EKS y Lambda la bajan de ahí"
+  },
+  "en": {
+    "title": "Amazon ECR",
+    "tagline": "A private warehouse on AWS for your container images, ready to be deployed.",
+    "explanation": [
+      "**ECR** (Elastic Container Registry) is where you store container images on AWS. An image is the packaged version of an app: the code, the libraries and the settings it needs, frozen in one file that any machine can run. Before you can run it on AWS, the image has to live somewhere AWS can fetch it from, and that place is a **container registry**.",
+      "The flow is short. A developer or a build pipeline creates the image with Docker, tags it with a version like `web:1.4.2`, and **pushes** it to an ECR repository. Then Amazon ECS, Amazon EKS or AWS Lambda **pulls** that exact version and starts it. Access is controlled with IAM, so only the people and services you allow can push or pull.",
+      "ECR also does some housekeeping: it can scan images for known vulnerabilities in the software they contain, and lifecycle rules can delete old versions automatically so the repository does not grow forever. There is a public side too, for sharing images with anyone, but most teams use ECR as the private, nearby copy of what they deploy."
+    ],
+    "analogy": "The loading dock of a factory. Finished, sealed boxes (images) wait on labeled shelves, and the delivery trucks (ECS, EKS, Lambda) pick up exactly the box with the label they were told to take.",
+    "keyPoints": [
+      "Stores and versions container images inside your AWS account.",
+      "You push images to it; ECS, EKS and Lambda pull them to run.",
+      "Access goes through IAM; images are private by default.",
+      "Can scan images for known vulnerabilities and expire old versions."
+    ],
+    "links": [
+      { "label": "What is Amazon ECR? (official docs)", "url": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html" },
+      { "label": "Amazon ECR", "url": "https://aws.amazon.com/ecr/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon ECR",
+    "tagline": "Un depósito privado en AWS para tus imágenes de contenedor, listas para desplegar.",
+    "explanation": [
+      "**ECR** (Elastic Container Registry) es donde guardás imágenes de contenedor en AWS. Una imagen es la versión empaquetada de una app: el código, las librerías y la configuración que necesita, congelados en un archivo que cualquier máquina puede correr. Antes de correrla en AWS, la imagen tiene que estar en algún lugar del que AWS la pueda ir a buscar, y ese lugar es un **registro de contenedores**.",
+      "El circuito es corto. Una desarrolladora o un pipeline de build arma la imagen con Docker, le pone una etiqueta de versión como `web:1.4.2` y la **sube** (push) a un repositorio de ECR. Después Amazon ECS, Amazon EKS o AWS Lambda **bajan** (pull) esa versión exacta y la arrancan. El acceso se controla con IAM, así que solo las personas y los servicios que vos habilites pueden subir o bajar.",
+      "ECR también hace algo de mantenimiento: puede revisar las imágenes en busca de vulnerabilidades conocidas en el software que traen, y unas reglas de ciclo de vida pueden borrar versiones viejas solas para que el repositorio no crezca para siempre. Tiene además un lado público para compartir imágenes con cualquiera, pero la mayoría de los equipos usa ECR como la copia privada y cercana de lo que despliega."
+    ],
+    "analogy": "El muelle de carga de una fábrica. Las cajas terminadas y cerradas (imágenes) esperan en estantes etiquetados, y los camiones (ECS, EKS, Lambda) se llevan justo la caja con la etiqueta que les indicaron.",
+    "keyPoints": [
+      "Guarda y versiona imágenes de contenedor dentro de tu cuenta de AWS.",
+      "Vos subís las imágenes; ECS, EKS y Lambda las bajan para correrlas.",
+      "El acceso pasa por IAM; las imágenes son privadas por defecto.",
+      "Puede buscar vulnerabilidades conocidas en las imágenes y borrar versiones viejas."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon ECR? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AmazonECR/latest/userguide/what-is-ecr.html" },
+      { "label": "Amazon ECR", "url": "https://aws.amazon.com/es/ecr/" }
+    ]
+  }
+}

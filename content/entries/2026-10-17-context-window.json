@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-context-window",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["context windows", "context length"],
+    "es": ["ventanas de contexto", "context window"]
+  },
+  "image": "img/2026-10-17-context-window.svg",
+  "imageAlt": {
+    "en": "A long row of tokens with a frame around the most recent ones, labeled what the model can see; the oldest tokens sit outside the frame and fall out",
+    "es": "Una fila larga de tokens con un marco alrededor de los más recientes, rotulado lo que el modelo puede ver; los tokens más viejos quedan afuera del marco y se pierden"
+  },
+  "en": {
+    "title": "Context window",
+    "tagline": "How much text an AI model can take into account at once, measured in tokens.",
+    "explanation": [
+      "The **context window** is the amount of text a language model can look at in one go. Everything the model uses to produce an answer has to fit inside it: the hidden instructions from the app, your conversation so far, any documents you pasted or uploaded, and the reply it is writing. It is measured in tokens, the chunks of text models work with; in English a token is roughly three quarters of a word.",
+      "A model has no memory of its own between messages. When you chat, the app sends the whole conversation back to the model each turn, and that is how it 'remembers' what you said. Once the conversation or the documents get longer than the window, something has to go: older messages are dropped or summarized, and the model simply cannot see them anymore. That is why a very long chat can start to forget details from the beginning.",
+      "Context windows have grown a lot, from a few thousand tokens in early chatbots to hundreds of thousands, and in some models over a million, which is enough for several books. Bigger is not free, though: long inputs cost more, take longer, and models can pay less attention to details buried in the middle of a huge text. For large collections of documents, it is often better to retrieve only the relevant pieces (RAG) than to paste everything."
+    ],
+    "analogy": "Like a desk with limited space. You can spread out only so many pages at once; to bring in a new one, an old one has to go back in the drawer, and whatever is in the drawer you cannot read right now.",
+    "keyPoints": [
+      "Everything the model sees at once: instructions, chat, files and reply.",
+      "Measured in tokens; a token is roughly three quarters of an English word.",
+      "Beyond the limit, older content is dropped or summarized.",
+      "Bigger windows cost more, and the middle of very long inputs gets less attention."
+    ],
+    "links": [
+      { "label": "Context windows (Claude docs)", "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows" },
+      { "label": "What is a context window? (IBM)", "url": "https://www.ibm.com/think/topics/context-window" }
+    ]
+  },
+  "es": {
+    "title": "Ventana de contexto",
+    "tagline": "Cuánto texto puede tener en cuenta un modelo de IA a la vez, medido en tokens.",
+    "explanation": [
+      "La **ventana de contexto** (context window) es la cantidad de texto que un modelo de lenguaje puede mirar de una sola vez. Todo lo que el modelo usa para responder tiene que entrar ahí: las instrucciones ocultas de la app, tu conversación hasta el momento, los documentos que pegaste o subiste y la respuesta que está escribiendo. Se mide en tokens, los pedacitos de texto con los que trabajan los modelos; en inglés un token es más o menos tres cuartos de palabra, y en español suele rendir un poco menos.",
+      "Un modelo no tiene memoria propia entre mensaje y mensaje. Cuando chateás, la app le vuelve a mandar toda la conversación en cada turno, y así es como 'se acuerda' de lo que dijiste. Cuando la conversación o los documentos superan la ventana, algo tiene que salir: los mensajes viejos se descartan o se resumen, y el modelo directamente deja de verlos. Por eso un chat muy largo puede empezar a olvidarse de detalles del principio.",
+      "Las ventanas de contexto crecieron mucho, de unos pocos miles de tokens en los primeros chatbots a cientos de miles, y en algunos modelos más de un millón, que alcanza para varios libros. Más grande no es gratis: los textos largos cuestan más, tardan más y los modelos pueden prestarles menos atención a los detalles enterrados en el medio de un texto enorme. Para colecciones grandes de documentos suele ser mejor recuperar solo las partes relevantes (RAG) que pegar todo."
+    ],
+    "analogy": "Es como un escritorio con espacio limitado. Podés desplegar solo cierta cantidad de hojas a la vez; para traer una nueva, una vieja tiene que volver al cajón, y lo que está en el cajón no lo podés leer en este momento.",
+    "keyPoints": [
+      "Es todo lo que el modelo ve a la vez: instrucciones, chat, archivos y respuesta.",
+      "Se mide en tokens; en inglés, un token es más o menos tres cuartos de palabra.",
+      "Pasado el límite, lo más viejo se descarta o se resume.",
+      "Ventanas más grandes cuestan más, y el medio de un texto muy largo recibe menos atención."
+    ],
+    "links": [
+      { "label": "Ventanas de contexto (documentación de Claude)", "url": "https://platform.claude.com/docs/es/build-with-claude/context-windows" },
+      { "label": "¿Qué es una ventana de contexto? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/context-window" }
+    ]
+  }
+}

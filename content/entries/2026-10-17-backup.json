@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-17-backup",
+  "date": "2026-10-17",
+  "subjects": [
+    "data",
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "backups",
+      "3-2-1 rule",
+      "3-2-1 backup rule"
+    ],
+    "es": [
+      "backup",
+      "backups",
+      "copias de seguridad",
+      "regla 3-2-1"
+    ]
+  },
+  "image": "img/2026-10-17-backup.svg",
+  "imageAlt": {
+    "en": "The 3-2-1 rule: three copies of the same file, on two different kinds of storage, with one copy kept far away in another place",
+    "es": "La regla 3-2-1: tres copias del mismo archivo, en dos tipos de almacenamiento distintos, con una copia guardada lejos en otro lugar"
+  },
+  "en": {
+    "title": "Backup",
+    "tagline": "A separate copy of your data, kept so you can get it back when the original is lost.",
+    "explanation": [
+      "A **backup** is a copy of data stored separately from the original, so it can be restored if something goes wrong: a laptop is stolen, a disk dies, someone deletes the wrong folder, a fire hits the office, or ransomware encrypts every file. It sounds obvious, but many people only discover their backups were missing, incomplete or impossible to restore on the day they need them.",
+      "A widely used guideline is the **3-2-1 rule**: keep at least **3** copies of your data (the original and two backups), on **2** different kinds of storage (say, the laptop and an external drive or a cloud service), with **1** copy off-site, in another building or another region. Each part protects against a different failure: one copy can break, one kind of media can fail, one place can burn. Many teams now add that one copy should be offline or **immutable**, impossible to change or delete for a while, because modern ransomware hunts for backups it can reach.",
+      "A sync service is not a backup by itself: if you delete or corrupt a file, the change is copied everywhere within seconds. Real backups keep older versions, so you can go back to how things were last Tuesday. And a backup only counts if it can be restored, so testing a restore every so often is part of the job."
+    ],
+    "analogy": "Keeping photocopies of your passport: one in your suitcase, one in your email and one with a relative at home. Lose your bag on a trip and you still have proof of who you are.",
+    "keyPoints": [
+      "A separate copy that lets you restore data after loss, damage or deletion.",
+      "3-2-1: three copies, two kinds of storage, one copy off-site.",
+      "Keep at least one copy offline or immutable as protection against ransomware.",
+      "Sync is not backup; keep old versions and test that restores work."
+    ],
+    "links": [
+      {
+        "label": "Data backup options (CISA, PDF)",
+        "url": "https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf"
+      },
+      {
+        "label": "The 3-2-1 backup strategy (Backblaze)",
+        "url": "https://www.backblaze.com/blog/the-3-2-1-backup-strategy/"
+      },
+      {
+        "label": "Backup on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Backup"
+      }
+    ]
+  },
+  "es": {
+    "title": "Copia de seguridad",
+    "tagline": "Una copia aparte de tus datos, para recuperarlos cuando se pierde el original.",
+    "explanation": [
+      "Una **copia de seguridad** (backup) es una copia de los datos guardada aparte del original, para poder restaurarlos si algo sale mal: te roban la notebook, se rompe un disco, alguien borra la carpeta equivocada, hay un incendio en la oficina o un ransomware cifra todos los archivos. Suena obvio, pero mucha gente descubre que sus backups no existían, estaban incompletos o no se podían restaurar justo el día que los necesita.",
+      "Una guía muy usada es la **regla 3-2-1**: tené al menos **3** copias de tus datos (el original y dos backups), en **2** tipos de almacenamiento distintos (por ejemplo, la notebook y un disco externo o un servicio en la nube), con **1** copia fuera del lugar, en otro edificio u otra región. Cada parte protege contra una falla distinta: una copia se puede romper, un tipo de soporte puede fallar, un lugar se puede incendiar. Hoy muchos equipos suman que una copia esté desconectada o sea **inmutable**, imposible de modificar o borrar por un tiempo, porque el ransomware moderno busca los backups que tiene a su alcance.",
+      "Un servicio de sincronización no es un backup por sí solo: si borrás o arruinás un archivo, el cambio se copia a todos lados en segundos. Los backups de verdad guardan versiones anteriores, así podés volver a cómo estaba todo el martes pasado. Y un backup solo cuenta si se puede restaurar, así que probar una restauración cada tanto es parte del trabajo."
+    ],
+    "analogy": "Tener fotocopias del pasaporte: una en la valija, otra en tu mail y otra en lo de un familiar. Si perdés el bolso en un viaje, igual podés demostrar quién sos.",
+    "keyPoints": [
+      "Una copia aparte que permite restaurar datos después de una pérdida, un daño o un borrado.",
+      "3-2-1: tres copias, dos tipos de almacenamiento, una copia fuera del lugar.",
+      "Tené al menos una copia desconectada o inmutable como defensa contra el ransomware.",
+      "Sincronizar no es hacer backup: guardá versiones viejas y probá que la restauración funcione."
+    ],
+    "links": [
+      {
+        "label": "Copia de seguridad en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Copia_de_seguridad"
+      },
+      {
+        "label": "La estrategia de backup 3-2-1, de Backblaze (en inglés)",
+        "url": "https://www.backblaze.com/blog/the-3-2-1-backup-strategy/"
+      }
+    ]
+  }
+}

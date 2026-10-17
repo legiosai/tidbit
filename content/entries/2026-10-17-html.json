@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-html",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["HyperText Markup Language", "HTML5"],
+    "es": ["HyperText Markup Language", "HTML5", "lenguaje de marcado de hipertexto"]
+  },
+  "image": "img/2026-10-17-html.svg",
+  "imageAlt": {
+    "en": "HTML tags on the left, a heading, a paragraph and a link, become the matching parts of a web page on the right",
+    "es": "Etiquetas HTML a la izquierda, un título, un párrafo y un link, se convierten en las partes correspondientes de una página web a la derecha"
+  },
+  "en": {
+    "title": "HTML",
+    "tagline": "The text format that describes what is on a web page: headings, paragraphs, links.",
+    "explanation": [
+      "**HTML** (HyperText Markup Language) is the format every web page is written in. It is plain text with **tags**, short labels in angle brackets, that mark what each piece is: `h1` for a main heading, `p` for a paragraph, `a` for a link, `img` for an image. In the file a tag is written between angle brackets, and most come in pairs that open and close around the content. The browser reads those tags and draws the page.",
+      "HTML is not a programming language: it does not make decisions or calculate anything. It describes structure and meaning. How the page looks (colors, fonts, layout) is the job of CSS, and what it does when you click is the job of JavaScript. The three work together on almost every site.",
+      "Good HTML matters more than it seems. Screen readers used by blind people rely on the tags to know what is a heading, a button or a menu. Search engines and AI tools read them to understand a page. You can see the HTML of any site yourself: in most desktop browsers, right-click a page and choose \"View page source\"."
+    ],
+    "analogy": "The labels an editor writes in the margin of a manuscript: \"title here\", \"new paragraph\", \"photo goes here\". They do not change the words; they tell the printer what each part is.",
+    "keyPoints": [
+      "Plain text with tags like `h1`, `p` and `a` that mark each part.",
+      "Describes structure; CSS handles looks and JavaScript handles behavior.",
+      "The standard is maintained in the open by the WHATWG, with browser makers involved.",
+      "Accessibility and search depend on using the right tags."
+    ],
+    "links": [
+      { "label": "HTML: HyperText Markup Language (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+      { "label": "The HTML Living Standard (WHATWG)", "url": "https://html.spec.whatwg.org/" },
+      { "label": "HTML on Wikipedia", "url": "https://en.wikipedia.org/wiki/HTML" }
+    ]
+  },
+  "es": {
+    "title": "HTML",
+    "tagline": "El formato de texto que describe qué hay en una página web: títulos, párrafos, links.",
+    "explanation": [
+      "**HTML** (HyperText Markup Language, lenguaje de marcado de hipertexto) es el formato en el que está escrita toda página web. Es texto común con **etiquetas**, rótulos cortos entre signos de menor y mayor, que marcan qué es cada pedazo: `h1` para el título principal, `p` para un párrafo, `a` para un link, `img` para una imagen. En el archivo cada etiqueta va entre esos signos, y la mayoría viene de a pares que abren y cierran alrededor del contenido. El navegador lee esas etiquetas y dibuja la página.",
+      "HTML no es un lenguaje de programación: no toma decisiones ni calcula nada. Describe la estructura y el significado. Cómo se ve la página (colores, tipografías, diagramación) le toca al CSS, y qué hace cuando hacés clic le toca a JavaScript. Los tres trabajan juntos en casi cualquier sitio.",
+      "Un buen HTML importa más de lo que parece. Los lectores de pantalla que usan las personas ciegas se apoyan en las etiquetas para saber qué es un título, un botón o un menú. Los buscadores y las herramientas de IA las leen para entender una página. Podés ver el HTML de cualquier sitio: en la mayoría de los navegadores de escritorio, hacé clic derecho y elegí \"Ver código fuente de la página\"."
+    ],
+    "analogy": "Las anotaciones que un editor escribe en el margen de un manuscrito: \"acá va el título\", \"párrafo nuevo\", \"acá va la foto\". No cambian las palabras; le dicen a la imprenta qué es cada parte.",
+    "keyPoints": [
+      "Texto común con etiquetas como `h1`, `p` y `a` que marcan cada parte.",
+      "Describe la estructura; el CSS se ocupa del aspecto y JavaScript del comportamiento.",
+      "El estándar lo mantiene en abierto el WHATWG, con los fabricantes de navegadores.",
+      "La accesibilidad y los buscadores dependen de usar las etiquetas correctas."
+    ],
+    "links": [
+      { "label": "HTML: Lenguaje de etiquetas de hipertexto (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/HTML" },
+      { "label": "HTML en Wikipedia", "url": "https://es.wikipedia.org/wiki/HTML" },
+      { "label": "El estándar HTML del WHATWG (en inglés)", "url": "https://html.spec.whatwg.org/" }
+    ]
+  }
+}

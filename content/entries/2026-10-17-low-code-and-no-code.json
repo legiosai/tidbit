@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-low-code-and-no-code",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["low-code", "no-code", "low code", "no code", "low-code platform", "low-code platforms", "no-code tools"],
+    "es": ["low-code", "no-code", "low code", "no code", "plataforma low-code", "plataformas low-code", "herramientas no-code"]
+  },
+  "image": "img/2026-10-17-low-code-and-no-code.svg",
+  "imageAlt": {
+    "en": "A scale from no-code, with drag-and-drop blocks, through low-code, with blocks plus a little code, to full code written by hand",
+    "es": "Una escala que va de no-code, con bloques para arrastrar, pasando por low-code, con bloques y algo de código, hasta código escrito a mano"
+  },
+  "en": {
+    "title": "Low-code and no-code",
+    "tagline": "Building apps and automations by dragging blocks instead of writing code.",
+    "explanation": [
+      "**No-code** tools let people build software without programming: you drag fields onto a form, connect boxes in a flow, or set rules in menus, and the tool turns that into a working app. **Low-code** tools work the same way but let you drop into real code when the blocks run out, so they are aimed at developers who want to go faster, and at technical people who are not full-time developers.",
+      "Familiar examples include Airtable and Notion for databases with a friendly face, Zapier and Make for automations (\"when a form is submitted, add a row and send an email\"), Webflow and Bubble for websites and web apps, and Microsoft Power Apps or Salesforce's builders inside large companies. A typical win: an operations team builds its own approval tracker in a week instead of waiting months in the IT queue.",
+      "The limits show up as things grow. You can only do what the platform allows; complex logic gets awkward; performance and costs can climb with usage; and moving away later is hard because your app only exists inside that vendor's tool, which is called **lock-in**. Companies also worry about **shadow IT**: important processes built by individuals that nobody else knows about, secures or maintains. Many teams use these tools for prototypes and internal tools, and switch to code when something becomes core to the business."
+    ],
+    "analogy": "Like building with LEGO versus carving wood. LEGO is fast and anyone can do it, but you are limited to the bricks in the box. Low-code is LEGO that also lets you carve a custom piece when you need one.",
+    "keyPoints": [
+      "No-code: visual building only. Low-code: visual building plus some code.",
+      "Great for prototypes, internal tools and automations.",
+      "You are limited to what the platform supports, and leaving it is hard.",
+      "Apps built outside IT still need owners, security and backups."
+    ],
+    "links": [
+      { "label": "What is low-code? (AWS)", "url": "https://aws.amazon.com/what-is/low-code/" },
+      { "label": "Low-code development platform on Wikipedia", "url": "https://en.wikipedia.org/wiki/Low-code_development_platform" },
+      { "label": "No-code development platform on Wikipedia", "url": "https://en.wikipedia.org/wiki/No-code_development_platform" }
+    ]
+  },
+  "es": {
+    "title": "Low-code y no-code",
+    "tagline": "Armar apps y automatizaciones arrastrando bloques en lugar de escribir código.",
+    "explanation": [
+      "Las herramientas **no-code** permiten construir software sin programar: arrastrás campos a un formulario, conectás cajitas en un flujo o definís reglas en menús, y la herramienta lo convierte en una app que funciona. Las **low-code** trabajan igual pero te dejan meter código de verdad cuando los bloques no alcanzan, así que apuntan a developers que quieren ir más rápido y a gente técnica que no programa a tiempo completo.",
+      "Algunos ejemplos conocidos: Airtable y Notion como bases de datos con cara amigable, Zapier y Make para automatizaciones (\"cuando alguien envía un formulario, agregá una fila y mandá un mail\"), Webflow y Bubble para sitios y apps web, y Microsoft Power Apps o los constructores de Salesforce dentro de empresas grandes. Un logro típico: el equipo de operaciones arma su propio sistema de aprobaciones en una semana en vez de esperar meses en la cola de sistemas.",
+      "Los límites aparecen cuando las cosas crecen. Solo podés hacer lo que la plataforma permite; la lógica compleja se vuelve incómoda; el rendimiento y los costos pueden subir con el uso; y mudarte después cuesta, porque tu app existe solo dentro de la herramienta de ese proveedor, algo que se llama **lock-in**. A las empresas también les preocupa el **shadow IT**: procesos importantes armados por personas sueltas, que nadie más conoce, asegura ni mantiene. Muchos equipos usan estas herramientas para prototipos y herramientas internas, y pasan a código cuando algo se vuelve central para el negocio."
+    ],
+    "analogy": "Como construir con LEGO o tallar madera. Con LEGO vas rápido y cualquiera puede, pero estás limitado a las piezas de la caja. Low-code es un LEGO que además te deja tallar una pieza a medida cuando la necesitás.",
+    "keyPoints": [
+      "No-code: solo construcción visual. Low-code: construcción visual más algo de código.",
+      "Ideales para prototipos, herramientas internas y automatizaciones.",
+      "Estás limitado a lo que soporta la plataforma, y salir de ella cuesta.",
+      "Las apps hechas fuera de sistemas igual necesitan dueños, seguridad y backups."
+    ],
+    "links": [
+      { "label": "¿Qué es low-code? (AWS)", "url": "https://aws.amazon.com/es/what-is/low-code/" },
+      { "label": "¿Qué es el desarrollo low-code? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/low-code" },
+      { "label": "¿Qué es no-code? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/no-code" }
+    ]
+  }
+}

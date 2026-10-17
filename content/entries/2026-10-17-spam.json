@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-spam",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["spam filter", "spam filters", "spammer", "spammers"],
+    "es": ["correo basura", "correo no deseado", "filtro de spam", "spammer", "spammers"]
+  },
+  "image": "img/2026-10-17-spam.svg",
+  "imageAlt": {
+    "en": "A stream of envelopes reaches a funnel-shaped spam filter, which sends most of them to a spam folder and lets a few wanted ones through to the inbox",
+    "es": "Una lluvia de sobres llega a un filtro de spam con forma de embudo, que manda la mayoría a la carpeta de spam y deja pasar unos pocos deseados a la bandeja de entrada"
+  },
+  "en": {
+    "title": "Spam",
+    "tagline": "Unwanted messages sent in bulk: ads, scams and junk you never asked for.",
+    "explanation": [
+      "**Spam** is unsolicited messages sent to huge numbers of people at once. It started with email and now arrives everywhere: text messages, messaging apps, social media comments, phone calls, fake reviews. Sending one more message costs the sender almost nothing, so even if only a tiny fraction of people respond, it pays. That is why there is so much of it; by most estimates a large share of all email sent is spam.",
+      "Some spam is just annoying advertising. A lot of it is a vehicle for something worse: phishing links that try to steal passwords, attachments that install Malware, fake prizes, investment scams, or messages that only check whether your address or number is active so it can be sold on. **Spammers** get addresses from data breaches, from scraping websites, from buying lists, or simply by guessing common names at popular domains.",
+      "Email providers fight it with **spam filters** that score every incoming message: who sent it, whether the sending server is who it claims to be (checks called SPF, DKIM and DMARC), what it contains and how other users reacted to similar messages. Most spam never reaches your inbox at all. Marking a message as spam, rather than just deleting it, helps train those filters for everyone.",
+      "Good habits: do not reply or click to 'unsubscribe' in a message that looks shady, since that confirms your address is real (unsubscribe links from companies you actually signed up with are usually fine). Do not open unexpected attachments. Think twice before publishing your email address or phone number openly, and consider a separate address for shop sign-ups."
+    ],
+    "analogy": "The paper flyers stuffed into every mailbox on the street. Printing one more costs almost nothing, so they keep coming even if nearly everyone throws them away, and once in a while one of them is a scam dressed as a bill.",
+    "keyPoints": [
+      "Spam is unsolicited bulk messaging, by email, SMS, apps or calls.",
+      "It is cheap to send, so even a tiny response rate makes it profitable.",
+      "Much of it carries phishing links, scams or malware.",
+      "Mark it as spam instead of replying; filters learn from that."
+    ],
+    "links": [
+      { "label": "Email spam on Wikipedia", "url": "https://en.wikipedia.org/wiki/Email_spam" },
+      { "label": "Report spam in Gmail (Gmail Help)", "url": "https://support.google.com/mail/answer/1366858" }
+    ]
+  },
+  "es": {
+    "title": "Spam",
+    "tagline": "Mensajes no deseados enviados en masa: publicidad, estafas y basura que nunca pediste.",
+    "explanation": [
+      "El **spam** son mensajes no solicitados que se mandan a muchísima gente a la vez. Empezó con el correo electrónico y hoy llega por todos lados: SMS, apps de mensajería, comentarios en redes, llamadas, reseñas falsas. Mandar un mensaje más no le cuesta casi nada a quien lo envía, así que aunque responda una fracción mínima de la gente, le conviene. Por eso hay tanto; según la mayoría de las estimaciones, una buena parte de todos los correos que se envían es spam.",
+      "Parte del spam es solo publicidad molesta. Mucho es un vehículo para algo peor: enlaces de phishing que buscan robar contraseñas, adjuntos que instalan Malware, premios falsos, estafas de inversión, o mensajes que solo verifican si tu dirección o tu número están activos para venderlos. Los **spammers** consiguen direcciones de filtraciones de datos, rastreando sitios web, comprando listas o simplemente adivinando nombres comunes en dominios populares.",
+      "Los proveedores de correo lo combaten con **filtros de spam** que le ponen un puntaje a cada mensaje que entra: quién lo manda, si el servidor de origen es quien dice ser (controles llamados SPF, DKIM y DMARC), qué contiene y cómo reaccionaron otros usuarios a mensajes parecidos. La mayoría del spam ni siquiera llega a tu bandeja de entrada. Marcar un mensaje como spam, en vez de solo borrarlo, ayuda a entrenar esos filtros para todos.",
+      "Buenos hábitos: no respondas ni hagas clic en 'desuscribirse' en un mensaje que parece turbio, porque eso confirma que tu dirección existe (los enlaces de baja de empresas en las que te registraste de verdad suelen estar bien). No abras adjuntos inesperados. Pensalo dos veces antes de publicar tu correo o tu teléfono abiertamente, y considerá una dirección aparte para registrarte en tiendas."
+    ],
+    "analogy": "Los volantes de papel que meten en todos los buzones de la cuadra. Imprimir uno más no cuesta casi nada, así que siguen llegando aunque casi todos terminen en la basura, y cada tanto uno es una estafa disfrazada de factura.",
+    "keyPoints": [
+      "El spam son mensajes masivos no pedidos, por correo, SMS, apps o llamadas.",
+      "Mandarlo es barato, así que hasta una respuesta mínima lo hace rentable.",
+      "Mucho trae enlaces de phishing, estafas o malware.",
+      "Marcalo como spam en vez de responder; los filtros aprenden de eso."
+    ],
+    "links": [
+      { "label": "Correo basura en Wikipedia", "url": "https://es.wikipedia.org/wiki/Spam" },
+      { "label": "Marcar correos como spam en Gmail (Ayuda de Gmail)", "url": "https://support.google.com/mail/answer/1366858?hl=es" }
+    ]
+  }
+}

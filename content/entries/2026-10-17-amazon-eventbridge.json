@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-amazon-eventbridge",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["EventBridge", "EventBridge rule", "EventBridge rules", "EventBridge Scheduler", "EventBridge Pipes", "event bus", "event buses", "CloudWatch Events"],
+    "es": ["EventBridge", "regla de EventBridge", "reglas de EventBridge", "EventBridge Scheduler", "EventBridge Pipes", "bus de eventos", "buses de eventos", "CloudWatch Events"]
+  },
+  "image": "img/2026-10-17-amazon-eventbridge.svg",
+  "imageAlt": {
+    "en": "Events from an app, an AWS service and a SaaS tool enter an event bus; rules route matching ones to Lambda, a queue and a workflow",
+    "es": "Eventos de una app, de un servicio de AWS y de una herramienta SaaS entran a un bus de eventos; las reglas mandan los que coinciden a Lambda, a una cola y a un flujo"
+  },
+  "en": {
+    "title": "Amazon EventBridge",
+    "tagline": "A switchboard that routes \"something happened\" messages to whoever cares.",
+    "explanation": [
+      "Many systems are easier to build if parts announce what happened instead of calling each other directly. An order was placed, a file was uploaded, a server stopped. **EventBridge** is the AWS service that carries those announcements, called **events**: small JSON messages that go into an **event bus**.",
+      "On the bus you set **rules**. Each rule describes a pattern, like \"events from the orders app where the total is above 1000\", and one or more targets to send matching events to: an AWS Lambda function, an Amazon SQS queue, an AWS Step Functions workflow, another account. The app that emits the event does not know or care who is listening. Adding a new reaction, say a fraud check, means adding a rule, not changing the orders app.",
+      "AWS services already publish their own events to a default bus (an EC2 machine changed state, a backup finished), and many SaaS tools can send theirs too. EventBridge also includes a **scheduler** for running something at a set time or on a repeating schedule, which replaced the old trick of cron jobs on a server. It used to be called CloudWatch Events, and some older documentation still uses that name."
+    ],
+    "analogy": "The announcements board of a building. Residents pin notices (\"water cut on Tuesday\") without knowing who will read them, and each neighbor has asked the concierge to alert them only about the kind of notice they care about.",
+    "keyPoints": [
+      "Events are small JSON messages describing something that happened.",
+      "Rules match events by pattern and route them to targets like Lambda or SQS.",
+      "Senders and receivers stay decoupled; new listeners need no change to the sender.",
+      "Includes a scheduler for timed and recurring tasks."
+    ],
+    "links": [
+      { "label": "What is Amazon EventBridge? (official docs)", "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html" },
+      { "label": "Amazon EventBridge", "url": "https://aws.amazon.com/eventbridge/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon EventBridge",
+    "tagline": "Una central que reparte avisos de \"pasó algo\" a quien le interese.",
+    "explanation": [
+      "Muchos sistemas son más fáciles de armar si las partes anuncian lo que pasó en vez de llamarse directamente entre sí. Entró un pedido, se subió un archivo, se paró un servidor. **EventBridge** es el servicio de AWS que transporta esos anuncios, llamados **eventos**: mensajes chiquitos en JSON que entran a un **bus de eventos**.",
+      "En el bus definís **reglas**. Cada regla describe un patrón, como \"eventos de la app de pedidos con un total mayor a 1000\", y uno o más destinos a los que mandar los eventos que coinciden: una función de AWS Lambda, una cola de Amazon SQS, un flujo de AWS Step Functions, otra cuenta. La app que emite el evento no sabe ni le importa quién escucha. Sumar una reacción nueva, por ejemplo un control de fraude, es agregar una regla, no tocar la app de pedidos.",
+      "Los servicios de AWS ya publican sus propios eventos en un bus por defecto (una máquina EC2 cambió de estado, terminó un backup), y muchas herramientas SaaS pueden mandar los suyos. EventBridge incluye además un **scheduler** para correr algo a una hora fija o de forma repetida, que reemplazó al viejo truco de tener cron jobs en un servidor. Antes se llamaba CloudWatch Events, y alguna documentación vieja todavía usa ese nombre."
+    ],
+    "analogy": "La cartelera de un edificio. Los vecinos pegan avisos (\"el martes cortan el agua\") sin saber quién los va a leer, y cada uno le pidió al encargado que le avise solo del tipo de aviso que le interesa.",
+    "keyPoints": [
+      "Los eventos son mensajes chicos en JSON que describen algo que pasó.",
+      "Las reglas filtran eventos por patrón y los mandan a destinos como Lambda o SQS.",
+      "Quien emite y quien recibe quedan desacoplados; un oyente nuevo no cambia al emisor.",
+      "Incluye un scheduler para tareas a horario y repetidas."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon EventBridge? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/eventbridge/latest/userguide/eb-what-is.html" },
+      { "label": "Amazon EventBridge", "url": "https://aws.amazon.com/es/eventbridge/" }
+    ]
+  }
+}

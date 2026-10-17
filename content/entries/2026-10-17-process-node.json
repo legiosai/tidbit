@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-process-node",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["process nodes", "manufacturing node", "manufacturing nodes", "technology node", "transistor density"],
+    "es": ["nodos de proceso", "nodo de fabricación", "nodos de fabricación", "process node", "densidad de transistores"]
+  },
+  "image": "img/2026-10-17-process-node.svg",
+  "imageAlt": {
+    "en": "Three chips of the same size labeled \"7 nm\", \"5 nm\" and \"3 nm\" hold 4, 9 and 16 transistor blocks, showing more packed into the same area",
+    "es": "Tres chips del mismo tamaño con las etiquetas \"7 nm\", \"5 nm\" y \"3 nm\" contienen 4, 9 y 16 bloques de transistores: cada vez entra más en la misma superficie"
+  },
+  "en": {
+    "title": "Process node",
+    "tagline": "The name of a generation of chip manufacturing, like \"3 nm\". A label, not a size.",
+    "explanation": [
+      "A **process node** is the name a chipmaker gives to one generation of its manufacturing technology: \"7 nm\", \"5 nm\", \"3 nm\" and so on. Each new node packs transistors more tightly, so a chip of the same size can hold more of them, run faster or use less power, usually some mix of the three. Companies like TSMC, Samsung and Intel compete hard to reach the next node first, and phone and computer makers advertise which node their chips are built on.",
+      "Here is the catch: the number no longer measures anything on the chip. Decades ago it roughly matched the length of a part of the transistor called the gate. From the late 1990s on, names and physical sizes drifted apart, and today a \"3 nm\" chip has no feature that is 3 nanometers long; its key dimensions are several times larger. Transistors did keep shrinking and improving, largely by changing shape and going three-dimensional, but the names simply kept the old rhythm, each one roughly 0.7 times the previous.",
+      "So read the node as a brand for a generation: useful for comparing one company's chips over time, much less so across companies. Intel's former \"10 nm\" was roughly as dense as TSMC's \"7 nm\", which is one reason Intel renamed its later nodes. For a real comparison, engineers look at **transistor density** (how many transistors fit in a square millimeter) and at measured speed and power. The node names are a shorthand for the story of Moore's law, not a ruler."
+    ],
+    "analogy": "Like clothing sizes. A \"medium\" from one brand is not the same as a \"medium\" from another, and neither is a measurement you could check with a tape. The label tells you where the item sits in the range, not its actual dimensions.",
+    "keyPoints": [
+      "A node is a generation of chip manufacturing, named like \"5 nm\" or \"3 nm\".",
+      "Each new node fits more transistors in the same space, for more speed or less power.",
+      "The number is a label: no part of a \"3 nm\" chip is 3 nm long.",
+      "Compare chips by transistor density and measured results, not by node names."
+    ],
+    "links": [
+      { "label": "3 nm process on Wikipedia", "url": "https://en.wikipedia.org/wiki/3_nm_process" },
+      { "label": "Semiconductor device fabrication on Wikipedia", "url": "https://en.wikipedia.org/wiki/Semiconductor_device_fabrication" },
+      { "label": "A better way to measure progress in semiconductors (IEEE Spectrum)", "url": "https://spectrum.ieee.org/a-better-way-to-measure-progress-in-semiconductors" }
+    ]
+  },
+  "es": {
+    "title": "Nodo de proceso",
+    "tagline": "El nombre de una generación de chips, como \"3 nm\". Es una etiqueta, no un tamaño.",
+    "explanation": [
+      "Un **nodo de proceso** es el nombre que un fabricante de chips le pone a una generación de su tecnología de fabricación: \"7 nm\", \"5 nm\", \"3 nm\", etcétera. Cada nodo nuevo acomoda los transistores más apretados, así que un chip del mismo tamaño puede tener más, andar más rápido o gastar menos energía, casi siempre una mezcla de las tres cosas. Empresas como TSMC, Samsung e Intel compiten fuerte por llegar primero al nodo siguiente, y las marcas de celulares y computadoras anuncian en qué nodo están hechos sus chips.",
+      "Acá está la trampa: el número ya no mide nada del chip. Hace décadas coincidía más o menos con el largo de una parte del transistor llamada compuerta. Desde fines de los noventa, los nombres y los tamaños físicos se fueron separando, y hoy un chip de \"3 nm\" no tiene ninguna pieza que mida 3 nanómetros; sus medidas clave son varias veces más grandes. Los transistores sí siguieron achicándose y mejorando, en buena parte cambiando de forma y pasando a tres dimensiones, pero los nombres mantuvieron el ritmo de siempre, cada uno más o menos 0,7 veces el anterior.",
+      "Así que conviene leer el nodo como la marca de una generación: sirve para comparar los chips de una misma empresa a lo largo del tiempo, mucho menos entre empresas. El antiguo \"10 nm\" de Intel era más o menos igual de denso que el \"7 nm\" de TSMC, y esa es una de las razones por las que Intel renombró sus nodos siguientes. Para comparar en serio, los ingenieros miran la **densidad de transistores** (cuántos entran en un milímetro cuadrado) y la velocidad y el consumo medidos. Los nombres de los nodos son una forma corta de contar la historia de la ley de Moore, no una regla."
+    ],
+    "analogy": "Como los talles de ropa. Un \"M\" de una marca no es igual a un \"M\" de otra, y ninguno es una medida que puedas chequear con un centímetro. La etiqueta te dice en qué lugar del rango está la prenda, no cuánto mide.",
+    "keyPoints": [
+      "Un nodo es una generación de fabricación de chips, con nombres como \"5 nm\" o \"3 nm\".",
+      "Cada nodo nuevo mete más transistores en el mismo espacio: más velocidad o menos consumo.",
+      "El número es una etiqueta: ninguna parte de un chip de \"3 nm\" mide 3 nm.",
+      "Compará chips por densidad de transistores y resultados medidos, no por el nombre del nodo."
+    ],
+    "links": [
+      { "label": "Fabricación de circuitos integrados en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fabricaci%C3%B3n_de_circuitos_integrados" },
+      { "label": "3 nm process en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/3_nm_process" },
+      { "label": "A better way to measure progress in semiconductors, IEEE Spectrum (en inglés)", "url": "https://spectrum.ieee.org/a-better-way-to-measure-progress-in-semiconductors" }
+    ]
+  }
+}

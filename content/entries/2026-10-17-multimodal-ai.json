@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-multimodal-ai",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["multimodal", "multimodal model", "multimodal models"],
+    "es": ["multimodal", "modelo multimodal", "modelos multimodales"]
+  },
+  "image": "img/2026-10-17-multimodal-ai.svg",
+  "imageAlt": {
+    "en": "A photo of an open fridge and a spoken question, what can I cook, both go into one model, which answers try an omelette",
+    "es": "Una foto de una heladera abierta y una pregunta hablada, qué puedo cocinar, entran juntas en un modelo, que responde probá un omelette"
+  },
+  "en": {
+    "title": "Multimodal AI",
+    "tagline": "AI that works with more than one kind of data at once: text, images, sound, video.",
+    "explanation": [
+      "**Multimodal AI** is AI that works with more than one kind of information, or 'mode', at the same time: text, images, audio, video. A multimodal model can look at a photo and answer a question about it, listen to your voice and reply out loud, read a chart in a PDF, or take a sketch and turn it into a working web page.",
+      "Earlier systems handled each mode separately and chained them together: one program turned speech into text, a language model answered, another program read the answer aloud. Details got lost at each step, like tone of voice or what was in the picture. Modern multimodal models are trained on text, images and sound together, so they connect the word 'dog' with pictures of dogs and the sound of barking inside one model. Most current assistants, including ChatGPT, Claude and Gemini, accept images as well as text, and several also handle audio and video.",
+      "That opens practical uses. Photograph a strange error message, a medication label or a broken part and ask what it means. Blind and low-vision people use apps that describe their surroundings through the phone camera. Companies process scanned forms, invoices and screenshots without retyping them. The usual caveat applies with extra force: models can misread an image, miss a small detail or describe something that is not there, so important readings still need a human look."
+    ],
+    "analogy": "Like the difference between texting a friend and having them next to you: in person you can point at things, show them a photo and hear each other's tone, and they understand much more of what you mean.",
+    "keyPoints": [
+      "Handles several kinds of input or output in one model.",
+      "Common today: image plus text; many also do voice and video.",
+      "Trained on mixed data, so it links words with sights and sounds.",
+      "It can still misread images, so check what matters."
+    ],
+    "links": [
+      { "label": "What is multimodal AI? (IBM)", "url": "https://www.ibm.com/think/topics/multimodal-ai" },
+      { "label": "Multimodal learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multimodal_learning" }
+    ]
+  },
+  "es": {
+    "title": "IA multimodal",
+    "tagline": "IA que entiende, o produce, más de un tipo de dato: texto, imágenes, sonido, video.",
+    "explanation": [
+      "La **IA multimodal** es la IA que trabaja con más de un tipo de información, o 'modo', al mismo tiempo: texto, imágenes, audio, video. Un modelo multimodal puede mirar una foto y responder una pregunta sobre ella, escuchar tu voz y contestarte en voz alta, leer un gráfico dentro de un PDF o tomar un boceto y convertirlo en una página web que funciona.",
+      "Los sistemas de antes manejaban cada modo por separado y los encadenaban: un programa pasaba la voz a texto, un modelo de lenguaje respondía y otro programa leía la respuesta en voz alta. En cada paso se perdían detalles, como el tono de voz o lo que había en la imagen. Los modelos multimodales modernos se entrenan con texto, imágenes y sonido juntos, así que conectan la palabra 'perro' con fotos de perros y con el sonido de un ladrido dentro de un mismo modelo. La mayoría de los asistentes actuales, incluidos ChatGPT, Claude y Gemini, aceptan imágenes además de texto, y varios también manejan audio y video.",
+      "Eso abre usos prácticos. Sacale una foto a un mensaje de error raro, al prospecto de un remedio o a una pieza rota y preguntá qué significa. Personas ciegas o con baja visión usan apps que les describen el entorno a través de la cámara del celular. Las empresas procesan formularios escaneados, facturas y capturas de pantalla sin volver a tipearlos. La advertencia de siempre vale todavía más: el modelo puede leer mal una imagen, pasar por alto un detalle chico o describir algo que no está, así que las lecturas importantes necesitan que las mire una persona."
+    ],
+    "analogy": "Es la diferencia entre mandarle un mensaje a un amigo y tenerlo al lado: en persona podés señalar cosas, mostrarle una foto y escuchar el tono del otro, y te entiende mucho más.",
+    "keyPoints": [
+      "Maneja varios tipos de entrada o salida en un mismo modelo.",
+      "Lo más común hoy: imagen más texto; muchos también hacen voz y video.",
+      "Se entrena con datos mezclados, así que une palabras con imágenes y sonidos.",
+      "Puede leer mal una imagen, así que revisá lo que importa."
+    ],
+    "links": [
+      { "label": "¿Qué es la IA multimodal? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/multimodal-ai" },
+      { "label": "Multimodal learning en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Multimodal_learning" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-devops",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["DevOps engineer", "DevOps engineers", "DevOps team", "DevSecOps"],
+    "es": ["ingeniero DevOps", "ingenieros DevOps", "equipo de DevOps", "DevSecOps"]
+  },
+  "image": "img/2026-10-17-devops.svg",
+  "imageAlt": {
+    "en": "An infinity loop with plan, code, build and test on the dev side and release, deploy, operate and monitor on the ops side",
+    "es": "Un lazo infinito con plan, code, build y test del lado de desarrollo y release, deploy, operate y monitor del lado de operaciones"
+  },
+  "en": {
+    "title": "DevOps",
+    "tagline": "Breaking the wall between people who write software and people who run it.",
+    "explanation": [
+      "**DevOps** is a way of working that joins **development** (writing the software) and **operations** (running it in production) into one continuous effort. The name and the movement took off around 2009. Before, a common setup was that developers finished a feature and \"threw it over the wall\" to an operations team that had to install it, keep it alive and get woken up at 3 a.m. when it broke. Each side blamed the other.",
+      "DevOps says the same team should care about the whole life of the software, captured in the phrase \"you build it, you run it\". In practice that comes with habits and tools: CI/CD pipelines that test and deploy every change, infrastructure as code so servers are created from files instead of by hand, monitoring and alerts so problems are seen before customers report them, and blameless reviews after incidents to fix causes rather than find culprits.",
+      "It is mainly a culture and set of practices, but the word is also used as a job title: a **DevOps engineer** usually builds and maintains the pipelines, cloud infrastructure and monitoring the rest of the team relies on. Variations add other concerns to the loop, like **DevSecOps**, which builds security checks into every step instead of leaving them for the end."
+    ],
+    "analogy": "Like a restaurant where the cooks also see the dining room. If a dish keeps coming back cold, they find out that night and fix it, instead of reading a complaint from a separate department a month later.",
+    "keyPoints": [
+      "Development and operations share responsibility for software in production.",
+      "Built on automation: CI/CD, infrastructure as code, monitoring.",
+      "Aims for small, frequent, safe changes and fast recovery from failures.",
+      "It is a culture first; the job title came later."
+    ],
+    "links": [
+      { "label": "What is DevOps? (AWS)", "url": "https://aws.amazon.com/devops/what-is-devops/" },
+      { "label": "DevOps on Wikipedia", "url": "https://en.wikipedia.org/wiki/DevOps" }
+    ]
+  },
+  "es": {
+    "title": "DevOps",
+    "tagline": "Romper la pared entre quienes escriben el software y quienes lo hacen funcionar.",
+    "explanation": [
+      "**DevOps** es una forma de trabajar que junta **desarrollo** (escribir el software) y **operaciones** (hacerlo funcionar en producción) en un mismo esfuerzo continuo. El nombre y el movimiento despegaron alrededor de 2009. Antes, era común que los developers terminaran una funcionalidad y la \"tiraran por arriba de la pared\" a un equipo de operaciones que tenía que instalarla, mantenerla viva y levantarse a las 3 de la mañana cuando se rompía. Cada lado culpaba al otro.",
+      "DevOps dice que el mismo equipo tiene que ocuparse de toda la vida del software, algo que se resume en la frase \"you build it, you run it\" (si lo construís, lo operás). En la práctica eso viene con hábitos y herramientas: pipelines de CI/CD que prueban y despliegan cada cambio, infraestructura como código para que los servidores salgan de archivos y no de clics, monitoreo y alertas para ver los problemas antes de que los reporten los clientes, y revisiones sin culpables después de cada incidente para arreglar causas en vez de buscar responsables.",
+      "Es sobre todo una cultura y un conjunto de prácticas, pero la palabra también se usa como puesto: un **ingeniero DevOps** suele armar y mantener los pipelines, la infraestructura cloud y el monitoreo en los que se apoya el resto del equipo. Hay variantes que suman otras preocupaciones al ciclo, como **DevSecOps**, que mete los controles de seguridad en cada paso en vez de dejarlos para el final."
+    ],
+    "analogy": "Como un restaurante donde los cocineros también ven el salón. Si un plato vuelve frío una y otra vez, se enteran esa misma noche y lo arreglan, en lugar de leer una queja de otro departamento un mes después.",
+    "keyPoints": [
+      "Desarrollo y operaciones comparten la responsabilidad del software en producción.",
+      "Se apoya en automatización: CI/CD, infraestructura como código, monitoreo.",
+      "Busca cambios chicos, frecuentes y seguros, y recuperarse rápido de las fallas.",
+      "Primero es una cultura; el puesto de trabajo vino después."
+    ],
+    "links": [
+      { "label": "¿Qué es DevOps? (AWS)", "url": "https://aws.amazon.com/es/devops/what-is-devops/" },
+      { "label": "DevOps en Wikipedia", "url": "https://es.wikipedia.org/wiki/DevOps" }
+    ]
+  }
+}

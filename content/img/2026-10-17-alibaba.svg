@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M20 66 V40 L38 50 V40 L56 50 V30 H72 V66 Z" fill="#e6dfd0"/>
+    <path d="M24 118 L48 100 L72 118 V140 H24 Z" fill="#9bd1b9"/>
+    <rect x="130" y="26" width="140" height="122" rx="10" fill="#ffd166"/>
+    <rect x="146" y="48" width="108" height="24" rx="5" fill="#f3efe6"/>
+    <rect x="146" y="80" width="108" height="24" rx="5" fill="#f3efe6"/>
+    <rect x="146" y="112" width="108" height="24" rx="5" fill="#f3efe6"/>
+    <circle cx="342" cy="66" r="10" fill="#f4a7a7"/>
+    <path d="M324 98 Q324 80 342 80 Q360 80 360 98 Z" fill="#f4a7a7"/>
+    <rect x="20" y="170" width="360" height="30" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M76 52 H124"/><path d="M118 48 l6 4 -6 4"/>
+    <path d="M76 124 H124"/><path d="M118 120 l6 4 -6 4"/>
+    <path d="M274 86 H316"/><path d="M310 82 l6 4 -6 4"/>
+    <path d="M200 150 V166" stroke-dasharray="3 3"/>
+  </g>
+  <g fill="#2b2b2b"><rect x="40" y="182" width="16" height="6"/><rect x="120" y="182" width="16" height="6"/><rect x="264" y="182" width="16" height="6"/><rect x="344" y="182" width="16" height="6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="46" y="82">factories</text><text x="48" y="156">shops</text><text x="342" y="116">buyers</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="64">Alibaba.com</text><text x="200" y="96">Taobao · Tmall</text><text x="200" y="128">AliExpress</text>
+  </g>
+  <text x="200" y="189" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#2b2b2b">Alibaba Cloud</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">sellers pay fees and ads · cloud rents servers</text>
+</svg>

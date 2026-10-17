@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-database-schema",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["database schemas", "schema", "schemas"],
+    "es": ["esquemas de base de datos", "schema"]
+  },
+  "image": "img/2026-10-17-database-schema.svg",
+  "imageAlt": {
+    "en": "Blueprint of two tables, customers and orders, listing each column with its type, joined by a line",
+    "es": "Plano de dos tablas, customers y orders, con cada columna y su tipo, unidas por una línea"
+  },
+  "en": {
+    "title": "Database schema",
+    "tagline": "The blueprint of a database: which tables exist, their columns and how they connect.",
+    "explanation": [
+      "A **database schema** is the description of how a database is organized: which tables it has, which columns each table has, what type of value goes in each column (a number, a date, some text), which columns are required, and how tables relate to each other. It describes the shape of the data, not the data itself.",
+      "Take an online shop. The schema might say there is a `customers` table with an `id`, a `name` and an `email` that cannot be empty, and an `orders` table with an `id`, a `customer_id`, a `total` with two decimals and a `created_at` date. With that in place, the database refuses an order with a total of \"banana\" or with no customer. In SQL, the schema is written with commands like `CREATE TABLE` and changed with `ALTER TABLE`.",
+      "Schemas change as products change, and that is delicate: renaming a column can break every report and app that reads it. Teams handle this with **migrations**, small versioned scripts that change the schema step by step and can be reviewed like code. The word also has a narrower meaning in some databases, such as PostgreSQL, where a schema is a named folder that groups tables."
+    ],
+    "analogy": "The blueprint of a building: it does not tell you who lives there, but it says how many rooms there are, how big each one is and which doors connect them. You cannot put a fridge where the plan says there is a staircase.",
+    "keyPoints": [
+      "Defines tables, columns, data types, required fields and relationships.",
+      "Lets the database reject data with the wrong shape.",
+      "Written and changed in SQL, ideally through versioned migrations.",
+      "A warehouse checks the schema on write; a data lake applies it on read."
+    ],
+    "links": [
+      { "label": "Database schema on Wikipedia", "url": "https://en.wikipedia.org/wiki/Database_schema" },
+      { "label": "What is a database schema? (IBM)", "url": "https://www.ibm.com/think/topics/database-schema" }
+    ]
+  },
+  "es": {
+    "title": "Esquema de base de datos",
+    "tagline": "El plano de una base de datos: qué tablas hay, sus columnas y cómo se conectan.",
+    "explanation": [
+      "El **esquema de base de datos** (schema) es la descripción de cómo está organizada una base de datos: qué tablas tiene, qué columnas tiene cada tabla, qué tipo de valor va en cada columna (un número, una fecha, un texto), qué columnas son obligatorias y cómo se relacionan las tablas entre sí. Describe la forma de los datos, no los datos.",
+      "Pensá en una tienda online. El esquema puede decir que hay una tabla `customers` con un `id`, un `name` y un `email` que no puede quedar vacío, y una tabla `orders` con un `id`, un `customer_id`, un `total` con dos decimales y una fecha `created_at`. Con eso definido, la base rechaza un pedido con total \"banana\" o sin cliente. En SQL, el esquema se escribe con comandos como `CREATE TABLE` y se modifica con `ALTER TABLE`.",
+      "Los esquemas cambian a medida que cambia el producto, y eso es delicado: renombrar una columna puede romper todos los reportes y apps que la leen. Los equipos lo manejan con **migraciones**, pequeños scripts versionados que cambian el esquema paso a paso y se revisan como código. En algunas bases, como PostgreSQL, la palabra tiene además un sentido más chico: un schema es una carpeta con nombre que agrupa tablas."
+    ],
+    "analogy": "El plano de un edificio: no te dice quién vive ahí, pero sí cuántos ambientes hay, qué tamaño tiene cada uno y qué puertas los conectan. No podés poner una heladera donde el plano dice que hay una escalera.",
+    "keyPoints": [
+      "Define tablas, columnas, tipos de datos, campos obligatorios y relaciones.",
+      "Permite que la base rechace datos con la forma equivocada.",
+      "Se escribe y se cambia en SQL, idealmente con migraciones versionadas.",
+      "Un warehouse controla el esquema al escribir; un data lake lo aplica al leer."
+    ],
+    "links": [
+      { "label": "¿Qué es un esquema de base de datos? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/database-schema" },
+      { "label": "Database schema en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Database_schema" }
+    ]
+  }
+}

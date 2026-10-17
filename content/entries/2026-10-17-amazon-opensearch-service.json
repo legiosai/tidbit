@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-amazon-opensearch-service",
+  "date": "2026-10-17",
+  "subjects": ["aws", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["OpenSearch", "Amazon OpenSearch", "OpenSearch Service", "OpenSearch Serverless", "OpenSearch Dashboards", "Amazon Elasticsearch Service"],
+    "es": ["OpenSearch", "Amazon OpenSearch", "OpenSearch Service", "OpenSearch Serverless", "OpenSearch Dashboards", "Amazon Elasticsearch Service"]
+  },
+  "image": "img/2026-10-17-amazon-opensearch-service.svg",
+  "imageAlt": {
+    "en": "Documents and logs go into an index that maps each word to the documents containing it; a search for one word returns ranked results",
+    "es": "Documentos y logs entran a un índice que asocia cada palabra con los documentos que la contienen; una búsqueda de una palabra devuelve resultados ordenados"
+  },
+  "en": {
+    "title": "Amazon OpenSearch Service",
+    "tagline": "Managed search engine on AWS, for site search boxes and digging through logs.",
+    "explanation": [
+      "**OpenSearch** is an open source search and analytics engine, the technology behind the search box of many websites. **Amazon OpenSearch Service** runs it for you on AWS: you get a cluster that stays patched and backed up, and you send it documents to make searchable. It grew out of Elasticsearch, and the service was called Amazon Elasticsearch Service until 2021.",
+      "Its core is an **inverted index**: for every word, a list of the documents where it appears, like the index at the back of a book. That is why it can search millions of product descriptions for \"red running shoes\" in milliseconds, tolerate typos, and rank the results by relevance, things a regular database does poorly.",
+      "The other big use is logs. Apps and servers produce endless lines of text, and teams send them to OpenSearch to search for an error message, count failures per minute, or build charts in **OpenSearch Dashboards**, its visual tool. More recently it is also used for vector search, finding documents by meaning rather than exact words, which is a common piece of RAG systems. A serverless option scales capacity without managing a cluster."
+    ],
+    "analogy": "The index at the back of a giant book. Instead of reading every page to find \"volcano\", you look it up and jump straight to pages 12, 87 and 341, the most relevant first.",
+    "keyPoints": [
+      "Managed OpenSearch, the open source descendant of Elasticsearch.",
+      "Uses an inverted index for fast, typo-tolerant, ranked full-text search.",
+      "Widely used to search and chart application logs.",
+      "Also supports vector search for finding text by meaning."
+    ],
+    "links": [
+      { "label": "What is Amazon OpenSearch Service? (official docs)", "url": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html" },
+      { "label": "What is OpenSearch? (AWS)", "url": "https://aws.amazon.com/what-is/opensearch/" },
+      { "label": "OpenSearch on Wikipedia", "url": "https://en.wikipedia.org/wiki/OpenSearch_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Amazon OpenSearch Service",
+    "tagline": "Un motor de búsqueda administrado en AWS, para buscadores de sitios y para revisar logs.",
+    "explanation": [
+      "**OpenSearch** es un motor de búsqueda y análisis open source, la tecnología detrás del buscador de muchos sitios web. **Amazon OpenSearch Service** te lo corre en AWS: tenés un cluster que se mantiene actualizado y con backups, y le mandás documentos para que se puedan buscar. Nació de Elasticsearch, y el servicio se llamaba Amazon Elasticsearch Service hasta 2021.",
+      "Su corazón es un **índice invertido**: para cada palabra, una lista de los documentos donde aparece, como el índice al final de un libro. Por eso puede buscar \"zapatillas rojas para correr\" entre millones de descripciones de productos en milisegundos, tolerar errores de tipeo y ordenar los resultados por relevancia, cosas que una base de datos común hace mal.",
+      "El otro gran uso son los logs. Las apps y los servidores generan líneas de texto sin fin, y los equipos las mandan a OpenSearch para buscar un mensaje de error, contar fallas por minuto o armar gráficos en **OpenSearch Dashboards**, su herramienta visual. Más recientemente también se usa para búsqueda vectorial, encontrar documentos por significado y no por palabras exactas, que es una pieza común de los sistemas de RAG. Una opción serverless escala la capacidad sin que administres un cluster."
+    ],
+    "analogy": "El índice al final de un libro gigante. En vez de leer cada página para encontrar \"volcán\", lo buscás y saltás directo a las páginas 12, 87 y 341, la más relevante primero.",
+    "keyPoints": [
+      "OpenSearch administrado, el descendiente open source de Elasticsearch.",
+      "Usa un índice invertido para búsqueda de texto rápida, tolerante a errores y ordenada.",
+      "Muy usado para buscar en logs de aplicaciones y graficarlos.",
+      "También soporta búsqueda vectorial para encontrar textos por significado."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon OpenSearch Service? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/opensearch-service/latest/developerguide/what-is.html" },
+      { "label": "¿Qué es OpenSearch? (AWS)", "url": "https://aws.amazon.com/es/what-is/opensearch/" },
+      { "label": "OpenSearch en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/OpenSearch_(software)" }
+    ]
+  }
+}

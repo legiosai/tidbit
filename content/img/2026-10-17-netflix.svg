@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M44 84 C20 84 18 52 42 50 C42 26 76 18 88 38 C100 18 140 24 136 50 C158 52 158 84 136 84 Z" fill="#9ac7ea" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="122" width="150" height="72" rx="10" fill="#e6dfd0"/>
+    <rect x="62" y="140" width="86" height="40" rx="5" fill="#f4a7a7"/>
+    <rect x="290" y="48" width="86" height="54" rx="5" fill="#9bd1b9"/>
+    <rect x="320" y="136" width="30" height="50" rx="5" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M318 102 V110"/><path d="M348 102 V110"/><path d="M310 110 H356"/>
+    <path d="M140 64 H282" stroke="#6b6357" stroke-dasharray="4 5"/><path d="M276 60 l6 4 -6 4" stroke="#6b6357"/>
+    <path d="M184 150 C230 150 240 90 282 84"/><path d="M276 80 l6 4 -6 4"/>
+    <path d="M184 166 H312"/><path d="M306 162 l6 4 -6 4"/>
+    <path d="M74 150 V170"/><path d="M84 150 V170"/><path d="M94 150 V170"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="88" y="62">AWS cloud</text><text x="105" y="114">internet provider</text>
+    <text x="333" y="80">TV</text><text x="335" y="202">phone</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="88" y="76">app, catalog</text><text x="124" y="164">Open</text><text x="124" y="176">Connect</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="210" y="56">menus, accounts</text><text x="250" y="182">video</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">app in the cloud · video from nearby</text>
+</svg>

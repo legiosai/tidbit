@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-security-operations-center",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["SOC", "SOCs", "security operations centre", "security operations centers"],
+    "es": ["SOC", "centros de operaciones de seguridad"]
+  },
+  "image": "img/2026-10-17-security-operations-center.svg",
+  "imageAlt": {
+    "en": "A loop of four steps around a team of analysts at their screens: monitor, detect, respond and learn",
+    "es": "Un ciclo de cuatro pasos alrededor de un equipo de analistas frente a sus pantallas: monitorear, detectar, responder y aprender"
+  },
+  "en": {
+    "title": "Security operations center",
+    "tagline": "The team that watches an organization's systems around the clock for attacks.",
+    "explanation": [
+      "A **security operations center**, or **SOC**, is the team (and often the room) in charge of watching an organization's systems for attacks and reacting when one happens. Think of it as the security guards of the digital side: they monitor alerts day and night, decide which ones are real, and contain the damage when something gets through.",
+      "The day-to-day work is a loop. Tools such as a SIEM and endpoint protection on every laptop send alerts. **Tier 1** analysts triage them: most are false alarms, some are a user who clicked a phishing link. Real cases go to more experienced analysts who investigate, isolate an infected computer, reset stolen passwords or block an attacker's address. Afterwards the team writes down what happened and adjusts its rules so the same trick is caught earlier next time. Some SOCs also do **threat hunting**: actively looking for intruders no alert has spotted.",
+      "Running a SOC 24/7 takes several shifts of skilled people, which is expensive. That is why many mid-size companies hire one as a service from a specialized provider (often called **MDR**, managed detection and response) instead of building their own. Whatever the setup, the point is the same: attacks happen at night and on holidays too, and the sooner someone notices, the smaller the damage."
+    ],
+    "analogy": "A fire station for computers. Most calls are false alarms or a burnt toast, but the team is always on duty, knows the building, and when there is real smoke it arrives in minutes, not days.",
+    "keyPoints": [
+      "A SOC monitors, detects, responds to and learns from security incidents.",
+      "Analysts are organized in tiers: triage first, deep investigation after.",
+      "Its main tools are a SIEM, endpoint protection and well-rehearsed playbooks.",
+      "Many organizations rent a SOC as a managed service instead of staffing one."
+    ],
+    "links": [
+      { "label": "Security operations center on Wikipedia", "url": "https://en.wikipedia.org/wiki/Security_operations_center" },
+      { "label": "What is a security operations center? (IBM)", "url": "https://www.ibm.com/think/topics/security-operations-center" }
+    ]
+  },
+  "es": {
+    "title": "Centro de operaciones de seguridad",
+    "tagline": "El equipo que vigila los sistemas de una organización día y noche contra ataques.",
+    "explanation": [
+      "Un **centro de operaciones de seguridad**, o **SOC** por su sigla en inglés, es el equipo (y muchas veces la sala) que vigila los sistemas de una organización para detectar ataques y reaccionar cuando ocurre uno. Pensalo como la seguridad del lado digital: miran alertas de día y de noche, deciden cuáles son reales y contienen el daño cuando algo logra pasar.",
+      "El trabajo diario es un ciclo. Herramientas como un SIEM y la protección instalada en cada laptop mandan alertas. Los analistas de **nivel 1** las clasifican: la mayoría son falsas alarmas, alguna es un usuario que hizo clic en un link de phishing. Los casos reales pasan a analistas con más experiencia que investigan, aíslan una computadora infectada, resetean contraseñas robadas o bloquean la dirección de un atacante. Después el equipo documenta qué pasó y ajusta sus reglas para que el mismo truco se detecte antes la próxima vez. Algunos SOC también hacen **threat hunting**: salen a buscar intrusos que ninguna alerta detectó.",
+      "Sostener un SOC las 24 horas necesita varios turnos de gente capacitada, y eso es caro. Por eso muchas empresas medianas lo contratan como servicio a un proveedor especializado (suele llamarse **MDR**, detección y respuesta gestionadas) en vez de armar uno propio. Sea cual sea el formato, la idea es la misma: los ataques también pasan de noche y en feriados, y cuanto antes alguien se da cuenta, menor es el daño."
+    ],
+    "analogy": "Un cuartel de bomberos para las computadoras. La mayoría de los llamados son falsas alarmas o una tostada quemada, pero el equipo siempre está de guardia, conoce el edificio y, cuando hay humo de verdad, llega en minutos y no en días.",
+    "keyPoints": [
+      "Un SOC monitorea, detecta, responde y aprende de los incidentes de seguridad.",
+      "Los analistas se organizan en niveles: primero se clasifica, después se investiga a fondo.",
+      "Sus herramientas principales son un SIEM, la protección de los equipos y procedimientos bien ensayados.",
+      "Muchas organizaciones alquilan un SOC como servicio en vez de armar el suyo."
+    ],
+    "links": [
+      { "label": "Centro de operaciones de seguridad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Centro_de_operaciones_de_seguridad" },
+      { "label": "¿Qué es un centro de operaciones de seguridad? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/security-operations-center" }
+    ]
+  }
+}

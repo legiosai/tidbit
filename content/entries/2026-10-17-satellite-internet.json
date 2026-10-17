@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-satellite-internet",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["satellite broadband", "satellite connection"],
+    "es": ["internet por satélite", "conexión satelital"]
+  },
+  "image": "img/2026-10-17-satellite-internet.svg",
+  "imageAlt": {
+    "en": "A dish on a house roof talks to a satellite in low orbit, which relays to a ground station connected to the internet; far above, a satellite in high orbit is labeled more delay",
+    "es": "Una antena en el techo de una casa habla con un satélite en órbita baja, que retransmite a una estación terrestre conectada a internet; mucho más arriba, un satélite en órbita alta tiene la etiqueta más demora"
+  },
+  "en": {
+    "title": "Satellite internet",
+    "tagline": "Internet access beamed from space to a dish, where cables and cell towers don't reach.",
+    "explanation": [
+      "**Satellite internet** connects a home, a ship or a plane to the internet without any cable running to it. A small dish or flat antenna points at the sky and exchanges radio signals with a satellite. The satellite relays them to a **ground station**, a site with big antennas that is plugged into the regular internet. Everything you send and receive makes that trip up and down.",
+      "For decades the satellites sat in **geostationary orbit**, roughly 36,000 km up, where one satellite seems fixed in the sky and covers a third of the planet. The catch is distance: the signal takes roughly half a second to go up, down, and back again, so video calls feel awkward and online games are nearly unplayable, even when downloads are reasonably fast.",
+      "Newer systems use thousands of smaller satellites in **low Earth orbit**, a few hundred to about two thousand kilometers up. Being closer, they cut the delay, the latency, to something similar to a regular home connection. Because each one crosses the sky in minutes, the dish keeps handing your connection from one satellite to the next. SpaceX's Starlink is the best-known example; others are being built.",
+      "It is a lifeline for rural areas, islands, boats, flights and places where a disaster knocked out the ground network. The trade-offs: the dish needs a clear view of the sky, heavy rain or snow can weaken the signal, and capacity is shared among everyone under the same patch of sky. Large constellations also raise concerns about space debris and about streaks across astronomers' images."
+    ],
+    "analogy": "Shouting to a friend across a valley by bouncing your voice off a mountain. A distant mountain carries it far but the echo comes back late; a closer hill answers quickly, but you need many hills to cover the whole valley.",
+    "keyPoints": [
+      "A dish talks to a satellite, which relays to a ground station on the internet.",
+      "High geostationary satellites add roughly half a second of delay.",
+      "Low-orbit constellations use thousands of satellites to cut that delay.",
+      "Needs a clear view of the sky; heavy weather can slow it down."
+    ],
+    "links": [
+      { "label": "Satellite internet access on Wikipedia", "url": "https://en.wikipedia.org/wiki/Satellite_Internet_access" },
+      { "label": "Low Earth orbit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Low_Earth_orbit" },
+      { "label": "Geostationary orbit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Geostationary_orbit" }
+    ]
+  },
+  "es": {
+    "title": "Internet satelital",
+    "tagline": "Internet que llega desde el espacio a una antena, donde no llegan los cables.",
+    "explanation": [
+      "El **internet satelital** conecta una casa, un barco o un avión a internet sin que le llegue ningún cable. Una antena chica, parabólica o plana, apunta al cielo e intercambia señales de radio con un satélite. El satélite las retransmite a una **estación terrestre**, un lugar con antenas grandes conectado al internet de siempre. Todo lo que mandás y recibís hace ese viaje de subida y de bajada.",
+      "Durante décadas los satélites estuvieron en **órbita geoestacionaria**, a unos 36.000 km de altura, donde un satélite parece quieto en el cielo y cubre un tercio del planeta. El problema es la distancia: la señal tarda más o menos medio segundo en subir, bajar y volver, así que las videollamadas se sienten incómodas y los juegos online son casi imposibles, aunque las descargas sean bastante rápidas.",
+      "Los sistemas más nuevos usan miles de satélites más chicos en **órbita baja**, de unos cientos a unos dos mil kilómetros de altura. Al estar más cerca, bajan la demora, la latencia, a algo parecido a una conexión hogareña común. Como cada uno cruza el cielo en minutos, la antena va pasando tu conexión de un satélite al siguiente. Starlink, de SpaceX, es el ejemplo más conocido; hay otros en construcción.",
+      "Es un salvavidas para zonas rurales, islas, barcos, vuelos y lugares donde un desastre tiró abajo la red terrestre. Las contras: la antena necesita ver el cielo despejado, la lluvia o la nieve fuertes pueden debilitar la señal, y la capacidad se comparte entre todos los que están bajo el mismo pedazo de cielo. Las constelaciones grandes además preocupan por la basura espacial y por las rayas que dejan en las imágenes de los astrónomos."
+    ],
+    "analogy": "Gritarle a un amigo del otro lado de un valle rebotando la voz en una montaña. Una montaña lejana la lleva lejos pero el eco vuelve tarde; una loma cercana contesta rápido, pero necesitás muchas lomas para cubrir todo el valle.",
+    "keyPoints": [
+      "Una antena habla con un satélite, que retransmite a una estación terrestre conectada a internet.",
+      "Los satélites geoestacionarios, muy altos, suman más o menos medio segundo de demora.",
+      "Las constelaciones en órbita baja usan miles de satélites para achicar esa demora.",
+      "Necesita ver el cielo despejado; el mal tiempo fuerte la puede frenar."
+    ],
+    "links": [
+      { "label": "Internet por satélite en Wikipedia", "url": "https://es.wikipedia.org/wiki/Internet_por_sat%C3%A9lite" },
+      { "label": "Órbita terrestre baja en Wikipedia", "url": "https://es.wikipedia.org/wiki/%C3%93rbita_terrestre_baja" },
+      { "label": "Órbita geoestacionaria en Wikipedia", "url": "https://es.wikipedia.org/wiki/%C3%93rbita_geoestacionaria" }
+    ]
+  }
+}

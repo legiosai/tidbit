@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-spreadsheet-vs-database",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["spreadsheet", "spreadsheets", "Excel", "Microsoft Excel", "Google Sheets"],
+    "es": ["planilla", "planillas", "planilla de cálculo", "hoja de cálculo", "hojas de cálculo", "Excel", "Microsoft Excel", "Google Sheets"]
+  },
+  "image": "img/2026-10-17-spreadsheet-vs-database.svg",
+  "imageAlt": {
+    "en": "On the left, several copies of a spreadsheet file with slightly different names and conflicting numbers; on the right, one database that several people and apps use at the same time",
+    "es": "A la izquierda, varias copias de una planilla con nombres apenas distintos y números que no coinciden; a la derecha, una sola base de datos que usan varias personas y apps al mismo tiempo"
+  },
+  "en": {
+    "title": "Spreadsheet vs database",
+    "tagline": "Why a company that runs on Excel eventually needs a real database.",
+    "explanation": [
+      "A **spreadsheet**, like Excel or Google Sheets, is a grid where you can type anything in any cell and add formulas. That freedom is its strength: anyone can start a customer list or a budget in minutes. A **database** is stricter. You define the structure first (this column is a date, this one an email, every order must belong to an existing customer), and the system enforces it for every record, forever.",
+      "Most businesses start on spreadsheets, and the trouble arrives with growth. Copies multiply by email, and nobody knows whether `clients_final_v3.xlsx` or `clients_final_REAL.xlsx` is current. Two people edit at once and one overwrites the other. Someone types \"N/A\" in a price column and a total silently goes wrong. Files get slow, and Excel itself stops at roughly a million rows. And there is no reliable record of who changed what, or a way to let one person see only their own region.",
+      "A database solves those exact problems: one shared source of truth, many people and apps reading and writing safely at the same time, rules that reject bad data, relationships between tables so customer details live in one place, permissions and backups. The move does not have to be dramatic. Many teams go first to tools like Airtable, then to a proper database with an app or a BI tool on top, and keep spreadsheets for what they do best: quick personal analysis."
+    ],
+    "analogy": "A spreadsheet is a notebook: perfect for one person, flexible, fast. A database is the reception desk of a busy clinic: forms with required fields, one shared appointment book, and rules that stop two patients being booked in the same slot.",
+    "keyPoints": [
+      "Spreadsheets are flexible; databases enforce structure and rules.",
+      "Warning signs: many file versions, overwritten edits, broken totals, slow files.",
+      "Databases handle many simultaneous users, permissions and history.",
+      "Spreadsheets stay useful for quick analysis on top of the database."
+    ],
+    "links": [
+      { "label": "What is a database? (AWS)", "url": "https://aws.amazon.com/what-is/database/" },
+      { "label": "Spreadsheet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Spreadsheet" },
+      { "label": "Database on Wikipedia", "url": "https://en.wikipedia.org/wiki/Database" }
+    ]
+  },
+  "es": {
+    "title": "Planilla vs base de datos",
+    "tagline": "Por qué una empresa que vive en Excel termina necesitando una base de datos de verdad.",
+    "explanation": [
+      "Una **planilla** (hoja de cálculo), como Excel o Google Sheets, es una grilla donde podés escribir cualquier cosa en cualquier celda y sumar fórmulas. Esa libertad es su fuerza: cualquiera arma una lista de clientes o un presupuesto en minutos. Una **base de datos** es más estricta. Definís la estructura primero (esta columna es una fecha, esta un email, cada pedido tiene que pertenecer a un cliente que exista) y el sistema la hace cumplir en cada registro, siempre.",
+      "La mayoría de los negocios arranca con planillas, y los problemas llegan con el crecimiento. Las copias se multiplican por mail y nadie sabe si la vigente es `clientes_final_v3.xlsx` o `clientes_final_POSTA.xlsx`. Dos personas editan a la vez y una pisa a la otra. Alguien escribe \"N/A\" en una columna de precios y un total queda mal sin que nadie lo note. Los archivos se ponen lentos, y Excel mismo tiene un tope de más o menos un millón de filas. Y no hay un registro confiable de quién cambió qué, ni forma de que alguien vea solo los datos de su zona.",
+      "Una base de datos resuelve justo esos problemas: una sola fuente de verdad compartida, muchas personas y apps leyendo y escribiendo seguras al mismo tiempo, reglas que rechazan datos mal cargados, relaciones entre tablas para que los datos de un cliente vivan en un solo lugar, permisos y backups. El salto no tiene que ser dramático. Muchos equipos pasan primero por herramientas como Airtable, después a una base de datos en serio con una app o una herramienta de BI encima, y siguen usando planillas para lo que mejor hacen: análisis rápidos personales."
+    ],
+    "analogy": "Una planilla es un cuaderno: perfecto para una persona, flexible, rápido. Una base de datos es la recepción de una clínica con mucho movimiento: formularios con campos obligatorios, una sola agenda de turnos compartida y reglas que impiden dar el mismo turno a dos pacientes.",
+    "keyPoints": [
+      "Las planillas son flexibles; las bases de datos hacen cumplir estructura y reglas.",
+      "Señales de alerta: muchas versiones del archivo, cambios pisados, totales rotos, archivos lentos.",
+      "Las bases de datos manejan muchos usuarios a la vez, permisos e historial.",
+      "Las planillas siguen sirviendo para análisis rápidos encima de la base."
+    ],
+    "links": [
+      { "label": "¿Qué es una base de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/database/" },
+      { "label": "Hoja de cálculo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hoja_de_c%C3%A1lculo" },
+      { "label": "Base de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Base_de_datos" }
+    ]
+  }
+}

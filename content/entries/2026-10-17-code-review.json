@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-code-review",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["code reviews", "pull request", "pull requests", "merge request", "merge requests"],
+    "es": ["code review", "revisiones de código", "pull request", "pull requests", "merge request", "merge requests"]
+  },
+  "image": "img/2026-10-17-code-review.svg",
+  "imageAlt": {
+    "en": "A branch with a change opens a pull request; a reviewer leaves a comment, automated checks pass, and after approval it is merged into main",
+    "es": "Una rama con un cambio abre un pull request; una revisora deja un comentario, los chequeos automáticos pasan y, después de la aprobación, se integra en main"
+  },
+  "en": {
+    "title": "Code review",
+    "tagline": "Having another person read a code change before it becomes part of the product.",
+    "explanation": [
+      "**Code review** is the practice of having at least one other developer read and approve a change before it is merged into the main code. Today it almost always happens through a **pull request** (GitLab calls it a **merge request**): the author pushes their change to a separate branch, opens a page that shows exactly which lines were added and removed, and explains why.",
+      "Reviewers read the diff and leave comments on specific lines: \"this breaks if the list is empty\", \"there is already a function for this\", \"can we name it something clearer?\". The author answers or updates the change, and the conversation repeats until a reviewer **approves** it. Meanwhile automated checks run on the same pull request, from tests to formatting rules, so humans can focus on what machines cannot judge.",
+      "It catches bugs, but research and experience suggest its bigger value is spreading knowledge: more than one person understands each part of the system, newcomers learn the codebase's conventions, and decisions are written down next to the code. It works best with small changes, which are reviewed faster and more carefully than huge ones, and with a kind, specific tone, since the code is being reviewed, not the person. AI tools now often add a first pass of automated review comments."
+    ],
+    "analogy": "Like having a colleague proofread an important email before you send it to a client. They catch typos, but more often they say \"this part could be misunderstood\", and next time you write it better yourself.",
+    "keyPoints": [
+      "A pull request shows the exact change and collects the discussion about it.",
+      "Usually at least one approval is required before merging.",
+      "Shares knowledge as much as it catches bugs.",
+      "Small changes get better reviews than big ones."
+    ],
+    "links": [
+      { "label": "About pull request reviews (GitHub docs)", "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews" },
+      { "label": "Google's code review guidelines", "url": "https://google.github.io/eng-practices/review/" },
+      { "label": "Code review on Wikipedia", "url": "https://en.wikipedia.org/wiki/Code_review" }
+    ]
+  },
+  "es": {
+    "title": "Revisión de código",
+    "tagline": "Que otra persona lea un cambio de código antes de que pase a ser parte del producto.",
+    "explanation": [
+      "La **revisión de código** (code review) es la práctica de que al menos otro developer lea y apruebe un cambio antes de que se integre al código principal. Hoy casi siempre pasa a través de un **pull request** (GitLab lo llama **merge request**): quien escribió el cambio lo sube a una rama aparte, abre una página que muestra exactamente qué líneas se agregaron y cuáles se sacaron, y explica por qué.",
+      "Quienes revisan leen el diff y dejan comentarios en líneas puntuales: \"esto se rompe si la lista está vacía\", \"ya hay una función para esto\", \"¿le ponemos un nombre más claro?\". El autor responde o actualiza el cambio, y la charla sigue hasta que alguien lo **aprueba**. Mientras tanto, en el mismo pull request corren chequeos automáticos, desde tests hasta reglas de formato, para que las personas se concentren en lo que las máquinas no pueden juzgar.",
+      "Atrapa bugs, pero la investigación y la experiencia sugieren que su valor más grande es repartir conocimiento: más de una persona entiende cada parte del sistema, quien recién llega aprende las convenciones del código y las decisiones quedan escritas al lado del código. Funciona mejor con cambios chicos, que se revisan más rápido y con más cuidado que los enormes, y con un tono amable y concreto, porque se revisa el código, no a la persona. Hoy muchas veces hay herramientas de IA que dejan una primera ronda de comentarios automáticos."
+    ],
+    "analogy": "Como pedirle a un colega que lea un mail importante antes de mandárselo a un cliente. Encuentra errores de tipeo, pero más seguido te dice \"esta parte se puede malinterpretar\", y la próxima vez lo escribís mejor solo.",
+    "keyPoints": [
+      "Un pull request muestra el cambio exacto y junta toda la discusión sobre él.",
+      "Normalmente hace falta al menos una aprobación antes de integrar.",
+      "Reparte conocimiento tanto como atrapa bugs.",
+      "Los cambios chicos reciben mejores revisiones que los grandes."
+    ],
+    "links": [
+      { "label": "Acerca de las revisiones de pull requests (documentación de GitHub)", "url": "https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews" },
+      { "label": "Revisión de código en Wikipedia", "url": "https://es.wikipedia.org/wiki/Revisi%C3%B3n_de_c%C3%B3digo" },
+      { "label": "Guía de code review de Google (en inglés)", "url": "https://google.github.io/eng-practices/review/" }
+    ]
+  }
+}

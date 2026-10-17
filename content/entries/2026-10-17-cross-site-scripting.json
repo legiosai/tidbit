@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-cross-site-scripting",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["XSS", "cross site scripting"],
+    "es": ["XSS", "cross site scripting"]
+  },
+  "image": "img/2026-10-17-cross-site-scripting.svg",
+  "imageAlt": {
+    "en": "An attacker posts a comment with hidden code to a site; the site shows it to another visitor, whose browser runs it and sends their session cookie to the attacker",
+    "es": "Un atacante publica un comentario con código escondido en un sitio; el sitio se lo muestra a otro visitante, cuyo navegador lo ejecuta y le manda la cookie de sesión al atacante"
+  },
+  "en": {
+    "title": "Cross-site scripting",
+    "tagline": "Sneaking code into a website so it runs in other visitors' browsers.",
+    "explanation": [
+      "Websites constantly show text that someone else wrote: comments, product reviews, usernames, the words you searched for. **Cross-site scripting**, almost always called **XSS**, happens when a site shows that text without making sure it stays text. If an attacker writes a comment that contains a bit of JavaScript disguised inside HTML, and the site pastes it into the page as is, every visitor's web browser reads it as part of the page and runs it.",
+      "That code runs with the site's own identity. It can read what the page shows, act as the logged-in visitor (post, change settings, send messages), show a fake login box, or grab session cookies so the attacker can take over the account. The visitor did nothing wrong: they opened a trusted site. The flaw is in the site, which let an outsider's code into its pages.",
+      "There are a few versions. **Stored** XSS lives in the site's database, like the comment above, and hits everyone who views it. **Reflected** XSS bounces off a link: the malicious bit is in the URL and the page echoes it back to whoever clicks. **DOM-based** XSS happens entirely inside the browser, in the site's own JavaScript.",
+      "The defenses are well known. Developers **escape** or encode anything that came from outside before putting it in a page, so `<` shows up as the character instead of starting a tag; modern frameworks do this automatically. A **Content Security Policy** tells the browser which scripts the site actually expects, and marking session cookies as `HttpOnly` keeps scripts from reading them. OWASP's guidance covers all of this in detail."
+    ],
+    "analogy": "A community bulletin board where the person in charge reads every note aloud to the room. If someone pins up a note saying 'everyone, hand your house keys to the person by the door', a careless reader announces it as if it were official. A good reader says 'this note says…' and never treats it as an order.",
+    "keyPoints": [
+      "XSS puts an attacker's script into a trusted page, run by other visitors.",
+      "The script acts with the visitor's session on that site.",
+      "Stored, reflected and DOM-based are the three main variants.",
+      "Escaping output, Content Security Policy and HttpOnly cookies are the main defenses."
+    ],
+    "links": [
+      { "label": "Cross Site Scripting (OWASP)", "url": "https://owasp.org/www-community/attacks/xss/" },
+      { "label": "Cross-site scripting (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/XSS" },
+      { "label": "Cross-site scripting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cross-site_scripting" }
+    ]
+  },
+  "es": {
+    "title": "Cross-site scripting",
+    "tagline": "Meter código en un sitio web para que se ejecute en los navegadores de otros visitantes.",
+    "explanation": [
+      "Los sitios web muestran todo el tiempo texto que escribió otra persona: comentarios, reseñas, nombres de usuario, lo que buscaste. El **cross-site scripting**, que casi todos llaman **XSS**, ocurre cuando un sitio muestra ese texto sin asegurarse de que siga siendo texto. Si un atacante escribe un comentario con un poco de JavaScript disfrazado dentro de HTML, y el sitio lo pega en la página tal cual, el navegador web de cada visitante lo lee como parte de la página y lo ejecuta.",
+      "Ese código corre con la identidad del propio sitio. Puede leer lo que muestra la página, actuar como el visitante logueado (publicar, cambiar configuraciones, mandar mensajes), mostrar un cuadro de login falso o llevarse las cookies de sesión para que el atacante se quede con la cuenta. El visitante no hizo nada mal: abrió un sitio confiable. La falla está en el sitio, que dejó entrar código de afuera a sus páginas.",
+      "Hay algunas variantes. El XSS **almacenado** vive en la base de datos del sitio, como el comentario de arriba, y afecta a todos los que lo ven. El XSS **reflejado** rebota en un enlace: la parte maliciosa está en la URL y la página se la devuelve a quien hace clic. El XSS **basado en DOM** pasa entero dentro del navegador, en el propio JavaScript del sitio.",
+      "Las defensas son conocidas. Los desarrolladores **escapan** o codifican todo lo que viene de afuera antes de ponerlo en una página, así un `<` aparece como el carácter en vez de abrir una etiqueta; los frameworks modernos lo hacen solos. Una **Content Security Policy** le dice al navegador qué scripts espera realmente el sitio, y marcar las cookies de sesión como `HttpOnly` evita que los scripts las lean. La guía de OWASP cubre todo esto en detalle."
+    ],
+    "analogy": "Una cartelera de un club donde el encargado lee en voz alta cada nota. Si alguien pincha una que dice 'todos, denle las llaves de su casa a la persona de la puerta', un lector distraído la anuncia como si fuera oficial. Un buen lector dice 'esta nota dice…' y nunca la trata como una orden.",
+    "keyPoints": [
+      "El XSS mete el script de un atacante en una página confiable, que ejecutan otros visitantes.",
+      "El script actúa con la sesión del visitante en ese sitio.",
+      "Almacenado, reflejado y basado en DOM son las tres variantes principales.",
+      "Escapar la salida, la Content Security Policy y las cookies HttpOnly son las defensas principales."
+    ],
+    "links": [
+      { "label": "Cross-site scripting (MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Cross-site_scripting" },
+      { "label": "Cross-site scripting en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cross-site_scripting" },
+      { "label": "Cross Site Scripting, OWASP (en inglés)", "url": "https://owasp.org/www-community/attacks/xss/" }
+    ]
+  }
+}

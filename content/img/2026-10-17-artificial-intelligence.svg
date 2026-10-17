@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="200" cy="116" rx="182" ry="96" fill="#e6dfd0"/>
+    <ellipse cx="200" cy="126" rx="140" ry="74" fill="#9ac7ea"/>
+    <ellipse cx="200" cy="136" rx="100" ry="52" fill="#9bd1b9"/>
+    <ellipse cx="200" cy="148" rx="60" ry="28" fill="#ffd166"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="40">artificial intelligence</text>
+    <text x="200" y="70">machine learning</text>
+    <text x="200" y="104">deep learning</text>
+    <text x="200" y="153">generative AI</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">each one is a part of the one around it</text>
+</svg>

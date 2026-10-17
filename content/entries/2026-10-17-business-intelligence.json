@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-17-business-intelligence",
+  "date": "2026-10-17",
+  "subjects": [
+    "data"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "BI",
+      "BI tool",
+      "BI tools"
+    ],
+    "es": [
+      "BI",
+      "inteligencia de negocios",
+      "inteligencia empresarial",
+      "herramienta de BI",
+      "herramientas de BI"
+    ]
+  },
+  "image": "img/2026-10-17-business-intelligence.svg",
+  "imageAlt": {
+    "en": "Sales, finance and CRM data flow into a data warehouse, and from there into a dashboard with a big number, a line chart and a bar chart",
+    "es": "Datos de ventas, finanzas y CRM fluyen a un data warehouse y de ahí a un dashboard con un número grande, un gráfico de líneas y uno de barras"
+  },
+  "en": {
+    "title": "Business intelligence",
+    "tagline": "Turning a company's data into reports and dashboards people use to decide.",
+    "explanation": [
+      "**Business intelligence**, or **BI**, is the set of tools and practices that turn a company's raw data into reports, charts and **dashboards** that people can read without writing code. A sales manager opens a page on Monday and sees revenue by region, this month against last, and which products are falling behind. That page is BI.",
+      "Behind the dashboard there is usually a pipeline. Data from the systems a company runs on, like sales, billing, the CRM and the website, is copied by ETL processes into a data warehouse, cleaned and organized into tables with agreed definitions. BI tools such as Power BI, Tableau, Looker or Amazon QuickSight connect to that warehouse, run SQL behind the scenes and draw the results as charts that update on their own.",
+      "The hard part is rarely the charts. It is agreeing on what the numbers mean: does \"active customer\" mean bought this month or logged in this year? Good BI teams define these **KPIs**, key performance indicators, once and reuse them everywhere, so two departments do not arrive at a meeting with different totals. BI mostly answers \"what happened and where?\"; predicting what will happen next is usually the job of data science."
+    ],
+    "analogy": "Like the dashboard of a car. You do not need to understand the engine to see your speed, fuel and warning lights at a glance, but someone had to wire the sensors correctly for those gauges to tell the truth.",
+    "keyPoints": [
+      "Reports and dashboards that let non-technical people explore data.",
+      "Usually built on top of a data warehouse fed by ETL.",
+      "Shared definitions of each KPI matter more than pretty charts.",
+      "Describes what happened; prediction is closer to data science."
+    ],
+    "links": [
+      {
+        "label": "What is business intelligence? (AWS)",
+        "url": "https://aws.amazon.com/what-is/business-intelligence/"
+      },
+      {
+        "label": "Business intelligence on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Business_intelligence"
+      }
+    ]
+  },
+  "es": {
+    "title": "Business intelligence",
+    "tagline": "Convertir los datos de una empresa en reportes y dashboards que sirven para decidir.",
+    "explanation": [
+      "El **business intelligence**, o **BI** (inteligencia de negocios), es el conjunto de herramientas y prácticas que convierte los datos crudos de una empresa en reportes, gráficos y **dashboards** que la gente puede leer sin escribir código. Un gerente de ventas abre una página el lunes y ve la facturación por región, este mes contra el anterior y qué productos vienen quedando atrás. Esa página es BI.",
+      "Detrás del dashboard suele haber un pipeline. Los datos de los sistemas con los que funciona la empresa, como ventas, facturación, el CRM y el sitio web, se copian con procesos de ETL a un data warehouse, donde se limpian y se ordenan en tablas con definiciones acordadas. Herramientas de BI como Power BI, Tableau, Looker o Amazon QuickSight se conectan a ese warehouse, corren SQL por detrás y dibujan los resultados en gráficos que se actualizan solos.",
+      "La parte difícil casi nunca son los gráficos. Es ponerse de acuerdo en qué significan los números: ¿\"cliente activo\" es el que compró este mes o el que entró este año? Los buenos equipos de BI definen estos **KPIs**, indicadores clave de desempeño, una sola vez y los reusan en todos lados, para que dos áreas no lleguen a una reunión con totales distintos. El BI responde sobre todo \"¿qué pasó y dónde?\"; predecir lo que va a pasar suele ser trabajo de la ciencia de datos."
+    ],
+    "analogy": "Como el tablero de un auto. No hace falta entender el motor para ver de un vistazo la velocidad, la nafta y las luces de alerta, pero alguien tuvo que conectar bien los sensores para que esos indicadores digan la verdad.",
+    "keyPoints": [
+      "Reportes y dashboards que permiten a gente no técnica explorar datos.",
+      "Suele armarse sobre un data warehouse alimentado por ETL.",
+      "Las definiciones compartidas de cada KPI importan más que los gráficos lindos.",
+      "Describe lo que pasó; predecir está más cerca de la ciencia de datos."
+    ],
+    "links": [
+      {
+        "label": "¿Qué es la inteligencia empresarial? (AWS)",
+        "url": "https://aws.amazon.com/es/what-is/business-intelligence/"
+      },
+      {
+        "label": "Inteligencia empresarial en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Inteligencia_empresarial"
+      }
+    ]
+  }
+}

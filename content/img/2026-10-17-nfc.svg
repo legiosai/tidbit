@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="40" width="72" height="46" rx="6" fill="#ffd166"/>
+    <rect x="36" y="52" width="18" height="14" rx="2" fill="#e6dfd0"/>
+    <rect x="128" y="60" width="56" height="108" rx="10" fill="#9bd1b9"/>
+    <rect x="232" y="44" width="120" height="150" rx="12" fill="#e6dfd0"/>
+    <rect x="248" y="58" width="88" height="40" rx="4" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M196 102 a14 14 0 0 1 0 24"/><path d="M206 94 a24 24 0 0 1 0 40"/>
+    <path d="M186 186 H230"/><path d="M186 180 V192 M230 180 V192"/>
+    <path d="M276 150 a10 10 0 0 1 0 16 M284 144 a18 18 0 0 1 0 28 M292 138 a26 26 0 0 1 0 40"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="292" y="83">pay</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="156" y="118">phone</text>
+    <text x="292" y="124">reader</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="60" y="102">tag: no battery</text>
+    <text x="208" y="206">a few cm</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">works only at a tap's distance</text>
+</svg>

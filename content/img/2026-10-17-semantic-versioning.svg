@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <text x="200" y="34" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#6b6357">version 2.4.1</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="70" y="50" width="70" height="44" rx="10" fill="#f4a7a7"/>
+    <rect x="165" y="50" width="70" height="44" rx="10" fill="#ffd166"/>
+    <rect x="260" y="50" width="70" height="44" rx="10" fill="#9bd1b9"/>
+  </g>
+  <g fill="#2b2b2b">
+    <circle cx="152" cy="84" r="3"/><circle cx="247" cy="84" r="3"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="14" font-weight="bold" fill="#2b2b2b" text-anchor="middle">
+    <text x="105" y="77">2</text><text x="200" y="77">4</text><text x="295" y="77">1</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M105 98 V124"/><path d="M200 98 V124"/><path d="M295 98 V124"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="105" y="142">MAJOR</text><text x="200" y="142">MINOR</text><text x="295" y="142">PATCH</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="105" y="162">may break</text><text x="105" y="177">your code</text>
+    <text x="200" y="162">new features,</text><text x="200" y="177">compatible</text>
+    <text x="295" y="162">bug fixes</text><text x="295" y="177">only</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="105" y="198">3.0.0</text><text x="200" y="198">2.5.0</text><text x="295" y="198">2.4.2</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">which number moved tells you the risk</text>
+</svg>

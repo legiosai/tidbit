@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-bluetooth",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["Bluetooth Low Energy", "BLE", "Bluetooth LE"],
+    "es": ["Bluetooth Low Energy", "BLE", "Bluetooth LE", "bluetooth de bajo consumo"]
+  },
+  "image": "img/2026-10-17-bluetooth.svg",
+  "imageAlt": {
+    "en": "A phone in the middle of a dashed circle showing its short range, linked to headphones and a watch inside the circle, while a speaker outside the circle is out of range",
+    "es": "Un celular en el centro de un círculo punteado que marca su corto alcance, unido a unos auriculares y un reloj dentro del círculo, mientras un parlante afuera queda fuera de alcance"
+  },
+  "en": {
+    "title": "Bluetooth",
+    "tagline": "Short-range wireless for connecting nearby gadgets: headphones, watches, keyboards.",
+    "explanation": [
+      "**Bluetooth** is a wireless standard for connecting devices that are close to each other, typically within about ten meters. It is what links your phone to wireless headphones, a smartwatch, a car's audio system, a keyboard or a mouse, with no cables and no need for Wi-Fi or an internet connection. Devices from different brands work together because they follow the same specification, managed by an industry group called the Bluetooth SIG.",
+      "Before two devices can talk, they **pair**: you confirm on both that they may connect, they exchange keys, and from then on they recognize each other and reconnect automatically. Bluetooth shares radio frequencies with many Wi-Fi networks and hops quickly between many narrow channels to dodge interference. Over the years it has become faster and more efficient, and newer versions add better audio and longer range.",
+      "A low-power variant, **Bluetooth Low Energy** (BLE), is made for devices that send small amounts of data now and then and must run for months on a tiny battery: fitness trackers, item finders, medical sensors, smart locks. Phones also use it to discover devices nearby. One practical note: range and quality depend a lot on walls, other radio noise and even your own body, which is why audio can stutter when the phone is in a back pocket."
+    ],
+    "analogy": "A quiet conversation between two people standing close together. It needs no phone network or loudspeaker, but it only works within a few steps, and the two have to be introduced first.",
+    "keyPoints": [
+      "Connects nearby devices wirelessly, usually within about ten meters.",
+      "Devices pair once and then reconnect by themselves.",
+      "Bluetooth Low Energy lets small sensors run for months on a battery.",
+      "Walls and bodies weaken the signal, which can cause dropouts."
+    ],
+    "links": [
+      { "label": "Bluetooth technology overview (Bluetooth SIG)", "url": "https://www.bluetooth.com/learn-about-bluetooth/tech-overview/" },
+      { "label": "Bluetooth on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bluetooth" }
+    ]
+  },
+  "es": {
+    "title": "Bluetooth",
+    "tagline": "Conexión inalámbrica de corto alcance para auriculares, relojes y teclados.",
+    "explanation": [
+      "**Bluetooth** es un estándar inalámbrico para conectar aparatos que están cerca, en general a menos de unos diez metros. Es lo que une tu celular con unos auriculares inalámbricos, un reloj inteligente, el equipo de música del auto, un teclado o un mouse, sin cables y sin necesidad de Wi-Fi ni de conexión a internet. Aparatos de marcas distintas funcionan juntos porque siguen la misma especificación, que administra un grupo de la industria llamado Bluetooth SIG.",
+      "Antes de que dos aparatos puedan hablar, se **vinculan** (el famoso pairing): confirmás en los dos que pueden conectarse, intercambian claves y desde ahí se reconocen y se reconectan solos. Bluetooth comparte frecuencias de radio con muchas redes Wi-Fi y salta rápido entre muchos canales angostos para esquivar interferencias. Con los años se volvió más rápido y eficiente, y las versiones nuevas suman mejor audio y más alcance.",
+      "Una variante de bajo consumo, **Bluetooth Low Energy** (BLE), está hecha para aparatos que mandan pocos datos cada tanto y tienen que durar meses con una batería mínima: pulseras deportivas, rastreadores de objetos, sensores médicos, cerraduras inteligentes. Los celulares también la usan para descubrir aparatos cercanos. Un dato práctico: el alcance y la calidad dependen mucho de las paredes, del ruido de otras radios y hasta de tu propio cuerpo, y por eso el audio puede entrecortarse cuando tenés el celular en el bolsillo de atrás."
+    ],
+    "analogy": "Una charla en voz baja entre dos personas que están cerca. No necesita red telefónica ni parlante, pero solo funciona a unos pasos de distancia, y primero tienen que presentarse.",
+    "keyPoints": [
+      "Conecta aparatos cercanos sin cables, en general a menos de unos diez metros.",
+      "Los aparatos se vinculan una vez y después se reconectan solos.",
+      "Bluetooth Low Energy deja que sensores chicos duren meses con una batería.",
+      "Las paredes y los cuerpos debilitan la señal y pueden causar cortes."
+    ],
+    "links": [
+      { "label": "Bluetooth en Wikipedia", "url": "https://es.wikipedia.org/wiki/Bluetooth" },
+      { "label": "Bluetooth technology overview, Bluetooth SIG (en inglés)", "url": "https://www.bluetooth.com/learn-about-bluetooth/tech-overview/" }
+    ]
+  }
+}

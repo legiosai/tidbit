@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-video-streaming",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": ["streaming de vídeo"]
+  },
+  "image": "img/2026-10-17-video-streaming.svg",
+  "imageAlt": {
+    "en": "A video is cut into short segments stored at three quality levels; the player fills a buffer and switches between high and low quality as the connection changes",
+    "es": "Un video se corta en segmentos cortos guardados en tres calidades; el reproductor llena un buffer y pasa de calidad alta a baja según cambia la conexión"
+  },
+  "en": {
+    "title": "Video streaming",
+    "tagline": "Watching a video while it arrives in small pieces, instead of downloading it all first.",
+    "explanation": [
+      "**Video streaming** is how Netflix, YouTube or a live match reach your screen: the video starts playing after a moment, while the rest is still on its way. Behind the scenes, the video has been **compressed** with a codec such as H.264 or AV1, which shrinks it by storing only what changes from one frame to the next, and then cut into short **segments** of a few seconds each.",
+      "Each video is also prepared in several versions, from low resolution to 4K, each with a different **bitrate**: how many bits per second it needs. A small text file, the **manifest**, lists all the versions and segments. Your player reads it and requests the segments one after another over ordinary HTTP, usually from a CDN server near you, keeping a few seconds or minutes stored ahead in a **buffer**.",
+      "The clever part is **adaptive bitrate streaming**. The player constantly measures how fast segments are arriving. If your Wi-Fi slows down, it asks for the next segments in a lower quality, so the picture gets blurrier for a while but keeps moving; when the connection improves, it climbs back up. The spinning wheel of **buffering** appears only when the buffer runs empty faster than it can be refilled. HLS and MPEG-DASH are the two common formats for this, and live streams work the same way, with segments created on the fly a few seconds behind real time."
+    ],
+    "analogy": "A conveyor belt of sushi plates. You start eating as soon as the first plate arrives, the kitchen keeps a few plates ahead of you, and if it gets busy it sends simpler dishes so you never sit in front of an empty belt.",
+    "keyPoints": [
+      "The video is compressed and cut into segments of a few seconds.",
+      "Each video exists at several bitrates; a manifest lists them.",
+      "The player switches quality segment by segment to match your connection.",
+      "Buffering happens when the buffer empties faster than it refills."
+    ],
+    "links": [
+      { "label": "Adaptive bitrate streaming on Wikipedia", "url": "https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" },
+      { "label": "Streaming audio and video (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Streaming" },
+      { "label": "Streaming media on Wikipedia", "url": "https://en.wikipedia.org/wiki/Streaming_media" }
+    ]
+  },
+  "es": {
+    "title": "Streaming de video",
+    "tagline": "Ver un video mientras llega de a pedacitos, sin esperar a tener el archivo entero.",
+    "explanation": [
+      "El **streaming de video** es la forma en que Netflix, YouTube o un partido en vivo llegan a tu pantalla: el video arranca después de un instante, mientras el resto todavía viene en camino. Por detrás, el video se **comprimió** con un códec como H.264 o AV1, que lo achica guardando solo lo que cambia de un cuadro al siguiente, y después se cortó en **segmentos** cortos de unos pocos segundos.",
+      "Cada video además se prepara en varias versiones, desde baja resolución hasta 4K, cada una con una **tasa de bits** (bitrate) distinta: cuántos bits por segundo necesita. Un archivo de texto chico, el **manifiesto**, lista todas las versiones y segmentos. Tu reproductor lo lee y pide los segmentos uno tras otro por HTTP común, en general a un servidor de una CDN cerca tuyo, y guarda unos segundos o minutos por adelantado en un **buffer**.",
+      "Lo ingenioso es el **streaming adaptativo**. El reproductor mide todo el tiempo qué tan rápido llegan los segmentos. Si tu Wi-Fi se pone lento, pide los siguientes en menor calidad, así la imagen se ve más borrosa un rato pero no se corta; cuando la conexión mejora, vuelve a subir. La ruedita de **carga** aparece solo cuando el buffer se vacía más rápido de lo que se llena. HLS y MPEG-DASH son los dos formatos más comunes para esto, y las transmisiones en vivo funcionan igual, con segmentos que se crean en el momento, unos segundos detrás del tiempo real."
+    ],
+    "analogy": "Una cinta de sushi. Empezás a comer apenas llega el primer plato, la cocina mantiene algunos platos por delante tuyo, y si se llena de gente manda platos más simples para que nunca te quedes frente a una cinta vacía.",
+    "keyPoints": [
+      "El video se comprime y se corta en segmentos de pocos segundos.",
+      "Cada video existe en varias tasas de bits; un manifiesto las lista.",
+      "El reproductor cambia de calidad segmento a segmento según tu conexión.",
+      "La ruedita de carga aparece cuando el buffer se vacía más rápido de lo que se llena."
+    ],
+    "links": [
+      { "label": "Streaming en Wikipedia", "url": "https://es.wikipedia.org/wiki/Streaming" },
+      { "label": "Tasa de bits en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tasa_de_bits" },
+      { "label": "Adaptive bitrate streaming en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming" }
+    ]
+  }
+}

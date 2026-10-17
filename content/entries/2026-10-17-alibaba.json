@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-alibaba",
+  "date": "2026-10-17",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Alibaba Group", "Alibaba Cloud", "Aliyun"],
+    "es": ["Alibaba Group", "Alibaba Cloud", "Aliyun"]
+  },
+  "image": "img/2026-10-17-alibaba.svg",
+  "imageAlt": {
+    "en": "Factories and shops on one side reach buyers through Alibaba's marketplaces in the middle, all running on Alibaba Cloud data centers below",
+    "es": "Fábricas y tiendas de un lado llegan a compradores a través de los marketplaces de Alibaba en el medio, todo corriendo sobre los data centers de Alibaba Cloud abajo"
+  },
+  "en": {
+    "title": "Alibaba",
+    "tagline": "China's giant of online marketplaces, which also runs a major cloud.",
+    "explanation": [
+      "**Alibaba Group** was founded in 1999 in Hangzhou, China, by Jack Ma and a group of partners. It started with **Alibaba.com**, a website where small Chinese manufacturers could find buyers abroad, and it is still where many businesses around the world go to order products in bulk directly from factories.",
+      "It then built marketplaces for consumers. **Taobao**, launched in 2003, lets anyone open a shop and sell to shoppers in China; **Tmall** is the version for established brands; **AliExpress** sells to buyers in other countries. Alibaba usually does not own the goods: it makes money from the fees and, above all, the advertising sellers pay to stand out. It also popularized the 11 November \"Singles' Day\" sales festival, and runs logistics through its Cainiao network.",
+      "Like Amazon with AWS, Alibaba turned the computing infrastructure it needed for its own shopping peaks into a business. **Alibaba Cloud**, also called Aliyun, started in 2009 and is the largest cloud provider in China, renting servers, storage and databases, and it develops the Qwen family of AI models, many released as open weights. The payments app Alipay, often associated with it, belongs to Ant Group, a separate company in which Alibaba holds a stake."
+    ],
+    "analogy": "A huge market where the building owner does not sell anything: it rents stalls, charges for the signs that make a stall visible, and also runs the power plant that keeps the lights on for the whole neighborhood.",
+    "keyPoints": [
+      "Founded in 1999 in Hangzhou; started as a site connecting Chinese factories with buyers abroad.",
+      "Runs Taobao, Tmall and AliExpress, earning mostly from seller fees and ads.",
+      "Alibaba Cloud is China's largest cloud provider and makes the Qwen AI models.",
+      "Alipay belongs to Ant Group, a separate company linked to Alibaba."
+    ],
+    "links": [
+      { "label": "About Alibaba Group (official site)", "url": "https://www.alibabagroup.com/en-US/about-alibaba" },
+      { "label": "Alibaba Group on Wikipedia", "url": "https://en.wikipedia.org/wiki/Alibaba_Group" },
+      { "label": "About Alibaba Cloud", "url": "https://www.alibabacloud.com/about" }
+    ]
+  },
+  "es": {
+    "title": "Alibaba",
+    "tagline": "El gigante chino de los marketplaces online, que además maneja una nube grande.",
+    "explanation": [
+      "**Alibaba Group** se fundó en 1999 en Hangzhou, China, por Jack Ma y un grupo de socios. Empezó con **Alibaba.com**, un sitio donde pequeños fabricantes chinos podían encontrar compradores en el exterior, y sigue siendo adonde van muchas empresas del mundo para encargar productos al por mayor directamente a las fábricas.",
+      "Después armó marketplaces para consumidores. **Taobao**, lanzado en 2003, deja que cualquiera abra una tienda y le venda a compradores en China; **Tmall** es la versión para marcas establecidas; **AliExpress** le vende a compradores de otros países. Alibaba en general no es dueña de la mercadería: gana plata con las comisiones y, sobre todo, con la publicidad que pagan los vendedores para destacarse. También popularizó el festival de ofertas del 11 de noviembre, el \"Día del Soltero\", y maneja la logística con su red Cainiao.",
+      "Como Amazon con AWS, Alibaba convirtió en negocio la infraestructura de cómputo que necesitaba para sus propios picos de compras. **Alibaba Cloud**, también llamada Aliyun, arrancó en 2009 y es el proveedor de nube más grande de China: alquila servidores, almacenamiento y bases de datos, y desarrolla la familia de modelos de IA Qwen, muchos publicados con pesos abiertos. La app de pagos Alipay, que se suele asociar con ella, es de Ant Group, una empresa separada en la que Alibaba tiene una participación."
+    ],
+    "analogy": "Un mercado enorme donde el dueño del edificio no vende nada: alquila puestos, cobra por los carteles que hacen visible un puesto y además maneja la usina que le da luz a todo el barrio.",
+    "keyPoints": [
+      "Fundada en 1999 en Hangzhou; empezó como un sitio que conectaba fábricas chinas con compradores del exterior.",
+      "Maneja Taobao, Tmall y AliExpress, y gana sobre todo con comisiones y publicidad de los vendedores.",
+      "Alibaba Cloud es el mayor proveedor de nube de China y hace los modelos de IA Qwen.",
+      "Alipay es de Ant Group, una empresa separada vinculada a Alibaba."
+    ],
+    "links": [
+      { "label": "Alibaba Group en Wikipedia", "url": "https://es.wikipedia.org/wiki/Alibaba_Group" },
+      { "label": "Acerca de Alibaba Group (sitio oficial)", "url": "https://www.alibabagroup.com/es-ES/about-alibaba" },
+      { "label": "Acerca de Alibaba Cloud (en inglés)", "url": "https://www.alibabacloud.com/about" }
+    ]
+  }
+}

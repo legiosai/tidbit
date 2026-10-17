@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-domain-name",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["domain names", "top-level domain", "top-level domains", "TLD", "TLDs", "domain registrar", "domain registrars"],
+    "es": ["nombres de dominio", "dominio de nivel superior", "dominios de nivel superior", "TLD", "registrador de dominios"]
+  },
+  "image": "img/2026-10-17-domain-name.svg",
+  "imageAlt": {
+    "en": "The name shop.example.com split into its parts, subdomain, name and top-level domain, with DNS turning it into a numeric IP address",
+    "es": "El nombre shop.example.com separado en sus partes, subdominio, nombre y dominio de nivel superior, con el DNS convirtiéndolo en una dirección IP numérica"
+  },
+  "en": {
+    "title": "Domain name",
+    "tagline": "The readable name of a website, like wikipedia.org, that stands in for a numeric address.",
+    "explanation": [
+      "A **domain name** is the human-friendly name of a place on the internet, like `wikipedia.org` or `bbc.co.uk`. Computers find each other by IP address, a string of numbers that is hard to remember and can change. The domain name is the stable label people type, and DNS is the system that translates it into the current IP address.",
+      "Domain names are read from right to left. The last part is the **top-level domain** (TLD): generic ones like `.com` and `.org`, or country ones like `.ar`, `.es` and `.mx`. To its left is the name an organization registers, and anything further left is a subdomain it creates freely, like `es.wikipedia.org` or `mail.example.com`.",
+      "Nobody owns a domain forever: you rent it, usually by the year, through a **registrar**, a company accredited to sell names under each TLD. The whole naming system is coordinated by ICANN, and each TLD has a registry that keeps its official list. If a renewal is forgotten, the name can lapse and someone else can register it, which is why companies guard their domains closely."
+    ],
+    "analogy": "A contact name in your phone. You tap \"Mom\" instead of remembering her number, and if she changes numbers you only update the contact, not your habit.",
+    "keyPoints": [
+      "A readable name that DNS translates into an IP address.",
+      "Read right to left: top-level domain, registered name, subdomains.",
+      "You rent a domain through a registrar, usually renewing yearly.",
+      "ICANN coordinates the system; each TLD has its own registry."
+    ],
+    "links": [
+      { "label": "What is a domain name? (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name" },
+      { "label": "Domain name on Wikipedia", "url": "https://en.wikipedia.org/wiki/Domain_name" },
+      { "label": "Root zone database of all TLDs (IANA)", "url": "https://www.iana.org/domains/root/db" }
+    ]
+  },
+  "es": {
+    "title": "Nombre de dominio",
+    "tagline": "El nombre legible de un sitio, como wikipedia.org, en lugar de una dirección numérica.",
+    "explanation": [
+      "Un **nombre de dominio** es el nombre amigable de un lugar en internet, como `wikipedia.org` o `argentina.gob.ar`. Las computadoras se encuentran entre sí por dirección IP, una serie de números difícil de recordar y que puede cambiar. El dominio es la etiqueta estable que escribe la gente, y el DNS es el sistema que lo traduce a la dirección IP del momento.",
+      "Los dominios se leen de derecha a izquierda. La última parte es el **dominio de nivel superior** (TLD, por sus siglas en inglés): genéricos como `.com` y `.org`, o de país como `.ar`, `.es` y `.mx`. A su izquierda va el nombre que registra una organización, y lo que esté más a la izquierda es un subdominio que crea libremente, como `es.wikipedia.org` o `mail.ejemplo.com`.",
+      "Nadie es dueño de un dominio para siempre: lo alquilás, en general por año, a través de un **registrador**, una empresa autorizada para vender nombres bajo cada TLD. Todo el sistema de nombres lo coordina ICANN, y cada TLD tiene un registro con su lista oficial. Si te olvidás de renovar, el nombre puede vencer y otra persona registrarlo, por eso las empresas cuidan mucho sus dominios."
+    ],
+    "analogy": "El nombre de un contacto en tu celular. Tocás \"Mamá\" en vez de acordarte del número, y si ella cambia de número solo actualizás el contacto, no tu costumbre.",
+    "keyPoints": [
+      "Un nombre legible que el DNS traduce a una dirección IP.",
+      "Se lee de derecha a izquierda: dominio de nivel superior, nombre registrado, subdominios.",
+      "El dominio se alquila a través de un registrador, en general renovándolo por año.",
+      "ICANN coordina el sistema; cada TLD tiene su propio registro."
+    ],
+    "links": [
+      { "label": "¿Qué es un nombre de dominio? (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name" },
+      { "label": "Dominio de internet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Dominio_de_internet" },
+      { "label": "Base de datos de todos los TLD (IANA, en inglés)", "url": "https://www.iana.org/domains/root/db" }
+    ]
+  }
+}

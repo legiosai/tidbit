@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M140 28 v-10 M170 28 v-10 M200 28 v-10 M230 28 v-10 M260 28 v-10"/>
+    <path d="M140 192 v10 M170 192 v10 M200 192 v10 M230 192 v10 M260 192 v10"/>
+    <path d="M110 60 h-10 M110 90 h-10 M110 120 h-10 M110 150 h-10"/>
+    <path d="M290 60 h10 M290 90 h10 M290 120 h10 M290 150 h10"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="110" y="28" width="180" height="164" rx="10" fill="#e6dfd0"/>
+    <rect x="122" y="40" width="74" height="64" rx="6" fill="#9ac7ea"/>
+    <rect x="204" y="40" width="74" height="64" rx="6" fill="#9bd1b9"/>
+    <rect x="122" y="112" width="48" height="34" rx="6" fill="#ffd166"/>
+    <rect x="176" y="112" width="48" height="34" rx="6" fill="#f4a7a7"/>
+    <rect x="230" y="112" width="48" height="34" rx="6" fill="#f3efe6"/>
+    <rect x="122" y="152" width="156" height="28" rx="6" fill="#f3efe6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="159" y="77">CPU</text><text x="241" y="77">GPU</text>
+    <text x="146" y="134" font-size="12">NPU</text><text x="200" y="134" font-size="12">modem</text><text x="254" y="134" font-size="12">I/O</text>
+    <text x="200" y="171" font-size="12">memory control</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a whole computer on one piece of silicon</text>
+</svg>

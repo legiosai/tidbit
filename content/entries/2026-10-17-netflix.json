@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-netflix",
+  "date": "2026-10-17",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Open Connect", "Chaos Monkey"],
+    "es": ["Open Connect", "Chaos Monkey"]
+  },
+  "image": "img/2026-10-17-netflix.svg",
+  "imageAlt": {
+    "en": "The app and catalog run in the cloud, while the video itself flows from Netflix boxes placed inside internet providers to TVs and phones nearby",
+    "es": "La app y el catálogo corren en la nube, mientras el video en sí sale de cajas de Netflix instaladas dentro de los proveedores de internet hacia televisores y celulares cercanos"
+  },
+  "en": {
+    "title": "Netflix",
+    "tagline": "A streaming service, and the engineering it built to deliver video to the whole world.",
+    "explanation": [
+      "**Netflix** was founded in 1997 in California by Reed Hastings and Marc Randolph, renting DVDs by mail. In 2007 it started streaming video over the internet, and later began producing its own series and films. It makes money mainly from monthly **subscriptions**, and also from cheaper plans that show ads. To the viewer it is an app; behind the app is some of the best-known engineering on the internet.",
+      "After a database failure stopped DVD shipments for days in 2008, Netflix moved its systems from its own data centers to AWS, finishing in 2016. It was one of the first big companies to bet everything on the cloud, splitting its software into many small services that can fail without taking down the whole site. To make sure they really could, its engineers wrote **Chaos Monkey**, a tool that switches off servers at random during work hours. That practice of breaking things on purpose to find weaknesses is now called **chaos engineering**.",
+      "The video itself does not come from the cloud. Netflix built its own CDN, **Open Connect**: servers full of films that it gives to internet providers to install inside their networks, close to viewers, so a popular episode travels a short distance. Each title is also encoded in many qualities, and the app switches between them as your connection speeds up or slows down. Netflix has published much of this work as open source, and its recommendation system, which decides the rows you see on the home screen, is a classic example of machine learning in a product."
+    ],
+    "analogy": "A newspaper that, instead of printing everything in one city and shipping it by truck, puts small printing presses in every neighborhood's kiosk, so each morning the paper is printed right where it is read.",
+    "keyPoints": [
+      "Started in 1997 renting DVDs by mail; streaming since 2007; earns mostly from subscriptions.",
+      "An early large company to move everything to the cloud, running on AWS.",
+      "Popularized chaos engineering with Chaos Monkey.",
+      "Its own CDN, Open Connect, places video servers inside internet providers."
+    ],
+    "links": [
+      { "label": "About Netflix (official site)", "url": "https://about.netflix.com/en" },
+      { "label": "Netflix Open Connect", "url": "https://openconnect.netflix.com/en/" },
+      { "label": "Chaos engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Chaos_engineering" }
+    ]
+  },
+  "es": {
+    "title": "Netflix",
+    "tagline": "Un servicio de streaming, y la ingeniería que armó para llevar video a todo el mundo.",
+    "explanation": [
+      "**Netflix** la fundaron en 1997 en California Reed Hastings y Marc Randolph, alquilando DVDs por correo. En 2007 empezó a transmitir video por internet, y más tarde a producir sus propias series y películas. Gana plata sobre todo con **suscripciones** mensuales, y también con planes más baratos que muestran publicidad. Para quien mira es una app; detrás de la app hay parte de la ingeniería más conocida de internet.",
+      "Después de que una falla en una base de datos frenara los envíos de DVDs durante días en 2008, Netflix mudó sus sistemas de sus propios data centers a AWS, y terminó en 2016. Fue una de las primeras empresas grandes en apostar todo a la nube, partiendo su software en muchos servicios chicos que pueden fallar sin tirar abajo el sitio entero. Para asegurarse de que de verdad fuera así, sus ingenieros escribieron **Chaos Monkey**, una herramienta que apaga servidores al azar en horario laboral. Esa práctica de romper cosas a propósito para encontrar debilidades hoy se llama **ingeniería del caos**.",
+      "El video en sí no sale de la nube. Netflix armó su propia CDN, **Open Connect**: servidores llenos de películas que les da a los proveedores de internet para que los instalen dentro de sus redes, cerca de quienes miran, así un capítulo popular recorre una distancia corta. Además cada título se codifica en muchas calidades, y la app va saltando entre ellas a medida que tu conexión se acelera o se frena. Netflix publicó buena parte de este trabajo como código abierto, y su sistema de recomendaciones, que decide qué filas ves en la pantalla de inicio, es un ejemplo clásico de machine learning en un producto."
+    ],
+    "analogy": "Un diario que, en vez de imprimir todo en una ciudad y repartirlo en camiones, pone pequeñas imprentas en el kiosco de cada barrio, así cada mañana el diario se imprime justo donde se lee.",
+    "keyPoints": [
+      "Arrancó en 1997 alquilando DVDs por correo; hace streaming desde 2007; vive sobre todo de suscripciones.",
+      "Fue de las primeras empresas grandes en mudar todo a la nube, y corre sobre AWS.",
+      "Popularizó la ingeniería del caos con Chaos Monkey.",
+      "Su propia CDN, Open Connect, pone servidores de video dentro de los proveedores de internet."
+    ],
+    "links": [
+      { "label": "Acerca de Netflix (sitio oficial)", "url": "https://about.netflix.com/es" },
+      { "label": "Ingeniería del caos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ingenier%C3%ADa_del_caos" },
+      { "label": "Netflix Open Connect (en inglés)", "url": "https://openconnect.netflix.com/en/" }
+    ]
+  }
+}

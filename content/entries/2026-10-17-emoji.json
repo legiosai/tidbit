@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-emoji",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["emojis"],
+    "es": ["emojis"]
+  },
+  "image": "img/2026-10-17-emoji.svg",
+  "imageAlt": {
+    "en": "One code, U+1F600 grinning face, is drawn three slightly different ways by three different phone makers",
+    "es": "Un mismo código, U+1F600 cara sonriente, dibujado de tres formas un poco distintas por tres fabricantes de celulares"
+  },
+  "en": {
+    "title": "Emoji",
+    "tagline": "Little pictures that are really text characters, drawn differently by each phone maker.",
+    "explanation": [
+      "An **emoji** is a small picture you can type, like 😀, 🍕 or ❤️. The word is Japanese: \"e\" means picture and \"moji\" means character, so it has nothing to do with \"emotion\". Emoji appeared on Japanese mobile phones in the late 1990s, and in 2010 they were added to **Unicode**, the standard that gives every character in every writing system its own number.",
+      "That is the key idea: to a computer an emoji is text, not an image. 😀 is the character `U+1F600`, officially named \"grinning face\", in the same way that the letter A is `U+0041`. When you send it, your phone sends that number, a few bytes, and the receiving phone looks it up in its own emoji font and draws its own picture. Some emoji are combinations: a skin tone is a modifier added after the base character, and many family or profession emoji are several characters glued together with an invisible joiner.",
+      "Because Unicode only sets the number, the name and a rough description, every company draws its own version. Apple, Google, Samsung and Microsoft each have their own designs, so the same emoji can look happier, sadder or simply different on each phone, and occasionally that changes its meaning. New emoji are proposed to the Unicode Consortium and a batch is approved most years; if your phone is not updated, a new emoji may show up as an empty box or as its separate pieces."
+    ],
+    "analogy": "Like a numbered list of songs shared by many bands. Everyone agrees which song is number 42, but each band plays it in its own style.",
+    "keyPoints": [
+      "An emoji is a Unicode character, sent as a number, not as an image.",
+      "Each company draws its own design, so emoji look different across phones.",
+      "Skin tones and many family emoji are combinations of several characters.",
+      "Unicode approves new emoji; old phones may show them as boxes."
+    ],
+    "links": [
+      { "label": "About emoji (Unicode Consortium)", "url": "https://home.unicode.org/emoji/about-emoji/" },
+      { "label": "Unicode emoji resources", "url": "https://www.unicode.org/emoji/" },
+      { "label": "Emoji on Wikipedia", "url": "https://en.wikipedia.org/wiki/Emoji" }
+    ]
+  },
+  "es": {
+    "title": "Emoji",
+    "tagline": "Dibujitos que en realidad son caracteres de texto, dibujados distinto por cada marca.",
+    "explanation": [
+      "Un **emoji** es un dibujito que podés escribir, como 😀, 🍕 o ❤️. La palabra es japonesa: \"e\" significa imagen y \"moji\" significa carácter, así que no tiene nada que ver con \"emoción\". Los emoji aparecieron en los celulares japoneses a fines de los noventa, y en 2010 se sumaron a **Unicode**, el estándar que le da un número propio a cada carácter de cada sistema de escritura.",
+      "Esa es la idea clave: para una computadora un emoji es texto, no una imagen. 😀 es el carácter `U+1F600`, con el nombre oficial \"grinning face\" (cara sonriente), igual que la letra A es `U+0041`. Cuando lo mandás, tu celular manda ese número, unos pocos bytes, y el celular que lo recibe lo busca en su propia fuente de emoji y dibuja su propia imagen. Algunos emoji son combinaciones: un tono de piel es un modificador que se agrega después del carácter base, y muchos emoji de familias o profesiones son varios caracteres pegados con un unidor invisible.",
+      "Como Unicode solo define el número, el nombre y una descripción aproximada, cada empresa dibuja su versión. Apple, Google, Samsung y Microsoft tienen sus propios diseños, así que el mismo emoji puede verse más contento, más triste o simplemente distinto en cada celular, y a veces eso le cambia el sentido. Los emoji nuevos se le proponen al Consorcio Unicode y casi todos los años se aprueba una tanda; si tu celular no está actualizado, un emoji nuevo puede aparecer como un cuadradito vacío o como sus partes sueltas."
+    ],
+    "analogy": "Como una lista numerada de canciones que comparten muchas bandas. Todos saben cuál es la canción número 42, pero cada banda la toca a su manera.",
+    "keyPoints": [
+      "Un emoji es un carácter de Unicode, que viaja como un número y no como imagen.",
+      "Cada empresa dibuja su propio diseño, por eso se ven distintos en cada celular.",
+      "Los tonos de piel y muchos emoji de familias son combinaciones de varios caracteres.",
+      "Unicode aprueba los emoji nuevos; los celulares viejos pueden mostrarlos como cuadraditos."
+    ],
+    "links": [
+      { "label": "Emoji en Wikipedia", "url": "https://es.wikipedia.org/wiki/Emoji" },
+      { "label": "Sobre los emoji (Consorcio Unicode, en inglés)", "url": "https://home.unicode.org/emoji/about-emoji/" }
+    ]
+  }
+}

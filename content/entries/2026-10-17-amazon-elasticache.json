@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-amazon-elasticache",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["ElastiCache", "ElastiCache Serverless", "ElastiCache for Redis", "ElastiCache for Valkey", "ElastiCache for Memcached"],
+    "es": ["ElastiCache", "ElastiCache Serverless", "ElastiCache para Redis", "ElastiCache para Valkey", "ElastiCache para Memcached"]
+  },
+  "image": "img/2026-10-17-amazon-elasticache.svg",
+  "imageAlt": {
+    "en": "An app asks a small fast cache first; on a hit it answers in microseconds, on a miss it goes to the slower database behind it",
+    "es": "Una app le pregunta primero a un caché chico y rápido; si está, responde en microsegundos, si no, va a la base de datos más lenta de atrás"
+  },
+  "en": {
+    "title": "Amazon ElastiCache",
+    "tagline": "A managed in-memory cache that keeps hot data close so apps answer instantly.",
+    "explanation": [
+      "**ElastiCache** is the AWS service that runs an in-memory data store for you, using the open source engines Valkey, Redis OSS or Memcached. Because the data lives in RAM instead of on disk, reading a value takes well under a millisecond. AWS handles the servers, patches, replicas and failover.",
+      "Its classic use is as a **cache**: a copy of answers that are expensive to compute or slow to fetch. Say the home page of a shop shows the 20 best-selling products, and building that list takes a heavy database query. The app runs the query once, stores the result in ElastiCache for a minute, and the next thousand visitors get it straight from memory. The database breathes, and pages load faster.",
+      "It is also used for things that need speed more than permanence: user sessions, rate limits, game leaderboards, short-lived counters. The trade-off is that memory is more expensive than disk and a cache can be emptied, so the real, durable copy of the data should still live in a database like Amazon RDS or Amazon DynamoDB."
+    ],
+    "analogy": "The sticky note on your monitor with the phone numbers you dial every day. Looking there is instant; the full phone book is still in the drawer for everything else.",
+    "keyPoints": [
+      "Managed Valkey, Redis OSS or Memcached, run by AWS.",
+      "Data in RAM means reads in microseconds, not milliseconds.",
+      "Usually sits in front of a database to absorb repeated reads.",
+      "A cache is a copy: the source of truth stays in the database."
+    ],
+    "links": [
+      { "label": "What is Amazon ElastiCache? (official docs)", "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html" },
+      { "label": "Caching overview (AWS)", "url": "https://aws.amazon.com/caching/" },
+      { "label": "Cache (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cache_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Amazon ElastiCache",
+    "tagline": "Un caché en memoria administrado que tiene a mano los datos más pedidos.",
+    "explanation": [
+      "**ElastiCache** es el servicio de AWS que te corre un almacén de datos en memoria, usando los motores open source Valkey, Redis OSS o Memcached. Como los datos viven en RAM y no en disco, leer un valor tarda bastante menos de un milisegundo. AWS se ocupa de los servidores, los parches, las réplicas y de cambiar a otra máquina si una falla.",
+      "Su uso clásico es como **caché**: una copia de respuestas que son caras de calcular o lentas de traer. Supongamos que la home de una tienda muestra los 20 productos más vendidos, y armar esa lista requiere una consulta pesada a la base de datos. La app corre la consulta una vez, guarda el resultado en ElastiCache por un minuto, y los próximos mil visitantes lo reciben directo de memoria. La base de datos respira y las páginas cargan más rápido.",
+      "También se usa para cosas que necesitan velocidad más que permanencia: sesiones de usuarios, límites de pedidos, rankings de juegos, contadores de vida corta. La contracara es que la memoria es más cara que el disco y un caché se puede vaciar, así que la copia real y durable de los datos tiene que seguir en una base de datos como Amazon RDS o Amazon DynamoDB."
+    ],
+    "analogy": "El post-it pegado en el monitor con los teléfonos que marcás todos los días. Mirarlo es instantáneo; la guía completa sigue en el cajón para todo lo demás.",
+    "keyPoints": [
+      "Valkey, Redis OSS o Memcached administrados por AWS.",
+      "Datos en RAM: lecturas en microsegundos, no en milisegundos.",
+      "Suele ir delante de una base de datos para absorber lecturas repetidas.",
+      "Un caché es una copia: la fuente de verdad sigue en la base de datos."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon ElastiCache? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/AmazonElastiCache/latest/dg/WhatIs.html" },
+      { "label": "Información general sobre el almacenamiento en caché (AWS)", "url": "https://aws.amazon.com/es/caching/" },
+      { "label": "Caché (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cach%C3%A9_(inform%C3%A1tica)" }
+    ]
+  }
+}

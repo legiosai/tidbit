@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="30" y="70" width="90" height="90" rx="8"/>
+    <rect x="155" y="70" width="90" height="90" rx="8"/>
+    <rect x="280" y="70" width="90" height="90" rx="8"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#ffd166">
+    <rect x="40" y="80" width="32" height="32" rx="2"/><rect x="78" y="80" width="32" height="32" rx="2"/><rect x="40" y="118" width="32" height="32" rx="2"/><rect x="78" y="118" width="32" height="32" rx="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9bd1b9">
+    <rect x="165" y="80" width="19" height="19" rx="2"/><rect x="190" y="80" width="19" height="19" rx="2"/><rect x="216" y="80" width="19" height="19" rx="2"/><rect x="165" y="105" width="19" height="19" rx="2"/><rect x="190" y="105" width="19" height="19" rx="2"/><rect x="216" y="105" width="19" height="19" rx="2"/><rect x="165" y="131" width="19" height="19" rx="2"/><rect x="190" y="131" width="19" height="19" rx="2"/><rect x="216" y="131" width="19" height="19" rx="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <rect x="290" y="80" width="13" height="13" rx="2"/><rect x="309" y="80" width="13" height="13" rx="2"/><rect x="328" y="80" width="13" height="13" rx="2"/><rect x="347" y="80" width="13" height="13" rx="2"/><rect x="290" y="99" width="13" height="13" rx="2"/><rect x="309" y="99" width="13" height="13" rx="2"/><rect x="328" y="99" width="13" height="13" rx="2"/><rect x="347" y="99" width="13" height="13" rx="2"/><rect x="290" y="118" width="13" height="13" rx="2"/><rect x="309" y="118" width="13" height="13" rx="2"/><rect x="328" y="118" width="13" height="13" rx="2"/><rect x="347" y="118" width="13" height="13" rx="2"/><rect x="290" y="137" width="13" height="13" rx="2"/><rect x="309" y="137" width="13" height="13" rx="2"/><rect x="328" y="137" width="13" height="13" rx="2"/><rect x="347" y="137" width="13" height="13" rx="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M124 115 H150"/><path d="M144 111 l6 4 -6 4"/>
+    <path d="M249 115 H275"/><path d="M269 111 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="56">"7 nm"</text><text x="200" y="56">"5 nm"</text><text x="325" y="56">"3 nm"</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="75" y="180">4 per area</text><text x="200" y="180">9 per area</text><text x="325" y="180">16 per area</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">more packed in each time · the number is a name</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-cms",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["CMSs", "content management system", "content management systems", "WordPress", "headless CMS"],
+    "es": ["CMSs", "sistema de gestión de contenidos", "sistemas de gestión de contenidos", "gestor de contenidos", "gestores de contenidos", "WordPress", "CMS headless"]
+  },
+  "image": "img/2026-10-17-cms.svg",
+  "imageAlt": {
+    "en": "An editor fills in a simple form with a title, text and photo; the CMS stores it and publishes it as a finished web page using a template",
+    "es": "Una editora completa un formulario simple con título, texto y foto; el CMS lo guarda y lo publica como página web terminada usando una plantilla"
+  },
+  "en": {
+    "title": "CMS",
+    "tagline": "Software that lets people publish and edit a website's content without writing code.",
+    "explanation": [
+      "A **CMS** (content management system) is software for creating, editing and publishing the content of a website through forms, without touching HTML. An editor logs in, writes a title, pastes some text, uploads a photo and clicks \"Publish\"; the CMS stores it in a database and fills in the site's design template to produce the finished page.",
+      "The point is a clean split of jobs. Developers and designers build the templates and features once; writers, marketers and shop owners then add pages, news and products every day on their own. A CMS usually adds users and roles (who can write, who can approve), drafts, scheduled posts and a history of changes.",
+      "**WordPress** is the best-known example, open source and used by a very large share of the web; Drupal and Joomla are other long-standing ones, and services like Wix or Squarespace bundle a CMS with hosting. A newer style, the **headless CMS**, only stores and serves the content through an API, and leaves the look to separate apps, so the same article can appear on a website, a phone app and a smart screen."
+    ],
+    "analogy": "A newspaper's layout system. Reporters type their stories into fixed boxes for headline, body and photo; the page designers already decided how a front page looks, so each story lands in the right place automatically.",
+    "keyPoints": [
+      "Lets non-programmers create and edit web content through forms.",
+      "Separates content (stored in a database) from design (templates).",
+      "Adds roles, drafts, scheduling and change history.",
+      "A headless CMS serves content through an API to any app or site."
+    ],
+    "links": [
+      { "label": "CMS (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/CMS" },
+      { "label": "Content management system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Content_management_system" },
+      { "label": "About WordPress (wordpress.org)", "url": "https://wordpress.org/about/" }
+    ]
+  },
+  "es": {
+    "title": "CMS",
+    "tagline": "Software que permite publicar y editar el contenido de un sitio sin escribir código.",
+    "explanation": [
+      "Un **CMS** (content management system, sistema de gestión de contenidos) es un software para crear, editar y publicar el contenido de un sitio web a través de formularios, sin tocar HTML. Una editora entra con su usuario, escribe un título, pega un texto, sube una foto y hace clic en \"Publicar\"; el CMS lo guarda en una base de datos y completa la plantilla de diseño del sitio para armar la página terminada.",
+      "La gracia es repartir bien el trabajo. Quienes desarrollan y diseñan arman las plantillas y las funciones una vez; después, redactores, gente de marketing o dueños de un negocio suman páginas, noticias y productos todos los días por su cuenta. Un CMS suele agregar usuarios y roles (quién escribe, quién aprueba), borradores, publicaciones programadas e historial de cambios.",
+      "**WordPress** es el ejemplo más conocido, de código abierto y usado por una porción muy grande de la web; Drupal y Joomla son otros con muchos años, y servicios como Wix o Squarespace vienen con un CMS y el hosting incluidos. Un estilo más nuevo, el **CMS headless**, solo guarda y entrega el contenido a través de una API, y deja el aspecto en manos de otras apps, así el mismo artículo puede aparecer en una web, en una app del celular y en una pantalla inteligente."
+    ],
+    "analogy": "El sistema de armado de un diario. Los periodistas cargan su nota en casilleros fijos para título, cuerpo y foto; los diagramadores ya decidieron cómo se ve una tapa, así que cada nota cae sola en su lugar.",
+    "keyPoints": [
+      "Permite que gente que no programa cree y edite contenido web con formularios.",
+      "Separa el contenido (guardado en una base de datos) del diseño (las plantillas).",
+      "Suma roles, borradores, publicaciones programadas e historial.",
+      "Un CMS headless entrega el contenido por API a cualquier app o sitio."
+    ],
+    "links": [
+      { "label": "CMS (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/CMS" },
+      { "label": "Sistema de gestión de contenidos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_de_gestión_de_contenidos" },
+      { "label": "Acerca de WordPress (wordpress.org)", "url": "https://es.wordpress.org/about/" }
+    ]
+  }
+}

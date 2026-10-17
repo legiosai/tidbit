@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-graphql",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 3,
+  "aliases": {
+    "en": ["GraphQL API", "GraphQL APIs", "GraphQL schema"],
+    "es": ["API GraphQL", "APIs GraphQL", "esquema GraphQL"]
+  },
+  "image": "img/2026-10-17-graphql.svg",
+  "imageAlt": {
+    "en": "An app sends one query asking for a user's name and their last two orders to a single endpoint, which gathers them from three sources and returns exactly that shape",
+    "es": "Una app manda una sola consulta pidiendo el nombre de un usuario y sus dos últimos pedidos a un único endpoint, que los junta de tres fuentes y devuelve exactamente esa forma"
+  },
+  "en": {
+    "title": "GraphQL",
+    "tagline": "An API language where the app asks for exactly the fields it needs, in one request.",
+    "explanation": [
+      "**GraphQL** is a way of building APIs in which the client writes a **query** describing the exact data it wants, and the server answers with JSON in that same shape. It was created at Facebook in 2012 to feed its mobile apps, released publicly in 2015, and is now maintained by the GraphQL Foundation, part of the Linux Foundation.",
+      "Compare it with a REST API. To show a profile screen, a REST app might call `/users/7`, then `/users/7/orders`, then `/orders/91/items`, and receive many fields it never shows. With GraphQL it sends one request to a single endpoint, usually `/graphql`, saying \"user 7: name, and the last two orders with their totals\", and gets just that. This avoids **over-fetching** (too much data) and **under-fetching** (too many round trips), which matters on slow mobile connections.",
+      "Behind the endpoint sits a **schema**: a typed description of every object and field the API offers, which tools use to autocomplete and validate queries before they run. Each field is filled in by a small function called a **resolver**, which can read from a database, a REST service or anything else. The flexibility has costs: caching is harder than with plain URLs, and a careless query can ask for so much nested data that it overloads the server, so production APIs limit query depth and cost."
+    ],
+    "analogy": "REST is a set menu: each dish comes as the kitchen decided. GraphQL is ordering à la carte from a printed list of every ingredient: you get exactly what you asked for, but the kitchen has to watch out for absurd orders.",
+    "keyPoints": [
+      "One endpoint; the client's query decides the shape of the answer.",
+      "A typed schema lists everything that can be asked for.",
+      "Avoids fetching too much or making many round trips.",
+      "Harder to cache and needs limits against very expensive queries."
+    ],
+    "links": [
+      { "label": "Introduction to GraphQL (official site)", "url": "https://graphql.org/learn/" },
+      { "label": "What is GraphQL? (AWS)", "url": "https://aws.amazon.com/graphql/" },
+      { "label": "GraphQL on Wikipedia", "url": "https://en.wikipedia.org/wiki/GraphQL" }
+    ]
+  },
+  "es": {
+    "title": "GraphQL",
+    "tagline": "Un lenguaje de APIs donde la app pide justo los campos que necesita, en un solo pedido.",
+    "explanation": [
+      "**GraphQL** es una forma de armar APIs en la que el cliente escribe una **consulta** (query) que describe exactamente los datos que quiere, y el servidor responde con JSON con esa misma forma. Se creó en Facebook en 2012 para alimentar sus apps móviles, se publicó en 2015 y hoy lo mantiene la GraphQL Foundation, parte de la Linux Foundation.",
+      "Comparalo con una API REST. Para mostrar una pantalla de perfil, una app REST quizás llama a `/users/7`, después a `/users/7/orders`, después a `/orders/91/items`, y recibe un montón de campos que nunca muestra. Con GraphQL manda un solo pedido a un único endpoint, normalmente `/graphql`, diciendo \"usuario 7: nombre, y los dos últimos pedidos con su total\", y recibe solo eso. Así evita el **over-fetching** (traer de más) y el **under-fetching** (necesitar muchas idas y vueltas), algo que pesa en conexiones móviles lentas.",
+      "Detrás del endpoint hay un **schema** (esquema): una descripción tipada de cada objeto y campo que ofrece la API, que las herramientas usan para autocompletar y validar consultas antes de correrlas. Cada campo lo completa una función chica llamada **resolver**, que puede leer de una base de datos, de un servicio REST o de lo que sea. La flexibilidad tiene costos: cachear es más difícil que con URLs simples, y una consulta descuidada puede pedir tantos datos anidados que sobrecargue el servidor, así que las APIs en producción limitan la profundidad y el costo de las consultas."
+    ],
+    "analogy": "REST es un menú fijo: cada plato viene como decidió la cocina. GraphQL es pedir a la carta desde una lista impresa de todos los ingredientes: te llega exactamente lo que pediste, pero la cocina tiene que cuidarse de los pedidos absurdos.",
+    "keyPoints": [
+      "Un solo endpoint; la consulta del cliente decide la forma de la respuesta.",
+      "Un schema tipado lista todo lo que se puede pedir.",
+      "Evita traer datos de más o hacer muchas idas y vueltas.",
+      "Es más difícil de cachear y necesita límites contra consultas muy caras."
+    ],
+    "links": [
+      { "label": "Introduction to GraphQL (sitio oficial, en inglés)", "url": "https://graphql.org/learn/" },
+      { "label": "¿Qué es GraphQL? (AWS)", "url": "https://aws.amazon.com/es/graphql/" },
+      { "label": "GraphQL en Wikipedia", "url": "https://es.wikipedia.org/wiki/GraphQL" }
+    ]
+  }
+}

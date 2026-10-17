@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-usb",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["USB-C", "USB-A", "Universal Serial Bus", "USB port", "USB ports", "USB cable", "USB cables", "USB stick", "USB sticks", "USB4"],
+    "es": ["USB-C", "USB-A", "Universal Serial Bus", "puerto USB", "puertos USB", "cable USB", "cables USB", "pendrive", "pendrives", "USB4"]
+  },
+  "image": "img/2026-10-17-usb.svg",
+  "imageAlt": {
+    "en": "Three connector shapes, USB-A, micro-USB and USB-C, each drawn from the front, with arrows showing that one cable carries data and power",
+    "es": "Tres formas de conector, USB-A, micro-USB y USB-C, dibujadas de frente, con flechas que muestran que un cable lleva datos y energía"
+  },
+  "en": {
+    "title": "USB",
+    "tagline": "The standard plug for connecting and charging almost everything.",
+    "explanation": [
+      "**USB** (Universal Serial Bus) is the standard that lets a computer talk to keyboards, mice, printers, phones, cameras and drives through one kind of port, and lets a cable carry power at the same time. Before it arrived in the mid-1990s, each kind of device had its own connector. USB replaced most of them, and also became the default way to charge small electronics.",
+      "Two things get confused because both are called USB. One is the **connector**, the physical shape: the flat rectangular **USB-A**, the small micro-USB of older phones, and the oval, reversible **USB-C** that most new devices use. The other is the **version**, which sets the speed and features: USB 2.0, USB 3.x, USB4. A USB-C port can be anything from slow to very fast, depending on the version behind it and on the cable.",
+      "USB-C also carries much more power than older USB, enough to charge most laptops, using a negotiation called **USB Power Delivery**: the charger and the device agree on how much power to send before sending it. It can carry video to a monitor as well. That is why one cable can now replace several, and why the European Union made USB-C the required charging port for phones and many other devices sold there."
+    ],
+    "analogy": "A universal power outlet that also works as a phone line. One shape of plug, and through it the device both gets its energy and talks to the computer.",
+    "keyPoints": [
+      "One standard for connecting devices and carrying power.",
+      "Connector shape (USB-A, USB-C) and version (USB 2.0, 3.x, USB4) are different things.",
+      "USB-C is reversible and can carry data, video and enough power for a laptop.",
+      "Two USB-C ports or cables that look the same can differ a lot in speed."
+    ],
+    "links": [
+      { "label": "USB on Wikipedia", "url": "https://en.wikipedia.org/wiki/USB" },
+      { "label": "USB-C on Wikipedia", "url": "https://en.wikipedia.org/wiki/USB-C" },
+      { "label": "About USB-IF, the group behind the standard", "url": "https://www.usb.org/about" }
+    ]
+  },
+  "es": {
+    "title": "USB",
+    "tagline": "El enchufe estándar para conectar y cargar casi cualquier cosa.",
+    "explanation": [
+      "**USB** (Universal Serial Bus) es el estándar que permite que una computadora se comunique con teclados, mouses, impresoras, celulares, cámaras y discos a través de un solo tipo de puerto, y que un cable lleve energía al mismo tiempo. Antes de que llegara, a mediados de los años 90, cada tipo de aparato tenía su propio conector. USB reemplazó a casi todos, y además se convirtió en la forma estándar de cargar aparatos chicos.",
+      "Hay dos cosas que se confunden porque las dos se llaman USB. Una es el **conector**, la forma física: el rectangular y chato **USB-A**, el micro-USB chiquito de los celulares viejos, y el **USB-C** ovalado y reversible que usan casi todos los aparatos nuevos. La otra es la **versión**, que define velocidad y funciones: USB 2.0, USB 3.x, USB4. Un puerto USB-C puede ser desde lento hasta muy rápido, según la versión que tenga detrás y según el cable.",
+      "USB-C además lleva mucha más energía que el USB viejo, suficiente para cargar la mayoría de las laptops, gracias a una negociación llamada **USB Power Delivery**: el cargador y el aparato acuerdan cuánta energía mandar antes de mandarla. También puede llevar video a un monitor. Por eso hoy un cable reemplaza a varios, y por eso la Unión Europea hizo obligatorio el USB-C como puerto de carga para celulares y muchos otros aparatos que se venden allá."
+    ],
+    "analogy": "Un tomacorriente universal que además funciona como línea telefónica. Una sola forma de enchufe, y por ahí el aparato recibe su energía y habla con la computadora.",
+    "keyPoints": [
+      "Un solo estándar para conectar aparatos y llevar energía.",
+      "La forma del conector (USB-A, USB-C) y la versión (USB 2.0, 3.x, USB4) son cosas distintas.",
+      "USB-C es reversible y puede llevar datos, video y energía suficiente para una laptop.",
+      "Dos puertos o cables USB-C que se ven iguales pueden ser muy distintos en velocidad."
+    ],
+    "links": [
+      { "label": "Universal Serial Bus en Wikipedia", "url": "https://es.wikipedia.org/wiki/Universal_Serial_Bus" },
+      { "label": "USB-C en Wikipedia", "url": "https://es.wikipedia.org/wiki/USB-C" },
+      { "label": "Sobre USB-IF, el grupo detrás del estándar (en inglés)", "url": "https://www.usb.org/about" }
+    ]
+  }
+}

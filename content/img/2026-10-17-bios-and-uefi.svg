@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="18" y="56" width="74" height="64" rx="10" fill="#e6dfd0"/>
+    <rect x="116" y="56" width="74" height="64" rx="10" fill="#ffd166"/>
+    <rect x="214" y="56" width="74" height="64" rx="10" fill="#9bd1b9"/>
+    <rect x="312" y="56" width="74" height="64" rx="10" fill="#9ac7ea"/>
+    <rect x="116" y="140" width="74" height="66" rx="8" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M49 72 a10 10 0 1 0 12 0"/><path d="M55 66 V78"/>
+    <path d="M95 88 H110"/><path d="M105 84 l6 4 -6 4"/>
+    <path d="M193 88 H208"/><path d="M203 84 l6 4 -6 4"/>
+    <path d="M291 88 H306"/><path d="M301 84 l6 4 -6 4"/>
+    <path d="M153 120 V140"/>
+    <path d="M126 156 l4 4 7 -8"/><path d="M126 174 l4 4 7 -8"/><path d="M126 192 l4 4 7 -8"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="55" y="106">power</text>
+    <text x="153" y="86" font-size="14">UEFI</text>
+    <text x="251" y="85">boot</text><text x="251" y="101">loader</text>
+    <text x="349" y="93" font-size="14">OS</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="163" y="161">CPU</text><text x="163" y="179">RAM</text><text x="163" y="197">disk</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="153" y="104">firmware</text>
+    <text x="270" y="176">checks first,</text><text x="270" y="191">then hands over</text>
+  </g>
+  <text x="200" y="36" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">every time the computer starts</text>
+</svg>

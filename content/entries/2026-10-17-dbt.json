@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-dbt",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["data build tool", "dbt Core", "dbt models"],
+    "es": ["data build tool", "dbt Core", "modelos de dbt"]
+  },
+  "image": "img/2026-10-17-dbt.svg",
+  "imageAlt": {
+    "en": "Raw tables flow into staging models and then into a final revenue model, all inside a warehouse, each box being a SQL file",
+    "es": "Tablas crudas fluyen a modelos de staging y después a un modelo final de facturación, todo dentro de un warehouse, y cada caja es un archivo SQL"
+  },
+  "en": {
+    "title": "dbt",
+    "tagline": "A tool for writing data transformations as SQL files, with tests and docs, like software.",
+    "explanation": [
+      "**dbt** (originally \"data build tool\") is an open source tool for the transform step of a data pipeline, the T in ELT. The data has already been loaded into a data warehouse such as Snowflake, BigQuery, Redshift or Databricks; dbt helps you turn those raw tables into clean, trusted ones. Each transformation is a **model**: a plain `.sql` file with a `SELECT` statement, saved in a git repository.",
+      "Models can refer to each other with `{{ ref('orders') }}`, so dbt knows the order in which to build them and draws the whole chain as a graph. Running `dbt run` sends each model's SQL to the warehouse, which does the heavy work; dbt itself moves no data. `dbt test` checks rules like \"this column is never empty\" or \"every order has a customer\", and `dbt docs` generates a website describing every table and column, with lineage.",
+      "Its impact was cultural as much as technical: it brought software habits like version control, code review, testing and reusable pieces to analysts who already knew SQL. That gave rise to the role of **analytics engineer**. dbt Labs, the company behind it, also sells a hosted platform, but the core tool is open source and runs from the command line."
+    ],
+    "analogy": "A recipe book for a restaurant kitchen where each recipe says which other preparations it needs. The chef (the warehouse) does the cooking; dbt reads the book, works out the order, and checks every plate before it goes out.",
+    "keyPoints": [
+      "Each model is a SELECT in a .sql file; dbt builds them inside the warehouse.",
+      "ref() links models into a dependency graph with automatic build order.",
+      "Built-in tests and generated documentation with lineage.",
+      "Brought git, code review and testing to SQL analytics work."
+    ],
+    "links": [
+      { "label": "What is dbt? (official docs)", "url": "https://docs.getdbt.com/docs/introduction" },
+      { "label": "dbt Core on GitHub", "url": "https://github.com/dbt-labs/dbt-core" },
+      { "label": "About dbt models (official docs)", "url": "https://docs.getdbt.com/docs/build/models" }
+    ]
+  },
+  "es": {
+    "title": "dbt",
+    "tagline": "Una herramienta para escribir transformaciones de datos en SQL, con tests, como software.",
+    "explanation": [
+      "**dbt** (al principio \"data build tool\") es una herramienta open source para el paso de transformación de un pipeline de datos, la T de ELT. Los datos ya están cargados en un data warehouse como Snowflake, BigQuery, Redshift o Databricks; dbt te ayuda a convertir esas tablas crudas en tablas limpias y confiables. Cada transformación es un **modelo**: un archivo `.sql` común con una consulta `SELECT`, guardado en un repositorio de git.",
+      "Los modelos se pueden referir entre sí con `{{ ref('orders') }}`, así dbt sabe en qué orden construirlos y dibuja toda la cadena como un grafo. Cuando corrés `dbt run`, dbt manda el SQL de cada modelo al warehouse, que hace el trabajo pesado; dbt en sí no mueve datos. `dbt test` controla reglas como \"esta columna nunca está vacía\" o \"cada pedido tiene un cliente\", y `dbt docs` genera un sitio web que describe cada tabla y columna, con su linaje.",
+      "Su impacto fue tanto cultural como técnico: llevó costumbres del software, como el control de versiones, la revisión de código, los tests y las piezas reutilizables, a analistas que ya sabían SQL. De ahí nació el rol de **analytics engineer**. dbt Labs, la empresa detrás, vende además una plataforma en la nube, pero la herramienta central es open source y corre desde la línea de comandos."
+    ],
+    "analogy": "Un recetario para la cocina de un restaurante donde cada receta dice qué otras preparaciones necesita. El chef (el warehouse) cocina; dbt lee el recetario, calcula el orden y revisa cada plato antes de que salga.",
+    "keyPoints": [
+      "Cada modelo es un SELECT en un archivo .sql; dbt los construye dentro del warehouse.",
+      "ref() conecta los modelos en un grafo de dependencias con orden automático.",
+      "Trae tests incorporados y documentación generada con linaje.",
+      "Llevó git, revisión de código y tests al trabajo de análisis en SQL."
+    ],
+    "links": [
+      { "label": "¿Qué es dbt? (documentación oficial, en inglés)", "url": "https://docs.getdbt.com/docs/introduction" },
+      { "label": "dbt Core en GitHub (en inglés)", "url": "https://github.com/dbt-labs/dbt-core" }
+    ]
+  }
+}

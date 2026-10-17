@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-17-antivirus",
+  "date": "2026-10-17",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "antivirus software",
+      "anti-virus",
+      "antimalware",
+      "anti-malware"
+    ],
+    "es": [
+      "software antivirus",
+      "antimalware"
+    ]
+  },
+  "image": "img/2026-10-17-antivirus.svg",
+  "imageAlt": {
+    "en": "Three files pass through a magnifying glass labeled scan; the clean ones go to a green box marked allowed and the pink suspicious one ends up in quarantine",
+    "es": "Tres archivos pasan por una lupa que dice scan; los limpios van a una caja verde marcada allowed y el rosa sospechoso termina en quarantine (cuarentena)"
+  },
+  "en": {
+    "title": "Antivirus",
+    "tagline": "A program that watches your files and apps and blocks the ones known to be harmful.",
+    "explanation": [
+      "An **antivirus** is software that checks what arrives on and runs on your computer or phone, looking for malware: viruses, ransomware, spyware and the like. It scans files when you download or open them, and when it finds something dangerous it blocks it or moves it to **quarantine**, a locked area where it cannot run, so you can delete it or restore it if it was a false alarm.",
+      "It recognizes threats in two main ways. The classic one is **signatures**: a constantly updated list of fingerprints of known malware, like a wanted-posters board. The newer one is **behavior**: watching what programs do, and raising the alarm when, for example, an unknown app suddenly starts encrypting hundreds of your documents. Signatures catch known threats reliably; behavior analysis catches some new ones, at the cost of occasional false alarms.",
+      "Today most computers already have one built in. Windows comes with Microsoft Defender turned on, and macOS, iOS and Android check apps in their own ways. In companies the same idea grows into **EDR** tools that also record what happened on each machine so a security team can investigate.",
+      "An antivirus is a seatbelt, not a guarantee. It cannot stop you from typing your password into a fake site, and brand new malware may slip past it. It works best together with habits: keep the system and apps updated, install software only from official sources, and keep backups."
+    ],
+    "analogy": "A security guard at a building entrance with a board of wanted photos. He stops anyone who matches, and also watches for people acting strangely in the corridors, but a well disguised newcomer can still get through.",
+    "keyPoints": [
+      "Scans files and running programs and quarantines what looks harmful.",
+      "Detects known malware by signature and some new malware by behavior.",
+      "Windows, macOS and phones already include protection; keep it on and updated.",
+      "It does not protect against phishing or bad habits; updates and backups matter as much."
+    ],
+    "links": [
+      {
+        "label": "Understanding anti-virus software (CISA)",
+        "url": "https://www.cisa.gov/news-events/news/understanding-anti-virus-software"
+      },
+      {
+        "label": "Antivirus software on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Antivirus_software"
+      }
+    ]
+  },
+  "es": {
+    "title": "Antivirus",
+    "tagline": "Un programa que vigila tus archivos y apps y bloquea los que se sabe que son dañinos.",
+    "explanation": [
+      "Un **antivirus** es un software que revisa lo que llega y lo que se ejecuta en tu computadora o tu celular, buscando malware: virus, ransomware, spyware y parientes. Analiza los archivos cuando los descargás o los abrís, y cuando encuentra algo peligroso lo bloquea o lo manda a **cuarentena**, un rincón cerrado donde no puede ejecutarse, para que lo borres o lo recuperes si era una falsa alarma.",
+      "Reconoce amenazas de dos formas principales. La clásica son las **firmas**: una lista que se actualiza todo el tiempo con las huellas de malware conocido, como un tablero de 'se busca'. La más nueva es el **comportamiento**: mirar qué hacen los programas y dar la alarma cuando, por ejemplo, una app desconocida se pone de golpe a cifrar cientos de documentos tuyos. Las firmas atrapan bien lo conocido; el análisis de comportamiento atrapa algo de lo nuevo, a cambio de alguna falsa alarma de vez en cuando.",
+      "Hoy la mayoría de las computadoras ya traen uno. Windows viene con Microsoft Defender activado, y macOS, iOS y Android revisan las apps a su manera. En las empresas la misma idea crece hasta herramientas **EDR**, que además registran qué pasó en cada máquina para que un equipo de seguridad pueda investigar.",
+      "Un antivirus es un cinturón de seguridad, no una garantía. No te frena si escribís tu contraseña en un sitio falso, y un malware recién salido puede pasarle por al lado. Funciona mejor junto con buenos hábitos: mantené el sistema y las apps actualizados, instalá software solo de fuentes oficiales y tené copias de seguridad."
+    ],
+    "analogy": "Un guardia en la entrada de un edificio con un tablero de fotos de buscados. Frena a cualquiera que coincida y además mira si alguien se comporta raro en los pasillos, pero un recién llegado bien disfrazado igual puede colarse.",
+    "keyPoints": [
+      "Analiza archivos y programas en ejecución y pone en cuarentena lo que parece dañino.",
+      "Detecta malware conocido por firma y algo del nuevo por comportamiento.",
+      "Windows, macOS y los celulares ya traen protección; dejala activada y actualizada.",
+      "No protege contra el phishing ni contra malos hábitos; actualizar y tener backups importa igual."
+    ],
+    "links": [
+      {
+        "label": "Antivirus en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Antivirus"
+      },
+      {
+        "label": "INCIBE: ciberseguridad para la ciudadanía",
+        "url": "https://www.incibe.es/ciudadania"
+      }
+    ]
+  }
+}

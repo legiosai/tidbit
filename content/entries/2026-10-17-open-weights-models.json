@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-open-weights-models",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["open-weights model", "open-weight model", "open-weight models", "open weights", "open models"],
+    "es": ["modelo de pesos abiertos", "pesos abiertos", "open weights", "modelos abiertos"]
+  },
+  "image": "img/2026-10-17-open-weights-models.svg",
+  "imageAlt": {
+    "en": "Left, a closed model in a locked box that your app can only reach through an API; right, an open-weights file downloaded onto your own computer",
+    "es": "A la izquierda, un modelo cerrado en una caja con candado al que tu app solo llega por una API; a la derecha, un archivo de pesos abiertos descargado en tu propia computadora"
+  },
+  "en": {
+    "title": "Open-weights models",
+    "tagline": "AI models whose trained numbers anyone can download and run on their own machines.",
+    "explanation": [
+      "An **open-weights model** is an AI model whose weights, the billions of numbers learned in training, are published for anyone to download. With them you can run the model on your own computer or servers, inspect it and adapt it, instead of only renting access through someone else's API. Meta's Llama, Google's Gemma, Mistral's models and those from Chinese labs such as Alibaba (Qwen) and DeepSeek are well-known examples, and OpenAI released open-weights models too.",
+      "'Open weights' is not quite the same as 'open source'. Open-source software gives you the full recipe; most open-weights releases give you the finished dish but not the training data or all the code used to make it. Licenses also vary: some allow almost any use, others add conditions, for example for very large companies. In 2024 the Open Source Initiative published a definition of open-source AI that asks for much more than weights, and few popular models meet it.",
+      "Why people use them: privacy, because data never leaves your machines; control over cost and versions, since nobody can change or retire the model under you; and freedom to fine-tune. Tools like Ollama and sites like Hugging Face make downloading and running them fairly easy, as long as you have enough memory. The trade-offs: you run and secure it yourself, the best closed models are often still more capable, and once weights are released they cannot be recalled, which means safety restrictions can be removed by whoever downloads them."
+    ],
+    "analogy": "A closed model is a restaurant: you order, you eat, you never see the kitchen. An open-weights model is a frozen dish you take home: you can heat it, add spices or serve it to friends, but the original recipe and ingredient list usually stay with the chef.",
+    "keyPoints": [
+      "The trained weights are published and can be downloaded.",
+      "Runs on your own hardware, so data can stay private.",
+      "Usually not fully open source: training data is rarely included.",
+      "Licenses differ, and released weights cannot be taken back."
+    ],
+    "links": [
+      { "label": "Open-source artificial intelligence on Wikipedia", "url": "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence" },
+      { "label": "The Open Source AI Definition (OSI)", "url": "https://opensource.org/ai/open-source-ai-definition" },
+      { "label": "Models on Hugging Face", "url": "https://huggingface.co/models" }
+    ]
+  },
+  "es": {
+    "title": "Modelos de pesos abiertos",
+    "tagline": "Modelos de IA cuyos números entrenados cualquiera puede descargar y correr en su equipo.",
+    "explanation": [
+      "Un **modelo de pesos abiertos** (open weights) es un modelo de IA cuyos pesos, los miles de millones de números aprendidos en el entrenamiento, se publican para que cualquiera los descargue. Con ellos podés correr el modelo en tu propia computadora o en tus servidores, inspeccionarlo y adaptarlo, en lugar de solo alquilar acceso a través de la API de otro. Llama de Meta, Gemma de Google, los modelos de Mistral y los de laboratorios chinos como Alibaba (Qwen) y DeepSeek son ejemplos conocidos, y OpenAI también publicó modelos de pesos abiertos.",
+      "'Pesos abiertos' no es exactamente lo mismo que 'código abierto'. El software open source te da la receta completa; la mayoría de los modelos de pesos abiertos te dan el plato terminado, pero no los datos de entrenamiento ni todo el código que se usó para hacerlo. Las licencias también cambian: algunas permiten casi cualquier uso, otras ponen condiciones, por ejemplo para empresas muy grandes. En 2024 la Open Source Initiative publicó una definición de IA de código abierto que pide mucho más que los pesos, y pocos modelos populares la cumplen.",
+      "Por qué se usan: privacidad, porque los datos no salen de tus equipos; control del costo y de las versiones, ya que nadie te puede cambiar o dar de baja el modelo; y libertad para hacerle fine-tuning. Herramientas como Ollama y sitios como Hugging Face hacen bastante fácil descargarlos y correrlos, siempre que tengas memoria suficiente. Las contras: lo tenés que operar y proteger vos, los mejores modelos cerrados muchas veces siguen siendo más capaces, y una vez publicados los pesos no se pueden retirar, lo que significa que quien los descarga puede quitarles las restricciones de seguridad."
+    ],
+    "analogy": "Un modelo cerrado es un restaurante: pedís, comés y nunca ves la cocina. Un modelo de pesos abiertos es una vianda congelada que te llevás: la podés calentar, condimentar o servirles a tus amigos, pero la receta original y la lista de ingredientes en general se quedan con el cocinero.",
+    "keyPoints": [
+      "Los pesos entrenados se publican y se pueden descargar.",
+      "Corre en tu propio hardware, así que los datos pueden quedar en privado.",
+      "En general no es código abierto completo: casi nunca incluye los datos de entrenamiento.",
+      "Las licencias varían, y los pesos publicados no se pueden recuperar."
+    ],
+    "links": [
+      { "label": "Inteligencia artificial de código abierto en Wikipedia", "url": "https://es.wikipedia.org/wiki/Inteligencia_artificial_de_c%C3%B3digo_abierto" },
+      { "label": "LLMs de código abierto (IBM)", "url": "https://www.ibm.com/es-es/think/topics/open-source-llms" },
+      { "label": "Modelos en Hugging Face (en inglés)", "url": "https://huggingface.co/models" }
+    ]
+  }
+}

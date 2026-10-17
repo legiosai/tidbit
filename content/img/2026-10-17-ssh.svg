@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="44" width="110" height="70" rx="6" fill="#2b2b2b"/>
+    <path d="M22 114 H148 L156 124 H14 Z" fill="#e6dfd0"/>
+    <rect x="280" y="34" width="90" height="90" rx="8" fill="#e6dfd0"/>
+    <rect x="156" y="62" width="118" height="40" rx="6" fill="#9ac7ea"/>
+    <rect x="205" y="82" width="20" height="14" rx="2" fill="#ffd166"/>
+    <circle cx="66" cy="164" r="9" fill="#f4a7a7"/>
+    <circle cx="300" cy="164" r="9" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M209 82 v-5 a6 6 0 0 1 12 0 v5"/>
+    <path d="M292 56 H358"/><path d="M292 78 H358"/><path d="M292 100 H358"/>
+    <path d="M75 164 H110"/><path d="M102 164 v7"/><path d="M110 164 v7"/>
+    <path d="M309 164 H344"/><path d="M336 164 v7"/><path d="M344 164 v7"/>
+    <path d="M124 164 H286" stroke-dasharray="4 5"/>
+  </g>
+  <text x="85" y="84" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#f3efe6">$ ssh ana@srv</text>
+  <text x="215" y="120" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357">port 22</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="215" y="54">encrypted</text><text x="205" y="158">must match</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="88" y="194">private key</text><text x="322" y="194">public key</text><text x="325" y="142">server</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a locked tunnel to another computer's terminal</text>
+</svg>

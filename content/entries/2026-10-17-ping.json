@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-ping",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["ping time", "ping command", "ICMP", "Internet Control Message Protocol", "echo request"],
+    "es": ["ICMP", "comando ping", "tiempo de ping", "Internet Control Message Protocol"]
+  },
+  "image": "img/2026-10-17-ping.svg",
+  "imageAlt": {
+    "en": "A laptop sends an echo request to a server and gets an echo reply back; below, a terminal shows the command ping example.com and a reply time in milliseconds",
+    "es": "Una notebook le manda un echo request a un servidor y recibe un echo reply de vuelta; abajo, una terminal muestra el comando ping example.com y un tiempo de respuesta en milisegundos"
+  },
+  "en": {
+    "title": "Ping",
+    "tagline": "A tiny \"are you there?\" message that tests a connection and times the reply.",
+    "explanation": [
+      "**Ping** is the simplest test of a network connection. Your computer sends a tiny message to another machine, basically \"are you there?\", and waits for the echo. If a reply comes back, the other side is reachable, and the time it took, shown in milliseconds, tells you how long a round trip takes. The name comes from the sound of sonar, which works the same way.",
+      "Technically, ping sends an **echo request** using ICMP, a helper protocol of the internet meant for control and error messages, and the other machine answers with an **echo reply**. You can try it yourself: open a terminal and type `ping example.com`. Each line shows one reply and its time; if some replies never arrive, packets are being lost somewhere along the way.",
+      "In everyday speech, \"ping\" also means that delay itself. Gamers complain about \"high ping\" when their moves reach the game server late, and speed tests show it next to download speed. A good ping depends on distance and on the network: a nearby server answers in a few milliseconds, while one on another continent takes much longer, because even light in a fiber needs time to travel. One caution: some servers and firewalls are set to ignore pings, so no answer does not always mean the machine is down."
+    ],
+    "analogy": "Shouting \"hello?\" into a cave and listening for the echo. If it comes back, you know something is there, and how long it takes tells you how far away the wall is.",
+    "keyPoints": [
+      "Sends a small echo request and waits for the reply.",
+      "The round-trip time, in milliseconds, measures the connection's delay.",
+      "Missing replies point to packets being lost along the way.",
+      "No answer may just mean the server is set to ignore pings."
+    ],
+    "links": [
+      { "label": "Ping (networking utility) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Ping_(networking_utility)" },
+      { "label": "Internet Control Message Protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol" }
+    ]
+  },
+  "es": {
+    "title": "Ping",
+    "tagline": "Un mensajito de \"¿estás ahí?\" que prueba una conexión y mide cuánto tarda la respuesta.",
+    "explanation": [
+      "**Ping** es la prueba más simple de una conexión de red. Tu computadora le manda un mensaje diminuto a otra máquina, básicamente \"¿estás ahí?\", y espera el eco. Si vuelve una respuesta, el otro lado está accesible, y el tiempo que tardó, en milisegundos, te dice cuánto dura un viaje de ida y vuelta. El nombre viene del sonido del sonar, que funciona igual.",
+      "Técnicamente, ping manda un **echo request** (pedido de eco) usando ICMP, un protocolo auxiliar de internet pensado para mensajes de control y de error, y la otra máquina contesta con un **echo reply** (respuesta de eco). Lo podés probar vos: abrí una terminal y escribí `ping example.com`. Cada línea muestra una respuesta y su tiempo; si algunas no llegan nunca, se están perdiendo paquetes en algún punto del camino.",
+      "En el habla de todos los días, \"ping\" también es esa demora. Los gamers se quejan de tener \"mucho ping\" cuando sus jugadas llegan tarde al servidor del juego, y los tests de velocidad lo muestran al lado de la velocidad de descarga. Un buen ping depende de la distancia y de la red: un servidor cercano responde en pocos milisegundos, y uno en otro continente tarda bastante más, porque hasta la luz en una fibra necesita tiempo para viajar. Una advertencia: algunos servidores y firewalls están configurados para ignorar los pings, así que no recibir respuesta no siempre significa que la máquina esté caída."
+    ],
+    "analogy": "Gritar \"¿hola?\" en una cueva y esperar el eco. Si vuelve, sabés que ahí hay algo, y lo que tarda te dice qué tan lejos está la pared.",
+    "keyPoints": [
+      "Manda un pedido de eco chiquito y espera la respuesta.",
+      "El tiempo de ida y vuelta, en milisegundos, mide la demora de la conexión.",
+      "Las respuestas que faltan indican paquetes que se pierden en el camino.",
+      "Que no conteste puede querer decir solo que el servidor ignora los pings."
+    ],
+    "links": [
+      { "label": "Ping en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ping" },
+      { "label": "Protocolo de control de mensajes de Internet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Protocolo_de_control_de_mensajes_de_Internet" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-sdk",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["SDKs", "software development kit", "software development kits"],
+    "es": ["SDKs", "kit de desarrollo de software", "kits de desarrollo de software", "kit de desarrollo"]
+  },
+  "image": "img/2026-10-17-sdk.svg",
+  "imageAlt": {
+    "en": "An SDK drawn as a toolbox holding libraries, docs, sample code and tools, which a developer uses to build an app that talks to a platform's API",
+    "es": "Un SDK dibujado como una caja de herramientas con bibliotecas, documentación, ejemplos y herramientas, que alguien usa para armar una app que habla con la API de una plataforma"
+  },
+  "en": {
+    "title": "SDK",
+    "tagline": "A kit of code, tools and docs a company provides so you can build for its platform.",
+    "explanation": [
+      "An **SDK** (software development kit) is a bundle that a platform gives to developers so they can build software for it. It usually contains libraries you call from your own code, documentation, sample projects and some tools, such as an emulator to test a phone app or a command-line program to set things up. Apple and Google publish SDKs for building iPhone and Android apps; AWS, Stripe and many others publish SDKs for using their services.",
+      "Many SDKs are a friendly layer on top of an API. Instead of building raw HTTP requests, handling authentication, retries and error codes by hand, you call something like `payments.create(amount)` in your own programming language and the SDK does the rest. The same service often offers one SDK per language: Python, JavaScript, Java, Go and so on.",
+      "There is a trade-off. An SDK saves time and avoids common mistakes, but it adds a dependency to your project and ties your code to that vendor's way of doing things. SDKs embedded in phone apps, for example for ads or analytics, can also collect data about users, which is why app stores now ask developers to disclose what their SDKs gather."
+    ],
+    "analogy": "The starter kit that comes with a new espresso machine: the right filters, a tamper, a cleaning brush and a booklet. You could find your own tools, but the kit is made to fit exactly that machine.",
+    "keyPoints": [
+      "A bundle of libraries, docs, samples and tools for one platform.",
+      "Often wraps an API so you can call it in your own language.",
+      "Usually offered in several languages for the same service.",
+      "Saves time, but adds a dependency and ties you to the vendor."
+    ],
+    "links": [
+      { "label": "What is an SDK? (AWS)", "url": "https://aws.amazon.com/what-is/sdk/" },
+      { "label": "SDK (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/SDK" },
+      { "label": "Software development kit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_development_kit" }
+    ]
+  },
+  "es": {
+    "title": "SDK",
+    "tagline": "Un kit de código, herramientas y documentación para programar sobre una plataforma.",
+    "explanation": [
+      "Un **SDK** (software development kit, kit de desarrollo de software) es un paquete que una plataforma les da a los desarrolladores para que puedan crear software para ella. Suele traer bibliotecas que llamás desde tu propio código, documentación, proyectos de ejemplo y algunas herramientas, como un emulador para probar una app de celular o un programa de línea de comandos para configurar todo. Apple y Google publican SDKs para hacer apps de iPhone y Android; AWS, Stripe y muchos otros publican SDKs para usar sus servicios.",
+      "Muchos SDKs son una capa amigable encima de una API. En vez de armar a mano los pedidos HTTP, la autenticación, los reintentos y los códigos de error, llamás a algo como `pagos.crear(monto)` en tu propio lenguaje de programación y el SDK hace el resto. El mismo servicio muchas veces ofrece un SDK por lenguaje: Python, JavaScript, Java, Go, etcétera.",
+      "Hay un costo. Un SDK ahorra tiempo y evita errores comunes, pero suma una dependencia a tu proyecto y ata tu código a la forma de trabajar de ese proveedor. Los SDKs que vienen dentro de apps de celular, por ejemplo para publicidad o métricas, también pueden juntar datos de los usuarios, y por eso hoy las tiendas de apps piden declarar qué recolectan."
+    ],
+    "analogy": "El kit de inicio que viene con una cafetera espresso nueva: los filtros justos, un compactador, un cepillito de limpieza y un folleto. Podrías conseguir tus propias herramientas, pero el kit está hecho a medida de esa máquina.",
+    "keyPoints": [
+      "Un paquete de bibliotecas, documentación, ejemplos y herramientas para una plataforma.",
+      "Muchas veces envuelve una API para usarla desde tu propio lenguaje.",
+      "Suele haber uno por lenguaje para el mismo servicio.",
+      "Ahorra tiempo, pero suma una dependencia y te ata al proveedor."
+    ],
+    "links": [
+      { "label": "¿Qué es un SDK? (AWS)", "url": "https://aws.amazon.com/es/what-is/sdk/" },
+      { "label": "Kit de desarrollo de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Kit_de_desarrollo_de_software" }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M40 58 V168 a62 16 0 0 0 124 0 V58" fill="#9ac7ea"/>
+    <ellipse cx="102" cy="58" rx="62" ry="16" fill="#9ac7ea"/>
+    <path d="M40 98 a62 16 0 0 0 124 0" fill="none"/>
+    <path d="M40 136 a62 16 0 0 0 124 0" fill="none"/>
+    <path d="M164 84 L150 102 L162 112 L148 132 L160 142" fill="none" stroke-width="3"/>
+    <rect x="252" y="36" width="116" height="30" rx="6" fill="#f4a7a7"/>
+    <rect x="252" y="96" width="116" height="30" rx="6" fill="#f4a7a7"/>
+    <rect x="252" y="156" width="116" height="30" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M172 100 L244 56"/><path d="M236 55 l8 1 -4 7"/>
+    <path d="M172 112 H244"/><path d="M238 108 l6 4 -6 4"/>
+    <path d="M172 124 L244 166"/><path d="M240 159 l4 7 -8 1"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="310" y="55">email</text><text x="310" y="115">password hash</text><text x="310" y="175">address</text>
+  </g>
+  <text x="102" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">customers</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">private data reaches people who should not have it</text>
+</svg>

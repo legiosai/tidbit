@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="20" y="130" width="36" height="30" rx="6"/>
+    <rect x="64" y="130" width="36" height="30" rx="6" fill="#9bd1b9"/>
+    <rect x="108" y="130" width="36" height="30" rx="6"/>
+    <rect x="152" y="130" width="64" height="30" rx="6"/>
+    <rect x="224" y="130" width="30" height="30" rx="6" fill="#9ac7ea"/>
+    <rect x="262" y="130" width="36" height="30" rx="6"/>
+    <rect x="322" y="130" width="58" height="30" rx="6" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M239 126 Q160 34 82 126"/><path d="M84 116 l-2 10 8 -6"/>
+    <path d="M239 126 Q182 86 126 126" stroke-dasharray="4 4"/>
+    <path d="M239 126 Q212 102 184 126" stroke-dasharray="4 4"/>
+    <path d="M302 145 H316"/><path d="M311 141 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="38" y="149">the</text><text x="82" y="149">cat</text><text x="126" y="149">sat</text><text x="184" y="149">because</text>
+    <text x="239" y="149">it</text><text x="280" y="149">was</text><text x="351" y="149">tired</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="160" y="70">attention</text>
+    <text x="160" y="182">input tokens</text><text x="351" y="182">next word</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">each word weighs every other word</text>
+</svg>

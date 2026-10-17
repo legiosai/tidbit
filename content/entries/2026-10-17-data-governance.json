@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-data-governance",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": [],
+    "es": ["gobernanza de datos", "data governance"]
+  },
+  "image": "img/2026-10-17-data-governance.svg",
+  "imageAlt": {
+    "en": "A shared data table in the middle, surrounded by four cards: owner, rules, access and quality",
+    "es": "Una tabla de datos compartida en el centro, rodeada por cuatro tarjetas: dueño, reglas, acceso y calidad"
+  },
+  "en": {
+    "title": "Data governance",
+    "tagline": "The rules and roles that decide who owns data, who can use it and how it is kept right.",
+    "explanation": [
+      "**Data governance** is the set of decisions, roles and rules an organization uses to manage its data on purpose instead of by accident. It answers questions like: who is responsible for the customer table, what does \"active customer\" mean, who is allowed to see salaries, how long do we keep old records, and what happens when two reports disagree.",
+      "In practice it is part paperwork and part tooling. There are **data owners** who answer for a dataset, **data stewards** who look after its quality day to day, written definitions, and access policies. Then there are tools that enforce them: permissions in the database or data warehouse, a data catalog that documents what exists, automatic quality checks and records of where each number came from (its **lineage**).",
+      "It matters because data is shared by many teams and regulated by laws such as Europe's GDPR. Without governance, the same metric gets calculated three different ways, sensitive data ends up in a spreadsheet nobody controls, and nobody can answer a regulator's question. Done badly, it turns into bureaucracy that slows everyone down; done well, it is mostly invisible and lets people trust the numbers."
+    ],
+    "analogy": "The rules of a shared kitchen in an office: who restocks the fridge, what gets labeled, what is off limits and when leftovers are thrown out. Without them, the kitchen still works for a week, and then nobody wants to touch the milk.",
+    "keyPoints": [
+      "Defines ownership, meanings, access and retention for an organization's data.",
+      "Mixes people (owners, stewards) with tools (permissions, catalogs, quality checks).",
+      "Helps meet privacy and record-keeping laws such as GDPR.",
+      "The goal is trusted data, not more bureaucracy."
+    ],
+    "links": [
+      { "label": "What is data governance? (AWS)", "url": "https://aws.amazon.com/what-is/data-governance/" },
+      { "label": "Data governance on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_governance" }
+    ]
+  },
+  "es": {
+    "title": "Gobierno de datos",
+    "tagline": "Las reglas y roles que deciden de quién son los datos, quién los usa y cómo se cuidan.",
+    "explanation": [
+      "El **gobierno de datos** (o gobernanza de datos, data governance en inglés) es el conjunto de decisiones, roles y reglas con que una organización maneja sus datos a propósito y no por accidente. Responde preguntas como: quién es responsable de la tabla de clientes, qué significa \"cliente activo\", quién puede ver los sueldos, cuánto tiempo guardamos los registros viejos y qué pasa cuando dos reportes no coinciden.",
+      "En la práctica es mitad acuerdos y mitad herramientas. Hay **dueños de datos** que responden por un conjunto de datos, **data stewards** que cuidan su calidad en el día a día, definiciones escritas y políticas de acceso. Y hay herramientas que las hacen cumplir: permisos en la base de datos o el data warehouse, un catálogo de datos que documenta lo que existe, controles automáticos de calidad y el registro de dónde salió cada número (su **linaje**).",
+      "Importa porque los datos los comparten muchos equipos y los regulan leyes como el GDPR europeo. Sin gobierno, la misma métrica se calcula de tres formas distintas, los datos sensibles terminan en una planilla que nadie controla y nadie sabe qué contestarle a un regulador. Mal hecho, se vuelve burocracia que frena a todos; bien hecho, casi no se nota y hace que la gente confíe en los números."
+    ],
+    "analogy": "Las reglas de la cocina compartida de una oficina: quién repone la heladera, qué se etiqueta, qué no se toca y cuándo se tiran las sobras. Sin ellas, la cocina anda una semana, y después nadie quiere tocar la leche.",
+    "keyPoints": [
+      "Define dueños, significados, accesos y plazos de guardado de los datos de una organización.",
+      "Combina personas (dueños, stewards) con herramientas (permisos, catálogos, controles de calidad).",
+      "Ayuda a cumplir leyes de privacidad y de conservación de registros como el GDPR.",
+      "El objetivo son datos confiables, no más burocracia."
+    ],
+    "links": [
+      { "label": "¿Qué es la gobernanza de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-governance/" },
+      { "label": "Gobernanza de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Gobernanza_de_datos" }
+    ]
+  }
+}

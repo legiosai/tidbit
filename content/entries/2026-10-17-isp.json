@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-isp",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["ISPs", "internet service provider", "internet service providers", "internet provider", "internet providers"],
+    "es": ["ISPs", "proveedor de internet", "proveedores de internet", "proveedor de servicios de internet", "proveedores de servicios de internet"]
+  },
+  "image": "img/2026-10-17-isp.svg",
+  "imageAlt": {
+    "en": "A house connects to a box labeled ISP, which hands out an IP address and DNS, and which in turn connects to the internet",
+    "es": "Una casa se conecta a una caja con la sigla ISP, que reparte una dirección IP y DNS, y que a su vez se conecta con internet"
+  },
+  "en": {
+    "title": "ISP",
+    "tagline": "The company you pay to connect your home or phone to the internet.",
+    "explanation": [
+      "An **ISP** (internet service provider) is the company that connects you to the internet: the cable or phone company that brings a line to your home, a fiber provider, a mobile carrier or a satellite service. You pay it a monthly fee, and in exchange it links your home network, through your modem, to its own network, and from there to the rest of the internet.",
+      "Behind that simple service there is a lot of infrastructure. The ISP runs the cables or antennas in your area, gives your connection an IP address, often provides a DNS service that turns names like `example.com` into addresses, and connects its network to others, either at shared meeting points called **internet exchange points** or by paying larger carriers. Smaller ISPs buy their access from bigger ones, which connect with each other, and together they make up the internet.",
+      "Because all your traffic passes through it, your ISP can see a lot: which sites you connect to and when, even when the content itself is protected by HTTPS. What it may do with that information depends on the laws of each country. It also explains some everyday experiences: a slow connection at peak evening hours is often the ISP's network being busy, and an outage across your whole neighborhood is usually its problem, not your router's. A VPN or encrypted DNS hides part of your activity from the ISP, although the VPN provider then sees it instead."
+    ],
+    "analogy": "The company that builds and maintains the road from your house to the highway. You pay a toll to use it, it decides how many lanes there are, and it can see every car leave your driveway, even if it cannot see inside them.",
+    "keyPoints": [
+      "The company that connects your home or phone to the internet.",
+      "It can reach you by cable, phone line, fiber, mobile network or satellite.",
+      "Assigns your IP address and often provides your DNS.",
+      "Sees which sites you connect to, even when the content is encrypted."
+    ],
+    "links": [
+      { "label": "Internet service provider on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet_service_provider" },
+      { "label": "Internet exchange point on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet_exchange_point" }
+    ]
+  },
+  "es": {
+    "title": "ISP",
+    "tagline": "La empresa a la que le pagás para conectar tu casa o tu celular a internet.",
+    "explanation": [
+      "Un **ISP** (internet service provider, proveedor de servicios de internet) es la empresa que te conecta a internet: la compañía de cable o de teléfono que lleva una línea hasta tu casa, un proveedor de fibra, una operadora de celulares o un servicio satelital. Le pagás un abono mensual y a cambio une la red de tu casa, a través de tu módem, con su propia red, y desde ahí con el resto de internet.",
+      "Detrás de ese servicio simple hay mucha infraestructura. El ISP mantiene los cables o las antenas de tu zona, le da a tu conexión una dirección IP, muchas veces te ofrece un servicio de DNS que traduce nombres como `example.com` en direcciones, y conecta su red con otras, ya sea en puntos de encuentro compartidos llamados **puntos de intercambio de internet** o pagándoles a operadores más grandes. Los ISP chicos les compran el acceso a los grandes, que se conectan entre sí, y entre todos forman internet.",
+      "Como todo tu tráfico pasa por él, tu ISP puede ver bastante: a qué sitios te conectás y cuándo, aunque el contenido esté protegido con HTTPS. Qué puede hacer con esa información depende de las leyes de cada país. También explica cosas de todos los días: una conexión lenta a la noche, en la hora pico, suele ser la red del ISP saturada, y un corte en todo el barrio casi siempre es problema suyo, no de tu router. Una VPN o un DNS cifrado le ocultan al ISP parte de tu actividad, aunque entonces la ve el proveedor de la VPN."
+    ],
+    "analogy": "La empresa que construye y mantiene el camino desde tu casa hasta la autopista. Le pagás peaje para usarlo, decide cuántos carriles hay y ve cada auto que sale de tu garaje, aunque no pueda ver qué lleva adentro.",
+    "keyPoints": [
+      "La empresa que conecta tu casa o tu celular a internet.",
+      "Puede llegar por cable, línea telefónica, fibra, red móvil o satélite.",
+      "Asigna tu dirección IP y muchas veces te da el DNS.",
+      "Ve a qué sitios te conectás, aunque el contenido vaya cifrado."
+    ],
+    "links": [
+      { "label": "Proveedor de servicios de internet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Proveedor_de_servicios_de_internet" },
+      { "label": "Punto neutro en Wikipedia", "url": "https://es.wikipedia.org/wiki/Punto_neutro" }
+    ]
+  }
+}

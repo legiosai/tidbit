@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-huawei",
+  "date": "2026-10-17",
+  "subjects": ["companies", "networks"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Huawei Technologies", "HarmonyOS"],
+    "es": ["Huawei Technologies", "HarmonyOS"]
+  },
+  "image": "img/2026-10-17-huawei.svg",
+  "imageAlt": {
+    "en": "Three parts of the company: antennas and network gear for mobile operators, phones and watches for consumers, and chips designed in house",
+    "es": "Tres partes de la empresa: antenas y equipos de red para operadoras móviles, celulares y relojes para el público, y chips de diseño propio"
+  },
+  "en": {
+    "title": "Huawei",
+    "tagline": "A Chinese company that makes mobile network equipment, phones and its own chips.",
+    "explanation": [
+      "**Huawei** was founded in 1987 in Shenzhen, China, by Ren Zhengfei. It started by reselling telephone switches and grew into one of the world's largest makers of **telecom equipment**: the antennas, base stations, fiber gear and core systems that mobile operators install so your phone can connect. When a carrier builds a 4G or 5G network, Huawei is one of a handful of companies, along with Ericsson and Nokia, that can supply the whole thing.",
+      "It is also known for its consumer devices: smartphones, tablets, laptops, watches and earbuds. Its chip design unit, **HiSilicon**, designs processors such as the Kirin chips in its phones. Huawei also sells cloud services and equipment for companies, and its shares are not traded on any stock market: it is a private company that says it is owned by its employees.",
+      "Huawei has been at the center of a long dispute between the United States and China. Several governments, citing national security concerns that Huawei rejects, have limited or banned its equipment in their 5G networks. Since 2019, US export restrictions cut Huawei off from American technology, including Google's apps on its new Android phones and chips made with US tools. In response it built its own operating system, **HarmonyOS**, and works with Chinese factories to make its chips."
+    ],
+    "analogy": "A company that builds both the roads and the cars. It sells the highways to the countries that run them, and the vehicles to the people who drive on them.",
+    "keyPoints": [
+      "Founded in 1987 in Shenzhen by Ren Zhengfei; privately held.",
+      "One of the main suppliers of 4G and 5G network equipment, with Ericsson and Nokia.",
+      "Makes phones and other devices, and designs chips through HiSilicon.",
+      "US export restrictions since 2019 led it to build HarmonyOS and rely on Chinese suppliers."
+    ],
+    "links": [
+      { "label": "Huawei corporate information (official site)", "url": "https://www.huawei.com/en/corporate-information" },
+      { "label": "Huawei on Wikipedia", "url": "https://en.wikipedia.org/wiki/Huawei" }
+    ]
+  },
+  "es": {
+    "title": "Huawei",
+    "tagline": "Una empresa china que hace equipos para redes móviles, celulares y sus propios chips.",
+    "explanation": [
+      "**Huawei** se fundó en 1987 en Shenzhen, China, de la mano de Ren Zhengfei. Arrancó revendiendo centrales telefónicas y creció hasta ser uno de los mayores fabricantes de **equipos de telecomunicaciones** del mundo: las antenas, estaciones base, equipos de fibra y sistemas centrales que instalan las operadoras móviles para que tu celular se conecte. Cuando una operadora arma una red 4G o 5G, Huawei es una de las pocas empresas, junto con Ericsson y Nokia, que pueden proveer todo.",
+      "También es conocida por sus dispositivos: celulares, tablets, notebooks, relojes y auriculares. Su área de diseño de chips, **HiSilicon**, diseña procesadores como los Kirin de sus teléfonos. Huawei además vende servicios en la nube y equipos para empresas, y no cotiza en bolsa: es una empresa privada que dice ser propiedad de sus empleados.",
+      "Huawei quedó en el centro de una larga disputa entre Estados Unidos y China. Varios gobiernos, alegando motivos de seguridad nacional que Huawei rechaza, limitaron o prohibieron sus equipos en sus redes 5G. Desde 2019, restricciones de exportación de Estados Unidos dejaron a Huawei sin acceso a tecnología estadounidense, incluidas las apps de Google en sus nuevos celulares Android y los chips fabricados con herramientas de ese país. En respuesta armó su propio sistema operativo, **HarmonyOS**, y trabaja con fábricas chinas para hacer sus chips."
+    ],
+    "analogy": "Una empresa que construye tanto las rutas como los autos. Les vende las autopistas a los países que las administran, y los vehículos a la gente que maneja por ellas.",
+    "keyPoints": [
+      "Fundada en 1987 en Shenzhen por Ren Zhengfei; no cotiza en bolsa.",
+      "Uno de los principales proveedores de equipos 4G y 5G, junto con Ericsson y Nokia.",
+      "Hace celulares y otros dispositivos, y diseña chips a través de HiSilicon.",
+      "Las restricciones de Estados Unidos desde 2019 la llevaron a crear HarmonyOS y apoyarse en proveedores chinos."
+    ],
+    "links": [
+      { "label": "Información corporativa de Huawei (sitio oficial)", "url": "https://www.huawei.com/es/corporate-information" },
+      { "label": "Huawei en Wikipedia", "url": "https://es.wikipedia.org/wiki/Huawei" }
+    ]
+  }
+}

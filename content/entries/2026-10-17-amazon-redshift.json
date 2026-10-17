@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-amazon-redshift",
+  "date": "2026-10-17",
+  "subjects": ["aws", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["Redshift", "Redshift Serverless", "Redshift Spectrum", "Redshift cluster", "Redshift clusters"],
+    "es": ["Redshift", "Redshift Serverless", "Redshift Spectrum", "cluster de Redshift", "clusters de Redshift"]
+  },
+  "image": "img/2026-10-17-amazon-redshift.svg",
+  "imageAlt": {
+    "en": "A SQL query enters a leader node that splits the work among three compute nodes, each storing columns of a table",
+    "es": "Una consulta SQL entra a un nodo líder que reparte el trabajo entre tres nodos de cómputo, cada uno guardando columnas de una tabla"
+  },
+  "en": {
+    "title": "Amazon Redshift",
+    "tagline": "AWS's data warehouse: SQL over huge tables, built for analysis rather than apps.",
+    "explanation": [
+      "**Redshift** is the data warehouse of AWS: a database designed to answer analytical questions over very large amounts of data, like \"revenue by country and month for the last five years\". You load data from your apps, Amazon S3 or other sources, and analysts query it with SQL, usually through a dashboard tool.",
+      "Two design choices make it fast at that job. It stores data **by column** instead of by row, so a query that only needs `country` and `amount` reads just those two columns, highly compressed. And it splits each table across several machines (**nodes**) that work in parallel: a leader node plans the query, the compute nodes each scan their slice, and the leader combines the answers.",
+      "You can run it as a provisioned **cluster** with a fixed number of nodes, or as **Redshift Serverless**, where AWS adds capacity while queries run and you pay for the compute actually used. It can also query files that stay in S3 without loading them. What it is not good for is the stream of small reads and writes behind an app's checkout page; that is the job of a regular database like Amazon RDS or Amazon DynamoDB."
+    ],
+    "analogy": "A team of archivists, each holding one part of a huge archive, sorted by topic instead of by date. Ask a question and every archivist searches their part at the same time while a coordinator puts the pieces together.",
+    "keyPoints": [
+      "A columnar data warehouse queried with SQL (its dialect descends from PostgreSQL).",
+      "Spreads data across nodes that scan in parallel.",
+      "Comes as provisioned clusters or as Redshift Serverless.",
+      "Built for analytics over big tables, not for an app's many small transactions."
+    ],
+    "links": [
+      { "label": "What is Amazon Redshift? (official docs)", "url": "https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html" },
+      { "label": "Amazon Redshift", "url": "https://aws.amazon.com/redshift/" },
+      { "label": "Amazon Redshift on Wikipedia", "url": "https://en.wikipedia.org/wiki/Amazon_Redshift" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Redshift",
+    "tagline": "El data warehouse de AWS: SQL sobre tablas enormes, pensado para analizar, no para apps.",
+    "explanation": [
+      "**Redshift** es el data warehouse de AWS: una base de datos diseñada para responder preguntas de análisis sobre cantidades muy grandes de datos, como \"facturación por país y por mes de los últimos cinco años\". Cargás datos de tus apps, de Amazon S3 o de otras fuentes, y los analistas los consultan con SQL, casi siempre desde una herramienta de dashboards.",
+      "Dos decisiones de diseño lo hacen rápido para eso. Guarda los datos **por columna** en vez de por fila, así una consulta que solo necesita `country` y `amount` lee esas dos columnas, muy comprimidas. Y reparte cada tabla entre varias máquinas (**nodos**) que trabajan en paralelo: un nodo líder planifica la consulta, cada nodo de cómputo recorre su parte, y el líder junta las respuestas.",
+      "Lo podés usar como un **cluster** aprovisionado con una cantidad fija de nodos, o como **Redshift Serverless**, donde AWS suma capacidad mientras corren las consultas y pagás por el cómputo que realmente usaste. También puede consultar archivos que se quedan en S3, sin cargarlos. Para lo que no sirve es para el ida y vuelta de lecturas y escrituras chiquitas detrás del checkout de una app; eso es trabajo de una base de datos común como Amazon RDS o Amazon DynamoDB."
+    ],
+    "analogy": "Un equipo de archivistas, cada uno a cargo de una parte de un archivo enorme, ordenado por tema y no por fecha. Hacés una pregunta, todos buscan en su parte al mismo tiempo, y un coordinador arma la respuesta con los pedazos.",
+    "keyPoints": [
+      "Un data warehouse columnar que se consulta con SQL (su dialecto viene de PostgreSQL).",
+      "Reparte los datos entre nodos que leen en paralelo.",
+      "Viene como clusters aprovisionados o como Redshift Serverless.",
+      "Hecho para análisis sobre tablas grandes, no para las muchas transacciones chicas de una app."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Redshift? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/redshift/latest/mgmt/welcome.html" },
+      { "label": "Amazon Redshift", "url": "https://aws.amazon.com/es/redshift/" },
+      { "label": "Amazon Redshift en Wikipedia", "url": "https://es.wikipedia.org/wiki/Amazon_Redshift" }
+    ]
+  }
+}

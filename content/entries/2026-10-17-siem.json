@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-siem",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 3,
+  "aliases": {
+    "en": ["SIEMs", "security information and event management"],
+    "es": ["SIEMs", "gestión de información y eventos de seguridad"]
+  },
+  "image": "img/2026-10-17-siem.svg",
+  "imageAlt": {
+    "en": "Logs from servers, a firewall, laptops and the cloud flow into a central SIEM box, which applies rules and raises an alert to an analyst",
+    "es": "Logs de servidores, un firewall, laptops y la nube entran a una caja SIEM central, que aplica reglas y le manda una alerta a un analista"
+  },
+  "en": {
+    "title": "SIEM",
+    "tagline": "The system that gathers security logs from everywhere and raises the alarm.",
+    "explanation": [
+      "A **SIEM** (security information and event management) is software that collects logs and events from across an organization, stores them in one place and looks for signs of an attack. Servers, laptops, the firewall, the VPN, cloud accounts, email and identity systems all write records of what happens: who logged in, from where, which file was opened, which connection was blocked. On its own, each record says little. Put together, they can tell a story.",
+      "The SIEM first **normalizes** the data, so a login looks the same whether it came from Windows, a Linux server or a cloud service. Then it **correlates**: it applies detection rules that combine events across sources and time. \"Fifty failed logins followed by a success from a new country\" or \"an admin account created at 3 a.m. and then used to export a database\" are typical rules. When one matches, it raises an **alert** for an analyst, usually in a security operations center.",
+      "It is also the organization's memory. During an investigation, analysts search months of logs to reconstruct what an attacker did, and auditors ask for proof that access is monitored, which is why regulations often push companies toward one. The hard part is tuning: a SIEM with too many noisy rules buries real attacks under thousands of false alarms, and one with too few misses them. Modern products add behavior analytics, threat intelligence feeds and automated responses, and many now run as a cloud service."
+    ],
+    "analogy": "The control room of a building's security, where every camera, door sensor and badge reader sends its feed. One guard watching many screens, with software that rings a bell when the same badge opens doors on two different floors at once.",
+    "keyPoints": [
+      "Collects and centralizes logs from servers, devices, network gear and cloud services.",
+      "Correlation rules combine events across sources to spot attacks no single log reveals.",
+      "Keeps history for investigations and compliance audits.",
+      "Without careful tuning it drowns analysts in false alarms."
+    ],
+    "links": [
+      { "label": "Security information and event management on Wikipedia", "url": "https://en.wikipedia.org/wiki/Security_information_and_event_management" },
+      { "label": "What is SIEM? (IBM)", "url": "https://www.ibm.com/think/topics/siem" }
+    ]
+  },
+  "es": {
+    "title": "SIEM",
+    "tagline": "El sistema que junta los logs de seguridad de todos lados y da la alarma.",
+    "explanation": [
+      "Un **SIEM** (gestión de información y eventos de seguridad, por su sigla en inglés) es un software que recolecta logs y eventos de toda una organización, los guarda en un solo lugar y busca señales de un ataque. Los servidores, las laptops, el firewall, la VPN, las cuentas en la nube, el mail y los sistemas de identidad registran lo que pasa: quién inició sesión, desde dónde, qué archivo se abrió, qué conexión se bloqueó. Cada registro solo dice poco. Juntos, pueden contar una historia.",
+      "Primero el SIEM **normaliza** los datos, para que un login se vea igual venga de Windows, de un servidor Linux o de un servicio en la nube. Después **correlaciona**: aplica reglas de detección que combinan eventos de distintas fuentes y momentos. \"Cincuenta logins fallidos seguidos de uno exitoso desde un país nuevo\" o \"una cuenta de administrador creada a las 3 de la mañana y usada para exportar una base de datos\" son reglas típicas. Cuando una se cumple, genera una **alerta** para un analista, normalmente en un centro de operaciones de seguridad.",
+      "También es la memoria de la organización. En una investigación, los analistas buscan en meses de logs para reconstruir qué hizo un atacante, y los auditores piden pruebas de que los accesos se monitorean, por eso muchas regulaciones empujan a las empresas a tener uno. Lo difícil es el ajuste: un SIEM con demasiadas reglas ruidosas entierra los ataques reales bajo miles de falsas alarmas, y uno con muy pocas los deja pasar. Los productos modernos suman análisis de comportamiento, fuentes de inteligencia de amenazas y respuestas automáticas, y muchos ya funcionan como servicio en la nube."
+    ],
+    "analogy": "La sala de control de seguridad de un edificio, adonde llegan todas las cámaras, sensores de puertas y lectores de tarjetas. Un guardia mirando muchas pantallas, con un software que hace sonar un timbre cuando la misma tarjeta abre puertas en dos pisos distintos a la vez.",
+    "keyPoints": [
+      "Recolecta y centraliza logs de servidores, dispositivos, equipos de red y servicios en la nube.",
+      "Las reglas de correlación combinan eventos para detectar ataques que ningún log muestra solo.",
+      "Guarda historia para investigaciones y auditorías de cumplimiento.",
+      "Sin un buen ajuste, ahoga a los analistas en falsas alarmas."
+    ],
+    "links": [
+      { "label": "Gestión de información y eventos de seguridad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_informaci%C3%B3n_y_eventos_de_seguridad" },
+      { "label": "¿Qué es SIEM? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/siem" }
+    ]
+  }
+}

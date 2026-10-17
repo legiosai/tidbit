@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-cybersecurity",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["cyber security", "information security", "infosec", "IT security"],
+    "es": ["seguridad informática", "seguridad de la información"]
+  },
+  "image": "img/2026-10-17-cybersecurity.svg",
+  "imageAlt": {
+    "en": "A shield in the middle surrounded by three pillars of cybersecurity: confidentiality, integrity and availability, held up by people, process and technology",
+    "es": "Un escudo en el centro rodeado por los tres pilares de la ciberseguridad: confidencialidad, integridad y disponibilidad, sostenidos por personas, procesos y tecnología"
+  },
+  "en": {
+    "title": "Cybersecurity",
+    "tagline": "Protecting computers, networks and data from theft, damage and disruption.",
+    "explanation": [
+      "**Cybersecurity** is everything people and organizations do to keep their computers, networks and data safe from attack and misuse. It covers a lot of ground: passwords and two-factor authentication, encryption, firewalls, software updates, backups, training people to spot phishing, and the teams who watch for intruders.",
+      "A classic way to think about it is three goals. **Confidentiality**: only the right people can see the information (your medical record, a company's plans). **Integrity**: nobody can change it without permission (your bank balance, a hospital's dosage). **Availability**: it is there when needed (the online banking site, the hospital's systems during an emergency). Most attacks break at least one: a data leak breaks confidentiality, ransomware breaks availability, a forged transfer breaks integrity.",
+      "Security is not a product you install once. It is technology plus people plus habits, and attackers usually go for the weakest of the three, which is often a person tricked by a convincing message. That is why frameworks like the NIST Cybersecurity Framework organize the work as a cycle: understand what you have, protect it, detect problems, respond and recover. For an individual, a few habits cover most of the risk: updates on, a password manager, 2FA on important accounts and a backup."
+    ],
+    "analogy": "Keeping a house safe is not just a good lock: it is also closing windows, knowing who has a key, having an alarm, and insurance for when something still goes wrong.",
+    "keyPoints": [
+      "The three classic goals: confidentiality, integrity and availability.",
+      "It mixes technology, people and processes; attackers aim for the weakest link.",
+      "Work runs as a cycle: identify, protect, detect, respond, recover.",
+      "Updates, a password manager, 2FA and backups cover most personal risk."
+    ],
+    "links": [
+      { "label": "Computer security on Wikipedia", "url": "https://en.wikipedia.org/wiki/Computer_security" },
+      { "label": "NIST Cybersecurity Framework", "url": "https://www.nist.gov/cyberframework" },
+      { "label": "Cybersecurity best practices (CISA)", "url": "https://www.cisa.gov/topics/cybersecurity-best-practices" }
+    ]
+  },
+  "es": {
+    "title": "Ciberseguridad",
+    "tagline": "Proteger computadoras, redes y datos contra robos, daños e interrupciones.",
+    "explanation": [
+      "La **ciberseguridad** es todo lo que hacen las personas y las organizaciones para mantener a salvo sus computadoras, redes y datos de ataques y usos indebidos. Abarca mucho: contraseñas y autenticación en dos pasos, cifrado, firewalls, actualizaciones de software, backups, capacitar a la gente para reconocer el phishing y los equipos que vigilan que no entren intrusos.",
+      "Una forma clásica de pensarla es con tres objetivos. **Confidencialidad**: solo las personas indicadas pueden ver la información (tu historia clínica, los planes de una empresa). **Integridad**: nadie puede cambiarla sin permiso (el saldo de tu cuenta, la dosis que indica un hospital). **Disponibilidad**: está cuando se la necesita (el home banking, los sistemas del hospital durante una emergencia). La mayoría de los ataques rompe al menos uno: una filtración rompe la confidencialidad, el ransomware rompe la disponibilidad, una transferencia falsificada rompe la integridad.",
+      "La seguridad no es un producto que se instala una vez. Es tecnología más personas más hábitos, y los atacantes suelen ir por el eslabón más débil, que muchas veces es una persona engañada por un mensaje convincente. Por eso marcos como el NIST Cybersecurity Framework organizan el trabajo como un ciclo: entender qué tenés, protegerlo, detectar problemas, responder y recuperarte. Para una persona, unos pocos hábitos cubren la mayor parte del riesgo: actualizaciones activadas, un gestor de contraseñas, 2FA en las cuentas importantes y un backup."
+    ],
+    "analogy": "Cuidar una casa no es solo tener una buena cerradura: también es cerrar las ventanas, saber quién tiene llave, tener alarma y un seguro para cuando igual algo sale mal.",
+    "keyPoints": [
+      "Los tres objetivos clásicos: confidencialidad, integridad y disponibilidad.",
+      "Mezcla tecnología, personas y procesos; los atacantes apuntan al eslabón más débil.",
+      "El trabajo es un ciclo: identificar, proteger, detectar, responder, recuperar.",
+      "Actualizaciones, un gestor de contraseñas, 2FA y backups cubren la mayor parte del riesgo personal."
+    ],
+    "links": [
+      { "label": "Seguridad informática en Wikipedia", "url": "https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" },
+      { "label": "Ciberseguridad para la ciudadanía (INCIBE)", "url": "https://www.incibe.es/ciudadania" },
+      { "label": "NIST Cybersecurity Framework (en inglés)", "url": "https://www.nist.gov/cyberframework" }
+    ]
+  }
+}

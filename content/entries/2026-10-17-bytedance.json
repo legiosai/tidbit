@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-bytedance",
+  "date": "2026-10-17",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["TikTok", "Douyin"],
+    "es": ["TikTok", "Douyin"]
+  },
+  "image": "img/2026-10-17-bytedance.svg",
+  "imageAlt": {
+    "en": "A phone showing a vertical video feed; what the viewer watches, skips and likes goes back to a recommendation engine that picks the next video, while advertisers pay to appear in the feed",
+    "es": "Un celular con un feed de videos verticales; lo que la persona mira, saltea y le gusta vuelve a un motor de recomendaciones que elige el próximo video, mientras los anunciantes pagan para aparecer en el feed"
+  },
+  "en": {
+    "title": "ByteDance",
+    "tagline": "The Chinese tech company behind TikTok and its recommendation engine.",
+    "explanation": [
+      "**ByteDance** is a Chinese technology company founded in 2012 in Beijing by Zhang Yiming. Its first hit was Toutiao, a news app that, instead of having editors choose the stories, learned from each reader what to show them. That idea, a feed run entirely by a recommendation algorithm, became the core of everything it built later.",
+      "Its best-known products are short-video apps: **Douyin** in China, launched in 2016, and **TikTok** for the rest of the world, which in 2018 absorbed the lip-sync app Musical.ly. You do not need to follow anyone: the \"For You\" feed watches what you finish, rewatch, skip and like, and within minutes it adjusts what comes next. ByteDance also makes CapCut, a video editor, and Lark, a workplace chat and documents tool.",
+      "It makes money mostly from **advertising** placed between videos, and also from in-app shopping, where creators and stores sell products, and from virtual gifts viewers buy for creators during live streams. Because its apps are used by many people outside China while the company is Chinese, governments in several countries have raised questions about where user data is stored and who can access it, and ByteDance has set up separate data arrangements in some regions in response."
+    ],
+    "analogy": "A TV channel with one programmer per viewer, who watches your face as you watch and changes the next show the moment you look bored.",
+    "keyPoints": [
+      "Founded in 2012 in Beijing; owns TikTok and its Chinese twin, Douyin.",
+      "Its strength is the recommendation algorithm that builds each person's feed.",
+      "Makes money mainly from ads, plus in-app shopping and live-stream gifts.",
+      "Its foreign reach has drawn government scrutiny over data and ownership."
+    ],
+    "links": [
+      { "label": "ByteDance (official site)", "url": "https://www.bytedance.com/en/" },
+      { "label": "ByteDance on Wikipedia", "url": "https://en.wikipedia.org/wiki/ByteDance" },
+      { "label": "TikTok on Wikipedia", "url": "https://en.wikipedia.org/wiki/TikTok" }
+    ]
+  },
+  "es": {
+    "title": "ByteDance",
+    "tagline": "La empresa tecnológica china detrás de TikTok y de su motor de recomendaciones.",
+    "explanation": [
+      "**ByteDance** es una empresa de tecnología china fundada en 2012 en Pekín por Zhang Yiming. Su primer éxito fue Toutiao, una app de noticias que, en vez de tener editores que eligieran las notas, aprendía de cada lector qué mostrarle. Esa idea, un feed manejado por completo por un algoritmo de recomendación, se volvió el centro de todo lo que hizo después.",
+      "Sus productos más conocidos son apps de videos cortos: **Douyin** en China, lanzada en 2016, y **TikTok** para el resto del mundo, que en 2018 absorbió a la app de playback Musical.ly. No hace falta seguir a nadie: el feed \"Para ti\" mira qué videos terminás, cuáles repetís, cuáles salteás y cuáles te gustan, y en minutos ajusta lo que viene. ByteDance también hace CapCut, un editor de video, y Lark, una herramienta de chat y documentos para el trabajo.",
+      "Gana plata sobre todo con **publicidad** entre los videos, y además con compras dentro de la app, donde creadores y tiendas venden productos, y con regalos virtuales que el público les compra a los creadores durante las transmisiones en vivo. Como sus apps las usa mucha gente fuera de China y la empresa es china, gobiernos de varios países plantearon dudas sobre dónde se guardan los datos de los usuarios y quién puede acceder a ellos, y ByteDance armó esquemas de datos separados en algunas regiones como respuesta."
+    ],
+    "analogy": "Un canal de televisión con un programador para cada espectador, que te mira la cara mientras mirás y cambia el próximo programa apenas te ve aburrido.",
+    "keyPoints": [
+      "Fundada en 2012 en Pekín; es dueña de TikTok y de su gemela china, Douyin.",
+      "Su fuerte es el algoritmo de recomendación que arma el feed de cada persona.",
+      "Gana plata sobre todo con publicidad, más compras en la app y regalos en vivos.",
+      "Su alcance fuera de China atrajo el escrutinio de gobiernos por los datos y la propiedad."
+    ],
+    "links": [
+      { "label": "ByteDance en Wikipedia", "url": "https://es.wikipedia.org/wiki/ByteDance" },
+      { "label": "TikTok en Wikipedia", "url": "https://es.wikipedia.org/wiki/TikTok" },
+      { "label": "ByteDance (sitio oficial)", "url": "https://www.bytedance.com/es/" }
+    ]
+  }
+}

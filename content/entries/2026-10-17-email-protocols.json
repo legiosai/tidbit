@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-email-protocols",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["SMTP", "IMAP", "POP3", "mail server", "mail servers"],
+    "es": ["SMTP", "IMAP", "POP3", "servidor de correo", "servidores de correo", "protocolos de correo electrónico"]
+  },
+  "image": "img/2026-10-17-email-protocols.svg",
+  "imageAlt": {
+    "en": "Your app sends mail with SMTP to your server, which asks DNS for the MX record and passes it with SMTP to their server; it waits in the mailbox until their app reads it with IMAP",
+    "es": "Tu app manda el correo por SMTP a tu servidor, que le pregunta al DNS por el registro MX y lo pasa por SMTP al servidor del destinatario; ahí espera en el buzón hasta que su app lo lee por IMAP"
+  },
+  "en": {
+    "title": "Email protocols",
+    "tagline": "The shared rules, SMTP, IMAP and POP3, that carry an email from one inbox to another.",
+    "explanation": [
+      "Email works between any two providers because they all follow the same open rules. Sending and receiving are separate jobs with separate protocols. **SMTP** (Simple Mail Transfer Protocol) moves a message forward, from your app to your provider's **mail server** and from there to the recipient's. **IMAP** and **POP3** are how the recipient's app later picks it up.",
+      "The trip goes like this. You hit send, and your app hands the message over SMTP to your provider. Your provider looks at the part after the `@`, say `b.com`, and asks DNS for that domain's **MX record**, which names the server that accepts mail for it. It connects to that server, again with SMTP, and delivers. The message now sits in the recipient's mailbox, on their provider's server, until they open their app. Usually this takes seconds; if the other server is down, yours keeps retrying for a while before bouncing it back to you.",
+      "Reading is where IMAP and POP3 differ. **IMAP** leaves the mail on the server and keeps every device in sync: read it on the phone and it shows as read on the laptop, delete it anywhere and it is gone everywhere. **POP3** is older and simpler: it downloads messages to one device, often removing them from the server. Today IMAP, or a provider's own app, is the normal choice.",
+      "SMTP comes from the early 1980s and originally trusted whatever 'From' address a sender claimed, which is why spam and phishing are so easy to send. Extra checks added later, called **SPF**, **DKIM** and **DMARC**, let a receiving server verify that a message really comes from the domain it claims. Connections between servers are usually encrypted with TLS, but that is not end-to-end encryption: each provider can read the mail it stores."
+    ],
+    "analogy": "SMTP is the postal service carrying letters between post offices; IMAP is a PO box you can check from any branch, and POP3 is taking the letters home and emptying the box.",
+    "keyPoints": [
+      "SMTP sends and relays; IMAP and POP3 are for reading.",
+      "DNS MX records tell servers where to deliver mail for a domain.",
+      "IMAP keeps all devices in sync; POP3 downloads to one.",
+      "SPF, DKIM and DMARC help prove a message really comes from its domain."
+    ],
+    "links": [
+      { "label": "Simple Mail Transfer Protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol" },
+      { "label": "Internet Message Access Protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol" },
+      { "label": "POP, IMAP and SMTP settings for Outlook.com (Microsoft Support)", "url": "https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com" }
+    ]
+  },
+  "es": {
+    "title": "Protocolos de correo",
+    "tagline": "Las reglas compartidas, SMTP, IMAP y POP3, que llevan un correo de un buzón a otro.",
+    "explanation": [
+      "El correo electrónico funciona entre dos proveedores cualesquiera porque todos siguen las mismas reglas abiertas. Mandar y recibir son trabajos separados, con protocolos separados. **SMTP** (Simple Mail Transfer Protocol) empuja el mensaje hacia adelante: de tu app al **servidor de correo** de tu proveedor, y de ahí al del destinatario. **IMAP** y **POP3** son la forma en que la app del destinatario lo recoge después.",
+      "El viaje es así. Tocás enviar, y tu app le entrega el mensaje por SMTP a tu proveedor. Tu proveedor mira lo que está después de la `@`, por ejemplo `b.com`, y le pregunta al DNS por el **registro MX** de ese dominio, que dice qué servidor recibe el correo para él. Se conecta a ese servidor, otra vez por SMTP, y lo entrega. El mensaje queda en el buzón del destinatario, en el servidor de su proveedor, hasta que abra su app. Normalmente tarda segundos; si el otro servidor está caído, el tuyo reintenta durante un tiempo antes de devolvértelo como rebotado.",
+      "Al leer es donde IMAP y POP3 se diferencian. **IMAP** deja el correo en el servidor y mantiene sincronizados todos tus dispositivos: lo leés en el celular y aparece leído en la laptop, lo borrás en uno y desaparece en todos. **POP3** es más viejo y más simple: baja los mensajes a un solo dispositivo y muchas veces los borra del servidor. Hoy lo normal es IMAP, o la app propia del proveedor.",
+      "SMTP es de principios de los años 80 y al principio confiaba en cualquier remitente que dijera el mensaje, por eso el spam y el phishing son tan fáciles de mandar. Controles que se sumaron después, llamados **SPF**, **DKIM** y **DMARC**, le permiten al servidor que recibe verificar que un mensaje viene de verdad del dominio que dice. Las conexiones entre servidores suelen ir cifradas con TLS, pero eso no es cifrado de extremo a extremo: cada proveedor puede leer el correo que guarda."
+    ],
+    "analogy": "SMTP es el correo postal que lleva las cartas entre sucursales; IMAP es una casilla de correo que podés revisar desde cualquier sucursal, y POP3 es llevarte las cartas a tu casa y dejar la casilla vacía.",
+    "keyPoints": [
+      "SMTP manda y reenvía; IMAP y POP3 son para leer.",
+      "Los registros MX del DNS les dicen a los servidores dónde entregar el correo de un dominio.",
+      "IMAP mantiene todos los dispositivos sincronizados; POP3 baja todo a uno.",
+      "SPF, DKIM y DMARC ayudan a probar que un mensaje viene de verdad de su dominio."
+    ],
+    "links": [
+      { "label": "Protocolo para transferencia simple de correo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Protocolo_para_transferencia_simple_de_correo" },
+      { "label": "Protocolo de acceso a mensajes de Internet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Protocolo_de_acceso_a_mensajes_de_Internet" },
+      { "label": "Configuración POP, IMAP y SMTP para Outlook.com (soporte de Microsoft)", "url": "https://support.microsoft.com/es-es/outlook/pop-imap-and-smtp-settings-for-outlook-com" }
+    ]
+  }
+}

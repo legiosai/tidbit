@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M0 196 Q200 160 400 196 V224 A16 16 0 0 1 384 240 H16 A16 16 0 0 1 0 224 Z" fill="#9bd1b9" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="50" y="160" width="40" height="26" fill="#e6dfd0"/>
+    <path d="M44 162 L70 142 L96 162 Z" fill="#f4a7a7"/>
+    <rect x="304" y="160" width="40" height="26" fill="#e6dfd0"/>
+    <rect x="192" y="98" width="16" height="12" rx="2" fill="#9ac7ea"/>
+    <rect x="170" y="100" width="20" height="8" fill="#ffd166"/>
+    <rect x="210" y="100" width="20" height="8" fill="#ffd166"/>
+    <rect x="324" y="50" width="12" height="10" rx="2" fill="#e6dfd0"/>
+    <rect x="308" y="52" width="14" height="6" fill="#ffd166"/>
+    <rect x="338" y="52" width="14" height="6" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 150 V138"/><path d="M68 128 Q80 144 94 130"/>
+    <path d="M324 160 V150"/><path d="M312 138 Q324 154 338 140"/>
+    <path d="M92 128 L188 110" stroke-dasharray="4 4"/>
+    <path d="M212 110 L318 140" stroke-dasharray="4 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="88">low orbit · less delay</text>
+    <text x="330" y="80">high orbit · more delay</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="208">home dish</text><text x="324" y="206">ground station</text>
+    <text x="324" y="224">to the internet</text>
+  </g>
+  <text x="200" y="34" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no cable: the link goes through the sky</text>
+</svg>

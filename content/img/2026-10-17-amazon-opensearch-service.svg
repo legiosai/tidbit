@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M20 40 H62 L74 52 V92 H20 Z" fill="#e6dfd0"/>
+    <path d="M20 106 H62 L74 118 V158 H20 Z" fill="#e6dfd0"/>
+    <path d="M20 172 H62 L74 184 V210 H20 Z" fill="#e6dfd0"/>
+    <rect x="120" y="50" width="150" height="130" rx="10" fill="#9ac7ea"/>
+    <rect x="300" y="50" width="84" height="30" rx="15" fill="#ffd166"/>
+    <rect x="300" y="100" width="84" height="80" rx="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 115 H114"/><path d="M108 111 l6 4 -6 4"/>
+    <path d="M120 92 H270"/><path d="M120 136 H270"/>
+    <path d="M342 82 V96"/><path d="M338 90 l4 6 4 -6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="45" y="70">doc 1</text><text x="45" y="136">doc 2</text><text x="45" y="196">doc 3</text>
+    <text x="195" y="118">volcano → 1, 3</text><text x="195" y="162">lava → 2</text>
+    <text x="342" y="69">volcano</text>
+    <text x="342" y="130">doc 3</text><text x="342" y="158">doc 1</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="195" y="76">index</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">word → documents, like a book index</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-bios-and-uefi",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["BIOS", "UEFI", "Unified Extensible Firmware Interface", "Secure Boot", "boot loader", "bootloader"],
+    "es": ["BIOS", "UEFI", "Unified Extensible Firmware Interface", "Secure Boot", "arranque seguro", "cargador de arranque", "boot loader"]
+  },
+  "image": "img/2026-10-17-bios-and-uefi.svg",
+  "imageAlt": {
+    "en": "Four boxes in a row: power on, UEFI firmware, boot loader and OS, with a checklist under UEFI ticking CPU, RAM and disk",
+    "es": "Cuatro cajas en fila: encendido, firmware UEFI, boot loader y sistema operativo, con una lista bajo UEFI que tilda CPU, RAM y disco"
+  },
+  "en": {
+    "title": "BIOS and UEFI",
+    "tagline": "The first program a PC runs: it checks the hardware and starts the operating system.",
+    "explanation": [
+      "When you press the power button, the processor knows nothing about your disk, your keyboard or Windows. It starts by running a small program stored in a chip on the motherboard. On older PCs that program was the **BIOS** (Basic Input/Output System); on almost every computer made since the early 2010s it is **UEFI** (Unified Extensible Firmware Interface), although many people still call it \"the BIOS\" out of habit.",
+      "Its job is short and essential. It checks that the CPU, the RAM and the other parts respond, sets them up, finds a disk with an operating system and hands control to the **boot loader**, the small program that starts the system proper. It also keeps settings like the boot order, the clock and whether virtualization is turned on. You reach its setup screen by pressing a key such as `F2` or `Del` right after power-on.",
+      "UEFI replaced the BIOS because the old design had hard limits: it could not boot from disks larger than roughly 2 TB and offered little protection. UEFI handles big disks, starts faster, has a setup screen you can use with a mouse, and adds **Secure Boot**, which only lets boot loaders signed with trusted keys start. That makes it much harder for malware to hide underneath the operating system. Because it is firmware, manufacturers occasionally release updates for it, usually to fix bugs or security holes."
+    ],
+    "analogy": "The stage manager who arrives before everyone else, turns on the lights, checks the microphones and then hands the stage to the main act. The audience barely notices, but without it the show never starts.",
+    "keyPoints": [
+      "It runs from a chip on the motherboard every time the computer turns on.",
+      "UEFI is the modern replacement for the BIOS; many people still call both \"BIOS\".",
+      "Secure Boot only lets signed, trusted boot loaders start.",
+      "Updates fix bugs and security holes, but a failed one can leave the machine unable to start."
+    ],
+    "links": [
+      { "label": "BIOS on Wikipedia", "url": "https://en.wikipedia.org/wiki/BIOS" },
+      { "label": "UEFI on Wikipedia", "url": "https://en.wikipedia.org/wiki/UEFI" },
+      { "label": "Booting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Booting" }
+    ]
+  },
+  "es": {
+    "title": "BIOS y UEFI",
+    "tagline": "El primer programa que corre una PC: revisa el hardware y arranca el sistema operativo.",
+    "explanation": [
+      "Cuando apretás el botón de encendido, el procesador no sabe nada de tu disco, tu teclado ni Windows. Arranca ejecutando un programa chico guardado en un chip de la placa madre. En las PC viejas ese programa era el **BIOS** (Basic Input/Output System); en casi todas las computadoras fabricadas desde principios de la década de 2010 es **UEFI** (Unified Extensible Firmware Interface), aunque mucha gente lo sigue llamando \"el BIOS\" por costumbre.",
+      "Su trabajo es corto y esencial. Verifica que el CPU, la RAM y las demás piezas respondan, las configura, busca un disco con un sistema operativo y le pasa el control al **cargador de arranque** (boot loader), el programita que inicia el sistema propiamente dicho. También guarda ajustes como el orden de arranque, la hora y si la virtualización está activada. A su pantalla de configuración entrás apretando una tecla como `F2` o `Supr` apenas encendés la máquina.",
+      "UEFI reemplazó al BIOS porque el diseño viejo tenía límites duros: no podía arrancar desde discos de más de unos 2 TB y ofrecía poca protección. UEFI maneja discos grandes, arranca más rápido, tiene una pantalla de configuración que se usa con mouse y suma **Secure Boot** (arranque seguro), que solo deja arrancar cargadores firmados con claves de confianza. Así le complica mucho al malware esconderse por debajo del sistema operativo. Como es firmware, los fabricantes publican actualizaciones de vez en cuando, casi siempre para corregir errores o agujeros de seguridad."
+    ],
+    "analogy": "El jefe de escenario que llega antes que nadie, prende las luces, prueba los micrófonos y después le deja el escenario al número principal. El público casi no lo ve, pero sin él la función no empieza.",
+    "keyPoints": [
+      "Corre desde un chip de la placa madre cada vez que encendés la computadora.",
+      "UEFI es el reemplazo moderno del BIOS; mucha gente les dice \"BIOS\" a los dos.",
+      "Secure Boot solo deja arrancar cargadores firmados y de confianza.",
+      "Las actualizaciones corrigen errores y agujeros, pero una que falla puede dejar la máquina sin arrancar."
+    ],
+    "links": [
+      { "label": "BIOS en Wikipedia", "url": "https://es.wikipedia.org/wiki/BIOS" },
+      { "label": "UEFI en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface" },
+      { "label": "Arranque (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Arranque_(inform%C3%A1tica)" }
+    ]
+  }
+}

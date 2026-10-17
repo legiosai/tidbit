@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-data-catalog",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data catalogs"],
+    "es": ["catálogos de datos", "data catalog"]
+  },
+  "image": "img/2026-10-17-data-catalog.svg",
+  "imageAlt": {
+    "en": "A search box finds an entry card for an orders table, showing its owner, its columns and when it was updated, pointing to the real table",
+    "es": "Un buscador encuentra la ficha de una tabla de pedidos, con su dueño, sus columnas y cuándo se actualizó, que apunta a la tabla real"
+  },
+  "en": {
+    "title": "Data catalog",
+    "tagline": "A searchable inventory of an organization's datasets, with what each one means.",
+    "explanation": [
+      "A **data catalog** is an inventory of the data an organization has: every table, file and dashboard, with a description of what it contains, who owns it, when it was last updated and how it connects to the rest. It does not hold the data itself; it holds metadata about it and points to where the data lives.",
+      "The everyday use is search. An analyst who needs \"monthly revenue by country\" types it into the catalog and finds the right table in the data warehouse, sees that the `amount` column is in dollars and excludes refunds, and knows who to ask if something looks off. Many catalogs also show **lineage**: which jobs produced a table and which reports depend on it.",
+      "Catalogs exist because data grows faster than anyone's memory. In a data lake with thousands of folders, a file that nobody can find or understand is as good as gone. Tools such as AWS Glue Data Catalog, Google's Dataplex, Unity Catalog or the open source DataHub fill this role, and the catalog is usually where data governance rules become visible to everyone."
+    ],
+    "analogy": "A library catalog: you do not walk every shelf looking for a book, you search the catalog, read the card with the author, the topic and the shelf number, and then go straight to it.",
+    "keyPoints": [
+      "Lists datasets with descriptions, owners, columns and freshness.",
+      "Stores metadata and pointers, not the data itself.",
+      "Lineage shows where a table comes from and what depends on it.",
+      "Keeps a data lake from turning into a swamp."
+    ],
+    "links": [
+      { "label": "What is a data catalog? (AWS)", "url": "https://aws.amazon.com/what-is/data-catalog/" },
+      { "label": "Data catalog on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_catalog" },
+      { "label": "What is a data catalog? (IBM)", "url": "https://www.ibm.com/think/topics/data-catalog" }
+    ]
+  },
+  "es": {
+    "title": "Catálogo de datos",
+    "tagline": "Un inventario con buscador de los datos de una organización y qué significa cada uno.",
+    "explanation": [
+      "Un **catálogo de datos** (data catalog) es un inventario de los datos que tiene una organización: cada tabla, archivo y tablero, con una descripción de qué contiene, quién es responsable, cuándo se actualizó por última vez y cómo se conecta con el resto. No guarda los datos en sí; guarda metadatos sobre ellos y apunta a dónde viven.",
+      "El uso de todos los días es buscar. Una analista que necesita \"facturación mensual por país\" lo escribe en el catálogo, encuentra la tabla correcta en el data warehouse, ve que la columna `amount` está en dólares y no incluye devoluciones, y sabe a quién preguntarle si algo no cierra. Muchos catálogos también muestran el **linaje**: qué procesos generaron una tabla y qué reportes dependen de ella.",
+      "Los catálogos existen porque los datos crecen más rápido que la memoria de cualquiera. En un data lake con miles de carpetas, un archivo que nadie encuentra ni entiende es casi como si no existiera. Herramientas como AWS Glue Data Catalog, Dataplex de Google, Unity Catalog o DataHub, que es open source, cumplen este rol, y el catálogo suele ser el lugar donde las reglas del gobierno de datos se vuelven visibles para todos."
+    ],
+    "analogy": "El fichero de una biblioteca: no recorrés todos los estantes buscando un libro, buscás en el fichero, leés la ficha con el autor, el tema y el número de estante, y vas directo.",
+    "keyPoints": [
+      "Lista conjuntos de datos con descripción, dueño, columnas y última actualización.",
+      "Guarda metadatos y referencias, no los datos en sí.",
+      "El linaje muestra de dónde sale una tabla y qué depende de ella.",
+      "Evita que un data lake se convierta en un pantano."
+    ],
+    "links": [
+      { "label": "¿Qué es un catálogo de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-catalog/" },
+      { "label": "¿Qué es un catálogo de datos? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/data-catalog" },
+      { "label": "Data catalog en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Data_catalog" }
+    ]
+  }
+}

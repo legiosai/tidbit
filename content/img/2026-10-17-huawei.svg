@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#6b6357" stroke-width="2" stroke-dasharray="4 5" fill="none">
+    <path d="M140 30 V190"/><path d="M262 30 V190"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 160 L58 70 M70 160 L82 70"/><path d="M62 100 H78"/><path d="M60 130 H80"/>
+    <path d="M70 70 V60"/>
+    <path d="M90 62 q8 8 0 16"/><path d="M98 56 q14 14 0 28"/>
+    <path d="M50 62 q-8 8 0 16"/><path d="M42 56 q-14 14 0 28"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="160" width="80" height="22" rx="4" fill="#9ac7ea"/>
+    <rect x="164" y="68" width="40" height="72" rx="8" fill="#9bd1b9"/>
+    <rect x="214" y="92" width="28" height="34" rx="8" fill="#f4a7a7"/>
+    <rect x="296" y="78" width="70" height="70" rx="6" fill="#ffd166"/>
+    <rect x="314" y="96" width="34" height="34" rx="3" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M220 92 V84 H236 V92"/><path d="M220 126 V134 H236 V126"/>
+    <path d="M310 70 V78"/><path d="M330 70 V78"/><path d="M350 70 V78"/>
+    <path d="M310 148 V156"/><path d="M330 148 V156"/><path d="M350 148 V156"/>
+    <path d="M288 92 H296"/><path d="M288 112 H296"/><path d="M288 132 H296"/>
+    <path d="M366 92 H374"/><path d="M366 112 H374"/><path d="M366 132 H374"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="34">networks</text><text x="201" y="34">devices</text><text x="331" y="34">chips</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="70" y="176" fill="#2b2b2b">base station</text>
+    <text x="70" y="200">for operators</text><text x="201" y="164">phones, watches</text><text x="331" y="180">designed in house</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">telecom gear · consumer devices · chips</text>
+</svg>

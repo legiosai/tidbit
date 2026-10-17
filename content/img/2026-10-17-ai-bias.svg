@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="36" width="120" height="140" rx="10" fill="#e6dfd0"/>
+    <rect x="44" y="62" width="30" height="94" fill="#9bd1b9"/>
+    <rect x="88" y="128" width="30" height="28" fill="#f4a7a7"/>
+    <rect x="164" y="76" width="72" height="60" rx="10" fill="#ffd166"/>
+    <rect x="260" y="36" width="120" height="140" rx="10" fill="#e6dfd0"/>
+    <rect x="284" y="66" width="30" height="90" fill="#9bd1b9"/>
+    <rect x="328" y="122" width="30" height="34" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M36 156 h92"/><path d="M276 156 h92"/>
+    <path d="M144 106 H158"/><path d="M153 102 l6 4 -6 4"/>
+    <path d="M240 106 H254"/><path d="M249 102 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="59" y="170">A</text><text x="103" y="170">B</text><text x="299" y="170">A</text><text x="343" y="170">B</text>
+    <text x="200" y="111">model</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="80" y="26">past hires</text><text x="320" y="26">new scores</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">patterns in the data become patterns in the answers</text>
+</svg>

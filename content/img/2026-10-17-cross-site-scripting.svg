@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="50" cy="70" r="14" fill="#f4a7a7"/>
+    <path d="M26 112 q24 -32 48 0 Z" fill="#f4a7a7"/>
+    <rect x="140" y="40" width="120" height="130" rx="10" fill="#e6dfd0"/>
+    <rect x="152" y="74" width="96" height="22" rx="4" fill="#f3efe6"/>
+    <rect x="152" y="104" width="96" height="22" rx="4" fill="#ffd166"/>
+    <rect x="152" y="134" width="96" height="22" rx="4" fill="#f3efe6"/>
+    <rect x="300" y="60" width="80" height="62" rx="8" fill="#9ac7ea"/>
+    <circle cx="340" cy="164" r="12" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 100 Q110 112 146 114"/><path d="M140 110 l6 4 -6 4"/>
+    <path d="M254 115 L296 96"/><path d="M288 94 l8 2 -4 7"/>
+    <path d="M330 176 Q180 238 54 124"/><path d="M58 132 l-4 -8 9 0"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="89">nice post!</text>
+    <text x="200" y="119">hidden script</text>
+    <text x="200" y="149">great tip</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="50" y="40">attacker</text>
+    <text x="200" y="62">comments</text>
+    <text x="340" y="86">visitor</text><text x="340" y="104">runs it</text>
+    <text x="340" y="146">cookie</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">escape outside text so it stays text</text>
+</svg>

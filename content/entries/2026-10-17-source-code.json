@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-source-code",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["codebase", "codebases", "source file", "source files"],
+    "es": ["códigos fuente", "base de código", "archivo fuente", "archivos fuente"]
+  },
+  "image": "img/2026-10-17-source-code.svg",
+  "imageAlt": {
+    "en": "Readable text files written by people are turned by a build step into a finished app that users run",
+    "es": "Archivos de texto legibles escritos por personas se convierten, con un paso de build, en una app terminada que la gente usa"
+  },
+  "en": {
+    "title": "Source code",
+    "tagline": "The human-readable text that programmers write and that a program is built from.",
+    "explanation": [
+      "**Source code** is the set of text files where programmers write a program, in a programming language like Python, Java or JavaScript. It is meant to be read by people: it has names that make sense, comments that explain decisions, and a structure split into files and folders. All the source code of a product together is often called its **codebase**.",
+      "What you install on a phone or a laptop is usually not the source code but the result of building it: a compiler or other tools turn the text into a form the computer runs quickly and that is very hard for humans to read. That is why having the source code matters. With it you can understand exactly what a program does, fix it, change it or rebuild it; without it you mostly cannot.",
+      "Companies usually treat their source code as a valuable secret. **Open source** projects do the opposite: they publish it so anyone can read, reuse and improve it, under a license that sets the rules. Either way, source code today almost always lives in a version control system like Git, which keeps the full history of who changed what and when."
+    ],
+    "analogy": "The architect's plans for a building. Living in the house does not require them, but if you want to know where the pipes run, or add a floor, you need the plans.",
+    "keyPoints": [
+      "Readable text, written by people in a programming language.",
+      "It is built (compiled or packaged) into the program that users actually run.",
+      "Having the source lets you inspect, fix and change a program.",
+      "Usually kept in Git; published openly in open source projects."
+    ],
+    "links": [
+      { "label": "Source code on Wikipedia", "url": "https://en.wikipedia.org/wiki/Source_code" },
+      { "label": "Compile (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Compile" }
+    ]
+  },
+  "es": {
+    "title": "Código fuente",
+    "tagline": "El texto legible que escriben quienes programan y a partir del cual se arma un programa.",
+    "explanation": [
+      "El **código fuente** es el conjunto de archivos de texto donde se escribe un programa, en un lenguaje de programación como Python, Java o JavaScript. Está pensado para que lo lean personas: tiene nombres con sentido, comentarios que explican decisiones y una estructura repartida en archivos y carpetas. Todo el código fuente de un producto junto suele llamarse su **base de código** (o codebase).",
+      "Lo que instalás en el celular o en la compu normalmente no es el código fuente sino el resultado de armarlo: un compilador u otras herramientas convierten el texto en algo que la máquina ejecuta rápido y que para una persona es casi ilegible. Por eso importa tener el código fuente. Con él podés entender exactamente qué hace un programa, arreglarlo, cambiarlo o volver a armarlo; sin él, en general, no.",
+      "Las empresas suelen tratar su código fuente como un secreto valioso. Los proyectos de **código abierto** hacen lo contrario: lo publican para que cualquiera pueda leerlo, reutilizarlo y mejorarlo, bajo una licencia que fija las reglas. En cualquier caso, hoy el código fuente casi siempre vive en un sistema de control de versiones como Git, que guarda toda la historia de quién cambió qué y cuándo."
+    ],
+    "analogy": "Los planos de un edificio. Para vivir en la casa no los necesitás, pero si querés saber por dónde pasan los caños, o agregar un piso, necesitás los planos.",
+    "keyPoints": [
+      "Texto legible, escrito por personas en un lenguaje de programación.",
+      "Se arma (compila o empaqueta) para obtener el programa que la gente usa.",
+      "Tener el código fuente te permite revisar, arreglar y cambiar un programa.",
+      "Suele vivir en Git; en el código abierto se publica para todos."
+    ],
+    "links": [
+      { "label": "Código fuente en Wikipedia", "url": "https://es.wikipedia.org/wiki/Código_fuente" },
+      { "label": "Compilar (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Compile" }
+    ]
+  }
+}

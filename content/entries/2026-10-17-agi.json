@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-agi",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["artificial general intelligence"],
+    "es": ["inteligencia artificial general", "IA general"]
+  },
+  "image": "img/2026-10-17-agi.svg",
+  "imageAlt": {
+    "en": "Three bars over an axis of how many kinds of tasks: a short one for a chess program, a longer one for today's models, and a dashed full-length one for AGI with a question mark",
+    "es": "Tres barras sobre un eje de cuántos tipos de tareas: una corta para un programa de ajedrez, una más larga para los modelos actuales y una punteada de largo completo para la AGI con un signo de pregunta"
+  },
+  "en": {
+    "title": "AGI",
+    "tagline": "A hypothetical AI able to do most mental tasks as well as a person. Not here yet.",
+    "explanation": [
+      "**AGI**, short for **artificial general intelligence**, is the idea of an AI system that could learn and do most intellectual tasks a human can, at a human level or better, instead of being good at one narrow thing. A chess program that cannot read a recipe is 'narrow' AI. An AGI could, in principle, switch from diagnosing a disease to planning a trip to doing original research, and learn new skills along the way the way people do.",
+      "There is no agreed definition, and that is the first thing to know. Some define it by tasks ('matches an expert at most jobs done at a computer'), some by economics ('could do most work people are paid for'), some by abilities like learning quickly from little data and adapting to the unexpected. Depending on the definition, a given system might count or not, which is why claims that AGI is near, or already here, are hard to evaluate.",
+      "Today's large language models are much more general than older AI: the same model can write, translate, code and explain. But they still make mistakes no competent person would, struggle to learn on the job, and depend on human direction. Experts disagree widely on whether and when AGI will arrive, with guesses ranging from a few years to many decades to never. Several AI companies say building it is their goal, and its possible benefits and risks are a serious topic in research and policy. When someone mentions AGI, a good first question is: what exactly do you mean by it?"
+    ],
+    "analogy": "Today's AI is like a set of very good specialist tools: a great saw, a great drill, a great level. AGI would be a craftsperson who can pick up any tool, learn a new trade and run the whole job. Nobody agrees on how close we are to that craftsperson.",
+    "keyPoints": [
+      "AGI means AI that is broadly capable, not good at just one task.",
+      "There is no single agreed definition or test.",
+      "Current models are more general than before but still fall short.",
+      "Expert predictions on timing differ enormously."
+    ],
+    "links": [
+      { "label": "Artificial general intelligence on Wikipedia", "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence" },
+      { "label": "What is AGI? (IBM)", "url": "https://www.ibm.com/think/topics/artificial-general-intelligence" }
+    ]
+  },
+  "es": {
+    "title": "AGI",
+    "tagline": "Una IA hipotética capaz de hacer casi cualquier tarea mental como una persona.",
+    "explanation": [
+      "**AGI**, sigla en inglés de **inteligencia artificial general**, es la idea de un sistema de IA que pueda aprender y hacer la mayoría de las tareas intelectuales que hace una persona, a nivel humano o mejor, en vez de ser bueno en una sola cosa. Un programa de ajedrez que no puede leer una receta es IA 'estrecha'. Una AGI podría, en teoría, pasar de diagnosticar una enfermedad a planear un viaje y a hacer investigación original, y aprender habilidades nuevas en el camino, como hace la gente.",
+      "No hay una definición acordada, y eso es lo primero que conviene saber. Algunos la definen por tareas ('iguala a un experto en la mayoría de los trabajos que se hacen frente a una computadora'), otros por economía ('podría hacer la mayor parte del trabajo por el que se le paga a la gente'), otros por capacidades como aprender rápido con pocos datos y adaptarse a lo inesperado. Según la definición, un mismo sistema puede contar o no, y por eso es difícil evaluar los anuncios de que la AGI está cerca o de que ya llegó.",
+      "Los grandes modelos de lenguaje de hoy son mucho más generales que la IA de antes: el mismo modelo escribe, traduce, programa y explica. Pero todavía cometen errores que ninguna persona competente cometería, les cuesta aprender sobre la marcha y dependen de que alguien los dirija. Los expertos discrepan mucho sobre si la AGI va a llegar y cuándo, con estimaciones que van de unos pocos años a muchas décadas o a nunca. Varias empresas de IA dicen que construirla es su objetivo, y sus posibles beneficios y riesgos son un tema serio en la investigación y en las políticas públicas. Cuando alguien habla de AGI, una buena primera pregunta es: ¿qué querés decir exactamente?"
+    ],
+    "analogy": "La IA de hoy es como un juego de herramientas especializadas muy buenas: una gran sierra, un gran taladro, un gran nivel. La AGI sería un artesano capaz de agarrar cualquier herramienta, aprender un oficio nuevo y llevar adelante la obra entera. Nadie se pone de acuerdo en qué tan cerca estamos de ese artesano.",
+    "keyPoints": [
+      "AGI es una IA ampliamente capaz, no buena en una sola tarea.",
+      "No existe una definición ni una prueba única aceptada por todos.",
+      "Los modelos actuales son más generales que antes, pero no llegan.",
+      "Las predicciones de los expertos sobre cuándo llegaría varían muchísimo."
+    ],
+    "links": [
+      { "label": "Inteligencia artificial general en Wikipedia", "url": "https://es.wikipedia.org/wiki/Inteligencia_artificial_general" },
+      { "label": "¿Qué es la inteligencia artificial general? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/artificial-general-intelligence" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-fine-tuning",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["fine-tune", "fine-tuned", "fine tuning"],
+    "es": ["ajuste fino", "fine tuning"]
+  },
+  "image": "img/2026-10-17-fine-tuning.svg",
+  "imageAlt": {
+    "en": "A large pretrained model plus a small stack of your own examples produces a fine-tuned model specialized for your task",
+    "es": "Un modelo preentrenado grande más una pila chica de ejemplos propios da un modelo con fine-tuning especializado en tu tarea"
+  },
+  "en": {
+    "title": "Fine-tuning",
+    "tagline": "Extra training that adapts an existing AI model to a specific task or style.",
+    "explanation": [
+      "**Fine-tuning** means taking a model that has already been trained on a huge amount of general data and training it a little more on a small, specific set of examples. Training a large model from scratch costs enormous amounts of data and computing; fine-tuning reuses all that general knowledge and only nudges the model's internal numbers (its parameters) toward what you need.",
+      "Typical uses: making a model always answer in a particular format, write in a company's tone, classify support tickets into your own categories, or handle the jargon of a field like law or radiology. You prepare hundreds or thousands of example pairs ('given this input, the ideal output is this'), run the training, and get a new version of the model. Techniques such as **LoRA** make it cheaper by training only a small add-on instead of the whole model.",
+      "Fine-tuning is also how chat assistants are made in the first place: a base model that only continues text is fine-tuned on conversations so it learns to follow instructions and reply helpfully. For everyday business problems, though, it is often not the first tool to reach for. If the goal is to give the model up-to-date facts or your own documents, retrieval (RAG) is usually easier and easier to update; if the goal is behavior, a good prompt sometimes gets you most of the way. Fine-tuning shines when you have many good examples of a task you repeat a lot."
+    ],
+    "analogy": "Like a doctor who finished general medical school and then does a short residency in dermatology. They do not relearn biology; they sharpen what they already know for one specialty.",
+    "keyPoints": [
+      "Starts from a pretrained model instead of training from zero.",
+      "Needs a good set of examples of the exact task you want.",
+      "Best for style, format and repeated specialized tasks.",
+      "For fresh facts or private documents, RAG is often better."
+    ],
+    "links": [
+      { "label": "Fine-tuning (deep learning) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)" },
+      { "label": "What is fine-tuning? (IBM)", "url": "https://www.ibm.com/think/topics/fine-tuning" },
+      { "label": "Fine-tuning guide (OpenAI)", "url": "https://platform.openai.com/docs/guides/fine-tuning" }
+    ]
+  },
+  "es": {
+    "title": "Fine-tuning",
+    "tagline": "Entrenamiento extra que adapta un modelo de IA existente a una tarea o un estilo.",
+    "explanation": [
+      "El **fine-tuning** (ajuste fino) consiste en tomar un modelo que ya fue entrenado con una cantidad enorme de datos generales y entrenarlo un poco más con un conjunto chico y específico de ejemplos. Entrenar un modelo grande desde cero cuesta cantidades enormes de datos y de cómputo; el fine-tuning reaprovecha todo ese conocimiento general y solo empuja los números internos del modelo (sus parámetros) hacia lo que necesitás.",
+      "Usos típicos: que un modelo responda siempre en cierto formato, que escriba con el tono de una empresa, que clasifique tickets de soporte en tus propias categorías o que maneje la jerga de un área como el derecho o la radiología. Preparás cientos o miles de pares de ejemplo ('ante esta entrada, la salida ideal es esta'), corrés el entrenamiento y obtenés una versión nueva del modelo. Técnicas como **LoRA** lo abaratan entrenando solo un agregado chico en lugar del modelo entero.",
+      "El fine-tuning es también la forma en que se hacen los asistentes de chat: un modelo base que solo sabe continuar texto se ajusta con conversaciones para que aprenda a seguir instrucciones y a responder de forma útil. Para los problemas cotidianos de una empresa, igual, no suele ser la primera herramienta. Si lo que querés es darle al modelo datos actualizados o tus propios documentos, la recuperación (RAG) suele ser más simple y más fácil de mantener al día; si lo que querés es un comportamiento, un buen prompt a veces te lleva casi todo el camino. El fine-tuning brilla cuando tenés muchos buenos ejemplos de una tarea que repetís mucho."
+    ],
+    "analogy": "Es como una médica que terminó la carrera general y después hace una residencia corta en dermatología. No vuelve a aprender biología; afina lo que ya sabe para una especialidad.",
+    "keyPoints": [
+      "Arranca de un modelo preentrenado en vez de entrenar desde cero.",
+      "Necesita un buen conjunto de ejemplos de la tarea exacta que buscás.",
+      "Sirve sobre todo para estilo, formato y tareas especializadas repetidas.",
+      "Para datos frescos o documentos privados, RAG suele ser mejor opción."
+    ],
+    "links": [
+      { "label": "Ajuste fino (aprendizaje profundo) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ajuste_fino_(aprendizaje_profundo)" },
+      { "label": "¿Qué es el fine-tuning? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/fine-tuning" },
+      { "label": "Ajuste fino de un modelo, curso de Hugging Face", "url": "https://huggingface.co/learn/llm-course/es/chapter3/1" }
+    ]
+  }
+}

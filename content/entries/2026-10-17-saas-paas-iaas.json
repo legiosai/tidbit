@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-saas-paas-iaas",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["SaaS", "PaaS", "IaaS", "software as a service", "platform as a service", "infrastructure as a service"],
+    "es": ["SaaS", "PaaS", "IaaS", "software como servicio", "plataforma como servicio", "infraestructura como servicio"]
+  },
+  "image": "img/2026-10-17-saas-paas-iaas.svg",
+  "imageAlt": {
+    "en": "Three stacks of the same layers, from hardware up to the app; the provider manages more layers in each one, from IaaS to PaaS to SaaS",
+    "es": "Tres pilas con las mismas capas, del hardware a la app; el proveedor maneja más capas en cada una, de IaaS a PaaS y a SaaS"
+  },
+  "en": {
+    "title": "SaaS, PaaS and IaaS",
+    "tagline": "Three ways to rent computing, depending on how much of the work you hand over.",
+    "explanation": [
+      "Cloud computing is usually sold in three layers, depending on how much the provider takes care of. With **IaaS** (infrastructure as a service) you rent the raw pieces: virtual machines, disks and networks, like Amazon EC2. The provider runs the data center and the hardware; you install and look after the operating system, the software and everything on top.",
+      "With **PaaS** (platform as a service) you hand over more. You bring your code and the platform runs it: it provides the operating system, the runtime and often the database, and handles patching and scaling. Heroku, Google App Engine and AWS Elastic Beanstalk are classic examples. With **SaaS** (software as a service) you rent a finished application and just use it in the browser: Gmail, Slack, Salesforce, Microsoft 365.",
+      "The trade-off is always the same: the more the provider manages, the less you can customize and the less work you do yourself. Many services sit between the labels; serverless functions, for example, are often described as a step beyond PaaS. Security responsibility is split the same way: in IaaS you patch your own servers, in SaaS you mostly manage who has access."
+    ],
+    "analogy": "Pizza. IaaS is renting a kitchen: you buy ingredients and cook. PaaS is a take-and-bake pizza: it comes ready, you just use your oven. SaaS is eating at the pizzeria: you only choose and enjoy.",
+    "keyPoints": [
+      "IaaS: rent virtual machines, storage and networks; you manage the rest.",
+      "PaaS: bring your code; the platform runs and scales it.",
+      "SaaS: use a finished app, usually in the browser, on a subscription.",
+      "More managed means less work and less control, including on security."
+    ],
+    "links": [
+      { "label": "Types of cloud computing (AWS)", "url": "https://aws.amazon.com/types-of-cloud-computing/" },
+      { "label": "The NIST definition of cloud computing", "url": "https://csrc.nist.gov/pubs/sp/800/145/final" },
+      { "label": "Software as a service on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_as_a_service" }
+    ]
+  },
+  "es": {
+    "title": "SaaS, PaaS e IaaS",
+    "tagline": "Tres formas de alquilar computación, según cuánto del trabajo delegues.",
+    "explanation": [
+      "La computación en la nube suele venderse en tres capas, según cuánto se ocupa el proveedor. Con **IaaS** (infraestructura como servicio) alquilás las piezas básicas: máquinas virtuales, discos y redes, como Amazon EC2. El proveedor maneja el centro de datos y el hardware; vos instalás y cuidás el sistema operativo, el software y todo lo que va arriba.",
+      "Con **PaaS** (plataforma como servicio) delegás más. Llevás tu código y la plataforma lo corre: pone el sistema operativo, el entorno de ejecución y muchas veces la base de datos, y se encarga de los parches y de escalar. Heroku, Google App Engine y AWS Elastic Beanstalk son ejemplos clásicos. Con **SaaS** (software como servicio) alquilás una aplicación terminada y simplemente la usás en el navegador: Gmail, Slack, Salesforce, Microsoft 365.",
+      "El intercambio es siempre el mismo: cuanto más maneja el proveedor, menos podés personalizar y menos trabajo hacés vos. Muchos servicios quedan entre una etiqueta y otra; las funciones serverless, por ejemplo, suelen describirse como un paso más allá de PaaS. La responsabilidad de seguridad se reparte igual: en IaaS parcheás tus propios servidores, en SaaS te ocupás sobre todo de quién tiene acceso."
+    ],
+    "analogy": "La pizza. IaaS es alquilar una cocina: comprás los ingredientes y cocinás. PaaS es la pizza congelada: viene armada y solo usás tu horno. SaaS es ir a la pizzería: elegís y comés.",
+    "keyPoints": [
+      "IaaS: alquilás máquinas virtuales, almacenamiento y redes; el resto lo manejás vos.",
+      "PaaS: llevás tu código; la plataforma lo corre y lo escala.",
+      "SaaS: usás una app terminada, casi siempre en el navegador y por suscripción.",
+      "Más administrado significa menos trabajo y menos control, también en seguridad."
+    ],
+    "links": [
+      { "label": "Tipos de computación en la nube (AWS)", "url": "https://aws.amazon.com/es/types-of-cloud-computing/" },
+      { "label": "Software como servicio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Software_como_servicio" },
+      { "label": "La definición de cloud computing del NIST (en inglés)", "url": "https://csrc.nist.gov/pubs/sp/800/145/final" }
+    ]
+  }
+}

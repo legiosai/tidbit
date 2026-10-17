@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-vram",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["video memory", "video RAM", "GPU memory", "graphics memory", "GDDR", "HBM", "High Bandwidth Memory"],
+    "es": ["memoria de video", "memoria de la GPU", "memoria gráfica", "GDDR", "HBM", "High Bandwidth Memory"]
+  },
+  "image": "img/2026-10-17-vram.svg",
+  "imageAlt": {
+    "en": "A graphics card with the GPU chip in the middle and four VRAM chips right next to it, connected by short lines, with the main RAM far away on the motherboard",
+    "es": "Una placa de video con el chip GPU en el medio y cuatro chips de VRAM pegados a él, unidos por líneas cortas, y la RAM principal lejos, en la placa madre"
+  },
+  "en": {
+    "title": "VRAM",
+    "tagline": "The memory built into a graphics card, where the GPU keeps what it is working on.",
+    "explanation": [
+      "**VRAM** (video RAM) is the memory that belongs to a GPU. It sits on the graphics card or right beside the GPU chip, separate from the computer's main RAM, and holds whatever the GPU is working on: the textures and frames of a game, the video being edited, the weights of an AI model. Today it is usually a fast type called **GDDR** or, in data-center GPUs, **HBM** (High Bandwidth Memory), made of stacked chips placed right next to the processor.",
+      "Two numbers matter. **Capacity**, in gigabytes, decides what fits: if a game's textures or a model's weights do not fit in VRAM, the GPU has to fetch data from much slower memory elsewhere, and performance collapses or the job refuses to run. **Bandwidth**, in gigabytes per second, decides how fast the GPU can be fed. A GPU has thousands of cores, and they sit idle if data cannot reach them quickly enough.",
+      "VRAM is why conversations about AI talk so much about memory. A large language model's weights must fit in VRAM to run quickly, so the amount of memory often matters more than raw speed when choosing hardware, and big models are split across several GPUs. That is also why high-end AI chips carry large amounts of expensive HBM. Many laptops and all phones have no separate VRAM: the GPU shares the main memory with the CPU, which is cheaper and simpler but usually slower."
+    ],
+    "analogy": "A chef's countertop next to the stove. The pantry holds far more, but if the ingredients for tonight's dishes do not fit on the counter, the chef keeps walking back and forth and dinner slows to a crawl.",
+    "keyPoints": [
+      "VRAM is the GPU's own memory, separate from the main RAM.",
+      "Capacity decides what fits; bandwidth decides how fast the GPU is fed.",
+      "AI models must fit in VRAM to run quickly, so memory size often limits what you can run.",
+      "Gaming cards use GDDR; data-center AI chips use stacked HBM."
+    ],
+    "links": [
+      { "label": "Video random-access memory on Wikipedia", "url": "https://en.wikipedia.org/wiki/Video_random-access_memory" },
+      { "label": "High Bandwidth Memory on Wikipedia", "url": "https://en.wikipedia.org/wiki/High_Bandwidth_Memory" },
+      { "label": "GDDR SDRAM on Wikipedia", "url": "https://en.wikipedia.org/wiki/GDDR_SDRAM" }
+    ]
+  },
+  "es": {
+    "title": "VRAM",
+    "tagline": "La memoria propia de una placa de video, donde la GPU guarda aquello con lo que trabaja.",
+    "explanation": [
+      "La **VRAM** (video RAM, memoria de video) es la memoria que le pertenece a una GPU. Está en la placa de video o pegada al chip de la GPU, separada de la RAM principal de la computadora, y guarda todo aquello con lo que la GPU está trabajando: las texturas y los cuadros de un juego, el video que estás editando, los pesos de un modelo de IA. Hoy suele ser un tipo rápido llamado **GDDR** o, en las GPU de centros de datos, **HBM** (High Bandwidth Memory), chips apilados que van justo al lado del procesador.",
+      "Importan dos números. La **capacidad**, en gigabytes, decide qué entra: si las texturas de un juego o los pesos de un modelo no entran en la VRAM, la GPU tiene que ir a buscar datos a una memoria mucho más lenta, y el rendimiento se desploma o el trabajo directamente no corre. El **ancho de banda**, en gigabytes por segundo, decide qué tan rápido se alimenta la GPU. Una GPU tiene miles de núcleos, y se quedan esperando si los datos no les llegan a tiempo.",
+      "La VRAM explica por qué en las conversaciones sobre IA se habla tanto de memoria. Los pesos de un modelo de lenguaje grande tienen que entrar en la VRAM para correr rápido, así que la cantidad de memoria muchas veces pesa más que la velocidad pura a la hora de elegir hardware, y los modelos grandes se reparten entre varias GPU. Por eso también los chips de IA de gama alta traen mucha HBM, que es cara. Muchas notebooks y todos los celulares no tienen VRAM aparte: la GPU comparte la memoria principal con el CPU, algo más barato y simple, pero en general más lento."
+    ],
+    "analogy": "La mesada de un cocinero, al lado de la hornalla. La alacena guarda mucho más, pero si los ingredientes de la cena de hoy no entran en la mesada, el cocinero va y viene todo el tiempo y la cena se atrasa muchísimo.",
+    "keyPoints": [
+      "La VRAM es la memoria propia de la GPU, separada de la RAM principal.",
+      "La capacidad decide qué entra; el ancho de banda, qué tan rápido se alimenta la GPU.",
+      "Un modelo de IA tiene que entrar en la VRAM para correr rápido: la memoria limita qué podés usar.",
+      "Las placas para juegos usan GDDR; los chips de IA de centros de datos, HBM apilada."
+    ],
+    "links": [
+      { "label": "Memoria gráfica de acceso aleatorio en Wikipedia", "url": "https://es.wikipedia.org/wiki/VRAM" },
+      { "label": "High Bandwidth Memory en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/High_Bandwidth_Memory" },
+      { "label": "GDDR SDRAM en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/GDDR_SDRAM" }
+    ]
+  }
+}

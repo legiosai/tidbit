@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-subnet",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["subnets", "subnetwork", "subnet mask", "CIDR"],
+    "es": ["subredes", "subnet", "subnets", "máscara de subred", "CIDR"]
+  },
+  "image": "img/2026-10-17-subnet.svg",
+  "imageAlt": {
+    "en": "The range 10.0.0.0/16 split into three /24 subnets named web, database and guests, each with a few devices, all joined by one router",
+    "es": "El rango 10.0.0.0/16 dividido en tres subredes /24 llamadas web, base de datos e invitados, cada una con algunos dispositivos, todas unidas por un router"
+  },
+  "en": {
+    "title": "Subnet",
+    "tagline": "A slice of a network's IP addresses, grouped so its devices can talk directly.",
+    "explanation": [
+      "A **subnet** is a block of consecutive IP addresses that belong together, like all the addresses on one office floor or in one part of a cloud network. Devices in the same subnet reach each other directly. To reach anything outside it, they hand their traffic to a router, known as the **default gateway**, which forwards it on.",
+      "Subnets are usually written in **CIDR** notation: `10.0.1.0/24`. The number after the slash says how many of the 32 bits of an IPv4 address are fixed for the whole subnet; the rest are free for devices. A `/24` fixes the first three numbers, so `10.0.1.0` to `10.0.1.255` is roughly 250 usable addresses. A `/16` fixes only the first two and holds about 65,000. The bigger the number after the slash, the smaller the subnet. The older way to say the same thing is a **subnet mask**: `/24` is `255.255.255.0`.",
+      "Splitting a network has practical reasons. Each subnet can get its own rules, so a firewall can let the web servers in one subnet talk to the database in another, while the guest Wi-Fi in a third reaches only the internet. Smaller subnets also keep local chatter, like devices asking 'who has this address?', from flooding every machine in the building.",
+      "In the cloud this is everyday work. When you create an Amazon VPC you pick a range like `10.0.0.0/16` and carve it into subnets, typically one public and one private per Availability Zone. Public subnets hold what must be reachable from the internet, such as a load balancer; private ones hold databases and internal services. Ranges cannot overlap if networks will ever be connected, so it pays to plan them early."
+    ],
+    "analogy": "A building's address range split into floors. People on the same floor walk over to each other's desks; to reach another floor, they go through the reception desk, which knows where everyone is.",
+    "keyPoints": [
+      "Devices in the same subnet talk directly; anything else goes through the router.",
+      "`/24` means the first 24 bits are fixed: roughly 250 usable addresses.",
+      "A bigger number after the slash means a smaller subnet.",
+      "In the cloud, public subnets face the internet and private ones stay inside."
+    ],
+    "links": [
+      { "label": "Subnet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Subnet" },
+      { "label": "Subnets for your VPC (AWS docs)", "url": "https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html" }
+    ]
+  },
+  "es": {
+    "title": "Subred",
+    "tagline": "Una porción de las direcciones IP de una red, agrupadas para que se hablen directo.",
+    "explanation": [
+      "Una **subred** (subnet) es un bloque de direcciones IP consecutivas que van juntas, como todas las direcciones de un piso de una oficina o de una parte de una red en la nube. Los dispositivos de la misma subred se comunican directamente. Para llegar a cualquier cosa de afuera, le pasan el tráfico a un router, la **puerta de enlace predeterminada** (default gateway), que lo reenvía.",
+      "Las subredes se suelen escribir en notación **CIDR**: `10.0.1.0/24`. El número después de la barra dice cuántos de los 32 bits de una dirección IPv4 quedan fijos para toda la subred; el resto queda libre para los dispositivos. Un `/24` fija los primeros tres números, así que de `10.0.1.0` a `10.0.1.255` hay más o menos 250 direcciones utilizables. Un `/16` fija solo los dos primeros y entran unas 65.000. Cuanto más grande el número después de la barra, más chica la subred. La forma vieja de decir lo mismo es la **máscara de subred**: `/24` es `255.255.255.0`.",
+      "Dividir una red tiene razones prácticas. Cada subred puede tener sus propias reglas, así que un firewall puede dejar que los servidores web de una subred hablen con la base de datos de otra, mientras el Wi-Fi de invitados de una tercera solo llega a internet. Las subredes chicas además evitan que la charla local, como los dispositivos preguntando '¿quién tiene esta dirección?', inunde todas las máquinas del edificio.",
+      "En la nube esto es trabajo de todos los días. Cuando creás una Amazon VPC elegís un rango como `10.0.0.0/16` y lo cortás en subredes, típicamente una pública y una privada por zona de disponibilidad. Las públicas tienen lo que tiene que ser accesible desde internet, como un balanceador de carga; las privadas, las bases de datos y los servicios internos. Los rangos no se pueden pisar si algún día vas a conectar las redes, así que conviene planearlos temprano."
+    ],
+    "analogy": "El rango de direcciones de un edificio dividido en pisos. La gente del mismo piso camina hasta el escritorio del otro; para llegar a otro piso, pasa por la recepción, que sabe dónde está cada uno.",
+    "keyPoints": [
+      "Los dispositivos de la misma subred hablan directo; lo demás pasa por el router.",
+      "`/24` quiere decir que los primeros 24 bits son fijos: unas 250 direcciones utilizables.",
+      "Un número más grande después de la barra es una subred más chica.",
+      "En la nube, las subredes públicas dan a internet y las privadas quedan adentro."
+    ],
+    "links": [
+      { "label": "Subred en Wikipedia", "url": "https://es.wikipedia.org/wiki/Subred" },
+      { "label": "Subredes de tu VPC (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/vpc/latest/userguide/configure-subnets.html" }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="24" width="96" height="52" rx="10" fill="#ffd166"/>
+    <rect x="24" y="92" width="352" height="74" rx="10" fill="#e6dfd0"/>
+    <rect x="40" y="182" width="150" height="28" rx="14" fill="#f4a7a7"/>
+    <rect x="210" y="182" width="150" height="28" rx="14" fill="#9bd1b9"/>
+  </g>
+  <text x="72" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#2b2b2b">70B</text>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">
+    <text x="136" y="47">= 70 billion numbers,</text><text x="136" y="65">each learned in training</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="118">0.12</text><text x="136" y="118">-0.87</text><text x="200" y="118">1.03</text><text x="264" y="118">-0.04</text><text x="328" y="118">0.56</text>
+    <text x="72" y="148">-0.31</text><text x="136" y="148">0.09</text><text x="200" y="148">0.77</text><text x="264" y="148">-1.20</text><text x="328" y="148">0.41</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="115" y="200">16-bit: ~140 GB</text><text x="285" y="200">4-bit: ~35 GB</text>
+  </g>
+  <text x="200" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">memory just to load the model</text>
+</svg>

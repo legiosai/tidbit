@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-software-testing",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["unit test", "unit tests", "unit testing", "integration test", "integration tests", "end-to-end test", "end-to-end tests", "automated tests", "automated testing", "test suite", "test pyramid"],
+    "es": ["test unitario", "tests unitarios", "prueba unitaria", "pruebas unitarias", "test de integración", "tests de integración", "tests automatizados", "pruebas automatizadas", "pruebas de software", "pirámide de tests"]
+  },
+  "image": "img/2026-10-17-software-testing.svg",
+  "imageAlt": {
+    "en": "A pyramid with many fast unit tests at the base, fewer integration tests in the middle and a few slow end-to-end tests at the top",
+    "es": "Una pirámide con muchos tests unitarios rápidos en la base, menos tests de integración en el medio y unos pocos tests end-to-end lentos arriba"
+  },
+  "en": {
+    "title": "Software testing",
+    "tagline": "Checking that software does what it should, mostly with code that tests other code.",
+    "explanation": [
+      "**Software testing** is everything done to find out whether a program works before its users do. Some of it is manual: a person clicks through the app looking for problems. Most of it, in modern teams, is **automated tests**: small programs that call the real code with known inputs and check the result. A test might say: \"`total([10, 5])` must return `15`\". If someone later breaks that, the test fails and tells them.",
+      "Tests come in layers. **Unit tests** check one small piece, like a single function, in milliseconds. **Integration tests** check that pieces work together, for example the code and a real database. **End-to-end tests** drive the whole app like a user would, opening a browser and clicking buttons; they are the most realistic but also the slowest and most fragile. The usual advice, called the **test pyramid**, is many unit tests, fewer integration tests and a handful of end-to-end ones.",
+      "The main value is confidence to change things. A good **test suite** runs automatically on every change in the CI pipeline, catching **regressions**, old features broken by new code, within minutes. Tests are not proof of correctness, though: they only check the cases someone thought of. As the computer scientist Edsger Dijkstra put it, testing can show the presence of bugs, never their absence."
+    ],
+    "analogy": "Like a pilot's pre-flight checklist. It does not guarantee a perfect flight, but it reliably catches the known ways things go wrong, every single time, without depending on anyone's memory.",
+    "keyPoints": [
+      "Automated tests are code that runs your code and checks the results.",
+      "Unit, integration and end-to-end tests trade speed for realism.",
+      "They run on every change, so broken features are caught early.",
+      "Passing tests mean the checked cases work, not that there are no bugs."
+    ],
+    "links": [
+      { "label": "The Practical Test Pyramid (martinfowler.com)", "url": "https://martinfowler.com/articles/practical-test-pyramid.html" },
+      { "label": "Software testing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_testing" }
+    ]
+  },
+  "es": {
+    "title": "Testing de software",
+    "tagline": "Comprobar que el software hace lo que debe, sobre todo con código que prueba código.",
+    "explanation": [
+      "El **testing de software** es todo lo que se hace para saber si un programa funciona antes de que lo descubran sus usuarios. Una parte es manual: una persona recorre la app buscando problemas. La mayor parte, en los equipos de hoy, son **tests automatizados**: programas chicos que llaman al código real con datos conocidos y revisan el resultado. Un test puede decir: \"`total([10, 5])` tiene que devolver `15`\". Si más adelante alguien rompe eso, el test falla y le avisa.",
+      "Los tests vienen en capas. Los **tests unitarios** prueban una pieza chica, como una sola función, en milisegundos. Los **tests de integración** prueban que las piezas funcionen juntas, por ejemplo el código con una base de datos real. Los **tests end-to-end** manejan la app entera como lo haría un usuario, abriendo un navegador y haciendo clic; son los más realistas pero también los más lentos y frágiles. El consejo habitual, llamado **pirámide de tests**, es tener muchos unitarios, menos de integración y unos pocos end-to-end.",
+      "El valor principal es animarse a cambiar cosas. Una buena **suite de tests** corre sola en cada cambio dentro del pipeline de CI y atrapa **regresiones**, funciones viejas rotas por código nuevo, en minutos. Pero los tests no prueban que todo esté bien: solo revisan los casos que a alguien se le ocurrieron. Como dijo el científico de la computación Edsger Dijkstra, el testing puede mostrar que hay bugs, nunca que no los hay."
+    ],
+    "analogy": "Como la lista de chequeo de un piloto antes de despegar. No garantiza un vuelo perfecto, pero atrapa siempre las formas conocidas en que algo sale mal, sin depender de la memoria de nadie.",
+    "keyPoints": [
+      "Los tests automatizados son código que corre tu código y revisa los resultados.",
+      "Los tests unitarios, de integración y end-to-end cambian velocidad por realismo.",
+      "Corren en cada cambio, así que las funciones rotas se detectan temprano.",
+      "Que pasen los tests significa que los casos probados andan, no que no haya bugs."
+    ],
+    "links": [
+      { "label": "Pruebas de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Pruebas_de_software" },
+      { "label": "Prueba unitaria en Wikipedia", "url": "https://es.wikipedia.org/wiki/Prueba_unitaria" },
+      { "label": "The Practical Test Pyramid (martinfowler.com, en inglés)", "url": "https://martinfowler.com/articles/practical-test-pyramid.html" }
+    ]
+  }
+}

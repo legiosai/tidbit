@@ -1,0 +1,82 @@
+{
+  "id": "2026-10-17-deepfake",
+  "date": "2026-10-17",
+  "subjects": [
+    "ai",
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "deepfakes",
+      "deep fake",
+      "deep fakes"
+    ],
+    "es": [
+      "deepfakes",
+      "ultrafalso",
+      "ultrafalsos"
+    ]
+  },
+  "image": "img/2026-10-17-deepfake.svg",
+  "imageAlt": {
+    "en": "Real photos and voice clips of a person go into an AI model, which outputs a fake video of that person asking to wire money, with a warning to verify another way",
+    "es": "Fotos y audios reales de una persona entran en un modelo de IA, que produce un video falso de esa persona pidiendo una transferencia, con un aviso de verificar por otra vía"
+  },
+  "en": {
+    "title": "Deepfake",
+    "tagline": "A fake video, photo or voice made with AI to look and sound like a real person.",
+    "explanation": [
+      "A **deepfake** is media created or altered with AI so that a real person appears to say or do something they never did. It can be a face swapped into a video, a cloned voice reading any text, or a photo that never happened. The word joins 'deep learning' and 'fake', and comes from a Reddit user who posted face-swapped videos in 2017.",
+      "Making one used to take skill and hours of footage. Today generative AI tools can clone a voice from a short recording and animate a face from a few photos, and the results keep getting harder to tell apart from the real thing. There are honest uses: dubbing films into other languages, restoring voices for people who lost them, visual effects, satire that is clearly labeled.",
+      "The harm comes from deception. Scammers call parents with a cloned voice of their child asking for money, or pose as a company's boss on a video call to order an urgent transfer. Deepfakes are used for non-consensual sexual images, which many countries now treat as a crime, and to spread political misinformation. Detection tools exist but are not reliable. The best defense is a habit: if a message asks for money, passwords or urgency, check it through another channel you already trust, such as calling back on a known number or agreeing on a family code word."
+    ],
+    "analogy": "A deepfake is a forged signature for faces and voices. A forger used to need years of practice; now the forging machine is available to anyone, so you check the document through another route instead of trusting how it looks.",
+    "keyPoints": [
+      "AI-made video, audio or images that imitate a real person.",
+      "A voice can be cloned from a short recording.",
+      "Common in scams: fake calls from relatives or bosses asking for money.",
+      "Verify urgent requests through a second, trusted channel."
+    ],
+    "links": [
+      {
+        "label": "Deepfake on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Deepfake"
+      },
+      {
+        "label": "What is a deepfake? (IBM)",
+        "url": "https://www.ibm.com/think/topics/deepfake"
+      },
+      {
+        "label": "Increasing threat of deepfake identities (US DHS, PDF)",
+        "url": "https://www.dhs.gov/sites/default/files/publications/increasing_threats_of_deepfake_identities_0.pdf"
+      }
+    ]
+  },
+  "es": {
+    "title": "Deepfake",
+    "tagline": "Un video, foto o voz falsos hechos con IA para parecer una persona real.",
+    "explanation": [
+      "Un **deepfake** (ultrafalso) es un contenido creado o alterado con IA para que una persona real parezca decir o hacer algo que nunca hizo. Puede ser una cara pegada en un video, una voz clonada que lee cualquier texto o una foto de algo que nunca pasó. La palabra junta 'deep learning' y 'fake' (falso), y viene de un usuario de Reddit que en 2017 publicaba videos con caras intercambiadas.",
+      "Antes, hacer uno pedía habilidad y horas de material filmado. Hoy las herramientas de IA generativa pueden clonar una voz con una grabación corta y animar una cara con unas pocas fotos, y cada vez cuesta más distinguir el resultado de lo real. Hay usos honestos: doblar películas a otros idiomas, devolverle la voz a quien la perdió, efectos especiales, sátira claramente señalada.",
+      "El daño viene del engaño. Hay estafadores que llaman a padres con la voz clonada de su hijo pidiendo plata, o que se hacen pasar por el jefe de una empresa en una videollamada para ordenar una transferencia urgente. Los deepfakes se usan para fabricar imágenes sexuales sin consentimiento, algo que muchos países ya tratan como delito, y para difundir desinformación política. Existen herramientas de detección, pero no son confiables. La mejor defensa es un hábito: si un mensaje te pide plata, contraseñas o urgencia, verificalo por otro canal en el que ya confíes, como llamar de vuelta a un número conocido o acordar una palabra clave en la familia."
+    ],
+    "analogy": "Un deepfake es una firma falsificada, pero de caras y voces. Antes el falsificador necesitaba años de práctica; ahora la máquina de falsificar está al alcance de cualquiera, así que el documento se verifica por otro camino en vez de confiar en cómo se ve.",
+    "keyPoints": [
+      "Video, audio o imágenes hechos con IA que imitan a una persona real.",
+      "Una voz se puede clonar con una grabación corta.",
+      "Comunes en estafas: llamadas falsas de familiares o jefes pidiendo plata.",
+      "Verificá los pedidos urgentes por un segundo canal de confianza."
+    ],
+    "links": [
+      {
+        "label": "Deepfake en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Deepfake"
+      },
+      {
+        "label": "¿Qué es un deepfake? (IBM)",
+        "url": "https://www.ibm.com/es-es/think/topics/deepfake"
+      }
+    ]
+  }
+}

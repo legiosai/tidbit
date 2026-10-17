@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-wifi-security",
+  "date": "2026-10-17",
+  "subjects": ["security", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["WPA2", "WPA3", "WEP", "Wi-Fi password", "Wi-Fi passwords", "WiFi security"],
+    "es": ["WPA2", "WPA3", "WEP", "contraseña del Wi-Fi", "clave del Wi-Fi", "seguridad del Wi-Fi"]
+  },
+  "image": "img/2026-10-17-wifi-security.svg",
+  "imageAlt": {
+    "en": "A timeline of Wi-Fi security standards: WEP marked broken, WPA, WPA2 and WPA3, with a padlock between a laptop and a router",
+    "es": "Una línea de tiempo de los estándares de seguridad Wi-Fi: WEP marcado como roto, WPA, WPA2 y WPA3, con un candado entre una laptop y un router"
+  },
+  "en": {
+    "title": "Wi-Fi security",
+    "tagline": "How a Wi-Fi password keeps neighbors out and scrambles what travels through the air.",
+    "explanation": [
+      "Wi-Fi is radio, so anyone nearby can pick up the signal. **Wi-Fi security** is the set of standards that decides two things: who is allowed to join the network, and how the data flying between your device and the router is encrypted so that listeners only hear noise. The Wi-Fi password is the visible part of it.",
+      "The standards came in generations. **WEP** (1999) was the first, and its encryption was broken within a few years; today it offers almost no protection. **WPA** was a quick patch in 2003, and **WPA2** (2004) brought strong AES encryption and became the norm for over a decade. **WPA3** (2018) improves the weak spot of WPA2 at home: with WPA2, someone who records you connecting can try millions of password guesses on their own computer later, while WPA3 makes each guess require a live attempt against the router. WPA3 also protects past traffic even if the password leaks later.",
+      "For a home network, the practical rules are short. Use WPA3, or WPA2 with AES if some device cannot handle WPA3; never WEP or an open network. Pick a long passphrase rather than a short clever word. Change the router's admin password (it is not the same as the Wi-Fi one), keep its firmware updated and turn off **WPS**, the push-button pairing feature with a history of flaws. A separate guest network keeps visitors and cheap smart gadgets away from your laptops."
+    ],
+    "analogy": "A conversation in a crowded square. The password decides who can join the circle, and the encryption is a private language the members speak, so passers-by hear sounds but no words.",
+    "keyPoints": [
+      "Wi-Fi security controls who joins the network and encrypts the radio link.",
+      "WEP is broken; WPA2 with AES is acceptable; WPA3 is the current standard.",
+      "A long passphrase matters more than a clever short password.",
+      "It only protects the hop to the router; on public networks, HTTPS or a VPN does the rest."
+    ],
+    "links": [
+      { "label": "Wi-Fi Protected Access on Wikipedia", "url": "https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access" },
+      { "label": "Wi-Fi security (Wi-Fi Alliance)", "url": "https://www.wi-fi.org/discover-wi-fi/security" },
+      { "label": "Wired Equivalent Privacy on Wikipedia", "url": "https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy" }
+    ]
+  },
+  "es": {
+    "title": "Seguridad Wi-Fi",
+    "tagline": "Cómo la clave del Wi-Fi deja afuera a los vecinos y cifra lo que viaja por el aire.",
+    "explanation": [
+      "El Wi-Fi es radio, así que cualquiera que esté cerca puede captar la señal. La **seguridad Wi-Fi** es el conjunto de estándares que define dos cosas: quién puede entrar a la red y cómo se cifran los datos que vuelan entre tu dispositivo y el router, para que quien escuche solo reciba ruido. La contraseña del Wi-Fi es la parte que se ve.",
+      "Los estándares llegaron por generaciones. **WEP** (1999) fue el primero, y su cifrado se rompió en pocos años; hoy casi no protege. **WPA** fue un parche rápido en 2003, y **WPA2** (2004) trajo el cifrado fuerte AES y fue la norma por más de una década. **WPA3** (2018) mejora el punto débil de WPA2 en casa: con WPA2, alguien que graba el momento en que te conectás puede probar después millones de contraseñas en su propia computadora, mientras que WPA3 obliga a que cada intento sea en vivo contra el router. WPA3 además protege el tráfico pasado aunque la clave se filtre más adelante.",
+      "Para la red de tu casa, las reglas prácticas son pocas. Usá WPA3, o WPA2 con AES si algún dispositivo no soporta WPA3; nunca WEP ni una red abierta. Elegí una frase larga en vez de una palabra corta e ingeniosa. Cambiá la contraseña de administración del router (no es la misma que la del Wi-Fi), mantené su firmware actualizado y apagá el **WPS**, la función de conexión con un botón que tiene un historial de fallas. Una red de invitados separada mantiene a las visitas y a los aparatitos inteligentes baratos lejos de tus computadoras."
+    ],
+    "analogy": "Una charla en una plaza llena de gente. La contraseña decide quién entra a la ronda, y el cifrado es un idioma privado que hablan los de adentro: el que pasa escucha sonidos, pero no palabras.",
+    "keyPoints": [
+      "La seguridad Wi-Fi controla quién entra a la red y cifra el enlace de radio.",
+      "WEP está roto; WPA2 con AES es aceptable; WPA3 es el estándar actual.",
+      "Una frase larga importa más que una contraseña corta e ingeniosa.",
+      "Solo protege el tramo hasta el router; en redes públicas, HTTPS o una VPN hacen el resto."
+    ],
+    "links": [
+      { "label": "Wi-Fi Protected Access en Wikipedia", "url": "https://es.wikipedia.org/wiki/Wi-Fi_Protected_Access" },
+      { "label": "Wired Equivalent Privacy en Wikipedia", "url": "https://es.wikipedia.org/wiki/Wired_Equivalent_Privacy" },
+      { "label": "Seguridad Wi-Fi (Wi-Fi Alliance, en inglés)", "url": "https://www.wi-fi.org/discover-wi-fi/security" }
+    ]
+  }
+}

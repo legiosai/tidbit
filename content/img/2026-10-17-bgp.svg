@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M294 105 L216 73"/><path d="M225 72 L216 73 L222 80"/>
+    <path d="M294 127 L216 159"/><path d="M225 160 L216 159 L222 152"/>
+    <path d="M165 74 L95 108"/><path d="M104 108 L95 108 L101 101"/>
+    <path d="M164 159 L96 131"/><path d="M105 130 L96 131 L102 138"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="70" cy="120" r="28" fill="#9ac7ea"/>
+    <circle cx="190" cy="62" r="28" fill="#9bd1b9"/>
+    <circle cx="190" cy="170" r="28" fill="#9bd1b9"/>
+    <circle cx="320" cy="116" r="28" fill="#ffd166"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="125">AS 1</text><text x="190" y="67">AS 2</text>
+    <text x="190" y="175">AS 3</text><text x="320" y="121">AS 4</text>
+  </g>
+  <text x="320" y="164" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">203.0.113.0/24</text>
+  <text x="70" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">via AS 2 → AS 4</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">networks tell neighbors which addresses they reach</text>
+</svg>

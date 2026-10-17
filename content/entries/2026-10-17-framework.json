@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-framework",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["frameworks", "software framework", "software frameworks", "web framework", "web frameworks"],
+    "es": ["frameworks", "framework web", "frameworks web", "marco de trabajo"]
+  },
+  "image": "img/2026-10-17-framework.svg",
+  "imageAlt": {
+    "en": "A framework drawn as a house frame with labeled slots; your code fills the slots, and the framework decides when to call it",
+    "es": "Un framework dibujado como la estructura de una casa con huecos rotulados; tu código llena los huecos y el framework decide cuándo llamarlo"
+  },
+  "en": {
+    "title": "Framework",
+    "tagline": "A ready-made skeleton for an app: it sets the structure and calls your code.",
+    "explanation": [
+      "A **framework** is a large body of ready-made code that gives an application its basic structure, so programmers only write the parts that are unique to their product. A web framework, for example, already knows how to receive requests, read forms, talk to a database and send pages back; you fill in what your pages show and what your rules are.",
+      "The key difference with a software library is who is in charge. You call a library when you need it, like grabbing a tool from a drawer. A framework calls you: it runs the main loop and invokes your code at the right moments, such as \"when someone opens this page, run this function\". Engineers call this **inversion of control**.",
+      "Well-known examples include Angular and Vue for building user interfaces in the browser, Django and Ruby on Rails for web backends, and Spring for business software in Java. Choosing one is a big decision, because it shapes how the whole project is organized and is hard to swap later. In exchange, teams get a lot done fast and follow conventions that new members already know."
+    ],
+    "analogy": "The frame of a prefabricated house: walls, roof and plumbing paths are already in place. You choose the paint, the kitchen and the furniture, but you cannot easily move a load-bearing wall.",
+    "keyPoints": [
+      "Provides the structure of an app; you fill in the specific parts.",
+      "It calls your code, unlike a library, which you call.",
+      "Examples: Angular, Vue, Django, Ruby on Rails, Spring.",
+      "Saves a lot of work, but is hard to replace once chosen."
+    ],
+    "links": [
+      { "label": "Introduction to client-side frameworks (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction" },
+      { "label": "Software framework on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_framework" }
+    ]
+  },
+  "es": {
+    "title": "Framework",
+    "tagline": "Un esqueleto ya armado para una app: define la estructura y llama a tu código.",
+    "explanation": [
+      "Un **framework** (marco de trabajo) es un conjunto grande de código ya hecho que le da a una aplicación su estructura básica, para que quienes programan solo escriban lo que es propio de su producto. Un framework web, por ejemplo, ya sabe recibir pedidos, leer formularios, hablar con una base de datos y devolver páginas; vos completás qué muestran tus páginas y cuáles son tus reglas.",
+      "La diferencia clave con una biblioteca de software es quién manda. A una biblioteca la llamás vos cuando la necesitás, como sacar una herramienta de un cajón. Un framework te llama a vos: maneja el ciclo principal y ejecuta tu código en el momento justo, del tipo \"cuando alguien abra esta página, corré esta función\". Los ingenieros le dicen **inversión de control**.",
+      "Algunos ejemplos conocidos son Angular y Vue para armar interfaces en el navegador, Django y Ruby on Rails para el backend de una web, y Spring para software empresarial en Java. Elegir uno es una decisión grande, porque define cómo se organiza todo el proyecto y es difícil cambiarlo después. A cambio, los equipos avanzan rápido y siguen convenciones que la gente nueva ya conoce."
+    ],
+    "analogy": "La estructura de una casa prefabricada: las paredes, el techo y el recorrido de los caños ya están. Vos elegís la pintura, la cocina y los muebles, pero no podés mover fácilmente una pared maestra.",
+    "keyPoints": [
+      "Da la estructura de una app; vos completás las partes específicas.",
+      "Llama a tu código, al revés que una biblioteca, a la que llamás vos.",
+      "Ejemplos: Angular, Vue, Django, Ruby on Rails, Spring.",
+      "Ahorra mucho trabajo, pero cuesta reemplazarlo una vez elegido."
+    ],
+    "links": [
+      { "label": "Introducción a los frameworks del lado del cliente (MDN, en inglés)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction" },
+      { "label": "Framework en Wikipedia", "url": "https://es.wikipedia.org/wiki/Framework" }
+    ]
+  }
+}

@@ -43,7 +43,8 @@ for (const f of files) {
       if (!l.label || !/^https:\/\/\S+$/.test(l.url ?? "")) say(`${lang}: bad link ${JSON.stringify(l)}`);
     }
     for (const txt of [...(c.explanation ?? []), c.analogy ?? "", ...(c.keyPoints ?? [])]) {
-      if (/<[a-z/]/i.test(txt)) say(`${lang}: HTML is not allowed in text ("${txt.slice(0, 40)}…")`);
+      // Tags are fine inside `code` (the site escapes it); anywhere else they would be raw HTML.
+      if (/<[a-z/]/i.test(txt.replace(/`[^`]*`/g, ""))) say(`${lang}: HTML is not allowed in text, put tags inside backticks ("${txt.slice(0, 40)}…")`);
     }
     const key = `${lang}:${(c.title ?? "").toLowerCase()}`;
     if (seenTitles.has(key)) say(`${lang}.title "${c.title}" is already used by ${seenTitles.get(key)}`);

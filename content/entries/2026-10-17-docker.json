@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-docker",
+  "date": "2026-10-17",
+  "subjects": ["cloud", "software"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Dockerfile", "Dockerfiles", "Docker image", "Docker images", "Docker Hub", "Docker Desktop"],
+    "es": ["Dockerfile", "Dockerfiles", "imagen de Docker", "imágenes de Docker", "Docker Hub", "Docker Desktop"]
+  },
+  "image": "img/2026-10-17-docker.svg",
+  "imageAlt": {
+    "en": "A Dockerfile is built into an image, the image is stored in a registry, and from it several identical containers are run",
+    "es": "Un Dockerfile se construye en una imagen, la imagen se guarda en un registry y desde ella se corren varios contenedores idénticos"
+  },
+  "en": {
+    "title": "Docker",
+    "tagline": "The tool that made containers easy: package an app once, run it anywhere.",
+    "explanation": [
+      "**Docker** is a set of tools for building and running containers, made by the company of the same name. Released in 2013, it took an old Linux idea and made it usable by any developer, which is why many people still say \"a Docker\" when they mean a container.",
+      "The workflow has three steps. You write a **Dockerfile**, a short text recipe: start from this base system, copy my code, install these libraries, run this command. `docker build` turns the recipe into an **image**, a sealed package with everything the app needs. `docker run` starts a container from that image, and you can start as many identical copies as you want.",
+      "Images are shared through a **registry**, a library of images; **Docker Hub** is the best-known public one, and clouds offer private ones like Amazon ECR. This is what makes Docker useful: the same image runs on a laptop, a test server and production, so \"it works on my machine\" stops being an excuse. The image format is now an open standard, so images built with Docker also run on Kubernetes and other tools that never touch Docker itself."
+    ],
+    "analogy": "A Dockerfile is a recipe, the image is the frozen meal packed from it, and each container is one portion heated up. Any microwave heats it the same way.",
+    "keyPoints": [
+      "Dockerfile is the recipe, image is the package, container is the running copy.",
+      "Registries such as Docker Hub store and share images.",
+      "The image format is an open standard, so images run outside Docker too.",
+      "Docker is the tool; the container is the general idea."
+    ],
+    "links": [
+      { "label": "What is Docker? (official docs)", "url": "https://docs.docker.com/get-started/docker-overview/" },
+      { "label": "Docker on Wikipedia", "url": "https://en.wikipedia.org/wiki/Docker_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Docker",
+    "tagline": "La herramienta que popularizó los contenedores: empaquetás una vez, corre en todos lados.",
+    "explanation": [
+      "**Docker** es un conjunto de herramientas para construir y correr contenedores, hecho por la empresa del mismo nombre. Salió en 2013, tomó una idea vieja de Linux y la volvió usable para cualquier developer; por eso mucha gente todavía dice \"un Docker\" cuando habla de un contenedor.",
+      "El flujo tiene tres pasos. Escribís un **Dockerfile**, una receta corta en texto: partí de este sistema base, copiá mi código, instalá estas librerías, corré este comando. `docker build` convierte la receta en una **imagen**, un paquete cerrado con todo lo que la app necesita. `docker run` arranca un contenedor a partir de esa imagen, y podés arrancar todas las copias idénticas que quieras.",
+      "Las imágenes se comparten a través de un **registry**, una biblioteca de imágenes; **Docker Hub** es el público más conocido y las nubes ofrecen privados como Amazon ECR. Ahí está la utilidad: la misma imagen corre en una laptop, en un servidor de pruebas y en producción, así que \"en mi máquina anda\" deja de ser excusa. El formato de imagen hoy es un estándar abierto, así que las imágenes hechas con Docker también corren en Kubernetes y en otras herramientas que ni usan Docker."
+    ],
+    "analogy": "El Dockerfile es la receta, la imagen es la vianda congelada que sale de ella y cada contenedor es una porción calentada. Cualquier microondas la calienta igual.",
+    "keyPoints": [
+      "El Dockerfile es la receta, la imagen es el paquete, el contenedor es la copia que corre.",
+      "Los registries como Docker Hub guardan y comparten imágenes.",
+      "El formato de imagen es un estándar abierto, así que las imágenes corren también fuera de Docker.",
+      "Docker es la herramienta; el contenedor es la idea general."
+    ],
+    "links": [
+      { "label": "What is Docker? (documentación oficial, en inglés)", "url": "https://docs.docker.com/get-started/docker-overview/" },
+      { "label": "Docker en Wikipedia", "url": "https://es.wikipedia.org/wiki/Docker_(software)" }
+    ]
+  }
+}

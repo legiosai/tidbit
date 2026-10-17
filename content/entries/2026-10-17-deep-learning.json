@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-deep-learning",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": [],
+    "es": ["aprendizaje profundo"]
+  },
+  "image": "img/2026-10-17-deep-learning.svg",
+  "imageAlt": {
+    "en": "Four layers in a row: raw pixels, then edges, then shapes, then the answer cat, with arrows passing from one layer to the next",
+    "es": "Cuatro capas en fila: píxeles crudos, después bordes, después formas y al final la respuesta gato, con flechas que pasan de una capa a la siguiente"
+  },
+  "en": {
+    "title": "Deep learning",
+    "tagline": "Machine learning with many-layered neural networks, behind most recent AI leaps.",
+    "explanation": [
+      "**Deep learning** is machine learning done with neural networks that have many layers stacked one after another. 'Deep' refers to that depth, not to any profound understanding. Each layer takes the output of the previous one and turns it into something a bit more abstract, so the network builds its own understanding of the data step by step.",
+      "In an image model, the first layers end up reacting to simple things like edges and color patches, the middle layers to textures and shapes like an eye or a wheel, and the last layers to whole concepts like 'cat' or 'bicycle'. Nobody programs those stages; they emerge during training. That is the big change from older machine learning, where people had to decide by hand which features of the data mattered.",
+      "The ideas are decades old, but deep learning only took off around 2012, when a network called AlexNet won an image recognition contest by a wide margin. Three things had come together: huge labeled datasets, GPUs fast enough to train large networks, and better training tricks. Since then it has powered speech recognition, translation, image generation and the large language models behind chatbots. The cost: it needs a lot of data and computing power, and it is hard to explain why a deep network gave a particular answer."
+    ],
+    "analogy": "Like an assembly line of interpreters: the first only notices lines, the next turns lines into shapes, the next turns shapes into objects. No single worker understands the whole picture, but the last one can say 'that is a cat'.",
+    "keyPoints": [
+      "'Deep' means many layers, each building on the one before.",
+      "It learns which features matter on its own, without hand-picked rules.",
+      "It took off around 2012 thanks to big datasets and GPUs.",
+      "Powerful but data-hungry, expensive to train and hard to explain."
+    ],
+    "links": [
+      { "label": "Deep learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Deep_learning" },
+      { "label": "What is deep learning? (IBM)", "url": "https://www.ibm.com/think/topics/deep-learning" }
+    ]
+  },
+  "es": {
+    "title": "Deep learning",
+    "tagline": "Machine learning con redes neuronales de muchas capas, detrás de los saltos de la IA.",
+    "explanation": [
+      "El **deep learning** (aprendizaje profundo) es machine learning hecho con redes neuronales que tienen muchas capas apiladas una detrás de otra. Lo 'profundo' se refiere a esa cantidad de capas, no a que entienda algo en profundidad. Cada capa toma lo que produjo la anterior y lo convierte en algo un poco más abstracto, así que la red va armando su propia comprensión de los datos paso a paso.",
+      "En un modelo de imágenes, las primeras capas terminan reaccionando a cosas simples como bordes y manchas de color, las del medio a texturas y formas como un ojo o una rueda, y las últimas a conceptos enteros como 'gato' o 'bicicleta'. Nadie programa esas etapas; aparecen solas durante el entrenamiento. Ese es el gran cambio respecto del machine learning anterior, donde una persona tenía que decidir a mano qué rasgos de los datos importaban.",
+      "Las ideas tienen décadas, pero el deep learning despegó recién alrededor de 2012, cuando una red llamada AlexNet ganó por amplio margen un concurso de reconocimiento de imágenes. Se habían juntado tres cosas: conjuntos de datos etiquetados enormes, GPUs capaces de entrenar redes grandes y mejores técnicas de entrenamiento. Desde entonces está detrás del reconocimiento de voz, la traducción, la generación de imágenes y los grandes modelos de lenguaje de los chatbots. El costo: necesita muchos datos y mucha capacidad de cómputo, y cuesta explicar por qué una red profunda dio una respuesta puntual."
+    ],
+    "analogy": "Es como una línea de montaje de intérpretes: el primero solo ve rayas, el siguiente convierte rayas en formas, el otro convierte formas en objetos. Ninguno entiende la imagen entera, pero el último puede decir 'eso es un gato'.",
+    "keyPoints": [
+      "'Profundo' quiere decir muchas capas, cada una apoyada en la anterior.",
+      "Aprende sola qué rasgos importan, sin reglas elegidas a mano.",
+      "Despegó alrededor de 2012 gracias a grandes datasets y a las GPUs.",
+      "Es potente pero pide muchos datos, cuesta entrenarla y es difícil de explicar."
+    ],
+    "links": [
+      { "label": "Aprendizaje profundo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aprendizaje_profundo" },
+      { "label": "¿Qué es el deep learning? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/deep-learning" }
+    ]
+  }
+}

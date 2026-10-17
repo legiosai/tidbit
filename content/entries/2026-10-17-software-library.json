@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-software-library",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["software libraries", "code library", "code libraries", "package manager", "package managers"],
+    "es": ["bibliotecas de software", "librería de software", "librerías de software", "gestor de paquetes", "gestores de paquetes"]
+  },
+  "image": "img/2026-10-17-software-library.svg",
+  "imageAlt": {
+    "en": "An app made of a little of its own code and several ready-made library blocks for dates, charts, payments and PDFs, installed with one command",
+    "es": "Una app hecha de un poco de código propio y varios bloques de bibliotecas ya hechas para fechas, gráficos, pagos y PDF, instalados con un comando"
+  },
+  "en": {
+    "title": "Software library",
+    "tagline": "Ready-made code for a common task that programmers plug into their own programs.",
+    "explanation": [
+      "A **software library** is a package of code written to solve one kind of problem well, so other programmers do not have to solve it again. There are libraries for handling dates and time zones, drawing charts, resizing images, reading spreadsheets, encrypting data or talking to a payment provider. You add the library to your project and call its functions when you need them.",
+      "Modern software is mostly assembled this way. A typical app has a small layer of its own code on top of dozens or hundreds of libraries, called its **dependencies**. Each language has a **package manager** that downloads them with one command, like `pip install` for Python or `npm install` for JavaScript, and many of those libraries are open source.",
+      "The convenience has a cost. Every dependency is code someone else wrote and maintains, so a bug or a security vulnerability in a popular library can affect thousands of apps at once, and an abandoned one can leave a project stuck. That is why teams keep a list of exact versions, update them regularly and use tools that warn about known problems."
+    ],
+    "analogy": "Buying ready-made parts for a piece of furniture: hinges, drawer rails, screws. You still design and build the cabinet, but you do not forge your own hinges.",
+    "keyPoints": [
+      "Reusable code for a specific task, called from your own program.",
+      "Installed with a package manager such as pip or npm.",
+      "Most apps rely on many libraries, known as dependencies.",
+      "A flaw in a popular library can affect many apps at once."
+    ],
+    "links": [
+      { "label": "Library (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Library_(computing)" },
+      { "label": "Python Package Index (PyPI), a public library catalog", "url": "https://pypi.org/" }
+    ]
+  },
+  "es": {
+    "title": "Biblioteca de software",
+    "tagline": "Código ya hecho para una tarea común que se enchufa dentro de otros programas.",
+    "explanation": [
+      "Una **biblioteca de software** (muchos le dicen librería, por el inglés library) es un paquete de código escrito para resolver bien un tipo de problema, así otros programadores no tienen que resolverlo de nuevo. Hay bibliotecas para manejar fechas y husos horarios, dibujar gráficos, achicar imágenes, leer planillas, cifrar datos o hablar con un proveedor de pagos. Sumás la biblioteca a tu proyecto y llamás a sus funciones cuando las necesitás.",
+      "El software moderno se arma casi todo así. Una app típica tiene una capa chica de código propio encima de decenas o cientos de bibliotecas, sus **dependencias**. Cada lenguaje tiene un **gestor de paquetes** que las descarga con un comando, como `pip install` en Python o `npm install` en JavaScript, y muchas de esas bibliotecas son de código abierto.",
+      "La comodidad tiene un costo. Cada dependencia es código que escribió y mantiene otra persona, así que un bug o una vulnerabilidad en una biblioteca popular puede afectar a miles de apps a la vez, y una abandonada puede dejar un proyecto trabado. Por eso los equipos anotan las versiones exactas, las actualizan seguido y usan herramientas que avisan de problemas conocidos."
+    ],
+    "analogy": "Comprar piezas hechas para un mueble: bisagras, correderas de cajón, tornillos. Igual diseñás y armás el placard, pero no forjás tus propias bisagras.",
+    "keyPoints": [
+      "Código reutilizable para una tarea puntual, que llamás desde tu programa.",
+      "Se instala con un gestor de paquetes como pip o npm.",
+      "Casi todas las apps dependen de muchas bibliotecas: sus dependencias.",
+      "Una falla en una biblioteca popular puede afectar a muchas apps juntas."
+    ],
+    "links": [
+      { "label": "Biblioteca (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Biblioteca_(informática)" },
+      { "label": "Python Package Index (PyPI), un catálogo público de bibliotecas (en inglés)", "url": "https://pypi.org/" }
+    ]
+  }
+}

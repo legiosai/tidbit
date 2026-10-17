@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-chatgpt",
+  "date": "2026-10-17",
+  "subjects": ["ai", "companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-10-17-chatgpt.svg",
+  "imageAlt": {
+    "en": "A chat window with a question and a reply, connected to a GPT model box, with extra tools below it: web search, files and images",
+    "es": "Una ventana de chat con una pregunta y una respuesta, conectada a una caja de modelo GPT, con herramientas extra abajo: búsqueda web, archivos e imágenes"
+  },
+  "en": {
+    "title": "ChatGPT",
+    "tagline": "OpenAI's chat assistant, the app that brought AI chatbots to the general public.",
+    "explanation": [
+      "**ChatGPT** is a chat assistant made by OpenAI. You type or say something in plain language (a question, a request, a half-formed idea) and it answers in conversation: it explains, drafts, summarizes, translates, writes code, and keeps the thread so you can ask follow-ups. It launched as a free research preview on 30 November 2022 and spread faster than almost any consumer product before it. For many people, 'ChatGPT' became the name of the whole idea.",
+      "It is important to separate the app from the model. ChatGPT is the product you use, on the web, on phones and on computers. The thinking happens in OpenAI's **GPT** models, large language models that OpenAI keeps replacing with newer versions; GPT stands for 'generative pre-trained transformer'. Over time the app gained more abilities around the model: searching the web, reading uploaded files and photos, generating images, talking by voice and remembering preferences across chats.",
+      "There is a free version and paid plans for individuals and companies. Developers who want GPT inside their own products do not use ChatGPT itself; they use OpenAI's API. Like every chatbot built on a language model, ChatGPT can sound sure of things that are false, so anything important it tells you (a dose, a law, a quote) is worth checking against a real source."
+    ],
+    "analogy": "ChatGPT is the shop window and GPT is the workshop behind it. You talk to the person at the counter, but the work is done in the back, and the workshop's tools get upgraded every so often while the counter looks the same.",
+    "keyPoints": [
+      "Made by OpenAI and launched on 30 November 2022.",
+      "ChatGPT is the app; GPT models are the engines inside it.",
+      "Can search the web, read files and images, and talk by voice.",
+      "Free to start, with paid plans; developers use the API instead."
+    ],
+    "links": [
+      { "label": "ChatGPT on Wikipedia", "url": "https://en.wikipedia.org/wiki/ChatGPT" },
+      { "label": "OpenAI's models (official docs)", "url": "https://platform.openai.com/docs/models" }
+    ]
+  },
+  "es": {
+    "title": "ChatGPT",
+    "tagline": "El asistente de chat de OpenAI, la app que llevó los chatbots de IA al público.",
+    "explanation": [
+      "**ChatGPT** es un asistente de chat hecho por OpenAI. Escribís o decís algo con palabras comunes (una pregunta, un pedido, una idea a medio armar) y te contesta en forma de conversación: explica, redacta, resume, traduce, escribe código y se acuerda del hilo para que sigas preguntando. Salió como versión de prueba gratuita el 30 de noviembre de 2022 y se difundió más rápido que casi cualquier producto de consumo anterior. Para mucha gente, 'ChatGPT' pasó a ser el nombre de toda la idea.",
+      "Conviene separar la app del modelo. ChatGPT es el producto que usás, en la web, en el celular y en la compu. El trabajo de fondo lo hacen los modelos **GPT** de OpenAI, grandes modelos de lenguaje que OpenAI va reemplazando por versiones nuevas; GPT quiere decir 'generative pre-trained transformer' (transformer generativo preentrenado). Con el tiempo la app sumó capacidades alrededor del modelo: buscar en la web, leer archivos y fotos que le subís, generar imágenes, hablar por voz y recordar preferencias entre chats.",
+      "Hay una versión gratuita y planes pagos para personas y empresas. Quien quiere usar GPT dentro de su propio producto no usa ChatGPT sino la API de OpenAI. Como todo chatbot armado sobre un modelo de lenguaje, ChatGPT puede sonar muy seguro de cosas falsas, así que lo importante que te diga (una dosis, una ley, una cita) conviene chequearlo con una fuente real."
+    ],
+    "analogy": "ChatGPT es la vidriera y GPT es el taller de atrás. Vos hablás con quien atiende el mostrador, pero el trabajo se hace en el fondo, y las herramientas del taller se renuevan cada tanto mientras el mostrador sigue igual.",
+    "keyPoints": [
+      "Lo hizo OpenAI y salió el 30 de noviembre de 2022.",
+      "ChatGPT es la app; los modelos GPT son el motor de adentro.",
+      "Puede buscar en la web, leer archivos e imágenes y hablar por voz.",
+      "Se puede usar gratis, con planes pagos; los desarrolladores usan la API."
+    ],
+    "links": [
+      { "label": "ChatGPT en Wikipedia", "url": "https://es.wikipedia.org/wiki/ChatGPT" },
+      { "label": "Modelos de OpenAI, documentación oficial (en inglés)", "url": "https://platform.openai.com/docs/models" }
+    ]
+  }
+}

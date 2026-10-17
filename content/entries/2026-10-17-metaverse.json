@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-metaverse",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["metaverses"],
+    "es": ["metaversos"]
+  },
+  "image": "img/2026-10-17-metaverse.svg",
+  "imageAlt": {
+    "en": "People wearing a headset, holding a phone and sitting at a computer all enter the same shared 3D world, where their avatars meet",
+    "es": "Personas con un visor, con un celular y frente a una compu entran todas al mismo mundo 3D compartido, donde se encuentran sus avatares"
+  },
+  "en": {
+    "title": "Metaverse",
+    "tagline": "The idea of shared 3D virtual worlds where people meet, play and work as avatars.",
+    "explanation": [
+      "The word **metaverse** comes from Snow Crash, a 1992 science fiction novel by Neal Stephenson, where people put on goggles and enter a virtual city as **avatars**. Today it names a broad idea: online 3D spaces that are always on, where many people are present at the same time, can talk, play, buy things and build, and maybe carry their identity and belongings from one world to another.",
+      "The term became a buzzword in 2021, when Facebook renamed itself Meta and said building the metaverse was its next big goal. Other companies followed with announcements, and for a while almost any 3D or virtual reality product was called a metaverse. Interest cooled in the following years, as attention moved to generative AI.",
+      "What actually exists is a set of separate pieces. Online games and platforms such as Roblox, Minecraft, Fortnite and VRChat already host huge shared worlds and concerts. **Virtual reality** headsets like Meta Quest and **mixed reality** devices like Apple Vision Pro let you feel inside a 3D space, and some companies use them for training or meetings. What does not exist is a single, connected metaverse: each world has its own accounts, rules and owner, and you cannot walk from one to another as you can between websites."
+    ],
+    "analogy": "Like the word \"cyberspace\" in the 1990s: a vivid name for a future that was still being built, used to describe many different things that only partly match the dream.",
+    "keyPoints": [
+      "The word comes from Neal Stephenson's 1992 novel Snow Crash.",
+      "It means shared, always-on 3D worlds where people meet as avatars.",
+      "Became a buzzword in 2021, when Facebook renamed itself Meta.",
+      "Today there are many separate virtual worlds, not one connected metaverse."
+    ],
+    "links": [
+      { "label": "Metaverse on Wikipedia", "url": "https://en.wikipedia.org/wiki/Metaverse" },
+      { "label": "Virtual world on Wikipedia", "url": "https://en.wikipedia.org/wiki/Virtual_world" }
+    ]
+  },
+  "es": {
+    "title": "Metaverso",
+    "tagline": "La idea de mundos virtuales 3D compartidos donde la gente se junta como avatar.",
+    "explanation": [
+      "La palabra **metaverso** viene de Snow Crash, una novela de ciencia ficción de 1992 de Neal Stephenson, en la que la gente se pone unos anteojos y entra a una ciudad virtual como **avatar**. Hoy nombra una idea amplia: espacios 3D online siempre encendidos, donde muchas personas están presentes al mismo tiempo, pueden hablar, jugar, comprar cosas y construir, y quizás llevar su identidad y sus pertenencias de un mundo a otro.",
+      "El término se puso de moda en 2021, cuando Facebook se cambió el nombre a Meta y dijo que construir el metaverso era su próximo gran objetivo. Otras empresas siguieron con anuncios, y por un tiempo a casi cualquier producto 3D o de realidad virtual se lo llamó metaverso. El interés se enfrió en los años siguientes, cuando la atención pasó a la IA generativa.",
+      "Lo que existe de verdad es un conjunto de piezas separadas. Juegos y plataformas online como Roblox, Minecraft, Fortnite y VRChat ya tienen mundos compartidos enormes y hasta recitales. Los visores de **realidad virtual** como Meta Quest y los dispositivos de **realidad mixta** como Apple Vision Pro te hacen sentir adentro de un espacio 3D, y algunas empresas los usan para capacitaciones o reuniones. Lo que no existe es un metaverso único y conectado: cada mundo tiene sus propias cuentas, reglas y dueño, y no podés pasar de uno a otro como pasás entre sitios web."
+    ],
+    "analogy": "Como la palabra \"ciberespacio\" en los noventa: un nombre muy gráfico para un futuro que todavía se estaba construyendo, usado para describir muchas cosas distintas que se parecen solo en parte al sueño.",
+    "keyPoints": [
+      "La palabra viene de Snow Crash, la novela de 1992 de Neal Stephenson.",
+      "Significa mundos 3D compartidos y siempre encendidos donde la gente se junta como avatar.",
+      "Se puso de moda en 2021, cuando Facebook se cambió el nombre a Meta.",
+      "Hoy hay muchos mundos virtuales separados, no un metaverso conectado."
+    ],
+    "links": [
+      { "label": "Metaverso en Wikipedia", "url": "https://es.wikipedia.org/wiki/Metaverso" },
+      { "label": "Mundo virtual en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mundo_virtual" }
+    ]
+  }
+}

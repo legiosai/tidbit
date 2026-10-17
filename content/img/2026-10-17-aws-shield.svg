@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f4a7a7">
+    <circle cx="34" cy="50" r="8"/><circle cx="58" cy="84" r="8"/><circle cx="30" cy="112" r="8"/>
+    <circle cx="60" cy="146" r="8"/><circle cx="34" cy="178" r="8"/>
+  </g>
+  <circle cx="44" cy="206" r="8" fill="#9bd1b9" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M46 52 L170 92"/><path d="M70 86 L170 106"/><path d="M42 113 L170 118"/>
+    <path d="M72 145 L170 130"/><path d="M46 176 L170 144"/>
+    <path d="M56 206 H342 V168"/><path d="M338 174 l4 -6 4 6"/>
+  </g>
+  <path d="M220 40 C200 52 186 54 172 54 V120 C172 156 196 176 220 190 C244 176 268 156 268 120 V54 C254 54 240 52 220 40 Z" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="300" y="80" width="84" height="80" rx="10" fill="#9ac7ea" stroke="#2b2b2b" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="220" y="122">Shield</text><text x="342" y="124">website</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="46" y="30">bots</text><text x="120" y="200">visitor</text>
+  </g>
+</svg>

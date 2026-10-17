@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-prompt-engineering",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["prompt engineer", "prompt engineers", "prompting"],
+    "es": ["prompt engineering", "ingeniería de instrucciones"]
+  },
+  "image": "img/2026-10-17-prompt-engineering.svg",
+  "imageAlt": {
+    "en": "A vague one-line prompt gives a generic answer, while a prompt built from goal, context, example and format blocks gives an answer on target",
+    "es": "Un prompt vago de una línea da una respuesta genérica, mientras que un prompt armado con bloques de objetivo, contexto, ejemplo y formato da una respuesta justa"
+  },
+  "en": {
+    "title": "Prompt engineering",
+    "tagline": "Writing instructions for an AI model so it gives you what you actually need.",
+    "explanation": [
+      "**Prompt engineering** is the practice of writing the instructions you give an AI model (the prompt) so that it does the job well. The same model can give a bland, generic answer or a sharp, useful one depending on how it was asked. 'Engineering' sounds grand; most of it is clear writing plus some trial and error.",
+      "The techniques that work are a lot like briefing a smart new colleague who knows nothing about your situation. Say what the goal is and who the result is for. Give the context it cannot guess: the audience, the constraints, the document to work from. Show one or two examples of what good looks like. Say what form you want back: a table, three bullet points, under 100 words, in Spanish. For tricky problems, asking the model to work through the steps before answering often helps.",
+      "It matters at two levels. For everyday use, it is the difference between 'write a post about our product' and a request that gets something you can actually publish. For companies building products on top of models, the prompt is part of the software: a carefully tested set of instructions, often hidden from the user as a **system prompt**, decides how the assistant behaves. As models get better at understanding plain requests, fewer tricks are needed, but clear instructions and good context still make the biggest difference."
+    ],
+    "analogy": "Like ordering at a tailor instead of a clothing rack: 'a suit' gets you something generic, but your measurements, the occasion and a photo of a cut you like get you something that fits.",
+    "keyPoints": [
+      "Clear goal, relevant context and an example beat clever wording.",
+      "Saying the format you want back saves a lot of rewriting.",
+      "In products, the system prompt sets how an assistant behaves.",
+      "Good prompts reduce mistakes but do not make the model infallible."
+    ],
+    "links": [
+      { "label": "Prompt engineering overview (Claude docs)", "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" },
+      { "label": "Prompt engineering guide (OpenAI)", "url": "https://platform.openai.com/docs/guides/prompt-engineering" },
+      { "label": "Prompt engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Prompt_engineering" }
+    ]
+  },
+  "es": {
+    "title": "Ingeniería de prompts",
+    "tagline": "Escribir instrucciones para un modelo de IA de forma que te dé lo que necesitás.",
+    "explanation": [
+      "La **ingeniería de prompts** (prompt engineering) es la práctica de escribir las instrucciones que le das a un modelo de IA (el prompt) para que haga bien el trabajo. El mismo modelo puede darte una respuesta sosa y genérica o una precisa y útil según cómo se lo pidas. 'Ingeniería' suena pomposo; en su mayor parte es escribir con claridad y probar.",
+      "Las técnicas que funcionan se parecen mucho a explicarle una tarea a un colega inteligente que recién llega y no sabe nada de tu situación. Decí cuál es el objetivo y para quién es el resultado. Dale el contexto que no puede adivinar: el público, las restricciones, el documento del que tiene que partir. Mostrale uno o dos ejemplos de lo que está bien. Decí en qué forma lo querés: una tabla, tres viñetas, menos de 100 palabras, en inglés. Para problemas difíciles, pedirle que razone los pasos antes de contestar suele ayudar.",
+      "Importa en dos niveles. En el uso diario, es la diferencia entre 'escribí un posteo sobre nuestro producto' y un pedido que te devuelve algo que podés publicar. Para las empresas que arman productos sobre modelos, el prompt es parte del software: un conjunto de instrucciones probado con cuidado, muchas veces invisible para el usuario como **system prompt**, define cómo se comporta el asistente. A medida que los modelos entienden mejor los pedidos comunes hacen falta menos trucos, pero las instrucciones claras y el buen contexto siguen siendo lo que más cambia el resultado."
+    ],
+    "analogy": "Es como ir al sastre en vez de comprar de la percha: 'un traje' te consigue algo genérico, pero tus medidas, la ocasión y una foto del corte que te gusta te consiguen algo que te queda bien.",
+    "keyPoints": [
+      "Un objetivo claro, contexto relevante y un ejemplo valen más que palabras ingeniosas.",
+      "Decir en qué formato querés la respuesta ahorra mucho retrabajo.",
+      "En los productos, el system prompt define cómo se comporta un asistente.",
+      "Un buen prompt reduce errores, pero no vuelve infalible al modelo."
+    ],
+    "links": [
+      { "label": "Ingeniería de prompts, guía de Claude (documentación oficial)", "url": "https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/overview" },
+      { "label": "Ingeniería de instrucciones en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ingenier%C3%ADa_de_instrucciones" },
+      { "label": "¿Qué es la ingeniería de prompts? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/prompt-engineering" }
+    ]
+  }
+}

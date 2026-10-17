@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-vlan",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["VLANs", "virtual LAN", "virtual LANs", "802.1Q"],
+    "es": ["VLANs", "LAN virtual", "LANs virtuales", "802.1Q"]
+  },
+  "image": "img/2026-10-17-vlan.svg",
+  "imageAlt": {
+    "en": "One switch with blue and pink ports: blue computers form VLAN 10, pink ones form VLAN 20, and traffic between them must pass through a router",
+    "es": "Un switch con bocas azules y rosas: las computadoras azules forman la VLAN 10, las rosas la VLAN 20, y el tráfico entre ellas tiene que pasar por un router"
+  },
+  "en": {
+    "title": "VLAN",
+    "tagline": "A way to split one physical network into several separate ones, using software rules.",
+    "explanation": [
+      "A **VLAN** (virtual LAN) lets one set of cables and switches behave like several independent networks. An office might plug everyone into the same switches, yet put staff laptops in one VLAN, guest Wi-Fi in another, and security cameras in a third. Devices in one VLAN see each other as if they shared a private network, and do not see the others at all.",
+      "It works by labeling traffic. Each switch port is assigned to a VLAN, and when frames travel between switches over a shared link (a **trunk**), each one carries a small tag with its VLAN number, defined by the standard **802.1Q**. The tag has room for roughly 4,000 different VLANs. A switch never delivers a frame to a port of a different VLAN, so broadcasts and casual snooping stay inside their group.",
+      "To go from one VLAN to another, traffic has to pass through a router or a firewall, and that is the point: it becomes a checkpoint where you can write rules like 'cameras may talk to the recording server and nothing else'. This is called **network segmentation**. It limits the damage when one device is compromised, keeps noisy traffic contained, and lets teams reorganize who belongs where without rewiring the building.",
+      "VLANs are a tool for separation, not a security guarantee on their own. A misconfigured trunk can let traffic leak between groups, so sensitive segments also get firewall rules and monitoring. In the cloud the same idea shows up as virtual networks and subnets, configured entirely in software."
+    ],
+    "analogy": "One office floor divided with movable partitions into separate departments. The building and the hallways are shared, but each department has its own door, and to go from one to another you have to pass the reception desk.",
+    "keyPoints": [
+      "One physical network, several logical ones, separated by switch configuration.",
+      "Frames between switches carry an 802.1Q tag with the VLAN number.",
+      "Traffic between VLANs must cross a router or firewall, where rules apply.",
+      "Useful for segmentation, but needs careful configuration to be a real barrier."
+    ],
+    "links": [
+      { "label": "VLAN on Wikipedia", "url": "https://en.wikipedia.org/wiki/VLAN" },
+      { "label": "IEEE 802.1Q on Wikipedia", "url": "https://en.wikipedia.org/wiki/IEEE_802.1Q" }
+    ]
+  },
+  "es": {
+    "title": "VLAN",
+    "tagline": "Una forma de dividir una red física en varias redes separadas, con reglas de software.",
+    "explanation": [
+      "Una **VLAN** (LAN virtual) hace que un mismo conjunto de cables y switches se comporte como varias redes independientes. Una oficina puede conectar a todos en los mismos switches y, aun así, poner las notebooks del personal en una VLAN, el Wi-Fi de invitados en otra y las cámaras de seguridad en una tercera. Los equipos de una VLAN se ven entre sí como si compartieran una red privada, y a los demás directamente no los ven.",
+      "Funciona etiquetando el tráfico. Cada boca del switch se asigna a una VLAN, y cuando las tramas viajan entre switches por un enlace compartido (un **trunk**), cada una lleva una etiquetita con su número de VLAN, definida por el estándar **802.1Q**. La etiqueta tiene lugar para unas 4.000 VLANs distintas, aproximadamente. Un switch nunca entrega una trama a una boca de otra VLAN, así que los broadcasts y el fisgoneo casual quedan dentro de cada grupo.",
+      "Para pasar de una VLAN a otra, el tráfico tiene que atravesar un router o un firewall, y esa es la gracia: se vuelve un punto de control donde podés escribir reglas como 'las cámaras solo pueden hablar con el servidor de grabación'. A esto se lo llama **segmentación de red**. Limita el daño cuando un equipo queda comprometido, contiene el tráfico ruidoso y permite reorganizar quién va dónde sin recablear el edificio.",
+      "Las VLANs son una herramienta de separación, no una garantía de seguridad por sí solas. Un trunk mal configurado puede dejar pasar tráfico entre grupos, así que los segmentos sensibles suman reglas de firewall y monitoreo. En la nube la misma idea aparece como redes virtuales y subredes, configuradas enteramente por software."
+    ],
+    "analogy": "Un piso de oficinas dividido con paneles móviles en departamentos separados. El edificio y los pasillos son compartidos, pero cada departamento tiene su puerta, y para ir de uno a otro tenés que pasar por la recepción.",
+    "keyPoints": [
+      "Una red física, varias redes lógicas, separadas por la configuración del switch.",
+      "Las tramas entre switches llevan una etiqueta 802.1Q con el número de VLAN.",
+      "El tráfico entre VLANs cruza un router o firewall, donde se aplican reglas.",
+      "Sirve para segmentar, pero necesita una configuración cuidadosa para ser una barrera real."
+    ],
+    "links": [
+      { "label": "VLAN en Wikipedia", "url": "https://es.wikipedia.org/wiki/VLAN" },
+      { "label": "IEEE 802.1Q en Wikipedia", "url": "https://es.wikipedia.org/wiki/IEEE_802.1Q" }
+    ]
+  }
+}

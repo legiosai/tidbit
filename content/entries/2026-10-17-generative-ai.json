@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-generative-ai",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["GenAI", "gen AI"],
+    "es": ["inteligencia artificial generativa", "GenAI"]
+  },
+  "image": "img/2026-10-17-generative-ai.svg",
+  "imageAlt": {
+    "en": "A short prompt goes into a model, which produces four kinds of new content: text, an image, audio and code",
+    "es": "Un prompt corto entra en un modelo, que produce cuatro tipos de contenido nuevo: texto, una imagen, audio y código"
+  },
+  "en": {
+    "title": "Generative AI",
+    "tagline": "AI that creates new text, images, audio or code instead of just sorting things.",
+    "explanation": [
+      "**Generative AI** is the kind of AI that produces new content: a paragraph, an email, a picture, a song, a voice, a video, a piece of code. Older AI was mostly about deciding things, like whether a photo shows a dog or whether a payment looks like fraud. Generative AI goes the other way: you describe what you want, usually in plain words, and it makes something that did not exist before.",
+      "It works by learning the patterns of an enormous amount of existing material. A text model like the ones behind ChatGPT, Claude or Gemini has read so much writing that it can predict, word after word, what a plausible answer looks like. An image model has seen so many pictures with captions that it can turn 'a cat in a raincoat, watercolor' into a new image. What comes out is new, but built from patterns in what went in.",
+      "It became a mainstream topic in late 2022, when ChatGPT and image generators reached the general public. It is useful for drafting, summarizing, translating, brainstorming and coding. It also brings real problems: it can state false things with confidence, imitate real people's voices and faces, repeat the biases of its training data, and raise open questions about the copyright of the material it learned from."
+    ],
+    "analogy": "Like a musician who has listened to thousands of songs and can improvise a new one in any style you ask for. The tune is new, but you can hear where the influences come from, and sometimes it hits a wrong note with total confidence.",
+    "keyPoints": [
+      "Creates new content from a description, called a prompt.",
+      "Learns from huge amounts of existing text, images or sound.",
+      "Output sounds or looks convincing even when it is wrong.",
+      "Raises open questions about copyright, deepfakes and bias."
+    ],
+    "links": [
+      { "label": "Generative artificial intelligence on Wikipedia", "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence" },
+      { "label": "What is generative AI? (AWS)", "url": "https://aws.amazon.com/what-is/generative-ai/" }
+    ]
+  },
+  "es": {
+    "title": "IA generativa",
+    "tagline": "IA que crea textos, imágenes, audio o código nuevos en vez de solo clasificar.",
+    "explanation": [
+      "La **IA generativa** es el tipo de IA que produce contenido nuevo: un párrafo, un mail, una imagen, una canción, una voz, un video, un pedazo de código. La IA de antes se dedicaba sobre todo a decidir cosas, como si una foto muestra un perro o si un pago parece fraude. La IA generativa va para el otro lado: describís lo que querés, en general con palabras comunes, y arma algo que antes no existía.",
+      "Funciona aprendiendo los patrones de una cantidad enorme de material existente. Un modelo de texto como los que hay detrás de ChatGPT, Claude o Gemini leyó tanto que puede predecir, palabra por palabra, cómo se ve una respuesta razonable. Un modelo de imágenes vio tantas fotos con su descripción que puede convertir 'un gato con piloto, en acuarela' en una imagen nueva. Lo que sale es nuevo, pero está hecho con patrones de lo que entró.",
+      "Se volvió tema de conversación general a fines de 2022, cuando ChatGPT y los generadores de imágenes llegaron al público. Sirve para hacer borradores, resumir, traducir, tirar ideas y programar. También trae problemas reales: puede afirmar cosas falsas con toda seguridad, imitar la voz y la cara de personas reales, repetir los sesgos de sus datos de entrenamiento y abre preguntas todavía sin resolver sobre los derechos de autor del material del que aprendió."
+    ],
+    "analogy": "Es como un músico que escuchó miles de canciones y puede improvisar una nueva en el estilo que le pidas. La melodía es nueva, pero se notan las influencias, y a veces le pifia una nota con total seguridad.",
+    "keyPoints": [
+      "Crea contenido nuevo a partir de una descripción, que se llama prompt.",
+      "Aprende de cantidades enormes de textos, imágenes o sonidos existentes.",
+      "Lo que produce suena o se ve convincente aunque esté mal.",
+      "Abre preguntas sobre derechos de autor, deepfakes y sesgos."
+    ],
+    "links": [
+      { "label": "Inteligencia artificial generativa en Wikipedia", "url": "https://es.wikipedia.org/wiki/Inteligencia_artificial_generativa" },
+      { "label": "¿Qué es la IA generativa? (AWS)", "url": "https://aws.amazon.com/es/what-is/generative-ai/" }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-proxy",
+  "date": "2026-10-17",
+  "subjects": ["networks", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["proxies", "proxy server", "proxy servers", "reverse proxy", "forward proxy"],
+    "es": ["proxies", "servidor proxy", "servidores proxy", "proxy inverso", "reverse proxy"]
+  },
+  "image": "img/2026-10-17-proxy.svg",
+  "imageAlt": {
+    "en": "Top row: you, a proxy and a website, with the proxy asking on your behalf. Bottom row: visitors reach a proxy that answers for three servers behind it",
+    "es": "Arriba: vos, un proxy y un sitio web, con el proxy pidiendo en tu nombre. Abajo: los visitantes llegan a un proxy que responde por tres servidores que tiene detrás"
+  },
+  "en": {
+    "title": "Proxy",
+    "tagline": "A middleman computer that makes requests on someone else's behalf.",
+    "explanation": [
+      "A **proxy** is a server that sits between two parties and passes messages along. Instead of your browser talking to a website directly, it asks the proxy, the proxy asks the website, and the answer comes back the same way. To the website, the visitor is the proxy: it sees the proxy's IP address, not yours.",
+      "The classic kind, a **forward proxy**, works for the people inside a network. Companies and schools use one so all browsing goes through a single door, where they can block certain sites, scan downloads for malware and keep logs. People use public proxies to appear to be in another country or to hide their address from the sites they visit.",
+      "A **reverse proxy** works for the servers instead. It stands in front of a website and receives every visitor, then decides which server behind it should answer. That is where TLS certificates are often handled, where repeated content is cached, and where abusive traffic gets filtered. Load balancers and CDNs are reverse proxies with a specific job; tools like NGINX are commonly used to build one.",
+      "A proxy is not a VPN. A proxy is usually set up for one app, like the browser, and by itself does not encrypt anything; a VPN tunnels all the traffic of your device through an encrypted connection. Either way, the operator of the middleman can see where you go, and with plain HTTP also what you send, so a free proxy run by strangers is a bad place to log in to anything."
+    ],
+    "analogy": "Asking a friend to buy something for you at a shop. The shop only sees your friend, and your friend knows exactly what you bought.",
+    "keyPoints": [
+      "The other side sees the proxy's IP address, not yours.",
+      "Forward proxies serve users; reverse proxies stand in front of servers.",
+      "Load balancers and CDNs are specialized reverse proxies.",
+      "A proxy is not a VPN, and the operator can see your traffic."
+    ],
+    "links": [
+      { "label": "Proxy server on Wikipedia", "url": "https://en.wikipedia.org/wiki/Proxy_server" },
+      { "label": "Reverse proxy on Wikipedia", "url": "https://en.wikipedia.org/wiki/Reverse_proxy" },
+      { "label": "NGINX reverse proxy (official docs)", "url": "https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/" }
+    ]
+  },
+  "es": {
+    "title": "Proxy",
+    "tagline": "Una computadora intermediaria que hace pedidos en nombre de otro.",
+    "explanation": [
+      "Un **proxy** es un servidor que se para entre dos partes y pasa los mensajes. En lugar de que tu navegador hable directo con un sitio web, le pide al proxy, el proxy le pide al sitio, y la respuesta vuelve por el mismo camino. Para el sitio, el visitante es el proxy: ve la dirección IP del proxy, no la tuya.",
+      "El tipo clásico, el **proxy de reenvío** (forward proxy), trabaja para la gente que está dentro de una red. Empresas y escuelas usan uno para que toda la navegación pase por una sola puerta, donde pueden bloquear ciertos sitios, revisar las descargas en busca de malware y guardar registros. Hay quien usa proxies públicos para parecer que está en otro país o para ocultar su dirección a los sitios que visita.",
+      "Un **proxy inverso** (reverse proxy) trabaja, en cambio, para los servidores. Se para delante de un sitio web, recibe a cada visitante y decide qué servidor de los que tiene detrás va a responder. Ahí suelen manejarse los certificados TLS, guardarse en caché el contenido repetido y filtrarse el tráfico abusivo. Los balanceadores de carga y las CDN son proxies inversos con un trabajo específico; herramientas como NGINX se usan mucho para armar uno.",
+      "Un proxy no es una VPN. El proxy suele configurarse para una sola app, como el navegador, y por sí solo no cifra nada; una VPN mete todo el tráfico de tu dispositivo en un túnel cifrado. En los dos casos, quien opera el intermediario puede ver adónde vas, y con HTTP sin cifrar también lo que mandás, así que un proxy gratis de desconocidos es un mal lugar para iniciar sesión en cualquier cosa."
+    ],
+    "analogy": "Pedirle a un amigo que te compre algo en un negocio. El negocio solo ve a tu amigo, y tu amigo sabe exactamente qué compraste.",
+    "keyPoints": [
+      "Del otro lado ven la dirección IP del proxy, no la tuya.",
+      "Los proxies de reenvío sirven a usuarios; los inversos se paran delante de servidores.",
+      "Los balanceadores de carga y las CDN son proxies inversos especializados.",
+      "Un proxy no es una VPN, y quien lo opera puede ver tu tráfico."
+    ],
+    "links": [
+      { "label": "Servidor proxy en Wikipedia", "url": "https://es.wikipedia.org/wiki/Servidor_proxy" },
+      { "label": "Proxy inverso en Wikipedia", "url": "https://es.wikipedia.org/wiki/Proxy_inverso" },
+      { "label": "Proxy inverso con NGINX (documentación oficial, en inglés)", "url": "https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/" }
+    ]
+  }
+}

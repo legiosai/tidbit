@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-artificial-intelligence",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["AI"],
+    "es": ["IA", "AI"]
+  },
+  "image": "img/2026-10-17-artificial-intelligence.svg",
+  "imageAlt": {
+    "en": "Nested ovals: artificial intelligence on the outside, machine learning inside it, deep learning inside that, and generative AI at the center",
+    "es": "Óvalos uno dentro de otro: inteligencia artificial afuera, machine learning adentro, deep learning más adentro y la IA generativa en el centro"
+  },
+  "en": {
+    "title": "Artificial intelligence",
+    "tagline": "Getting computers to do things that, until recently, only people could do.",
+    "explanation": [
+      "**Artificial intelligence** (AI) is the broad name for building computer systems that do tasks we associate with human thinking: understanding language, recognizing faces, translating, playing chess, writing a summary, spotting a tumor in a scan. The term was coined in 1956, at a summer workshop at Dartmouth College, and the field has gone through several waves of excitement and disappointment since.",
+      "Early AI was mostly hand-written rules: if the patient has a fever and a rash, consider measles. That works for narrow problems but breaks in the messy real world. Almost all of today's AI is **machine learning** instead: rather than writing the rules, engineers show the system millions of examples and let it find the patterns itself. Deep learning, which uses large neural networks, is the branch behind the recent leaps.",
+      "When people say 'AI' today they usually mean one specific kind: large language models like Claude, ChatGPT or Gemini, which can hold a conversation and write. But AI also sorts your spam, suggests the next song, unlocks your phone with your face and routes your delivery. It is a set of statistical tools, very powerful in some tasks and surprisingly fragile in others, not a single thinking machine."
+    ],
+    "analogy": "AI is a word like 'medicine': it names a whole field, not one pill. Machine learning, chatbots and face recognition are specific treatments inside it, each good for some things and useless for others.",
+    "keyPoints": [
+      "AI is the umbrella; machine learning and deep learning are branches inside it.",
+      "Most modern AI learns patterns from data instead of following hand-written rules.",
+      "Today's systems are good at specific tasks, not general-purpose minds.",
+      "It can be confidently wrong, so its output still needs checking."
+    ],
+    "links": [
+      { "label": "Artificial intelligence on Wikipedia", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence" },
+      { "label": "What is artificial intelligence? (IBM)", "url": "https://www.ibm.com/think/topics/artificial-intelligence" }
+    ]
+  },
+  "es": {
+    "title": "Inteligencia artificial",
+    "tagline": "Lograr que las computadoras hagan cosas que hasta hace poco solo hacía la gente.",
+    "explanation": [
+      "La **inteligencia artificial** (IA) es el nombre amplio para construir sistemas que hacen tareas que asociamos con el pensamiento humano: entender lenguaje, reconocer caras, traducir, jugar al ajedrez, escribir un resumen, detectar un tumor en una tomografía. El término nació en 1956, en un taller de verano en Dartmouth College, y desde entonces el campo pasó por varias olas de entusiasmo y de desilusión.",
+      "La IA de los primeros tiempos eran sobre todo reglas escritas a mano: si el paciente tiene fiebre y sarpullido, pensá en sarampión. Eso funciona para problemas acotados, pero se rompe en el mundo real, que es desprolijo. Casi toda la IA de hoy es **machine learning**: en lugar de escribir las reglas, se le muestran al sistema millones de ejemplos y él encuentra los patrones solo. El deep learning, que usa redes neuronales grandes, es la rama detrás de los saltos recientes.",
+      "Cuando hoy alguien dice 'IA' casi siempre piensa en un tipo puntual: modelos de lenguaje como Claude, ChatGPT o Gemini, que conversan y escriben. Pero la IA también filtra tu spam, te sugiere la próxima canción, desbloquea tu celular con tu cara y arma la ruta de tu envío. Es un conjunto de herramientas estadísticas, muy potentes en algunas tareas y sorprendentemente frágiles en otras, no una máquina pensante única."
+    ],
+    "analogy": "IA es una palabra como 'medicina': nombra un campo entero, no una pastilla. El machine learning, los chatbots y el reconocimiento facial son tratamientos puntuales dentro de ese campo, cada uno sirve para algunas cosas y no para otras.",
+    "keyPoints": [
+      "IA es el paraguas; machine learning y deep learning son ramas adentro.",
+      "Casi toda la IA moderna aprende patrones de los datos en vez de seguir reglas escritas a mano.",
+      "Los sistemas actuales son buenos en tareas específicas, no mentes de uso general.",
+      "Puede equivocarse con total seguridad, así que lo que produce hay que revisarlo."
+    ],
+    "links": [
+      { "label": "Inteligencia artificial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Inteligencia_artificial" },
+      { "label": "¿Qué es la inteligencia artificial? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/artificial-intelligence" }
+    ]
+  }
+}

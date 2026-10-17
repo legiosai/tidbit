@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-hybrid-and-multi-cloud",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["hybrid cloud", "multi-cloud", "multicloud", "on-premises", "on-prem"],
+    "es": ["nube híbrida", "multicloud", "multinube", "hybrid cloud", "on-premises", "on-prem"]
+  },
+  "image": "img/2026-10-17-hybrid-and-multi-cloud.svg",
+  "imageAlt": {
+    "en": "Left: a company's own server room linked to one public cloud, labeled hybrid. Right: one company linked to two different cloud providers, labeled multi-cloud",
+    "es": "A la izquierda: la sala de servidores propia de una empresa conectada a una nube pública, rotulada híbrida. A la derecha: una empresa conectada a dos proveedores de nube distintos, rotulada multicloud"
+  },
+  "en": {
+    "title": "Hybrid and multi-cloud",
+    "tagline": "Running systems across your own servers and the cloud, or across several cloud providers.",
+    "explanation": [
+      "A **hybrid cloud** mixes a company's own servers, in its offices or a rented data center (called **on-premises** or on-prem), with a public cloud like AWS, Azure or Google Cloud, connected so they work as one system. A bank might keep its core accounts on its own hardware for regulatory reasons while running its mobile app and analytics in the cloud. A factory might process sensor data locally and send summaries to the cloud.",
+      "**Multi-cloud** means using more than one public cloud provider. Sometimes it is deliberate: one provider's AI services, another's data warehouse, or a requirement not to depend on a single vendor. Very often it is just history: one team chose AWS, an acquired company runs on Azure, and marketing uses tools hosted on Google Cloud. Hybrid and multi-cloud are different ideas, and many companies are both.",
+      "The benefits are flexibility, keeping data where rules require it, and less dependence on one vendor. The costs are real: each provider has its own services, security model, billing and skills, and moving data between them takes time and can carry fees for data leaving a provider. Tools like Kubernetes and infrastructure as code help by describing systems in a way that works in more than one place, but they do not make the differences disappear."
+    ],
+    "analogy": "Hybrid is keeping your own car while also using taxis for some trips. Multi-cloud is having accounts with two taxi companies. Both give you options, and both mean more apps, more bills and more rules to remember.",
+    "keyPoints": [
+      "Hybrid: your own servers (on-premises) plus a public cloud, working together.",
+      "Multi-cloud: two or more public cloud providers at the same time.",
+      "Reasons include regulation, latency, best-of-breed services and avoiding lock-in.",
+      "Costs: more complexity, more skills to keep, and fees to move data out."
+    ],
+    "links": [
+      { "label": "What is hybrid cloud? (AWS)", "url": "https://aws.amazon.com/what-is/hybrid-cloud/" },
+      { "label": "What is multicloud? (Google Cloud)", "url": "https://cloud.google.com/learn/what-is-multicloud" },
+      { "label": "Multicloud on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multicloud" }
+    ]
+  },
+  "es": {
+    "title": "Nube híbrida y multicloud",
+    "tagline": "Sistemas repartidos entre servidores propios y la nube, o entre varias nubes.",
+    "explanation": [
+      "Una **nube híbrida** combina los servidores propios de una empresa, en sus oficinas o en un centro de datos alquilado (lo que se llama **on-premises** u on-prem), con una nube pública como AWS, Azure o Google Cloud, conectados para funcionar como un solo sistema. Un banco puede mantener sus cuentas principales en hardware propio por temas regulatorios y correr la app y los análisis en la nube. Una fábrica puede procesar los datos de sus sensores en el lugar y mandar resúmenes a la nube.",
+      "**Multicloud** significa usar más de un proveedor de nube pública. A veces es a propósito: los servicios de IA de un proveedor, el data warehouse de otro, o la regla de no depender de una sola empresa. Muy seguido es pura historia: un equipo eligió AWS, una empresa que compraron corre en Azure y marketing usa herramientas alojadas en Google Cloud. Híbrida y multicloud son ideas distintas, y muchas empresas son las dos cosas.",
+      "Las ventajas son flexibilidad, poder dejar los datos donde las reglas lo exigen y depender menos de un proveedor. Los costos son reales: cada proveedor tiene sus propios servicios, modelo de seguridad, facturación y conocimientos, y mover datos entre ellos lleva tiempo y puede tener cargos por los datos que salen. Herramientas como Kubernetes y la infraestructura como código ayudan a describir sistemas de una forma que sirve en más de un lugar, pero no hacen desaparecer las diferencias."
+    ],
+    "analogy": "Híbrida es tener tu propio auto y además usar taxis para algunos viajes. Multicloud es tener cuenta en dos empresas de taxis. Las dos cosas te dan opciones, y las dos implican más apps, más facturas y más reglas para recordar.",
+    "keyPoints": [
+      "Híbrida: servidores propios (on-premises) más una nube pública, trabajando juntos.",
+      "Multicloud: dos o más proveedores de nube pública al mismo tiempo.",
+      "Las razones incluyen regulación, latencia, elegir el mejor servicio y no quedar atado.",
+      "Costos: más complejidad, más conocimientos que mantener y cargos por sacar datos."
+    ],
+    "links": [
+      { "label": "¿Qué es la nube híbrida? (AWS)", "url": "https://aws.amazon.com/es/what-is/hybrid-cloud/" },
+      { "label": "¿Qué es la multinube? (Google Cloud)", "url": "https://cloud.google.com/learn/what-is-multicloud?hl=es-419" },
+      { "label": "¿Qué es la nube híbrida? (Google Cloud)", "url": "https://cloud.google.com/learn/what-is-hybrid-cloud?hl=es-419" }
+    ]
+  }
+}

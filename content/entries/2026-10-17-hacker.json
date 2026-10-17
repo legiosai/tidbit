@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-hacker",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["hackers", "white hat", "black hat", "grey hat", "ethical hacker", "ethical hacking"],
+    "es": ["hackers", "hacker ético", "hackers éticos", "hacking ético", "sombrero blanco", "sombrero negro"]
+  },
+  "image": "img/2026-10-17-hacker.svg",
+  "imageAlt": {
+    "en": "Three hats in a row: a white hat that reports a flaw to the owner, a grey hat in between, and a black hat that breaks in for profit",
+    "es": "Tres sombreros en fila: uno blanco que le reporta una falla al dueño, uno gris en el medio y uno negro que entra a robar"
+  },
+  "en": {
+    "title": "Hacker",
+    "tagline": "Someone who takes systems apart to see how they work, for better or for worse.",
+    "explanation": [
+      "The word **hacker** has two lives. It was born in the late 1950s and 1960s among students at MIT, where a \"hack\" was a clever, playful solution to a technical problem. In that original sense, a hacker is a curious tinkerer who loves understanding how things work and bending them to do new things. Much of today's free and open source software came out of that culture.",
+      "In the 1980s the press started using \"hacker\" for people who broke into computers, and that meaning stuck. Inside the field, people tell them apart by the color of the hat, borrowed from old westerns. A **white hat** or **ethical hacker** looks for weaknesses with permission and reports them so they get fixed. A **black hat** breaks in without permission, to steal, extort or cause damage. A **grey hat** is in between: no permission, but no harm intended, which is still often illegal.",
+      "White hats are a real profession. Companies hire **penetration testers** to attack their own systems before criminals do, and many run **bug bounty** programs that pay outsiders who report a vulnerability responsibly: privately, to the owner, giving time to fix it before telling anyone. So when you read \"hacker\", look at the context: it can be a compliment, a job title or an accusation."
+    ],
+    "analogy": "A locksmith. One studies locks to make better ones and opens doors when the owner asks; another uses the same skill to break into houses at night. The knowledge is the same; permission and intent make the difference.",
+    "keyPoints": [
+      "Originally a hacker was a curious tinkerer; the meaning of \"attacker\" came later, through the press.",
+      "White hats work with permission, black hats without it, grey hats in between.",
+      "Penetration testing and bug bounties are legal, paid ways of hacking.",
+      "Responsible disclosure means telling the owner privately and giving time to fix the flaw."
+    ],
+    "links": [
+      { "label": "Hacker on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hacker" },
+      { "label": "White hat (computer security) on Wikipedia", "url": "https://en.wikipedia.org/wiki/White_hat_(computer_security)" }
+    ]
+  },
+  "es": {
+    "title": "Hacker",
+    "tagline": "Alguien que desarma sistemas para ver cómo funcionan, para bien o para mal.",
+    "explanation": [
+      "La palabra **hacker** tiene dos vidas. Nació a fines de los años 50 y en los 60 entre estudiantes del MIT, donde un \"hack\" era una solución ingeniosa y juguetona a un problema técnico. En ese sentido original, un hacker es alguien curioso que disfruta entender cómo funcionan las cosas y hacerlas hacer cosas nuevas. Buena parte del software libre y de código abierto de hoy salió de esa cultura.",
+      "En los años 80 la prensa empezó a usar \"hacker\" para quienes entraban sin permiso a computadoras, y ese significado se quedó. Dentro del ambiente se los distingue por el color del sombrero, una idea sacada de las viejas películas del oeste. Un hacker de **sombrero blanco** o **hacker ético** busca debilidades con permiso y las reporta para que se arreglen. Uno de **sombrero negro** entra sin permiso, para robar, extorsionar o hacer daño. El de sombrero gris está en el medio: sin permiso, pero sin intención de dañar, lo que igual suele ser ilegal.",
+      "Los sombreros blancos son una profesión real. Las empresas contratan **pentesters** para que ataquen sus propios sistemas antes de que lo hagan los delincuentes, y muchas tienen programas de **bug bounty** que les pagan a personas de afuera que reportan una vulnerabilidad de forma responsable: en privado, al dueño, dándole tiempo para corregirla antes de contarlo. Así que cuando leas \"hacker\", fijate el contexto: puede ser un elogio, un puesto de trabajo o una acusación."
+    ],
+    "analogy": "Un cerrajero. Uno estudia cerraduras para hacerlas mejores y abre puertas cuando el dueño se lo pide; otro usa el mismo saber para entrar a casas de noche. El conocimiento es el mismo; el permiso y la intención marcan la diferencia.",
+    "keyPoints": [
+      "Originalmente un hacker era alguien curioso que experimenta; el sentido de \"atacante\" llegó después, por la prensa.",
+      "Los sombreros blancos trabajan con permiso, los negros sin permiso, los grises en el medio.",
+      "El pentesting y los bug bounties son formas legales y pagas de hackear.",
+      "La divulgación responsable es avisarle al dueño en privado y darle tiempo para arreglar la falla."
+    ],
+    "links": [
+      { "label": "Hacker en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hacker" },
+      { "label": "Hacker de sombrero blanco en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hacker_de_sombrero_blanco" }
+    ]
+  }
+}

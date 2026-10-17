@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-open-standard",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["open standards"],
+    "es": ["estándares abiertos"]
+  },
+  "image": "img/2026-10-17-open-standard.svg",
+  "imageAlt": {
+    "en": "A published specification, written by a standards body, is used by several different companies whose products all work together",
+    "es": "Una especificación publicada, escrita por un organismo de estándares, la usan varias empresas distintas cuyos productos funcionan todos juntos"
+  },
+  "en": {
+    "title": "Open standard",
+    "tagline": "A public rulebook anyone can follow, so products from different makers work together.",
+    "explanation": [
+      "A **standard** is a written specification of how something must work: the shape of a plug, the format of a file, the messages two computers exchange. A standard is **open** when anyone can read it and build products that follow it without asking one company for permission. Typically it is written and maintained through a public process by a standards body, such as the W3C and WHATWG for the web, the IETF for internet protocols, the IEEE for Wi-Fi or ISO for many industrial formats, and it can be implemented royalty-free or under fair, published terms.",
+      "Familiar examples are everywhere. **HTML** is open, so any company can build a web browser and any person can publish a web page that all of them can show. **USB** is published by an industry group, which is why one cable fits laptops, phones and printers from different brands. **PDF** started as Adobe's format, but Adobe published it and in 2008 it became the ISO 32000 standard, so countless programs can create and read PDFs. TCP/IP, HTTP and Unicode are open standards too.",
+      "\"Open\" is a spectrum, not a yes or no. Some standards are free to read and free to implement; others require buying the document or paying patent licenses, and people disagree on whether those count. An open standard is also different from open source: the standard is the rulebook, while open source code is one particular implementation of it. And a **de facto standard**, a format everyone uses because one product became dominant, may still be controlled by a single company. The payoff of open standards is interoperability, competition and files that can still be read decades later."
+    ],
+    "analogy": "Like the rules of football. They are published for everyone, so any club can form a team, any company can make the balls and any stadium can host a match, and everything fits together without asking one owner for permission.",
+    "keyPoints": [
+      "Anyone can read it and build products that follow it.",
+      "Usually maintained by a standards body through a public process.",
+      "HTML, USB, PDF, TCP/IP and Unicode are well-known examples.",
+      "Not the same as open source, and not the same as a de facto standard."
+    ],
+    "links": [
+      { "label": "Open standard on Wikipedia", "url": "https://en.wikipedia.org/wiki/Open_standard" },
+      { "label": "About W3C standards", "url": "https://www.w3.org/standards/about/" },
+      { "label": "About USB-IF", "url": "https://www.usb.org/about" }
+    ]
+  },
+  "es": {
+    "title": "Estándar abierto",
+    "tagline": "Un reglamento técnico público que cualquiera puede seguir para que las marcas encajen.",
+    "explanation": [
+      "Un **estándar** es una especificación escrita de cómo tiene que funcionar algo: la forma de un enchufe, el formato de un archivo, los mensajes que se mandan dos computadoras. Un estándar es **abierto** cuando cualquiera puede leerlo y fabricar productos que lo sigan sin pedirle permiso a una empresa. En general lo escribe y lo mantiene, con un proceso público, un organismo de estándares, como el W3C y el WHATWG para la web, la IETF para los protocolos de internet, el IEEE para el Wi-Fi o la ISO para muchos formatos industriales, y se puede implementar sin pagar regalías o con condiciones justas y publicadas.",
+      "Hay ejemplos conocidos por todos lados. **HTML** es abierto, por eso cualquier empresa puede hacer un navegador y cualquier persona puede publicar una página web que todos puedan mostrar. **USB** lo publica un grupo de la industria, y por eso el mismo cable sirve para notebooks, celulares e impresoras de marcas distintas. **PDF** nació como un formato de Adobe, pero Adobe lo publicó y en 2008 se volvió el estándar ISO 32000, así que muchísimos programas pueden crear y leer PDF. TCP/IP, HTTP y Unicode también son estándares abiertos.",
+      "\"Abierto\" es una escala, no un sí o un no. Algunos estándares son gratis de leer y de implementar; otros exigen comprar el documento o pagar licencias de patentes, y no todo el mundo está de acuerdo en si esos cuentan. Un estándar abierto también es distinto del código abierto: el estándar es el reglamento, y el código abierto es una implementación en particular. Y un **estándar de facto**, un formato que usa todo el mundo porque un producto se volvió dominante, puede seguir controlado por una sola empresa. Lo que ganamos con los estándares abiertos es interoperabilidad, competencia y archivos que se pueden seguir leyendo décadas después."
+    ],
+    "analogy": "Como el reglamento del fútbol. Está publicado para todos, así que cualquier club puede armar un equipo, cualquier empresa puede fabricar pelotas y cualquier estadio puede recibir un partido, y todo encaja sin pedirle permiso a un único dueño.",
+    "keyPoints": [
+      "Cualquiera puede leerlo y fabricar productos que lo sigan.",
+      "En general lo mantiene un organismo de estándares con un proceso público.",
+      "HTML, USB, PDF, TCP/IP y Unicode son ejemplos conocidos.",
+      "No es lo mismo que el código abierto ni que un estándar de facto."
+    ],
+    "links": [
+      { "label": "Estándar abierto en Wikipedia", "url": "https://es.wikipedia.org/wiki/Est%C3%A1ndar_abierto" },
+      { "label": "Estándar de facto en Wikipedia", "url": "https://es.wikipedia.org/wiki/Est%C3%A1ndar_de_facto" },
+      { "label": "Los estándares del W3C (en inglés)", "url": "https://www.w3.org/standards/about/" }
+    ]
+  }
+}

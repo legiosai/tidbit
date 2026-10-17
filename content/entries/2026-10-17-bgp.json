@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-bgp",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["Border Gateway Protocol", "BGP hijacking", "BGP hijack"],
+    "es": ["Border Gateway Protocol", "secuestro de BGP"]
+  },
+  "image": "img/2026-10-17-bgp.svg",
+  "imageAlt": {
+    "en": "Four networks drawn as circles: AS 4 owns the addresses 203.0.113.0/24 and announces them to AS 2 and AS 3, which pass the route on to AS 1",
+    "es": "Cuatro redes dibujadas como círculos: AS 4 tiene las direcciones 203.0.113.0/24 y las anuncia a AS 2 y AS 3, que pasan la ruta a AS 1"
+  },
+  "en": {
+    "title": "BGP",
+    "tagline": "The protocol networks use to tell each other which addresses they can reach.",
+    "explanation": [
+      "The internet is not one network but tens of thousands of independent ones: internet providers, universities, cloud companies, big websites. Each is an **autonomous system** (AS) with its own number. **BGP**, the Border Gateway Protocol, is how they tell each other which IP addresses they can deliver to. It is the reason a packet that leaves your home in Buenos Aires knows how to reach a server in Frankfurt.",
+      "The mechanism is a chain of announcements. A network says to its neighbors 'I am the home of these addresses'. Each neighbor passes the news on, adding itself to the path: 'you can reach them through me'. Every router at the edge ends up with several possible routes to each destination and picks one according to its own rules, often preferring shorter paths or cheaper business agreements. BGP is not about finding the fastest path; it is about policy, about who agrees to carry whose traffic.",
+      "BGP was designed when the networks on the internet largely trusted each other, and by default a router believes what its neighbors announce. That makes mistakes contagious. If a network wrongly announces addresses that are not its own, by accident or on purpose (a **BGP hijack**), traffic can be pulled toward it. In 2008 a provider in Pakistan meant to block YouTube locally and briefly took it offline for much of the world; in 2021 Facebook withdrew its own routes during maintenance and disappeared from the internet for hours.",
+      "The fixes are gradual. **RPKI** lets an address owner publish a signed statement of which networks may announce its addresses, so others can reject impostors, and providers increasingly filter what their customers are allowed to announce. For most people BGP is invisible, until it breaks and a huge site is suddenly unreachable."
+    ],
+    "analogy": "A chain of travel agents passing along notes: 'I can get you to Lisbon'. Each one adds its own name and forwards the note. It works because they believe each other, and that is also why one agent writing a wrong note can send everyone's trips the wrong way.",
+    "keyPoints": [
+      "Connects the tens of thousands of independent networks that make up the internet.",
+      "Networks announce the addresses they reach; neighbors pass the routes along.",
+      "Route choice follows business policy, not just distance or speed.",
+      "Built on trust, so bad announcements spread; RPKI and filtering reduce the risk."
+    ],
+    "links": [
+      { "label": "Border Gateway Protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/Border_Gateway_Protocol" },
+      { "label": "RFC 4271, the BGP-4 specification", "url": "https://www.rfc-editor.org/rfc/rfc4271" }
+    ]
+  },
+  "es": {
+    "title": "BGP",
+    "tagline": "El protocolo con el que las redes se cuentan qué direcciones pueden alcanzar.",
+    "explanation": [
+      "Internet no es una sola red sino decenas de miles de redes independientes: proveedores de internet, universidades, empresas de nube, sitios grandes. Cada una es un **sistema autónomo** (AS, por sus siglas en inglés) con su propio número. **BGP**, el Border Gateway Protocol, es la forma en que se cuentan entre ellas a qué direcciones IP pueden entregar tráfico. Es la razón por la que un paquete que sale de tu casa en Buenos Aires sabe cómo llegar a un servidor en Frankfurt.",
+      "El mecanismo es una cadena de anuncios. Una red les dice a sus vecinas 'yo soy la casa de estas direcciones'. Cada vecina pasa la noticia, sumándose al camino: 'podés llegar a través mío'. Cada router del borde termina con varias rutas posibles a cada destino y elige una según sus propias reglas, muchas veces prefiriendo caminos más cortos o acuerdos comerciales más baratos. BGP no busca el camino más rápido; es una cuestión de política, de quién acepta llevar el tráfico de quién.",
+      "BGP se diseñó cuando las redes de internet confiaban bastante unas en otras, y por defecto un router cree lo que le anuncian sus vecinos. Eso hace que los errores se contagien. Si una red anuncia por error, o a propósito, direcciones que no son suyas (un **secuestro de BGP**), puede atraer tráfico hacia ella. En 2008 un proveedor de Pakistán quiso bloquear YouTube en su país y lo dejó fuera de línea un rato para buena parte del mundo; en 2021 Facebook retiró sus propias rutas durante un mantenimiento y desapareció de internet durante horas.",
+      "Los arreglos llegan de a poco. **RPKI** permite que el dueño de unas direcciones publique una declaración firmada de qué redes pueden anunciarlas, para que las demás rechacen a los impostores, y los proveedores filtran cada vez más lo que sus clientes pueden anunciar. Para la mayoría de la gente BGP es invisible, hasta que falla y un sitio enorme de golpe no se puede abrir."
+    ],
+    "analogy": "Una cadena de agencias de viaje que se pasan notitas: 'yo te llevo a Lisboa'. Cada una agrega su nombre y reenvía la nota. Funciona porque se creen entre ellas, y por eso mismo una agencia que escribe una nota equivocada puede mandar los viajes de todos para el lado incorrecto.",
+    "keyPoints": [
+      "Conecta las decenas de miles de redes independientes que forman internet.",
+      "Las redes anuncian las direcciones que alcanzan y las vecinas pasan las rutas.",
+      "La elección de ruta sigue acuerdos comerciales, no solo distancia o velocidad.",
+      "Se basa en la confianza, así que los anuncios falsos se propagan; RPKI y los filtros bajan el riesgo."
+    ],
+    "links": [
+      { "label": "Border Gateway Protocol en Wikipedia", "url": "https://es.wikipedia.org/wiki/Border_Gateway_Protocol" },
+      { "label": "RFC 4271, la especificación de BGP-4 (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc4271" }
+    ]
+  }
+}

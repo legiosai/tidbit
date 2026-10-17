@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-display-resolution",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["screen resolution", "4K", "4K UHD", "Full HD", "1080p", "pixel density", "PPI"],
+    "es": ["resolución de la pantalla", "4K", "4K UHD", "Full HD", "1080p", "densidad de píxeles", "PPI"]
+  },
+  "image": "img/2026-10-17-display-resolution.svg",
+  "imageAlt": {
+    "en": "Two grids of the same size draw the same diagonal line: the Full HD grid has big blocky pixels, the 4K grid has four times as many smaller pixels and a smoother line",
+    "es": "Dos grillas del mismo tamaño dibujan la misma línea diagonal: la grilla Full HD tiene píxeles grandes y escalonados, la 4K tiene cuatro veces más píxeles, más chicos, y una línea más suave"
+  },
+  "en": {
+    "title": "Display resolution",
+    "tagline": "How many dots, or pixels, make up a screen's image: more dots, finer detail.",
+    "explanation": [
+      "Every screen is a grid of tiny colored dots called pixels. The **display resolution** is how many there are, written as width by height. Full HD, also called 1080p, is 1920 × 1080 pixels, about two million dots. **4K** (on TVs, strictly \"4K UHD\") is 3840 × 2160: twice as many across and twice as many down, so four times as many pixels in total.",
+      "More pixels can show finer detail, but only if they are small enough for your eyes to tell apart. What really matters is **pixel density**, measured in pixels per inch (PPI), together with how far away you sit. A phone held close to your face needs a very high density to look sharp; a big TV across the room looks fine at a much lower one. That is why a 4K phone and a 4K TV have the same number of pixels and feel completely different.",
+      "Resolution also has costs. Every extra pixel has to be computed, sent and stored: a 4K video needs much more bandwidth and storage than an HD one, and a game in 4K asks far more of the GPU. And picture quality depends on other things too, such as contrast, brightness, color accuracy and how many times per second the screen refreshes, so a bigger number on the box does not automatically mean a better image."
+    ],
+    "analogy": "A mosaic made of tiles. With many small tiles you can draw eyelashes; with a few big ones you only get the outline of a face. From across the room, though, both mosaics may look the same.",
+    "keyPoints": [
+      "Resolution is the number of pixels, written as width × height.",
+      "Full HD is 1920 × 1080; 4K is 3840 × 2160, four times as many pixels.",
+      "Sharpness depends on pixel density and viewing distance, not on resolution alone.",
+      "More pixels need more bandwidth, storage and graphics power."
+    ],
+    "links": [
+      { "label": "Display resolution on Wikipedia", "url": "https://en.wikipedia.org/wiki/Display_resolution" },
+      { "label": "4K resolution on Wikipedia", "url": "https://en.wikipedia.org/wiki/4K_resolution" },
+      { "label": "Pixel on Wikipedia", "url": "https://en.wikipedia.org/wiki/Pixel" }
+    ]
+  },
+  "es": {
+    "title": "Resolución de pantalla",
+    "tagline": "Cuántos puntos, o píxeles, forman la imagen de una pantalla: más puntos, más detalle.",
+    "explanation": [
+      "Toda pantalla es una grilla de puntitos de color llamados píxeles. La **resolución de pantalla** es cuántos hay, escrita como ancho por alto. Full HD, también llamada 1080p, es 1920 × 1080 píxeles, unos dos millones de puntos. **4K** (en los televisores, estrictamente \"4K UHD\") es 3840 × 2160: el doble a lo ancho y el doble a lo alto, o sea cuatro veces más píxeles en total.",
+      "Más píxeles pueden mostrar más detalle, pero solo si son lo bastante chicos como para que tus ojos los distingan. Lo que de verdad importa es la **densidad de píxeles**, que se mide en píxeles por pulgada (PPI), junto con la distancia a la que mirás. Un celular que tenés cerca de la cara necesita una densidad altísima para verse nítido; una tele grande del otro lado del living se ve bien con mucha menos. Por eso un celular 4K y una tele 4K tienen la misma cantidad de píxeles y se sienten completamente distintos.",
+      "La resolución también tiene costos. Cada píxel de más hay que calcularlo, enviarlo y guardarlo: un video 4K necesita mucho más ancho de banda y almacenamiento que uno HD, y un juego en 4K le exige muchísimo más a la GPU. Además, la calidad de imagen depende de otras cosas, como el contraste, el brillo, la fidelidad del color y cuántas veces por segundo se refresca la pantalla, así que un número más grande en la caja no garantiza una imagen mejor."
+    ],
+    "analogy": "Un mosaico hecho de azulejos. Con muchos azulejos chicos podés dibujar pestañas; con pocos grandes solo te sale el contorno de una cara. Desde la otra punta del cuarto, igual, los dos mosaicos pueden verse iguales.",
+    "keyPoints": [
+      "La resolución es la cantidad de píxeles, escrita como ancho × alto.",
+      "Full HD es 1920 × 1080; 4K es 3840 × 2160, cuatro veces más píxeles.",
+      "La nitidez depende de la densidad de píxeles y la distancia, no solo de la resolución.",
+      "Más píxeles piden más ancho de banda, almacenamiento y potencia gráfica."
+    ],
+    "links": [
+      { "label": "Resolución de pantalla en Wikipedia", "url": "https://es.wikipedia.org/wiki/Resoluci%C3%B3n_de_pantalla" },
+      { "label": "Resolución 4K en Wikipedia", "url": "https://es.wikipedia.org/wiki/Resoluci%C3%B3n_4K" },
+      { "label": "Píxel en Wikipedia", "url": "https://es.wikipedia.org/wiki/P%C3%ADxel" }
+    ]
+  }
+}

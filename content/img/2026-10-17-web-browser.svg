@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="160" height="140" rx="10" fill="#e6dfd0"/>
+    <path d="M20 66 H180"/>
+    <rect x="58" y="46" width="112" height="14" rx="7" fill="#f3efe6"/>
+    <rect x="34" y="80" width="80" height="14" rx="3" fill="#ffd166"/>
+    <rect x="34" y="104" width="132" height="34" rx="4" fill="#9ac7ea"/>
+    <rect x="34" y="148" width="62" height="20" rx="6" fill="#9bd1b9"/>
+    <rect x="300" y="50" width="80" height="120" rx="10" fill="#e6dfd0"/>
+    <rect x="200" y="132" width="26" height="18" rx="4" fill="#ffd166"/>
+    <rect x="232" y="132" width="26" height="18" rx="4" fill="#9ac7ea"/>
+    <rect x="264" y="132" width="26" height="18" rx="4" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <circle cx="32" cy="53" r="3"/><circle cx="44" cy="53" r="3"/>
+    <path d="M188 90 H292"/><path d="M286 85 l6 5 -6 5"/>
+    <path d="M294 162 H190"/><path d="M196 157 l-6 5 6 5"/>
+    <path d="M312 78 H368"/><path d="M312 98 H368"/><path d="M312 118 H368"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b" text-anchor="middle">
+    <text x="114" y="57">example.com</text>
+    <text x="213" y="145">html</text><text x="245" y="145">css</text><text x="277" y="145">js</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="240" y="82">GET page</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="30">browser</text><text x="340" y="40">server</text>
+  </g>
+  <text x="200" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">ask · receive files · draw the page</text>
+</svg>

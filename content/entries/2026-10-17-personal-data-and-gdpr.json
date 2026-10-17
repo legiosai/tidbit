@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-personal-data-and-gdpr",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["GDPR", "personal data", "data protection law", "data protection laws", "General Data Protection Regulation"],
+    "es": ["RGPD", "GDPR", "datos personales", "ley de protección de datos", "leyes de protección de datos", "Reglamento General de Protección de Datos"]
+  },
+  "image": "img/2026-10-17-personal-data-and-gdpr.svg",
+  "imageAlt": {
+    "en": "A person's data card with name, email and location goes to a company inside a frame labeled law, with the person's rights listed: see, fix, delete, take",
+    "es": "La ficha de datos de una persona con nombre, email y ubicación llega a una empresa dentro de un marco que dice ley, con los derechos de la persona: ver, corregir, borrar, llevar"
+  },
+  "en": {
+    "title": "Personal data and GDPR",
+    "tagline": "Information about you, and the laws that say who can use it and how.",
+    "explanation": [
+      "**Personal data** is any information that identifies a person or can be linked to one: a name, an email, a phone number, an ID number, a home address, but also a photo, a location history, an IP address or the record of what you bought. Some kinds are treated as especially sensitive, like health, religion, political views or biometric data such as fingerprints.",
+      "**Data protection laws** set the rules for organizations that collect and use that information. The best known is the European Union's **GDPR** (General Data Protection Regulation), in force since 2018. It says a company needs a valid reason to use your data (your consent, a contract, a legal duty), may use it only for the purpose it told you, should keep no more than it needs and must protect it. It gives you rights: to see what they hold about you, to correct it, to have it deleted, and to take it elsewhere. Companies must report serious data breaches quickly, and fines can be very large. It applies to anyone handling data of people in the EU, wherever the company is based.",
+      "Many other places have their own laws built on similar ideas. **Argentina** has had a personal data protection law since 2000, with a public agency that oversees it and receives complaints; Brazil has the LGPD, California the CCPA, and most of Latin America has something comparable. That is why sites ask about cookies, why apps show privacy policies and why you can ask a company what it knows about you. For engineers it means designing systems that collect less, encrypt more and can actually delete a person on request."
+    ],
+    "analogy": "Your data is like a key to your house that you lend to a company. The law says they must tell you why they want it, use it only for that, keep it safe, and give it back when you ask.",
+    "keyPoints": [
+      "Personal data is anything that identifies you, directly or combined with other data.",
+      "GDPR is the EU's law, in force since 2018, and it applies to anyone handling EU residents' data.",
+      "Core rights: see, correct, delete and take your data elsewhere.",
+      "Argentina and many other countries have their own data protection laws and authorities."
+    ],
+    "links": [
+      { "label": "Data protection in the EU (European Commission)", "url": "https://commission.europa.eu/law/law-topic/data-protection_en" },
+      { "label": "General Data Protection Regulation on Wikipedia", "url": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" },
+      { "label": "Personal data in Argentina (AAIP, in Spanish)", "url": "https://www.argentina.gob.ar/aaip/datospersonales" }
+    ]
+  },
+  "es": {
+    "title": "Datos personales y RGPD",
+    "tagline": "La información sobre vos, y las leyes que dicen quién puede usarla y cómo.",
+    "explanation": [
+      "Los **datos personales** son cualquier información que identifica a una persona o que se puede vincular con ella: un nombre, un email, un teléfono, un DNI, una dirección, pero también una foto, el historial de ubicaciones, una dirección IP o el registro de lo que compraste. Algunos tipos se consideran especialmente sensibles, como la salud, la religión, las opiniones políticas o los datos biométricos, como las huellas digitales.",
+      "Las **leyes de protección de datos** ponen reglas a las organizaciones que juntan y usan esa información. La más conocida es el **RGPD** de la Unión Europea (Reglamento General de Protección de Datos, o GDPR en inglés), vigente desde 2018. Dice que una empresa necesita un motivo válido para usar tus datos (tu consentimiento, un contrato, una obligación legal), que solo puede usarlos para lo que te dijo, que no debe guardar más de lo necesario y que tiene que protegerlos. Te da derechos: ver qué tienen sobre vos, corregirlo, pedir que lo borren y llevártelo a otro lado. Las empresas tienen que avisar rápido si hay una filtración grave, y las multas pueden ser muy grandes. Se aplica a cualquiera que maneje datos de personas en la UE, esté donde esté la empresa.",
+      "Muchos otros lugares tienen sus propias leyes con ideas parecidas. **Argentina** tiene una ley de protección de datos personales desde el año 2000, con un organismo público que la controla y recibe denuncias; Brasil tiene la LGPD, California la CCPA, y la mayor parte de América Latina tiene algo comparable. Por eso los sitios te preguntan por las cookies, las apps muestran políticas de privacidad y podés pedirle a una empresa que te diga qué sabe de vos. Para quienes construyen sistemas, significa diseñar para juntar menos, cifrar más y poder borrar de verdad a una persona cuando lo pide."
+    ],
+    "analogy": "Tus datos son como una llave de tu casa que le prestás a una empresa. La ley dice que tiene que explicarte para qué la quiere, usarla solo para eso, cuidarla y devolvértela cuando se la pedís.",
+    "keyPoints": [
+      "Un dato personal es cualquier cosa que te identifica, sola o combinada con otros datos.",
+      "El RGPD es la ley de la UE, vigente desde 2018, y alcanza a cualquiera que maneje datos de residentes europeos.",
+      "Derechos centrales: ver, corregir, borrar y llevarte tus datos a otro lado.",
+      "Argentina y muchos otros países tienen sus propias leyes y autoridades de protección de datos."
+    ],
+    "links": [
+      { "label": "Datos personales (Agencia de Acceso a la Información Pública, Argentina)", "url": "https://www.argentina.gob.ar/aaip/datospersonales" },
+      { "label": "Protección de datos en la UE (Comisión Europea)", "url": "https://commission.europa.eu/law/law-topic/data-protection_es" },
+      { "label": "Reglamento General de Protección de Datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Reglamento_General_de_Protecci%C3%B3n_de_Datos" }
+    ]
+  }
+}

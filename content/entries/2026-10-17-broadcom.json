@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-broadcom",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Broadcom Inc.", "Avago"],
+    "es": ["Broadcom Inc.", "Avago"]
+  },
+  "image": "img/2026-10-17-broadcom.svg",
+  "imageAlt": {
+    "en": "Broadcom's chips sit inside a data center switch, a phone's Wi-Fi radio and a custom AI accelerator, with enterprise software on the side",
+    "es": "Los chips de Broadcom están dentro de un switch de data center, la radio Wi-Fi de un celular y un acelerador de IA a medida, con software empresarial al costado"
+  },
+  "en": {
+    "title": "Broadcom",
+    "tagline": "An American chip designer behind data center networking, Wi-Fi and custom AI chips.",
+    "explanation": [
+      "**Broadcom** designs chips that most people never see but use every day. Today's company was formed in 2016, when Avago Technologies, a chipmaker whose roots go back to Hewlett-Packard's semiconductor division, bought the original Broadcom Corporation and took its name. Like NVIDIA or Apple, it is **fabless**: it designs the chips and pays foundries such as TSMC to manufacture them.",
+      "Its chips cover several areas. Its **switch chips** move data between the thousands of servers in a data center, so they are central to the networks that connect GPUs for AI training. It makes Wi-Fi and Bluetooth chips for phones, chips for broadband modems and set-top boxes, and controllers for storage. It also builds **custom AI accelerators** (ASICs) together with large tech companies: the customer brings its ideas, Broadcom turns them into a chip that can be manufactured. Google's TPU is the best-known example.",
+      "Broadcom has grown mostly through acquisitions, and in recent years it bought large software companies too: CA Technologies, the enterprise security business of Symantec and, in 2023, VMware, the leading maker of virtualization software. Its usual approach is to focus on the products and big customers that bring the most profit, which sometimes means price and licensing changes that customers notice."
+    ],
+    "analogy": "A firm that makes the plumbing inside buildings. You never see the pipes, valves and pumps behind the walls, but nothing works without them, and the architects of the biggest towers ask it to design custom pieces.",
+    "keyPoints": [
+      "Fabless chip designer; foundries such as TSMC manufacture its designs.",
+      "Its switch chips are key to data center and AI networks.",
+      "Co-designs custom AI chips (ASICs), such as Google's TPU, with big tech companies.",
+      "Grew through acquisitions, including VMware in 2023."
+    ],
+    "links": [
+      { "label": "About Broadcom (official site)", "url": "https://www.broadcom.com/company/about-us" },
+      { "label": "Broadcom on Wikipedia", "url": "https://en.wikipedia.org/wiki/Broadcom" }
+    ]
+  },
+  "es": {
+    "title": "Broadcom",
+    "tagline": "Diseñadora estadounidense de chips para redes de data centers, Wi-Fi e IA a medida.",
+    "explanation": [
+      "**Broadcom** diseña chips que casi nadie ve pero que usamos todos los días. La empresa actual se formó en 2016, cuando Avago Technologies, una fabricante de chips con raíces en la división de semiconductores de Hewlett-Packard, compró a la Broadcom Corporation original y se quedó con su nombre. Como NVIDIA o Apple, es **fabless**: diseña los chips y les paga a fundiciones como TSMC para que los fabriquen.",
+      "Sus chips cubren varias áreas. Sus **chips de switch** mueven datos entre los miles de servidores de un data center, así que son centrales en las redes que conectan las GPU para entrenar IA. Hace chips de Wi-Fi y Bluetooth para celulares, chips para módems de banda ancha y decodificadores, y controladores de almacenamiento. También construye **aceleradores de IA a medida** (ASIC) junto con grandes empresas tecnológicas: el cliente trae sus ideas y Broadcom las convierte en un chip que se pueda fabricar. La TPU de Google es el ejemplo más conocido.",
+      "Broadcom creció sobre todo comprando otras empresas, y en los últimos años sumó también grandes empresas de software: CA Technologies, el negocio de seguridad corporativa de Symantec y, en 2023, VMware, el principal fabricante de software de virtualización. Su enfoque habitual es concentrarse en los productos y los grandes clientes que dejan más ganancia, lo que a veces trae cambios de precios y licencias que los clientes notan."
+    ],
+    "analogy": "Una empresa que hace la plomería de los edificios. Nunca ves los caños, válvulas y bombas detrás de las paredes, pero sin ellos nada funciona, y los arquitectos de las torres más grandes le piden piezas a medida.",
+    "keyPoints": [
+      "Diseñadora fabless; fundiciones como TSMC fabrican sus diseños.",
+      "Sus chips de switch son clave en las redes de data centers y de IA.",
+      "Codiseña chips de IA a medida (ASIC), como la TPU de Google, con grandes tecnológicas.",
+      "Creció con adquisiciones, entre ellas VMware en 2023."
+    ],
+    "links": [
+      { "label": "Broadcom Inc. en Wikipedia", "url": "https://es.wikipedia.org/wiki/Broadcom_Inc." },
+      { "label": "Acerca de Broadcom (sitio oficial, en inglés)", "url": "https://www.broadcom.com/company/about-us" }
+    ]
+  }
+}

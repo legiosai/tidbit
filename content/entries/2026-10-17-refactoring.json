@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-refactoring",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["refactor", "refactors", "refactored", "refactoring code"],
+    "es": ["refactorización", "refactorizar", "refactorizado", "refactor", "refactorear"]
+  },
+  "image": "img/2026-10-17-refactoring.svg",
+  "imageAlt": {
+    "en": "A tangled block of code becomes three small named functions, while the same input keeps producing the same output and the tests stay green",
+    "es": "Un bloque de código enredado se convierte en tres funciones chicas con nombre, mientras la misma entrada sigue dando la misma salida y los tests siguen en verde"
+  },
+  "en": {
+    "title": "Refactoring",
+    "tagline": "Reorganizing code to make it clearer, without changing what it does.",
+    "explanation": [
+      "**Refactoring** means changing the internal structure of code without changing its behavior. From the outside nothing is different: same screens, same results, same bugs, even. Inside, the code becomes easier to read and to change. Typical moves are giving a variable a clearer name, splitting a 300-line function into small ones with meaningful names, removing duplicated code, or moving a piece to where it logically belongs.",
+      "The idea was popularized by Martin Fowler's book Refactoring, first published in 1999, which catalogued dozens of these small transformations. The key rule is to go in **small steps** and keep the program working after each one. That is only safe with good automated tests: you run them after every step, and if they still pass, you know you did not break anything.",
+      "Teams refactor because code that is easy to understand is cheap to change, and software is changed constantly. It is the main way to pay down technical debt. A common habit is to clean up the area you are about to work on before adding a new feature there, sometimes summed up as \"leave the campground cleaner than you found it\". What refactoring is not: rewriting everything from scratch, or sneaking new features in at the same time."
+    ],
+    "analogy": "Like reorganizing a kitchen: same pots, same recipes, same meals come out. But now the spices are labeled and next to the stove, so cooking tomorrow is faster and fewer things get spilled.",
+    "keyPoints": [
+      "Changes how code is organized, never what it does.",
+      "Done in small steps, running tests after each one.",
+      "Makes later changes faster and safer; it pays down technical debt.",
+      "Mixing refactoring with new features in one change makes both harder to review."
+    ],
+    "links": [
+      { "label": "Refactoring (Martin Fowler's site)", "url": "https://refactoring.com/" },
+      { "label": "Code refactoring on Wikipedia", "url": "https://en.wikipedia.org/wiki/Code_refactoring" }
+    ]
+  },
+  "es": {
+    "title": "Refactoring",
+    "tagline": "Reorganizar código para que sea más claro, sin cambiar lo que hace.",
+    "explanation": [
+      "El **refactoring** (o refactorización) es cambiar la estructura interna del código sin cambiar su comportamiento. Desde afuera no se nota nada: mismas pantallas, mismos resultados, hasta los mismos bugs. Por dentro, el código queda más fácil de leer y de modificar. Movidas típicas son darle a una variable un nombre más claro, partir una función de 300 líneas en varias chicas con nombres que se entiendan, sacar código duplicado o mover una pieza a donde corresponde.",
+      "La idea la popularizó el libro Refactoring de Martin Fowler, publicado por primera vez en 1999, que catalogó decenas de estas transformaciones chicas. La regla clave es avanzar en **pasos chicos** y que el programa siga funcionando después de cada uno. Eso solo es seguro con buenos tests automatizados: los corrés después de cada paso y, si siguen pasando, sabés que no rompiste nada.",
+      "Los equipos refactorizan porque el código fácil de entender es barato de cambiar, y el software se cambia todo el tiempo. Es la forma principal de pagar la deuda técnica. Un hábito común es ordenar la zona en la que estás por trabajar antes de agregarle una funcionalidad nueva, algo que se resume como \"dejá el camping más limpio de lo que lo encontraste\". Lo que no es refactoring: reescribir todo de cero, o meter funcionalidades nuevas de paso."
+    ],
+    "analogy": "Como reorganizar una cocina: mismas ollas, mismas recetas, salen los mismos platos. Pero ahora las especias están etiquetadas y al lado de la hornalla, así que mañana cocinás más rápido y se te vuelcan menos cosas.",
+    "keyPoints": [
+      "Cambia cómo está organizado el código, nunca lo que hace.",
+      "Se hace en pasos chicos, corriendo los tests después de cada uno.",
+      "Hace que los cambios siguientes sean más rápidos y seguros; paga deuda técnica.",
+      "Mezclar refactoring con funcionalidades nuevas en un mismo cambio complica revisar las dos cosas."
+    ],
+    "links": [
+      { "label": "Refactorización en Wikipedia", "url": "https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n" },
+      { "label": "Refactoring (sitio de Martin Fowler, en inglés)", "url": "https://refactoring.com/" }
+    ]
+  }
+}

@@ -23,7 +23,7 @@ MIT
 
 </div>
 
-> **Estado: 102 términos en 9 temas**, cada uno en castellano y en inglés: IA, AWS, cloud, redes, seguridad, datos, hardware, software y empresas tech. Sin cuenta y sin rastreo: los términos que aprendiste y el término del día viven en tu navegador.
+> **Estado: 304 términos en 9 temas**, cada uno en castellano y en inglés: IA, AWS, cloud, redes, seguridad, datos, hardware, software y empresas tech. Sin cuenta y sin rastreo: los términos que aprendiste y el término del día viven en tu navegador.
 
 ## Cómo es una entrada
 

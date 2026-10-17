@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-cloudflare",
+  "date": "2026-10-17",
+  "subjects": ["companies", "networks"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Cloudflare Workers"],
+    "es": ["Cloudflare Workers"]
+  },
+  "image": "img/2026-10-17-cloudflare.svg",
+  "imageAlt": {
+    "en": "Visitors and attackers reach a Cloudflare network that sits in front of a website: it blocks attacks, serves cached copies and passes the rest to the origin server",
+    "es": "Visitantes y atacantes llegan a la red de Cloudflare, que está delante de un sitio web: frena ataques, sirve copias en caché y le pasa el resto al servidor de origen"
+  },
+  "en": {
+    "title": "Cloudflare",
+    "tagline": "A global network that sits in front of websites to make them faster and safer.",
+    "explanation": [
+      "**Cloudflare** is an American company founded in 2009 by Matthew Prince, Michelle Zatlyn and Lee Holloway. It runs a network of data centers in cities all over the world, and websites put it **in front of** their own servers. When you visit a site that uses Cloudflare, your request first reaches the Cloudflare data center closest to you, not the site's real server, which is called the **origin**.",
+      "From that position it can do several jobs at once. It works as a CDN, keeping copies of images and pages near visitors so they load faster. It absorbs DDoS attacks, where floods of fake traffic try to knock a site offline, and filters malicious requests with a firewall. It also handles the site's HTTPS certificates and its DNS. Beyond websites, it offers **Cloudflare Workers**, which run small programs in its data centers, close to users, and the public DNS service `1.1.1.1`.",
+      "Its business model is freemium: a basic plan is free, which is why millions of small sites use it, and companies pay monthly for more features or sign larger contracts. The flip side of being in front of so much of the web is that when Cloudflare has an outage, many unrelated sites and apps fail at the same moment."
+    ],
+    "analogy": "A front desk with a security guard for a building. Visitors check in at the lobby, the guard turns away troublemakers, and common questions get answered right there without bothering the people upstairs.",
+    "keyPoints": [
+      "Founded in 2009; runs data centers in cities around the world.",
+      "Sits between visitors and a site's origin server, acting as CDN, shield and DNS.",
+      "Free basic plan; companies pay for advanced features and contracts.",
+      "Because so many sites rely on it, its outages are felt across the web."
+    ],
+    "links": [
+      { "label": "About Cloudflare (official site)", "url": "https://www.cloudflare.com/about-overview/" },
+      { "label": "Cloudflare developer docs", "url": "https://developers.cloudflare.com/" },
+      { "label": "Cloudflare on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cloudflare" }
+    ]
+  },
+  "es": {
+    "title": "Cloudflare",
+    "tagline": "Una red global que se pone delante de los sitios web para que sean más rápidos y seguros.",
+    "explanation": [
+      "**Cloudflare** es una empresa estadounidense fundada en 2009 por Matthew Prince, Michelle Zatlyn y Lee Holloway. Opera una red de data centers en ciudades de todo el mundo, y los sitios web la ponen **delante** de sus propios servidores. Cuando entrás a un sitio que usa Cloudflare, tu pedido llega primero al data center de Cloudflare más cercano, no al servidor real del sitio, que se llama **origen**.",
+      "Desde ese lugar puede hacer varias cosas a la vez. Funciona como CDN: guarda copias de imágenes y páginas cerca de los visitantes para que carguen más rápido. Aguanta ataques DDoS, en los que una avalancha de tráfico falso intenta tirar un sitio, y filtra pedidos maliciosos con un firewall. También maneja los certificados HTTPS del sitio y su DNS. Más allá de los sitios, ofrece **Cloudflare Workers**, que corre programas chicos en sus data centers, cerca de los usuarios, y el servicio público de DNS `1.1.1.1`.",
+      "Su modelo de negocio es freemium: el plan básico es gratis, por eso lo usan millones de sitios chicos, y las empresas pagan por mes para tener más funciones o firman contratos más grandes. La otra cara de estar delante de tanta web es que, cuando Cloudflare tiene una caída, muchos sitios y apps que no tienen nada que ver fallan al mismo tiempo."
+    ],
+    "analogy": "La recepción de un edificio con su guardia de seguridad. Los visitantes se anuncian en el hall, el guardia frena a los que vienen a molestar, y las consultas comunes se responden ahí mismo sin subir a molestar a nadie.",
+    "keyPoints": [
+      "Fundada en 2009; opera data centers en ciudades de todo el mundo.",
+      "Se ubica entre los visitantes y el servidor de origen, como CDN, escudo y DNS.",
+      "Plan básico gratis; las empresas pagan por funciones avanzadas y contratos.",
+      "Como tantos sitios dependen de ella, sus caídas se sienten en toda la web."
+    ],
+    "links": [
+      { "label": "Cloudflare en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cloudflare" },
+      { "label": "Acerca de Cloudflare (sitio oficial, en inglés)", "url": "https://www.cloudflare.com/es-es/about-overview/" },
+      { "label": "Documentación de Cloudflare (en inglés)", "url": "https://developers.cloudflare.com/" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-microservices",
+  "date": "2026-10-17",
+  "subjects": ["software", "cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["microservice", "microservice architecture", "microservices architecture", "monolith", "monoliths"],
+    "es": ["microservicio", "arquitectura de microservicios", "microservices", "monolito", "monolitos"]
+  },
+  "image": "img/2026-10-17-microservices.svg",
+  "imageAlt": {
+    "en": "On the left, one big block holds users, orders and payments; on the right, the same three are separate small services, each with its own database, talking through APIs",
+    "es": "A la izquierda, un solo bloque grande contiene usuarios, pedidos y pagos; a la derecha, los mismos tres son servicios chicos separados, cada uno con su base de datos, que se hablan por APIs"
+  },
+  "en": {
+    "title": "Microservices",
+    "tagline": "Building one application as many small services that each do one job.",
+    "explanation": [
+      "**Microservices** is a way of structuring software in which an application is split into many small, independent services. An online shop might have one service for users, one for the catalog, one for orders and one for payments. Each runs on its own, usually in its own container, often owns its own database, and talks to the others only through APIs or messages in a queue.",
+      "The alternative is a **monolith**: one program that contains everything and is deployed as a single piece. Monoliths are simpler to build, test and understand, which is why most products start as one. Trouble appears when the code and the team get large: a small change requires redeploying the whole thing, one slow part drags down the rest, and dozens of people step on each other's toes.",
+      "Microservices answer that by letting each team own a service, change it and deploy it on its own schedule, and scale only the parts under load. The price is complexity. A function call inside one program becomes a network call that can be slow or fail; a single database transaction becomes coordination across several services; and finding a bug means following a request through many logs. Done without need, it creates a \"distributed monolith\" with the problems of both. Tools like Kubernetes, load balancers and tracing exist largely to manage this."
+    ],
+    "analogy": "A monolith is a single restaurant kitchen where every cook shares one stove. Microservices is a food court: each stall has its own kitchen, menu and staff, and can renovate without closing the others, but now someone has to coordinate orders that need food from three stalls.",
+    "keyPoints": [
+      "Each service does one job, can be deployed alone, and usually owns its own data.",
+      "Services talk over the network through APIs or message queues.",
+      "Gains: independent teams, deploys and scaling. Costs: network failures and operational complexity.",
+      "Many teams start with a monolith and split it only when it hurts."
+    ],
+    "links": [
+      { "label": "Microservices, by Martin Fowler and James Lewis", "url": "https://martinfowler.com/articles/microservices.html" },
+      { "label": "What are microservices? (AWS)", "url": "https://aws.amazon.com/microservices/" },
+      { "label": "Microservices on Wikipedia", "url": "https://en.wikipedia.org/wiki/Microservices" }
+    ]
+  },
+  "es": {
+    "title": "Microservicios",
+    "tagline": "Construir una aplicación como muchos servicios chicos que hacen una sola cosa cada uno.",
+    "explanation": [
+      "Los **microservicios** son una forma de organizar el software en la que una aplicación se divide en muchos servicios chicos e independientes. Una tienda online puede tener un servicio para usuarios, otro para el catálogo, otro para pedidos y otro para pagos. Cada uno corre por su cuenta, normalmente en su propio contenedor, muchas veces tiene su propia base de datos, y se comunica con los demás solo a través de APIs o de mensajes en una cola.",
+      "La alternativa es un **monolito**: un solo programa que tiene todo adentro y se despliega como una sola pieza. Los monolitos son más simples de construir, probar y entender, y por eso la mayoría de los productos arranca así. El problema aparece cuando el código y el equipo crecen: un cambio chico obliga a desplegar todo de nuevo, una parte lenta frena al resto y decenas de personas se pisan entre sí.",
+      "Los microservicios responden a eso dejando que cada equipo sea dueño de un servicio, lo cambie y lo despliegue a su ritmo, y que se escalen solo las partes con más carga. El precio es la complejidad. Una llamada a una función dentro de un programa se vuelve una llamada por la red que puede tardar o fallar; una transacción en una sola base de datos se vuelve coordinación entre varios servicios; y encontrar un bug implica seguir un pedido a través de muchos logs. Si se hace sin necesidad, sale un \"monolito distribuido\" con los problemas de los dos. Herramientas como Kubernetes, los balanceadores de carga y el tracing existen en buena parte para manejar esto."
+    ],
+    "analogy": "Un monolito es la cocina de un único restaurante donde todos los cocineros comparten la misma hornalla. Los microservicios son un patio de comidas: cada local tiene su cocina, su menú y su gente, y puede remodelar sin cerrar a los demás, pero ahora alguien tiene que coordinar los pedidos que necesitan comida de tres locales.",
+    "keyPoints": [
+      "Cada servicio hace una cosa, se despliega solo y suele tener sus propios datos.",
+      "Los servicios se hablan por la red, con APIs o colas de mensajes.",
+      "A favor: equipos, deploys y escalado independientes. En contra: fallas de red y más complejidad operativa.",
+      "Muchos equipos arrancan con un monolito y lo dividen recién cuando duele."
+    ],
+    "links": [
+      { "label": "Microservices, de Martin Fowler y James Lewis (en inglés)", "url": "https://martinfowler.com/articles/microservices.html" },
+      { "label": "¿Qué son los microservicios? (AWS)", "url": "https://aws.amazon.com/es/microservices/" },
+      { "label": "Arquitectura de microservicios en Wikipedia", "url": "https://es.wikipedia.org/wiki/Arquitectura_de_microservicios" }
+    ]
+  }
+}

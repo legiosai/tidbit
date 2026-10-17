@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-nosql",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["NoSQL database", "NoSQL databases", "document database", "document databases", "key-value store", "key-value stores", "graph database", "graph databases"],
+    "es": ["base de datos NoSQL", "bases de datos NoSQL", "base de datos documental", "bases de datos documentales", "base de datos clave-valor", "base de datos de grafos", "bases de datos de grafos"]
+  },
+  "image": "img/2026-10-17-nosql.svg",
+  "imageAlt": {
+    "en": "Four kinds of NoSQL database side by side: a JSON document, key-value pairs, wide rows with varying columns, and a graph of connected nodes",
+    "es": "Cuatro tipos de base de datos NoSQL lado a lado: un documento JSON, pares clave-valor, filas anchas con columnas variables y un grafo de nodos conectados"
+  },
+  "en": {
+    "title": "NoSQL",
+    "tagline": "Databases that store data in shapes other than tables with fixed columns.",
+    "explanation": [
+      "**NoSQL** is an umbrella name for databases that do not use the classic relational model of tables, rows and fixed columns queried with SQL. The name is usually read as \"not only SQL\". They became popular in the late 2000s, when big web companies needed to store huge amounts of data spread over many servers, with flexible shapes and very fast reads and writes.",
+      "There are four main families. **Document databases**, like MongoDB, store each record as a JSON-like document that can have its own fields. **Key-value stores**, like Redis or Amazon DynamoDB, work like a giant dictionary: give a key, get the value back, extremely fast. **Wide-column databases**, like Cassandra, store huge tables where each row can have different columns. **Graph databases**, like Neo4j, store things and the connections between them, ideal for social networks or fraud detection.",
+      "The trade-off is that you design around how the data will be read. A relational database lets you ask almost any question later by joining tables; many NoSQL databases are fast and scale out easily precisely because they limit joins and sometimes accept that different copies may be briefly out of sync. Neither is better in general. Many companies use both: a relational database for orders and payments, and a NoSQL one for sessions, caches, catalogs or activity feeds."
+    ],
+    "analogy": "A relational database is a filing cabinet with identical printed forms. NoSQL is a set of other containers: folders where each document can look different, a key rack, a huge ledger, a corkboard with strings between photos. Each fits some jobs much better than the cabinet.",
+    "keyPoints": [
+      "\"Not only SQL\": databases without the fixed-table model.",
+      "Four families: document, key-value, wide-column and graph.",
+      "Usually scale across many servers easily, often with fewer joins and looser consistency.",
+      "Often used alongside a relational database, not instead of it."
+    ],
+    "links": [
+      { "label": "What is NoSQL? (AWS)", "url": "https://aws.amazon.com/nosql/" },
+      { "label": "NoSQL on Wikipedia", "url": "https://en.wikipedia.org/wiki/NoSQL" }
+    ]
+  },
+  "es": {
+    "title": "NoSQL",
+    "tagline": "Bases de datos que guardan la información en formas distintas a tablas de columnas fijas.",
+    "explanation": [
+      "**NoSQL** es un nombre paraguas para las bases de datos que no usan el modelo relacional clásico de tablas, filas y columnas fijas consultadas con SQL. El nombre se suele leer como \"not only SQL\" (no solo SQL). Se hicieron populares a fines de los 2000, cuando las grandes empresas web necesitaban guardar cantidades enormes de datos repartidos en muchos servidores, con formas flexibles y lecturas y escrituras muy rápidas.",
+      "Hay cuatro familias principales. Las **bases de datos documentales**, como MongoDB, guardan cada registro como un documento parecido a JSON que puede tener sus propios campos. Las **clave-valor**, como Redis o Amazon DynamoDB, funcionan como un diccionario gigante: das una clave y te devuelve el valor, rapidísimo. Las de **columnas anchas**, como Cassandra, guardan tablas enormes donde cada fila puede tener columnas distintas. Las **de grafos**, como Neo4j, guardan cosas y las conexiones entre ellas, ideales para redes sociales o detección de fraude.",
+      "La contracara es que diseñás pensando en cómo se van a leer los datos. Una base relacional te deja hacer casi cualquier pregunta después, uniendo tablas; muchas NoSQL son rápidas y escalan fácil justamente porque limitan esos joins y a veces aceptan que distintas copias queden desincronizadas por un momento. Ninguna es mejor en general. Muchas empresas usan las dos: una relacional para pedidos y pagos, y una NoSQL para sesiones, caché, catálogos o feeds de actividad."
+    ],
+    "analogy": "Una base relacional es un fichero con formularios impresos idénticos. NoSQL es un conjunto de otros contenedores: carpetas donde cada documento puede ser distinto, un llavero, un libro de registros enorme, un corcho con hilos entre fotos. Cada uno sirve mucho mejor que el fichero para ciertas tareas.",
+    "keyPoints": [
+      "\"Not only SQL\": bases de datos sin el modelo de tablas fijas.",
+      "Cuatro familias: documentales, clave-valor, de columnas anchas y de grafos.",
+      "Suelen escalar fácil en muchos servidores, muchas veces con menos joins y consistencia más laxa.",
+      "Muchas veces se usan junto a una base relacional, no en su lugar."
+    ],
+    "links": [
+      { "label": "¿Qué es NoSQL? (AWS)", "url": "https://aws.amazon.com/es/nosql/" },
+      { "label": "NoSQL en Wikipedia", "url": "https://es.wikipedia.org/wiki/NoSQL" }
+    ]
+  }
+}

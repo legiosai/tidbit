@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-identity-theft",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["identity fraud", "stolen identity"],
+    "es": ["fraude de identidad", "identidad robada"]
+  },
+  "image": "img/2026-10-17-identity-theft.svg",
+  "imageAlt": {
+    "en": "Pieces of personal data, a name, an ID number, a birth date and an address, are combined into a copy of a person's ID card that a fraudster uses to open a loan and a phone line",
+    "es": "Datos personales sueltos, un nombre, un número de documento, una fecha de nacimiento y una dirección, se combinan en una copia del documento de una persona que un estafador usa para pedir un préstamo y una línea de teléfono"
+  },
+  "en": {
+    "title": "Identity theft",
+    "tagline": "Someone uses your personal details to pass as you, usually to borrow or buy in your name.",
+    "explanation": [
+      "**Identity theft** is when someone gets enough of your personal information to pretend to be you: your full name, ID or social security number, date of birth, address, phone number, sometimes a photo of your ID card or a selfie. With that, they can open a credit card or a loan in your name, sign up for a phone line, take over your existing accounts, claim benefits, or give your name when they are stopped by the police.",
+      "The details usually come from many places at once. A data breach at a shop leaks emails and addresses; a phishing message tricks you into typing your bank login; a social media profile shows your birthday and your pet's name; a stolen wallet or a letter taken from a mailbox adds the rest. Criminals combine those pieces, and often buy and sell them in bulk.",
+      "Victims often find out late: a call from a collection agency, a loan they never asked for on a credit report, or a bank account that suddenly does not let them in. Recovering takes paperwork: reporting it to the police and the institutions involved, closing fraudulent accounts, and in many countries asking credit bureaus to freeze or flag your file so nothing new can be opened.",
+      "Prevention is mostly habits. Share ID numbers only when there is a real need, use unique passwords and two-factor authentication on email and banking, be suspicious of unexpected messages asking you to confirm details, check your bank statements and your credit report from time to time, and shred documents before throwing them away."
+    ],
+    "analogy": "Like someone collecting the pieces of your house key scattered around town, one from your mailbox, one from your social profile, one from a store that lost its records, until they can cut a full copy and walk in as if they lived there.",
+    "keyPoints": [
+      "It is using your personal data to act, borrow or buy as you.",
+      "The data is pieced together from breaches, phishing, social media and stolen papers.",
+      "Act fast: report it, close fraudulent accounts and freeze your credit where possible.",
+      "Unique passwords, 2FA and sharing less data are the best prevention."
+    ],
+    "links": [
+      { "label": "IdentityTheft.gov (US Federal Trade Commission)", "url": "https://www.identitytheft.gov/" },
+      { "label": "Identity theft on Wikipedia", "url": "https://en.wikipedia.org/wiki/Identity_theft" }
+    ]
+  },
+  "es": {
+    "title": "Robo de identidad",
+    "tagline": "Alguien usa tus datos personales para hacerse pasar por vos, casi siempre por plata.",
+    "explanation": [
+      "El **robo de identidad** es cuando alguien consigue suficientes datos personales tuyos como para hacerse pasar por vos: nombre completo, número de documento o CUIL, fecha de nacimiento, dirección, teléfono, a veces una foto del DNI o una selfie. Con eso puede sacar una tarjeta de crédito o un préstamo a tu nombre, dar de alta una línea de celular, quedarse con tus cuentas, cobrar beneficios o dar tu nombre si lo para la policía.",
+      "Los datos suelen venir de muchos lados a la vez. Una filtración en una tienda deja expuestos correos y direcciones; un mensaje de phishing te hace escribir el usuario del banco; un perfil en redes muestra tu cumpleaños y el nombre de tu mascota; una billetera robada o una carta sacada del buzón completan el resto. Los delincuentes juntan esas piezas, y muchas veces las compran y venden al por mayor.",
+      "Las víctimas suelen enterarse tarde: una llamada de un estudio de cobranzas, un préstamo que nunca pidieron en su informe crediticio o un home banking que de repente no las deja entrar. Recuperarse lleva trámites: hacer la denuncia policial y avisar a las entidades involucradas, cerrar las cuentas fraudulentas y, en muchos países, pedir a los burós de crédito que bloqueen o marquen tu legajo para que no se pueda abrir nada nuevo.",
+      "La prevención es sobre todo de hábitos. Compartí tu número de documento solo cuando haga falta de verdad, usá contraseñas distintas y autenticación de dos factores en el correo y el banco, desconfiá de mensajes inesperados que te piden confirmar datos, revisá cada tanto tus resúmenes y tu situación crediticia, y rompé los papeles antes de tirarlos."
+    ],
+    "analogy": "Como alguien que junta las partes de la llave de tu casa desparramadas por la ciudad, una de tu buzón, otra de tu perfil en redes, otra de una tienda que perdió sus registros, hasta que puede hacer una copia entera y entrar como si viviera ahí.",
+    "keyPoints": [
+      "Es usar tus datos personales para actuar, pedir crédito o comprar como si fueras vos.",
+      "Los datos se arman con filtraciones, phishing, redes sociales y papeles robados.",
+      "Actuá rápido: denunciá, cerrá las cuentas falsas y bloqueá tu crédito si se puede.",
+      "Contraseñas únicas, 2FA y compartir menos datos son la mejor prevención."
+    ],
+    "links": [
+      { "label": "Robo de identidad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Robo_de_identidad" },
+      { "label": "RobodeIdentidad.gov (Comisión Federal de Comercio de EE. UU.)", "url": "https://www.robodeidentidad.gov/" }
+    ]
+  }
+}

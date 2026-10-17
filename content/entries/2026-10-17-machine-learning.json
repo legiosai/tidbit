@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-machine-learning",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["ML"],
+    "es": ["aprendizaje automático", "ML"]
+  },
+  "image": "img/2026-10-17-machine-learning.svg",
+  "imageAlt": {
+    "en": "Labeled example emails, marked spam or ok, feed a model box; a new email goes into the model and comes out tagged likely spam",
+    "es": "Correos de ejemplo etiquetados como spam u ok entran en una caja de modelo; un correo nuevo pasa por el modelo y sale marcado como probable spam"
+  },
+  "en": {
+    "title": "Machine learning",
+    "tagline": "Teaching computers by showing them examples instead of writing every rule.",
+    "explanation": [
+      "**Machine learning** (ML) is the part of AI where a program learns from examples instead of following rules a person wrote. You give it lots of data where the answer is known, it adjusts itself until it gets those answers mostly right, and then it applies what it learned to new cases it has never seen. The term goes back to 1959, when Arthur Samuel used it for a program that learned to play checkers.",
+      "Take a spam filter. Writing rules by hand ('block anything that says FREE MONEY') is endless, because spammers change words faster than you can. With machine learning you collect thousands of emails people already marked as spam or not, and the system learns which combinations of words, senders and links tend to go with spam. When a new email arrives, it gives a probability, not a certainty.",
+      "The same recipe is everywhere: predicting which card payment is fraud, which customers might cancel, how long a delivery will take, which movie you will like. Learning from examples has a catch, though: the model can only be as good as its data. If the examples are few, outdated or skewed, the predictions will be too. Deep learning and today's large language models are machine learning at a much larger scale."
+    ],
+    "analogy": "Like learning to tell ripe avocados by squeezing hundreds of them with someone who knows, instead of reading a rulebook. After a while you just know, even if you cannot fully explain how.",
+    "keyPoints": [
+      "Learns patterns from examples where the right answer is known.",
+      "Outputs are predictions with a probability, not guarantees.",
+      "Bad, scarce or biased data produces bad predictions.",
+      "Two phases: training builds the model, inference uses it."
+    ],
+    "links": [
+      { "label": "Machine learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Machine_learning" },
+      { "label": "Intro to machine learning (Google)", "url": "https://developers.google.com/machine-learning/intro-to-ml" }
+    ]
+  },
+  "es": {
+    "title": "Machine learning",
+    "tagline": "Enseñarle a una computadora con ejemplos en lugar de escribirle cada regla.",
+    "explanation": [
+      "El **machine learning** (aprendizaje automático, ML) es la parte de la IA en la que un programa aprende de ejemplos en lugar de seguir reglas que escribió una persona. Le das muchos datos donde la respuesta ya se conoce, se va ajustando hasta acertar la mayoría, y después aplica lo aprendido a casos nuevos que nunca vio. El término viene de 1959, cuando Arthur Samuel lo usó para un programa que aprendía a jugar a las damas.",
+      "Pensá en un filtro de spam. Escribir reglas a mano ('bloqueá todo lo que diga PLATA GRATIS') no termina nunca, porque los spammers cambian las palabras más rápido que vos. Con machine learning juntás miles de correos que la gente ya marcó como spam o no, y el sistema aprende qué combinaciones de palabras, remitentes y links suelen ir con el spam. Cuando llega un correo nuevo, te da una probabilidad, no una certeza.",
+      "La misma receta está en todos lados: predecir qué pago con tarjeta es un fraude, qué clientes pueden darse de baja, cuánto va a tardar un envío, qué película te va a gustar. Aprender de ejemplos tiene una trampa: el modelo es tan bueno como sus datos. Si los ejemplos son pocos, viejos o sesgados, las predicciones también. El deep learning y los grandes modelos de lenguaje de hoy son machine learning a una escala mucho mayor."
+    ],
+    "analogy": "Es como aprender a elegir paltas maduras apretando cientos al lado de alguien que sabe, en vez de leer un manual. Al tiempo te das cuenta solo, aunque no puedas explicar del todo cómo.",
+    "keyPoints": [
+      "Aprende patrones de ejemplos donde la respuesta correcta ya se conoce.",
+      "Lo que da son predicciones con una probabilidad, no garantías.",
+      "Datos malos, escasos o sesgados dan predicciones malas.",
+      "Dos etapas: el entrenamiento arma el modelo y la inferencia lo usa."
+    ],
+    "links": [
+      { "label": "Aprendizaje automático en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico" },
+      { "label": "Introducción al aprendizaje automático (Google)", "url": "https://developers.google.com/machine-learning/intro-to-ml?hl=es-419" }
+    ]
+  }
+}

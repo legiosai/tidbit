@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-biometrics",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["biometric authentication", "biometric data"],
+    "es": ["autenticación biométrica", "datos biométricos"]
+  },
+  "image": "img/2026-10-17-biometrics.svg",
+  "imageAlt": {
+    "en": "A phone scans a fingerprint and a face, turns each into a short template and compares it with the one stored on the device, which answers match",
+    "es": "Un teléfono escanea una huella y una cara, convierte cada una en una plantilla corta y la compara con la guardada en el dispositivo, que responde que coincide"
+  },
+  "en": {
+    "title": "Biometrics",
+    "tagline": "Proving who you are with your body: a fingerprint, your face, your voice.",
+    "explanation": [
+      "**Biometrics** means recognizing a person by something they physically are or do: a fingerprint, the shape of a face, the pattern of an iris, a voice, even the way someone types. It is what happens when you unlock a phone with your thumb or your face, cross an airport gate that checks your passport photo, or clock in at work by touching a reader.",
+      "The device does not keep a photo of your finger. When you enroll, it measures distinctive features (where the ridges of a fingerprint split and end, the distances between points of a face) and stores them as a compact **template**. Each time you unlock, it measures again and compares. Bodies and cameras are never exactly the same twice, so the answer is a matter of probability: the system is tuned to balance letting the wrong person in against rejecting the right one.",
+      "Its big advantage is convenience: you cannot forget your face, and nobody can read it over your shoulder. Its big weakness is that you cannot change it. A leaked password can be replaced in a minute; a leaked fingerprint template cannot. That is why well-designed phones and laptops keep the template in a protected chip on the device itself and never send it to a server, and why biometrics usually unlock a key or a passkey stored locally rather than acting as a password sent over the internet.",
+      "Biometrics also raise questions beyond security. Faces can be captured from a distance without consent, so facial recognition in public spaces, workplaces or schools is regulated in many countries and debated in others. For your own devices, the sensible view is that biometrics are a convenient lock that works best together with a PIN or password as backup."
+    ],
+    "analogy": "A doorman who knows your face. It is faster than showing an ID card, but if someone ever made a perfect mask of you, you could not get a new face the way you get a new card.",
+    "keyPoints": [
+      "Your device stores a mathematical template of the feature, not a photo.",
+      "Matching is probabilistic: tuned between false accepts and false rejects.",
+      "You cannot change your fingerprint, so templates should stay on the device.",
+      "It is usually one factor, backed up by a PIN or password."
+    ],
+    "links": [
+      { "label": "Biometrics (NIST)", "url": "https://www.nist.gov/biometrics" },
+      { "label": "Biometrics on Wikipedia", "url": "https://en.wikipedia.org/wiki/Biometrics" }
+    ]
+  },
+  "es": {
+    "title": "Biometría",
+    "tagline": "Demostrar quién sos con tu cuerpo: una huella, tu cara, tu voz.",
+    "explanation": [
+      "La **biometría** es reconocer a una persona por algo que físicamente es o hace: una huella digital, la forma de la cara, el dibujo del iris, la voz, hasta la manera en que alguien tipea. Es lo que pasa cuando desbloqueás el celular con el pulgar o con la cara, cuando pasás por una puerta del aeropuerto que compara tu cara con la foto del pasaporte, o cuando fichás en el trabajo apoyando el dedo en un lector.",
+      "El dispositivo no guarda una foto de tu dedo. Cuando te registrás, mide rasgos distintivos (dónde se bifurcan y terminan las líneas de la huella, las distancias entre puntos de la cara) y los guarda como una **plantilla** compacta. Cada vez que desbloqueás, vuelve a medir y compara. Ni los cuerpos ni las cámaras dan dos veces exactamente lo mismo, así que la respuesta es una cuestión de probabilidad: el sistema se ajusta para equilibrar dejar pasar a la persona equivocada contra rechazar a la correcta.",
+      "Su gran ventaja es la comodidad: tu cara no se te olvida y nadie la puede espiar por encima del hombro. Su gran debilidad es que no se puede cambiar. Una contraseña filtrada se reemplaza en un minuto; una plantilla de huella filtrada, no. Por eso los celulares y las notebooks bien diseñados guardan la plantilla en un chip protegido del propio dispositivo y nunca la mandan a un servidor, y por eso la biometría suele desbloquear una clave o una passkey guardada localmente en vez de funcionar como una contraseña que viaja por internet.",
+      "La biometría también abre preguntas que van más allá de la seguridad. Una cara se puede capturar a distancia y sin consentimiento, así que el reconocimiento facial en espacios públicos, trabajos o escuelas está regulado en muchos países y en debate en otros. Para tus propios dispositivos, la mirada sensata es que la biometría es una cerradura cómoda que funciona mejor con un PIN o una contraseña de respaldo."
+    ],
+    "analogy": "Un portero que te conoce la cara. Es más rápido que mostrar el DNI, pero si alguien hiciera una máscara perfecta tuya, no podrías sacar una cara nueva como sacás un documento nuevo.",
+    "keyPoints": [
+      "Tu dispositivo guarda una plantilla matemática del rasgo, no una foto.",
+      "La comparación es probabilística: un equilibrio entre aceptar de más y rechazar de más.",
+      "Tu huella no se cambia, así que la plantilla debería quedarse en el dispositivo.",
+      "Suele ser un factor más, con un PIN o una contraseña de respaldo."
+    ],
+    "links": [
+      { "label": "Biometría en Wikipedia", "url": "https://es.wikipedia.org/wiki/Biometr%C3%ADa" },
+      { "label": "Biometrics, NIST (en inglés)", "url": "https://www.nist.gov/biometrics" }
+    ]
+  }
+}

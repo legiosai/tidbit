@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-moores-law",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["Moore’s law", "Moores law"],
+    "es": ["Moore's law", "Moore’s law"]
+  },
+  "image": "img/2026-10-17-moores-law.svg",
+  "imageAlt": {
+    "en": "A chart where each step to the right is two years and each bar doubles the number of transistors on a chip, rising steeply",
+    "es": "Un gráfico donde cada paso a la derecha son dos años y cada barra duplica la cantidad de transistores en un chip, subiendo empinado"
+  },
+  "en": {
+    "title": "Moore's law",
+    "tagline": "The observation that chips fit about twice as many transistors every two years.",
+    "explanation": [
+      "In 1965, Gordon Moore, who later co-founded Intel, noticed that the number of transistors that could be put on a chip was doubling at a steady pace. In 1975 he revised the pace to roughly every two years. That prediction, known as **Moore's law**, held up remarkably well for about half a century.",
+      "It is not a law of physics. It is an observation about engineering and economics, and for decades the industry treated it as a target, planning each new generation of factories to hit the next doubling. The results compound quickly: doubling every two years means roughly a thousand times more transistors every twenty years. That is why a phone today outperforms the supercomputers of the early 1990s, and why computers kept getting cheaper and more capable at the same time.",
+      "The pace has slowed. Transistors are now so small that each further step is harder, slower and far more expensive, and making them faster stopped being free around the mid-2000s because chips got too hot. The industry keeps progressing in other ways: more cores per chip, specialized chips like the GPU, stacking chips in 3D, and packaging several smaller chips together. So people argue about whether Moore's law is dead, but its effect, cheaper computing every year, still shapes the industry."
+    ],
+    "analogy": "Folding a sheet of paper in half again and again. Each fold only doubles it, which feels modest, but after a few dozen folds the stack would reach far past the clouds.",
+    "keyPoints": [
+      "Transistors per chip doubled roughly every two years for decades.",
+      "An observation and an industry target, not a law of nature.",
+      "Compounding made computers vastly cheaper and more powerful.",
+      "It has slowed; progress now also comes from specialization and packaging."
+    ],
+    "links": [
+      { "label": "Moore's law on Wikipedia", "url": "https://en.wikipedia.org/wiki/Moore%27s_law" },
+      { "label": "Transistor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Transistor" }
+    ]
+  },
+  "es": {
+    "title": "Ley de Moore",
+    "tagline": "La observación de que los chips meten el doble de transistores cada dos años.",
+    "explanation": [
+      "En 1965, Gordon Moore, que después fue cofundador de Intel, notó que la cantidad de transistores que se podían poner en un chip se duplicaba a un ritmo constante. En 1975 ajustó ese ritmo a más o menos cada dos años. Esa predicción, conocida como **ley de Moore**, se cumplió notablemente bien durante casi medio siglo.",
+      "No es una ley de la física. Es una observación sobre ingeniería y economía, y durante décadas la industria la tomó como meta: planificaba cada nueva generación de fábricas para llegar a la siguiente duplicación. Los resultados se acumulan rápido: duplicar cada dos años da más o menos mil veces más transistores cada veinte años. Por eso un celular de hoy supera a las supercomputadoras de principios de los años 90, y por eso las computadoras se fueron abaratando y mejorando al mismo tiempo.",
+      "El ritmo se frenó. Los transistores ya son tan chicos que cada paso nuevo es más difícil, más lento y muchísimo más caro, y hacerlos más rápidos dejó de ser gratis a mediados de los 2000 porque los chips se calentaban demasiado. La industria sigue avanzando por otros caminos: más núcleos por chip, chips especializados como la GPU, chips apilados en 3D y varios chips más chicos empaquetados juntos. Así que se discute si la ley de Moore murió, pero su efecto, computación más barata cada año, sigue marcando a la industria."
+    ],
+    "analogy": "Doblar una hoja de papel por la mitad una y otra vez. Cada doblez solo la duplica, lo que parece poco, pero después de unas decenas de dobleces la pila pasaría de largo las nubes.",
+    "keyPoints": [
+      "Los transistores por chip se duplicaron más o menos cada dos años durante décadas.",
+      "Una observación y una meta de la industria, no una ley de la naturaleza.",
+      "El efecto acumulado hizo las computadoras muchísimo más baratas y potentes.",
+      "Se frenó; el progreso hoy también viene de la especialización y el empaquetado."
+    ],
+    "links": [
+      { "label": "Ley de Moore en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ley_de_Moore" },
+      { "label": "Transistor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Transistor" }
+    ]
+  }
+}

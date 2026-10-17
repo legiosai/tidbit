@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-aws-organizations",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["AWS Organization", "organizational unit", "organizational units", "OU", "OUs", "service control policy", "service control policies", "SCP", "SCPs", "management account", "consolidated billing"],
+    "es": ["unidad organizativa", "unidades organizativas", "OU", "OUs", "política de control de servicios", "políticas de control de servicios", "SCP", "SCPs", "cuenta de administración", "facturación unificada"]
+  },
+  "image": "img/2026-10-17-aws-organizations.svg",
+  "imageAlt": {
+    "en": "A tree with a management account at the root, two organizational units below it and member accounts under each, with a guardrail rule applied to one branch",
+    "es": "Un árbol con la cuenta de administración en la raíz, dos unidades organizativas abajo y cuentas miembro debajo de cada una, con una regla de límite aplicada a una rama"
+  },
+  "en": {
+    "title": "AWS Organizations",
+    "tagline": "One place to group, govern and pay for many AWS accounts at once.",
+    "explanation": [
+      "Companies rarely use a single AWS account. They keep one for production, one for testing, one per team or per client, because an account is the strongest wall AWS offers: what happens in one does not touch the others. **AWS Organizations** is the service that ties all those accounts together under one roof.",
+      "You create an organization from a **management account** and invite or create **member accounts**. You can arrange them in a tree of **organizational units** (OUs), like folders: `Production`, `Sandbox`, `Finance`. All of them land on one bill (**consolidated billing**), so the company pays once and sees the cost of each account separately.",
+      "The most powerful piece is the **service control policy** (SCP): a rule attached to an OU or account that sets the maximum of what anyone inside can do. For example, \"no one in Sandbox can turn off CloudTrail\" or \"only these Regions are allowed\". It does not grant permissions; it caps them, even for the account's own administrators. That is how a security team sets guardrails across hundreds of accounts without logging into each one."
+    ],
+    "analogy": "A company with many branches. Each branch runs its own shop, but they share one accounting department, and head office can issue rules (\"no branch opens after midnight\") that no branch manager can override.",
+    "keyPoints": [
+      "Groups many AWS accounts under one management account.",
+      "Accounts are arranged in organizational units, like folders.",
+      "Consolidated billing puts every account on a single bill.",
+      "Service control policies cap what accounts can do; they never grant access."
+    ],
+    "links": [
+      { "label": "What is AWS Organizations? (official docs)", "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html" },
+      { "label": "AWS Organizations", "url": "https://aws.amazon.com/organizations/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Organizations",
+    "tagline": "Un solo lugar para agrupar, gobernar y pagar muchas cuentas de AWS a la vez.",
+    "explanation": [
+      "Las empresas casi nunca usan una sola cuenta de AWS. Tienen una para producción, otra para pruebas, una por equipo o por cliente, porque una cuenta es la pared más fuerte que ofrece AWS: lo que pasa en una no toca a las demás. **AWS Organizations** es el servicio que ata todas esas cuentas bajo un mismo techo.",
+      "Creás una organización desde una **cuenta de administración** e invitás o creás **cuentas miembro**. Las podés acomodar en un árbol de **unidades organizativas** (OUs), como carpetas: `Production`, `Sandbox`, `Finance`. Todas caen en una sola factura (**facturación unificada**), así que la empresa paga una vez y ve el costo de cada cuenta por separado.",
+      "La pieza más potente es la **política de control de servicios** (SCP, por sus siglas en inglés): una regla que se pega a una OU o a una cuenta y fija el máximo de lo que cualquiera adentro puede hacer. Por ejemplo, \"nadie en Sandbox puede apagar CloudTrail\" o \"solo se permiten estas regiones\". No da permisos; los limita, incluso para los administradores de la propia cuenta. Así un equipo de seguridad pone barandas en cientos de cuentas sin entrar a cada una."
+    ],
+    "analogy": "Una empresa con muchas sucursales. Cada sucursal maneja su local, pero comparten un único departamento de contabilidad, y la casa central puede dictar reglas (\"ninguna sucursal abre después de medianoche\") que ningún gerente de sucursal puede saltarse.",
+    "keyPoints": [
+      "Agrupa muchas cuentas de AWS bajo una cuenta de administración.",
+      "Las cuentas se ordenan en unidades organizativas, como carpetas.",
+      "La facturación unificada junta todas las cuentas en una sola factura.",
+      "Las SCPs limitan lo que pueden hacer las cuentas; nunca dan acceso."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Organizations? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/organizations/latest/userguide/orgs_introduction.html" },
+      { "label": "AWS Organizations", "url": "https://aws.amazon.com/es/organizations/" }
+    ]
+  }
+}

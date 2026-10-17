@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-aws-cdk",
+  "date": "2026-10-17",
+  "subjects": ["aws", "cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["CDK", "AWS Cloud Development Kit", "Cloud Development Kit", "CDK app", "CDK apps", "CDK construct", "CDK constructs"],
+    "es": ["CDK", "AWS Cloud Development Kit", "Cloud Development Kit", "app de CDK", "apps de CDK", "construct de CDK", "constructs de CDK"]
+  },
+  "image": "img/2026-10-17-aws-cdk.svg",
+  "imageAlt": {
+    "en": "A few lines of TypeScript become, after cdk synth, a long CloudFormation template, which cdk deploy turns into a bucket, a function and a queue",
+    "es": "Unas pocas líneas de TypeScript se convierten, con cdk synth, en una plantilla larga de CloudFormation, que cdk deploy transforma en un bucket, una función y una cola"
+  },
+  "en": {
+    "title": "AWS CDK",
+    "tagline": "Describe your AWS infrastructure in a real programming language instead of YAML.",
+    "explanation": [
+      "**AWS CDK** (Cloud Development Kit) is an infrastructure as code tool where you describe servers, buckets, queues and permissions in TypeScript, Python, Java, C# or Go. Under the hood it does not talk to AWS directly: it **synthesizes** your program into an AWS CloudFormation template, and CloudFormation creates or updates the resources. The two key commands are `cdk synth`, which produces the template, and `cdk deploy`, which applies it.",
+      "Writing a real program brings the things programmers are used to: loops, functions, autocompletion, type checks, tests, and packages to share code. A few lines like `new s3.Bucket(this, 'Uploads', { versioned: true })` can expand into dozens of lines of template. Ten similar environments become one loop instead of ten copied files.",
+      "The building blocks are **constructs**, which come in levels. Low-level ones map one-to-one to CloudFormation resources. Higher-level ones bundle sensible defaults (a bucket that is encrypted and blocks public access unless you say otherwise), and the highest-level ones assemble whole patterns, like a load-balanced container service. One helper worth knowing: `bucket.grantRead(fn)` writes the IAM policy for you, scoped to exactly that bucket. Each account and Region needs a one-time `cdk bootstrap` before the first deploy."
+    ],
+    "analogy": "Building with prefabricated modules instead of drawing every brick. You say \"a kitchen here\" and the module arrives with plumbing and wiring already done; the city still inspects the final blueprint, which in this case is CloudFormation.",
+    "keyPoints": [
+      "Infrastructure in TypeScript, Python, Java, C# or Go.",
+      "Synthesizes to CloudFormation templates; CloudFormation does the actual deploy.",
+      "Constructs package resources with safe defaults and reusable patterns.",
+      "Helpers like `grantRead` generate least-privilege IAM permissions."
+    ],
+    "links": [
+      { "label": "What is the AWS CDK? (official docs)", "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html" },
+      { "label": "AWS Cloud Development Kit", "url": "https://aws.amazon.com/cdk/" }
+    ]
+  },
+  "es": {
+    "title": "AWS CDK",
+    "tagline": "Describir tu infraestructura de AWS en un lenguaje de programación real, no en YAML.",
+    "explanation": [
+      "**AWS CDK** (Cloud Development Kit) es una herramienta de infraestructura como código donde describís servidores, buckets, colas y permisos en TypeScript, Python, Java, C# o Go. Por debajo no le habla directo a AWS: **sintetiza** tu programa en una plantilla de AWS CloudFormation, y CloudFormation crea o actualiza los recursos. Los dos comandos clave son `cdk synth`, que genera la plantilla, y `cdk deploy`, que la aplica.",
+      "Escribir un programa de verdad trae lo que cualquier programador ya conoce: loops, funciones, autocompletado, chequeo de tipos, tests y paquetes para compartir código. Unas pocas líneas como `new s3.Bucket(this, 'Uploads', { versioned: true })` pueden expandirse en decenas de líneas de plantilla. Diez entornos parecidos pasan a ser un loop en vez de diez archivos copiados.",
+      "Las piezas se llaman **constructs** y vienen en niveles. Los de bajo nivel corresponden uno a uno con recursos de CloudFormation. Los de nivel más alto traen valores por defecto sensatos (un bucket cifrado y con el acceso público bloqueado salvo que digas lo contrario), y los más altos arman patrones enteros, como un servicio de contenedores con balanceador. Un ayudante que conviene conocer: `bucket.grantRead(fn)` te escribe la política de IAM, limitada justo a ese bucket. Cada cuenta y región necesita un `cdk bootstrap` una única vez antes del primer deploy."
+    ],
+    "analogy": "Construir con módulos prefabricados en vez de dibujar cada ladrillo. Decís \"acá va una cocina\" y el módulo llega con la plomería y la electricidad hechas; la municipalidad igual revisa el plano final, que en este caso es CloudFormation.",
+    "keyPoints": [
+      "Infraestructura en TypeScript, Python, Java, C# o Go.",
+      "Sintetiza plantillas de CloudFormation; el deploy real lo hace CloudFormation.",
+      "Los constructs empaquetan recursos con valores seguros por defecto y patrones reutilizables.",
+      "Ayudantes como `grantRead` generan permisos de IAM con el mínimo privilegio."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS CDK? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/cdk/v2/guide/home.html" },
+      { "label": "AWS Cloud Development Kit", "url": "https://aws.amazon.com/es/cdk/" }
+    ]
+  }
+}

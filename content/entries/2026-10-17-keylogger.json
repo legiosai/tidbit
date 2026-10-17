@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-keylogger",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["keyloggers", "keystroke logger", "keystroke logging"],
+    "es": ["keyloggers", "registrador de teclas", "registradores de teclas"]
+  },
+  "image": "img/2026-10-17-keylogger.svg",
+  "imageAlt": {
+    "en": "A keyboard types a password; a hidden keylogger copies each keystroke and sends it to an attacker, while a 2FA code still blocks the attacker's login",
+    "es": "Un teclado escribe una contraseña; un keylogger escondido copia cada tecla y se la manda a un atacante, mientras un código 2FA igual bloquea el login del atacante"
+  },
+  "en": {
+    "title": "Keylogger",
+    "tagline": "Software or a gadget that secretly records everything you type.",
+    "explanation": [
+      "A **keylogger** records every key you press and sends the log to someone else. Passwords, card numbers, private messages, searches: if you type it, it ends up in the list. Most keyloggers are a kind of malware (often grouped under spyware) that sneaks onto a computer or phone through a phishing attachment, a pirated program or a fake app. A few are physical: a small plug between the keyboard and the computer, or a skimmer stuck on an ATM keypad.",
+      "Not all of them are criminal. Some parental-control and employee-monitoring products record keystrokes openly, and the law in many countries limits when that is allowed. What makes a keylogger an attack is that it runs without the person's knowledge, to steal what they type.",
+      "Protection is mostly good habits. Keep the operating system and the browser updated, install apps only from official stores, and be suspicious of attachments. A password manager helps because it fills passwords in without you typing them. And two-factor authentication is the real safety net: even if a keylogger captures your password, the attacker still needs the code on your phone or your security key. On shared or public computers, avoid logging into anything important."
+    ],
+    "analogy": "Someone standing behind you writing down every word as you type, except they are invisible and never get tired.",
+    "keyPoints": [
+      "Records keystrokes and sends them to whoever installed it.",
+      "Usually arrives as malware; some are small devices plugged into the keyboard.",
+      "A password manager reduces how much you type; 2FA makes stolen passwords far less useful.",
+      "Be careful logging into important accounts on shared or public computers."
+    ],
+    "links": [
+      { "label": "Keystroke logging on Wikipedia", "url": "https://en.wikipedia.org/wiki/Keystroke_logging" },
+      { "label": "What is a keylogger? (Kaspersky)", "url": "https://www.kaspersky.com/resource-center/definitions/keylogger" }
+    ]
+  },
+  "es": {
+    "title": "Keylogger",
+    "tagline": "Un programa o aparatito que graba en secreto todo lo que tipeás.",
+    "explanation": [
+      "Un **keylogger** (registrador de teclas) graba cada tecla que apretás y le manda el registro a otra persona. Contraseñas, números de tarjeta, mensajes privados, búsquedas: si lo tipeás, termina en la lista. La mayoría son un tipo de malware (muchas veces se los cuenta como spyware) que se mete en una computadora o un celular a través de un adjunto de phishing, un programa pirateado o una app falsa. Algunos son físicos: un pequeño conector entre el teclado y la computadora, o un skimmer pegado sobre el teclado de un cajero automático.",
+      "No todos son delictivos. Algunos productos de control parental o de monitoreo de empleados registran teclas de forma abierta, y en muchos países la ley limita cuándo se puede hacer. Lo que convierte a un keylogger en un ataque es que funciona sin que la persona lo sepa, para robar lo que escribe.",
+      "Protegerse es sobre todo cuestión de hábitos. Mantené actualizados el sistema operativo y el navegador, instalá apps solo desde las tiendas oficiales y desconfiá de los adjuntos. Un gestor de contraseñas ayuda porque completa las claves sin que las tipees. Y la autenticación en dos pasos es la verdadera red de seguridad: aunque un keylogger capture tu contraseña, el atacante igual necesita el código de tu celular o tu llave de seguridad. En computadoras compartidas o públicas, evitá entrar a cuentas importantes."
+    ],
+    "analogy": "Alguien parado atrás tuyo anotando cada palabra que tipeás, solo que es invisible y nunca se cansa.",
+    "keyPoints": [
+      "Graba las teclas y se las manda a quien lo instaló.",
+      "Suele llegar como malware; algunos son aparatitos enchufados al teclado.",
+      "Un gestor de contraseñas reduce lo que tipeás; el 2FA hace que una contraseña robada sirva mucho menos.",
+      "Cuidado con entrar a cuentas importantes desde computadoras compartidas o públicas."
+    ],
+    "links": [
+      { "label": "Keylogger en Wikipedia", "url": "https://es.wikipedia.org/wiki/Keylogger" },
+      { "label": "¿Qué es un keylogger? (Kaspersky)", "url": "https://latam.kaspersky.com/resource-center/definitions/keylogger" }
+    ]
+  }
+}

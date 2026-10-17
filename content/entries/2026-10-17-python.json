@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-python",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Python 3"],
+    "es": ["Python 3"]
+  },
+  "image": "img/2026-10-17-python.svg",
+  "imageAlt": {
+    "en": "A short Python program that reads like plain English, surrounded by what it is used for: data, AI, scripts and the web",
+    "es": "Un programa corto en Python que se lee casi como inglés, rodeado de sus usos: datos, IA, scripts y la web"
+  },
+  "en": {
+    "title": "Python",
+    "tagline": "A popular programming language known for being easy to read and quick to write.",
+    "explanation": [
+      "**Python** is a general-purpose programming language created by Guido van Rossum and first released in 1991. Its main idea is that code is read far more often than it is written, so it should look clean: a Python program uses plain words like `for`, `in` and `if`, and indentation (the spaces at the start of a line) to show which lines belong together.",
+      "It is used almost everywhere: data analysis, AI and machine learning, automating boring tasks with small scripts, web servers, scientific research and teaching. Much of its strength comes from its huge collection of free libraries, ready-made code you can install with one command, for things like reading spreadsheets, drawing charts or training neural networks.",
+      "Python is usually run by an **interpreter**, a program that reads your code and executes it line by line, instead of being compiled ahead of time. That makes it fast to try things out but slower than languages like C for heavy number crunching; in practice the heavy parts of popular Python libraries are written in faster languages underneath."
+    ],
+    "analogy": "A well-written instruction manual with big headings and clear indentation: you can tell at a glance which steps belong to which section, even if you did not write it.",
+    "keyPoints": [
+      "Created by Guido van Rossum; first released in 1991. The name comes from Monty Python, not the snake.",
+      "Indentation is part of the language: it defines which lines go together.",
+      "Dominant in data science and AI thanks to its libraries.",
+      "Free and open source, run by the Python Software Foundation."
+    ],
+    "links": [
+      { "label": "About Python (python.org)", "url": "https://www.python.org/about/" },
+      { "label": "The official Python tutorial", "url": "https://docs.python.org/3/tutorial/index.html" },
+      { "label": "Python on Wikipedia", "url": "https://en.wikipedia.org/wiki/Python_(programming_language)" }
+    ]
+  },
+  "es": {
+    "title": "Python",
+    "tagline": "Un lenguaje de programación muy usado, conocido por ser fácil de leer y de escribir.",
+    "explanation": [
+      "**Python** es un lenguaje de programación de uso general creado por Guido van Rossum y publicado por primera vez en 1991. Su idea central es que el código se lee muchas más veces de las que se escribe, así que tiene que verse prolijo: un programa en Python usa palabras simples como `for`, `in` e `if`, y la indentación (los espacios al principio de cada línea) para mostrar qué líneas van juntas.",
+      "Se usa casi en todos lados: análisis de datos, IA y machine learning, scripts chiquitos para automatizar tareas aburridas, servidores web, investigación científica y enseñanza. Buena parte de su fuerza viene de su enorme colección de bibliotecas gratuitas, código ya hecho que instalás con un comando, para leer planillas, dibujar gráficos o entrenar redes neuronales.",
+      "Python normalmente lo ejecuta un **intérprete**, un programa que lee tu código y lo va corriendo línea por línea, en vez de compilarlo de antemano. Eso lo hace ideal para probar cosas rápido, pero más lento que lenguajes como C para cálculos pesados; en la práctica, las partes pesadas de las bibliotecas populares de Python están escritas por debajo en lenguajes más rápidos."
+    ],
+    "analogy": "Un manual de instrucciones bien escrito, con títulos grandes y sangrías claras: de un vistazo ves qué pasos van en qué sección, aunque no lo hayas escrito vos.",
+    "keyPoints": [
+      "Lo creó Guido van Rossum; salió en 1991. El nombre viene de Monty Python, no de la serpiente.",
+      "La indentación es parte del lenguaje: define qué líneas van juntas.",
+      "Domina en ciencia de datos e IA gracias a sus bibliotecas.",
+      "Es libre y de código abierto, a cargo de la Python Software Foundation."
+    ],
+    "links": [
+      { "label": "Python en Wikipedia", "url": "https://es.wikipedia.org/wiki/Python" },
+      { "label": "El tutorial oficial de Python", "url": "https://docs.python.org/es/3/tutorial/index.html" },
+      { "label": "Preguntas frecuentes sobre Python (python.org)", "url": "https://docs.python.org/es/3/faq/general.html" }
+    ]
+  }
+}

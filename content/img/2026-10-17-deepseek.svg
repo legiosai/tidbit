@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="140" y="22" width="120" height="54" rx="10" fill="#ffd166"/>
+    <rect x="24" y="118" width="104" height="76" rx="10" fill="#9bd1b9"/>
+    <rect x="148" y="118" width="104" height="76" rx="10" fill="#e6dfd0"/>
+    <rect x="272" y="118" width="104" height="76" rx="10" fill="#9ac7ea"/>
+    <path d="M60 152 H92 V180 H60 Z" fill="#e6dfd0"/>
+    <path d="M184 144 H210 L218 152 V182 H184 Z" fill="#f3efe6"/>
+    <rect x="296" y="146" width="56" height="20" rx="8" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M168 76 L90 114"/><path d="M90 114 l4 -7 M90 114 l8 0"/>
+    <path d="M200 76 V112"/><path d="M196 106 l4 6 4 -6"/>
+    <path d="M232 76 L310 114"/><path d="M310 114 l-8 0 M310 114 l-4 -7"/>
+    <path d="M76 158 V172"/><path d="M70 166 l6 6 6 -6"/>
+    <path d="M190 160 H212"/><path d="M190 167 H212"/><path d="M190 174 H206"/>
+    <path d="M310 166 l-4 8 10 -8"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="45" font-weight="bold">AI model</text>
+    <text x="76" y="138">weights</text><text x="200" y="138">how it's made</text><text x="324" y="138">chat · API</text>
+  </g>
+  <text x="200" y="64" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b">made in Hangzhou</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="76" y="210">anyone can run it</text><text x="200" y="210">report</text><text x="324" y="210">low prices</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">strong model · shared openly · trained efficiently</text>
+</svg>

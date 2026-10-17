@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-17-brute-force-attack",
+  "date": "2026-10-17",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "brute force",
+      "brute-force",
+      "brute force attack",
+      "brute-force attacks",
+      "dictionary attack",
+      "credential stuffing"
+    ],
+    "es": [
+      "fuerza bruta",
+      "ataques de fuerza bruta",
+      "ataque de diccionario",
+      "credential stuffing",
+      "relleno de credenciales"
+    ]
+  },
+  "image": "img/2026-10-17-brute-force-attack.svg",
+  "imageAlt": {
+    "en": "A list of common passwords being tried one after another against a padlock, each crossed out, until the system answers too many tries: wait",
+    "es": "Una lista de contraseñas comunes que se prueban una tras otra contra un candado, todas tachadas, hasta que el sistema responde too many tries: wait (demasiados intentos, esperá)"
+  },
+  "en": {
+    "title": "Brute-force attack",
+    "tagline": "Breaking into an account by trying passwords, one after another, until one works.",
+    "explanation": [
+      "A **brute-force attack** is the least clever way to get into an account, and still one of the most common: a program tries passwords over and over until one is accepted. It does not exploit a flaw in the software. It relies on the password being short, common, or already known.",
+      "Attackers rarely try every possible combination, because that takes too long. A **dictionary attack** starts with the passwords people actually use, like `123456`, names, sports teams and keyboard patterns, plus common tweaks such as adding a year. **Credential stuffing** goes one step further: it takes email and password pairs leaked from one site and tries them on others, betting that people reuse passwords. When a company's password database is stolen, attackers can also guess at full speed on their own machines, offline, without any login page to slow them down.",
+      "The math favors long passwords. Each extra character multiplies the number of possibilities, so a long passphrase of four random words is far harder to guess than a short password full of symbols. That is why a password manager, which creates a long, different password for every site, defeats most of these attacks, and why two-factor authentication helps even when the password is guessed.",
+      "Services defend themselves too: they limit how many attempts each account or address can make, add delays or a CAPTCHA after failures, alert you about strange logins, and store passwords with deliberately slow hashing so a stolen database is expensive to crack."
+    ],
+    "analogy": "A thief standing at a combination lock with patience and a list of the most popular codes. A four-digit bike lock falls quickly; a long combination, or a lock that jams after five wrong tries, makes the whole approach useless.",
+    "keyPoints": [
+      "It guesses passwords instead of exploiting a bug, so weak and reused passwords are the target.",
+      "Credential stuffing reuses passwords leaked from other sites.",
+      "Length beats complexity: each extra character multiplies the work.",
+      "Unique passwords from a password manager plus 2FA stop almost all of it."
+    ],
+    "links": [
+      {
+        "label": "Brute force attack (OWASP)",
+        "url": "https://owasp.org/www-community/attacks/Brute_force_attack"
+      },
+      {
+        "label": "Use strong passwords (CISA)",
+        "url": "https://www.cisa.gov/secure-our-world/use-strong-passwords"
+      },
+      {
+        "label": "Brute-force attack on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brute-force_attack"
+      }
+    ]
+  },
+  "es": {
+    "title": "Ataque de fuerza bruta",
+    "tagline": "Entrar a una cuenta probando contraseñas, una detrás de otra, hasta que alguna funcione.",
+    "explanation": [
+      "Un **ataque de fuerza bruta** es la forma menos ingeniosa de entrar a una cuenta, y aun así una de las más comunes: un programa prueba contraseñas una y otra vez hasta que una es aceptada. No aprovecha ninguna falla del software. Cuenta con que la contraseña sea corta, común o ya conocida.",
+      "Casi nunca se prueban todas las combinaciones posibles, porque tardaría demasiado. Un **ataque de diccionario** arranca por las contraseñas que la gente usa de verdad, como `123456`, nombres, equipos de fútbol y patrones del teclado, más variantes típicas como agregar un año. El **credential stuffing** (relleno de credenciales) va un paso más allá: toma pares de correo y contraseña filtrados de un sitio y los prueba en otros, apostando a que la gente repite contraseñas. Y cuando le roban a una empresa su base de contraseñas, se puede adivinar a toda velocidad en máquinas propias, offline, sin ninguna página de login que frene.",
+      "La matemática juega a favor de las contraseñas largas. Cada carácter extra multiplica la cantidad de posibilidades, así que una frase de cuatro palabras al azar es muchísimo más difícil de adivinar que una contraseña corta llena de símbolos. Por eso un gestor de contraseñas, que crea una contraseña larga y distinta para cada sitio, frena la mayoría de estos ataques, y por eso la autenticación de dos factores ayuda incluso si adivinan la contraseña.",
+      "Los servicios también se defienden: limitan cuántos intentos puede hacer cada cuenta o dirección, agregan demoras o un CAPTCHA después de varios fallos, te avisan de inicios de sesión raros y guardan las contraseñas con un hashing lento a propósito, para que una base robada cueste mucho de romper."
+    ],
+    "analogy": "Un ladrón parado frente a un candado de combinación, con paciencia y una lista de los códigos más populares. El candado de bici de cuatro dígitos cae rápido; una combinación larga, o un candado que se traba después de cinco intentos fallidos, deja la estrategia sin sentido.",
+    "keyPoints": [
+      "Adivina contraseñas en vez de aprovechar un bug, así que el blanco son las débiles y repetidas.",
+      "El credential stuffing reutiliza contraseñas filtradas de otros sitios.",
+      "El largo le gana a la complejidad: cada carácter extra multiplica el trabajo.",
+      "Contraseñas únicas de un gestor de contraseñas más 2FA frenan casi todo."
+    ],
+    "links": [
+      {
+        "label": "Ataque de fuerza bruta en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Ataque_de_fuerza_bruta"
+      },
+      {
+        "label": "Brute force attack, OWASP (en inglés)",
+        "url": "https://owasp.org/www-community/attacks/Brute_force_attack"
+      }
+    ]
+  }
+}

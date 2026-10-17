@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="24" width="340" height="32" rx="8" fill="#e6dfd0"/>
+    <rect x="30" y="92" width="100" height="62" rx="8" fill="#9ac7ea"/>
+    <rect x="150" y="92" width="100" height="62" rx="8" fill="#9bd1b9"/>
+    <rect x="270" y="92" width="100" height="62" rx="8" fill="#f4a7a7"/>
+    <rect x="160" y="178" width="80" height="26" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 58 V90"/><path d="M200 58 V90"/><path d="M320 58 V90"/>
+    <path d="M80 156 V191 H158"/><path d="M320 156 V191 H242"/><path d="M200 156 V176"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f3efe6">
+    <circle cx="62" cy="128" r="5"/><circle cx="80" cy="128" r="5"/><circle cx="98" cy="128" r="5"/>
+    <circle cx="182" cy="128" r="5"/><circle cx="200" cy="128" r="5"/><circle cx="218" cy="128" r="5"/>
+    <circle cx="302" cy="128" r="5"/><circle cx="320" cy="128" r="5"/><circle cx="338" cy="128" r="5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="110">10.0.1.0/24</text><text x="200" y="110">10.0.2.0/24</text><text x="320" y="110">10.0.3.0/24</text>
+  </g>
+  <text x="200" y="45" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b">10.0.0.0/16</text>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="148">web</text><text x="200" y="148">database</text><text x="320" y="148">guests</text>
+    <text x="200" y="195">router</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same subnet: direct · other subnet: via router</text>
+</svg>

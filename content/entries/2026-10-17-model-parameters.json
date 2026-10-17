@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-model-parameters",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["model weights", "parameter count", "weights"],
+    "es": ["parámetros del modelo", "pesos del modelo"]
+  },
+  "image": "img/2026-10-17-model-parameters.svg",
+  "imageAlt": {
+    "en": "A box labeled 70B, meaning 70 billion learned numbers, above a grid of sample decimal numbers, with two memory sizes: roughly 140 GB at 16 bits and roughly 35 GB at 4 bits",
+    "es": "Una caja que dice 70B, es decir 70 mil millones de números aprendidos, sobre una grilla de números decimales de ejemplo, con dos tamaños de memoria: unos 140 GB a 16 bits y unos 35 GB a 4 bits"
+  },
+  "en": {
+    "title": "Model parameters",
+    "tagline": "The billions of numbers a model learns in training; '70B' means 70 billion of them.",
+    "explanation": [
+      "A neural network is, underneath, a huge collection of numbers. During training each of those numbers is adjusted again and again until the model gets good at its task. Those learned numbers are the **parameters**, also called **weights**. They are the model: when people 'download a model', they are downloading a file full of them.",
+      "When you see a name like 'Llama 70B' or hear 'a 7-billion-parameter model', the number is how many parameters it has: B means billion. In 2020 GPT-3 had 175 billion, which seemed enormous at the time. More parameters give a model more room to store patterns, so bigger models tend to be more capable, but the quality and amount of training data matter just as much, and a well-trained small model can beat a sloppy big one. Many companies no longer publish parameter counts for their top models.",
+      "The count also tells you what hardware you need. Each parameter is stored with a certain precision: at 16 bits it takes 2 bytes, so a 70B model needs roughly 140 GB of memory just to load, far more than a laptop has. **Quantization** stores each number with fewer bits, for example 4, shrinking the same model to roughly 35 GB at a small cost in quality. Some models, called **mixture of experts**, only use part of their parameters for each word, so they run faster than their total size suggests."
+    ],
+    "analogy": "Parameters are like the knobs on a gigantic mixing desk. Training turns each knob a tiny bit until the sound is right. A '70B' desk has 70 billion knobs, which is why it needs a very big room.",
+    "keyPoints": [
+      "Parameters, or weights, are the numbers a model learns in training.",
+      "'70B' means roughly 70 billion parameters.",
+      "Memory needed is about parameters times bytes per parameter.",
+      "Bigger is often more capable, but data and training matter as much."
+    ],
+    "links": [
+      { "label": "Large language model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Large_language_model" },
+      { "label": "Machine learning glossary: parameter (Google)", "url": "https://developers.google.com/machine-learning/glossary#parameter" },
+      { "label": "Mixture of experts on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mixture_of_experts" }
+    ]
+  },
+  "es": {
+    "title": "Parámetros de un modelo",
+    "tagline": "Los miles de millones de números que aprende un modelo; '70B' son 70 mil millones.",
+    "explanation": [
+      "Una red neuronal es, en el fondo, una colección enorme de números. Durante el entrenamiento cada uno de esos números se ajusta una y otra vez hasta que el modelo hace bien su tarea. Esos números aprendidos son los **parámetros**, también llamados **pesos** (weights). Son el modelo: cuando alguien 'descarga un modelo', está descargando un archivo lleno de ellos.",
+      "Cuando ves un nombre como 'Llama 70B' o escuchás 'un modelo de 7 mil millones de parámetros', el número es cuántos parámetros tiene: la B viene de billion, que en inglés quiere decir mil millones (no el billón nuestro). En 2020 GPT-3 tenía 175 mil millones, algo que en ese momento parecía enorme. Más parámetros le dan al modelo más lugar para guardar patrones, así que los modelos grandes suelen ser más capaces, pero la calidad y la cantidad de datos de entrenamiento importan igual, y un modelo chico bien entrenado le puede ganar a uno grande hecho a las apuradas. Muchas empresas ya no publican cuántos parámetros tienen sus modelos principales.",
+      "La cifra también te dice qué hardware hace falta. Cada parámetro se guarda con cierta precisión: a 16 bits ocupa 2 bytes, así que un modelo de 70B necesita unos 140 GB de memoria solo para cargarse, mucho más de lo que tiene una notebook. La **cuantización** guarda cada número con menos bits, por ejemplo 4, y deja el mismo modelo en unos 35 GB a cambio de perder un poco de calidad. Algunos modelos, llamados **mixture of experts** (mezcla de expertos), usan solo una parte de sus parámetros para cada palabra, así que corren más rápido de lo que sugiere su tamaño total."
+    ],
+    "analogy": "Los parámetros son como las perillas de una consola de sonido gigantesca. El entrenamiento gira cada perilla un poquito hasta que suena bien. Una consola '70B' tiene 70 mil millones de perillas, por eso necesita una sala muy grande.",
+    "keyPoints": [
+      "Los parámetros, o pesos, son los números que el modelo aprende al entrenarse.",
+      "'70B' quiere decir unos 70 mil millones de parámetros (la B es billion en inglés).",
+      "La memoria necesaria es más o menos parámetros por bytes por parámetro.",
+      "Más grande suele ser más capaz, pero los datos y el entrenamiento pesan igual."
+    ],
+    "links": [
+      { "label": "Modelo de lenguaje de gran tamaño en Wikipedia", "url": "https://es.wikipedia.org/wiki/Modelo_extenso_de_lenguaje" },
+      { "label": "Glosario de aprendizaje automático (Google)", "url": "https://developers.google.com/machine-learning/glossary?hl=es-419" },
+      { "label": "Red neuronal artificial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Red_neuronal_artificial" }
+    ]
+  }
+}

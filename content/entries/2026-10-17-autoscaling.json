@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-autoscaling",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["auto scaling", "auto-scaling", "Auto Scaling group", "Auto Scaling groups", "scale out", "scale in"],
+    "es": ["autoscaling", "auto scaling", "escalado automático", "Auto Scaling group"]
+  },
+  "image": "img/2026-10-17-autoscaling.svg",
+  "imageAlt": {
+    "en": "A traffic curve rises and falls during the day, and the number of servers below it grows from two to five at the peak and shrinks back",
+    "es": "Una curva de tráfico sube y baja durante el día, y la cantidad de servidores debajo crece de dos a cinco en el pico y vuelve a bajar"
+  },
+  "en": {
+    "title": "Autoscaling",
+    "tagline": "Adding and removing servers automatically as demand goes up and down.",
+    "explanation": [
+      "**Autoscaling** is a cloud feature that changes the number of servers running an application on its own, based on how busy it is. When traffic rises, it adds copies (**scaling out**); when traffic falls, it removes them (**scaling in**). A load balancer in front spreads requests across whatever copies exist at the moment.",
+      "You set the rules: keep average CPU around 50%, never run fewer than two servers or more than twenty, add capacity every weekday at 8 a.m. before the rush. The system watches metrics like CPU, memory, request count or queue length and acts when they cross the line. On AWS this is done with **Auto Scaling groups** for EC2; Kubernetes does the same for containers, and serverless platforms like AWS Lambda scale by themselves without any of this setup.",
+      "The point is to pay for what you use without falling over at the peak. A ticket site can run a few servers at night and dozens when a big concert goes on sale. It only works well if the app is designed for it: any copy must be able to handle any request, with no important data kept only on one server, and new copies must start quickly. Scaling also takes time, so a sudden spike can still hit before new servers are ready."
+    ],
+    "analogy": "A supermarket that opens more checkouts when the lines get long and closes them when the store empties. Customers never wait too long, and the store does not pay cashiers to stand at empty tills.",
+    "keyPoints": [
+      "Adds servers when load rises and removes them when it falls.",
+      "Driven by rules on metrics like CPU, requests or queue length, plus minimums and maximums.",
+      "Works with a load balancer and apps where any copy can serve any request.",
+      "New capacity takes time to start, so sudden spikes still need headroom."
+    ],
+    "links": [
+      { "label": "What is Amazon EC2 Auto Scaling? (AWS docs)", "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html" },
+      { "label": "Autoscaling workloads (Kubernetes docs)", "url": "https://kubernetes.io/docs/concepts/workloads/autoscaling/" },
+      { "label": "Autoscaling on Wikipedia", "url": "https://en.wikipedia.org/wiki/Autoscaling" }
+    ]
+  },
+  "es": {
+    "title": "Autoescalado",
+    "tagline": "Sumar y sacar servidores en forma automática a medida que sube y baja la demanda.",
+    "explanation": [
+      "El **autoescalado** (autoscaling) es una función de la nube que cambia sola la cantidad de servidores que corren una aplicación, según qué tan ocupada esté. Cuando sube el tráfico, agrega copias (**escalar hacia afuera**, scale out); cuando baja, las saca (**escalar hacia adentro**, scale in). Un balanceador de carga adelante reparte los pedidos entre las copias que haya en cada momento.",
+      "Las reglas las ponés vos: mantener la CPU promedio cerca del 50%, nunca tener menos de dos servidores ni más de veinte, sumar capacidad los días hábiles a las 8 antes de la hora pico. El sistema mira métricas como CPU, memoria, cantidad de pedidos o largo de una cola y actúa cuando cruzan el límite. En AWS se hace con **Auto Scaling groups** para EC2; Kubernetes hace lo mismo con contenedores, y las plataformas serverless como AWS Lambda escalan solas sin nada de esta configuración.",
+      "La idea es pagar por lo que usás sin caerte en el pico. Un sitio de venta de entradas puede correr pocos servidores de noche y decenas cuando sale a la venta un recital grande. Solo funciona bien si la app está pensada para esto: cualquier copia tiene que poder atender cualquier pedido, sin datos importantes guardados en un único servidor, y las copias nuevas tienen que arrancar rápido. Escalar también lleva tiempo, así que un pico repentino puede llegar antes de que los servidores nuevos estén listos."
+    ],
+    "analogy": "Un supermercado que abre más cajas cuando las filas se alargan y las cierra cuando el local se vacía. Nadie espera demasiado, y el súper no le paga a cajeros para que miren cajas vacías.",
+    "keyPoints": [
+      "Suma servidores cuando sube la carga y los saca cuando baja.",
+      "Se maneja con reglas sobre métricas como CPU, pedidos o largo de cola, más mínimos y máximos.",
+      "Funciona con un balanceador de carga y apps donde cualquier copia atiende cualquier pedido.",
+      "La capacidad nueva tarda en arrancar, así que los picos repentinos igual necesitan margen."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon EC2 Auto Scaling? (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html" },
+      { "label": "Autoescalado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Autoescalado" }
+    ]
+  }
+}

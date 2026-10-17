@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-cookies",
+  "date": "2026-10-17",
+  "subjects": ["security", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["cookie", "HTTP cookie", "HTTP cookies", "browser cookies", "third-party cookies", "tracking cookies"],
+    "es": ["cookie", "cookies de terceros", "cookies de seguimiento", "cookies del navegador"]
+  },
+  "image": "img/2026-10-17-cookies.svg",
+  "imageAlt": {
+    "en": "A website hands the browser a small cookie with an id; on the next visit the browser shows it back, and an ad network's cookie follows the user across several sites",
+    "es": "Un sitio le da al navegador una cookie chiquita con un id; en la visita siguiente el navegador la devuelve, y la cookie de una red de avisos sigue al usuario por varios sitios"
+  },
+  "en": {
+    "title": "Cookies",
+    "tagline": "Small notes a website asks your browser to keep, so it can recognize you later.",
+    "explanation": [
+      "A **cookie** is a small piece of text that a website asks your web browser to store, like `session=8f3a…`. Every time you go back to that site, the browser sends the cookie along with each request. That is how a site remembers that you are logged in, what is in your cart or which language you picked, even though each page load is otherwise a separate conversation.",
+      "Cookies belong to the site that set them. A **first-party cookie** comes from the site you are visiting. A **third-party cookie** comes from another company whose content is embedded in the page, like an ad network or a social media button. If the same ad network sits on thousands of sites, its cookie lets it recognize you on all of them and build a profile of your browsing. That is what people usually mean by tracking cookies.",
+      "Because of this, privacy laws such as the EU's GDPR and ePrivacy rules require sites to ask before setting non-essential cookies, which is where the cookie banners come from. Browsers have also tightened the rules: Safari and Firefox block third-party cookies by default, and deleting your cookies logs you out of sites and makes them forget you."
+    ],
+    "analogy": "The wristband you get at a festival. Show it at the gate and they let you back in without paying again. A tracking cookie is like a sponsor who stamped your hand and has staff at every festival in the country checking for the stamp.",
+    "keyPoints": [
+      "Small text the browser stores and sends back to the same site.",
+      "They keep you logged in and remember carts and preferences.",
+      "Third-party cookies can follow you across many sites; that is tracking.",
+      "Clearing them logs you out and resets what sites remember about you."
+    ],
+    "links": [
+      { "label": "Using HTTP cookies (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies" },
+      { "label": "HTTP cookie on Wikipedia", "url": "https://en.wikipedia.org/wiki/HTTP_cookie" }
+    ]
+  },
+  "es": {
+    "title": "Cookies",
+    "tagline": "Notitas que un sitio le pide a tu navegador que guarde, para reconocerte después.",
+    "explanation": [
+      "Una **cookie** es un pedacito de texto que un sitio web le pide a tu navegador que guarde, algo como `session=8f3a…`. Cada vez que volvés a ese sitio, el navegador manda la cookie junto con cada pedido. Así es como un sitio se acuerda de que iniciaste sesión, de qué hay en tu carrito o de qué idioma elegiste, aunque cada carga de página sea, en principio, una conversación aparte.",
+      "Las cookies pertenecen al sitio que las creó. Una **cookie propia** (first-party) viene del sitio que estás visitando. Una **cookie de terceros** viene de otra empresa cuyo contenido está incrustado en la página, como una red de avisos o un botón de una red social. Si la misma red de avisos está en miles de sitios, su cookie le permite reconocerte en todos y armar un perfil de lo que navegás. A eso se refiere la gente cuando habla de cookies de seguimiento.",
+      "Por eso, leyes de privacidad como el GDPR europeo y las normas de ePrivacy obligan a los sitios a pedir permiso antes de guardar cookies que no son imprescindibles, y de ahí salen los famosos carteles de cookies. Los navegadores también endurecieron las reglas: Safari y Firefox bloquean por defecto las cookies de terceros, y si borrás tus cookies se te cierran las sesiones y los sitios se olvidan de vos."
+    ],
+    "analogy": "La pulserita que te dan en un festival. La mostrás en la entrada y te dejan volver a pasar sin pagar de nuevo. Una cookie de seguimiento es como un sponsor que te selló la mano y tiene gente en todos los festivales del país buscando ese sello.",
+    "keyPoints": [
+      "Texto chiquito que el navegador guarda y le devuelve al mismo sitio.",
+      "Mantienen tu sesión iniciada y recuerdan carritos y preferencias.",
+      "Las cookies de terceros pueden seguirte por muchos sitios: eso es tracking.",
+      "Borrarlas cierra tus sesiones y resetea lo que los sitios saben de vos."
+    ],
+    "links": [
+      { "label": "Cookies HTTP (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/HTTP/Guides/Cookies" },
+      { "label": "Cookie (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cookie_(informática)" }
+    ]
+  }
+}

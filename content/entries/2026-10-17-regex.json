@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-regex",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["regular expression", "regular expressions", "regexes", "regexp", "regexps"],
+    "es": ["expresión regular", "expresiones regulares", "regexes", "regexp"]
+  },
+  "image": "img/2026-10-17-regex.svg",
+  "imageAlt": {
+    "en": "A regex pattern for dates is laid over a paragraph of text, and the two dates in it are highlighted as matches",
+    "es": "Un patrón regex para fechas aplicado sobre un párrafo de texto, con las dos fechas que contiene resaltadas como coincidencias"
+  },
+  "en": {
+    "title": "Regex",
+    "tagline": "A compact pattern language for finding and checking pieces of text.",
+    "explanation": [
+      "A **regex** (regular expression) is a short pattern that describes a shape of text, so a program can find every piece of text with that shape. Instead of searching for one exact word, you describe what you want: \"four digits, a dash, two digits\". In regex that is written `\\d{4}-\\d{2}`, where `\\d` means any digit and `{4}` means exactly four of the previous thing.",
+      "Regexes are everywhere text is processed. A signup form uses one to check that an email looks like an email. A spreadsheet or code editor uses them for powerful find-and-replace, like turning every date from `2026-10-17` into `17/10/2026` in one go. Programmers use them to pull order numbers out of emails, clean up messy data or scan logs for errors. Almost every programming language and many text tools support them.",
+      "Their power comes with a reputation for being hard to read. A pattern like `^[\\w.+-]+@[\\w-]+\\.[\\w.]+$` is dense, and small mistakes match too much or too little. Good practice is to keep patterns simple, test them against real examples with tools like regex101, and not use them for jobs they handle badly, such as fully parsing HTML."
+    ],
+    "analogy": "Searching a phone book not for a name but for a description: \"every surname that starts with Mac, followed by any letters, ending in -son\". The regex is that description written in a tiny, strict shorthand.",
+    "keyPoints": [
+      "Describes a pattern of text, not one fixed word.",
+      "Used to search, validate (like emails) and find-and-replace.",
+      "Symbols like `\\d` (digit) and `+` (one or more) build the pattern.",
+      "Powerful but easy to get subtly wrong; test patterns on real data."
+    ],
+    "links": [
+      { "label": "Regular expressions guide (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions" },
+      { "label": "regex101, an online tester that explains each part", "url": "https://regex101.com/" },
+      { "label": "Regular expression on Wikipedia", "url": "https://en.wikipedia.org/wiki/Regular_expression" }
+    ]
+  },
+  "es": {
+    "title": "Regex",
+    "tagline": "Un lenguaje de patrones compacto para encontrar y validar pedazos de texto.",
+    "explanation": [
+      "Una **regex** (expresión regular) es un patrón corto que describe una forma de texto, para que un programa encuentre todos los pedazos que tengan esa forma. En vez de buscar una palabra exacta, describís lo que querés: \"cuatro dígitos, un guion, dos dígitos\". En regex eso se escribe `\\d{4}-\\d{2}`, donde `\\d` significa cualquier dígito y `{4}` significa exactamente cuatro de lo anterior.",
+      "Las regex están en todos lados donde se procesa texto. Un formulario de registro usa una para chequear que un email tenga forma de email. Una planilla o un editor de código las usa para buscar y reemplazar a lo grande, como pasar de una vez todas las fechas de `2026-10-17` a `17/10/2026`. Quienes programan las usan para sacar números de pedido de los mails, limpiar datos desprolijos o buscar errores en los logs. Casi todos los lenguajes de programación y muchas herramientas de texto las soportan.",
+      "Su poder viene con fama de ser difíciles de leer. Un patrón como `^[\\w.+-]+@[\\w-]+\\.[\\w.]+$` es denso, y un error chico hace que encuentre de más o de menos. La buena práctica es mantener los patrones simples, probarlos con ejemplos reales en herramientas como regex101 y no usarlos para tareas que hacen mal, como analizar HTML completo."
+    ],
+    "analogy": "Buscar en una guía telefónica no por un nombre sino por una descripción: \"todos los apellidos que empiezan con Mac, siguen con cualquier letra y terminan en -son\". La regex es esa descripción escrita en una taquigrafía mínima y estricta.",
+    "keyPoints": [
+      "Describe un patrón de texto, no una palabra fija.",
+      "Sirve para buscar, validar (como emails) y buscar y reemplazar.",
+      "Símbolos como `\\d` (dígito) y `+` (uno o más) arman el patrón.",
+      "Potente pero fácil de errarle por poco; probá los patrones con datos reales."
+    ],
+    "links": [
+      { "label": "Guía de expresiones regulares (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions" },
+      { "label": "Expresión regular en Wikipedia", "url": "https://es.wikipedia.org/wiki/Expresión_regular" },
+      { "label": "regex101, un probador online que explica cada parte (en inglés)", "url": "https://regex101.com/" }
+    ]
+  }
+}

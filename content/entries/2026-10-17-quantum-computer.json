@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-quantum-computer",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["quantum computers", "quantum computing", "qubit", "qubits", "post-quantum cryptography"],
+    "es": ["computadoras cuánticas", "computación cuántica", "ordenador cuántico", "ordenadores cuánticos", "cúbit", "cúbits", "qubit", "qubits", "criptografía poscuántica"]
+  },
+  "image": "img/2026-10-17-quantum-computer.svg",
+  "imageAlt": {
+    "en": "A normal bit shown as a switch that is either 0 or 1, a qubit drawn as a sphere with an arrow between 0 and 1, and a measurement that turns it into a plain 0 or 1",
+    "es": "Un bit normal dibujado como una llave que está en 0 o en 1, un qubit dibujado como una esfera con una flecha entre 0 y 1, y una medición que lo convierte en un 0 o un 1 común"
+  },
+  "en": {
+    "title": "Quantum computer",
+    "tagline": "A machine that uses quantum physics for a few specific problems. Not a faster PC.",
+    "explanation": [
+      "A **quantum computer** stores information in **qubits** instead of ordinary bits. A normal bit is either 0 or 1. A qubit can be in a **superposition**, a blend of both, and several qubits can be **entangled**, so their states are linked. A quantum algorithm arranges those states so that, when the qubits are finally measured, wrong answers tend to cancel each other out and the right one is likely to appear. It does not \"try every answer at once\", as is often said; it relies on a very particular kind of interference.",
+      "That trick only helps with certain problems. The best known are simulating molecules and materials, which are quantum systems themselves, and factoring very large numbers, which would break much of today's public-key cryptography. For everyday tasks like email, spreadsheets, games or running a website, a quantum computer offers no advantage and would do far worse than a laptop. It is a specialized tool, not a faster replacement for normal computers.",
+      "Today's machines are real but small and fragile. Qubits lose their state with the slightest heat, vibration or stray signal, so many designs are cooled to a fraction of a degree above absolute zero, and they still make frequent errors. Building enough reliable, error-corrected qubits to run useful algorithms at scale is the central unsolved problem, and nobody can honestly say when it will be solved. Security experts are not waiting: NIST has already published **post-quantum cryptography** standards, new algorithms designed to resist future quantum attacks."
+    ],
+    "analogy": "Less a faster car than a submarine. For most trips it is useless and expensive, but for a few places nothing else can reach, it is the only vehicle that works.",
+    "keyPoints": [
+      "Uses qubits, which can be in superposition and entangled with each other.",
+      "Helps with specific problems like simulating molecules or factoring, not everyday tasks.",
+      "Current machines are small, error-prone and need extreme isolation, often extreme cold.",
+      "Post-quantum cryptography is already being adopted to protect today's data."
+    ],
+    "links": [
+      { "label": "Quantum computing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Quantum_computing" },
+      { "label": "What is quantum computing? (IBM)", "url": "https://www.ibm.com/think/topics/quantum-computing" },
+      { "label": "Post-quantum cryptography (NIST)", "url": "https://csrc.nist.gov/projects/post-quantum-cryptography" }
+    ]
+  },
+  "es": {
+    "title": "Computadora cuántica",
+    "tagline": "Una máquina que usa la física cuántica para pocos problemas. No es una PC más rápida.",
+    "explanation": [
+      "Una **computadora cuántica** guarda la información en **qubits** (o cúbits) en lugar de bits comunes. Un bit normal vale 0 o 1. Un qubit puede estar en **superposición**, una mezcla de los dos, y varios qubits pueden estar **entrelazados**, con sus estados vinculados. Un algoritmo cuántico acomoda esos estados para que, cuando al final se miden los qubits, las respuestas equivocadas tiendan a anularse entre sí y la correcta tenga más chances de aparecer. No \"prueba todas las respuestas a la vez\", como se suele decir; se apoya en un tipo muy particular de interferencia.",
+      "Ese truco solo sirve para ciertos problemas. Los más conocidos son simular moléculas y materiales, que son sistemas cuánticos en sí mismos, y factorizar números enormes, algo que rompería buena parte de la criptografía de clave pública que se usa hoy. Para tareas de todos los días, como el mail, las planillas, los juegos o un sitio web, una computadora cuántica no aporta nada y andaría mucho peor que una notebook. Es una herramienta especializada, no un reemplazo más rápido de las computadoras comunes.",
+      "Las máquinas de hoy existen, pero son chicas y frágiles. Los qubits pierden su estado con el mínimo calor, vibración o señal que se cuele, así que muchos diseños se enfrían a una fracción de grado por encima del cero absoluto, y aun así cometen errores seguido. Construir suficientes qubits confiables y con corrección de errores para correr algoritmos útiles a gran escala es el gran problema sin resolver, y nadie puede decir con honestidad cuándo se va a lograr. Los expertos en seguridad no esperan: el NIST ya publicó estándares de **criptografía poscuántica**, algoritmos nuevos pensados para resistir futuros ataques cuánticos."
+    ],
+    "analogy": "Más que un auto más rápido, es un submarino. Para la mayoría de los viajes es inútil y caro, pero para los pocos lugares adonde nada más llega, es el único vehículo que sirve.",
+    "keyPoints": [
+      "Usa qubits, que pueden estar en superposición y entrelazados entre sí.",
+      "Sirve para problemas puntuales como simular moléculas o factorizar, no para tareas cotidianas.",
+      "Las máquinas actuales son chicas, se equivocan seguido y necesitan aislamiento extremo, muchas veces frío extremo.",
+      "La criptografía poscuántica ya se está adoptando para proteger los datos de hoy."
+    ],
+    "links": [
+      { "label": "Computación cuántica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Computaci%C3%B3n_cu%C3%A1ntica" },
+      { "label": "¿Qué es la computación cuántica? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/quantum-computing" },
+      { "label": "Post-quantum cryptography, NIST (en inglés)", "url": "https://csrc.nist.gov/projects/post-quantum-cryptography" }
+    ]
+  }
+}

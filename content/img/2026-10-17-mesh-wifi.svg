@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M20 96 L200 22 L380 96 V206 H20 Z" fill="#e6dfd0" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M78 176 H96"/>
+    <path d="M120 160 L186 124 M214 124 L280 160" stroke-dasharray="6 5"/>
+    <path d="M100 128 a20 20 0 0 1 24 0 M92 120 a32 32 0 0 1 40 0"/>
+    <path d="M188 90 a20 20 0 0 1 24 0 M180 82 a32 32 0 0 1 40 0"/>
+    <path d="M276 128 a20 20 0 0 1 24 0 M268 120 a32 32 0 0 1 40 0"/>
+    <path d="M308 166 L330 160"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="166" width="48" height="22" rx="4" fill="#ffd166"/>
+    <circle cx="112" cy="162" r="16" fill="#9bd1b9"/>
+    <circle cx="200" cy="120" r="16" fill="#9ac7ea"/>
+    <circle cx="288" cy="162" r="16" fill="#9ac7ea"/>
+    <rect x="330" y="146" width="22" height="36" rx="4" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="54" y="181">modem</text>
+    <text x="112" y="194">main node</text><text x="200" y="152">node</text><text x="288" y="194">node</text>
+    <text x="341" y="196">phone</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one network name · many nodes</text>
+</svg>

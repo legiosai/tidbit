@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-sandboxing",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["sandbox", "sandboxes", "sandboxed"],
+    "es": ["sandbox", "sandboxes", "entorno aislado", "entornos aislados"]
+  },
+  "image": "img/2026-10-17-sandboxing.svg",
+  "imageAlt": {
+    "en": "A program runs inside a walled box; arrows from it to files, the network and other apps are blocked, and only one narrow, allowed door leads out",
+    "es": "Un programa corre dentro de una caja con paredes; las flechas hacia los archivos, la red y otras apps están bloqueadas, y solo una puerta angosta permitida lleva afuera"
+  },
+  "en": {
+    "title": "Sandboxing",
+    "tagline": "Running a program in a closed box so it cannot harm anything outside it.",
+    "explanation": [
+      "**Sandboxing** means running a piece of software inside a restricted space, the **sandbox**, where it can only touch what it has been explicitly given. It cannot read your other files, talk to other programs or change the system unless a narrow, controlled door allows it. If the program is buggy or malicious, the damage stays inside the box.",
+      "You use sandboxes all day without noticing. Your web browser runs each website in its own sandboxed process, so a malicious page that exploits a bug still cannot read your documents. Phone apps live in sandboxes too, which is why an app has to ask for permission before it sees your photos, contacts or location. Containers and virtual machines are sandboxes at a bigger scale, isolating whole applications on a shared server.",
+      "Security teams also use sandboxes on purpose: suspicious email attachments are opened in a disposable environment to watch what they do before anyone opens them for real. And it matters more now with AI: when an assistant writes and runs code, it is usually run in a sandbox so a mistake cannot delete or leak anything important. Sandboxes are not perfect, though. Attackers look for \"sandbox escapes\", bugs that break through the walls, so the walls also need updates."
+    ],
+    "analogy": "A sandbox in a playground: kids can dig, build and wreck whatever they want inside it, and none of the sand ends up in the living room.",
+    "keyPoints": [
+      "A sandbox limits what a program can see and touch to what it was explicitly given.",
+      "Browsers, phone apps, containers and virtual machines all rely on it.",
+      "Used to safely examine suspicious files and to run AI-generated code.",
+      "Bugs that break out of a sandbox are serious, so it still needs updates."
+    ],
+    "links": [
+      { "label": "Sandbox (computer security) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Sandbox_(computer_security)" },
+      { "label": "The Chromium sandbox (design document)", "url": "https://www.chromium.org/developers/design-documents/sandbox/" }
+    ]
+  },
+  "es": {
+    "title": "Sandboxing",
+    "tagline": "Correr un programa en una caja cerrada para que no pueda dañar nada afuera.",
+    "explanation": [
+      "El **sandboxing** consiste en ejecutar un software dentro de un espacio restringido, el **sandbox** (entorno aislado), donde solo puede tocar lo que se le dio de forma explícita. No puede leer tus otros archivos, hablar con otros programas ni cambiar el sistema, salvo por una puerta angosta y controlada. Si el programa tiene un error o es malicioso, el daño queda adentro de la caja.",
+      "Usás sandboxes todo el día sin darte cuenta. Tu navegador corre cada sitio web en su propio proceso aislado, así una página maliciosa que aprovecha un bug igual no puede leer tus documentos. Las apps del celular también viven en sandboxes, y por eso una app tiene que pedirte permiso antes de ver tus fotos, tus contactos o tu ubicación. Los contenedores y las máquinas virtuales son sandboxes a mayor escala: aíslan aplicaciones enteras dentro de un servidor compartido.",
+      "Los equipos de seguridad también usan sandboxes a propósito: los adjuntos sospechosos se abren en un entorno descartable para ver qué hacen antes de que alguien los abra de verdad. Y ahora importa más por la IA: cuando un asistente escribe y ejecuta código, normalmente lo hace en un sandbox, para que un error no pueda borrar ni filtrar nada importante. Igual no son perfectos. Los atacantes buscan \"escapes del sandbox\", bugs que rompen las paredes, así que las paredes también necesitan actualizaciones."
+    ],
+    "analogy": "Un arenero en la plaza: los chicos pueden cavar, construir y romper lo que quieran adentro, y nada de arena termina en el living.",
+    "keyPoints": [
+      "Un sandbox limita lo que un programa puede ver y tocar a lo que se le dio explícitamente.",
+      "Los navegadores, las apps del celular, los contenedores y las máquinas virtuales dependen de esto.",
+      "Se usa para examinar archivos sospechosos sin riesgo y para correr código generado por IA.",
+      "Los bugs que permiten salir de un sandbox son graves, así que también necesita actualizaciones."
+    ],
+    "links": [
+      { "label": "Sandbox (seguridad informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sandbox_(seguridad_inform%C3%A1tica)" },
+      { "label": "El sandbox de Chromium (documento de diseño, en inglés)", "url": "https://www.chromium.org/developers/design-documents/sandbox/" }
+    ]
+  }
+}

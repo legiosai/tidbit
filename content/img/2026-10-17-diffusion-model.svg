@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="110" y="20" width="180" height="28" rx="14" fill="#e6dfd0"/>
+    <rect x="20" y="76" width="72" height="72" rx="6" fill="#e6dfd0"/>
+    <rect x="116" y="76" width="72" height="72" rx="6" fill="#e6dfd0"/>
+    <rect x="212" y="76" width="72" height="72" rx="6" fill="#e6dfd0"/>
+    <rect x="308" y="76" width="72" height="72" rx="6" fill="#9ac7ea"/>
+  </g>
+  <g fill="#2b2b2b">
+    <circle cx="30" cy="86" r="2"/><circle cx="46" cy="94" r="2"/><circle cx="62" cy="84" r="2"/><circle cx="80" cy="92" r="2"/>
+    <circle cx="36" cy="106" r="2"/><circle cx="54" cy="112" r="2"/><circle cx="72" cy="104" r="2"/><circle cx="84" cy="116" r="2"/>
+    <circle cx="28" cy="124" r="2"/><circle cx="44" cy="132" r="2"/><circle cx="62" cy="126" r="2"/><circle cx="78" cy="136" r="2"/>
+    <circle cx="34" cy="142" r="2"/><circle cx="56" cy="140" r="2"/><circle cx="70" cy="118" r="2"/><circle cx="50" cy="98" r="2"/>
+    <circle cx="126" cy="88" r="2"/><circle cx="150" cy="84" r="2"/><circle cx="176" cy="92" r="2"/><circle cx="130" cy="110" r="2"/>
+    <circle cx="172" cy="114" r="2"/><circle cx="124" cy="138" r="2"/><circle cx="160" cy="142" r="2"/><circle cx="180" cy="134" r="2"/>
+    <circle cx="224" cy="86" r="2"/><circle cx="272" cy="96" r="2"/><circle cx="220" cy="140" r="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M124 140 L148 106 L162 122 L170 112 L184 140" stroke-dasharray="3 4"/>
+    <path d="M216 142 L240 104 L254 120 L262 110 L280 142"/><circle cx="262" cy="92" r="7"/>
+    <path d="M96 112 H110"/><path d="M105 108 l6 4 -6 4"/>
+    <path d="M192 112 H206"/><path d="M201 108 l6 4 -6 4"/>
+    <path d="M288 112 H302"/><path d="M297 108 l6 4 -6 4"/>
+    <path d="M200 52 V68"/><path d="M196 63 l4 6 4 -6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="358" cy="94" r="8" fill="#ffd166"/>
+    <path d="M310 146 L336 104 L350 120 L358 110 L378 146 Z" fill="#9bd1b9"/>
+  </g>
+  <text x="200" y="38" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">"a mountain at sunrise"</text>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="56" y="168">noise</text><text x="152" y="168">rough</text><text x="248" y="168">closer</text><text x="344" y="168">image</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">start from static · remove a little noise each step</text>
+</svg>

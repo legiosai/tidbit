@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="80" height="150" rx="8" fill="#e6dfd0"/>
+    <rect x="30" y="60" width="60" height="22" rx="4" fill="#ffd166"/>
+    <rect x="30" y="90" width="60" height="22" rx="4" fill="#9ac7ea"/>
+    <rect x="30" y="120" width="60" height="22" rx="4" fill="#9ac7ea"/>
+    <rect x="30" y="150" width="60" height="22" rx="4" fill="#f4a7a7"/>
+    <circle cx="210" cy="115" r="58" fill="#9bd1b9"/>
+    <circle cx="210" cy="46" r="16" fill="#ffd166"/>
+    <rect x="300" y="92" width="84" height="46" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M104 115 H146"/><path d="M140 111 l6 4 -6 4"/>
+    <path d="M272 115 H294"/><path d="M288 111 l6 4 -6 4"/>
+    <path d="M226 166 l8 6 -9 3"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="54">backlog</text>
+    <text x="210" y="50">daily</text>
+    <text x="210" y="112">sprint</text><text x="210" y="128">≈ 2 weeks</text>
+    <text x="342" y="112">working</text><text x="342" y="127">increment</text>
+    <text x="342" y="160">review +</text><text x="342" y="174">retro</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">plan a little · build · show · adjust · repeat</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="56" width="110" height="96" rx="10" fill="#9ac7ea"/>
+    <path d="M160 64 H240 L256 104 L240 144 H160 Z" fill="#ffd166"/>
+    <rect x="290" y="56" width="90" height="96" rx="10" fill="#e6dfd0"/>
+    <rect x="300" y="170" width="70" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="150" y="170" width="116" height="34" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M132 104 H154"/><path d="M148 99 l6 5 -6 5"/>
+    <path d="M258 104 H284"/><path d="M278 99 l6 5 -6 5"/>
+    <path d="M335 152 V164"/><path d="M330 159 l5 6 5 -6"/>
+    <path d="M208 146 V164"/><path d="M203 159 l5 6 5 -6"/>
+    <path d="M312 178 h46 M312 186 h46 M312 194 h46" stroke="#6b6357"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">
+    <text x="32" y="84">int add(a, b)</text><text x="32" y="104">{</text><text x="44" y="124">return a+b;</text><text x="32" y="144">}</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="335" y="84">01001000</text><text x="335" y="104">10001001</text><text x="335" y="124">11111000</text><text x="335" y="144">11000011</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="204" y="100">compiler</text><text x="75" y="44">source code</text><text x="335" y="44">machine code</text>
+    <text x="208" y="192" font-size="12">error: line 3</text>
+  </g>
+  <text x="204" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">check · optimize</text>
+  <text x="335" y="219" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">runs on the CPU</text>
+  <text x="110" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">translated once, ahead of time</text>
+</svg>

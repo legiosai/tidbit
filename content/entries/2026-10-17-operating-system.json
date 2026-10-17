@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-operating-system",
+  "date": "2026-10-17",
+  "subjects": ["software", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["operating systems", "OS"],
+    "es": ["sistemas operativos"]
+  },
+  "image": "img/2026-10-17-operating-system.svg",
+  "imageAlt": {
+    "en": "Apps sit on top of the operating system, which sits on top of the hardware: CPU, memory, disk and screen",
+    "es": "Las apps están arriba del sistema operativo, que está arriba del hardware: CPU, memoria, disco y pantalla"
+  },
+  "en": {
+    "title": "Operating system",
+    "tagline": "The base software that runs a device and lets every app share its hardware.",
+    "explanation": [
+      "An **operating system** (OS) is the software that starts when you turn on a device and stays in charge until you turn it off. Windows, macOS, Linux, Android and iOS are operating systems. Its job is to manage the hardware, the CPU, the memory (RAM), the storage, the screen, the network, and to share it fairly among all the apps you run.",
+      "Without an OS, every app would need to know how to talk to your exact disk, keyboard and Wi-Fi chip, and two apps could overwrite each other's memory. The OS hides those details behind a common set of services: \"save this file\", \"draw this window\", \"send this over the network\". It also keeps apps apart from each other, so a crashing app does not take the whole machine down, and asks your permission before one uses the camera or your location.",
+      "The core of an operating system is called the **kernel**: the part that talks directly to the hardware and decides which program runs on the CPU at each moment. Around it come the things you actually see, like the desktop, the file browser, settings and built-in apps. That is why an app made for one OS usually does not run on another without changes."
+    ],
+    "analogy": "The manager of a busy shared kitchen. The cooks (apps) never fight over the stove directly: they ask the manager, who hands out burners, keeps each cook's ingredients separate and makes sure nobody burns the place down.",
+    "keyPoints": [
+      "Examples: Windows, macOS, Linux, Android, iOS.",
+      "Shares the CPU, memory, storage and devices among all running apps.",
+      "Its core, the kernel, talks directly to the hardware.",
+      "Apps are written for a specific OS, which is why some only exist for one."
+    ],
+    "links": [
+      { "label": "Operating system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Operating_system" },
+      { "label": "Kernel (operating system) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Kernel_(operating_system)" }
+    ]
+  },
+  "es": {
+    "title": "Sistema operativo",
+    "tagline": "El software base que maneja un dispositivo y reparte su hardware entre todas las apps.",
+    "explanation": [
+      "Un **sistema operativo** es el software que arranca cuando prendés un dispositivo y queda a cargo hasta que lo apagás. Windows, macOS, Linux, Android e iOS son sistemas operativos. Su trabajo es administrar el hardware, la CPU, la memoria (RAM), el almacenamiento, la pantalla, la red, y repartirlo de forma justa entre todas las apps que usás.",
+      "Sin sistema operativo, cada app tendría que saber hablar con tu disco, tu teclado y tu chip de Wi-Fi exactos, y dos apps podrían pisarse la memoria entre sí. El sistema operativo esconde esos detalles detrás de un conjunto común de servicios: \"guardá este archivo\", \"dibujá esta ventana\", \"mandá esto por la red\". También mantiene a las apps separadas, para que si una se cuelga no tire abajo toda la máquina, y te pide permiso antes de que alguna use la cámara o tu ubicación.",
+      "El corazón de un sistema operativo se llama **kernel** (núcleo): la parte que habla directo con el hardware y decide qué programa usa la CPU en cada momento. Alrededor vienen las cosas que sí ves, como el escritorio, el explorador de archivos, la configuración y las apps que vienen de fábrica. Por eso una app hecha para un sistema operativo normalmente no corre en otro sin cambios."
+    ],
+    "analogy": "El encargado de una cocina compartida llena de gente. Los cocineros (las apps) nunca se pelean por la hornalla: se la piden al encargado, que reparte los fuegos, mantiene separados los ingredientes de cada uno y se asegura de que nadie prenda fuego el lugar.",
+    "keyPoints": [
+      "Ejemplos: Windows, macOS, Linux, Android, iOS.",
+      "Reparte la CPU, la memoria, el almacenamiento y los dispositivos entre las apps.",
+      "Su núcleo, el kernel, habla directo con el hardware.",
+      "Las apps se hacen para un sistema operativo puntual; por eso algunas existen solo para uno."
+    ],
+    "links": [
+      { "label": "Sistema operativo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_operativo" },
+      { "label": "Núcleo (kernel) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Núcleo_(informática)" }
+    ]
+  }
+}

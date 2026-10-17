@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-hard-disk-drive",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["hard disk drives", "hard disk", "hard disks", "hard drive", "hard drives", "HDD", "HDDs"],
+    "es": ["discos rígidos", "disco duro", "discos duros", "HDD", "HDDs"]
+  },
+  "image": "img/2026-10-17-hard-disk-drive.svg",
+  "imageAlt": {
+    "en": "A hard disk seen from above: a round platter spinning, with an arm and a read/write head moving across its tracks",
+    "es": "Un disco rígido visto desde arriba: un plato redondo girando, con un brazo y un cabezal de lectura y escritura que se mueve sobre sus pistas"
+  },
+  "en": {
+    "title": "Hard disk drive",
+    "tagline": "Storage that keeps data on spinning magnetic platters: slower than an SSD, but cheap.",
+    "explanation": [
+      "A **hard disk drive** (HDD) stores data magnetically on one or more round metal platters stacked inside a sealed box. The platters spin at several thousand revolutions per minute, and an arm sweeps a tiny **read/write head** across them, floating a hair's breadth above the surface. Writing flips the magnetic direction of microscopic spots; reading senses them. The data stays there with the power off.",
+      "Because it has moving parts, a hard disk is slow to reach data: before reading, the arm has to swing to the right track and wait for the right spot to spin under it, which takes several milliseconds. An SSD has no moving parts and answers in a fraction of a millisecond, which is why SSDs took over laptops and phones, and why a computer with a hard disk feels sluggish when booting or opening apps. Hard disks are also noisier and more fragile if dropped while running.",
+      "Their advantage is cost. Per terabyte, a hard disk is still much cheaper than an SSD, and capacities are large. So they are far from gone: data centers fill racks with them for backups, archives and the bulk of cloud storage, and home users put them in external drives and network storage boxes, anywhere lots of space matters more than speed."
+    ],
+    "analogy": "A record player with a very fast needle. To play a song, the arm has to travel to the right groove and wait for it to come around; a pile of records is cheap, but jumping between songs takes time.",
+    "keyPoints": [
+      "Data lives on spinning magnetic platters read by a moving head.",
+      "Several milliseconds to reach data, far slower than an SSD.",
+      "Much cheaper per terabyte, so it remains the choice for bulk storage.",
+      "Keeps data without power, but is sensitive to shocks while spinning."
+    ],
+    "links": [
+      { "label": "Hard disk drive on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hard_disk_drive" },
+      { "label": "Solid-state drive on Wikipedia", "url": "https://en.wikipedia.org/wiki/Solid-state_drive" }
+    ]
+  },
+  "es": {
+    "title": "Disco rígido",
+    "tagline": "Almacenamiento en platos magnéticos que giran: más lento que un SSD, pero barato.",
+    "explanation": [
+      "Un **disco rígido** (HDD, por hard disk drive; en otros países le dicen disco duro) guarda los datos de forma magnética en uno o más platos redondos de metal, apilados adentro de una caja sellada. Los platos giran a varios miles de vueltas por minuto, y un brazo pasa por encima un **cabezal de lectura y escritura** diminuto, que flota a una distancia mínima de la superficie. Escribir es cambiar la orientación magnética de puntos microscópicos; leer es detectarla. Los datos quedan ahí con la energía apagada.",
+      "Como tiene partes móviles, un disco rígido tarda en llegar a los datos: antes de leer, el brazo tiene que moverse a la pista correcta y esperar que el lugar justo pase por debajo, y eso lleva varios milisegundos. Un SSD no tiene partes móviles y responde en una fracción de milisegundo, por eso los SSD se quedaron con las laptops y los celulares, y por eso una computadora con disco rígido se siente lenta al arrancar o al abrir aplicaciones. Los discos rígidos además hacen más ruido y son más frágiles si se caen mientras andan.",
+      "Su ventaja es el precio. Por terabyte, un disco rígido sigue siendo mucho más barato que un SSD, y las capacidades son grandes. Así que están lejos de desaparecer: los data centers llenan racks con ellos para backups, archivos y el grueso del almacenamiento en la nube, y en las casas se usan en discos externos y equipos de almacenamiento en red, en cualquier lugar donde importa más el espacio que la velocidad."
+    ],
+    "analogy": "Un tocadiscos con una púa muy rápida. Para poner un tema, el brazo tiene que viajar al surco correcto y esperar a que pase; una pila de discos sale barata, pero saltar entre temas lleva tiempo.",
+    "keyPoints": [
+      "Los datos viven en platos magnéticos que giran, leídos por un cabezal móvil.",
+      "Tarda varios milisegundos en llegar a los datos, mucho más que un SSD.",
+      "Es mucho más barato por terabyte, por eso sigue siendo la opción para guardar mucho.",
+      "Conserva los datos sin energía, pero sufre los golpes mientras gira."
+    ],
+    "links": [
+      { "label": "Unidad de disco duro en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unidad_de_disco_duro" },
+      { "label": "Unidad de estado sólido en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unidad_de_estado_s%C3%B3lido" }
+    ]
+  }
+}

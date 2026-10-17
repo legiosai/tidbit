@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="28" width="180" height="46" rx="8" fill="#9ac7ea"/>
+    <rect x="40" y="86" width="180" height="46" rx="8" fill="#ffd166"/>
+    <rect x="40" y="144" width="180" height="46" rx="8" fill="#e6dfd0"/>
+    <rect x="268" y="86" width="104" height="46" rx="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 190 v10 M100 190 v10 M130 190 v10 M160 190 v10 M190 190 v10"/>
+    <path d="M264 109 H228"/><path d="M234 105 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="130" y="56">apps &amp; OS</text>
+    <text x="130" y="114">firmware</text>
+    <text x="130" y="172">hardware</text>
+    <text x="320" y="114" font-size="13">new version</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="246" y="98">update</text>
+    <text x="320" y="160">router · TV · watch</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">built into the device · runs at power-on</text>
+</svg>

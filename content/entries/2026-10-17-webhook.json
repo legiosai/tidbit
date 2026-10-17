@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-webhook",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["webhooks", "web hook", "web hooks"],
+    "es": ["webhooks"]
+  },
+  "image": "img/2026-10-17-webhook.svg",
+  "imageAlt": {
+    "en": "Instead of an app asking a payment service again and again whether anything happened, the service calls the app's URL once when a payment arrives",
+    "es": "En lugar de que una app le pregunte una y otra vez a un servicio de pagos si pasó algo, el servicio llama una vez a la URL de la app cuando llega un pago"
+  },
+  "en": {
+    "title": "Webhook",
+    "tagline": "A way for one service to call your app the moment something happens.",
+    "explanation": [
+      "A **webhook** is a message one system sends to another automatically when an event happens. You give a service a URL of yours, and when the event occurs (a payment succeeds, someone pushes code to GitHub, a form is submitted) the service makes an HTTP `POST` request to that URL with the details, usually as JSON.",
+      "It is an API call in the opposite direction. With a normal API your app asks: \"any new payments?\" To find out quickly it would have to ask every few seconds, which is called **polling** and wastes effort when the answer is almost always \"no\". With a webhook your app says once: \"call me here when it happens\", and then just listens.",
+      "Since anyone on the internet could send a request to that URL, well-designed webhooks are **signed**: the sender attaches a code computed with a shared secret, and your app checks it before trusting the message. Senders also retry when your app does not answer, so the same event may arrive twice, and good receivers are prepared to ignore duplicates. Tools like Zapier are built largely on webhooks, connecting one service's events to another's actions."
+    ],
+    "analogy": "Polling is calling the restaurant every five minutes to ask if your table is ready. A webhook is leaving your number so they text you when it is.",
+    "keyPoints": [
+      "The service calls you when an event happens; you do not have to ask.",
+      "It is just an HTTP POST to a URL you registered.",
+      "Check the signature, because anyone can send requests to a public URL.",
+      "Events can arrive twice or late, so handle duplicates."
+    ],
+    "links": [
+      { "label": "About webhooks (GitHub docs)", "url": "https://docs.github.com/en/webhooks/about-webhooks" },
+      { "label": "Webhook on Wikipedia", "url": "https://en.wikipedia.org/wiki/Webhook" }
+    ]
+  },
+  "es": {
+    "title": "Webhook",
+    "tagline": "Una forma de que un servicio llame a tu app en el momento en que pasa algo.",
+    "explanation": [
+      "Un **webhook** es un mensaje que un sistema le manda a otro de forma automática cuando ocurre un evento. Le das a un servicio una URL tuya y, cuando pasa algo (se aprueba un pago, alguien pushea código a GitHub, se envía un formulario), el servicio hace un pedido HTTP `POST` a esa URL con los detalles, casi siempre en JSON.",
+      "Es una llamada a una API pero en el sentido contrario. Con una API normal, tu app pregunta: \"¿hay pagos nuevos?\". Para enterarse rápido tendría que preguntar cada pocos segundos, algo que se llama **polling** y gasta esfuerzo cuando la respuesta casi siempre es \"no\". Con un webhook, tu app dice una sola vez: \"llamame acá cuando pase\", y después solo escucha.",
+      "Como cualquiera en internet podría mandar un pedido a esa URL, los webhooks bien hechos vienen **firmados**: el que envía agrega un código calculado con un secreto compartido, y tu app lo verifica antes de confiar en el mensaje. Además, si tu app no responde, el que envía reintenta, así que el mismo evento puede llegar dos veces y un buen receptor está preparado para ignorar duplicados. Herramientas como Zapier se apoyan en gran parte en webhooks para conectar los eventos de un servicio con las acciones de otro."
+    ],
+    "analogy": "El polling es llamar al restaurante cada cinco minutos para preguntar si ya está tu mesa. Un webhook es dejar tu número para que te manden un mensaje cuando esté.",
+    "keyPoints": [
+      "El servicio te llama cuando pasa algo; no tenés que preguntar.",
+      "Es simplemente un HTTP POST a una URL que registraste.",
+      "Verificá la firma, porque cualquiera puede mandar pedidos a una URL pública.",
+      "Los eventos pueden llegar dos veces o tarde, así que manejá duplicados."
+    ],
+    "links": [
+      { "label": "Acerca de los webhooks (documentación de GitHub)", "url": "https://docs.github.com/es/webhooks/about-webhooks" },
+      { "label": "Webhook en Wikipedia", "url": "https://es.wikipedia.org/wiki/Webhook" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-aws-backup",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["backup plan", "backup plans", "backup vault", "backup vaults", "AWS Backup Vault Lock"],
+    "es": ["plan de backup", "planes de backup", "backup vault", "backup vaults", "AWS Backup Vault Lock"]
+  },
+  "image": "img/2026-10-17-aws-backup.svg",
+  "imageAlt": {
+    "en": "A backup plan with a clock copies a disk, a database and a file system every night into a locked vault, with a second copy in another Region",
+    "es": "Un plan de backup con un reloj copia cada noche un disco, una base de datos y un sistema de archivos a una bóveda cerrada, con una segunda copia en otra región"
+  },
+  "en": {
+    "title": "AWS Backup",
+    "tagline": "One place to schedule, keep and restore backups of your AWS data.",
+    "explanation": [
+      "Each AWS storage service has its own way of taking snapshots: Amazon EBS disks, Amazon RDS databases, Amazon DynamoDB tables, file systems, S3 buckets. **AWS Backup** puts them all under one roof, so instead of remembering a dozen different settings, you write one set of rules and see every backup in a single console.",
+      "The rules live in a **backup plan**: how often to copy (every night, every hour), how long to keep each copy (35 days, 7 years), and where to store it. You then say which resources the plan covers, often simply \"everything tagged `backup=daily`\", so new databases get protected the moment someone tags them. Copies go into a **backup vault**, and can also be copied automatically to another Region or another account, in case a whole Region has trouble or an account is compromised.",
+      "That last point matters because of ransomware. An attacker who gains admin access may try to delete the backups before encrypting everything else. **Vault Lock** makes a vault write-once: until the retention period ends, nobody, not even the account's administrators, can delete or shorten those copies. A backup is only real once you have restored it, so AWS Backup also lets you run restore tests on a schedule."
+    ],
+    "analogy": "A building's caretaker who, every night, photocopies the important papers of every office, files the copies in a fireproof safe across town, and has a rule that nothing in that safe can be shredded before its date.",
+    "keyPoints": [
+      "Centralizes backups of EBS, RDS, DynamoDB, file systems, S3 and more.",
+      "A backup plan sets frequency, retention and which resources, often by tag.",
+      "Copies can go to another Region or account for disaster recovery.",
+      "Vault Lock makes backups undeletable until they expire, a defense against ransomware."
+    ],
+    "links": [
+      { "label": "What is AWS Backup? (official docs)", "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html" },
+      { "label": "AWS Backup", "url": "https://aws.amazon.com/backup/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Backup",
+    "tagline": "Un solo lugar para programar, guardar y restaurar backups de tus datos en AWS.",
+    "explanation": [
+      "Cada servicio de almacenamiento de AWS tiene su propia forma de sacar snapshots: los discos de Amazon EBS, las bases de Amazon RDS, las tablas de Amazon DynamoDB, los sistemas de archivos, los buckets de S3. **AWS Backup** los junta bajo un mismo techo, así en vez de acordarte de una docena de configuraciones distintas, escribís un solo juego de reglas y ves todos los backups en una sola consola.",
+      "Las reglas viven en un **plan de backup**: cada cuánto copiar (todas las noches, cada hora), cuánto tiempo guardar cada copia (35 días, 7 años) y dónde. Después indicás qué recursos cubre el plan, muchas veces simplemente \"todo lo que tenga la etiqueta `backup=daily`\", así una base nueva queda protegida apenas alguien la etiqueta. Las copias van a un **backup vault** (una bóveda), y también se pueden copiar solas a otra región u otra cuenta, por si una región entera tiene problemas o una cuenta queda comprometida.",
+      "Esto último importa por el ransomware. Un atacante que consigue acceso de administrador puede intentar borrar los backups antes de cifrar todo lo demás. **Vault Lock** vuelve a una bóveda de una sola escritura: hasta que termine el período de retención, nadie, ni siquiera los administradores de la cuenta, puede borrar ni acortar esas copias. Un backup es real recién cuando lo restauraste, así que AWS Backup también permite programar pruebas de restauración."
+    ],
+    "analogy": "El encargado de un edificio que todas las noches fotocopia los papeles importantes de cada oficina, guarda las copias en una caja fuerte ignífuga en la otra punta de la ciudad, y tiene una regla: nada de esa caja se puede triturar antes de su fecha.",
+    "keyPoints": [
+      "Centraliza backups de EBS, RDS, DynamoDB, sistemas de archivos, S3 y más.",
+      "Un plan de backup define frecuencia, retención y qué recursos, muchas veces por etiqueta.",
+      "Las copias pueden ir a otra región u otra cuenta para recuperarse de desastres.",
+      "Vault Lock hace que los backups no se puedan borrar hasta que venzan, una defensa contra el ransomware."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Backup? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/aws-backup/latest/devguide/whatisbackup.html" },
+      { "label": "AWS Backup", "url": "https://aws.amazon.com/es/backup/" }
+    ]
+  }
+}

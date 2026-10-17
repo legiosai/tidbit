@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-motherboard",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["motherboards", "mainboard", "logic board"],
+    "es": ["placas madre", "placa base", "placas base", "tarjeta madre", "motherboard"]
+  },
+  "image": "img/2026-10-17-motherboard.svg",
+  "imageAlt": {
+    "en": "A green circuit board seen from above with a CPU socket, RAM slots, a GPU slot, an SSD slot and a row of ports, joined by traces",
+    "es": "Una placa de circuito verde vista desde arriba con el zócalo de la CPU, ranuras de RAM, ranura de GPU, ranura de SSD y una fila de puertos, unidos por pistas"
+  },
+  "en": {
+    "title": "Motherboard",
+    "tagline": "The main circuit board that every other part of a computer plugs into.",
+    "explanation": [
+      "The **motherboard** is the large flat board inside a computer that connects everything else. The CPU sits in a socket on it, the RAM sticks clip into slots next to it, the SSD screws into its own slot, the graphics card plugs into a long connector, and the USB, audio and network ports on the back of a desktop are part of it. Thin copper lines printed on the board, called **traces**, carry the signals between all of them.",
+      "Besides wiring, the board carries a few chips of its own: a **chipset** that manages traffic between the CPU and the slower parts, the circuits that turn the power supply's current into the precise voltages the CPU needs, and a small piece of firmware (**BIOS** or **UEFI**) that wakes the hardware up and starts the operating system when you press the power button.",
+      "The motherboard decides what a computer can become. Its socket fixes which CPUs fit, its slots fix how much RAM and how many drives you can add, and its ports fix what you can plug in. In a laptop or a phone the same job is done by a smaller board where most parts are soldered directly on, which saves space but means you usually cannot upgrade them later."
+    ],
+    "analogy": "The street grid and plumbing of a city. Buildings (CPU, memory, storage) do the actual work, but the grid decides where they can stand, how they are connected and how big the city can grow.",
+    "keyPoints": [
+      "Connects CPU, RAM, storage, graphics card and ports.",
+      "Its socket and slots decide which parts are compatible.",
+      "Holds the firmware (BIOS/UEFI) that starts the computer.",
+      "In laptops and phones, most parts are soldered on and cannot be swapped."
+    ],
+    "links": [
+      { "label": "Motherboard on Wikipedia", "url": "https://en.wikipedia.org/wiki/Motherboard" },
+      { "label": "Integrated circuit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Integrated_circuit" }
+    ]
+  },
+  "es": {
+    "title": "Placa madre",
+    "tagline": "La placa de circuito principal donde se enchufan todas las otras partes de la compu.",
+    "explanation": [
+      "La **placa madre** (motherboard, también llamada placa base) es la placa grande y plana adentro de una computadora que conecta todo lo demás. La CPU va en un zócalo sobre ella, las memorias RAM se encastran en ranuras al lado, el SSD se atornilla en su propia ranura, la placa de video se enchufa en un conector largo, y los puertos USB, de audio y de red de atrás de una PC de escritorio son parte de ella. Unas líneas finas de cobre impresas en la placa, llamadas **pistas**, llevan las señales entre todos.",
+      "Además del cableado, la placa tiene algunos chips propios: un **chipset** que maneja el tráfico entre la CPU y las partes más lentas, los circuitos que convierten la corriente de la fuente en los voltajes precisos que necesita la CPU, y un pequeño firmware (**BIOS** o **UEFI**) que despierta el hardware y arranca el sistema operativo cuando apretás el botón de encendido.",
+      "La placa madre define en qué se puede convertir una computadora. Su zócalo fija qué CPUs entran, sus ranuras fijan cuánta RAM y cuántos discos podés sumar, y sus puertos fijan qué podés enchufar. En una laptop o un celular ese trabajo lo hace una placa más chica donde la mayoría de las piezas van soldadas directamente, lo que ahorra espacio pero suele impedir mejorarlas después."
+    ],
+    "analogy": "El trazado de calles y las cañerías de una ciudad. Los edificios (CPU, memoria, almacenamiento) hacen el trabajo, pero el trazado decide dónde pueden estar, cómo se conectan y hasta dónde puede crecer la ciudad.",
+    "keyPoints": [
+      "Conecta CPU, RAM, almacenamiento, placa de video y puertos.",
+      "Su zócalo y sus ranuras deciden qué piezas son compatibles.",
+      "Guarda el firmware (BIOS/UEFI) que arranca la computadora.",
+      "En laptops y celulares casi todo va soldado y no se puede cambiar."
+    ],
+    "links": [
+      { "label": "Placa base en Wikipedia", "url": "https://es.wikipedia.org/wiki/Placa_base" },
+      { "label": "Circuito integrado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Circuito_integrado" }
+    ]
+  }
+}

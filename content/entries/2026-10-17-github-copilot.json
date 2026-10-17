@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-github-copilot",
+  "date": "2026-10-17",
+  "subjects": ["ai", "software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-10-17-github-copilot.svg",
+  "imageAlt": {
+    "en": "A code editor where the developer types a line and the assistant suggests the rest in grey, next to a chat panel",
+    "es": "Un editor de código donde la developer escribe una línea y el asistente sugiere el resto en gris, junto a un panel de chat"
+  },
+  "en": {
+    "title": "GitHub Copilot",
+    "tagline": "An AI assistant inside the code editor that suggests and writes code.",
+    "explanation": [
+      "**GitHub Copilot** is an AI coding assistant made by GitHub, launched in 2021. It runs inside the editors developers already use, such as Visual Studio Code, and is powered by large language models that were trained on huge amounts of code and text.",
+      "It works in a few ways. As you type, it suggests the next lines in grey, and you press Tab to accept them. In a chat panel you can ask things like \"what does this function do?\" or \"write a test for this\". In its more autonomous modes it can take a task, edit several files, run commands and open a pull request on GitHub for a person to review.",
+      "It matters because it changed how a lot of everyday programming is done: less typing of repetitive code, more reading and checking. That last part is key. Copilot can be confidently wrong, invent functions that do not exist, or suggest code with security problems, so its output needs the same review as a colleague's. Similar tools include Cursor, Claude Code and others; they differ in how much they do on their own."
+    ],
+    "analogy": "Like the autocomplete on your phone keyboard, but for code and much more ambitious: sometimes it finishes your word, sometimes it drafts the whole paragraph. You still decide what gets sent.",
+    "keyPoints": [
+      "Suggests code as you type and answers questions in a chat inside the editor.",
+      "Built on large language models; it predicts likely code, it does not understand your business.",
+      "Its suggestions can be wrong or insecure, so they need review.",
+      "It is a paid service with plans for individuals, companies and a limited free tier."
+    ],
+    "links": [
+      { "label": "What is GitHub Copilot? (official docs)", "url": "https://docs.github.com/en/copilot/get-started/what-is-github-copilot" },
+      { "label": "GitHub Copilot on Wikipedia", "url": "https://en.wikipedia.org/wiki/GitHub_Copilot" }
+    ]
+  },
+  "es": {
+    "title": "GitHub Copilot",
+    "tagline": "Un asistente de IA dentro del editor de código que sugiere y escribe código.",
+    "explanation": [
+      "**GitHub Copilot** es un asistente de programación con IA hecho por GitHub y lanzado en 2021. Funciona dentro de los editores que los developers ya usan, como Visual Studio Code, y se apoya en modelos de lenguaje grandes entrenados con enormes cantidades de código y texto.",
+      "Trabaja de varias maneras. Mientras escribís, te sugiere las líneas siguientes en gris y apretás Tab para aceptarlas. En un panel de chat le podés preguntar cosas como \"¿qué hace esta función?\" o \"escribí un test para esto\". En sus modos más autónomos puede tomar una tarea, editar varios archivos, correr comandos y abrir un pull request en GitHub para que una persona lo revise.",
+      "Importa porque cambió cómo se hace mucha programación del día a día: menos tipear código repetitivo, más leer y chequear. Esa última parte es clave. Copilot puede equivocarse con total seguridad, inventar funciones que no existen o sugerir código con problemas de seguridad, así que lo que produce necesita la misma revisión que el trabajo de un colega. Hay herramientas parecidas como Cursor, Claude Code y otras; cambian en cuánto hacen por su cuenta."
+    ],
+    "analogy": "Como el autocompletar del teclado del celular, pero para código y mucho más ambicioso: a veces te termina la palabra, a veces te escribe el párrafo entero. Lo que se manda lo seguís decidiendo vos.",
+    "keyPoints": [
+      "Sugiere código mientras escribís y responde preguntas en un chat dentro del editor.",
+      "Se basa en modelos de lenguaje grandes; predice código probable, no entiende tu negocio.",
+      "Sus sugerencias pueden estar mal o ser inseguras, así que hay que revisarlas.",
+      "Es un servicio pago, con planes para personas y empresas y una opción gratuita limitada."
+    ],
+    "links": [
+      { "label": "¿Qué es GitHub Copilot? (documentación oficial)", "url": "https://docs.github.com/es/copilot/get-started/what-is-github-copilot" },
+      { "label": "GitHub Copilot en Wikipedia", "url": "https://es.wikipedia.org/wiki/GitHub_Copilot" }
+    ]
+  }
+}

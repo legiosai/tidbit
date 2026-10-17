@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-diffusion-model",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["diffusion models", "latent diffusion"],
+    "es": ["modelos de difusión", "diffusion model", "difusión latente"]
+  },
+  "image": "img/2026-10-17-diffusion-model.svg",
+  "imageAlt": {
+    "en": "Four frames from left to right: pure noise, a rough mountain shape, a clearer mountain and sun, and finally a clean picture of a mountain at sunrise, guided by a text prompt above",
+    "es": "Cuatro cuadros de izquierda a derecha: puro ruido, una forma de montaña borrosa, una montaña y un sol más claros y al final una imagen limpia de una montaña al amanecer, guiada por un prompt de texto arriba"
+  },
+  "en": {
+    "title": "Diffusion model",
+    "tagline": "An image generator that starts from random noise and cleans it up, step by step.",
+    "explanation": [
+      "A **diffusion model** is the kind of generative AI behind most image generators, such as Stable Diffusion, and many video generators. It creates a picture by starting from pure random noise, like TV static, and removing a little of that noise at each step until a clear image emerges. A text description, the prompt, steers each step, so the noise turns into 'a mountain at sunrise' rather than anything else.",
+      "The training is the clever part. Take millions of images with captions and gradually ruin each one by adding noise, step by step, until nothing is left but static. Then train a neural network to do the reverse: given a noisy image and its caption, predict what noise was added so it can be subtracted. A model that is good at undoing one small step of damage can, by repeating it dozens of times, build a brand-new image from static. The modern form of this approach was laid out in a 2020 paper on denoising diffusion, and it quickly overtook earlier techniques in image quality.",
+      "Running directly on millions of pixels is slow, so most systems use **latent diffusion**: they first compress images into a much smaller internal representation, do the denoising there, and expand the result into a full image at the end. The same method works for video, audio and even protein design. Because the output depends on the random noise it starts from, the same prompt gives a different picture each time. And because these models learn from huge collections of images from the web, they raise ongoing questions about artists' rights, deepfakes and the stereotypes they reproduce."
+    ],
+    "analogy": "Like a sculptor who sees a figure in a rough block of marble and chips away a little at a time. Here the block is random static, the chisel is the model, and the prompt tells the sculptor what figure to look for.",
+    "keyPoints": [
+      "Generates images by removing noise in many small steps.",
+      "Trained by adding noise to real images and learning to undo it.",
+      "Latent diffusion works in a compressed space to be faster.",
+      "Same prompt, different starting noise, different image."
+    ],
+    "links": [
+      { "label": "Diffusion model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Diffusion_model" },
+      { "label": "What are diffusion models? (IBM)", "url": "https://www.ibm.com/think/topics/diffusion-models" },
+      { "label": "Denoising Diffusion Probabilistic Models (paper, arXiv)", "url": "https://arxiv.org/abs/2006.11239" }
+    ]
+  },
+  "es": {
+    "title": "Modelo de difusión",
+    "tagline": "Un generador de imágenes que arranca de ruido al azar y lo va limpiando paso a paso.",
+    "explanation": [
+      "Un **modelo de difusión** es el tipo de IA generativa que hay detrás de la mayoría de los generadores de imágenes, como Stable Diffusion, y de muchos generadores de video. Crea una imagen partiendo de puro ruido aleatorio, como la lluvia de un televisor sin señal, y le saca un poco de ese ruido en cada paso hasta que aparece una imagen clara. Una descripción en texto, el prompt, orienta cada paso, así que el ruido se convierte en 'una montaña al amanecer' y no en cualquier otra cosa.",
+      "Lo ingenioso está en el entrenamiento. Se toman millones de imágenes con su descripción y se arruina cada una de a poco agregándole ruido, paso a paso, hasta que no queda más que estática. Después se entrena una red neuronal para hacer lo inverso: dada una imagen ruidosa y su descripción, predecir qué ruido se le agregó para poder restarlo. Un modelo que sabe deshacer un pasito de daño puede, repitiéndolo decenas de veces, armar una imagen totalmente nueva a partir de la estática. La forma moderna de este enfoque se planteó en un paper de 2020 sobre difusión con eliminación de ruido, y enseguida superó en calidad a las técnicas anteriores.",
+      "Trabajar directo sobre millones de píxeles es lento, así que la mayoría de los sistemas usa **difusión latente**: primero comprimen las imágenes en una representación interna mucho más chica, hacen ahí la limpieza del ruido y al final expanden el resultado a una imagen completa. El mismo método sirve para video, audio y hasta diseño de proteínas. Como el resultado depende del ruido al azar del que parte, el mismo prompt da una imagen distinta cada vez. Y como estos modelos aprenden de enormes colecciones de imágenes de la web, siguen abiertas las discusiones sobre los derechos de los artistas, los deepfakes y los estereotipos que reproducen."
+    ],
+    "analogy": "Es como un escultor que ve una figura dentro de un bloque de mármol en bruto y la va sacando de a poquito. Acá el bloque es estática al azar, el cincel es el modelo y el prompt le dice al escultor qué figura buscar.",
+    "keyPoints": [
+      "Genera imágenes quitando ruido en muchos pasos chicos.",
+      "Se entrena agregándoles ruido a imágenes reales y aprendiendo a deshacerlo.",
+      "La difusión latente trabaja en un espacio comprimido para ir más rápido.",
+      "Mismo prompt, distinto ruido inicial, distinta imagen."
+    ],
+    "links": [
+      { "label": "Modelo de difusión en Wikipedia", "url": "https://es.wikipedia.org/wiki/Modelo_de_difusi%C3%B3n" },
+      { "label": "¿Qué son los modelos de difusión? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/diffusion-models" }
+    ]
+  }
+}

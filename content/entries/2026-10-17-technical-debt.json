@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-technical-debt",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["tech debt", "code debt"],
+    "es": ["tech debt", "technical debt"]
+  },
+  "image": "img/2026-10-17-technical-debt.svg",
+  "imageAlt": {
+    "en": "A shortcut today saves time, but each later feature costs a little more, like interest on a loan, until the debt is paid down by cleaning up",
+    "es": "Un atajo hoy ahorra tiempo, pero cada funcionalidad siguiente cuesta un poco más, como los intereses de un préstamo, hasta que la deuda se paga limpiando"
+  },
+  "en": {
+    "title": "Technical debt",
+    "tagline": "The future cost of shortcuts taken in software today.",
+    "explanation": [
+      "**Technical debt** is the extra work a team will have to do later because of a quicker, messier choice made now. The programmer Ward Cunningham coined the metaphor in 1992 to explain it to non-technical managers: shipping imperfect code is like borrowing money. You get something sooner, but you pay **interest**: every future change in that area takes longer and breaks more easily, until you pay back the **principal** by cleaning it up.",
+      "Debt is not automatically bad. A startup testing whether anyone wants its product may reasonably cut corners, the same way a business takes a loan to grow. The trouble is debt nobody tracks. It piles up from many sources: rushed deadlines, copy-pasted code, missing tests, outdated libraries, an early design that no longer fits what the product became, or simply people who left without documenting anything.",
+      "You notice it when simple requests start taking weeks, when each fix causes two new bugs, or when only one person dares to touch a certain module. Teams manage it by naming it in their backlog, reserving part of each cycle to pay it down, and refactoring as they go. Ignored long enough, it can make a system so costly to change that a full rewrite looks tempting, which is its own risky bet."
+    ],
+    "analogy": "Like not washing the dishes after dinner. One night it saves time. After a week, cooking anything means first scrubbing a mountain of pans, and every meal takes longer.",
+    "keyPoints": [
+      "Shortcuts now cost extra effort on every future change.",
+      "Taken on deliberately and tracked, it can be a reasonable trade-off.",
+      "Signs: slow changes, fragile code, areas nobody wants to touch.",
+      "Paid down by refactoring, tests and upgrades, little by little."
+    ],
+    "links": [
+      { "label": "Technical Debt, by Martin Fowler", "url": "https://martinfowler.com/bliki/TechnicalDebt.html" },
+      { "label": "Technical debt on Wikipedia", "url": "https://en.wikipedia.org/wiki/Technical_debt" }
+    ]
+  },
+  "es": {
+    "title": "Deuda técnica",
+    "tagline": "El costo futuro de los atajos que se toman hoy en el software.",
+    "explanation": [
+      "La **deuda técnica** es el trabajo extra que un equipo va a tener que hacer más adelante por una decisión más rápida y desprolija que toma ahora. El programador Ward Cunningham inventó la metáfora en 1992 para explicárselo a gerentes no técnicos: sacar código imperfecto es como pedir plata prestada. Conseguís algo antes, pero pagás **intereses**: cada cambio futuro en esa zona lleva más tiempo y se rompe más fácil, hasta que devolvés el **capital** ordenando lo que quedó mal.",
+      "La deuda no es mala por definición. Una startup que está probando si alguien quiere su producto puede, con razón, cortar camino, igual que un negocio toma un crédito para crecer. El problema es la deuda que nadie registra. Se acumula por muchos lados: plazos apurados, código copiado y pegado, tests que faltan, librerías viejas, un diseño inicial que ya no encaja con lo que el producto terminó siendo, o simplemente gente que se fue sin documentar nada.",
+      "Se nota cuando pedidos simples empiezan a tardar semanas, cuando cada arreglo trae dos bugs nuevos o cuando una sola persona se anima a tocar cierto módulo. Los equipos la manejan anotándola en el backlog, reservando parte de cada ciclo para pagarla y haciendo refactoring sobre la marcha. Si se ignora mucho tiempo, el sistema puede volverse tan caro de cambiar que reescribirlo de cero parece tentador, lo cual es una apuesta riesgosa en sí misma."
+    ],
+    "analogy": "Como no lavar los platos después de cenar. Una noche te ahorra tiempo. Después de una semana, cocinar cualquier cosa implica primero fregar una montaña de ollas, y cada comida tarda más.",
+    "keyPoints": [
+      "Los atajos de hoy cuestan esfuerzo extra en cada cambio futuro.",
+      "Tomada a propósito y registrada, puede ser un intercambio razonable.",
+      "Señales: cambios lentos, código frágil, zonas que nadie quiere tocar.",
+      "Se paga con refactoring, tests y actualizaciones, de a poco."
+    ],
+    "links": [
+      { "label": "Deuda técnica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Deuda_t%C3%A9cnica" },
+      { "label": "Technical Debt, de Martin Fowler (en inglés)", "url": "https://martinfowler.com/bliki/TechnicalDebt.html" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="40" width="68" height="28" rx="6" fill="#e6dfd0"/>
+    <rect x="16" y="94" width="68" height="28" rx="6" fill="#e6dfd0"/>
+    <rect x="16" y="148" width="68" height="28" rx="6" fill="#e6dfd0"/>
+    <path d="M114 74 V146 A26 9 0 0 0 166 146 V74" fill="#9ac7ea"/>
+    <ellipse cx="140" cy="74" rx="26" ry="9" fill="#9ac7ea"/>
+    <rect x="200" y="30" width="184" height="160" rx="10" fill="#e6dfd0"/>
+    <rect x="212" y="42" width="72" height="56" rx="6" fill="#ffd166"/>
+    <rect x="294" y="42" width="78" height="56" rx="6" fill="#f3efe6"/>
+    <rect x="212" y="108" width="160" height="70" rx="6" fill="#f3efe6"/>
+    <rect x="228" y="148" width="22" height="22" fill="#9bd1b9"/>
+    <rect x="262" y="132" width="22" height="38" fill="#9bd1b9"/>
+    <rect x="296" y="140" width="22" height="30" fill="#9bd1b9"/>
+    <rect x="330" y="120" width="22" height="50" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M86 54 L110 84"/><path d="M86 108 H110"/><path d="M86 162 L110 134"/>
+    <path d="M170 110 H194"/><path d="M188 106 l6 4 -6 4"/>
+    <path d="M302 86 L320 72 L338 78 L362 54"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="50" y="58">sales</text><text x="50" y="112">finance</text><text x="50" y="166">CRM</text>
+    <text x="140" y="174">warehouse</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="248" y="76">+12%</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="248" y="92">revenue</text>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">raw data in · answers at a glance out</text>
+</svg>

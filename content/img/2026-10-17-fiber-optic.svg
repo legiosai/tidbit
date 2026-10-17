@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="62" y="84" width="276" height="52" rx="26" fill="#9ac7ea"/>
+    <rect x="18" y="92" width="40" height="36" rx="6" fill="#f4a7a7"/>
+    <rect x="342" y="92" width="40" height="36" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M62 110 L98 88 L140 132 L182 88 L224 132 L266 88 L308 132 L338 110"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#ffd166">
+    <circle cx="98" cy="88" r="5"/><circle cx="182" cy="88" r="5"/><circle cx="266" cy="88" r="5"/>
+    <circle cx="140" cy="132" r="5"/><circle cx="224" cy="132" r="5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="62">1 0 1 1 0 1</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="38" y="150">laser</text><text x="362" y="150">sensor</text>
+  </g>
+  <text x="200" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">glass strand, thin as a hair</text>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">data as flashes of light</text>
+</svg>

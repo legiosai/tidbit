@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-hugging-face",
+  "date": "2026-10-17",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["HuggingFace", "Hugging Face Hub"],
+    "es": ["HuggingFace", "Hugging Face Hub"]
+  },
+  "image": "img/2026-10-17-hugging-face.svg",
+  "imageAlt": {
+    "en": "A shared hub holds shelves of models, datasets and demo apps; people upload to it and download from it",
+    "es": "Un hub compartido tiene estantes de modelos, datasets y apps de demo; la gente sube cosas y las descarga"
+  },
+  "en": {
+    "title": "Hugging Face",
+    "tagline": "The website where people share AI models and datasets, and the tools to use them.",
+    "explanation": [
+      "**Hugging Face** is a company founded in 2016 in New York by three French entrepreneurs, Clément Delangue, Julien Chaumond and Thomas Wolf. It started as a chatbot app for teenagers, named after the hugging face emoji, and changed course when the open-source code it wrote for its own AI models became popular with researchers.",
+      "Its best-known piece is the **Hub**, a website that works like a GitHub for AI. Anyone can upload a **model**, a **dataset** or a small demo app (called a **Space**), and anyone can download them. Most open-weight models, from large companies and from individuals, are published there. Each model has a page that explains what it does, its license and how to use it, and in many cases you can try it right in the browser.",
+      "It also maintains popular open-source libraries, above all `transformers`, which lets a programmer load and run thousands of different models with a few lines of Python. Most of the Hub is free; Hugging Face makes money from paid plans for individuals and companies, private and enterprise features, and computing services that run models for customers without them having to manage servers."
+    ],
+    "analogy": "A big public library for AI, where anyone can donate a book, borrow one for free, or sit in the reading room and try it out, and the library charges only for private rooms and extra services.",
+    "keyPoints": [
+      "Founded in 2016 in New York by three French entrepreneurs; named after the 🤗 emoji.",
+      "The Hub hosts models, datasets and demo apps called Spaces.",
+      "Its open-source library `transformers` is a standard way to run models in Python.",
+      "Free for most uses; earns money from paid plans, enterprise features and hosted computing."
+    ],
+    "links": [
+      { "label": "Hugging Face Hub documentation", "url": "https://huggingface.co/docs/hub/index" },
+      { "label": "Hugging Face on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hugging_Face" }
+    ]
+  },
+  "es": {
+    "title": "Hugging Face",
+    "tagline": "El sitio donde se comparten modelos de IA y datasets, y las herramientas para usarlos.",
+    "explanation": [
+      "**Hugging Face** es una empresa fundada en 2016 en Nueva York por tres emprendedores franceses, Clément Delangue, Julien Chaumond y Thomas Wolf. Empezó como una app de chatbot para adolescentes, con el nombre del emoji de la carita que abraza, y cambió de rumbo cuando el código abierto que escribía para sus propios modelos de IA se volvió popular entre investigadores.",
+      "Su pieza más conocida es el **Hub**, un sitio que funciona como un GitHub de la IA. Cualquiera puede subir un **modelo**, un **dataset** o una pequeña app de demo (llamada **Space**), y cualquiera puede bajarlos. La mayoría de los modelos de pesos abiertos, de grandes empresas y de particulares, se publican ahí. Cada modelo tiene una página que explica qué hace, su licencia y cómo usarlo, y muchas veces lo podés probar directo en el navegador.",
+      "También mantiene librerías de código abierto muy usadas, sobre todo `transformers`, que le permite a un programador cargar y correr miles de modelos distintos con pocas líneas de Python. Casi todo el Hub es gratis; Hugging Face gana plata con planes pagos para personas y empresas, funciones privadas y corporativas, y servicios de cómputo que corren modelos por los clientes sin que tengan que manejar servidores."
+    ],
+    "analogy": "Una gran biblioteca pública de IA, donde cualquiera puede donar un libro, llevarse uno gratis o sentarse en la sala de lectura a probarlo, y la biblioteca solo cobra por las salas privadas y los servicios extra.",
+    "keyPoints": [
+      "Fundada en 2016 en Nueva York por tres emprendedores franceses; su nombre viene del emoji 🤗.",
+      "El Hub aloja modelos, datasets y apps de demo llamadas Spaces.",
+      "Su librería de código abierto `transformers` es una forma estándar de correr modelos en Python.",
+      "Gratis para casi todo; gana plata con planes pagos, funciones corporativas y cómputo."
+    ],
+    "links": [
+      { "label": "Hugging Face en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hugging_Face" },
+      { "label": "Documentación del Hub de Hugging Face (en inglés)", "url": "https://huggingface.co/docs/hub/index" }
+    ]
+  }
+}

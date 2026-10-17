@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="30" width="96" height="96" rx="8" fill="#9ac7ea"/>
+    <rect x="152" y="30" width="96" height="96" rx="8" fill="#9bd1b9"/>
+    <rect x="284" y="30" width="96" height="96" rx="8" fill="#ffd166"/>
+    <rect x="30" y="94" width="76" height="22" rx="4" fill="#e6dfd0"/>
+    <rect x="162" y="94" width="76" height="22" rx="4" fill="#e6dfd0"/>
+    <rect x="294" y="94" width="76" height="22" rx="4" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M118 78 H148"/><path d="M142 74 l6 4 -6 4"/>
+    <path d="M250 78 H280"/><path d="M274 74 l6 4 -6 4"/>
+    <path d="M34 64 H102"/><path d="M34 76 H90"/>
+    <path d="M166 64 H234"/><path d="M166 76 H222"/>
+    <path d="M298 64 H366"/><path d="M298 76 H354"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="68" y="50" font-weight="bold">block 1</text><text x="200" y="50" font-weight="bold">block 2</text><text x="332" y="50" font-weight="bold">block 3</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="68" y="109">prev: 000</text><text x="200" y="109">prev: a3f</text><text x="332" y="109">prev: 7c1</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="70" y="156" width="40" height="28" rx="4" fill="#e6dfd0"/>
+    <rect x="180" y="156" width="40" height="28" rx="4" fill="#e6dfd0"/>
+    <rect x="290" y="156" width="40" height="28" rx="4" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M78 164 h8 M92 164 h10 M78 174 h8 M92 174 h10"/>
+    <path d="M188 164 h8 M202 164 h10 M188 174 h8 M202 174 h10"/>
+    <path d="M298 164 h8 M312 164 h10 M298 174 h8 M312 174 h10"/>
+    <path d="M110 170 H180" stroke-dasharray="4 4"/><path d="M220 170 H290" stroke-dasharray="4 4"/>
+  </g>
+  <text x="200" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">same copy on every node</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">each block points to the one before</text>
+</svg>

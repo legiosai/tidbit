@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-ai-bias",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["algorithmic bias", "bias in AI"],
+    "es": ["sesgo algorítmico", "sesgos algorítmicos", "sesgo de la IA", "sesgos en la IA"]
+  },
+  "image": "img/2026-10-17-ai-bias.svg",
+  "imageAlt": {
+    "en": "Past hiring data with a tall bar for group A and a short bar for group B goes into a model, which then gives new applicants scores with the same uneven pattern",
+    "es": "Datos de contrataciones pasadas, con una barra alta para el grupo A y una baja para el grupo B, entran en un modelo que después puntúa a los nuevos postulantes con el mismo patrón desparejo"
+  },
+  "en": {
+    "title": "AI bias",
+    "tagline": "When an AI system treats some groups of people unfairly, usually learned from its data.",
+    "explanation": [
+      "**AI bias** is when an AI system produces results that are systematically unfair to certain groups of people: by gender, skin color, age, accent, disability, neighborhood. Usually nobody programmed it on purpose. A model learns from examples, and if the examples reflect an unequal past, the model learns that inequality as if it were a rule.",
+      "Real cases made this concrete. In 2018 Reuters reported that Amazon had dropped an experimental hiring tool after finding it downgraded résumés that included the word 'women's', because it had learned from a decade of mostly male hires. The same year, the Gender Shades study found that commercial face-analysis systems made far more errors on darker-skinned women than on lighter-skinned men, because their training photos were skewed. Language models can do it too, for instance by assuming a doctor is a man and a nurse is a woman when translating.",
+      "Bias can enter at many points: data that underrepresents some people, labels that carry human prejudice, a goal that measures the wrong thing, or a system used on a population it was never tested on. It matters most where AI touches decisions about people: hiring, loans, insurance, healthcare, policing. Reducing it takes deliberate work: more representative data, testing results separately for each group, independent audits, and keeping a human able to question and override the system. Laws such as the EU AI Act now require this kind of checking for high-risk uses."
+    ],
+    "analogy": "Like a new employee trained only by reading the company's old decisions. If those decisions favored one kind of person, the new employee will copy the pattern, sincerely believing it is just how the job is done.",
+    "keyPoints": [
+      "Usually learned from data that reflects past unfairness.",
+      "It can hide in data, labels, goals or where the system is used.",
+      "It matters most in hiring, credit, health and policing.",
+      "Testing results per group and human oversight help reduce it."
+    ],
+    "links": [
+      { "label": "Algorithmic bias on Wikipedia", "url": "https://en.wikipedia.org/wiki/Algorithmic_bias" },
+      { "label": "What is AI bias? (IBM)", "url": "https://www.ibm.com/think/topics/ai-bias" },
+      { "label": "Identifying and managing bias in AI (NIST)", "url": "https://www.nist.gov/publications/towards-standard-identifying-and-managing-bias-artificial-intelligence" }
+    ]
+  },
+  "es": {
+    "title": "Sesgo en la IA",
+    "tagline": "Cuando un sistema de IA trata injustamente a algunos grupos, casi siempre por sus datos.",
+    "explanation": [
+      "El **sesgo en la IA** (sesgo algorítmico) aparece cuando un sistema de IA da resultados sistemáticamente injustos para ciertos grupos de personas: por género, color de piel, edad, acento, discapacidad o barrio. En general nadie lo programó a propósito. Un modelo aprende de ejemplos, y si los ejemplos reflejan un pasado desigual, aprende esa desigualdad como si fuera una regla.",
+      "Hubo casos reales que lo hicieron concreto. En 2018 Reuters contó que Amazon había abandonado una herramienta experimental de selección de personal después de descubrir que bajaba el puntaje de los currículums que incluían la palabra 'women's' (de mujeres), porque había aprendido de una década de contrataciones mayormente masculinas. Ese mismo año, el estudio Gender Shades encontró que sistemas comerciales de análisis facial se equivocaban mucho más con mujeres de piel oscura que con hombres de piel clara, porque sus fotos de entrenamiento estaban desbalanceadas. Los modelos de lenguaje también lo hacen, por ejemplo al traducir 'the doctor' como 'el médico' y 'the nurse' como 'la enfermera'.",
+      "El sesgo puede entrar por muchos lados: datos donde algunas personas casi no aparecen, etiquetas que arrastran prejuicios humanos, un objetivo que mide la cosa equivocada o un sistema usado con una población con la que nunca se probó. Importa sobre todo donde la IA toca decisiones sobre personas: contrataciones, créditos, seguros, salud, seguridad. Reducirlo exige trabajo deliberado: datos más representativos, medir los resultados por separado para cada grupo, auditorías independientes y que una persona pueda cuestionar y corregir al sistema. Leyes como la Ley de IA de la Unión Europea ya exigen este tipo de controles para los usos de alto riesgo."
+    ],
+    "analogy": "Es como un empleado nuevo al que formaron solo leyendo las decisiones viejas de la empresa. Si esas decisiones favorecían a un tipo de persona, el empleado nuevo copia el patrón convencido de que así se hace el trabajo.",
+    "keyPoints": [
+      "Casi siempre se aprende de datos que reflejan injusticias pasadas.",
+      "Puede esconderse en los datos, las etiquetas, el objetivo o el contexto de uso.",
+      "Importa más en contrataciones, créditos, salud y seguridad.",
+      "Medir resultados por grupo y mantener supervisión humana ayuda a reducirlo."
+    ],
+    "links": [
+      { "label": "Sesgo algorítmico en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sesgo_algor%C3%ADtmico" },
+      { "label": "¿Qué es el sesgo de la IA? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/ai-bias" },
+      { "label": "Recomendación sobre la ética de la IA (UNESCO)", "url": "https://www.unesco.org/es/artificial-intelligence/recommendation-ethics" }
+    ]
+  }
+}

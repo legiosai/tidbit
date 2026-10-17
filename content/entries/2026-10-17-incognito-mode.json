@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-incognito-mode",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["private browsing", "private window", "private mode"],
+    "es": ["navegación privada", "ventana privada", "ventana de incógnito", "modo privado"]
+  },
+  "image": "img/2026-10-17-incognito-mode.svg",
+  "imageAlt": {
+    "en": "A private browser window on a laptop forgets history and cookies when closed, while the websites, the network owner and the internet provider can still see the visit",
+    "es": "Una ventana privada en una notebook olvida el historial y las cookies al cerrarse, mientras los sitios, el dueño de la red y el proveedor de internet igual pueden ver la visita"
+  },
+  "en": {
+    "title": "Incognito mode",
+    "tagline": "A browser window that forgets your visit on this device. It does not make you invisible.",
+    "explanation": [
+      "**Incognito mode** (Chrome's name; Safari, Firefox and others call it **private browsing**) opens a browser window that keeps nothing once you close it: no history, no cookies, no saved form entries, no logins. The next person who uses the same computer will not see which sites you visited, and sites will not recognize you from an earlier session in that window.",
+      "That is all it does, and it is useful: checking your email on a friend's laptop, buying a present on the shared family computer, or seeing how a website looks to someone who is not logged in. Every window opens clean and closes clean.",
+      "What it does not do is hide you from anyone outside your device. The websites you visit still see your IP address and what you do there; if you log in, they know exactly who you are. Your employer or school can still see traffic on their network, and your internet provider can still see which sites you connect to. Files you download and bookmarks you save stay on the computer. Malware on the device is not stopped either.",
+      "If you want to hide your traffic from the local network or your provider, that is a different tool, such as a VPN, which moves the trust to the VPN company instead. For privacy from trackers, browser settings that block third-party cookies help more than a private window does."
+    ],
+    "analogy": "Like a hotel room that is cleaned the moment you check out: the next guest finds no trace of you. But the front desk, the cameras in the lobby and the taxi that brought you all saw you arrive.",
+    "keyPoints": [
+      "It forgets history, cookies and logins when the window closes.",
+      "It protects you from other people who use the same device.",
+      "Websites, network owners and your internet provider still see your visits.",
+      "Downloads and bookmarks stay; it is not a VPN or an antivirus."
+    ],
+    "links": [
+      { "label": "Browse in Incognito mode (Chrome Help)", "url": "https://support.google.com/chrome/answer/95464" },
+      { "label": "Private browsing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Private_browsing" }
+    ]
+  },
+  "es": {
+    "title": "Modo incógnito",
+    "tagline": "Una ventana que olvida lo que hiciste en este equipo. No te vuelve invisible.",
+    "explanation": [
+      "El **modo incógnito** (así lo llama Chrome; Safari, Firefox y otros le dicen **navegación privada**) abre una ventana del navegador que no guarda nada cuando la cerrás: ni historial, ni cookies, ni datos de formularios, ni sesiones iniciadas. La próxima persona que use la misma computadora no va a ver qué sitios visitaste, y los sitios no te van a reconocer de una sesión anterior en esa ventana.",
+      "Eso es todo lo que hace, y sirve: revisar tu correo en la notebook de un amigo, comprar un regalo en la computadora compartida de la familia, o ver cómo se ve un sitio para alguien que no inició sesión. Cada ventana abre limpia y cierra limpia.",
+      "Lo que no hace es esconderte de nadie fuera de tu dispositivo. Los sitios que visitás igual ven tu dirección IP y lo que hacés ahí; si iniciás sesión, saben exactamente quién sos. Tu trabajo o tu escuela igual ven el tráfico en su red, y tu proveedor de internet igual ve a qué sitios te conectás. Los archivos que descargás y los favoritos que guardás quedan en la computadora. Y tampoco frena el malware que haya en el equipo.",
+      "Si querés esconder tu tráfico de la red local o de tu proveedor, es otra herramienta, como una VPN, que pasa la confianza a la empresa de la VPN. Para tener privacidad frente a los rastreadores, bloquear las cookies de terceros en la configuración del navegador ayuda más que una ventana privada."
+    ],
+    "analogy": "Como una habitación de hotel que limpian apenas hacés el check-out: el próximo huésped no encuentra rastros tuyos. Pero la recepción, las cámaras del lobby y el taxi que te llevó te vieron llegar.",
+    "keyPoints": [
+      "Olvida historial, cookies y sesiones al cerrar la ventana.",
+      "Te protege de otras personas que usan el mismo dispositivo.",
+      "Los sitios, los dueños de la red y tu proveedor igual ven tus visitas.",
+      "Las descargas y los favoritos quedan; no es una VPN ni un antivirus."
+    ],
+    "links": [
+      { "label": "Navegar en modo incógnito (Ayuda de Chrome)", "url": "https://support.google.com/chrome/answer/95464?hl=es" },
+      { "label": "Modo privado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Navegaci%C3%B3n_privada" }
+    ]
+  }
+}

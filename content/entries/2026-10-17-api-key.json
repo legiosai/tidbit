@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-api-key",
+  "date": "2026-10-17",
+  "subjects": ["security", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["API keys", "API token", "API tokens"],
+    "es": ["API key", "API keys", "claves de API", "clave API", "token de API", "tokens de API"]
+  },
+  "image": "img/2026-10-17-api-key.svg",
+  "imageAlt": {
+    "en": "An app sends a request with a secret key in its header; the API checks the key, knows which account is calling, and counts the usage toward its bill",
+    "es": "Una app manda un pedido con una clave secreta en el encabezado; la API revisa la clave, sabe qué cuenta está llamando y suma el uso a su factura"
+  },
+  "en": {
+    "title": "API key",
+    "tagline": "A secret string that identifies your app when it calls someone else's API.",
+    "explanation": [
+      "An **API key** is a long, random-looking string, something like `sk_live_4f9a…`, that a service gives you so your program can use its API. Every request your code sends includes the key, usually in a header, and the service uses it to know who is calling: which account to bill, which limits apply and what that caller is allowed to do.",
+      "Because whoever has the key can act as you, it works like a password. If one leaks, a stranger can run up your bill on a paid AI or maps API, read your data or send messages in your name. The most common leak is a key written directly in the code and pushed to a public GitHub repository; automated bots scan for exactly that within minutes.",
+      "Good habits follow from that. Keep keys out of the code, in environment variables or a secrets manager such as AWS Secrets Manager. Never put a secret key in a website's or mobile app's code, since anyone can read it there; call the API from your server instead. Give each key only the permissions it needs, use separate keys for testing and production, and **rotate** them: create a new one, switch over, and revoke the old. Keys identify a program; for acting on behalf of a person, services use OAuth tokens instead."
+    ],
+    "analogy": "Like the badge a contractor gets at an office building. It opens the doors they need and logs every entry under their company's name, so if they lose it, you deactivate it and print a new one.",
+    "keyPoints": [
+      "Identifies the calling app and its account, often for billing and limits.",
+      "Treat it like a password: anyone holding it can use it.",
+      "Store it in environment variables or a secrets manager, never in code.",
+      "If it leaks, revoke it and create a new one right away."
+    ],
+    "links": [
+      { "label": "What is an API key? (AWS)", "url": "https://aws.amazon.com/what-is/api-key/" },
+      { "label": "Manage API keys (Google Cloud docs)", "url": "https://cloud.google.com/docs/authentication/api-keys" },
+      { "label": "Secrets Management Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html" }
+    ]
+  },
+  "es": {
+    "title": "Clave de API",
+    "tagline": "Un texto secreto que identifica a tu app cuando llama a la API de otro.",
+    "explanation": [
+      "Una **clave de API** (API key) es un texto largo, con pinta de aleatorio, algo como `sk_live_4f9a…`, que un servicio te da para que tu programa use su API. Cada pedido que manda tu código incluye la clave, casi siempre en un encabezado, y el servicio la usa para saber quién llama: a qué cuenta facturar, qué límites aplican y qué puede hacer ese llamador.",
+      "Como quien tiene la clave puede actuar como vos, funciona igual que una contraseña. Si se filtra, un desconocido puede inflarte la factura de una API paga de IA o de mapas, leer tus datos o mandar mensajes en tu nombre. La filtración más común es una clave escrita directamente en el código y subida a un repositorio público de GitHub; hay bots que buscan exactamente eso y la encuentran en minutos.",
+      "De ahí salen los buenos hábitos. Guardá las claves fuera del código, en variables de entorno o en un gestor de secretos como AWS Secrets Manager. Nunca pongas una clave secreta en el código de un sitio web o de una app móvil, porque cualquiera puede leerla ahí; llamá a la API desde tu servidor. Dale a cada clave solo los permisos que necesita, usá claves distintas para pruebas y producción, y **rotalas**: creás una nueva, cambiás a esa y revocás la vieja. Las claves identifican a un programa; para actuar en nombre de una persona, los servicios usan tokens de OAuth."
+    ],
+    "analogy": "Como la credencial que recibe un proveedor en un edificio de oficinas. Abre las puertas que necesita y registra cada entrada a nombre de su empresa; si la pierde, la das de baja e imprimís una nueva.",
+    "keyPoints": [
+      "Identifica a la app que llama y a su cuenta, muchas veces para facturar y poner límites.",
+      "Tratala como una contraseña: cualquiera que la tenga puede usarla.",
+      "Guardala en variables de entorno o en un gestor de secretos, nunca en el código.",
+      "Si se filtra, revocala y creá una nueva enseguida."
+    ],
+    "links": [
+      { "label": "¿Qué es una clave de API? (AWS)", "url": "https://aws.amazon.com/es/what-is/api-key/" },
+      { "label": "Administrar claves de API (documentación de Google Cloud)", "url": "https://cloud.google.com/docs/authentication/api-keys?hl=es-419" },
+      { "label": "Secrets Management Cheat Sheet (OWASP, en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html" }
+    ]
+  }
+}

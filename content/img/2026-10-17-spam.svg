@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="24" y="30" width="40" height="26" rx="3"/>
+    <rect x="76" y="22" width="40" height="26" rx="3"/>
+    <rect x="128" y="34" width="40" height="26" rx="3"/>
+    <rect x="50" y="68" width="40" height="26" rx="3"/>
+    <rect x="102" y="74" width="40" height="26" rx="3"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M24 30 l20 14 20 -14"/><path d="M76 22 l20 14 20 -14"/><path d="M128 34 l20 14 20 -14"/>
+    <path d="M50 68 l20 14 20 -14"/><path d="M102 74 l20 14 20 -14"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M200 40 H300 L262 104 V140 H238 V104 Z" fill="#ffd166"/>
+    <rect x="40" y="150" width="120" height="44" rx="8" fill="#f4a7a7"/>
+    <rect x="290" y="150" width="90" height="44" rx="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M172 54 H194"/><path d="M188 50 l6 4 -6 4"/>
+    <path d="M236 128 Q170 132 120 146"/><path d="M128 140 l-8 6 9 3"/>
+    <path d="M264 130 Q300 132 324 146"/><path d="M316 142 l8 4 -8 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="250" y="30">spam filter</text>
+    <text x="250" y="66">score</text>
+    <text x="100" y="170">spam folder</text><text x="100" y="186">most of it</text>
+    <text x="335" y="170">inbox</text><text x="335" y="186">a few</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">cheap to send · filtered on arrival</text>
+</svg>

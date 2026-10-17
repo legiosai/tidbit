@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-qualcomm",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Snapdragon"],
+    "es": ["Snapdragon"]
+  },
+  "image": "img/2026-10-17-qualcomm.svg",
+  "imageAlt": {
+    "en": "Two income streams: a Snapdragon chip with CPU, GPU and modem goes into phones, and patent licenses on wireless standards bring royalties from phone makers",
+    "es": "Dos fuentes de ingresos: un chip Snapdragon con CPU, GPU y módem va adentro de los celulares, y las licencias de patentes de estándares inalámbricos traen regalías de los fabricantes"
+  },
+  "en": {
+    "title": "Qualcomm",
+    "tagline": "Designs the chips, and owns key patents, that let phones talk to cell towers.",
+    "explanation": [
+      "**Qualcomm** is an American company founded in 1985 in San Diego by Irwin Jacobs and partners. It became known for CDMA, a way of sharing radio frequencies among many phones at once, which ended up at the heart of 3G networks. Since then it has been one of the main inventors behind each generation of mobile technology, 4G and 5G included.",
+      "It makes money in two ways. The first is **chips**. Its **Snapdragon** line puts a whole phone's brain on a single chip: the CPU (based on Arm designs), the GPU for graphics, an AI accelerator, the camera processor and the **modem**, the part that talks to cell towers. Many Android phones run on Snapdragon, and Qualcomm also sells modems on their own, plus chips for cars, laptops, headsets and connected devices. Like NVIDIA or Apple, it is **fabless**: it designs the chips and companies such as TSMC and Samsung manufacture them.",
+      "The second is **licensing**. Qualcomm owns a large portfolio of patents that are essential to cellular standards, so almost anyone who makes a phone that connects to 3G, 4G or 5G pays it a royalty, even if they use another company's chips. Licensing is a smaller share of its sales than chips, but a very profitable one, and it has led to long legal disputes with phone makers and regulators over how much it can charge."
+    ],
+    "analogy": "A company that both builds car engines and owns the patent on the wheel. Some carmakers buy its engines; nearly all of them pay it something for the wheels.",
+    "keyPoints": [
+      "Founded in 1985 in San Diego; a key inventor of 3G, 4G and 5G technology.",
+      "Its Snapdragon chips power many Android phones, with CPU, GPU and modem in one piece.",
+      "Fabless: it designs chips and others, like TSMC, manufacture them.",
+      "Earns royalties from patents essential to cellular standards."
+    ],
+    "links": [
+      { "label": "About Qualcomm (official site)", "url": "https://www.qualcomm.com/company/about" },
+      { "label": "Qualcomm on Wikipedia", "url": "https://en.wikipedia.org/wiki/Qualcomm" }
+    ]
+  },
+  "es": {
+    "title": "Qualcomm",
+    "tagline": "Diseña chips y tiene patentes clave para que los celulares hablen con las antenas.",
+    "explanation": [
+      "**Qualcomm** es una empresa estadounidense fundada en 1985 en San Diego por Irwin Jacobs y sus socios. Se hizo conocida por CDMA, una forma de compartir las frecuencias de radio entre muchos celulares a la vez, que terminó en el corazón de las redes 3G. Desde entonces es uno de los principales inventores detrás de cada generación de tecnología móvil, 4G y 5G incluidas.",
+      "Gana plata de dos maneras. La primera son los **chips**. Su línea **Snapdragon** pone todo el cerebro de un celular en un solo chip: la CPU (basada en diseños de Arm), la GPU para los gráficos, un acelerador de IA, el procesador de la cámara y el **módem**, la parte que habla con las antenas. Muchos celulares Android usan Snapdragon, y Qualcomm también vende módems sueltos y chips para autos, notebooks, anteojos y dispositivos conectados. Como NVIDIA o Apple, es **fabless**: diseña los chips y los fabrican empresas como TSMC y Samsung.",
+      "La segunda son las **licencias**. Qualcomm tiene una cartera grande de patentes esenciales para los estándares celulares, así que casi cualquiera que fabrique un celular que se conecta a 3G, 4G o 5G le paga una regalía, aunque use chips de otra empresa. Las licencias son una parte menor de sus ventas que los chips, pero muy rentable, y le valieron largas disputas legales con fabricantes de celulares y reguladores por cuánto puede cobrar."
+    ],
+    "analogy": "Una empresa que fabrica motores de autos y además tiene la patente de la rueda. Algunas automotrices le compran los motores; casi todas le pagan algo por las ruedas.",
+    "keyPoints": [
+      "Fundada en 1985 en San Diego; inventora clave de la tecnología 3G, 4G y 5G.",
+      "Sus chips Snapdragon mueven muchos celulares Android, con CPU, GPU y módem en una sola pieza.",
+      "Es fabless: diseña chips y los fabrican otros, como TSMC.",
+      "Cobra regalías por patentes esenciales para los estándares celulares."
+    ],
+    "links": [
+      { "label": "Qualcomm en Wikipedia", "url": "https://es.wikipedia.org/wiki/Qualcomm" },
+      { "label": "Acerca de Qualcomm (sitio oficial, en inglés)", "url": "https://www.qualcomm.com/company/about" }
+    ]
+  }
+}

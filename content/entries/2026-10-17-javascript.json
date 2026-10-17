@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-javascript",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["JS", "ECMAScript"],
+    "es": ["JS", "ECMAScript"]
+  },
+  "image": "img/2026-10-17-javascript.svg",
+  "imageAlt": {
+    "en": "A web page made of three layers: HTML for structure, CSS for looks and JavaScript for behavior, with a button that reacts to a click",
+    "es": "Una página web hecha de tres capas: HTML para la estructura, CSS para el aspecto y JavaScript para el comportamiento, con un botón que reacciona a un clic"
+  },
+  "en": {
+    "title": "JavaScript",
+    "tagline": "The programming language that runs inside web pages and makes them interactive.",
+    "explanation": [
+      "**JavaScript** is the programming language built into every web browser. HTML says what is on a page and CSS says how it looks; JavaScript says what it does. When a menu opens, a form warns you that the email is missing, or a map lets you drag it around without reloading, JavaScript is doing that work on your own device.",
+      "It was created in 1995 at Netscape, in a famously short time, and its official standard is called **ECMAScript**. Despite the name, it has nothing to do with Java; the name was a marketing choice of the era. Because every browser has to run the same JavaScript, the standard changes carefully, and old code keeps working.",
+      "Today JavaScript also runs outside the browser, on servers and in desktop and phone apps, through runtimes like Node.js. That means one language can power both the frontend and the backend of a product, which is a big reason it is among the most used languages in the world. Many teams write **TypeScript**, a stricter version that adds type checks and is translated into plain JavaScript before it runs."
+    ],
+    "analogy": "If a web page were a theater play, HTML would be the script, CSS the costumes and set, and JavaScript the actors reacting to the audience.",
+    "keyPoints": [
+      "Every web browser runs JavaScript; no installation needed.",
+      "Not related to Java despite the name.",
+      "Its standard is ECMAScript; TypeScript is a typed variant that compiles to it.",
+      "Also runs on servers through runtimes like Node.js."
+    ],
+    "links": [
+      { "label": "What is JavaScript? (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript" },
+      { "label": "JavaScript reference and guides (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { "label": "JavaScript on Wikipedia", "url": "https://en.wikipedia.org/wiki/JavaScript" }
+    ]
+  },
+  "es": {
+    "title": "JavaScript",
+    "tagline": "El lenguaje de programación que corre en las páginas web y las vuelve interactivas.",
+    "explanation": [
+      "**JavaScript** es el lenguaje de programación que viene incorporado en todos los navegadores web. El HTML dice qué hay en una página y el CSS cómo se ve; JavaScript dice qué hace. Cuando se abre un menú, un formulario te avisa que falta el email o un mapa te deja arrastrarlo sin recargar, es JavaScript trabajando en tu propio dispositivo.",
+      "Nació en 1995 en Netscape, armado en un tiempo famosamente corto, y su estándar oficial se llama **ECMAScript**. A pesar del nombre, no tiene nada que ver con Java: fue una decisión de marketing de la época. Como todos los navegadores tienen que ejecutar el mismo JavaScript, el estándar cambia con cuidado y el código viejo sigue funcionando.",
+      "Hoy JavaScript también corre fuera del navegador, en servidores y en apps de escritorio y de celular, gracias a entornos como Node.js. Eso permite usar un solo lenguaje para el frontend y el backend de un producto, y es una de las razones por las que está entre los lenguajes más usados del mundo. Muchos equipos escriben **TypeScript**, una versión más estricta que agrega chequeo de tipos y se traduce a JavaScript común antes de correr."
+    ],
+    "analogy": "Si una página web fuera una obra de teatro, el HTML sería el guion, el CSS el vestuario y la escenografía, y JavaScript los actores que reaccionan al público.",
+    "keyPoints": [
+      "Todos los navegadores ejecutan JavaScript; no hay que instalar nada.",
+      "No tiene relación con Java, por más que se llame parecido.",
+      "Su estándar es ECMAScript; TypeScript es una variante con tipos que se traduce a él.",
+      "También corre en servidores con entornos como Node.js."
+    ],
+    "links": [
+      { "label": "¿Qué es JavaScript? (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Core/Scripting/What_is_JavaScript" },
+      { "label": "Guías y referencia de JavaScript (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/JavaScript" },
+      { "label": "JavaScript en Wikipedia", "url": "https://es.wikipedia.org/wiki/JavaScript" }
+    ]
+  }
+}

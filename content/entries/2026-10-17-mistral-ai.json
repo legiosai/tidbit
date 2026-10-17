@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-mistral-ai",
+  "date": "2026-10-17",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Mistral", "Le Chat"],
+    "es": ["Mistral", "Le Chat"]
+  },
+  "image": "img/2026-10-17-mistral-ai.svg",
+  "imageAlt": {
+    "en": "Mistral AI's models go two ways: open weights that anyone can download and run on their own servers, and a paid API and chat assistant",
+    "es": "Los modelos de Mistral AI salen por dos caminos: pesos abiertos que cualquiera puede bajar y correr en sus servidores, y una API paga con un asistente de chat"
+  },
+  "en": {
+    "title": "Mistral AI",
+    "tagline": "A French company that builds AI language models, many of them with open weights.",
+    "explanation": [
+      "**Mistral AI** was founded in Paris in 2023 by Arthur Mensch, who came from Google DeepMind, and Guillaume Lample and Timothée Lacroix, who came from Meta's AI research lab. It builds large language models, the kind of AI behind chat assistants, and quickly became one of the best-known AI companies in Europe.",
+      "What made it stand out early was releasing models with **open weights**. Mistral 7B and Mixtral, among its first models, could be downloaded by anyone and run on their own computers or servers, under a permissive license. Mixtral popularized the **mixture of experts** design, where only part of the model is used for each word, which makes it cheaper to run. Mistral also offers more capable models that are available only through its paid service.",
+      "It makes money by selling access to its models through an API, by charging companies that want to run them on their own infrastructure, often for privacy or legal reasons, and through **Le Chat**, its chat assistant for people and businesses. Being European is part of its pitch: some governments and companies prefer a provider subject to European law."
+    ],
+    "analogy": "A bakery that sells bread at the counter but also publishes some of its recipes. You can buy a loaf ready to eat, or take a recipe home and bake it in your own oven.",
+    "keyPoints": [
+      "Founded in Paris in 2023 by former DeepMind and Meta researchers.",
+      "Releases many of its models with open weights that anyone can download.",
+      "Its Mixtral models helped popularize the mixture of experts design.",
+      "Earns money from its API, enterprise deployments and the Le Chat assistant."
+    ],
+    "links": [
+      { "label": "About Mistral AI (official site)", "url": "https://mistral.ai/about" },
+      { "label": "Mistral AI documentation", "url": "https://docs.mistral.ai/" },
+      { "label": "Mistral AI on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mistral_AI" }
+    ]
+  },
+  "es": {
+    "title": "Mistral AI",
+    "tagline": "Una empresa francesa que crea modelos de lenguaje de IA, muchos con pesos abiertos.",
+    "explanation": [
+      "**Mistral AI** se fundó en París en 2023, de la mano de Arthur Mensch, que venía de Google DeepMind, y de Guillaume Lample y Timothée Lacroix, que venían del laboratorio de investigación en IA de Meta. Crea modelos de lenguaje grandes, el tipo de IA que está detrás de los asistentes de chat, y rápidamente se volvió una de las empresas de IA más conocidas de Europa.",
+      "Lo que la hizo destacar al principio fue publicar modelos con **pesos abiertos**. Mistral 7B y Mixtral, de sus primeros modelos, se podían bajar y correr en compus o servidores propios, con una licencia permisiva. Mixtral popularizó el diseño de **mezcla de expertos** (mixture of experts), en el que se usa solo una parte del modelo para cada palabra, y eso lo hace más barato de correr. Mistral también ofrece modelos más potentes que solo están disponibles en su servicio pago.",
+      "Gana plata vendiendo acceso a sus modelos a través de una API, cobrándoles a empresas que quieren correrlos en su propia infraestructura, muchas veces por privacidad o por temas legales, y con **Le Chat**, su asistente de chat para personas y empresas. Ser europea es parte de su propuesta: algunos gobiernos y empresas prefieren un proveedor sujeto a las leyes europeas."
+    ],
+    "analogy": "Una panadería que vende pan en el mostrador pero también publica algunas de sus recetas. Podés comprar el pan listo, o llevarte la receta y hornearlo en tu propio horno.",
+    "keyPoints": [
+      "Fundada en París en 2023 por ex investigadores de DeepMind y Meta.",
+      "Publica muchos de sus modelos con pesos abiertos que cualquiera puede bajar.",
+      "Sus modelos Mixtral ayudaron a popularizar el diseño de mezcla de expertos.",
+      "Gana plata con su API, instalaciones para empresas y el asistente Le Chat."
+    ],
+    "links": [
+      { "label": "Mistral AI en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mistral_AI" },
+      { "label": "Acerca de Mistral AI (sitio oficial, en inglés)", "url": "https://mistral.ai/about" },
+      { "label": "Documentación de Mistral AI (en inglés)", "url": "https://docs.mistral.ai/" }
+    ]
+  }
+}

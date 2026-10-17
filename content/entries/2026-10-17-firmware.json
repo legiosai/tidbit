@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-firmware",
+  "date": "2026-10-17",
+  "subjects": ["hardware", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["firmware update", "firmware updates"],
+    "es": ["actualización de firmware", "actualizaciones de firmware"]
+  },
+  "image": "img/2026-10-17-firmware.svg",
+  "imageAlt": {
+    "en": "A stack of three layers, apps and OS on top, firmware in the middle and hardware at the bottom, with a new version arriving as an update into the firmware layer",
+    "es": "Una pila de tres capas, apps y sistema operativo arriba, firmware en el medio y hardware abajo, con una versión nueva que entra como actualización en la capa de firmware"
+  },
+  "en": {
+    "title": "Firmware",
+    "tagline": "Software built into a device to run its hardware, from routers to washing machines.",
+    "explanation": [
+      "**Firmware** is the software that lives inside a device and makes its hardware work. It is stored on a memory chip in the device itself, not on a disk you can browse, and it starts running the moment the device gets power. Your router, your TV, your printer, a smartwatch, a car's dashboard and even a computer's keyboard and SSD each have their own firmware.",
+      "It sits between the hardware and everything else. In a simple gadget, like a thermostat or a microwave, the firmware is the whole program: it reads the buttons, drives the display and switches the heater on and off. In a computer or a phone, the firmware does the low-level work (waking up the chips, talking to the disk, managing the battery) and then hands over to the operating system. The BIOS and UEFI of a PC are firmware.",
+      "The name says where it sits: firmer than software you install, but not fixed forever like the hardware. Manufacturers release **firmware updates** to fix bugs, add features or close security holes, which is why a router or a phone sometimes asks to update and restart. Old devices that no longer get updates are a real risk, because their known vulnerabilities never get fixed. And an update should never be interrupted: if the power goes out halfway, the device can be left unable to start."
+    ],
+    "analogy": "The metal drum inside a music box: it comes with the device and decides what it does every time you wind it. Unlike the drum, firmware can be swapped for a newer version with an update.",
+    "keyPoints": [
+      "Stored on a chip inside the device and runs as soon as it powers on.",
+      "Almost every electronic device has it, from routers to keyboards.",
+      "Updates fix bugs and security holes; devices that stop getting them stay exposed.",
+      "Never cut the power in the middle of a firmware update."
+    ],
+    "links": [
+      { "label": "Firmware on Wikipedia", "url": "https://en.wikipedia.org/wiki/Firmware" },
+      { "label": "Firmware (NIST glossary)", "url": "https://csrc.nist.gov/glossary/term/firmware" }
+    ]
+  },
+  "es": {
+    "title": "Firmware",
+    "tagline": "El software que viene adentro de un aparato y hace funcionar su hardware.",
+    "explanation": [
+      "El **firmware** es el software que vive adentro de un aparato y hace que su hardware funcione. Está guardado en un chip de memoria del propio dispositivo, no en un disco que puedas explorar, y empieza a correr apenas el aparato recibe energía. Tu router, tu tele, tu impresora, un reloj inteligente, el tablero de un auto y hasta el teclado y el SSD de una computadora tienen cada uno su firmware.",
+      "Está entre el hardware y todo lo demás. En un aparato simple, como un termostato o un microondas, el firmware es el programa entero: lee los botones, maneja la pantallita y prende y apaga la resistencia. En una computadora o un celular, el firmware hace el trabajo de bajo nivel (despertar los chips, hablar con el disco, administrar la batería) y después le pasa el control al sistema operativo. El BIOS y UEFI de una PC son firmware.",
+      "El nombre dice dónde está: más firme que el software que instalás, pero no fijo para siempre como el hardware. Los fabricantes publican **actualizaciones de firmware** para corregir errores, sumar funciones o cerrar agujeros de seguridad, y por eso un router o un celular a veces te pide actualizar y reiniciar. Los aparatos viejos que ya no reciben actualizaciones son un riesgo real, porque sus vulnerabilidades conocidas nunca se corrigen. Y una actualización nunca se interrumpe: si se corta la luz a la mitad, el aparato puede quedar sin arrancar."
+    ],
+    "analogy": "El cilindro de metal de una cajita musical: viene con el aparato y decide qué hace cada vez que le das cuerda. A diferencia del cilindro, el firmware se puede cambiar por una versión nueva con una actualización.",
+    "keyPoints": [
+      "Está guardado en un chip del aparato y corre apenas se enciende.",
+      "Casi todo dispositivo electrónico tiene, desde routers hasta teclados.",
+      "Las actualizaciones corrigen errores y agujeros; los aparatos que dejan de recibirlas quedan expuestos.",
+      "Nunca cortes la luz en medio de una actualización de firmware."
+    ],
+    "links": [
+      { "label": "Firmware en Wikipedia", "url": "https://es.wikipedia.org/wiki/Firmware" },
+      { "label": "Firmware, glosario del NIST (en inglés)", "url": "https://csrc.nist.gov/glossary/term/firmware" }
+    ]
+  }
+}

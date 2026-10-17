@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-tesla",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Tesla Motors", "Tesla Autopilot"],
+    "es": ["Tesla Motors", "Tesla Autopilot"]
+  },
+  "image": "img/2026-10-17-tesla.svg",
+  "imageAlt": {
+    "en": "An electric car seen from the side with a battery pack made of many small cells in its floor, cameras around it, and a software update arriving over the air from the cloud",
+    "es": "Un auto eléctrico de costado con una batería hecha de muchas celdas chicas en el piso, cámaras alrededor y una actualización de software que llega por el aire desde la nube"
+  },
+  "en": {
+    "title": "Tesla",
+    "tagline": "An electric car maker that treats the car as a computer on wheels.",
+    "explanation": [
+      "**Tesla** is an American company founded in 2003 by Martin Eberhard and Marc Tarpenning; Elon Musk joined as its main early investor and later became CEO. It makes electric cars, such as the Model S, Model 3 and Model Y, plus large batteries for homes and power grids. It earns money mostly by selling cars, and also from energy storage, charging and software features sold as upgrades or subscriptions.",
+      "The heart of an electric car is the **battery**. Tesla's packs are built from thousands of small lithium-ion cells, similar in shape to oversized AA batteries, wired together and lying flat in the floor of the car. Software constantly manages their temperature and charge, which matters for range and for how long the battery lasts. Tesla builds its own large battery and car factories, and its fast-charging network, the **Superchargers**, uses a plug design that other carmakers in North America have since adopted.",
+      "Tesla also changed how cars get better over time. Most of the car is controlled by its central computer and software, so Tesla sends **over-the-air updates**, like a phone's, that can add features or fix problems without a visit to the workshop. Its driver-assistance systems, sold as Autopilot and \"Full Self-Driving (Supervised)\", use cameras and neural networks to steer, brake and change lanes, but they require an attentive driver ready to take over; regulators in several countries have examined how they are used and marketed."
+    ],
+    "analogy": "Like a smartphone that happens to have wheels: the hardware is built once, and the software keeps changing what it can do long after you take it home.",
+    "keyPoints": [
+      "Founded in 2003; makes electric cars and large batteries for homes and grids.",
+      "Battery packs are made of thousands of small cells managed by software.",
+      "Over-the-air updates add features and fixes without a workshop visit.",
+      "Its driver assistance relies on cameras and needs an attentive driver."
+    ],
+    "links": [
+      { "label": "Tesla, Inc. on Wikipedia", "url": "https://en.wikipedia.org/wiki/Tesla,_Inc." },
+      { "label": "Tesla Autopilot on Wikipedia", "url": "https://en.wikipedia.org/wiki/Tesla_Autopilot" },
+      { "label": "Over-the-air update on Wikipedia", "url": "https://en.wikipedia.org/wiki/Over-the-air_update" }
+    ]
+  },
+  "es": {
+    "title": "Tesla",
+    "tagline": "Una fabricante de autos eléctricos que trata al auto como una computadora con ruedas.",
+    "explanation": [
+      "**Tesla** es una empresa estadounidense fundada en 2003 por Martin Eberhard y Marc Tarpenning; Elon Musk entró como su principal inversor inicial y después fue CEO. Fabrica autos eléctricos, como el Model S, el Model 3 y el Model Y, y también baterías grandes para casas y redes eléctricas. Gana plata sobre todo vendiendo autos, y además con almacenamiento de energía, carga y funciones de software que vende como mejoras o suscripciones.",
+      "El corazón de un auto eléctrico es la **batería**. Las de Tesla se arman con miles de celdas de litio chiquitas, con forma parecida a pilas AA grandes, conectadas entre sí y acostadas en el piso del auto. Un software controla todo el tiempo su temperatura y su carga, algo que importa para la autonomía y para cuánto dura la batería. Tesla tiene sus propias fábricas grandes de baterías y autos, y su red de carga rápida, los **Superchargers**, usa un diseño de enchufe que después adoptaron otras automotrices en América del Norte.",
+      "Tesla también cambió cómo mejora un auto con el tiempo. Casi todo el auto lo controla su computadora central y su software, así que Tesla manda **actualizaciones por el aire** (over the air), como las de un celular, que pueden sumar funciones o corregir problemas sin ir al taller. Sus sistemas de asistencia a la conducción, que vende como Autopilot y \"Full Self-Driving (Supervised)\", usan cámaras y redes neuronales para doblar, frenar y cambiar de carril, pero necesitan un conductor atento y listo para tomar el control; reguladores de varios países examinaron cómo se usan y cómo se promocionan."
+    ],
+    "analogy": "Como un celular que además tiene ruedas: el hardware se fabrica una vez, y el software sigue cambiando lo que puede hacer mucho después de que te lo llevás a casa.",
+    "keyPoints": [
+      "Fundada en 2003; fabrica autos eléctricos y baterías grandes para casas y redes eléctricas.",
+      "Sus baterías se arman con miles de celdas chicas controladas por software.",
+      "Las actualizaciones por el aire suman funciones y arreglos sin pasar por el taller.",
+      "Su asistencia a la conducción se basa en cámaras y necesita un conductor atento."
+    ],
+    "links": [
+      { "label": "Tesla, Inc. en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tesla,_Inc." },
+      { "label": "Tesla Autopilot en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tesla_Autopilot" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-ibm",
+  "date": "2026-10-17",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["International Business Machines"],
+    "es": ["International Business Machines"]
+  },
+  "image": "img/2026-10-17-ibm.svg",
+  "imageAlt": {
+    "en": "A big company box splits into three business lines: software and hybrid cloud, consulting, and infrastructure such as mainframes, all serving banks, airlines and governments",
+    "es": "Una caja grande de la empresa se divide en tres negocios: software y nube híbrida, consultoría e infraestructura como los mainframes, todos al servicio de bancos, aerolíneas y gobiernos"
+  },
+  "en": {
+    "title": "IBM",
+    "tagline": "A century-old computer company that sells software, consulting and mainframes.",
+    "explanation": [
+      "**IBM** (International Business Machines) is an American company that began in 1911 making machines to tabulate, record and count, and took its current name in 1924. For most of the 20th century it was the name in computing: its punched-card systems ran censuses and payrolls, and its **mainframes**, large, very reliable computers starting with the System/360 in 1964, became the core of banks, airlines and governments. In 1981 the IBM PC set the standard for the personal computer.",
+      "IBM no longer sells PCs (it sold that business to Lenovo in 2005). Today it sells mainly to large organizations, in three ways. **Software**, much of it from Red Hat, which IBM bought in 2019, to run applications across a company's own data centers and several clouds, an idea it calls **hybrid cloud**. **Consulting**, where its staff help companies modernize systems and adopt AI. And **infrastructure**: modern mainframes, still used for card payments and bank accounts, and powerful servers.",
+      "It earns money from software licenses and subscriptions, consulting fees and hardware sales with long support contracts. IBM is also known for research: its labs developed the hard disk drive, the relational database idea behind SQL and the DRAM memory chip, built Deep Blue, which beat the world chess champion in 1997, and Watson, which won a TV quiz show in 2011. Today one of its long bets is quantum computing."
+    ],
+    "analogy": "An old, large engineering firm that once built the city's power plants. It no longer makes the light bulbs people buy at the store, but it still runs and modernizes the plants, and sells the know-how to do it.",
+    "keyPoints": [
+      "Founded in 1911; named IBM since 1924.",
+      "Its mainframes still process a large part of the world's banking and card transactions.",
+      "Makes money from software (including Red Hat), consulting and hardware for large organizations.",
+      "Its labs invented the hard disk drive and the relational database idea, and work on quantum computing."
+    ],
+    "links": [
+      { "label": "About IBM (official site)", "url": "https://www.ibm.com/about" },
+      { "label": "IBM on Wikipedia", "url": "https://en.wikipedia.org/wiki/IBM" }
+    ]
+  },
+  "es": {
+    "title": "IBM",
+    "tagline": "Una empresa centenaria de computación que vende software, consultoría y mainframes.",
+    "explanation": [
+      "**IBM** (International Business Machines) es una empresa estadounidense que empezó en 1911 haciendo máquinas para tabular, registrar y contar, y adoptó su nombre actual en 1924. Durante casi todo el siglo XX fue el nombre de la computación: sus sistemas de tarjetas perforadas procesaron censos y sueldos, y sus **mainframes**, computadoras grandes y muy confiables que arrancaron con la System/360 en 1964, se volvieron el corazón de bancos, aerolíneas y gobiernos. En 1981 la IBM PC fijó el estándar de la computadora personal.",
+      "IBM ya no vende PCs (le vendió ese negocio a Lenovo en 2005). Hoy le vende sobre todo a organizaciones grandes, de tres maneras. **Software**, gran parte de Red Hat, que IBM compró en 2019, para correr aplicaciones entre los data centers propios de una empresa y varias nubes, una idea que llama **nube híbrida**. **Consultoría**, donde su gente ayuda a las empresas a modernizar sistemas y adoptar IA. E **infraestructura**: mainframes modernos, que se siguen usando para pagos con tarjeta y cuentas bancarias, y servidores potentes.",
+      "Gana plata con licencias y suscripciones de software, honorarios de consultoría y venta de hardware con contratos de soporte largos. IBM también es conocida por la investigación: sus laboratorios desarrollaron el disco rígido, la idea de base de datos relacional detrás de SQL y el chip de memoria DRAM, construyeron Deep Blue, que le ganó al campeón mundial de ajedrez en 1997, y Watson, que ganó un concurso de preguntas en la tele en 2011. Hoy una de sus apuestas largas es la computación cuántica."
+    ],
+    "analogy": "Una empresa de ingeniería vieja y grande que alguna vez construyó las usinas de la ciudad. Ya no fabrica las lamparitas que la gente compra en el súper, pero sigue operando y modernizando las usinas, y vende el saber hacerlo.",
+    "keyPoints": [
+      "Fundada en 1911; se llama IBM desde 1924.",
+      "Sus mainframes todavía procesan buena parte de las transacciones bancarias y con tarjeta del mundo.",
+      "Gana plata con software (incluido Red Hat), consultoría y hardware para organizaciones grandes.",
+      "Sus laboratorios inventaron el disco rígido y la idea de base de datos relacional, y trabajan en computación cuántica."
+    ],
+    "links": [
+      { "label": "IBM en Wikipedia", "url": "https://es.wikipedia.org/wiki/IBM" },
+      { "label": "Acerca de IBM (sitio oficial)", "url": "https://www.ibm.com/es-es/about" }
+    ]
+  }
+}

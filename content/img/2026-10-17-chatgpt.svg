@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="24" width="226" height="150" rx="10" fill="#e6dfd0"/>
+    <rect x="96" y="54" width="140" height="30" rx="12" fill="#9ac7ea"/>
+    <rect x="38" y="96" width="170" height="58" rx="12" fill="#f3efe6"/>
+    <rect x="290" y="64" width="90" height="70" rx="10" fill="#ffd166"/>
+    <rect x="30" y="190" width="84" height="26" rx="13" fill="#9bd1b9"/>
+    <rect x="124" y="190" width="58" height="26" rx="13" fill="#9bd1b9"/>
+    <rect x="192" y="190" width="68" height="26" rx="13" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M54 116 h120"/><path d="M54 128 h138"/><path d="M54 140 h90"/>
+    <path d="M254 90 H284"/><path d="M279 86 l6 4 -6 4"/>
+    <path d="M286 110 H256"/><path d="M261 106 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="166" y="73">why is the sky blue?</text>
+    <text x="335" y="96">GPT</text><text x="335" y="112">model</text>
+    <text x="72" y="207">web search</text><text x="153" y="207">files</text><text x="226" y="207">images</text>
+  </g>
+  <text x="137" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">ChatGPT app</text>
+</svg>

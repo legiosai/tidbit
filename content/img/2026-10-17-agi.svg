@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="126" width="80" height="30" rx="6" fill="#9ac7ea"/>
+    <rect x="30" y="82" width="210" height="30" rx="6" fill="#9bd1b9"/>
+  </g>
+  <rect x="30" y="38" width="340" height="30" rx="6" fill="#e6dfd0" stroke="#2b2b2b" stroke-width="2" stroke-dasharray="6 5"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M30 174 H366"/><path d="M360 170 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="145">chess bot</text><text x="135" y="101">today's models</text><text x="200" y="57">AGI ?</text>
+  </g>
+  <text x="200" y="194" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">how many kinds of tasks, at human level</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no agreed definition · no agreed date</text>
+</svg>

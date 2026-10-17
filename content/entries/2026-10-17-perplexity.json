@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-perplexity",
+  "date": "2026-10-17",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Perplexity AI"],
+    "es": ["Perplexity AI"]
+  },
+  "image": "img/2026-10-17-perplexity.svg",
+  "imageAlt": {
+    "en": "A question goes into an answer engine, which searches several web pages, reads them and writes one answer with numbered sources",
+    "es": "Una pregunta entra a un motor de respuestas, que busca en varias páginas web, las lee y escribe una sola respuesta con fuentes numeradas"
+  },
+  "en": {
+    "title": "Perplexity",
+    "tagline": "An AI answer engine that searches the web and replies with a summary and its sources.",
+    "explanation": [
+      "**Perplexity** is an American company founded in 2022 in San Francisco by Aravind Srinivas, Denis Yarats, Johnny Ho and Andy Konwinski. Its product, also called Perplexity, calls itself an **answer engine**: instead of returning a list of blue links like a classic search engine, it returns a written answer to your question.",
+      "Under the hood it combines a search engine with a large language model. When you ask something, Perplexity searches the web, picks the most relevant pages, reads them and asks the model to write an answer based only on what it found, with **numbered citations** pointing to each source so you can check them. This technique is known as RAG (retrieval-augmented generation). It can use its own models or models from other companies, such as OpenAI and Anthropic, and lets paying users choose.",
+      "It makes money mainly through subscriptions: a free version with limits and paid plans for individuals and companies, plus an API for developers. Like other AI search tools, it raises a fair question about the open web: some news publishers have objected to how it uses their articles, since readers may get the answer without ever visiting the page that produced it."
+    ],
+    "analogy": "A research assistant who, when you ask a question, goes to the library, skims the relevant books and comes back with a one-page summary that has footnotes on every claim.",
+    "keyPoints": [
+      "Founded in 2022 in San Francisco; its product is also called Perplexity.",
+      "Searches the web, then has an LLM write an answer with numbered sources.",
+      "Uses its own models and models from other AI companies.",
+      "Makes money from subscriptions and an API for developers."
+    ],
+    "links": [
+      { "label": "Perplexity Help Center (official)", "url": "https://www.perplexity.ai/help-center/en" },
+      { "label": "Perplexity AI on Wikipedia", "url": "https://en.wikipedia.org/wiki/Perplexity_AI" }
+    ]
+  },
+  "es": {
+    "title": "Perplexity",
+    "tagline": "Un motor de respuestas con IA que busca en la web y responde con un resumen y fuentes.",
+    "explanation": [
+      "**Perplexity** es una empresa estadounidense fundada en 2022 en San Francisco por Aravind Srinivas, Denis Yarats, Johnny Ho y Andy Konwinski. Su producto, que también se llama Perplexity, se presenta como un **motor de respuestas**: en vez de devolver una lista de links azules como un buscador clásico, devuelve una respuesta escrita a tu pregunta.",
+      "Por dentro combina un buscador con un modelo de lenguaje grande. Cuando preguntás algo, Perplexity busca en la web, elige las páginas más relevantes, las lee y le pide al modelo que escriba una respuesta basada solo en lo que encontró, con **citas numeradas** que apuntan a cada fuente para que puedas verificarlas. Esta técnica se conoce como RAG (generación aumentada por recuperación). Puede usar modelos propios o de otras empresas, como OpenAI y Anthropic, y deja que quienes pagan elijan.",
+      "Gana plata sobre todo con suscripciones: una versión gratis con límites y planes pagos para personas y empresas, además de una API para desarrolladores. Como otras herramientas de búsqueda con IA, plantea una pregunta razonable sobre la web abierta: algunos medios de noticias objetaron cómo usa sus artículos, ya que los lectores pueden obtener la respuesta sin entrar nunca a la página que la produjo."
+    ],
+    "analogy": "Un asistente de investigación que, cuando le hacés una pregunta, va a la biblioteca, hojea los libros que sirven y vuelve con un resumen de una página con notas al pie en cada afirmación.",
+    "keyPoints": [
+      "Fundada en 2022 en San Francisco; su producto también se llama Perplexity.",
+      "Busca en la web y después un LLM escribe una respuesta con fuentes numeradas.",
+      "Usa modelos propios y de otras empresas de IA.",
+      "Gana plata con suscripciones y una API para desarrolladores."
+    ],
+    "links": [
+      { "label": "Perplexity AI en Wikipedia", "url": "https://es.wikipedia.org/wiki/Perplexity_AI" },
+      { "label": "Centro de ayuda de Perplexity (en inglés)", "url": "https://www.perplexity.ai/help-center/en" }
+    ]
+  }
+}

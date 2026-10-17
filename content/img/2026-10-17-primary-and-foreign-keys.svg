@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="44" width="140" height="122" rx="6" fill="#e6dfd0"/>
+    <rect x="104" y="44" width="60" height="122" rx="6" fill="#ffd166"/>
+    <path d="M24 72 H164 M24 104 H164 M24 136 H164 M104 44 V166" fill="none"/>
+    <rect x="236" y="44" width="140" height="122" rx="6" fill="#e6dfd0"/>
+    <rect x="236" y="44" width="90" height="122" rx="6" fill="#9ac7ea"/>
+    <path d="M236 72 H376 M236 104 H376 M236 136 H376 M326 44 V166" fill="none"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="64" y="62">name</text><text x="134" y="62">id</text>
+    <text x="64" y="93">Ana</text><text x="134" y="93">41</text>
+    <text x="64" y="125">Luis</text><text x="134" y="125">42</text>
+    <text x="64" y="156">Mia</text><text x="134" y="156">43</text>
+    <text x="281" y="62">customer_id</text><text x="351" y="62">id</text>
+    <text x="281" y="93">42</text><text x="351" y="93">7</text>
+    <text x="281" y="125">41</text><text x="351" y="125">8</text>
+    <text x="281" y="156">42</text><text x="351" y="156">9</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M264 89 C220 89 200 120 154 120"/><path d="M161 115 l-7 5 7 5"/>
+    <path d="M264 152 C220 152 200 124 156 122"/>
+    <path d="M264 121 C220 121 200 92 156 90"/><path d="M162 85 l-7 5 7 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="94" y="32">customers</text><text x="306" y="32">orders</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="134" y="186">primary key</text><text x="281" y="186">foreign key</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">orders point to customers by id</text>
+</svg>

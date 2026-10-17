@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-deepseek",
+  "date": "2026-10-17",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["DeepSeek-R1", "DeepSeek-V3", "DeepSeek R1", "DeepSeek V3"],
+    "es": ["DeepSeek-R1", "DeepSeek-V3", "DeepSeek R1", "DeepSeek V3"]
+  },
+  "image": "img/2026-10-17-deepseek.svg",
+  "imageAlt": {
+    "en": "A model built in Hangzhou is published three ways: weights to download, a technical report explaining how it was made, and a chat app with an API",
+    "es": "Un modelo hecho en Hangzhou se publica de tres formas: pesos para descargar, un informe técnico que explica cómo se hizo, y una app de chat con API"
+  },
+  "en": {
+    "title": "DeepSeek",
+    "tagline": "A Chinese AI lab whose open-weight models showed that top AI could be built for less.",
+    "explanation": [
+      "**DeepSeek** is an AI company based in Hangzhou, China, founded in 2023 by Liang Wenfeng and funded by High-Flyer, the quantitative investment fund he co-founded. It builds large language models, offers them in a free chat app and sells access to them through an API at low prices.",
+      "It drew worldwide attention in January 2025 with **DeepSeek-R1**, a reasoning model that thinks step by step before answering, built on top of its earlier model DeepSeek-V3. R1 performed close to the best models from American labs on many tests, but DeepSeek published its **weights** under a permissive license, so anyone could download it and run it, together with technical reports explaining how it was trained. The reports also described tricks to train efficiently, such as a mixture of experts design and using reinforcement learning to teach reasoning, and a training cost far lower than people expected, although that figure covered only the final training run.",
+      "Its arrival mattered for several reasons. It suggested that strong models did not require the biggest budgets, it came from China despite US limits on exports of the most advanced AI chips, and it gave researchers everywhere an open model to study and adapt. It also raised concerns: the app stores data on servers in China, some governments banned it on official devices, and its hosted service avoids or follows official lines on topics that are sensitive in China."
+    ],
+    "analogy": "A small kitchen that cooks a dish as good as the famous restaurants for a fraction of the cost, and then publishes the full recipe for anyone to try at home.",
+    "keyPoints": [
+      "Chinese AI company founded in 2023 in Hangzhou, backed by the fund High-Flyer.",
+      "DeepSeek-R1 (2025) rivaled top models and was released with open weights.",
+      "Its technical reports showed how to train strong models more efficiently.",
+      "Its app has raised privacy and censorship concerns in several countries."
+    ],
+    "links": [
+      { "label": "DeepSeek on GitHub (models and reports)", "url": "https://github.com/deepseek-ai" },
+      { "label": "DeepSeek on Wikipedia", "url": "https://en.wikipedia.org/wiki/DeepSeek" },
+      { "label": "DeepSeek official site", "url": "https://www.deepseek.com/" }
+    ]
+  },
+  "es": {
+    "title": "DeepSeek",
+    "tagline": "Un laboratorio chino de IA cuyos modelos abiertos mostraron que se podía gastar menos.",
+    "explanation": [
+      "**DeepSeek** es una empresa de IA con sede en Hangzhou, China, fundada en 2023 por Liang Wenfeng y financiada por High-Flyer, el fondo de inversión cuantitativo que él mismo cofundó. Crea modelos de lenguaje grandes, los ofrece en una app de chat gratuita y vende acceso a ellos a través de una API a precios bajos.",
+      "Llamó la atención en todo el mundo en enero de 2025 con **DeepSeek-R1**, un modelo de razonamiento que piensa paso a paso antes de responder, construido sobre su modelo anterior, DeepSeek-V3. R1 rindió cerca de los mejores modelos de los laboratorios estadounidenses en muchas pruebas, pero DeepSeek publicó sus **pesos** con una licencia permisiva, así que cualquiera podía bajarlo y correrlo, junto con informes técnicos que explicaban cómo se entrenó. Los informes también describían trucos para entrenar de forma eficiente, como un diseño de mezcla de expertos y el uso de aprendizaje por refuerzo para enseñarle a razonar, y un costo de entrenamiento mucho menor al que se esperaba, aunque esa cifra cubría solo la última corrida de entrenamiento.",
+      "Su llegada importó por varias razones. Sugirió que los modelos potentes no necesitaban los presupuestos más grandes, vino de China a pesar de los límites de Estados Unidos a la exportación de los chips de IA más avanzados, y les dio a investigadores de todos lados un modelo abierto para estudiar y adaptar. También generó preocupaciones: la app guarda datos en servidores en China, algunos gobiernos la prohibieron en dispositivos oficiales, y su servicio online evita o sigue la línea oficial en temas sensibles para China."
+    ],
+    "analogy": "Una cocina chica que prepara un plato tan bueno como el de los restaurantes famosos por una fracción del costo, y después publica la receta completa para que cualquiera la pruebe en su casa.",
+    "keyPoints": [
+      "Empresa china de IA fundada en 2023 en Hangzhou, respaldada por el fondo High-Flyer.",
+      "DeepSeek-R1 (2025) compitió con los mejores modelos y salió con pesos abiertos.",
+      "Sus informes técnicos mostraron cómo entrenar modelos potentes de forma más eficiente.",
+      "Su app generó preocupaciones de privacidad y censura en varios países."
+    ],
+    "links": [
+      { "label": "DeepSeek en Wikipedia", "url": "https://es.wikipedia.org/wiki/DeepSeek" },
+      { "label": "DeepSeek en GitHub, modelos e informes (en inglés)", "url": "https://github.com/deepseek-ai" },
+      { "label": "Sitio oficial de DeepSeek (en inglés)", "url": "https://www.deepseek.com/" }
+    ]
+  }
+}

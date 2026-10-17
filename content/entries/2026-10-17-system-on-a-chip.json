@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-17-system-on-a-chip",
+  "date": "2026-10-17",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "system-on-a-chip",
+      "system-on-chip",
+      "systems on a chip"
+    ],
+    "es": [
+      "system on a chip",
+      "system-on-chip",
+      "sistemas en un chip"
+    ]
+  },
+  "image": "img/2026-10-17-system-on-a-chip.svg",
+  "imageAlt": {
+    "en": "One square chip divided into blocks labeled CPU, GPU, NPU, memory, modem and I/O, all on the same piece of silicon",
+    "es": "Un solo chip cuadrado dividido en bloques con los nombres CPU, GPU, NPU, memoria, módem y E/S, todos en la misma pieza de silicio"
+  },
+  "en": {
+    "title": "System on a chip",
+    "tagline": "One chip that holds a computer's main parts: CPU, GPU, memory control and more.",
+    "explanation": [
+      "A **system on a chip** (often shortened to SoC) puts most of a computer's main parts on a single piece of silicon. Instead of a separate processor, graphics card and controller chips spread over a motherboard, one chip holds the CPU cores, a GPU, often an NPU for AI tasks, the controllers for memory, screen, camera and USB, and in phones the cellular modem. Every smartphone runs on one, and so do tablets, smartwatches, many laptops and the Raspberry Pi.",
+      "Packing everything together has big advantages. Signals travel millimeters instead of centimeters, so the parts talk to each other faster and use much less energy, which means longer battery life and less heat. The device can also be thinner and cheaper to build. Apple silicon Macs, most Android phones and many small devices are built around one, usually based on the Arm architecture.",
+      "The trade-off is flexibility. In a desktop PC you can swap the graphics card or add more RAM; in a system on a chip the parts are fixed when the chip is designed, and the memory is often soldered right next to it or inside the same package. Designing one is also very expensive, so only large companies design their own from scratch, while many others combine licensed building blocks."
+    ],
+    "analogy": "A studio apartment instead of a house. Kitchen, bedroom and living room share one compact space, so everything is close and cheap to heat, but you cannot knock down a wall to add a room.",
+    "keyPoints": [
+      "Puts the CPU, the GPU and many controllers on one piece of silicon.",
+      "Uses less power and space, which is why every smartphone has one.",
+      "Its parts cannot be upgraded separately, unlike in a desktop PC.",
+      "Most are based on the Arm architecture."
+    ],
+    "links": [
+      {
+        "label": "System on a chip on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/System_on_a_chip"
+      },
+      {
+        "label": "Apple silicon, an example of SoCs, on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Apple_silicon"
+      }
+    ]
+  },
+  "es": {
+    "title": "Sistema en un chip",
+    "tagline": "Un solo chip con las piezas principales de una computadora: CPU, GPU, memoria y más.",
+    "explanation": [
+      "Un **sistema en un chip** (system on a chip, o SoC) pone la mayoría de las piezas principales de una computadora en una sola pieza de silicio. En vez de un procesador, una placa de video y varios chips controladores repartidos por una placa madre, un único chip tiene los núcleos del CPU, una GPU, muchas veces una NPU para tareas de IA, los controladores de memoria, pantalla, cámara y USB y, en los celulares, el módem de la red móvil. Todo smartphone funciona con uno, y también las tablets, los relojes inteligentes, muchas notebooks y la Raspberry Pi.",
+      "Juntar todo tiene ventajas grandes. Las señales viajan milímetros en lugar de centímetros, así que las piezas se comunican más rápido y gastan mucha menos energía: más batería y menos calor. El aparato también puede ser más fino y más barato de fabricar. Las Mac con Apple silicon, la mayoría de los celulares Android y muchos aparatos chicos se arman alrededor de uno, casi siempre basado en la arquitectura Arm.",
+      "La contra es la flexibilidad. En una PC de escritorio podés cambiar la placa de video o sumar RAM; en un sistema en un chip las piezas quedan fijas cuando se diseña el chip, y la memoria muchas veces va soldada al lado o dentro del mismo encapsulado. Además, diseñar uno es carísimo, por eso solo las empresas grandes diseñan el suyo desde cero, y muchas otras combinan bloques licenciados."
+    ],
+    "analogy": "Un monoambiente en lugar de una casa. Cocina, dormitorio y living comparten un espacio compacto, así que todo queda cerca y es barato de calefaccionar, pero no podés tirar una pared para sumar un cuarto.",
+    "keyPoints": [
+      "Pone el CPU, la GPU y muchos controladores en una sola pieza de silicio.",
+      "Gasta menos energía y espacio; por eso todo smartphone tiene uno.",
+      "Sus piezas no se pueden mejorar por separado, como en una PC de escritorio.",
+      "La mayoría se basa en la arquitectura Arm."
+    ],
+    "links": [
+      {
+        "label": "Sistema en un chip en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Sistema_en_un_chip"
+      },
+      {
+        "label": "System on a chip en Wikipedia (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/System_on_a_chip"
+      }
+    ]
+  }
+}

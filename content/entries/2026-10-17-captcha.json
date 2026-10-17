@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-captcha",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["CAPTCHAs", "reCAPTCHA"],
+    "es": ["CAPTCHAs", "captchas", "reCAPTCHA"]
+  },
+  "image": "img/2026-10-17-captcha.svg",
+  "imageAlt": {
+    "en": "A person and a robot both try to log in; a CAPTCHA box with wavy letters and a checkbox lets the person through and stops the robot",
+    "es": "Una persona y un robot intentan entrar; un recuadro CAPTCHA con letras onduladas y una casilla deja pasar a la persona y frena al robot"
+  },
+  "en": {
+    "title": "CAPTCHA",
+    "tagline": "A small test a website uses to tell a person from an automated program.",
+    "explanation": [
+      "A **CAPTCHA** is the little challenge that appears before you sign up, log in or buy tickets: type the wavy letters, click every picture with a traffic light, or just tick a box that says \"I'm not a robot\". The name is an acronym for \"Completely Automated Public Turing test to tell Computers and Humans Apart\". The idea is a task that is easy for people and hard for software.",
+      "It exists because bots are cheap. A single program can try thousands of stolen passwords per minute, create fake accounts by the hundred, post spam or buy a whole concert in seconds to resell it. A CAPTCHA does not stop a determined attacker, but it makes each attempt slower and more expensive, which is often enough.",
+      "The tests have changed a lot. Distorted text became easy for image-recognition software, so many sites moved to \"invisible\" checks such as Google's **reCAPTCHA** or Cloudflare's Turnstile: they look at signals like how the mouse moves, the browser and the network's reputation, and only show a puzzle when something looks off. The trade-offs are real: puzzles can be a wall for people with visual or motor disabilities, and the invisible kind works by observing your behavior."
+    ],
+    "analogy": "A bouncer who asks a quick question at the door. Anyone can answer it, but it slows down the crowd of fake guests trying to rush in at once.",
+    "keyPoints": [
+      "Its job is telling people apart from bots, not checking who you are.",
+      "It protects sign-ups, logins, forms and ticket sales from automated abuse.",
+      "Modern versions are often invisible and only show a puzzle when something looks suspicious.",
+      "Puzzles can block people with disabilities, so good sites offer accessible alternatives."
+    ],
+    "links": [
+      { "label": "CAPTCHA on Wikipedia", "url": "https://en.wikipedia.org/wiki/CAPTCHA" },
+      { "label": "What is a CAPTCHA? (Kaspersky)", "url": "https://www.kaspersky.com/resource-center/definitions/what-is-a-captcha" },
+      { "label": "Inaccessibility of CAPTCHA (W3C)", "url": "https://www.w3.org/TR/turingtest/" }
+    ]
+  },
+  "es": {
+    "title": "CAPTCHA",
+    "tagline": "Una pruebita que usa un sitio web para distinguir a una persona de un programa.",
+    "explanation": [
+      "Un **CAPTCHA** es el pequeño desafío que aparece antes de registrarte, iniciar sesión o comprar entradas: escribir unas letras deformadas, marcar todas las fotos con semáforos o tildar una casilla que dice \"No soy un robot\". El nombre es una sigla en inglés de \"prueba de Turing pública y automática para distinguir computadoras de humanos\". La idea es una tarea fácil para las personas y difícil para el software.",
+      "Existe porque los bots son baratos. Un solo programa puede probar miles de contraseñas robadas por minuto, crear cuentas falsas de a cientos, publicar spam o comprar un recital entero en segundos para revenderlo. Un CAPTCHA no frena a un atacante decidido, pero hace que cada intento sea más lento y más caro, y muchas veces con eso alcanza.",
+      "Las pruebas cambiaron mucho. El texto deformado se volvió fácil para el software de reconocimiento de imágenes, así que muchos sitios pasaron a controles \"invisibles\" como **reCAPTCHA** de Google o Turnstile de Cloudflare: miran señales como el movimiento del mouse, el navegador y la reputación de la red, y solo muestran un desafío si algo no cierra. Tiene sus costos: los desafíos pueden ser una pared para personas con discapacidad visual o motriz, y los invisibles funcionan observando tu comportamiento."
+    ],
+    "analogy": "Un patovica que hace una pregunta rápida en la puerta. Cualquiera la puede contestar, pero frena a la multitud de invitados truchos que quiere entrar toda junta.",
+    "keyPoints": [
+      "Su trabajo es separar personas de bots, no verificar quién sos.",
+      "Protege registros, logins, formularios y venta de entradas del abuso automatizado.",
+      "Las versiones modernas suelen ser invisibles y solo muestran un desafío si algo parece raro.",
+      "Los desafíos pueden dejar afuera a personas con discapacidad, por eso los buenos sitios ofrecen alternativas accesibles."
+    ],
+    "links": [
+      { "label": "Captcha en Wikipedia", "url": "https://es.wikipedia.org/wiki/Captcha" },
+      { "label": "¿Qué es un CAPTCHA? (Kaspersky)", "url": "https://latam.kaspersky.com/resource-center/definitions/what-is-a-captcha" },
+      { "label": "La inaccesibilidad del CAPTCHA (W3C, en inglés)", "url": "https://www.w3.org/TR/turingtest/" }
+    ]
+  }
+}

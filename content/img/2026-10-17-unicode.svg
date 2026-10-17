@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="40" width="60" height="52" rx="8" fill="#ffd166"/>
+    <rect x="114" y="40" width="96" height="52" rx="8" fill="#9ac7ea"/>
+    <rect x="240" y="40" width="60" height="52" rx="8" fill="#e6dfd0"/>
+    <rect x="310" y="40" width="60" height="52" rx="8" fill="#e6dfd0"/>
+    <rect x="70" y="150" width="120" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="220" y="150" width="140" height="44" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M86 66 H108"/><path d="M102 61 l6 5 -6 5"/>
+    <path d="M212 66 H234"/><path d="M228 61 l6 5 -6 5"/>
+    <path d="M290 96 L150 144"/><path d="M152 136 l-6 9 10 1"/>
+    <path d="M305 96 L295 144"/><path d="M289 139 l5 7 6 -6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="28" fill="#2b2b2b" text-anchor="middle">
+    <text x="54" y="76">ñ</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="162" y="71">U+00F1</text><text x="270" y="71">C3</text><text x="340" y="71">B1</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="54" y="30">letter</text><text x="162" y="30">Unicode number</text><text x="305" y="30">UTF-8 bytes</text>
+    <text x="130" y="210">read as UTF-8</text><text x="290" y="210">read as Latin-1</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#2b2b2b" text-anchor="middle">
+    <text x="130" y="179">año</text><text x="290" y="179">aÃ±o</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">same bytes · wrong guess · broken accents</text>
+</svg>

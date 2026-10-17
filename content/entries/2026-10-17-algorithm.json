@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-algorithm",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["algorithms", "algorithmic"],
+    "es": ["algoritmos", "algorítmico", "algorítmica"]
+  },
+  "image": "img/2026-10-17-algorithm.svg",
+  "imageAlt": {
+    "en": "A flowchart: start, check a condition, take one of two paths, and loop back until the task is done",
+    "es": "Un diagrama de flujo: inicio, chequear una condición, tomar uno de dos caminos y volver hasta terminar la tarea"
+  },
+  "en": {
+    "title": "Algorithm",
+    "tagline": "A precise, step-by-step method for solving a problem or doing a task.",
+    "explanation": [
+      "An **algorithm** is a finite list of clear steps that, followed exactly, solves a problem. Long division as you learned it at school is an algorithm. So is \"to find a word in a paper dictionary, open it in the middle, check whether the word comes before or after, and repeat with that half\". Computers need algorithms because they cannot improvise: every program is algorithms written in a programming language.",
+      "The same problem can often be solved by several algorithms, and they are not equally good. Checking a dictionary page by page from the start works, but halving it each time (called **binary search**) finds any word in a few dozen steps even in a huge book. Choosing a smarter algorithm usually matters far more than buying a faster computer.",
+      "In everyday news the word is used more loosely, as in \"the algorithm decided what you see\". That usually means a ranking or recommendation system: software that scores posts, videos or ads and puts the highest scores first. Those systems are built from many algorithms, often combined with machine learning models trained on what people clicked before."
+    ],
+    "analogy": "A recipe, but one written so precisely that someone who has never cooked, and never thinks for themselves, would still end up with the same cake every time.",
+    "keyPoints": [
+      "A finite sequence of exact steps that solves a problem.",
+      "Different algorithms for the same task can differ enormously in speed.",
+      "Classic examples: sorting a list, searching, finding the shortest route.",
+      "\"The algorithm\" of a social app is a ranking system built from many of them."
+    ],
+    "links": [
+      { "label": "Algorithms course (Khan Academy)", "url": "https://www.khanacademy.org/computing/computer-science/algorithms" },
+      { "label": "Algorithm on Wikipedia", "url": "https://en.wikipedia.org/wiki/Algorithm" }
+    ]
+  },
+  "es": {
+    "title": "Algoritmo",
+    "tagline": "Un método preciso, paso a paso, para resolver un problema o hacer una tarea.",
+    "explanation": [
+      "Un **algoritmo** es una lista finita de pasos claros que, seguidos al pie de la letra, resuelven un problema. La división larga que aprendiste en la escuela es un algoritmo. También lo es \"para buscar una palabra en un diccionario de papel, abrilo por la mitad, fijate si la palabra va antes o después y repetí con esa mitad\". Las computadoras necesitan algoritmos porque no pueden improvisar: todo programa son algoritmos escritos en un lenguaje de programación.",
+      "Un mismo problema suele poder resolverse con varios algoritmos, y no son todos igual de buenos. Revisar el diccionario página por página desde el principio funciona, pero partirlo a la mitad cada vez (la **búsqueda binaria**) encuentra cualquier palabra en unas pocas decenas de pasos, aunque el libro sea enorme. Elegir un algoritmo más inteligente suele importar mucho más que comprar una computadora más rápida.",
+      "En las noticias la palabra se usa de forma más suelta, como en \"el algoritmo decidió lo que ves\". Ahí casi siempre se habla de un sistema de ranking o de recomendación: software que puntúa posteos, videos o avisos y pone primero los de mayor puntaje. Esos sistemas están hechos de muchos algoritmos, a menudo combinados con modelos de machine learning entrenados con lo que la gente clickeó antes."
+    ],
+    "analogy": "Una receta, pero escrita con tanta precisión que alguien que nunca cocinó, y que no piensa por su cuenta, igual llegaría a la misma torta cada vez.",
+    "keyPoints": [
+      "Una secuencia finita de pasos exactos que resuelve un problema.",
+      "Dos algoritmos para la misma tarea pueden diferir muchísimo en velocidad.",
+      "Ejemplos clásicos: ordenar una lista, buscar, encontrar el camino más corto.",
+      "\"El algoritmo\" de una red social es un sistema de ranking hecho de muchos de ellos."
+    ],
+    "links": [
+      { "label": "Curso de algoritmos (Khan Academy)", "url": "https://es.khanacademy.org/computing/computer-science/algorithms" },
+      { "label": "Algoritmo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Algoritmo" },
+      { "label": "Algoritmo (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Algorithm" }
+    ]
+  }
+}

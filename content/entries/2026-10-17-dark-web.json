@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-dark-web",
+  "date": "2026-10-17",
+  "subjects": ["security", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["darknet", "deep web", "onion site", "onion sites", "Tor Browser"],
+    "es": ["web oscura", "darknet", "deep web", "Tor Browser"]
+  },
+  "image": "img/2026-10-17-dark-web.svg",
+  "imageAlt": {
+    "en": "A laptop reaches a .onion site through three relays; the message starts wrapped in three layers and each relay removes one",
+    "es": "Una notebook llega a un sitio .onion a través de tres relays; el mensaje sale envuelto en tres capas y cada relay le saca una"
+  },
+  "en": {
+    "title": "Dark web",
+    "tagline": "Websites that are reachable only with special software that hides who is talking to whom.",
+    "explanation": [
+      "The **dark web** is a small part of the internet made of sites you cannot open with a normal browser or find on a search engine. They live on overlay networks, the best known being **Tor**, and have addresses ending in `.onion`. Visiting them requires software like the Tor Browser, which is designed so that neither the site nor anyone watching the network can easily tell who is visiting.",
+      "It helps to separate three layers. The **surface web** is everything a search engine can find. The **deep web** is everything behind a login or not indexed: your email inbox, your bank account, a company's intranet. It is by far the largest part, and it is perfectly ordinary. The dark web is a thin slice on top that is deliberately hidden and anonymous.",
+      "The anonymity comes from **onion routing**. Your traffic is wrapped in several layers of encryption and bounced through three volunteer-run relays around the world. Each relay removes one layer and only learns the previous and next stop, so no single point sees both who you are and where you are going. The idea came out of research at the US Naval Research Laboratory in the 1990s, and today the nonprofit Tor Project maintains the software.",
+      "People use it for very different things. Journalists receive tips from sources there, people in countries with censorship use it to read the open web, and several major news outlets run `.onion` versions of their sites. It also hosts illegal markets, forums where stolen data is sold, and many scams. Using Tor is legal in most countries, but the usual laws still apply to what you do with it. For most people, the dark web matters mainly as the place where leaked passwords end up, which is why changing them after a breach matters."
+    ],
+    "analogy": "Sending a letter inside three sealed envelopes through three couriers. Each courier opens only the outer envelope to see where to take it next, so none of them knows both who sent it and who finally receives it.",
+    "keyPoints": [
+      "Sites reachable only through networks like Tor, with addresses ending in `.onion`.",
+      "Not the same as the deep web, which is just everything behind a login.",
+      "Onion routing passes traffic through three relays, each seeing only part of the path.",
+      "Used both for privacy and free speech and for crime; using Tor itself is legal in most countries."
+    ],
+    "links": [
+      { "label": "Dark web on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dark_web" },
+      { "label": "History of Tor (The Tor Project)", "url": "https://www.torproject.org/about/history/" }
+    ]
+  },
+  "es": {
+    "title": "Dark web",
+    "tagline": "Sitios a los que solo se llega con un software especial que oculta quién habla con quién.",
+    "explanation": [
+      "La **dark web** (web oscura) es una parte chica de internet formada por sitios que no podés abrir con un navegador común ni encontrar en un buscador. Viven en redes superpuestas, la más conocida es **Tor**, y tienen direcciones que terminan en `.onion`. Para visitarlos hace falta un software como el Tor Browser, pensado para que ni el sitio ni quien observe la red puedan saber fácilmente quién está visitando.",
+      "Sirve separar tres capas. La **web superficial** es todo lo que un buscador puede encontrar. La **deep web** (web profunda) es todo lo que está detrás de un login o no está indexado: tu bandeja de correo, tu home banking, la intranet de una empresa. Es por lejos la parte más grande, y es de lo más común. La dark web es una capa fina encima, escondida y anónima a propósito.",
+      "El anonimato viene del **enrutamiento cebolla** (onion routing). Tu tráfico va envuelto en varias capas de cifrado y rebota por tres relays manejados por voluntarios en distintas partes del mundo. Cada relay saca una capa y solo conoce la parada anterior y la siguiente, así que ningún punto ve a la vez quién sos y adónde vas. La idea salió de investigaciones del Laboratorio de Investigación Naval de Estados Unidos en los años noventa, y hoy el software lo mantiene la organización sin fines de lucro Tor Project.",
+      "La gente la usa para cosas muy distintas. Periodistas reciben datos de fuentes por ahí, personas en países con censura la usan para leer la web libre, y varios medios grandes tienen versiones `.onion` de sus sitios. También hay mercados ilegales, foros donde se venden datos robados y muchísimas estafas. Usar Tor es legal en la mayoría de los países, pero lo que hagas con él sigue sujeto a las leyes de siempre. Para la mayoría de la gente, la dark web importa sobre todo como el lugar donde terminan las contraseñas filtradas, y por eso conviene cambiarlas después de una filtración."
+    ],
+    "analogy": "Mandar una carta dentro de tres sobres cerrados, a través de tres mensajeros. Cada uno abre solo el sobre de afuera para saber adónde llevarla después, así que ninguno sabe a la vez quién la mandó y quién la recibe al final.",
+    "keyPoints": [
+      "Sitios a los que solo se llega por redes como Tor, con direcciones que terminan en `.onion`.",
+      "No es lo mismo que la deep web, que es todo lo que está detrás de un login.",
+      "El onion routing pasa el tráfico por tres relays, y cada uno ve solo una parte del camino.",
+      "Se usa para la privacidad y la libertad de expresión y también para delitos; usar Tor es legal en la mayoría de los países."
+    ],
+    "links": [
+      { "label": "Web oscura en Wikipedia", "url": "https://es.wikipedia.org/wiki/Web_oscura" },
+      { "label": "Tor (red de anonimato) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tor_(red_de_anonimato)" }
+    ]
+  }
+}

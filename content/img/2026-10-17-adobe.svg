@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="140" y="20" width="120" height="40" rx="10" fill="#ffd166"/>
+    <rect x="22" y="98" width="104" height="92" rx="10" fill="#9ac7ea"/>
+    <rect x="148" y="98" width="104" height="92" rx="10" fill="#f4a7a7"/>
+    <rect x="274" y="98" width="104" height="92" rx="10" fill="#9bd1b9"/>
+    <rect x="44" y="132" width="60" height="40" rx="4" fill="#e6dfd0"/>
+    <rect x="170" y="132" width="60" height="40" rx="4" fill="#e6dfd0"/>
+    <path d="M304 128 H340 L350 138 V176 H304 Z" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M170 60 L90 94"/><path d="M200 60 V94"/><path d="M230 60 L310 94"/>
+    <path d="M50 166 L66 148 L78 160 L86 152 L100 166"/>
+    <circle cx="90" cy="142" r="4"/>
+    <path d="M192 142 V162 L212 152 Z"/>
+    <path d="M312 150 H340"/><path d="M312 158 H340"/><path d="M312 166 H332"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="45">subscription</text>
+    <text x="74" y="120">photo, design</text><text x="200" y="120">video</text><text x="326" y="120">documents</text>
+  </g>
+  <text x="327" y="144" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">PDF</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">pay monthly · use the whole toolbox</text>
+</svg>

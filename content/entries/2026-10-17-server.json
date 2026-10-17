@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-server",
+  "date": "2026-10-17",
+  "subjects": ["hardware", "cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["servers", "web server", "web servers"],
+    "es": ["servidores", "servidor web", "servidores web"]
+  },
+  "image": "img/2026-10-17-server.svg",
+  "imageAlt": {
+    "en": "A laptop and a phone on the left send requests to a rack of four servers on the right, which sends responses back",
+    "es": "Una notebook y un celular a la izquierda mandan pedidos a un rack de cuatro servidores a la derecha, que devuelve las respuestas"
+  },
+  "en": {
+    "title": "Server",
+    "tagline": "A computer whose job is to answer requests from other computers, all day, every day.",
+    "explanation": [
+      "A **server** is a computer that provides something to other computers over a network: web pages, email, files, a database, the data behind an app. Your phone or laptop is the **client** that asks; the server is the one that answers. When you open a website, your browser sends a request across the internet and a server somewhere sends the page back.",
+      "\"Server\" describes a role more than a kind of machine. Any computer can act as one, even a Raspberry Pi at home. But machines built for the job look different from a PC: flat boxes stacked in racks inside a data center, with no screen or keyboard, lots of memory, two power supplies in case one fails and disks that can be swapped while they run. They are managed remotely and designed to stay on for years.",
+      "The word also names the software. A **web server** is a program that answers web requests, and one physical machine can run many server programs at once or be split into several virtual machines. When people say an app runs \"in the cloud\", it still runs on servers; they just belong to a provider like AWS, Google Cloud or Azure and are rented by the hour. Even serverless uses servers: you simply do not manage them yourself."
+    ],
+    "analogy": "A waiter in a restaurant. Customers, the clients, ask for things and the waiter brings them. One good waiter can look after many tables at once, and when the place gets busy, the restaurant hires more waiters.",
+    "keyPoints": [
+      "A server answers requests from other computers, called clients.",
+      "It is a role: the same word names the machine and the program doing the job.",
+      "Data center servers sit in racks, with no screen, and run nonstop.",
+      "The cloud, and even serverless, still run on servers owned by someone else."
+    ],
+    "links": [
+      { "label": "Server (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Server_(computing)" },
+      { "label": "What is a server? (IBM)", "url": "https://www.ibm.com/think/topics/server" }
+    ]
+  },
+  "es": {
+    "title": "Servidor",
+    "tagline": "Una computadora cuyo trabajo es responder pedidos de otras computadoras, todo el día.",
+    "explanation": [
+      "Un **servidor** es una computadora que le ofrece algo a otras computadoras a través de una red: páginas web, mails, archivos, una base de datos, los datos que usa una app. Tu celular o tu notebook es el **cliente** que pide; el servidor es el que responde. Cuando abrís un sitio web, tu navegador manda un pedido por internet y un servidor en algún lugar te devuelve la página.",
+      "\"Servidor\" describe un rol más que un tipo de máquina. Cualquier computadora puede cumplirlo, hasta una Raspberry Pi en tu casa. Pero las máquinas hechas para ese trabajo no se parecen a una PC: son cajas chatas apiladas en racks dentro de un centro de datos, sin pantalla ni teclado, con mucha memoria, dos fuentes de alimentación por si falla una y discos que se cambian sin apagarlas. Se administran a distancia y están pensadas para quedar prendidas durante años.",
+      "La palabra también nombra al software. Un **servidor web** es un programa que responde pedidos web, y una sola máquina física puede correr muchos programas servidores a la vez o dividirse en varias máquinas virtuales. Cuando se dice que una app corre \"en la nube\", igual corre en servidores; solo que son de un proveedor como AWS, Google Cloud o Azure y se alquilan por hora. Hasta serverless usa servidores: simplemente no los administrás vos."
+    ],
+    "analogy": "Un mozo en un restaurante. Los clientes piden cosas y el mozo se las lleva. Un buen mozo atiende muchas mesas a la vez, y cuando el lugar se llena, el restaurante suma más mozos.",
+    "keyPoints": [
+      "Un servidor responde pedidos de otras computadoras, llamadas clientes.",
+      "Es un rol: la misma palabra nombra a la máquina y al programa que hace el trabajo.",
+      "Los servidores de un centro de datos van en racks, sin pantalla, y no se apagan nunca.",
+      "La nube, y hasta serverless, corren en servidores que son de otro."
+    ],
+    "links": [
+      { "label": "Servidor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Servidor" },
+      { "label": "¿Qué es un servidor? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/server" }
+    ]
+  }
+}

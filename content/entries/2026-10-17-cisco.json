@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-cisco",
+  "date": "2026-10-17",
+  "subjects": ["companies", "networks"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Cisco Systems"],
+    "es": ["Cisco Systems"]
+  },
+  "image": "img/2026-10-17-cisco.svg",
+  "imageAlt": {
+    "en": "An office network: laptops and Wi-Fi access points connect to a switch, the switch to a router, then a firewall, then the internet",
+    "es": "La red de una oficina: laptops y puntos de acceso Wi-Fi se conectan a un switch, el switch a un router, después a un firewall y de ahí a internet"
+  },
+  "en": {
+    "title": "Cisco",
+    "tagline": "The company that makes much of the network gear connecting offices to the internet.",
+    "explanation": [
+      "**Cisco Systems** was founded in 1984 by Leonard Bosack and Sandy Lerner, who worked on Stanford University's computer networks, and is based in San Jose, California. Its first products were routers, the boxes that pass data between different networks, and it grew with the internet itself in the 1990s. Today much of the equipment inside corporate offices, universities, internet providers and data centers carries its name.",
+      "Its main business is **networking hardware**: routers, **switches** (which connect the computers, phones and printers inside a building), Wi-Fi access points and firewalls. Around that it sells software and services: tools to manage thousands of devices from the cloud (its Meraki line), security products, the **Webex** video-conferencing service and, since buying Splunk, software for collecting and searching logs and security events.",
+      "It makes money from selling equipment and, more and more, from software licenses, subscriptions and support contracts. Cisco has also shaped the profession: its certifications, such as the **CCNA**, are a common first step for network engineers, and its Networking Academy teaches networking in schools and universities around the world."
+    ],
+    "analogy": "A company that builds the roads, junctions and traffic lights for data. You rarely see its name, but most office traffic passes through its intersections on the way out to the internet.",
+    "keyPoints": [
+      "Founded in 1984 by Stanford network engineers; grew with the internet.",
+      "Makes routers, switches, Wi-Fi access points and firewalls for businesses and providers.",
+      "Also sells security software, Webex and, through Splunk, log analytics.",
+      "Its CCNA certification is a classic entry point for network engineers."
+    ],
+    "links": [
+      { "label": "Cisco company overview (Cisco newsroom)", "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/company.html" },
+      { "label": "Cisco on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cisco" },
+      { "label": "Cisco Networking Academy", "url": "https://www.netacad.com/" }
+    ]
+  },
+  "es": {
+    "title": "Cisco",
+    "tagline": "La empresa que hace buena parte de los equipos de red que conectan oficinas a internet.",
+    "explanation": [
+      "**Cisco Systems** se fundó en 1984 por Leonard Bosack y Sandy Lerner, que trabajaban en las redes de computadoras de la Universidad de Stanford, y tiene su sede en San José, California. Sus primeros productos fueron routers, las cajas que pasan datos entre redes distintas, y creció junto con la propia internet en los años 90. Hoy buena parte de los equipos que hay adentro de oficinas, universidades, proveedores de internet y data centers lleva su nombre.",
+      "Su negocio principal es el **hardware de redes**: routers, **switches** (que conectan las computadoras, teléfonos e impresoras dentro de un edificio), puntos de acceso Wi-Fi y firewalls. Alrededor de eso vende software y servicios: herramientas para administrar miles de equipos desde la nube (su línea Meraki), productos de seguridad, el servicio de videoconferencias **Webex** y, desde que compró Splunk, software para juntar y buscar logs y eventos de seguridad.",
+      "Gana plata vendiendo equipos y, cada vez más, con licencias de software, suscripciones y contratos de soporte. Cisco también marcó la profesión: sus certificaciones, como la **CCNA**, son un primer paso habitual para quienes trabajan en redes, y su Networking Academy enseña redes en escuelas y universidades de todo el mundo."
+    ],
+    "analogy": "Una empresa que construye las rutas, los cruces y los semáforos de los datos. Casi nunca ves su nombre, pero la mayor parte del tráfico de una oficina pasa por sus esquinas camino a internet.",
+    "keyPoints": [
+      "Fundada en 1984 por ingenieros de redes de Stanford; creció junto con internet.",
+      "Fabrica routers, switches, puntos de acceso Wi-Fi y firewalls para empresas y proveedores.",
+      "También vende software de seguridad, Webex y, con Splunk, análisis de logs.",
+      "Su certificación CCNA es una puerta de entrada clásica para ingenieros de redes."
+    ],
+    "links": [
+      { "label": "Cisco Systems en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cisco_Systems" },
+      { "label": "Cisco Networking Academy (sitio oficial)", "url": "https://www.netacad.com/" },
+      { "label": "Panorama de la empresa (Cisco newsroom, en inglés)", "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/company.html" }
+    ]
+  }
+}

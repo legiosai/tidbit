@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-data-cleaning",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["data cleansing", "data scrubbing"],
+    "es": ["data cleaning", "data cleansing"]
+  },
+  "image": "img/2026-10-17-data-cleaning.svg",
+  "imageAlt": {
+    "en": "A messy table with a duplicate row, a blank cell and mixed date formats passes through a funnel and comes out as a tidy table",
+    "es": "Una tabla desprolija con una fila duplicada, una celda vacía y fechas en formatos mezclados pasa por un embudo y sale como una tabla ordenada"
+  },
+  "en": {
+    "title": "Data cleaning",
+    "tagline": "Fixing errors, gaps and duplicates in data before anyone trusts it.",
+    "explanation": [
+      "**Data cleaning** is the work of finding and fixing problems in a dataset so it can be used safely. Real data is messy: the same customer typed twice with slightly different names, dates written as `03/04/2025` in one system and `2025-04-03` in another, an age of 250, a blank email, prices with a comma in one country and a dot in another.",
+      "Typical steps are removing duplicates, standardizing formats (dates, currencies, country names), handling missing values (fill them, flag them or drop the row), catching values that cannot be true, and checking that references match, for example that every order belongs to a customer who exists. Each decision is a judgment call, so good teams write the rules down and run them as code instead of fixing cells by hand.",
+      "It is famously the least glamorous and most time-consuming part of working with data, and also one of the most important. A dashboard or a machine learning model is only as good as the data it is fed; \"garbage in, garbage out\" is the oldest saying in the field. In a pipeline, cleaning usually happens in the transform step of ETL, and the checks keep running every time new data arrives."
+    ],
+    "analogy": "Washing and sorting vegetables before cooking: you throw out the bruised ones, remove the dirt and cut everything the same size. Skip it and even a great recipe tastes off.",
+    "keyPoints": [
+      "Fixes duplicates, inconsistent formats, missing values and impossible numbers.",
+      "Every rule is a decision; write it down and automate it.",
+      "Usually part of the transform step in a data pipeline.",
+      "Garbage in, garbage out: reports and AI models inherit every error."
+    ],
+    "links": [
+      { "label": "Data cleansing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_cleansing" },
+      { "label": "What is data cleansing? (AWS)", "url": "https://aws.amazon.com/what-is/data-cleansing/" },
+      { "label": "What is data cleaning? (IBM)", "url": "https://www.ibm.com/think/topics/data-cleaning" }
+    ]
+  },
+  "es": {
+    "title": "Limpieza de datos",
+    "tagline": "Corregir errores, huecos y duplicados en los datos antes de confiar en ellos.",
+    "explanation": [
+      "La **limpieza de datos** (data cleaning) es el trabajo de encontrar y corregir problemas en un conjunto de datos para poder usarlo con tranquilidad. Los datos reales son desprolijos: el mismo cliente cargado dos veces con el nombre apenas distinto, fechas escritas `03/04/2025` en un sistema y `2025-04-03` en otro, una edad de 250 años, un mail vacío, precios con coma en un país y con punto en otro.",
+      "Los pasos típicos son sacar duplicados, unificar formatos (fechas, monedas, nombres de países), decidir qué hacer con los valores que faltan (completarlos, marcarlos o descartar la fila), detectar valores imposibles y revisar que las referencias coincidan, por ejemplo que cada pedido pertenezca a un cliente que existe. Cada decisión es un criterio, así que los buenos equipos escriben las reglas y las corren como código en lugar de arreglar celdas a mano.",
+      "Es famosa por ser la parte menos vistosa y que más tiempo lleva del trabajo con datos, y también una de las más importantes. Un tablero o un modelo de machine learning es tan bueno como los datos que recibe; \"basura entra, basura sale\" es el dicho más viejo del rubro. En un pipeline, la limpieza suele ir en el paso de transformación del ETL, y los controles se vuelven a correr cada vez que llegan datos nuevos."
+    ],
+    "analogy": "Lavar y separar las verduras antes de cocinar: tirás las machucadas, sacás la tierra y cortás todo del mismo tamaño. Si te lo salteás, hasta la mejor receta sale rara.",
+    "keyPoints": [
+      "Corrige duplicados, formatos inconsistentes, valores faltantes y números imposibles.",
+      "Cada regla es una decisión: escribila y automatizala.",
+      "Suele ser parte del paso de transformación de un pipeline de datos.",
+      "Basura entra, basura sale: los reportes y modelos de IA heredan cada error."
+    ],
+    "links": [
+      { "label": "Limpieza de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Limpieza_de_datos" },
+      { "label": "¿Qué es la limpieza de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-cleansing/" }
+    ]
+  }
+}

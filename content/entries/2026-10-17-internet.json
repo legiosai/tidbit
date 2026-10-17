@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-internet",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["Internet Protocol", "network of networks"],
+    "es": ["red de redes", "Internet Protocol"]
+  },
+  "image": "img/2026-10-17-internet.svg",
+  "imageAlt": {
+    "en": "Four separate networks, a home, an office, a mobile carrier and a university, joined through three routers in the middle, with packets traveling between them",
+    "es": "Cuatro redes separadas, una casa, una oficina, una compañía de celulares y una universidad, unidas por tres routers en el medio, con paquetes viajando entre ellas"
+  },
+  "en": {
+    "title": "Internet",
+    "tagline": "A worldwide network of networks that lets any connected device reach any other.",
+    "explanation": [
+      "The **Internet** is a global network made of many smaller networks: those of homes, universities, companies, mobile carriers and internet providers, all connected to each other. No single company owns it or runs it. What holds it together is a set of shared rules, above all the **Internet Protocol**, which gives every connected device an IP address and lets data find its way from any point to any other.",
+      "Data does not travel as one continuous stream. It is cut into small packets, each labeled with where it comes from and where it is going. Routers along the way pass each packet one step closer to its destination, often across several countries and through undersea fiber-optic cables, and the receiving device puts the pieces back together. If one path fails, packets can take another, which makes the whole network very hard to break.",
+      "The Internet and the web are not the same thing. The **web**, the pages you open in a browser, is one service running on top of the Internet; email, video calls, online games, app updates and messaging are others. The Internet grew out of research networks in the United States in the late 1960s and 1970s, opened to the public in the 1990s, and today is coordinated by non-profit bodies that write the standards and hand out addresses and domain names."
+    ],
+    "analogy": "A worldwide postal system run by thousands of local post offices that agreed on how to write addresses. Nobody owns the whole system, yet a letter sent from anywhere can reach anywhere, handed from one office to the next.",
+    "keyPoints": [
+      "A network of networks that nobody owns as a whole.",
+      "Data travels in packets, passed router to router until it reaches an IP address.",
+      "The web is one service on the Internet, alongside email, video calls and more.",
+      "It works because everyone follows the same open standards."
+    ],
+    "links": [
+      { "label": "Internet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet" },
+      { "label": "A brief history of the Internet (Internet Society)", "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/" }
+    ]
+  },
+  "es": {
+    "title": "Internet",
+    "tagline": "Una red mundial de redes que conecta cualquier aparato con cualquier otro.",
+    "explanation": [
+      "**Internet** es una red global hecha de muchas redes más chicas: las de casas, universidades, empresas, compañías de celulares y proveedores de internet, todas conectadas entre sí. Ninguna empresa es dueña de ella ni la maneja. Lo que la mantiene unida es un conjunto de reglas compartidas, sobre todo el **Internet Protocol** (protocolo de internet), que le da a cada aparato conectado una dirección IP y permite que los datos encuentren su camino de cualquier punto a cualquier otro.",
+      "Los datos no viajan como un chorro continuo. Se cortan en paquetes chicos, cada uno con una etiqueta que dice de dónde sale y adónde va. Los routers del camino van pasando cada paquete un paso más cerca de su destino, muchas veces cruzando varios países y cables submarinos de fibra óptica, y el aparato que los recibe vuelve a juntar las piezas. Si un camino se cae, los paquetes pueden tomar otro, y por eso la red entera es muy difícil de romper.",
+      "Internet y la web no son lo mismo. La **web**, las páginas que abrís en un navegador, es un servicio que corre sobre internet; el mail, las videollamadas, los juegos en línea, las actualizaciones de apps y la mensajería son otros. Internet nació de redes de investigación de Estados Unidos a fines de los sesenta y en los setenta, se abrió al público en los noventa y hoy la coordinan organizaciones sin fines de lucro que escriben los estándares y reparten direcciones y nombres de dominio."
+    ],
+    "analogy": "Un correo mundial manejado por miles de oficinas locales que se pusieron de acuerdo en cómo escribir las direcciones. Nadie es dueño del sistema entero, y aun así una carta mandada desde cualquier lugar llega a cualquier otro, pasando de oficina en oficina.",
+    "keyPoints": [
+      "Una red de redes que nadie posee entera.",
+      "Los datos viajan en paquetes, de router en router, hasta llegar a una dirección IP.",
+      "La web es un servicio de internet, junto con el mail, las videollamadas y más.",
+      "Funciona porque todos siguen los mismos estándares abiertos."
+    ],
+    "links": [
+      { "label": "Internet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Internet" },
+      { "label": "Breve historia de internet (Internet Society)", "url": "https://www.internetsociety.org/es/internet/history-internet/brief-history-internet/" }
+    ]
+  }
+}

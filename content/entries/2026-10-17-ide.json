@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-ide",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["IDEs", "integrated development environment", "integrated development environments", "code editor", "code editors"],
+    "es": ["IDEs", "entorno de desarrollo integrado", "entornos de desarrollo integrados", "editor de código", "editores de código"]
+  },
+  "image": "img/2026-10-17-ide.svg",
+  "imageAlt": {
+    "en": "An IDE window with a file list on the left, the code editor in the middle with a misspelled word underlined, and a terminal panel at the bottom",
+    "es": "Una ventana de IDE con la lista de archivos a la izquierda, el editor de código en el medio con una palabra mal escrita subrayada y una terminal abajo"
+  },
+  "en": {
+    "title": "IDE",
+    "tagline": "The app where programmers write, run and fix code, with all the tools in one window.",
+    "explanation": [
+      "An **IDE** (integrated development environment) is the main workplace of a programmer: an app that combines a code editor with the tools needed around it. In one window you see the project's files, edit the source code, run the program, read its errors, use a debugger and type commands in a built-in terminal. Visual Studio Code, IntelliJ IDEA, Xcode and Android Studio are well-known examples.",
+      "What makes an IDE more than a text editor is that it understands the code. It colors the different parts so they are easy to read, suggests the name you are typing, underlines mistakes before you even run the program, and lets you jump to where something is defined or rename it everywhere at once. Many IDEs now also include AI assistants that suggest whole lines or explain code.",
+      "The line between a light code editor and a full IDE is fuzzy. Some, like Xcode for Apple platforms, come with everything for one ecosystem. Others, like Visual Studio Code, start small and grow with extensions for each language. The choice is personal; what matters is that the tools are close at hand, because programmers spend most of their day inside them."
+    ],
+    "analogy": "A well-equipped workbench instead of a single screwdriver: the vise, the drill, the measuring tape and the light are all within reach, set up for the job you do every day.",
+    "keyPoints": [
+      "Combines code editor, run button, debugger and terminal in one app.",
+      "Understands code: autocomplete, error underlines, jump to definition.",
+      "Examples: Visual Studio Code, IntelliJ IDEA, Xcode, Android Studio.",
+      "Extended with plugins for languages, tools and AI assistants."
+    ],
+    "links": [
+      { "label": "What is an IDE? (AWS)", "url": "https://aws.amazon.com/what-is/ide/" },
+      { "label": "IDE (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/IDE" },
+      { "label": "Integrated development environment on Wikipedia", "url": "https://en.wikipedia.org/wiki/Integrated_development_environment" }
+    ]
+  },
+  "es": {
+    "title": "IDE",
+    "tagline": "La app donde se escribe, ejecuta y arregla código, con todas las herramientas a mano.",
+    "explanation": [
+      "Un **IDE** (integrated development environment, entorno de desarrollo integrado) es el lugar de trabajo principal de quien programa: una app que combina un editor de código con las herramientas que lo rodean. En una sola ventana ves los archivos del proyecto, editás el código fuente, corrés el programa, leés sus errores, usás un debugger y escribís comandos en una terminal incorporada. Visual Studio Code, IntelliJ IDEA, Xcode y Android Studio son ejemplos conocidos.",
+      "Lo que hace a un IDE más que un editor de texto es que entiende el código. Pinta de distintos colores cada parte para que sea fácil de leer, te sugiere el nombre que estás escribiendo, subraya errores antes de que corras el programa y te deja saltar a donde se define algo o renombrarlo en todos lados a la vez. Muchos IDEs hoy también traen asistentes de IA que sugieren líneas enteras o explican código.",
+      "La frontera entre un editor de código liviano y un IDE completo es difusa. Algunos, como Xcode para las plataformas de Apple, vienen con todo para un ecosistema. Otros, como Visual Studio Code, arrancan chicos y crecen con extensiones para cada lenguaje. La elección es personal; lo que importa es tener las herramientas cerca, porque quienes programan pasan casi todo el día ahí adentro."
+    ],
+    "analogy": "Un banco de trabajo bien equipado en vez de un destornillador suelto: la morsa, el taladro, el metro y la lámpara están todos al alcance, armados para el trabajo de todos los días.",
+    "keyPoints": [
+      "Junta editor de código, botón de ejecutar, debugger y terminal en una app.",
+      "Entiende el código: autocompletado, errores subrayados, ir a la definición.",
+      "Ejemplos: Visual Studio Code, IntelliJ IDEA, Xcode, Android Studio.",
+      "Se amplía con extensiones para lenguajes, herramientas y asistentes de IA."
+    ],
+    "links": [
+      { "label": "¿Qué es un IDE? (AWS)", "url": "https://aws.amazon.com/es/what-is/ide/" },
+      { "label": "IDE (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/IDE" },
+      { "label": "Entorno de desarrollo integrado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado" }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="58" width="90" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="150" y="50" width="100" height="60" rx="10" fill="#ffd166"/>
+    <rect x="290" y="40" width="94" height="80" rx="8" fill="#9ac7ea"/>
+    <path d="M290 58 H384" fill="none"/>
+    <rect x="112" y="152" width="56" height="28" rx="6" fill="#9bd1b9"/>
+    <rect x="172" y="152" width="56" height="28" rx="6" fill="#9bd1b9"/>
+    <rect x="232" y="152" width="56" height="28" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M114 80 H144"/><path d="M138 76 l6 4 -6 4"/>
+    <path d="M254 80 H284"/><path d="M278 76 l6 4 -6 4"/>
+    <path d="M200 112 V146"/><path d="M140 146 V136 H260 V146"/>
+  </g>
+  <g fill="#2b2b2b"><circle cx="300" cy="49" r="3"/><circle cx="310" cy="49" r="3"/><circle cx="320" cy="49" r="3"/></g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="65" y="84">git push</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="78">Amplify</text><text x="337" y="94">live site</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="98">build</text>
+    <text x="140" y="170">login</text><text x="200" y="170">data</text><text x="260" y="170">files</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">push code · get a live app</text>
+</svg>

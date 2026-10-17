@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-penetration-testing",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["penetration test", "penetration tests", "pentest", "pentests", "pentesting"],
+    "es": ["pentest", "pentesting", "prueba de penetración", "test de penetración"]
+  },
+  "image": "img/2026-10-17-penetration-testing.svg",
+  "imageAlt": {
+    "en": "A signed scope document points to a building whose doors are marked app, network and staff, which leads to a report with checked items",
+    "es": "Un alcance firmado apunta a un edificio con puertas marcadas app, red y personal, que lleva a un informe con ítems tildados"
+  },
+  "en": {
+    "title": "Penetration testing",
+    "tagline": "Hiring someone to break into your systems, with permission, before a criminal does.",
+    "explanation": [
+      "**Penetration testing**, or **pentesting**, is an authorized, simulated attack on an organization's systems. A company hires security specialists, agrees in writing on what they may touch and when, and lets them try to get in the way a real attacker would: through the website, the office Wi-Fi, a forgotten server, or a convincing phone call to the help desk. At the end they deliver a report: what they reached, how, how serious it is, and how to fix it.",
+      "The point is to find the gaps that checklists miss. An automated scanner can list software with a known vulnerability; a human tester notices that a minor bug on the login page, combined with a reused password and an overly broad permission, adds up to full access to customer data. That chain of small problems is usually how real breaches happen.",
+      "What separates a pentest from an attack is consent and rules. The **scope** says which systems are in and which are off limits, the **rules of engagement** say what is not allowed (no deleting data, no testing during the payroll run), and the client knows it is happening. Tests come in flavors: **black box** (the tester starts knowing nothing, like an outsider), **white box** (they get the source code and diagrams) and gray box in between. A **red team** exercise is a longer, stealthier version that also tests whether the defenders notice.",
+      "Pentests are often required by regulators, card payment rules or large customers, typically once a year and after big changes. They are a snapshot, not a guarantee: they show what one team found in a limited time. The value is in fixing what they found and retesting."
+    ],
+    "analogy": "Paying a locksmith to try to get into your house while you watch, then hand you a list: the back window latch is weak, the spare key under the plant is obvious, the side gate does not lock.",
+    "keyPoints": [
+      "A pentest is a simulated attack with written permission and a defined scope.",
+      "Humans find chains of small weaknesses that automated scanners miss.",
+      "The deliverable is a report with findings, severity and fixes.",
+      "It is a snapshot in time; retest after fixing and after big changes."
+    ],
+    "links": [
+      { "label": "Penetration testing (NIST glossary)", "url": "https://csrc.nist.gov/glossary/term/penetration_testing" },
+      { "label": "OWASP Web Security Testing Guide", "url": "https://owasp.org/www-project-web-security-testing-guide/" },
+      { "label": "Penetration test on Wikipedia", "url": "https://en.wikipedia.org/wiki/Penetration_test" }
+    ]
+  },
+  "es": {
+    "title": "Pruebas de penetración",
+    "tagline": "Contratar a alguien para que entre a tus sistemas, con permiso, antes que un delincuente.",
+    "explanation": [
+      "Las **pruebas de penetración**, o **pentesting**, son un ataque simulado y autorizado contra los sistemas de una organización. Una empresa contrata especialistas en seguridad, acuerda por escrito qué pueden tocar y cuándo, y los deja intentar entrar como lo haría un atacante real: por el sitio web, por el Wi-Fi de la oficina, por un servidor olvidado o con una llamada convincente a la mesa de ayuda. Al final entregan un informe: a qué llegaron, cómo, qué tan grave es y cómo arreglarlo.",
+      "La idea es encontrar los huecos que los checklists no ven. Un escáner automático puede listar software con una vulnerabilidad conocida; una persona que hace el test se da cuenta de que un bug menor en la página de login, sumado a una contraseña reutilizada y un permiso demasiado amplio, termina en acceso total a los datos de los clientes. Esa cadena de problemas chicos es, en general, cómo ocurren las filtraciones reales.",
+      "Lo que separa un pentest de un ataque es el consentimiento y las reglas. El **alcance** dice qué sistemas entran y cuáles quedan afuera, las **reglas de enfrentamiento** dicen qué no está permitido (nada de borrar datos, nada de probar durante la liquidación de sueldos) y el cliente sabe que está pasando. Hay variantes: **caja negra** (el tester arranca sin saber nada, como alguien de afuera), **caja blanca** (recibe el código fuente y los diagramas) y caja gris en el medio. Un ejercicio de **red team** es una versión más larga y sigilosa que además prueba si los defensores se dan cuenta.",
+      "Muchas veces los piden los reguladores, las reglas de pagos con tarjeta o los clientes grandes, típicamente una vez por año y después de cambios importantes. Son una foto, no una garantía: muestran lo que un equipo encontró en un tiempo limitado. El valor está en arreglar lo encontrado y volver a probar."
+    ],
+    "analogy": "Pagarle a un cerrajero para que intente entrar a tu casa mientras mirás, y que después te dé una lista: el pestillo de la ventana de atrás es débil, la llave bajo la maceta es obvia, el portón del costado no cierra.",
+    "keyPoints": [
+      "Un pentest es un ataque simulado con permiso escrito y un alcance definido.",
+      "Las personas encuentran cadenas de debilidades chicas que los escáneres no ven.",
+      "El entregable es un informe con hallazgos, gravedad y soluciones.",
+      "Es una foto del momento; hay que volver a probar después de arreglar y de cambios grandes."
+    ],
+    "links": [
+      { "label": "Ensayos de penetración en Wikipedia", "url": "https://es.wikipedia.org/wiki/Prueba_de_penetraci%C3%B3n" },
+      { "label": "OWASP Web Security Testing Guide (en inglés)", "url": "https://owasp.org/www-project-web-security-testing-guide/" },
+      { "label": "Penetration testing, glosario de NIST (en inglés)", "url": "https://csrc.nist.gov/glossary/term/penetration_testing" }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="60" cy="88" r="16" fill="#ffd166"/>
+    <path d="M32 140 q28 -36 56 0 Z" fill="#ffd166"/>
+    <rect x="270" y="56" width="110" height="94" rx="10" fill="#e6dfd0"/>
+    <rect x="132" y="46" width="70" height="34" rx="5" fill="#f3efe6"/>
+    <circle cx="167" cy="130" r="16" fill="#9bd1b9"/>
+    <rect x="150" y="170" width="100" height="30" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M132 46 L167 66 L202 46"/>
+    <path d="M90 74 Q110 60 128 62"/><path d="M122 58 l6 4 -6 4"/>
+    <path d="M206 62 H264"/><path d="M258 58 l6 4 -6 4"/>
+    <path d="M266 128 H188"/><path d="M194 124 l-6 4 6 4"/>
+    <path d="M325 154 Q320 186 256 186"/><path d="M262 182 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="160">researcher</text>
+    <text x="232" y="54">private</text>
+    <text x="325" y="100">company</text><text x="325" y="118">fixes it</text>
+    <text x="167" y="135">$</text>
+    <text x="226" y="122">reward</text>
+    <text x="200" y="190">then public</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">report privately · fix · pay · publish</text>
+</svg>

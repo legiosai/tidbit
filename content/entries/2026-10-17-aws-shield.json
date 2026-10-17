@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-aws-shield",
+  "date": "2026-10-17",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["Shield Standard", "Shield Advanced", "AWS Shield Standard", "AWS Shield Advanced"],
+    "es": ["Shield Standard", "Shield Advanced", "AWS Shield Standard", "AWS Shield Advanced"]
+  },
+  "image": "img/2026-10-17-aws-shield.svg",
+  "imageAlt": {
+    "en": "A flood of arrows from many bots hits a shield in front of a website, while a few normal visitors pass through",
+    "es": "Una avalancha de flechas de muchos bots choca contra un escudo delante de un sitio web, mientras unos pocos visitantes normales pasan"
+  },
+  "en": {
+    "title": "AWS Shield",
+    "tagline": "AWS's protection against DDoS attacks, on by default for everyone.",
+    "explanation": [
+      "A **DDoS** attack tries to knock a site offline by burying it in traffic from thousands of hijacked machines at once. **AWS Shield** is the AWS service that absorbs and filters those floods before they reach your servers. It works at the edges of the AWS network, where there is far more capacity than any single website has.",
+      "It comes in two tiers. **Shield Standard** is free and automatic for every AWS customer: it protects against the most common network-level attacks, like floods of junk packets or half-open connections, without you doing anything. **Shield Advanced** is a paid subscription for organizations that are likely targets. It adds detection tuned to your own traffic, detailed reports during an attack, access to an AWS response team that can step in around the clock, and protection against the surprise bill when an attack makes your services scale up.",
+      "Shield and AWS WAF are usually used together. Shield handles brute-force volume at the network level; WAF handles smarter attacks that look like real web requests, such as one bot hammering the login page. Putting the site behind Amazon CloudFront helps both, since traffic then meets AWS's large edge network first."
+    ],
+    "analogy": "A sea wall in front of a harbor town. The ordinary wall is there for everyone and stops everyday waves; towns that expect storms pay for a taller wall plus a crew on call and insurance for the damage.",
+    "keyPoints": [
+      "Defends against DDoS floods before they reach your resources.",
+      "Shield Standard is free and on for every AWS account.",
+      "Shield Advanced adds tailored detection, a response team and cost protection.",
+      "Pairs with AWS WAF for attacks that look like normal web requests."
+    ],
+    "links": [
+      { "label": "How AWS Shield works (official docs)", "url": "https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html" },
+      { "label": "AWS Shield", "url": "https://aws.amazon.com/shield/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Shield",
+    "tagline": "La protección de AWS contra ataques DDoS, prendida por defecto para todos.",
+    "explanation": [
+      "Un ataque **DDoS** busca tirar un sitio enterrándolo en tráfico de miles de máquinas secuestradas a la vez. **AWS Shield** es el servicio de AWS que absorbe y filtra esas avalanchas antes de que lleguen a tus servidores. Trabaja en los bordes de la red de AWS, donde hay mucha más capacidad de la que tiene cualquier sitio por su cuenta.",
+      "Viene en dos niveles. **Shield Standard** es gratis y automático para todos los clientes de AWS: protege contra los ataques de red más comunes, como avalanchas de paquetes basura o de conexiones a medio abrir, sin que hagas nada. **Shield Advanced** es una suscripción paga para organizaciones que tienen chances de ser blanco. Suma detección ajustada a tu propio tráfico, reportes detallados durante un ataque, acceso a un equipo de respuesta de AWS que puede intervenir a cualquier hora, y protección contra la factura sorpresa cuando un ataque hace escalar tus servicios.",
+      "Shield y AWS WAF suelen usarse juntos. Shield se encarga del volumen bruto a nivel de red; WAF de los ataques más vivos que parecen pedidos web reales, como un bot que martilla la página de login. Poner el sitio detrás de Amazon CloudFront ayuda a los dos, porque el tráfico choca primero con la enorme red de bordes de AWS."
+    ],
+    "analogy": "Una escollera delante de un pueblo costero. La escollera común está para todos y frena las olas de todos los días; los pueblos que esperan tormentas pagan un muro más alto, una cuadrilla de guardia y un seguro por los daños.",
+    "keyPoints": [
+      "Defiende contra avalanchas DDoS antes de que lleguen a tus recursos.",
+      "Shield Standard es gratis y está prendido en toda cuenta de AWS.",
+      "Shield Advanced suma detección a medida, un equipo de respuesta y protección de costos.",
+      "Se complementa con AWS WAF para ataques que parecen pedidos web normales."
+    ],
+    "links": [
+      { "label": "Cómo funciona AWS Shield (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/waf/latest/developerguide/shield-chapter.html" },
+      { "label": "AWS Shield", "url": "https://aws.amazon.com/es/shield/" }
+    ]
+  }
+}

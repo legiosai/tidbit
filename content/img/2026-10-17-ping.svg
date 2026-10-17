@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="34" y="36" width="76" height="50" rx="4" fill="#9ac7ea"/>
+    <path d="M26 90 H118 L110 98 H34 Z" fill="#e6dfd0"/>
+    <rect x="296" y="28" width="74" height="76" rx="6" fill="#e6dfd0"/>
+    <rect x="306" y="40" width="54" height="16" rx="3" fill="#9bd1b9"/>
+    <rect x="306" y="62" width="54" height="16" rx="3" fill="#9bd1b9"/>
+    <rect x="306" y="84" width="54" height="12" rx="3" fill="#9bd1b9"/>
+    <rect x="50" y="124" width="300" height="64" rx="8" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M124 54 H286"/><path d="M280 50 l6 4 -6 4"/>
+    <path d="M286 80 H124"/><path d="M130 76 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="205" y="45">echo request</text><text x="205" y="98">echo reply</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="151">$ ping example.com</text>
+    <text x="200" y="174">reply  time=23 ms</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">are you there? · how long to answer</text>
+</svg>

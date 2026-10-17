@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-aws-kms",
+  "date": "2026-10-17",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["KMS", "Key Management Service", "AWS Key Management Service", "KMS key", "KMS keys", "envelope encryption"],
+    "es": ["KMS", "Key Management Service", "AWS Key Management Service", "clave de KMS", "claves de KMS", "cifrado de sobre"]
+  },
+  "image": "img/2026-10-17-aws-kms.svg",
+  "imageAlt": {
+    "en": "A master key stays locked inside a KMS vault; it encrypts a small data key, and the data key locks the actual file",
+    "es": "Una clave maestra queda encerrada en una bóveda de KMS; cifra una clave de datos chica, y esa clave de datos cierra el archivo real"
+  },
+  "en": {
+    "title": "AWS KMS",
+    "tagline": "AWS's vault for encryption keys: you use them, but they never leave.",
+    "explanation": [
+      "Encryption is only as good as the protection of its keys. Store the key next to the data and a thief takes both. **KMS** (Key Management Service) solves that on AWS: it creates and keeps encryption keys inside dedicated, tamper-resistant hardware, and you never get to see or download the key itself. You send data to KMS and ask it to encrypt or decrypt, and IAM decides who is allowed to ask.",
+      "For large files it uses a trick called **envelope encryption**. KMS generates a fresh **data key**, which encrypts the file locally; then the KMS key encrypts that data key, and the encrypted data key is stored next to the file. To read the file, a service asks KMS to unlock the small data key. The big file never travels to KMS, and the master key never leaves it.",
+      "Most AWS services plug into KMS with a checkbox: Amazon S3 buckets, Amazon EBS disks, Amazon RDS databases and many more encrypt their data with a KMS key. Every use of a key is logged in AWS CloudTrail, so you can see who decrypted what. And because the key is the only way back to the data, deleting a KMS key is deliberately slow: AWS makes you wait a period of days first, in case it was a mistake."
+    ],
+    "analogy": "A bank vault with a teller window. You never get the master key; you hand the teller your small lockbox key, they lock or unlock it behind the glass, and every visit is written in the bank's ledger.",
+    "keyPoints": [
+      "Keys are created and used inside KMS; their raw material never leaves.",
+      "Envelope encryption: a data key encrypts the data, a KMS key encrypts the data key.",
+      "Built into S3, EBS, RDS and most other AWS services.",
+      "IAM controls who can use each key, and CloudTrail logs every use."
+    ],
+    "links": [
+      { "label": "AWS Key Management Service (official docs)", "url": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html" },
+      { "label": "AWS KMS", "url": "https://aws.amazon.com/kms/" },
+      { "label": "Key management on Wikipedia", "url": "https://en.wikipedia.org/wiki/Key_management" }
+    ]
+  },
+  "es": {
+    "title": "AWS KMS",
+    "tagline": "La bóveda de AWS para claves de cifrado: las usás, pero nunca salen de ahí.",
+    "explanation": [
+      "El cifrado vale lo que vale la protección de sus claves. Si guardás la clave al lado de los datos, un ladrón se lleva las dos cosas. **KMS** (Key Management Service, servicio de administración de claves) resuelve eso en AWS: crea y guarda las claves de cifrado adentro de hardware dedicado y resistente a manipulaciones, y vos nunca llegás a ver ni a descargar la clave en sí. Le mandás datos a KMS y le pedís que cifre o descifre, e IAM decide quién tiene permiso para pedirlo.",
+      "Para archivos grandes usa un truco llamado **cifrado de sobre** (envelope encryption). KMS genera una **clave de datos** nueva, que cifra el archivo en el lugar; después la clave de KMS cifra esa clave de datos, y la clave de datos cifrada se guarda junto al archivo. Para leer el archivo, un servicio le pide a KMS que destrabe la clave de datos chiquita. El archivo grande nunca viaja a KMS, y la clave maestra nunca sale de ahí.",
+      "La mayoría de los servicios de AWS se enchufan a KMS con una casilla: los buckets de Amazon S3, los discos de Amazon EBS, las bases de Amazon RDS y muchos más cifran sus datos con una clave de KMS. Cada uso de una clave queda registrado en AWS CloudTrail, así que podés ver quién descifró qué. Y como la clave es el único camino de vuelta a los datos, borrar una clave de KMS es lento a propósito: AWS te hace esperar unos días antes, por si fue un error."
+    ],
+    "analogy": "Una bóveda de banco con ventanilla. Nunca te dan la llave maestra; le pasás al cajero la llave de tu cajita, él la cierra o la abre detrás del vidrio, y cada visita queda anotada en el libro del banco.",
+    "keyPoints": [
+      "Las claves se crean y se usan adentro de KMS; su material nunca sale.",
+      "Cifrado de sobre: una clave de datos cifra los datos, una clave de KMS cifra la clave de datos.",
+      "Viene integrado en S3, EBS, RDS y casi todos los demás servicios de AWS.",
+      "IAM controla quién usa cada clave, y CloudTrail registra cada uso."
+    ],
+    "links": [
+      { "label": "AWS Key Management Service (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/kms/latest/developerguide/overview.html" },
+      { "label": "AWS KMS", "url": "https://aws.amazon.com/es/kms/" },
+      { "label": "Key management en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Key_management" }
+    ]
+  }
+}

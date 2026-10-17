@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M120 176 C80 176 76 128 112 124 C108 82 160 64 188 92 C204 58 262 62 268 104 C306 100 320 140 296 160 C292 172 284 176 276 176 Z" fill="#9ac7ea" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="152" y="108" width="96" height="58" rx="6" fill="#f3efe6"/>
+    <circle cx="172" cy="128" r="9" fill="#ffd166"/>
+    <rect x="20" y="40" width="80" height="28" rx="14" fill="#9bd1b9"/>
+    <rect x="300" y="40" width="80" height="28" rx="14" fill="#f4a7a7"/>
+    <rect x="160" y="16" width="80" height="28" rx="14" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M188 124 H234"/><path d="M188 134 H226"/><path d="M164 148 H234"/><path d="M164 156 H220"/>
+    <path d="M100 62 C130 76 140 92 154 104"/><path d="M146 101 l8 3 -2 -8"/>
+    <path d="M300 62 C270 76 260 92 246 104"/><path d="M248 96 l-2 8 8 -3"/>
+    <path d="M200 46 V100"/><path d="M196 94 l4 6 4 -6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="58">sales</text><text x="340" y="58">support</text><text x="200" y="34">marketing</text>
+  </g>
+  <text x="200" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b">customer record (CRM)</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one shared record · paid per user</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="200" y="36" width="180" height="40" rx="8" fill="#f4a7a7"/>
+    <rect x="200" y="86" width="86" height="44" rx="8" fill="#9ac7ea"/>
+    <rect x="294" y="86" width="86" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="200" y="140" width="86" height="44" rx="8" fill="#ffd166"/>
+    <rect x="294" y="140" width="86" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="20" y="96" width="140" height="34" rx="8" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M164 113 H194"/><path d="M188 108 l6 5 -6 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="290" y="61">your own code</text>
+    <text x="243" y="113">dates</text><text x="337" y="113">charts</text>
+    <text x="243" y="167">payments</text><text x="337" y="167">PDF</text>
+    <text x="90" y="80">package manager</text>
+  </g>
+  <text x="90" y="118" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#f3efe6">npm install charts</text>
+  <text x="290" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">libraries (dependencies)</text>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a thin layer of yours · ready-made parts below</text>
+</svg>

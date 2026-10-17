@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M40 30 V190 H372"/><path d="M366 186 l6 4 -6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <rect x="64" y="185" width="30" height="5"/>
+    <rect x="114" y="180" width="30" height="10"/>
+    <rect x="164" y="170" width="30" height="20"/>
+    <rect x="214" y="150" width="30" height="40"/>
+    <rect x="264" y="110" width="30" height="80"/>
+    <rect x="314" y="40" width="30" height="150" fill="#ffd166"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="129" y="172">×2</text><text x="179" y="162">×2</text><text x="229" y="142">×2</text><text x="279" y="102">×2</text><text x="329" y="32">×2</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b">
+    <text x="50" y="26">transistors per chip</text>
+    <text x="356" y="208" text-anchor="end">time</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">twice as many, roughly every two years</text>
+</svg>

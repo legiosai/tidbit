@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-olap-and-oltp",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["OLAP", "OLTP", "online analytical processing", "online transaction processing"],
+    "es": ["OLAP", "OLTP", "procesamiento analítico en línea", "procesamiento de transacciones en línea"]
+  },
+  "image": "img/2026-10-17-olap-and-oltp.svg",
+  "imageAlt": {
+    "en": "On the left, many small arrows write single rows into an OLTP database; on the right, one big question scans whole columns of an OLAP store",
+    "es": "A la izquierda, muchas flechas chicas escriben filas sueltas en una base OLTP; a la derecha, una sola pregunta grande recorre columnas enteras de un almacén OLAP"
+  },
+  "en": {
+    "title": "OLAP and OLTP",
+    "tagline": "Two kinds of database work: many small transactions, or a few huge analytical questions.",
+    "explanation": [
+      "**OLTP** (online transaction processing) is the work behind an app while people use it: create this order, charge this card, update this address. Each operation touches a handful of rows, there are thousands of them per second, and every one must be correct and safe even if two happen at once. Databases like PostgreSQL, MySQL, Amazon RDS or DynamoDB are built for this, usually storing data row by row with indexes to find a single record quickly.",
+      "**OLAP** (online analytical processing) is the work of asking big questions about all that history: revenue by region and month for the last five years, or which products are bought together. A single query reads millions or billions of rows but only a few columns, and nobody minds waiting a few seconds. Data warehouses such as Snowflake, BigQuery or Amazon Redshift are built for this, storing data column by column (like Parquet files) so a query reads only what it needs and compresses well.",
+      "The two are kept apart on purpose. Running a heavy report on the production OLTP database can slow down checkout for real customers, and a columnar warehouse is clumsy at updating one row at a time. So data is copied from OLTP systems into an OLAP one through ETL or streaming. Some newer systems, called **HTAP**, try to do both, but the split remains the default design in most companies."
+    ],
+    "analogy": "A supermarket checkout versus the head office. The checkout handles one customer at a time, fast and without mistakes; the office looks at a year of receipts to decide what to stock. You would not want the office doing its yearly analysis at the till.",
+    "keyPoints": [
+      "OLTP: many small reads and writes, row storage, correctness under load.",
+      "OLAP: few large read queries over history, columnar storage, aggregations.",
+      "Data flows from OLTP systems into an OLAP warehouse through ETL or streaming.",
+      "Keeping them apart protects the live app from heavy reports."
+    ],
+    "links": [
+      { "label": "OLAP vs OLTP (AWS)", "url": "https://aws.amazon.com/compare/the-difference-between-olap-and-oltp/" },
+      { "label": "Online analytical processing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Online_analytical_processing" },
+      { "label": "Online transaction processing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Online_transaction_processing" }
+    ]
+  },
+  "es": {
+    "title": "OLAP y OLTP",
+    "tagline": "Dos trabajos de una base de datos: muchas transacciones chicas o pocas preguntas enormes.",
+    "explanation": [
+      "**OLTP** (procesamiento de transacciones en línea) es el trabajo que hay detrás de una app mientras la gente la usa: creá este pedido, cobrá esta tarjeta, actualizá esta dirección. Cada operación toca unas pocas filas, hay miles por segundo, y cada una tiene que salir bien aunque dos pasen al mismo tiempo. Bases como PostgreSQL, MySQL, Amazon RDS o DynamoDB están hechas para esto, y suelen guardar los datos fila por fila, con índices para encontrar un registro rápido.",
+      "**OLAP** (procesamiento analítico en línea) es el trabajo de hacerle preguntas grandes a toda esa historia: facturación por región y por mes de los últimos cinco años, o qué productos se compran juntos. Una sola consulta lee millones o miles de millones de filas pero pocas columnas, y a nadie le molesta esperar unos segundos. Los data warehouses como Snowflake, BigQuery o Amazon Redshift están hechos para esto: guardan los datos columna por columna (como los archivos Parquet), así cada consulta lee solo lo que necesita y todo se comprime bien.",
+      "Los dos se mantienen separados a propósito. Correr un reporte pesado en la base OLTP de producción puede trabar el checkout de clientes reales, y un warehouse en columnas es torpe para actualizar una fila por vez. Por eso los datos se copian de los sistemas OLTP a uno OLAP con ETL o streaming. Algunos sistemas más nuevos, llamados **HTAP**, intentan hacer las dos cosas, pero la separación sigue siendo el diseño habitual en la mayoría de las empresas."
+    ],
+    "analogy": "La caja del supermercado contra la oficina central. La caja atiende a un cliente por vez, rápido y sin errores; la oficina mira un año de tickets para decidir qué comprar. No querés que la oficina haga su análisis anual en la caja.",
+    "keyPoints": [
+      "OLTP: muchas lecturas y escrituras chicas, guardado por filas, exactitud bajo carga.",
+      "OLAP: pocas consultas grandes sobre la historia, guardado en columnas, agregaciones.",
+      "Los datos pasan de los sistemas OLTP a un warehouse OLAP con ETL o streaming.",
+      "Separarlos protege a la app en vivo de los reportes pesados."
+    ],
+    "links": [
+      { "label": "OLAP y OLTP: diferencias (AWS)", "url": "https://aws.amazon.com/es/compare/the-difference-between-olap-and-oltp/" },
+      { "label": "OLAP en Wikipedia", "url": "https://es.wikipedia.org/wiki/OLAP" },
+      { "label": "OLTP en Wikipedia", "url": "https://es.wikipedia.org/wiki/OLTP" }
+    ]
+  }
+}

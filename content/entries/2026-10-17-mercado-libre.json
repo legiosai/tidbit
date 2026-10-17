@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-mercado-libre",
+  "date": "2026-10-17",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["MercadoLibre", "Mercado Pago", "MercadoPago"],
+    "es": ["MercadoLibre", "Mercado Pago", "MercadoPago"]
+  },
+  "image": "img/2026-10-17-mercado-libre.svg",
+  "imageAlt": {
+    "en": "Three connected businesses: a marketplace where sellers meet buyers, Mercado Pago handling the payment, and its own logistics network delivering the package",
+    "es": "Tres negocios conectados: un marketplace donde vendedores y compradores se encuentran, Mercado Pago que maneja el pago y su propia red de logística que entrega el paquete"
+  },
+  "en": {
+    "title": "Mercado Libre",
+    "tagline": "Latin America's largest online marketplace, with its own payments and delivery network.",
+    "explanation": [
+      "**Mercado Libre** was founded in 1999 in Buenos Aires by Marcos Galperin and a few partners, inspired by the online auction sites of the time. It grew into the biggest e-commerce company in Latin America, operating in many countries of the region, with Brazil, Mexico and Argentina as its largest markets. Like Amazon's marketplace, most products are listed by independent **sellers**, from people clearing out their garage to large brands, who pay a commission on each sale.",
+      "To make online shopping work in a region where many people had no credit card and trusted strangers little, it built the missing pieces itself. **Mercado Pago** started as a way to pay safely inside the marketplace and became a fintech of its own: a digital wallet, QR payments in shops, card readers for small merchants, transfers, savings and loans. **Mercado Envíos** is its logistics network, with warehouses, sorting centers, delivery fleets and cargo planes, so a package can arrive the next day or even the same day.",
+      "It makes money from sale commissions, shipping fees, payment processing fees, interest on loans and ads that sellers buy to appear first. Behind all of it is a large technology operation: Mercado Libre builds most of its own software and is one of the biggest employers of software engineers in Latin America."
+    ],
+    "analogy": "A huge regional fair that, to make sure deals actually happen, also opened its own bank at the entrance and its own delivery service at the exit.",
+    "keyPoints": [
+      "Founded in 1999 in Buenos Aires; the largest e-commerce company in Latin America.",
+      "Most items are sold by independent sellers who pay a commission per sale.",
+      "Mercado Pago is its fintech: wallet, QR payments, card readers and loans.",
+      "Mercado Envíos, its own logistics network, handles storage and delivery."
+    ],
+    "links": [
+      { "label": "Mercado Libre investor relations (official site)", "url": "https://investor.mercadolibre.com/" },
+      { "label": "Mercado Libre on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mercado_Libre" },
+      { "label": "Mercado Pago on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mercado_Pago" }
+    ]
+  },
+  "es": {
+    "title": "Mercado Libre",
+    "tagline": "El mayor marketplace online de América Latina, con sus propios pagos y envíos.",
+    "explanation": [
+      "**Mercado Libre** la fundaron en 1999 en Buenos Aires Marcos Galperin y algunos socios, inspirados en los sitios de subastas online de esa época. Creció hasta ser la empresa de comercio electrónico más grande de América Latina, presente en muchos países de la región, con Brasil, México y Argentina como sus mercados más grandes. Como en el marketplace de Amazon, la mayoría de los productos los publican **vendedores** independientes, desde alguien que vacía el garaje hasta marcas grandes, que pagan una comisión por cada venta.",
+      "Para que comprar online funcionara en una región donde mucha gente no tenía tarjeta de crédito y desconfiaba de los desconocidos, armó por su cuenta las piezas que faltaban. **Mercado Pago** nació como una forma segura de pagar dentro del marketplace y se volvió una fintech en sí misma: billetera virtual, pagos con QR en los comercios, posnets para comercios chicos, transferencias, ahorro y préstamos. **Mercado Envíos** es su red de logística, con depósitos, centros de clasificación, flotas de reparto y aviones de carga, para que un paquete llegue al día siguiente o incluso en el día.",
+      "Gana plata con las comisiones por venta, los cargos de envío, las comisiones por procesar pagos, los intereses de los préstamos y la publicidad que compran los vendedores para aparecer primeros. Detrás de todo hay una operación tecnológica grande: Mercado Libre desarrolla la mayor parte de su propio software y es uno de los mayores empleadores de ingenieros de software de América Latina."
+    ],
+    "analogy": "Una feria regional enorme que, para asegurarse de que las ventas se concreten, abrió además su propio banco en la entrada y su propio servicio de reparto en la salida.",
+    "keyPoints": [
+      "Fundada en 1999 en Buenos Aires; es la mayor empresa de comercio electrónico de América Latina.",
+      "La mayoría de los productos los venden vendedores independientes que pagan comisión por venta.",
+      "Mercado Pago es su fintech: billetera, pagos con QR, posnets y préstamos.",
+      "Mercado Envíos, su propia red de logística, se ocupa de guardar y entregar."
+    ],
+    "links": [
+      { "label": "Mercado Libre en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mercado_Libre" },
+      { "label": "Mercado Pago en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mercado_Pago" },
+      { "label": "Relación con inversores de Mercado Libre (sitio oficial, en inglés)", "url": "https://investor.mercadolibre.com/" }
+    ]
+  }
+}

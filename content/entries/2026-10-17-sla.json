@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-sla",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["SLAs", "service level agreement", "service-level agreement", "SLO", "SLOs", "uptime"],
+    "es": ["SLAs", "acuerdo de nivel de servicio", "acuerdos de nivel de servicio", "SLO", "SLOs"]
+  },
+  "image": "img/2026-10-17-sla.svg",
+  "imageAlt": {
+    "en": "Three bars compare how much downtime per year each promise allows: about 3.7 days for 99%, about 8.8 hours for 99.9% and about 53 minutes for 99.99%",
+    "es": "Tres barras comparan cuánto tiempo caído por año permite cada promesa: unos 3,7 días con 99%, unas 8,8 horas con 99,9% y unos 53 minutos con 99,99%"
+  },
+  "en": {
+    "title": "SLA",
+    "tagline": "A written promise about how reliable a service will be, and what happens if it is not.",
+    "explanation": [
+      "An **SLA** (service level agreement) is the part of a contract where a provider commits to a level of service: usually how much of the time it will be up, sometimes also how fast it will respond or how quickly support will answer. It also says what you get if the promise is broken, which in cloud services is almost always **service credits**, a discount on next month's bill, not a refund for the business you lost.",
+      "The famous number is uptime, written as a percentage. It sounds tiny but each extra \"nine\" matters a lot. **99%** allows roughly 3.65 days of downtime a year. **99.9%** (three nines) allows roughly 8.8 hours a year, or about 43 minutes a month. **99.99%** (four nines) allows roughly 53 minutes a year, about 4 minutes a month. Going from three to four nines usually means running in several availability zones or regions, with automatic failover.",
+      "Engineers use two related terms. An **SLI** (service level indicator) is what you actually measure, like the share of requests that succeed. An **SLO** (service level objective) is the internal target for it, usually stricter than the public SLA so there is a safety margin. Read the fine print: an SLA defines what counts as \"down\", often excludes planned maintenance, and covers only that one service, not the whole system you built on top of it."
+    ],
+    "analogy": "A pizza place that promises delivery in 30 minutes or the next pizza is free. The promise tells you what to expect, but a free pizza does not save the dinner party that went hungry.",
+    "keyPoints": [
+      "A contractual promise of service level, usually uptime, with credits if missed.",
+      "99.9% allows roughly 8.8 hours of downtime a year; 99.99% roughly 53 minutes.",
+      "SLI is what you measure, SLO is the internal target, SLA is the external promise.",
+      "Check the definitions and exclusions; credits rarely cover real losses."
+    ],
+    "links": [
+      { "label": "Service-level agreement on Wikipedia", "url": "https://en.wikipedia.org/wiki/Service-level_agreement" },
+      { "label": "Service level objectives (Google SRE book)", "url": "https://sre.google/sre-book/service-level-objectives/" },
+      { "label": "AWS service level agreements", "url": "https://aws.amazon.com/legal/service-level-agreements/" }
+    ]
+  },
+  "es": {
+    "title": "SLA",
+    "tagline": "Una promesa por escrito de qué tan confiable va a ser un servicio y qué pasa si no lo es.",
+    "explanation": [
+      "Un **SLA** (service level agreement, acuerdo de nivel de servicio) es la parte de un contrato en la que un proveedor se compromete a un nivel de servicio: casi siempre cuánto tiempo va a estar funcionando, y a veces también qué tan rápido responde o en cuánto tiempo contesta el soporte. También dice qué recibís si no se cumple, que en los servicios en la nube casi siempre son **créditos de servicio**, un descuento en la factura del mes siguiente, no una compensación por el negocio que perdiste.",
+      "El número famoso es la disponibilidad, escrita como porcentaje. Parece una diferencia chiquita, pero cada \"nueve\" extra pesa mucho. **99%** permite unos 3,65 días caído por año. **99,9%** (tres nueves) permite unas 8,8 horas por año, o unos 43 minutos por mes. **99,99%** (cuatro nueves) permite unos 53 minutos por año, unos 4 minutos por mes. Pasar de tres a cuatro nueves suele exigir correr en varias zonas de disponibilidad o regiones, con failover automático.",
+      "Los ingenieros usan dos términos parecidos. Un **SLI** (indicador de nivel de servicio) es lo que medís de verdad, como el porcentaje de pedidos que salen bien. Un **SLO** (objetivo de nivel de servicio) es la meta interna para ese indicador, normalmente más exigente que el SLA público para tener margen. Leé la letra chica: un SLA define qué cuenta como \"caído\", muchas veces excluye el mantenimiento programado y cubre solo ese servicio, no todo el sistema que armaste encima."
+    ],
+    "analogy": "Una pizzería que promete entregar en 30 minutos o la próxima pizza es gratis. La promesa te dice qué esperar, pero una pizza gratis no salva la cena en la que todos se quedaron con hambre.",
+    "keyPoints": [
+      "Una promesa contractual de nivel de servicio, casi siempre disponibilidad, con créditos si no se cumple.",
+      "99,9% permite unas 8,8 horas caído por año; 99,99%, unos 53 minutos.",
+      "El SLI es lo que medís, el SLO la meta interna y el SLA la promesa hacia afuera.",
+      "Revisá las definiciones y exclusiones; los créditos casi nunca cubren las pérdidas reales."
+    ],
+    "links": [
+      { "label": "Acuerdo de nivel de servicio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Acuerdo_de_nivel_de_servicio" },
+      { "label": "Acuerdos de nivel de servicio de AWS", "url": "https://aws.amazon.com/es/legal/service-level-agreements/" },
+      { "label": "Service level objectives, libro de SRE de Google (en inglés)", "url": "https://sre.google/sre-book/service-level-objectives/" }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="148" y="78" width="104" height="66" rx="8" fill="#e6dfd0"/>
+    <rect x="158" y="88" width="38" height="26" rx="3" fill="#9ac7ea"/>
+    <rect x="204" y="88" width="38" height="26" rx="3" fill="#9bd1b9"/>
+    <rect x="160" y="22" width="80" height="28" rx="14" fill="#9ac7ea"/>
+    <rect x="290" y="96" width="80" height="28" rx="14" fill="#ffd166"/>
+    <rect x="160" y="168" width="80" height="28" rx="14" fill="#f4a7a7"/>
+    <rect x="30" y="96" width="80" height="28" rx="14" fill="#9bd1b9"/>
+  </g>
+  <g fill="#2b2b2b"><circle cx="177" cy="130" r="5"/><circle cx="223" cy="130" r="5"/></g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M244 36 C290 36 330 52 330 92"/><path d="M326 86 l4 6 4 -6"/>
+    <path d="M330 128 C330 170 290 182 244 182"/><path d="M250 178 l-6 4 6 4"/>
+    <path d="M156 182 C110 182 70 170 70 128"/><path d="M66 134 l4 -6 4 6"/>
+    <path d="M70 92 C70 52 110 36 156 36"/><path d="M150 32 l6 4 -6 4"/>
+    <path d="M162 108 l6 -6 6 4 6 -8 8 6"/>
+    <path d="M210 108 l8 -10 8 6 10 -8"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="40">monitor</text><text x="330" y="114">detect</text>
+    <text x="200" y="186">respond</text><text x="70" y="114">learn</text>
+  </g>
+  <text x="200" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">analysts</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">on watch 24/7</text>
+</svg>

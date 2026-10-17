@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="96" y="44" width="150" height="36" rx="8" fill="#e6dfd0"/>
+    <rect x="96" y="124" width="282" height="36" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="54" y="67">IPv4</text><text x="54" y="147">IPv6</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="171" y="67">192.168.1.10</text>
+    <text x="237" y="147">2001:db8::8a2e:370:7334</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="171" y="100">32 bits · about 4.3 billion</text>
+    <text x="237" y="180">128 bits · practically endless</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">both run side by side today</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-primary-and-foreign-keys",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["primary key", "primary keys", "foreign key", "foreign keys"],
+    "es": ["clave primaria", "claves primarias", "clave foránea", "claves foráneas", "primary key", "foreign key"]
+  },
+  "image": "img/2026-10-17-primary-and-foreign-keys.svg",
+  "imageAlt": {
+    "en": "A customers table with a highlighted id column, and an orders table whose customer_id column points back to it with arrows",
+    "es": "Una tabla customers con la columna id resaltada, y una tabla orders cuya columna customer_id apunta hacia ella con flechas"
+  },
+  "en": {
+    "title": "Primary and foreign keys",
+    "tagline": "A primary key names each row uniquely; a foreign key points to a row in another table.",
+    "explanation": [
+      "In a relational database, a **primary key** is the column (or set of columns) that identifies each row uniquely. In a `customers` table it is usually an `id`: customer 42 is always that customer and no one else, even if two people share the same name. The database refuses a second row with the same primary key and does not allow it to be empty.",
+      "A **foreign key** is a column in one table that holds the primary key of a row in another table. An `orders` table has a `customer_id` column, and each value in it points to a row in `customers`. That is how a database links data without copying it: the order does not repeat the customer's name and address, it just says \"customer 42\", and a SQL `JOIN` brings the two together when you need them.",
+      "Foreign keys also protect consistency. If they are declared in the database schema, the database will not accept an order for customer 999 when there is no customer 999, and it can stop you from deleting a customer who still has orders. Many analytics systems skip these checks for speed, which is one reason data cleaning so often finds orphan rows."
+    ],
+    "analogy": "A national ID number is a primary key: one per person, never repeated. When a hospital file writes your ID number instead of copying your whole life story, that number is a foreign key pointing back to you.",
+    "keyPoints": [
+      "Primary key: unique and never empty, one per row.",
+      "Foreign key: a column that refers to a primary key in another table.",
+      "Lets tables connect without duplicating data; joins follow these links.",
+      "Declared keys stop orphan records, like an order for a customer who does not exist."
+    ],
+    "links": [
+      { "label": "Primary key on Wikipedia", "url": "https://en.wikipedia.org/wiki/Primary_key" },
+      { "label": "Foreign key on Wikipedia", "url": "https://en.wikipedia.org/wiki/Foreign_key" },
+      { "label": "Constraints, including keys (PostgreSQL docs)", "url": "https://www.postgresql.org/docs/current/ddl-constraints.html" }
+    ]
+  },
+  "es": {
+    "title": "Claves primarias y foráneas",
+    "tagline": "La clave primaria identifica cada fila; la foránea apunta a una fila de otra tabla.",
+    "explanation": [
+      "En una base de datos relacional, la **clave primaria** (primary key) es la columna, o el conjunto de columnas, que identifica cada fila de forma única. En una tabla `customers` suele ser un `id`: el cliente 42 es siempre ese cliente y ningún otro, aunque haya dos personas con el mismo nombre. La base rechaza una segunda fila con la misma clave primaria y no deja que quede vacía.",
+      "Una **clave foránea** (foreign key) es una columna de una tabla que guarda la clave primaria de una fila de otra tabla. La tabla `orders` tiene una columna `customer_id`, y cada valor apunta a una fila de `customers`. Así una base conecta datos sin copiarlos: el pedido no repite el nombre y la dirección del cliente, solo dice \"cliente 42\", y un `JOIN` de SQL junta las dos cosas cuando las necesitás.",
+      "Las claves foráneas además protegen la coherencia. Si están declaradas en el esquema de base de datos, la base no acepta un pedido del cliente 999 cuando no existe ningún cliente 999, y puede impedir que borres un cliente que todavía tiene pedidos. Muchos sistemas de análisis se saltean estos controles para ir más rápido, y por eso la limpieza de datos encuentra tan seguido filas huérfanas."
+    ],
+    "analogy": "El número de DNI es una clave primaria: uno por persona, nunca repetido. Cuando la historia clínica de un hospital anota tu DNI en vez de copiar toda tu vida, ese número es una clave foránea que apunta a vos.",
+    "keyPoints": [
+      "Clave primaria: única y nunca vacía, una por fila.",
+      "Clave foránea: una columna que hace referencia a la clave primaria de otra tabla.",
+      "Conecta tablas sin duplicar datos; los joins siguen esas referencias.",
+      "Declaradas, evitan registros huérfanos, como un pedido de un cliente que no existe."
+    ],
+    "links": [
+      { "label": "Clave primaria en Wikipedia", "url": "https://es.wikipedia.org/wiki/Clave_primaria" },
+      { "label": "Clave foránea en Wikipedia", "url": "https://es.wikipedia.org/wiki/Clave_for%C3%A1nea" },
+      { "label": "Restricciones y claves en PostgreSQL (en inglés)", "url": "https://www.postgresql.org/docs/current/ddl-constraints.html" }
+    ]
+  }
+}

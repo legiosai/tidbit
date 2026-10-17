@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="50" y="50" width="120" height="120" fill="#e6dfd0"/>
+    <rect x="230" y="50" width="120" height="120" fill="#e6dfd0"/>
+  </g>
+  <g fill="#ffd166">
+    <rect x="50" y="140" width="30" height="30"/><rect x="80" y="110" width="30" height="30"/><rect x="110" y="80" width="30" height="30"/><rect x="140" y="50" width="30" height="30"/>
+    <rect x="230" y="155" width="15" height="15"/><rect x="245" y="140" width="15" height="15"/><rect x="260" y="125" width="15" height="15"/><rect x="275" y="110" width="15" height="15"/><rect x="290" y="95" width="15" height="15"/><rect x="305" y="80" width="15" height="15"/><rect x="320" y="65" width="15" height="15"/><rect x="335" y="50" width="15" height="15"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 50 V170 M110 50 V170 M140 50 V170 M50 80 H170 M50 110 H170 M50 140 H170"/>
+    <path d="M245 50 V170 M260 50 V170 M275 50 V170 M290 50 V170 M305 50 V170 M320 50 V170 M335 50 V170 M230 65 H350 M230 80 H350 M230 95 H350 M230 110 H350 M230 125 H350 M230 140 H350 M230 155 H350"/>
+    <rect x="50" y="50" width="120" height="120"/>
+    <rect x="230" y="50" width="120" height="120"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="110" y="38">Full HD</text><text x="290" y="38">4K</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="110" y="190">1920 × 1080</text><text x="290" y="190">3840 × 2160</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same screen size · four times the pixels</text>
+</svg>

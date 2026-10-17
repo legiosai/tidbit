@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-oracle",
+  "date": "2026-10-17",
+  "subjects": ["companies", "data"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Oracle Corporation", "Oracle Database", "Oracle Cloud"],
+    "es": ["Oracle Corporation", "Oracle Database", "Oracle Cloud"]
+  },
+  "image": "img/2026-10-17-oracle.svg",
+  "imageAlt": {
+    "en": "A database cylinder at the center, with business applications on one side and cloud data centers on the other, all sold to companies under licenses and subscriptions",
+    "es": "Un cilindro de base de datos en el centro, con aplicaciones de negocio de un lado y data centers en la nube del otro, todo vendido a empresas con licencias y suscripciones"
+  },
+  "en": {
+    "title": "Oracle",
+    "tagline": "The company behind one of the most used business databases, now also a cloud provider.",
+    "explanation": [
+      "**Oracle** is an American software company founded in 1977 by Larry Ellison, Bob Miner and Ed Oates. Its first and most famous product is **Oracle Database**, one of the first commercial relational databases using SQL. For decades it has been where banks, airlines, telecoms and governments keep their most important records: accounts, bookings, invoices, payroll.",
+      "Around the database it built a large set of **business applications**: software for accounting, purchasing, human resources and supply chains, the kind of system often called ERP. It grew partly by buying other companies, such as PeopleSoft, NetSuite and Sun Microsystems, which brought it the Java programming language and the MySQL database. It also owns Cerner, a maker of electronic health record systems used by hospitals.",
+      "Its traditional business model is **licenses plus support**: customers pay for the right to use the software and then a yearly fee for updates and help, which brings in steady income for many years. More recently it sells the same things as a cloud service, through **Oracle Cloud Infrastructure**, which rents servers and databases from Oracle's own data centers, and it has become a large supplier of computing capacity for training AI models."
+    ],
+    "analogy": "The company that makes the safe where a bank keeps its ledgers, and that also sells the accounting books, the clerks' desks and, lately, rents rooms in its own guarded building to put the safe in.",
+    "keyPoints": [
+      "Founded in 1977; Oracle Database is one of the most widely used business databases.",
+      "Sells business applications (ERP, HR, finance) and owns Java and MySQL.",
+      "Makes money from licenses, yearly support fees and cloud subscriptions.",
+      "Oracle Cloud Infrastructure rents servers and databases, including capacity for AI."
+    ],
+    "links": [
+      { "label": "About Oracle (official site)", "url": "https://www.oracle.com/corporate/" },
+      { "label": "Oracle Corporation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Oracle_Corporation" },
+      { "label": "What is a database? (Oracle)", "url": "https://www.oracle.com/database/what-is-database/" }
+    ]
+  },
+  "es": {
+    "title": "Oracle",
+    "tagline": "Hace una de las bases de datos empresariales más usadas y hoy también vende nube.",
+    "explanation": [
+      "**Oracle** es una empresa de software estadounidense fundada en 1977 por Larry Ellison, Bob Miner y Ed Oates. Su primer producto, y el más famoso, es **Oracle Database**, una de las primeras bases de datos relacionales comerciales con SQL. Hace décadas que es donde bancos, aerolíneas, telefónicas y gobiernos guardan sus registros más importantes: cuentas, reservas, facturas, sueldos.",
+      "Alrededor de la base de datos armó un conjunto grande de **aplicaciones de negocio**: software de contabilidad, compras, recursos humanos y cadena de suministro, el tipo de sistema que suele llamarse ERP. Creció en parte comprando otras empresas, como PeopleSoft, NetSuite y Sun Microsystems, con la que se quedó con el lenguaje de programación Java y la base de datos MySQL. También es dueña de Cerner, que hace sistemas de historia clínica electrónica para hospitales.",
+      "Su modelo de negocio tradicional es **licencia más soporte**: el cliente paga por el derecho a usar el software y después una cuota anual por actualizaciones y ayuda, lo que le deja ingresos estables durante muchos años. Más recientemente vende lo mismo como servicio en la nube, con **Oracle Cloud Infrastructure**, que alquila servidores y bases de datos desde sus propios data centers, y se volvió un proveedor grande de capacidad de cómputo para entrenar modelos de IA."
+    ],
+    "analogy": "La empresa que fabrica la caja fuerte donde un banco guarda sus libros, que además vende los libros contables, los escritorios de los empleados y, últimamente, alquila salas en su propio edificio custodiado para poner la caja fuerte.",
+    "keyPoints": [
+      "Fundada en 1977; Oracle Database es una de las bases de datos empresariales más usadas.",
+      "Vende aplicaciones de negocio (ERP, recursos humanos, finanzas) y es dueña de Java y MySQL.",
+      "Gana plata con licencias, cuotas anuales de soporte y suscripciones a la nube.",
+      "Oracle Cloud Infrastructure alquila servidores y bases de datos, también capacidad para IA."
+    ],
+    "links": [
+      { "label": "Oracle Corporation en Wikipedia", "url": "https://es.wikipedia.org/wiki/Oracle_Corporation" },
+      { "label": "Acerca de Oracle (sitio oficial)", "url": "https://www.oracle.com/latam/corporate/" },
+      { "label": "¿Qué es una base de datos? (Oracle)", "url": "https://www.oracle.com/latam/database/what-is-database/" }
+    ]
+  }
+}

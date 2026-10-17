@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-passkeys",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["passkey", "FIDO2", "WebAuthn"],
+    "es": ["passkey", "llave de acceso", "llaves de acceso", "FIDO2", "WebAuthn"]
+  },
+  "image": "img/2026-10-17-passkeys.svg",
+  "imageAlt": {
+    "en": "A phone with a fingerprint and a private key answers a challenge from a website that only holds the matching public key",
+    "es": "Un celular con una huella y una clave privada responde un desafío de un sitio web que solo guarda la clave pública que le corresponde"
+  },
+  "en": {
+    "title": "Passkeys",
+    "tagline": "A way to sign in without a password, using your phone's or computer's lock instead.",
+    "explanation": [
+      "A **passkey** replaces the password for a site or app. Instead of typing something you memorized, you unlock your phone or computer the way you normally do, with your fingerprint, your face or your device PIN, and you are in. Google, Apple, Microsoft, banks, shops and many other services support them.",
+      "Underneath it uses public-key cryptography. When you create a passkey, your device makes a pair of keys: a **private key** that stays with you, and a **public key** that is sent to the site. To sign in, the site sends a random challenge, your device signs it with the private key after you unlock it, and the site checks the signature with the public key. Your fingerprint never leaves your device; it only unlocks the key.",
+      "The big win is that there is nothing worth stealing on the site's side and nothing you can be tricked into typing. If the site's database leaks, the public keys are useless to an attacker. And each passkey is tied to the real web address it was created for, so a look-alike phishing site simply cannot ask for it. That is why passkeys are considered phishing-resistant, which ordinary passwords and SMS codes are not.",
+      "Passkeys can live in the password manager of your phone or computer, such as Apple's or Google's, or in a third-party one, which syncs them across your devices; they can also be stored on a physical security key. If you lose your phone, you recover them from that account like any other synced data. The technology is an open standard, built on FIDO2 and WebAuthn, created by the FIDO Alliance and the W3C."
+    ],
+    "analogy": "Instead of whispering a password to the doorman, who could overhear it or be an impostor, you show a seal only your ring can make. The doorman has a copy of the pattern to check it, but cannot make the seal himself.",
+    "keyPoints": [
+      "You sign in by unlocking your device; there is no password to remember or type.",
+      "The site only stores a public key, useless to anyone who steals it.",
+      "Each passkey works only on the real site, so phishing pages cannot capture it.",
+      "Synced by your device's password manager, or kept on a physical security key."
+    ],
+    "links": [
+      { "label": "Sign in with a passkey instead of a password (Google)", "url": "https://support.google.com/accounts/answer/13548313?hl=en" },
+      { "label": "About the security of passkeys (Apple)", "url": "https://support.apple.com/en-us/102195" },
+      { "label": "Passkey on Wikipedia", "url": "https://en.wikipedia.org/wiki/Passkey_(authentication)" }
+    ]
+  },
+  "es": {
+    "title": "Passkeys",
+    "tagline": "Una forma de entrar sin contraseña, usando el bloqueo de tu celular o computadora.",
+    "explanation": [
+      "Una **passkey** (llave de acceso) reemplaza la contraseña de un sitio o una app. En vez de escribir algo que memorizaste, desbloqueás el celular o la computadora como siempre, con tu huella, tu cara o el PIN del dispositivo, y listo, entraste. Google, Apple, Microsoft, bancos, tiendas y muchos otros servicios ya las aceptan.",
+      "Por debajo usa criptografía de clave pública. Cuando creás una passkey, tu dispositivo genera un par de claves: una **clave privada** que se queda con vos y una **clave pública** que se manda al sitio. Para entrar, el sitio te manda un desafío al azar, tu dispositivo lo firma con la clave privada después de que lo desbloqueás, y el sitio verifica la firma con la clave pública. Tu huella nunca sale del dispositivo; solo destraba la clave.",
+      "La gran ventaja es que del lado del sitio no hay nada que valga la pena robar, y del tuyo no hay nada que te puedan engañar para que escribas. Si se filtra la base de datos del sitio, las claves públicas no le sirven a nadie. Y cada passkey queda atada a la dirección web real para la que se creó, así que un sitio de phishing que imita al original directamente no puede pedírtela. Por eso se dice que las passkeys resisten el phishing, cosa que las contraseñas comunes y los códigos por SMS no hacen.",
+      "Las passkeys pueden vivir en el gestor de contraseñas de tu celular o computadora, como el de Apple o el de Google, o en uno de terceros, que las sincroniza entre tus dispositivos; también se pueden guardar en una llave de seguridad física. Si perdés el celular, las recuperás desde esa cuenta como cualquier otro dato sincronizado. La tecnología es un estándar abierto, basado en FIDO2 y WebAuthn, creado por la FIDO Alliance y el W3C."
+    ],
+    "analogy": "En lugar de decirle una contraseña al oído al portero, que podría escucharla mal o ser un impostor, le mostrás un sello que solo puede hacer tu anillo. El portero tiene una copia del dibujo para comprobarlo, pero no puede hacer el sello él.",
+    "keyPoints": [
+      "Entrás desbloqueando tu dispositivo; no hay contraseña que recordar ni escribir.",
+      "El sitio solo guarda una clave pública, que no le sirve a quien la robe.",
+      "Cada passkey funciona solo en el sitio real, así que una página de phishing no puede capturarla.",
+      "La sincroniza el gestor de contraseñas de tu dispositivo, o va en una llave de seguridad física."
+    ],
+    "links": [
+      { "label": "Iniciar sesión con una llave de acceso (Google)", "url": "https://support.google.com/accounts/answer/13548313?hl=es" },
+      { "label": "Acerca de la seguridad de las llaves de acceso (Apple)", "url": "https://support.apple.com/es-es/102195" }
+    ]
+  }
+}

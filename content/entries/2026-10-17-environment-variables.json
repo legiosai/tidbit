@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-environment-variables",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["environment variable", "env var", "env vars", "env file"],
+    "es": ["variable de entorno", "env var", "env vars", "variable de ambiente", "variables de ambiente"]
+  },
+  "image": "img/2026-10-17-environment-variables.svg",
+  "imageAlt": {
+    "en": "The same app code runs on a laptop and in production, each environment handing it different values for DATABASE_URL and API_KEY",
+    "es": "El mismo código de una app corre en una laptop y en producción, y cada entorno le pasa valores distintos de DATABASE_URL y API_KEY"
+  },
+  "en": {
+    "title": "Environment variables",
+    "tagline": "Named settings a program reads from outside its code, like where its database lives.",
+    "explanation": [
+      "**Environment variables** are name-and-value pairs that the operating system hands to every program when it starts, such as `DATABASE_URL=postgres://…` or `LOG_LEVEL=debug`. The program reads them instead of having those values written into its code. They are an old Unix idea; one you have probably used without noticing is `PATH`, which tells the computer where to look for commands.",
+      "Their main job today is to let the **same code** run in different places. On a developer's laptop `DATABASE_URL` points to a small local database; in production it points to the real one. The code does not change, only the environment around it. This split between code and configuration is one of the principles of the well-known **Twelve-Factor App** guide for building cloud software.",
+      "They are also the usual way to give programs **secrets**, like an API key or a database password, without putting them in the repository. During development many projects keep these in a file named `.env` that a library loads at startup; that file must be listed in `.gitignore` so it never reaches Git. In the cloud, services like AWS Lambda, containers and CI/CD pipelines all let you set environment variables, and for sensitive values they can be filled from a secrets manager."
+    ],
+    "analogy": "Like a recipe that says \"bake at the temperature your oven needs\" instead of a fixed number. The same recipe works in every kitchen; each kitchen supplies its own setting.",
+    "keyPoints": [
+      "Configuration lives outside the code, so one build runs anywhere.",
+      "Each environment, like local, staging or production, sets its own values.",
+      "The common way to pass secrets without committing them.",
+      "Keep `.env` files out of Git."
+    ],
+    "links": [
+      { "label": "Config, from The Twelve-Factor App", "url": "https://12factor.net/config" },
+      { "label": "Environment variable on Wikipedia", "url": "https://en.wikipedia.org/wiki/Environment_variable" }
+    ]
+  },
+  "es": {
+    "title": "Variables de entorno",
+    "tagline": "Ajustes con nombre que un programa lee desde fuera de su código, como dónde está su base.",
+    "explanation": [
+      "Las **variables de entorno** son pares de nombre y valor que el sistema operativo le pasa a cada programa cuando arranca, como `DATABASE_URL=postgres://…` o `LOG_LEVEL=debug`. El programa las lee en lugar de tener esos valores escritos en su código. Son una idea vieja de Unix; una que seguro usaste sin darte cuenta es `PATH`, que le dice a la computadora dónde buscar los comandos.",
+      "Su función principal hoy es que el **mismo código** corra en lugares distintos. En la laptop de un developer, `DATABASE_URL` apunta a una base chica local; en producción apunta a la real. El código no cambia, cambia el entorno que lo rodea. Esta separación entre código y configuración es uno de los principios de la conocida guía **Twelve-Factor App** para construir software en la nube.",
+      "También son la forma habitual de pasarles **secretos** a los programas, como una API key o la contraseña de una base de datos, sin meterlos en el repositorio. Durante el desarrollo, muchos proyectos los guardan en un archivo llamado `.env` que una librería carga al arrancar; ese archivo tiene que estar en `.gitignore` para que nunca llegue a Git. En la nube, servicios como AWS Lambda, los contenedores y los pipelines de CI/CD te dejan definir variables de entorno y, para valores sensibles, completarlas desde un gestor de secretos."
+    ],
+    "analogy": "Como una receta que dice \"horneá a la temperatura que necesite tu horno\" en vez de un número fijo. La misma receta sirve en cualquier cocina; cada cocina pone su propio valor.",
+    "keyPoints": [
+      "La configuración vive fuera del código, así que un mismo build corre en cualquier lado.",
+      "Cada entorno, como local, staging o producción, define sus propios valores.",
+      "Es la forma común de pasar secretos sin commitearlos.",
+      "Los archivos `.env` no van en Git."
+    ],
+    "links": [
+      { "label": "Configuración, de The Twelve-Factor App", "url": "https://12factor.net/es/config" },
+      { "label": "Variable de entorno en Wikipedia", "url": "https://es.wikipedia.org/wiki/Variable_de_entorno" }
+    ]
+  }
+}

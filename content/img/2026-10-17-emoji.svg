@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="120" y="20" width="160" height="44" rx="10" fill="#e6dfd0"/>
+    <rect x="30" y="100" width="92" height="96" rx="12" fill="#9ac7ea"/>
+    <rect x="154" y="100" width="92" height="96" rx="12" fill="#9bd1b9"/>
+    <rect x="278" y="100" width="92" height="96" rx="12" fill="#f4a7a7"/>
+    <circle cx="76" cy="146" r="26" fill="#ffd166"/>
+    <circle cx="200" cy="146" r="26" fill="#ffd166"/>
+    <rect x="300" y="120" width="48" height="52" rx="16" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M170 64 L90 96"/><path d="M200 64 V96"/><path d="M230 64 L310 96"/>
+    <path d="M62 152 Q76 166 90 152 Z" fill="#f3efe6"/>
+    <path d="M186 154 Q200 162 214 154"/>
+    <path d="M308 150 Q324 168 340 150 H308 Z" fill="#f3efe6"/>
+  </g>
+  <g fill="#2b2b2b">
+    <circle cx="66" cy="138" r="3"/><circle cx="86" cy="138" r="3"/>
+    <rect x="189" y="134" width="5" height="9" rx="2"/><rect x="206" y="134" width="5" height="9" rx="2"/>
+    <circle cx="314" cy="138" r="4"/><circle cx="334" cy="138" r="4"/>
+  </g>
+  <text x="200" y="40" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b">U+1F600</text>
+  <text x="200" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">grinning face</text>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="76" y="188">phone A</text><text x="200" y="188">phone B</text><text x="324" y="188">phone C</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one character · each phone draws its own</text>
+</svg>

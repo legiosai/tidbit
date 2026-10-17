@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="70" width="120" height="60" rx="8" fill="#e6dfd0"/>
+    <rect x="170" y="80" width="64" height="40" rx="6" fill="#f4a7a7"/>
+    <rect x="290" y="30" width="88" height="34" rx="6" fill="#9ac7ea"/>
+    <rect x="290" y="146" width="88" height="34" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5" fill="#f3efe6">
+    <rect x="30" y="80" width="16" height="12" rx="2"/><rect x="52" y="80" width="16" height="12" rx="2"/><rect x="74" y="80" width="16" height="12" rx="2"/><rect x="96" y="80" width="16" height="12" rx="2"/><rect x="118" y="80" width="14" height="12" rx="2"/>
+    <rect x="30" y="98" width="16" height="12" rx="2"/><rect x="52" y="98" width="16" height="12" rx="2"/><rect x="74" y="98" width="16" height="12" rx="2"/><rect x="96" y="98" width="16" height="12" rx="2"/><rect x="118" y="98" width="14" height="12" rx="2"/>
+    <rect x="44" y="114" width="72" height="10" rx="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M142 100 H164"/><path d="M158 96 l6 4 -6 4"/>
+    <path d="M236 92 C262 92 262 47 284 47"/><path d="M278 43 l6 4 -6 4"/>
+    <path d="M334 68 V140" stroke-dasharray="4 4"/><path d="M330 134 l4 6 4 -6"/>
+  </g>
+  <circle cx="334" cy="104" r="14" fill="#f4a7a7" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none"><path d="M327 97 l14 14"/><path d="M341 97 l-14 14"/></g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="202" y="104">p a s s</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="58">keyboard</text><text x="202" y="140">keylogger</text>
+    <text x="334" y="52">attacker</text><text x="334" y="168">2FA code</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="312" y="108" text-anchor="end">tries login</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">copies keys · 2FA still blocks</text>
+</svg>

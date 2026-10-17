@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-transformer",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["transformers", "transformer architecture", "self-attention", "attention mechanism"],
+    "es": ["transformers", "arquitectura transformer", "mecanismo de atención", "autoatención"]
+  },
+  "image": "img/2026-10-17-transformer.svg",
+  "imageAlt": {
+    "en": "The words the cat sat because it was, with arcs from it back to earlier words; the strongest arc links it to cat, and the model then predicts the next word, tired",
+    "es": "Las palabras en inglés the cat sat because it was, con arcos que van desde it hacia las palabras anteriores; el arco más fuerte une it con cat, y después el modelo predice la palabra siguiente, tired"
+  },
+  "en": {
+    "title": "Transformer",
+    "tagline": "The neural network design behind modern language models, built around 'attention'.",
+    "explanation": [
+      "The **transformer** is a way of building neural networks, introduced in 2017 by a team at Google in a paper titled 'Attention Is All You Need'. It is the architecture behind almost every large language model today: the T in GPT stands for it, and Claude, Gemini and Llama are transformers too. It is also used for images, audio, video and even protein structures.",
+      "Its central idea is **self-attention**. Text is first split into tokens, and each token becomes a list of numbers. Then, layer after layer, every token looks at every other token in the context and decides how much each one matters for understanding it. In 'the cat sat because it was tired', attention lets 'it' connect strongly to 'cat'. Many attention 'heads' work in parallel, each picking up different relations: grammar, who did what, which earlier sentence a word refers back to. A language model stacks dozens of these layers and ends by producing probabilities for the next token.",
+      "Before transformers, language models mostly read text one word at a time, in order (recurrent networks), which was slow to train and forgot things over long passages. Attention looks at the whole sequence at once, so training can be split across thousands of GPUs running in parallel, and that is what made today's giant models practical. The cost is that comparing every token with every other grows with the square of the text length, one reason context windows are limited and long inputs are expensive."
+    ],
+    "analogy": "Like a meeting where, before speaking, each person glances at everyone else and decides whose earlier comments matter most to what they are about to say. Everyone does this at the same time, round after round, until the group's understanding is sharp.",
+    "keyPoints": [
+      "Introduced in 2017 in the paper 'Attention Is All You Need'.",
+      "Self-attention lets each token weigh every other token.",
+      "Processes whole sequences in parallel, which made huge models trainable.",
+      "Attention cost grows with the square of the input length."
+    ],
+    "links": [
+      { "label": "Transformer (deep learning architecture) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)" },
+      { "label": "The Illustrated Transformer (Jay Alammar)", "url": "https://jalammar.github.io/illustrated-transformer/" },
+      { "label": "Attention Is All You Need (original paper, arXiv)", "url": "https://arxiv.org/abs/1706.03762" }
+    ]
+  },
+  "es": {
+    "title": "Transformer",
+    "tagline": "El diseño de red neuronal detrás de los modelos de lenguaje, basado en la 'atención'.",
+    "explanation": [
+      "El **transformer** es una forma de construir redes neuronales que presentó en 2017 un equipo de Google en un paper titulado 'Attention Is All You Need' (La atención es todo lo que necesitás). Es la arquitectura detrás de casi todos los grandes modelos de lenguaje de hoy: la T de GPT viene de ahí, y Claude, Gemini y Llama también son transformers. También se usa para imágenes, audio, video y hasta estructuras de proteínas.",
+      "Su idea central es la **autoatención** (self-attention). Primero el texto se divide en tokens, y cada token se convierte en una lista de números. Después, capa tras capa, cada token mira a todos los demás del contexto y decide cuánto le importa cada uno para entenderse a sí mismo. En 'el gato se sentó porque estaba cansado', la atención permite conectar 'cansado' con 'gato'. Muchas 'cabezas' de atención trabajan en paralelo, cada una captando relaciones distintas: gramática, quién hizo qué, a qué oración anterior se refiere una palabra. Un modelo de lenguaje apila decenas de estas capas y termina dando probabilidades para el próximo token.",
+      "Antes de los transformers, los modelos de lenguaje leían el texto mayormente palabra por palabra, en orden (redes recurrentes), lo que hacía lento el entrenamiento y les hacía olvidar cosas en pasajes largos. La atención mira toda la secuencia de una vez, así que el entrenamiento se puede repartir entre miles de GPUs trabajando en paralelo, y eso es lo que volvió posibles los modelos gigantes de hoy. El costo es que comparar cada token con todos los demás crece con el cuadrado del largo del texto, una de las razones por las que las ventanas de contexto tienen límite y los textos largos salen caros."
+    ],
+    "analogy": "Es como una reunión en la que, antes de hablar, cada persona mira a todas las demás y decide qué comentarios anteriores importan más para lo que va a decir. Todos lo hacen al mismo tiempo, ronda tras ronda, hasta que el grupo entiende con claridad.",
+    "keyPoints": [
+      "Se presentó en 2017 en el paper 'Attention Is All You Need'.",
+      "La autoatención deja que cada token pondere a todos los demás.",
+      "Procesa secuencias enteras en paralelo, y eso permitió entrenar modelos enormes.",
+      "El costo de la atención crece con el cuadrado del largo de la entrada."
+    ],
+    "links": [
+      { "label": "Transformador (aprendizaje automático) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Transformador_(modelo_de_aprendizaje_autom%C3%A1tico)" },
+      { "label": "¿Cómo funcionan los transformers? (curso de Hugging Face)", "url": "https://huggingface.co/learn/llm-course/es/chapter1/4" },
+      { "label": "¿Qué es un modelo transformer? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/transformer-model" }
+    ]
+  }
+}

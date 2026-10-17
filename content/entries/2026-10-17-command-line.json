@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-command-line",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["command-line interface", "CLI", "CLIs", "terminal", "shell", "command prompt"],
+    "es": ["interfaz de línea de comandos", "CLI", "terminal", "shell", "consola de comandos"]
+  },
+  "image": "img/2026-10-17-command-line.svg",
+  "imageAlt": {
+    "en": "A dark terminal window where a user types short commands to move into a folder, list files and count lines, and the computer replies in text",
+    "es": "Una ventana de terminal oscura donde alguien escribe comandos cortos para entrar a una carpeta, listar archivos y contar líneas, y la computadora responde con texto"
+  },
+  "en": {
+    "title": "Command line",
+    "tagline": "Controlling a computer by typing text commands instead of clicking icons.",
+    "explanation": [
+      "The **command line** is a way to use a computer by typing instructions and reading text replies, with no buttons or icons. You open a **terminal** app (Terminal on a Mac, Windows Terminal or PowerShell on Windows) and type something like `ls` to list the files in a folder, `cd photos` to move into a folder, or `cp report.pdf backup/` to copy a file. The program that reads and runs what you type is called the **shell**; Bash and Zsh are common ones.",
+      "It looks old-fashioned, but it is still central to software work. Commands are exact and repeatable: you can save a sequence of them in a script and run it a thousand times, or chain small tools together so the output of one becomes the input of the next. Many developer tools, like Git or package managers, are used mainly or only from the command line, and most servers have no screen at all, so people manage them by typing commands over a remote connection.",
+      "The flip side is that it trusts you. There is usually no \"Are you sure?\" and no trash can: a mistyped delete command can erase files for good. That is why careful users read a command before pressing Enter, especially one copied from the internet."
+    ],
+    "analogy": "Ordering at a counter by saying exactly what you want, instead of pointing at pictures on a menu. It takes learning the words, but once you know them it is faster and you can ask for things that are not on the pictures.",
+    "keyPoints": [
+      "You type commands in a terminal; a shell such as Bash or Zsh runs them.",
+      "Exact and repeatable: easy to script and to automate.",
+      "The standard way to manage servers and many developer tools.",
+      "Powerful and unforgiving: deleted files usually do not go to a trash can."
+    ],
+    "links": [
+      { "label": "Command line crash course (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line" },
+      { "label": "The Linux command line for beginners (Ubuntu)", "url": "https://ubuntu.com/tutorials/command-line-for-beginners" },
+      { "label": "Command-line interface on Wikipedia", "url": "https://en.wikipedia.org/wiki/Command-line_interface" }
+    ]
+  },
+  "es": {
+    "title": "Línea de comandos",
+    "tagline": "Manejar una computadora escribiendo comandos de texto en vez de hacer clic en íconos.",
+    "explanation": [
+      "La **línea de comandos** es una forma de usar la computadora escribiendo instrucciones y leyendo respuestas en texto, sin botones ni íconos. Abrís una app de **terminal** (Terminal en una Mac, Windows Terminal o PowerShell en Windows) y escribís algo como `ls` para listar los archivos de una carpeta, `cd fotos` para entrar a una carpeta o `cp informe.pdf backup/` para copiar un archivo. El programa que lee y ejecuta lo que escribís se llama **shell**; Bash y Zsh son de los más comunes.",
+      "Parece cosa del pasado, pero sigue siendo central en el trabajo con software. Los comandos son exactos y repetibles: podés guardar una secuencia en un script y correrla mil veces, o encadenar herramientas chicas para que la salida de una sea la entrada de la siguiente. Muchas herramientas de desarrollo, como Git o los gestores de paquetes, se usan sobre todo o únicamente desde la línea de comandos, y la mayoría de los servidores no tienen pantalla, así que se administran escribiendo comandos por una conexión remota.",
+      "La contracara es que confía en vos. En general no hay un \"¿Estás seguro?\" ni papelera de reciclaje: un comando de borrado mal escrito puede eliminar archivos para siempre. Por eso conviene leer un comando antes de apretar Enter, sobre todo si lo copiaste de internet."
+    ],
+    "analogy": "Pedir en un mostrador diciendo exactamente lo que querés, en vez de señalar fotos en un menú. Hay que aprender las palabras, pero una vez que las sabés es más rápido y podés pedir cosas que no están en las fotos.",
+    "keyPoints": [
+      "Escribís comandos en una terminal; una shell como Bash o Zsh los ejecuta.",
+      "Exacta y repetible: fácil de guardar en scripts y automatizar.",
+      "Es la forma estándar de manejar servidores y muchas herramientas de desarrollo.",
+      "Potente y sin red: lo que borrás en general no va a la papelera."
+    ],
+    "links": [
+      { "label": "Interfaz de línea de comandos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Interfaz_de_línea_de_comandos" },
+      { "label": "Curso rápido de línea de comandos (MDN, en inglés)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line" },
+      { "label": "Shell (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Shell_(informática)" }
+    ]
+  }
+}

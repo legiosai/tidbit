@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-data-mesh",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["data product", "data products"],
+    "es": ["malla de datos", "data product", "producto de datos", "productos de datos"]
+  },
+  "image": "img/2026-10-17-data-mesh.svg",
+  "imageAlt": {
+    "en": "Four domain teams, sales, shipping, payments and marketing, each own a data product and connect to each other through a shared platform in the middle",
+    "es": "Cuatro equipos de dominio, ventas, envíos, pagos y marketing, cada uno dueño de un producto de datos, conectados entre sí por una plataforma compartida en el medio"
+  },
+  "en": {
+    "title": "Data mesh",
+    "tagline": "An organizational approach where each business team owns and publishes its own data.",
+    "explanation": [
+      "A **data mesh** is a way of organizing who does what with data in a large company, more than a piece of technology. In the classic setup, every department sends its data to one central data team, which builds the data warehouse or data lake for everyone. As the company grows, that team becomes a bottleneck: it is far from the business, it does not know what each field really means, and every request waits in its queue.",
+      "The idea, described by Zhamak Dehghani around 2019, rests on four principles. **Domain ownership**: the team that runs a part of the business (sales, shipping, payments) also owns its data. **Data as a product**: that team publishes datasets other teams can rely on, with documentation, quality guarantees and someone accountable. **Self-serve platform**: a central platform team provides the shared tools so each domain does not reinvent storage, pipelines and catalogs. **Federated governance**: common rules on security, privacy and formats, agreed together and enforced automatically.",
+      "Data mesh makes the most sense for big organizations with many teams and mature engineering; for a small company, one good central team is usually simpler. It is often confused with a product you can buy, but no tool gives you a mesh. Tools like a data catalog, dbt or a shared warehouse can support it; the hard part is changing responsibilities and incentives."
+    ],
+    "analogy": "A food market instead of one big restaurant kitchen. Each stall cooks its own specialty and is responsible for it, but they all follow the same health rules and share the tables, the water and the electricity.",
+    "keyPoints": [
+      "Each business domain owns, documents and serves its own data.",
+      "Datasets are treated as products, with users, quality guarantees and an owner.",
+      "A central platform provides shared tools; governance rules are common.",
+      "An organizational model for large companies, not a product you install."
+    ],
+    "links": [
+      { "label": "Data mesh principles (Zhamak Dehghani, martinfowler.com)", "url": "https://martinfowler.com/articles/data-mesh-principles.html" },
+      { "label": "What is a data mesh? (AWS)", "url": "https://aws.amazon.com/what-is/data-mesh/" },
+      { "label": "Data mesh on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_mesh" }
+    ]
+  },
+  "es": {
+    "title": "Data mesh",
+    "tagline": "Una forma de organizarse en la que cada equipo del negocio es dueño de sus propios datos.",
+    "explanation": [
+      "Un **data mesh** (malla de datos) es una manera de organizar quién hace qué con los datos en una empresa grande, más que una tecnología. En el esquema clásico, cada área le manda sus datos a un único equipo central de datos, que arma el data warehouse o el data lake para todos. A medida que la empresa crece, ese equipo se vuelve un cuello de botella: está lejos del negocio, no sabe qué significa realmente cada campo y cada pedido espera en su fila.",
+      "La idea, que Zhamak Dehghani describió alrededor de 2019, se apoya en cuatro principios. **Propiedad por dominio**: el equipo que maneja una parte del negocio (ventas, envíos, pagos) también es dueño de sus datos. **Datos como producto**: ese equipo publica conjuntos de datos en los que otros equipos pueden confiar, con documentación, garantías de calidad y alguien que responde. **Plataforma de autoservicio**: un equipo de plataforma central da las herramientas compartidas, para que cada dominio no reinvente almacenamiento, pipelines y catálogos. **Gobierno federado**: reglas comunes de seguridad, privacidad y formatos, acordadas entre todos y aplicadas en forma automática.",
+      "El data mesh tiene más sentido en organizaciones grandes, con muchos equipos e ingeniería madura; en una empresa chica, un buen equipo central suele ser más simple. Muchas veces se lo confunde con un producto que se compra, pero ninguna herramienta te da un mesh. Herramientas como un catálogo de datos, dbt o un warehouse compartido pueden ayudar; lo difícil es cambiar responsabilidades e incentivos."
+    ],
+    "analogy": "Un mercado gastronómico en lugar de la cocina de un solo restaurante grande. Cada puesto cocina su especialidad y responde por ella, pero todos siguen las mismas normas de higiene y comparten las mesas, el agua y la luz.",
+    "keyPoints": [
+      "Cada dominio del negocio es dueño de sus datos, los documenta y los sirve.",
+      "Los conjuntos de datos se tratan como productos, con usuarios, garantías de calidad y un responsable.",
+      "Una plataforma central da las herramientas compartidas; las reglas de gobierno son comunes.",
+      "Es un modelo organizacional para empresas grandes, no un producto que se instala."
+    ],
+    "links": [
+      { "label": "¿Qué es una malla de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-mesh/" },
+      { "label": "Data mesh principles, de Zhamak Dehghani (en inglés)", "url": "https://martinfowler.com/articles/data-mesh-principles.html" }
+    ]
+  }
+}

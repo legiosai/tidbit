@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-metadata",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": ["metadata", "metadato"]
+  },
+  "image": "img/2026-10-17-metadata.svg",
+  "imageAlt": {
+    "en": "A photo card with a tag tied to it that lists date, place, camera and size",
+    "es": "Una foto con una etiqueta atada que lista fecha, lugar, cámara y tamaño"
+  },
+  "en": {
+    "title": "Metadata",
+    "tagline": "Data that describes other data: who made it, when, where and what it contains.",
+    "explanation": [
+      "**Metadata** is information about a piece of data rather than the data itself. A photo on your phone is the image, but it also carries the date it was taken, the place, the camera model and the file size. An email has a body, and also a sender, a recipient, a subject line and a timestamp. All of that is metadata.",
+      "In companies, metadata is what makes data usable. A table in a database is just rows and columns until something says what each column means, who owns the table, when it was last updated and where the numbers came from. Search engines, music apps and libraries all work the same way: they find things by their metadata, not by reading every file from scratch.",
+      "Metadata can also be sensitive on its own. Even without reading a single message, knowing who called whom, when and from where says a lot about a person. That is why privacy rules often cover metadata too, and why some apps strip the location from photos before you share them."
+    ],
+    "analogy": "The label on a jar of homemade jam: it is not the jam, but it tells you the flavor, who made it and when, so you know what you are holding without opening it.",
+    "keyPoints": [
+      "Describes data: author, date, size, format, origin, meaning.",
+      "It is how search, catalogs and file systems find things quickly.",
+      "In a company, good metadata is what lets people trust and reuse data.",
+      "Metadata alone can reveal private details, so it deserves protection too."
+    ],
+    "links": [
+      { "label": "Metadata on Wikipedia", "url": "https://en.wikipedia.org/wiki/Metadata" },
+      { "label": "What is metadata? (IBM)", "url": "https://www.ibm.com/think/topics/metadata" }
+    ]
+  },
+  "es": {
+    "title": "Metadatos",
+    "tagline": "Datos que describen otros datos: quién los hizo, cuándo, dónde y qué contienen.",
+    "explanation": [
+      "Los **metadatos** son información sobre un dato, no el dato en sí. Una foto en tu celular es la imagen, pero también guarda la fecha en que la sacaste, el lugar, el modelo de cámara y el tamaño del archivo. Un mail tiene un cuerpo, y además un remitente, un destinatario, un asunto y una hora de envío. Todo eso son metadatos.",
+      "En una empresa, los metadatos son lo que vuelve útiles a los datos. Una tabla en una base de datos son solo filas y columnas hasta que algo dice qué significa cada columna, quién es responsable de la tabla, cuándo se actualizó por última vez y de dónde salen los números. Los buscadores, las apps de música y las bibliotecas funcionan igual: encuentran cosas por sus metadatos, sin leer cada archivo desde cero.",
+      "Los metadatos también pueden ser sensibles por sí solos. Sin leer un solo mensaje, saber quién llamó a quién, cuándo y desde dónde dice mucho de una persona. Por eso las leyes de privacidad muchas veces los incluyen, y por eso algunas apps borran la ubicación de las fotos antes de que las compartas."
+    ],
+    "analogy": "La etiqueta de un frasco de mermelada casera: no es la mermelada, pero te dice el sabor, quién la hizo y cuándo, así sabés qué tenés en la mano sin abrirlo.",
+    "keyPoints": [
+      "Describen datos: autor, fecha, tamaño, formato, origen, significado.",
+      "Son la forma en que buscadores, catálogos y sistemas de archivos encuentran cosas rápido.",
+      "En una empresa, buenos metadatos permiten confiar en los datos y reutilizarlos.",
+      "Los metadatos solos pueden revelar detalles privados, así que también hay que cuidarlos."
+    ],
+    "links": [
+      { "label": "Metadatos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Metadatos" },
+      { "label": "¿Qué son los metadatos? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/metadata" }
+    ]
+  }
+}

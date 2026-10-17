@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-internet-of-things",
+  "date": "2026-10-17",
+  "subjects": ["hardware", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["IoT", "IoT device", "IoT devices"],
+    "es": ["IoT", "dispositivo IoT", "dispositivos IoT", "internet of things"]
+  },
+  "image": "img/2026-10-17-internet-of-things.svg",
+  "imageAlt": {
+    "en": "A thermostat, a doorbell, a meter and a sensor, each connected by a line to a cloud in the middle, which connects to an app on a phone",
+    "es": "Un termostato, un timbre, un medidor y un sensor, cada uno unido con una línea a una nube en el centro, que se conecta con una app en un celular"
+  },
+  "en": {
+    "title": "Internet of things",
+    "tagline": "Everyday objects with sensors and a network connection: thermostats, meters, doorbells.",
+    "explanation": [
+      "The **Internet of things** (**IoT**) is the name for ordinary objects that carry a small computer, a few sensors and a network connection: a thermostat you control from your phone, a smart electricity meter, a video doorbell, a fitness band, a soil-moisture sensor in a field, a tracker inside a shipping container. Each one measures or does something and reports over the internet.",
+      "Most IoT devices are simple. A cheap chip reads a sensor and sends a few numbers every so often, over Wi-Fi, Bluetooth or a mobile network, to a service in the cloud. There the data is stored, shown in an app and used to trigger actions: turn on the heating, send an alert when a freezer warms up, schedule maintenance before a machine breaks. The value is rarely in one device; it is in thousands of them reporting together.",
+      "The weak spot is security. Many devices ship with default passwords, rarely get firmware updates and stay plugged in for years, and attackers have taken over large numbers of cameras and routers to build botnets. Good practice is boring but it works: change the default password, keep the firmware updated, and put these devices on a separate network when you can."
+    ],
+    "analogy": "Giving objects a voice and a phone line. One plant pot that can say \"I'm dry\" is not very clever, but a farm full of them can tell you exactly where to water.",
+    "keyPoints": [
+      "Ordinary objects with a sensor, a small chip and a network connection.",
+      "They usually send small readings to a cloud service and an app.",
+      "The value comes from many devices reporting together.",
+      "Default passwords and missing updates make them easy targets."
+    ],
+    "links": [
+      { "label": "Internet of things on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet_of_things" },
+      { "label": "What is the Internet of Things? (IBM)", "url": "https://www.ibm.com/think/topics/internet-of-things" },
+      { "label": "What is IoT? (AWS)", "url": "https://aws.amazon.com/what-is/iot/" }
+    ]
+  },
+  "es": {
+    "title": "Internet de las cosas",
+    "tagline": "Objetos comunes con sensores y conexión a la red: termostatos, medidores, timbres.",
+    "explanation": [
+      "**Internet de las cosas** (**IoT**, por internet of things) es el nombre que reciben los objetos comunes que llevan una computadora chiquita, algunos sensores y conexión a la red: un termostato que manejás desde el celular, un medidor de luz inteligente, un timbre con cámara, una pulsera deportiva, un sensor de humedad en un campo, un rastreador dentro de un contenedor. Cada uno mide o hace algo e informa por internet.",
+      "La mayoría de los dispositivos IoT son simples. Un chip barato lee un sensor y manda unos pocos números cada tanto, por Wi-Fi, Bluetooth o la red móvil, a un servicio en la nube. Ahí los datos se guardan, se muestran en una app y disparan acciones: prender la calefacción, avisar cuando un freezer se calienta, programar un mantenimiento antes de que una máquina se rompa. El valor casi nunca está en un solo aparato; está en miles informando juntos.",
+      "El punto débil es la seguridad. Muchos vienen con contraseñas de fábrica, casi nunca reciben actualizaciones de firmware y quedan enchufados durante años, y hubo atacantes que tomaron el control de enormes cantidades de cámaras y routers para armar botnets. Las buenas prácticas son aburridas pero funcionan: cambiá la contraseña de fábrica, mantené el firmware actualizado y, si podés, poné estos aparatos en una red separada."
+    ],
+    "analogy": "Darles a los objetos voz y una línea de teléfono. Una maceta que avisa \"tengo sed\" no es muy inteligente, pero un campo lleno de ellas te dice exactamente dónde regar.",
+    "keyPoints": [
+      "Objetos comunes con un sensor, un chip chico y conexión a la red.",
+      "Suelen mandar lecturas chicas a un servicio en la nube y a una app.",
+      "El valor aparece cuando muchos aparatos informan juntos.",
+      "Las contraseñas de fábrica y la falta de actualizaciones los vuelven blancos fáciles."
+    ],
+    "links": [
+      { "label": "Internet de las cosas en Wikipedia", "url": "https://es.wikipedia.org/wiki/Internet_de_las_cosas" },
+      { "label": "¿Qué es el internet de las cosas? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/internet-of-things" },
+      { "label": "¿Qué es IoT? (AWS)", "url": "https://aws.amazon.com/es/what-is/iot/" }
+    ]
+  }
+}

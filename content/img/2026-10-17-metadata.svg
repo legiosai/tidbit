@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="50" width="130" height="120" rx="8" fill="#e6dfd0"/>
+    <rect x="54" y="64" width="102" height="72" rx="4" fill="#9ac7ea"/>
+    <path d="M54 136 L90 98 L112 120 L128 106 L156 136 Z" fill="#9bd1b9"/>
+    <circle cx="134" cy="82" r="9" fill="#ffd166"/>
+    <path d="M240 50 H362 V178 H240 L222 114 Z" fill="#ffd166"/>
+    <circle cx="238" cy="114" r="5" fill="#f3efe6"/>
+  </g>
+  <path d="M170 110 Q200 90 233 114" stroke="#2b2b2b" stroke-width="2" fill="none"/>
+  <text x="105" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b">photo</text>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">
+    <text x="252" y="76">date: March 14</text>
+    <text x="252" y="102">place: beach</text>
+    <text x="252" y="128">camera: phone</text>
+    <text x="252" y="154">size: 2.4 MB</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the data · and the tag that describes it</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-tpu",
+  "date": "2026-10-17",
+  "subjects": ["hardware", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["TPUs", "Tensor Processing Unit", "Tensor Processing Units"],
+    "es": ["TPUs", "unidad de procesamiento tensorial", "unidades de procesamiento tensorial", "Tensor Processing Unit"]
+  },
+  "image": "img/2026-10-17-tpu.svg",
+  "imageAlt": {
+    "en": "Numbers flow from the left and from the top into a grid of multiplier cells inside a chip, and results come out the bottom",
+    "es": "Números que entran por la izquierda y por arriba a una grilla de celdas multiplicadoras dentro de un chip, y resultados que salen por abajo"
+  },
+  "en": {
+    "title": "TPU",
+    "tagline": "Google's chip designed specifically for the math of neural networks.",
+    "explanation": [
+      "A **TPU** (Tensor Processing Unit) is a chip Google designed for one job: the arithmetic behind neural networks. Training and running an AI model comes down to multiplying huge tables of numbers, called **tensors** or matrices, over and over. A CPU can do it, slowly; a GPU does it well because it has thousands of small cores; a TPU goes a step further and is built almost entirely around that one operation.",
+      "Its heart is a **matrix unit**: a grid of multipliers where numbers flow from cell to cell, each one multiplying, adding and passing the result to its neighbor, so data is reused instead of being fetched from memory again and again. TPUs also work with lower-precision numbers, which are accurate enough for neural networks and much cheaper to compute. Google has run them in its data centers since 2015 for search, translation and its Gemini models, and rents them to other companies through Google Cloud.",
+      "You cannot buy a TPU for your PC. They come in large groups called **pods**, linked by very fast connections, and are available only as a cloud service. They are a clear example of a wider trend: big tech companies designing their own AI chips instead of relying only on NVIDIA's GPUs, to lower costs and control their supply. Each generation is faster, but the core idea stays the same."
+    ],
+    "analogy": "A GPU is a big kitchen with many cooks who can make almost any dish. A TPU is a factory line built for a single recipe: it cannot do much else, but for that recipe each plate comes out fast and cheap.",
+    "keyPoints": [
+      "Designed by Google for the matrix math of neural networks.",
+      "Used both to train models and to run them (inference).",
+      "Available only through Google Cloud, in large groups called pods.",
+      "Part of a trend of tech companies making their own AI chips."
+    ],
+    "links": [
+      { "label": "Introduction to Cloud TPU (Google Cloud)", "url": "https://cloud.google.com/tpu/docs/intro-to-tpu" },
+      { "label": "Tensor Processing Unit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit" }
+    ]
+  },
+  "es": {
+    "title": "TPU",
+    "tagline": "El chip de Google diseñado especialmente para las cuentas de las redes neuronales.",
+    "explanation": [
+      "Una **TPU** (Tensor Processing Unit, unidad de procesamiento tensorial) es un chip que Google diseñó para un único trabajo: la aritmética de las redes neuronales. Entrenar y usar un modelo de IA se reduce a multiplicar tablas enormes de números, llamadas **tensores** o matrices, una y otra vez. Un CPU puede hacerlo, despacio; una GPU lo hace bien porque tiene miles de núcleos chicos; una TPU va un paso más allá y está construida casi entera alrededor de esa única operación.",
+      "Su corazón es una **unidad de matrices**: una grilla de multiplicadores donde los números pasan de celda en celda, y cada una multiplica, suma y le pasa el resultado a la vecina, así los datos se reutilizan en lugar de ir a buscarlos a la memoria una y otra vez. Las TPU también trabajan con números de menor precisión, que alcanzan para las redes neuronales y son mucho más baratos de calcular. Google las usa en sus centros de datos desde 2015 para el buscador, el traductor y sus modelos Gemini, y se las alquila a otras empresas a través de Google Cloud.",
+      "No podés comprar una TPU para tu PC. Vienen en grupos grandes llamados **pods**, unidos por conexiones muy rápidas, y solo están disponibles como servicio en la nube. Son un ejemplo claro de una tendencia más amplia: las grandes empresas tecnológicas diseñan sus propios chips de IA en lugar de depender solo de las GPU de NVIDIA, para bajar costos y controlar su abastecimiento. Cada generación es más rápida, pero la idea central es la misma."
+    ],
+    "analogy": "Una GPU es una cocina grande con muchos cocineros que pueden hacer casi cualquier plato. Una TPU es una línea de producción armada para una sola receta: no sirve para mucho más, pero con esa receta cada plato sale rápido y barato.",
+    "keyPoints": [
+      "Diseñada por Google para las cuentas con matrices de las redes neuronales.",
+      "Se usa tanto para entrenar modelos como para usarlos (inferencia).",
+      "Solo está disponible en Google Cloud, en grupos grandes llamados pods.",
+      "Es parte de una tendencia: empresas tech que hacen sus propios chips de IA."
+    ],
+    "links": [
+      { "label": "Introducción a Cloud TPU (Google Cloud)", "url": "https://cloud.google.com/tpu/docs/intro-to-tpu?hl=es-419" },
+      { "label": "Unidad de procesamiento tensorial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unidad_de_procesamiento_tensorial" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-xml",
+  "date": "2026-10-17",
+  "subjects": ["data", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Extensible Markup Language"],
+    "es": ["Extensible Markup Language"]
+  },
+  "image": "img/2026-10-17-xml.svg",
+  "imageAlt": {
+    "en": "An XML snippet describing a book with nested title and author tags, next to the same data drawn as a small tree",
+    "es": "Un fragmento de XML que describe un libro con etiquetas anidadas de título y autor, junto a los mismos datos dibujados como un árbol"
+  },
+  "en": {
+    "title": "XML",
+    "tagline": "A text format that wraps data in named tags, so both people and programs can read it.",
+    "explanation": [
+      "**XML** (Extensible Markup Language) is a way to write structured data as plain text, using tags in angle brackets. Each piece of information sits between an opening tag and a closing tag with a name you choose: a `title` tag holding \"Dune\", inside a `book` tag, inside a `library` tag. The closing tag repeats the name with a slash. Because tags can be nested, XML can describe almost any shape of data as a tree.",
+      "It was standardized by the W3C in 1998 and became the common language for exchanging data between companies and systems. It is still everywhere, often out of sight: Word and Excel files (`.docx`, `.xlsx`) are zipped folders of XML, RSS feeds and sitemaps are XML, SVG images like the one on this page are XML, and many banks, governments and electronic invoice systems exchange XML documents.",
+      "For new web APIs, JSON has mostly taken its place, because it is shorter and maps directly to the objects programmers use. XML is more verbose, but it brings tools JSON lacks out of the box, such as schemas that strictly validate a document and attributes inside tags. That rigor is why it survives in formal, long-lived document exchanges."
+    ],
+    "analogy": "Labeled envelopes inside labeled envelopes: a big one that says \"book\", holding smaller ones that say \"title\" and \"author\". Anyone can open them and know exactly what each piece of paper is.",
+    "keyPoints": [
+      "Plain text with named opening and closing tags, nested like a tree.",
+      "A W3C standard since 1998, still used for documents, feeds, invoices and SVG.",
+      "Office files like .docx and .xlsx are XML inside a zip.",
+      "JSON replaced it in most web APIs; XML remains where strict validation matters."
+    ],
+    "links": [
+      { "label": "XML on Wikipedia", "url": "https://en.wikipedia.org/wiki/XML" },
+      { "label": "XML introduction (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/XML/Guides/XML_introduction" },
+      { "label": "XML at the W3C", "url": "https://www.w3.org/XML/" }
+    ]
+  },
+  "es": {
+    "title": "XML",
+    "tagline": "Un formato de texto que envuelve los datos en etiquetas con nombre, legible por todos.",
+    "explanation": [
+      "**XML** (Extensible Markup Language, lenguaje de marcado extensible) es una forma de escribir datos estructurados como texto plano, usando etiquetas entre signos de menor y mayor. Cada dato va entre una etiqueta de apertura y una de cierre con el nombre que elijas: una etiqueta `title` con \"Rayuela\" adentro, dentro de una etiqueta `book`, dentro de una etiqueta `library`. La de cierre repite el nombre con una barra. Como las etiquetas se pueden anidar, XML describe casi cualquier forma de datos como un árbol.",
+      "El W3C lo estandarizó en 1998 y se volvió el idioma común para intercambiar datos entre empresas y sistemas. Sigue en todos lados, muchas veces sin que se vea: los archivos de Word y Excel (`.docx`, `.xlsx`) son carpetas comprimidas llenas de XML, los feeds RSS y los sitemaps son XML, las imágenes SVG como la de esta página son XML, y muchos bancos, organismos públicos y sistemas de factura electrónica intercambian documentos XML.",
+      "En las APIs web nuevas, JSON ocupó casi todo su lugar, porque es más corto y se parece directamente a los objetos que usan los programadores. XML es más verboso, pero trae cosas que JSON no tiene de entrada, como esquemas que validan un documento con rigor y atributos dentro de las etiquetas. Ese rigor es la razón por la que sobrevive en intercambios formales de documentos que tienen que durar años."
+    ],
+    "analogy": "Sobres rotulados dentro de sobres rotulados: uno grande que dice \"libro\", con otros más chicos adentro que dicen \"título\" y \"autor\". Cualquiera los abre y sabe exactamente qué es cada papel.",
+    "keyPoints": [
+      "Texto plano con etiquetas de apertura y cierre con nombre, anidadas como un árbol.",
+      "Estándar del W3C desde 1998, todavía usado en documentos, feeds, facturas y SVG.",
+      "Los archivos .docx y .xlsx son XML adentro de un zip.",
+      "JSON lo reemplazó en la mayoría de las APIs web; XML queda donde importa validar estricto."
+    ],
+    "links": [
+      { "label": "XML en Wikipedia", "url": "https://es.wikipedia.org/wiki/Extensible_Markup_Language" },
+      { "label": "Introducción a XML (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/XML/Guides/XML_introduction" }
+    ]
+  }
+}

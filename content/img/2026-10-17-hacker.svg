@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M51 76 C51 38 99 38 99 76 Z" fill="#f3efe6"/>
+    <ellipse cx="75" cy="78" rx="44" ry="9" fill="#f3efe6"/>
+    <path d="M176 76 C176 38 224 38 224 76 Z" fill="#e6dfd0"/>
+    <ellipse cx="200" cy="78" rx="44" ry="9" fill="#e6dfd0"/>
+    <path d="M301 76 C301 38 349 38 349 76 Z" fill="#2b2b2b"/>
+    <ellipse cx="325" cy="78" rx="44" ry="9" fill="#2b2b2b"/>
+    <rect x="25" y="150" width="100" height="30" rx="8" fill="#9bd1b9"/>
+    <rect x="150" y="150" width="100" height="30" rx="8" fill="#ffd166"/>
+    <rect x="275" y="150" width="100" height="30" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M75 128 V144"/><path d="M71 138 l4 6 4 -6"/>
+    <path d="M200 128 V144"/><path d="M196 138 l4 6 4 -6"/>
+    <path d="M325 128 V144"/><path d="M321 138 l4 6 4 -6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle" font-weight="bold">
+    <text x="75" y="106">white hat</text><text x="200" y="106">grey hat</text><text x="325" y="106">black hat</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="75" y="122">with permission</text><text x="200" y="122">no permission</text><text x="325" y="122">no permission</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="169">report, fix</text><text x="200" y="169">no harm meant</text><text x="325" y="169">steal, extort</text>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same skills · permission makes the difference</text>
+</svg>

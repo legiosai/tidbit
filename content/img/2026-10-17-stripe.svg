@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="18" y="40" width="100" height="70" rx="8" fill="#e6dfd0"/>
+    <rect x="32" y="74" width="72" height="24" rx="4" fill="#ffd166"/>
+    <rect x="160" y="40" width="96" height="70" rx="10" fill="#9ac7ea"/>
+    <rect x="290" y="28" width="98" height="40" rx="8" fill="#e6dfd0"/>
+    <rect x="290" y="84" width="98" height="40" rx="8" fill="#e6dfd0"/>
+    <rect x="18" y="156" width="100" height="44" rx="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M38 82 H98"/><path d="M38 90 H70"/>
+    <path d="M120 75 H154"/><path d="M148 71 l6 4 -6 4"/>
+    <path d="M258 64 L286 52"/><path d="M280 50 l6 2 -4 5"/>
+    <path d="M258 86 L286 100"/><path d="M281 103 l5 -3 -2 -6"/>
+    <path d="M200 112 C200 150 160 178 124 178"/><path d="M130 174 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="68" y="62">shop site</text>
+    <text x="208" y="70" font-weight="bold">Stripe</text><text x="208" y="90" font-size="11">fraud check</text>
+    <text x="339" y="52">card network</text><text x="339" y="108">customer bank</text>
+    <text x="68" y="176">shop</text><text x="68" y="192" font-size="11">gets the money</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="138" y="66">card</text><text x="212" y="152" text-anchor="start">token, payout</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a few lines of code · a fee per payment</text>
+</svg>

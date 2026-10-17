@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-ipv6",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["IPv6 address", "IPv6 addresses", "Internet Protocol version 6", "dual stack"],
+    "es": ["dirección IPv6", "direcciones IPv6", "Internet Protocol version 6", "doble pila", "dual stack"]
+  },
+  "image": "img/2026-10-17-ipv6.svg",
+  "imageAlt": {
+    "en": "A short IPv4 address, 192.168.1.10, labeled 32 bits and about 4.3 billion addresses, above a much longer IPv6 address labeled 128 bits and practically endless",
+    "es": "Una dirección IPv4 corta, 192.168.1.10, con la nota 32 bits y unas 4300 millones de direcciones, arriba de una dirección IPv6 mucho más larga con la nota 128 bits y prácticamente infinitas"
+  },
+  "en": {
+    "title": "IPv6",
+    "tagline": "The newer internet addressing system, with practically unlimited addresses.",
+    "explanation": [
+      "Every device on the internet needs an IP address so data can find it. The original system, **IPv4**, uses addresses of 32 bits, written like `192.168.1.10`, which allows roughly 4.3 billion of them. That seemed plenty in the early 1980s; with phones, laptops, servers and connected gadgets everywhere, the free supply ran out in the 2010s. **IPv6** is its replacement, standardized in the late 1990s.",
+      "An IPv6 address has 128 bits and is written as groups of hexadecimal digits separated by colons, like `2001:db8::8a2e:370:7334`. That gives roughly 340 undecillion addresses, a number with 39 digits, enough for every device to have its own public address with plenty to spare. It also simplifies things: devices can set up their own address automatically, and there is less need for NAT, the trick that lets a whole home share a single IPv4 address.",
+      "The two versions cannot talk to each other directly, so the switch has been slow. For years most networks have run both side by side, which is called **dual stack**, and a large and growing share of traffic, especially on mobile networks, already travels over IPv6 without anyone noticing. You rarely need to do anything about it: your router, your phone and the sites you visit agree on which one to use by themselves."
+    ],
+    "analogy": "A city that ran out of phone numbers and switched to much longer ones. For years old and new numbers work side by side, but the new plan has so many that nobody will ever run out again.",
+    "keyPoints": [
+      "IPv4 has roughly 4.3 billion addresses, and the free supply has run out.",
+      "IPv6 uses 128-bit addresses, enough for practically every device imaginable.",
+      "Its addresses look like `2001:db8::1`: hexadecimal groups separated by colons.",
+      "Most networks run both versions at once while the transition continues."
+    ],
+    "links": [
+      { "label": "IPv6 on Wikipedia", "url": "https://en.wikipedia.org/wiki/IPv6" },
+      { "label": "RFC 8200, the IPv6 specification (IETF)", "url": "https://www.rfc-editor.org/rfc/rfc8200" },
+      { "label": "IPv6 (Google)", "url": "https://www.google.com/intl/en/ipv6/" }
+    ]
+  },
+  "es": {
+    "title": "IPv6",
+    "tagline": "El sistema de direcciones nuevo de internet, con direcciones prácticamente ilimitadas.",
+    "explanation": [
+      "Todo aparato conectado a internet necesita una dirección IP para que los datos lo encuentren. El sistema original, **IPv4**, usa direcciones de 32 bits, escritas como `192.168.1.10`, lo que permite unos 4300 millones. A principios de los ochenta parecía muchísimo; con celulares, notebooks, servidores y aparatos conectados por todos lados, la reserva libre se agotó en la década de 2010. **IPv6** es su reemplazo, estandarizado a fines de los noventa.",
+      "Una dirección IPv6 tiene 128 bits y se escribe como grupos de dígitos hexadecimales separados por dos puntos, por ejemplo `2001:db8::8a2e:370:7334`. Eso da unos 340 sextillones de direcciones, un número de 39 cifras, suficiente para que cada aparato tenga su propia dirección pública y sobre muchísimo. También simplifica cosas: los dispositivos pueden configurarse la dirección solos, y hace menos falta el NAT, el truco que permite que toda una casa comparta una sola dirección IPv4.",
+      "Las dos versiones no pueden hablar entre sí directamente, así que el cambio viene lento. Desde hace años la mayoría de las redes corren las dos en paralelo, lo que se llama **doble pila** (dual stack), y una parte grande y creciente del tráfico, sobre todo en las redes móviles, ya viaja por IPv6 sin que nadie lo note. Casi nunca tenés que hacer nada: tu router, tu celular y los sitios que visitás se ponen de acuerdo solos en cuál usar."
+    ],
+    "analogy": "Una ciudad que se quedó sin números de teléfono y pasó a números mucho más largos. Durante años conviven los viejos y los nuevos, pero el plan nuevo tiene tantos que nadie se va a quedar sin número nunca más.",
+    "keyPoints": [
+      "IPv4 tiene unos 4300 millones de direcciones, y la reserva libre ya se agotó.",
+      "IPv6 usa direcciones de 128 bits, suficientes para prácticamente cualquier aparato imaginable.",
+      "Sus direcciones se ven como `2001:db8::1`: grupos hexadecimales separados por dos puntos.",
+      "La mayoría de las redes usan las dos versiones a la vez mientras sigue la transición."
+    ],
+    "links": [
+      { "label": "IPv6 en Wikipedia", "url": "https://es.wikipedia.org/wiki/IPv6" },
+      { "label": "IPv6 (LACNIC)", "url": "https://www.lacnic.net/ipv6" },
+      { "label": "IPv6 (Google)", "url": "https://www.google.com/intl/es/ipv6/" }
+    ]
+  }
+}

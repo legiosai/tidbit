@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M200 44 V62"/><path d="M196 56 l4 6 4 -6"/>
+    <path d="M176 90 L120 112" stroke-dasharray="4 5"/>
+    <path d="M224 90 L280 112"/><path d="M272 113 l8 -1 -4 -7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="140" y="62" width="120" height="28" rx="14" fill="#ffd166"/>
+    <rect x="30" y="112" width="160" height="88" rx="10" fill="#e6dfd0"/>
+    <rect x="210" y="112" width="160" height="88" rx="10" fill="#9bd1b9"/>
+    <rect x="46" y="142" width="56" height="42" rx="6" fill="#f4a7a7"/>
+    <rect x="118" y="142" width="56" height="42" rx="6" fill="#f4a7a7"/>
+    <rect x="226" y="142" width="56" height="42" rx="6" fill="#9ac7ea"/>
+    <rect x="298" y="142" width="56" height="42" rx="6" fill="#9ac7ea"/>
+  </g>
+  <path d="M58 138 L162 190 M162 138 L58 190" stroke="#2b2b2b" stroke-width="2" fill="none"/>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="36">users</text><text x="200" y="81">load balancer</text>
+    <text x="110" y="130">zone A · down</text><text x="290" y="130">zone B · serving</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one zone fails · the service stays up</text>
+</svg>

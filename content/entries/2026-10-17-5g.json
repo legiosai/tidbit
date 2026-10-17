@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-5g",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["5G network", "5G networks", "fifth-generation mobile network"],
+    "es": ["red 5G", "redes 5G"]
+  },
+  "image": "img/2026-10-17-5g.svg",
+  "imageAlt": {
+    "en": "A cell tower sending radio waves, next to three cards: more speed, less delay and more devices",
+    "es": "Una antena de telefonía que emite ondas de radio, junto a tres tarjetas: más velocidad, menos demora y más dispositivos"
+  },
+  "en": {
+    "title": "5G",
+    "tagline": "The fifth generation of mobile networks: faster data, less delay, more devices at once.",
+    "explanation": [
+      "**5G** is the fifth generation of the technology that connects phones and other devices to mobile networks, after 2G (calls and text messages), 3G (the first usable mobile internet) and 4G (video and apps everywhere). It is a set of standards written by an industry body called 3GPP and adopted around the world, so phones and networks from different makers work together.",
+      "It improves three things. **Speed**: more data per second, so big downloads finish much sooner. **Latency**: a shorter delay between asking and getting an answer, which helps video calls, games and remote control of machines. And **capacity**: many more devices connected in the same area, which matters in stadiums, crowded city centers and factories full of sensors. Part of this comes from using new radio frequencies, including very high ones that carry a lot of data but travel short distances and are easily blocked by walls.",
+      "What you actually get varies a lot. Many carriers first launched 5G on top of their existing 4G equipment and lower frequencies, which works well but feels only somewhat faster; the most dramatic speeds appear only near dense groups of antennas. For most people, 5G mostly means a phone that keeps working smoothly in crowded places. Its bigger long-term uses are less visible: private networks in factories and ports, and connecting huge numbers of devices at once."
+    ],
+    "analogy": "Widening a highway. Each car does not go dramatically faster, but many more cars fit, there are fewer jams, and a few special express lanes are very fast over short stretches.",
+    "keyPoints": [
+      "The fifth generation of mobile network standards, after 4G.",
+      "Improves speed, delay (latency) and how many devices fit in one area.",
+      "Its highest frequencies carry lots of data but only over short distances.",
+      "Real-world speed depends heavily on where you are and how the network was built."
+    ],
+    "links": [
+      { "label": "5G on Wikipedia", "url": "https://en.wikipedia.org/wiki/5G" },
+      { "label": "5G system overview (3GPP)", "url": "https://www.3gpp.org/technologies/5g-system-overview" },
+      { "label": "5G, fifth generation of mobile technologies (ITU)", "url": "https://www.itu.int/en/mediacentre/backgrounders/Pages/5G-fifth-generation-of-mobile-technologies.aspx" }
+    ]
+  },
+  "es": {
+    "title": "5G",
+    "tagline": "La quinta generación de redes móviles: más velocidad, menos demora y más aparatos.",
+    "explanation": [
+      "**5G** es la quinta generación de la tecnología que conecta celulares y otros aparatos a las redes móviles, después de 2G (llamadas y mensajes de texto), 3G (el primer internet móvil usable) y 4G (video y apps en todos lados). Es un conjunto de estándares que escribe un organismo de la industria llamado 3GPP y que se adopta en todo el mundo, así que celulares y redes de distintas marcas funcionan juntos.",
+      "Mejora tres cosas. La **velocidad**: más datos por segundo, así que una descarga grande termina mucho antes. La **latencia**: menos demora entre que pedís algo y te llega la respuesta, algo que ayuda en videollamadas, juegos y control remoto de máquinas. Y la **capacidad**: muchos más aparatos conectados en la misma zona, clave en estadios, centros de ciudades llenos de gente y fábricas repletas de sensores. Parte de esto viene de usar frecuencias de radio nuevas, incluidas algunas muy altas que llevan muchísimos datos pero llegan poco lejos y las frenan las paredes.",
+      "Lo que recibís en la práctica varía mucho. Muchas operadoras lanzaron 5G primero sobre sus equipos de 4G y en frecuencias bajas, algo que funciona bien pero se siente apenas más rápido; las velocidades más impresionantes aparecen solo cerca de grupos densos de antenas. Para la mayoría de la gente, 5G significa sobre todo un celular que sigue andando bien en lugares llenos. Sus usos más grandes a largo plazo se ven menos: redes privadas en fábricas y puertos, y conectar cantidades enormes de aparatos a la vez."
+    ],
+    "analogy": "Ensanchar una autopista. Cada auto no va muchísimo más rápido, pero entran muchos más, hay menos embotellamientos y algunos carriles exprés especiales son rapidísimos en tramos cortos.",
+    "keyPoints": [
+      "La quinta generación de estándares de redes móviles, después de 4G.",
+      "Mejora la velocidad, la demora (latencia) y cuántos aparatos entran en una zona.",
+      "Sus frecuencias más altas llevan muchos datos, pero solo a distancias cortas.",
+      "La velocidad real depende mucho de dónde estés y de cómo se armó la red."
+    ],
+    "links": [
+      { "label": "5G en Wikipedia", "url": "https://es.wikipedia.org/wiki/5G" },
+      { "label": "5G, quinta generación de tecnologías móviles (UIT)", "url": "https://www.itu.int/es/mediacentre/backgrounders/Pages/5G-fifth-generation-of-mobile-technologies.aspx" },
+      { "label": "5G system overview, 3GPP (en inglés)", "url": "https://www.3gpp.org/technologies/5g-system-overview" }
+    ]
+  }
+}

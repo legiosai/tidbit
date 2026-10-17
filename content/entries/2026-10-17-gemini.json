@@ -1,0 +1,75 @@
+{
+  "id": "2026-10-17-gemini",
+  "date": "2026-10-17",
+  "subjects": [
+    "ai",
+    "companies"
+  ],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [
+      "Google Gemini"
+    ],
+    "es": [
+      "Google Gemini"
+    ]
+  },
+  "image": "img/2026-10-17-gemini.svg",
+  "imageAlt": {
+    "en": "Text, image, audio and video flow into one Gemini box, which then reaches the Gemini app, Android, Workspace and an API",
+    "es": "Texto, imagen, audio y video entran en una misma caja Gemini, que después llega a la app Gemini, a Android, a Workspace y a una API"
+  },
+  "en": {
+    "title": "Gemini",
+    "tagline": "Google's family of AI models, and the assistant app that carries the same name.",
+    "explanation": [
+      "**Gemini** is the name Google uses for two related things: a family of large language models built by Google DeepMind, its AI lab, and the chat assistant people use to talk to them. Google announced the models in December 2023. A few months later, in February 2024, it renamed its earlier chatbot, Bard, to Gemini, so the app and the models now share one name.",
+      "The models were designed from the start to be **multimodal**: the same model can take in text, photos, audio, video and code, rather than bolting separate systems together. They come in sizes for different jobs, with names like Pro for the most capable, Flash for fast and cheap, and Nano, small enough to run on a phone. Google also publishes **Gemma**, a smaller sibling whose weights anyone can download.",
+      "What makes Gemini distinct is where it lives. Besides the Gemini app on the web and phones, it is built into Google's own products: Android phones, Gmail, Docs and the rest of Google Workspace, Chrome and Search. Developers reach it through the Gemini API and through Google Cloud. Like any language model it can be wrong while sounding confident, so answers that matter deserve a second look."
+    ],
+    "analogy": "Gemini is less a single shop than a franchise: the same kitchen supplies the stand-alone restaurant (the app) and the food counters inside Google's other buildings, from Gmail to your phone.",
+    "keyPoints": [
+      "Made by Google DeepMind; the models were announced in December 2023.",
+      "The Bard chatbot was renamed Gemini in February 2024.",
+      "Multimodal by design: text, images, audio and video in one model.",
+      "Built into Android and Google Workspace, and available as an API."
+    ],
+    "links": [
+      {
+        "label": "Google Gemini on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Google_Gemini"
+      },
+      {
+        "label": "Gemini models (Google DeepMind)",
+        "url": "https://deepmind.google/models/gemini/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Gemini",
+    "tagline": "La familia de modelos de IA de Google, y la app asistente que lleva el mismo nombre.",
+    "explanation": [
+      "**Gemini** es el nombre que usa Google para dos cosas relacionadas: una familia de grandes modelos de lenguaje hechos por Google DeepMind, su laboratorio de IA, y el asistente de chat con el que la gente habla con ellos. Google anunció los modelos en diciembre de 2023. Unos meses después, en febrero de 2024, le cambió el nombre a su chatbot anterior, Bard, por Gemini, así que la app y los modelos comparten nombre.",
+      "Los modelos se diseñaron desde el principio para ser **multimodales**: el mismo modelo puede recibir texto, fotos, audio, video y código, en lugar de pegar sistemas separados. Vienen en tamaños para distintos trabajos, con nombres como Pro para el más capaz, Flash para el rápido y barato, y Nano, lo bastante chico para correr en un celular. Google también publica **Gemma**, un hermano más chico cuyos pesos cualquiera puede descargar.",
+      "Lo que distingue a Gemini es dónde vive. Además de la app Gemini en la web y el celular, está metido en los productos de Google: los teléfonos Android, Gmail, Docs y el resto de Google Workspace, Chrome y el buscador. Los desarrolladores lo usan a través de la API de Gemini y de Google Cloud. Como todo modelo de lenguaje, puede equivocarse sonando seguro, así que las respuestas que importan merecen una segunda mirada."
+    ],
+    "analogy": "Gemini es menos un local que una franquicia: la misma cocina abastece al restaurante propio (la app) y a los mostradores que hay dentro de los otros edificios de Google, desde Gmail hasta tu celular.",
+    "keyPoints": [
+      "Lo hace Google DeepMind; los modelos se anunciaron en diciembre de 2023.",
+      "El chatbot Bard pasó a llamarse Gemini en febrero de 2024.",
+      "Multimodal de origen: texto, imágenes, audio y video en un solo modelo.",
+      "Está integrado en Android y Google Workspace, y se ofrece como API."
+    ],
+    "links": [
+      {
+        "label": "Google Gemini en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Google_Gemini"
+      },
+      {
+        "label": "Ayuda de Gemini (Google)",
+        "url": "https://support.google.com/gemini/?hl=es-419"
+      }
+    ]
+  }
+}

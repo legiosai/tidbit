@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-semantic-versioning",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["SemVer", "semver", "semantic version", "breaking change", "breaking changes"],
+    "es": ["SemVer", "semver", "breaking change", "breaking changes", "cambio incompatible", "cambios incompatibles"]
+  },
+  "image": "img/2026-10-17-semantic-versioning.svg",
+  "imageAlt": {
+    "en": "The version number 2.4.1 split into three parts: major for breaking changes, minor for new compatible features and patch for bug fixes",
+    "es": "El número de versión 2.4.1 dividido en tres partes: major para cambios incompatibles, minor para funciones nuevas compatibles y patch para arreglos de bugs"
+  },
+  "en": {
+    "title": "Semantic versioning",
+    "tagline": "A rule for version numbers like 2.4.1, so each part tells you how risky an update is.",
+    "explanation": [
+      "**Semantic versioning**, or **SemVer**, is a convention for numbering software releases as three numbers: `MAJOR.MINOR.PATCH`, for example `2.4.1`. Each number has a precise meaning, so anyone using the software can tell what kind of change a new version brings just by looking at which number went up. The rules are written at semver.org, first published by Tom Preston-Werner, one of GitHub's founders.",
+      "A **patch** bump, `2.4.1` to `2.4.2`, means bug fixes only: nothing new, nothing removed. A **minor** bump, to `2.5.0`, adds new features but keeps everything that worked before working the same way. A **major** bump, to `3.0.0`, means there are **breaking changes**: something was removed or behaves differently, and code that used the old version may need adjusting. Versions starting with `0.`, like `0.7.3`, signal early development, where anything may change.",
+      "This matters because modern software is built from hundreds of libraries, and keeping them updated by hand would be impossible. Package managers like npm or pip read these numbers to update safely: a rule like `^2.4.1` means \"accept any 2.x version from 2.4.1 up, but not 3.0\". It only works if authors follow the rules honestly, and in practice a minor update occasionally breaks something anyway, which is why projects also lock exact versions and run their tests after updating."
+    ],
+    "analogy": "Like the labels on a building's renovation notices. \"Painting the hallway\" (patch), \"adding a new elevator\" (minor), \"we are moving the entrance to the other street\" (major): you instantly know which ones require you to change your routine.",
+    "keyPoints": [
+      "Three numbers: MAJOR.MINOR.PATCH.",
+      "Patch fixes bugs, minor adds compatible features, major can break things.",
+      "Versions below 1.0.0 promise no stability.",
+      "Package managers rely on it to update dependencies automatically."
+    ],
+    "links": [
+      { "label": "Semantic Versioning 2.0.0 (official spec)", "url": "https://semver.org/" },
+      { "label": "Software versioning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_versioning" }
+    ]
+  },
+  "es": {
+    "title": "Versionado semántico",
+    "tagline": "Una regla para versiones como 2.4.1: cada número dice qué tan riesgoso es actualizar.",
+    "explanation": [
+      "El **versionado semántico**, o **SemVer**, es una convención para numerar las versiones de un software con tres números: `MAJOR.MINOR.PATCH`, por ejemplo `2.4.1`. Cada número tiene un significado preciso, así que cualquiera que use ese software puede saber qué tipo de cambio trae una versión nueva con solo mirar qué número subió. Las reglas están escritas en semver.org, publicadas primero por Tom Preston-Werner, uno de los fundadores de GitHub.",
+      "Un salto de **patch**, de `2.4.1` a `2.4.2`, significa solo arreglos de bugs: nada nuevo, nada que se saque. Un salto de **minor**, a `2.5.0`, suma funciones nuevas pero mantiene funcionando igual todo lo que andaba antes. Un salto de **major**, a `3.0.0`, avisa que hay **cambios incompatibles** (breaking changes): se sacó algo o se comporta distinto, y el código que usaba la versión vieja puede necesitar ajustes. Las versiones que empiezan con `0.`, como `0.7.3`, indican desarrollo temprano, donde puede cambiar cualquier cosa.",
+      "Importa porque el software de hoy se arma con cientos de librerías, y mantenerlas actualizadas a mano sería imposible. Gestores de paquetes como npm o pip leen estos números para actualizar con cuidado: una regla como `^2.4.1` quiere decir \"aceptá cualquier versión 2.x desde 2.4.1 en adelante, pero no la 3.0\". Funciona solo si los autores respetan las reglas, y en la práctica a veces una actualización minor rompe algo igual; por eso los proyectos también fijan versiones exactas y corren sus tests después de actualizar."
+    ],
+    "analogy": "Como los avisos de obra en un edificio. \"Pintamos el pasillo\" (patch), \"sumamos un ascensor nuevo\" (minor), \"mudamos la entrada a la otra calle\" (major): enseguida sabés cuáles te obligan a cambiar tu rutina.",
+    "keyPoints": [
+      "Tres números: MAJOR.MINOR.PATCH.",
+      "Patch arregla bugs, minor suma funciones compatibles, major puede romper cosas.",
+      "Las versiones por debajo de 1.0.0 no prometen estabilidad.",
+      "Los gestores de paquetes se apoyan en esto para actualizar dependencias solos."
+    ],
+    "links": [
+      { "label": "Versionado Semántico 2.0.0 (especificación oficial)", "url": "https://semver.org/lang/es/" },
+      { "label": "Versión de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Versi%C3%B3n_de_software" }
+    ]
+  }
+}

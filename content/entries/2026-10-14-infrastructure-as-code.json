@@ -7,12 +7,10 @@
   "level": 2,
   "aliases": {
     "en": [
-      "IaC",
-      "Terraform"
+      "IaC"
     ],
     "es": [
-      "IaC",
-      "Terraform"
+      "IaC"
     ]
   },
   "image": "img/2026-10-14-infrastructure-as-code.svg",

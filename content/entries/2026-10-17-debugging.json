@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-debugging",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["debug", "debugged", "debugger", "debuggers", "breakpoint", "breakpoints"],
+    "es": ["depuración", "depurar", "debuggear", "debugger", "depurador", "breakpoint", "breakpoints"]
+  },
+  "image": "img/2026-10-17-debugging.svg",
+  "imageAlt": {
+    "en": "The debugging loop: reproduce the problem, narrow down where it happens, fix it, and test that it is gone, with a magnifying glass over a paused line of code",
+    "es": "El ciclo del debugging: reproducir el problema, acotar dónde pasa, arreglarlo y probar que desapareció, con una lupa sobre una línea de código en pausa"
+  },
+  "en": {
+    "title": "Debugging",
+    "tagline": "The detective work of finding why a program misbehaves, and fixing it.",
+    "explanation": [
+      "**Debugging** is the process of tracking down a bug and fixing it. The hard part is rarely the fix itself; it is finding the cause. A wrong number on the screen might come from a typo, from bad data, from two parts of the program disagreeing about a unit, or from something that only happens on Tuesdays in one time zone.",
+      "Most debugging follows the same loop. First, **reproduce** the problem reliably: if you cannot make it happen on purpose, you cannot tell whether you fixed it. Then **narrow it down**, ruling out half the possibilities at a time until the faulty line is found. Then fix it and test again, ideally adding an automated test so the same bug cannot quietly return.",
+      "Programmers have tools for this. The simplest is printing values to see what the program is actually doing. A **debugger** goes further: it can pause the program at a chosen line (a **breakpoint**), show every variable at that moment and run the code one step at a time. Logs, error reports from users and even explaining the problem out loud to a colleague, or to a rubber duck, are part of the toolkit."
+    ],
+    "analogy": "A mechanic chasing a strange noise in a car. They first make the noise happen again, then check one part after another, eliminating suspects, until the loose bolt turns up.",
+    "keyPoints": [
+      "Finding the cause is usually harder than writing the fix.",
+      "Reproduce, narrow down, fix, then test that it stays fixed.",
+      "A debugger pauses code at breakpoints and shows its values.",
+      "Explaining the problem out loud often reveals the answer."
+    ],
+    "links": [
+      { "label": "Debugging on Wikipedia", "url": "https://en.wikipedia.org/wiki/Debugging" },
+      { "label": "Debug JavaScript with Chrome DevTools (Chrome for Developers)", "url": "https://developer.chrome.com/docs/devtools/javascript" }
+    ]
+  },
+  "es": {
+    "title": "Debugging",
+    "tagline": "El trabajo de detective de encontrar por qué falla un programa, y arreglarlo.",
+    "explanation": [
+      "El **debugging** (o depuración) es el proceso de rastrear un bug y arreglarlo. Lo difícil casi nunca es el arreglo en sí: es encontrar la causa. Un número equivocado en pantalla puede venir de un error de tipeo, de datos mal cargados, de dos partes del programa que no se ponen de acuerdo en una unidad, o de algo que solo pasa los martes en un huso horario.",
+      "Casi todo debugging sigue el mismo ciclo. Primero, **reproducir** el problema de forma confiable: si no podés hacer que pase a propósito, no vas a saber si lo arreglaste. Después, **acotarlo**, descartando la mitad de las posibilidades por vez hasta dar con la línea culpable. Recién ahí se arregla y se vuelve a probar, idealmente sumando una prueba automática para que el mismo bug no vuelva sin que nadie se entere.",
+      "Quienes programan tienen herramientas para esto. La más simple es imprimir valores para ver qué está haciendo de verdad el programa. Un **debugger** va más lejos: puede pausar el programa en una línea elegida (un **breakpoint**), mostrar todas las variables en ese momento y ejecutar el código paso a paso. Los logs, los reportes de error de los usuarios y hasta explicarle el problema en voz alta a un compañero, o a un patito de goma, también son parte de la caja de herramientas."
+    ],
+    "analogy": "Un mecánico persiguiendo un ruido raro en el auto. Primero hace que el ruido vuelva a aparecer, después revisa una pieza tras otra, descartando sospechosos, hasta que aparece el tornillo flojo.",
+    "keyPoints": [
+      "Encontrar la causa suele ser más difícil que escribir el arreglo.",
+      "Reproducir, acotar, arreglar y probar que siga arreglado.",
+      "Un debugger pausa el código en breakpoints y muestra sus valores.",
+      "Explicar el problema en voz alta muchas veces revela la respuesta."
+    ],
+    "links": [
+      { "label": "Depuración de programas en Wikipedia", "url": "https://es.wikipedia.org/wiki/Depuración_de_programas" },
+      { "label": "Depurar JavaScript con Chrome DevTools (Chrome for Developers)", "url": "https://developer.chrome.com/docs/devtools/javascript?hl=es" }
+    ]
+  }
+}

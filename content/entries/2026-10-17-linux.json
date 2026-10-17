@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-linux",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["GNU/Linux", "Linux kernel", "Linux distribution", "Linux distributions"],
+    "es": ["GNU/Linux", "kernel de Linux", "distribución de Linux", "distribuciones de Linux"]
+  },
+  "image": "img/2026-10-17-linux.svg",
+  "imageAlt": {
+    "en": "One Linux kernel at the center, shared by servers, Android phones, laptops and small devices like routers",
+    "es": "Un único kernel Linux en el centro, compartido por servidores, celulares Android, notebooks y aparatos chicos como routers"
+  },
+  "en": {
+    "title": "Linux",
+    "tagline": "A free, open source operating system that runs most of the internet's servers.",
+    "explanation": [
+      "**Linux** is a free and open source operating system. Strictly, the name refers to its kernel, the core that talks to the hardware, which Linus Torvalds started as a hobby project in 1991 and which thousands of people and companies now maintain together. In everyday use, \"Linux\" means the whole system: the kernel plus the tools, desktop and apps packaged around it.",
+      "Those packages are called **distributions** (\"distros\"): Ubuntu, Debian, Fedora and Red Hat Enterprise Linux are well-known ones. They all share the same kernel but choose different software, update schedules and support. Anyone can download most of them for free, read the source code and change it.",
+      "You probably use Linux every day without noticing. Most web servers and cloud machines run it, Android is built on the Linux kernel, and it powers routers, smart TVs, cars and virtually all of the world's fastest supercomputers. On desktops and laptops it is less common, but developers often like it because the same system runs on their computer and on their servers."
+    ],
+    "analogy": "A public engine design that anyone can build and improve. Different carmakers (the distributions) put it in their own bodywork, with their own seats and dashboard, but under the hood it is the same engine.",
+    "keyPoints": [
+      "Started by Linus Torvalds in 1991; free and open source.",
+      "\"Linux\" is the kernel; distributions like Ubuntu or Debian package a full system around it.",
+      "Runs most servers and cloud machines, and Android is built on it.",
+      "Usually controlled from the command line on servers."
+    ],
+    "links": [
+      { "label": "The Linux Kernel Archives (kernel.org)", "url": "https://www.kernel.org/" },
+      { "label": "Linux on Wikipedia", "url": "https://en.wikipedia.org/wiki/Linux" }
+    ]
+  },
+  "es": {
+    "title": "Linux",
+    "tagline": "Un sistema operativo libre y de código abierto que mueve la mayoría de los servidores.",
+    "explanation": [
+      "**Linux** es un sistema operativo libre y de código abierto. En sentido estricto, el nombre se refiere a su kernel, el núcleo que habla con el hardware, que Linus Torvalds empezó como un proyecto personal en 1991 y que hoy mantienen juntos miles de personas y empresas. En el uso diario, \"Linux\" es el sistema completo: el kernel más las herramientas, el escritorio y las apps que se empaquetan alrededor.",
+      "Esos paquetes se llaman **distribuciones** (\"distros\"): Ubuntu, Debian, Fedora y Red Hat Enterprise Linux son algunas conocidas. Todas comparten el mismo kernel, pero eligen distinto software, ritmo de actualizaciones y soporte. La mayoría se descarga gratis, y cualquiera puede leer su código fuente y modificarlo.",
+      "Seguramente usás Linux todos los días sin darte cuenta. La mayoría de los servidores web y de las máquinas en la nube lo usan, Android está construido sobre el kernel de Linux, y está en routers, smart TVs, autos y en prácticamente todas las supercomputadoras más rápidas del mundo. En computadoras personales es menos común, pero a muchos desarrolladores les gusta porque el mismo sistema corre en su compu y en sus servidores."
+    ],
+    "analogy": "Un diseño de motor público que cualquiera puede fabricar y mejorar. Cada automotriz (las distribuciones) lo pone en su propia carrocería, con sus asientos y su tablero, pero abajo del capó es el mismo motor.",
+    "keyPoints": [
+      "Lo empezó Linus Torvalds en 1991; es libre y de código abierto.",
+      "\"Linux\" es el kernel; distribuciones como Ubuntu o Debian arman un sistema completo alrededor.",
+      "Corre en la mayoría de los servidores y de la nube, y Android se basa en él.",
+      "En los servidores se maneja casi siempre desde la línea de comandos."
+    ],
+    "links": [
+      { "label": "Linux en Wikipedia", "url": "https://es.wikipedia.org/wiki/GNU/Linux" },
+      { "label": "Los archivos del kernel de Linux (kernel.org, en inglés)", "url": "https://www.kernel.org/" }
+    ]
+  }
+}

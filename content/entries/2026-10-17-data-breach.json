@@ -1,0 +1,81 @@
+{
+  "id": "2026-10-17-data-breach",
+  "date": "2026-10-17",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "data breaches",
+      "data leak",
+      "data leaks"
+    ],
+    "es": [
+      "filtraciones de datos",
+      "brecha de datos",
+      "brechas de datos",
+      "fuga de datos",
+      "data breach"
+    ]
+  },
+  "image": "img/2026-10-17-data-breach.svg",
+  "imageAlt": {
+    "en": "A cracked customer database with emails, password hashes and addresses spilling out toward the outside",
+    "es": "Una base de datos de clientes agrietada de la que salen correos, hashes de contraseñas y direcciones hacia afuera"
+  },
+  "en": {
+    "title": "Data breach",
+    "tagline": "When private data an organization holds ends up with people who should not have it.",
+    "explanation": [
+      "A **data breach** happens when information an organization is supposed to protect, such as customer emails, passwords, addresses, card numbers or medical records, is accessed or copied by someone without permission. It can be the work of attackers, but also of an employee who looks where they should not, or of a simple mistake that leaves a file open to the internet.",
+      "The causes repeat. Stolen or guessed passwords for an employee account, often thanks to phishing. A known vulnerability that was never patched. A database or cloud storage bucket configured as public by accident. A laptop lost without encryption. Many breaches are discovered weeks or months later, sometimes when the data shows up for sale.",
+      "For the people affected, the risk is what comes next. Leaked email and password pairs get tried on other sites, so reused passwords spread the damage. Personal details make phishing messages more convincing, and identity documents can be used for fraud. Many laws require companies to notify authorities and affected users; under Europe's GDPR, for example, the authority must usually be told within 72 hours.",
+      "When you get a breach notice, act on it calmly. Change the password for that service and anywhere you reused it, turn on two-factor authentication, and watch for messages that mention the breach, because scammers follow the news too. Services like Have I Been Pwned let you check whether your email appeared in known breaches."
+    ],
+    "analogy": "A clinic's filing cabinet left unlocked in a hallway overnight. Nobody may have taken anything yet, but you cannot know who looked inside, and every patient now has to be a little more careful.",
+    "keyPoints": [
+      "Any unauthorized access to protected data counts, malicious or accidental.",
+      "Common causes: stolen credentials, unpatched systems, public storage by mistake.",
+      "Reused passwords turn one breach into many; use a different password per site.",
+      "Laws often require the company to notify authorities and the people affected."
+    ],
+    "links": [
+      {
+        "label": "Data breach on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Data_breach"
+      },
+      {
+        "label": "Have I Been Pwned: check your email in known breaches",
+        "url": "https://haveibeenpwned.com/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Filtración de datos",
+    "tagline": "Cuando información privada que guarda una organización termina en manos de quien no debe.",
+    "explanation": [
+      "Una **filtración de datos** (en inglés, **data breach**) ocurre cuando alguien accede sin permiso a información que una organización debería proteger, o la copia: correos de clientes, contraseñas, direcciones, números de tarjeta, historias clínicas. Puede ser obra de atacantes, pero también de un empleado que mira donde no debe, o de un simple error que deja un archivo abierto a internet.",
+      "Las causas se repiten. La contraseña de un empleado robada o adivinada, muchas veces gracias al phishing. Una vulnerabilidad conocida que nunca se parchó. Una base de datos o un bucket en la nube configurado como público por error. Una notebook perdida sin cifrado. Muchas filtraciones se descubren semanas o meses después, a veces cuando los datos aparecen a la venta.",
+      "Para las personas afectadas, el riesgo es lo que viene después. Los pares de correo y contraseña filtrados se prueban en otros sitios, así que repetir contraseñas multiplica el daño. Los datos personales hacen más creíbles los mensajes de phishing, y los documentos de identidad se pueden usar para fraudes. Muchas leyes obligan a las empresas a avisar a las autoridades y a los usuarios afectados; con el RGPD europeo, por ejemplo, la autoridad normalmente tiene que enterarse dentro de las 72 horas.",
+      "Si te llega un aviso de filtración, actuá con calma. Cambiá la contraseña de ese servicio y de cualquier otro donde la hayas repetido, activá la autenticación de dos factores y desconfiá de los mensajes que mencionen la filtración, porque los estafadores también leen las noticias. Servicios como Have I Been Pwned te dejan revisar si tu correo apareció en filtraciones conocidas."
+    ],
+    "analogy": "El fichero de una clínica que quedó sin llave en un pasillo toda la noche. Capaz nadie se llevó nada todavía, pero no podés saber quién miró adentro, y ahora cada paciente tiene que andar con un poco más de cuidado.",
+    "keyPoints": [
+      "Cuenta cualquier acceso no autorizado a datos protegidos, malicioso o accidental.",
+      "Causas típicas: credenciales robadas, sistemas sin parchear, almacenamiento público por error.",
+      "Repetir contraseñas convierte una filtración en muchas; usá una distinta por sitio.",
+      "Las leyes suelen obligar a la empresa a avisar a las autoridades y a los afectados."
+    ],
+    "links": [
+      {
+        "label": "Filtración de datos en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Filtraci%C3%B3n_de_datos"
+      },
+      {
+        "label": "Have I Been Pwned, para revisar tu correo (en inglés)",
+        "url": "https://haveibeenpwned.com/"
+      }
+    ]
+  }
+}

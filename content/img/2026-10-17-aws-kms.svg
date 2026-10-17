@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="44" width="124" height="132" rx="12" fill="#e6dfd0"/>
+    <rect x="40" y="70" width="92" height="90" rx="8" fill="#f3efe6"/>
+    <circle cx="66" cy="115" r="12" fill="#ffd166"/>
+    <path d="M78 111 H116 V123 H110 V117 H102 V123 H96 V117 H78 Z" fill="#ffd166"/>
+    <circle cx="192" cy="115" r="8" fill="#ffd166"/>
+    <path d="M200 112 H226 V120 H222 V116 H216 V120 H212 V116 H200 Z" fill="#ffd166"/>
+    <path d="M292 60 H346 L368 82 V168 H292 Z" fill="#9ac7ea"/>
+    <rect x="312" y="114" width="36" height="28" rx="4" fill="#f4a7a7"/>
+    <path d="M320 114 v-8 a10 10 0 0 1 20 0 v8" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M150 115 H178"/><path d="M172 111 l6 4 -6 4"/>
+    <path d="M236 115 H284"/><path d="M278 111 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="86" y="62">KMS</text><text x="210" y="146">data key</text><text x="330" y="186">file</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="86" y="150">master key</text><text x="260" y="104">locks</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the master key never leaves the vault</text>
+</svg>

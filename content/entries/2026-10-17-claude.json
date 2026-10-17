@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-claude",
+  "date": "2026-10-17",
+  "subjects": ["ai", "companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-10-17-claude.svg",
+  "imageAlt": {
+    "en": "Three ways in, the app, the API and Claude Code, all lead down to one family of models drawn as three boxes of growing size: Haiku, Sonnet and Opus",
+    "es": "Tres entradas, la app, la API y Claude Code, llevan a una misma familia de modelos dibujada como tres cajas de tamaño creciente: Haiku, Sonnet y Opus"
+  },
+  "en": {
+    "title": "Claude",
+    "tagline": "Anthropic's family of AI models, and the assistant app built on them.",
+    "explanation": [
+      "**Claude** is the name of the large language models made by Anthropic, and of the assistant people use to talk to them. Like other chat assistants, it answers questions, writes and edits text, summarizes long documents, analyzes data, reads images and PDFs, and writes code. The first version came out in March 2023, and Anthropic releases new generations regularly, numbered like Claude 3 or Claude 4.",
+      "The models come in sizes with different trade-offs. **Haiku** is the small, fast and cheap one; **Sonnet** sits in the middle; **Opus** is the largest and most capable, and also the slowest and most expensive. There are several ways to reach them: the Claude app on the web, desktop and phone; an API that developers pay for per token; cloud platforms such as Amazon Bedrock and Google Cloud; and **Claude Code**, a tool that lets Claude work inside a software project, reading files, changing code and running commands.",
+      "What sets it apart is mostly how it is trained. Anthropic uses a method it calls **Constitutional AI**, where the model learns to follow a written set of principles, and it publishes research on safety and on understanding what happens inside the model. In practice Claude is widely used for writing, for analysis of long documents and for programming. Like any language model, it can be wrong while sounding sure, so it is a collaborator to check, not an oracle."
+    ],
+    "analogy": "Claude is like a firm of assistants with the same training but different seniority: a quick junior for simple errands, a reliable mid-level for most work, and a senior partner for the hardest problems, who takes longer and bills more.",
+    "keyPoints": [
+      "Made by Anthropic; the first version came out in March 2023.",
+      "Three sizes: Haiku (fast), Sonnet (balanced), Opus (most capable).",
+      "Available as an app, an API, through clouds and as Claude Code.",
+      "Trained with Constitutional AI, guided by written principles."
+    ],
+    "links": [
+      { "label": "Claude on Wikipedia", "url": "https://en.wikipedia.org/wiki/Claude_(language_model)" },
+      { "label": "Intro to Claude (official docs)", "url": "https://platform.claude.com/docs/en/intro" },
+      { "label": "Meet Claude (Anthropic)", "url": "https://www.anthropic.com/claude" }
+    ]
+  },
+  "es": {
+    "title": "Claude",
+    "tagline": "La familia de modelos de IA de Anthropic, y el asistente construido sobre ellos.",
+    "explanation": [
+      "**Claude** es el nombre de los grandes modelos de lenguaje que hace Anthropic, y también del asistente que la gente usa para hablar con ellos. Como otros asistentes de chat, responde preguntas, escribe y corrige textos, resume documentos largos, analiza datos, lee imágenes y PDFs y programa. La primera versión salió en marzo de 2023, y Anthropic lanza generaciones nuevas cada tanto, numeradas como Claude 3 o Claude 4.",
+      "Los modelos vienen en tamaños con distintos equilibrios. **Haiku** es el chico, rápido y barato; **Sonnet** está en el medio; **Opus** es el más grande y capaz, y también el más lento y caro. Hay varias formas de llegar a ellos: la app de Claude en la web, la compu y el celular; una API que los desarrolladores pagan por token; plataformas de nube como Amazon Bedrock y Google Cloud; y **Claude Code**, una herramienta que deja a Claude trabajar dentro de un proyecto de software, leyendo archivos, cambiando código y corriendo comandos.",
+      "Lo que lo distingue tiene que ver sobre todo con cómo se entrena. Anthropic usa un método que llama **Constitutional AI** (IA constitucional), en el que el modelo aprende a seguir un conjunto escrito de principios, y publica investigación sobre seguridad y sobre cómo entender lo que pasa adentro del modelo. En la práctica, Claude se usa mucho para escribir, para analizar documentos largos y para programar. Como todo modelo de lenguaje, puede equivocarse sonando seguro, así que es un colaborador al que hay que revisar, no un oráculo."
+    ],
+    "analogy": "Claude es como un estudio con asistentes de la misma formación pero distinta experiencia: un junior rápido para los mandados simples, un semi senior confiable para la mayoría del trabajo y un socio senior para los problemas más difíciles, que tarda más y cobra más.",
+    "keyPoints": [
+      "Lo hace Anthropic; la primera versión salió en marzo de 2023.",
+      "Tres tamaños: Haiku (rápido), Sonnet (equilibrado), Opus (el más capaz).",
+      "Se usa como app, por API, a través de nubes y como Claude Code.",
+      "Se entrena con Constitutional AI, guiado por principios escritos."
+    ],
+    "links": [
+      { "label": "Claude en Wikipedia", "url": "https://es.wikipedia.org/wiki/Claude_(modelo_de_lenguaje)" },
+      { "label": "Introducción a Claude (documentación oficial)", "url": "https://platform.claude.com/docs/es/intro" },
+      { "label": "Conocé a Claude, Anthropic (en inglés)", "url": "https://www.anthropic.com/claude" }
+    ]
+  }
+}

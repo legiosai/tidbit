@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-mesh-wifi",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["mesh network", "mesh networks", "mesh networking", "mesh Wi-Fi system", "mesh Wi-Fi systems", "Wi-Fi mesh", "mesh WiFi", "EasyMesh"],
+    "es": ["red mesh", "redes mesh", "red mallada", "redes malladas", "sistema mesh", "sistemas mesh", "mesh Wi-Fi", "wifi mesh"]
+  },
+  "image": "img/2026-10-17-mesh-wifi.svg",
+  "imageAlt": {
+    "en": "A house with three Wi-Fi nodes, one connected to the modem, linked to each other by dashed lines, with a phone picking up the nearest node",
+    "es": "Una casa con tres nodos de wifi, uno conectado al módem, unidos entre sí con líneas punteadas, y un celular que se engancha al nodo más cercano"
+  },
+  "en": {
+    "title": "Mesh Wi-Fi",
+    "tagline": "Several Wi-Fi units spread around a home that work together as one network.",
+    "explanation": [
+      "A **mesh Wi-Fi** system covers a home with several small units, called **nodes**, instead of a single router. One node connects to your modem; the others go around the house, and they talk to each other to pass traffic along. To your phone and laptop it all looks like one Wi-Fi network with one name and one password, and devices switch to the nearest node as you walk from room to room.",
+      "It solves a common problem. A single router sits in one spot, and its signal weakens with distance and with every wall, floor and appliance in the way, so far rooms get slow Wi-Fi or none. Older **range extenders** helped by repeating the signal, but they often created a second network and cut the speed roughly in half. A mesh system coordinates its nodes: it picks the best path for each device and, in better models, uses a separate radio channel or a cable between nodes so their link back to the router does not compete with your devices.",
+      "Mesh is not magic. Each hop between nodes adds some delay and can lose speed, so placement matters: nodes should be close enough to hear each other well, ideally halfway between the router and the dead zone, not inside it. Connecting the nodes with an Ethernet cable, when you can, gives the best results. In a small apartment one good router is usually enough; mesh pays off in larger homes, on several floors or behind thick walls."
+    ],
+    "analogy": "A relay team instead of one runner. Rather than one person trying to carry the message to every room, several stand at different points and pass it along, so it arrives everywhere without anyone running out of breath.",
+    "keyPoints": [
+      "Several nodes work together as one Wi-Fi network with a single name.",
+      "Devices move to the nearest node as you walk around.",
+      "Better than old extenders, which often split the network and roughly halved speed.",
+      "Placement matters; wiring the nodes together gives the best speed."
+    ],
+    "links": [
+      { "label": "Wireless mesh network on Wikipedia", "url": "https://en.wikipedia.org/wiki/Wireless_mesh_network" },
+      { "label": "Wi-Fi EasyMesh (Wi-Fi Alliance)", "url": "https://www.wi-fi.org/discover-wi-fi/wi-fi-easymesh" }
+    ]
+  },
+  "es": {
+    "title": "Wi-Fi mesh",
+    "tagline": "Varios equipos de Wi-Fi repartidos por la casa que funcionan juntos como una sola red.",
+    "explanation": [
+      "Un sistema de **Wi-Fi mesh** (red mallada) cubre una casa con varios equipos chicos, llamados **nodos**, en lugar de un único router. Un nodo se conecta al módem; los demás se reparten por la casa y hablan entre sí para ir pasándose el tráfico. Para tu celular y tu notebook todo se ve como una sola red Wi-Fi, con un nombre y una contraseña, y los aparatos se pasan al nodo más cercano a medida que vas de un cuarto a otro.",
+      "Resuelve un problema muy común. Un router solo está en un lugar, y su señal se debilita con la distancia y con cada pared, piso y electrodoméstico que se interpone, así que a los cuartos lejanos les llega un Wi-Fi lento o nada. Los viejos **repetidores** ayudaban repitiendo la señal, pero muchas veces armaban una segunda red y cortaban la velocidad más o menos a la mitad. Un sistema mesh coordina sus nodos: elige el mejor camino para cada aparato y, en los modelos mejores, usa un canal de radio aparte o un cable entre nodos para que su enlace con el router no compita con tus dispositivos.",
+      "Mesh no es magia. Cada salto entre nodos suma algo de demora y puede perder velocidad, así que la ubicación importa: los nodos tienen que estar lo bastante cerca para escucharse bien, idealmente a mitad de camino entre el router y la zona sin señal, no adentro de ella. Si podés unir los nodos con un cable Ethernet, mejor todavía. En un departamento chico suele alcanzar con un buen router; mesh conviene en casas grandes, de varios pisos o con paredes gruesas."
+    ],
+    "analogy": "Una carrera de postas en lugar de un solo corredor. En vez de que una persona intente llevar el mensaje a todos los cuartos, varias se paran en distintos puntos y se lo van pasando, así llega a todos lados sin que nadie se quede sin aire.",
+    "keyPoints": [
+      "Varios nodos funcionan juntos como una sola red Wi-Fi, con un solo nombre.",
+      "Los aparatos se pasan al nodo más cercano mientras te movés.",
+      "Mejor que los viejos repetidores, que solían dividir la red y cortar la velocidad a la mitad.",
+      "La ubicación importa; unir los nodos con cable da la mejor velocidad."
+    ],
+    "links": [
+      { "label": "Red inalámbrica mallada en Wikipedia", "url": "https://es.wikipedia.org/wiki/Red_inal%C3%A1mbrica_mallada" },
+      { "label": "Wi-Fi EasyMesh, Wi-Fi Alliance (en inglés)", "url": "https://www.wi-fi.org/discover-wi-fi/wi-fi-easymesh" }
+    ]
+  }
+}

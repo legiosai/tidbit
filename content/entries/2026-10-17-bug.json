@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-bug",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 1,
+  "caseSensitive": false,
+  "aliases": {
+    "en": ["bugs", "software bug", "software bugs", "buggy"],
+    "es": ["bugs", "error de software", "errores de software"]
+  },
+  "image": "img/2026-10-17-bug.svg",
+  "imageAlt": {
+    "en": "A cart total that should be 30 shows 3000, because one highlighted line of code multiplies the price by 100 by mistake, with a small bug drawn next to it",
+    "es": "El total de un carrito que debería ser 30 muestra 3000 porque una línea de código resaltada multiplica el precio por 100 por error, con un bichito dibujado al lado"
+  },
+  "en": {
+    "title": "Bug",
+    "tagline": "A mistake in software that makes it behave differently from what was intended.",
+    "explanation": [
+      "A **bug** is a flaw in a program that makes it do something its authors did not intend: a button that does nothing, a total that adds up wrong, an app that crashes when you rotate the phone. Computers follow instructions exactly, so a bug is almost always a human mistake in those instructions, or a situation nobody planned for, like a name with an apostrophe or a date in a leap year.",
+      "Engineers used the word for machine faults long before computers. The famous story is from 1947: operators of the Harvard Mark II computer, a team that included Grace Hopper, found a real moth stuck in a relay and taped it into their logbook as the \"first actual case of bug being found\". The joke works precisely because the word was already in use.",
+      "Some bugs are cosmetic, others are serious. A bug that lets an attacker read data they should not see is a security vulnerability. Bugs are normal in any large program; what matters is catching them early through testing and code review, and fixing them with **debugging**. Teams usually track them in a bug tracker, with steps to reproduce, how severe they are and who is working on them."
+    ],
+    "analogy": "A typo in a recipe that says \"3 cups of salt\" instead of \"3 teaspoons\". The cook follows it faithfully, and the result is ruined, not because the cook failed but because the instructions were wrong.",
+    "keyPoints": [
+      "A mistake or unforeseen case in a program's instructions.",
+      "Ranges from cosmetic glitches to crashes and security holes.",
+      "The famous 1947 moth was a joke on a word engineers already used.",
+      "Found through testing and reports, fixed through debugging."
+    ],
+    "links": [
+      { "label": "Software bug on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_bug" },
+      { "label": "Grace Hopper on Wikipedia", "url": "https://en.wikipedia.org/wiki/Grace_Hopper" }
+    ]
+  },
+  "es": {
+    "title": "Bug",
+    "tagline": "Un error en un software que hace que se comporte distinto de lo que se buscaba.",
+    "explanation": [
+      "Un **bug** es una falla en un programa que lo hace hacer algo que sus autores no querían: un botón que no hace nada, un total que suma mal, una app que se cierra cuando girás el celular. Las computadoras siguen las instrucciones al pie de la letra, así que un bug casi siempre es un error humano en esas instrucciones, o una situación que nadie previó, como un apellido con apóstrofo o una fecha en un año bisiesto.",
+      "Los ingenieros usaban la palabra (bicho, en inglés) para las fallas de las máquinas mucho antes de las computadoras. La anécdota famosa es de 1947: los operadores de la computadora Harvard Mark II, un equipo del que formaba parte Grace Hopper, encontraron una polilla de verdad atrapada en un relé y la pegaron con cinta en el cuaderno de registro como el \"primer caso real de bug encontrado\". El chiste funciona justamente porque la palabra ya se usaba.",
+      "Algunos bugs son cosméticos y otros, graves. Un bug que deja a un atacante leer datos que no debería ver es una vulnerabilidad de seguridad. Los bugs son normales en cualquier programa grande; lo importante es encontrarlos temprano con pruebas y revisión de código, y arreglarlos con **debugging**. Los equipos suelen registrarlos en un bug tracker, con los pasos para reproducirlos, qué tan graves son y quién se está ocupando."
+    ],
+    "analogy": "Un error de tipeo en una receta que dice \"3 tazas de sal\" en vez de \"3 cucharaditas\". El cocinero la sigue fielmente y el plato sale arruinado, no porque cocinó mal sino porque las instrucciones estaban mal.",
+    "keyPoints": [
+      "Un error o un caso no previsto en las instrucciones de un programa.",
+      "Va desde detalles cosméticos hasta cuelgues y agujeros de seguridad.",
+      "La famosa polilla de 1947 fue un chiste con una palabra que ya se usaba.",
+      "Se encuentra con pruebas y reportes, y se arregla con debugging."
+    ],
+    "links": [
+      { "label": "Error de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Error_de_software" },
+      { "label": "Grace Murray Hopper en Wikipedia", "url": "https://es.wikipedia.org/wiki/Grace_Murray_Hopper" }
+    ]
+  }
+}

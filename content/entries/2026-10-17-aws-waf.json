@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-aws-waf",
+  "date": "2026-10-17",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["WAF", "web application firewall", "web application firewalls", "web ACL", "web ACLs"],
+    "es": ["WAF", "firewall de aplicaciones web", "firewalls de aplicaciones web", "web ACL", "web ACLs"]
+  },
+  "image": "img/2026-10-17-aws-waf.svg",
+  "imageAlt": {
+    "en": "Web requests arrive at a WAF gate with rules; normal requests pass to the website, while a SQL injection and a flood from one IP are blocked",
+    "es": "Pedidos web llegan a una puerta WAF con reglas; los pedidos normales pasan al sitio, mientras una inyección SQL y una avalancha desde una IP quedan bloqueadas"
+  },
+  "en": {
+    "title": "AWS WAF",
+    "tagline": "A filter in front of your website that reads each request and blocks the bad ones.",
+    "explanation": [
+      "A regular firewall looks at addresses and ports: who is connecting, and to which door. A **web application firewall** (WAF) looks inside the web request itself: the URL, the headers, the form fields. **AWS WAF** is that filter on AWS. You put it in front of Amazon CloudFront, a load balancer or Amazon API Gateway, and every request is checked against your rules before it reaches your app.",
+      "The rules live in a **web ACL** and can be as simple or as sharp as you need. Block requests that try **SQL injection** (sneaking database commands into a search box) or cross-site scripting. Limit any single IP address to a certain number of requests per few minutes, which stops crude scrapers and password-guessing bots. Allow only some countries, or block known bad addresses. Each rule says allow, block, or just count, so you can test a rule before enforcing it.",
+      "You do not have to write everything yourself: AWS and security vendors publish **managed rule groups** that cover common attacks and are kept up to date. WAF does not fix bugs in your code, but it buys time, catching the predictable attacks at the door while the real fix is on its way."
+    ],
+    "analogy": "A bouncer who does not just check the guest list but also looks inside the bags. Ordinary visitors walk in; anyone carrying something suspicious, or trying to enter fifty times in a minute, stays outside.",
+    "keyPoints": [
+      "Inspects web requests (layer 7), not just addresses and ports.",
+      "Sits in front of CloudFront, load balancers and API Gateway.",
+      "Rules can block injection attacks, cap requests per IP, or filter by country.",
+      "Managed rule groups give ready-made, maintained protection."
+    ],
+    "links": [
+      { "label": "What is AWS WAF? (official docs)", "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html" },
+      { "label": "AWS WAF", "url": "https://aws.amazon.com/waf/" },
+      { "label": "Web application firewall on Wikipedia", "url": "https://en.wikipedia.org/wiki/Web_application_firewall" }
+    ]
+  },
+  "es": {
+    "title": "AWS WAF",
+    "tagline": "Un filtro delante de tu sitio que lee cada pedido y frena los malintencionados.",
+    "explanation": [
+      "Un firewall común mira direcciones y puertos: quién se conecta y a qué puerta. Un **firewall de aplicaciones web** (WAF, por sus siglas en inglés) mira adentro del pedido web: la URL, los encabezados, los campos de un formulario. **AWS WAF** es ese filtro en AWS. Lo ponés delante de Amazon CloudFront, de un balanceador de carga o de Amazon API Gateway, y cada pedido se compara con tus reglas antes de llegar a tu app.",
+      "Las reglas viven en una **web ACL** y pueden ser tan simples o tan finas como necesites. Bloquear pedidos que intentan **inyección SQL** (meter comandos de base de datos en un buscador) o cross-site scripting. Limitar a cada dirección IP a cierta cantidad de pedidos cada pocos minutos, lo que frena scrapers burdos y bots que prueban contraseñas. Permitir solo algunos países, o bloquear direcciones conocidas por malas. Cada regla dice permitir, bloquear o solo contar, así podés probar una regla antes de aplicarla en serio.",
+      "No tenés que escribir todo vos: AWS y empresas de seguridad publican **grupos de reglas administrados** que cubren ataques comunes y se mantienen actualizados. WAF no arregla los bugs de tu código, pero te da tiempo: ataja en la puerta los ataques previsibles mientras llega el arreglo de verdad."
+    ],
+    "analogy": "Un patovica que no solo mira la lista de invitados sino que también revisa las mochilas. La gente común entra; quien trae algo sospechoso, o intenta entrar cincuenta veces en un minuto, se queda afuera.",
+    "keyPoints": [
+      "Inspecciona pedidos web (capa 7), no solo direcciones y puertos.",
+      "Se pone delante de CloudFront, balanceadores de carga y API Gateway.",
+      "Las reglas pueden frenar inyecciones, limitar pedidos por IP o filtrar por país.",
+      "Los grupos de reglas administrados dan protección lista y mantenida."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS WAF? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/waf/latest/developerguide/waf-chapter.html" },
+      { "label": "AWS WAF", "url": "https://aws.amazon.com/es/waf/" },
+      { "label": "Web application firewall en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Web_application_firewall" }
+    ]
+  }
+}

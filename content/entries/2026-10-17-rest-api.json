@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-rest-api",
+  "date": "2026-10-17",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["REST", "REST APIs", "RESTful", "RESTful API", "RESTful APIs"],
+    "es": ["REST", "APIs REST", "REST API", "RESTful", "API RESTful"]
+  },
+  "image": "img/2026-10-17-rest-api.svg",
+  "imageAlt": {
+    "en": "An app sends GET, POST, PUT and DELETE requests to URLs like /orders/42, and the server answers with JSON and a status code",
+    "es": "Una app manda pedidos GET, POST, PUT y DELETE a URLs como /orders/42, y el servidor responde con JSON y un código de estado"
+  },
+  "en": {
+    "title": "REST API",
+    "tagline": "The most common style of web API: things have URLs and you act on them with HTTP verbs.",
+    "explanation": [
+      "A **REST API** is an API designed around a simple idea: everything the system knows about is a **resource** with its own URL, and you use the standard verbs of HTTP to act on it. `GET /orders/42` reads order 42, `POST /orders` creates a new one, `PUT /orders/42` replaces it and `DELETE /orders/42` removes it. The answer usually comes back as JSON.",
+      "The style was described by Roy Fielding in his 2000 doctoral thesis, and the name stands for **REpresentational State Transfer**. One of its rules is that each request is **stateless**: it carries everything the server needs to answer it, so the server does not have to remember previous requests. That makes REST APIs easy to spread over many servers and to cache.",
+      "Every answer also brings a **status code**, a three-digit number that says how it went: 200 means OK, 201 created, 404 not found, 401 you are not logged in, 500 the server failed. Because it reuses what the web already has, REST became the default way apps, websites and companies talk to each other. When people say \"the Stripe API\" or \"the GitHub API\", they usually mean a REST API."
+    ],
+    "analogy": "Like a well-organized library where every book has a fixed shelf address and there are only a few allowed actions: look at it, add one, replace one, remove one. Anyone who knows the rules can find their way around.",
+    "keyPoints": [
+      "Each thing has a URL; the HTTP verb says what to do with it.",
+      "GET reads, POST creates, PUT or PATCH updates, DELETE removes.",
+      "Requests are stateless: each one stands on its own.",
+      "Status codes like 200, 404 and 500 tell you how it went."
+    ],
+    "links": [
+      { "label": "What is a RESTful API? (AWS)", "url": "https://aws.amazon.com/what-is/restful-api/" },
+      { "label": "REST (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST" },
+      { "label": "REST on Wikipedia", "url": "https://en.wikipedia.org/wiki/REST" }
+    ]
+  },
+  "es": {
+    "title": "API REST",
+    "tagline": "El estilo de API web más común: cada cosa tiene una URL y la manejás con verbos HTTP.",
+    "explanation": [
+      "Una **API REST** es una API diseñada alrededor de una idea simple: todo lo que el sistema conoce es un **recurso** con su propia URL, y usás los verbos estándar de HTTP para actuar sobre él. `GET /orders/42` lee el pedido 42, `POST /orders` crea uno nuevo, `PUT /orders/42` lo reemplaza y `DELETE /orders/42` lo borra. La respuesta suele volver en JSON.",
+      "El estilo lo describió Roy Fielding en su tesis doctoral del año 2000, y el nombre viene de **REpresentational State Transfer** (transferencia de estado representacional). Una de sus reglas es que cada pedido es **stateless** (sin estado): trae todo lo que el servidor necesita para responder, así que el servidor no tiene que acordarse de pedidos anteriores. Eso hace que las APIs REST sean fáciles de repartir entre muchos servidores y de cachear.",
+      "Cada respuesta trae además un **código de estado**, un número de tres cifras que dice cómo salió: 200 es OK, 201 creado, 404 no encontrado, 401 no iniciaste sesión, 500 falló el servidor. Como reusa lo que la web ya tiene, REST se volvió la forma por defecto en que apps, sitios y empresas se hablan entre sí. Cuando alguien dice \"la API de Stripe\" o \"la API de GitHub\", casi siempre habla de una API REST."
+    ],
+    "analogy": "Como una biblioteca bien ordenada donde cada libro tiene una dirección fija en el estante y hay pocas acciones permitidas: mirarlo, agregar uno, reemplazarlo, sacarlo. Cualquiera que sepa las reglas se orienta.",
+    "keyPoints": [
+      "Cada cosa tiene una URL; el verbo HTTP dice qué hacer con ella.",
+      "GET lee, POST crea, PUT o PATCH actualizan, DELETE borra.",
+      "Los pedidos son stateless: cada uno se sostiene solo.",
+      "Códigos de estado como 200, 404 y 500 te dicen cómo salió."
+    ],
+    "links": [
+      { "label": "¿Qué es una API RESTful? (AWS)", "url": "https://aws.amazon.com/es/what-is/restful-api/" },
+      { "label": "REST (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/REST" },
+      { "label": "Transferencia de Estado Representacional en Wikipedia", "url": "https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-cpu-cores-and-threads",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["CPU core", "CPU cores", "cores", "hardware thread", "hardware threads", "threads", "hyper-threading", "SMT", "simultaneous multithreading", "multithreading"],
+    "es": ["núcleos", "núcleo de CPU", "núcleos de CPU", "hilos", "hyper-threading", "SMT", "multihilo"]
+  },
+  "image": "img/2026-10-17-cpu-cores-and-threads.svg",
+  "imageAlt": {
+    "en": "A CPU with four cores; each core is fed by two threads, shown as two lanes of tasks merging into it",
+    "es": "Una CPU con cuatro núcleos; a cada núcleo lo alimentan dos hilos, dibujados como dos carriles de tareas que se juntan en él"
+  },
+  "en": {
+    "title": "Cores and threads",
+    "tagline": "Why a CPU is really several processors, and why it can juggle even more tasks.",
+    "explanation": [
+      "A **core** is a complete processor: it can fetch instructions and execute them on its own. For decades a CPU had one. Since the mid-2000s, chipmakers have put several cores on the same chip instead of making a single core ever faster, so a laptop processor might have 8 or more and a server processor many dozens. Each core can run a different program, or a different piece of the same program, at the same time.",
+      "A **thread** is a sequence of instructions waiting to be run. Software creates threads, the operating system hands them to cores, and switches between them so quickly that dozens of apps seem to run at once. Many CPUs also offer **simultaneous multithreading** (Intel calls it **Hyper-Threading**): each core presents itself as two, so it can work on a second thread while the first is waiting for data. That is where specs like \"8 cores, 16 threads\" come from. The two threads share one core's machinery, so it is a useful boost, not double the speed.",
+      "More cores help only when the work can be split. Rendering video, compiling code or running many users' requests on a server split well, and get much faster with more cores. A single long chain of steps, where each step needs the previous result, cannot be split, and runs at the speed of one core. That is why both the number of cores and the speed of each one matter."
+    ],
+    "analogy": "Cores are cooks in a kitchen; threads are the orders on the rail. Hyper-Threading is a cook who keeps two pans going, stirring one while the other heats. Ten cooks will not make one soufflé rise faster.",
+    "keyPoints": [
+      "A core is an independent processor; modern CPUs have several to many.",
+      "A thread is a stream of instructions the operating system assigns to a core.",
+      "Simultaneous multithreading lets one core handle two threads, sharing its parts.",
+      "More cores speed up work that can be split, not single-chain tasks."
+    ],
+    "links": [
+      { "label": "Multi-core processor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multi-core_processor" },
+      { "label": "Simultaneous multithreading on Wikipedia", "url": "https://en.wikipedia.org/wiki/Simultaneous_multithreading" },
+      { "label": "Thread (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Thread_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Núcleos e hilos",
+    "tagline": "Por qué una CPU es en realidad varios procesadores, y cómo atiende todavía más tareas.",
+    "explanation": [
+      "Un **núcleo** (core) es un procesador completo: puede buscar instrucciones y ejecutarlas por su cuenta. Durante décadas una CPU tenía uno. Desde mediados de los 2000, los fabricantes ponen varios núcleos en el mismo chip en vez de hacer un único núcleo cada vez más rápido, así que el procesador de una laptop puede tener 8 o más y el de un servidor varias decenas. Cada núcleo puede correr un programa distinto, o una parte distinta del mismo programa, al mismo tiempo.",
+      "Un **hilo** (thread) es una secuencia de instrucciones esperando ser ejecutada. El software crea hilos, el sistema operativo se los reparte a los núcleos, y salta entre ellos tan rápido que parece que decenas de apps corren a la vez. Muchas CPUs además ofrecen **multihilo simultáneo** (SMT; Intel lo llama **Hyper-Threading**): cada núcleo se presenta como dos, así puede avanzar con un segundo hilo mientras el primero espera datos. De ahí salen especificaciones como \"8 núcleos, 16 hilos\". Los dos hilos comparten la maquinaria de un mismo núcleo, así que es una mejora útil, no el doble de velocidad.",
+      "Más núcleos ayudan solo cuando el trabajo se puede dividir. Renderizar video, compilar código o atender los pedidos de muchos usuarios en un servidor se dividen bien, y van mucho más rápido con más núcleos. Una cadena larga de pasos, donde cada paso necesita el resultado del anterior, no se puede dividir, y corre a la velocidad de un núcleo. Por eso importan tanto la cantidad de núcleos como la velocidad de cada uno."
+    ],
+    "analogy": "Los núcleos son cocineros en una cocina; los hilos, las comandas colgadas. Hyper-Threading es un cocinero que maneja dos sartenes, revolviendo una mientras la otra se calienta. Diez cocineros no hacen que un soufflé suba más rápido.",
+    "keyPoints": [
+      "Un núcleo es un procesador independiente; las CPUs modernas tienen varios o muchos.",
+      "Un hilo es una fila de instrucciones que el sistema operativo asigna a un núcleo.",
+      "El multihilo simultáneo deja que un núcleo atienda dos hilos, compartiendo sus partes.",
+      "Más núcleos aceleran el trabajo divisible, no las tareas en cadena."
+    ],
+    "links": [
+      { "label": "Procesador multinúcleo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Procesador_multin%C3%BAcleo" },
+      { "label": "Hilo (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hilo_(inform%C3%A1tica)" },
+      { "label": "HyperThreading en Wikipedia", "url": "https://es.wikipedia.org/wiki/HyperThreading" }
+    ]
+  }
+}

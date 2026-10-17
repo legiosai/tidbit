@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-mac-address",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["MAC addresses", "hardware address"],
+    "es": ["direcciones MAC", "MAC address"]
+  },
+  "image": "img/2026-10-17-mac-address.svg",
+  "imageAlt": {
+    "en": "A laptop talks to a router over Wi-Fi; below it, a yellow tag reads 3c:22:fb:9a:10:4e, with the first half marked maker and the second half this card",
+    "es": "Una laptop habla con un router por Wi-Fi; abajo, una etiqueta amarilla dice 3c:22:fb:9a:10:4e, con la primera mitad marcada como fabricante y la segunda como esta placa"
+  },
+  "en": {
+    "title": "MAC address",
+    "tagline": "The built-in name of a network card, used to deliver data inside a local network.",
+    "explanation": [
+      "A **MAC address** is an identifier that comes with every network interface: the Wi-Fi chip in your phone, the Ethernet port in your laptop, the radio in a smart bulb. It is 48 bits long and usually written as six pairs of hexadecimal digits, like `3c:22:fb:9a:10:4e`. The first half says which manufacturer made the hardware, from blocks handed out by the IEEE; the second half is that maker's serial for the card. It has nothing to do with Apple's Mac computers: MAC stands for Media Access Control.",
+      "Its job is local delivery. Inside one network, say your home Wi-Fi, devices find each other by MAC address: the router knows that `3c:22:fb:9a:10:4e` is your laptop and sends its data there. To get from an IP address to the right MAC address, devices simply ask the network out loud, 'who has 192.168.1.20?', and the owner answers (that exchange is called **ARP**).",
+      "A MAC address never leaves your local network. When your data goes out to the internet, each router along the way rewraps it with its own MAC address for the next hop, while the IP address stays the same from end to end. That is why the IP address works like a postal address and the MAC address like the name of the person who opens the door.",
+      "Because it used to be fixed, a MAC address could be used to recognize the same phone in every café and shopping mall. Modern phones and laptops now use a **private** or **random MAC address**, a different one for each Wi-Fi network. It is also why 'MAC filtering' on a router is weak protection: any device can be told to announce a different address."
+    ],
+    "analogy": "The IP address is the street address on an envelope; the MAC address is the name of the person inside the building. The mail carrier uses the street, and the doorman uses the name.",
+    "keyPoints": [
+      "48 bits, written as six pairs like `3c:22:fb:9a:10:4e`.",
+      "The first half identifies the manufacturer of the network hardware.",
+      "Only used inside a local network; routers swap it at every hop.",
+      "Phones now use a random MAC address per Wi-Fi network for privacy."
+    ],
+    "links": [
+      { "label": "MAC address on Wikipedia", "url": "https://en.wikipedia.org/wiki/MAC_address" },
+      { "label": "Address Resolution Protocol (ARP) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Address_Resolution_Protocol" }
+    ]
+  },
+  "es": {
+    "title": "Dirección MAC",
+    "tagline": "El nombre de fábrica de una placa de red, que sirve para entregar datos en una red local.",
+    "explanation": [
+      "Una **dirección MAC** es un identificador que trae cada interfaz de red: el chip Wi-Fi de tu celular, el puerto Ethernet de tu laptop, la radio de una lamparita inteligente. Mide 48 bits y se suele escribir como seis pares de dígitos hexadecimales, por ejemplo `3c:22:fb:9a:10:4e`. La primera mitad dice qué fabricante hizo el hardware, a partir de bloques que reparte el IEEE; la segunda es el número de serie que ese fabricante le puso a la placa. No tiene nada que ver con las Mac de Apple: MAC significa Media Access Control.",
+      "Su trabajo es la entrega local. Dentro de una misma red, por ejemplo el Wi-Fi de tu casa, los dispositivos se encuentran por dirección MAC: el router sabe que `3c:22:fb:9a:10:4e` es tu laptop y le manda los datos ahí. Para pasar de una dirección IP a la dirección MAC correcta, los dispositivos directamente preguntan en voz alta a toda la red '¿quién tiene 192.168.1.20?', y el dueño contesta (ese intercambio se llama **ARP**).",
+      "La dirección MAC nunca sale de tu red local. Cuando tus datos van hacia internet, cada router del camino los vuelve a envolver con su propia dirección MAC para el siguiente tramo, mientras la dirección IP se mantiene igual de punta a punta. Por eso la dirección IP funciona como la dirección postal, y la MAC como el nombre de quien abre la puerta.",
+      "Como antes era fija, una dirección MAC servía para reconocer al mismo celular en cada café y cada shopping. Hoy los celulares y las laptops usan una **dirección MAC privada** o **aleatoria**, distinta para cada red Wi-Fi. Por lo mismo, el 'filtrado por MAC' de un router protege poco: a cualquier dispositivo se le puede decir que anuncie otra dirección."
+    ],
+    "analogy": "La dirección IP es la calle y el número escritos en el sobre; la dirección MAC es el nombre de la persona dentro del edificio. El cartero se guía por la calle y el portero por el nombre.",
+    "keyPoints": [
+      "48 bits, escritos como seis pares del estilo `3c:22:fb:9a:10:4e`.",
+      "La primera mitad identifica al fabricante del hardware de red.",
+      "Solo se usa dentro de una red local; los routers la cambian en cada tramo.",
+      "Los celulares hoy usan una MAC aleatoria por cada red Wi-Fi, por privacidad."
+    ],
+    "links": [
+      { "label": "Dirección MAC en Wikipedia", "url": "https://es.wikipedia.org/wiki/Direcci%C3%B3n_MAC" },
+      { "label": "Address Resolution Protocol (ARP) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Address_Resolution_Protocol" }
+    ]
+  }
+}

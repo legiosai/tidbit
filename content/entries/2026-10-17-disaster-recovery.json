@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-disaster-recovery",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["RPO", "RTO", "recovery point objective", "recovery time objective", "disaster recovery plan"],
+    "es": ["disaster recovery", "RPO", "RTO", "plan de recuperación ante desastres"]
+  },
+  "image": "img/2026-10-17-disaster-recovery.svg",
+  "imageAlt": {
+    "en": "A timeline with a disaster in the middle: the gap back to the last good copy is the RPO, the gap forward until service is back is the RTO",
+    "es": "Una línea de tiempo con un desastre en el medio: el tramo hacia atrás hasta la última copia buena es el RPO, el tramo hacia adelante hasta que vuelve el servicio es el RTO"
+  },
+  "en": {
+    "title": "Disaster recovery",
+    "tagline": "The plan for getting systems and data back after a major failure.",
+    "explanation": [
+      "**Disaster recovery** (DR) is how an organization gets its systems running again after something big goes wrong: a whole data center or cloud region goes down, a ransomware attack encrypts the servers, a bad deploy corrupts the database, or a flood reaches the building. Backups are part of it, but DR is the whole plan: what gets restored first, where it runs, who decides, and how long it all takes.",
+      "Two numbers shape every plan. The **RPO** (recovery point objective) is how much data you can afford to lose, measured in time: an RPO of one hour means losing at most the last hour of changes. The **RTO** (recovery time objective) is how long you can afford to be down. A blog might accept a day for both; a payment system may need seconds. Tighter numbers cost more, because they require more copies, more automation and spare capacity sitting ready.",
+      "On the cloud, common strategies go from cheap and slow to expensive and fast: **backup and restore** in another region, a **pilot light** with only the core pieces running, a **warm standby** with a smaller copy of everything, and **active-active**, where two regions serve traffic at the same time. Whatever the choice, the plan only works if it is practiced; teams run regular drills where they actually fail over and time how long it takes."
+    ],
+    "analogy": "A fire drill for your systems. Having extinguishers is the backup; knowing the exits, who calls whom and where everyone meets is the disaster recovery plan, and you only know it works if you have practiced it.",
+    "keyPoints": [
+      "Covers restoring systems and data after a big failure, not just keeping copies.",
+      "RPO: how much data you can lose. RTO: how long you can be down.",
+      "Strategies range from backup and restore to active-active across regions.",
+      "Untested plans fail; run drills regularly."
+    ],
+    "links": [
+      { "label": "What is disaster recovery? (AWS)", "url": "https://aws.amazon.com/what-is/disaster-recovery/" },
+      { "label": "Disaster recovery of workloads on AWS (whitepaper)", "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html" },
+      { "label": "Disaster recovery on Wikipedia", "url": "https://en.wikipedia.org/wiki/Disaster_recovery" }
+    ]
+  },
+  "es": {
+    "title": "Recuperación ante desastres",
+    "tagline": "El plan para volver a tener sistemas y datos después de una falla grave.",
+    "explanation": [
+      "La **recuperación ante desastres** (disaster recovery, o DR) es cómo una organización vuelve a poner en marcha sus sistemas después de que algo grande sale mal: se cae un centro de datos o una región entera de la nube, un ataque de ransomware cifra los servidores, un deploy fallido arruina la base de datos o una inundación llega al edificio. Los backups son parte, pero el DR es el plan completo: qué se restaura primero, dónde corre, quién decide y cuánto tarda todo.",
+      "Dos números definen cada plan. El **RPO** (objetivo de punto de recuperación) es cuántos datos te podés permitir perder, medido en tiempo: un RPO de una hora significa perder como mucho la última hora de cambios. El **RTO** (objetivo de tiempo de recuperación) es cuánto tiempo te podés permitir estar caído. Un blog puede aceptar un día para los dos; un sistema de pagos puede necesitar segundos. Cuanto más exigentes, más caros, porque requieren más copias, más automatización y capacidad de repuesto lista para usar.",
+      "En la nube, las estrategias habituales van de baratas y lentas a caras y rápidas: **backup y restauración** en otra región, un **pilot light** con solo las piezas centrales prendidas, un **warm standby** con una copia más chica de todo, y **activo-activo**, donde dos regiones atienden tráfico a la vez. Elijas lo que elijas, el plan solo funciona si se practica; los equipos hacen simulacros periódicos en los que realmente pasan a la otra región y miden cuánto tardan."
+    ],
+    "analogy": "Un simulacro de incendio para tus sistemas. Tener matafuegos es el backup; saber las salidas, quién llama a quién y dónde se encuentra todo el mundo es el plan de recuperación, y solo sabés que funciona si lo practicaste.",
+    "keyPoints": [
+      "Abarca restaurar sistemas y datos después de una falla grave, no solo guardar copias.",
+      "RPO: cuántos datos podés perder. RTO: cuánto tiempo podés estar caído.",
+      "Las estrategias van desde backup y restauración hasta activo-activo entre regiones.",
+      "Los planes que no se prueban fallan: hacé simulacros seguido."
+    ],
+    "links": [
+      { "label": "¿Qué es la recuperación de desastres? (AWS)", "url": "https://aws.amazon.com/es/what-is/disaster-recovery/" },
+      { "label": "Plan de recuperación ante desastres en Wikipedia", "url": "https://es.wikipedia.org/wiki/Plan_de_recuperaci%C3%B3n_ante_desastres" }
+    ]
+  }
+}

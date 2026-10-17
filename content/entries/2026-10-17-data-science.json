@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-data-science",
+  "date": "2026-10-17",
+  "subjects": ["data", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["data scientist", "data scientists"],
+    "es": ["data science", "científico de datos", "científicos de datos", "científica de datos", "data scientist"]
+  },
+  "image": "img/2026-10-17-data-science.svg",
+  "imageAlt": {
+    "en": "A cycle that goes from a question to collecting data, cleaning it, exploring it, building a model and communicating the answer, which leads to new questions",
+    "es": "Un ciclo que va de una pregunta a juntar datos, limpiarlos, explorarlos, armar un modelo y comunicar la respuesta, que lleva a nuevas preguntas"
+  },
+  "en": {
+    "title": "Data science",
+    "tagline": "Using statistics, code and business sense to answer questions with data.",
+    "explanation": [
+      "**Data science** is the work of getting useful answers out of data. It mixes three skills: **statistics**, to know what the numbers really say and how sure you can be; **programming**, usually in Python, R and SQL, to handle data too big for a spreadsheet; and **domain knowledge**, to ask questions that matter for a business, a hospital or a lab.",
+      "A typical project starts with a question, like \"which customers are about to cancel?\". The **data scientist** gathers data from databases and files, then cleans it: fixing typos, filling or removing gaps, merging sources that disagree. That step famously takes most of the time. Then comes exploring with charts, building a **model** that finds patterns or makes predictions, and finally explaining the result to people who will act on it, often in a notebook, a dashboard or a short presentation.",
+      "It overlaps with neighbors. **Machine learning** is one of its main tools, used when the goal is prediction; **business intelligence** focuses more on reporting what already happened; **data engineering** builds the pipelines that bring the data in. The role grew in the 2010s as companies collected more data than they knew what to do with, and it remains central now that AI models are trained and evaluated with the same methods."
+    ],
+    "analogy": "Like being a detective with spreadsheets. Most of the job is gathering and checking evidence, the dramatic deduction takes an afternoon, and then you still have to convince the jury.",
+    "keyPoints": [
+      "Combines statistics, programming and knowledge of the field.",
+      "Cleaning and preparing data takes most of the time.",
+      "Ends with communication: an answer nobody understands changes nothing.",
+      "Machine learning is a core tool, but not the whole job."
+    ],
+    "links": [
+      { "label": "What is data science? (AWS)", "url": "https://aws.amazon.com/what-is/data-science/" },
+      { "label": "Data science on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_science" }
+    ]
+  },
+  "es": {
+    "title": "Ciencia de datos",
+    "tagline": "Usar estadística, código y conocimiento del negocio para responder preguntas con datos.",
+    "explanation": [
+      "La **ciencia de datos** (data science) es el trabajo de sacar respuestas útiles de los datos. Mezcla tres habilidades: **estadística**, para saber qué dicen de verdad los números y qué tan seguro podés estar; **programación**, casi siempre en Python, R y SQL, para manejar datos demasiado grandes para una planilla; y **conocimiento del dominio**, para hacer preguntas que importen a una empresa, un hospital o un laboratorio.",
+      "Un proyecto típico arranca con una pregunta, como \"¿qué clientes están por darse de baja?\". El **científico de datos** junta datos de bases de datos y archivos y después los limpia: corrige errores de tipeo, completa o saca huecos, une fuentes que no coinciden. Ese paso tiene fama de llevarse la mayor parte del tiempo. Después viene explorar con gráficos, armar un **modelo** que encuentre patrones o haga predicciones y, al final, explicarle el resultado a la gente que va a actuar, muchas veces en un notebook, un dashboard o una presentación corta.",
+      "Se superpone con sus vecinos. El **machine learning** es una de sus herramientas principales, cuando el objetivo es predecir; el **business intelligence** se enfoca más en reportar lo que ya pasó; la **ingeniería de datos** arma los pipelines que traen los datos. El rol creció en los años 2010, cuando las empresas juntaban más datos de los que sabían usar, y sigue siendo central ahora que los modelos de IA se entrenan y evalúan con los mismos métodos."
+    ],
+    "analogy": "Como ser detective con planillas. La mayor parte del trabajo es juntar y chequear pruebas, la deducción espectacular lleva una tarde, y después igual tenés que convencer al jurado.",
+    "keyPoints": [
+      "Combina estadística, programación y conocimiento del área.",
+      "Limpiar y preparar los datos lleva la mayor parte del tiempo.",
+      "Termina en comunicar: una respuesta que nadie entiende no cambia nada.",
+      "El machine learning es una herramienta central, pero no es todo el trabajo."
+    ],
+    "links": [
+      { "label": "¿Qué es la ciencia de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-science/" },
+      { "label": "Ciencia de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ciencia_de_datos" }
+    ]
+  }
+}

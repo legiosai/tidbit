@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-amazon-lightsail",
+  "date": "2026-10-17",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": ["Lightsail", "Lightsail instance", "Lightsail instances"],
+    "es": ["Lightsail", "instancia de Lightsail", "instancias de Lightsail"]
+  },
+  "image": "img/2026-10-17-amazon-lightsail.svg",
+  "imageAlt": {
+    "en": "A single box labeled with one monthly price bundles a server, a disk, data transfer and a fixed IP, running a WordPress site",
+    "es": "Una sola caja con un precio mensual junta un servidor, un disco, transferencia de datos y una IP fija, corriendo un sitio WordPress"
+  },
+  "en": {
+    "title": "Amazon Lightsail",
+    "tagline": "The simple corner of AWS: a ready-made server for a flat monthly price.",
+    "explanation": [
+      "**Lightsail** is AWS's answer for people who want one server and nothing more complicated. You pick a plan, pick what it should come with (plain Linux or Windows, or a ready-made setup like WordPress), and a minute later you have a running machine with a fixed IP address and a browser-based terminal. It is the AWS version of the classic \"virtual private server\" sold by hosting companies.",
+      "The main difference with Amazon EC2 is packaging. With EC2 you choose and pay separately for the machine, the disk, the network traffic and the public address, and you configure a VPC and security rules. With Lightsail all of that comes in one bundle at a predictable monthly price, with a much smaller set of options and a simpler console.",
+      "It suits a personal blog, a small business website, a test environment or a side project. Lightsail also offers simple managed databases, load balancers and container hosting in the same style. When a project grows beyond it, you can take a snapshot of the server and move it to EC2, where the full range of AWS options is available."
+    ],
+    "analogy": "A furnished studio with utilities included in the rent, instead of an apartment where you set up electricity, gas and internet one by one. Less flexible, but one bill and you move in today.",
+    "keyPoints": [
+      "Virtual servers in fixed-price bundles: machine, disk, transfer and IP together.",
+      "One-click setups for common apps like WordPress.",
+      "Far fewer options than EC2, on purpose.",
+      "Snapshots can be exported to EC2 when a project outgrows it."
+    ],
+    "links": [
+      { "label": "What is Amazon Lightsail? (official docs)", "url": "https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html" },
+      { "label": "Amazon Lightsail", "url": "https://aws.amazon.com/lightsail/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Lightsail",
+    "tagline": "El rincón simple de AWS: un servidor listo por un precio mensual fijo.",
+    "explanation": [
+      "**Lightsail** es la respuesta de AWS para quien quiere un servidor y nada más complicado. Elegís un plan, elegís con qué viene (Linux o Windows pelado, o algo ya armado como WordPress), y en un minuto tenés una máquina andando con una dirección IP fija y una terminal en el navegador. Es la versión de AWS del clásico \"servidor privado virtual\" que venden las empresas de hosting.",
+      "La diferencia principal con Amazon EC2 es el empaquetado. En EC2 elegís y pagás por separado la máquina, el disco, el tráfico de red y la dirección pública, y configurás una VPC y reglas de seguridad. En Lightsail todo eso viene en un paquete con un precio mensual previsible, con muchas menos opciones y una consola más simple.",
+      "Sirve para un blog personal, el sitio de un negocio chico, un entorno de pruebas o un proyecto paralelo. Lightsail también ofrece, con el mismo estilo, bases de datos administradas simples, balanceadores de carga y hosting de contenedores. Cuando un proyecto lo supera, podés sacarle un snapshot al servidor y llevarlo a EC2, donde tenés todas las opciones de AWS."
+    ],
+    "analogy": "Un monoambiente amueblado con las expensas y los servicios incluidos, en vez de un departamento donde das de alta la luz, el gas e internet uno por uno. Menos flexible, pero una sola factura y te mudás hoy.",
+    "keyPoints": [
+      "Servidores virtuales en paquetes de precio fijo: máquina, disco, transferencia e IP juntos.",
+      "Instalaciones de un clic para apps comunes como WordPress.",
+      "Muchas menos opciones que EC2, a propósito.",
+      "Los snapshots se pueden exportar a EC2 cuando el proyecto crece."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Lightsail? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/lightsail/latest/userguide/what-is-amazon-lightsail.html" },
+      { "label": "Amazon Lightsail", "url": "https://aws.amazon.com/es/lightsail/" }
+    ]
+  }
+}

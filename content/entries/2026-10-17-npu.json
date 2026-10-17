@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-npu",
+  "date": "2026-10-17",
+  "subjects": ["hardware", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["NPUs", "neural processing unit", "neural processing units", "on-device AI"],
+    "es": ["NPUs", "unidad de procesamiento neuronal", "unidades de procesamiento neuronal", "IA en el dispositivo"]
+  },
+  "image": "img/2026-10-17-npu.svg",
+  "imageAlt": {
+    "en": "A phone whose chip has CPU, GPU and NPU blocks; lines from the NPU lead to three tasks: blur background, find faces and voice to text",
+    "es": "Un celular cuyo chip tiene bloques CPU, GPU y NPU; de la NPU salen líneas hacia tres tareas: desenfocar el fondo, encontrar caras y pasar voz a texto"
+  },
+  "en": {
+    "title": "NPU",
+    "tagline": "A small AI engine inside phones and laptops that runs models fast on little battery.",
+    "explanation": [
+      "An **NPU** (neural processing unit) is a part of a chip dedicated to running AI models. Modern phones and many recent laptops have one inside their main chip, next to the CPU and the GPU. It is what blurs the background in a video call, finds faces in your photo library, transcribes a voice note or runs a small language model without sending anything over the internet.",
+      "Like a TPU, it is specialized in the multiplications that neural networks are made of, using low-precision numbers. The difference is the goal. A TPU lives in a data center and trains or serves giant models; an NPU lives in your device and runs small models for inference using as little energy as possible. The same task on the CPU would be slower and drain the battery faster.",
+      "NPUs matter because of **on-device AI**: processing data on the device itself is quick, works offline and keeps private things like photos and voice off someone else's server. Manufacturers often advertise NPU speed in TOPS (trillions of operations per second), but that number says little on its own; what counts is whether the apps you use actually take advantage of it. Brand names vary too: Apple, for example, calls its NPU the Neural Engine."
+    ],
+    "analogy": "A pocket translator versus phoning an interpreter. The interpreter far away can handle anything, but the little device in your pocket answers instantly, works without signal and keeps the conversation to yourself.",
+    "keyPoints": [
+      "A part of a phone or laptop chip made for running AI models.",
+      "Runs small models locally, quickly and on little battery.",
+      "Keeps data on the device, so some AI features work offline and more privately.",
+      "TOPS figures in ads are a rough guide, not a measure of real usefulness."
+    ],
+    "links": [
+      { "label": "Neural processing unit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Neural_processing_unit" },
+      { "label": "What is a neural processing unit? (IBM)", "url": "https://www.ibm.com/think/topics/neural-processing-unit" }
+    ]
+  },
+  "es": {
+    "title": "NPU",
+    "tagline": "Un motor de IA chico en celulares y notebooks que corre modelos con poca batería.",
+    "explanation": [
+      "Una **NPU** (neural processing unit, unidad de procesamiento neuronal) es una parte de un chip dedicada a correr modelos de IA. Los celulares modernos y muchas notebooks recientes tienen una dentro de su chip principal, al lado del CPU y la GPU. Es la que desenfoca el fondo en una videollamada, encuentra caras en tu galería de fotos, transcribe un audio o corre un modelo de lenguaje chico sin mandar nada por internet.",
+      "Igual que una TPU, está especializada en las multiplicaciones de las que están hechas las redes neuronales, con números de baja precisión. La diferencia es el objetivo. Una TPU vive en un centro de datos y entrena o sirve modelos gigantes; una NPU vive en tu aparato y corre modelos chicos para hacer inferencia gastando la menor energía posible. La misma tarea en el CPU sería más lenta y vaciaría la batería más rápido.",
+      "Las NPU importan por la **IA en el dispositivo**: procesar los datos en el propio aparato es rápido, funciona sin conexión y deja cosas privadas como fotos y voz fuera del servidor de otro. Los fabricantes suelen anunciar la velocidad de la NPU en TOPS (billones de operaciones por segundo), pero ese número solo dice poco; lo que cuenta es si las apps que usás la aprovechan de verdad. Los nombres comerciales también cambian: Apple, por ejemplo, a la suya le dice Neural Engine."
+    ],
+    "analogy": "Un traductor de bolsillo en lugar de llamar a un intérprete. El intérprete lejano puede con todo, pero el aparatito que tenés en el bolsillo responde al instante, funciona sin señal y la conversación queda entre vos y él.",
+    "keyPoints": [
+      "Una parte del chip de un celular o notebook hecha para correr modelos de IA.",
+      "Corre modelos chicos en el aparato, rápido y gastando poca batería.",
+      "Los datos quedan en el dispositivo: algunas funciones de IA andan sin conexión y con más privacidad.",
+      "Los TOPS de las publicidades son una guía aproximada, no una medida de utilidad real."
+    ],
+    "links": [
+      { "label": "Acelerador de IA en Wikipedia", "url": "https://es.wikipedia.org/wiki/Acelerador_de_IA" },
+      { "label": "¿Qué es una unidad de procesamiento neuronal? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/neural-processing-unit" }
+    ]
+  }
+}

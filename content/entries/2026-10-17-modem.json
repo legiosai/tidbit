@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-modem",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["modems", "cable modem", "cable modems", "DSL modem", "ONT", "optical network terminal"],
+    "es": ["módems", "modem", "cablemódem", "módem de cable", "ONT"]
+  },
+  "image": "img/2026-10-17-modem.svg",
+  "imageAlt": {
+    "en": "The provider's line enters a home and reaches the modem, which connects to a router with Wi-Fi, which in turn connects a laptop, a phone and a TV",
+    "es": "La línea del proveedor entra a una casa y llega al módem, que se conecta a un router con wifi, que a su vez conecta una notebook, un celular y una tele"
+  },
+  "en": {
+    "title": "Modem",
+    "tagline": "The box that connects your home to your internet provider's network.",
+    "explanation": [
+      "A **modem** is the device that connects your home to the network of your internet provider. The name comes from \"modulator-demodulator\": it turns digital data into a signal that can travel over the line coming into your home, and turns the incoming signal back into data. Which kind you have depends on that line: a DSL modem for a telephone line, a cable modem for TV cable, a box called an ONT for fiber optic, or a cellular modem for 4G or 5G.",
+      "The modem and the router do different jobs. The modem talks to the outside world over that one line. The router builds your home network: it gives each device a local address, runs the Wi-Fi and directs traffic between your devices and the modem. In many homes both live in a single box supplied by the provider, which is why people mix up the names, but inside they are still two separate functions.",
+      "Knowing the difference helps when something breaks. If no device in the house can reach the internet, the problem is often the modem or the provider's line, and the modem's lights usually show whether it has a signal. If one device works and another does not, or the Wi-Fi is weak in some rooms, the router or the Wi-Fi coverage is the more likely culprit. The classic fix, restarting the modem first and then the router, follows the order in which they set up the connection."
+    ],
+    "analogy": "The modem is the front door that connects the house to the street; the router is the hallway that leads each visitor to the right room. Sometimes both are built into the same entrance, but they are still different parts of the house.",
+    "keyPoints": [
+      "A modem connects your home to the provider's line: phone, cable, fiber or mobile.",
+      "The router builds the home network and the Wi-Fi; the modem talks to the outside.",
+      "Many providers supply one box that does both jobs.",
+      "If nothing in the house connects, check the modem and the line first."
+    ],
+    "links": [
+      { "label": "Modem on Wikipedia", "url": "https://en.wikipedia.org/wiki/Modem" },
+      { "label": "Cable modem on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cable_modem" }
+    ]
+  },
+  "es": {
+    "title": "Módem",
+    "tagline": "El aparato que conecta tu casa con la red de tu proveedor de internet.",
+    "explanation": [
+      "Un **módem** es el aparato que conecta tu casa con la red de tu proveedor de internet. El nombre viene de \"modulador-demodulador\": convierte los datos digitales en una señal que puede viajar por la línea que entra a tu casa, y convierte la señal que llega de nuevo en datos. Qué tipo tenés depende de esa línea: un módem DSL para la línea de teléfono, un cablemódem para el cable de la tele, una cajita llamada ONT para la fibra óptica o un módem celular para 4G o 5G.",
+      "El módem y el router hacen trabajos distintos. El módem habla con el mundo exterior por esa única línea. El router arma la red de tu casa: le da a cada aparato una dirección local, maneja el Wi-Fi y dirige el tráfico entre tus dispositivos y el módem. En muchas casas los dos viven en una sola caja que da el proveedor, y por eso la gente confunde los nombres, pero adentro siguen siendo dos funciones separadas.",
+      "Saber la diferencia ayuda cuando algo falla. Si ningún aparato de la casa llega a internet, el problema suele ser el módem o la línea del proveedor, y las luces del módem casi siempre muestran si tiene señal. Si un aparato anda y otro no, o el Wi-Fi llega flojo a algunos cuartos, lo más probable es que sea el router o la cobertura del Wi-Fi. El arreglo clásico, reiniciar primero el módem y después el router, sigue el orden en que arman la conexión."
+    ],
+    "analogy": "El módem es la puerta de entrada que une la casa con la calle; el router es el pasillo que lleva a cada visita al cuarto correcto. A veces los dos están en la misma entrada, pero siguen siendo partes distintas de la casa.",
+    "keyPoints": [
+      "El módem conecta tu casa con la línea del proveedor: teléfono, cable, fibra o red móvil.",
+      "El router arma la red de la casa y el Wi-Fi; el módem habla con el exterior.",
+      "Muchos proveedores dan una sola caja que hace las dos cosas.",
+      "Si nada en la casa se conecta, revisá primero el módem y la línea."
+    ],
+    "links": [
+      { "label": "Módem en Wikipedia", "url": "https://es.wikipedia.org/wiki/M%C3%B3dem" },
+      { "label": "Cablemódem en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cablem%C3%B3dem" }
+    ]
+  }
+}

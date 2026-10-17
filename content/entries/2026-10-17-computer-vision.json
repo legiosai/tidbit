@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-computer-vision",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["machine vision", "image recognition"],
+    "es": ["visión artificial", "computer vision", "reconocimiento de imágenes"]
+  },
+  "image": "img/2026-10-17-computer-vision.svg",
+  "imageAlt": {
+    "en": "A street photo with boxes drawn around a car and a person, each tagged with a label and a confidence score",
+    "es": "Una foto de una calle con recuadros alrededor de un auto y una persona, cada uno con una etiqueta y un puntaje de confianza"
+  },
+  "en": {
+    "title": "Computer vision",
+    "tagline": "The part of AI that lets computers find and understand what is in images and video.",
+    "explanation": [
+      "**Computer vision** is the field of AI that gets computers to make sense of images and video. To a computer a photo is just a grid of numbers, one per pixel; computer vision turns that grid into useful statements like 'there is a pedestrian 10 meters ahead', 'this X-ray shows a fracture' or 'this receipt says 4,250'.",
+      "It covers a family of tasks. **Classification** says what an image shows ('cat'). **Object detection** finds each thing and draws a box around it, with a confidence score. **Segmentation** outlines objects pixel by pixel. Others read text in images (**OCR**), recognize faces, estimate body poses or track objects across video frames. Modern systems learn all this with deep learning, trained on millions of labeled images; a turning point was 2012, when a deep network won the ImageNet image-recognition contest by a wide margin.",
+      "You use it constantly: unlocking a phone with your face, searching your photos for 'beach', depositing a check from the bank app, scanning a QR code, supermarket checkouts that recognize products. It also guides factory inspection, crop monitoring, medical imaging and cars that brake on their own. The weak spots are the usual ones for machine learning: it can fail on situations unlike its training images, and facial recognition in particular raises serious questions about errors, bias and surveillance."
+    ],
+    "analogy": "A trainee radiologist who has looked at a million labeled scans. They spot patterns fast and tirelessly, but show them something truly unusual and they may confidently call it the closest thing they have seen before.",
+    "keyPoints": [
+      "Turns pixels into labels, boxes, outlines or extracted text.",
+      "Main tasks: classification, detection, segmentation and OCR.",
+      "Learned from huge sets of labeled images, using deep learning.",
+      "Face recognition raises concerns about bias and surveillance."
+    ],
+    "links": [
+      { "label": "Computer vision on Wikipedia", "url": "https://en.wikipedia.org/wiki/Computer_vision" },
+      { "label": "What is computer vision? (IBM)", "url": "https://www.ibm.com/think/topics/computer-vision" }
+    ]
+  },
+  "es": {
+    "title": "Visión por computadora",
+    "tagline": "La parte de la IA que le permite a una computadora entender qué hay en imágenes y video.",
+    "explanation": [
+      "La **visión por computadora** (visión artificial, computer vision) es el campo de la IA que logra que una computadora entienda imágenes y video. Para una computadora, una foto es solo una grilla de números, uno por píxel; la visión por computadora convierte esa grilla en afirmaciones útiles como 'hay un peatón a 10 metros', 'esta radiografía muestra una fractura' o 'este ticket dice 4.250'.",
+      "Abarca una familia de tareas. La **clasificación** dice qué muestra una imagen ('gato'). La **detección de objetos** encuentra cada cosa y le dibuja un recuadro alrededor, con un puntaje de confianza. La **segmentación** recorta los objetos píxel por píxel. Otras tareas leen texto en imágenes (**OCR**), reconocen caras, estiman posturas del cuerpo o siguen objetos a lo largo de un video. Los sistemas modernos aprenden todo esto con deep learning, entrenados con millones de imágenes etiquetadas; un punto de quiebre fue 2012, cuando una red profunda ganó por amplio margen el concurso de reconocimiento de imágenes ImageNet.",
+      "La usás todo el tiempo: al desbloquear el celular con la cara, al buscar 'playa' entre tus fotos, al depositar un cheque desde la app del banco, al escanear un código QR, en las cajas del súper que reconocen productos. También guía la inspección en fábricas, el monitoreo de cultivos, las imágenes médicas y los autos que frenan solos. Los puntos débiles son los de siempre en machine learning: puede fallar en situaciones distintas a las de sus imágenes de entrenamiento, y el reconocimiento facial en particular abre preguntas serias sobre errores, sesgos y vigilancia."
+    ],
+    "analogy": "Es como un residente de radiología que ya miró un millón de placas etiquetadas. Encuentra patrones rápido y sin cansarse, pero si le mostrás algo realmente raro puede decirte con total seguridad que es lo más parecido que vio antes.",
+    "keyPoints": [
+      "Convierte píxeles en etiquetas, recuadros, contornos o texto extraído.",
+      "Tareas principales: clasificación, detección, segmentación y OCR.",
+      "Aprende de enormes conjuntos de imágenes etiquetadas, con deep learning.",
+      "El reconocimiento facial genera preocupación por sesgos y vigilancia."
+    ],
+    "links": [
+      { "label": "Visión artificial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Visi%C3%B3n_artificial" },
+      { "label": "¿Qué es la visión artificial? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/computer-vision" }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="22" y="100" width="20" height="28" rx="3"/><rect x="46" y="100" width="20" height="28" rx="3"/>
+    <rect x="70" y="100" width="20" height="28" rx="3"/><rect x="94" y="100" width="20" height="28" rx="3"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="126" y="76" width="256" height="76" rx="10" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <rect x="136" y="100" width="20" height="28" rx="3"/><rect x="160" y="100" width="20" height="28" rx="3"/>
+    <rect x="184" y="100" width="20" height="28" rx="3"/><rect x="208" y="100" width="20" height="28" rx="3"/>
+    <rect x="232" y="100" width="20" height="28" rx="3"/><rect x="256" y="100" width="20" height="28" rx="3"/>
+    <rect x="280" y="100" width="20" height="28" rx="3"/><rect x="304" y="100" width="20" height="28" rx="3"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9bd1b9">
+    <rect x="328" y="100" width="20" height="28" rx="3"/><rect x="352" y="100" width="20" height="28" rx="3"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M100 160 L40 160"/><path d="M45 156 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="254" y="64">what the model can see</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="68" y="180">older, falls out</text>
+    <text x="230" y="170">chat and files</text><text x="350" y="170">reply</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a fixed number of tokens at a time</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="60" y="30" width="280" height="160" rx="14" fill="#e6dfd0"/>
+    <rect x="80" y="66" width="114" height="50" rx="8" fill="#9ac7ea"/>
+    <rect x="206" y="66" width="114" height="50" rx="8" fill="#9bd1b9"/>
+    <rect x="80" y="124" width="114" height="50" rx="8" fill="#ffd166"/>
+    <rect x="206" y="124" width="114" height="50" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="54">one monthly price</text>
+    <text x="137" y="96">server</text><text x="263" y="96">disk</text>
+    <text x="137" y="154">transfer</text><text x="263" y="154">static IP</text>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">everything in one simple bundle</text>
+</svg>

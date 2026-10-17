@@ -180,12 +180,22 @@ const nfMd = await call("/__nope__/", { headers: { Accept: "text/markdown" } });
 if (nfMd.status !== 404 || !(nfMd.headers.get("Content-Type") || "").startsWith("text/markdown")) fail("site/_worker.js", "a missing page does not answer Markdown 404s");
 
 // ---------- 4. external links (network) ----------
+// Some sites answer 200 with a "page not found" page (INCIBE does), so an HTML page's title counts too.
+const SOFT_404 = /not found|no encontrad|page doesn.t exist|no existe|\b404\b/i;
+const BLOCKED = /request rejected|access denied|just a moment|attention required/i; // bot protection, not a broken link
 async function check(url) {
   for (let i = 0; i < 2; i++) {
     try {
-      const r = await fetch(url, { redirect: "follow", headers: { "User-Agent": "Mozilla/5.0 (compatible; tidbit-link-check; +https://github.com/legiosai/tidbit)" }, signal: AbortSignal.timeout(20000) });
-      return r.status;
-    } catch { if (i) return 0; }
+      const r = await fetch(url, { redirect: "follow", signal: AbortSignal.timeout(20000), headers: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 tidbit-link-check",
+        Accept: "text/html,application/xhtml+xml,*/*", "Accept-Language": "es,en" } });
+      if (r.ok && (r.headers.get("Content-Type") || "").includes("text/html")) {
+        const title = ((await r.text()).match(/<title[^>]*>([^<]*)/i)?.[1] ?? "").trim();
+        if (SOFT_404.test(title)) return { status: 404, note: `answers 200 but the page says "${title}"` };
+        if (BLOCKED.test(title)) return { status: 403 };
+      }
+      return { status: r.status };
+    } catch { if (i) return { status: 0 }; }
   }
 }
 if (linksMode) {
@@ -196,14 +206,16 @@ if (linksMode) {
       const base = process.env.LINK_BASE ?? "origin/main";
       changed = execFileSync("git", ["diff", "--name-only", `${base}...HEAD`, "--", "content/entries"], { cwd: root, encoding: "utf8" }).split("\n").filter(Boolean);
       changed.push(...execFileSync("git", ["diff", "--name-only", "HEAD", "--", "content/entries"], { cwd: root, encoding: "utf8" }).split("\n").filter(Boolean));
+      // New entries not committed yet are what a contributor has before opening the pull request.
+      changed.push(...execFileSync("git", ["ls-files", "--others", "--exclude-standard", "--", "content/entries"], { cwd: root, encoding: "utf8" }).split("\n").filter(Boolean));
     } catch { warn("links", "could not diff against origin/main; checking every entry"); changed = files.map((f) => `content/entries/${f}`); }
     targets = entries.filter((e) => changed.includes(e.file));
   }
   const urls = new Map();
   for (const e of targets) for (const lang of ["en", "es"]) for (const l of e[lang].links) urls.set(l.url, e.file);
   for (const [url, file] of urls) {
-    const status = await check(url);
-    if (status === 404 || status === 410 || status === 0) fail(file, `link ${url} answers ${status || "nothing (DNS or timeout)"}`);
+    const { status, note } = await check(url);
+    if (status === 404 || status === 410 || status === 0) fail(file, `link ${url} ${note ?? `answers ${status || "nothing (DNS or timeout)"}`}`);
     else if (status >= 400) warn(file, `link ${url} answers ${status} to an automated check; open it by hand to be sure`);
   }
   console.log(`links: checked ${urls.size} URL(s) from ${targets.length} entr${targets.length === 1 ? "y" : "ies"}`);

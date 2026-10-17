@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-chatbot",
+  "date": "2026-10-17",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["chatbots", "chat bot"],
+    "es": ["chatbots", "bot conversacional", "bots conversacionales"]
+  },
+  "image": "img/2026-10-17-chatbot.svg",
+  "imageAlt": {
+    "en": "Two chat windows side by side: a scripted bot that only offers options 1, 2 or 3, and a language-model bot that answers a free-form complaint in its own words",
+    "es": "Dos ventanas de chat lado a lado: un bot con guion que solo ofrece las opciones 1, 2 o 3, y un bot con modelo de lenguaje que responde con sus palabras un reclamo escrito libremente"
+  },
+  "en": {
+    "title": "Chatbot",
+    "tagline": "A program you talk to by typing or speaking, as if it were a person.",
+    "explanation": [
+      "A **chatbot** is a program designed to hold a conversation. You write or say something, and it answers in words. The idea is old: in 1966 Joseph Weizenbaum at MIT built ELIZA, which imitated a therapist by turning your sentences back into questions. Some users became emotionally attached to it, even knowing it was a simple trick.",
+      "For decades, most chatbots were **scripted**. The bank or airline bot on a website follows a decision tree written by people: it looks for keywords and offers fixed menus ('Type 1 for a refund'). That is predictable and cheap, but it breaks the moment you ask something nobody anticipated.",
+      "Modern chatbots like ChatGPT, Claude or Gemini are built on large language models, so they generate each reply on the spot instead of choosing from a script. They understand messy questions and answer naturally, and companies can connect them to their own documents and systems. The trade-off is control: a generated answer can be wrong. In 2024 a Canadian tribunal ordered Air Canada to honor a refund policy its website chatbot had invented, which made clear that a company is responsible for what its bot says."
+    ],
+    "analogy": "A scripted chatbot is a phone menu that reads you options. A language-model chatbot is a new employee who can talk about anything, but who sometimes makes things up when they do not know.",
+    "keyPoints": [
+      "Old chatbots follow scripts; modern ones generate replies with an LLM.",
+      "ELIZA, from 1966, is usually called the first chatbot.",
+      "Generated replies sound natural but can be wrong.",
+      "Companies are responsible for what their chatbots tell customers."
+    ],
+    "links": [
+      { "label": "Chatbot on Wikipedia", "url": "https://en.wikipedia.org/wiki/Chatbot" },
+      { "label": "ELIZA on Wikipedia", "url": "https://en.wikipedia.org/wiki/ELIZA" },
+      { "label": "What is a chatbot? (IBM)", "url": "https://www.ibm.com/think/topics/chatbots" }
+    ]
+  },
+  "es": {
+    "title": "Chatbot",
+    "tagline": "Un programa con el que hablás escribiendo o con la voz, como si fuera una persona.",
+    "explanation": [
+      "Un **chatbot** (bot conversacional) es un programa pensado para mantener una conversación. Vos escribís o decís algo, y te contesta con palabras. La idea es vieja: en 1966 Joseph Weizenbaum, en el MIT, armó ELIZA, que imitaba a un terapeuta dándote vuelta tus frases en forma de pregunta. Algunos usuarios se encariñaron con ELIZA aun sabiendo que era un truco simple.",
+      "Durante décadas, la mayoría de los chatbots fueron **de guion**. El bot del banco o de la aerolínea en la web sigue un árbol de decisiones que escribió una persona: busca palabras clave y ofrece menús fijos ('Escribí 1 para un reembolso'). Es predecible y barato, pero se rompe apenas preguntás algo que nadie previó.",
+      "Los chatbots modernos como ChatGPT, Claude o Gemini están construidos sobre grandes modelos de lenguaje, así que generan cada respuesta en el momento en vez de elegirla de un guion. Entienden preguntas desordenadas y contestan con naturalidad, y las empresas pueden conectarlos a sus propios documentos y sistemas. El precio es el control: una respuesta generada puede estar mal. En 2024 un tribunal canadiense obligó a Air Canada a respetar una política de reembolsos que se había inventado el chatbot de su web, lo que dejó claro que la empresa responde por lo que dice su bot."
+    ],
+    "analogy": "Un chatbot de guion es el menú del teléfono que te lee opciones. Un chatbot con modelo de lenguaje es un empleado nuevo que puede hablar de cualquier cosa, pero que a veces inventa cuando no sabe.",
+    "keyPoints": [
+      "Los chatbots viejos siguen un guion; los modernos generan respuestas con un LLM.",
+      "A ELIZA, de 1966, se la suele considerar el primer chatbot.",
+      "Las respuestas generadas suenan naturales pero pueden estar mal.",
+      "Las empresas responden por lo que sus chatbots les dicen a los clientes."
+    ],
+    "links": [
+      { "label": "Bot conversacional en Wikipedia", "url": "https://es.wikipedia.org/wiki/Bot_conversacional" },
+      { "label": "ELIZA en Wikipedia", "url": "https://es.wikipedia.org/wiki/ELIZA" },
+      { "label": "¿Qué es un chatbot? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/chatbots" }
+    ]
+  }
+}

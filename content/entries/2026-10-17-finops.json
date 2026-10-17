@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-finops",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["cloud cost management", "cloud financial management", "cloud cost optimization"],
+    "es": ["gestión de costos en la nube", "gestión de costos cloud", "optimización de costos en la nube"]
+  },
+  "image": "img/2026-10-17-finops.svg",
+  "imageAlt": {
+    "en": "A loop of three steps, inform, optimize and operate, around a cloud bill, repeated over and over",
+    "es": "Un ciclo de tres pasos, informar, optimizar y operar, alrededor de una factura de la nube, que se repite una y otra vez"
+  },
+  "en": {
+    "title": "FinOps",
+    "tagline": "Understanding and controlling cloud spending, as a job shared by engineers and finance.",
+    "explanation": [
+      "**FinOps** (from finance and operations) is the practice of managing cloud costs as a shared responsibility. In a traditional data center, buying servers was a big, slow decision approved by finance. In the cloud, any engineer can start resources in seconds and the bill arrives at the end of the month, already spent. FinOps brings engineering, finance and business teams together so that spending decisions are made with the numbers in view.",
+      "The FinOps Foundation, part of the Linux Foundation, describes it as a loop of three phases. **Inform**: make costs visible and assign them to teams and products, usually by **tagging** every resource with its owner. **Optimize**: cut waste, like idle servers left running, oversized machines (**rightsizing**), forgotten disks and snapshots, and commit to steady usage with discounts such as reserved instances or savings plans. **Operate**: set budgets and alerts, review costs regularly and make cost one more thing teams track, next to speed and reliability.",
+      "The goal is not to spend as little as possible but to get the most value per dollar: spending more on a product that grows can be the right call. Clouds provide tools for it, such as AWS Cost Explorer and Budgets, Azure Cost Management and Google Cloud billing reports. The most common surprises are data leaving the cloud, logs and storage that grow quietly, and test environments nobody turned off."
+    ],
+    "analogy": "A shared household budget for the electricity bill. Everyone can turn on lights and heaters, so the bill only stays reasonable if everyone can see what uses the most and agrees on turning things off when they leave the room.",
+    "keyPoints": [
+      "Makes cloud spending a shared responsibility of engineering, finance and business.",
+      "Three phases: inform (visibility), optimize (cut waste), operate (budgets and habits).",
+      "Common levers: tagging, rightsizing, turning off idle resources, commitment discounts.",
+      "Aims for value per dollar, not the lowest possible bill."
+    ],
+    "links": [
+      { "label": "What is FinOps? (FinOps Foundation)", "url": "https://www.finops.org/introduction/what-is-finops/" },
+      { "label": "What is FinOps? (Microsoft Learn)", "url": "https://learn.microsoft.com/en-us/cloud-computing/finops/overview" },
+      { "label": "Cloud cost management (AWS)", "url": "https://aws.amazon.com/aws-cost-management/" }
+    ]
+  },
+  "es": {
+    "title": "FinOps",
+    "tagline": "Entender y controlar el gasto en la nube, como tarea compartida de ingeniería y finanzas.",
+    "explanation": [
+      "**FinOps** (de finanzas y operaciones) es la práctica de manejar los costos de la nube como una responsabilidad compartida. En un centro de datos tradicional, comprar servidores era una decisión grande y lenta que aprobaba finanzas. En la nube, cualquier ingeniera puede prender recursos en segundos y la factura llega a fin de mes, con la plata ya gastada. FinOps junta a los equipos de ingeniería, finanzas y negocio para que las decisiones de gasto se tomen con los números a la vista.",
+      "La FinOps Foundation, que forma parte de la Linux Foundation, lo describe como un ciclo de tres fases. **Informar**: hacer visibles los costos y asignarlos a equipos y productos, normalmente **etiquetando** (tagging) cada recurso con su dueño. **Optimizar**: recortar desperdicio, como servidores prendidos sin uso, máquinas más grandes de lo necesario (**rightsizing**), discos y snapshots olvidados, y comprometer el uso estable a cambio de descuentos como las instancias reservadas o los savings plans. **Operar**: fijar presupuestos y alertas, revisar los costos seguido y que el costo sea una cosa más que los equipos miran, junto con la velocidad y la confiabilidad.",
+      "El objetivo no es gastar lo menos posible sino sacar el mayor valor por cada dólar: gastar más en un producto que crece puede ser la decisión correcta. Las nubes dan herramientas para esto, como AWS Cost Explorer y Budgets, Azure Cost Management y los reportes de facturación de Google Cloud. Las sorpresas más comunes son los datos que salen de la nube, los logs y el almacenamiento que crecen en silencio, y los entornos de prueba que nadie apagó."
+    ],
+    "analogy": "El presupuesto compartido de la luz en una casa. Todos pueden prender luces y estufas, así que la factura solo se mantiene razonable si todos ven qué es lo que más consume y se ponen de acuerdo en apagar al salir de un ambiente.",
+    "keyPoints": [
+      "Hace del gasto en la nube una responsabilidad compartida entre ingeniería, finanzas y negocio.",
+      "Tres fases: informar (visibilidad), optimizar (recortar desperdicio), operar (presupuestos y hábitos).",
+      "Palancas comunes: etiquetas, rightsizing, apagar recursos ociosos, descuentos por compromiso.",
+      "Busca valor por dólar, no la factura más baja posible."
+    ],
+    "links": [
+      { "label": "¿Qué es FinOps? (Microsoft Learn)", "url": "https://learn.microsoft.com/es-es/cloud-computing/finops/overview" },
+      { "label": "¿Qué es Cloud FinOps? (Google Cloud)", "url": "https://cloud.google.com/learn/what-is-finops?hl=es-419" },
+      { "label": "What is FinOps?, de la FinOps Foundation (en inglés)", "url": "https://www.finops.org/introduction/what-is-finops/" }
+    ]
+  }
+}

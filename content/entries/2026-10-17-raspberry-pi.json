@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-raspberry-pi",
+  "date": "2026-10-17",
+  "subjects": ["hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Raspberry Pis", "Raspberry Pi Foundation"],
+    "es": ["Raspberry Pi Foundation", "Fundación Raspberry Pi"]
+  },
+  "image": "img/2026-10-17-raspberry-pi.svg",
+  "imageAlt": {
+    "en": "A small green circuit board with a row of GPIO pins along the top, a CPU chip in the middle, a memory card slot and USB and network ports on the side",
+    "es": "Una placa verde chica con una fila de pines GPIO arriba, un chip CPU en el medio, una ranura para tarjeta de memoria y puertos USB y de red al costado"
+  },
+  "en": {
+    "title": "Raspberry Pi",
+    "tagline": "A cheap, credit-card-sized computer made for learning and tinkering.",
+    "explanation": [
+      "A **Raspberry Pi** is a small, inexpensive computer built on a single board about the size of a credit card. It has a processor, memory, USB ports, a video output and a row of pins for connecting electronics. Add a power supply, a microSD card with an operating system (usually a version of Linux), a keyboard and a screen, and it works as a basic desktop computer.",
+      "It was created in the UK by the Raspberry Pi Foundation, an educational charity, and first went on sale in 2012 to help children learn programming and how computers work inside. It quickly became a favorite of hobbyists, schools and engineers too. People use it as a home media center, a retro game console, a weather station, a small home server, the brain of a robot or the controller of a sensor in a factory.",
+      "What makes it special is that row of **GPIO pins** (general-purpose input/output). From a short Python program you can switch on a light, read a temperature sensor or drive a motor, which turns code into something you can touch. It will not replace a laptop for heavy work, but it is a cheap and safe place to experiment: if you break the setup, you rewrite the memory card and start again."
+    ],
+    "analogy": "A box of LEGO for computing. It is a real computer, but small and cheap enough that you can wire it to things, take it apart and get it wrong without worrying.",
+    "keyPoints": [
+      "A full computer on one small board, usually running Linux from a microSD card.",
+      "Made by the Raspberry Pi Foundation, a UK charity, to teach computing.",
+      "Its GPIO pins let programs control lights, sensors and motors.",
+      "Common uses: learning, home servers, media centers and IoT projects."
+    ],
+    "links": [
+      { "label": "Raspberry Pi Foundation (official)", "url": "https://www.raspberrypi.org/" },
+      { "label": "Raspberry Pi on Wikipedia", "url": "https://en.wikipedia.org/wiki/Raspberry_Pi" }
+    ]
+  },
+  "es": {
+    "title": "Raspberry Pi",
+    "tagline": "Una computadora barata del tamaño de una tarjeta de crédito, hecha para aprender.",
+    "explanation": [
+      "Una **Raspberry Pi** es una computadora chica y barata armada sobre una sola placa del tamaño de una tarjeta de crédito. Tiene procesador, memoria, puertos USB, salida de video y una fila de pines para conectar electrónica. Le sumás una fuente de alimentación, una tarjeta microSD con un sistema operativo (casi siempre una versión de Linux), un teclado y una pantalla, y funciona como una computadora de escritorio básica.",
+      "La creó en el Reino Unido la Fundación Raspberry Pi, una organización educativa sin fines de lucro, y salió a la venta en 2012 para que chicos y chicas aprendieran a programar y entendieran cómo funciona una computadora por dentro. Enseguida se volvió la favorita de aficionados, escuelas e ingenieros. La gente la usa como centro multimedia, consola de juegos retro, estación meteorológica, servidor casero, cerebro de un robot o controlador de un sensor en una fábrica.",
+      "Lo que la hace especial es esa fila de **pines GPIO** (entrada/salida de propósito general). Con un programita en Python podés prender una luz, leer un sensor de temperatura o mover un motor, y así el código se convierte en algo que podés tocar. No reemplaza a una notebook para trabajo pesado, pero es un lugar barato y seguro para experimentar: si rompés la configuración, volvés a grabar la tarjeta y empezás de nuevo."
+    ],
+    "analogy": "Una caja de LEGO para la computación. Es una computadora de verdad, pero tan chica y barata que podés conectarla a cosas, desarmarla y equivocarte sin preocuparte.",
+    "keyPoints": [
+      "Una computadora completa en una placa chica, que suele correr Linux desde una microSD.",
+      "La hace la Fundación Raspberry Pi, una organización británica sin fines de lucro, para enseñar computación.",
+      "Sus pines GPIO dejan que un programa controle luces, sensores y motores.",
+      "Usos comunes: aprender, servidores caseros, centros multimedia y proyectos IoT."
+    ],
+    "links": [
+      { "label": "Raspberry Pi Foundation, sitio oficial (en inglés)", "url": "https://www.raspberrypi.org/" },
+      { "label": "Raspberry Pi en Wikipedia", "url": "https://es.wikipedia.org/wiki/Raspberry_Pi" }
+    ]
+  }
+}

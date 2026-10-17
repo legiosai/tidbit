@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-terraform",
+  "date": "2026-10-17",
+  "subjects": ["cloud"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["HashiCorp Terraform", "OpenTofu", "terraform plan", "terraform apply"],
+    "es": ["HashiCorp Terraform", "OpenTofu", "terraform plan", "terraform apply"]
+  },
+  "image": "img/2026-10-17-terraform.svg",
+  "imageAlt": {
+    "en": "A .tf file goes through plan, which lists the changes, and apply, which creates resources in AWS, Azure and Google Cloud, with a state file keeping track",
+    "es": "Un archivo .tf pasa por plan, que lista los cambios, y por apply, que crea recursos en AWS, Azure y Google Cloud, con un archivo de estado que lleva la cuenta"
+  },
+  "en": {
+    "title": "Terraform",
+    "tagline": "A popular tool for describing cloud infrastructure in files and creating it for you.",
+    "explanation": [
+      "**Terraform** is a tool for infrastructure as code, created by HashiCorp (now part of IBM) and released in 2014. You write files ending in `.tf` that say what you want, for example \"a server of this size, a bucket with this name, a database in this network\", and Terraform talks to the cloud to make it real.",
+      "The everyday loop has two commands. `terraform plan` compares your files with what exists and shows a list of changes it would make: create this, modify that, delete this other thing. `terraform apply` carries them out. To know what already exists, Terraform keeps a **state file**, a record of every resource it manages; teams store it in a shared place so two people do not change the same thing at once.",
+      "Its big draw is that one language works for many platforms. Plugins called **providers** connect it to AWS, Azure, Google Cloud, and hundreds of other services, from DNS to monitoring tools. In 2023 HashiCorp changed Terraform's license to one that is no longer open source, and part of the community forked it into **OpenTofu**, which works almost the same way."
+    ],
+    "analogy": "Like an architect's blueprint plus a builder who reads it. You change the drawing, the builder tells you exactly which walls will go up or come down, and only after you agree does the work start.",
+    "keyPoints": [
+      "You describe the desired result; Terraform works out the steps.",
+      "`plan` shows the changes before `apply` makes them.",
+      "The state file is Terraform's memory of what it built; losing it causes real trouble.",
+      "OpenTofu is an open source fork that works almost the same way."
+    ],
+    "links": [
+      { "label": "What is Terraform? (official docs)", "url": "https://developer.hashicorp.com/terraform/intro" },
+      { "label": "Terraform on Wikipedia", "url": "https://en.wikipedia.org/wiki/Terraform_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Terraform",
+    "tagline": "Una herramienta popular para describir infraestructura cloud en archivos y crearla.",
+    "explanation": [
+      "**Terraform** es una herramienta de infraestructura como código, creada por HashiCorp (hoy parte de IBM) y lanzada en 2014. Escribís archivos que terminan en `.tf` y dicen lo que querés, por ejemplo \"un servidor de este tamaño, un bucket con este nombre, una base de datos en esta red\", y Terraform habla con la nube para hacerlo realidad.",
+      "El ciclo de todos los días tiene dos comandos. `terraform plan` compara tus archivos con lo que existe y te muestra la lista de cambios que haría: crear esto, modificar aquello, borrar esto otro. `terraform apply` los ejecuta. Para saber qué existe, Terraform guarda un **archivo de estado** (state file), un registro de cada recurso que maneja; los equipos lo guardan en un lugar compartido para que dos personas no toquen lo mismo a la vez.",
+      "Su gran atractivo es que un solo lenguaje sirve para muchas plataformas. Unos plugins llamados **providers** lo conectan con AWS, Azure, Google Cloud y cientos de otros servicios, desde DNS hasta herramientas de monitoreo. En 2023 HashiCorp cambió la licencia de Terraform por una que ya no es open source, y parte de la comunidad hizo un fork llamado **OpenTofu**, que funciona casi igual."
+    ],
+    "analogy": "Como el plano de un arquitecto más un constructor que lo lee. Cambiás el dibujo, el constructor te dice exactamente qué paredes se levantan o se tiran, y recién cuando das el OK empieza la obra.",
+    "keyPoints": [
+      "Describís el resultado que querés; Terraform resuelve los pasos.",
+      "`plan` muestra los cambios antes de que `apply` los haga.",
+      "El archivo de estado es la memoria de Terraform sobre lo que construyó; perderlo trae problemas serios.",
+      "OpenTofu es un fork open source que funciona casi igual."
+    ],
+    "links": [
+      { "label": "What is Terraform? (documentación oficial, en inglés)", "url": "https://developer.hashicorp.com/terraform/intro" },
+      { "label": "Terraform en Wikipedia", "url": "https://es.wikipedia.org/wiki/Terraform_(software)" }
+    ]
+  }
+}

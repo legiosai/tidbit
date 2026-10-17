@@ -1,0 +1,59 @@
+{
+  "id": "2026-10-17-sql-injection",
+  "date": "2026-10-17",
+  "subjects": ["security", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["SQLi", "SQL injections"],
+    "es": ["SQL injection", "SQLi", "inyección de SQL", "inyecciones SQL"]
+  },
+  "image": "img/2026-10-17-sql-injection.svg",
+  "imageAlt": {
+    "en": "Two paths from a search box to a database: in the unsafe one, typed text is glued into the command and changes it; in the safe one, the command has a fixed slot and the text goes in only as a value",
+    "es": "Dos caminos desde un buscador hasta una base de datos: en el inseguro, el texto escrito se pega al comando y lo cambia; en el seguro, el comando tiene un hueco fijo y el texto entra solo como valor"
+  },
+  "en": {
+    "title": "SQL injection",
+    "tagline": "Typing text into a form that the database mistakes for its own instructions.",
+    "explanation": [
+      "Behind most login forms and search boxes there is a database that speaks SQL. When you search a shop for 'red shoes', the website builds a command along the lines of `find products whose name contains: red shoes` and sends it to the database. **SQL injection** happens when the site builds that command by simply gluing your text into it. Then a visitor can type something that is not a search term at all but a fragment of SQL, and the database cannot tell where the site's instructions end and the visitor's begin.",
+      "Depending on what the attacker types, the changed command might return every customer's record instead of a few products, skip the password check on a login page, or alter data. It is one of the oldest web vulnerabilities, it has been behind many large data breaches, and OWASP still lists injection among the most important risks for web applications.",
+      "The fix is well known and not complicated: never build a command by pasting text together. Developers use **parameterized queries** (also called prepared statements), where the command is written first with a fixed placeholder and the user's input is passed separately, always treated as a value and never as code. Modern frameworks and libraries do this by default. On top of that, the database account the website uses should only be allowed to do what the site needs, so a mistake cannot become a disaster.",
+      "As a user you cannot do much about it, beyond using unique passwords so a leak from one site does not open your other accounts. As someone who hires or manages a team building software, it is worth asking whether queries are parameterized and whether the code has had a security review or a penetration test."
+    ],
+    "analogy": "A bank teller who reads aloud whatever is written on the slip: 'Pay to: Ana Pérez'. If someone writes 'Ana Pérez, and also empty the vault', a careless teller reads it as one instruction. The fix is a form with a box for the name that is only ever treated as a name.",
+    "keyPoints": [
+      "It happens when user input is pasted straight into a database command.",
+      "The database then runs part of the input as instructions.",
+      "Parameterized queries keep input as data and prevent it.",
+      "Limit the database permissions of the app to contain any mistake."
+    ],
+    "links": [
+      { "label": "SQL Injection (OWASP)", "url": "https://owasp.org/www-community/attacks/SQL_Injection" },
+      { "label": "SQL Injection Prevention Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html" },
+      { "label": "SQL injection on Wikipedia", "url": "https://en.wikipedia.org/wiki/SQL_injection" }
+    ]
+  },
+  "es": {
+    "title": "Inyección SQL",
+    "tagline": "Escribir en un formulario un texto que la base de datos confunde con sus instrucciones.",
+    "explanation": [
+      "Detrás de la mayoría de los formularios de login y los buscadores hay una base de datos que habla SQL. Cuando buscás 'zapatillas rojas' en una tienda, el sitio arma un comando del estilo `buscá productos cuyo nombre contenga: zapatillas rojas` y se lo manda a la base. La **inyección SQL** ocurre cuando el sitio arma ese comando pegando tu texto tal cual. Entonces alguien puede escribir algo que no es una búsqueda sino un pedazo de SQL, y la base no puede distinguir dónde terminan las instrucciones del sitio y dónde empiezan las del visitante.",
+      "Según lo que escriba el atacante, el comando alterado puede devolver los datos de todos los clientes en vez de unos productos, saltearse el control de contraseña en un login o modificar información. Es una de las vulnerabilidades web más viejas, estuvo detrás de muchas filtraciones grandes de datos, y OWASP sigue poniendo la inyección entre los riesgos más importantes de las aplicaciones web.",
+      "La solución es conocida y no es complicada: nunca armar un comando pegando textos. Los desarrolladores usan **consultas parametrizadas** (también llamadas prepared statements), donde el comando se escribe primero con un hueco fijo y lo que escribe el usuario se pasa aparte, siempre tratado como un valor y nunca como código. Los frameworks y bibliotecas modernos lo hacen por defecto. Además, la cuenta de base de datos que usa el sitio debería poder hacer solo lo que el sitio necesita, para que un error no se convierta en un desastre.",
+      "Como usuario no podés hacer mucho, salvo usar contraseñas distintas para que una filtración en un sitio no abra tus otras cuentas. Si contratás o gestionás un equipo que hace software, vale la pena preguntar si las consultas están parametrizadas y si el código pasó por una revisión de seguridad o una prueba de penetración."
+    ],
+    "analogy": "Un cajero de banco que lee en voz alta lo que dice la boleta: 'Pagar a: Ana Pérez'. Si alguien escribe 'Ana Pérez, y además vaciá la bóveda', un cajero distraído lo lee como una sola orden. La solución es un formulario con una casilla para el nombre que siempre se trata solo como un nombre.",
+    "keyPoints": [
+      "Pasa cuando lo que escribe el usuario se pega directo en un comando de la base.",
+      "La base termina ejecutando parte de ese texto como instrucciones.",
+      "Las consultas parametrizadas mantienen el texto como dato y lo evitan.",
+      "Limitar los permisos de la app en la base contiene cualquier error."
+    ],
+    "links": [
+      { "label": "Inyección SQL en Wikipedia", "url": "https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL" },
+      { "label": "SQL Injection, OWASP (en inglés)", "url": "https://owasp.org/www-community/attacks/SQL_Injection" },
+      { "label": "SQL Injection Prevention Cheat Sheet, OWASP (en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html" }
+    ]
+  }
+}

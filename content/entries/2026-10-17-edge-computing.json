@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-edge-computing",
+  "date": "2026-10-17",
+  "subjects": ["cloud", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": [],
+    "es": ["computación en el borde", "computación de borde", "computación frontera"]
+  },
+  "image": "img/2026-10-17-edge-computing.svg",
+  "imageAlt": {
+    "en": "A camera and a car send data a short distance to a nearby edge box that answers quickly, and only a summary travels the long way to a distant cloud",
+    "es": "Una cámara y un auto mandan datos a una caja de borde cercana que responde rápido, y solo un resumen hace el camino largo hasta una nube lejana"
+  },
+  "en": {
+    "title": "Edge computing",
+    "tagline": "Processing data close to where it is created, instead of in a distant data center.",
+    "explanation": [
+      "**Edge computing** means running computation near the people or devices that need it, at the \"edge\" of the network, rather than sending everything to a big data center hundreds or thousands of kilometers away. The edge can be a small server in a factory or a store, equipment in a mobile network tower, a city-level point of presence, or the device itself: a camera, a car or a phone.",
+      "The main reasons are physics and volume. Every trip to a distant data center adds latency, and some decisions cannot wait: a factory robot that must stop when a person walks in front of it, or a car reacting to the road. Other times the problem is sheer data: a set of security cameras produces far too much video to upload, so it is analyzed on site and only the alerts go to the cloud. Keeping data local can also help with privacy rules and keep working when the internet connection drops.",
+      "Edge and cloud work together; the edge does not replace the cloud. A common split is: react locally, then send summaries to the cloud for storage, analytics and training models. Cloud providers offer edge options, from functions that run in CDN locations close to users, to hardware they install in your own building. The trade-off is many small, scattered machines that are harder to update, secure and monitor than a few big ones."
+    ],
+    "analogy": "A first-aid kit in every office versus one big hospital across town. Small cuts are handled on the spot in seconds; only the serious cases make the long trip to the hospital.",
+    "keyPoints": [
+      "Computes near the data source: in a store, a factory, a tower or on the device.",
+      "Cuts latency and the amount of data sent over the network.",
+      "Works with the cloud: react locally, send summaries centrally.",
+      "Many scattered machines are harder to update, secure and monitor."
+    ],
+    "links": [
+      { "label": "What is edge computing? (AWS)", "url": "https://aws.amazon.com/what-is/edge-computing/" },
+      { "label": "Edge computing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Edge_computing" }
+    ]
+  },
+  "es": {
+    "title": "Edge computing",
+    "tagline": "Procesar los datos cerca de donde se generan, en lugar de en un centro de datos lejano.",
+    "explanation": [
+      "El **edge computing** (computación en el borde) consiste en hacer los cálculos cerca de las personas o dispositivos que los necesitan, en el \"borde\" de la red, en lugar de mandar todo a un gran centro de datos a cientos o miles de kilómetros. El borde puede ser un servidor chico en una fábrica o un local, un equipo en una antena de telefonía, un punto de presencia en la ciudad o el propio dispositivo: una cámara, un auto o un celular.",
+      "Las razones principales son la física y el volumen. Cada viaje a un centro de datos lejano suma latencia, y hay decisiones que no pueden esperar: un robot de fábrica que tiene que frenar si una persona se cruza, o un auto que reacciona al camino. Otras veces el problema es la cantidad de datos: un conjunto de cámaras de seguridad genera demasiado video para subirlo, así que se analiza en el lugar y solo las alertas van a la nube. Mantener los datos cerca también puede ayudar con las reglas de privacidad y seguir funcionando cuando se corta internet.",
+      "El borde y la nube trabajan juntos; uno no reemplaza al otro. Una división común es: reaccionar en el lugar y después mandar resúmenes a la nube para guardarlos, analizarlos y entrenar modelos. Los proveedores de nube ofrecen opciones de edge, desde funciones que corren en las ubicaciones de una CDN cerca de los usuarios hasta hardware que instalan en tu propio edificio. El costo es tener muchas máquinas chicas y dispersas, más difíciles de actualizar, proteger y monitorear que unas pocas grandes."
+    ],
+    "analogy": "Un botiquín en cada oficina contra un gran hospital al otro lado de la ciudad. Los cortes chicos se resuelven ahí mismo en segundos; solo los casos graves hacen el viaje largo hasta el hospital.",
+    "keyPoints": [
+      "Calcula cerca del origen de los datos: en un local, una fábrica, una antena o el dispositivo.",
+      "Reduce la latencia y la cantidad de datos que viajan por la red.",
+      "Trabaja con la nube: reaccionar en el lugar, mandar resúmenes al centro.",
+      "Muchas máquinas dispersas son más difíciles de actualizar, proteger y monitorear."
+    ],
+    "links": [
+      { "label": "¿Qué es la computación en el borde? (AWS)", "url": "https://aws.amazon.com/es/what-is/edge-computing/" },
+      { "label": "Computación frontera en Wikipedia", "url": "https://es.wikipedia.org/wiki/Computaci%C3%B3n_frontera" }
+    ]
+  }
+}
