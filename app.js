@@ -4,7 +4,7 @@
 (() => {
   "use strict";
 
-  const STORE = { lang: "tidbit.lang", learned: "tidbit.learned", filters: "tidbit.filters" };
+  const STORE = { lang: "tidbit.lang", learned: "tidbit.learned", filters: "tidbit.filters", days: "tidbit.days" };
 
   const I18N = {
     en: {
@@ -12,6 +12,7 @@
       loading: "Loading…", "foot.made": "Made by", "foot.source": "Source",
       "foot.progress": "Your progress stays in this browser. No account, no login.",
       todaysPick: "Today's tidbit", newest: "New", bySubject: "By subject",
+      earlier: "Your previous days", dayN: (n) => `Day ${n}`, nextOne: "A new one tomorrow",
       read: "Read", markLearned: "Mark as learned", learned: "Learned ✓",
       search: "Search a concept…", onlyNew: "Only what I haven't learned yet",
       clear: "Clear filters", none: "Nothing matches those filters.",
@@ -20,7 +21,7 @@
       analogy: "An analogy", points: "Keep in mind", links: "Go deeper", more: "More in",
       prev: "← Previous", next: "Next →", back: "← All concepts",
       allTitle: "All concepts", learnedTitle: "What you learned",
-      langName: "ES", notFound: "That entry does not exist.",
+      notFound: "That entry does not exist.",
       count: (n) => `${n} concept${n === 1 ? "" : "s"}`,
       level: "Level", levels: { 1: "Basic", 2: "Intermediate", 3: "Advanced" },
       levelHint: "Basic reads cold. Intermediate assumes the basics of its subject. Advanced assumes intermediate.",
@@ -31,6 +32,7 @@
       loading: "Cargando…", "foot.made": "Hecho por", "foot.source": "Código",
       "foot.progress": "Tu progreso queda en este navegador. Sin cuenta ni login.",
       todaysPick: "El tidbit de hoy", newest: "Nuevas", bySubject: "Por tema",
+      earlier: "Tus días anteriores", dayN: (n) => `Día ${n}`, nextOne: "Mañana, otro nuevo",
       read: "Leer", markLearned: "Marcar como aprendida", learned: "Aprendida ✓",
       search: "Buscá un concepto…", onlyNew: "Solo lo que todavía no aprendí",
       clear: "Limpiar filtros", none: "Nada coincide con esos filtros.",
@@ -39,7 +41,7 @@
       analogy: "Una analogía", points: "Para quedarse", links: "Para seguir leyendo", more: "Más de",
       prev: "← Anterior", next: "Siguiente →", back: "← Todos los conceptos",
       allTitle: "Todos los conceptos", learnedTitle: "Lo que aprendiste",
-      langName: "EN", notFound: "Esa entrada no existe.",
+      notFound: "Esa entrada no existe.",
       count: (n) => `${n} concepto${n === 1 ? "" : "s"}`,
       level: "Nivel", levels: { 1: "Básico", 2: "Intermedio", 3: "Avanzado" },
       levelHint: "Básico se lee sin saber nada. Intermedio asume lo básico del tema. Avanzado asume lo intermedio.",
@@ -52,6 +54,7 @@
     lang: load(STORE.lang, navigator.language.startsWith("es") ? "es" : "en"),
     learned: new Set(load(STORE.learned, [])),
     filters: normalizeFilters(load(STORE.filters, {})),
+    days: normalizeDays(load(STORE.days, {})), // "YYYY-MM-DD" -> id shown that day in this browser
     subjects: {},
     entries: [],
     byId: new Map(),
@@ -61,6 +64,10 @@
 
   function normalizeFilters(f) {
     return { subjects: Array.isArray(f.subjects) ? f.subjects : [], levels: Array.isArray(f.levels) ? f.levels : [], q: typeof f.q === "string" ? f.q : "", onlyNew: !!f.onlyNew };
+  }
+  function normalizeDays(d) {
+    if (!d || typeof d !== "object" || Array.isArray(d)) return {};
+    return Object.fromEntries(Object.entries(d).filter(([k, v]) => /^\d{4}-\d{2}-\d{2}$/.test(k) && typeof v === "string"));
   }
   function load(key, fallback) {
     try { const v = localStorage.getItem(key); return v === null ? fallback : JSON.parse(v); } catch { return fallback; }
@@ -86,14 +93,15 @@
 
   // ---------- auto-linking of terms ----------
   // Every entry's title and aliases (per language) become links when they appear in another entry's text.
-  // Longest terms first so "Amazon API Gateway" wins over "API". Acronyms (all caps, short) must match case.
+  // Longest terms first so "Amazon API Gateway" wins over "API". Acronyms (all caps, short) must match case, and so
+  // must every term of an entry marked caseSensitive (proper names like "Meta" or "Arm" that are also common words).
   function termIndex(lang) {
     if (state.terms[lang]) return state.terms[lang];
     const lookup = new Map(); // lowercased term -> { id, canonical }
     for (const e of state.entries) {
       for (const term of [e.title[lang], ...(e.aliases?.[lang] ?? [])]) {
         const k = term.trim().toLowerCase();
-        if (k.length >= 2 && !lookup.has(k)) lookup.set(k, { id: e.id, canonical: term.trim() });
+        if (k.length >= 2 && !lookup.has(k)) lookup.set(k, { id: e.id, canonical: term.trim(), caseSensitive: !!e.caseSensitive });
       }
     }
     const words = [...lookup.keys()].sort((a, b) => b.length - a.length).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
@@ -116,7 +124,7 @@
         const hit = lookup.get(m.toLowerCase());
         if (!hit || hit.id === selfId || linked.has(hit.id)) return m;
         const isAcronym = hit.canonical.length <= 5 && hit.canonical === hit.canonical.toUpperCase();
-        if (isAcronym && m !== hit.canonical) return m;
+        if ((isAcronym || hit.caseSensitive) && m !== hit.canonical) return m;
         linked.add(hit.id);
         return `<a class="term" href="#/e/${esc(hit.id)}">${m}</a>`;
       });
@@ -163,21 +171,49 @@
     return `<div class="grid">${list.map(card).join("")}</div>`;
   }
 
-  // A deterministic pick that changes every day, so the home page has something new even on days nothing was published.
+  // One tidbit per calendar day, per browser. The first visit of a day picks an entry this browser was never shown
+  // (unlearned first, lowest level first, so basics come before what builds on them) and remembers it, so the
+  // rest of the day keeps the same one even after marking it learned. Once every entry was shown, the least
+  // recently shown comes back, so nothing repeats before a full round.
   function pickOfTheDay() {
-    const n = state.entries.length;
-    if (!n) return null;
+    if (!state.entries.length) return null;
+    const today = todayISO();
+    const kept = state.byId.get(state.days[today]);
+    if (kept) return kept;
+    const lastShown = new Map();
+    for (const [d, id] of Object.entries(state.days)) if (d < today && !(lastShown.get(id) > d)) lastShown.set(id, d);
+    const never = state.entries.filter((e) => !lastShown.has(e.id));
+    const unlearned = never.filter((e) => !state.learned.has(e.id));
+    let pool = unlearned.length ? unlearned : never;
+    if (pool.length) {
+      const minLevel = Math.min(...pool.map((e) => e.level));
+      pool = pool.filter((e) => e.level === minLevel);
+    } else {
+      const oldest = Math.min(...state.entries.map((e) => Date.parse(lastShown.get(e.id))));
+      pool = state.entries.filter((e) => Date.parse(lastShown.get(e.id)) === oldest);
+    }
     let h = 0;
-    for (const ch of todayISO()) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-    const unlearned = state.entries.filter((e) => !state.learned.has(e.id));
-    const pool = unlearned.length ? unlearned : state.entries;
-    return pool[h % pool.length];
+    for (const ch of today) h = Math.imul(h ^ ch.charCodeAt(0), 2654435761) >>> 0;
+    const pick = pool[h % pool.length];
+    state.days[today] = pick.id;
+    // A year of history is plenty; keep localStorage small.
+    const keep = Object.keys(state.days).sort().slice(-366);
+    state.days = Object.fromEntries(keep.map((d) => [d, state.days[d]]));
+    save(STORE.days, state.days);
+    return pick;
   }
 
-  function viewHome() {
+  async function viewHome() {
     const pick = pickOfTheDay();
     if (!pick) return `<p class="empty">${t("none")}</p>`;
     const learned = state.learned.has(pick.id);
+    const full = await loadEntry(pick.id);
+    const lead = full ? linkTerms(md(L(full).explanation[0]), pick.id, new Set()) : "";
+    const today = todayISO();
+    const dayCount = Object.keys(state.days).length;
+    const earlier = Object.keys(state.days).filter((d) => d < today).sort().reverse()
+      .map((d) => state.byId.get(state.days[d])).filter(Boolean)
+      .filter((e, i, a) => e.id !== pick.id && a.indexOf(e) === i).slice(0, 3);
     const newest = state.entries.slice(0, 6);
     const subjectCards = Object.keys(state.subjects).map((id) => {
       const all = state.entries.filter((e) => e.subjects.includes(id));
@@ -191,23 +227,26 @@
     }).join("");
     return `
       <section class="hero">
-        <div class="hero-img"><img src="content/${esc(pick.image)}" alt="${esc(L(pick.imageAlt ?? { en: "" }))}"></div>
-        <div>
-          <p class="kicker">${t("todaysPick")} · ${esc(fmtDate(todayISO()))}</p>
-          <h1>${esc(L(pick.title))}</h1>
+        <div class="hero-copy">
+          <p class="kicker">${t("todaysPick")} · ${esc(fmtDate(today))}</p>
+          <h1><span class="day mono">${t("dayN", dayCount)}</span>${esc(L(pick.title))}</h1>
           <p class="tagline">${esc(L(pick.tagline))}</p>
-          <div class="meta" style="margin-bottom:14px">${lvl(pick.level)}${tags(pick)}</div>
+          <div class="meta">${lvl(pick.level)}${tags(pick)}</div>
+          ${lead ? `<p class="lead">${lead}</p>` : ""}
           <div class="hero-actions">
-            <a class="btn primary" href="#/e/${esc(pick.id)}">${t("read")}</a>
+            <a class="btn primary" href="#/e/${esc(pick.id)}">${t("read")} →</a>
             <button class="btn${learned ? " done" : ""}" data-learn="${esc(pick.id)}">${learned ? t("learned") : t("markLearned")}</button>
           </div>
+          <p class="hero-note mono"><span class="dot" aria-hidden="true"></span>${esc(t("nextOne"))}</p>
         </div>
+        <div class="hero-img"><img src="content/${esc(pick.image)}" alt="${esc(L(pick.imageAlt ?? { en: "" }))}"></div>
       </section>
+      ${earlier.length ? `<h2>${t("earlier")}</h2>${grid(earlier, "")}` : ""}
       <h2>${t("bySubject")}</h2>
       <div class="subjects">${subjectCards}</div>
       <h2>${t("newest")}</h2>
       ${grid(newest, t("none"))}
-      <p style="margin-top:16px"><a class="btn" href="#/all">${t("allTitle")} →</a></p>`;
+      <p class="more-link"><a class="btn" href="#/all">${t("allTitle")} →</a></p>`;
   }
 
   function applyFilters(list) {
@@ -297,7 +336,7 @@
   function renderChrome(route) {
     document.documentElement.lang = state.lang;
     document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
-    document.getElementById("lang-toggle").textContent = t("langName");
+    document.querySelectorAll("#lang-toggle [data-lang]").forEach((s) => s.classList.toggle("on", s.dataset.lang === state.lang));
     document.getElementById("progress").textContent = t("progress", state.learned.size, state.entries.length);
     document.querySelectorAll(".top-nav a").forEach((a) => {
       a.classList.toggle("active", a.getAttribute("href") === `#${route}`);
@@ -311,7 +350,7 @@
     if (hash.startsWith("/e/")) { route = "/e"; html = await viewEntry(decodeURIComponent(hash.slice(3))); }
     else if (hash === "/all") { html = viewAll(); document.title = `${t("allTitle")} · Tidbit`; }
     else if (hash === "/learned") { html = viewLearned(); document.title = `${t("learnedTitle")} · Tidbit`; }
-    else { route = "/"; html = viewHome(); document.title = t("siteTitle"); }
+    else { route = "/"; html = await viewHome(); document.title = t("siteTitle"); }
     renderChrome(route);
     app.innerHTML = html;
     window.scrollTo(0, 0);
@@ -385,6 +424,13 @@
   });
 
   window.addEventListener("hashchange", render);
+
+  // Reading progress, as on solsoletti.com.
+  const readbar = document.getElementById("readbar");
+  window.addEventListener("scroll", () => {
+    const h = document.documentElement;
+    readbar.style.transform = `scaleX(${h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)})`;
+  }, { passive: true });
 
   loadData().then(render).catch((err) => {
     app.innerHTML = `<p class="empty">Could not load content. ${esc(err.message)}</p>`;

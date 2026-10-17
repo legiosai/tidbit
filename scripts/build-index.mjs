@@ -26,6 +26,7 @@ for (const f of files) {
   if (!Array.isArray(e.subjects) || e.subjects.length < 1 || e.subjects.length > 2) say(`subjects must have 1 or 2 ids`);
   for (const s of e.subjects ?? []) if (!subjects[s]) say(`unknown subject "${s}"`);
   if (![1, 2, 3].includes(e.level)) say(`level must be 1, 2 or 3 (got ${JSON.stringify(e.level)})`);
+  if (e.caseSensitive !== undefined && typeof e.caseSensitive !== "boolean") say(`caseSensitive must be true or false`);
   for (const lang of ["en", "es"]) {
     if (!Array.isArray(e.aliases?.[lang])) say(`aliases.${lang} must be an array (can be empty)`);
     if (typeof e.imageAlt?.[lang] !== "string" || !e.imageAlt[lang]) say(`imageAlt.${lang} missing`);
@@ -74,6 +75,7 @@ for (const f of files) {
     title: { en: e.en.title, es: e.es.title },
     tagline: { en: e.en.tagline, es: e.es.tagline },
     aliases: { en: e.aliases.en, es: e.aliases.es },
+    ...(e.caseSensitive ? { caseSensitive: true } : {}),
   });
 }
 

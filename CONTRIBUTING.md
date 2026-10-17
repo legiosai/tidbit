@@ -39,6 +39,7 @@ After writing, run `npm run index`. It validates every entry and rebuilds `conte
 | `subjects` | 1 or 2 ids from `content/subjects.json`. The main one first. |
 | `level` | `1` basic (anyone can read it cold), `2` intermediate (assumes the level 1 terms of its subject), `3` advanced (assumes level 2). |
 | `aliases` | Other spellings of the term as it appears in running text, per language: plurals, acronyms, the Spanish name. Used to link the term automatically from other entries. Can be empty arrays. Do not include the title itself. |
+| `caseSensitive` | Optional, `true` for proper names that are also everyday words (Meta, Arm, Apple): the automatic links then only match the exact capitalization of the title and aliases. |
 | `title` | The concept's name, 1 to 4 words. Keep well-known acronyms as they are (GPU, API, S3). |
 | `tagline` | One sentence, under 90 characters, that says what it is in plain words. |
 | `explanation` | 2 to 4 paragraphs. Plain language, concrete, no hype. Say what the thing IS, what it is FOR, and why it matters now. Prefer a real example over an abstraction. |
