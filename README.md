@@ -1,8 +1,8 @@
 # Tidbit
 
-**Technology concepts explained simply, in English and Spanish.**
+**The tech dictionary, explained simply, in English and Spanish.** → [tidbit.legios.com.ar](https://tidbit.legios.com.ar/)
 AI, AWS, networks, security, hardware, software, data, cloud, tech companies.
-Public, open source, no account: what you learned is remembered by your browser.
+Public, open source, no account: what you learned is remembered by your browser, and every day you visit it shows you a new term.
 
 *(En castellano: [LEEME](LEEME.md).)*
 
@@ -10,18 +10,18 @@ Every entry has a one-line definition, two to four short paragraphs, an everyday
 
 ## How it works
 
-- `index.html`, `app.js`, `style.css`: the whole site. No framework, no build step.
-- `content/entries/*.json`: one file per concept, both languages inside.
-- `content/img/*.svg`: the illustration of each entry.
-- `content/subjects.json`: the subjects you can filter by.
-- `content/index.json`: the list the site reads. Rebuilt and validated with `npm run index`.
-- `.github/workflows/site.yml`: validates the content and publishes to GitHub Pages on every push to `main`. No secrets.
+- `content/entries/*.json`: one file per term, both languages inside. `content/img/*.svg`: its illustration. `content/subjects.json`: the topics.
+- `scripts/build-index.mjs` (`npm run index`): validates every entry and rebuilds `content/index.json`.
+- `scripts/build-site.mjs` (`npm run build`): builds `dist/` with a real HTML page per URL (readable without JavaScript) and its Markdown twin (`index.md`), in English at `/` and Spanish at `/es/`: home, A–Z, topics, every term, About, Contact and Privacy. Also `sitemap.xml`, `robots.txt`, `llms.txt`, `llms-full.txt`, the JSON API (`/data/terms.json`), OpenAPI, the MCP server card and an agent skill.
+- `app.js`, `style.css`: what depends on the visitor (term of the day, learned marks, filters) on top of the built pages.
+- `site/_worker.js`: the Cloudflare Pages worker. On `Accept: text/markdown` it returns the Markdown version of any page (404s too), adds `Link` headers and serves a read-only MCP server at `/mcp` (`search_terms`, `get_term`, `list_topic`, `term_of_the_day`).
+- `.github/workflows/site.yml`: validates and builds the site on every push and pull request, and once a day so future-dated entries appear on their day.
 
 ## Run it locally
 
 ```bash
 npm ci
-npm run dev        # http://localhost:3000
+npm run dev        # http://localhost:8788, with the worker running (wrangler pages dev)
 ```
 
 ## Add an entry
@@ -36,7 +36,9 @@ npm run generate -- --subject networks --topic "DNS"
 
 ## Publish
 
-Settings → Pages → Source "GitHub Actions". Push to `main`. For a custom domain, add it under Settings → Pages and point a CNAME at `legiosai.github.io`.
+`npm run deploy` (`scripts/deploy.sh`) builds the site and uploads it to the `tidbit-legios` Cloudflare Pages project, which serves `tidbit.legios.com.ar`. If the repository has a `CLOUDFLARE_API_TOKEN` secret, the workflow does it on every push to `main`. GitHub Pages stays as a redirect: old links (`legiosai.github.io/tidbit/#/e/...`) go to the new domain.
+
+The share images (`assets/og-*.png`) are drawn by `scripts/og.html`.
 
 ## License
 

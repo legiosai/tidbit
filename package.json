@@ -1,14 +1,17 @@
 {
   "name": "tidbit",
   "private": true,
-  "description": "One technology concept a day, explained simply, in English and Spanish.",
+  "description": "The tech dictionary, explained simply: technology terms in plain words, in English and Spanish.",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "dev": "npx -y serve -l 3000 .",
     "index": "node scripts/build-index.mjs",
-    "generate": "node scripts/generate.mjs",
-    "build": "rm -rf dist && mkdir -p dist && cp -R index.html app.js style.css favicon.svg content dist/"
+    "build": "node scripts/build-site.mjs",
+    "dev": "SITE_URL=http://localhost:8788 node scripts/build-site.mjs && npx -y wrangler@4 pages dev dist --port 8788",
+    "deploy": "bash scripts/deploy.sh",
+    "generate": "node scripts/generate.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

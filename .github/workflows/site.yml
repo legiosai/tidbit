@@ -1,14 +1,19 @@
 name: site
 
-# Valida el contenido y publica el sitio en GitHub Pages en cada push a main.
-# No genera entradas: las entradas se escriben a mano (ver CONTRIBUTING.md), con
-# o sin ayuda de scripts/generate.mjs, y se pushean. Sin secretos.
+# Valida el contenido y arma el sitio en cada push y pull request.
+# En main además:
+#   - publica en Cloudflare Pages (tidbit.legios.com.ar) si el repo tiene el secreto CLOUDFLARE_API_TOKEN;
+#     sin el secreto, el deploy se hace a mano con scripts/deploy.sh.
+#   - publica en GitHub Pages una redirección: los links viejos (legiosai.github.io/tidbit/#/e/...) llevan al dominio nuevo.
+# No genera entradas: se escriben a mano (ver CONTRIBUTING.md), con o sin ayuda de scripts/generate.mjs.
 
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *" # las entradas con fecha futura aparecen el día que les toca
 
 permissions:
   contents: read
@@ -19,6 +24,9 @@ concurrency:
   group: site
   cancel-in-progress: false
 
+env:
+  SITE_URL: https://tidbit.legios.com.ar
+
 jobs:
   validate:
     runs-on: ubuntu-24.04
@@ -28,26 +36,60 @@ jobs:
         with:
           node-version: 22
       # El índice commiteado tiene que ser el que sale de las entradas commiteadas.
-      - run: node scripts/build-index.mjs
+      - run: node scripts/build-site.mjs
       - run: |
           if ! git diff --exit-code -- content/index.json; then
             echo "content/index.json está desactualizado: corré 'npm run index' y commiteá"
             exit 1
           fi
 
-  publish:
+  cloudflare:
     if: github.event_name != 'pull_request'
+    needs: validate
+    runs-on: ubuntu-24.04
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID || 'f8ac2ab50e3b244d5a69b0205fc3020d' }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - if: env.CLOUDFLARE_API_TOKEN == ''
+        run: echo "::notice::Sin CLOUDFLARE_API_TOKEN en los secretos del repo; el deploy a Cloudflare se hace con scripts/deploy.sh"
+      - if: env.CLOUDFLARE_API_TOKEN != ''
+        run: bash scripts/deploy.sh
+
+  redirect:
+    if: github.event_name == 'push'
     needs: validate
     runs-on: ubuntu-24.04
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v5
-      - run: mkdir -p dist && cp -R index.html app.js style.css favicon.svg content dist/
+      - run: |
+          mkdir -p old
+          cat > old/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en"><head><meta charset="utf-8">
+          <title>Tidbit moved to tidbit.legios.com.ar</title>
+          <link rel="canonical" href="https://tidbit.legios.com.ar/">
+          <meta http-equiv="refresh" content="2; url=https://tidbit.legios.com.ar/">
+          <script>
+            // The first version used hash routes: #/e/<YYYY-MM-DD-slug>, #/all, #/learned.
+            var h = location.hash, to = "/";
+            if (h.indexOf("#/e/") === 0) to = "/" + decodeURIComponent(h.slice(4)).slice(11) + "/";
+            else if (h === "#/all") to = "/a-z/";
+            else if (h === "#/learned") to = "/learned/";
+            location.replace("https://tidbit.legios.com.ar" + to);
+          </script>
+          </head><body><p>Tidbit moved to <a href="https://tidbit.legios.com.ar/">tidbit.legios.com.ar</a>.</p></body></html>
+          HTML
+          cp old/index.html old/404.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: dist
+          path: old
       - id: deploy
         uses: actions/deploy-pages@v4

@@ -1,0 +1,72 @@
+<!doctype html>
+<!-- Draws the share images (assets/og-en.png, assets/og-es.png, 1200x630) on a canvas with the site's fonts.
+     Serve the repo root (python3 -m http.server) and open /scripts/og.html: each image shows up with a download link.
+     Only needed when the brand or the tagline change; the PNGs are committed. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tidbit share images</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>body { background: #222; color: #eee; font: 14px system-ui; padding: 20px } canvas { display: block; width: 600px; margin: 12px 0 4px }</style>
+</head>
+<body>
+<div id="out"></div>
+<script>
+const COPY = {
+  en: { h: ["The tech dictionary,", "explained simply."], sub: "AI, cloud, networks, security, data and more · English and Spanish · free" },
+  es: { h: ["El diccionario tech,", "explicado fácil."], sub: "IA, cloud, redes, seguridad, datos y más · castellano e inglés · gratis" },
+};
+async function draw(lang) {
+  const c = document.createElement("canvas");
+  c.width = 1200; c.height = 630;
+  const g = c.getContext("2d");
+  g.fillStyle = "#07080c"; g.fillRect(0, 0, 1200, 630);
+  for (const [x, y, r, col] of [[1020, 0, 560, "rgba(255,181,71,.20)"], [0, 630, 520, "rgba(185,168,255,.13)"]]) {
+    const rg = g.createRadialGradient(x, y, 0, x, y, r);
+    rg.addColorStop(0, col); rg.addColorStop(1, "rgba(0,0,0,0)");
+    g.fillStyle = rg; g.fillRect(0, 0, 1200, 630);
+  }
+  g.lineWidth = 1;
+  for (let x = 0; x <= 1200; x += 64) { g.strokeStyle = "rgba(90,229,241,.045)"; g.beginPath(); g.moveTo(x + .5, 0); g.lineTo(x + .5, 630); g.stroke(); }
+  for (let y = 0; y <= 630; y += 64) { g.strokeStyle = "rgba(255,181,71,.055)"; g.beginPath(); g.moveTo(0, y + .5); g.lineTo(1200, y + .5); g.stroke(); }
+  const svg = await (await fetch("/favicon.svg")).text();
+  const img = new Image();
+  img.src = URL.createObjectURL(new Blob([svg], { type: "image/svg+xml" }));
+  await img.decode();
+  g.drawImage(img, 84, 70, 140, 140);
+  // Wordmark with dotless i's and the dots drawn as the sun and the moon.
+  g.fillStyle = "#f4f2ee";
+  g.font = "800 96px 'Bricolage Grotesque'";
+  g.textBaseline = "alphabetic";
+  let x = 240; const base = 176;
+  for (const ch of "tıdbıt") {
+    const w = g.measureText(ch).width;
+    g.fillText(ch, x, base);
+    if (ch === "ı") {
+      g.fillStyle = x < 330 ? "#ffb547" : "#b9a8ff";
+      g.beginPath(); g.arc(x + w / 2, base - 84, 10, 0, Math.PI * 2); g.fill();
+      g.fillStyle = "#f4f2ee";
+    }
+    x += w - 3.6;
+  }
+  g.font = "800 76px 'Bricolage Grotesque'";
+  COPY[lang].h.forEach((line, i) => g.fillText(line, 88, 330 + i * 80));
+  g.font = "500 25px 'JetBrains Mono'";
+  g.fillStyle = "#a7adbb";
+  g.fillText(COPY[lang].sub, 90, 540);
+  return c;
+}
+(async () => {
+  await Promise.all(["800 96px 'Bricolage Grotesque'", "500 25px 'JetBrains Mono'"].map((f) => document.fonts.load(f, "tıdbıt éá")));
+  for (const lang of ["en", "es"]) {
+    const c = await draw(lang);
+    const a = document.createElement("a");
+    a.download = `og-${lang}.png`; a.href = c.toDataURL("image/png"); a.textContent = `og-${lang}.png`;
+    document.getElementById("out").append(c, a);
+    window.ogImages = { ...(window.ogImages ?? {}), [lang]: a.href };
+  }
+  document.title = "ready";
+})();
+</script>
+</body>
+</html>
