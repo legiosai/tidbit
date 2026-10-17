@@ -88,7 +88,7 @@ npm run generate -- --subject networks --topic "DNS"
 
 The share images (`assets/og-*.png`) are drawn by `scripts/og.html`.
 
-**Search engines.** Google reads `sitemap.xml` (every page in both languages, with `hreflang`); the site is registered in Google Search Console. Bing, which also powers ChatGPT search and Copilot, gets new and changed terms through IndexNow: `npm run indexnow` sends every URL, and the workflow sends the changed ones after each deploy. The key is `site/<key>.txt`.
+**Search engines.** Google reads `sitemap.xml` (every page in both languages, with `hreflang`); register the domain in Google Search Console and submit `https://tidbit.legios.com.ar/sitemap.xml` there to see what is indexed. Bing, which also powers ChatGPT search and Copilot, gets new and changed terms through IndexNow: `npm run indexnow` sends every URL, and the workflow sends the changed ones after each deploy. The key is `site/<key>.txt`.
 
 ## License
 
