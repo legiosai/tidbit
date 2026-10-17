@@ -88,6 +88,8 @@ npm run generate -- --subject networks --topic "DNS"
 
 Las imágenes para compartir (`assets/og-*.png`) se dibujan con `scripts/og.html`.
 
+**Buscadores.** Google lee `sitemap.xml` (todas las páginas en los dos idiomas, con `hreflang`); el sitio está dado de alta en Google Search Console. Bing, que además alimenta la búsqueda de ChatGPT y Copilot, se entera de los términos nuevos y cambiados por IndexNow: `npm run indexnow` manda todas las URLs, y el workflow manda las que cambiaron después de cada deploy. La clave es `site/<clave>.txt`.
+
 ## Licencia
 
 [MIT](LICENSE). Hecho por [Legios](https://github.com/legiosai).

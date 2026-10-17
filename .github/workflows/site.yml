@@ -62,6 +62,8 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID || 'f8ac2ab50e3b244d5a69b0205fc3020d' }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v5
         with:
           node-version: 22
@@ -69,6 +71,10 @@ jobs:
         run: echo "::notice::Sin CLOUDFLARE_API_TOKEN en los secretos del repo; el deploy a Cloudflare se hace con scripts/deploy.sh"
       - if: env.CLOUDFLARE_API_TOKEN != ''
         run: bash scripts/deploy.sh
+      # Bing (and ChatGPT search, which uses it) learns about new and changed terms right away.
+      - if: env.CLOUDFLARE_API_TOKEN != '' && github.event_name == 'push'
+        run: node scripts/indexnow.mjs --since ${{ github.event.before }}
+        continue-on-error: true
 
   redirect:
     if: github.event_name == 'push'
@@ -85,7 +91,7 @@ jobs:
           <html lang="en"><head><meta charset="utf-8">
           <title>Tidbit moved to tidbit.legios.com.ar</title>
           <link rel="canonical" href="https://tidbit.legios.com.ar/">
-          <meta http-equiv="refresh" content="2; url=https://tidbit.legios.com.ar/">
+          <meta http-equiv="refresh" content="0; url=https://tidbit.legios.com.ar/">
           <script>
             // The first version used hash routes: #/e/<YYYY-MM-DD-slug>, #/all, #/learned.
             var h = location.hash, to = "/";
