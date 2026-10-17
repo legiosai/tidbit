@@ -2621,8 +2621,7 @@
         "es": [
           "E2EE",
           "cifrado de punta a punta",
-          "cifrado extremo a extremo",
-          "cifrado de extremo a extremo"
+          "cifrado extremo a extremo"
         ]
       }
     },

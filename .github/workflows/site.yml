@@ -32,6 +32,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # para comparar contra main y revisar solo los links de las entradas que cambiaron
       - uses: actions/setup-node@v5
         with:
           node-version: 22
@@ -42,6 +44,14 @@ jobs:
             echo "content/index.json está desactualizado: corré 'npm run index' y commiteá"
             exit 1
           fi
+      # Cada término tiene que estar en todos lados: páginas en los dos idiomas, Markdown, JSON-LD, sitemap,
+      # llms.txt, la API y las herramientas del MCP (corre el worker real contra dist/, sin red).
+      - run: node scripts/check.mjs
+      # En un pull request, los links externos de las entradas nuevas o cambiadas tienen que responder.
+      - if: github.event_name == 'pull_request'
+        run: node scripts/check.mjs --links
+        env:
+          LINK_BASE: origin/${{ github.base_ref }}
 
   cloudflare:
     if: github.event_name != 'pull_request'

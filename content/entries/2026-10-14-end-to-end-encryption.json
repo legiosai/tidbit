@@ -14,8 +14,7 @@
     "es": [
       "E2EE",
       "cifrado de punta a punta",
-      "cifrado extremo a extremo",
-      "cifrado de extremo a extremo"
+      "cifrado extremo a extremo"
     ]
   },
   "image": "img/2026-10-14-end-to-end-encryption.svg",

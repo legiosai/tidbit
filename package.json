@@ -11,7 +11,9 @@
     "build": "node scripts/build-site.mjs",
     "dev": "SITE_URL=http://localhost:8788 node scripts/build-site.mjs && npx -y wrangler@4 pages dev dist --port 8788",
     "deploy": "bash scripts/deploy.sh",
-    "generate": "node scripts/generate.mjs"
+    "generate": "node scripts/generate.mjs",
+    "check": "node scripts/build-site.mjs && node scripts/check.mjs",
+    "check:links": "node scripts/check.mjs --links"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.80.0",

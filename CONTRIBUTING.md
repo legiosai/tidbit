@@ -9,7 +9,9 @@ An entry is two files:
 
 `<id>` is `YYYY-MM-DD-slug`: the publication date plus a kebab-case ASCII slug (`2026-10-09-amazon-s3`). The `id` field inside the JSON must equal the file name.
 
-After writing, run `npm run index`. It validates every entry and rebuilds `content/index.json`. Fix whatever it reports.
+After writing, run `npm run check`. It validates every entry, rebuilds `content/index.json` and the site, and then checks that the term made it everywhere: its page and Markdown twin in both languages (title, description, canonical, hreflang, JSON-LD, image), the A–Z list, its topic pages, the sitemap, `llms.txt`, `llms-full.txt`, the `/v1/` API, and the MCP tools (`define`, `get_term` and `search_terms` find it by its title and aliases). It also refuses an alias that another entry already owns. Fix whatever it reports; commit `content/index.json` with your entry.
+
+`npm run check:links` opens the external links of the entries you changed. CI runs both on every pull request.
 
 ## The JSON
 
