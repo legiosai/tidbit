@@ -679,7 +679,7 @@ Term pages live at ${abs("/<term>/")} in English and ${abs("/es/<term>/")} in Sp
 const apiTerm = (e) => ({
   id: e.id, slug: e.slug, date: e.date, level: e.level, subjects: e.subjects, image: abs(`/content/${e.image}`), caseSensitive: e.caseSensitive || undefined,
   ...Object.fromEntries(LANGS.map((lang) => [lang, {
-    title: e[lang].title, tagline: e[lang].tagline, aliases: e.aliases[lang], imageAlt: e.imageAlt[lang], lead: e[lang].explanation[0],
+    title: e[lang].title, tagline: e[lang].tagline, aliases: e.aliases[lang], imageAlt: e.imageAlt[lang], lead: e[lang].explanation[0], analogy: e[lang].analogy,
     url: abs(entryPath(lang, e)), markdown: abs(`${entryPath(lang, e)}index.md`),
   }])),
 });
@@ -704,7 +704,7 @@ Do not use Tidbit for code samples, API reference details, pricing, current news
 - Every page is plain HTML that works without JavaScript. Send \`Accept: text/markdown\` to any page to get Markdown, or add \`index.md\` to its URL (for example ${abs(`/${(bySlug.get("api") ?? entries[0]).slug}/index.md`)}).
 - Term pages: ${abs("/<term>/")} in English, ${abs("/es/<term>/")} in Spanish.
 - JSON: ${abs("/v1/terms.json")} lists every term with its definition and URLs; ${abs("/v1/terms/<term>.json")} has the full entry. OpenAPI: ${abs("/openapi.json")}.
-- MCP server (Streamable HTTP, no auth, read-only): ${abs("/mcp")} with tools \`search_terms\`, \`get_term\`, \`list_topic\` and \`term_of_the_day\`. Server card: ${abs("/.well-known/mcp/server-card.json")}.
+- MCP server (Streamable HTTP, no auth, read-only): ${abs("/mcp")} with tools \`define\` (several terms in one call, about 80 words each: the cheapest way to answer "what is X"), \`search_terms\`, \`get_term\`, \`list_topic\` and \`term_of_the_day\`. Server card: ${abs("/.well-known/mcp/server-card.json")}.
 - Full text of every entry: ${abs("/llms-full.txt")} (English) and ${abs("/es/llms-full.txt")} (Spanish).
 
 ## Main pages
@@ -800,7 +800,7 @@ const openapi = {
         resolution: { type: "string", description: "What to do next" }, documentation_url: { type: "string", format: "uri" } } },
       LocalizedSummary: { type: "object", required: ["title", "tagline", "aliases", "lead", "url", "markdown"], properties: {
         title: { type: "string" }, tagline: { type: "string" }, aliases: { type: "array", items: { type: "string" } }, imageAlt: { type: "string" },
-        lead: { type: "string", description: "First paragraph of the explanation" }, url: { type: "string", format: "uri" }, markdown: { type: "string", format: "uri" } } },
+        lead: { type: "string", description: "First paragraph of the explanation" }, analogy: { type: "string" }, url: { type: "string", format: "uri" }, markdown: { type: "string", format: "uri" } } },
       Term: { type: "object", required: ["id", "slug", "date", "level", "subjects", "en", "es"], properties: {
         id: { type: "string" }, slug: { type: "string" }, date: { type: "string", format: "date" }, level: { type: "integer", enum: [1, 2, 3], description: "1 basic, 2 intermediate, 3 advanced" },
         subjects: { type: "array", items: { type: "string", enum: Object.keys(subjects) } }, image: { type: "string", format: "uri" },

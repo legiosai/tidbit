@@ -119,19 +119,23 @@ async function api(req, env, url) {
 // ---------- MCP ----------
 const PROTOCOLS = ["2025-11-25", "2025-06-18", "2025-03-26"];
 const LANG = { type: "string", enum: ["en", "es"], description: "Language of the answer: en (default) or es." };
+// Descriptions stay short on purpose: an agent pays for them on every request.
 const TOOLS = [
+  { name: "define", title: "Define terms",
+    description: "Plain-language definition of one or more tech terms (name, alias or Spanish name): one line, an analogy and a link, about 80 words each. Use first for 'what is X'.",
+    inputSchema: { type: "object", properties: { terms: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 10 }, lang: LANG }, required: ["terms"] } },
   { name: "search_terms", title: "Search the dictionary",
-    description: "Find technology terms by name, alias, Spanish name or words in their one-line definition. Returns the best matches with their definition and URL.",
-    inputSchema: { type: "object", properties: { query: { type: "string", description: "What to look for, e.g. 'vector database', 'qué es un token', 'S3'." }, lang: LANG, limit: { type: "integer", minimum: 1, maximum: 20, default: 5 } }, required: ["query"] } },
+    description: "Find terms by words in their name or definition. Returns matches with a one-line definition.",
+    inputSchema: { type: "object", properties: { query: { type: "string" }, lang: LANG, limit: { type: "integer", minimum: 1, maximum: 20, default: 5 } }, required: ["query"] } },
   { name: "get_term", title: "Read a term",
-    description: "The full entry for one term as Markdown: definition, plain-language explanation, analogy, key points and official links.",
-    inputSchema: { type: "object", properties: { term: { type: "string", description: "The term's slug (e.g. 'data-lake') or its name in English or Spanish." }, lang: LANG }, required: ["term"] } },
+    description: "One term as Markdown. detail 'full' (default, ~600 words: explanation, key points, links) or 'short' (same as define).",
+    inputSchema: { type: "object", properties: { term: { type: "string", description: "Slug (data-lake) or name" }, lang: LANG, detail: { type: "string", enum: ["full", "short"], default: "full" } }, required: ["term"] } },
   { name: "list_topic", title: "List a topic",
-    description: "Every term in one topic, from basic to advanced.",
+    description: "Every term in a topic, basic to advanced.",
     inputSchema: { type: "object", properties: { topic: { type: "string", enum: ["ai", "aws", "cloud", "hardware", "software", "data", "security", "networks", "companies"] }, lang: LANG }, required: ["topic"] } },
   { name: "term_of_the_day", title: "Term of the day",
-    description: "One term picked for a given day (today by default), the same for everyone on that day. Good for a daily learning prompt.",
-    inputSchema: { type: "object", properties: { date: { type: "string", description: "YYYY-MM-DD, defaults to today (UTC)." }, lang: LANG } } },
+    description: "The term picked for a day (default today), the same for everyone.",
+    inputSchema: { type: "object", properties: { date: { type: "string", description: "YYYY-MM-DD" }, lang: LANG } } },
 ].map((t) => ({ ...t, annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false } }));
 
 let terms; // cached per isolate
@@ -162,21 +166,30 @@ async function termMarkdown(env, url, t, lang) {
   return r.ok ? r.text() : `# ${t[lang].title}\n\n> ${t[lang].tagline}\n\n${t[lang].lead}\n\n${t[lang].url}`;
 }
 
+const short = (t, lang) => `${t[lang].title} (${LEVELS[lang][t.level]}): ${t[lang].tagline}\n${lang === "es" ? "Analogía" : "Analogy"}: ${t[lang].analogy}\n${t[lang].url}`;
+const find = (data, term, lang) => data.terms.find((x) => x.slug === norm(term).replace(/\s+/g, "-")) ?? search(data, term, lang)[0];
+
 async function callTool(name, args, env, url) {
   const data = await loadTerms(env, url);
   const lang = args?.lang === "es" ? "es" : "en";
+  if (name === "define") {
+    const asked = Array.isArray(args?.terms) ? args.terms.filter((x) => typeof x === "string" && x.trim()).slice(0, 10) : typeof args?.terms === "string" ? [args.terms] : [];
+    if (!asked.length) throw rpcError(-32602, "terms is required");
+    const out = asked.map((q) => { const t = find(data, q, lang); return t ? short(t, lang) : `${q}: not in Tidbit.`; });
+    return text(out.join("\n\n"));
+  }
   if (name === "search_terms") {
     if (typeof args?.query !== "string" || !args.query.trim()) throw rpcError(-32602, "query is required");
     const limit = Math.min(20, Math.max(1, Number(args.limit) || 5));
     const hits = search(data, args.query, lang).slice(0, limit);
     if (!hits.length) return text(`No term matches "${args.query}". Browse every term at ${new URL(lang === "es" ? "/es/a-z/" : "/a-z/", url)}.`, { results: [] });
-    return text(hits.map((t) => line(t, lang, data)).join("\n"), { results: hits.map((t) => ({ slug: t.slug, title: t[lang].title, tagline: t[lang].tagline, level: t.level, subjects: t.subjects, url: t[lang].url, markdown: t[lang].markdown })) });
+    return text(hits.map((t) => line(t, lang, data)).join("\n"));
   }
   if (name === "get_term") {
     if (typeof args?.term !== "string" || !args.term.trim()) throw rpcError(-32602, "term is required");
-    const t = data.terms.find((x) => x.slug === norm(args.term).replace(/\s+/g, "-")) ?? search(data, args.term, lang)[0];
+    const t = find(data, args.term, lang);
     if (!t) return { ...text(`No term matches "${args.term}". Try search_terms first.`), isError: true };
-    return text(await termMarkdown(env, url, t, lang));
+    return text(args.detail === "short" ? short(t, lang) : await termMarkdown(env, url, t, lang));
   }
   if (name === "list_topic") {
     const list = data.terms.filter((t) => t.subjects.includes(args?.topic));
@@ -206,7 +219,7 @@ async function handle(msg, env, url) {
           protocolVersion: PROTOCOLS.includes(asked) ? asked : PROTOCOLS[0],
           capabilities: { tools: { listChanged: false } },
           serverInfo: { name: "io.github.legiosai/tidbit", title: "Tidbit", version: "1.0.0" },
-          instructions: "Tidbit is a bilingual (English/Spanish) dictionary of technology terms written for non-technical people. Use search_terms to find a term, get_term to read the full entry, list_topic to browse a topic and term_of_the_day for a daily pick. Every tool is public and read-only.",
+          instructions: "Bilingual (en/es) dictionary of tech terms in plain language. For 'what is X' call define (several terms at once); get_term only when the full explanation is needed. Read-only.",
         });
       }
       case "ping": return ok({});

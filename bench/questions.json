@@ -1,0 +1,14 @@
+[
+  { "id": 1, "lang": "es", "covered": true, "q": "¿Qué es una API?" },
+  { "id": 2, "lang": "en", "covered": true, "q": "What is a data lake, and how is it different from a data warehouse?" },
+  { "id": 3, "lang": "es", "covered": true, "q": "¿Qué hace TSMC exactamente?" },
+  { "id": 4, "lang": "en", "covered": true, "q": "What is RAG in AI?" },
+  { "id": 5, "lang": "es", "covered": true, "q": "¿Para qué sirve Kubernetes?" },
+  { "id": 6, "lang": "en", "covered": true, "q": "What does a CDN do?" },
+  { "id": 7, "lang": "es", "covered": true, "q": "¿Qué es zero trust en seguridad informática?" },
+  { "id": 8, "lang": "en", "covered": true, "q": "What is the difference between TCP and UDP?" },
+  { "id": 9, "lang": "es", "covered": true, "q": "¿Qué es Parquet y por qué lo usan los equipos de datos?" },
+  { "id": 10, "lang": "en", "covered": true, "q": "What is ASML and why does it matter?" },
+  { "id": 11, "lang": "es", "covered": false, "q": "¿Qué es el SIM swapping?" },
+  { "id": 12, "lang": "en", "covered": false, "q": "What is WebAssembly?" }
+]
