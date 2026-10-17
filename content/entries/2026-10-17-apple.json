@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-apple",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Apple Inc.", "Apple silicon"],
+    "es": ["Apple Inc.", "Apple silicon"]
+  },
+  "image": "img/2026-10-17-apple.svg",
+  "imageAlt": {
+    "en": "A phone, a laptop, a tablet and a watch all connect to one account in the middle that holds the app store, cloud storage and music; below, a chip designed by Apple and made by TSMC",
+    "es": "Un celular, una notebook, una tablet y un reloj se conectan a una sola cuenta en el medio que tiene la tienda de apps, el almacenamiento en la nube y la música; abajo, un chip diseñado por Apple y fabricado por TSMC"
+  },
+  "en": {
+    "title": "Apple",
+    "tagline": "The company that sells the iPhone and the Mac, plus the services that run on them.",
+    "explanation": [
+      "**Apple** was founded in 1976 by Steve Jobs and Steve Wozniak in California, and its first business was personal computers. Today it is best known for the **iPhone**, launched in 2007, which is still the product that brings in the most money. Around it sit the Mac, the iPad, the Apple Watch and AirPods, all designed in Cupertino and assembled by partner factories, mostly in Asia.",
+      "What makes Apple different is that it builds the hardware and the software together: it writes the operating systems (iOS, macOS) for its own devices only, and designs its own chips. Since 2020 the Mac uses **Apple silicon**, chips based on the Arm design that Apple engineers and TSMC manufactures, replacing the Intel processors it used before. Controlling every layer lets it tune battery life, speed and privacy features across the whole device.",
+      "The second business is **services**: the App Store, where it takes a commission on many app sales and subscriptions, plus iCloud storage, Apple Music, Apple TV+, Apple Pay and AppleCare. Services grow with every device already in people's hands, and the ecosystem (photos, messages and passwords syncing between your devices) makes switching to another brand inconvenient, which is part of the strategy."
+    ],
+    "analogy": "A furniture brand that also owns the house it fits in. Each piece is designed to match the others and the rooms, so everything works smoothly together, and moving one piece to another house is more trouble than it seems.",
+    "keyPoints": [
+      "Founded in 1976 by Steve Jobs and Steve Wozniak; based in Cupertino, California.",
+      "The iPhone is its largest product; Mac, iPad, Watch and AirPods complete the line.",
+      "It designs its own chips (Apple silicon), which TSMC manufactures.",
+      "Services such as the App Store and iCloud are its second big source of money."
+    ],
+    "links": [
+      { "label": "Apple Newsroom", "url": "https://www.apple.com/newsroom/" },
+      { "label": "Apple Inc. on Wikipedia", "url": "https://en.wikipedia.org/wiki/Apple_Inc." }
+    ]
+  },
+  "es": {
+    "title": "Apple",
+    "tagline": "La empresa que vende el iPhone y la Mac, más los servicios que corren encima.",
+    "explanation": [
+      "**Apple** la fundaron en 1976 Steve Jobs y Steve Wozniak en California, y su primer negocio fueron las computadoras personales. Hoy se la conoce sobre todo por el **iPhone**, lanzado en 2007, que sigue siendo el producto que más plata le deja. Alrededor están la Mac, el iPad, el Apple Watch y los AirPods, todos diseñados en Cupertino y armados por fábricas asociadas, en su mayoría en Asia.",
+      "Lo que la distingue es que hace el hardware y el software juntos: escribe los sistemas operativos (iOS, macOS) solo para sus propios dispositivos, y diseña sus propios chips. Desde 2020 la Mac usa **Apple silicon**, chips basados en el diseño Arm que diseña Apple y fabrica TSMC, en reemplazo de los procesadores Intel que usaba antes. Controlar todas las capas le permite ajustar batería, velocidad y funciones de privacidad en todo el equipo.",
+      "El segundo negocio son los **servicios**: la App Store, donde se queda con una comisión de muchas ventas de apps y suscripciones, más el almacenamiento de iCloud, Apple Music, Apple TV+, Apple Pay y AppleCare. Los servicios crecen con cada dispositivo que ya está en manos de la gente, y el ecosistema (fotos, mensajes y contraseñas que se sincronizan entre tus equipos) hace que pasarse a otra marca sea incómodo, algo que también es parte de la estrategia."
+    ],
+    "analogy": "Una marca de muebles que además es dueña de la casa donde van. Cada pieza está pensada para combinar con las otras y con los ambientes, así todo funciona bien junto, y llevarse un mueble a otra casa da más trabajo del que parece.",
+    "keyPoints": [
+      "Fundada en 1976 por Steve Jobs y Steve Wozniak; sede en Cupertino, California.",
+      "El iPhone es su producto más grande; Mac, iPad, Watch y AirPods completan la línea.",
+      "Diseña sus propios chips (Apple silicon), que fabrica TSMC.",
+      "Los servicios como la App Store e iCloud son su segunda gran fuente de ingresos."
+    ],
+    "links": [
+      { "label": "Apple Latinoamérica", "url": "https://www.apple.com/la/" },
+      { "label": "Apple en Wikipedia", "url": "https://es.wikipedia.org/wiki/Apple" }
+    ]
+  }
+}

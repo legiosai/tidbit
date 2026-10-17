@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-parquet",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["Apache Parquet"],
+    "es": ["Apache Parquet"]
+  },
+  "image": "img/2026-10-17-parquet.svg",
+  "imageAlt": {
+    "en": "On the left, a CSV stored as rows of mixed colored cells; on the right, the same data stored as three column blocks, with a query reading only two of them",
+    "es": "A la izquierda, un CSV guardado como filas de celdas de colores mezclados; a la derecha, los mismos datos guardados como tres bloques de columnas, con una consulta que lee solo dos"
+  },
+  "en": {
+    "title": "Parquet",
+    "tagline": "A file format that stores tables by column, compressed, so analytics reads far less.",
+    "explanation": [
+      "**Parquet** (Apache Parquet) is an open file format for tables, designed for analytics. A CSV writes a table row by row; Parquet writes it **column by column**: all the dates together, then all the amounts, then all the countries. It is binary rather than plain text, so you cannot open it in a text editor, but almost every data tool reads it: Spark, Amazon Athena, pandas, DuckDB and the major data warehouses.",
+      "Storing by column pays off twice. First, a query that needs two columns out of fifty reads only those two and skips the rest of the file. Second, values in a column look alike (the same few countries repeated millions of times), so they compress very well, often to a fraction of the CSV size. Each file also records the minimum and maximum of every column for each block of rows, so a query for March can skip blocks that only contain January.",
+      "Parquet also keeps the **schema** inside the file: column names and types, so a date stays a date and nobody has to guess. That is why it became the default format of the data lake: engines like Athena charge by data scanned, and converting raw logs from CSV or JSON to Parquet can make the same query both faster and much cheaper. The trade-off is that it is made for writing once and reading many times; changing a single row means rewriting a file."
+    ],
+    "analogy": "A filing cabinet with one drawer per kind of information instead of one folder per person. To add up everyone's salary you open only the salary drawer, and since it holds nothing but numbers, it packs tightly.",
+    "keyPoints": [
+      "Columnar: a query reads only the columns it needs.",
+      "Similar values sit together, so files compress far better than CSV.",
+      "The schema travels inside the file, with real types.",
+      "Built for write-once, read-many analytics, not for editing single rows."
+    ],
+    "links": [
+      { "label": "Parquet overview (Apache Parquet docs)", "url": "https://parquet.apache.org/docs/overview/" },
+      { "label": "Apache Parquet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Apache_Parquet" }
+    ]
+  },
+  "es": {
+    "title": "Parquet",
+    "tagline": "Un formato que guarda tablas por columna y comprimidas, para que analizar lea mucho menos.",
+    "explanation": [
+      "**Parquet** (Apache Parquet) es un formato de archivo abierto para tablas, pensado para análisis. Un CSV escribe una tabla fila por fila; Parquet la escribe **columna por columna**: todas las fechas juntas, después todos los montos, después todos los países. Es binario y no texto plano, así que no lo podés abrir con un editor de texto, pero casi todas las herramientas de datos lo leen: Spark, Amazon Athena, pandas, DuckDB y los principales data warehouses.",
+      "Guardar por columna rinde dos veces. Primero, una consulta que necesita dos columnas de cincuenta lee solo esas dos y se saltea el resto del archivo. Segundo, los valores de una columna se parecen (los mismos pocos países repetidos millones de veces), así que se comprimen muy bien, muchas veces a una fracción del tamaño del CSV. Cada archivo además anota el mínimo y el máximo de cada columna en cada bloque de filas, así una consulta por marzo puede saltear los bloques que solo tienen enero.",
+      "Parquet también guarda el **esquema** adentro del archivo: nombres y tipos de las columnas, así una fecha sigue siendo una fecha y nadie tiene que adivinar. Por eso se volvió el formato por defecto del data lake: motores como Athena cobran por datos escaneados, y pasar logs crudos de CSV o JSON a Parquet puede hacer que la misma consulta sea más rápida y mucho más barata. La contra es que está hecho para escribir una vez y leer muchas; cambiar una sola fila implica reescribir un archivo."
+    ],
+    "analogy": "Un archivero con un cajón por tipo de información en vez de una carpeta por persona. Para sumar el sueldo de todos abrís solo el cajón de sueldos, y como ahí hay nada más que números, entra todo apretado.",
+    "keyPoints": [
+      "Columnar: una consulta lee solo las columnas que necesita.",
+      "Los valores parecidos quedan juntos, así que comprime mucho mejor que un CSV.",
+      "El esquema viaja adentro del archivo, con tipos de verdad.",
+      "Hecho para análisis de escribir una vez y leer muchas, no para editar filas sueltas."
+    ],
+    "links": [
+      { "label": "Introducción a Parquet (documentación de Apache Parquet, en inglés)", "url": "https://parquet.apache.org/docs/overview/" },
+      { "label": "Apache Parquet en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Apache_Parquet" }
+    ]
+  }
+}

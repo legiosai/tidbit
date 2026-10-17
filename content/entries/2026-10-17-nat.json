@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-nat",
+  "date": "2026-10-17",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["network address translation", "NAT gateway", "NAT gateways"],
+    "es": ["traducción de direcciones de red", "NAT gateway"]
+  },
+  "image": "img/2026-10-17-nat.svg",
+  "imageAlt": {
+    "en": "Three home devices with private 192.168 addresses talk through one router, which rewrites them to a single public IP address on the way to the internet",
+    "es": "Tres dispositivos de una casa con direcciones privadas 192.168 hablan a través de un router, que las reescribe a una única dirección IP pública camino a internet"
+  },
+  "en": {
+    "title": "NAT",
+    "tagline": "How a whole home or office shares one public IP address on the internet.",
+    "explanation": [
+      "**NAT** (network address translation) is what lets many devices share a single public IP address. At home, your phone, laptop and TV each get a **private** address like `192.168.0.12` from the router. Those addresses mean nothing on the internet; they are reused in millions of homes. Your internet provider gives the router just one **public** address, and the router translates between the two worlds.",
+      "When your laptop sends a packet to a website, the router rewrites the sender from `192.168.0.12, port 51000` to its own public address and a port it picks, say `200.45.10.7, port 40001`, and writes that pairing in a table. When the answer comes back to port 40001, the router looks it up, rewrites the destination back to your laptop, and passes it in. Each conversation gets its own entry, so the phone and the laptop never get each other's replies.",
+      "NAT exists because IPv4 has only about 4.3 billion addresses, far fewer than the devices online, and it stretched them for decades. A side effect is that devices behind NAT cannot be reached from outside unless they started the conversation, which works as a basic shield but complicates video calls, online games and running your own server (hence port forwarding). Providers now often add a second layer, carrier-grade NAT, and IPv6, with enough addresses for every device, removes the need for it. In the cloud, a NAT gateway lets private servers reach the internet without being exposed to it."
+    ],
+    "analogy": "An office with one public phone number and a receptionist. Employees call out from their extensions; the receptionist notes who called whom, and when the callback arrives at the main number, transfers it to the right extension.",
+    "keyPoints": [
+      "Private addresses (like 192.168.x.x or 10.x.x.x) are reused everywhere and are not reachable from the internet.",
+      "The router rewrites addresses and ports, and keeps a table to route the answers back.",
+      "Devices behind NAT accept incoming traffic only for conversations they started.",
+      "It exists because IPv4 ran short of addresses; IPv6 makes it unnecessary."
+    ],
+    "links": [
+      { "label": "Network address translation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Network_address_translation" },
+      { "label": "RFC 1918, the private address ranges", "url": "https://www.rfc-editor.org/rfc/rfc1918" }
+    ]
+  },
+  "es": {
+    "title": "NAT",
+    "tagline": "Cómo toda una casa u oficina comparte una sola dirección IP pública en internet.",
+    "explanation": [
+      "**NAT** (network address translation, traducción de direcciones de red) es lo que permite que muchos dispositivos compartan una sola dirección IP pública. En tu casa, el celular, la notebook y la tele reciben cada uno una dirección **privada** como `192.168.0.12` que les da el router. Esas direcciones no significan nada en internet; se repiten en millones de casas. Tu proveedor de internet le da al router una única dirección **pública**, y el router traduce entre los dos mundos.",
+      "Cuando tu notebook manda un paquete a un sitio, el router reescribe el remitente de `192.168.0.12, puerto 51000` a su propia dirección pública y un puerto que elige él, por ejemplo `200.45.10.7, puerto 40001`, y anota ese par en una tabla. Cuando la respuesta vuelve al puerto 40001, el router lo busca, reescribe el destino de nuevo hacia tu notebook y la deja pasar. Cada conversación tiene su propia fila, así el celular y la notebook nunca reciben las respuestas del otro.",
+      "NAT existe porque IPv4 tiene apenas unos 4300 millones de direcciones, muchas menos que los dispositivos conectados, y las estiró durante décadas. Un efecto secundario es que a los dispositivos detrás de NAT no se los puede contactar desde afuera salvo que hayan empezado ellos la conversación, lo que funciona como un escudo básico pero complica las videollamadas, los juegos online y tener un servidor propio (de ahí el port forwarding). Hoy los proveedores muchas veces suman una segunda capa, el carrier-grade NAT, e IPv6, con direcciones para cada dispositivo, lo vuelve innecesario. En la nube, un NAT gateway deja que servidores privados salgan a internet sin quedar expuestos."
+    ],
+    "analogy": "Una oficina con un solo número de teléfono y una recepcionista. Los empleados llaman desde sus internos; la recepcionista anota quién llamó a quién, y cuando devuelven la llamada al número principal, la pasa al interno correcto.",
+    "keyPoints": [
+      "Las direcciones privadas (como 192.168.x.x o 10.x.x.x) se repiten en todos lados y no son accesibles desde internet.",
+      "El router reescribe direcciones y puertos, y guarda una tabla para devolver las respuestas.",
+      "Los dispositivos detrás de NAT solo aceptan tráfico entrante de conversaciones que ellos empezaron.",
+      "Existe porque a IPv4 le faltaron direcciones; IPv6 lo vuelve innecesario."
+    ],
+    "links": [
+      { "label": "Traducción de direcciones de red en Wikipedia", "url": "https://es.wikipedia.org/wiki/Traducci%C3%B3n_de_direcciones_de_red" },
+      { "label": "RFC 1918, los rangos de direcciones privadas (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc1918" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-microsoft",
+  "date": "2026-10-17",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Microsoft Azure", "Azure", "Microsoft 365"],
+    "es": ["Microsoft Azure", "Azure", "Microsoft 365"]
+  },
+  "image": "img/2026-10-17-microsoft.svg",
+  "imageAlt": {
+    "en": "Companies and people pay monthly subscriptions into three blocks: Windows and Office, the Azure cloud, and GitHub, LinkedIn and Xbox",
+    "es": "Empresas y personas pagan suscripciones mensuales a tres bloques: Windows y Office, la nube Azure, y GitHub, LinkedIn y Xbox"
+  },
+  "en": {
+    "title": "Microsoft",
+    "tagline": "The company of Windows and Office, now just as much a cloud company with Azure.",
+    "explanation": [
+      "**Microsoft** was founded in 1975 by Bill Gates and Paul Allen, and grew by selling software for personal computers: first MS-DOS, then **Windows**, which became the operating system of most office and home PCs, and **Office** (Word, Excel, PowerPoint, Outlook). It is based in Redmond, near Seattle.",
+      "Its biggest shift was from selling software in a box to renting it by subscription. Office became **Microsoft 365**, paid monthly per person, and companies also pay for Teams, Outlook email and the tools that manage employees' accounts and devices. Most of its customers are businesses and governments, which is why Microsoft matters even to people who never think about it: their employer probably runs on it.",
+      "The other half is **Azure**, its cloud, one of the largest next to AWS: companies rent servers, databases and AI services in Microsoft's data centers. Microsoft has been a major investor in and partner of OpenAI since 2019; OpenAI's models run on Azure and power Microsoft's **Copilot** assistants inside Windows, Office and GitHub. It also owns GitHub, where most open source code lives, LinkedIn, and the Xbox gaming business."
+    ],
+    "analogy": "The company that supplies an office building with its desks, filing cabinets and phones, and rents them by the month instead of selling them. Lately it also rents out the building's back rooms full of computers to anyone who needs them.",
+    "keyPoints": [
+      "Founded in 1975 by Bill Gates and Paul Allen; based in Redmond, Washington.",
+      "Windows and Microsoft 365 (Office) are sold mostly to businesses, by subscription.",
+      "Azure is one of the largest clouds and runs OpenAI's models.",
+      "It also owns GitHub, LinkedIn and Xbox."
+    ],
+    "links": [
+      { "label": "Azure documentation", "url": "https://learn.microsoft.com/en-us/azure/" },
+      { "label": "About GitHub", "url": "https://github.com/about" },
+      { "label": "Microsoft on Wikipedia", "url": "https://en.wikipedia.org/wiki/Microsoft" }
+    ]
+  },
+  "es": {
+    "title": "Microsoft",
+    "tagline": "La empresa de Windows y Office, que hoy es igual de importante como nube con Azure.",
+    "explanation": [
+      "**Microsoft** la fundaron en 1975 Bill Gates y Paul Allen, y creció vendiendo software para computadoras personales: primero MS-DOS, después **Windows**, que se volvió el sistema operativo de la mayoría de las PCs de oficina y de las casas, y **Office** (Word, Excel, PowerPoint, Outlook). Tiene su sede en Redmond, cerca de Seattle.",
+      "Su gran cambio fue pasar de vender software en caja a alquilarlo por suscripción. Office se convirtió en **Microsoft 365**, que se paga por mes y por persona, y las empresas además pagan Teams, el mail de Outlook y las herramientas para administrar las cuentas y los equipos de sus empleados. La mayoría de sus clientes son empresas y gobiernos, por eso Microsoft importa incluso para quien nunca piensa en ella: lo más probable es que su trabajo funcione sobre eso.",
+      "La otra mitad es **Azure**, su nube, una de las más grandes junto con AWS: las empresas alquilan servidores, bases de datos y servicios de IA en los data centers de Microsoft. Desde 2019 Microsoft es un gran inversor y socio de OpenAI; los modelos de OpenAI corren en Azure y hacen funcionar los asistentes **Copilot** de Microsoft adentro de Windows, Office y GitHub. También es dueña de GitHub, donde vive la mayor parte del código de código abierto, de LinkedIn y del negocio de juegos Xbox."
+    ],
+    "analogy": "La empresa que le provee a un edificio de oficinas los escritorios, los archiveros y los teléfonos, y se los alquila por mes en vez de vendérselos. Últimamente también alquila los cuartos del fondo llenos de computadoras a quien los necesite.",
+    "keyPoints": [
+      "Fundada en 1975 por Bill Gates y Paul Allen; sede en Redmond, Washington.",
+      "Windows y Microsoft 365 (Office) se venden sobre todo a empresas, por suscripción.",
+      "Azure es una de las nubes más grandes y corre los modelos de OpenAI.",
+      "También es dueña de GitHub, LinkedIn y Xbox."
+    ],
+    "links": [
+      { "label": "Documentación de Azure", "url": "https://learn.microsoft.com/es-es/azure/" },
+      { "label": "Microsoft en Wikipedia", "url": "https://es.wikipedia.org/wiki/Microsoft" },
+      { "label": "Acerca de GitHub (en inglés)", "url": "https://github.com/about" }
+    ]
+  }
+}

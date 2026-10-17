@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="40" width="110" height="56" rx="10" fill="#9ac7ea"/>
+    <rect x="266" y="40" width="110" height="56" rx="10" fill="#ffd166"/>
+    <rect x="200" y="160" width="56" height="28" rx="7" fill="#e6dfd0"/>
+    <rect x="268" y="160" width="56" height="28" rx="7" fill="#e6dfd0"/>
+    <rect x="336" y="160" width="56" height="28" rx="7" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M138 58 H260"/><path d="M254 54 l6 4 -6 4"/>
+    <path d="M262 80 H140"/><path d="M146 76 l-6 4 6 4"/>
+    <path d="M321 98 L228 158"/><path d="M321 98 L296 158"/><path d="M321 98 L364 158"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="79" y="64">app</text>
+    <text x="321" y="64">identity</text><text x="321" y="80">provider</text>
+  </g>
+  <text x="79" y="84" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b">Sign in with…</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="199" y="50">sign in + consent</text>
+  </g>
+  <text x="199" y="97" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">token</text>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="228" y="178">mail</text><text x="296" y="178">chat</text><text x="364" y="178">docs</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="92" y="168" font-weight="bold">SSO</text>
+    <text x="92" y="184">one login, many apps</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the app gets a pass, never your password</text>
+</svg>

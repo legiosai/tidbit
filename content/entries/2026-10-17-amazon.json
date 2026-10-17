@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-amazon",
+  "date": "2026-10-17",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Amazon Web Services", "Amazon.com"],
+    "es": ["Amazon Web Services", "Amazon.com"]
+  },
+  "image": "img/2026-10-17-amazon.svg",
+  "imageAlt": {
+    "en": "Two halves: on the left, sellers send goods to a warehouse that ships them to a customer's house; on the right, a data center labeled AWS serves many apps",
+    "es": "Dos mitades: a la izquierda, vendedores mandan productos a un depósito que los envía a la casa de un cliente; a la derecha, un data center que dice AWS atiende muchas apps"
+  },
+  "en": {
+    "title": "Amazon",
+    "tagline": "An online store with its own delivery network, and the company that runs AWS.",
+    "explanation": [
+      "**Amazon** was founded by Jeff Bezos in 1994, in Seattle, as an online bookstore. It grew into a store that sells almost everything, and most of what it sells today comes from independent **sellers** who list their products on Amazon's marketplace and pay fees for the sale, and often for Amazon to store and ship the goods. Behind the website sits one of the largest logistics networks in the world: warehouses, sorting centers, planes and delivery vans.",
+      "Several businesses grew around the store. **Prime** is a yearly or monthly membership with fast shipping, Prime Video and other perks, which keeps customers coming back. Amazon also sells ads inside its own store, so brands pay to appear first in search results, and makes devices such as the Kindle and the Echo speakers with the **Alexa** assistant.",
+      "The part that matters most in tech is **AWS** (Amazon Web Services). Amazon built huge computing infrastructure for its own store and, in 2006, started renting it to others: S3 for storage and EC2 for servers were among the first services. AWS became the largest cloud provider and, although it is a smaller share of Amazon's sales than the store, it brings in a large share of the company's profit. Many of the apps and websites you use every day run on it, and it is also a major investor in Anthropic."
+    ],
+    "analogy": "A shopping mall that also owns the trucks, the warehouses and the power plant. Shops rent space and pay for delivery; and since the power plant had capacity to spare, the mall started selling electricity to the whole city too.",
+    "keyPoints": [
+      "Founded in 1994 by Jeff Bezos in Seattle, as an online bookstore.",
+      "Most items in its store come from third-party sellers who pay Amazon fees.",
+      "Prime, advertising and devices like Alexa grew around the store.",
+      "AWS, launched in 2006, is the largest cloud provider and a big part of Amazon's profit."
+    ],
+    "links": [
+      { "label": "About Amazon", "url": "https://www.aboutamazon.com/about-us" },
+      { "label": "What is AWS?", "url": "https://aws.amazon.com/what-is-aws/" },
+      { "label": "Amazon on Wikipedia", "url": "https://en.wikipedia.org/wiki/Amazon_(company)" }
+    ]
+  },
+  "es": {
+    "title": "Amazon",
+    "tagline": "Una tienda online con su propia red de envíos, y la empresa que maneja AWS.",
+    "explanation": [
+      "**Amazon** la fundó Jeff Bezos en 1994, en Seattle, como una librería online. Creció hasta ser una tienda que vende casi de todo, y la mayor parte de lo que vende hoy viene de **vendedores** independientes que publican sus productos en el marketplace de Amazon y pagan comisiones por la venta, y muchas veces para que Amazon guarde y envíe la mercadería. Detrás de la página hay una de las redes de logística más grandes del mundo: depósitos, centros de clasificación, aviones y camionetas de reparto.",
+      "Alrededor de la tienda crecieron varios negocios. **Prime** es una membresía anual o mensual con envíos rápidos, Prime Video y otros beneficios, que hace que los clientes vuelvan. Amazon también vende publicidad adentro de su tienda, así las marcas pagan para aparecer primeras en las búsquedas, y fabrica dispositivos como el Kindle y los parlantes Echo con la asistente **Alexa**.",
+      "La parte que más importa en tecnología es **AWS** (Amazon Web Services). Amazon armó una infraestructura de cómputo enorme para su propia tienda y, en 2006, empezó a alquilársela a otros: S3 para almacenamiento y EC2 para servidores estuvieron entre los primeros servicios. AWS se volvió el proveedor de nube más grande y, aunque es una parte de las ventas de Amazon más chica que la tienda, deja una parte grande de la ganancia de la empresa. Muchas de las apps y sitios que usás todos los días corren ahí, y además es uno de los grandes inversores de Anthropic."
+    ],
+    "analogy": "Un shopping que además es dueño de los camiones, los depósitos y la usina eléctrica. Los locales alquilan espacio y pagan los envíos; y como a la usina le sobraba capacidad, el shopping empezó a venderle electricidad a toda la ciudad.",
+    "keyPoints": [
+      "Fundada en 1994 por Jeff Bezos en Seattle, como librería online.",
+      "La mayoría de los productos de su tienda son de vendedores externos que le pagan comisiones.",
+      "Prime, la publicidad y dispositivos como Alexa crecieron alrededor de la tienda.",
+      "AWS, lanzado en 2006, es el proveedor de nube más grande y una parte grande de la ganancia de Amazon."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS?", "url": "https://aws.amazon.com/es/what-is-aws/" },
+      { "label": "Amazon en Wikipedia", "url": "https://es.wikipedia.org/wiki/Amazon" },
+      { "label": "Acerca de Amazon (en inglés)", "url": "https://www.aboutamazon.com/about-us" }
+    ]
+  }
+}

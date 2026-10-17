@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-google",
+  "date": "2026-10-17",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Alphabet"],
+    "es": ["Alphabet"]
+  },
+  "image": "img/2026-10-17-google.svg",
+  "imageAlt": {
+    "en": "People use free products like search, video, maps and a phone system; advertisers pay to show ads there; a second row shows cloud, AI models and devices sold directly",
+    "es": "La gente usa productos gratis como el buscador, video, mapas y un sistema de celulares; los anunciantes pagan para mostrar avisos ahí; una segunda fila muestra la nube, modelos de IA y dispositivos que se venden directo"
+  },
+  "en": {
+    "title": "Google",
+    "tagline": "The search company that gives most products away and makes its money on ads.",
+    "explanation": [
+      "**Google** started in 1998 as a search engine built by two Stanford students, Larry Page and Sergey Brin. Their idea was to rank web pages by how many other pages linked to them, which gave much better results than the search engines of the time. Since 2015 Google is part of **Alphabet**, a parent company that also holds other bets such as Waymo, the self-driving car business.",
+      "Most people never pay Google directly, and yet it is one of the largest companies in the world. The trick is **advertising**: Search, YouTube, Maps, Gmail, Chrome and Android are free, billions of people use them every day, and businesses pay to show ads next to what those people search for or watch. Because a search says exactly what someone wants right now ('plumber near me'), those ads are unusually valuable, and ads still bring in most of the company's revenue.",
+      "On top of that it sells things directly. **Google Cloud** rents computing, storage and data tools to companies, competing with AWS and Microsoft Azure. Google DeepMind, its AI lab, builds the **Gemini** models, and Google designs its own AI chips, called TPUs. It also sells Pixel phones and other devices, and takes a share of the sales in the Play Store, the app store of Android."
+    ],
+    "analogy": "A free TV channel. The shows (search, video, maps) cost you nothing because the channel sells the commercial breaks to advertisers, and the more people watch, the more each break is worth.",
+    "keyPoints": [
+      "Founded in 1998 by Larry Page and Sergey Brin; part of Alphabet since 2015.",
+      "Most of its revenue comes from ads shown in Search, YouTube and partner sites.",
+      "Android, Chrome, Gmail and Maps are free and keep people inside its ecosystem.",
+      "It also sells Google Cloud, Gemini models and Pixel devices."
+    ],
+    "links": [
+      { "label": "About Google", "url": "https://about.google/" },
+      { "label": "Google products", "url": "https://about.google/products/" },
+      { "label": "Google on Wikipedia", "url": "https://en.wikipedia.org/wiki/Google" }
+    ]
+  },
+  "es": {
+    "title": "Google",
+    "tagline": "La empresa del buscador, que regala casi todo y gana plata con publicidad.",
+    "explanation": [
+      "**Google** arrancó en 1998 como un buscador armado por dos estudiantes de Stanford, Larry Page y Sergey Brin. Su idea fue ordenar las páginas web según cuántas otras páginas las enlazaban, lo que daba resultados mucho mejores que los buscadores de esa época. Desde 2015 Google es parte de **Alphabet**, una empresa madre que también tiene otras apuestas, como Waymo, el negocio de autos que se manejan solos.",
+      "La mayoría de la gente nunca le paga nada a Google, y aun así es una de las empresas más grandes del mundo. El truco es la **publicidad**: el buscador, YouTube, Maps, Gmail, Chrome y Android son gratis, miles de millones de personas los usan todos los días, y las empresas pagan para mostrar avisos al lado de lo que esa gente busca o mira. Como una búsqueda dice exactamente qué quiere alguien en ese momento ('plomero cerca'), esos avisos valen mucho, y la publicidad sigue siendo la mayor parte de lo que factura.",
+      "Además vende cosas directamente. **Google Cloud** alquila cómputo, almacenamiento y herramientas de datos a empresas, y compite con AWS y Microsoft Azure. Google DeepMind, su laboratorio de IA, hace los modelos **Gemini**, y Google diseña sus propios chips de IA, llamados TPUs. También vende celulares Pixel y otros dispositivos, y se queda con una parte de las ventas de la Play Store, la tienda de apps de Android."
+    ],
+    "analogy": "Un canal de TV abierta. Los programas (buscador, videos, mapas) no te cuestan nada porque el canal le vende las tandas a los anunciantes, y cuanta más gente mira, más vale cada tanda.",
+    "keyPoints": [
+      "Fundada en 1998 por Larry Page y Sergey Brin; parte de Alphabet desde 2015.",
+      "La mayor parte de sus ingresos viene de avisos en el buscador, YouTube y sitios asociados.",
+      "Android, Chrome, Gmail y Maps son gratis y mantienen a la gente adentro de su ecosistema.",
+      "También vende Google Cloud, los modelos Gemini y dispositivos Pixel."
+    ],
+    "links": [
+      { "label": "Acerca de Google", "url": "https://about.google/intl/es-419/" },
+      { "label": "Productos de Google", "url": "https://about.google/intl/es-419/products/" },
+      { "label": "Google en Wikipedia", "url": "https://es.wikipedia.org/wiki/Google" }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M86 50 L150 84"/><path d="M314 50 L250 84"/><path d="M86 140 L150 112"/><path d="M314 140 L250 112"/>
+    <path d="M200 132 V158"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="66" width="100" height="66" rx="12" fill="#ffd166"/>
+    <rect x="30" y="30" width="56" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="314" y="30" width="60" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="30" y="124" width="56" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="314" y="124" width="60" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="160" y="160" width="80" height="44" rx="6" fill="#9bd1b9"/>
+    <rect x="182" y="170" width="36" height="24" rx="3" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5">
+    <path d="M154 172 H160"/><path d="M154 182 H160"/><path d="M154 192 H160"/>
+    <path d="M240 172 H246"/><path d="M240 182 H246"/><path d="M240 192 H246"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="58" y="51">phone</text><text x="344" y="51">laptop</text><text x="58" y="145">tablet</text><text x="344" y="145">watch</text>
+    <text x="200" y="86" font-weight="bold">one account</text>
+    <text x="200" y="104">app store · cloud</text><text x="200" y="120">music · pay</text>
+  </g>
+  <text x="200" y="186" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b">chip</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="96" y="186">designed by Apple</text><text x="306" y="186">made by TSMC</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">devices + services, built to work together</text>
+</svg>

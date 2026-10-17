@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-zero-trust",
+  "date": "2026-10-17",
+  "subjects": ["security"],
+  "level": 3,
+  "aliases": {
+    "en": ["zero-trust", "zero trust architecture", "least privilege"],
+    "es": ["confianza cero", "arquitectura zero trust", "mínimo privilegio"]
+  },
+  "image": "img/2026-10-17-zero-trust.svg",
+  "imageAlt": {
+    "en": "On the left, a castle surrounded by a moat with a VPN gate, where everything inside is trusted; on the right, a user whose every request to an app or a database passes through its own check",
+    "es": "A la izquierda, un castillo rodeado por un foso con una puerta VPN, donde todo lo de adentro es confiable; a la derecha, un usuario cuyos pedidos a una app o a una base pasan cada uno por su propio control"
+  },
+  "en": {
+    "title": "Zero trust",
+    "tagline": "Security that checks every request, instead of trusting whatever is inside the network.",
+    "explanation": [
+      "For decades, company security followed the **castle and moat** model: a strong wall around the office network (the firewall), a gate to get in from outside (the VPN), and once inside, almost everything was reachable and trusted. That breaks down when one phishing email gives an attacker a foothold inside, when people work from home and cafés, and when the apps live in the cloud rather than in the office.",
+      "**Zero trust** drops the idea that being on the right network means anything. Every request, to every app, is checked on its own: who is asking (a strong login, usually with two-factor authentication), from what device (is it the company laptop, is it up to date?), and whether this person should have access to this specific thing right now. The rule behind it is **least privilege**: each person and each service gets only the access they need, nothing more.",
+      "In practice it means an identity provider with SSO in front of every app, device checks, short-lived credentials, fine-grained permissions like the ones IAM gives on AWS, and logs of every access. Google popularized it internally after a major breach in 2009, and the US government's NIST published a reference architecture for it. It is not a product you buy but a direction: every step that removes implicit trust makes a stolen password or an infected laptop do less damage."
+    ],
+    "analogy": "An office building where your badge is checked at every door, not only at the main entrance. Getting into the lobby no longer means you can walk into the server room; each door asks again whether you, today, should go through.",
+    "keyPoints": [
+      "Network location grants nothing: being inside is not a reason to be trusted.",
+      "Every request is checked for identity, device and permission.",
+      "Least privilege: each person and service gets only the access they need.",
+      "It limits the damage of stolen passwords and infected devices instead of assuming they will not happen."
+    ],
+    "links": [
+      { "label": "NIST SP 800-207, Zero Trust Architecture", "url": "https://csrc.nist.gov/pubs/sp/800/207/final" },
+      { "label": "Zero Trust on AWS", "url": "https://aws.amazon.com/security/zero-trust/" },
+      { "label": "Zero trust architecture on Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero_trust_architecture" }
+    ]
+  },
+  "es": {
+    "title": "Zero trust",
+    "tagline": "Seguridad que revisa cada pedido, en vez de confiar en lo que está adentro de la red.",
+    "explanation": [
+      "Durante décadas, la seguridad de las empresas siguió el modelo del **castillo y el foso**: un muro fuerte alrededor de la red de la oficina (el firewall), una puerta para entrar desde afuera (la VPN), y una vez adentro, casi todo era accesible y confiable. Ese modelo se rompe cuando un mail de phishing le da a un atacante un pie adentro, cuando la gente trabaja desde la casa o desde un café, y cuando las apps viven en la nube y no en la oficina.",
+      "**Zero trust** (confianza cero) abandona la idea de que estar en la red correcta signifique algo. Cada pedido, a cada app, se revisa por separado: quién lo hace (un inicio de sesión fuerte, casi siempre con autenticación de dos factores), desde qué dispositivo (¿es la notebook de la empresa?, ¿está actualizada?) y si esa persona debería tener acceso a esa cosa puntual en ese momento. La regla de fondo es el **mínimo privilegio**: cada persona y cada servicio recibe solo el acceso que necesita, nada más.",
+      "En la práctica implica un proveedor de identidad con SSO delante de cada app, controles del dispositivo, credenciales que duran poco, permisos finos como los que da IAM en AWS, y registros de cada acceso. Google lo popularizó puertas adentro después de un ataque grave en 2009, y el NIST del gobierno de Estados Unidos publicó una arquitectura de referencia. No es un producto que se compra sino una dirección: cada paso que saca confianza implícita hace que una contraseña robada o una notebook infectada causen menos daño."
+    ],
+    "analogy": "Un edificio de oficinas donde la credencial se revisa en cada puerta, no solo en la entrada. Llegar al hall ya no te habilita a entrar a la sala de servidores; cada puerta vuelve a preguntar si vos, hoy, deberías pasar.",
+    "keyPoints": [
+      "Estar en la red no da nada: estar adentro no es motivo para confiar.",
+      "Cada pedido se revisa por identidad, dispositivo y permiso.",
+      "Mínimo privilegio: cada persona y servicio recibe solo el acceso que necesita.",
+      "Limita el daño de contraseñas robadas y dispositivos infectados en vez de suponer que no van a pasar."
+    ],
+    "links": [
+      { "label": "Zero Trust en AWS", "url": "https://aws.amazon.com/es/security/zero-trust/" },
+      { "label": "NIST SP 800-207, Zero Trust Architecture (en inglés)", "url": "https://csrc.nist.gov/pubs/sp/800/207/final" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-arm",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Arm Holdings", "ARM", "ARM architecture"],
+    "es": ["Arm Holdings", "ARM", "arquitectura ARM"]
+  },
+  "image": "img/2026-10-17-arm.svg",
+  "imageAlt": {
+    "en": "An Arm blueprint is licensed to several chipmakers, whose chips end up in a phone, a laptop and a server",
+    "es": "Un plano de Arm se licencia a varios fabricantes de chips, cuyos chips terminan en un celular, una notebook y un servidor"
+  },
+  "en": {
+    "title": "Arm",
+    "tagline": "The British company that designs the processor blueprints inside almost every phone.",
+    "explanation": [
+      "**Arm** (Arm Holdings) designs processor architectures and licenses them; it does not manufacture or sell chips. Its product is intellectual property: the **ARM architecture**, the instruction set a processor understands, and ready-made CPU core designs. Companies like Apple, Qualcomm, Samsung and MediaTek pay Arm for a license, build their own chips with it, and have them manufactured by a foundry such as TSMC.",
+      "ARM processors were built from the start to use little power, which is why nearly every smartphone and tablet runs on one. That efficiency has since moved up: Apple's M-series Mac chips, Amazon's Graviton servers on AWS and many other data center chips are ARM-based. This is the 'ARM vs x86' contest: x86, from Intel and AMD, ruled PCs and servers for decades, and ARM keeps winning ground there.",
+      "Arm earns money in two ways: a license fee to use its designs, and a small **royalty** for every chip shipped with them. Each royalty is tiny, but tens of billions of ARM chips ship every year, in phones, cars, TVs and appliances. Founded in Cambridge, England, in 1990, Arm is majority-owned by the Japanese group SoftBank."
+    ],
+    "analogy": "A company that writes the rules of a language and sells dictionaries. It never writes the books itself, but almost every author in a huge market writes in its language and pays a little for each copy sold.",
+    "keyPoints": [
+      "Licenses processor designs; never manufactures chips.",
+      "Its customers (Apple, Qualcomm, Samsung) build ARM chips and a foundry makes them.",
+      "ARM rules phones for its low power use and is growing in laptops and servers.",
+      "Earns license fees plus a royalty per chip shipped."
+    ],
+    "links": [
+      { "label": "Arm, company overview (official site)", "url": "https://www.arm.com/company" },
+      { "label": "Arm Holdings on Wikipedia", "url": "https://en.wikipedia.org/wiki/Arm_Holdings" },
+      { "label": "ARM architecture family on Wikipedia", "url": "https://en.wikipedia.org/wiki/ARM_architecture_family" }
+    ]
+  },
+  "es": {
+    "title": "Arm",
+    "tagline": "La empresa británica que diseña los planos del procesador de casi todos los celulares.",
+    "explanation": [
+      "**Arm** (Arm Holdings) diseña arquitecturas de procesadores y las licencia; no fabrica ni vende chips. Su producto es propiedad intelectual: la **arquitectura ARM**, el set de instrucciones que entiende un procesador, y diseños de núcleos de CPU listos para usar. Empresas como Apple, Qualcomm, Samsung y MediaTek le pagan a Arm una licencia, arman sus propios chips con eso y los mandan a fabricar a una foundry como TSMC.",
+      "Los procesadores ARM se pensaron desde el principio para gastar poca energía, y por eso casi todos los celulares y tablets usan uno. Esa eficiencia después subió de categoría: los chips de la serie M de las Mac de Apple, los servidores Graviton de Amazon en AWS y muchos otros chips de data center son ARM. Esa es la pelea 'ARM contra x86': x86, de Intel y AMD, dominó PCs y servidores durante décadas, y ARM le viene ganando terreno ahí.",
+      "Arm gana plata de dos formas: una licencia por usar sus diseños y un pequeño **royalty** por cada chip que se vende con ellos. Cada royalty es mínimo, pero cada año salen decenas de miles de millones de chips ARM, en celulares, autos, televisores y electrodomésticos. Arm se fundó en Cambridge, Inglaterra, en 1990, y su dueño mayoritario es el grupo japonés SoftBank."
+    ],
+    "analogy": "Una empresa que escribe las reglas de un idioma y vende diccionarios. Nunca escribe los libros, pero casi todos los autores de un mercado enorme escriben en su idioma y le pagan un poquito por cada ejemplar vendido.",
+    "keyPoints": [
+      "Licencia diseños de procesadores; nunca fabrica chips.",
+      "Sus clientes (Apple, Qualcomm, Samsung) arman chips ARM y una foundry los fabrica.",
+      "ARM domina los celulares por su bajo consumo y crece en notebooks y servidores.",
+      "Cobra licencias más un royalty por cada chip vendido."
+    ],
+    "links": [
+      { "label": "Arm Holdings en Wikipedia", "url": "https://es.wikipedia.org/wiki/Arm_Holdings" },
+      { "label": "Arquitectura ARM en Wikipedia", "url": "https://es.wikipedia.org/wiki/Arquitectura_ARM" },
+      { "label": "Arm, la empresa (sitio oficial, en inglés)", "url": "https://www.arm.com/company" }
+    ]
+  }
+}

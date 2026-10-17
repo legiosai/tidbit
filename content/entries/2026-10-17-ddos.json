@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-ddos",
+  "date": "2026-10-17",
+  "subjects": ["security", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["DDoS attack", "DDoS attacks", "denial of service", "denial-of-service", "botnet", "botnets"],
+    "es": ["ataque DDoS", "ataques DDoS", "denegación de servicio", "botnet", "botnets"]
+  },
+  "image": "img/2026-10-17-ddos.svg",
+  "imageAlt": {
+    "en": "A botnet of many pink devices floods traffic into a yellow filter wall in front of a server; only real users pass through to the server",
+    "es": "Una botnet de muchos dispositivos rosas manda una avalancha de tráfico contra un muro amarillo de filtrado delante de un servidor; solo los usuarios reales pasan al servidor"
+  },
+  "en": {
+    "title": "DDoS",
+    "tagline": "Knocking a site offline by flooding it with more traffic than it can handle.",
+    "explanation": [
+      "A **DDoS attack** (distributed denial of service) does not break into anything: it buries a website or service under so many requests that real users cannot get through. Every server, link and router has a limit; push enough traffic at it and it slows to a crawl or falls over. 'Distributed' means the flood comes from thousands or millions of machines at once, so blocking a single IP address does nothing.",
+      "Those machines are usually a **botnet**: computers, routers, security cameras and other devices infected with malware and controlled remotely, mostly without their owners noticing. The attacker, or someone who rents the botnet to them by the hour, tells them all to send traffic at the same target. Some attacks fill the network pipe with raw volume; others are subtler and send requests that look normal but are expensive for the server to answer, like repeated searches or logins.",
+      "The defense is mostly size and filtering. Services like AWS Shield or Cloudflare sit in front of the site, spread across data centers all over the world, so the flood is absorbed by a network far bigger than any attack, and **scrubbing** systems separate the bot traffic from the people. A CDN helps on its own, because cached pages are served from the edge without touching the origin. Attacks are often used for extortion, protest or as a distraction while something else happens."
+    ],
+    "analogy": "A shop where a crowd of hired people walks in all at once and stands in line asking for nothing. The shop is not robbed, but no real customer can get to the counter until a doorman starts telling them apart.",
+    "keyPoints": [
+      "A DDoS overwhelms a service with traffic; it steals nothing, it makes the service unusable.",
+      "The traffic comes from a botnet of infected devices, so blocking one address is useless.",
+      "Protection comes from huge networks that absorb and filter the flood before it reaches you.",
+      "Some attacks use raw volume, others cheap-to-send, expensive-to-answer requests."
+    ],
+    "links": [
+      { "label": "What is a DDoS attack? (AWS Shield)", "url": "https://aws.amazon.com/shield/ddos-attack-protection/" },
+      { "label": "Denial-of-service attack on Wikipedia", "url": "https://en.wikipedia.org/wiki/Denial-of-service_attack" }
+    ]
+  },
+  "es": {
+    "title": "DDoS",
+    "tagline": "Tirar un sitio inundándolo con más tráfico del que puede aguantar.",
+    "explanation": [
+      "Un **ataque DDoS** (distributed denial of service, denegación de servicio distribuida) no entra a ningún lado: entierra un sitio o un servicio bajo tantos pedidos que los usuarios reales no logran pasar. Todo servidor, enlace y router tiene un límite; si le mandás suficiente tráfico, se pone lentísimo o se cae. 'Distribuido' quiere decir que la avalancha llega desde miles o millones de máquinas a la vez, así que bloquear una dirección IP no sirve de nada.",
+      "Esas máquinas suelen ser una **botnet**: computadoras, routers, cámaras de seguridad y otros dispositivos infectados con malware y controlados a distancia, casi siempre sin que sus dueños se den cuenta. El atacante, o alguien que le alquila la botnet por hora, les ordena a todos mandar tráfico al mismo objetivo. Algunos ataques llenan el caño de la red con puro volumen; otros son más sutiles y mandan pedidos que parecen normales pero que al servidor le cuesta mucho responder, como búsquedas o inicios de sesión repetidos.",
+      "La defensa es sobre todo tamaño y filtrado. Servicios como AWS Shield o Cloudflare se ponen delante del sitio, repartidos en centros de datos de todo el mundo, así la avalancha la absorbe una red mucho más grande que cualquier ataque, y sistemas de **scrubbing** (depuración) separan el tráfico de los bots del de las personas. Una CDN ayuda por sí sola, porque las páginas en caché se sirven desde el borde sin tocar el origen. Los ataques se usan para extorsionar, protestar o distraer mientras pasa otra cosa."
+    ],
+    "analogy": "Un negocio donde de golpe entra una multitud contratada que hace la fila sin pedir nada. No roban nada, pero ningún cliente de verdad llega al mostrador hasta que alguien en la puerta empieza a distinguir quién es quién.",
+    "keyPoints": [
+      "Un DDoS satura un servicio con tráfico; no roba nada, lo deja inutilizable.",
+      "El tráfico sale de una botnet de dispositivos infectados, así que bloquear una dirección no alcanza.",
+      "La protección viene de redes enormes que absorben y filtran la avalancha antes de que te llegue.",
+      "Algunos ataques usan puro volumen; otros, pedidos baratos de mandar y caros de responder."
+    ],
+    "links": [
+      { "label": "¿Qué es un ataque DDoS? (AWS Shield)", "url": "https://aws.amazon.com/es/shield/ddos-attack-protection/" },
+      { "label": "Ataque de denegación de servicio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ataque_de_denegaci%C3%B3n_de_servicio" }
+    ]
+  }
+}

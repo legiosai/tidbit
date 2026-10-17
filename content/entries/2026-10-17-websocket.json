@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-websocket",
+  "date": "2026-10-17",
+  "subjects": ["networks", "software"],
+  "level": 3,
+  "aliases": {
+    "en": ["WebSockets", "web socket", "web sockets"],
+    "es": ["WebSockets"]
+  },
+  "image": "img/2026-10-17-websocket.svg",
+  "imageAlt": {
+    "en": "On the left, HTTP as separate request and response arrows; on the right, a browser and a server joined by one open pipe with messages flowing both ways",
+    "es": "A la izquierda, HTTP como flechas separadas de pedido y respuesta; a la derecha, un navegador y un servidor unidos por un caño abierto con mensajes yendo en los dos sentidos"
+  },
+  "en": {
+    "title": "WebSocket",
+    "tagline": "A connection between browser and server that stays open, so both can talk anytime.",
+    "explanation": [
+      "Plain HTTP works like a letter exchange: the browser asks, the server answers, and the conversation is over. The server cannot speak first. A **WebSocket** is a connection that stays open after it is created, so either side can send a message at any moment, in both directions, without asking again.",
+      "It starts as an ordinary HTTP request with a special header that says, in effect, 'let us switch to WebSocket' (the **upgrade handshake**). If the server agrees, the same TCP connection is kept and from then on carries small messages, called frames, instead of full requests and responses. In the browser it is a few lines of code: `new WebSocket(\"wss://chat.example.com\")`, then a function that runs every time a message arrives. The `wss://` prefix means it is encrypted, like HTTPS.",
+      "It is what makes real-time web apps feel instant: chat apps, live sports scores, shared documents where you see other people typing, trading screens, multiplayer browser games. The old alternative was **polling**, asking the server 'anything new?' every few seconds, which is slower and wastes requests when the answer is no. The cost is that the server has to keep one open connection per user, which takes memory and care when scaling, and connections drop on bad networks, so apps must reconnect."
+    ],
+    "analogy": "HTTP is sending text messages and waiting for each reply; a WebSocket is a phone call that stays connected, where either person can speak the moment they have something to say.",
+    "keyPoints": [
+      "One connection stays open and carries messages both ways.",
+      "It begins as an HTTP request that is upgraded; `wss://` is the encrypted version.",
+      "It replaces polling for chats, live data, collaboration and games.",
+      "Servers must hold one connection per user and clients must handle reconnecting."
+    ],
+    "links": [
+      { "label": "The WebSocket API (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" },
+      { "label": "RFC 6455, the WebSocket protocol", "url": "https://www.rfc-editor.org/rfc/rfc6455" },
+      { "label": "WebSocket on Wikipedia", "url": "https://en.wikipedia.org/wiki/WebSocket" }
+    ]
+  },
+  "es": {
+    "title": "WebSocket",
+    "tagline": "Una conexión entre navegador y servidor que queda abierta, para que hablen cuando quieran.",
+    "explanation": [
+      "El HTTP común funciona como un intercambio de cartas: el navegador pregunta, el servidor responde y la conversación termina. El servidor no puede hablar primero. Un **WebSocket** es una conexión que queda abierta después de crearse, así cualquiera de los dos lados puede mandar un mensaje en cualquier momento, en los dos sentidos, sin volver a preguntar.",
+      "Arranca como un pedido HTTP normal con un encabezado especial que dice, más o menos, 'pasemos a WebSocket' (el **upgrade handshake**). Si el servidor acepta, se conserva la misma conexión TCP y desde ahí viajan mensajes chiquitos, llamados frames, en vez de pedidos y respuestas completos. En el navegador son unas pocas líneas: `new WebSocket(\"wss://chat.example.com\")`, y después una función que se ejecuta cada vez que llega un mensaje. El prefijo `wss://` quiere decir que va cifrado, como HTTPS.",
+      "Es lo que hace que las apps web en tiempo real se sientan instantáneas: chats, resultados deportivos en vivo, documentos compartidos donde ves a otros escribir, pantallas de trading, juegos multijugador en el navegador. La alternativa vieja era el **polling**: preguntarle al servidor '¿hay algo nuevo?' cada pocos segundos, que es más lento y desperdicia pedidos cuando la respuesta es no. El costo es que el servidor tiene que mantener una conexión abierta por usuario, lo que ocupa memoria y pide cuidado al escalar, y las conexiones se cortan en redes malas, así que las apps tienen que reconectarse."
+    ],
+    "analogy": "HTTP es mandar mensajes de texto y esperar cada respuesta; un WebSocket es una llamada que queda conectada, donde cualquiera de los dos habla apenas tiene algo para decir.",
+    "keyPoints": [
+      "Una sola conexión queda abierta y lleva mensajes en los dos sentidos.",
+      "Empieza como un pedido HTTP que se convierte; `wss://` es la versión cifrada.",
+      "Reemplaza al polling en chats, datos en vivo, colaboración y juegos.",
+      "El servidor mantiene una conexión por usuario y el cliente tiene que saber reconectarse."
+    ],
+    "links": [
+      { "label": "La API de WebSockets (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/API/WebSockets_API" },
+      { "label": "WebSocket en Wikipedia", "url": "https://es.wikipedia.org/wiki/WebSocket" },
+      { "label": "RFC 6455, el protocolo WebSocket (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc6455" }
+    ]
+  }
+}

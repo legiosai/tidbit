@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="30" y="50" width="140" height="26" rx="5"/>
+    <rect x="30" y="82" width="140" height="26" rx="5"/>
+    <rect x="30" y="114" width="140" height="26" rx="5"/>
+    <rect x="30" y="146" width="140" height="26" rx="5"/>
+  </g>
+  <g fill="#9ac7ea"><rect x="38" y="55" width="38" height="16" rx="3"/><rect x="38" y="87" width="38" height="16" rx="3"/><rect x="38" y="119" width="38" height="16" rx="3"/><rect x="38" y="151" width="38" height="16" rx="3"/></g>
+  <g fill="#ffd166"><rect x="81" y="55" width="38" height="16" rx="3"/><rect x="81" y="87" width="38" height="16" rx="3"/><rect x="81" y="119" width="38" height="16" rx="3"/><rect x="81" y="151" width="38" height="16" rx="3"/></g>
+  <g fill="#f4a7a7"><rect x="124" y="55" width="38" height="16" rx="3"/><rect x="124" y="87" width="38" height="16" rx="3"/><rect x="124" y="119" width="38" height="16" rx="3"/><rect x="124" y="151" width="38" height="16" rx="3"/></g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="234" y="50" width="40" height="122" rx="6" fill="#e6dfd0"/>
+    <rect x="284" y="50" width="40" height="122" rx="6" fill="#ffd166"/>
+    <rect x="334" y="50" width="40" height="122" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <rect x="278" y="44" width="102" height="134" rx="10" stroke-dasharray="5 4"/>
+    <path d="M182 111 H222"/><path d="M216 107 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b" text-anchor="middle">
+    <text x="254" y="190">date</text><text x="304" y="190">amount</text><text x="354" y="190">country</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="36">CSV: row by row</text><text x="304" y="34">Parquet: by column</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="196">a query reads every row</text>
+    <text x="200" y="224">this query reads 2 columns and skips the rest</text>
+  </g>
+</svg>

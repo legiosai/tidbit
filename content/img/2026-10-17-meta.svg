@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="40" cy="96" r="10" fill="#9ac7ea"/><circle cx="64" cy="96" r="10" fill="#9bd1b9"/><circle cx="52" cy="118" r="10" fill="#f4a7a7"/>
+    <rect x="100" y="40" width="96" height="30" rx="8" fill="#9ac7ea"/>
+    <rect x="100" y="92" width="96" height="30" rx="8" fill="#f4a7a7"/>
+    <rect x="100" y="144" width="96" height="30" rx="8" fill="#9bd1b9"/>
+    <rect x="228" y="84" width="70" height="46" rx="10" fill="#ffd166"/>
+    <rect x="312" y="84" width="78" height="46" rx="10" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M78 104 H96"/>
+    <path d="M198 55 C214 55 210 98 224 100"/><path d="M198 107 H224"/><path d="M198 159 C214 159 210 116 224 114"/>
+    <path d="M218 103 l6 4 -6 4"/>
+    <path d="M310 107 H302"/><path d="M308 103 l-6 4 6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="228" y="170" width="80" height="26" rx="6" fill="#e6dfd0"/>
+    <rect x="316" y="170" width="74" height="26" rx="6" fill="#e6dfd0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="148" y="59">Facebook</text><text x="148" y="111">Instagram</text><text x="148" y="163">WhatsApp</text>
+    <text x="263" y="112" font-weight="bold">ads</text><text x="351" y="104">advertisers</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="268" y="187">open models</text><text x="353" y="187">VR · glasses</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="52" y="146">billions</text><text x="351" y="120">pay</text><text x="309" y="160">also building:</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">free apps · paid for by targeted ads</text>
+</svg>

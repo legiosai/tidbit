@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-meta",
+  "date": "2026-10-17",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Meta Platforms", "Facebook"],
+    "es": ["Meta Platforms", "Facebook"]
+  },
+  "image": "img/2026-10-17-meta.svg",
+  "imageAlt": {
+    "en": "Three apps used by billions of people feed an ads box that advertisers pay into; on the side, small boxes for open AI models and headsets and glasses",
+    "es": "Tres apps que usan miles de millones de personas alimentan una caja de avisos a la que pagan los anunciantes; al costado, cajitas para modelos de IA abiertos y visores y anteojos"
+  },
+  "en": {
+    "title": "Meta",
+    "tagline": "The company behind Facebook, Instagram and WhatsApp, paid for by advertising.",
+    "explanation": [
+      "**Meta** is the company that started as **Facebook**, created by Mark Zuckerberg in 2004 while he was a student at Harvard. It bought Instagram in 2012 and WhatsApp in 2014, and in 2021 renamed itself Meta Platforms to signal a bet beyond social networks. It is based in Menlo Park, California, and its apps are used by billions of people.",
+      "The apps are free, and nearly all of Meta's revenue comes from **advertising**. Businesses, from a corner bakery to global brands, pay to show ads in the feeds and stories of Facebook and Instagram, and Meta's systems choose who sees each ad based on what people do in its apps. That ability to reach a specific audience cheaply is what advertisers pay for. WhatsApp makes money mostly by charging businesses to message their customers.",
+      "Two other efforts are important for tech. Meta's AI lab builds the **Llama** models and publishes their weights, so anyone can download them and run them on their own computers, which made them a common base for open models. And **Reality Labs** makes virtual reality headsets (Quest) and smart glasses; it is a long-term bet that has cost a lot of money so far."
+    ],
+    "analogy": "A huge town square that charges no entry. People come to meet their friends, and the square makes its money renting the walls and the noticeboards to shops that want those people to see their posters.",
+    "keyPoints": [
+      "Started as Facebook in 2004; renamed Meta in 2021; owns Instagram and WhatsApp.",
+      "Its apps are free; nearly all of its revenue comes from targeted ads.",
+      "It publishes the weights of its Llama AI models.",
+      "Reality Labs builds VR headsets and smart glasses as a long-term bet."
+    ],
+    "links": [
+      { "label": "About Meta", "url": "https://about.meta.com/" },
+      { "label": "Llama", "url": "https://www.llama.com/" },
+      { "label": "Meta Platforms on Wikipedia", "url": "https://en.wikipedia.org/wiki/Meta_Platforms" }
+    ]
+  },
+  "es": {
+    "title": "Meta",
+    "tagline": "La empresa detrás de Facebook, Instagram y WhatsApp, financiada con publicidad.",
+    "explanation": [
+      "**Meta** es la empresa que arrancó como **Facebook**, creada por Mark Zuckerberg en 2004 cuando era estudiante en Harvard. Compró Instagram en 2012 y WhatsApp en 2014, y en 2021 se cambió el nombre a Meta Platforms para marcar una apuesta más allá de las redes sociales. Tiene su sede en Menlo Park, California, y sus apps las usan miles de millones de personas.",
+      "Las apps son gratis, y casi todos los ingresos de Meta vienen de la **publicidad**. Negocios de todo tamaño, desde la panadería de la esquina hasta marcas globales, pagan para mostrar avisos en el feed y las historias de Facebook e Instagram, y los sistemas de Meta eligen quién ve cada aviso según lo que la gente hace en sus apps. Esa capacidad de llegarle barato a un público específico es lo que pagan los anunciantes. WhatsApp gana plata sobre todo cobrándoles a las empresas por mandarles mensajes a sus clientes.",
+      "Hay otros dos frentes importantes para la tecnología. El laboratorio de IA de Meta hace los modelos **Llama** y publica sus pesos, así cualquiera los puede descargar y correr en sus propias computadoras, lo que los volvió una base común para modelos abiertos. Y **Reality Labs** fabrica visores de realidad virtual (Quest) y anteojos inteligentes; es una apuesta de largo plazo que hasta ahora costó mucha plata."
+    ],
+    "analogy": "Una plaza enorme que no cobra entrada. La gente va a encontrarse con sus amigos, y la plaza gana plata alquilando las paredes y las carteleras a los negocios que quieren que esa gente vea sus afiches.",
+    "keyPoints": [
+      "Empezó como Facebook en 2004; se llama Meta desde 2021; es dueña de Instagram y WhatsApp.",
+      "Sus apps son gratis; casi todos sus ingresos vienen de avisos segmentados.",
+      "Publica los pesos de sus modelos de IA Llama.",
+      "Reality Labs hace visores de realidad virtual y anteojos inteligentes como apuesta de largo plazo."
+    ],
+    "links": [
+      { "label": "Acerca de Meta", "url": "https://about.meta.com/es/" },
+      { "label": "Meta Platforms en Wikipedia", "url": "https://es.wikipedia.org/wiki/Meta_Platforms" },
+      { "label": "Llama (en inglés)", "url": "https://www.llama.com/" }
+    ]
+  }
+}

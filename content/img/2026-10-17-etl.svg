@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="14" y="64" width="56" height="22" rx="6" fill="#e6dfd0"/>
+    <rect x="14" y="99" width="56" height="22" rx="6" fill="#e6dfd0"/>
+    <rect x="14" y="134" width="56" height="22" rx="6" fill="#e6dfd0"/>
+    <rect x="92" y="84" width="64" height="52" rx="10" fill="#9ac7ea"/>
+    <rect x="176" y="84" width="72" height="52" rx="10" fill="#ffd166"/>
+    <rect x="268" y="84" width="52" height="52" rx="10" fill="#9bd1b9"/>
+    <path d="M334 86 V138 A24 8 0 0 0 382 138 V86" fill="#e6dfd0"/>
+    <ellipse cx="358" cy="86" rx="24" ry="8" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M72 75 C82 75 80 100 88 104"/><path d="M72 110 H88"/><path d="M72 145 C82 145 80 120 88 116"/>
+    <path d="M158 110 H170"/><path d="M165 106 l5 4 -5 4"/>
+    <path d="M250 110 H262"/><path d="M257 106 l5 4 -5 4"/>
+    <path d="M322 110 H331"/><path d="M327 107 l4 3 -4 3"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="42" y="79">app</text><text x="42" y="114">CRM</text><text x="42" y="149">sheet</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#2b2b2b" text-anchor="middle">
+    <text x="124" y="118">E</text><text x="212" y="118">T</text><text x="294" y="118">L</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="124" y="154">extract</text><text x="212" y="154">transform</text><text x="294" y="154">load</text><text x="358" y="160">warehouse</text>
+  </g>
+  <text x="212" y="186" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">"ANA PÉREZ" → "Ana Pérez"</text>
+  <text x="200" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">pipeline</text>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the same cleanup, every run</text>
+</svg>

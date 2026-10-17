@@ -1,0 +1,58 @@
+{
+  "id": "2026-10-17-asml",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["ASML Holding", "EUV lithography"],
+    "es": ["ASML Holding", "litografía EUV"]
+  },
+  "image": "img/2026-10-17-asml.svg",
+  "imageAlt": {
+    "en": "A large lithography machine shines light through a mask with a circuit pattern onto a silicon wafer covered in chips",
+    "es": "Una máquina de litografía grande proyecta luz a través de una máscara con un circuito sobre una oblea de silicio llena de chips"
+  },
+  "en": {
+    "title": "ASML",
+    "tagline": "The Dutch company that builds the machines every advanced chip factory depends on.",
+    "explanation": [
+      "**ASML** is a Dutch company that builds **lithography** machines: the equipment that prints circuit patterns onto silicon wafers. Making a chip involves many steps, but lithography decides how small the transistors can be. The machine shines light through a mask holding the circuit's pattern, shrinks it with optics and projects it onto the wafer, layer after layer.",
+      "Its most advanced machines use **EUV** (extreme ultraviolet) light, with a wavelength far shorter than visible light, which is what makes today's smallest transistors possible. ASML is the only company in the world that makes EUV machines. Each one is the size of a bus, costs roughly a couple of hundred million dollars, ships in many containers and takes months to install. TSMC, Samsung and Intel all depend on them for their leading-edge chips.",
+      "That monopoly turns ASML into a geopolitical piece. The machines rely on parts from a network of European, American and Japanese suppliers, and the Dutch government, coordinating with the United States, restricts which machines can be sold to China. Whoever cannot buy EUV machines cannot make the most advanced chips, whatever their designs."
+    ],
+    "analogy": "The only maker of the printing presses fine enough to print the smallest letters in the world. Authors and printers compete fiercely, but all of them buy their presses from the same workshop.",
+    "keyPoints": [
+      "Builds lithography machines, which print circuit patterns onto silicon wafers.",
+      "The only company that makes EUV machines, needed for the most advanced chips.",
+      "TSMC, Samsung and Intel are its key customers.",
+      "Export rules on its machines shape who can make cutting-edge chips."
+    ],
+    "links": [
+      { "label": "ASML, about the company (official site)", "url": "https://www.asml.com/en/company" },
+      { "label": "ASML Holding on Wikipedia", "url": "https://en.wikipedia.org/wiki/ASML_Holding" },
+      { "label": "Extreme ultraviolet lithography on Wikipedia", "url": "https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography" }
+    ]
+  },
+  "es": {
+    "title": "ASML",
+    "tagline": "La empresa holandesa que hace las máquinas de las que dependen las fábricas de chips.",
+    "explanation": [
+      "**ASML** es una empresa holandesa que fabrica máquinas de **litografía**: los equipos que imprimen los patrones de los circuitos sobre las obleas de silicio. Hacer un chip lleva muchos pasos, pero la litografía es la que define qué tan chicos pueden ser los transistores. La máquina proyecta luz a través de una máscara que tiene el dibujo del circuito, lo achica con óptica y lo proyecta sobre la oblea, capa tras capa.",
+      "Sus máquinas más avanzadas usan luz **EUV** (ultravioleta extrema), con una longitud de onda mucho más corta que la de la luz visible, y es lo que hace posibles los transistores más chicos de hoy. ASML es la única empresa del mundo que fabrica máquinas EUV. Cada una tiene el tamaño de un colectivo, cuesta aproximadamente un par de cientos de millones de dólares, viaja en muchos contenedores y lleva meses instalarla. TSMC, Samsung e Intel dependen de ellas para sus chips de punta.",
+      "Ese monopolio convierte a ASML en una pieza geopolítica. Las máquinas usan partes de una red de proveedores europeos, estadounidenses y japoneses, y el gobierno de los Países Bajos, en coordinación con Estados Unidos, restringe qué máquinas se le pueden vender a China. Quien no puede comprar máquinas EUV no puede fabricar los chips más avanzados, por buenos que sean sus diseños."
+    ],
+    "analogy": "El único fabricante de imprentas tan finas como para imprimir las letras más chicas del mundo. Autores e imprentas compiten a muerte, pero todos le compran las máquinas al mismo taller.",
+    "keyPoints": [
+      "Fabrica máquinas de litografía, que imprimen los circuitos sobre obleas de silicio.",
+      "Es la única empresa que hace máquinas EUV, necesarias para los chips más avanzados.",
+      "TSMC, Samsung e Intel son sus clientes clave.",
+      "Las reglas de exportación sobre sus máquinas definen quién puede hacer chips de punta."
+    ],
+    "links": [
+      { "label": "ASML Holding en Wikipedia", "url": "https://es.wikipedia.org/wiki/ASML_Holding" },
+      { "label": "Litografía ultravioleta extrema en Wikipedia", "url": "https://es.wikipedia.org/wiki/Litograf%C3%ADa_ultravioleta_extrema" },
+      { "label": "ASML, la empresa (sitio oficial, en inglés)", "url": "https://www.asml.com/en/company" }
+    ]
+  }
+}

@@ -1,6 +1,860 @@
 {
-  "count": 77,
+  "count": 102,
   "entries": [
+    {
+      "id": "2026-10-17-amazon",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-amazon.svg",
+      "imageAlt": {
+        "en": "Two halves: on the left, sellers send goods to a warehouse that ships them to a customer's house; on the right, a data center labeled AWS serves many apps",
+        "es": "Dos mitades: a la izquierda, vendedores mandan productos a un depósito que los envía a la casa de un cliente; a la derecha, un data center que dice AWS atiende muchas apps"
+      },
+      "title": {
+        "en": "Amazon",
+        "es": "Amazon"
+      },
+      "tagline": {
+        "en": "An online store with its own delivery network, and the company that runs AWS.",
+        "es": "Una tienda online con su propia red de envíos, y la empresa que maneja AWS."
+      },
+      "aliases": {
+        "en": [
+          "Amazon Web Services",
+          "Amazon.com"
+        ],
+        "es": [
+          "Amazon Web Services",
+          "Amazon.com"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-amd",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-amd.svg",
+      "imageAlt": {
+        "en": "An AMD design desk sends a blueprint to a factory, which returns two kinds of chips: CPUs and GPUs",
+        "es": "Un escritorio de diseño de AMD manda un plano a una fábrica, que devuelve dos tipos de chips: CPUs y GPUs"
+      },
+      "title": {
+        "en": "AMD",
+        "es": "AMD"
+      },
+      "tagline": {
+        "en": "The chip designer that competes with Intel in CPUs and with NVIDIA in GPUs.",
+        "es": "La diseñadora de chips que compite con Intel en CPUs y con NVIDIA en GPUs."
+      },
+      "aliases": {
+        "en": [
+          "Advanced Micro Devices"
+        ],
+        "es": [
+          "Advanced Micro Devices"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-apple",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-apple.svg",
+      "imageAlt": {
+        "en": "A phone, a laptop, a tablet and a watch all connect to one account in the middle that holds the app store, cloud storage and music; below, a chip designed by Apple and made by TSMC",
+        "es": "Un celular, una notebook, una tablet y un reloj se conectan a una sola cuenta en el medio que tiene la tienda de apps, el almacenamiento en la nube y la música; abajo, un chip diseñado por Apple y fabricado por TSMC"
+      },
+      "title": {
+        "en": "Apple",
+        "es": "Apple"
+      },
+      "tagline": {
+        "en": "The company that sells the iPhone and the Mac, plus the services that run on them.",
+        "es": "La empresa que vende el iPhone y la Mac, más los servicios que corren encima."
+      },
+      "aliases": {
+        "en": [
+          "Apple Inc.",
+          "Apple silicon"
+        ],
+        "es": [
+          "Apple Inc.",
+          "Apple silicon"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-csv",
+      "date": "2026-10-17",
+      "subjects": [
+        "data"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-csv.svg",
+      "imageAlt": {
+        "en": "A text file named data.csv with three comma-separated lines, and an arrow to the same data shown as a spreadsheet grid",
+        "es": "Un archivo de texto llamado data.csv con tres líneas separadas por comas, y una flecha hacia los mismos datos en una grilla de planilla"
+      },
+      "title": {
+        "en": "CSV",
+        "es": "CSV"
+      },
+      "tagline": {
+        "en": "A plain text file that holds a table: one row per line, commas between values.",
+        "es": "Un archivo de texto que guarda una tabla: una fila por línea, comas entre valores."
+      },
+      "aliases": {
+        "en": [
+          "CSV file",
+          "CSV files",
+          "comma-separated values"
+        ],
+        "es": [
+          "archivo CSV",
+          "archivos CSV",
+          "valores separados por comas"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-google",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "ai"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-google.svg",
+      "imageAlt": {
+        "en": "People use free products like search, video, maps and a phone system; advertisers pay to show ads there; a second row shows cloud, AI models and devices sold directly",
+        "es": "La gente usa productos gratis como el buscador, video, mapas y un sistema de celulares; los anunciantes pagan para mostrar avisos ahí; una segunda fila muestra la nube, modelos de IA y dispositivos que se venden directo"
+      },
+      "title": {
+        "en": "Google",
+        "es": "Google"
+      },
+      "tagline": {
+        "en": "The search company that gives most products away and makes its money on ads.",
+        "es": "La empresa del buscador, que regala casi todo y gana plata con publicidad."
+      },
+      "aliases": {
+        "en": [
+          "Alphabet"
+        ],
+        "es": [
+          "Alphabet"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-intel",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-intel.svg",
+      "imageAlt": {
+        "en": "One company box holds both a design blueprint and a factory, and its CPUs go out to laptops and servers",
+        "es": "Una sola caja de empresa contiene un plano de diseño y una fábrica, y sus CPUs salen hacia notebooks y servidores"
+      },
+      "title": {
+        "en": "Intel",
+        "es": "Intel"
+      },
+      "tagline": {
+        "en": "The American company behind most PC and server processors for decades.",
+        "es": "La empresa estadounidense detrás de la mayoría de los procesadores de PC y servidores."
+      },
+      "aliases": {
+        "en": [
+          "Intel Corporation"
+        ],
+        "es": [
+          "Intel Corporation"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-meta",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-meta.svg",
+      "imageAlt": {
+        "en": "Three apps used by billions of people feed an ads box that advertisers pay into; on the side, small boxes for open AI models and headsets and glasses",
+        "es": "Tres apps que usan miles de millones de personas alimentan una caja de avisos a la que pagan los anunciantes; al costado, cajitas para modelos de IA abiertos y visores y anteojos"
+      },
+      "title": {
+        "en": "Meta",
+        "es": "Meta"
+      },
+      "tagline": {
+        "en": "The company behind Facebook, Instagram and WhatsApp, paid for by advertising.",
+        "es": "La empresa detrás de Facebook, Instagram y WhatsApp, financiada con publicidad."
+      },
+      "aliases": {
+        "en": [
+          "Meta Platforms",
+          "Facebook"
+        ],
+        "es": [
+          "Meta Platforms",
+          "Facebook"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-microsoft",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-microsoft.svg",
+      "imageAlt": {
+        "en": "Companies and people pay monthly subscriptions into three blocks: Windows and Office, the Azure cloud, and GitHub, LinkedIn and Xbox",
+        "es": "Empresas y personas pagan suscripciones mensuales a tres bloques: Windows y Office, la nube Azure, y GitHub, LinkedIn y Xbox"
+      },
+      "title": {
+        "en": "Microsoft",
+        "es": "Microsoft"
+      },
+      "tagline": {
+        "en": "The company of Windows and Office, now just as much a cloud company with Azure.",
+        "es": "La empresa de Windows y Office, que hoy es igual de importante como nube con Azure."
+      },
+      "aliases": {
+        "en": [
+          "Microsoft Azure",
+          "Azure",
+          "Microsoft 365"
+        ],
+        "es": [
+          "Microsoft Azure",
+          "Azure",
+          "Microsoft 365"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-samsung",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-samsung.svg",
+      "imageAlt": {
+        "en": "Samsung shown as three blocks: phones and TVs, memory chips, and a foundry making chips for other companies",
+        "es": "Samsung como tres bloques: celulares y televisores, chips de memoria, y una foundry que fabrica chips para otras empresas"
+      },
+      "title": {
+        "en": "Samsung",
+        "es": "Samsung"
+      },
+      "tagline": {
+        "en": "Korean giant that sells phones and TVs, and makes much of the world's memory chips.",
+        "es": "Gigante coreano que vende celulares y TVs, y hace buena parte de los chips de memoria."
+      },
+      "aliases": {
+        "en": [
+          "Samsung Electronics"
+        ],
+        "es": [
+          "Samsung Electronics"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-sql",
+      "date": "2026-10-17",
+      "subjects": [
+        "data",
+        "software"
+      ],
+      "level": 1,
+      "image": "img/2026-10-17-sql.svg",
+      "imageAlt": {
+        "en": "A yellow card with a SELECT query points to a database cylinder, which points to a small result table with two highlighted rows",
+        "es": "Una tarjeta amarilla con una consulta SELECT apunta a un cilindro de base de datos, que apunta a una tablita de resultado con dos filas resaltadas"
+      },
+      "title": {
+        "en": "SQL",
+        "es": "SQL"
+      },
+      "tagline": {
+        "en": "The language you use to ask a database questions.",
+        "es": "El lenguaje para hacerle preguntas a una base de datos."
+      },
+      "aliases": {
+        "en": [
+          "Structured Query Language"
+        ],
+        "es": [
+          "Structured Query Language"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-arm",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-arm.svg",
+      "imageAlt": {
+        "en": "An Arm blueprint is licensed to several chipmakers, whose chips end up in a phone, a laptop and a server",
+        "es": "Un plano de Arm se licencia a varios fabricantes de chips, cuyos chips terminan en un celular, una notebook y un servidor"
+      },
+      "title": {
+        "en": "Arm",
+        "es": "Arm"
+      },
+      "tagline": {
+        "en": "The British company that designs the processor blueprints inside almost every phone.",
+        "es": "La empresa británica que diseña los planos del procesador de casi todos los celulares."
+      },
+      "aliases": {
+        "en": [
+          "Arm Holdings",
+          "ARM",
+          "ARM architecture"
+        ],
+        "es": [
+          "Arm Holdings",
+          "ARM",
+          "arquitectura ARM"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-asml",
+      "date": "2026-10-17",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-asml.svg",
+      "imageAlt": {
+        "en": "A large lithography machine shines light through a mask with a circuit pattern onto a silicon wafer covered in chips",
+        "es": "Una máquina de litografía grande proyecta luz a través de una máscara con un circuito sobre una oblea de silicio llena de chips"
+      },
+      "title": {
+        "en": "ASML",
+        "es": "ASML"
+      },
+      "tagline": {
+        "en": "The Dutch company that builds the machines every advanced chip factory depends on.",
+        "es": "La empresa holandesa que hace las máquinas de las que dependen las fábricas de chips."
+      },
+      "aliases": {
+        "en": [
+          "ASML Holding",
+          "EUV lithography"
+        ],
+        "es": [
+          "ASML Holding",
+          "litografía EUV"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-10-17-cdn",
+      "date": "2026-10-17",
+      "subjects": [
+        "networks",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-cdn.svg",
+      "imageAlt": {
+        "en": "One origin server far away feeds three edge servers, each close to a group of users; a user gets a cache hit from the nearest edge",
+        "es": "Un servidor de origen lejano alimenta tres servidores de borde, cada uno cerca de un grupo de usuarios; un usuario recibe un acierto de caché del borde más cercano"
+      },
+      "title": {
+        "en": "CDN",
+        "es": "CDN"
+      },
+      "tagline": {
+        "en": "Copies of a website kept on servers around the world, close to whoever asks.",
+        "es": "Copias de un sitio guardadas en servidores por todo el mundo, cerca de quien las pide."
+      },
+      "aliases": {
+        "en": [
+          "CDNs",
+          "content delivery network",
+          "content delivery networks",
+          "edge location",
+          "edge locations"
+        ],
+        "es": [
+          "CDNs",
+          "red de distribución de contenidos",
+          "redes de distribución de contenidos",
+          "red de entrega de contenidos"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-data-lake",
+      "date": "2026-10-17",
+      "subjects": [
+        "data",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-data-lake.svg",
+      "imageAlt": {
+        "en": "Apps, sensors and exports drop files into a wide blue lake, where csv, json, logs and image files float side by side",
+        "es": "Apps, sensores y exportaciones tiran archivos en un lago azul ancho, donde flotan juntos archivos csv, json, logs e imágenes"
+      },
+      "title": {
+        "en": "Data lake",
+        "es": "Data lake"
+      },
+      "tagline": {
+        "en": "Cheap storage where all your data is kept as raw files, to be sorted out later.",
+        "es": "Almacenamiento barato donde todos los datos se guardan como archivos crudos."
+      },
+      "aliases": {
+        "en": [
+          "data lakes",
+          "lakehouse"
+        ],
+        "es": [
+          "data lakes",
+          "lago de datos",
+          "lagos de datos",
+          "lakehouse"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-data-warehouse",
+      "date": "2026-10-17",
+      "subjects": [
+        "data"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-data-warehouse.svg",
+      "imageAlt": {
+        "en": "Three sources, an app database, a CRM and payments, flow into one warehouse box with columns inside, which feeds a bar chart dashboard",
+        "es": "Tres fuentes, la base de la app, un CRM y los pagos, fluyen a una caja de warehouse con columnas adentro, que alimenta un tablero con gráfico de barras"
+      },
+      "title": {
+        "en": "Data warehouse",
+        "es": "Data warehouse"
+      },
+      "tagline": {
+        "en": "A database built for analysis: years of history, from many sources, in one place.",
+        "es": "Una base hecha para analizar: años de historia, de muchas fuentes, en un solo lugar."
+      },
+      "aliases": {
+        "en": [
+          "data warehouses",
+          "data warehousing"
+        ],
+        "es": [
+          "data warehouses",
+          "almacén de datos",
+          "almacenes de datos"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-database-index",
+      "date": "2026-10-17",
+      "subjects": [
+        "data",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-database-index.svg",
+      "imageAlt": {
+        "en": "On the left, a long table read row by row from top to bottom; on the right, a small tree that reaches the right row in three jumps",
+        "es": "A la izquierda, una tabla larga leída fila por fila de arriba a abajo; a la derecha, un árbol chico que llega a la fila correcta en tres saltos"
+      },
+      "title": {
+        "en": "Database index",
+        "es": "Índice de base de datos"
+      },
+      "tagline": {
+        "en": "A sorted shortcut that lets a database find rows without reading the whole table.",
+        "es": "Un atajo ordenado para que la base encuentre filas sin leer toda la tabla."
+      },
+      "aliases": {
+        "en": [
+          "index",
+          "indexes",
+          "indices",
+          "B-tree"
+        ],
+        "es": [
+          "índice",
+          "índices",
+          "B-tree"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-ddos",
+      "date": "2026-10-17",
+      "subjects": [
+        "security",
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-ddos.svg",
+      "imageAlt": {
+        "en": "A botnet of many pink devices floods traffic into a yellow filter wall in front of a server; only real users pass through to the server",
+        "es": "Una botnet de muchos dispositivos rosas manda una avalancha de tráfico contra un muro amarillo de filtrado delante de un servidor; solo los usuarios reales pasan al servidor"
+      },
+      "title": {
+        "en": "DDoS",
+        "es": "DDoS"
+      },
+      "tagline": {
+        "en": "Knocking a site offline by flooding it with more traffic than it can handle.",
+        "es": "Tirar un sitio inundándolo con más tráfico del que puede aguantar."
+      },
+      "aliases": {
+        "en": [
+          "DDoS attack",
+          "DDoS attacks",
+          "denial of service",
+          "denial-of-service",
+          "botnet",
+          "botnets"
+        ],
+        "es": [
+          "ataque DDoS",
+          "ataques DDoS",
+          "denegación de servicio",
+          "botnet",
+          "botnets"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-etl",
+      "date": "2026-10-17",
+      "subjects": [
+        "data"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-etl.svg",
+      "imageAlt": {
+        "en": "Three sources feed a row of boxes labeled E, T and L that end in a warehouse cylinder; under T, a messy name becomes a clean one",
+        "es": "Tres fuentes alimentan una fila de cajas marcadas E, T y L que terminan en un cilindro de warehouse; debajo de la T, un nombre desprolijo queda limpio"
+      },
+      "title": {
+        "en": "ETL",
+        "es": "ETL"
+      },
+      "tagline": {
+        "en": "Copy data out of its sources, clean it up, load it where it can be analyzed.",
+        "es": "Sacar datos de sus fuentes, limpiarlos y cargarlos donde se puedan analizar."
+      },
+      "aliases": {
+        "en": [
+          "extract, transform, load",
+          "ELT",
+          "data pipeline",
+          "data pipelines",
+          "ETL pipeline",
+          "ETL pipelines"
+        ],
+        "es": [
+          "extraer, transformar y cargar",
+          "ELT",
+          "pipeline de datos",
+          "pipelines de datos",
+          "pipelines de ETL"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-oauth-and-sso",
+      "date": "2026-10-17",
+      "subjects": [
+        "security",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-oauth-and-sso.svg",
+      "imageAlt": {
+        "en": "An app sends the user to an identity provider to sign in and consent, gets a token back instead of a password, and the same provider also logs the user into mail, chat and docs",
+        "es": "Una app manda al usuario a un proveedor de identidad para iniciar sesión y dar permiso, recibe un token en vez de una contraseña, y el mismo proveedor también lo deja entrar a mail, chat y docs"
+      },
+      "title": {
+        "en": "OAuth and SSO",
+        "es": "OAuth y SSO"
+      },
+      "tagline": {
+        "en": "Log in once with an account you trust, and let it vouch for you in other apps.",
+        "es": "Iniciar sesión una vez con una cuenta confiable y que ella responda por vos en otras apps."
+      },
+      "aliases": {
+        "en": [
+          "OAuth",
+          "OAuth 2.0",
+          "SSO",
+          "single sign-on",
+          "OpenID Connect",
+          "Sign in with Google"
+        ],
+        "es": [
+          "OAuth",
+          "OAuth 2.0",
+          "SSO",
+          "inicio de sesión único",
+          "OpenID Connect"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-vulnerability-and-cve",
+      "date": "2026-10-17",
+      "subjects": [
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-10-17-vulnerability-and-cve.svg",
+      "imageAlt": {
+        "en": "A bug found box points to a pink card reading CVE-2026-12345, CVSS 9.8, critical, which points to a green patch box",
+        "es": "Una caja de falla encontrada apunta a una tarjeta rosa que dice CVE-2026-12345, CVSS 9.8, crítica, que apunta a una caja verde de parche"
+      },
+      "title": {
+        "en": "Vulnerability and CVE",
+        "es": "Vulnerabilidad y CVE"
+      },
+      "tagline": {
+        "en": "A flaw that lets an attacker misuse software, and the public id that names it.",
+        "es": "Una falla que permite abusar de un software, y el código público que la identifica."
+      },
+      "aliases": {
+        "en": [
+          "vulnerability",
+          "vulnerabilities",
+          "CVE",
+          "CVEs",
+          "CVSS",
+          "zero-day",
+          "zero-days",
+          "security patch",
+          "security patches"
+        ],
+        "es": [
+          "vulnerabilidad",
+          "vulnerabilidades",
+          "CVE",
+          "CVEs",
+          "CVSS",
+          "zero-day",
+          "día cero",
+          "parche de seguridad",
+          "parches de seguridad"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-data-streaming",
+      "date": "2026-10-17",
+      "subjects": [
+        "data",
+        "cloud"
+      ],
+      "level": 3,
+      "image": "img/2026-10-17-data-streaming.svg",
+      "imageAlt": {
+        "en": "Payments, clicks and sensors append numbered events to the end of a log, while a dashboard and a fraud check below read it at different positions",
+        "es": "Pagos, clics y sensores agregan eventos numerados al final de un log, mientras un tablero y un control de fraude abajo lo leen en posiciones distintas"
+      },
+      "title": {
+        "en": "Data streaming",
+        "es": "Streaming de datos"
+      },
+      "tagline": {
+        "en": "Processing data as a continuous flow of events, seconds after they happen.",
+        "es": "Procesar datos como un flujo continuo de eventos, segundos después de que pasan."
+      },
+      "aliases": {
+        "en": [
+          "streaming data",
+          "stream processing",
+          "event streaming",
+          "Apache Kafka",
+          "Kafka",
+          "Amazon Kinesis",
+          "Kinesis"
+        ],
+        "es": [
+          "datos en streaming",
+          "procesamiento de streams",
+          "Apache Kafka",
+          "Kafka",
+          "Amazon Kinesis",
+          "Kinesis"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-nat",
+      "date": "2026-10-17",
+      "subjects": [
+        "networks"
+      ],
+      "level": 3,
+      "image": "img/2026-10-17-nat.svg",
+      "imageAlt": {
+        "en": "Three home devices with private 192.168 addresses talk through one router, which rewrites them to a single public IP address on the way to the internet",
+        "es": "Tres dispositivos de una casa con direcciones privadas 192.168 hablan a través de un router, que las reescribe a una única dirección IP pública camino a internet"
+      },
+      "title": {
+        "en": "NAT",
+        "es": "NAT"
+      },
+      "tagline": {
+        "en": "How a whole home or office shares one public IP address on the internet.",
+        "es": "Cómo toda una casa u oficina comparte una sola dirección IP pública en internet."
+      },
+      "aliases": {
+        "en": [
+          "network address translation",
+          "NAT gateway",
+          "NAT gateways"
+        ],
+        "es": [
+          "traducción de direcciones de red",
+          "NAT gateway"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-parquet",
+      "date": "2026-10-17",
+      "subjects": [
+        "data"
+      ],
+      "level": 3,
+      "image": "img/2026-10-17-parquet.svg",
+      "imageAlt": {
+        "en": "On the left, a CSV stored as rows of mixed colored cells; on the right, the same data stored as three column blocks, with a query reading only two of them",
+        "es": "A la izquierda, un CSV guardado como filas de celdas de colores mezclados; a la derecha, los mismos datos guardados como tres bloques de columnas, con una consulta que lee solo dos"
+      },
+      "title": {
+        "en": "Parquet",
+        "es": "Parquet"
+      },
+      "tagline": {
+        "en": "A file format that stores tables by column, compressed, so analytics reads far less.",
+        "es": "Un formato que guarda tablas por columna y comprimidas, para que analizar lea mucho menos."
+      },
+      "aliases": {
+        "en": [
+          "Apache Parquet"
+        ],
+        "es": [
+          "Apache Parquet"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-websocket",
+      "date": "2026-10-17",
+      "subjects": [
+        "networks",
+        "software"
+      ],
+      "level": 3,
+      "image": "img/2026-10-17-websocket.svg",
+      "imageAlt": {
+        "en": "On the left, HTTP as separate request and response arrows; on the right, a browser and a server joined by one open pipe with messages flowing both ways",
+        "es": "A la izquierda, HTTP como flechas separadas de pedido y respuesta; a la derecha, un navegador y un servidor unidos por un caño abierto con mensajes yendo en los dos sentidos"
+      },
+      "title": {
+        "en": "WebSocket",
+        "es": "WebSocket"
+      },
+      "tagline": {
+        "en": "A connection between browser and server that stays open, so both can talk anytime.",
+        "es": "Una conexión entre navegador y servidor que queda abierta, para que hablen cuando quieran."
+      },
+      "aliases": {
+        "en": [
+          "WebSockets",
+          "web socket",
+          "web sockets"
+        ],
+        "es": [
+          "WebSockets"
+        ]
+      }
+    },
+    {
+      "id": "2026-10-17-zero-trust",
+      "date": "2026-10-17",
+      "subjects": [
+        "security"
+      ],
+      "level": 3,
+      "image": "img/2026-10-17-zero-trust.svg",
+      "imageAlt": {
+        "en": "On the left, a castle surrounded by a moat with a VPN gate, where everything inside is trusted; on the right, a user whose every request to an app or a database passes through its own check",
+        "es": "A la izquierda, un castillo rodeado por un foso con una puerta VPN, donde todo lo de adentro es confiable; a la derecha, un usuario cuyos pedidos a una app o a una base pasan cada uno por su propio control"
+      },
+      "title": {
+        "en": "Zero trust",
+        "es": "Zero trust"
+      },
+      "tagline": {
+        "en": "Security that checks every request, instead of trusting whatever is inside the network.",
+        "es": "Seguridad que revisa cada pedido, en vez de confiar en lo que está adentro de la red."
+      },
+      "aliases": {
+        "en": [
+          "zero-trust",
+          "zero trust architecture",
+          "least privilege"
+        ],
+        "es": [
+          "confianza cero",
+          "arquitectura zero trust",
+          "mínimo privilegio"
+        ]
+      }
+    },
     {
       "id": "2026-10-14-amazon-bedrock",
       "date": "2026-10-14",

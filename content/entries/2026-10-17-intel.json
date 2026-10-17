@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-intel",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Intel Corporation"],
+    "es": ["Intel Corporation"]
+  },
+  "image": "img/2026-10-17-intel.svg",
+  "imageAlt": {
+    "en": "One company box holds both a design blueprint and a factory, and its CPUs go out to laptops and servers",
+    "es": "Una sola caja de empresa contiene un plano de diseño y una fábrica, y sus CPUs salen hacia notebooks y servidores"
+  },
+  "en": {
+    "title": "Intel",
+    "tagline": "The American company behind most PC and server processors for decades.",
+    "explanation": [
+      "**Intel** makes CPUs, the main processor of a computer. Its chips, sold under names like Core for PCs and Xeon for servers, have powered most of the world's desktops, laptops and data centers since the 1990s. It created **x86**, the instruction set that Windows PCs and most servers still use, and in 1971 it sold one of the first microprocessors.",
+      "What sets it apart is that it both designs and manufactures its chips, in its own factories (fabs) in the United States, Ireland and Israel, among other places. Most rivals only design: AMD, Apple and NVIDIA send their designs to TSMC. Owning the factories was Intel's great advantage for decades; when it fell behind on the most advanced manufacturing processes in the late 2010s, that advantage turned into a burden.",
+      "Today Intel is trying to win back its lead and to become a **foundry** too, making chips designed by other companies the way TSMC does, with backing from the US government, which wants advanced chipmaking on its own soil. Meanwhile it faces competition on several fronts: AMD in PCs and servers, ARM-based chips in laptops and the cloud, and NVIDIA in AI hardware."
+    ],
+    "analogy": "A bakery that writes its own recipes and runs its own ovens. For years that made it the best bakery in town; when a rival oven shop (TSMC) got better ovens, the bakers who only write recipes could suddenly bake finer bread.",
+    "keyPoints": [
+      "Created the x86 architecture used by Windows PCs and most servers.",
+      "Designs and manufactures its own chips, unlike most competitors.",
+      "Fell behind TSMC in manufacturing and is now also offering to make chips for others.",
+      "Competes with AMD in CPUs, with ARM-based chips and with NVIDIA in AI."
+    ],
+    "links": [
+      { "label": "Intel on Wikipedia", "url": "https://en.wikipedia.org/wiki/Intel" },
+      { "label": "x86 on Wikipedia", "url": "https://en.wikipedia.org/wiki/X86" }
+    ]
+  },
+  "es": {
+    "title": "Intel",
+    "tagline": "La empresa estadounidense detrás de la mayoría de los procesadores de PC y servidores.",
+    "explanation": [
+      "**Intel** hace CPUs, el procesador principal de una computadora. Sus chips, que se venden con nombres como Core para PCs y Xeon para servidores, mueven la mayoría de las computadoras de escritorio, notebooks y data centers del mundo desde los años 90. Creó **x86**, el set de instrucciones que siguen usando las PCs con Windows y la mayoría de los servidores, y en 1971 vendió uno de los primeros microprocesadores.",
+      "Lo que la distingue es que diseña y además fabrica sus chips, en sus propias plantas (fabs) en Estados Unidos, Irlanda e Israel, entre otros lugares. La mayoría de sus rivales solo diseña: AMD, Apple y NVIDIA le mandan sus diseños a TSMC. Tener las fábricas fue la gran ventaja de Intel durante décadas; cuando a fines de los 2010 se quedó atrás en los procesos de fabricación más avanzados, esa ventaja se volvió una carga.",
+      "Hoy Intel intenta recuperar el liderazgo y convertirse también en **foundry**, fabricando chips diseñados por otras empresas como hace TSMC, con apoyo del gobierno de Estados Unidos, que quiere fabricación avanzada en su propio territorio. Mientras tanto compite en varios frentes: con AMD en PCs y servidores, con los chips basados en ARM en notebooks y en la nube, y con NVIDIA en hardware de IA."
+    ],
+    "analogy": "Una panadería que escribe sus propias recetas y tiene sus propios hornos. Durante años eso la hizo la mejor del barrio; cuando un taller de hornos rival (TSMC) consiguió hornos mejores, los panaderos que solo escriben recetas de golpe pudieron hacer un pan más fino.",
+    "keyPoints": [
+      "Creó la arquitectura x86 que usan las PCs con Windows y la mayoría de los servidores.",
+      "Diseña y fabrica sus propios chips, a diferencia de casi todos sus competidores.",
+      "Quedó detrás de TSMC en fabricación y ahora también ofrece fabricar chips para otros.",
+      "Compite con AMD en CPUs, con los chips basados en ARM y con NVIDIA en IA."
+    ],
+    "links": [
+      { "label": "Intel en Wikipedia", "url": "https://es.wikipedia.org/wiki/Intel" },
+      { "label": "x86 en Wikipedia", "url": "https://es.wikipedia.org/wiki/X86" }
+    ]
+  }
+}

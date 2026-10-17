@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="210" height="140" rx="14" fill="#e6dfd0"/>
+    <rect x="38" y="72" width="76" height="70" rx="6" fill="#9ac7ea"/>
+    <path d="M136 142 V96 L156 108 V96 L176 108 V96 L196 108 V82 H212 V142 Z" fill="#ffd166"/>
+    <rect x="270" y="58" width="44" height="44" rx="6" fill="#9bd1b9"/>
+    <rect x="282" y="70" width="20" height="20" rx="2" fill="#2b2b2b"/>
+    <rect x="330" y="44" width="54" height="34" rx="4" fill="#f3efe6"/>
+    <path d="M324 84 H390" fill="none"/>
+    <rect x="330" y="118" width="54" height="16" rx="3" fill="#9ac7ea"/>
+    <rect x="330" y="138" width="54" height="16" rx="3" fill="#9ac7ea"/>
+    <rect x="330" y="158" width="54" height="16" rx="3" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M48 92 H104"/><path d="M48 106 H90"/><path d="M48 120 H100"/>
+    <path d="M116 108 H132"/><path d="M127 104 l5 4 -5 4"/>
+    <path d="M232 110 H264"/><path d="M258 106 l6 4 -6 4"/>
+    <path d="M316 74 L326 64"/><path d="M316 88 C322 110 322 130 326 140"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="125" y="32" font-weight="bold">one company</text>
+    <text x="76" y="160">design</text><text x="174" y="160">factory</text>
+    <text x="292" y="120">CPU</text>
+    <text x="357" y="104">laptops</text><text x="357" y="192">servers</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">designs and builds its own x86 chips</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-etl",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["extract, transform, load", "ELT", "data pipeline", "data pipelines", "ETL pipeline", "ETL pipelines"],
+    "es": ["extraer, transformar y cargar", "ELT", "pipeline de datos", "pipelines de datos", "pipelines de ETL"]
+  },
+  "image": "img/2026-10-17-etl.svg",
+  "imageAlt": {
+    "en": "Three sources feed a row of boxes labeled E, T and L that end in a warehouse cylinder; under T, a messy name becomes a clean one",
+    "es": "Tres fuentes alimentan una fila de cajas marcadas E, T y L que terminan en un cilindro de warehouse; debajo de la T, un nombre desprolijo queda limpio"
+  },
+  "en": {
+    "title": "ETL",
+    "tagline": "Copy data out of its sources, clean it up, load it where it can be analyzed.",
+    "explanation": [
+      "**ETL** stands for extract, transform, load: the three steps of moving data from the systems where it is born to the place where it is analyzed. **Extract** reads it from the sources: the app's database, a CRM, a payments provider's API, spreadsheets. **Transform** cleans and reshapes it. **Load** writes the result into a data warehouse or a data lake.",
+      "The transform step is where most of the work hides. Dates come in three formats, the same customer appears as 'ANA PÉREZ' in one system and 'Ana Perez' in another, prices are in different currencies, some rows are duplicated and others are missing a field. The pipeline fixes all of that the same way every time, so the numbers in the dashboard can be trusted and compared month to month.",
+      "Pipelines run on a schedule (every night, every hour) or continuously, and a broken one shows up as a dashboard that quietly stops updating. Many modern teams flip the order to **ELT**: load the raw data first, then transform it inside the warehouse with SQL, which makes sense now that warehouses are powerful and storage is cheap. Tools like AWS Glue, Apache Airflow, dbt and Fivetran exist to build, schedule and monitor these pipelines."
+    ],
+    "analogy": "A restaurant's prep kitchen. Ingredients arrive from different suppliers (extract), get washed, peeled and cut the same way every morning (transform), and go into labeled containers on the line (load), so the cooks never deal with a muddy potato.",
+    "keyPoints": [
+      "Extract from the sources, transform (clean, join, standardize), load into the destination.",
+      "Most of the effort, and most of the bugs, live in the transform step.",
+      "ELT loads the raw data first and transforms it inside the warehouse.",
+      "Pipelines run on a schedule or continuously, and need monitoring for when they break."
+    ],
+    "links": [
+      { "label": "What is ETL? (AWS)", "url": "https://aws.amazon.com/what-is/etl/" },
+      { "label": "Extract, transform, load on Wikipedia", "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load" }
+    ]
+  },
+  "es": {
+    "title": "ETL",
+    "tagline": "Sacar datos de sus fuentes, limpiarlos y cargarlos donde se puedan analizar.",
+    "explanation": [
+      "**ETL** viene de extract, transform, load (extraer, transformar y cargar): los tres pasos para llevar datos desde los sistemas donde nacen hasta el lugar donde se analizan. **Extraer** es leerlos de las fuentes: la base de la app, un CRM, la API del proveedor de pagos, planillas. **Transformar** es limpiarlos y darles forma. **Cargar** es escribir el resultado en un data warehouse o un data lake.",
+      "En la transformación se esconde la mayor parte del trabajo. Las fechas vienen en tres formatos, el mismo cliente aparece como 'ANA PÉREZ' en un sistema y 'Ana Perez' en otro, los precios están en distintas monedas, algunas filas están duplicadas y a otras les falta un campo. El pipeline arregla todo eso de la misma forma cada vez, para que los números del tablero sean confiables y se puedan comparar mes a mes.",
+      "Los pipelines corren con un horario (todas las noches, cada hora) o de forma continua, y cuando uno se rompe se nota en un tablero que deja de actualizarse sin avisar. Muchos equipos hoy invierten el orden y hacen **ELT**: primero cargan los datos crudos y después los transforman adentro del warehouse con SQL, algo que tiene sentido ahora que los warehouses son potentes y guardar es barato. Herramientas como AWS Glue, Apache Airflow, dbt y Fivetran existen para armar, programar y monitorear estos pipelines."
+    ],
+    "analogy": "La cocina de preparación de un restaurante. Los ingredientes llegan de distintos proveedores (extraer), todas las mañanas se lavan, pelan y cortan de la misma forma (transformar) y van a recipientes etiquetados en la línea (cargar), así los cocineros nunca se cruzan con una papa llena de tierra.",
+    "keyPoints": [
+      "Extraer de las fuentes, transformar (limpiar, unir, estandarizar) y cargar en el destino.",
+      "La mayor parte del esfuerzo, y de los errores, está en la transformación.",
+      "ELT carga primero los datos crudos y los transforma adentro del warehouse.",
+      "Los pipelines corren con horario o de forma continua, y hay que monitorearlos para saber cuándo se rompen."
+    ],
+    "links": [
+      { "label": "¿Qué es ETL? (AWS)", "url": "https://aws.amazon.com/es/what-is/etl/" },
+      { "label": "Extract, transform and load en Wikipedia", "url": "https://es.wikipedia.org/wiki/Extract,_transform_and_load" }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="44" width="76" height="30" rx="8" fill="#9ac7ea"/>
+    <rect x="16" y="96" width="76" height="30" rx="8" fill="#f4a7a7"/>
+    <rect x="16" y="148" width="76" height="30" rx="8" fill="#9bd1b9"/>
+    <rect x="148" y="48" width="112" height="124" rx="10" fill="#ffd166"/>
+    <rect x="162" y="84" width="16" height="74" rx="3" fill="#e6dfd0"/>
+    <rect x="186" y="84" width="16" height="74" rx="3" fill="#e6dfd0"/>
+    <rect x="210" y="84" width="16" height="74" rx="3" fill="#e6dfd0"/>
+    <rect x="234" y="84" width="16" height="74" rx="3" fill="#e6dfd0"/>
+    <rect x="290" y="60" width="94" height="100" rx="8" fill="#e6dfd0"/>
+    <rect x="302" y="122" width="14" height="28" fill="#9ac7ea"/>
+    <rect x="322" y="106" width="14" height="44" fill="#9ac7ea"/>
+    <rect x="342" y="92" width="14" height="58" fill="#9ac7ea"/>
+    <rect x="362" y="78" width="14" height="72" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M94 59 C120 59 118 90 142 90"/><path d="M136 86 l6 4 -6 4"/>
+    <path d="M94 111 H142"/><path d="M136 107 l6 4 -6 4"/>
+    <path d="M94 163 C120 163 118 132 142 132"/><path d="M136 128 l6 4 -6 4"/>
+    <path d="M262 110 H284"/><path d="M278 106 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="54" y="63">app db</text><text x="54" y="115">CRM</text><text x="54" y="167">payments</text>
+    <text x="204" y="72" font-weight="bold">warehouse</text>
+    <text x="337" y="180">dashboards</text>
+  </g>
+  <text x="204" y="190" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357">stored by column</text>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">many sources, one place to ask questions</text>
+</svg>

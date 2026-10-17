@@ -1,9 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">IP address</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="70" width="72" height="48" rx="4" fill="#9ac7ea"/>
+    <path d="M16 118 H104 L98 126 H22 Z" fill="#e6dfd0"/>
+    <rect x="300" y="60" width="76" height="80" rx="6" fill="#e6dfd0"/>
+    <path d="M310 80 H366 M310 96 H366 M310 112 H366" fill="none"/>
+    <rect x="130" y="62" width="140" height="80" rx="4" fill="#ffd166"/>
+    <path d="M130 62 L200 96 L270 62" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M104 96 H126"/><path d="M120 92 l6 4 -6 4"/>
+    <path d="M272 96 H296"/><path d="M290 92 l6 4 -6 4"/>
+    <path d="M338 168 V188 H60 V170"/><path d="M56 176 l4 -6 4 6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="118">to   198.51.100.42</text>
+    <text x="200" y="134">from 203.0.113.7</text>
+    <text x="60" y="152">203.0.113.7</text>
+    <text x="338" y="158">198.51.100.42</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="58">you</text><text x="338" y="48">server</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the reply goes back to the "from" address</text>
 </svg>

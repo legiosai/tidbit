@@ -1,9 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">URL</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="14.0" y="82" width="69.6" height="36" rx="6" fill="#9bd1b9"/>
+    <rect x="87.6" y="82" width="69.6" height="36" rx="6" fill="#9ac7ea"/>
+    <rect x="161.2" y="82" width="76.8" height="36" rx="6" fill="#ffd166"/>
+    <rect x="242.0" y="82" width="69.6" height="36" rx="6" fill="#f4a7a7"/>
+    <rect x="315.6" y="82" width="69.6" height="36" rx="6" fill="#e6dfd0"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle"><text x="48.8" y="105">https://</text><text x="122.4" y="105">shop.com</text><text x="199.6" y="105">/shoes/42</text><text x="276.8" y="105">?size=40</text><text x="350.4" y="105">#reviews</text></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle"><text x="48.8" y="142">scheme</text><text x="122.4" y="142">host</text><text x="199.6" y="142">path</text><text x="276.8" y="142">query</text><text x="350.4" y="142">fragment</text></g>
+  <text x="200" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">a URL, piece by piece</text>
+  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">like an address: each part narrows it down</text>
 </svg>

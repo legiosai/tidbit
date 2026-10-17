@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="18" y="64" width="156" height="78" rx="10" fill="#ffd166"/>
+    <path d="M212 76 V146 A30 10 0 0 0 272 146 V76" fill="#9ac7ea"/>
+    <ellipse cx="242" cy="76" rx="30" ry="10" fill="#9ac7ea"/>
+    <path d="M212 100 A30 10 0 0 0 272 100" fill="none"/>
+    <rect x="300" y="64" width="84" height="78" rx="6" fill="#e6dfd0"/>
+  </g>
+  <rect x="301" y="90" width="82" height="50" fill="#9bd1b9"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <rect x="300" y="64" width="84" height="78" rx="6"/>
+    <path d="M300 90 H384"/><path d="M300 116 H384"/><path d="M342 64 V142"/>
+    <path d="M178 104 H204"/><path d="M198 100 l6 4 -6 4"/>
+    <path d="M276 104 H294"/><path d="M288 100 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">
+    <text x="30" y="90">SELECT name, city</text>
+    <text x="30" y="108">FROM customers</text>
+    <text x="30" y="126">WHERE country='AR'</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="321" y="82">name</text><text x="363" y="82">city</text>
+    <text x="321" y="108">Ana</text><text x="363" y="108">Salta</text>
+    <text x="321" y="134">Luis</text><text x="363" y="134">Jujuy</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="96" y="52">query</text><text x="242" y="52">database</text><text x="342" y="52">result</text>
+  </g>
+  <text x="200" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">you say what you want · the engine works out how</text>
+</svg>

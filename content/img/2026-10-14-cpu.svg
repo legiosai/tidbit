@@ -1,9 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">CPU</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M150 56 V64 M172 56 V64 M194 56 V64 M216 56 V64 M238 56 V64 M260 56 V64"/>
+    <path d="M150 194 V202 M172 194 V202 M194 194 V202 M216 194 V202 M238 194 V202 M260 194 V202"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="130" y="64" width="150" height="130" rx="10" fill="#e6dfd0"/>
+    <rect x="146" y="80" width="52" height="44" rx="6" fill="#ffd166"/>
+    <rect x="212" y="80" width="52" height="44" rx="6" fill="#ffd166"/>
+    <rect x="146" y="134" width="52" height="44" rx="6" fill="#ffd166"/>
+    <rect x="212" y="134" width="52" height="44" rx="6" fill="#ffd166"/>
+    <rect x="18" y="119" width="28" height="20" rx="4" fill="#9ac7ea"/>
+    <rect x="50" y="119" width="28" height="20" rx="4" fill="#9ac7ea"/>
+    <rect x="82" y="119" width="28" height="20" rx="4" fill="#9ac7ea"/>
+    <circle cx="205" cy="30" r="16" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M205 30 V20"/><path d="M205 30 L213 34"/>
+    <path d="M112 129 H124"/><path d="M119 125 l5 4 -5 4"/>
+    <path d="M284 129 H326"/><path d="M320 125 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="172" y="106">core</text><text x="238" y="106">core</text><text x="172" y="160">core</text><text x="238" y="160">core</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b" text-anchor="middle">
+    <text x="32" y="133">ADD</text><text x="64" y="133">LD</text><text x="96" y="133">JMP</text>
+  </g>
+  <text x="258" y="34" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357">3 GHz</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="64" y="108">instructions</text><text x="360" y="133">results</text><text x="150" y="34">clock</text>
+  </g>
+  <text x="205" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#2b2b2b">CPU</text>
 </svg>

@@ -1,9 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">DNS</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="80" width="70" height="46" rx="4" fill="#9ac7ea"/>
+    <path d="M12 126 H98 L92 134 H18 Z" fill="#e6dfd0"/>
+    <rect x="160" y="40" width="80" height="96" rx="6" fill="#ffd166"/>
+    <path d="M172 40 V136" fill="none"/>
+    <rect x="310" y="74" width="70" height="70" rx="6" fill="#e6dfd0"/>
+    <path d="M320 92 H370 M320 108 H370 M320 124 H370" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M94 92 H156"/><path d="M150 88 l6 4 -6 4"/>
+    <path d="M156 116 H96"/><path d="M102 112 l-6 4 6 4"/>
+    <path d="M55 138 V196 H345 V150"/><path d="M341 156 l4 -6 4 6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" fill="#2b2b2b" text-anchor="middle">
+    <text x="206" y="80" font-size="14" font-weight="bold">DNS</text>
+    <text x="206" y="98" font-size="11">phone book</text>
+    <text x="345" y="64" font-size="12">server</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="112" y="62">wikipedia.org?</text>
+  </g>
+  <text x="125" y="154" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10" fill="#2b2b2b">208.80.154.224</text>
+  <text x="200" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">then connect to that address</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">names in, numbers out</text>
 </svg>

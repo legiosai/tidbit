@@ -1,9 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">Load balancer</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="40" cy="60" r="12" fill="#9ac7ea"/>
+    <circle cx="40" cy="120" r="12" fill="#9ac7ea"/>
+    <circle cx="40" cy="180" r="12" fill="#9ac7ea"/>
+    <rect x="140" y="95" width="90" height="50" rx="10" fill="#ffd166"/>
+    <rect x="300" y="40" width="80" height="36" rx="8" fill="#9bd1b9"/>
+    <rect x="300" y="102" width="80" height="36" rx="8" fill="#9bd1b9"/>
+    <rect x="300" y="164" width="80" height="36" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M54 60 C96 60 96 112 134 112"/><path d="M54 120 H134"/><path d="M54 180 C96 180 96 128 134 128"/>
+    <path d="M128 108 l6 4 -6 4"/><path d="M128 116 l6 4 -6 4"/><path d="M128 124 l6 4 -6 4"/>
+    <path d="M232 108 C266 108 264 58 294 58"/><path d="M288 54 l6 4 -6 4"/>
+    <path d="M232 120 H294"/><path d="M288 116 l6 4 -6 4"/>
+    <path d="M262 150 L274 162 M274 150 L262 162"/>
+  </g>
+  <path d="M232 132 C266 132 264 182 296 182" stroke="#6b6357" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="185" y="116">load</text><text x="185" y="132">balancer</text>
+    <text x="340" y="62">server</text><text x="340" y="124">server</text><text x="340" y="186">down</text>
+    <text x="40" y="30">users</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">spreads the work · skips what is down</text>
 </svg>

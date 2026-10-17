@@ -1,9 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">SSD</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="100" cy="112" r="62" fill="#e6dfd0"/>
+    <circle cx="100" cy="112" r="40" fill="none"/>
+    <circle cx="100" cy="112" r="10" fill="#f3efe6"/>
+    <rect x="230" y="62" width="150" height="100" rx="8" fill="#9bd1b9"/>
+    <rect x="246" y="76" width="52" height="32" rx="3" fill="#ffd166"/><rect x="312" y="76" width="52" height="32" rx="3" fill="#ffd166"/>
+    <rect x="246" y="116" width="52" height="32" rx="3" fill="#ffd166"/><rect x="312" y="116" width="52" height="32" rx="3" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="3" fill="none"><path d="M176 178 L118 84"/></g>
+  <circle cx="176" cy="178" r="7" fill="#f4a7a7" stroke="#2b2b2b" stroke-width="2"/>
+  <rect x="110" y="74" width="16" height="12" rx="2" fill="#f4a7a7" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none"><path d="M46 70 A68 68 0 0 1 84 46"/><path d="M78 42 l7 4 -5 6"/></g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle"><text x="100" y="26">hard disk</text><text x="305" y="48">SSD</text></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="206">~10 ms: the arm must move</text><text x="305" y="186">~0.1 ms: nothing moves</text>
+  </g>
 </svg>

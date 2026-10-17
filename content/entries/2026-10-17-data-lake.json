@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-data-lake",
+  "date": "2026-10-17",
+  "subjects": ["data", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["data lakes", "lakehouse"],
+    "es": ["data lakes", "lago de datos", "lagos de datos", "lakehouse"]
+  },
+  "image": "img/2026-10-17-data-lake.svg",
+  "imageAlt": {
+    "en": "Apps, sensors and exports drop files into a wide blue lake, where csv, json, logs and image files float side by side",
+    "es": "Apps, sensores y exportaciones tiran archivos en un lago azul ancho, donde flotan juntos archivos csv, json, logs e imágenes"
+  },
+  "en": {
+    "title": "Data lake",
+    "tagline": "Cheap storage where all your data is kept as raw files, to be sorted out later.",
+    "explanation": [
+      "A **data lake** is a big, cheap store where an organization keeps all its data as files, in whatever shape it arrives: app logs, CSV exports, JSON events, images, sensor readings. Nothing has to be modeled before it lands. On AWS it is usually Amazon S3 with a folder layout and some rules; the structure is applied later, when someone reads the data.",
+      "That is the key difference with a data warehouse. A warehouse asks you to clean and model data before loading it (**schema on write**); a lake accepts everything and lets each reader decide how to interpret it (**schema on read**). Query engines like Amazon Athena or Spark read the files where they are, and a **catalog** records what each folder contains so people can find it.",
+      "Lakes are popular because storage is cheap and nothing gets thrown away: tomorrow's question, or tomorrow's machine learning model, may need data nobody thought was useful today. The risk is the **data swamp**: years of undocumented, duplicated or half-broken files that nobody trusts. Many teams now combine both ideas in a **lakehouse**: files in the lake, stored in formats like Parquet, with a table layer on top that adds warehouse-style guarantees."
+    ],
+    "analogy": "A huge storage unit where everything goes in its original box. It is cheap and nothing is lost, but if nobody labels the boxes, finding last year's tax papers becomes an expedition.",
+    "keyPoints": [
+      "Stores raw files of any type; structure is applied when the data is read.",
+      "Usually built on object storage like Amazon S3, which is cheap and practically unlimited.",
+      "Without a catalog and some discipline, it turns into a data swamp.",
+      "Lakes and warehouses complement each other; a lakehouse mixes both."
+    ],
+    "links": [
+      { "label": "What is a data lake? (AWS)", "url": "https://aws.amazon.com/what-is/data-lake/" },
+      { "label": "Data lake on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_lake" }
+    ]
+  },
+  "es": {
+    "title": "Data lake",
+    "tagline": "Almacenamiento barato donde todos los datos se guardan como archivos crudos.",
+    "explanation": [
+      "Un **data lake** (lago de datos) es un depósito grande y barato donde una organización guarda todos sus datos como archivos, con la forma que tengan al llegar: logs de las apps, exportaciones CSV, eventos en JSON, imágenes, lecturas de sensores. No hace falta modelar nada antes de que entre. En AWS suele ser Amazon S3 con una organización de carpetas y algunas reglas; la estructura se aplica después, cuando alguien lee los datos.",
+      "Esa es la diferencia clave con un data warehouse. Un warehouse te pide limpiar y modelar los datos antes de cargarlos (**schema on write**); un lake acepta todo y deja que cada lector decida cómo interpretarlo (**schema on read**). Motores de consulta como Amazon Athena o Spark leen los archivos donde están, y un **catálogo** registra qué hay en cada carpeta para que la gente lo encuentre.",
+      "Los lakes son populares porque guardar es barato y no se tira nada: la pregunta de mañana, o el modelo de machine learning de mañana, puede necesitar datos que hoy nadie creía útiles. El riesgo es el **data swamp** (el pantano): años de archivos sin documentar, duplicados o medio rotos, en los que nadie confía. Muchos equipos hoy combinan las dos ideas en un **lakehouse**: archivos en el lake, guardados en formatos como Parquet, con una capa de tablas encima que suma las garantías de un warehouse."
+    ],
+    "analogy": "Una baulera enorme donde todo entra en su caja original. Es barata y no se pierde nada, pero si nadie etiqueta las cajas, encontrar los papeles de impuestos del año pasado se vuelve una expedición.",
+    "keyPoints": [
+      "Guarda archivos crudos de cualquier tipo; la estructura se aplica al leer.",
+      "Suele armarse sobre almacenamiento de objetos como Amazon S3, barato y prácticamente ilimitado.",
+      "Sin un catálogo y algo de disciplina, se convierte en un data swamp.",
+      "Lakes y warehouses se complementan; un lakehouse mezcla los dos."
+    ],
+    "links": [
+      { "label": "¿Qué es un data lake? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-lake/" },
+      { "label": "Lago de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Lago_de_datos" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-data-warehouse",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data warehouses", "data warehousing"],
+    "es": ["data warehouses", "almacén de datos", "almacenes de datos"]
+  },
+  "image": "img/2026-10-17-data-warehouse.svg",
+  "imageAlt": {
+    "en": "Three sources, an app database, a CRM and payments, flow into one warehouse box with columns inside, which feeds a bar chart dashboard",
+    "es": "Tres fuentes, la base de la app, un CRM y los pagos, fluyen a una caja de warehouse con columnas adentro, que alimenta un tablero con gráfico de barras"
+  },
+  "en": {
+    "title": "Data warehouse",
+    "tagline": "A database built for analysis: years of history, from many sources, in one place.",
+    "explanation": [
+      "A **data warehouse** is a database designed to answer business questions, not to run an app. The app's own database is busy recording each sale as it happens; the warehouse receives copies of that data, plus data from the CRM, the payments provider and the ad platforms, and keeps years of history in one place, cleaned and organized so the pieces fit together.",
+      "The difference shows in the questions. An app asks 'what is in Ana's cart right now?', touching one row. An analyst asks 'how did sales per region change month by month over the last three years?', reading hundreds of millions of rows. Warehouses store data **column by column** and spread the work across many machines, so that second kind of question takes seconds. Amazon Redshift, Snowflake and Google BigQuery are well-known ones, and you talk to all of them in SQL.",
+      "Data usually arrives through ETL pipelines that run every night or every few minutes, and the tables are modeled around the business: **facts** (each sale) surrounded by **dimensions** (customer, product, date). Dashboards, monthly reports and forecasts are built on top. The warehouse becomes the single source of truth: when two teams disagree about a number, it is where they go to settle it."
+    ],
+    "analogy": "A company's central archive. Each department keeps its working papers at its own desk (the app databases); every night copies are filed in the archive, labeled the same way, so anyone can pull five years of records and compare them side by side.",
+    "keyPoints": [
+      "Built for analysis over a long history, not for the app's moment-to-moment work.",
+      "Stores data by columns and spreads each query over many machines.",
+      "Fed by ETL pipelines from many sources, and queried with SQL.",
+      "Amazon Redshift, Snowflake and Google BigQuery are common examples."
+    ],
+    "links": [
+      { "label": "What is a data warehouse? (AWS)", "url": "https://aws.amazon.com/what-is/data-warehouse/" },
+      { "label": "Data warehouse on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_warehouse" }
+    ]
+  },
+  "es": {
+    "title": "Data warehouse",
+    "tagline": "Una base hecha para analizar: años de historia, de muchas fuentes, en un solo lugar.",
+    "explanation": [
+      "Un **data warehouse** (almacén de datos) es una base de datos pensada para responder preguntas del negocio, no para hacer andar una app. La base de la app está ocupada registrando cada venta en el momento; el warehouse recibe copias de esos datos, más los del CRM, el proveedor de pagos y las plataformas de anuncios, y guarda años de historia en un solo lugar, limpios y ordenados para que las piezas encajen.",
+      "La diferencia se ve en las preguntas. Una app pregunta '¿qué tiene Ana en el carrito ahora?', y toca una fila. Una analista pregunta '¿cómo cambiaron las ventas por región mes a mes en los últimos tres años?', y lee cientos de millones de filas. Los warehouses guardan los datos **columna por columna** y reparten el trabajo entre muchas máquinas, así que ese segundo tipo de pregunta tarda segundos. Amazon Redshift, Snowflake y Google BigQuery son de los más conocidos, y con todos se habla en SQL.",
+      "Los datos suelen llegar por pipelines de ETL que corren todas las noches o cada pocos minutos, y las tablas se modelan alrededor del negocio: **hechos** (cada venta) rodeados de **dimensiones** (cliente, producto, fecha). Encima se construyen tableros, reportes mensuales y proyecciones. El warehouse se vuelve la única fuente de verdad: cuando dos equipos no coinciden en un número, es ahí donde van a resolverlo."
+    ],
+    "analogy": "El archivo central de una empresa. Cada área tiene sus papeles de trabajo en su escritorio (las bases de las apps); todas las noches se archivan copias, etiquetadas de la misma forma, así cualquiera puede sacar cinco años de registros y compararlos uno al lado del otro.",
+    "keyPoints": [
+      "Hecho para analizar una historia larga, no para el trabajo de cada momento de la app.",
+      "Guarda los datos por columnas y reparte cada consulta entre muchas máquinas.",
+      "Lo alimentan pipelines de ETL desde muchas fuentes, y se consulta con SQL.",
+      "Amazon Redshift, Snowflake y Google BigQuery son ejemplos comunes."
+    ],
+    "links": [
+      { "label": "¿Qué es un data warehouse? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-warehouse/" },
+      { "label": "Almacén de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-database-index",
+  "date": "2026-10-17",
+  "subjects": ["data", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["index", "indexes", "indices", "B-tree"],
+    "es": ["índice", "índices", "B-tree"]
+  },
+  "image": "img/2026-10-17-database-index.svg",
+  "imageAlt": {
+    "en": "On the left, a long table read row by row from top to bottom; on the right, a small tree that reaches the right row in three jumps",
+    "es": "A la izquierda, una tabla larga leída fila por fila de arriba a abajo; a la derecha, un árbol chico que llega a la fila correcta en tres saltos"
+  },
+  "en": {
+    "title": "Database index",
+    "tagline": "A sorted shortcut that lets a database find rows without reading the whole table.",
+    "explanation": [
+      "A **database index** is an extra structure, kept next to a table, that lets the database jump straight to the rows you ask for. Without one, a query like 'find the customer with email ana@example.com' forces a **full scan**: reading every row until it shows up. With an index on the email column, the database looks the value up in a sorted structure and goes directly to the right row.",
+      "Most indexes are a **B-tree**: a sorted, branching structure where each step narrows the search, so finding one value among a hundred million takes a handful of jumps instead of a hundred million reads. You create one with a line of SQL, `CREATE INDEX ON customers (email);`, and from then on the database keeps it up to date by itself and decides when to use it.",
+      "Indexes are not free. Each one takes disk space, and every insert or update has to update the indexes too, so writes get slower. The craft is choosing them from the queries the app really runs: the columns used to filter, join and sort. When a page that used to load instantly starts taking seconds as the data grows, a missing index is the first suspect."
+    ],
+    "analogy": "The index at the back of a book. To find every page that mentions 'photosynthesis' you check the alphabetical list instead of reading the whole book; the price is a few extra pages that must be redone in every new edition.",
+    "keyPoints": [
+      "An index trades disk space and slower writes for much faster reads.",
+      "Without an index, the database has to scan every row to answer a query.",
+      "Index the columns you filter, join and sort by, not every column.",
+      "Most indexes are B-trees, which keep values sorted so a lookup takes a few steps."
+    ],
+    "links": [
+      { "label": "Indexes, introduction (PostgreSQL docs)", "url": "https://www.postgresql.org/docs/current/indexes-intro.html" },
+      { "label": "Database index on Wikipedia", "url": "https://en.wikipedia.org/wiki/Database_index" }
+    ]
+  },
+  "es": {
+    "title": "Índice de base de datos",
+    "tagline": "Un atajo ordenado para que la base encuentre filas sin leer toda la tabla.",
+    "explanation": [
+      "Un **índice** es una estructura extra, guardada al lado de una tabla, que le permite a la base de datos saltar directo a las filas que le pedís. Sin uno, una consulta como 'buscá el cliente con email ana@example.com' obliga a un **recorrido completo** (full scan): leer todas las filas hasta que aparezca. Con un índice sobre la columna email, la base busca el valor en una estructura ordenada y va directo a la fila correcta.",
+      "La mayoría de los índices son un **B-tree**: una estructura ordenada que se ramifica, donde cada paso achica la búsqueda, así que encontrar un valor entre cien millones lleva un puñado de saltos en vez de cien millones de lecturas. Se crea con una línea de SQL, `CREATE INDEX ON clientes (email);`, y desde ahí la base lo mantiene actualizado sola y decide cuándo usarlo.",
+      "Los índices no son gratis. Cada uno ocupa disco, y cada alta o modificación tiene que actualizar también los índices, así que las escrituras se vuelven más lentas. El oficio está en elegirlos a partir de las consultas que la app de verdad hace: las columnas por las que filtra, une y ordena. Cuando una página que cargaba al instante empieza a tardar segundos a medida que crecen los datos, el primer sospechoso es un índice que falta."
+    ],
+    "analogy": "El índice al final de un libro. Para encontrar todas las páginas que hablan de 'fotosíntesis' mirás la lista alfabética en vez de leer el libro entero; el precio son unas páginas extra que hay que rehacer en cada edición nueva.",
+    "keyPoints": [
+      "Un índice cambia espacio en disco y escrituras más lentas por lecturas mucho más rápidas.",
+      "Sin índice, la base tiene que recorrer todas las filas para responder una consulta.",
+      "Indexá las columnas por las que filtrás, unís y ordenás, no todas.",
+      "La mayoría de los índices son B-trees, que mantienen los valores ordenados para encontrarlos en pocos pasos."
+    ],
+    "links": [
+      { "label": "Índice (base de datos) en Wikipedia", "url": "https://es.wikipedia.org/wiki/%C3%8Dndice_(base_de_datos)" },
+      { "label": "Índices, introducción (documentación de PostgreSQL, en inglés)", "url": "https://www.postgresql.org/docs/current/indexes-intro.html" }
+    ]
+  }
+}

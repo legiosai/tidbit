@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-cdn",
+  "date": "2026-10-17",
+  "subjects": ["networks", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["CDNs", "content delivery network", "content delivery networks", "edge location", "edge locations"],
+    "es": ["CDNs", "red de distribución de contenidos", "redes de distribución de contenidos", "red de entrega de contenidos"]
+  },
+  "image": "img/2026-10-17-cdn.svg",
+  "imageAlt": {
+    "en": "One origin server far away feeds three edge servers, each close to a group of users; a user gets a cache hit from the nearest edge",
+    "es": "Un servidor de origen lejano alimenta tres servidores de borde, cada uno cerca de un grupo de usuarios; un usuario recibe un acierto de caché del borde más cercano"
+  },
+  "en": {
+    "title": "CDN",
+    "tagline": "Copies of a website kept on servers around the world, close to whoever asks.",
+    "explanation": [
+      "A **CDN** (content delivery network) is a set of servers spread across many cities that keep copies of a website's files: images, videos, scripts, whole pages. When you open the site, your request goes to the nearest of those **edge** servers instead of travelling to the company's own server, the **origin**, which may be on another continent. Shorter distance means lower latency, and the page appears faster.",
+      "The edge works as a **cache**. If it already has the file you asked for, that is a **cache hit** and it answers on the spot. If not, a **cache miss**, it fetches the file from the origin once, keeps a copy, and serves it to everyone nearby who asks next. The site decides how long each copy may live: a logo can stay for a month, a news front page maybe for a minute.",
+      "Almost every big site uses one. A video service in Buenos Aires does not stream every episode from Virginia; it streams from a server a few kilometers away. The origin also gets far fewer requests, so it needs less capacity, and because a CDN has huge total bandwidth spread across the world, it can absorb traffic floods like a DDoS attack that would knock a single server over. Amazon CloudFront, Cloudflare, Akamai and Fastly are well-known CDNs."
+    ],
+    "analogy": "A bakery chain. The recipe and the main kitchen (the origin) are in one place, but every neighborhood has a branch with fresh bread on the shelf (the edge), so you walk two blocks instead of crossing the city.",
+    "keyPoints": [
+      "Edge servers near users keep copies of files from the origin server.",
+      "A cache hit is answered at the edge; a cache miss goes to the origin once.",
+      "The site controls how long each file may stay cached.",
+      "Besides speed, a CDN shields the origin from load and traffic floods."
+    ],
+    "links": [
+      { "label": "What is a CDN? (AWS)", "url": "https://aws.amazon.com/what-is/cdn/" },
+      { "label": "CDN (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/CDN" },
+      { "label": "Content delivery network on Wikipedia", "url": "https://en.wikipedia.org/wiki/Content_delivery_network" }
+    ]
+  },
+  "es": {
+    "title": "CDN",
+    "tagline": "Copias de un sitio guardadas en servidores por todo el mundo, cerca de quien las pide.",
+    "explanation": [
+      "Una **CDN** (content delivery network, red de distribución de contenidos) es un conjunto de servidores repartidos en muchas ciudades que guardan copias de los archivos de un sitio: imágenes, videos, scripts, páginas enteras. Cuando abrís el sitio, tu pedido va al más cercano de esos servidores de **borde** (edge) en vez de viajar hasta el servidor propio de la empresa, el **origen**, que puede estar en otro continente. Menos distancia es menos latencia, y la página aparece más rápido.",
+      "El borde funciona como una **caché**. Si ya tiene el archivo que pediste, es un **acierto de caché** (cache hit) y responde en el momento. Si no lo tiene, un **fallo de caché** (cache miss), lo busca una vez en el origen, se guarda una copia y se la sirve a todos los que estén cerca y lo pidan después. El sitio decide cuánto puede vivir cada copia: un logo puede quedarse un mes, la portada de un diario quizás un minuto.",
+      "Casi todos los sitios grandes usan una. Un servicio de video en Buenos Aires no te manda cada capítulo desde Virginia; te lo manda desde un servidor a pocos kilómetros. Además el origen recibe muchos menos pedidos, así que necesita menos capacidad, y como una CDN tiene un ancho de banda total enorme repartido por el mundo, puede absorber inundaciones de tráfico como un ataque DDoS que tirarían abajo a un servidor solo. Amazon CloudFront, Cloudflare, Akamai y Fastly son CDNs conocidas."
+    ],
+    "analogy": "Una cadena de panaderías. La receta y la cocina central (el origen) están en un solo lugar, pero cada barrio tiene una sucursal con pan fresco en el estante (el borde), así caminás dos cuadras en vez de cruzar la ciudad.",
+    "keyPoints": [
+      "Los servidores de borde, cerca de los usuarios, guardan copias de los archivos del origen.",
+      "Un acierto de caché se responde en el borde; un fallo va una sola vez al origen.",
+      "El sitio controla cuánto tiempo puede quedar cada archivo en caché.",
+      "Además de velocidad, una CDN protege al origen de la carga y de las inundaciones de tráfico."
+    ],
+    "links": [
+      { "label": "¿Qué es una CDN? (AWS)", "url": "https://aws.amazon.com/es/what-is/cdn/" },
+      { "label": "CDN (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/CDN" },
+      { "label": "Red de entrega de contenidos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Red_de_entrega_de_contenidos" }
+    ]
+  }
+}

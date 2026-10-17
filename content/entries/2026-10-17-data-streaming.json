@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-data-streaming",
+  "date": "2026-10-17",
+  "subjects": ["data", "cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["streaming data", "stream processing", "event streaming", "Apache Kafka", "Kafka", "Amazon Kinesis", "Kinesis"],
+    "es": ["datos en streaming", "procesamiento de streams", "Apache Kafka", "Kafka", "Amazon Kinesis", "Kinesis"]
+  },
+  "image": "img/2026-10-17-data-streaming.svg",
+  "imageAlt": {
+    "en": "Payments, clicks and sensors append numbered events to the end of a log, while a dashboard and a fraud check below read it at different positions",
+    "es": "Pagos, clics y sensores agregan eventos numerados al final de un log, mientras un tablero y un control de fraude abajo lo leen en posiciones distintas"
+  },
+  "en": {
+    "title": "Data streaming",
+    "tagline": "Processing data as a continuous flow of events, seconds after they happen.",
+    "explanation": [
+      "**Data streaming** means handling data as a continuous flow of small events instead of in big periodic batches. Each card payment, click, GPS position or sensor reading is sent the moment it happens, and programs downstream react to it within seconds. A nightly ETL answers 'what happened yesterday?'; a stream answers 'what is happening right now?'.",
+      "At the center there is usually a **log** of events, such as Apache Kafka or Amazon Kinesis. Producers append events to the end, the log keeps them in order for days, and any number of consumers read at their own pace, each remembering where it left off. Because events are kept, a new consumer can start from the beginning, and one that crashes picks up where it stopped without losing anything.",
+      "Streams power things that cannot wait: a bank blocking a suspicious card payment before it is approved, a delivery app moving the courier on your map, a factory raising an alert when a machine overheats. The cost is complexity. Events arrive late or out of order, the same event can be delivered twice, and a question like 'sales in the last five minutes' needs **windows** over a flow that never ends. When an answer every hour is good enough, a batch pipeline is simpler and cheaper."
+    ],
+    "analogy": "Reading the morning paper versus following a live radio broadcast. The paper (batch) is tidy but a day late; the radio (stream) tells you as it happens, and you can tune in at any moment.",
+    "keyPoints": [
+      "Events are processed one by one, seconds after they happen, instead of in nightly batches.",
+      "A durable log such as Kafka or Kinesis keeps events in order and lets many consumers read them.",
+      "Late, duplicated and out-of-order events are normal and must be handled.",
+      "Use it when minutes matter; otherwise a batch ETL is simpler."
+    ],
+    "links": [
+      { "label": "What is streaming data? (AWS)", "url": "https://aws.amazon.com/what-is/streaming-data/" },
+      { "label": "Introduction to Apache Kafka", "url": "https://kafka.apache.org/intro" },
+      { "label": "Stream processing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Stream_processing" }
+    ]
+  },
+  "es": {
+    "title": "Streaming de datos",
+    "tagline": "Procesar datos como un flujo continuo de eventos, segundos después de que pasan.",
+    "explanation": [
+      "El **streaming de datos** es manejar los datos como un flujo continuo de eventos chiquitos en vez de en grandes tandas periódicas. Cada pago con tarjeta, clic, posición de GPS o lectura de un sensor se envía en el momento en que pasa, y los programas que vienen después reaccionan en segundos. Un ETL nocturno responde '¿qué pasó ayer?'; un stream responde '¿qué está pasando ahora?'.",
+      "En el centro suele haber un **log** de eventos, como Apache Kafka o Amazon Kinesis. Los productores agregan eventos al final, el log los guarda en orden durante días, y cualquier cantidad de consumidores los lee a su propio ritmo, cada uno acordándose de dónde quedó. Como los eventos se guardan, un consumidor nuevo puede arrancar desde el principio, y uno que se cae retoma donde paró sin perder nada.",
+      "Los streams hacen andar cosas que no pueden esperar: un banco que frena un pago sospechoso antes de aprobarlo, una app de delivery que mueve al repartidor en tu mapa, una fábrica que avisa cuando una máquina se recalienta. El costo es la complejidad. Los eventos llegan tarde o desordenados, el mismo evento puede llegar dos veces, y una pregunta como 'ventas de los últimos cinco minutos' necesita **ventanas** sobre un flujo que nunca termina. Cuando alcanza con una respuesta por hora, un pipeline por tandas es más simple y más barato."
+    ],
+    "analogy": "Leer el diario de la mañana o seguir una transmisión de radio en vivo. El diario (por tandas) es prolijo pero llega un día tarde; la radio (el stream) te lo cuenta mientras pasa, y podés sintonizarla en cualquier momento.",
+    "keyPoints": [
+      "Los eventos se procesan de a uno, segundos después de que pasan, en vez de en tandas nocturnas.",
+      "Un log durable como Kafka o Kinesis guarda los eventos en orden y deja que muchos consumidores los lean.",
+      "Los eventos tardíos, duplicados o desordenados son normales y hay que manejarlos.",
+      "Usalo cuando importan los minutos; si no, un ETL por tandas es más simple."
+    ],
+    "links": [
+      { "label": "¿Qué son los datos de streaming? (AWS)", "url": "https://aws.amazon.com/es/what-is/streaming-data/" },
+      { "label": "Introducción a Apache Kafka (en inglés)", "url": "https://kafka.apache.org/intro" }
+    ]
+  }
+}

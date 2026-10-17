@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M24 52 H164 L184 72 V170 H24 Z" fill="#e6dfd0"/>
+    <path d="M164 52 V72 H184" fill="none"/>
+    <rect x="222" y="52" width="156" height="118" rx="6" fill="#f3efe6"/>
+  </g>
+  <rect x="223" y="53" width="154" height="29" fill="#ffd166"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <rect x="222" y="52" width="156" height="118" rx="6"/>
+    <path d="M222 82 H378"/><path d="M222 126 H378"/>
+    <path d="M274 52 V170"/><path d="M326 52 V170"/>
+    <path d="M190 112 H214"/><path d="M208 108 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">
+    <text x="36" y="96">name,city,age</text>
+    <text x="36" y="122">Ana,Rosario,34</text>
+    <text x="36" y="148">Luis,Salta,29</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="248" y="72" font-weight="bold">name</text><text x="300" y="72" font-weight="bold">city</text><text x="352" y="72" font-weight="bold">age</text>
+    <text x="248" y="109">Ana</text><text x="300" y="109">Rosario</text><text x="352" y="109">34</text>
+    <text x="248" y="153">Luis</text><text x="300" y="153">Salta</text><text x="352" y="153">29</text>
+  </g>
+  <text x="104" y="40" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">data.csv</text>
+  <text x="300" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">spreadsheet</text>
+  <text x="200" y="208" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the same table, written as plain text</text>
+</svg>

@@ -1,9 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">Data center</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="90" y="70" width="220" height="130" rx="6" fill="#e6dfd0"/>
+    <rect x="150" y="46" width="100" height="24" rx="4" fill="#9ac7ea"/>
+    <circle cx="176" cy="58" r="8" fill="#f3efe6"/><circle cx="224" cy="58" r="8" fill="#f3efe6"/>
+    <rect x="106" y="88" width="28" height="100" rx="3" fill="#9bd1b9"/>
+    <rect x="146" y="88" width="28" height="100" rx="3" fill="#9bd1b9"/>
+    <rect x="186" y="88" width="28" height="100" rx="3" fill="#9bd1b9"/>
+    <rect x="226" y="88" width="28" height="100" rx="3" fill="#9bd1b9"/>
+    <rect x="266" y="88" width="28" height="100" rx="3" fill="#9bd1b9"/>
+    <path d="M44 92 L34 114 H44 L38 134 L56 108 H46 L52 92 Z" fill="#ffd166"/>
+    <circle cx="370" cy="140" r="16" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M110 108 H130 M110 124 H130 M110 140 H130 M110 156 H130 M110 172 H130"/>
+    <path d="M150 108 H170 M150 124 H170 M150 140 H170 M150 156 H170 M150 172 H170"/>
+    <path d="M190 108 H210 M190 124 H210 M190 140 H210 M190 156 H210 M190 172 H210"/>
+    <path d="M230 108 H250 M230 124 H250 M230 140 H250 M230 156 H250 M230 172 H250"/>
+    <path d="M270 108 H290 M270 124 H290 M270 140 H290 M270 156 H290 M270 172 H290"/>
+    <ellipse cx="370" cy="140" rx="7" ry="16"/><path d="M354 140 H386"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M58 120 H88"/><path d="M82 116 l6 4 -6 4"/>
+    <path d="M312 140 H350"/><path d="M344 136 l6 4 -6 4"/>
+    <path d="M170 38 q4 -6 0 -12 M200 38 q4 -6 0 -12 M230 38 q4 -6 0 -12"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="48" y="152">power</text><text x="290" y="62">cooling</text><text x="368" y="174">internet</text>
+    <text x="200" y="20">heat</text>
+  </g>
+  <text x="332" y="132" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357">fiber</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">rows of server racks</text>
 </svg>

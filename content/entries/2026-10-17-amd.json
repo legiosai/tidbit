@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-amd",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Advanced Micro Devices"],
+    "es": ["Advanced Micro Devices"]
+  },
+  "image": "img/2026-10-17-amd.svg",
+  "imageAlt": {
+    "en": "An AMD design desk sends a blueprint to a factory, which returns two kinds of chips: CPUs and GPUs",
+    "es": "Un escritorio de diseño de AMD manda un plano a una fábrica, que devuelve dos tipos de chips: CPUs y GPUs"
+  },
+  "en": {
+    "title": "AMD",
+    "tagline": "The chip designer that competes with Intel in CPUs and with NVIDIA in GPUs.",
+    "explanation": [
+      "**AMD** (Advanced Micro Devices) designs both main kinds of processors. Its CPUs are sold as Ryzen for PCs and EPYC for servers; its GPUs as Radeon for gaming and Instinct for AI data centers. It also designs the custom chips inside the PlayStation and Xbox consoles. For most of its history it was the smaller alternative to Intel in x86 processors, the instruction set both companies have the rights to make.",
+      "AMD is **fabless**: it designs chips but owns no factories. It sold its manufacturing arm in 2009 (it became GlobalFoundries), and today its most advanced chips are made by TSMC. That turned out to be a strength: when TSMC's manufacturing pulled ahead of Intel's, AMD's processors benefited directly, and the company went from near-bankruptcy in the mid-2010s to a major player in servers and PCs.",
+      "In AI, AMD is the main challenger to NVIDIA. Its Instinct GPUs compete for the same data center budgets, and its software stack, **ROCm**, is its answer to NVIDIA's CUDA. Closing that software gap matters as much as the chips themselves, because most AI code was written with NVIDIA in mind."
+    ],
+    "analogy": "An architecture studio that draws excellent buildings and hires the best construction company in the world to build them, instead of keeping its own cranes.",
+    "keyPoints": [
+      "Designs CPUs (Ryzen, EPYC) and GPUs (Radeon, Instinct), plus console chips.",
+      "Fabless: TSMC manufactures its most advanced chips.",
+      "Competes with Intel in x86 processors and with NVIDIA in AI hardware.",
+      "Its ROCm software is its alternative to NVIDIA's CUDA."
+    ],
+    "links": [
+      { "label": "AMD on Wikipedia", "url": "https://en.wikipedia.org/wiki/AMD" },
+      { "label": "About AMD (official site)", "url": "https://www.amd.com/en/corporate.html" }
+    ]
+  },
+  "es": {
+    "title": "AMD",
+    "tagline": "La diseñadora de chips que compite con Intel en CPUs y con NVIDIA en GPUs.",
+    "explanation": [
+      "**AMD** (Advanced Micro Devices) diseña los dos grandes tipos de procesadores. Sus CPUs se venden como Ryzen para PCs y EPYC para servidores; sus GPUs como Radeon para juegos e Instinct para data centers de IA. También diseña los chips a medida que llevan adentro las consolas PlayStation y Xbox. Durante casi toda su historia fue la alternativa más chica a Intel en procesadores x86, el set de instrucciones que las dos empresas tienen derecho a fabricar.",
+      "AMD es **fabless**: diseña chips pero no tiene fábricas. Vendió su parte de fabricación en 2009 (se convirtió en GlobalFoundries), y hoy sus chips más avanzados los fabrica TSMC. Eso terminó siendo una fortaleza: cuando la fabricación de TSMC se adelantó a la de Intel, los procesadores de AMD se beneficiaron directamente, y la empresa pasó de estar cerca de la quiebra a mediados de los 2010 a ser un jugador grande en servidores y PCs.",
+      "En IA, AMD es la principal retadora de NVIDIA. Sus GPUs Instinct compiten por los mismos presupuestos de data center, y su software, **ROCm**, es su respuesta al CUDA de NVIDIA. Achicar esa diferencia de software importa tanto como los chips, porque la mayor parte del código de IA se escribió pensando en NVIDIA."
+    ],
+    "analogy": "Un estudio de arquitectura que dibuja edificios excelentes y contrata a la mejor constructora del mundo para levantarlos, en vez de tener sus propias grúas.",
+    "keyPoints": [
+      "Diseña CPUs (Ryzen, EPYC) y GPUs (Radeon, Instinct), además de chips para consolas.",
+      "Es fabless: TSMC fabrica sus chips más avanzados.",
+      "Compite con Intel en procesadores x86 y con NVIDIA en hardware de IA.",
+      "Su software ROCm es su alternativa al CUDA de NVIDIA."
+    ],
+    "links": [
+      { "label": "AMD en Wikipedia", "url": "https://es.wikipedia.org/wiki/AMD" },
+      { "label": "Sobre AMD, sitio oficial (en inglés)", "url": "https://www.amd.com/en/corporate.html" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-10-17-csv",
+  "date": "2026-10-17",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["CSV file", "CSV files", "comma-separated values"],
+    "es": ["archivo CSV", "archivos CSV", "valores separados por comas"]
+  },
+  "image": "img/2026-10-17-csv.svg",
+  "imageAlt": {
+    "en": "A text file named data.csv with three comma-separated lines, and an arrow to the same data shown as a spreadsheet grid",
+    "es": "Un archivo de texto llamado data.csv con tres líneas separadas por comas, y una flecha hacia los mismos datos en una grilla de planilla"
+  },
+  "en": {
+    "title": "CSV",
+    "tagline": "A plain text file that holds a table: one row per line, commas between values.",
+    "explanation": [
+      "A **CSV** file (comma-separated values) is the simplest way to write a table down. Each line is a row, and inside a line the values are separated by commas; the first line usually holds the column names. Because it is plain text, any program can read it: a spreadsheet, a database, a script, even a text editor.",
+      "A small one looks like this: `name,city,age` on the first line, then `Ana,Rosario,34` and `Luis,Salta,29`. When a value contains a comma itself, it goes between double quotes (`\"Buenos Aires, AR\"`). There is no single official version, so details vary: many spreadsheets set up for Spanish use semicolons, because there the comma is the decimal separator, and accents come out garbled when the file was not saved as UTF-8.",
+      "CSV is the universal export button: banks, CRMs, open-data portals and analytics tools all offer it, and it is often the first step when moving data from one system to another. Its weakness is that it has no types: the file does not say whether `03/04` is a date, a fraction or text, so every program has to guess. For large analytics datasets, formats like Parquet are much smaller and faster to read."
+    ],
+    "analogy": "A shopping list written one item per line, with the quantity after a comma. Anyone can read it and anyone can write it, but nothing stops someone from writing 'a few' where a number should go.",
+    "keyPoints": [
+      "One row per line, values separated by commas, column names on the first line.",
+      "Plain text: every spreadsheet, database and programming language can open it.",
+      "It has no types, so dates and numbers are open to interpretation.",
+      "Separators and encodings vary; if accents look broken, check that it is UTF-8."
+    ],
+    "links": [
+      { "label": "Comma-separated values on Wikipedia", "url": "https://en.wikipedia.org/wiki/Comma-separated_values" },
+      { "label": "RFC 4180, the common CSV format", "url": "https://www.rfc-editor.org/rfc/rfc4180" }
+    ]
+  },
+  "es": {
+    "title": "CSV",
+    "tagline": "Un archivo de texto que guarda una tabla: una fila por línea, comas entre valores.",
+    "explanation": [
+      "Un archivo **CSV** (comma-separated values, valores separados por comas) es la forma más simple de escribir una tabla. Cada línea es una fila, y dentro de una línea los valores van separados por comas; la primera línea suele tener los nombres de las columnas. Como es texto plano, cualquier programa lo puede leer: una planilla, una base de datos, un script, hasta un editor de texto.",
+      "Uno chiquito se ve así: `nombre,ciudad,edad` en la primera línea, después `Ana,Rosario,34` y `Luis,Salta,29`. Cuando un valor tiene una coma adentro, va entre comillas dobles (`\"Buenos Aires, AR\"`). No hay una única versión oficial, así que los detalles cambian: muchas planillas configuradas en castellano usan punto y coma, porque ahí la coma es el separador decimal, y los acentos salen rotos cuando el archivo no se guardó en UTF-8.",
+      "CSV es el botón de exportar universal: bancos, CRMs, portales de datos abiertos y herramientas de análisis lo ofrecen, y suele ser el primer paso para pasar datos de un sistema a otro. Su debilidad es que no tiene tipos: el archivo no dice si `03/04` es una fecha, una fracción o texto, así que cada programa tiene que adivinar. Para datasets grandes de análisis, formatos como Parquet ocupan mucho menos y se leen mucho más rápido."
+    ],
+    "analogy": "Una lista del súper escrita con un producto por renglón y la cantidad después de una coma. Cualquiera la lee y cualquiera la escribe, pero nada impide que alguien ponga 'unos cuantos' donde iba un número.",
+    "keyPoints": [
+      "Una fila por línea, valores separados por comas, nombres de columnas en la primera línea.",
+      "Texto plano: cualquier planilla, base de datos o lenguaje de programación lo abre.",
+      "No tiene tipos, así que fechas y números quedan sujetos a interpretación.",
+      "Los separadores y las codificaciones varían; si los acentos se ven rotos, fijate que sea UTF-8."
+    ],
+    "links": [
+      { "label": "Valores separados por comas en Wikipedia", "url": "https://es.wikipedia.org/wiki/Valores_separados_por_comas" },
+      { "label": "RFC 4180, el formato CSV común (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc4180" }
+    ]
+  }
+}

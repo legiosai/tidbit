@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-oauth-and-sso",
+  "date": "2026-10-17",
+  "subjects": ["security", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["OAuth", "OAuth 2.0", "SSO", "single sign-on", "OpenID Connect", "Sign in with Google"],
+    "es": ["OAuth", "OAuth 2.0", "SSO", "inicio de sesión único", "OpenID Connect"]
+  },
+  "image": "img/2026-10-17-oauth-and-sso.svg",
+  "imageAlt": {
+    "en": "An app sends the user to an identity provider to sign in and consent, gets a token back instead of a password, and the same provider also logs the user into mail, chat and docs",
+    "es": "Una app manda al usuario a un proveedor de identidad para iniciar sesión y dar permiso, recibe un token en vez de una contraseña, y el mismo proveedor también lo deja entrar a mail, chat y docs"
+  },
+  "en": {
+    "title": "OAuth and SSO",
+    "tagline": "Log in once with an account you trust, and let it vouch for you in other apps.",
+    "explanation": [
+      "When an app offers **Sign in with Google**, it is using **OAuth**: a standard that lets one service act on your behalf in another without ever seeing your password. The app sends you to Google, you sign in there, and Google asks whether you agree to share, say, your name and email. If you say yes, Google hands the app a **token**: a temporary pass that works only for what you approved and can be revoked at any time.",
+      "Those permissions are called **scopes**, and they are what the consent screen lists: 'read your calendar', 'see your email address'. Strictly, OAuth is about permission to access things; the part that tells the app who you are is **OpenID Connect**, a layer built on top of it. In practice both travel together, and people say OAuth for the whole flow.",
+      "**SSO** (single sign-on) applies the same idea inside a company. Employees log in once to an identity provider, such as Okta, Microsoft Entra ID or Google Workspace, and from there get into the mail, the chat, the CRM and dozens of other tools without a separate password for each. Security improves because there is one place to enforce two-factor authentication, and when someone leaves the company, disabling one account closes every door at once."
+    ],
+    "analogy": "A wristband at a festival. You show your ID once at the entrance (the identity provider) and get a wristband (the token); each stage checks the wristband, not your ID, and the wristband only opens the areas your ticket includes.",
+    "keyPoints": [
+      "With OAuth the app gets a limited, revocable token, never your password.",
+      "Scopes say exactly what the app may do; the consent screen lists them.",
+      "OpenID Connect adds identity (who you are) on top of OAuth.",
+      "SSO gives one login for many apps, and one switch to turn access off."
+    ],
+    "links": [
+      { "label": "OAuth 2.0 (oauth.net)", "url": "https://oauth.net/2/" },
+      { "label": "How OpenID Connect works (OpenID Foundation)", "url": "https://openid.net/developers/how-connect-works/" },
+      { "label": "What is SSO? (AWS)", "url": "https://aws.amazon.com/what-is/sso/" }
+    ]
+  },
+  "es": {
+    "title": "OAuth y SSO",
+    "tagline": "Iniciar sesión una vez con una cuenta confiable y que ella responda por vos en otras apps.",
+    "explanation": [
+      "Cuando una app ofrece **Iniciar sesión con Google**, está usando **OAuth**: un estándar que permite que un servicio actúe en tu nombre en otro sin ver nunca tu contraseña. La app te manda a Google, iniciás sesión ahí, y Google te pregunta si aceptás compartir, por ejemplo, tu nombre y tu email. Si decís que sí, Google le da a la app un **token**: un pase temporal que sirve solo para lo que aprobaste y que se puede revocar en cualquier momento.",
+      "Esos permisos se llaman **scopes**, y son lo que aparece en la pantalla de consentimiento: 'leer tu calendario', 'ver tu dirección de email'. En sentido estricto, OAuth se ocupa del permiso para acceder a cosas; la parte que le dice a la app quién sos es **OpenID Connect**, una capa construida encima. En la práctica viajan juntos, y la gente dice OAuth para todo el flujo.",
+      "**SSO** (single sign-on, inicio de sesión único) aplica la misma idea adentro de una empresa. Cada persona inicia sesión una vez en un proveedor de identidad, como Okta, Microsoft Entra ID o Google Workspace, y desde ahí entra al mail, al chat, al CRM y a decenas de herramientas más sin una contraseña distinta para cada una. La seguridad mejora porque hay un solo lugar donde exigir autenticación de dos factores, y cuando alguien se va de la empresa, desactivar una cuenta cierra todas las puertas a la vez."
+    ],
+    "analogy": "La pulsera de un festival. Mostrás el documento una sola vez en la entrada (el proveedor de identidad) y te dan una pulsera (el token); cada escenario mira la pulsera, no tu documento, y la pulsera solo abre las zonas que incluye tu entrada.",
+    "keyPoints": [
+      "Con OAuth la app recibe un token limitado y revocable, nunca tu contraseña.",
+      "Los scopes dicen exactamente qué puede hacer la app; la pantalla de consentimiento los lista.",
+      "OpenID Connect suma la identidad (quién sos) encima de OAuth.",
+      "SSO da un solo inicio de sesión para muchas apps, y un solo interruptor para cortar el acceso."
+    ],
+    "links": [
+      { "label": "¿Qué es SSO? (AWS)", "url": "https://aws.amazon.com/es/what-is/sso/" },
+      { "label": "OAuth en Wikipedia", "url": "https://es.wikipedia.org/wiki/OAuth" },
+      { "label": "Single Sign-On en Wikipedia", "url": "https://es.wikipedia.org/wiki/Single_Sign-On" }
+    ]
+  }
+}

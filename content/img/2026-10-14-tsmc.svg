@@ -1,9 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
   <rect width="400" height="240" rx="16" fill="#f3efe6"/>
-  <rect x="120" y="54" width="160" height="100" rx="12" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="84" x2="260" y2="84" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="104" x2="240" y2="104" stroke="#2b2b2b" stroke-width="2"/>
-  <line x1="140" y1="124" x2="220" y2="124" stroke="#2b2b2b" stroke-width="2"/>
-  <text x="200" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#2b2b2b">TSMC</text>
-  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">illustration pending</text>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="14" y="44" width="80" height="30" rx="6" fill="#e6dfd0"/>
+    <rect x="14" y="96" width="80" height="30" rx="6" fill="#e6dfd0"/>
+    <rect x="14" y="148" width="80" height="30" rx="6" fill="#e6dfd0"/>
+    <circle cx="200" cy="110" r="64" fill="#9ac7ea"/>
+  </g>
+  <g fill="#ffd166" stroke="#2b2b2b" stroke-width="1"><rect x="150" y="92" width="12" height="12"/><rect x="150" y="108" width="12" height="12"/><rect x="150" y="124" width="12" height="12"/><rect x="166" y="76" width="12" height="12"/><rect x="166" y="92" width="12" height="12"/><rect x="166" y="108" width="12" height="12"/><rect x="166" y="124" width="12" height="12"/><rect x="166" y="140" width="12" height="12"/><rect x="182" y="60" width="12" height="12"/><rect x="182" y="76" width="12" height="12"/><rect x="182" y="92" width="12" height="12"/><rect x="182" y="108" width="12" height="12"/><rect x="182" y="124" width="12" height="12"/><rect x="182" y="140" width="12" height="12"/><rect x="198" y="60" width="12" height="12"/><rect x="198" y="76" width="12" height="12"/><rect x="198" y="92" width="12" height="12"/><rect x="198" y="108" width="12" height="12"/><rect x="198" y="124" width="12" height="12"/><rect x="198" y="140" width="12" height="12"/><rect x="214" y="60" width="12" height="12"/><rect x="214" y="76" width="12" height="12"/><rect x="214" y="92" width="12" height="12"/><rect x="214" y="108" width="12" height="12"/><rect x="214" y="124" width="12" height="12"/><rect x="214" y="140" width="12" height="12"/><rect x="230" y="76" width="12" height="12"/><rect x="230" y="92" width="12" height="12"/><rect x="230" y="108" width="12" height="12"/><rect x="230" y="124" width="12" height="12"/></g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M96 59 C116 59 116 96 132 100"/><path d="M96 111 H132"/><path d="M96 163 C116 163 116 124 132 120"/>
+    <path d="M126 107 l6 4 -6 4"/>
+    <path d="M268 110 H300"/><path d="M294 106 l6 4 -6 4"/>
+    <path d="M326 46 V52 M326 88 V94"/><path d="M336 46 V52 M336 88 V94"/><path d="M346 46 V52 M346 88 V94"/><path d="M326 122 V128 M326 164 V170"/><path d="M336 122 V128 M336 164 V170"/><path d="M346 122 V128 M346 164 V170"/>
+  </g>
+  <g fill="#2b2b2b"><rect x="318" y="52" width="36" height="36" rx="4"/><rect x="318" y="128" width="36" height="36" rx="4"/></g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="54" y="63">Apple</text><text x="54" y="115">NVIDIA</text><text x="54" y="167">AMD</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="54" y="32">designs</text><text x="200" y="196">TSMC fab, Taiwan</text><text x="336" y="196">chips</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">others design the chips · TSMC manufactures them</text>
 </svg>

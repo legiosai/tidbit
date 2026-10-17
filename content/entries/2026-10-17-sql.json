@@ -1,0 +1,57 @@
+{
+  "id": "2026-10-17-sql",
+  "date": "2026-10-17",
+  "subjects": ["data", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Structured Query Language"],
+    "es": ["Structured Query Language"]
+  },
+  "image": "img/2026-10-17-sql.svg",
+  "imageAlt": {
+    "en": "A yellow card with a SELECT query points to a database cylinder, which points to a small result table with two highlighted rows",
+    "es": "Una tarjeta amarilla con una consulta SELECT apunta a un cilindro de base de datos, que apunta a una tablita de resultado con dos filas resaltadas"
+  },
+  "en": {
+    "title": "SQL",
+    "tagline": "The language you use to ask a database questions.",
+    "explanation": [
+      "**SQL** (Structured Query Language, often pronounced 'sequel') is the language for talking to relational databases. You do not tell the database how to find the data, step by step; you describe what you want, and the database works out the fastest way to get it. That is why a few lines of SQL can answer a question over millions of rows.",
+      "A query reads almost like an English sentence: `SELECT name, city FROM customers WHERE country = 'AR' ORDER BY name;` asks for the name and city of every customer in Argentina, alphabetically. Other commands add rows (`INSERT`), change them (`UPDATE`) or remove them (`DELETE`). `JOIN` combines tables that point to each other, like orders with the customers who placed them, and `GROUP BY` summarizes, like total sales per month.",
+      "SQL dates from the 1970s and is still everywhere: PostgreSQL, MySQL, SQLite (the database inside most phones) and big analytics tools like Amazon Athena or a data warehouse. Each engine adds its own extras, called a dialect, but the core is the same, so learning it once pays off for decades. It is also one of the most useful skills outside engineering: analysts, product managers and marketers use it to answer their own questions."
+    ],
+    "analogy": "Ordering at a restaurant. You say what you want ('the steak, medium, no fries'), not how to cook it; the kitchen (the database engine) decides the steps.",
+    "keyPoints": [
+      "SQL is declarative: you describe the result and the database decides how to get it.",
+      "`SELECT` reads data; `INSERT`, `UPDATE` and `DELETE` change it.",
+      "`JOIN` combines related tables and `GROUP BY` summarizes them.",
+      "Every engine has its own dialect, but the basics work almost everywhere."
+    ],
+    "links": [
+      { "label": "What is SQL? (AWS)", "url": "https://aws.amazon.com/what-is/sql/" },
+      { "label": "The SQL language, PostgreSQL tutorial", "url": "https://www.postgresql.org/docs/current/tutorial-sql.html" },
+      { "label": "SQL on Wikipedia", "url": "https://en.wikipedia.org/wiki/SQL" }
+    ]
+  },
+  "es": {
+    "title": "SQL",
+    "tagline": "El lenguaje para hacerle preguntas a una base de datos.",
+    "explanation": [
+      "**SQL** (Structured Query Language, lenguaje de consulta estructurado) es el lenguaje para hablar con bases de datos relacionales. No le decís a la base cómo encontrar los datos paso a paso; describís lo que querés y la base se encarga de buscar la forma más rápida de conseguirlo. Por eso unas pocas líneas de SQL pueden responder una pregunta sobre millones de filas.",
+      "Una consulta se lee casi como una oración en inglés: `SELECT nombre, ciudad FROM clientes WHERE pais = 'AR' ORDER BY nombre;` pide el nombre y la ciudad de cada cliente de Argentina, en orden alfabético. Otros comandos agregan filas (`INSERT`), las cambian (`UPDATE`) o las borran (`DELETE`). `JOIN` combina tablas que se apuntan entre sí, como los pedidos con los clientes que los hicieron, y `GROUP BY` resume, como el total de ventas por mes.",
+      "SQL es de los años 70 y sigue en todos lados: PostgreSQL, MySQL, SQLite (la base que tienen adentro la mayoría de los celulares) y las grandes herramientas de análisis como Amazon Athena o un data warehouse. Cada motor agrega sus propios extras, lo que se llama un dialecto, pero el núcleo es el mismo, así que aprenderlo una vez rinde durante décadas. Además es una de las habilidades más útiles fuera de la ingeniería: analistas, gente de producto y de marketing lo usan para responder sus propias preguntas."
+    ],
+    "analogy": "Pedir en un restaurante. Decís qué querés ('el bife, a punto, sin papas'), no cómo cocinarlo; la cocina (el motor de la base) decide los pasos.",
+    "keyPoints": [
+      "SQL es declarativo: describís el resultado y la base decide cómo conseguirlo.",
+      "`SELECT` lee datos; `INSERT`, `UPDATE` y `DELETE` los cambian.",
+      "`JOIN` combina tablas relacionadas y `GROUP BY` las resume.",
+      "Cada motor tiene su dialecto, pero lo básico funciona casi en todos."
+    ],
+    "links": [
+      { "label": "¿Qué es SQL? (AWS)", "url": "https://aws.amazon.com/es/what-is/sql/" },
+      { "label": "SQL en Wikipedia", "url": "https://es.wikipedia.org/wiki/SQL" },
+      { "label": "El lenguaje SQL, tutorial de PostgreSQL (en inglés)", "url": "https://www.postgresql.org/docs/current/tutorial-sql.html" }
+    ]
+  }
+}

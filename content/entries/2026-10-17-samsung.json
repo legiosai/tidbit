@@ -1,0 +1,56 @@
+{
+  "id": "2026-10-17-samsung",
+  "date": "2026-10-17",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Samsung Electronics"],
+    "es": ["Samsung Electronics"]
+  },
+  "image": "img/2026-10-17-samsung.svg",
+  "imageAlt": {
+    "en": "Samsung shown as three blocks: phones and TVs, memory chips, and a foundry making chips for other companies",
+    "es": "Samsung como tres bloques: celulares y televisores, chips de memoria, y una foundry que fabrica chips para otras empresas"
+  },
+  "en": {
+    "title": "Samsung",
+    "tagline": "Korean giant that sells phones and TVs, and makes much of the world's memory chips.",
+    "explanation": [
+      "**Samsung Electronics**, the best-known part of the South Korean Samsung group, is two businesses in one. The one you see is consumer electronics: Galaxy phones, TVs, fridges, washing machines. The one you mostly do not see is semiconductors, and it is just as important: Samsung is one of the world's largest makers of **memory chips**, the RAM and flash storage inside phones, laptops, SSDs and servers.",
+      "Memory is a commodity business with dramatic cycles: when demand outruns supply, prices and profits soar; when factories overproduce, prices crash. Only a few companies make it at scale (Samsung, SK Hynix and Micron are the big three), so Samsung's results are a common barometer for the whole electronics industry. The AI boom made one kind of memory especially valuable: **HBM** (high-bandwidth memory), the stacked chips that sit next to GPUs in AI accelerators.",
+      "Samsung also runs a **foundry**, manufacturing chips designed by other companies the way TSMC does, and it is one of the very few able to work at the leading edge. It also designs its own phone processors, the Exynos line. That makes it unusual: a company that competes with Apple in phones while also being a supplier to Apple and many others."
+    ],
+    "analogy": "A big department store that also owns the warehouses where everyone else's shelves come from. You know it for what it sells at the front; much of its weight is in the back.",
+    "keyPoints": [
+      "Sells phones, TVs and appliances, and is one of the largest makers of memory chips.",
+      "Memory (RAM, flash, HBM for AI) is a cyclical business with few big players.",
+      "Its foundry manufactures chips for other companies, competing with TSMC.",
+      "It is both a competitor and a supplier to many of its customers."
+    ],
+    "links": [
+      { "label": "Samsung Electronics on Wikipedia", "url": "https://en.wikipedia.org/wiki/Samsung_Electronics" },
+      { "label": "Samsung Semiconductor (official site)", "url": "https://semiconductor.samsung.com/" }
+    ]
+  },
+  "es": {
+    "title": "Samsung",
+    "tagline": "Gigante coreano que vende celulares y TVs, y hace buena parte de los chips de memoria.",
+    "explanation": [
+      "**Samsung Electronics**, la parte más conocida del grupo surcoreano Samsung, son dos negocios en uno. El que ves es la electrónica de consumo: celulares Galaxy, televisores, heladeras, lavarropas. El que casi no ves son los semiconductores, y es igual de importante: Samsung es uno de los fabricantes más grandes del mundo de **chips de memoria**, la RAM y el almacenamiento flash que llevan adentro celulares, notebooks, SSDs y servidores.",
+      "La memoria es un negocio de commodity con ciclos bruscos: cuando la demanda supera a la oferta, los precios y las ganancias se disparan; cuando las fábricas producen de más, los precios se desploman. Solo unas pocas empresas la fabrican a escala (Samsung, SK Hynix y Micron son las tres grandes), así que los resultados de Samsung funcionan como termómetro de toda la industria electrónica. El boom de la IA volvió especialmente valioso un tipo de memoria: la **HBM** (high-bandwidth memory), los chips apilados que van al lado de las GPUs en los aceleradores de IA.",
+      "Samsung también tiene una **foundry**, que fabrica chips diseñados por otras empresas como hace TSMC, y es de las poquísimas capaces de trabajar en la frontera tecnológica. Además diseña sus propios procesadores para celulares, la línea Exynos. Eso la vuelve una empresa rara: compite con Apple en celulares y al mismo tiempo es proveedora de Apple y de muchas otras."
+    ],
+    "analogy": "Una gran tienda que además es dueña de los depósitos de donde salen los estantes de todas las demás. La conocés por lo que vende adelante; buena parte de su peso está atrás.",
+    "keyPoints": [
+      "Vende celulares, televisores y electrodomésticos, y es de los mayores fabricantes de chips de memoria.",
+      "La memoria (RAM, flash, HBM para IA) es un negocio cíclico con pocos jugadores grandes.",
+      "Su foundry fabrica chips para otras empresas, compitiendo con TSMC.",
+      "Es competidora y proveedora a la vez de muchos de sus clientes."
+    ],
+    "links": [
+      { "label": "Samsung Electronics en Wikipedia", "url": "https://es.wikipedia.org/wiki/Samsung_Electronics" },
+      { "label": "Samsung Semiconductor, sitio oficial (en inglés)", "url": "https://semiconductor.samsung.com/" }
+    ]
+  }
+}
