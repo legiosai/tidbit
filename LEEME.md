@@ -23,7 +23,7 @@ MIT
 
 </div>
 
-> **Estado: 521 términos en 9 temas**, cada uno en castellano y en inglés: IA, AWS, cloud, redes, seguridad, datos, hardware, software y empresas tech. Sin cuenta y sin rastreo: los términos que aprendiste y el término del día viven en tu navegador.
+> **Estado: 616 términos en 9 temas**, cada uno en castellano y en inglés: IA, AWS, cloud, redes, seguridad, datos, hardware, software y empresas tech. Sin cuenta y sin rastreo: los términos que aprendiste y el término del día viven en tu navegador.
 
 ## Cómo es una entrada
 
@@ -61,7 +61,8 @@ Todo se puede leer con código, gratis, de solo lectura y sin cuenta. [Is Agenti
 - `content/entries/*.json`: un archivo por término, con los dos idiomas adentro. `content/img/*.svg`: su diagrama. `content/subjects.json`: los temas.
 - `scripts/build-index.mjs` (`npm run index`): valida cada entrada y regenera `content/index.json`.
 - `scripts/build-site.mjs` (`npm run build`): arma `dist/` con una página HTML real por URL (se lee sin JavaScript) y su gemela en Markdown, en inglés en `/` y en castellano en `/es/`: inicio, A–Z, temas, cada término, Acerca de, Contacto, Privacidad y Desarrolladores. También el sitemap, `robots.txt`, `llms.txt`, la API JSON, OpenAPI, el server card de MCP y una skill para agentes.
-- `app.js`, `style.css`: lo que depende de quien visita (el término del día, las aprendidas, los filtros del A–Z) sobre las páginas ya armadas.
+- `app.js`, `style.css`: lo que depende de quien visita (el término del día, las aprendidas, los filtros del A–Z) sobre las páginas ya armadas. `contribute.js`: el formulario de /contribute/.
+- `scripts/entry-rules.mjs`: las reglas de cada entrada, compartidas por el build, el formulario y `scripts/contribution.mjs` (que revisa las contribuciones que llegan como issues, desde `.github/workflows/contribution.yml`).
 - `site/_worker.js`: el worker de Cloudflare Pages. Markdown con `Accept: text/markdown` y `Vary: Accept`, headers `Link`, errores en JSON y límites de uso en la API, y el servidor MCP.
 - `.github/workflows/site.yml`: valida y arma el sitio en cada push y pull request, y una vez por día para publicar las entradas con fecha futura.
 
@@ -73,6 +74,8 @@ npm run dev        # http://localhost:8788, con el worker andando (wrangler page
 ```
 
 ## Agregar una entrada
+
+Lo más fácil es el formulario en [tidbit.legios.com.ar/es/contribute/](https://tidbit.legios.com.ar/es/contribute/): revisa la entrada mientras escribís con las mismas reglas que el build y la manda como issue de GitHub, donde se vuelve a revisar y, cuando alguien del equipo la acepta, se convierte en un pull request.
 
 Leé [CONTRIBUTING.md](CONTRIBUTING.md): tiene el formato, la voz y las reglas de los diagramas. En corto: copiá una entrada existente, escribí los dos idiomas, dibujá el SVG, corré `npm run index`, abrí un pull request.
 

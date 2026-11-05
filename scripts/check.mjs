@@ -179,6 +179,29 @@ if (nf.status !== 404 || !(nf.headers.get("Content-Type") || "").includes("probl
 const nfMd = await call("/__nope__/", { headers: { Accept: "text/markdown" } });
 if (nfMd.status !== 404 || !(nfMd.headers.get("Content-Type") || "").startsWith("text/markdown")) fail("site/_worker.js", "a missing page does not answer Markdown 404s");
 
+// ---------- 3b. the contribute form ----------
+// The form checks drafts with the very same rules file the build uses, so the published copy must be identical.
+if (await read("entry-rules.js") !== await readFile(path.join(root, "scripts", "entry-rules.mjs"), "utf8")) fail("scripts/entry-rules.mjs", "dist/entry-rules.js is not a copy of it");
+for (const lang of ["en", "es"]) {
+  const page = `${prefix(lang).slice(1)}${prefix(lang) ? "/" : ""}contribute/`;
+  if (!exists(`${page}index.html`) || !exists(`${page}index.md`)) { fail("scripts/build-site.mjs", `no ${lang} contribute page at /${page}`); continue; }
+  const html = await read(`${page}index.html`);
+  if (!html.includes('<script type="module" src="/contribute.js">') || !html.includes('id="contribute"')) fail("scripts/build-site.mjs", `the ${lang} contribute page has no form`);
+  if (!sitemap.includes(`<loc>${site}${prefix(lang)}/contribute/</loc>`)) fail("scripts/build-site.mjs", `the ${lang} contribute page is not in sitemap.xml`);
+}
+{
+  const { validateContribution, toEntry } = await import(pathToFileURL(path.join(root, "scripts", "entry-rules.mjs")).href);
+  const subjects = JSON.parse(await readFile(path.join(root, "content", "subjects.json"), "utf8"));
+  const sample = entries.find((e) => e.slug === "api") ?? entries[0];
+  const svg = await readFile(path.join(root, "content", sample.image), "utf8");
+  const { id, date, image, slug, file, ...rest } = sample;
+  const draft = { ...rest, slug: `${slug}-copy` };
+  const others = entries.filter((e) => e.id !== sample.id).map((e) => ({ id: e.id, title: { en: e.en.title, es: e.es.title }, aliases: e.aliases }));
+  const clash = validateContribution(draft, { subjects, svg, existing: [...others, { id: sample.id, title: { en: sample.en.title, es: sample.es.title }, aliases: sample.aliases }], today: "2099-01-01" });
+  if (!clash.some((p) => p.includes("already belongs"))) fail("scripts/entry-rules.mjs", "a contribution that repeats an existing title is not rejected");
+  if (toEntry(draft, "2099-01-01").id !== `2099-01-01-${slug}-copy`) fail("scripts/entry-rules.mjs", "toEntry does not build the id from the date and the slug");
+}
+
 // ---------- 4. external links (network) ----------
 // Some sites answer 200 with a "page not found" page (INCIBE does), so an HTML page's title counts too.
 const SOFT_404 = /not found|no encontrad|page doesn.t exist|no existe|\b404\b/i;

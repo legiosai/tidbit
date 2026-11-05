@@ -1,5 +1,16 @@
 {
   "version": 1,
-  "include": ["/*"],
-  "exclude": ["/content/*", "/app.js", "/style.css", "/favicon.svg", "/og-en.png", "/og-es.png"]
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/content/*",
+    "/app.js",
+    "/contribute.js",
+    "/entry-rules.js",
+    "/style.css",
+    "/favicon.svg",
+    "/og-en.png",
+    "/og-es.png"
+  ]
 }

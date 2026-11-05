@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Write a new term with the form
+    url: https://tidbit.legios.com.ar/contribute/
+    about: The form checks the entry as you type and opens the issue for you.

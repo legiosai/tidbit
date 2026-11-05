@@ -36,7 +36,7 @@ for (const e of entries) {
   if (bySlug.has(e.slug)) throw new Error(`slug "${e.slug}" is used by ${bySlug.get(e.slug).id} and ${e.id}`);
   bySlug.set(e.slug, e);
 }
-const RESERVED = new Set(["a-z", "topics", "learned", "about", "contact", "privacy", "developers", "v1", "content", "es", "mcp", "skills"]);
+const RESERVED = new Set(["a-z", "topics", "learned", "about", "contact", "privacy", "contribute", "developers", "v1", "content", "es", "mcp", "skills"]);
 for (const s of bySlug.keys()) if (RESERVED.has(s)) throw new Error(`slug "${s}" collides with a site page`);
 
 // ---------- words ----------
@@ -68,7 +68,7 @@ const T = {
     topicLead: (label, n) => `${n} ${label} terms explained simply, ordered from basic to advanced. Start at the top if the topic is new to you.`,
     learnedTitle: "What you learned", noneLearned: "Nothing learned yet. Open a term and mark it when it clicks.",
     footProgress: "Your progress stays in this browser. No account, no tracking.",
-    foot: { about: "About", contact: "Contact", privacy: "Privacy", developers: "Developers", source: "Source code", agents: "For AI agents" },
+    foot: { about: "About", contact: "Contact", contribute: "Contribute", privacy: "Privacy", developers: "Developers", source: "Source code", agents: "For AI agents" },
     madeBy: "Made by",
     notFoundTitle: "Page not found",
     notFoundLead: "That page does not exist, or it moved. Search the dictionary or start from one of these pages.",
@@ -101,7 +101,7 @@ const T = {
     topicLead: (label, n) => `${n} términos de ${label} explicados fácil, ordenados de lo básico a lo avanzado. Si el tema es nuevo para vos, arrancá por arriba.`,
     learnedTitle: "Lo que aprendiste", noneLearned: "Todavía no marcaste nada. Abrí un término y marcalo cuando te cierre.",
     footProgress: "Tu progreso queda en este navegador. Sin cuenta y sin rastreo.",
-    foot: { about: "Acerca de", contact: "Contacto", privacy: "Privacidad", developers: "Desarrolladores", source: "Código", agents: "Para agentes de IA" },
+    foot: { about: "Acerca de", contact: "Contacto", contribute: "Contribuí", privacy: "Privacidad", developers: "Desarrolladores", source: "Código", agents: "Para agentes de IA" },
     madeBy: "Hecho por",
     notFoundTitle: "No encontramos esa página",
     notFoundLead: "Esa página no existe o se movió. Buscá en el diccionario o arrancá desde una de estas páginas.",
@@ -236,6 +236,7 @@ ${body}
   <nav class="foot-links" aria-label="${lang === "es" ? "Pie de página" : "Footer"}">
     <a href="${href(lang, "/about/")}">${esc(t.foot.about)}</a>
     <a href="${href(lang, "/contact/")}">${esc(t.foot.contact)}</a>
+    <a href="${href(lang, "/contribute/")}">${esc(t.foot.contribute)}</a>
     <a href="${href(lang, "/privacy/")}">${esc(t.foot.privacy)}</a>
     <a href="${href(lang, "/developers/")}">${esc(t.foot.developers)}</a>
     <a href="/llms.txt">${esc(t.foot.agents)}</a>
@@ -244,7 +245,7 @@ ${body}
   <p>${esc(t.madeBy)} <a href="${ORG.url}" rel="noopener">Legios</a> · ${esc(t.footProgress)}</p>
 </footer>
 <script id="tb-config" type="application/json">${json(config)}</script>
-<script src="/app.js" defer></script>
+<script src="/app.js" defer></script>${page === "contribute" ? '\n<script type="module" src="/contribute.js"></script>' : ""}
 </body>
 </html>
 `;
@@ -571,23 +572,23 @@ const TRUST = {
   contact: {
     en: { title: "Contact", description: "How to reach the people behind Tidbit, suggest a term or report a mistake.", paras: [
       `Tidbit is made by Legios, a small software studio based in Rosario, Santa Fe, Argentina. The best way to reach us is through the project's GitHub repository: open an issue at ${REPO}/issues to suggest a term, report a wrong or outdated definition, flag a broken link or ask a question. Issues are public, so please do not include private information in them.`,
-      "If you found a mistake, tell us which term, what is wrong and, if you can, a source that shows the right answer: an official documentation page is ideal. Corrections are usually published within a few days. If you want to write an entry yourself, the repository explains the format, the voice and the rules for the diagrams; pull requests are welcome in English, Spanish or both.",
+      `If you found a mistake, tell us which term, what is wrong and, if you can, a source that shows the right answer: an official documentation page is ideal. Corrections are usually published within a few days. If you want to write an entry yourself, use the form at ${abs("/contribute/")}: it checks the format as you type and sends it for review. The repository explains the format, the voice and the rules for the diagrams, and pull requests are welcome too.`,
       `You can also find Legios and its other open source projects at ${ORG.url}. Tidbit has no sales team, no newsletter and no advertising; it is a free reference and it will stay that way.`,
     ] },
     es: { title: "Contacto", description: "Cómo llegar a quienes hacen Tidbit, sugerir un término o avisar de un error.", paras: [
       `Tidbit lo hace Legios, un pequeño estudio de software de Rosario, Santa Fe, Argentina. La mejor forma de contactarnos es el repositorio del proyecto en GitHub: abrí un issue en ${REPO}/issues para sugerir un término, avisar de una definición equivocada o desactualizada, señalar un link roto o hacer una pregunta. Los issues son públicos, así que no pongas información privada.`,
-      "Si encontraste un error, contanos en qué término, qué está mal y, si podés, una fuente que muestre la respuesta correcta: lo ideal es una página de documentación oficial. Las correcciones suelen publicarse en pocos días. Si querés escribir una entrada, el repositorio explica el formato, el tono y las reglas de los diagramas; los pull requests son bienvenidos en castellano, en inglés o en los dos.",
+      `Si encontraste un error, contanos en qué término, qué está mal y, si podés, una fuente que muestre la respuesta correcta: lo ideal es una página de documentación oficial. Las correcciones suelen publicarse en pocos días. Si querés escribir una entrada, usá el formulario en ${abs("/es/contribute/")}: revisa el formato mientras escribís y la manda para revisión. El repositorio explica el formato, el tono y las reglas de los diagramas, y los pull requests también son bienvenidos.`,
       `También podés encontrar a Legios y sus otros proyectos de código abierto en ${ORG.url}. Tidbit no tiene equipo de ventas, newsletter ni publicidad; es una referencia gratis y va a seguir siéndolo.`,
     ] },
   },
   privacy: {
     en: { title: "Privacy", description: "What Tidbit stores, what it does not, and which third parties are involved.", paras: [
-      "Tidbit has no accounts, no cookies, no analytics, no advertising and no tracking pixels. We do not collect your name, your email or anything about what you read. The only things the site remembers are stored by your own browser, in its local storage, on your device: the language you chose, the terms you marked as learned, the term the home page showed you on each day, and the filters you used in the A to Z list. They never leave your device, we cannot see them, and clearing your browser's site data deletes them.",
+      "Tidbit has no accounts, no cookies, no analytics, no advertising and no tracking pixels. We do not collect your name, your email or anything about what you read. The only things the site remembers are stored by your own browser, in its local storage, on your device: the language you chose, the terms you marked as learned, the term the home page showed you on each day, the filters you used in the A to Z list and, if you use the contribute form, your unsent draft. They never leave your device, we cannot see them, and clearing your browser's site data deletes them.",
       "Two third parties are involved in serving the pages. The site is hosted on Cloudflare, which, like any web host, processes your IP address and request details to deliver the page and protect it from abuse. The fonts are loaded from Google Fonts, which means your browser asks Google's servers for the font files and Google receives your IP address with that request. Neither of them receives anything from Tidbit about you.",
       `The links at the end of each entry go to other sites, such as official documentation and Wikipedia, which have their own privacy policies. If you have a question about privacy, open an issue at ${REPO}/issues. This policy was last updated on ${TODAY}.`,
     ] },
     es: { title: "Privacidad", description: "Qué guarda Tidbit, qué no, y qué terceros intervienen.", paras: [
-      "Tidbit no tiene cuentas, cookies, analíticas, publicidad ni píxeles de rastreo. No recolectamos tu nombre, tu email ni nada sobre lo que leés. Lo único que el sitio recuerda lo guarda tu propio navegador, en su almacenamiento local, en tu dispositivo: el idioma que elegiste, los términos que marcaste como aprendidos, el término que te mostró el inicio cada día y los filtros que usaste en la lista de la A a la Z. Nunca salen de tu dispositivo, no los podemos ver, y si borrás los datos del sitio en tu navegador desaparecen.",
+      "Tidbit no tiene cuentas, cookies, analíticas, publicidad ni píxeles de rastreo. No recolectamos tu nombre, tu email ni nada sobre lo que leés. Lo único que el sitio recuerda lo guarda tu propio navegador, en su almacenamiento local, en tu dispositivo: el idioma que elegiste, los términos que marcaste como aprendidos, el término que te mostró el inicio cada día, los filtros que usaste en la lista de la A a la Z y, si usás el formulario para contribuir, tu borrador sin enviar. Nunca salen de tu dispositivo, no los podemos ver, y si borrás los datos del sitio en tu navegador desaparecen.",
       "Para servir las páginas intervienen dos terceros. El sitio está alojado en Cloudflare, que, como cualquier hosting, procesa tu dirección IP y los datos de la solicitud para entregar la página y protegerla de abusos. Las tipografías se cargan desde Google Fonts, así que tu navegador le pide los archivos a los servidores de Google y Google recibe tu dirección IP con ese pedido. Ninguno de los dos recibe de Tidbit nada sobre vos.",
       `Los links al final de cada entrada llevan a otros sitios, como documentación oficial y Wikipedia, que tienen sus propias políticas de privacidad. Si tenés una pregunta sobre privacidad, abrí un issue en ${REPO}/issues. Esta política se actualizó por última vez el ${TODAY}.`,
     ] },
@@ -652,7 +653,165 @@ function developersPage(lang) {
     md: `# ${title}\n\n${description}\n\n${blocks.map(([h, text, code]) => `## ${h}\n\n${text}${code ? `\n\n\`\`\`\n${code}\n\`\`\`` : ""}`).join("\n\n")}\n` });
 }
 
-for (const lang of LANGS) { homePage(lang); azPage(lang); topicsPages(lang); learnedPage(lang); entryPages(lang); trustPages(lang); developersPage(lang); }
+// ---------- contribute ----------
+// A form that writes an entry in the same format as content/entries/*.json and checks it, as it is typed, with the
+// same rules the build uses (scripts/entry-rules.mjs, published as /entry-rules.js). Nothing is sent from the page:
+// the finished entry goes to GitHub as an issue, where .github/workflows/contribution.yml checks it again and a
+// maintainer accepts it. The form works only with JavaScript; without it the page explains how to send one by hand.
+const CONTRIBUTE = {
+  en: {
+    title: "Contribute a term", description: "Write a new Tidbit entry in English and Spanish, check it against the same rules as every other entry, and send it for review.",
+    intro: [
+      "Know a technology term that is missing? Write it here. The form checks your entry as you type, against the same rules every Tidbit entry follows, and shows how it will look. When it passes, you send it as a GitHub issue: the repository checks it again and a maintainer reviews it before it is published.",
+      "Every entry exists in English and in Spanish, so you write both. Not sure about one of them? Do your best and say so in the issue; reviewers help with the language. Sending it needs a free GitHub account.",
+    ],
+    noJs: "This form needs JavaScript. You can also copy an existing entry from the repository, follow CONTRIBUTING.md and open a pull request.",
+    sections: { term: "The term", lang: { en: "English", es: "Spanish" }, art: "Illustration", check: "Check", preview: "Preview", send: "Send" },
+    f: {
+      slug: ["URL", "Lowercase ascii and dashes, from the English title. The page will be at /<slug>/."],
+      subject: ["Topic", ""], subject2: ["Second topic (optional)", ""], none: "None",
+      level: ["Level", "Basic: anyone can read it cold. Intermediate: assumes the basic terms of its topic. Advanced: assumes the intermediate ones."],
+      caseSensitive: ["The name is also an everyday word (Apple, Meta, Swift): link it only with its exact capitals", ""],
+      title: ["Title", "The name of the concept, 1 to 4 words. Keep well-known acronyms as they are."],
+      tagline: ["One-line definition", "What it is, in plain words, under 90 characters."],
+      explanation: ["Explanation", "2 to 4 short paragraphs, separated by a blank line: what it is, what it is for, why it matters now. **bold** for the term the first time, `code` for commands and file names."],
+      analogy: ["Everyday analogy", "1 to 3 sentences."],
+      keyPoints: ["Key points", "3 or 4 facts worth remembering, one per line."],
+      links: ["Sources", "2 or 3 official docs or Wikipedia pages, one per line: Label | https://…"],
+      aliases: ["Other names", "Plurals, acronyms or other spellings, separated by commas. Not the title itself."],
+      imageAlt: ["Image description", "What the illustration shows, for people who cannot see it."],
+      svg: ["SVG code", "A whiteboard sketch: 400×240, basic shapes and short labels in English, only the palette colors. Start from the template."],
+    },
+    template: "Use the template", ok: "Ready to send: it follows every rule.", problems: "Fix these before sending:",
+    loadingTerms: "Loading the existing terms to check for duplicates…", termsFailed: "Could not load the existing terms; the duplicate check will run on GitHub.",
+    sendGithub: "Send on GitHub", copy: "Copy entry", download: "Download .json", reset: "Start over",
+    copied: "Copied.", tooLong: "The entry is too long to put in the link, so it was copied: paste it into the issue's box (Cmd/Ctrl+V).",
+    saved: "Your draft is saved in this browser.", confirmReset: "Delete this draft?",
+    previewNote: "This is how the page will look (term links are added when it is published).",
+    after: "After you send it, the repository checks the entry and leaves a comment on the issue. If something needs changing, edit the issue; once a maintainer accepts it, a pull request with your name as co-author is opened and the term is published when it is merged.",
+  },
+  es: {
+    title: "Contribuí un término", description: "Escribí una entrada nueva de Tidbit en castellano y en inglés, revisala con las mismas reglas que todas las demás y mandala para que la revisen.",
+    intro: [
+      "¿Conocés un término de tecnología que falta? Escribilo acá. El formulario revisa tu entrada mientras escribís, con las mismas reglas que sigue cada entrada de Tidbit, y te muestra cómo va a quedar. Cuando pasa, la mandás como un issue de GitHub: el repositorio la vuelve a revisar y alguien del equipo la lee antes de publicarla.",
+      "Cada entrada existe en castellano y en inglés, así que escribís las dos. ¿No estás seguro de alguna? Hacé lo mejor que puedas y avisalo en el issue; en la revisión te ayudamos con el idioma. Para mandarla necesitás una cuenta gratis de GitHub.",
+    ],
+    noJs: "Este formulario necesita JavaScript. También podés copiar una entrada del repositorio, seguir CONTRIBUTING.md y abrir un pull request.",
+    sections: { term: "El término", lang: { en: "Inglés", es: "Castellano" }, art: "Ilustración", check: "Revisión", preview: "Vista previa", send: "Enviar" },
+    f: {
+      slug: ["URL", "Minúsculas ascii y guiones, a partir del título en inglés. La página va a estar en /<slug>/."],
+      subject: ["Tema", ""], subject2: ["Segundo tema (opcional)", ""], none: "Ninguno",
+      level: ["Nivel", "Básico: cualquiera lo puede leer de cero. Intermedio: supone los términos básicos de su tema. Avanzado: supone los intermedios."],
+      caseSensitive: ["El nombre también es una palabra común (Apple, Meta, Swift): enlazarlo solo con sus mayúsculas exactas", ""],
+      title: ["Título", "El nombre del concepto, de 1 a 4 palabras. Las siglas conocidas quedan como son."],
+      tagline: ["Definición de una línea", "Qué es, en palabras simples, en menos de 90 caracteres."],
+      explanation: ["Explicación", "De 2 a 4 párrafos cortos, separados por una línea en blanco: qué es, para qué sirve, por qué importa hoy. **negrita** para el término la primera vez, `código` para comandos y nombres de archivo."],
+      analogy: ["Analogía de todos los días", "De 1 a 3 oraciones."],
+      keyPoints: ["Puntos clave", "3 o 4 datos para recordar, uno por línea."],
+      links: ["Fuentes", "2 o 3 páginas de documentación oficial o Wikipedia, una por línea: Nombre | https://…"],
+      aliases: ["Otros nombres", "Plurales, siglas u otras formas de escribirlo, separados por comas. No el título."],
+      imageAlt: ["Descripción de la imagen", "Qué muestra la ilustración, para quien no la puede ver."],
+      svg: ["Código SVG", "Un dibujo de pizarrón: 400×240, formas simples y etiquetas cortas en inglés, solo los colores de la paleta. Arrancá desde la plantilla."],
+    },
+    template: "Usar la plantilla", ok: "Lista para enviar: cumple todas las reglas.", problems: "Corregí esto antes de enviar:",
+    loadingTerms: "Cargando los términos existentes para buscar duplicados…", termsFailed: "No se pudieron cargar los términos existentes; los duplicados se revisan en GitHub.",
+    sendGithub: "Enviar en GitHub", copy: "Copiar entrada", download: "Descargar .json", reset: "Empezar de nuevo",
+    copied: "Copiada.", tooLong: "La entrada es demasiado larga para ir en el link, así que se copió: pegala en la caja del issue (Cmd/Ctrl+V).",
+    saved: "Tu borrador queda guardado en este navegador.", confirmReset: "¿Borrar este borrador?",
+    previewNote: "Así va a verse la página (los links a otros términos se agregan al publicarla).",
+    after: "Cuando la mandás, el repositorio revisa la entrada y deja un comentario en el issue. Si hay algo para cambiar, editá el issue; cuando alguien del equipo la acepta, se abre un pull request con vos como coautor y el término se publica cuando se mergea.",
+  },
+};
+function contributePage(lang) {
+  const c = CONTRIBUTE[lang];
+  const t = T[lang];
+  const p = "/contribute/";
+  const field = (id, key, control, { wide = false } = {}) => {
+    const [label, hint] = c.f[key];
+    return `<div class="cf${wide ? " wide" : ""}"><label for="${id}">${esc(label)}</label>${hint ? `<p class="hint" id="${id}-hint">${esc(hint)}</p>` : ""}${control}</div>`;
+  };
+  const text = (id, key, attrs = "") => field(id, key, `<input id="${id}" name="${id}" type="text" autocomplete="off" spellcheck="true"${c.f[key][1] ? ` aria-describedby="${id}-hint"` : ""} ${attrs}>`);
+  const area = (id, key, rows, attrs = "") => field(id, key, `<textarea id="${id}" name="${id}" rows="${rows}" spellcheck="true"${c.f[key][1] ? ` aria-describedby="${id}-hint"` : ""} ${attrs}></textarea>`, { wide: true });
+  const options = (withNone) => `${withNone ? `<option value="">${esc(c.f.none)}</option>` : ""}${Object.keys(subjects).map((s) => `<option value="${s}">${esc(subjLabel(lang, s))}</option>`).join("")}`;
+  const langBlock = (L) => `<fieldset class="cf-group" data-lang="${L}" lang="${L}">
+  <legend>${esc(c.sections.lang[L])}</legend>
+  ${text(`${L}-title`, "title", 'maxlength="60"')}
+  ${text(`${L}-tagline`, "tagline", 'maxlength="140" data-count="90"')}
+  ${area(`${L}-explanation`, "explanation", 9)}
+  ${area(`${L}-analogy`, "analogy", 3)}
+  ${area(`${L}-keyPoints`, "keyPoints", 4)}
+  ${area(`${L}-links`, "links", 3, 'spellcheck="false"')}
+  ${text(`${L}-aliases`, "aliases")}
+  ${text(`${L}-imageAlt`, "imageAlt", 'maxlength="200"')}
+</fieldset>`;
+  const body = `<article class="entry page contribute">
+<h1>${esc(c.title)}</h1>
+<p class="tagline">${esc(c.description)}</p>
+<div class="prose">${c.intro.map((x) => `<p>${esc(x)}</p>`).join("\n")}</div>
+<noscript><p class="box">${esc(c.noJs)} <a href="${REPO}/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a></p></noscript>
+<form id="contribute" class="cform" novalidate hidden>
+<fieldset class="cf-group">
+  <legend>${esc(c.sections.term)}</legend>
+  <div class="cf-row">
+    ${field("subject", "subject", `<select id="subject" name="subject" required>${options(false)}</select>`)}
+    ${field("subject2", "subject2", `<select id="subject2" name="subject2">${options(true)}</select>`)}
+  </div>
+  ${field("level", "level", `<div class="cf-radios" role="radiogroup" aria-describedby="level-hint">${[1, 2, 3].map((n) => `<label><input type="radio" name="level" value="${n}"${n === 1 ? " checked" : ""}> ${esc(t.levels[n])}</label>`).join("")}</div>`)}
+  ${text("slug", "slug", 'maxlength="60" spellcheck="false" pattern="[a-z0-9]+(-[a-z0-9]+)*"')}
+  <label class="cf-check"><input type="checkbox" id="caseSensitive" name="caseSensitive"> ${esc(c.f.caseSensitive[0])}</label>
+</fieldset>
+<div class="cf-langs">
+${lang === "es" ? langBlock("es") + langBlock("en") : langBlock("en") + langBlock("es")}
+</div>
+<fieldset class="cf-group">
+  <legend>${esc(c.sections.art)}</legend>
+  <div class="cf-art">
+    ${area("svg", "svg", 12, 'spellcheck="false" class="mono"')}
+    <figure class="entry-img cf-art-preview"><img id="svg-preview" alt="" width="400" height="240"></figure>
+  </div>
+  <p><button class="btn" type="button" id="svg-template">${esc(c.template)}</button></p>
+</fieldset>
+<section class="cf-group" aria-labelledby="check-h">
+  <h2 id="check-h">${esc(c.sections.check)}</h2>
+  <div id="cf-status" class="cf-status" role="status" aria-live="polite"></div>
+  <ul id="cf-problems" class="cf-problems"></ul>
+</section>
+<section class="cf-group" aria-labelledby="send-h">
+  <h2 id="send-h">${esc(c.sections.send)}</h2>
+  <p class="muted">${esc(c.after)}</p>
+  <div class="cf-actions">
+    <button class="btn primary" type="button" id="cf-send" disabled>${esc(c.sendGithub)}</button>
+    <button class="btn" type="button" id="cf-copy">${esc(c.copy)}</button>
+    <button class="btn" type="button" id="cf-download">${esc(c.download)}</button>
+    <button class="btn" type="button" id="cf-reset">${esc(c.reset)}</button>
+  </div>
+  <p id="cf-note" class="muted" role="status" aria-live="polite"></p>
+</section>
+<section aria-labelledby="preview-h">
+  <h2 id="preview-h">${esc(c.sections.preview)}</h2>
+  <p class="muted">${esc(c.previewNote)}</p>
+  <div class="cf-tabs" role="tablist">${LANGS.map((L) => `<button class="chip" type="button" role="tab" data-preview="${L}" aria-selected="${L === lang}" aria-pressed="${L === lang}">${esc(c.sections.lang[L])}</button>`).join("")}</div>
+  <div id="cf-preview" class="cf-preview"></div>
+</section>
+</form>
+</article>`;
+  const md = `# ${c.title}\n\n${c.description}\n\n${c.intro.join("\n\n")}\n\n${lang === "es" ? "El formulario está en" : "The form is at"} ${abs(href(lang, p))}. ${lang === "es" ? "Las reglas del formato" : "The format rules"}: ${REPO}/blob/main/CONTRIBUTING.md\n\n${c.after}\n`;
+  add({ lang, p, page: "contribute", lastmod: TODAY,
+    html: layout({ lang, p, title: `${c.title} · Tidbit`, description: c.description, page: "contribute",
+      jsonld: [{ "@context": "https://schema.org", "@type": "WebPage", url: abs(href(lang, p)), name: c.title, description: c.description, inLanguage: lang, isPartOf: { "@id": `${SITE}/#website` } }],
+      extraConfig: {
+        contribute: {
+          strings: { ...c, f: undefined, intro: undefined },
+          levels: t.levels, analogy: t.analogy, points: t.points, links: t.links,
+          subjects: Object.fromEntries(Object.entries(subjects).map(([id, s]) => [id, { en: s.en, es: s.es }])),
+          repo: REPO, issueTemplate: "new-term.yml",
+        },
+      },
+      body }),
+    md });
+}
+
+for (const lang of LANGS) { homePage(lang); azPage(lang); topicsPages(lang); learnedPage(lang); entryPages(lang); trustPages(lang); developersPage(lang); contributePage(lang); }
 
 // ---------- 404 ----------
 const notFoundHtml = layout({ lang: "en", p: "/404/", title: "Page not found · Tidbit", description: T.en.notFoundLead, page: "404", noindex: true, hasMarkdown: false,
@@ -860,7 +1019,8 @@ await write(".well-known/ai-catalog.json", JSON.stringify(aiCatalog, null, 2));
 await write(".well-known/api-catalog", JSON.stringify(apiCatalog, null, 2));
 await write("skills/tidbit/SKILL.md", skill);
 await write(".well-known/agent-skills/index.json", JSON.stringify({ skills: [{ name: "tidbit", description: "Explain a technology term in plain language using the Tidbit dictionary.", url: abs("/skills/tidbit/SKILL.md"), sha256: createHash("sha256").update(skill).digest("hex") }] }, null, 2));
-for (const f of ["app.js", "style.css", "favicon.svg"]) await cp(path.join(root, f), path.join(out, f));
+for (const f of ["app.js", "contribute.js", "style.css", "favicon.svg"]) await cp(path.join(root, f), path.join(out, f));
+await cp(path.join(root, "scripts", "entry-rules.mjs"), path.join(out, "entry-rules.js")); // the same rules, for the /contribute/ form
 await cp(path.join(root, "assets"), out, { recursive: true });
 await cp(path.join(root, "content", "img"), path.join(out, "content", "img"), { recursive: true });
 await cp(path.join(root, "site"), out, { recursive: true }); // _worker.js, _routes.json, _headers

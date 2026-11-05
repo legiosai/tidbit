@@ -1,0 +1,32 @@
+name: New term
+description: Contribute a new entry, written with the form at tidbit.legios.com.ar/contribute/
+title: "New term: "
+labels: ["new-term"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Write the entry with the form at https://tidbit.legios.com.ar/contribute/ (en castellano: https://tidbit.legios.com.ar/es/contribute/). It checks the format as you type and fills this box for you. A bot checks it again below; edit the issue to fix whatever it reports.
+  - type: textarea
+    id: submission
+    attributes:
+      label: Entry
+      description: The JSON the form produced, between ```json fences. Paste it here if the form copied it for you.
+      placeholder: |
+        ```json
+        { "slug": "…", "subjects": ["…"], "level": 1, "en": { … }, "es": { … }, "svg": "<svg …" }
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes for the reviewer (optional)
+      description: Anything you are unsure about, or the language you would like help with.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: License
+      options:
+        - label: I wrote this entry myself and I agree to publish it under the MIT license, like the rest of Tidbit.
+          required: true

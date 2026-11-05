@@ -2,6 +2,13 @@
 
 Tidbit is a glossary of technology concepts for curious people who are not experts: a nurse, a lawyer, a student, a founder. They hear words like GPU, token, S3, HTTPS or Kubernetes and want to actually understand them in five minutes. Every entry is written in English and in Spanish.
 
+There are two ways to send one:
+
+- **The form** at [tidbit.legios.com.ar/contribute/](https://tidbit.legios.com.ar/contribute/) (no setup, just a GitHub account). It checks the entry as you type with the same rules as the build, shows a preview, and opens a "New term" issue with the entry in it. `.github/workflows/contribution.yml` checks the issue again and comments the result on every edit; when a maintainer adds the `accepted` label, it writes the files with that day's date, runs `check.mjs` and the link check, and opens a pull request with the author as co-author.
+- **A pull request** with the two files described below.
+
+The rules live in one file, `scripts/entry-rules.mjs`: the build, the form (it is published as `/entry-rules.js`) and the issue check all import it, so they cannot disagree. A contribution is held to a few extra limits on top: 2 or 3 sources per language, titles of 1 to 4 words, length caps on every field, an illustration that uses only the palette, starts with the background and is valid XML, and no title or alias that another entry already owns.
+
 An entry is two files:
 
 - `content/entries/<id>.json`: the text, both languages.

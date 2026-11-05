@@ -23,7 +23,7 @@ MIT
 
 </div>
 
-> **Status: 521 terms in 9 topics**, each one in English and Spanish: AI, AWS, cloud, networks, security, data, hardware, software and tech companies. No account and no tracking: the terms you learned and the term of the day live in your browser.
+> **Status: 616 terms in 9 topics**, each one in English and Spanish: AI, AWS, cloud, networks, security, data, hardware, software and tech companies. No account and no tracking: the terms you learned and the term of the day live in your browser.
 
 ## What an entry looks like
 
@@ -61,7 +61,8 @@ Everything is readable from code, free, read-only and with no account. [Is Agent
 - `content/entries/*.json`: one file per term, both languages inside. `content/img/*.svg`: its diagram. `content/subjects.json`: the topics.
 - `scripts/build-index.mjs` (`npm run index`): validates every entry and rebuilds `content/index.json`.
 - `scripts/build-site.mjs` (`npm run build`): builds `dist/` with a real HTML page per URL (readable without JavaScript) and its Markdown twin, in English at `/` and Spanish at `/es/`: home, A–Z, topics, every term, About, Contact, Privacy and Developers. Also the sitemap, `robots.txt`, `llms.txt`, the JSON API, OpenAPI, the MCP server card and an agent skill.
-- `app.js`, `style.css`: what depends on the visitor (term of the day, learned marks, A–Z filters) on top of the built pages.
+- `app.js`, `style.css`: what depends on the visitor (term of the day, learned marks, A–Z filters) on top of the built pages. `contribute.js`: the /contribute/ form.
+- `scripts/entry-rules.mjs`: the rules every entry follows, shared by the build, the form and `scripts/contribution.mjs` (which checks contributions sent as issues, from `.github/workflows/contribution.yml`).
 - `site/_worker.js`: the Cloudflare Pages worker. Markdown on `Accept: text/markdown` with `Vary: Accept`, `Link` headers, JSON errors and rate limits on the API, and the MCP server.
 - `.github/workflows/site.yml`: validates and builds the site on every push and pull request, and once a day so future-dated entries appear on their day.
 
@@ -73,6 +74,8 @@ npm run dev        # http://localhost:8788, with the worker running (wrangler pa
 ```
 
 ## Add an entry
+
+The easiest way is the form at [tidbit.legios.com.ar/contribute/](https://tidbit.legios.com.ar/contribute/): it checks the entry as you type with the same rules as the build and sends it as a GitHub issue, where it is checked again and, once a maintainer accepts it, turned into a pull request.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md): it has the format, the voice and the rules for the diagrams. In short: copy an existing entry, write both languages, draw the SVG, run `npm run index`, open a pull request.
 

@@ -1,0 +1,125 @@
+name: contribution
+
+# Términos que manda la gente desde tidbit.legios.com.ar/contribute/ como issue "New term" (label new-term).
+#   - Al abrir o editar el issue: valida la entrada con las mismas reglas que el resto (scripts/entry-rules.mjs)
+#     y deja un comentario con el resultado, que se actualiza en cada edición.
+#   - Cuando alguien del equipo le pone el label "accepted": escribe la entrada con la fecha del día, corre el
+#     check completo y el de links, y abre un pull request con quien la escribió como coautor.
+# El cuerpo del issue es texto de cualquiera: solo se lee como JSON desde un archivo, nunca se interpola en un
+# comando. Un PR abierto con GITHUB_TOKEN no dispara site.yml, por eso este workflow corre los checks antes.
+# Requiere "Allow GitHub Actions to create and approve pull requests" en Settings → Actions → General.
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: contribution-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: >-
+      contains(github.event.issue.labels.*.name, 'new-term') &&
+      github.event.issue.state == 'open' &&
+      (github.event.action != 'labeled' || github.event.label.name == 'new-term')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Check the entry
+        id: check
+        run: |
+          jq -r '.issue.body // ""' "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/body.md"
+          if node scripts/contribution.mjs check "$RUNNER_TEMP/body.md" > "$RUNNER_TEMP/report.md"; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Comment and label
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          OK: ${{ steps.check.outputs.ok }}
+        run: |
+          marker='<!-- tidbit-contribution-check -->'
+          id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE/comments" --paginate \
+            --jq "[.[] | select(.user.login == \"github-actions[bot]\" and (.body | startswith(\"$marker\")))][0].id // empty")
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -F "body=@$RUNNER_TEMP/report.md" > /dev/null
+          else
+            gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/report.md"
+          fi
+          if [ "$OK" = "true" ]; then
+            gh issue edit "$ISSUE" --repo "$GITHUB_REPOSITORY" --add-label valid --remove-label needs-changes || true
+          else
+            gh issue edit "$ISSUE" --repo "$GITHUB_REPOSITORY" --add-label needs-changes --remove-label valid || true
+          fi
+
+  accept:
+    if: >-
+      github.event.action == 'labeled' &&
+      github.event.label.name == 'accepted' &&
+      contains(github.event.issue.labels.*.name, 'new-term')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Write the entry
+        id: entry
+        run: |
+          jq -r '.issue.body // ""' "$GITHUB_EVENT_PATH" > "$RUNNER_TEMP/body.md"
+          id=$(node scripts/contribution.mjs accept "$RUNNER_TEMP/body.md")
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+      - name: Build and check everything
+        env:
+          SITE_URL: https://tidbit.legios.com.ar
+          LINK_BASE: HEAD
+        run: |
+          node scripts/build-site.mjs
+          node scripts/check.mjs
+          node scripts/check.mjs --links
+      - name: Open the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          ENTRY: ${{ steps.entry.outputs.id }}
+        run: |
+          login=$(jq -r '.issue.user.login' "$GITHUB_EVENT_PATH")
+          uid=$(jq -r '.issue.user.id' "$GITHUB_EVENT_PATH")
+          branch="contribution/issue-$ISSUE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add "content/entries/$ENTRY.json" "content/img/$ENTRY.svg" content/index.json
+          printf 'content: %s, contributed in #%s\n\nCo-authored-by: %s <%s+%s@users.noreply.github.com>\n' \
+            "${ENTRY:11}" "$ISSUE" "$login" "$uid" "$login" > "$RUNNER_TEMP/msg.txt"
+          git commit -F "$RUNNER_TEMP/msg.txt"
+          git push --force -u origin "$branch"
+          printf 'New term `%s`, written by @%s in #%s with the contribute form.\n\nThe contribution workflow already ran the entry rules, `check.mjs` and the link check on it.\n\nCloses #%s\n' \
+            "$ENTRY" "$login" "$ISSUE" "$ISSUE" > "$RUNNER_TEMP/pr.md"
+          url=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$branch" --json url --jq '.[0].url // empty')
+          if [ -z "$url" ]; then
+            url=$(gh pr create --repo "$GITHUB_REPOSITORY" --head "$branch" --base main --title "content: ${ENTRY:11} (from #$ISSUE)" --body-file "$RUNNER_TEMP/pr.md")
+          fi
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "Accepted: $url. Thanks for writing it!"
+      - name: Say what failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" \
+            --body "The entry could not be turned into a pull request: see $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID for what failed."
+          gh issue edit "$ISSUE" --repo "$GITHUB_REPOSITORY" --remove-label accepted || true
