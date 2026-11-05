@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-synthetic-data",
+  "date": "2026-11-05",
+  "subjects": ["ai", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["synthetic dataset", "synthetic datasets", "synthetic training data"],
+    "es": ["dato sintético", "conjunto de datos sintético", "conjuntos de datos sintéticos", "synthetic data"]
+  },
+  "image": "img/2026-11-05-synthetic-data.svg",
+  "imageAlt": {
+    "en": "A small stack of real records feeds a generator that produces a much larger pile of realistic but invented records",
+    "es": "Una pila chica de registros reales alimenta un generador que produce una pila mucho más grande de registros realistas pero inventados"
+  },
+  "en": {
+    "title": "Synthetic data",
+    "tagline": "Data made up by a program to look like the real thing, used to train or test.",
+    "explanation": [
+      "**Synthetic data** is information generated artificially instead of collected from the world. A program, a simulation or an AI model produces records, images or text that have the same shape and patterns as real data, but describe no real person or event.",
+      "It solves three common problems. Privacy: a hospital can share synthetic patient records that keep the statistics of the real ones without exposing anyone. Scarcity: a self-driving car rarely sees a child running behind a ball at dusk, but a simulator can produce thousands of such scenes. Cost: writing ten thousand good question-and-answer pairs by hand is slow, while a large model can draft them in an afternoon, which is now a normal part of how LLMs are trained and fine-tuned.",
+      "The catch is that synthetic data is only as good as the thing that made it. It copies the biases and blind spots of its source, and it can miss the weird cases that make real data hard. Researchers have also shown that models trained over and over on the output of other models slowly lose variety and quality, an effect called **model collapse**. In practice, the best results mix synthetic data with real data and check both carefully."
+    ],
+    "analogy": "A flight simulator. Pilots practice engine failures and storms that would be too rare or too dangerous to wait for in a real plane. Useful, but nobody gets certified without real flight hours too.",
+    "keyPoints": [
+      "Artificial data that mimics the patterns of real data.",
+      "Helps with privacy, rare cases and the cost of collecting examples.",
+      "Inherits the biases and gaps of whatever generated it.",
+      "Works best mixed with real data, not replacing it."
+    ],
+    "links": [
+      { "label": "Synthetic data on Wikipedia", "url": "https://en.wikipedia.org/wiki/Synthetic_data" },
+      { "label": "Model collapse on Wikipedia", "url": "https://en.wikipedia.org/wiki/Model_collapse" }
+    ]
+  },
+  "es": {
+    "title": "Datos sintéticos",
+    "tagline": "Datos inventados por un programa que se parecen a los reales, para entrenar o probar.",
+    "explanation": [
+      "Los **datos sintéticos** son información generada artificialmente en lugar de recolectada del mundo. Un programa, una simulación o un modelo de IA produce registros, imágenes o textos que tienen la misma forma y los mismos patrones que los datos reales, pero que no describen a ninguna persona ni a ningún hecho de verdad.",
+      "Resuelven tres problemas habituales. Privacidad: un hospital puede compartir historias clínicas sintéticas que mantienen las estadísticas de las reales sin exponer a nadie. Escasez: un auto autónomo casi nunca ve a un nene cruzando detrás de una pelota al atardecer, pero un simulador puede generar miles de escenas así. Costo: escribir a mano diez mil pares de pregunta y respuesta lleva semanas, mientras que un modelo grande puede armar un borrador en una tarde, y eso ya es parte normal de cómo se entrenan y ajustan los LLMs.",
+      "La trampa es que los datos sintéticos son tan buenos como lo que los generó. Copian los sesgos y los puntos ciegos de su fuente, y pueden perderse los casos raros que hacen difíciles a los datos reales. Además, se vio que los modelos entrenados una y otra vez con lo que producen otros modelos van perdiendo variedad y calidad, un efecto que se llama **colapso del modelo** (model collapse). En la práctica, lo que mejor funciona es mezclar datos sintéticos con reales y revisar bien los dos."
+    ],
+    "analogy": "Un simulador de vuelo. Los pilotos practican fallas de motor y tormentas que serían demasiado raras o peligrosas para esperarlas en un avión de verdad. Sirve muchísimo, pero nadie se recibe sin horas de vuelo reales.",
+    "keyPoints": [
+      "Datos artificiales que imitan los patrones de los datos reales.",
+      "Ayudan con la privacidad, los casos raros y el costo de juntar ejemplos.",
+      "Heredan los sesgos y huecos de lo que sea que los generó.",
+      "Funcionan mejor mezclados con datos reales, no en su lugar."
+    ],
+    "links": [
+      { "label": "Datos sintéticos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Datos_sint%C3%A9ticos" },
+      { "label": "Model collapse en Wikipedia (inglés)", "url": "https://en.wikipedia.org/wiki/Model_collapse" }
+    ]
+  }
+}

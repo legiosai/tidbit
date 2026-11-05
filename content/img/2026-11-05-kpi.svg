@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="50" y="50">clicks</text><text x="110" y="62">visits</text><text x="56" y="86">tickets</text>
+    <text x="114" y="104">returns</text><text x="48" y="124">logins</text><text x="112" y="142">emails</text>
+    <text x="54" y="164">refunds</text><text x="110" y="182">calls</text>
+  </g>
+  <path d="M148 40 L190 90 V150 L148 196" stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M194 120 H214"/><path d="M209 116 l6 4 -6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="226" y="36" width="150" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="226" y="98" width="150" height="44" rx="8" fill="#ffd166"/>
+    <rect x="226" y="160" width="150" height="44" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <line x1="350" y1="42" x2="350" y2="74"/><line x1="350" y1="104" x2="350" y2="136"/><line x1="350" y1="166" x2="350" y2="198"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="286" y="62">sales</text><text x="286" y="124">wait time</text><text x="286" y="186">churn</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="350" y="94">target</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">many numbers · a few that matter</text>
+</svg>

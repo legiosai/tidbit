@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-caching",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["cache", "caches", "cached", "cache hit", "cache miss", "cache invalidation", "browser cache"],
+    "es": ["cache", "cachés", "cachear", "cacheado", "cacheada", "cache hit", "cache miss", "invalidación de caché", "caché del navegador"]
+  },
+  "image": "img/2026-11-05-caching.svg",
+  "imageAlt": {
+    "en": "Requests go to a fast cache first; a hit answers right away, a miss goes on to the slow database and the answer is saved in the cache for next time",
+    "es": "Los pedidos van primero a una caché rápida; un hit responde enseguida, un miss sigue hasta la base de datos lenta y la respuesta se guarda en la caché para la próxima"
+  },
+  "en": {
+    "title": "Caching",
+    "tagline": "Keeping a copy of an answer close by so you do not have to work it out again.",
+    "explanation": [
+      "**Caching** means saving the result of something slow or expensive, a database query, a web page, a photo, a calculation, in a place that is fast to read, so the next time someone asks for it you hand over the saved copy. That fast place is the **cache**. When the answer is there, it is a **cache hit**; when it is not, it is a **cache miss**, and you do the slow work and usually store the result for next time.",
+      "Caches are everywhere in a single click. Your browser keeps images and files from sites you visit. A CDN keeps copies of pages in cities near you. The application keeps popular database results in memory, often in a tool like Redis. The database keeps hot data in RAM instead of on disk. Even the processor has its own CPU cache. Each layer saves a trip to something slower.",
+      "The hard part is knowing when a saved copy is out of date. If a price changes but the cache still holds the old one, users see the wrong price. Common answers are giving each item an expiry time (a TTL, time to live) or deleting it from the cache whenever the original changes, which is called **cache invalidation**. Getting it wrong is a classic source of confusing bugs, which is why programmers joke it is one of the two hard problems in computer science."
+    ],
+    "analogy": "Writing a friend's phone number on a sticky note on the fridge instead of searching your contacts every time. It is much faster, until your friend changes numbers and the note is still there.",
+    "keyPoints": [
+      "A cache stores copies of slow-to-get results in a fast place.",
+      "A hit is served from the cache; a miss does the slow work and saves the result.",
+      "Browsers, CDNs, apps, databases and processors all cache.",
+      "The hard part is invalidation: not serving stale data."
+    ],
+    "links": [
+      { "label": "Cache (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cache_(computing)" },
+      { "label": "HTTP caching (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching" }
+    ]
+  },
+  "es": {
+    "title": "Caché",
+    "tagline": "Guardar una copia de una respuesta a mano para no tener que calcularla de nuevo.",
+    "explanation": [
+      "Usar una **caché** (o **cachear**) significa guardar el resultado de algo lento o caro, una consulta a la base de datos, una página web, una foto, un cálculo, en un lugar rápido de leer, para que la próxima vez que alguien lo pida le des la copia guardada. Cuando la respuesta está ahí, es un **cache hit**; cuando no, es un **cache miss**: hacés el trabajo lento y en general guardás el resultado para la próxima.",
+      "En un solo clic hay cachés por todos lados. Tu navegador guarda imágenes y archivos de los sitios que visitás. Una CDN guarda copias de páginas en ciudades cerca tuyo. La aplicación guarda en memoria los resultados más pedidos de la base de datos, muchas veces en una herramienta como Redis. La base de datos tiene los datos más usados en RAM en vez de en disco. Hasta el procesador tiene su propia caché de CPU. Cada capa se ahorra un viaje a algo más lento.",
+      "Lo difícil es saber cuándo una copia guardada quedó vieja. Si un precio cambia pero la caché sigue teniendo el anterior, la gente ve el precio equivocado. Las respuestas típicas son darle a cada dato un vencimiento (un TTL, time to live) o borrarlo de la caché cada vez que cambia el original, lo que se llama **invalidación de caché**. Hacerlo mal es una fuente clásica de bugs desconcertantes, y por eso hay un chiste entre programadores que dice que es uno de los dos problemas difíciles de la informática."
+    ],
+    "analogy": "Anotar el teléfono de un amigo en un papelito pegado en la heladera en vez de buscarlo en los contactos cada vez. Es mucho más rápido, hasta que tu amigo cambia de número y el papelito sigue ahí.",
+    "keyPoints": [
+      "Una caché guarda copias de resultados lentos de conseguir en un lugar rápido.",
+      "Un hit se sirve desde la caché; un miss hace el trabajo lento y guarda el resultado.",
+      "Navegadores, CDNs, aplicaciones, bases de datos y procesadores, todos cachean.",
+      "Lo difícil es la invalidación: no servir datos viejos."
+    ],
+    "links": [
+      { "label": "Caché (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Caché_(informática)" },
+      { "label": "Caché HTTP (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/HTTP/Guides/Caching" }
+    ]
+  }
+}

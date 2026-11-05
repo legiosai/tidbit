@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M30 160 H370"/>
+    <path d="M30 154 V166 M110 154 V166 M190 154 V166 M370 154 V166"/>
+    <path d="M260 160 l6 -8 M268 160 l6 -8" />
+    <circle cx="340" cy="132" r="24"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <circle cx="46" cy="140" r="6"/><circle cx="60" cy="128" r="6"/><circle cx="62" cy="142" r="6"/>
+    <circle cx="76" cy="134" r="6"/><circle cx="80" cy="120" r="6"/><circle cx="90" cy="142" r="6"/>
+    <circle cx="96" cy="128" r="6"/><circle cx="108" cy="138" r="6"/><circle cx="118" cy="124" r="6"/>
+    <circle cx="126" cy="142" r="6"/><circle cx="140" cy="132" r="6"/><circle cx="156" cy="142" r="6"/>
+  </g>
+  <circle cx="340" cy="132" r="7" stroke="#2b2b2b" stroke-width="2" fill="#f4a7a7"/>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="30" y="184">$0</text>
+    <text x="110" y="184">$40</text>
+    <text x="190" y="184">$80</text>
+    <text x="360" y="184">$9,000</text>
+    <text x="100" y="98">most orders</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="330" y="98">typo, or real?</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one point far from the crowd</text>
+</svg>

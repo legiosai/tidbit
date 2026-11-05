@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-platform-engineering",
+  "date": "2026-11-06",
+  "subjects": ["cloud", "software"],
+  "level": 3,
+  "aliases": {
+    "en": ["platform engineer", "platform engineers", "platform team", "platform teams", "internal developer platform", "internal developer platforms", "golden path", "golden paths"],
+    "es": ["ingeniería de plataformas", "equipo de plataforma", "equipos de plataforma", "plataforma interna de desarrollo", "internal developer platform", "golden path", "golden paths", "camino dorado"]
+  },
+  "image": "img/2026-11-06-platform-engineering.svg",
+  "imageAlt": {
+    "en": "Three product teams use one internal developer platform, which hides the CI/CD, Kubernetes, cloud and monitoring tools underneath; a platform team builds and runs it",
+    "es": "Tres equipos de producto usan una misma plataforma interna de desarrollo, que esconde debajo las herramientas de CI/CD, Kubernetes, nube y monitoreo; un equipo de plataforma la arma y la mantiene"
+  },
+  "en": {
+    "title": "Platform engineering",
+    "tagline": "Building an internal product that lets developers ship without becoming cloud experts.",
+    "explanation": [
+      "Modern software runs on a long stack of tools: cloud accounts, Kubernetes, CI/CD pipelines, infrastructure as code, secrets, monitoring, security scanners. The DevOps idea of \"you build it, you run it\" put much of that on every product team, and many ended up spending more time wiring tools than building features. **Platform engineering** answers that by having a dedicated **platform team** build a shared, self-service layer on top of all that complexity.",
+      "That layer is called an **internal developer platform**. Through a portal, a command line or a few config files, a developer can create a new service from a template, get a repository with its pipeline already set up, request a database, deploy to staging and see logs and dashboards, all without filing tickets or learning every tool underneath. The recommended routes are called **golden paths**: the easy, supported way to do common tasks, with security and cost rules already built in. Backstage, an open-source portal created at Spotify, is a popular starting point.",
+      "The key mindset is treating the platform as a product and developers as its customers: interview them, measure whether they adopt it, and make the golden path the easiest path rather than a mandate. Done badly, a platform becomes one more bureaucratic gate, or a pile of tools nobody asked for. Done well, it lets a company with dozens of teams move fast while keeping its infrastructure consistent and secure."
+    ],
+    "analogy": "A shared professional kitchen in a food hall. Each restaurant cooks its own menu, but the gas, ventilation, cold storage and health inspections are set up and maintained by one team, so the chefs can focus on the food.",
+    "keyPoints": [
+      "A platform team builds self-service tools for the other development teams.",
+      "The internal developer platform hides infrastructure details behind templates and a portal.",
+      "Golden paths make the recommended way also the easiest way.",
+      "It works when run as a product, with developers as its customers."
+    ],
+    "links": [
+      { "label": "CNCF platforms white paper", "url": "https://tag-app-delivery.cncf.io/whitepapers/platforms/" },
+      { "label": "What is Backstage?", "url": "https://backstage.io/docs/overview/what-is-backstage" },
+      { "label": "Platform engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Platform_engineering" }
+    ]
+  },
+  "es": {
+    "title": "Platform engineering",
+    "tagline": "Armar un producto interno para que los developers publiquen sin ser expertos en cloud.",
+    "explanation": [
+      "El software actual corre sobre una pila larga de herramientas: cuentas cloud, Kubernetes, pipelines de CI/CD, infraestructura como código, secretos, monitoreo, escáneres de seguridad. La idea de DevOps de \"lo construís, lo operás\" le cargó buena parte de eso a cada equipo de producto, y muchos terminaron pasando más tiempo conectando herramientas que haciendo funcionalidades. La **ingeniería de plataformas** (platform engineering) responde a eso con un **equipo de plataforma** dedicado que arma una capa compartida y de autoservicio encima de toda esa complejidad.",
+      "Esa capa se llama **plataforma interna de desarrollo** (internal developer platform). Desde un portal, una línea de comandos o unos pocos archivos de configuración, un developer puede crear un servicio nuevo a partir de una plantilla, recibir un repositorio con su pipeline ya armado, pedir una base de datos, desplegar en staging y ver logs y tableros, todo sin abrir tickets ni aprender cada herramienta de abajo. Los caminos recomendados se llaman **golden paths** (caminos dorados): la forma fácil y con soporte de hacer las tareas comunes, con las reglas de seguridad y de costos ya incorporadas. Backstage, un portal open source creado en Spotify, es un punto de partida muy usado.",
+      "La clave es tratar la plataforma como un producto y a los developers como sus clientes: entrevistarlos, medir si la adoptan y hacer que el golden path sea el camino más cómodo, no una obligación. Mal hecha, la plataforma se vuelve una ventanilla burocrática más, o un montón de herramientas que nadie pidió. Bien hecha, permite que una empresa con decenas de equipos se mueva rápido y mantenga su infraestructura prolija y segura."
+    ],
+    "analogy": "Una cocina profesional compartida en un patio gastronómico. Cada local cocina su propio menú, pero el gas, la ventilación, las cámaras de frío y las inspecciones sanitarias los arma y mantiene un solo equipo, así los cocineros se concentran en la comida.",
+    "keyPoints": [
+      "Un equipo de plataforma arma herramientas de autoservicio para los demás equipos de desarrollo.",
+      "La plataforma interna esconde los detalles de infraestructura detrás de plantillas y un portal.",
+      "Los golden paths hacen que la forma recomendada sea también la más fácil.",
+      "Funciona cuando se maneja como un producto, con los developers como clientes."
+    ],
+    "links": [
+      { "label": "¿Qué es la ingeniería de plataformas? (Red Hat)", "url": "https://www.redhat.com/es/topics/platform-engineering" },
+      { "label": "CNCF platforms white paper (en inglés)", "url": "https://tag-app-delivery.cncf.io/whitepapers/platforms/" },
+      { "label": "What is Backstage? (en inglés)", "url": "https://backstage.io/docs/overview/what-is-backstage" }
+    ]
+  }
+}

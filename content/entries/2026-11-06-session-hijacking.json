@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-session-hijacking",
+  "date": "2026-11-06",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["session hijack", "hijacked session", "hijacked sessions", "session theft", "cookie hijacking", "stolen session cookie", "stolen session cookies"],
+    "es": ["secuestro de sesiones", "session hijacking", "robo de sesión", "robo de sesiones", "sesión secuestrada", "cookie de sesión robada", "cookies de sesión robadas"]
+  },
+  "image": "img/2026-11-06-session-hijacking.svg",
+  "imageAlt": {
+    "en": "A user logs in with password and 2FA and gets a session cookie; malware copies the cookie, and the attacker presents it to the site and walks in without a password",
+    "es": "Un usuario inicia sesión con contraseña y 2FA y recibe una cookie de sesión; un malware copia la cookie y el atacante se la presenta al sitio y entra sin contraseña"
+  },
+  "en": {
+    "title": "Session hijacking",
+    "tagline": "Stealing the ticket a site gives you after login, so the thief is let in as you.",
+    "explanation": [
+      "When you log in to a website, you do not send your password with every click. The site checks it once and hands your browser a **session token**, usually stored in a cookie: a long random string that means \"this person already logged in\". Every later request carries it, and the site lets you in. **Session hijacking** is stealing that token. Whoever holds it is treated as you, no password needed.",
+      "The nasty part is that it skips two-factor authentication too, because the second factor was already checked at login. That is why attackers love it. The most common route today is **infostealer** malware: a fake game mod, a cracked program or a booby-trapped download quietly copies the cookies saved in your browser and sends them off. Other routes are cross-site scripting bugs that let a script read the cookie, or an unencrypted connection that someone in the middle can watch.",
+      "Sites defend with several layers. Cookies marked `HttpOnly` cannot be read by page scripts, and `Secure` ones only travel over HTTPS. Sessions expire, and a sensitive action such as changing your email or sending money asks for the password again. Many services also watch for a session suddenly showing up from another country or device. For you, the useful habits are: log out on shared computers, use 'sign out of all sessions' if something looks off, and do not install software from shady sources."
+    ],
+    "analogy": "A concert wristband. Security checks your ID once at the door and then only looks at the band. If someone cuts it off your wrist and puts it on, they walk past the guards as you.",
+    "keyPoints": [
+      "After login, a session token in a cookie proves who you are on every request.",
+      "Stealing it skips both the password and two-factor authentication.",
+      "Infostealer malware that copies browser cookies is the most common way in today.",
+      "'Sign out of all sessions' kills stolen tokens; HttpOnly and Secure cookies make theft harder."
+    ],
+    "links": [
+      { "label": "Session hijacking on Wikipedia", "url": "https://en.wikipedia.org/wiki/Session_hijacking" },
+      { "label": "Session hijacking attack (OWASP)", "url": "https://owasp.org/www-community/attacks/Session_hijacking_attack" }
+    ]
+  },
+  "es": {
+    "title": "Secuestro de sesión",
+    "tagline": "Robar el pase que te da un sitio al iniciar sesión para que el ladrón entre como vos.",
+    "explanation": [
+      "Cuando iniciás sesión en un sitio, no mandás la contraseña en cada clic. El sitio la verifica una vez y le da a tu navegador un **token de sesión**, casi siempre guardado en una cookie: un texto largo al azar que quiere decir \"esta persona ya entró\". Cada pedido siguiente lo lleva y el sitio te deja pasar. El **secuestro de sesión** es robar ese token. Quien lo tenga es tratado como vos, sin necesidad de contraseña.",
+      "Lo más feo es que también se saltea la autenticación de dos factores, porque el segundo factor ya se pidió al entrar. Por eso a los atacantes les encanta. La vía más común hoy es el malware tipo **infostealer**: un mod trucho de un juego, un programa crackeado o una descarga con trampa copia en silencio las cookies guardadas en tu navegador y las manda afuera. Otras vías son fallas de cross-site scripting que dejan que un script lea la cookie, o una conexión sin cifrar que alguien en el medio puede espiar.",
+      "Los sitios se defienden con varias capas. Las cookies marcadas como `HttpOnly` no las pueden leer los scripts de la página, y las `Secure` solo viajan por HTTPS. Las sesiones vencen, y una acción delicada como cambiar el email o mandar plata te vuelve a pedir la contraseña. Muchos servicios además vigilan si una sesión aparece de golpe desde otro país u otro dispositivo. De tu lado sirve: cerrar sesión en computadoras compartidas, usar 'cerrar todas las sesiones' si algo te parece raro y no instalar programas de fuentes dudosas."
+    ],
+    "analogy": "La pulsera de un recital. En la puerta te piden el documento una vez y después solo miran la pulsera. Si alguien te la corta y se la pone, pasa por los controles como si fuera vos.",
+    "keyPoints": [
+      "Después de entrar, un token de sesión guardado en una cookie dice quién sos en cada pedido.",
+      "Robarlo se saltea la contraseña y también la autenticación de dos factores.",
+      "Hoy la vía más común es un malware infostealer que copia las cookies del navegador.",
+      "'Cerrar todas las sesiones' invalida tokens robados; las cookies HttpOnly y Secure lo hacen más difícil."
+    ],
+    "links": [
+      { "label": "Secuestro de sesión en Wikipedia", "url": "https://es.wikipedia.org/wiki/Secuestro_de_sesi%C3%B3n" },
+      { "label": "Session hijacking attack (OWASP, en inglés)", "url": "https://owasp.org/www-community/attacks/Session_hijacking_attack" }
+    ]
+  }
+}

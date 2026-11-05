@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-honeypot",
+  "date": "2026-11-06",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["honeypots", "honey pot", "honeynet", "honeynets", "honeytoken", "honeytokens", "canary token", "canary tokens"],
+    "es": ["honeypots", "honeynet", "honeytoken", "honeytokens", "canary token", "canary tokens", "señuelo digital", "señuelos digitales"]
+  },
+  "image": "img/2026-11-06-honeypot.svg",
+  "imageAlt": {
+    "en": "Real servers sit to one side while an attacker goes for a tempting fake server labeled admin-backup; every move inside the fake one is recorded and triggers an alert",
+    "es": "Los servidores reales quedan a un costado mientras un atacante va hacia un servidor falso tentador llamado admin-backup; cada movimiento adentro del falso queda registrado y dispara una alerta"
+  },
+  "en": {
+    "title": "Honeypot",
+    "tagline": "A fake target set up on purpose to attract attackers, so you can spot them and watch them.",
+    "explanation": [
+      "A **honeypot** is a computer, service or file that looks real and valuable but exists only to be attacked. No legitimate user has any reason to touch it, so any connection to it is suspicious by definition. That makes it a very quiet, very reliable alarm: instead of sifting through millions of normal events looking for an intruder, you wait for someone to bite.",
+      "Some honeypots are research tools. A security team leaves a deliberately weak server open on the internet and records everything that happens: which passwords bots try, what malware they drop, which commands a human attacker types. Many of the reports you read about new botnets come from this kind of trap. A network of them is called a **honeynet**.",
+      "Inside companies the goal is early warning. A fake server named something like `payroll-db` or `admin-backup`, a fake admin account, or a **honeytoken** (also called a canary token): a fake password, API key or document planted where only an intruder would look. If it is ever used or opened, an alert goes straight to the security team. Honeypots must be isolated so an attacker cannot use them as a stepping stone, and they only catch attackers who come looking, so they complement normal defenses rather than replace them."
+    ],
+    "analogy": "A shop leaves a decoy wallet with a tracker on the counter. No customer has any business picking it up, so the moment it moves, the owner knows exactly who to watch.",
+    "keyPoints": [
+      "A decoy with no legitimate use: anyone who touches it is a suspect.",
+      "Research honeypots study attackers; company honeypots raise early alarms.",
+      "Honeytokens are fake credentials or files that alert when used or opened.",
+      "Must be isolated, and only catch attackers who go looking."
+    ],
+    "links": [
+      { "label": "Honeypot (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Honeypot_(computing)" },
+      { "label": "The Honeynet Project", "url": "https://www.honeynet.org/" }
+    ]
+  },
+  "es": {
+    "title": "Honeypot",
+    "tagline": "Un blanco falso puesto a propósito para atraer atacantes, detectarlos y ver qué hacen.",
+    "explanation": [
+      "Un **honeypot** (literalmente, tarro de miel) es una computadora, un servicio o un archivo que parece real y valioso pero existe solo para que lo ataquen. Ningún usuario legítimo tiene motivo para tocarlo, así que cualquier conexión es sospechosa por definición. Eso lo vuelve una alarma muy silenciosa y muy confiable: en lugar de revisar millones de eventos normales buscando un intruso, esperás a que alguien muerda el anzuelo.",
+      "Algunos honeypots son herramientas de investigación. Un equipo de seguridad deja en internet un servidor débil a propósito y registra todo lo que pasa: qué contraseñas prueban los bots, qué malware instalan, qué comandos tipea un atacante humano. Muchos de los informes que leés sobre botnets nuevas salen de este tipo de trampas. Una red de honeypots se llama **honeynet**.",
+      "Dentro de las empresas el objetivo es enterarse temprano. Un servidor falso con un nombre como `payroll-db` o `admin-backup`, una cuenta de administrador falsa, o un **honeytoken** (también llamado canary token): una contraseña, una API key o un documento falsos, puestos donde solo un intruso miraría. Si alguien llega a usarlo o abrirlo, le salta una alerta directo al equipo de seguridad. Los honeypots tienen que estar aislados para que el atacante no los use de trampolín, y solo atrapan a quien viene a curiosear, así que complementan las defensas normales, no las reemplazan."
+    ],
+    "analogy": "Un negocio deja sobre el mostrador una billetera señuelo con un rastreador. Ningún cliente tiene por qué agarrarla, así que apenas se mueve, el dueño sabe exactamente a quién mirar.",
+    "keyPoints": [
+      "Un señuelo sin ningún uso legítimo: quien lo toca pasa a ser sospechoso.",
+      "Los honeypots de investigación estudian atacantes; los de empresa dan la alarma temprano.",
+      "Los honeytokens son credenciales o archivos falsos que avisan cuando alguien los usa o abre.",
+      "Tienen que estar aislados, y solo atrapan a quien sale a buscar."
+    ],
+    "links": [
+      { "label": "Honeypot en Wikipedia", "url": "https://es.wikipedia.org/wiki/Honeypot" },
+      { "label": "The Honeynet Project (en inglés)", "url": "https://www.honeynet.org/" }
+    ]
+  }
+}

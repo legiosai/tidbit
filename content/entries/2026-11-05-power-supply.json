@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-power-supply",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["power supplies", "power supply unit", "power supply units", "PSU", "PSUs", "power adapter", "power adapters", "wattage"],
+    "es": ["fuentes de alimentación", "fuente de poder", "fuentes de poder", "PSU", "adaptador de corriente", "adaptadores de corriente"]
+  },
+  "image": "img/2026-11-05-power-supply.svg",
+  "imageAlt": {
+    "en": "Wall power at 220 volts AC enters a power supply box and comes out as steady 12, 5 and 3.3 volt DC lines feeding the computer",
+    "es": "La corriente de la pared a 220 voltios alterna entra a una caja de fuente y sale como líneas continuas y estables de 12, 5 y 3,3 voltios hacia la computadora"
+  },
+  "en": {
+    "title": "Power supply",
+    "tagline": "The box that turns wall electricity into the steady, low voltage a computer runs on.",
+    "explanation": [
+      "The electricity in a wall socket is alternating current (AC) at roughly 110 or 220 volts, depending on the country. Chips need something very different: direct current (DC), at low and extremely stable voltages like 12, 5 or 3.3 volts, and often even less inside the chip. The **power supply** does that conversion. In a desktop PC it is a metal box with a fan inside the case; in a laptop or phone it lives mostly in the charger, the **power adapter** you plug into the wall.",
+      "A power supply is rated in watts: how much power it can deliver at most. A basic office PC needs a few hundred watts; a gaming PC with a big graphics card can need far more. Buying one too small makes the computer shut down or restart under load. Efficiency matters too: part of the energy is lost as heat in the conversion, and better units waste less. In desktop PCs, the 80 Plus labels (Bronze, Gold, Platinum) certify that efficiency.",
+      "It is one of the least glamorous parts, and one of the most important. A cheap, poorly made power supply can give unstable voltage that causes random crashes, or fail and take other parts with it. Servers in data centers usually have two, so one can fail without the machine going down."
+    ],
+    "analogy": "A water treatment plant for electricity. What comes from the river is strong, uneven and not drinkable; the plant cleans it, lowers the pressure and delivers a steady stream that is safe for every tap in the house.",
+    "keyPoints": [
+      "Converts wall AC into the low, steady DC voltages that chips use.",
+      "Rated in watts; it has to cover the total draw with some margin.",
+      "Efficiency labels like 80 Plus measure how little it wastes as heat.",
+      "A bad power supply can cause random crashes or damage other parts."
+    ],
+    "links": [
+      { "label": "Power supply unit (computer) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Power_supply_unit_(computer)" }
+    ]
+  },
+  "es": {
+    "title": "Fuente de alimentación",
+    "tagline": "Convierte la electricidad del enchufe en el voltaje bajo y estable que usa la compu.",
+    "explanation": [
+      "La electricidad del enchufe es corriente alterna (AC) a más o menos 220 o 110 voltios, según el país. Los chips necesitan algo muy distinto: corriente continua (DC), a voltajes bajos y súper estables como 12, 5 o 3,3 voltios, y muchas veces todavía menos adentro del chip. La **fuente de alimentación** hace esa conversión. En una PC de escritorio es una caja de metal con ventilador dentro del gabinete; en una notebook o un celular vive casi toda en el cargador, el **adaptador de corriente** que enchufás en la pared.",
+      "Una fuente se mide en watts: cuánta potencia puede entregar como máximo. Una PC de oficina básica necesita unos cientos de watts; una PC gamer con una placa de video grande puede necesitar bastante más. Si comprás una que se queda corta, la compu se apaga o se reinicia cuando le exigís. La eficiencia también importa: parte de la energía se pierde como calor en la conversión, y las mejores fuentes desperdician menos. En las PCs de escritorio, los sellos 80 Plus (Bronze, Gold, Platinum) certifican esa eficiencia.",
+      "Es de las piezas menos vistosas y de las más importantes. Una fuente barata y mal hecha puede dar un voltaje inestable que provoca cuelgues al azar, o romperse y llevarse puestas otras piezas. Los servidores de los data centers suelen tener dos, para que una pueda fallar sin que la máquina se caiga."
+    ],
+    "analogy": "Una planta potabilizadora, pero de electricidad. Lo que viene del río es fuerte, desparejo y no se puede tomar; la planta lo limpia, baja la presión y entrega un chorro parejo y seguro para cada canilla de la casa.",
+    "keyPoints": [
+      "Convierte la corriente alterna de la pared en corriente continua baja y estable.",
+      "Se mide en watts; tiene que cubrir el consumo total con algo de margen.",
+      "Los sellos de eficiencia como 80 Plus miden cuánto desperdicia en calor.",
+      "Una fuente mala puede causar cuelgues al azar o dañar otras piezas."
+    ],
+    "links": [
+      { "label": "Fuente de alimentación en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fuente_de_alimentación" }
+    ]
+  }
+}

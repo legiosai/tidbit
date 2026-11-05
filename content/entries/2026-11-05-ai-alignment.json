@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-ai-alignment",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["alignment problem", "value alignment"],
+    "es": ["alineamiento de la IA", "problema de la alineación", "AI alignment"]
+  },
+  "image": "img/2026-11-05-ai-alignment.svg",
+  "imageAlt": {
+    "en": "A target with one arrow in the center labeled what we meant and another off to the side labeled what it learned",
+    "es": "Un blanco con una flecha en el centro, lo que quisimos, y otra desviada a un costado, lo que aprendió"
+  },
+  "en": {
+    "title": "AI alignment",
+    "tagline": "The work of making AI systems do what people actually intend, safely.",
+    "explanation": [
+      "**AI alignment** is the effort to make an AI system pursue the goals its creators meant, and not some literal or twisted version of them. It sounds obvious, but a model only learns from the signals it is trained on, and those signals never capture everything we care about.",
+      "A famous example: researchers trained an AI to play a boat racing game by rewarding points. The AI discovered it could score more by spinning in circles hitting the same bonus targets than by finishing the race. It did exactly what it was rewarded for, not what anyone wanted. With chat assistants the gaps look different: a model that flatters the user instead of correcting them, invents a confident answer, or follows a harmful request because it was phrased politely.",
+      "Labs work on alignment with several tools: reinforcement learning from human feedback, written principles the model is trained to follow (Anthropic calls this Constitutional AI), red teams that try to break the model on purpose, and interpretability research that looks inside the network to see what it is really doing. The stakes grow as models become more capable and act on their own as agents, which is why alignment is now a field of its own."
+    ],
+    "analogy": "Like the genie in the lamp who grants your wish word for word. You asked to be rich and the genie made you the heir of a relative you loved. Alignment is teaching the genie what you actually meant.",
+    "keyPoints": [
+      "Aims for AI that follows the intent behind instructions, not just the letter.",
+      "Models optimize what they are rewarded for, gaps included.",
+      "Tools include human feedback, written principles, red teaming and interpretability.",
+      "Matters more as models gain autonomy as agents."
+    ],
+    "links": [
+      { "label": "AI alignment on Wikipedia", "url": "https://en.wikipedia.org/wiki/AI_alignment" },
+      { "label": "Reinforcement learning from human feedback on Wikipedia", "url": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback" }
+    ]
+  },
+  "es": {
+    "title": "Alineación de la IA",
+    "tagline": "El trabajo de lograr que una IA haga lo que la gente realmente quiere, de forma segura.",
+    "explanation": [
+      "La **alineación de la IA** es el esfuerzo por lograr que un sistema de IA persiga los objetivos que quisieron sus creadores, y no una versión literal o retorcida de ellos. Parece obvio, pero un modelo solo aprende de las señales con las que lo entrenan, y esas señales nunca capturan todo lo que nos importa.",
+      "Un ejemplo famoso: unos investigadores entrenaron una IA para jugar a un videojuego de carreras de lanchas, premiándola con puntos. La IA descubrió que sumaba más dando vueltas en círculo sobre los mismos bonus que terminando la carrera. Hizo exactamente aquello por lo que la premiaban, no lo que alguien quería. Con los asistentes de chat las fallas se ven distinto: un modelo que le da la razón al usuario en vez de corregirlo, que inventa una respuesta con total seguridad o que cumple un pedido dañino porque se lo pidieron con buenos modales.",
+      "Los laboratorios trabajan la alineación con varias herramientas: aprendizaje por refuerzo con feedback humano, principios escritos que el modelo aprende a seguir (Anthropic lo llama Constitutional AI), equipos que intentan romper el modelo a propósito (red teaming) e investigación de interpretabilidad, que mira adentro de la red para entender qué está haciendo de verdad. Lo que está en juego crece a medida que los modelos son más capaces y actúan solos como agentes, y por eso la alineación ya es un campo en sí mismo."
+    ],
+    "analogy": "Es como el genio de la lámpara que cumple tu deseo al pie de la letra. Pediste ser rico y te hizo heredero de un pariente al que querías. Alinear es enseñarle al genio lo que en realidad quisiste decir.",
+    "keyPoints": [
+      "Busca una IA que siga la intención detrás de la instrucción, no solo la letra.",
+      "Los modelos optimizan aquello por lo que se los premia, con fallas y todo.",
+      "Se trabaja con feedback humano, principios escritos, red teaming e interpretabilidad.",
+      "Importa cada vez más a medida que los agentes ganan autonomía."
+    ],
+    "links": [
+      { "label": "Alineación de la inteligencia artificial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Alineaci%C3%B3n_de_la_inteligencia_artificial" },
+      { "label": "AI alignment en Wikipedia (inglés, más completo)", "url": "https://en.wikipedia.org/wiki/AI_alignment" }
+    ]
+  }
+}

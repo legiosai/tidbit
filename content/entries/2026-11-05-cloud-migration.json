@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-cloud-migration",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["cloud migrations", "migration to the cloud", "lift and shift", "lift-and-shift"],
+    "es": ["migraciones a la nube", "migrar a la nube", "lift and shift", "cloud migration"]
+  },
+  "image": "img/2026-11-05-cloud-migration.svg",
+  "imageAlt": {
+    "en": "Servers in an office room move along an arrow into a cloud, with three labeled paths: move as is, adjust, rebuild",
+    "es": "Servidores en una sala de oficina se mueven por una flecha hacia una nube, con tres caminos: mover tal cual, ajustar, reconstruir"
+  },
+  "en": {
+    "title": "Cloud migration",
+    "tagline": "Moving a company's apps and data from its own servers to a cloud provider.",
+    "explanation": [
+      "A **cloud migration** is the project of moving software, data and workloads from servers a company owns, often in its own building or a rented data center, to a cloud provider like AWS, Google Cloud or Azure. It can also mean moving from one cloud to another.",
+      "There are a few common strategies. **Lift and shift** moves an app as it is onto cloud virtual machines: fastest, but you keep the old design and its costs. A middle path adjusts a few pieces, for example swapping a self-run database for a managed one. The deepest option rebuilds the app to use cloud services fully, which takes longer but gets more of the benefits. Some old systems are simply retired or replaced by a SaaS product instead.",
+      "Companies migrate to stop buying and maintaining hardware, to scale more easily and to reach new services. It is rarely a single weekend: big organizations move in waves over months or years, start with an inventory of what they run, and test each step. The costs also change shape, from buying machines every few years to a monthly bill that needs watching."
+    ],
+    "analogy": "Like moving house. You can pack everything into boxes and unpack it the same way (lift and shift), or use the move to throw things out and buy furniture that fits the new place.",
+    "keyPoints": [
+      "Moves apps and data from own servers to a cloud provider, or between clouds.",
+      "Lift and shift is fast; rebuilding for the cloud is slower but gets more out of it.",
+      "Large migrations happen in waves, after an inventory of what exists.",
+      "Spending turns from buying hardware into a monthly bill to manage."
+    ],
+    "links": [
+      { "label": "What is cloud migration? (AWS)", "url": "https://aws.amazon.com/what-is/cloud-migration/" },
+      { "label": "Cloud migration on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cloud_migration" }
+    ]
+  },
+  "es": {
+    "title": "Migración a la nube",
+    "tagline": "Mudar las apps y los datos de una empresa de sus propios servidores a la nube.",
+    "explanation": [
+      "Una **migración a la nube** es el proyecto de mover software, datos y cargas de trabajo desde servidores propios de una empresa, muchas veces en su edificio o en un data center alquilado, a un proveedor de nube como AWS, Google Cloud o Azure. También puede ser pasar de una nube a otra.",
+      "Hay algunas estrategias típicas. **Lift and shift** (\"levantar y mover\") lleva la app tal como está a máquinas virtuales en la nube: es lo más rápido, pero te quedás con el diseño viejo y sus costos. Un camino intermedio ajusta algunas piezas, por ejemplo cambiar una base de datos que mantenés vos por una administrada. La opción más profunda rearma la app para aprovechar los servicios de la nube a fondo: lleva más tiempo, pero saca más beneficios. Algunos sistemas viejos directamente se dan de baja o se reemplazan por un producto SaaS.",
+      "Las empresas migran para dejar de comprar y mantener hardware, para escalar con menos esfuerzo y para tener acceso a servicios nuevos. Casi nunca es cosa de un fin de semana: las organizaciones grandes se mudan por tandas durante meses o años, arrancan con un inventario de lo que tienen y prueban cada paso. Los costos también cambian de forma: de comprar máquinas cada tantos años a una factura mensual que hay que vigilar."
+    ],
+    "analogy": "Como mudarte de casa. Podés meter todo en cajas y desarmarlo igual en el lugar nuevo (lift and shift), o aprovechar la mudanza para tirar cosas y comprar muebles que entren bien.",
+    "keyPoints": [
+      "Mueve apps y datos de servidores propios a un proveedor de nube, o entre nubes.",
+      "Lift and shift es rápido; rearmar para la nube es más lento pero rinde más.",
+      "Las migraciones grandes se hacen por tandas, después de inventariar lo que hay.",
+      "El gasto pasa de comprar hardware a una factura mensual que hay que manejar."
+    ],
+    "links": [
+      { "label": "¿Qué es la migración a la nube? (AWS)", "url": "https://aws.amazon.com/es/what-is/cloud-migration/" },
+      { "label": "Cloud migration en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Cloud_migration" }
+    ]
+  }
+}

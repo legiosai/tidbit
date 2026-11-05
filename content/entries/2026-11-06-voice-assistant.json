@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-voice-assistant",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["voice assistants", "smart speaker", "smart speakers", "wake word"],
+    "es": ["asistentes de voz", "parlante inteligente", "parlantes inteligentes", "altavoz inteligente", "palabra de activación"]
+  },
+  "image": "img/2026-11-06-voice-assistant.svg",
+  "imageAlt": {
+    "en": "A person asks a smart speaker about the weather; the audio becomes text, an AI model works out the answer, and it comes back as speech",
+    "es": "Una persona le pregunta el clima a un parlante inteligente; el audio se convierte en texto, un modelo de IA arma la respuesta y vuelve convertida en voz"
+  },
+  "en": {
+    "title": "Voice assistant",
+    "tagline": "Software you talk to out loud that answers back and does small tasks for you.",
+    "explanation": [
+      "A **voice assistant** is a program you control by speaking: Siri on the iPhone, Alexa on Amazon's Echo speakers, Google's assistant on Android phones and Nest speakers. You say a **wake word** (\"Hey Siri\", \"Alexa\"), ask something, and it answers out loud or does it: set a timer, play a song, turn off the lights, read a message.",
+      "Behind the scenes there is a chain of steps. The device listens locally for the wake word only. Once it hears it, it records your request and, usually, sends the audio to the company's servers. There, speech recognition turns sound into text, a model works out what you want, and the reply is turned back into speech. All of that has to happen in a second or two to feel natural.",
+      "The classic assistants were good at a fixed list of commands and bad at real conversation. That is changing as companies rebuild them on large language models, so they can follow up on what you said before and handle looser requests. The trade-offs remain: a microphone in your home, recordings stored in the cloud, and occasional mishearings that trigger it when nobody called it."
+    ],
+    "analogy": "Like a concierge at a hotel desk who only looks up when you say their name, then listens, understands and answers out loud.",
+    "keyPoints": [
+      "Siri, Alexa and Google's assistant are the best-known examples.",
+      "Only the wake word is detected on the device; the rest usually goes to the cloud.",
+      "Speech becomes text, a model works out the answer, and the answer becomes speech.",
+      "Newer versions use language models to hold a more natural conversation."
+    ],
+    "links": [
+      { "label": "Voice assistant on Wikipedia", "url": "https://en.wikipedia.org/wiki/Voice_assistant" },
+      { "label": "Virtual assistant on Wikipedia", "url": "https://en.wikipedia.org/wiki/Virtual_assistant" }
+    ]
+  },
+  "es": {
+    "title": "Asistente de voz",
+    "tagline": "Un programa al que le hablás en voz alta, que te contesta y hace tareas chicas por vos.",
+    "explanation": [
+      "Un **asistente de voz** es un programa que manejás hablando: Siri en el iPhone, Alexa en los parlantes Echo de Amazon, el asistente de Google en celulares Android y parlantes Nest. Decís una **palabra de activación** (\"Oye Siri\", \"Alexa\"), pedís algo y te contesta en voz alta o lo hace: poner un temporizador, pasar una canción, apagar las luces, leerte un mensaje.",
+      "Por detrás hay una cadena de pasos. El dispositivo escucha localmente solo la palabra de activación. Cuando la oye, graba tu pedido y, en general, manda el audio a los servidores de la empresa. Ahí el reconocimiento de voz pasa el sonido a texto, un modelo entiende qué querés y la respuesta se vuelve a convertir en voz. Todo eso tiene que pasar en uno o dos segundos para que se sienta natural.",
+      "Los asistentes clásicos andaban bien con una lista fija de comandos y mal en una charla de verdad. Eso está cambiando porque las empresas los están rearmando sobre modelos de lenguaje grandes, así pueden seguir el hilo de lo que dijiste antes y entender pedidos más sueltos. Los costos siguen ahí: un micrófono en tu casa, grabaciones guardadas en la nube y alguna confusión que lo activa sin que nadie lo haya llamado."
+    ],
+    "analogy": "Como el conserje de un hotel que solo levanta la vista cuando decís su nombre, y entonces escucha, entiende y te contesta en voz alta.",
+    "keyPoints": [
+      "Siri, Alexa y el asistente de Google son los ejemplos más conocidos.",
+      "En el dispositivo solo se detecta la palabra de activación; el resto suele ir a la nube.",
+      "La voz se pasa a texto, un modelo arma la respuesta y la respuesta vuelve a ser voz.",
+      "Las versiones nuevas usan modelos de lenguaje para charlar de forma más natural."
+    ],
+    "links": [
+      { "label": "Asistente virtual en Wikipedia", "url": "https://es.wikipedia.org/wiki/Asistente_virtual" },
+      { "label": "Voice assistant en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Voice_assistant" }
+    ]
+  }
+}

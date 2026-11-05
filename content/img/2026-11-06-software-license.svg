@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="110" height="130" rx="10" fill="#f4a7a7"/>
+    <rect x="145" y="40" width="110" height="130" rx="10" fill="#ffd166"/>
+    <rect x="270" y="40" width="110" height="130" rx="10" fill="#9bd1b9"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle" font-weight="bold">
+    <text x="75" y="64">proprietary</text><text x="200" y="64">copyleft</text><text x="325" y="64">permissive</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="75" y="80">EULA</text><text x="200" y="80">GPL</text><text x="325" y="80">MIT, Apache</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="106">use: yes</text><text x="75" y="126">change: no</text><text x="75" y="146">share: no</text>
+    <text x="200" y="106">use: yes</text><text x="200" y="126">change: yes</text><text x="200" y="146">share: keep open</text>
+    <text x="325" y="106">use: yes</text><text x="325" y="126">change: yes</text><text x="325" y="146">share: credit me</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M40 196 H360"/><path d="M354 191 l6 5 -6 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="60" y="216">closed</text><text x="340" y="216">open</text>
+  </g>
+  <text x="200" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">what the license lets you do</text>
+</svg>

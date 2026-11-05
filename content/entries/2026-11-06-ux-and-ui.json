@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-ux-and-ui",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["UX", "UI", "user experience", "user interface", "user interfaces", "UX design", "UI design", "UX/UI"],
+    "es": ["UX", "UI", "experiencia de usuario", "interfaz de usuario", "interfaces de usuario", "diseño UX", "diseño UI", "UX/UI"]
+  },
+  "image": "img/2026-11-06-ux-and-ui.svg",
+  "imageAlt": {
+    "en": "A phone screen with buttons and colors labeled UI, inside a larger path labeled UX that goes from finding the app, to paying, to getting help",
+    "es": "La pantalla de un celular con botones y colores marcada como UI, dentro de un recorrido más grande marcado como UX que va de encontrar la app a pagar y a pedir ayuda"
+  },
+  "en": {
+    "title": "UX and UI",
+    "tagline": "UI is what you see and touch on a screen; UX is how the whole experience feels.",
+    "explanation": [
+      "**UI**, the **user interface**, is the part of a product you see and touch: screens, buttons, menus, icons, colors, fonts, the little animation when you tap \"send\". UI designers decide how each screen looks and how its pieces behave, often in tools like Figma, and hand those designs to developers.",
+      "**UX**, the **user experience**, is broader: how it feels to get something done with the product from start to finish. Can you find the right button? Does booking a doctor's appointment take three steps or twelve? Are error messages clear? What happens when you need help? UX designers interview users, map their journeys, build rough prototypes and watch real people try them, then change what confuses them.",
+      "The two overlap and are often one job title (\"UX/UI designer\"), but they can fail separately. A banking app can look gorgeous and still make transferring money a maze: good UI, bad UX. A plain government form can be ugly and still get you through in two minutes: modest UI, good UX. Accessibility, writing clear labels and choosing what to leave out are all part of the craft."
+    ],
+    "analogy": "A restaurant. The UI is the menu, the plates and the decor; the UX is the whole evening: finding a table, ordering without confusion, getting the food on time and paying without waiting forty minutes for the bill.",
+    "keyPoints": [
+      "UI: the visual and interactive layer, screens, buttons, type and color.",
+      "UX: the whole journey of getting a task done, and how it feels.",
+      "UX work relies on research and testing with real users.",
+      "Beautiful UI does not guarantee good UX, and vice versa."
+    ],
+    "links": [
+      { "label": "The Definition of User Experience (Nielsen Norman Group)", "url": "https://www.nngroup.com/articles/definition-user-experience/" },
+      { "label": "User experience design on Wikipedia", "url": "https://en.wikipedia.org/wiki/User_experience_design" },
+      { "label": "User interface on Wikipedia", "url": "https://en.wikipedia.org/wiki/User_interface" }
+    ]
+  },
+  "es": {
+    "title": "UX y UI",
+    "tagline": "La UI es lo que ves y tocás en la pantalla; la UX es cómo se siente toda la experiencia.",
+    "explanation": [
+      "La **UI** (user interface, **interfaz de usuario**) es la parte de un producto que ves y tocás: pantallas, botones, menús, íconos, colores, tipografías, la animación chiquita cuando tocás \"enviar\". Quienes diseñan UI deciden cómo se ve cada pantalla y cómo se comportan sus piezas, muchas veces en herramientas como Figma, y les pasan esos diseños a los desarrolladores.",
+      "La **UX** (user experience, **experiencia de usuario**) es más amplia: cómo se siente resolver algo con el producto de punta a punta. ¿Encontrás el botón que buscás? ¿Sacar un turno con el médico lleva tres pasos o doce? ¿Los mensajes de error se entienden? ¿Qué pasa cuando necesitás ayuda? Quienes trabajan en UX entrevistan usuarios, dibujan su recorrido, arman prototipos rápidos y miran a gente real probándolos, y después cambian lo que confunde.",
+      "Las dos se pisan y muchas veces son un mismo puesto (\"diseñador UX/UI\"), pero pueden fallar por separado. Una app de banco puede ser hermosa y aun así convertir una transferencia en un laberinto: buena UI, mala UX. Un formulario del Estado puede ser feo y sacarte del trámite en dos minutos: UI modesta, buena UX. La accesibilidad, escribir etiquetas claras y elegir qué dejar afuera también son parte del oficio."
+    ],
+    "analogy": "Un restaurante. La UI es la carta, los platos y la decoración; la UX es toda la noche: conseguir mesa, pedir sin enredarte, que la comida llegue a tiempo y poder pagar sin esperar cuarenta minutos la cuenta.",
+    "keyPoints": [
+      "UI: la capa visual e interactiva, pantallas, botones, tipografía y color.",
+      "UX: todo el recorrido para resolver una tarea, y cómo se siente.",
+      "El trabajo de UX se apoya en investigar y probar con usuarios reales.",
+      "Una UI linda no garantiza una buena UX, y al revés tampoco."
+    ],
+    "links": [
+      { "label": "The Definition of User Experience (Nielsen Norman Group, en inglés)", "url": "https://www.nngroup.com/articles/definition-user-experience/" },
+      { "label": "Experiencia de usuario en Wikipedia", "url": "https://es.wikipedia.org/wiki/Experiencia_de_usuario" },
+      { "label": "Interfaz de usuario en Wikipedia", "url": "https://es.wikipedia.org/wiki/Interfaz_de_usuario" }
+    ]
+  }
+}

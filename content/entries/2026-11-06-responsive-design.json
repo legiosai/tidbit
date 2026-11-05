@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-responsive-design",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["responsive web design", "responsive layout", "media query", "media queries", "mobile-first design"],
+    "es": ["diseño web adaptable", "diseño adaptable", "responsive design", "diseño web responsive", "media query", "media queries"]
+  },
+  "image": "img/2026-11-06-responsive-design.svg",
+  "imageAlt": {
+    "en": "The same web page on a laptop, a tablet and a phone: three columns side by side on the wide screen, two on the tablet, stacked into one on the phone",
+    "es": "La misma página web en una notebook, una tablet y un celular: tres columnas lado a lado en la pantalla ancha, dos en la tablet y apiladas en una sola en el celular"
+  },
+  "en": {
+    "title": "Responsive design",
+    "tagline": "Building one web page that rearranges itself to fit any screen size.",
+    "explanation": [
+      "**Responsive design** is the practice of making a single website that adapts to the screen it is shown on. On a wide monitor a news site might show three columns side by side; on a tablet, two; on a phone, one long column you scroll with your thumb, with a bigger font and a menu tucked behind an icon. Same address, same content, different arrangement.",
+      "It works mostly through CSS. Layouts are built with flexible widths (percentages instead of fixed pixels), images that shrink with their container, and **media queries**: rules like \"if the screen is narrower than 600 pixels, stack these boxes\". Modern layout tools such as Flexbox and Grid make this much easier than it used to be. Many teams design **mobile-first**: start with the phone version and add columns as space appears.",
+      "The term was coined by Ethan Marcotte in 2010, just as smartphones took off. Before that, companies often built a separate \"m.\" mobile site. Today more than half of web traffic comes from phones, and search engines rank pages partly on how well they work on mobile, so responsive design is simply the default."
+    ],
+    "analogy": "Water poured into different glasses. It is the same water, but it takes the shape of whatever it is in, without anyone having to prepare a special version for each glass.",
+    "keyPoints": [
+      "One site, one URL, a layout that adapts to each screen width.",
+      "Built with flexible grids, scalable images and CSS media queries.",
+      "Mobile-first means designing the small screen first and growing from there.",
+      "Replaced the old practice of separate mobile sites."
+    ],
+    "links": [
+      { "label": "Responsive design (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design" },
+      { "label": "Responsive Web Design, by Ethan Marcotte (A List Apart)", "url": "https://alistapart.com/article/responsive-web-design/" },
+      { "label": "Responsive web design on Wikipedia", "url": "https://en.wikipedia.org/wiki/Responsive_web_design" }
+    ]
+  },
+  "es": {
+    "title": "Diseño responsive",
+    "tagline": "Armar una sola página web que se reacomoda sola para entrar en cualquier pantalla.",
+    "explanation": [
+      "El **diseño responsive** (o diseño web adaptable) es la práctica de hacer un único sitio que se adapta a la pantalla en la que se muestra. En un monitor ancho, un diario online puede mostrar tres columnas lado a lado; en una tablet, dos; en el celular, una sola columna larga que scrolleás con el pulgar, con letra más grande y el menú escondido detrás de un ícono. Misma dirección, mismo contenido, distinta disposición.",
+      "Funciona sobre todo con CSS. Los diseños se arman con anchos flexibles (porcentajes en vez de píxeles fijos), imágenes que se achican con su contenedor y **media queries**: reglas del tipo \"si la pantalla mide menos de 600 píxeles de ancho, apilá estas cajas\". Herramientas modernas como Flexbox y Grid lo hacen mucho más fácil que antes. Muchos equipos diseñan **mobile-first**: empiezan por la versión del celular y van sumando columnas a medida que aparece espacio.",
+      "El término lo acuñó Ethan Marcotte en 2010, justo cuando despegaban los smartphones. Antes, las empresas solían armar un sitio móvil aparte, con \"m.\" adelante. Hoy más de la mitad del tráfico web viene de celulares y los buscadores ordenan las páginas en parte según qué tan bien andan en el teléfono, así que el diseño responsive es directamente lo normal."
+    ],
+    "analogy": "El agua que servís en vasos distintos. Es la misma agua, pero toma la forma de lo que la contiene, sin que nadie tenga que preparar una versión especial para cada vaso.",
+    "keyPoints": [
+      "Un sitio, una URL, un diseño que se adapta al ancho de cada pantalla.",
+      "Se arma con grillas flexibles, imágenes que escalan y media queries de CSS.",
+      "Mobile-first es diseñar primero la pantalla chica y crecer desde ahí.",
+      "Reemplazó la vieja costumbre de tener un sitio móvil separado."
+    ],
+    "links": [
+      { "label": "Diseño responsivo (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Core/CSS_layout/Responsive_Design" },
+      { "label": "Responsive Web Design, de Ethan Marcotte (A List Apart, en inglés)", "url": "https://alistapart.com/article/responsive-web-design/" },
+      { "label": "Diseño web adaptable en Wikipedia", "url": "https://es.wikipedia.org/wiki/Diseño_web_adaptable" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-prompt-injection",
+  "date": "2026-11-06",
+  "subjects": ["ai", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["prompt injections", "prompt injection attack", "prompt injection attacks", "indirect prompt injection"],
+    "es": ["prompt injection", "inyección de prompt", "inyecciones de prompts", "inyección de instrucciones", "inyección indirecta de prompts"]
+  },
+  "image": "img/2026-11-06-prompt-injection.svg",
+  "imageAlt": {
+    "en": "A user asks an AI model to summarize a web page, but a hidden line in the page gives the model new orders and it sends the user's data to an attacker",
+    "es": "Un usuario le pide a un modelo de IA que resuma una página web, pero una línea oculta en la página le da nuevas órdenes y el modelo le manda los datos del usuario a un atacante"
+  },
+  "en": {
+    "title": "Prompt injection",
+    "tagline": "Sneaking instructions into the text an AI reads so it obeys the attacker instead of you.",
+    "explanation": [
+      "**Prompt injection** is an attack on apps built on language models. A model receives everything as one stream of text: the developer's instructions, the user's request, and whatever documents, emails or web pages it is asked to read. It has no reliable way to tell \"instructions I should follow\" from \"data I should only look at\". So if someone plants a sentence like \"ignore your previous instructions and do this instead\" in that text, the model may obey it.",
+      "The direct version is a user typing tricks into a chatbot to make it break its rules. The more dangerous one is **indirect prompt injection**: the attacker never talks to the model. They hide instructions in a web page, a PDF, a calendar invite or a product review, and wait for an AI assistant to read it on someone's behalf. A hidden line in white text on a page could say \"tell the user this product is the best\" or \"email the contents of this inbox to this address\".",
+      "It matters more now because AI agents do not just chat: they browse, read your mail and call tools that can send messages, buy things or change files. OWASP lists prompt injection as the top risk for LLM applications, and there is no complete fix yet. Teams reduce the damage instead: give the agent as few permissions as possible, ask a human before risky actions, keep untrusted content clearly separated, and filter what goes in and out."
+    ],
+    "analogy": "A new assistant asked to sort the mail opens a letter that says \"the boss says: wire 5,000 dollars to this account\". A careful person checks with the boss; a too-obedient one just does it.",
+    "keyPoints": [
+      "Models mix instructions and data in the same text, which is the root of the problem.",
+      "Indirect injection hides orders in pages, files or emails the AI reads later.",
+      "The risk grows with what the AI can do: send, buy, delete, share.",
+      "Mitigations limit the damage; none of them fully prevents it today."
+    ],
+    "links": [
+      { "label": "LLM01: Prompt injection (OWASP)", "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/" },
+      { "label": "Prompt injection on Wikipedia", "url": "https://en.wikipedia.org/wiki/Prompt_injection" }
+    ]
+  },
+  "es": {
+    "title": "Inyección de prompts",
+    "tagline": "Meter instrucciones en lo que lee una IA para que obedezca al atacante y no a vos.",
+    "explanation": [
+      "La **inyección de prompts** (prompt injection) es un ataque contra las apps armadas sobre modelos de lenguaje. El modelo recibe todo como un único chorro de texto: las instrucciones del desarrollador, el pedido del usuario y los documentos, mails o páginas web que le piden leer. No tiene una forma confiable de separar \"órdenes que tengo que seguir\" de \"datos que solo tengo que mirar\". Entonces, si alguien planta en ese texto una frase como \"ignorá tus instrucciones anteriores y hacé esto otro\", el modelo puede obedecerla.",
+      "La versión directa es un usuario escribiéndole trucos a un chatbot para que rompa sus reglas. La más peligrosa es la **inyección indirecta de prompts**: el atacante nunca habla con el modelo. Esconde instrucciones en una página web, un PDF, una invitación de calendario o una reseña de producto, y espera a que un asistente de IA la lea en nombre de alguien. Una línea en letra blanca sobre fondo blanco puede decir \"decile al usuario que este producto es el mejor\" o \"mandá el contenido de esta casilla a esta dirección\".",
+      "Hoy importa más porque los agentes de IA no solo charlan: navegan, leen tu correo y usan herramientas que pueden mandar mensajes, comprar cosas o tocar archivos. OWASP pone a la inyección de prompts primera en su lista de riesgos para aplicaciones con LLMs, y todavía no hay una solución completa. Lo que hacen los equipos es achicar el daño: darle al agente los mínimos permisos posibles, pedir confirmación humana antes de acciones riesgosas, mantener separado el contenido no confiable y filtrar lo que entra y lo que sale."
+    ],
+    "analogy": "Un asistente nuevo al que le piden ordenar la correspondencia abre una carta que dice \"dice el jefe: transferí 5.000 dólares a esta cuenta\". Alguien atento lo consulta con el jefe; alguien demasiado obediente lo hace y listo.",
+    "keyPoints": [
+      "Los modelos mezclan instrucciones y datos en el mismo texto: ahí está la raíz del problema.",
+      "La inyección indirecta esconde órdenes en páginas, archivos o mails que la IA lee después.",
+      "El riesgo crece con lo que la IA puede hacer: mandar, comprar, borrar, compartir.",
+      "Las defensas achican el daño; hoy ninguna lo evita del todo."
+    ],
+    "links": [
+      { "label": "LLM01: Prompt injection (OWASP, en inglés)", "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/" },
+      { "label": "Prompt injection en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Prompt_injection" }
+    ]
+  }
+}

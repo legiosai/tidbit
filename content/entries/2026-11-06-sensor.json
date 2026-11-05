@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-06-sensor",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["sensors"],
+    "es": ["sensores"]
+  },
+  "image": "img/2026-11-06-sensor.svg",
+  "imageAlt": {
+    "en": "Heat, light and motion from the physical world enter a sensor, which turns them into an electrical signal and then into numbers a chip can read",
+    "es": "Calor, luz y movimiento del mundo físico entran a un sensor, que los convierte en una señal eléctrica y después en números que un chip puede leer"
+  },
+  "en": {
+    "title": "Sensor",
+    "tagline": "A component that measures something in the physical world and turns it into a signal.",
+    "explanation": [
+      "A **sensor** measures something physical, like temperature, light, movement, pressure, sound or humidity, and turns it into an electrical signal. A chip then converts that signal into numbers a program can use. Sensors are how electronic devices find out what is happening around them.",
+      "Your phone is full of them. The accelerometer and gyroscope notice when you rotate the screen or count your steps. A light sensor dims the display in a dark room. The proximity sensor turns the screen off when you hold the phone to your ear. The camera is an image sensor with millions of tiny light detectors, the microphone is a sound sensor, and GPS works out your position from satellite signals. A car, a smartwatch or a factory machine has many more.",
+      "Most modern sensors are tiny and cheap, often made with the same techniques as computer chips. That is what made the Internet of things possible: once measuring the world costs very little, you can put a sensor in a fridge, a field of crops or a bridge and send the readings to the cloud. A sensor is only half the story, though. Its readings drift, get noisy and need calibrating, and someone has to decide what to do with all those numbers."
+    ],
+    "analogy": "The senses of a device. Just as your skin feels heat and your eyes catch light and both send signals to your brain, a sensor feels one thing in the world and sends a signal to the chip that does the thinking.",
+    "keyPoints": [
+      "Turns a physical quantity (heat, light, motion, pressure) into an electrical signal.",
+      "A smartphone has a dozen or more: motion, light, proximity, camera, microphone.",
+      "Small cheap sensors are what made the Internet of things possible.",
+      "Readings need calibration and can be noisy."
+    ],
+    "links": [
+      { "label": "Sensor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Sensor" }
+    ]
+  },
+  "es": {
+    "title": "Sensor",
+    "tagline": "Un componente que mide algo del mundo físico y lo convierte en una señal.",
+    "explanation": [
+      "Un **sensor** mide algo físico, como temperatura, luz, movimiento, presión, sonido o humedad, y lo convierte en una señal eléctrica. Después un chip transforma esa señal en números que un programa puede usar. Los sensores son la forma en que los aparatos electrónicos se enteran de lo que pasa a su alrededor.",
+      "Tu celular está lleno. El acelerómetro y el giroscopio notan cuando girás la pantalla o cuentan tus pasos. Un sensor de luz baja el brillo en un cuarto oscuro. El de proximidad apaga la pantalla cuando te apoyás el teléfono en la oreja. La cámara es un sensor de imagen con millones de detectores de luz diminutos, el micrófono es un sensor de sonido y el GPS calcula tu posición con señales de satélites. Un auto, un reloj inteligente o una máquina de una fábrica tienen muchos más.",
+      "La mayoría de los sensores modernos son chiquitos y baratos, muchas veces fabricados con las mismas técnicas que los chips de computadora. Eso es lo que hizo posible el Internet de las cosas: cuando medir el mundo cuesta muy poco, podés poner un sensor en una heladera, en un campo sembrado o en un puente y mandar las lecturas a la nube. Pero el sensor es solo la mitad de la historia. Sus lecturas se desvían, tienen ruido y hay que calibrarlas, y alguien tiene que decidir qué hacer con todos esos números."
+    ],
+    "analogy": "Los sentidos de un aparato. Así como tu piel siente el calor y tus ojos captan la luz y los dos le mandan señales al cerebro, un sensor siente una cosa del mundo y le manda una señal al chip que piensa.",
+    "keyPoints": [
+      "Convierte una magnitud física (calor, luz, movimiento, presión) en una señal eléctrica.",
+      "Un smartphone tiene una docena o más: movimiento, luz, proximidad, cámara, micrófono.",
+      "Los sensores chicos y baratos hicieron posible el Internet de las cosas.",
+      "Las lecturas necesitan calibración y pueden tener ruido."
+    ],
+    "links": [
+      { "label": "Sensor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sensor" },
+      { "label": "Sensor en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Sensor" }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M16 70 H90 L110 180 H16 Z" fill="#e6dfd0"/>
+    <path d="M384 70 H310 L290 180 H384 Z" fill="#e6dfd0"/>
+    <path d="M90 70 H310 L290 180 H110 Z" fill="#9ac7ea"/>
+    <rect x="40" y="46" width="40" height="24" rx="4" fill="#ffd166"/>
+    <rect x="320" y="46" width="40" height="24" rx="4" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M60 70 V120 C100 160 120 170 200 172 C280 170 300 160 340 120 V70"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="144" y="162" width="16" height="12" rx="3" fill="#f4a7a7"/>
+    <rect x="240" y="162" width="16" height="12" rx="3" fill="#f4a7a7"/>
+    <circle cx="200" cy="112" r="28" fill="#2b2b2b"/>
+    <circle cx="200" cy="112" r="21" fill="#e6dfd0"/>
+    <circle cx="200" cy="112" r="13" fill="#ffd166"/>
+    <circle cx="196" cy="108" r="3" fill="#9bd1b9"/><circle cx="205" cy="110" r="3" fill="#9bd1b9"/><circle cx="199" cy="117" r="3" fill="#9bd1b9"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="36">landing</text><text x="340" y="36">landing</text>
+    <text x="200" y="64">cross-section</text>
+    <text x="200" y="196">repeaters</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="258" y="102">fibers</text><text x="258" y="128">armor</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">continent to continent · on the sea floor</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="30" width="100" height="180" rx="14" fill="#9ac7ea"/>
+    <rect x="160" y="50" width="80" height="140" rx="4" fill="#f3efe6"/>
+    <rect x="166" y="64" width="68" height="62" rx="8" fill="#f4a7a7"/>
+    <rect x="186" y="150" width="48" height="24" rx="6" fill="#ffd166"/>
+    <path d="M62 44 L88 90 H36 Z" fill="#ffd166"/>
+    <path d="M62 140 L88 186 H36 Z" fill="#ffd166"/>
+    <path d="M338 92 L364 138 H312 Z" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M92 70 H144"/><path d="M92 164 H144"/><path d="M256 114 H306"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="84">URGENT!</text><text x="200" y="100">pay now</text><text x="200" y="116">or lose it</text>
+    <text x="210" y="167">pay</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="62" y="84">!</text><text x="62" y="180">!</text><text x="338" y="132">!</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="62" y="108">rush</text><text x="62" y="204">gift cards, crypto</text>
+    <text x="338" y="156">too good</text><text x="338" y="170">to be true</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">stop, then verify another way</text>
+</svg>

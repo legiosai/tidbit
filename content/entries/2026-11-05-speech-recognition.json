@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-speech-recognition",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["speech-to-text", "speech to text", "automatic speech recognition", "ASR", "STT"],
+    "es": ["reconocimiento del habla", "reconocimiento automático del habla", "voz a texto", "speech-to-text", "ASR"]
+  },
+  "image": "img/2026-11-05-speech-recognition.svg",
+  "imageAlt": {
+    "en": "A sound wave goes into a model and comes out as a line of written text",
+    "es": "Una onda de sonido entra a un modelo y sale como una línea de texto escrito"
+  },
+  "en": {
+    "title": "Speech recognition",
+    "tagline": "Technology that turns spoken words into written text.",
+    "explanation": [
+      "**Speech recognition**, also called speech-to-text, is what lets a computer listen to someone talk and write down what they said. Your phone's dictation, automatic subtitles on videos, voice assistants and the transcript of a video call all start here.",
+      "Older systems were stitched together from separate parts: one to recognize sounds, one to match them to words, one to guess likely sentences. Modern ones are single neural networks trained on hundreds of thousands of hours of recorded speech with their transcripts. OpenAI's Whisper, released as open source in 2022, showed how far that approach goes: one model that handles dozens of languages and noisy audio reasonably well.",
+      "It still gets things wrong, especially with strong accents, background noise, people talking over each other, or names and jargon it has never heard. Good services add extras such as telling speakers apart, adding punctuation and accepting a list of custom words. On AWS, the service for this is Amazon Transcribe."
+    ],
+    "analogy": "A very fast stenographer at a courthouse, typing everything that is said. Excellent with clear voices, struggling a bit when three people shout at once.",
+    "keyPoints": [
+      "Converts audio of people talking into text.",
+      "Behind dictation, subtitles, voice assistants and call transcripts.",
+      "Modern systems are neural networks trained on huge amounts of audio.",
+      "Accents, noise and unusual names are still the hard parts."
+    ],
+    "links": [
+      { "label": "Speech recognition on Wikipedia", "url": "https://en.wikipedia.org/wiki/Speech_recognition" },
+      { "label": "What is Amazon Transcribe? (official docs)", "url": "https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html" }
+    ]
+  },
+  "es": {
+    "title": "Reconocimiento de voz",
+    "tagline": "La tecnología que convierte lo que decís en voz alta en texto escrito.",
+    "explanation": [
+      "El **reconocimiento de voz**, también llamado speech-to-text o voz a texto, es lo que le permite a una computadora escuchar a alguien hablar y escribir lo que dijo. El dictado del celular, los subtítulos automáticos de los videos, los asistentes de voz y la transcripción de una videollamada arrancan todos acá.",
+      "Los sistemas viejos se armaban con piezas separadas: una para reconocer sonidos, otra para asociarlos a palabras y otra para adivinar las frases más probables. Los modernos son una sola red neuronal entrenada con cientos de miles de horas de audio grabado junto con su transcripción. Whisper, de OpenAI, publicado como open source en 2022, mostró hasta dónde llega ese enfoque: un único modelo que maneja decenas de idiomas y audio con ruido bastante bien.",
+      "Igual se sigue equivocando, sobre todo con acentos marcados, ruido de fondo, gente que se pisa al hablar o nombres y jerga que nunca escuchó. Los buenos servicios suman extras como distinguir quién habla, poner puntuación y aceptar una lista de palabras propias. En AWS, el servicio para esto es Amazon Transcribe."
+    ],
+    "analogy": "Una taquígrafa rapidísima en un juzgado, tipeando todo lo que se dice. Impecable con voces claras, y le cuesta un poco cuando tres personas gritan a la vez.",
+    "keyPoints": [
+      "Convierte el audio de gente hablando en texto.",
+      "Está detrás del dictado, los subtítulos, los asistentes de voz y las transcripciones.",
+      "Los sistemas actuales son redes neuronales entrenadas con muchísimo audio.",
+      "Los acentos, el ruido y los nombres raros siguen siendo lo difícil."
+    ],
+    "links": [
+      { "label": "Reconocimiento del habla en Wikipedia", "url": "https://es.wikipedia.org/wiki/Reconocimiento_del_habla" },
+      { "label": "¿Qué es Amazon Transcribe? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/transcribe/latest/dg/what-is.html" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-06-atlassian",
+  "date": "2026-11-06",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Jira", "Jira ticket", "Jira tickets", "Confluence", "Trello", "Bitbucket"],
+    "es": ["Jira", "ticket de Jira", "tickets de Jira", "Confluence", "Trello", "Bitbucket"]
+  },
+  "image": "img/2026-11-06-atlassian.svg",
+  "imageAlt": {
+    "en": "A Jira board with To do, In progress and Done columns of ticket cards, next to a Confluence page of team documentation that links to the tickets",
+    "es": "Un tablero de Jira con columnas To do, In progress y Done llenas de tarjetas de tickets, junto a una página de Confluence con la documentación del equipo que enlaza a los tickets"
+  },
+  "en": {
+    "title": "Atlassian",
+    "tagline": "The Australian company behind Jira and Confluence, tools teams use to plan and document work.",
+    "explanation": [
+      "**Atlassian** was founded in Sydney in 2002 by two university classmates, Mike Cannon-Brookes and Scott Farquhar, who started it with credit card debt instead of investors. It makes software for teams to organize their work, and its best-known products are everywhere in tech offices even if the company name is not.",
+      "**Jira** is a tool for tracking work as **tickets**: each bug, feature or task gets a card with a description, an owner, a priority and a status, and moves across a board from \"to do\" to \"done\". Software teams use it to run agile sprints, and support, marketing and legal teams use it for their own requests. **Confluence** is a shared wiki where teams write and keep their documentation, meeting notes and plans, linked to the Jira tickets they talk about. Atlassian also owns **Trello**, simple card boards, and **Bitbucket**, a place to host code with git, among others.",
+      "It sells mostly through subscriptions priced per user, and for years was known for selling online without a big sales team. It went public on the Nasdaq in 2015. Like many software companies, it has pushed customers from installing its products on their own servers to using its cloud versions, and it now adds AI features, such as summarizing long tickets or pages."
+    ],
+    "analogy": "The office whiteboard full of sticky notes (Jira) plus the shared binder where everyone writes down how things work (Confluence), both moved online so the whole company can see them.",
+    "keyPoints": [
+      "Founded in Sydney in 2002 by Mike Cannon-Brookes and Scott Farquhar.",
+      "Jira tracks work as tickets moving across a board.",
+      "Confluence is a team wiki for documentation and notes.",
+      "Also owns Trello and Bitbucket; sells per-user subscriptions."
+    ],
+    "links": [
+      { "label": "Atlassian (official site)", "url": "https://www.atlassian.com/" },
+      { "label": "Atlassian on Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlassian" }
+    ]
+  },
+  "es": {
+    "title": "Atlassian",
+    "tagline": "La empresa australiana detrás de Jira y Confluence, herramientas para planificar y documentar trabajo.",
+    "explanation": [
+      "**Atlassian** nació en Sídney en 2002, fundada por dos compañeros de la facultad, Mike Cannon-Brookes y Scott Farquhar, que la arrancaron con deuda de tarjeta de crédito en lugar de inversores. Hace software para que los equipos organicen su trabajo, y sus productos más conocidos están en todas las oficinas tech aunque el nombre de la empresa no suene tanto.",
+      "**Jira** es una herramienta para seguir el trabajo en forma de **tickets**: cada bug, función o tarea es una tarjeta con descripción, responsable, prioridad y estado, que avanza por un tablero de \"por hacer\" a \"hecho\". Los equipos de software la usan para organizar sprints ágiles, y los de soporte, marketing o legales, para sus propios pedidos. **Confluence** es una wiki compartida donde los equipos escriben y guardan documentación, minutas de reuniones y planes, enlazados con los tickets de Jira de los que hablan. Atlassian también es dueña de **Trello**, tableros de tarjetas simples, y de **Bitbucket**, un lugar para alojar código con git, entre otros.",
+      "Vende sobre todo suscripciones con precio por usuario, y durante años fue conocida por vender online sin un gran equipo comercial. Salió a la bolsa en el Nasdaq en 2015. Como muchas empresas de software, empujó a sus clientes a dejar de instalar sus productos en servidores propios y pasar a sus versiones en la nube, y hoy les suma funciones de IA, como resumir tickets o páginas largas."
+    ],
+    "analogy": "El pizarrón de la oficina lleno de post-its (Jira) más la carpeta compartida donde todos anotan cómo funcionan las cosas (Confluence), los dos llevados a internet para que los vea toda la empresa.",
+    "keyPoints": [
+      "Fundada en Sídney en 2002 por Mike Cannon-Brookes y Scott Farquhar.",
+      "Jira sigue el trabajo como tickets que avanzan por un tablero.",
+      "Confluence es una wiki de equipo para documentación y notas.",
+      "También es dueña de Trello y Bitbucket; vende suscripciones por usuario."
+    ],
+    "links": [
+      { "label": "Atlassian (sitio oficial)", "url": "https://www.atlassian.com/es" },
+      { "label": "Atlassian en Wikipedia", "url": "https://es.wikipedia.org/wiki/Atlassian" }
+    ]
+  }
+}

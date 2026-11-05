@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-lan-and-wan",
+  "date": "2026-11-06",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["LAN", "LANs", "WAN", "WANs", "local area network", "local area networks", "wide area network", "wide area networks", "local network", "local networks"],
+    "es": ["LAN", "WAN", "red local", "redes locales", "red de área local", "redes de área local", "red de área amplia", "redes de área amplia"]
+  },
+  "image": "img/2026-11-06-lan-and-wan.svg",
+  "imageAlt": {
+    "en": "Two offices, each a LAN with a laptop, a printer and a phone connected to a router, joined to each other across the city by a WAN link",
+    "es": "Dos oficinas, cada una una LAN con una notebook, una impresora y un celular conectados a un router, unidas entre sí a través de la ciudad por un enlace WAN"
+  },
+  "en": {
+    "title": "LAN and WAN",
+    "tagline": "A LAN connects devices in one place; a WAN connects places far apart.",
+    "explanation": [
+      "A **LAN** (local area network) is the network inside one place: your home, an office floor, a school. The laptop, the printer, the smart TV and the phones are all connected, by Wi-Fi or Ethernet cables, to the same router or switch. Inside a LAN, devices can talk to each other directly and very fast, which is why you can print from your phone or send a video to the TV without going out to the internet.",
+      "A **WAN** (wide area network) connects networks that are far apart: two branches of a bank in different cities, a hospital and its clinics, a company's offices on three continents. The links usually run over lines rented from a telecom provider, or over the internet itself protected by a VPN. Slower and more expensive per gigabyte than a LAN, a WAN is what turns separate sites into one organization's network.",
+      "The internet is, in a sense, the biggest WAN of all: millions of LANs joined together. At home, your router sits right on that border. One side faces your LAN, with private addresses like `192.168.0.10`; the other side, often labeled WAN on the router itself, faces your internet provider."
+    ],
+    "analogy": "A LAN is the hallway of an office building: walk over and talk to anyone on your floor. A WAN is the phone line between that office and the branch in another city.",
+    "keyPoints": [
+      "LAN: devices in one home, office or building, connected by Wi-Fi or Ethernet.",
+      "WAN: links between distant sites, usually over a provider's lines or a VPN.",
+      "LANs are fast and cheap; WANs cover distance at a higher cost.",
+      "The WAN port on a home router is the side that faces the internet."
+    ],
+    "links": [
+      { "label": "Local area network on Wikipedia", "url": "https://en.wikipedia.org/wiki/Local_area_network" },
+      { "label": "Wide area network on Wikipedia", "url": "https://en.wikipedia.org/wiki/Wide_area_network" }
+    ]
+  },
+  "es": {
+    "title": "LAN y WAN",
+    "tagline": "Una LAN conecta aparatos en un mismo lugar; una WAN conecta lugares lejanos.",
+    "explanation": [
+      "Una **LAN** (local area network, **red de área local**) es la red adentro de un lugar: tu casa, el piso de una oficina, una escuela. La notebook, la impresora, el smart TV y los celulares están todos conectados, por Wi-Fi o por cable Ethernet, al mismo router o switch. Dentro de una LAN los aparatos se hablan directo y muy rápido, y por eso podés imprimir desde el celular o mandar un video a la tele sin salir a internet.",
+      "Una **WAN** (wide area network, **red de área amplia**) conecta redes que están lejos: dos sucursales de un banco en ciudades distintas, un hospital y sus centros de salud, las oficinas de una empresa en tres continentes. Los enlaces suelen ir por líneas alquiladas a una empresa de telecomunicaciones, o por la propia internet protegida con una VPN. Más lenta y más cara por gigabyte que una LAN, la WAN es lo que convierte sedes separadas en la red de una sola organización.",
+      "Internet es, en cierto sentido, la WAN más grande de todas: millones de LAN unidas. En tu casa, el router está justo en esa frontera. Un lado mira a tu LAN, con direcciones privadas como `192.168.0.10`; el otro, que muchas veces dice WAN en el mismo aparato, mira a tu proveedor de internet."
+    ],
+    "analogy": "Una LAN es el pasillo de un edificio de oficinas: caminás y hablás con cualquiera de tu piso. Una WAN es la línea de teléfono entre esa oficina y la sucursal de otra ciudad.",
+    "keyPoints": [
+      "LAN: aparatos en una casa, oficina o edificio, conectados por Wi-Fi o Ethernet.",
+      "WAN: enlaces entre sedes lejanas, casi siempre por líneas de un proveedor o una VPN.",
+      "Las LAN son rápidas y baratas; las WAN cubren distancia a un costo mayor.",
+      "El puerto WAN del router de tu casa es el lado que mira a internet."
+    ],
+    "links": [
+      { "label": "Red de área local en Wikipedia", "url": "https://es.wikipedia.org/wiki/Red_de_área_local" },
+      { "label": "Red de área amplia en Wikipedia", "url": "https://es.wikipedia.org/wiki/Red_de_área_amplia" }
+    ]
+  }
+}

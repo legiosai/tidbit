@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-anycast",
+  "date": "2026-11-06",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["anycast routing", "anycast network", "anycast address", "IP anycast"],
+    "es": ["enrutamiento anycast", "red anycast", "dirección anycast", "IP anycast"]
+  },
+  "image": "img/2026-11-06-anycast.svg",
+  "imageAlt": {
+    "en": "Three servers in São Paulo, Madrid and Tokyo all announce the same address 1.1.1.1; users in Buenos Aires, Lisbon and Seoul are each routed to the nearest one",
+    "es": "Tres servidores en São Paulo, Madrid y Tokio anuncian la misma dirección 1.1.1.1; usuarios de Buenos Aires, Lisboa y Seúl llegan cada uno al más cercano"
+  },
+  "en": {
+    "title": "Anycast",
+    "tagline": "One IP address announced from many places, so each user reaches the nearest one.",
+    "explanation": [
+      "Normally an IP address belongs to one machine in one place (**unicast**). With **anycast**, the same address is announced from many locations at once: São Paulo, Madrid, Tokyo, dozens more. Each of those sites tells its neighbors through BGP \"I can deliver to 1.1.1.1\", and every router on the internet simply picks the best route it knows. The result is that a user in Buenos Aires lands on the São Paulo servers and a user in Lisbon on the Madrid ones, without either of them doing anything special.",
+      "This is how the DNS root servers survive: the 13 root \"letters\" are served from well over a thousand anycast sites worldwide. Public resolvers like Cloudflare's 1.1.1.1 and Google's 8.8.8.8 work the same way, and so do many CDN networks. Anycast also spreads a DDoS attack across every location instead of concentrating it on one, so each site absorbs only its local share; and if a site goes down, it stops announcing the route and traffic flows to the next closest one within seconds or minutes.",
+      "The catches come from the fact that BGP picks routes by policy and path length, not by real distance or load. A user can be sent to a farther site because of how their provider peers, and route changes in the middle of a session can move a client to a different location. That is harmless for short exchanges like DNS over UDP, but long TCP connections may break if they switch servers mid-way, so operators keep state minimal, share it between sites or use anycast only to pick an entry point and then hand off."
+    ],
+    "analogy": "A taxi company with one phone number across the whole country. You always dial the same number, and the call is answered by the dispatch office nearest to you, which sends you a nearby car. If one office closes, the next one picks up.",
+    "keyPoints": [
+      "Many servers share one IP address; routing sends each user to the closest by network path.",
+      "Built on BGP: each site announces the same prefix to its neighbors.",
+      "Used by DNS root servers, public resolvers like 1.1.1.1 and CDNs; spreads DDoS traffic.",
+      "Best for short, stateless exchanges; long TCP sessions can break if routes shift."
+    ],
+    "links": [
+      { "label": "Anycast on Wikipedia", "url": "https://en.wikipedia.org/wiki/Anycast" },
+      { "label": "RFC 4786, Operation of Anycast Services", "url": "https://www.rfc-editor.org/rfc/rfc4786" },
+      { "label": "What is Anycast? (Cloudflare Learning)", "url": "https://www.cloudflare.com/learning/cdn/glossary/anycast-network/" }
+    ]
+  },
+  "es": {
+    "title": "Anycast",
+    "tagline": "Una dirección IP anunciada desde muchos lugares, para que cada usuario llegue a la más cercana.",
+    "explanation": [
+      "Normalmente una dirección IP pertenece a una máquina en un lugar (**unicast**). Con **anycast**, la misma dirección se anuncia desde muchos lugares a la vez: São Paulo, Madrid, Tokio y decenas más. Cada uno de esos sitios les avisa a sus vecinos por BGP \"yo puedo entregar a 1.1.1.1\", y cada router de internet elige la mejor ruta que conoce. El resultado es que un usuario en Buenos Aires cae en los servidores de São Paulo y uno en Lisboa en los de Madrid, sin que ninguno haga nada especial.",
+      "Así sobreviven los servidores raíz del DNS: las 13 \"letras\" raíz se sirven desde bastante más de mil sitios anycast en todo el mundo. Los resolvers públicos como el 1.1.1.1 de Cloudflare y el 8.8.8.8 de Google funcionan igual, y también muchas redes CDN. Anycast además reparte un ataque DDoS entre todas las ubicaciones en vez de concentrarlo en una, así que cada sitio absorbe solo su parte local; y si un sitio se cae, deja de anunciar la ruta y el tráfico pasa al siguiente más cercano en segundos o minutos.",
+      "Las contras vienen de que BGP elige rutas por política y largo del camino, no por distancia real ni por carga. Un usuario puede terminar en un sitio más lejano por cómo se interconecta su proveedor, y un cambio de rutas en medio de una sesión puede mover a un cliente a otra ubicación. Eso no molesta en intercambios cortos como DNS sobre UDP, pero una conexión TCP larga puede cortarse si cambia de servidor a mitad de camino, así que los operadores guardan el mínimo estado posible, lo comparten entre sitios o usan anycast solo para elegir la puerta de entrada y después derivan."
+    ],
+    "analogy": "Una empresa de remises con un solo número de teléfono para todo el país. Siempre marcás el mismo número y te atiende la base más cercana, que te manda un auto de la zona. Si una base cierra, atiende la siguiente.",
+    "keyPoints": [
+      "Muchos servidores comparten una IP; el ruteo manda a cada usuario al más cercano según el camino de red.",
+      "Se apoya en BGP: cada sitio anuncia el mismo prefijo a sus vecinos.",
+      "Lo usan los servidores raíz del DNS, resolvers públicos como 1.1.1.1 y las CDN; reparte el tráfico de un DDoS.",
+      "Ideal para intercambios cortos y sin estado; las sesiones TCP largas pueden cortarse si cambian las rutas."
+    ],
+    "links": [
+      { "label": "Anycast en Wikipedia", "url": "https://es.wikipedia.org/wiki/Anycast" },
+      { "label": "RFC 4786, Operation of Anycast Services (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc4786" },
+      { "label": "What is Anycast? (Cloudflare Learning, en inglés)", "url": "https://www.cloudflare.com/learning/cdn/glossary/anycast-network/" }
+    ]
+  }
+}

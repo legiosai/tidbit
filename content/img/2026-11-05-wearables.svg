@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="100" width="190" height="44" rx="22" fill="#f4a7a7"/>
+    <rect x="94" y="88" width="20" height="68" fill="#e6dfd0"/>
+    <rect x="136" y="88" width="20" height="68" fill="#e6dfd0"/>
+    <rect x="96" y="70" width="58" height="104" rx="14" fill="#2b2b2b"/>
+    <rect x="102" y="80" width="46" height="84" rx="10" fill="#9bd1b9"/>
+    <rect x="300" y="60" width="70" height="124" rx="12" fill="#9ac7ea"/>
+    <rect x="310" y="74" width="50" height="86" rx="4" fill="#f3efe6"/>
+  </g>
+  <path d="M110 122 h8 l4 -10 l6 20 l4 -10 h8" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M168 122 C200 100 240 100 290 116"/><path d="M283 111 l7 5 -8 3"/>
+    <path d="M318 140 l10 -12 l10 6 l12 -18"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="125" y="196">watch</text><text x="335" y="204">phone</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="232" y="92">Bluetooth</text><text x="125" y="150">72 bpm</text><text x="335" y="90">history</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">sensors on you, data on your phone</text>
+</svg>

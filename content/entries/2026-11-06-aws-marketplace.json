@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-aws-marketplace",
+  "date": "2026-11-06",
+  "subjects": ["aws"],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-06-aws-marketplace.svg",
+  "imageAlt": {
+    "en": "A store with shelves of SaaS apps, machine images, datasets and containers from other companies, all charged to a single AWS bill",
+    "es": "Una tienda con estantes de apps SaaS, imágenes de máquina, datasets y contenedores de otras empresas, todo cobrado en una sola factura de AWS"
+  },
+  "en": {
+    "title": "AWS Marketplace",
+    "tagline": "An online store where you buy other companies' software and pay through your AWS bill.",
+    "explanation": [
+      "**AWS Marketplace** is a catalog run by AWS where thousands of other companies sell software, data and services to AWS customers. You can find a security scanner, a database, a monitoring tool, a ready-made server image or a dataset, subscribe with a few clicks, and the charge shows up on the same AWS bill you already pay.",
+      "Products come in different shapes. Some are **SaaS** apps that run in the seller's own account and you just log into. Others are server images or containers that run inside your account, on your EC2 instances or Kubernetes clusters. There are also datasets, machine learning models and professional services like consulting. Pricing can be per hour, per user, per month or a yearly contract.",
+      "For companies the main appeal is paperwork. Buying software normally means a new vendor, a new contract, a new invoice and a security review. Through the Marketplace, the purchase goes through a relationship that already exists with AWS, often with standard contract terms. Sellers can also make **private offers**: a custom price for one customer, still billed through AWS. For software makers, it is a way to reach AWS customers without building a billing system of their own."
+    ],
+    "analogy": "Like an app store for businesses: many different makers on the shelves, but one checkout and one receipt.",
+    "keyPoints": [
+      "Software, data and services from other companies, sold through AWS.",
+      "Purchases are charged on your regular AWS bill.",
+      "Includes SaaS apps, server images, containers, datasets and AI models.",
+      "Private offers let a seller set a custom price for one customer."
+    ],
+    "links": [
+      { "label": "What is AWS Marketplace? (official docs)", "url": "https://docs.aws.amazon.com/marketplace/latest/buyerguide/what-is-marketplace.html" },
+      { "label": "AWS Marketplace", "url": "https://aws.amazon.com/marketplace" }
+    ]
+  },
+  "es": {
+    "title": "AWS Marketplace",
+    "tagline": "Una tienda online de software de otras empresas que pagás con tu factura de AWS.",
+    "explanation": [
+      "**AWS Marketplace** es un catálogo que maneja AWS donde miles de otras empresas les venden software, datos y servicios a los clientes de AWS. Podés encontrar un escáner de seguridad, una base de datos, una herramienta de monitoreo, una imagen de servidor lista para usar o un dataset, suscribirte con un par de clics, y el cargo aparece en la misma factura de AWS que ya pagás.",
+      "Los productos vienen en distintos formatos. Algunos son apps **SaaS** que corren en la cuenta del vendedor y a las que solo entrás. Otros son imágenes de servidor o contenedores que corren dentro de tu cuenta, en tus instancias EC2 o tus clusters de Kubernetes. También hay datasets, modelos de machine learning y servicios profesionales como consultoría. El precio puede ser por hora, por usuario, por mes o un contrato anual.",
+      "Para las empresas, lo más atractivo es el papeleo. Comprar software normalmente implica un proveedor nuevo, un contrato nuevo, una factura nueva y una revisión de seguridad. A través del Marketplace, la compra pasa por una relación que ya existe con AWS, muchas veces con términos de contrato estándar. Los vendedores también pueden hacer **ofertas privadas**: un precio especial para un cliente, igual facturado por AWS. Para quienes hacen software, es una forma de llegar a los clientes de AWS sin armar un sistema de cobro propio."
+    ],
+    "analogy": "Como una tienda de apps para empresas: muchos fabricantes distintos en los estantes, pero una sola caja y un solo ticket.",
+    "keyPoints": [
+      "Software, datos y servicios de otras empresas, vendidos a través de AWS.",
+      "Las compras se cobran en tu factura habitual de AWS.",
+      "Incluye apps SaaS, imágenes de servidor, contenedores, datasets y modelos de IA.",
+      "Las ofertas privadas le permiten al vendedor fijar un precio especial para un cliente."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Marketplace? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/marketplace/latest/buyerguide/what-is-marketplace.html" },
+      { "label": "AWS Marketplace", "url": "https://aws.amazon.com/es/marketplace" }
+    ]
+  }
+}

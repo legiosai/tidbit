@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-peer-to-peer",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["P2P", "peer to peer", "peer-to-peer network", "peer-to-peer networks", "BitTorrent", "torrent", "torrents"],
+    "es": ["P2P", "peer to peer", "red entre pares", "redes entre pares", "red P2P", "redes P2P", "BitTorrent", "torrent", "torrents"]
+  },
+  "image": "img/2026-11-05-peer-to-peer.svg",
+  "imageAlt": {
+    "en": "Left: several computers all connected to one central server. Right: the same computers connected directly to each other, each one sharing pieces of a file",
+    "es": "A la izquierda: varias computadoras conectadas todas a un servidor central. A la derecha: las mismas computadoras conectadas directamente entre sí, cada una compartiendo pedazos de un archivo"
+  },
+  "en": {
+    "title": "Peer-to-peer",
+    "tagline": "A network where computers talk directly to each other, with no central server in charge.",
+    "explanation": [
+      "Most of the internet is **client-server**: your phone asks a company's server, and the server answers. In a **peer-to-peer** (P2P) network every participant, or **peer**, is both client and server at once. Each one downloads from others and uploads to others, so there is no single machine that everything depends on.",
+      "The best-known example is **BitTorrent**. A large file is split into small pieces, and each peer downloads different pieces from many peers at the same time while sharing the pieces it already has. The more people want a file, the more sources it has, which is the opposite of what happens to a server under load. Linux distributions and game updates use it to save bandwidth. The same idea is behind blockchains like Bitcoin, where every node keeps a copy of the ledger, and behind many video calls, which send audio and video straight between participants when NAT and firewalls allow it.",
+      "The trade-offs: there is nobody in charge to stop bad content or bad actors, peers come and go so availability is unpredictable, and anyone you connect to can see your IP address. P2P is a way to build networks, neither legal nor illegal in itself; what is shared over it is what matters."
+    ],
+    "analogy": "A potluck dinner instead of a restaurant. There is no kitchen that cooks for everyone: each guest brings a dish and takes a bit of the others', and the more guests come, the more food there is.",
+    "keyPoints": [
+      "In P2P every peer both consumes and provides resources.",
+      "BitTorrent splits files into pieces downloaded from many peers at once.",
+      "More users means more capacity, not more load on one server.",
+      "Peers can see each other's IP addresses."
+    ],
+    "links": [
+      { "label": "Peer-to-peer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Peer-to-peer" },
+      { "label": "BitTorrent on Wikipedia", "url": "https://en.wikipedia.org/wiki/BitTorrent" }
+    ]
+  },
+  "es": {
+    "title": "Peer-to-peer",
+    "tagline": "Una red donde las computadoras se hablan directo, sin un servidor central a cargo.",
+    "explanation": [
+      "Casi todo internet funciona como **cliente-servidor**: tu celular le pregunta al servidor de una empresa y el servidor responde. En una red **peer-to-peer** (P2P, o entre pares) cada participante, cada **peer**, es cliente y servidor a la vez. Cada uno baja de otros y le sube a otros, así que no hay una única máquina de la que dependa todo.",
+      "El ejemplo más conocido es **BitTorrent**. Un archivo grande se corta en pedacitos, y cada peer baja pedazos distintos de muchos peers al mismo tiempo mientras comparte los que ya tiene. Cuanta más gente quiere un archivo, más fuentes tiene, justo lo contrario de lo que le pasa a un servidor cuando se satura. Las distribuciones de Linux y algunas actualizaciones de juegos lo usan para ahorrar ancho de banda. La misma idea está detrás de las blockchains como Bitcoin, donde cada nodo guarda una copia del registro, y de muchas videollamadas, que mandan audio y video directo entre los participantes cuando el NAT y los firewalls lo permiten.",
+      "Lo que se resigna: no hay nadie a cargo que frene contenido o participantes maliciosos, los peers entran y salen así que la disponibilidad es impredecible, y cualquiera con quien te conectás puede ver tu dirección IP. P2P es una forma de armar redes, ni legal ni ilegal en sí misma; lo que importa es qué se comparte."
+    ],
+    "analogy": "Una comida a la canasta en vez de un restaurante. No hay una cocina que cocine para todos: cada invitado trae un plato y prueba de los demás, y cuantos más invitados vienen, más comida hay.",
+    "keyPoints": [
+      "En P2P cada peer consume y a la vez aporta recursos.",
+      "BitTorrent corta los archivos en pedazos que se bajan de muchos peers a la vez.",
+      "Más usuarios significa más capacidad, no más carga sobre un servidor.",
+      "Los peers pueden ver la dirección IP de los demás."
+    ],
+    "links": [
+      { "label": "Peer-to-peer en Wikipedia", "url": "https://es.wikipedia.org/wiki/Peer-to-peer" },
+      { "label": "BitTorrent en Wikipedia", "url": "https://es.wikipedia.org/wiki/BitTorrent" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-gitops",
+  "date": "2026-11-06",
+  "subjects": ["cloud", "software"],
+  "level": 3,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-06-gitops.svg",
+  "imageAlt": {
+    "en": "A developer merges a change into a Git repository that holds the desired state; an agent inside the cluster pulls it and keeps reconciling the running pods to match",
+    "es": "Alguien suma un cambio a un repositorio Git que guarda el estado deseado; un agente dentro del cluster lo trae y va reconciliando los pods en marcha para que coincidan"
+  },
+  "en": {
+    "title": "GitOps",
+    "tagline": "Running infrastructure by editing files in Git and letting an agent make reality match.",
+    "explanation": [
+      "**GitOps** is a way of operating systems, mostly on Kubernetes, where a Git repository is the single source of truth for what should be running. The repository holds declarative files that describe the desired state: which apps, which container image versions, how many replicas, which settings. To change production you do not run commands against the cluster; you open a pull request, it gets reviewed, and it is merged.",
+      "An agent running inside the cluster, such as Argo CD or Flux, watches the repository. When the desired state changes, it pulls the change and applies it. More importantly, it keeps comparing what Git says with what is actually running and corrects any difference, a loop called **reconciliation**. If someone edits something by hand at 3 a.m., the agent notices the drift and puts it back, or at least flags it.",
+      "The benefits come from Git itself. Every change has an author, a review and a timestamp, which makes audits and incident reviews much easier. Rolling back is reverting a commit. A whole environment can be rebuilt from the repository. And because the agent pulls from inside, the CI system does not need admin credentials to the cluster. The OpenGitOps project sums it up in four principles: declarative, versioned and immutable, pulled automatically, and continuously reconciled. The costs: secrets need special handling, since they should not sit in Git in plain text, and teams have to get used to never \"just fixing it\" by hand."
+    ],
+    "analogy": "A thermostat. You do not light the boiler yourself; you set the temperature you want, and the thermostat keeps checking the room and correcting it. In GitOps, the repository is the dial and the agent is the thermostat.",
+    "keyPoints": [
+      "Git holds the desired state; the cluster is made to match it.",
+      "An agent like Argo CD or Flux pulls changes and corrects drift continuously.",
+      "Every change is a reviewed commit; rolling back is a revert.",
+      "Secrets and manual fixes need discipline and extra tooling."
+    ],
+    "links": [
+      { "label": "OpenGitOps principles", "url": "https://opengitops.dev/" },
+      { "label": "Argo CD documentation", "url": "https://argo-cd.readthedocs.io/en/stable/" },
+      { "label": "Flux", "url": "https://fluxcd.io/" }
+    ]
+  },
+  "es": {
+    "title": "GitOps",
+    "tagline": "Manejar la infraestructura desde Git, con un agente que hace que la realidad coincida.",
+    "explanation": [
+      "**GitOps** es una forma de operar sistemas, sobre todo en Kubernetes, donde un repositorio Git es la única fuente de verdad sobre qué tiene que estar corriendo. El repositorio guarda archivos declarativos que describen el estado deseado: qué apps, qué versiones de imágenes de contenedor, cuántas réplicas, qué configuración. Para cambiar producción no corrés comandos contra el cluster; abrís un pull request, alguien lo revisa y se mergea.",
+      "Un agente que corre dentro del cluster, como Argo CD o Flux, vigila el repositorio. Cuando cambia el estado deseado, trae el cambio y lo aplica. Y lo más importante: compara todo el tiempo lo que dice Git con lo que está corriendo de verdad y corrige cualquier diferencia, un ciclo que se llama **reconciliación**. Si alguien toca algo a mano a las 3 de la mañana, el agente detecta el desvío y lo vuelve a su lugar, o por lo menos avisa.",
+      "Los beneficios vienen del propio Git. Cada cambio tiene autor, revisión y fecha, lo que facilita mucho las auditorías y los análisis de incidentes. Volver atrás es revertir un commit. Un entorno entero se puede reconstruir desde el repositorio. Y como el agente trae los cambios desde adentro, el sistema de CI no necesita credenciales de administrador del cluster. El proyecto OpenGitOps lo resume en cuatro principios: declarativo, versionado e inmutable, traído automáticamente y reconciliado de forma continua. Los costos: los secretos necesitan un manejo especial, porque no deberían quedar en Git en texto plano, y los equipos se tienen que acostumbrar a no \"arreglarlo rapidito\" a mano nunca más."
+    ],
+    "analogy": "Un termostato. No prendés la caldera vos; marcás la temperatura que querés y el termostato va midiendo el ambiente y corrigiendo. En GitOps, el repositorio es la perilla y el agente es el termostato.",
+    "keyPoints": [
+      "Git guarda el estado deseado; el cluster se ajusta para coincidir.",
+      "Un agente como Argo CD o Flux trae los cambios y corrige los desvíos todo el tiempo.",
+      "Cada cambio es un commit revisado; volver atrás es un revert.",
+      "Los secretos y los arreglos manuales piden disciplina y herramientas extra."
+    ],
+    "links": [
+      { "label": "Principios de OpenGitOps (en inglés)", "url": "https://opengitops.dev/" },
+      { "label": "¿Qué es GitOps? (Red Hat)", "url": "https://www.redhat.com/es/topics/devops/what-is-gitops" },
+      { "label": "Documentación de Argo CD (en inglés)", "url": "https://argo-cd.readthedocs.io/en/stable/" }
+    ]
+  }
+}

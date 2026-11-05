@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-dashboard",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["dashboards"],
+    "es": ["dashboards", "tablero de control", "tableros de control", "cuadro de mando"]
+  },
+  "image": "img/2026-11-05-dashboard.svg",
+  "imageAlt": {
+    "en": "A screen split into tiles: a big number with a green up arrow, a line chart, a bar chart and a small table",
+    "es": "Una pantalla dividida en recuadros: un número grande con una flecha verde hacia arriba, un gráfico de líneas, uno de barras y una tabla chica"
+  },
+  "en": {
+    "title": "Dashboard",
+    "tagline": "One screen of charts and numbers that shows how something is doing at a glance.",
+    "explanation": [
+      "A **dashboard** is a single page that gathers the most important numbers and charts about something, a business, a website, a hospital ward, and keeps them up to date. Instead of opening ten reports, you look at one screen and see sales this week, how many orders are late and whether the trend is going up or down.",
+      "Most dashboards are built from a few kinds of tiles: a big number for a key figure (with a comparison like \"+8% vs last month\"), line charts for trends over time, bar charts to compare categories, and small tables for details. Filters let you narrow it to one region, one product or one date range. Tools like Power BI, Tableau, Looker Studio or Grafana connect to the data and refresh the tiles automatically.",
+      "A good dashboard answers a specific group's recurring questions and fits on one screen. A bad one tries to show everything and ends up showing nothing. The numbers are only as trustworthy as the data and definitions behind them, which is why dashboards usually sit on top of a data warehouse that someone keeps clean."
+    ],
+    "analogy": "Like the instrument panel of a car: speed, fuel and warning lights in one place, so you can keep driving without opening the hood.",
+    "keyPoints": [
+      "One screen with the key numbers and charts about something.",
+      "Built from tiles: big numbers, trend lines, bar charts, small tables.",
+      "Updates automatically from the underlying data.",
+      "Best when designed for a specific audience and its questions."
+    ],
+    "links": [
+      { "label": "Dashboard (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dashboard_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Dashboard",
+    "tagline": "Una pantalla con gráficos y números que muestra de un vistazo cómo viene algo.",
+    "explanation": [
+      "Un **dashboard** (tablero de control) es una sola página que junta los números y gráficos más importantes sobre algo, un negocio, un sitio web, una guardia de hospital, y los mantiene al día. En vez de abrir diez reportes, mirás una pantalla y ves las ventas de la semana, cuántos pedidos vienen atrasados y si la tendencia sube o baja.",
+      "La mayoría se arma con unos pocos tipos de recuadros: un número grande para una cifra clave (con una comparación tipo \"+8% contra el mes pasado\"), gráficos de líneas para tendencias en el tiempo, de barras para comparar categorías y tablitas para el detalle. Los filtros te dejan achicarlo a una región, un producto o un rango de fechas. Herramientas como Power BI, Tableau, Looker Studio o Grafana se conectan a los datos y refrescan los recuadros solas.",
+      "Un buen dashboard responde las preguntas de siempre de un grupo concreto y entra en una pantalla. Uno malo quiere mostrar todo y termina no mostrando nada. Los números son tan confiables como los datos y las definiciones que tienen atrás, por eso los dashboards suelen estar armados sobre un data warehouse que alguien mantiene limpio."
+    ],
+    "analogy": "Como los relojes del auto: velocidad, nafta y luces de alerta en un solo lugar, para que sigas manejando sin tener que abrir el capó.",
+    "keyPoints": [
+      "Una pantalla con los números y gráficos clave sobre algo.",
+      "Se arma con recuadros: números grandes, líneas de tendencia, barras, tablitas.",
+      "Se actualiza solo a partir de los datos de origen.",
+      "Funciona mejor cuando está pensado para un público y sus preguntas."
+    ],
+    "links": [
+      { "label": "Cuadro de mando en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cuadro_de_mando" }
+    ]
+  }
+}

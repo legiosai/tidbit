@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-palantir",
+  "date": "2026-11-05",
+  "subjects": ["companies", "data"],
+  "level": 1,
+  "aliases": {
+    "en": ["Palantir Technologies", "Palantir Foundry", "Palantir Gotham", "Palantir AIP"],
+    "es": ["Palantir Technologies", "Palantir Foundry", "Palantir Gotham", "Palantir AIP"]
+  },
+  "image": "img/2026-11-05-palantir.svg",
+  "imageAlt": {
+    "en": "Scattered sources such as spreadsheets, databases and sensors feed into one connected map of people, places and things, which an analyst uses to make a decision",
+    "es": "Fuentes dispersas como planillas, bases de datos y sensores alimentan un único mapa conectado de personas, lugares y cosas, que una analista usa para tomar una decisión"
+  },
+  "en": {
+    "title": "Palantir",
+    "tagline": "Software that joins an organization's scattered data so people can act on it.",
+    "explanation": [
+      "**Palantir** is an American software company founded in 2003 by Peter Thiel, Alex Karp, who has been its CEO since the start, Joe Lonsdale, Stephen Cohen and Nathan Gettings. Its name comes from the seeing stones in The Lord of the Rings. It went public in 2020 and is headquartered in the United States.",
+      "What it sells is software that pulls together data an organization already has but keeps in separate systems, such as spreadsheets, databases, sensors and reports, and links it into one model of the real things involved: people, places, vehicles, shipments, parts. **Gotham** was built for intelligence agencies, police and the military. **Foundry** does the same for companies, from airlines tracking spare parts to factories planning production. **AIP** adds AI models that work over that connected data.",
+      "It is one of the most debated tech companies. Supporters point to defense, public health and logistics work; critics worry about government surveillance, its contracts with immigration enforcement and how much power a private company gains by sitting at the center of so much sensitive data. Both sides agree on one thing: its software tends to become deeply embedded in the organizations that adopt it."
+    ],
+    "analogy": "A detective's corkboard, with photos, maps and notes joined by string, but built from millions of records and kept up to date automatically.",
+    "keyPoints": [
+      "Founded in 2003; Alex Karp has been CEO since the beginning.",
+      "Gotham serves governments and defense; Foundry serves companies; AIP adds AI on top.",
+      "Its core idea is linking scattered data into one model of real-world things.",
+      "Its government and surveillance work makes it controversial."
+    ],
+    "links": [
+      { "label": "Palantir (official site)", "url": "https://www.palantir.com/" },
+      { "label": "Palantir Technologies on Wikipedia", "url": "https://en.wikipedia.org/wiki/Palantir_Technologies" }
+    ]
+  },
+  "es": {
+    "title": "Palantir",
+    "tagline": "Software que junta los datos dispersos de una organización para poder actuar con ellos.",
+    "explanation": [
+      "**Palantir** es una empresa de software estadounidense fundada en 2003 por Peter Thiel, Alex Karp, que es su CEO desde el arranque, Joe Lonsdale, Stephen Cohen y Nathan Gettings. El nombre viene de las piedras videntes de El Señor de los Anillos. Salió a la bolsa en 2020 y tiene su sede en Estados Unidos.",
+      "Lo que vende es software que junta datos que una organización ya tiene pero guarda en sistemas separados, como planillas, bases de datos, sensores e informes, y los conecta en un único modelo de las cosas reales de las que se trata: personas, lugares, vehículos, envíos, repuestos. **Gotham** se hizo para agencias de inteligencia, policías y fuerzas armadas. **Foundry** hace lo mismo para empresas, desde aerolíneas que siguen sus repuestos hasta fábricas que planifican la producción. **AIP** suma modelos de IA que trabajan sobre esos datos conectados.",
+      "Es una de las empresas tech más discutidas. Quienes la defienden señalan su trabajo en defensa, salud pública y logística; quienes la critican se preocupan por la vigilancia estatal, sus contratos con el control migratorio de Estados Unidos y el poder que gana una empresa privada al estar en el centro de tantos datos sensibles. En algo coinciden los dos lados: su software suele quedar muy metido en las organizaciones que lo adoptan."
+    ],
+    "analogy": "El corcho de un detective, con fotos, mapas y notas unidas con hilo, pero armado a partir de millones de registros y actualizado solo.",
+    "keyPoints": [
+      "Fundada en 2003; Alex Karp es CEO desde el principio.",
+      "Gotham atiende a gobiernos y defensa; Foundry a empresas; AIP suma IA encima.",
+      "Su idea central es unir datos dispersos en un modelo de las cosas del mundo real.",
+      "Su trabajo con gobiernos y vigilancia la vuelve polémica."
+    ],
+    "links": [
+      { "label": "Palantir Technologies en Wikipedia", "url": "https://es.wikipedia.org/wiki/Palantir_Technologies" },
+      { "label": "Palantir (sitio oficial, en inglés)", "url": "https://www.palantir.com/" }
+    ]
+  }
+}

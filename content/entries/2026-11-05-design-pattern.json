@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-design-pattern",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 3,
+  "aliases": {
+    "en": ["design patterns", "software design pattern", "software design patterns", "Gang of Four", "anti-pattern", "anti-patterns", "observer pattern", "singleton pattern"],
+    "es": ["patrones de diseño", "Gang of Four", "antipatrón", "antipatrones", "patrón observer", "patrón singleton"]
+  },
+  "image": "img/2026-11-05-design-pattern.svg",
+  "imageAlt": {
+    "en": "The observer pattern: one subject notifies three subscribed observers when it changes, drawn like a reusable blueprint",
+    "es": "El patrón observer: un sujeto avisa a tres observadores suscriptos cuando cambia, dibujado como un plano reutilizable"
+  },
+  "en": {
+    "title": "Design pattern",
+    "tagline": "A named, reusable solution to a problem that keeps showing up in software design.",
+    "explanation": [
+      "A **design pattern** is a proven way to structure code for a recurring problem, described in general terms so you can adapt it to your own program. It is not a library you install or code you paste: it is a shape, with a name, a typical situation where it helps, and its trade-offs. The idea was borrowed from architecture and popularized in 1994 by the book Design Patterns, whose four authors are known as the **Gang of Four**. It catalogued 23 patterns for object-oriented programming.",
+      "A few examples. The **observer pattern** lets one object notify many others when something changes, without knowing who they are: it is behind every \"subscribe\" and event listener, from a spreadsheet updating its charts to a UI reacting to a click. The strategy pattern swaps one algorithm for another behind the same interface, like choosing between shipping calculators. The adapter wraps a component with an incompatible interface so it fits, the way a travel plug adapter does. The factory centralizes how objects are created, and the singleton ensures there is only one instance of something.",
+      "The biggest value is shared vocabulary. Saying \"put an adapter in front of the old payments API\" communicates a whole design in five words during a code review. Patterns also travel beyond classes: retries with backoff, circuit breakers, publish and subscribe, and the many patterns of microservices and cloud architecture follow the same idea. The risk is the opposite: forcing patterns where a plain function would do adds layers nobody needs. A pattern that reliably causes trouble is called an **anti-pattern**."
+    ],
+    "analogy": "Recipes in a cookbook for techniques rather than dishes: how to make a roux, how to emulsify a sauce. Every cook adapts them to their own dish, and saying \"start with a roux\" tells another cook exactly what you mean.",
+    "keyPoints": [
+      "A design pattern is a named, general solution to a recurring design problem.",
+      "The 1994 Gang of Four book catalogued 23 classic object-oriented patterns.",
+      "Their main value is a shared vocabulary for discussing designs.",
+      "Overusing patterns adds needless complexity; some habits are anti-patterns."
+    ],
+    "links": [
+      { "label": "Software design pattern on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_design_pattern" },
+      { "label": "Design patterns catalog (Refactoring.Guru)", "url": "https://refactoring.guru/design-patterns" }
+    ]
+  },
+  "es": {
+    "title": "Patrón de diseño",
+    "tagline": "Una solución con nombre y reutilizable para un problema de diseño que se repite.",
+    "explanation": [
+      "Un **patrón de diseño** es una forma probada de estructurar código para un problema que se repite, descripta en términos generales para que la adaptes a tu propio programa. No es una librería que instalás ni código que pegás: es una forma, con un nombre, una situación típica en la que ayuda y sus contras. La idea se tomó de la arquitectura y se popularizó en 1994 con el libro Design Patterns, cuyos cuatro autores son conocidos como la **Gang of Four** (la \"banda de los cuatro\"). Ese libro catalogó 23 patrones para programación orientada a objetos.",
+      "Algunos ejemplos. El **patrón observer** permite que un objeto avise a muchos otros cuando algo cambia, sin saber quiénes son: está detrás de cada \"suscribirse\" y de cada listener de eventos, desde una planilla que actualiza sus gráficos hasta una interfaz que reacciona a un clic. El patrón strategy cambia un algoritmo por otro detrás de la misma interfaz, como elegir entre distintas formas de calcular un envío. El adapter envuelve un componente con una interfaz incompatible para que encaje, como un adaptador de enchufe de viaje. El factory centraliza cómo se crean los objetos, y el singleton garantiza que haya una sola instancia de algo.",
+      "Su mayor valor es el vocabulario compartido. Decir \"poné un adapter delante de la API vieja de pagos\" transmite un diseño entero en pocas palabras durante un code review. Los patrones además van más allá de las clases: los reintentos con espera creciente, los circuit breakers, publicar y suscribirse, y los muchos patrones de microservicios y de arquitectura en la nube siguen la misma idea. El riesgo es el contrario: forzar patrones donde alcanzaba con una función simple agrega capas que nadie necesita. Un patrón que trae problemas una y otra vez se llama **antipatrón**."
+    ],
+    "analogy": "Un libro de cocina de técnicas, no de platos: cómo hacer una salsa blanca, cómo emulsionar un aderezo. Cada cocinero las adapta a su plato, y decir \"arrancá con una salsa blanca\" le dice a otro cocinero exactamente qué querés decir.",
+    "keyPoints": [
+      "Un patrón de diseño es una solución general y con nombre para un problema de diseño que se repite.",
+      "El libro de la Gang of Four, de 1994, catalogó 23 patrones clásicos orientados a objetos.",
+      "Su valor principal es un vocabulario compartido para hablar de diseño.",
+      "Abusar de los patrones agrega complejidad innecesaria; algunos hábitos son antipatrones."
+    ],
+    "links": [
+      { "label": "Patrón de diseño en Wikipedia", "url": "https://es.wikipedia.org/wiki/Patrón_de_diseño" },
+      { "label": "Catálogo de patrones de diseño (Refactoring.Guru)", "url": "https://refactoring.guru/es/design-patterns" }
+    ]
+  }
+}

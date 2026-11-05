@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="40" cy="96" r="8" fill="#e6dfd0"/>
+    <circle cx="40" cy="124" r="8" fill="#e6dfd0"/>
+    <circle cx="62" cy="110" r="8" fill="#e6dfd0"/>
+    <circle cx="40" cy="152" r="8" fill="#e6dfd0"/>
+    <circle cx="62" cy="138" r="8" fill="#e6dfd0"/>
+    <rect x="160" y="28" width="120" height="76" rx="8" fill="#f3efe6"/>
+    <rect x="182" y="64" width="76" height="24" rx="12" fill="#9ac7ea"/>
+    <rect x="160" y="128" width="120" height="76" rx="8" fill="#f3efe6"/>
+    <rect x="182" y="164" width="76" height="24" rx="12" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M82 116 L150 70"/><path d="M142 70 l8 0 -3 7"/>
+    <path d="M82 132 L150 170"/><path d="M143 172 l7 -2 -3 -7"/>
+    <path d="M288 66 H306"/><path d="M288 166 H306"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="220" y="52">version A</text>
+    <text x="220" y="152">version B</text>
+    <text x="220" y="81" font-size="12">Buy</text>
+    <text x="220" y="181" font-size="12">Buy</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="344" y="71">4% buy</text>
+    <text x="344" y="171">5% buy</text>
+  </g>
+  <text x="112" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">coin flip</text>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">random groups, one change, compare</text>
+</svg>

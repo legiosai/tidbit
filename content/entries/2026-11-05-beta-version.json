@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-beta-version",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["beta versions", "beta", "betas", "public beta", "beta testing", "beta tester", "beta testers", "alpha version", "release candidate"],
+    "es": ["versiones beta", "beta", "betas", "beta pública", "beta tester", "beta testers", "versión alfa", "release candidate"]
+  },
+  "image": "img/2026-11-05-beta-version.svg",
+  "imageAlt": {
+    "en": "A timeline from alpha to beta to release candidate to stable, with a growing crowd of testers at each step",
+    "es": "Una línea de tiempo de alfa a beta, a release candidate y a estable, con cada vez más gente probando en cada paso"
+  },
+  "en": {
+    "title": "Beta version",
+    "tagline": "An almost-finished version of software, released early so real users can find problems.",
+    "explanation": [
+      "Before a program is officially launched it goes through stages. The **alpha version** is rough and tested mostly inside the company. The **beta** is mostly feature-complete but not yet polished: it is handed to a wider group of real users, the **beta testers**, precisely so they hit the bugs the team did not find. Just before launch there may be a **release candidate**, a version that will become final unless something serious appears. The final one is called stable.",
+      "A beta can be closed, with invited testers only, or a **public beta** that anyone can join. Apple, Google and Microsoft all publish betas of their next operating systems months ahead, and apps often have a beta channel you can sign up for. In return for early access, testers accept crashes, odd behavior and lost data now and then, and are asked to report what goes wrong.",
+      "The label also became a way to manage expectations. Calling something beta tells users it may change or break, and gives the company room to adjust it based on how people actually use it. Some products, famously Gmail in its first years, kept the beta label for a long time even while millions relied on them. If you depend on a device for work, it is usually wise not to install a beta on it."
+    ],
+    "analogy": "The preview performances of a play before opening night. The show is basically ready, but the audience is invited knowing that a scene may be cut or a line rewritten depending on how they react.",
+    "keyPoints": [
+      "Alpha is rough and internal; beta is almost complete and shared with real users.",
+      "Beta testers get early access in exchange for bugs and feedback.",
+      "A release candidate is the version that ships unless something serious appears.",
+      "Avoid betas on devices you need to work reliably."
+    ],
+    "links": [
+      { "label": "Software release life cycle on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_release_life_cycle" },
+      { "label": "TestFlight, Apple's beta testing service", "url": "https://developer.apple.com/testflight/" }
+    ]
+  },
+  "es": {
+    "title": "Versión beta",
+    "tagline": "Un programa casi terminado que se larga antes para que usuarios reales encuentren fallas.",
+    "explanation": [
+      "Antes de lanzarse oficialmente, un programa pasa por etapas. La **versión alfa** está verde y se prueba casi solo adentro de la empresa. La **beta** ya tiene casi todas sus funciones pero le falta pulir: se le da a un grupo más amplio de usuarios reales, los **beta testers**, justamente para que se choquen con los bugs que el equipo no encontró. Justo antes del lanzamiento puede haber un **release candidate**, una versión que va a ser la final salvo que aparezca algo grave. La final se llama estable.",
+      "Una beta puede ser cerrada, solo para invitados, o una **beta pública** a la que se puede sumar cualquiera. Apple, Google y Microsoft publican betas de sus próximos sistemas operativos meses antes, y muchas apps tienen un canal beta al que te podés anotar. A cambio de tener todo antes, los testers aceptan cuelgues, comportamientos raros y algún dato perdido, y se les pide que avisen qué sale mal.",
+      "La etiqueta también se volvió una forma de manejar expectativas. Decir que algo es beta les avisa a los usuarios que puede cambiar o romperse, y le da a la empresa margen para ajustarlo según cómo lo usa la gente de verdad. Algunos productos, como Gmail en sus primeros años, mantuvieron el cartel de beta muchísimo tiempo aunque millones dependían de ellos. Si usás un aparato para trabajar, en general conviene no instalarle una beta."
+    ],
+    "analogy": "Las funciones de preestreno de una obra de teatro. El espectáculo está prácticamente listo, pero el público entra sabiendo que una escena se puede cortar o una línea se puede reescribir según cómo reaccione.",
+    "keyPoints": [
+      "La alfa está verde y es interna; la beta está casi completa y la prueban usuarios reales.",
+      "Los beta testers tienen acceso anticipado a cambio de bugs y comentarios.",
+      "El release candidate es la versión que sale salvo que aparezca algo grave.",
+      "Mejor no instalar betas en aparatos que necesitás que anden bien."
+    ],
+    "links": [
+      { "label": "Versión beta en Wikipedia", "url": "https://es.wikipedia.org/wiki/Versión_beta" },
+      { "label": "Fases del desarrollo de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fases_del_desarrollo_de_software" }
+    ]
+  }
+}

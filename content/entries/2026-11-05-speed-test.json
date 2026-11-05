@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-speed-test",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["speed tests", "internet speed test", "internet speed tests", "Speedtest"],
+    "es": ["tests de velocidad", "test de velocidad de internet", "prueba de velocidad", "pruebas de velocidad", "speed test", "Speedtest"]
+  },
+  "image": "img/2026-11-05-speed-test.svg",
+  "imageAlt": {
+    "en": "A speedometer-style gauge with three readings below it: ping in milliseconds, download and upload in megabits per second",
+    "es": "Un medidor tipo velocímetro con tres lecturas abajo: ping en milisegundos, bajada y subida en megabits por segundo"
+  },
+  "en": {
+    "title": "Speed test",
+    "tagline": "A quick check of how fast your internet connection really is right now.",
+    "explanation": [
+      "A **speed test** is a website or app that measures your internet connection in a few seconds. It connects to a nearby test server and reports three numbers: **download** speed, how fast data reaches you; **upload** speed, how fast you can send it; and **ping**, how long a small message takes to go and come back. Speeds are shown in megabits per second (Mbps), ping in milliseconds (ms).",
+      "To measure download, it pulls as much data as it can for a few seconds over several connections at once and divides by the time; upload is the same in reverse. Popular ones are Ookla's Speedtest, Netflix's Fast.com and M-Lab's open test, which also publishes its results for researchers.",
+      "The result is a snapshot of the whole path, not just of the plan you pay your ISP for. A weak Wi-Fi signal, an old router, a busy evening in the neighborhood or a test server far away can all pull the number down. To check what your plan delivers, test with a cable, close other downloads and repeat at different times of day."
+    ],
+    "analogy": "Like timing how long it takes to fill a bucket from your tap. It tells you what the water does at that moment, but a half-closed valve in your own house can make the city's pipes look worse than they are.",
+    "keyPoints": [
+      "It reports download, upload (both in Mbps) and ping (in ms).",
+      "Most home plans give much more download than upload.",
+      "Wi-Fi, other devices and server distance all affect the result.",
+      "For a fair reading, use a cable and test several times."
+    ],
+    "links": [
+      { "label": "Fast.com, Netflix's speed test", "url": "https://fast.com/" },
+      { "label": "M-Lab open speed test", "url": "https://speed.measurementlab.net/" },
+      { "label": "Speedtest.net on Wikipedia", "url": "https://en.wikipedia.org/wiki/Speedtest.net" }
+    ]
+  },
+  "es": {
+    "title": "Test de velocidad",
+    "tagline": "Una medición rápida de qué tan rápida es de verdad tu conexión a internet ahora mismo.",
+    "explanation": [
+      "Un **test de velocidad** es una página o una app que mide tu conexión a internet en unos segundos. Se conecta a un servidor de prueba cercano y te da tres números: la velocidad de **bajada**, qué tan rápido te llegan los datos; la de **subida**, qué tan rápido podés mandarlos; y el **ping**, cuánto tarda un mensajito en ir y volver. Las velocidades se muestran en megabits por segundo (Mbps) y el ping en milisegundos (ms).",
+      "Para medir la bajada, baja todos los datos que puede durante unos segundos por varias conexiones a la vez y divide por el tiempo; la subida es lo mismo al revés. Los más conocidos son Speedtest de Ookla, Fast.com de Netflix y el test abierto de M-Lab, que además publica sus resultados para investigadores.",
+      "El resultado es una foto de todo el camino, no solo del plan que le pagás a tu ISP. Una señal de Wi-Fi floja, un router viejo, el horario pico del barrio o un servidor de prueba lejano pueden bajar el número. Para saber si te dan lo que pagás, medí con cable, cerrá otras descargas y repetí en distintos horarios."
+    ],
+    "analogy": "Como cronometrar cuánto tarda en llenarse un balde con la canilla. Te dice qué hace el agua en ese momento, pero una llave de paso medio cerrada en tu casa puede hacer que la red de agua parezca peor de lo que es.",
+    "keyPoints": [
+      "Informa bajada, subida (las dos en Mbps) y ping (en ms).",
+      "La mayoría de los planes hogareños dan mucha más bajada que subida.",
+      "El Wi-Fi, otros equipos y la distancia al servidor afectan el resultado.",
+      "Para una medición justa, usá cable y repetí varias veces."
+    ],
+    "links": [
+      { "label": "Fast.com, el test de velocidad de Netflix", "url": "https://fast.com/" },
+      { "label": "Test de velocidad abierto de M-Lab (en inglés)", "url": "https://speed.measurementlab.net/" },
+      { "label": "Speedtest.net en Wikipedia", "url": "https://es.wikipedia.org/wiki/Speedtest.net" }
+    ]
+  }
+}

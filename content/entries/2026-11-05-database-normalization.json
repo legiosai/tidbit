@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-database-normalization",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data normalization", "normalized tables", "normal form", "normal forms", "denormalization", "denormalized", "third normal form", "3NF"],
+    "es": ["normalización de datos", "tablas normalizadas", "forma normal", "formas normales", "desnormalización", "desnormalizado", "tercera forma normal", "3FN"]
+  },
+  "image": "img/2026-11-05-database-normalization.svg",
+  "imageAlt": {
+    "en": "One wide table repeating a customer's address on every order is split into a customers table and an orders table linked by a customer id",
+    "es": "Una tabla ancha que repite la dirección de un cliente en cada pedido se divide en una tabla de clientes y una de pedidos unidas por un id de cliente"
+  },
+  "en": {
+    "title": "Database normalization",
+    "tagline": "Organizing tables so each fact is stored in exactly one place.",
+    "explanation": [
+      "**Database normalization** is a way of designing the tables of a relational database so that each piece of information lives in one place only. Imagine an orders table where every row repeats the customer's name, email and address. If the customer moves, you must update fifty rows, and if you miss one, the database now disagrees with itself.",
+      "Normalizing splits that table in two: a customers table with each customer once, and an orders table that only stores the customer's id, a foreign key pointing to the customers table. To see orders with addresses, you join them back in a query. The rules for how far to split are called **normal forms**; in practice most designs aim for the **third normal form** (3NF), which roughly means every column depends on the row's key and nothing else.",
+      "Normalization suits systems that write a lot, like a shop's order system, because each update touches one row and data stays consistent. Analytics goes the other way: data warehouses often **denormalize** on purpose, repeating data into wide tables or a star schema so reports need fewer joins and run faster. Both are deliberate choices, not right and wrong."
+    ],
+    "analogy": "Like keeping a friend's address in your phone's contacts instead of writing it on every birthday reminder. When they move, you change it once and every reminder is right.",
+    "keyPoints": [
+      "Each fact is stored once; other tables point to it with keys.",
+      "Avoids contradictions when data is updated.",
+      "Most designs aim for third normal form (3NF).",
+      "Analytics often denormalizes on purpose for faster reads."
+    ],
+    "links": [
+      { "label": "Database normalization on Wikipedia", "url": "https://en.wikipedia.org/wiki/Database_normalization" }
+    ]
+  },
+  "es": {
+    "title": "Normalización de bases de datos",
+    "tagline": "Ordenar las tablas para que cada dato esté guardado en un solo lugar.",
+    "explanation": [
+      "La **normalización de bases de datos** es una forma de diseñar las tablas de una base de datos relacional para que cada dato viva en un único lugar. Imaginá una tabla de pedidos donde cada fila repite el nombre, el mail y la dirección del cliente. Si el cliente se muda, tenés que actualizar cincuenta filas, y si te salteás una, la base pasa a contradecirse sola.",
+      "Normalizar es partir esa tabla en dos: una tabla de clientes con cada cliente una sola vez, y una de pedidos que solo guarda el id del cliente, una clave foránea que apunta a la tabla de clientes. Para ver los pedidos con las direcciones, las volvés a unir en una consulta con un join. Las reglas de hasta dónde partir se llaman **formas normales**; en la práctica, la mayoría de los diseños apunta a la **tercera forma normal** (3FN), que más o menos quiere decir que cada columna depende de la clave de la fila y de nada más.",
+      "La normalización le sienta bien a los sistemas que escriben mucho, como el sistema de pedidos de una tienda, porque cada actualización toca una sola fila y los datos quedan consistentes. El análisis de datos va para el otro lado: los data warehouses muchas veces **desnormalizan** a propósito, repitiendo datos en tablas anchas o en un esquema en estrella para que los reportes necesiten menos joins y anden más rápido. Las dos son decisiones de diseño, no una correcta y otra incorrecta."
+    ],
+    "analogy": "Como guardar la dirección de un amigo en los contactos del celular en vez de escribirla en cada recordatorio de cumpleaños. Si se muda, la cambiás una vez y todos los recordatorios quedan bien.",
+    "keyPoints": [
+      "Cada dato se guarda una vez; las otras tablas lo apuntan con claves.",
+      "Evita contradicciones cuando se actualizan los datos.",
+      "La mayoría de los diseños apunta a la tercera forma normal (3FN).",
+      "El análisis de datos suele desnormalizar a propósito para leer más rápido."
+    ],
+    "links": [
+      { "label": "Normalización de bases de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos" }
+    ]
+  }
+}

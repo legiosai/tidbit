@@ -11,15 +11,12 @@
       "brute-force",
       "brute force attack",
       "brute-force attacks",
-      "dictionary attack",
-      "credential stuffing"
+      "dictionary attack"
     ],
     "es": [
       "fuerza bruta",
       "ataques de fuerza bruta",
-      "ataque de diccionario",
-      "credential stuffing",
-      "relleno de credenciales"
+      "ataque de diccionario"
     ]
   },
   "image": "img/2026-10-17-brute-force-attack.svg",

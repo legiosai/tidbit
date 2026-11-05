@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-amazon-connect",
+  "date": "2026-11-06",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["Amazon Connect Customer"],
+    "es": ["Amazon Connect Customer"]
+  },
+  "image": "img/2026-11-06-amazon-connect.svg",
+  "imageAlt": {
+    "en": "Calls, chats and emails enter Amazon Connect, pass through a bot and a queue, and reach agents working from their browsers",
+    "es": "Llamadas, chats y mails entran a Amazon Connect, pasan por un bot y una cola, y llegan a agentes que trabajan desde el navegador"
+  },
+  "en": {
+    "title": "Amazon Connect",
+    "tagline": "A cloud contact center from AWS: phone lines, chat, bots and agents, paid as you use it.",
+    "explanation": [
+      "**Amazon Connect** is AWS's service for running a customer contact center in the cloud. Instead of buying phone switches and call center software, a company opens a Connect instance, claims phone numbers, and its agents answer calls and chats from a web browser, from the office or from home. Amazon built it from the system it used for its own customer service and launched it in 2017.",
+      "The core is the **contact flow**: a diagram, drawn with drag and drop, that decides what happens to each contact. \"Greet the caller, ask what it is about, if it is a lost card send it to the cards queue, outside business hours offer a callback.\" Flows can call a voice bot that understands natural speech, look up the customer in a database through Lambda, and route to the agent with the right skills.",
+      "Pricing is per minute and per use, with no seats to buy, which lets a company scale from five agents to five hundred for a busy season and back. On top of the basics it offers call recording and transcription, sentiment analysis of conversations, and generative AI that suggests answers to agents or handles simple requests alone. AWS now calls the contact center product **Amazon Connect Customer**, and uses the Amazon Connect name for a wider family of products."
+    ],
+    "analogy": "Renting a fully equipped call center by the minute: the phones, the waiting line, the hold music and the recordings come with the building, and you only bring the people.",
+    "keyPoints": [
+      "Agents work from a browser; no phone hardware to buy.",
+      "Contact flows decide routing, menus, bots and queues.",
+      "Pay per minute and per feature, not per seat.",
+      "Now sold as Amazon Connect Customer, part of a larger Amazon Connect family."
+    ],
+    "links": [
+      { "label": "What is Amazon Connect? (official docs)", "url": "https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html" },
+      { "label": "Amazon Connect", "url": "https://aws.amazon.com/connect/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Connect",
+    "tagline": "Un call center en la nube de AWS: líneas, chat, bots y agentes, pagando lo que usás.",
+    "explanation": [
+      "**Amazon Connect** es el servicio de AWS para tener un centro de contacto con clientes en la nube. En vez de comprar centrales telefónicas y software de call center, una empresa crea una instancia de Connect, consigue números de teléfono y sus agentes atienden llamadas y chats desde el navegador, en la oficina o desde su casa. Amazon lo armó a partir del sistema que usaba para su propia atención al cliente y lo lanzó en 2017.",
+      "El corazón es el **flujo de contacto** (contact flow): un diagrama, armado arrastrando bloques, que decide qué pasa con cada contacto. \"Saludar, preguntar el motivo, si es una tarjeta perdida mandarlo a la cola de tarjetas, fuera de horario ofrecer que lo llamemos.\" Los flujos pueden llamar a un bot de voz que entiende lenguaje natural, buscar al cliente en una base de datos a través de Lambda y derivar al agente que sabe del tema.",
+      "Se paga por minuto y por uso, sin licencias por puesto, así una empresa puede pasar de cinco agentes a quinientos para una temporada fuerte y volver. Además de lo básico, trae grabación y transcripción de llamadas, análisis de sentimiento de las conversaciones e IA generativa que le sugiere respuestas al agente o resuelve sola los pedidos simples. Hoy AWS llama al producto de centro de contacto **Amazon Connect Customer**, y usa el nombre Amazon Connect para una familia más amplia de productos."
+    ],
+    "analogy": "Alquilar por minuto un call center equipado: los teléfonos, la fila de espera, la musiquita y las grabaciones vienen con el edificio, y vos solo ponés a la gente.",
+    "keyPoints": [
+      "Los agentes trabajan desde el navegador; no hay que comprar telefonía.",
+      "Los flujos de contacto definen derivaciones, menús, bots y colas.",
+      "Se paga por minuto y por función, no por puesto.",
+      "Hoy se vende como Amazon Connect Customer, dentro de una familia Amazon Connect más grande."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Connect? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/connect/latest/adminguide/what-is-amazon-connect.html" },
+      { "label": "Amazon Connect", "url": "https://aws.amazon.com/es/connect/" }
+    ]
+  }
+}

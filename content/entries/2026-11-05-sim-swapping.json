@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-sim-swapping",
+  "date": "2026-11-05",
+  "subjects": ["security", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["SIM swap", "SIM swaps", "SIM swap scam", "SIM swap fraud", "SIM hijacking", "SIM-swapping"],
+    "es": ["SIM swap", "duplicado de SIM", "duplicación de SIM", "robo de línea", "fraude de SIM swapping", "SIM-swapping"]
+  },
+  "image": "img/2026-11-05-sim-swapping.svg",
+  "imageAlt": {
+    "en": "A scammer convinces the phone carrier to move a victim's number to a new SIM; the bank's verification code then goes to the scammer's phone instead of the victim's",
+    "es": "Un estafador convence a la operadora de pasar el número de la víctima a una SIM nueva; el código de verificación del banco termina llegando al celular del estafador en vez del de la víctima"
+  },
+  "en": {
+    "title": "SIM swapping",
+    "tagline": "A scam where someone takes over your phone number to receive your security codes.",
+    "explanation": [
+      "In **SIM swapping**, a criminal convinces your mobile carrier to move your phone number to a SIM card or eSIM they control. They call or visit a store pretending to be you, with personal data gathered from a data breach, social media or social engineering, and say they lost their phone. Sometimes they simply bribe an employee.",
+      "The moment the swap goes through, your phone loses signal and their phone starts receiving your calls and text messages. That includes the codes banks, email and crypto exchanges send by SMS to reset a password or confirm a login. With your number in hand, they can lock you out of your accounts within minutes.",
+      "The warning sign is sudden: no service where you normally have it. Call your carrier from another phone right away. To protect yourself, ask your carrier for a PIN or extra check before any SIM change, and where possible use an authenticator app or passkeys instead of SMS codes for 2FA."
+    ],
+    "analogy": "Like someone persuading the post office that they are you and getting all your mail forwarded to their address. Your letters keep arriving, just not to you, and among them are the keys to everything.",
+    "keyPoints": [
+      "The attacker moves your number to their SIM by fooling or bribing the carrier.",
+      "They then receive your SMS codes and can reset your passwords.",
+      "Sudden loss of signal is the main warning sign.",
+      "Prefer authenticator apps or passkeys to SMS for 2FA, and add a carrier PIN."
+    ],
+    "links": [
+      { "label": "SIM swap scam on Wikipedia", "url": "https://en.wikipedia.org/wiki/SIM_swap_scam" }
+    ]
+  },
+  "es": {
+    "title": "SIM swapping",
+    "tagline": "Una estafa en la que alguien se queda con tu número para recibir tus códigos de seguridad.",
+    "explanation": [
+      "En el **SIM swapping** (o duplicado de SIM), un delincuente convence a tu operadora de pasar tu número de teléfono a una tarjeta SIM o eSIM que controla él. Llama o va a un local haciéndose pasar por vos, con datos personales sacados de una filtración de datos, de redes sociales o con ingeniería social, y dice que perdió el celular. A veces directamente soborna a un empleado.",
+      "En cuanto se hace el cambio, tu celular se queda sin señal y el suyo empieza a recibir tus llamadas y tus SMS. Eso incluye los códigos que mandan por mensaje el banco, el mail o los exchanges de cripto para recuperar una contraseña o confirmar un inicio de sesión. Con tu número en la mano, puede dejarte afuera de tus cuentas en minutos.",
+      "La señal de alarma es repentina: te quedás sin servicio donde siempre tenés. Llamá a tu operadora desde otro teléfono enseguida. Para cuidarte, pedile a la operadora un PIN o una verificación extra antes de cualquier cambio de SIM y, donde se pueda, usá una app autenticadora o passkeys en vez de códigos por SMS para el 2FA."
+    ],
+    "analogy": "Como si alguien convenciera al correo de que es vos y consiguiera que te desvíen toda la correspondencia a su casa. Tus cartas siguen llegando, pero no a vos, y entre ellas están las llaves de todo.",
+    "keyPoints": [
+      "El atacante pasa tu número a su SIM engañando o sobornando a la operadora.",
+      "Desde ahí recibe tus códigos por SMS y puede resetear tus contraseñas.",
+      "Quedarte sin señal de golpe es la principal señal de alarma.",
+      "Preferí apps autenticadoras o passkeys antes que SMS para el 2FA, y sumá un PIN en la operadora."
+    ],
+    "links": [
+      { "label": "SIM swapping en Wikipedia", "url": "https://es.wikipedia.org/wiki/SIM_swapping" }
+    ]
+  }
+}

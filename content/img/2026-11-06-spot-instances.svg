@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="28" width="150" height="182" rx="10" fill="#e6dfd0"/>
+    <rect x="44" y="42" width="122" height="26" rx="5" fill="#9ac7ea"/>
+    <rect x="44" y="76" width="122" height="26" rx="5" fill="#9ac7ea"/>
+    <rect x="44" y="110" width="122" height="26" rx="5" fill="#9bd1b9"/>
+    <rect x="44" y="144" width="122" height="26" rx="5" fill="#9bd1b9"/>
+    <rect x="44" y="178" width="122" height="26" rx="5" fill="#9bd1b9"/>
+    <rect x="250" y="174" width="134" height="34" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M190 40 V104"/><path d="M190 110 V170"/>
+    <path d="M166 191 H246"/><path d="M240 187 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="105" y="60">on-demand</text><text x="105" y="94">on-demand</text>
+    <text x="105" y="128">spot</text><text x="105" y="162">spot</text><text x="105" y="196">spot</text>
+    <text x="317" y="195">2-minute notice</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="262" y="76">full price</text><text x="262" y="142">up to ~90% off</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">cheap spare capacity · can be taken back</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-supervised-and-unsupervised-learning",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["supervised learning", "unsupervised learning", "self-supervised learning", "labeled data"],
+    "es": ["aprendizaje supervisado", "aprendizaje no supervisado", "aprendizaje autosupervisado", "datos etiquetados"]
+  },
+  "image": "img/2026-11-06-supervised-and-unsupervised-learning.svg",
+  "imageAlt": {
+    "en": "On the left, examples tagged cat or dog teach a model a rule; on the right, untagged dots are sorted into two groups the model found on its own",
+    "es": "A la izquierda, ejemplos etiquetados como gato o perro le enseñan una regla a un modelo; a la derecha, puntos sin etiqueta quedan separados en dos grupos que el modelo encontró solo"
+  },
+  "en": {
+    "title": "Supervised and unsupervised learning",
+    "tagline": "Two ways a machine learns: from examples with answers, or by finding patterns on its own.",
+    "explanation": [
+      "In **supervised learning**, every training example comes with the right answer attached, called a label. Thousands of emails marked \"spam\" or \"not spam\", photos of skin marked \"benign\" or \"malignant\", past apartments with their sale price. The model studies the pairs and learns a rule that maps input to answer, so it can predict the label for something new. Sorting into categories is called classification; predicting a number, like a price, is regression.",
+      "In **unsupervised learning**, there are no answers. The model gets raw data and looks for structure: customers that behave alike (clustering), transactions that look nothing like the rest (anomaly detection, useful against fraud), or a simpler way to describe the data. Nobody tells it what the groups mean; a person has to look at them and decide whether they are useful.",
+      "The difference matters because labels are expensive: someone has to write them, often by hand. That is why a third approach became central: **self-supervised learning**, where the data labels itself. Large language models learn this way, by hiding the next word of a real text and trying to guess it, which turns the whole internet into practice material without anyone labeling it."
+    ],
+    "analogy": "Supervised is studying with an answer key: you check every exercise. Unsupervised is being handed a box of mixed buttons and sorting them into piles that seem to belong together, with no one telling you the right piles.",
+    "keyPoints": [
+      "Supervised: examples come with labels; the model learns to predict them.",
+      "Unsupervised: no labels; the model finds groups and outliers.",
+      "Labeling data is slow and costly, so it often decides which approach is used.",
+      "LLMs are trained mostly with self-supervised learning on plain text."
+    ],
+    "links": [
+      { "label": "Supervised vs. unsupervised learning (IBM)", "url": "https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning" },
+      { "label": "Supervised learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Supervised_learning" },
+      { "label": "Unsupervised learning on Wikipedia", "url": "https://en.wikipedia.org/wiki/Unsupervised_learning" }
+    ]
+  },
+  "es": {
+    "title": "Aprendizaje supervisado y no supervisado",
+    "tagline": "Dos formas de aprender de una máquina: con ejemplos resueltos o buscando patrones sola.",
+    "explanation": [
+      "En el **aprendizaje supervisado**, cada ejemplo de entrenamiento viene con la respuesta correcta pegada, que se llama etiqueta. Miles de mails marcados como \"spam\" o \"no spam\", fotos de lunares marcadas como \"benigno\" o \"maligno\", departamentos vendidos con su precio. El modelo estudia los pares y aprende una regla que va de la entrada a la respuesta, así puede predecir la etiqueta de algo nuevo. Ordenar en categorías se llama clasificación; predecir un número, como un precio, se llama regresión.",
+      "En el **aprendizaje no supervisado** no hay respuestas. El modelo recibe los datos en crudo y busca estructura: clientes que se comportan parecido (clustering), operaciones que no se parecen a ninguna otra (detección de anomalías, útil contra el fraude), o una forma más simple de describir los datos. Nadie le dice qué significan los grupos; una persona tiene que mirarlos y decidir si sirven.",
+      "La diferencia importa porque las etiquetas son caras: alguien las tiene que escribir, muchas veces a mano. Por eso se volvió central un tercer enfoque, el **aprendizaje autosupervisado**, donde los datos se etiquetan solos. Los modelos de lenguaje grandes aprenden así: tapan la palabra siguiente de un texto real y tratan de adivinarla, lo que convierte a internet entera en material de práctica sin que nadie etiquete nada."
+    ],
+    "analogy": "El supervisado es estudiar con las respuestas al final del libro: corregís cada ejercicio. El no supervisado es que te den una caja de botones mezclados y los separes en pilas que parecen ir juntas, sin que nadie te diga cuáles son las pilas correctas.",
+    "keyPoints": [
+      "Supervisado: los ejemplos traen etiqueta y el modelo aprende a predecirla.",
+      "No supervisado: sin etiquetas; el modelo encuentra grupos y casos raros.",
+      "Etiquetar datos es lento y caro, y muchas veces eso decide qué enfoque se usa.",
+      "Los LLMs se entrenan sobre todo con aprendizaje autosupervisado sobre texto común."
+    ],
+    "links": [
+      { "label": "Aprendizaje supervisado vs. no supervisado (IBM)", "url": "https://www.ibm.com/es-es/think/topics/supervised-vs-unsupervised-learning" },
+      { "label": "Aprendizaje supervisado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aprendizaje_supervisado" },
+      { "label": "Aprendizaje no supervisado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aprendizaje_no_supervisado" }
+    ]
+  }
+}

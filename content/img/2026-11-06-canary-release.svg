@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="34" cy="96" r="9" fill="#9ac7ea"/><circle cx="34" cy="120" r="9" fill="#9ac7ea"/><circle cx="34" cy="144" r="9" fill="#9ac7ea"/>
+    <rect x="76" y="100" width="76" height="40" rx="8" fill="#e6dfd0"/>
+    <rect x="226" y="40" width="112" height="60" rx="10" fill="#9ac7ea"/>
+    <rect x="226" y="140" width="112" height="60" rx="10" fill="#ffd166"/>
+    <ellipse cx="362" cy="134" rx="13" ry="9" fill="#ffd166"/>
+    <circle cx="372" cy="122" r="7" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M46 120 H72"/><path d="M66 116 l6 4 -6 4"/>
+    <path d="M152 112 H190 V70 H222"/><path d="M216 66 l6 4 -6 4"/>
+    <path d="M152 128 H190 V170 H222"/><path d="M216 166 l6 4 -6 4"/>
+    <path d="M378 120 l7 2 -7 2"/>
+  </g>
+  <circle cx="374" cy="120" r="1.5" fill="#2b2b2b"/>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="114" y="124">router</text><text x="282" y="68">v1 current</text><text x="282" y="168">v2 new</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="206" y="60">95%</text><text x="206" y="188">5%</text><text x="282" y="86">all good</text><text x="282" y="186">watched</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">few users first · then everyone</text>
+</svg>

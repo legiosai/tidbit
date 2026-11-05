@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-06-http3-and-quic",
+  "date": "2026-11-06",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["HTTP/3", "QUIC", "HTTP3"],
+    "es": ["HTTP/3", "QUIC", "HTTP3"]
+  },
+  "image": "img/2026-11-06-http3-and-quic.svg",
+  "imageAlt": {
+    "en": "Two protocol stacks side by side: HTTP/2 on TLS on TCP on IP, and HTTP/3 on QUIC (with TLS built in) on UDP on IP; below, a lost packet blocks all streams on TCP but only one stream on QUIC",
+    "es": "Dos pilas de protocolos lado a lado: HTTP/2 sobre TLS sobre TCP sobre IP, y HTTP/3 sobre QUIC (con TLS adentro) sobre UDP sobre IP; abajo, un paquete perdido frena todos los streams en TCP pero uno solo en QUIC"
+  },
+  "en": {
+    "title": "HTTP/3 and QUIC",
+    "tagline": "The newest version of the web's protocol, running on QUIC instead of TCP.",
+    "explanation": [
+      "For thirty years, HTTP traffic traveled over TCP, the protocol that guarantees bytes arrive complete and in order. **QUIC** replaces TCP for the web. Started at Google around 2012 and standardized by the IETF in 2021 (RFC 9000), it runs on top of UDP and rebuilds reliability, ordering and congestion control itself, in software that browsers and servers can update quickly. **HTTP/3** (RFC 9114, 2022) is simply HTTP carried over QUIC.",
+      "The first win is **head-of-line blocking**. HTTP/2 already sent many files at once over a single TCP connection, but TCP sees only one stream of bytes: if one packet is lost, everything behind it waits, even data for unrelated images. QUIC knows about the separate streams, so a lost packet only stalls the one it belongs to. On lossy mobile and Wi-Fi networks that makes a visible difference.",
+      "The second is setup time. TCP plus TLS needs a couple of round trips before the first useful byte; QUIC builds encryption (TLS 1.3) into its own handshake, so a new connection usually takes one round trip, and a returning client can sometimes send data immediately (0-RTT, with some replay-attack caveats). Almost everything in QUIC is encrypted, including much of the header that middleboxes used to inspect.",
+      "Third, a QUIC connection is identified by a **connection ID**, not by IP address and port, so it survives your phone hopping from Wi-Fi to 5G. Today Chrome, Firefox and Safari speak HTTP/3, and Google, Meta and Cloudflare serve a large share of traffic with it. Browsers learn a site supports it through an `Alt-Svc` header or a DNS record, and fall back to HTTP/2 over TCP when UDP is blocked by a firewall."
+    ],
+    "analogy": "A single conveyor belt versus a row of separate belts. On TCP, if one box falls off the belt, the whole line stops until it is put back. QUIC gives each order its own belt, so a dropped box only delays that order.",
+    "keyPoints": [
+      "HTTP/3 is HTTP over QUIC; QUIC runs over UDP and replaces TCP plus TLS.",
+      "Independent streams avoid head-of-line blocking when packets are lost.",
+      "Faster setup: one round trip for new connections, 0-RTT for repeat visits.",
+      "Connection IDs let a session survive switching networks; browsers fall back to HTTP/2 if UDP is blocked."
+    ],
+    "links": [
+      { "label": "RFC 9000, QUIC", "url": "https://www.rfc-editor.org/rfc/rfc9000" },
+      { "label": "RFC 9114, HTTP/3", "url": "https://www.rfc-editor.org/rfc/rfc9114" },
+      { "label": "HTTP/3 on Wikipedia", "url": "https://en.wikipedia.org/wiki/HTTP/3" }
+    ]
+  },
+  "es": {
+    "title": "HTTP/3 y QUIC",
+    "tagline": "La versión más nueva del protocolo de la web, que corre sobre QUIC en vez de TCP.",
+    "explanation": [
+      "Durante treinta años, el tráfico HTTP viajó sobre TCP, el protocolo que garantiza que los bytes lleguen completos y en orden. **QUIC** reemplaza a TCP para la web. Empezó en Google alrededor de 2012 y la IETF lo estandarizó en 2021 (RFC 9000); corre arriba de UDP y reconstruye por su cuenta la confiabilidad, el orden y el control de congestión, en un software que navegadores y servidores pueden actualizar rápido. **HTTP/3** (RFC 9114, 2022) es simplemente HTTP transportado sobre QUIC.",
+      "La primera ganancia es el **bloqueo de cabeza de línea** (head-of-line blocking). HTTP/2 ya mandaba muchos archivos a la vez por una sola conexión TCP, pero TCP ve un único chorro de bytes: si se pierde un paquete, todo lo que viene atrás espera, aunque sean datos de imágenes que no tienen nada que ver. QUIC conoce los streams por separado, así que un paquete perdido frena solo al suyo. En redes móviles y Wi-Fi con pérdidas, la diferencia se nota.",
+      "La segunda es el tiempo de arranque. TCP más TLS necesitan un par de idas y vueltas antes del primer byte útil; QUIC mete el cifrado (TLS 1.3) en su propio saludo inicial, así que una conexión nueva suele tardar una sola ida y vuelta, y un cliente que vuelve a veces puede mandar datos de entrada (0-RTT, con algunos reparos por ataques de repetición). Casi todo en QUIC va cifrado, incluida buena parte del encabezado que antes inspeccionaban los equipos intermedios.",
+      "Tercero, una conexión QUIC se identifica con un **connection ID**, no con la dirección IP y el puerto, así que sobrevive a que tu celular pase del Wi-Fi al 5G. Hoy Chrome, Firefox y Safari hablan HTTP/3, y Google, Meta y Cloudflare sirven buena parte de su tráfico así. El navegador se entera de que un sitio lo soporta por un encabezado `Alt-Svc` o un registro de DNS, y vuelve a HTTP/2 sobre TCP cuando un firewall bloquea UDP."
+    ],
+    "analogy": "Una sola cinta transportadora contra varias cintas separadas. En TCP, si una caja se cae de la cinta, toda la línea para hasta que la vuelven a poner. QUIC le da a cada pedido su propia cinta, así que una caja caída solo demora ese pedido.",
+    "keyPoints": [
+      "HTTP/3 es HTTP sobre QUIC; QUIC corre sobre UDP y reemplaza a TCP más TLS.",
+      "Los streams independientes evitan el bloqueo de cabeza de línea cuando se pierden paquetes.",
+      "Arranque más rápido: una ida y vuelta para conexiones nuevas, 0-RTT para visitas repetidas.",
+      "El connection ID mantiene la sesión al cambiar de red; si UDP está bloqueado, el navegador vuelve a HTTP/2."
+    ],
+    "links": [
+      { "label": "RFC 9000, QUIC (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc9000" },
+      { "label": "HTTP/3 en Wikipedia", "url": "https://es.wikipedia.org/wiki/HTTP/3" },
+      { "label": "QUIC en Wikipedia", "url": "https://es.wikipedia.org/wiki/QUIC" }
+    ]
+  }
+}

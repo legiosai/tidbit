@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-06-chain-of-thought",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["chain-of-thought", "chain-of-thought prompting", "chains of thought"],
+    "es": ["chain of thought", "chain-of-thought", "cadenas de pensamiento", "cadena de razonamiento"]
+  },
+  "image": "img/2026-11-06-chain-of-thought.svg",
+  "imageAlt": {
+    "en": "A question goes through three written steps before reaching the right answer, while a shortcut straight to the answer lands on a wrong guess",
+    "es": "Una pregunta pasa por tres pasos escritos antes de llegar a la respuesta correcta, mientras que un atajo directo termina en una respuesta equivocada"
+  },
+  "en": {
+    "title": "Chain of thought",
+    "tagline": "Letting an AI model write out its reasoning step by step before it answers.",
+    "explanation": [
+      "**Chain of thought** is the intermediate reasoning a language model writes before giving its final answer. Instead of jumping from \"a store had 23 apples, used 20 and bought 6 more, how many now?\" straight to a number, the model writes \"23 minus 20 is 3, plus 6 is 9\" and only then answers 9.",
+      "It works because a model produces text one token at a time, and each new token can build on everything written before. Writing the steps gives the model room to work: partial results end up on the page instead of having to be held \"in its head\". A 2022 Google paper showed that just including worked examples like this in the prompt made large models much better at math and logic puzzles; soon after, people found that adding \"let's think step by step\" helped too.",
+      "Today this is often built in. **Reasoning models** are trained to produce a long chain of thought before answering, and many apps let you see it, or a summary of it. Two cautions: thinking costs time and tokens, so it is not worth it for simple questions; and the written chain is not guaranteed to be the real reason behind the answer. It is useful for checking work, but it is not a perfect window into the model."
+    ],
+    "analogy": "A teacher who says \"show your work\" on a math test. Writing each step helps you catch your own mistakes, and lets someone else see where you went wrong.",
+    "keyPoints": [
+      "The model writes intermediate steps before the final answer.",
+      "It helps most on math, logic and multi-step problems.",
+      "Reasoning models are trained to do it on their own.",
+      "The written steps may not fully reflect how the answer was really reached."
+    ],
+    "links": [
+      { "label": "Let Claude think: chain-of-thought prompting (Claude docs)", "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought" },
+      { "label": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al., 2022)", "url": "https://arxiv.org/abs/2201.11903" },
+      { "label": "Chain-of-thought prompting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Chain-of-thought_prompting" }
+    ]
+  },
+  "es": {
+    "title": "Cadena de pensamiento",
+    "tagline": "Dejar que un modelo de IA escriba su razonamiento paso a paso antes de contestar.",
+    "explanation": [
+      "La **cadena de pensamiento** (chain of thought) es el razonamiento intermedio que escribe un modelo de lenguaje antes de dar la respuesta final. En lugar de saltar de \"una verdulería tenía 23 manzanas, usó 20 y compró 6 más, ¿cuántas tiene?\" directo a un número, el modelo escribe \"23 menos 20 da 3, más 6 da 9\" y recién ahí contesta 9.",
+      "Funciona porque el modelo genera texto de a un token por vez, y cada token nuevo se apoya en todo lo que ya escribió. Escribir los pasos le da lugar para trabajar: los resultados parciales quedan en la página en vez de tener que sostenerlos \"de memoria\". Un paper de Google de 2022 mostró que con solo poner en el prompt ejemplos resueltos así, los modelos grandes mejoraban mucho en matemática y problemas de lógica; poco después se vio que agregar \"pensemos paso a paso\" también ayudaba.",
+      "Hoy esto muchas veces viene incorporado. Los **modelos de razonamiento** están entrenados para producir una cadena de pensamiento larga antes de responder, y muchas apps te la muestran, completa o resumida. Dos advertencias: pensar cuesta tiempo y tokens, así que no vale la pena para preguntas simples; y la cadena escrita no garantiza ser el motivo real de la respuesta. Sirve para revisar el trabajo, pero no es una ventana perfecta a lo que pasa adentro del modelo."
+    ],
+    "analogy": "La maestra que en la prueba de matemática pide \"dejá las cuentas\". Escribir cada paso te ayuda a encontrar tus propios errores y le deja ver a otro dónde te equivocaste.",
+    "keyPoints": [
+      "El modelo escribe pasos intermedios antes de la respuesta final.",
+      "Ayuda sobre todo en matemática, lógica y problemas de varios pasos.",
+      "Los modelos de razonamiento están entrenados para hacerlo solos.",
+      "Los pasos escritos pueden no reflejar del todo cómo se llegó de verdad a la respuesta."
+    ],
+    "links": [
+      { "label": "Dejá pensar a Claude: cadena de pensamiento (documentación de Claude)", "url": "https://platform.claude.com/docs/es/build-with-claude/prompt-engineering/chain-of-thought" },
+      { "label": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al., 2022, en inglés)", "url": "https://arxiv.org/abs/2201.11903" }
+    ]
+  }
+}

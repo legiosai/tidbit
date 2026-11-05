@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="96" width="96" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="170" y="30" width="110" height="44" rx="8" fill="#9ac7ea"/>
+    <rect x="170" y="96" width="110" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="170" y="162" width="110" height="44" rx="8" fill="#ffd166"/>
+    <rect x="320" y="36" width="56" height="32" rx="4" fill="#9ac7ea"/>
+    <rect x="320" y="102" width="56" height="32" rx="4" fill="#9bd1b9"/>
+    <rect x="320" y="168" width="56" height="32" rx="4" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M118 112 L164 56"/><path d="M118 118 H164"/><path d="M118 124 L164 180"/>
+    <path d="M282 52 H316"/><path d="M282 118 H316"/><path d="M282 184 H316"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="68" y="122">a = b + c</text>
+    <text x="225" y="49">x86</text><text x="225" y="65">add eax, ebx</text>
+    <text x="225" y="115">ARM</text><text x="225" y="131">add x0, x1, x2</text>
+    <text x="225" y="181">RISC-V</text><text x="225" y="197">add a0, a1, a2</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="348" y="56">chip</text><text x="348" y="122">chip</text><text x="348" y="188">chip</text>
+  </g>
+  <text x="68" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">your code</text>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">same idea, three vocabularies</text>
+</svg>

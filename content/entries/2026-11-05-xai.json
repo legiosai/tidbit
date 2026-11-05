@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-05-xai",
+  "date": "2026-11-05",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Grok", "X.AI", "SpaceXAI", "SpaceX Super Intelligence"],
+    "es": ["Grok", "X.AI", "SpaceXAI", "SpaceX Super Intelligence"]
+  },
+  "image": "img/2026-11-05-xai.svg",
+  "imageAlt": {
+    "en": "A huge cluster of GPU racks trains the Grok model, which answers users inside the X social network and in its own app",
+    "es": "Un cluster enorme de racks de GPUs entrena el modelo Grok, que responde a usuarios dentro de la red social X y en su propia app"
+  },
+  "en": {
+    "title": "xAI",
+    "tagline": "Elon Musk's AI company, maker of the Grok chatbot built into X.",
+    "explanation": [
+      "**xAI** is an artificial intelligence company founded by Elon Musk in 2023, with a team of researchers from labs like Google DeepMind and OpenAI. Musk had been one of OpenAI's co-founders and later became one of its loudest critics; xAI was his way of building a direct competitor. Its main product is **Grok**, a family of large language models and the chatbot of the same name.",
+      "Grok's distinctive feature is its home: it lives inside **X**, the social network formerly called Twitter, and can read posts in real time to answer questions about what is happening right now. It also has its own app and website, generates images and video, and is sold to developers through an API. To train it, xAI built **Colossus** in Memphis, Tennessee, one of the largest clusters of NVIDIA GPUs in the world, put together in a matter of months.",
+      "The company's structure has changed fast. In 2025 it merged with X, so the chatbot and the social network became one business. In 2026 SpaceX acquired it, and it now operates as a SpaceX subsidiary under the name SpaceX Super Intelligence. Grok has repeatedly drawn criticism for offensive answers and for generating sexual deepfakes of real people, and Colossus for the pollution from the gas turbines that power it."
+    ],
+    "analogy": "A newsroom wired directly into the busiest town square: it hears every conversation as it happens, which makes it fast and current, and also exposes it to everything said there.",
+    "keyPoints": [
+      "Founded by Elon Musk in 2023 to compete with OpenAI.",
+      "Its product is Grok, a chatbot and model family built into X.",
+      "Trains its models on Colossus, a giant GPU cluster in Memphis.",
+      "Merged with X in 2025 and was acquired by SpaceX in 2026."
+    ],
+    "links": [
+      { "label": "xAI (official site)", "url": "https://x.ai/" },
+      { "label": "xAI on Wikipedia", "url": "https://en.wikipedia.org/wiki/XAI_(company)" },
+      { "label": "Grok on Wikipedia", "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)" }
+    ]
+  },
+  "es": {
+    "title": "xAI",
+    "tagline": "La empresa de IA de Elon Musk, creadora del chatbot Grok integrado en X.",
+    "explanation": [
+      "**xAI** es una empresa de inteligencia artificial que fundó Elon Musk en 2023, con un equipo de investigadores salidos de laboratorios como Google DeepMind y OpenAI. Musk había sido uno de los cofundadores de OpenAI y después se convirtió en uno de sus críticos más ruidosos; xAI fue su forma de armar un competidor directo. Su producto principal es **Grok**, una familia de modelos de lenguaje y el chatbot del mismo nombre.",
+      "Lo distintivo de Grok es dónde vive: está metido adentro de **X**, la red social que antes se llamaba Twitter, y puede leer los posts en tiempo real para responder sobre lo que está pasando ahora mismo. También tiene su propia app y sitio, genera imágenes y video, y se vende a desarrolladores a través de una API. Para entrenarlo, xAI armó **Colossus** en Memphis, Tennessee, uno de los clusters de GPUs de NVIDIA más grandes del mundo, montado en cuestión de meses.",
+      "La estructura de la empresa cambió rápido. En 2025 se fusionó con X, así que el chatbot y la red social pasaron a ser un solo negocio. En 2026 la compró SpaceX, y hoy funciona como una subsidiaria de SpaceX con el nombre SpaceX Super Intelligence. Grok recibió críticas varias veces por respuestas ofensivas y por generar deepfakes sexuales de personas reales, y Colossus por la contaminación de las turbinas a gas que lo alimentan."
+    ],
+    "analogy": "Una redacción conectada directo a la plaza más concurrida del pueblo: escucha cada conversación en el momento, lo que la hace rápida y actual, y también la expone a todo lo que se dice ahí.",
+    "keyPoints": [
+      "Fundada por Elon Musk en 2023 para competir con OpenAI.",
+      "Su producto es Grok, un chatbot y una familia de modelos integrados en X.",
+      "Entrena sus modelos en Colossus, un cluster gigante de GPUs en Memphis.",
+      "Se fusionó con X en 2025 y la compró SpaceX en 2026."
+    ],
+    "links": [
+      { "label": "xAI en Wikipedia", "url": "https://es.wikipedia.org/wiki/XAI" },
+      { "label": "Grok en Wikipedia", "url": "https://es.wikipedia.org/wiki/Grok_(chatbot)" },
+      { "label": "xAI (sitio oficial, en inglés)", "url": "https://x.ai/" }
+    ]
+  }
+}

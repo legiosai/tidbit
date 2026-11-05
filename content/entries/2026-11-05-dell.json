@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-dell",
+  "date": "2026-11-05",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["Dell Technologies", "Dell Inc.", "Dell EMC", "PowerEdge"],
+    "es": ["Dell Technologies", "Dell Inc.", "Dell EMC", "PowerEdge"]
+  },
+  "image": "img/2026-11-05-dell.svg",
+  "imageAlt": {
+    "en": "Two sides of the same company: laptops and desktops for people and offices, and racks of servers and storage for data centers",
+    "es": "Dos caras de la misma empresa: notebooks y computadoras de escritorio para personas y oficinas, y racks de servidores y almacenamiento para data centers"
+  },
+  "en": {
+    "title": "Dell",
+    "tagline": "The American maker of PCs for offices and servers for data centers.",
+    "explanation": [
+      "**Dell** is an American computer company founded in 1984 by Michael Dell, who started it from his dorm room at the University of Texas at Austin, assembling PCs and selling them directly to customers. Skipping the shops and building each machine to order kept prices low and made it one of the largest PC makers of the 1990s. It is based in Round Rock, Texas, and its parent company is called **Dell Technologies**.",
+      "Today it has two big halves. One sells laptops and desktops, mostly to companies, under lines like Latitude, XPS and the Alienware gaming brand, plus monitors and accessories. The other sells the infrastructure behind corporate IT: **PowerEdge** servers, storage systems and networking gear. That second half grew with the purchase of EMC, a storage giant, in 2016, one of the largest tech acquisitions ever at the time.",
+      "In the AI boom, Dell has become one of the main builders of servers packed with NVIDIA GPUs, which it sells to companies and cloud providers that want their own AI infrastructure. It has also gone from public to private and back: Michael Dell took it private in 2013 and it returned to the stock market in 2018."
+    ],
+    "analogy": "A furniture maker that sells desks and chairs to every office, and also builds the warehouses' heavy shelving: the same factory skills, two very different customers.",
+    "keyPoints": [
+      "Founded in 1984 by Michael Dell; known for selling direct, built to order.",
+      "Sells PCs and laptops, mainly to businesses.",
+      "Also sells servers and storage; bought EMC in 2016.",
+      "A major builder of GPU servers for AI."
+    ],
+    "links": [
+      { "label": "Dell (official site)", "url": "https://www.dell.com/" },
+      { "label": "Dell on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dell" }
+    ]
+  },
+  "es": {
+    "title": "Dell",
+    "tagline": "El fabricante estadounidense de PCs para oficinas y servidores para data centers.",
+    "explanation": [
+      "**Dell** es una empresa estadounidense de computadoras fundada en 1984 por Michael Dell, que la arrancó desde su cuarto en la residencia de la Universidad de Texas en Austin, armando PCs y vendiéndolas directo a los clientes. Saltearse los comercios y armar cada máquina a pedido le permitió tener precios bajos y la convirtió en uno de los mayores fabricantes de PCs de los años 90. Tiene sede en Round Rock, Texas, y su empresa madre se llama **Dell Technologies**.",
+      "Hoy tiene dos grandes mitades. Una vende notebooks y computadoras de escritorio, sobre todo a empresas, con líneas como Latitude, XPS y la marca gamer Alienware, además de monitores y accesorios. La otra vende la infraestructura detrás de la informática de las empresas: servidores **PowerEdge**, sistemas de almacenamiento y equipos de red. Esa segunda mitad creció con la compra de EMC, un gigante del almacenamiento, en 2016, una de las adquisiciones tech más grandes de la historia hasta ese momento.",
+      "Con el boom de la IA, Dell pasó a ser uno de los principales armadores de servidores llenos de GPUs de NVIDIA, que vende a empresas y proveedores de nube que quieren su propia infraestructura de IA. Además pasó de cotizar en bolsa a ser privada y de vuelta: Michael Dell la sacó de la bolsa en 2013 y volvió a cotizar en 2018."
+    ],
+    "analogy": "Una fábrica de muebles que les vende escritorios y sillas a todas las oficinas y además construye las estanterías pesadas de los depósitos: el mismo oficio, dos clientes muy distintos.",
+    "keyPoints": [
+      "Fundada en 1984 por Michael Dell; conocida por vender directo y armar a pedido.",
+      "Vende PCs y notebooks, sobre todo a empresas.",
+      "También vende servidores y almacenamiento; compró EMC en 2016.",
+      "Es una de las grandes armadoras de servidores con GPUs para IA."
+    ],
+    "links": [
+      { "label": "Dell en Wikipedia", "url": "https://es.wikipedia.org/wiki/Dell" },
+      { "label": "Dell (sitio oficial, en inglés)", "url": "https://www.dell.com/" }
+    ]
+  }
+}

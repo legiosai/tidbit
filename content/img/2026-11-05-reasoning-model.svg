@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="92" width="70" height="50" rx="10" fill="#9ac7ea"/>
+    <rect x="120" y="40" width="160" height="150" rx="24" fill="#e6dfd0"/>
+    <rect x="140" y="62" width="120" height="28" rx="6" fill="#ffd166"/>
+    <rect x="140" y="102" width="120" height="28" rx="6" fill="#ffd166"/>
+    <rect x="140" y="142" width="120" height="28" rx="6" fill="#ffd166"/>
+    <rect x="310" y="92" width="70" height="50" rx="10" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M92 117 H114"/><path d="M108 113 l6 4 -6 4"/>
+    <path d="M282 117 H304"/><path d="M298 113 l6 4 -6 4"/>
+    <path d="M200 90 v10"/><path d="M200 130 v10"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="55" y="122">question</text><text x="345" y="122">answer</text>
+    <text x="200" y="81">1. split it up</text><text x="200" y="121">2. try a path</text><text x="200" y="161">3. check it</text>
+  </g>
+  <text x="200" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">thinking tokens</text>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">think first, then answer</text>
+</svg>

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-temperature",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["sampling temperature", "model temperature", "temperature setting", "temperature parameter"],
+    "es": ["temperatura de muestreo", "temperatura del modelo", "parámetro de temperatura"]
+  },
+  "image": "img/2026-11-05-temperature.svg",
+  "imageAlt": {
+    "en": "Two bar charts of next-word probabilities: at low temperature one word towers over the rest, at high temperature the bars are almost even",
+    "es": "Dos gráficos de barras con probabilidades de la próxima palabra: con temperatura baja una palabra domina, con temperatura alta las barras quedan casi parejas"
+  },
+  "en": {
+    "title": "Temperature",
+    "tagline": "The setting that makes an AI model's answers more predictable or more varied.",
+    "explanation": [
+      "An LLM writes one token at a time, and at every step it has a list of possible next tokens, each with a probability. **Temperature** is a number you send with your request that changes how the model picks from that list. The name is borrowed from physics, where heat makes particles move more randomly.",
+      "At a low temperature, close to 0, the model almost always takes the most likely option. Answers become focused, repetitive and very similar from one run to the next. At a higher temperature the less likely options get a real chance, so the text becomes more varied and surprising, and past a point also more rambling and error-prone. The range depends on the provider: Anthropic's API accepts 0 to 1, OpenAI's 0 to 2.",
+      "In practice: keep it low for tasks with one right answer, like pulling data out of an invoice, classifying a message or writing code; raise it for brainstorming, names or fiction where you want options. Even at 0 the output is not guaranteed to be identical every time, and some newer reasoning models fix the temperature and do not let you change it. Temperature is often combined with **top-p**, which cuts off the long tail of unlikely tokens."
+    ],
+    "analogy": "Ordering at your usual café. At low temperature you get your regular, every single time. Turn it up and the waiter starts suggesting the special of the day, and at the very top, something nobody has ever ordered.",
+    "keyPoints": [
+      "Controls how much randomness goes into picking each next token.",
+      "Low means focused and consistent; high means varied and creative.",
+      "Low for extraction, classification and code; higher for ideas.",
+      "Ranges differ by provider, and 0 does not guarantee identical output."
+    ],
+    "links": [
+      { "label": "Messages API reference, temperature parameter (Anthropic)", "url": "https://docs.anthropic.com/en/api/messages" },
+      { "label": "Softmax function and temperature on Wikipedia", "url": "https://en.wikipedia.org/wiki/Softmax_function" }
+    ]
+  },
+  "es": {
+    "title": "Temperatura",
+    "tagline": "El ajuste que hace que las respuestas de un modelo de IA sean más previsibles o variadas.",
+    "explanation": [
+      "Un LLM escribe de a un token por vez, y en cada paso tiene una lista de posibles tokens siguientes, cada uno con una probabilidad. La **temperatura** es un número que mandás junto con tu pedido y que cambia cómo elige el modelo dentro de esa lista. El nombre viene de la física, donde el calor hace que las partículas se muevan de forma más desordenada.",
+      "Con una temperatura baja, cerca de 0, el modelo casi siempre se queda con la opción más probable. Las respuestas salen enfocadas, repetitivas y muy parecidas de una vez a la otra. Con una temperatura más alta, las opciones menos probables tienen chances reales, así que el texto sale más variado y sorprendente, y pasado cierto punto también más divagante y con más errores. El rango depende del proveedor: la API de Anthropic acepta de 0 a 1, la de OpenAI de 0 a 2.",
+      "En la práctica: dejala baja para tareas con una sola respuesta correcta, como sacar datos de una factura, clasificar un mensaje o escribir código; subila para tirar ideas, buscar nombres o escribir ficción, cuando querés opciones. Ni siquiera en 0 está garantizado que la salida sea idéntica cada vez, y algunos modelos de razonamiento nuevos fijan la temperatura y no te dejan tocarla. Muchas veces se combina con **top-p**, que corta la cola larga de tokens poco probables."
+    ],
+    "analogy": "Pedir en tu café de siempre. Con la temperatura baja te traen lo de siempre, todas las veces. Si la subís, el mozo empieza a sugerirte el plato del día, y al máximo, algo que nadie pidió nunca.",
+    "keyPoints": [
+      "Controla cuánto azar entra en la elección de cada token siguiente.",
+      "Baja es enfocada y constante; alta es variada y creativa.",
+      "Baja para extraer datos, clasificar y programar; más alta para ideas.",
+      "Los rangos cambian según el proveedor, y 0 no garantiza la misma salida."
+    ],
+    "links": [
+      { "label": "Referencia de la Messages API, parámetro temperature (Anthropic, en inglés)", "url": "https://docs.anthropic.com/en/api/messages" },
+      { "label": "Función softmax en Wikipedia", "url": "https://es.wikipedia.org/wiki/Funci%C3%B3n_softmax" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-amazon-quicksight",
+  "date": "2026-11-06",
+  "subjects": ["aws", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["QuickSight", "Amazon Quick Sight", "Quick Sight"],
+    "es": ["QuickSight", "Amazon Quick Sight", "Quick Sight"]
+  },
+  "image": "img/2026-11-06-amazon-quicksight.svg",
+  "imageAlt": {
+    "en": "Data from S3, Redshift and a CSV file flows into QuickSight, which turns it into a dashboard with bar, pie and line charts",
+    "es": "Datos de S3, Redshift y un archivo CSV entran a QuickSight, que los convierte en un tablero con gráficos de barras, de torta y de líneas"
+  },
+  "en": {
+    "title": "Amazon QuickSight",
+    "tagline": "AWS's tool for turning company data into charts and dashboards people can explore.",
+    "explanation": [
+      "**Amazon QuickSight** is AWS's business intelligence service: it connects to your data, lets you build charts and dashboards, and shares them with the people who need them, in a browser, with nothing to install. A sales team can open a dashboard every morning and see revenue by region, filter by product and drill into last week, without writing SQL.",
+      "It reads from many sources: files in S3, databases in RDS, a Redshift data warehouse, Athena queries, spreadsheets, or outside tools like Salesforce. Data can be queried live or loaded into **SPICE**, QuickSight's in-memory engine, which makes dashboards fast and avoids hitting the source database every time someone clicks. Dashboards can also be embedded inside your own web app, so your customers see their own numbers.",
+      "Pricing is mostly per user, with readers paying less than authors who build dashboards, which makes it cheaper to spread across a large company than many classic BI tools. It has also added generative AI: you can type a question like \"which store sold the most in March?\" and get a chart back. In 2025 AWS folded it into a broader product, Amazon Quick, where it now appears as **Quick Sight**."
+    ],
+    "analogy": "A shop window for your company's numbers: the data stays in the storeroom, and QuickSight arranges it on display so anyone walking by can read it at a glance.",
+    "keyPoints": [
+      "Serverless BI on AWS: dashboards in the browser, nothing to install.",
+      "Connects to S3, Redshift, Athena, RDS, spreadsheets and SaaS tools.",
+      "SPICE is its in-memory engine that keeps dashboards fast.",
+      "Now part of Amazon Quick, under the name Quick Sight."
+    ],
+    "links": [
+      { "label": "What is Amazon Quick? (official docs)", "url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html" },
+      { "label": "Quick Sight (AWS)", "url": "https://aws.amazon.com/quick/quicksight/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon QuickSight",
+    "tagline": "La herramienta de AWS para convertir los datos de una empresa en gráficos y tableros.",
+    "explanation": [
+      "**Amazon QuickSight** es el servicio de business intelligence de AWS: se conecta a tus datos, te deja armar gráficos y tableros (dashboards) y compartirlos con quienes los necesitan, desde el navegador y sin instalar nada. Un equipo de ventas puede abrir un tablero cada mañana y ver la facturación por región, filtrar por producto y meterse en el detalle de la semana pasada, sin escribir SQL.",
+      "Lee de muchas fuentes: archivos en S3, bases de datos en RDS, un data warehouse en Redshift, consultas de Athena, planillas o herramientas externas como Salesforce. Los datos se pueden consultar en vivo o cargar en **SPICE**, el motor en memoria de QuickSight, que hace que los tableros respondan rápido y evita castigar la base de origen cada vez que alguien hace clic. Los tableros también se pueden embeber dentro de tu propia app web, para que tus clientes vean sus números.",
+      "Se cobra sobre todo por usuario, y quienes solo miran pagan menos que quienes arman tableros, así que sale más barato repartirlo en una empresa grande que muchas herramientas de BI clásicas. También sumó IA generativa: escribís una pregunta como \"¿qué sucursal vendió más en marzo?\" y te devuelve un gráfico. En 2025 AWS lo integró a un producto más amplio, Amazon Quick, donde ahora aparece como **Quick Sight**."
+    ],
+    "analogy": "La vidriera de los números de la empresa: los datos quedan en el depósito, y QuickSight los acomoda a la vista para que cualquiera que pase los entienda de un vistazo.",
+    "keyPoints": [
+      "BI serverless en AWS: tableros en el navegador, sin instalar nada.",
+      "Se conecta a S3, Redshift, Athena, RDS, planillas y herramientas SaaS.",
+      "SPICE es su motor en memoria, que mantiene rápidos los tableros.",
+      "Hoy es parte de Amazon Quick, con el nombre Quick Sight."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Quick? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/quick/latest/userguide/what-is.html" },
+      { "label": "Quick Sight (AWS)", "url": "https://aws.amazon.com/es/quick/quicksight/" }
+    ]
+  }
+}

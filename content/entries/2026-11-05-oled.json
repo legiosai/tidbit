@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-oled",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["OLED screen", "OLED screens", "OLED display", "OLED displays", "AMOLED", "organic light-emitting diode", "burn-in"],
+    "es": ["pantalla OLED", "pantallas OLED", "AMOLED", "diodo orgánico emisor de luz", "burn-in", "quemado de pantalla"]
+  },
+  "image": "img/2026-11-05-oled.svg",
+  "imageAlt": {
+    "en": "Side by side: an LCD with one backlight behind all pixels, and an OLED where each pixel makes its own light and black pixels are simply off",
+    "es": "Lado a lado: una LCD con una sola luz de fondo detrás de todos los píxeles, y una OLED donde cada píxel hace su propia luz y los negros están apagados"
+  },
+  "en": {
+    "title": "OLED",
+    "tagline": "A screen where every pixel makes its own light, so black is truly off.",
+    "explanation": [
+      "Most screens for years were LCDs: a white light shines from behind, and a layer of tiny shutters lets more or less of it through each colored pixel. An **OLED** (organic light-emitting diode) screen works differently. Each pixel is made of a material that glows by itself when electricity runs through it. There is no backlight at all.",
+      "That changes a lot. A black pixel on an OLED is just switched off, so blacks look truly black, even in a dark room, and contrast is very high. Screens can be thinner and even bend, which is how foldable phones exist. And a dark background actually saves battery, because off pixels use no power. Most high-end phones, many smartwatches and a growing number of TVs and laptops use OLED; Samsung calls its version **AMOLED**.",
+      "The trade-offs: OLED is more expensive to make, and the glowing material slowly wears out with use. If the same bright image stays in the same place for a very long time, like a TV channel logo, it can leave a faint permanent ghost, called **burn-in**. Modern screens shift pixels and dim static elements to make that rare."
+    ],
+    "analogy": "An LCD is a stained-glass window with one big lamp behind it: to show black, it has to block the lamp, and a little light always leaks. An OLED is a stadium crowd holding phone flashlights: each person can turn theirs on, change its color, or just turn it off.",
+    "keyPoints": [
+      "Each pixel produces its own light; there is no backlight.",
+      "True blacks and very high contrast, because black pixels are off.",
+      "Thinner and flexible, which makes foldable phones possible.",
+      "Can suffer burn-in if a bright static image stays on for very long."
+    ],
+    "links": [
+      { "label": "OLED on Wikipedia", "url": "https://en.wikipedia.org/wiki/OLED" }
+    ]
+  },
+  "es": {
+    "title": "OLED",
+    "tagline": "Una pantalla donde cada píxel hace su propia luz, así que el negro está apagado de verdad.",
+    "explanation": [
+      "Durante años la mayoría de las pantallas fueron LCD: una luz blanca ilumina desde atrás y una capa de persianitas diminutas deja pasar más o menos luz por cada píxel de color. Una pantalla **OLED** (diodo orgánico emisor de luz) funciona distinto. Cada píxel está hecho de un material que brilla solo cuando le pasa electricidad. No hay luz de fondo.",
+      "Eso cambia mucho. Un píxel negro en una OLED simplemente está apagado, así que los negros se ven negros de verdad, aun en una pieza a oscuras, y el contraste es altísimo. Las pantallas pueden ser más finas y hasta doblarse: así existen los celulares plegables. Y un fondo oscuro ahorra batería de verdad, porque los píxeles apagados no consumen. La mayoría de los celulares de gama alta, muchos relojes inteligentes y cada vez más televisores y notebooks usan OLED; Samsung le dice **AMOLED** a su versión.",
+      "Las contras: fabricarla es más caro, y el material que brilla se gasta de a poco con el uso. Si la misma imagen brillante queda en el mismo lugar muchísimo tiempo, como el logo de un canal de tele, puede dejar un fantasma tenue y permanente, el **burn-in** o quemado de pantalla. Las pantallas modernas mueven los píxeles un poquito y atenúan los elementos fijos para que pase muy poco."
+    ],
+    "analogy": "Una LCD es un vitral con una lámpara grande atrás: para mostrar negro tiene que tapar la lámpara, y siempre se escapa un poco de luz. Una OLED es una cancha llena de gente con la linterna del celular: cada uno puede prender la suya, cambiarle el color o directamente apagarla.",
+    "keyPoints": [
+      "Cada píxel genera su propia luz; no hay luz de fondo.",
+      "Negros reales y contraste altísimo, porque los píxeles negros están apagados.",
+      "Más fina y flexible: por eso existen los celulares plegables.",
+      "Puede sufrir burn-in si una imagen fija y brillante queda mucho tiempo."
+    ],
+    "links": [
+      { "label": "OLED en Wikipedia", "url": "https://es.wikipedia.org/wiki/OLED" }
+    ]
+  }
+}

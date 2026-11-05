@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-06-uber",
+  "date": "2026-11-06",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Uber Eats", "Uber Technologies"],
+    "es": ["Uber Eats", "Uber Technologies"]
+  },
+  "image": "img/2026-11-06-uber.svg",
+  "imageAlt": {
+    "en": "A rider's phone and a driver's phone both connect to Uber's matching system on a map, which pairs them, sets the price and keeps a cut of the fare",
+    "es": "El teléfono de un pasajero y el de un conductor se conectan con el sistema de Uber sobre un mapa, que los empareja, fija el precio y se queda con una parte del viaje"
+  },
+  "en": {
+    "title": "Uber",
+    "tagline": "An app that matches people who need a ride, or a meal, with nearby drivers.",
+    "explanation": [
+      "**Uber** was founded in San Francisco in 2009 by Garrett Camp and Travis Kalanick. It owns almost no cars. What it runs is a **marketplace**: an app where riders ask for a trip and independent drivers, using their own vehicles, accept it. Uber sets the price, handles the payment and keeps a share of each fare.",
+      "The hard part is software working in real time. Every few seconds, drivers' phones send their GPS position; when you request a ride, the system looks for the nearest available drivers, estimates arrival times and routes, and makes the match. When demand is higher than the drivers available, as on a rainy Friday night, prices go up automatically. That **surge pricing** is meant to bring more drivers onto the road and make some riders wait.",
+      "The same machinery moves other things: **Uber Eats** delivers food from restaurants, and Uber also does package delivery and freight. The model has been controversial: taxi drivers have protested in many cities, some places banned or restricted it, and courts in several countries have debated whether its drivers are independent contractors or employees who deserve labor protections. The company went public in 2019."
+    ],
+    "analogy": "A dispatcher at a radio taxi company, but for a whole city, without owning the cars, and with a computer that knows where every driver is at every second.",
+    "keyPoints": [
+      "Founded in San Francisco in 2009; it connects riders and independent drivers.",
+      "Matching, routing and pricing happen in real time from phones' GPS positions.",
+      "Prices rise when demand outruns the drivers available (surge pricing).",
+      "Uber Eats uses the same system for food delivery."
+    ],
+    "links": [
+      { "label": "About Uber (official site)", "url": "https://www.uber.com/us/en/about/" },
+      { "label": "Uber on Wikipedia", "url": "https://en.wikipedia.org/wiki/Uber" }
+    ]
+  },
+  "es": {
+    "title": "Uber",
+    "tagline": "Una app que conecta a gente que necesita un viaje, o comida, con conductores cercanos.",
+    "explanation": [
+      "**Uber** nació en San Francisco en 2009, fundada por Garrett Camp y Travis Kalanick. Casi no tiene autos propios. Lo que maneja es un **marketplace**: una app donde los pasajeros piden un viaje y conductores independientes, con sus propios vehículos, lo aceptan. Uber pone el precio, cobra y se queda con una parte de cada viaje.",
+      "Lo difícil es el software en tiempo real. Cada pocos segundos, los teléfonos de los conductores mandan su posición GPS; cuando pedís un viaje, el sistema busca los conductores libres más cercanos, calcula tiempos de llegada y recorridos, y hace el emparejamiento. Cuando hay más pedidos que conductores, como un viernes a la noche con lluvia, los precios suben solos. Esa **tarifa dinámica** busca sumar más conductores a la calle y que algunos pasajeros esperen.",
+      "La misma maquinaria mueve otras cosas: **Uber Eats** reparte comida de restaurantes, y Uber también hace envíos de paquetes y fletes. El modelo generó mucha polémica: los taxistas protestaron en muchas ciudades, algunos lugares lo prohibieron o lo restringieron, y tribunales de varios países discutieron si sus conductores son trabajadores independientes o empleados con derechos laborales. La empresa salió a la bolsa en 2019."
+    ],
+    "analogy": "La operadora de una empresa de radiotaxis, pero para una ciudad entera, sin ser dueña de los autos y con una computadora que sabe dónde está cada conductor a cada segundo.",
+    "keyPoints": [
+      "Nació en San Francisco en 2009; conecta pasajeros con conductores independientes.",
+      "El emparejamiento, el recorrido y el precio se calculan en tiempo real con el GPS de los teléfonos.",
+      "Los precios suben cuando hay más pedidos que conductores (tarifa dinámica).",
+      "Uber Eats usa el mismo sistema para el delivery de comida."
+    ],
+    "links": [
+      { "label": "Sobre Uber (sitio oficial)", "url": "https://www.uber.com/ar/es/about/" },
+      { "label": "Uber en Wikipedia", "url": "https://es.wikipedia.org/wiki/Uber" }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="132" y="28" width="250" height="150" rx="12" fill="#e6dfd0" stroke-dasharray="7 6"/>
+    <circle cx="60" cy="90" r="16" fill="#9ac7ea"/>
+    <path d="M36 134 C36 112 84 112 84 134 Z" fill="#9ac7ea"/>
+    <rect x="166" y="78" width="88" height="50" rx="8" fill="#9bd1b9"/>
+    <ellipse cx="330" cy="86" rx="34" ry="10" fill="#ffd166"/>
+    <path d="M296 86 V124 C296 138 364 138 364 124 V86" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 104 H160"/><path d="M154 100 l6 4 -6 4"/>
+    <path d="M256 104 H290"/><path d="M284 100 l6 4 -6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f4a7a7">
+    <circle cx="132" cy="104" r="11"/><circle cx="210" cy="140" r="11"/><circle cx="330" cy="150" r="11"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="132" y="108">1</text><text x="210" y="144">2</text><text x="330" y="154">3</text>
+    <text x="60" y="152">user</text><text x="210" y="108">web app</text><text x="330" y="114">data</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="300" y="46">trust boundary</text>
+    <text x="72" y="194">1 spoofed login</text><text x="200" y="194">2 missing check</text><text x="326" y="194">3 data leak</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">what could go wrong, and where?</text>
+</svg>

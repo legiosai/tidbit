@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-overfitting",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["overfit", "overfits", "overfitted", "underfitting"],
+    "es": ["sobreajuste", "sobreajustado", "sobreajustados", "overfit"]
+  },
+  "image": "img/2026-11-05-overfitting.svg",
+  "imageAlt": {
+    "en": "Two charts with the same dots: on the left a smooth curve follows the trend, on the right a wiggly line passes through every single dot",
+    "es": "Dos gráficos con los mismos puntos: a la izquierda una curva suave sigue la tendencia, a la derecha una línea zigzagueante pasa por cada punto"
+  },
+  "en": {
+    "title": "Overfitting",
+    "tagline": "When a model memorizes its training examples instead of learning the pattern.",
+    "explanation": [
+      "**Overfitting** happens when a machine learning model fits its training data too closely. It learns not just the real pattern but also the noise, the quirks and the accidents of those particular examples. It looks brilliant on the data it trained on and disappoints on anything new.",
+      "Picture a model that predicts house prices. With a few hundred sales to learn from, a sensible model learns that size and location matter. An overfitted one learns that a house sold high because it had a blue door and was listed on a Tuesday. It gets every past sale exactly right and badly misjudges the next one. The opposite problem, a model too simple to capture even the real pattern, is called **underfitting**.",
+      "The standard way to catch it is to hide part of the data during training and test the model on it afterwards. If the score on the hidden part is much worse than on the training part, the model is overfitting. The usual cures are more and more varied data, a simpler model, stopping training earlier, and techniques grouped under the name regularization, which penalize the model for getting too complicated."
+    ],
+    "analogy": "A student who memorizes last year's exam word for word. Perfect score if the same questions come up, lost as soon as the teacher changes a single number.",
+    "keyPoints": [
+      "The model learns the noise in its examples, not just the pattern.",
+      "Shows up as great training results and poor results on new data.",
+      "Detected by testing on data the model never saw during training.",
+      "Fixed with more data, simpler models, early stopping or regularization."
+    ],
+    "links": [
+      { "label": "Overfitting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Overfitting" },
+      { "label": "Overfitting (Google Machine Learning Crash Course)", "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" }
+    ]
+  },
+  "es": {
+    "title": "Overfitting",
+    "tagline": "Cuando un modelo se memoriza los ejemplos de entrenamiento en vez de aprender el patrón.",
+    "explanation": [
+      "El **overfitting** (sobreajuste) pasa cuando un modelo de machine learning se ajusta demasiado a sus datos de entrenamiento. Aprende el patrón real, pero también el ruido, las mañas y las casualidades de esos ejemplos puntuales. Parece brillante con los datos con los que entrenó y decepciona con cualquier cosa nueva.",
+      "Imaginá un modelo que predice precios de casas. Con unos cientos de ventas para aprender, un modelo sensato entiende que importan los metros cuadrados y el barrio. Uno sobreajustado aprende que una casa se vendió cara porque tenía la puerta azul y se publicó un martes. Le acierta perfecto a cada venta pasada y le erra feo a la próxima. El problema contrario, un modelo tan simple que ni siquiera capta el patrón real, se llama **underfitting**.",
+      "La forma estándar de detectarlo es esconder una parte de los datos durante el entrenamiento y probar el modelo con esa parte al final. Si el resultado en la parte escondida es mucho peor que en la de entrenamiento, hay overfitting. Los remedios habituales son más datos y más variados, un modelo más simple, cortar el entrenamiento antes y técnicas agrupadas bajo el nombre de regularización, que penalizan al modelo cuando se vuelve demasiado complicado."
+    ],
+    "analogy": "El alumno que se aprende de memoria el examen del año pasado. Saca diez si le toman las mismas preguntas, y se pierde apenas la profe cambia un solo número.",
+    "keyPoints": [
+      "El modelo aprende el ruido de los ejemplos, no solo el patrón.",
+      "Se nota en resultados buenísimos en entrenamiento y flojos con datos nuevos.",
+      "Se detecta probando con datos que el modelo nunca vio al entrenar.",
+      "Se combate con más datos, modelos más simples, cortar antes o regularización."
+    ],
+    "links": [
+      { "label": "Sobreajuste en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sobreajuste" },
+      { "label": "Overfitting (curso de machine learning de Google)", "url": "https://developers.google.com/machine-learning/crash-course/overfitting/overfitting?hl=es-419" }
+    ]
+  }
+}

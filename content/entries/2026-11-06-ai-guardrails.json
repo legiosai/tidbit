@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-ai-guardrails",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["AI guardrail", "LLM guardrails", "Amazon Bedrock Guardrails"],
+    "es": ["AI guardrails", "barandas de IA", "Amazon Bedrock Guardrails"]
+  },
+  "image": "img/2026-11-06-ai-guardrails.svg",
+  "imageAlt": {
+    "en": "A user's message passes an input check, goes through an AI model and then an output check before reaching the user; a jailbreak attempt and a card number are blocked along the way",
+    "es": "El mensaje de un usuario pasa un control de entrada, atraviesa un modelo de IA y después un control de salida antes de volver al usuario; un intento de jailbreak y un número de tarjeta quedan bloqueados en el camino"
+  },
+  "en": {
+    "title": "AI guardrails",
+    "tagline": "Checks placed around an AI model to stop unwanted questions and answers.",
+    "explanation": [
+      "**AI guardrails** are the rules and filters a company puts around a language model so that its app behaves as intended. The model itself is trained to be helpful and avoid harm, but a bank's assistant needs more specific limits: do not give investment advice, do not talk about competitors, never show a full card number, stay polite even when the customer is not.",
+      "They usually sit on both sides of the model. An input check looks at what the user sends and blocks or rewrites things like jailbreak attempts, prompt injection or off-topic requests. An output check reads the model's answer before the user sees it: it can hide personal data, catch toxic language, refuse forbidden topics or check that the answer is backed by the company's documents, to cut down on hallucinations. Some guardrails are simple rules, like a list of banned words; others are a second, smaller model that judges the first.",
+      "Cloud providers sell this as a service, such as **Amazon Bedrock Guardrails**, and there are open-source tools too. Guardrails are not perfect: too strict and they block reasonable questions, too loose and things slip through. They work best as one layer among several, together with careful prompts, limited permissions and human review where the stakes are high."
+    ],
+    "analogy": "The rails on a mountain road. They do not drive the car, but they keep it from going off the edge on the curves where a mistake would be costly.",
+    "keyPoints": [
+      "Input checks filter what reaches the model; output checks filter what reaches the user.",
+      "Typical jobs: block topics, hide personal data, stop jailbreaks, reduce made-up answers.",
+      "They can be simple rules or a second model acting as a judge.",
+      "Too strict annoys users, too loose lets problems through: it takes tuning."
+    ],
+    "links": [
+      { "label": "Amazon Bedrock Guardrails (official docs)", "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html" },
+      { "label": "Mitigate jailbreaks and prompt injections (Claude docs)", "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks" },
+      { "label": "AI Risk Management Framework (NIST)", "url": "https://www.nist.gov/itl/ai-risk-management-framework" }
+    ]
+  },
+  "es": {
+    "title": "Guardrails de IA",
+    "tagline": "Controles alrededor de un modelo de IA para frenar preguntas y respuestas no deseadas.",
+    "explanation": [
+      "Los **guardrails de IA** (literalmente, barandas de contención) son las reglas y filtros que una empresa pone alrededor de un modelo de lenguaje para que su app se comporte como corresponde. El modelo ya viene entrenado para ser útil y no hacer daño, pero el asistente de un banco necesita límites más específicos: no dar consejos de inversión, no hablar de la competencia, nunca mostrar un número de tarjeta completo, mantener la buena educación aunque el cliente no la tenga.",
+      "En general se ubican a los dos lados del modelo. Un control de entrada mira lo que manda el usuario y bloquea o reescribe cosas como intentos de jailbreak, inyección de prompts o pedidos que no tienen nada que ver. Un control de salida lee la respuesta del modelo antes de que la vea el usuario: puede ocultar datos personales, frenar lenguaje tóxico, rechazar temas prohibidos o verificar que la respuesta esté respaldada por los documentos de la empresa, para bajar las alucinaciones. Algunos guardrails son reglas simples, como una lista de palabras prohibidas; otros son un segundo modelo, más chico, que juzga al primero.",
+      "Los proveedores cloud lo venden como servicio, por ejemplo **Amazon Bedrock Guardrails**, y también hay herramientas open source. No son perfectos: muy estrictos bloquean preguntas razonables, muy laxos dejan pasar cosas. Funcionan mejor como una capa más entre varias, junto con prompts cuidados, permisos limitados y revisión humana donde lo que está en juego es importante."
+    ],
+    "analogy": "Las barandas de una ruta de montaña. No manejan el auto, pero evitan que se vaya al precipicio en las curvas donde un error saldría caro.",
+    "keyPoints": [
+      "Los controles de entrada filtran lo que llega al modelo; los de salida, lo que llega al usuario.",
+      "Tareas típicas: bloquear temas, ocultar datos personales, frenar jailbreaks, reducir respuestas inventadas.",
+      "Pueden ser reglas simples o un segundo modelo que hace de juez.",
+      "Muy estrictos molestan, muy laxos dejan pasar problemas: hay que ajustarlos."
+    ],
+    "links": [
+      { "label": "Amazon Bedrock Guardrails (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/bedrock/latest/userguide/guardrails.html" },
+      { "label": "Mitigate jailbreaks and prompt injections (documentación de Claude, en inglés)", "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks" },
+      { "label": "AI Risk Management Framework (NIST, en inglés)", "url": "https://www.nist.gov/itl/ai-risk-management-framework" }
+    ]
+  }
+}

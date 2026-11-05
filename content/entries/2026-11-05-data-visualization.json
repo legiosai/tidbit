@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-data-visualization",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["data visualisation", "data visualizations", "dataviz", "data viz"],
+    "es": ["visualizaciones de datos", "data visualization", "dataviz"]
+  },
+  "image": "img/2026-11-05-data-visualization.svg",
+  "imageAlt": {
+    "en": "A dense table of numbers on the left turns into a simple line chart on the right where a jump in March stands out",
+    "es": "Una tabla densa de números a la izquierda se convierte en un gráfico de líneas simple a la derecha donde se destaca un salto en marzo"
+  },
+  "en": {
+    "title": "Data visualization",
+    "tagline": "Turning numbers into pictures so patterns jump out.",
+    "explanation": [
+      "**Data visualization** is the practice of showing data as charts, maps and diagrams instead of rows of numbers. A table with 365 daily sales figures hides the story; the same numbers as a line make the Christmas spike and the January slump obvious in a second. Our eyes compare lengths, positions and colors much faster than they compare digits.",
+      "Each chart type answers a different question. Line charts show change over time. Bar charts compare categories. Scatter plots show whether two things move together, like ad spend and sales. Maps show where. Pie charts work only for a few parts of one whole, and are often a worse choice than a bar chart.",
+      "Good visualization is honest and simple: axes that start where they should, clear labels, color used for meaning rather than decoration, and one main message per chart. It is the visible end of a lot of data work, and it is what most people actually see, in dashboards, reports and the news. A misleading chart can spread a wrong idea faster than a wrong number in a table."
+    ],
+    "analogy": "Like a subway map. It throws away exact distances and street names to show you, at a glance, the one thing you need: which line goes where and where to change.",
+    "keyPoints": [
+      "Shows data as charts and maps so patterns are seen, not calculated.",
+      "Lines for time, bars for comparing, scatter for relationships, maps for place.",
+      "One clear message per chart beats many crowded ones.",
+      "Axis choices and color can make a chart honest or misleading."
+    ],
+    "links": [
+      { "label": "Data and information visualization on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_and_information_visualization" },
+      { "label": "What is data visualization? (AWS)", "url": "https://aws.amazon.com/what-is/data-visualization/" }
+    ]
+  },
+  "es": {
+    "title": "Visualización de datos",
+    "tagline": "Convertir números en imágenes para que los patrones salten a la vista.",
+    "explanation": [
+      "La **visualización de datos** es la práctica de mostrar datos como gráficos, mapas y diagramas en lugar de filas de números. Una tabla con 365 cifras de ventas diarias esconde la historia; los mismos números como una línea hacen evidente en un segundo el pico de Navidad y el bajón de enero. El ojo compara largos, posiciones y colores mucho más rápido que dígitos.",
+      "Cada tipo de gráfico responde una pregunta distinta. Los de líneas muestran cambios en el tiempo. Los de barras comparan categorías. Los de dispersión muestran si dos cosas se mueven juntas, como la inversión en publicidad y las ventas. Los mapas muestran dónde. Las tortas sirven solo para pocas partes de un mismo total, y muchas veces un gráfico de barras es mejor opción.",
+      "Una buena visualización es honesta y simple: ejes que arrancan donde corresponde, etiquetas claras, color usado para decir algo y no para decorar, y un mensaje principal por gráfico. Es la punta visible de mucho trabajo con datos, y es lo que la mayoría de la gente ve de verdad, en dashboards, informes y noticieros. Un gráfico engañoso puede instalar una idea equivocada más rápido que un número mal puesto en una tabla."
+    ],
+    "analogy": "Como el mapa del subte. Tira a la basura las distancias exactas y los nombres de las calles para mostrarte de un vistazo lo único que necesitás: qué línea va adónde y dónde combinar.",
+    "keyPoints": [
+      "Muestra datos como gráficos y mapas para ver patrones sin hacer cuentas.",
+      "Líneas para el tiempo, barras para comparar, dispersión para relaciones, mapas para lugares.",
+      "Un mensaje claro por gráfico le gana a muchos gráficos amontonados.",
+      "Los ejes y el color pueden hacer que un gráfico sea honesto o engañoso."
+    ],
+    "links": [
+      { "label": "Visualización de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Visualizaci%C3%B3n_de_datos" },
+      { "label": "¿Qué es la visualización de datos? (AWS)", "url": "https://aws.amazon.com/es/what-is/data-visualization/" }
+    ]
+  }
+}

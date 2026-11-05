@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-aws-systems-manager",
+  "date": "2026-11-05",
+  "subjects": ["aws", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["Systems Manager", "SSM", "Parameter Store", "Session Manager", "Patch Manager", "SSM Agent"],
+    "es": ["Systems Manager", "SSM", "Parameter Store", "Session Manager", "Patch Manager", "SSM Agent"]
+  },
+  "image": "img/2026-11-05-aws-systems-manager.svg",
+  "imageAlt": {
+    "en": "One Systems Manager console connected to several servers, with labels for running commands, patching, opening a session and storing parameters",
+    "es": "Una consola de Systems Manager conectada a varios servidores, con etiquetas para correr comandos, parchear, abrir una sesión y guardar parámetros"
+  },
+  "en": {
+    "title": "AWS Systems Manager",
+    "tagline": "A toolbox for running, patching and logging into a whole fleet of servers at once.",
+    "explanation": [
+      "**AWS Systems Manager** is a set of tools for operating many servers without visiting each one. It works with EC2 instances and also with machines in your own office or data center. On each server runs a small program, the **SSM Agent**, that checks in with AWS and carries out instructions; an IAM role decides what it is allowed to do.",
+      "The parts people use most: **Session Manager** opens a terminal on a server from the browser or the command line, with no SSH keys and no open ports, and can log every command typed. Run Command executes the same script on a hundred machines at once. **Patch Manager** installs operating system updates on a schedule. **Parameter Store** keeps configuration values, like a database address or a feature flag, and can store them encrypted with KMS.",
+      "It matters because servers that are patched by hand, with SSH keys passed around a team, tend to drift and leak. Systems Manager turns those chores into something repeatable and recorded. For secrets that need automatic rotation, teams often use AWS Secrets Manager instead of Parameter Store; for everyday config, Parameter Store is simpler and its standard tier is free."
+    ],
+    "analogy": "The building manager's master console. From one desk they can unlock any apartment, schedule repairs for every floor and keep the list of door codes, without walking the halls with a ring of keys.",
+    "keyPoints": [
+      "Manages EC2 and on-premises servers through the SSM Agent.",
+      "Session Manager gives shell access without SSH keys or open ports.",
+      "Run Command and Patch Manager act on whole fleets at once.",
+      "Parameter Store holds configuration values, optionally encrypted."
+    ],
+    "links": [
+      { "label": "What is AWS Systems Manager? (official docs)", "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html" },
+      { "label": "AWS Systems Manager Session Manager (official docs)", "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html" },
+      { "label": "AWS Systems Manager Parameter Store (official docs)", "url": "https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html" }
+    ]
+  },
+  "es": {
+    "title": "AWS Systems Manager",
+    "tagline": "Una caja de herramientas para operar, parchear y entrar a una flota entera de servidores.",
+    "explanation": [
+      "**AWS Systems Manager** es un conjunto de herramientas para operar muchos servidores sin tener que pasar por cada uno. Funciona con instancias EC2 y también con máquinas en tu propia oficina o data center. En cada servidor corre un programita, el **SSM Agent**, que se reporta con AWS y ejecuta instrucciones; un rol de IAM define qué tiene permitido hacer.",
+      "Las partes más usadas: **Session Manager** abre una terminal en un servidor desde el navegador o la línea de comandos, sin claves SSH ni puertos abiertos, y puede registrar cada comando que se tipea. Run Command ejecuta el mismo script en cien máquinas a la vez. **Patch Manager** instala las actualizaciones del sistema operativo según un cronograma. **Parameter Store** guarda valores de configuración, como la dirección de una base de datos o un feature flag, y los puede guardar cifrados con KMS.",
+      "Importa porque los servidores que se parchean a mano, con claves SSH pasando de mano en mano en el equipo, tienden a desordenarse y a filtrar accesos. Systems Manager convierte esas tareas en algo repetible y registrado. Para secretos que necesitan rotación automática, los equipos suelen usar AWS Secrets Manager en vez de Parameter Store; para la configuración de todos los días, Parameter Store es más simple y su nivel estándar es gratis."
+    ],
+    "analogy": "La consola maestra del encargado del edificio. Desde un solo escritorio puede abrir cualquier departamento, programar arreglos en todos los pisos y tener la lista de códigos de las puertas, sin recorrer los pasillos con un llavero gigante.",
+    "keyPoints": [
+      "Administra servidores EC2 y on-premises a través del SSM Agent.",
+      "Session Manager da acceso a la terminal sin claves SSH ni puertos abiertos.",
+      "Run Command y Patch Manager actúan sobre flotas enteras a la vez.",
+      "Parameter Store guarda valores de configuración, cifrados si querés."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Systems Manager? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/systems-manager/latest/userguide/what-is-systems-manager.html" },
+      { "label": "Session Manager de AWS Systems Manager (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/systems-manager/latest/userguide/session-manager.html" },
+      { "label": "Parameter Store de AWS Systems Manager (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/systems-manager/latest/userguide/systems-manager-parameter-store.html" }
+    ]
+  }
+}

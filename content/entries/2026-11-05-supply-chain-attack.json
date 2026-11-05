@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-supply-chain-attack",
+  "date": "2026-11-05",
+  "subjects": ["security", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["supply chain attacks", "supply-chain attack", "supply-chain attacks", "software supply chain attack", "software supply chain", "software supply chain security"],
+    "es": ["ataques a la cadena de suministro", "ataque de cadena de suministro", "cadena de suministro de software", "supply chain attack", "ataque a la cadena de suministro de software"]
+  },
+  "image": "img/2026-11-05-supply-chain-attack.svg",
+  "imageAlt": {
+    "en": "An attacker slips bad code into a small library; the library flows into a popular app's build and from there to thousands of users' devices",
+    "es": "Un atacante mete código malicioso en una biblioteca chica; la biblioteca entra en la compilación de una app popular y de ahí llega a los equipos de miles de usuarios"
+  },
+  "en": {
+    "title": "Supply chain attack",
+    "tagline": "Hacking a trusted supplier so its normal updates carry the attack to everyone else.",
+    "explanation": [
+      "Modern software is assembled from parts made by others: open source libraries pulled in by a package manager, build tools, cloud services, update servers. A **supply chain attack** does not go after the final target directly. It compromises one of those trusted parts, and lets the normal flow of updates deliver the malicious code to every company and person downstream.",
+      "Two cases show the pattern. In an attack discovered in 2020, intruders had slipped a backdoor into updates of SolarWinds Orion, a network monitoring product that thousands of organizations, including US government agencies, installed as routine. In 2024 a developer noticed that `xz`, a compression library present in many Linux systems, had been given a hidden backdoor by a contributor who spent around two years earning the maintainers' trust. Simpler versions are common too: publishing a malicious package with a name one letter off from a popular one, or stealing a maintainer's password and pushing a poisoned release.",
+      "It is hard to defend against because the code arrives signed, from the expected source, through the channel you are supposed to trust. The responses focus on knowing and verifying what you depend on: pinning exact versions, keeping an inventory of components (an SBOM), checking signatures and provenance with frameworks like SLSA, protecting maintainer accounts with strong 2FA, and limiting what each component is allowed to do."
+    ],
+    "analogy": "Poisoning the flour at the mill instead of breaking into each bakery. Every baker follows their recipe perfectly and still sells bad bread, because the problem came in with an ingredient they had every reason to trust.",
+    "keyPoints": [
+      "The attacker compromises a supplier, and normal updates spread the attack.",
+      "SolarWinds (2020) and the `xz` backdoor (2024) are the textbook examples.",
+      "Open source dependencies and build systems are frequent targets.",
+      "Defenses: pinned versions, SBOMs, signed builds and protected maintainer accounts."
+    ],
+    "links": [
+      { "label": "Supply chain attack on Wikipedia", "url": "https://en.wikipedia.org/wiki/Supply_chain_attack" },
+      { "label": "SLSA: a framework for software supply chain integrity", "url": "https://slsa.dev/" },
+      { "label": "The XZ Utils backdoor on Wikipedia", "url": "https://en.wikipedia.org/wiki/XZ_Utils_backdoor" }
+    ]
+  },
+  "es": {
+    "title": "Ataque a la cadena de suministro",
+    "tagline": "Hackear a un proveedor confiable para que sus actualizaciones lleven el ataque a todos.",
+    "explanation": [
+      "El software de hoy se arma con piezas hechas por otros: bibliotecas de código abierto que trae un gestor de paquetes, herramientas de compilación, servicios en la nube, servidores de actualizaciones. Un **ataque a la cadena de suministro** no va directo contra el objetivo final. Compromete una de esas piezas de confianza y deja que el flujo normal de actualizaciones lleve el código malicioso a cada empresa y persona que está más abajo.",
+      "Dos casos muestran el patrón. En un ataque descubierto en 2020, unos intrusos habían metido una puerta trasera en actualizaciones de SolarWinds Orion, un producto de monitoreo de redes que miles de organizaciones, incluidas agencias del gobierno de Estados Unidos, instalaron como un trámite más. En 2024 un desarrollador notó que `xz`, una biblioteca de compresión presente en muchos sistemas Linux, tenía una puerta trasera escondida, puesta por un colaborador que pasó unos dos años ganándose la confianza de los mantenedores. También abundan las versiones más simples: publicar un paquete malicioso con un nombre que difiere en una letra de uno popular, o robarle la contraseña a un mantenedor y subir una versión envenenada.",
+      "Es difícil defenderse porque el código llega firmado, desde la fuente esperada y por el canal en el que se supone que tenés que confiar. Las respuestas apuntan a saber y verificar de qué dependés: fijar versiones exactas, llevar un inventario de componentes (un SBOM), chequear firmas y procedencia con marcos como SLSA, proteger las cuentas de los mantenedores con un 2FA fuerte y limitar lo que cada componente puede hacer."
+    ],
+    "analogy": "Envenenar la harina en el molino en vez de entrar a cada panadería. Cada panadero sigue su receta al pie de la letra y aun así vende pan malo, porque el problema entró con un ingrediente en el que tenía todas las razones para confiar.",
+    "keyPoints": [
+      "El atacante compromete a un proveedor y las actualizaciones normales esparcen el ataque.",
+      "SolarWinds (2020) y la puerta trasera de `xz` (2024) son los ejemplos de manual.",
+      "Las dependencias de código abierto y los sistemas de compilación son blancos frecuentes.",
+      "Defensas: versiones fijadas, SBOM, compilaciones firmadas y cuentas de mantenedores protegidas."
+    ],
+    "links": [
+      { "label": "Supply chain attack en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Supply_chain_attack" },
+      { "label": "SLSA: un marco para la integridad de la cadena de suministro de software (en inglés)", "url": "https://slsa.dev/" },
+      { "label": "La puerta trasera de XZ Utils en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/XZ_Utils_backdoor" }
+    ]
+  }
+}

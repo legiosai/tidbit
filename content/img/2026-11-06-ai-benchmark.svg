@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="34" width="110" height="156" rx="6" fill="#e6dfd0"/>
+    <rect x="176" y="46" width="200" height="34" rx="6" fill="#9ac7ea"/>
+    <rect x="176" y="100" width="150" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="176" y="154" width="104" height="34" rx="6" fill="#ffd166"/>
+  </g>
+  <g stroke="#6b6357" stroke-width="2">
+    <line x1="34" y1="84" x2="104" y2="84"/><line x1="34" y1="106" x2="116" y2="106"/>
+    <line x1="34" y1="128" x2="96" y2="128"/><line x1="34" y1="150" x2="110" y2="150"/><line x1="34" y1="172" x2="90" y2="172"/>
+  </g>
+  <line x1="168" y1="38" x2="168" y2="196" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M134 112 H160"/><path d="M154 108 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="58">test set</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="276" y="68">model A · 91%</text><text x="251" y="122">model B · 72%</text><text x="228" y="176">model C · 55%</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same questions · comparable scores</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="60" width="96" height="110" rx="10" fill="#9ac7ea"/>
+    <circle cx="52" cy="90" r="10" fill="#e6dfd0"/><circle cx="92" cy="90" r="10" fill="#e6dfd0"/>
+    <circle cx="52" cy="140" r="10" fill="#e6dfd0"/><circle cx="92" cy="140" r="10" fill="#e6dfd0"/>
+    <rect x="160" y="50" width="76" height="30" rx="6" fill="#ffd166"/>
+    <rect x="160" y="100" width="76" height="30" rx="6" fill="#9bd1b9"/>
+    <rect x="160" y="150" width="76" height="30" rx="6" fill="#f4a7a7"/>
+    <rect x="276" y="60" width="104" height="110" rx="8" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M62 90 H82"/><path d="M52 100 V130"/><path d="M62 140 H82"/>
+    <path d="M124 100 L156 65"/><path d="M124 115 H156"/><path d="M124 130 L156 165"/>
+    <path d="M240 65 L272 100"/><path d="M240 115 H272"/><path d="M240 165 L272 130"/>
+    <path d="M290 150 L310 128 L330 136 L350 100 L366 108"/>
+  </g>
+  <g stroke="#6b6357" stroke-width="2">
+    <line x1="290" y1="80" x2="350" y2="80"/><line x1="290" y1="92" x2="336" y2="92"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="198" y="70">logs</text><text x="198" y="120">metrics</text><text x="198" y="170">traces</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="190">services</text><text x="328" y="190">why is it slow?</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">telemetry in, answers out</text>
+</svg>

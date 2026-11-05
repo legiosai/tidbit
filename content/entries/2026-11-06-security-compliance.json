@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-security-compliance",
+  "date": "2026-11-06",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["compliance", "SOC 2", "SOC 2 report", "SOC 2 Type II", "ISO 27001", "ISO/IEC 27001", "PCI DSS", "security audit", "security audits", "compliance audit", "compliance audits"],
+    "es": ["compliance", "cumplimiento normativo", "SOC 2", "informe SOC 2", "SOC 2 Type II", "ISO 27001", "ISO/IEC 27001", "PCI DSS", "auditoría de seguridad", "auditorías de seguridad"]
+  },
+  "image": "img/2026-11-06-security-compliance.svg",
+  "imageAlt": {
+    "en": "A company writes down its security controls, an outside auditor checks them against a standard like SOC 2 or ISO 27001, and a report goes to the customers who asked for it",
+    "es": "Una empresa pone por escrito sus controles de seguridad, un auditor externo los revisa contra un estándar como SOC 2 o ISO 27001 y un informe les llega a los clientes que lo pidieron"
+  },
+  "en": {
+    "title": "Security compliance",
+    "tagline": "Proving to customers and regulators, with an outside audit, that you follow security rules.",
+    "explanation": [
+      "**Security compliance** means meeting a published set of security rules and being able to prove it. A company says \"we protect your data\"; compliance is the paperwork and the outside check that back that sentence up. Big customers, especially banks, hospitals and governments, often refuse to buy software from a vendor that cannot show it.",
+      "Two frameworks come up constantly. **SOC 2** is an American standard from the AICPA, the US accountants' association: an independent auditor examines a company's controls (who has access to what, how changes are reviewed, how backups and incidents are handled) and writes a report. A Type I report looks at a single day; a Type II report checks that the controls actually worked over several months. **ISO 27001** is the international standard: a company builds a management system for information security, and an accredited body certifies it, with yearly follow-up audits. Others apply to specific data, like PCI DSS for card payments or HIPAA for US health records.",
+      "Compliance is not the same as being secure. It shows that sensible processes exist and are followed, which forces a company to do a lot of good things: inventory its systems, review access, train staff, log and test. But a company can pass an audit and still be breached. Startups usually meet this when their first large customer sends a security questionnaire, and these days whole tools and services exist to help them collect the evidence."
+    ],
+    "analogy": "A restaurant's health inspection. The certificate on the wall does not guarantee tonight's dinner is perfect, but it proves someone independent checked the kitchen, the fridge temperatures and the handwashing, and will come back to check again.",
+    "keyPoints": [
+      "Compliance means following a known standard and proving it with an independent audit.",
+      "SOC 2 is an auditor's report on your controls; Type II covers months, not one day.",
+      "ISO 27001 is an international certification renewed through regular audits.",
+      "Passing an audit is not a guarantee of being secure; it shows processes exist and are used."
+    ],
+    "links": [
+      { "label": "ISO/IEC 27001 (ISO, official)", "url": "https://www.iso.org/standard/27001" },
+      { "label": "ISO/IEC 27001 on Wikipedia", "url": "https://en.wikipedia.org/wiki/ISO/IEC_27001" },
+      { "label": "System and Organization Controls (SOC) on Wikipedia", "url": "https://en.wikipedia.org/wiki/System_and_Organization_Controls" }
+    ]
+  },
+  "es": {
+    "title": "Cumplimiento de seguridad",
+    "tagline": "Demostrar, con una auditoría externa, que seguís las reglas de seguridad que te piden.",
+    "explanation": [
+      "El **cumplimiento de seguridad** (en la industria se dice casi siempre **compliance**) es cumplir un conjunto publicado de reglas de seguridad y poder demostrarlo. Una empresa dice \"cuidamos tus datos\"; el compliance son los papeles y la revisión externa que respaldan esa frase. Los clientes grandes, sobre todo bancos, hospitales y gobiernos, muchas veces no le compran software a un proveedor que no pueda mostrarlo.",
+      "Hay dos marcos que aparecen todo el tiempo. **SOC 2** es un estándar estadounidense del AICPA, la asociación de contadores de Estados Unidos: un auditor independiente revisa los controles de la empresa (quién tiene acceso a qué, cómo se revisan los cambios, cómo se manejan los backups y los incidentes) y escribe un informe. El informe Type I mira un solo día; el Type II verifica que los controles funcionaron de verdad durante varios meses. **ISO 27001** es el estándar internacional: la empresa arma un sistema de gestión de la seguridad de la información y un organismo acreditado lo certifica, con auditorías de seguimiento cada año. Otros se aplican a datos específicos, como PCI DSS para pagos con tarjeta o HIPAA para historias clínicas en Estados Unidos.",
+      "Cumplir no es lo mismo que estar seguro. Muestra que hay procesos razonables y que se siguen, y eso obliga a hacer muchas cosas buenas: inventariar sistemas, revisar accesos, capacitar a la gente, registrar y probar. Pero una empresa puede aprobar una auditoría y aun así sufrir una filtración. Las startups suelen toparse con esto cuando su primer cliente grande les manda un cuestionario de seguridad, y hoy existen herramientas y servicios enteros para ayudarlas a juntar la evidencia."
+    ],
+    "analogy": "La habilitación de bromatología de un restaurante. El certificado en la pared no garantiza que la cena de hoy sea perfecta, pero prueba que alguien independiente revisó la cocina, la temperatura de las heladeras y el lavado de manos, y que va a volver a revisar.",
+    "keyPoints": [
+      "Compliance es seguir un estándar conocido y demostrarlo con una auditoría independiente.",
+      "SOC 2 es el informe de un auditor sobre tus controles; el Type II cubre meses, no un día.",
+      "ISO 27001 es una certificación internacional que se renueva con auditorías periódicas.",
+      "Aprobar una auditoría no garantiza estar seguro; muestra que los procesos existen y se usan."
+    ],
+    "links": [
+      { "label": "ISO/IEC 27001 (ISO, sitio oficial, en inglés)", "url": "https://www.iso.org/standard/27001" },
+      { "label": "ISO/IEC 27001 en Wikipedia", "url": "https://es.wikipedia.org/wiki/ISO/IEC_27001" },
+      { "label": "System and Organization Controls (SOC) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/System_and_Organization_Controls" }
+    ]
+  }
+}

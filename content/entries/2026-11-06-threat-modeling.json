@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-threat-modeling",
+  "date": "2026-11-06",
+  "subjects": ["security", "software"],
+  "level": 3,
+  "aliases": {
+    "en": ["threat model", "threat models", "threat modelling", "STRIDE", "attack surface"],
+    "es": ["modelo de amenazas", "modelos de amenazas", "threat modeling", "threat model", "STRIDE", "superficie de ataque"]
+  },
+  "image": "img/2026-11-06-threat-modeling.svg",
+  "imageAlt": {
+    "en": "A whiteboard diagram of a system with a user, a web app and a database, a dashed trust boundary, and numbered pink marks where things could go wrong",
+    "es": "Un diagrama de pizarrón de un sistema con un usuario, una web app y una base de datos, un límite de confianza punteado y marcas rosas numeradas donde algo podría salir mal"
+  },
+  "en": {
+    "title": "Threat modeling",
+    "tagline": "Sitting down before building to ask who could attack this, how, and what to do about it.",
+    "explanation": [
+      "**Threat modeling** is a structured way of thinking like an attacker while a system is still on the whiteboard. A team draws how the system works, where data comes in and goes out, and where one part stops trusting another. Then it asks four plain questions, popularized by security engineer Adam Shostack: what are we building, what can go wrong, what are we going to do about it, and did we do a good enough job?",
+      "The drawing matters. Lines that cross a **trust boundary**, like requests from the public internet into your server or from your server into a third-party API, are where most attacks happen. The set of all those entry points is the **attack surface**. To avoid missing whole categories, many teams walk each element through **STRIDE**, a checklist created at Microsoft: Spoofing (pretending to be someone), Tampering (changing data), Repudiation (denying you did something), Information disclosure (leaks), Denial of service, and Elevation of privilege (getting more access than you should).",
+      "Each threat found gets a decision: fix it, reduce it, accept it consciously, or move it elsewhere (for example, to a payment provider). The result is a short document that lives next to the design and is revisited when the system changes. It is cheap compared with what it prevents: a missing permission check spotted in a design meeting costs an hour, the same flaw found in production after a breach can cost a company its customers. It also works outside software; journalists and activists build personal threat models to decide which protections are worth the effort for them."
+    ],
+    "analogy": "Planning a house with a burglar's eyes before you build it: which windows face the street, where a ladder would reach, which door needs the good lock. Much cheaper than moving a window after the walls are up.",
+    "keyPoints": [
+      "Four questions: what are we building, what can go wrong, what will we do, did we do enough?",
+      "Draw the data flows and trust boundaries; attacks cluster where trust changes.",
+      "STRIDE is a checklist of six threat types to make sure no category is skipped.",
+      "Done at design time and revisited when the system changes, not once and forgotten."
+    ],
+    "links": [
+      { "label": "Threat Modeling Manifesto", "url": "https://www.threatmodelingmanifesto.org/" },
+      { "label": "Threat Modeling Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html" },
+      { "label": "Threat model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Threat_model" }
+    ]
+  },
+  "es": {
+    "title": "Modelado de amenazas",
+    "tagline": "Sentarse antes de construir a preguntar quién podría atacar esto, cómo y qué hacer al respecto.",
+    "explanation": [
+      "El **modelado de amenazas** (threat modeling) es una forma ordenada de pensar como un atacante mientras el sistema todavía está en el pizarrón. El equipo dibuja cómo funciona el sistema, por dónde entran y salen los datos y dónde una parte deja de confiar en otra. Después se hace cuatro preguntas simples, que popularizó el ingeniero de seguridad Adam Shostack: ¿qué estamos construyendo?, ¿qué puede salir mal?, ¿qué vamos a hacer al respecto? y ¿lo hicimos lo bastante bien?",
+      "El dibujo importa. Las flechas que cruzan un **límite de confianza**, como los pedidos que llegan desde internet a tu servidor o los que salen de tu servidor hacia la API de un tercero, son donde pasan la mayoría de los ataques. El conjunto de todos esos puntos de entrada es la **superficie de ataque**. Para no olvidarse categorías enteras, muchos equipos pasan cada pieza por **STRIDE**, una lista creada en Microsoft: Spoofing (hacerse pasar por otro), Tampering (alterar datos), Repudiation (negar que hiciste algo), Information disclosure (filtraciones), Denial of service (dejar el servicio fuera de juego) y Elevation of privilege (conseguir más permisos de los que te tocan).",
+      "Cada amenaza encontrada recibe una decisión: arreglarla, achicarla, aceptarla a conciencia o pasársela a otro (por ejemplo, a un proveedor de pagos). El resultado es un documento corto que vive junto al diseño y se revisa cuando el sistema cambia. Es barato comparado con lo que evita: un chequeo de permisos que falta, detectado en una reunión de diseño, cuesta una hora; la misma falla descubierta en producción después de una filtración le puede costar los clientes a una empresa. También sirve fuera del software: periodistas y activistas arman su propio modelo de amenazas para decidir qué protecciones valen la pena en su caso."
+    ],
+    "analogy": "Diseñar una casa con los ojos de un ladrón antes de construirla: qué ventanas dan a la calle, hasta dónde llega una escalera, qué puerta necesita la cerradura buena. Mucho más barato que mover una ventana con las paredes ya levantadas.",
+    "keyPoints": [
+      "Cuatro preguntas: qué construimos, qué puede salir mal, qué vamos a hacer, ¿alcanzó?",
+      "Dibujá los flujos de datos y los límites de confianza; los ataques se juntan donde cambia la confianza.",
+      "STRIDE es una lista de seis tipos de amenaza para no saltearse ninguna categoría.",
+      "Se hace en el diseño y se repasa cuando el sistema cambia, no una vez y a otra cosa."
+    ],
+    "links": [
+      { "label": "Threat Modeling Manifesto (en inglés)", "url": "https://www.threatmodelingmanifesto.org/" },
+      { "label": "Threat Modeling Cheat Sheet (OWASP, en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html" },
+      { "label": "Threat model en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Threat_model" }
+    ]
+  }
+}

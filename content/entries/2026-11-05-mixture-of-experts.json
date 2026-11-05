@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-mixture-of-experts",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["MoE", "mixture-of-experts", "MoE model", "MoE models"],
+    "es": ["MoE", "mixture of experts", "modelo MoE", "modelos MoE"]
+  },
+  "image": "img/2026-11-05-mixture-of-experts.svg",
+  "imageAlt": {
+    "en": "A token goes into a router that sends it to two of six expert blocks; the other four stay idle",
+    "es": "Un token entra a un router que lo manda a dos de seis bloques expertos; los otros cuatro quedan quietos"
+  },
+  "en": {
+    "title": "Mixture of experts",
+    "tagline": "A model built from many sub-networks, where only a few work on each token.",
+    "explanation": [
+      "A **mixture of experts** (MoE) is a way to build a neural network so that it can be huge without being slow. Inside some layers of a transformer, instead of one big block that processes every token, there are many smaller blocks called experts, plus a small **router** that decides, for each token, which two or so experts should handle it. The rest sit idle for that token.",
+      "That splits the model's size into two numbers. The total parameter count is what the model knows; the active parameter count is what it spends on each token. Mixtral 8x7B, released by Mistral AI in late 2023 as an open-weights model, has roughly 47 billion parameters in total but uses only about 13 billion per token. DeepSeek-V3 has roughly 671 billion in total and about 37 billion active. Many of the largest models today are believed to use some form of MoE, although most labs do not publish their architectures.",
+      "The win is cheaper training and faster inference for a given amount of knowledge. The costs are less obvious: all the experts still have to sit in memory, so you need a lot of GPU RAM even if most of it is idle at any moment; the router has to be trained so the load spreads evenly instead of always picking the same favorites; and the experts do not become tidy specialists in medicine or law, as the name suggests. They specialize in patterns of tokens that rarely map to human topics."
+    ],
+    "analogy": "A large hospital with dozens of specialists and a triage nurse at the door. Every patient sees only the two doctors they need, so the hospital can employ many experts without every patient paying for all of them. The building still has to have an office for each one.",
+    "keyPoints": [
+      "A router sends each token to a few experts out of many.",
+      "Total parameters can be huge while active parameters per token stay small.",
+      "Cheaper to train and run, but all experts must still fit in memory.",
+      "Experts learn token patterns, not neat human subjects."
+    ],
+    "links": [
+      { "label": "Mixture of experts on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mixture_of_experts" },
+      { "label": "Mixture of Experts Explained (Hugging Face)", "url": "https://huggingface.co/blog/moe" },
+      { "label": "Mixtral of Experts paper (arXiv)", "url": "https://arxiv.org/abs/2401.04088" }
+    ]
+  },
+  "es": {
+    "title": "Mezcla de expertos",
+    "tagline": "Un modelo armado con muchas subredes, donde solo unas pocas trabajan en cada token.",
+    "explanation": [
+      "Una **mezcla de expertos** (MoE, por mixture of experts) es una forma de armar una red neuronal para que pueda ser enorme sin volverse lenta. Dentro de algunas capas de un transformer, en lugar de un único bloque grande que procesa todos los tokens, hay muchos bloques más chicos llamados expertos, más un **router** chiquito que decide, para cada token, qué dos o tres expertos se encargan. El resto queda quieto para ese token.",
+      "Eso parte el tamaño del modelo en dos números. La cantidad total de parámetros es lo que el modelo sabe; la cantidad de parámetros activos es lo que gasta en cada token. Mixtral 8x7B, que Mistral AI publicó a fines de 2023 como modelo de pesos abiertos, tiene unos 47 mil millones de parámetros en total pero usa más o menos 13 mil millones por token. DeepSeek-V3 tiene alrededor de 671 mil millones en total y unos 37 mil millones activos. Se cree que muchos de los modelos más grandes de hoy usan alguna variante de MoE, aunque la mayoría de los laboratorios no publica su arquitectura.",
+      "La ventaja es entrenar más barato e inferir más rápido para una misma cantidad de conocimiento. Los costos son menos evidentes: todos los expertos tienen que estar cargados en memoria igual, así que necesitás mucha RAM de GPU aunque la mayor parte esté ociosa en cada momento; el router hay que entrenarlo para que reparta la carga parejo en vez de elegir siempre a los mismos favoritos; y los expertos no se vuelven especialistas prolijos en medicina o derecho, como sugiere el nombre. Se especializan en patrones de tokens que casi nunca coinciden con temas humanos."
+    ],
+    "analogy": "Un hospital grande con decenas de especialistas y una enfermera de triage en la puerta. Cada paciente ve solo a los dos médicos que necesita, así el hospital puede tener muchos expertos sin que cada paciente pague por todos. Eso sí, el edificio igual necesita un consultorio para cada uno.",
+    "keyPoints": [
+      "Un router manda cada token a unos pocos expertos entre muchos.",
+      "Los parámetros totales pueden ser enormes y los activos por token, pocos.",
+      "Más barato de entrenar y correr, pero todos los expertos tienen que entrar en memoria.",
+      "Los expertos aprenden patrones de tokens, no materias humanas prolijas."
+    ],
+    "links": [
+      { "label": "Mezcla de expertos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mezcla_de_expertos" },
+      { "label": "Mixture of Experts Explained (Hugging Face, en inglés)", "url": "https://huggingface.co/blog/moe" },
+      { "label": "Paper de Mixtral of Experts (arXiv, en inglés)", "url": "https://arxiv.org/abs/2401.04088" }
+    ]
+  }
+}

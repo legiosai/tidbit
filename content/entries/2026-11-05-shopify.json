@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-shopify",
+  "date": "2026-11-05",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Shopify Inc.", "Shop Pay", "Shopify store", "Shopify stores"],
+    "es": ["Shopify Inc.", "Shop Pay", "tienda Shopify", "tiendas Shopify", "tienda de Shopify", "tiendas de Shopify"]
+  },
+  "image": "img/2026-11-05-shopify.svg",
+  "imageAlt": {
+    "en": "A small business owner's online store, built on Shopify, connects to payments, shipping, inventory and an in-person card reader",
+    "es": "La tienda online de una emprendedora, armada sobre Shopify, conectada a pagos, envíos, stock y un lector de tarjetas para venta presencial"
+  },
+  "en": {
+    "title": "Shopify",
+    "tagline": "A platform that lets any business set up and run its own online store.",
+    "explanation": [
+      "**Shopify** is a Canadian company, based in Ottawa, that lets anyone open an online store without writing code. It was founded in 2006 by Tobias Lütke, Daniel Weinand and Scott Lake. It started almost by accident: they wanted to sell snowboards online, found the existing tools frustrating, and Lütke, a programmer, built their own. The software turned out to be the real business.",
+      "With Shopify you pick a design, upload your products and prices, and get a store with its own domain name. The platform handles the hard parts: the checkout, payments by card and wallet including its own **Shop Pay**, taxes, inventory, shipping labels and a card reader for selling in person. Thousands of apps from other companies plug in for email marketing, reviews or accounting. It charges a monthly subscription plus a cut of payments.",
+      "The key difference from a marketplace like Amazon or Mercado Libre is ownership. On a marketplace you sell inside someone else's store, next to your competitors, and the customer belongs to the platform. On Shopify the store, the brand and the customer list are yours; the trade-off is that you have to bring the visitors yourself. It serves everyone from one-person shops to large global brands."
+    ],
+    "analogy": "A shop rented fully furnished, with the cash register, the stockroom and the delivery service included. You bring the products and the customers; the building works on its own.",
+    "keyPoints": [
+      "Canadian company founded in 2006; based in Ottawa.",
+      "Lets businesses build their own online store without programming.",
+      "Handles checkout, payments, inventory, shipping and in-person sales.",
+      "Unlike a marketplace, the store and the customer relationship belong to the seller."
+    ],
+    "links": [
+      { "label": "Shopify (official site)", "url": "https://www.shopify.com/" },
+      { "label": "About Shopify", "url": "https://www.shopify.com/about" },
+      { "label": "Shopify on Wikipedia", "url": "https://en.wikipedia.org/wiki/Shopify" }
+    ]
+  },
+  "es": {
+    "title": "Shopify",
+    "tagline": "Una plataforma para que cualquier negocio arme y maneje su propia tienda online.",
+    "explanation": [
+      "**Shopify** es una empresa canadiense, con sede en Ottawa, que permite abrir una tienda online sin escribir código. La fundaron en 2006 Tobias Lütke, Daniel Weinand y Scott Lake. Arrancó casi de casualidad: querían vender tablas de snowboard por internet, las herramientas que había los frustraban, y Lütke, que era programador, armó la suya. El software terminó siendo el verdadero negocio.",
+      "Con Shopify elegís un diseño, cargás tus productos y precios, y tenés una tienda con su propio nombre de dominio. La plataforma se encarga de lo difícil: el checkout, los pagos con tarjeta y billeteras, incluida su propia **Shop Pay**, los impuestos, el stock, las etiquetas de envío y un lector de tarjetas para vender en persona. Miles de apps de otras empresas se enchufan para email marketing, reseñas o contabilidad. Cobra una suscripción mensual más una comisión sobre los pagos.",
+      "La gran diferencia con un marketplace como Amazon o Mercado Libre es de quién es cada cosa. En un marketplace vendés adentro del local de otro, al lado de tu competencia, y el cliente es de la plataforma. En Shopify la tienda, la marca y la lista de clientes son tuyas; la contracara es que los visitantes los tenés que conseguir vos. La usan desde emprendimientos de una sola persona hasta marcas globales grandes."
+    ],
+    "analogy": "Un local que alquilás totalmente equipado, con la caja registradora, el depósito y el servicio de envíos incluidos. Vos ponés los productos y los clientes; el edificio funciona solo.",
+    "keyPoints": [
+      "Empresa canadiense fundada en 2006, con sede en Ottawa.",
+      "Permite que los negocios armen su propia tienda online sin programar.",
+      "Resuelve checkout, pagos, stock, envíos y ventas presenciales.",
+      "A diferencia de un marketplace, la tienda y la relación con el cliente son del vendedor."
+    ],
+    "links": [
+      { "label": "Shopify en Wikipedia", "url": "https://es.wikipedia.org/wiki/Shopify" },
+      { "label": "Shopify (sitio oficial en español)", "url": "https://www.shopify.com/es" }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="60" cy="70" r="18" fill="#9ac7ea"/>
+    <path d="M30 120 a30 26 0 0 1 60 0 Z" fill="#9ac7ea"/>
+    <rect x="28" y="136" width="20" height="26" rx="3" fill="#e6dfd0"/>
+    <rect x="52" y="136" width="20" height="26" rx="3" fill="#e6dfd0"/>
+    <rect x="76" y="136" width="20" height="26" rx="3" fill="#e6dfd0"/>
+    <rect x="150" y="80" width="90" height="70" rx="12" fill="#ffd166"/>
+    <rect x="290" y="52" width="80" height="30" rx="5" fill="#9bd1b9"/>
+    <rect x="290" y="92" width="80" height="30" rx="5" fill="#e6dfd0"/>
+    <rect x="290" y="132" width="80" height="30" rx="5" fill="#e6dfd0"/>
+    <path d="M300 60 l3 6 6 1 -4.5 4 1 6 -5.5 -3 -5.5 3 1 -6 -4.5 -4 6 -1 Z" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M104 115 H144"/><path d="M138 111 l6 4 -6 4"/>
+    <path d="M244 115 H282"/><path d="M276 111 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="195" y="120">engine</text>
+    <text x="338" y="72">#1</text><text x="330" y="112">#2</text><text x="330" y="152">#3</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="62" y="180">your history</text><text x="330" y="182">for you</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">people like you also liked this</text>
+</svg>

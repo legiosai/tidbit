@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="50" cy="56" r="16" fill="#f4a7a7"/>
+    <circle cx="50" cy="112" r="16" fill="#ffd166"/>
+    <circle cx="50" cy="168" r="16" fill="#9ac7ea"/>
+    <rect x="126" y="82" width="70" height="60" rx="10" fill="#9bd1b9"/>
+    <rect x="296" y="82" width="80" height="60" rx="8" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 60 L122 94"/><path d="M70 112 H122"/><path d="M70 164 L122 130"/>
+    <path d="M115 90 l7 4 -3 -8"/><path d="M116 108 l6 4 -6 4"/><path d="M115 134 l7 -4 -3 8"/>
+    <path d="M200 112 h12 l6 -14 l8 28 l8 -28 l8 28 l6 -14 h6"/>
+    <path d="M262 112 H290"/><path d="M284 108 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="50" y="88">heat</text>
+    <text x="50" y="144">light</text>
+    <text x="50" y="200">motion</text>
+    <text x="230" y="150">signal</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="161" y="117">sensor</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="336" y="108">23.4 °C</text>
+    <text x="336" y="126">chip</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the physical world, turned into numbers</text>
+</svg>

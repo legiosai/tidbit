@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M200 50 L110 92"/><path d="M200 50 L290 92"/>
+    <path d="M110 112 L60 152"/><path d="M110 112 L160 152"/>
+    <path d="M290 112 L240 152"/><path d="M290 112 L340 152"/>
+    <path d="M160 170 L200 190"/><path d="M240 170 L200 190"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="22" width="100" height="30" rx="8" fill="#ffd166"/>
+    <rect x="62" y="90" width="96" height="26" rx="8" fill="#9ac7ea"/>
+    <rect x="242" y="90" width="96" height="26" rx="8" fill="#9ac7ea"/>
+    <rect x="20" y="150" width="80" height="24" rx="8" fill="#9bd1b9"/>
+    <rect x="120" y="150" width="80" height="24" rx="8" fill="#9bd1b9"/>
+    <rect x="200" y="150" width="80" height="24" rx="8" fill="#9bd1b9"/>
+    <rect x="300" y="150" width="80" height="24" rx="8" fill="#9bd1b9"/>
+    <rect x="164" y="186" width="72" height="22" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="42">my app</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="110" y="107">web-kit</text><text x="290" y="107">db-client</text>
+    <text x="60" y="166">router</text><text x="160" y="166">parser</text>
+    <text x="240" y="166">tls</text><text x="340" y="166">logger</text>
+    <text x="200" y="201">tiny-pad</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="345" y="80">direct</text><text x="60" y="192">transitive</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">you chose 2 · you got 7</text>
+</svg>

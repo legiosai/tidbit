@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="24" width="340" height="182" rx="10" fill="#e6dfd0"/>
+    <rect x="44" y="38" width="120" height="70" rx="6" fill="#f3efe6"/>
+    <rect x="176" y="38" width="180" height="70" rx="6" fill="#f3efe6"/>
+    <rect x="44" y="120" width="150" height="72" rx="6" fill="#f3efe6"/>
+    <rect x="206" y="120" width="150" height="72" rx="6" fill="#f3efe6"/>
+    <rect x="62" y="162" width="18" height="22" fill="#9ac7ea"/>
+    <rect x="88" y="148" width="18" height="36" fill="#9ac7ea"/>
+    <rect x="114" y="140" width="18" height="44" fill="#9ac7ea"/>
+    <rect x="140" y="154" width="18" height="30" fill="#9ac7ea"/>
+    <path d="M136 72 l8 -10 l8 10 Z" fill="#9bd1b9"/>
+  </g>
+  <path d="M190 96 L222 82 L252 88 L284 66 L316 72 L342 50" stroke="#2b2b2b" stroke-width="2" fill="none"/>
+  <g stroke="#6b6357" stroke-width="2">
+    <line x1="220" y1="140" x2="342" y2="140"/><line x1="220" y1="156" x2="342" y2="156"/><line x1="220" y1="172" x2="342" y2="172"/>
+  </g>
+  <text x="90" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b">$48k</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="90" y="98">sales +8%</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">the key numbers, one glance</text>
+</svg>

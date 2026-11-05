@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="18" width="100" height="34" rx="8" fill="#ffd166"/>
+    <rect x="40" y="86" width="60" height="100" rx="4" fill="#e6dfd0"/>
+    <rect x="130" y="86" width="60" height="100" rx="4" fill="#e6dfd0"/>
+    <rect x="220" y="86" width="60" height="100" rx="4" fill="#e6dfd0"/>
+    <rect x="310" y="86" width="60" height="100" rx="4" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="48" y="96" width="44" height="14" fill="#9ac7ea"/><rect x="48" y="116" width="44" height="14" fill="#9bd1b9"/><rect x="48" y="136" width="44" height="14" fill="#9ac7ea"/><rect x="48" y="156" width="44" height="14" fill="#9bd1b9"/>
+    <rect x="138" y="96" width="44" height="14" fill="#9ac7ea"/><rect x="138" y="116" width="44" height="14" fill="#9bd1b9"/><rect x="138" y="136" width="44" height="14" fill="#9ac7ea"/><rect x="138" y="156" width="44" height="14" fill="#9bd1b9"/>
+    <rect x="228" y="96" width="44" height="14" fill="#9ac7ea"/><rect x="228" y="116" width="44" height="14" fill="#9bd1b9"/><rect x="228" y="136" width="44" height="14" fill="#9ac7ea"/><rect x="228" y="156" width="44" height="14" fill="#9bd1b9"/>
+    <rect x="318" y="96" width="44" height="14" fill="#9ac7ea"/><rect x="318" y="116" width="44" height="14" fill="#9bd1b9"/><rect x="318" y="136" width="44" height="14" fill="#9ac7ea"/><rect x="318" y="156" width="44" height="14" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M180 52 L70 84 M193 52 L160 84 M207 52 L250 84 M220 52 L340 84"/>
+    <path d="M100 176 H130 M190 176 H220 M280 176 H310"/>
+    <path d="M70 186 V198 H340 V186 M160 186 V198 M250 186 V198"/>
+  </g>
+  <text x="200" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">one big problem</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="212">fast network</text>
+  </g>
+  <text x="200" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">thousands of nodes working as one machine</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-semantic-layer",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["semantic layers", "metrics layer", "dbt Semantic Layer"],
+    "es": ["capas semánticas", "semantic layer", "capa de métricas", "dbt Semantic Layer"]
+  },
+  "image": "img/2026-11-06-semantic-layer.svg",
+  "imageAlt": {
+    "en": "Raw warehouse tables at the bottom, a middle band defining revenue and active customer once, and three consumers on top, a dashboard, a spreadsheet and an AI assistant, all reading the same definitions",
+    "es": "Tablas crudas del warehouse abajo, una franja del medio que define facturación y cliente activo una sola vez, y tres consumidores arriba, un tablero, una planilla y un asistente de IA, que leen las mismas definiciones"
+  },
+  "en": {
+    "title": "Semantic layer",
+    "tagline": "One place that defines a company's metrics, so every tool computes them the same way.",
+    "explanation": [
+      "A **semantic layer** sits between the raw tables of a data warehouse and the tools people use to ask questions. In it, the data team defines business concepts once, in code: what \"revenue\" means (net of refunds? with tax?), what an \"active customer\" is, how tables join, which time zone a \"day\" uses. Dashboards, spreadsheets and other tools then ask for `revenue by month` and the layer writes the correct SQL for them.",
+      "The problem it solves is painfully common: marketing's dashboard says 12,400 active customers, finance's spreadsheet says 11,900, and both are \"right\" because each one encoded its own definition in its own tool. When the logic lives in one layer instead of being copied into every report, a definition changes in one place and every consumer gets the new version. It is the same idea as a function in programming: write the rule once, call it everywhere.",
+      "Examples include the dbt Semantic Layer, Cube, LookML in Looker and AtScale. It has become more important with AI: when a language model answers \"how did revenue do last quarter?\", pointing it at well-defined metrics is far more reliable than letting it guess joins and filters from hundreds of raw tables. A semantic layer is often paired with data governance, since it is where the official meaning of each number is written down."
+    ],
+    "analogy": "The official dictionary of a language. Without it, every town ends up using \"tea\" or \"dinner\" to mean slightly different things; with it, everyone looks up the same definition, and arguments are about the facts instead of the words.",
+    "keyPoints": [
+      "Defines metrics, dimensions and joins once, in code, between the warehouse and the tools.",
+      "Ends the \"why do these two dashboards disagree?\" problem.",
+      "Tools ask for a metric by name and the layer generates the SQL.",
+      "Gives AI assistants a reliable vocabulary instead of raw tables."
+    ],
+    "links": [
+      { "label": "Semantic layer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Semantic_layer" },
+      { "label": "dbt Semantic Layer (official docs)", "url": "https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl" }
+    ]
+  },
+  "es": {
+    "title": "Capa semántica",
+    "tagline": "Un único lugar que define las métricas de la empresa, para que todo las calcule igual.",
+    "explanation": [
+      "Una **capa semántica** (semantic layer) se ubica entre las tablas crudas de un data warehouse y las herramientas que la gente usa para hacer preguntas. Ahí el equipo de datos define una sola vez, en código, los conceptos del negocio: qué es \"facturación\" (¿neta de devoluciones?, ¿con impuestos?), qué es un \"cliente activo\", cómo se cruzan las tablas, en qué huso horario se cuenta un \"día\". Después, los tableros, las planillas y otras herramientas piden `revenue by month` y la capa escribe el SQL correcto por ellos.",
+      "El problema que resuelve es dolorosamente común: el tablero de marketing dice 12.400 clientes activos, la planilla de finanzas dice 11.900, y los dos tienen \"razón\" porque cada uno metió su propia definición en su propia herramienta. Cuando la lógica vive en una sola capa en lugar de copiarse en cada reporte, una definición se cambia en un lugar y todos los que la usan reciben la versión nueva. Es la misma idea que una función en programación: escribís la regla una vez y la llamás desde todos lados.",
+      "Algunos ejemplos son el dbt Semantic Layer, Cube, LookML en Looker y AtScale. Con la IA ganó importancia: cuando un modelo de lenguaje responde \"¿cómo le fue a la facturación el último trimestre?\", apuntarlo a métricas bien definidas es mucho más confiable que dejar que adivine cruces y filtros entre cientos de tablas crudas. Suele ir de la mano del gobierno de datos, porque es donde queda escrito el significado oficial de cada número."
+    ],
+    "analogy": "El diccionario oficial de un idioma. Sin él, cada pueblo termina usando \"merienda\" o \"cena\" para cosas un poco distintas; con él, todos consultan la misma definición, y las discusiones son sobre los hechos y no sobre las palabras.",
+    "keyPoints": [
+      "Define métricas, dimensiones y cruces una sola vez, en código, entre el warehouse y las herramientas.",
+      "Termina con el problema de \"¿por qué estos dos tableros no coinciden?\".",
+      "Las herramientas piden una métrica por nombre y la capa genera el SQL.",
+      "Les da a los asistentes de IA un vocabulario confiable en lugar de tablas crudas."
+    ],
+    "links": [
+      { "label": "Semantic layer en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Semantic_layer" },
+      { "label": "dbt Semantic Layer (documentación oficial, en inglés)", "url": "https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-model-distillation",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["knowledge distillation", "distillation", "distilled model", "distilled models", "teacher model", "student model"],
+    "es": ["destilación", "destilación de conocimiento", "modelo destilado", "modelos destilados", "modelo maestro", "modelo alumno"]
+  },
+  "image": "img/2026-11-05-model-distillation.svg",
+  "imageAlt": {
+    "en": "A large teacher model passes its answers and probabilities to a much smaller student model that learns to imitate it",
+    "es": "Un modelo maestro grande le pasa sus respuestas y probabilidades a un modelo alumno mucho más chico que aprende a imitarlo"
+  },
+  "en": {
+    "title": "Model distillation",
+    "tagline": "Training a small, cheap model to imitate a big, expensive one.",
+    "explanation": [
+      "**Model distillation**, or knowledge distillation, is a way to squeeze much of what a large model knows into a smaller one. You take a big, capable **teacher model**, run it on lots of inputs, and train a small **student model** to reproduce the teacher's outputs instead of learning only from the original labeled data.",
+      "The trick, described in a 2015 paper by Geoffrey Hinton, Oriol Vinyals and Jeff Dean, is that the teacher's full probabilities carry more information than a single right answer. A photo classifier that says \"cat 90%, fox 8%, car 0.01%\" is also telling the student which mistakes are reasonable. With today's LLMs the same idea often takes a simpler form: the teacher generates many answers, or full step-by-step reasoning, and that text becomes training data for the student. In early 2025, for example, DeepSeek published several small open models distilled from its R1 reasoning model.",
+      "The payoff is at inference time. A distilled model has far fewer parameters, so it answers faster, costs less per request and can run on a laptop or a phone. The limits: the student rarely surpasses its teacher, it tends to lose the most when tasks drift away from what it was distilled on, and many commercial providers forbid in their terms using their models' outputs to train competing models."
+    ],
+    "analogy": "A master chef who cannot open a restaurant in every city, so she trains junior cooks by having them taste and copy her dishes. The juniors will not invent new recipes like her, but they can serve her menu almost as well and much more cheaply.",
+    "keyPoints": [
+      "A small student model learns to imitate a large teacher model.",
+      "The teacher's probabilities or generated text become training data.",
+      "Result: faster, cheaper inference that can run on small devices.",
+      "Students rarely beat teachers, and some providers forbid distilling their outputs."
+    ],
+    "links": [
+      { "label": "Knowledge distillation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Knowledge_distillation" },
+      { "label": "Distilling the Knowledge in a Neural Network (Hinton et al., 2015)", "url": "https://arxiv.org/abs/1503.02531" }
+    ]
+  },
+  "es": {
+    "title": "Destilación de modelos",
+    "tagline": "Entrenar un modelo chico y barato para que imite a uno grande y caro.",
+    "explanation": [
+      "La **destilación de modelos**, o destilación de conocimiento, es una forma de meter buena parte de lo que sabe un modelo grande dentro de uno más chico. Tomás un **modelo maestro** grande y capaz, lo hacés correr sobre muchísimas entradas y entrenás un **modelo alumno** chico para que reproduzca las salidas del maestro, en vez de aprender solo de los datos etiquetados originales.",
+      "El truco, descripto en un paper de 2015 de Geoffrey Hinton, Oriol Vinyals y Jeff Dean, es que las probabilidades completas del maestro traen más información que una sola respuesta correcta. Un clasificador de fotos que dice \"gato 90 %, zorro 8 %, auto 0,01 %\" también le está contando al alumno qué errores son razonables. Con los LLMs actuales la misma idea suele tomar una forma más simple: el maestro genera muchísimas respuestas, o razonamientos paso a paso completos, y ese texto se vuelve datos de entrenamiento para el alumno. A principios de 2025, por ejemplo, DeepSeek publicó varios modelos abiertos chicos destilados de su modelo de razonamiento R1.",
+      "La ganancia aparece en la inferencia. Un modelo destilado tiene muchos menos parámetros, así que responde más rápido, cuesta menos por pedido y puede correr en una notebook o un celular. Los límites: el alumno rara vez supera al maestro, pierde más cuanto más se alejan las tareas de aquello con lo que lo destilaron, y muchos proveedores comerciales prohíben en sus términos usar las salidas de sus modelos para entrenar modelos competidores."
+    ],
+    "analogy": "Una chef reconocida que no puede abrir un restaurante en cada ciudad, entonces forma cocineros que prueban y copian sus platos. No van a inventar recetas nuevas como ella, pero pueden servir su menú casi igual de bien y mucho más barato.",
+    "keyPoints": [
+      "Un modelo alumno chico aprende a imitar a un modelo maestro grande.",
+      "Las probabilidades o el texto que genera el maestro se vuelven datos de entrenamiento.",
+      "Resultado: inferencia más rápida y barata, que entra en dispositivos chicos.",
+      "El alumno rara vez supera al maestro, y algunos proveedores prohíben destilar sus salidas."
+    ],
+    "links": [
+      { "label": "Destilación de conocimiento en Wikipedia", "url": "https://es.wikipedia.org/wiki/Destilaci%C3%B3n_de_conocimiento" },
+      { "label": "Distilling the Knowledge in a Neural Network (Hinton y otros, 2015, en inglés)", "url": "https://arxiv.org/abs/1503.02531" }
+    ]
+  }
+}

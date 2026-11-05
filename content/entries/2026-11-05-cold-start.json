@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-cold-start",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["cold starts", "warm start", "warm starts"],
+    "es": ["cold starts", "arranque en frío", "arranques en frío", "warm start"]
+  },
+  "image": "img/2026-11-05-cold-start.svg",
+  "imageAlt": {
+    "en": "Two request timelines: the first one waits through a long setup block before running the code, the second runs the code right away",
+    "es": "Dos líneas de tiempo de pedidos: el primero espera un bloque largo de preparación antes de correr el código, el segundo lo corre enseguida"
+  },
+  "en": {
+    "title": "Cold start",
+    "tagline": "The extra wait when a serverless function has to boot before answering.",
+    "explanation": [
+      "A **cold start** is the delay that happens when a request arrives and there is no ready copy of your code to handle it. In serverless platforms like AWS Lambda, nothing runs while nobody is calling. When a request comes in, the platform has to find a machine, create a small isolated environment, load your code and its libraries, and run your setup, all before it can start on the actual work.",
+      "Once that environment exists, the platform keeps it around for a while. Requests that land on it are **warm starts** and skip all that preparation. So the first request after a quiet period, or the extra requests during a sudden spike that need new copies, pay the cold start; the rest do not.",
+      "How long it takes varies a lot: from tens of milliseconds for a small function to several seconds for a big one with heavy libraries or a slow-starting runtime. For a nightly batch job it does not matter; for an API a person is waiting on, it can. Common fixes are smaller packages, doing less at startup, and paying to keep some copies always warm, which AWS calls **provisioned concurrency**."
+    ],
+    "analogy": "Like a café that turns the espresso machine off when it is empty. The first customer of the morning waits for it to heat up; everyone after that gets their coffee right away.",
+    "keyPoints": [
+      "Happens when no ready copy of the code exists and one must be created.",
+      "Warm starts reuse an existing environment and skip the setup.",
+      "Ranges from milliseconds to seconds depending on code size and runtime.",
+      "Smaller code and kept-warm capacity reduce it."
+    ],
+    "links": [
+      { "label": "Lambda execution environment lifecycle (AWS docs)", "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html" },
+      { "label": "Cold start (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cold_start_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Cold start",
+    "tagline": "La espera extra cuando una función serverless tiene que arrancar antes de responder.",
+    "explanation": [
+      "Un **cold start** (arranque en frío) es la demora que aparece cuando llega un pedido y no hay ninguna copia de tu código lista para atenderlo. En plataformas serverless como AWS Lambda, no corre nada mientras nadie llama. Cuando entra un pedido, la plataforma tiene que conseguir una máquina, crear un entorno aislado chiquito, cargar tu código y sus librerías y correr tu configuración inicial, todo antes de ponerse con el trabajo en sí.",
+      "Una vez que ese entorno existe, la plataforma lo guarda un rato. Los pedidos que caen ahí son **warm starts** (arranques en caliente) y se saltean toda esa preparación. Entonces el primer pedido después de un rato sin uso, o los pedidos de más en un pico repentino que necesitan copias nuevas, pagan el cold start; el resto no.",
+      "Cuánto tarda varía muchísimo: desde decenas de milisegundos para una función chica hasta varios segundos para una grande con librerías pesadas o un runtime que arranca lento. Para un proceso que corre de noche no importa; para una API que una persona está esperando, sí. Los arreglos típicos son paquetes más chicos, hacer menos cosas al arrancar y pagar para tener algunas copias siempre calientes, lo que AWS llama **provisioned concurrency**."
+    ],
+    "analogy": "Como un café que apaga la máquina de espresso cuando no hay nadie. El primer cliente de la mañana espera a que caliente; todos los que vienen después tienen el café al toque.",
+    "keyPoints": [
+      "Pasa cuando no hay una copia lista del código y hay que crear una.",
+      "Los warm starts reusan un entorno que ya existe y se saltean la preparación.",
+      "Va de milisegundos a segundos según el tamaño del código y el runtime.",
+      "Código más chico y capacidad siempre caliente lo achican."
+    ],
+    "links": [
+      { "label": "Ciclo de vida del entorno de ejecución de Lambda (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/lambda/latest/dg/lambda-runtime-environment.html" },
+      { "label": "Cold start (computing) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Cold_start_(computing)" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-e-ink",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["electronic paper", "e-paper", "electronic ink", "E Ink"],
+    "es": ["e-ink", "papel electrónico", "e-paper", "E Ink"]
+  },
+  "image": "img/2026-11-06-e-ink.svg",
+  "imageAlt": {
+    "en": "Tiny capsules filled with black and white particles; a charge below pulls the white ones up in some capsules and the black ones up in others, forming a letter on the surface",
+    "es": "Cápsulas diminutas llenas de partículas negras y blancas; una carga desde abajo sube las blancas en algunas cápsulas y las negras en otras, y así se forma una letra en la superficie"
+  },
+  "en": {
+    "title": "E-ink",
+    "tagline": "A screen that looks like printed paper and only uses power when the image changes.",
+    "explanation": [
+      "**E-ink**, also called electronic paper, is the kind of screen used in e-readers like the Kindle or Kobo. Instead of shining light at your eyes like a phone or TV, it shows an image the way paper does: by reflecting the light around you. The page looks matte, has no glare in sunlight and is comfortable to read for hours.",
+      "Inside are millions of microscopic capsules filled with a clear liquid and tiny particles, white ones and black ones carrying opposite electric charges. An electric field under each spot pulls the white particles to the top (that spot looks white) or the black ones (it looks black). Once the particles move, they stay put without any power. That is the key trick: the screen only uses energy when the page changes, so an e-reader battery lasts weeks, and the price tags on some supermarket shelves can run for years.",
+      "The trade-offs are clear. Changing the image is slow, often a fraction of a second with a brief flash, so it is poor for video or fast scrolling. Color versions exist but look muted compared with an LCD or OLED. And there is no light of its own; e-readers add a soft front light for reading in the dark. The name comes from E Ink, the company that developed and sells most of these displays."
+    ],
+    "analogy": "An Etch A Sketch that keeps its drawing until you change it. Drawing takes a moment, but once the picture is there it stays without any effort, unlike a TV that has to keep redrawing itself many times per second.",
+    "keyPoints": [
+      "Reflects ambient light like paper instead of glowing.",
+      "Uses power only when the image changes, so batteries last weeks.",
+      "Slow to refresh: great for text, poor for video.",
+      "Used in e-readers, shelf price labels and some signs."
+    ],
+    "links": [
+      { "label": "Electronic paper on Wikipedia", "url": "https://en.wikipedia.org/wiki/Electronic_paper" },
+      { "label": "E Ink on Wikipedia", "url": "https://en.wikipedia.org/wiki/E_Ink" }
+    ]
+  },
+  "es": {
+    "title": "Tinta electrónica",
+    "tagline": "Una pantalla que se ve como papel impreso y solo gasta energía cuando cambia la imagen.",
+    "explanation": [
+      "La **tinta electrónica** (e-ink), también llamada papel electrónico, es el tipo de pantalla de los lectores de libros electrónicos como el Kindle o el Kobo. En lugar de tirarte luz a los ojos como un celular o una tele, muestra la imagen como lo hace el papel: reflejando la luz que hay alrededor. La página se ve mate, no hace reflejos al sol y se puede leer durante horas sin cansarse.",
+      "Adentro tiene millones de cápsulas microscópicas con un líquido transparente y partículas diminutas, unas blancas y otras negras, con cargas eléctricas opuestas. Un campo eléctrico debajo de cada punto sube las partículas blancas (ese punto se ve blanco) o las negras (se ve negro). Una vez que las partículas se movieron, se quedan quietas sin necesidad de energía. Ese es el gran truco: la pantalla solo gasta cuando cambia la página, así que la batería de un lector dura semanas, y las etiquetas de precio de algunas góndolas pueden andar años.",
+      "Las contras son claras. Cambiar la imagen es lento, muchas veces una fracción de segundo con un parpadeo, así que no sirve para video ni para hacer scroll rápido. Hay versiones a color, pero los colores se ven apagados al lado de una pantalla LCD u OLED. Y no tiene luz propia; los lectores le suman una luz frontal suave para leer a oscuras. El nombre viene de E Ink, la empresa que desarrolló y vende la mayoría de estas pantallas."
+    ],
+    "analogy": "Una pizarra mágica que conserva el dibujo hasta que la cambiás. Dibujar lleva un momento, pero una vez que el dibujo está, se queda sin ningún esfuerzo, a diferencia de una tele que tiene que redibujarse muchas veces por segundo.",
+    "keyPoints": [
+      "Refleja la luz ambiente como el papel en lugar de iluminar.",
+      "Gasta energía solo cuando cambia la imagen, por eso la batería dura semanas.",
+      "Tarda en actualizarse: ideal para texto, mala para video.",
+      "Se usa en lectores de libros electrónicos, etiquetas de góndola y algunos carteles."
+    ],
+    "links": [
+      { "label": "Papel electrónico en Wikipedia", "url": "https://es.wikipedia.org/wiki/Papel_electr%C3%B3nico" },
+      { "label": "Tinta electrónica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tinta_electr%C3%B3nica" }
+    ]
+  }
+}

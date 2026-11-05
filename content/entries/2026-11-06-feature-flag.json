@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-feature-flag",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["feature flags", "feature toggle", "feature toggles", "feature switch", "feature switches"],
+    "es": ["feature flags", "feature toggle", "feature toggles", "bandera de funcionalidad", "banderas de funcionalidad"]
+  },
+  "image": "img/2026-11-06-feature-flag.svg",
+  "imageAlt": {
+    "en": "The same deployed code reaching users through a switch: with the flag on for 10% of users they see the new checkout, the other 90% keep the old one",
+    "es": "El mismo código desplegado llega a los usuarios a través de un interruptor: con el flag prendido para el 10% ven el checkout nuevo, el otro 90% sigue con el viejo"
+  },
+  "en": {
+    "title": "Feature flag",
+    "tagline": "A switch in the code that turns a feature on or off without shipping a new version.",
+    "explanation": [
+      "A **feature flag** is an if-statement whose answer lives outside the code. The program asks \"is `new_checkout` on for this user?\" and a setting, usually stored in a config service or a database, says yes or no. Flip the setting and the app changes behavior right away, with no new build and no new deploy.",
+      "This separates two things that used to be the same moment: putting code on the servers and letting people use it. A team can merge an unfinished feature hidden behind a flag, turn it on first for employees, then for 1% of users, then 10%, watching errors and sales at each step. If something goes wrong, someone turns the flag off and the old behavior is back in seconds, without rolling back the whole release.",
+      "Flags also power A/B tests (half of users see version A, half see B), premium features that only paying customers get, and \"kill switches\" that shut off an expensive or broken part of a system during an incident. Services like LaunchDarkly, Unleash or Flagsmith manage them at scale.",
+      "The catch is that every flag doubles the number of paths through the code. Old flags that nobody removes pile up as technical debt, and a forgotten flag flipped by mistake can switch on code that has not run in years. Good teams give each flag an owner and an expiry date."
+    ],
+    "analogy": "The light switches in a new house. The electrician wires every room on day one, but you decide which lights to turn on, and when, without calling the electrician back.",
+    "keyPoints": [
+      "Separates deploying code from releasing a feature to users.",
+      "Enables gradual rollouts, A/B tests and instant kill switches.",
+      "Turning a flag off is much faster than rolling back a release.",
+      "Stale flags are technical debt: remove them once a feature is settled."
+    ],
+    "links": [
+      { "label": "Feature Toggles, by Pete Hodgson (martinfowler.com)", "url": "https://martinfowler.com/articles/feature-toggles.html" },
+      { "label": "Feature toggle on Wikipedia", "url": "https://en.wikipedia.org/wiki/Feature_toggle" }
+    ]
+  },
+  "es": {
+    "title": "Feature flag",
+    "tagline": "Un interruptor en el código que prende o apaga una función sin publicar otra versión.",
+    "explanation": [
+      "Un **feature flag** es un `if` cuya respuesta vive fuera del código. El programa pregunta \"¿está prendido `new_checkout` para este usuario?\" y una configuración, guardada casi siempre en un servicio aparte o en una base de datos, contesta sí o no. Cambiás esa configuración y la app se comporta distinto al instante, sin compilar ni hacer deploy de nuevo.",
+      "Así se separan dos cosas que antes pasaban en el mismo momento: subir el código a los servidores y dejar que la gente lo use. Un equipo puede mergear una función a medio terminar escondida detrás de un flag, prenderla primero para la gente de la empresa, después para el 1% de los usuarios, después para el 10%, mirando errores y ventas en cada paso. Si algo sale mal, alguien apaga el flag y en segundos vuelve el comportamiento anterior, sin tener que revertir toda la versión.",
+      "Los flags también sirven para tests A/B (la mitad de los usuarios ve la versión A y la otra mitad la B), para funciones premium que solo ven los clientes que pagan y para \"kill switches\" que apagan una parte cara o rota del sistema en medio de un incidente. Servicios como LaunchDarkly, Unleash o Flagsmith los administran a gran escala.",
+      "La contra es que cada flag duplica los caminos posibles dentro del código. Los flags viejos que nadie borra se acumulan como deuda técnica, y uno olvidado que alguien prende por error puede despertar código que no corre hace años. Los buenos equipos le ponen a cada flag un responsable y una fecha de vencimiento."
+    ],
+    "analogy": "Las llaves de luz de una casa nueva. El electricista cablea todos los ambientes el primer día, pero vos decidís qué luces prender y cuándo, sin volver a llamarlo.",
+    "keyPoints": [
+      "Separa hacer el deploy del código de liberar una función a los usuarios.",
+      "Permite lanzamientos graduales, tests A/B y kill switches instantáneos.",
+      "Apagar un flag es mucho más rápido que revertir una versión.",
+      "Los flags viejos son deuda técnica: hay que borrarlos cuando la función ya quedó."
+    ],
+    "links": [
+      { "label": "Feature Toggles, de Pete Hodgson (martinfowler.com, en inglés)", "url": "https://martinfowler.com/articles/feature-toggles.html" },
+      { "label": "Feature toggle en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Feature_toggle" }
+    ]
+  }
+}

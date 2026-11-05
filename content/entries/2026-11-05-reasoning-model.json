@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-reasoning-model",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["reasoning models", "thinking model", "thinking models", "extended thinking"],
+    "es": ["modelos de razonamiento", "razonamiento extendido", "reasoning model"]
+  },
+  "image": "img/2026-11-05-reasoning-model.svg",
+  "imageAlt": {
+    "en": "A question goes into a thinking bubble with several numbered steps before the final answer comes out",
+    "es": "Una pregunta entra a una nube de pensamiento con varios pasos numerados antes de que salga la respuesta final"
+  },
+  "en": {
+    "title": "Reasoning model",
+    "tagline": "An AI model that works through a problem step by step before it answers.",
+    "explanation": [
+      "A **reasoning model** is an LLM trained to think out loud before replying. Instead of producing the answer right away, it first writes a long chain of intermediate steps: it breaks the problem apart, tries an approach, checks the result, and backs up when something does not add up. Only then does it write the final answer.",
+      "The idea took off in late 2024 with OpenAI's o1, followed by DeepSeek-R1, Claude with **extended thinking** and others. These models are usually trained with reinforcement learning on problems whose answers can be checked, like math or code that has to pass tests, so the model learns which ways of thinking actually lead to correct results.",
+      "The gain is real on multi-step work: math, programming, planning, puzzles, careful analysis of a long document. The cost is also real: all that thinking is made of tokens, so answers take longer and cost more. Many APIs let you set a thinking budget, and for a quick question or a simple rewrite a regular model is often the better choice."
+    ],
+    "analogy": "The difference between blurting out an answer in a quiz and taking a sheet of scrap paper first. The scrap paper slows you down, but on a hard problem it is what gets you to the right result.",
+    "keyPoints": [
+      "Writes intermediate reasoning before the final answer.",
+      "Usually trained with reinforcement learning on checkable problems.",
+      "Better at math, code and multi-step tasks; slower and pricier.",
+      "Thinking tokens are billed, so many APIs let you cap them."
+    ],
+    "links": [
+      { "label": "Reasoning language model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Reasoning_language_model" },
+      { "label": "Extended thinking (Anthropic docs)", "url": "https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking" },
+      { "label": "Reasoning models (OpenAI docs)", "url": "https://platform.openai.com/docs/guides/reasoning" }
+    ]
+  },
+  "es": {
+    "title": "Modelo de razonamiento",
+    "tagline": "Un modelo de IA que resuelve el problema paso a paso antes de contestar.",
+    "explanation": [
+      "Un **modelo de razonamiento** es un LLM entrenado para pensar en voz alta antes de responder. En vez de largar la respuesta de una, primero escribe una cadena larga de pasos intermedios: desarma el problema, prueba un camino, revisa el resultado y vuelve atrás cuando algo no cierra. Recién ahí escribe la respuesta final.",
+      "La idea despegó a fines de 2024 con o1 de OpenAI, y después vinieron DeepSeek-R1, Claude con **razonamiento extendido** (extended thinking) y otros. Estos modelos suelen entrenarse con aprendizaje por refuerzo sobre problemas cuya respuesta se puede verificar, como cuentas de matemática o código que tiene que pasar tests, así el modelo aprende qué formas de pensar llevan de verdad a un resultado correcto.",
+      "La mejora es real en tareas de varios pasos: matemática, programación, planificación, acertijos, el análisis cuidadoso de un documento largo. El costo también es real: todo ese pensamiento está hecho de tokens, así que las respuestas tardan más y salen más caras. Muchas APIs te dejan fijar un presupuesto de pensamiento, y para una pregunta rápida o reescribir un párrafo, un modelo común suele andar mejor."
+    ],
+    "analogy": "Es la diferencia entre contestar lo primero que se te ocurre en un examen oral y agarrar una hoja borrador antes. El borrador te frena un poco, pero en un problema difícil es lo que te lleva al resultado correcto.",
+    "keyPoints": [
+      "Escribe un razonamiento intermedio antes de la respuesta final.",
+      "Suele entrenarse con aprendizaje por refuerzo en problemas verificables.",
+      "Rinde más en matemática, código y tareas largas; es más lento y caro.",
+      "Los tokens de pensamiento se cobran, por eso muchas APIs dejan ponerles tope."
+    ],
+    "links": [
+      { "label": "Modelo de razonamiento en Wikipedia", "url": "https://es.wikipedia.org/wiki/Modelo_de_razonamiento" },
+      { "label": "Pensamiento extendido (documentación de Anthropic)", "url": "https://docs.anthropic.com/es/docs/build-with-claude/extended-thinking" },
+      { "label": "Reasoning models (documentación de OpenAI, en inglés)", "url": "https://platform.openai.com/docs/guides/reasoning" }
+    ]
+  }
+}

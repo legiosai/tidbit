@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-microcontroller",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["microcontrollers", "MCU", "MCUs", "Arduino", "ESP32"],
+    "es": ["microcontroladores", "microcontroller", "MCU", "Arduino", "ESP32"]
+  },
+  "image": "img/2026-11-06-microcontroller.svg",
+  "imageAlt": {
+    "en": "A small chip containing a processor, memory for the program and data, and pins, reading a temperature sensor on one side and switching a fan on the other",
+    "es": "Un chip chico que tiene adentro un procesador, memoria para el programa y los datos, y pines, que lee un sensor de temperatura de un lado y prende un ventilador del otro"
+  },
+  "en": {
+    "title": "Microcontroller",
+    "tagline": "A tiny, cheap computer on one chip, built to control one specific thing.",
+    "explanation": [
+      "A **microcontroller** (MCU) is a complete small computer on a single chip: a modest processor, a little memory for the program and data, and pins that connect directly to the outside world. It does not run Windows or apps. It runs one program, stored in its firmware, over and over: read a button, check a sensor, turn on a motor, repeat.",
+      "They are everywhere, usually invisible. A microwave, a washing machine, a TV remote, a car (which can have dozens of them), a thermostat, a smart lightbulb, a computer keyboard: each has at least one. They cost from a few cents to a few dollars, use very little power (some run for years on a coin battery) and start instantly.",
+      "Compared with the processor in a laptop, or even a Raspberry Pi, a microcontroller is far less powerful: memory is measured in kilobytes, not gigabytes. That is the point. It is designed for simple, reliable, real-time control at the lowest cost and power. Hobbyists and students meet them through **Arduino**, an open-source board and programming environment that made microcontrollers easy to use, and through the **ESP32**, a cheap chip with Wi-Fi built in that powers many Internet of things gadgets."
+    ],
+    "analogy": "A programmable thermostat compared with a full office. The office (a PC) can do any job you give it; the thermostat does one job, all day, every day, for years, without needing anyone to start it up.",
+    "keyPoints": [
+      "Processor, memory and input/output pins on a single chip.",
+      "Runs one program in a loop to control a device.",
+      "Costs cents to a few dollars and uses very little power.",
+      "Arduino and ESP32 boards are the usual way to start tinkering with them."
+    ],
+    "links": [
+      { "label": "Microcontroller on Wikipedia", "url": "https://en.wikipedia.org/wiki/Microcontroller" },
+      { "label": "What is Arduino? (official docs)", "url": "https://docs.arduino.cc/learn/starting-guide/whats-arduino/" }
+    ]
+  },
+  "es": {
+    "title": "Microcontrolador",
+    "tagline": "Una computadora diminuta y barata en un chip, hecha para controlar una cosa concreta.",
+    "explanation": [
+      "Un **microcontrolador** (MCU) es una computadora chiquita y completa en un solo chip: un procesador modesto, un poco de memoria para el programa y los datos, y pines que se conectan directo con el mundo exterior. No corre Windows ni apps. Corre un único programa, guardado en su firmware, una y otra vez: leer un botón, mirar un sensor, prender un motor, repetir.",
+      "Están en todos lados, casi siempre sin que se vean. El microondas, el lavarropas, el control remoto de la tele, un auto (que puede tener decenas), un termostato, una lamparita inteligente, el teclado de la computadora: cada uno tiene al menos uno. Cuestan desde algunos centavos hasta unos pocos dólares, gastan muy poca energía (algunos andan años con una pila botón) y arrancan al instante.",
+      "Comparado con el procesador de una notebook, o incluso con una Raspberry Pi, un microcontrolador es mucho menos potente: la memoria se mide en kilobytes, no en gigabytes. Esa es justamente la idea. Está pensado para un control simple, confiable y en tiempo real, al menor costo y consumo posible. Los aficionados y estudiantes los conocen por **Arduino**, una placa y un entorno de programación open source que los volvió fáciles de usar, y por el **ESP32**, un chip barato con Wi-Fi incorporado que está en muchos aparatos de Internet de las cosas."
+    ],
+    "analogy": "Un termostato programable comparado con una oficina entera. La oficina (una PC) puede hacer cualquier trabajo que le des; el termostato hace uno solo, todo el día, todos los días, durante años, sin que nadie tenga que encenderlo.",
+    "keyPoints": [
+      "Procesador, memoria y pines de entrada/salida en un solo chip.",
+      "Corre un único programa en bucle para controlar un aparato.",
+      "Cuesta de centavos a unos pocos dólares y gasta muy poca energía.",
+      "Las placas Arduino y ESP32 son la forma habitual de empezar a jugar con ellos."
+    ],
+    "links": [
+      { "label": "Microcontrolador en Wikipedia", "url": "https://es.wikipedia.org/wiki/Microcontrolador" },
+      { "label": "Arduino en Wikipedia", "url": "https://es.wikipedia.org/wiki/Arduino" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-recommendation-system",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["recommendation systems", "recommender system", "recommender systems", "recommendation engine", "recommendation engines", "recommendation algorithm", "recommendation algorithms"],
+    "es": ["sistemas de recomendación", "motor de recomendaciones", "motores de recomendaciones", "algoritmo de recomendación", "algoritmos de recomendación"]
+  },
+  "image": "img/2026-11-05-recommendation-system.svg",
+  "imageAlt": {
+    "en": "A person's history of watched items goes into an engine that returns a ranked list of suggestions, the top one marked with a star",
+    "es": "El historial de una persona entra a un motor que devuelve una lista ordenada de sugerencias, con la primera marcada con una estrella"
+  },
+  "en": {
+    "title": "Recommendation system",
+    "tagline": "Software that guesses what you will want next: a song, a show, a product.",
+    "explanation": [
+      "A **recommendation system** is the program behind \"you might also like\". It looks at what you watched, bought, clicked or skipped, compares it with millions of other people, and ranks what to show you next. Netflix rows, Spotify's weekly playlist, YouTube's sidebar, Amazon's product suggestions and the endless feed of TikTok are all recommendation systems.",
+      "There are two classic ideas, usually combined. The first looks for people similar to you: if many people who loved the same five series as you also loved a sixth one, it will suggest that sixth one. The second looks at the items themselves: if you listen to a lot of slow acoustic songs, it finds more songs with that sound. Modern systems are machine learning models that mix both with signals like time of day or what is trending.",
+      "They matter because they decide much of what billions of people see. A good one saves you from scrolling through thousands of options. But these systems are usually built to maximize how long you stay or how much you click, which is not always what is good for you, and they can keep showing you more of the same, a pattern people call a **filter bubble**."
+    ],
+    "analogy": "The bookseller at your neighborhood shop who remembers what you bought last time and says: \"If you liked that one, take this.\" Now imagine that bookseller has watched millions of customers at once.",
+    "keyPoints": [
+      "Predicts what each person is likely to want next.",
+      "Learns from what you and similar people did before.",
+      "Powers the feeds of Netflix, Spotify, YouTube, TikTok and online shops.",
+      "Usually tuned for engagement, which can create filter bubbles."
+    ],
+    "links": [
+      { "label": "Recommender system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Recommender_system" },
+      { "label": "Recommendation systems course (Google)", "url": "https://developers.google.com/machine-learning/recommendation" }
+    ]
+  },
+  "es": {
+    "title": "Sistema de recomendación",
+    "tagline": "Un software que adivina qué vas a querer después: un tema, una serie, un producto.",
+    "explanation": [
+      "Un **sistema de recomendación** es el programa que está detrás del \"también te puede gustar\". Mira lo que viste, compraste, tocaste o salteaste, lo compara con millones de otras personas y ordena qué mostrarte a continuación. Las filas de Netflix, la playlist semanal de Spotify, la columna de YouTube, las sugerencias de Mercado Libre o Amazon y el feed infinito de TikTok son sistemas de recomendación.",
+      "Hay dos ideas clásicas, que en general se combinan. La primera busca gente parecida a vos: si muchas personas a las que les encantaron las mismas cinco series que a vos también amaron una sexta, te va a sugerir esa sexta. La segunda mira las cosas en sí: si escuchás muchos temas acústicos y lentos, te busca más temas con ese sonido. Los sistemas actuales son modelos de machine learning que mezclan las dos ideas con otras señales, como la hora del día o lo que está de moda.",
+      "Importan porque deciden buena parte de lo que ven miles de millones de personas. Uno bueno te ahorra recorrer miles de opciones. Pero suelen estar hechos para maximizar cuánto tiempo te quedás o cuánto clickeás, que no siempre es lo mejor para vos, y pueden mostrarte siempre más de lo mismo, un patrón que se conoce como **burbuja de filtros**."
+    ],
+    "analogy": "El librero del barrio que se acuerda de lo que compraste la última vez y te dice: \"Si te gustó ese, llevate este\". Ahora imaginá que ese librero vio a millones de clientes a la vez.",
+    "keyPoints": [
+      "Predice qué es probable que cada persona quiera después.",
+      "Aprende de lo que hiciste vos y de lo que hizo gente parecida.",
+      "Mueve los feeds de Netflix, Spotify, YouTube, TikTok y las tiendas online.",
+      "Suele optimizar el enganche, y eso puede armar burbujas de filtros."
+    ],
+    "links": [
+      { "label": "Sistema de recomendación en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_de_recomendaci%C3%B3n" },
+      { "label": "Burbuja de filtros en Wikipedia", "url": "https://es.wikipedia.org/wiki/Burbuja_de_filtros" }
+    ]
+  }
+}

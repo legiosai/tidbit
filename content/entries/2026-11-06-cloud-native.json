@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-cloud-native",
+  "date": "2026-11-06",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["cloud native", "cloud-native application", "cloud-native applications", "Cloud Native Computing Foundation", "CNCF"],
+    "es": ["cloud native", "nativo de la nube", "nativa de la nube", "nativas de la nube", "Cloud Native Computing Foundation", "CNCF"]
+  },
+  "image": "img/2026-11-06-cloud-native.svg",
+  "imageAlt": {
+    "en": "On the left, one big monolith inside a single virtual machine that was moved to the cloud; on the right, many small containers, a managed database and automatic scaling built for the cloud",
+    "es": "A la izquierda, un monolito grande dentro de una sola máquina virtual que se mudó a la nube; a la derecha, muchos contenedores chicos, una base de datos administrada y escalado automático, pensados para la nube"
+  },
+  "en": {
+    "title": "Cloud-native",
+    "tagline": "Software designed from the start to take advantage of the cloud, not just moved into it.",
+    "explanation": [
+      "**Cloud-native** describes software built to make the most of how the cloud works: resources that appear and disappear on demand, machines that can fail at any time, and services you rent instead of run. The opposite is an application designed for one big server in an office, copied as-is onto a virtual machine in the cloud. That runs, but it gets few of the benefits.",
+      "In practice, cloud-native systems tend to share a toolkit: the app is split into smaller services (often microservices) packaged in containers, run by an orchestrator like Kubernetes or on serverless platforms, with infrastructure described as code and released through automated CI/CD pipelines. Servers are treated as disposable: you do not repair a broken one, you replace it. Data lives in managed services, and each part can scale on its own when traffic grows.",
+      "The term is closely tied to the **Cloud Native Computing Foundation** (CNCF), founded in 2015 under the Linux Foundation, which hosts Kubernetes and many related open-source projects. Its definition stresses systems that are resilient, manageable and observable, so teams can change them often and with confidence. Cloud-native is not free: more moving parts mean more complexity to operate and monitor, and for a small, stable app a simple server can be the better choice."
+    ],
+    "analogy": "The difference between parking your old house on a rented lot and building a modular one designed for that lot: rooms can be added, swapped or repaired one at a time without shutting down the whole home.",
+    "keyPoints": [
+      "Built for the cloud, not just moved to it.",
+      "Typical pieces: containers, microservices, Kubernetes or serverless, IaC, CI/CD.",
+      "Servers are disposable; failures are expected and handled automatically.",
+      "More flexibility comes with more complexity to run."
+    ],
+    "links": [
+      { "label": "CNCF cloud native definition", "url": "https://github.com/cncf/toc/blob/main/DEFINITION.md" },
+      { "label": "What is cloud native? (AWS)", "url": "https://aws.amazon.com/what-is/cloud-native/" },
+      { "label": "Cloud-native computing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cloud-native_computing" }
+    ]
+  },
+  "es": {
+    "title": "Cloud-native",
+    "tagline": "Software pensado desde el principio para aprovechar la nube, no solo mudado a ella.",
+    "explanation": [
+      "**Cloud-native** (nativo de la nube) describe al software armado para sacarle el jugo a cómo funciona la nube: recursos que aparecen y desaparecen según la demanda, máquinas que pueden fallar en cualquier momento y servicios que alquilás en vez de operar. Lo opuesto es una aplicación diseñada para un servidor grande en una oficina, copiada tal cual a una máquina virtual en la nube. Funciona, pero aprovecha pocos de los beneficios.",
+      "En la práctica, los sistemas cloud-native suelen compartir un kit de herramientas: la app se divide en servicios más chicos (muchas veces microservicios) empaquetados en contenedores, corridos por un orquestador como Kubernetes o en plataformas serverless, con la infraestructura descrita como código y publicada con pipelines de CI/CD automáticos. Los servidores se tratan como descartables: si uno se rompe no se repara, se reemplaza. Los datos viven en servicios administrados, y cada parte puede escalar por su cuenta cuando crece el tráfico.",
+      "El término está muy ligado a la **Cloud Native Computing Foundation** (CNCF), fundada en 2015 dentro de la Linux Foundation, que aloja a Kubernetes y a muchos proyectos open source relacionados. Su definición pone el foco en sistemas resilientes, fáciles de gestionar y observables, para que los equipos puedan cambiarlos seguido y con confianza. Ser cloud-native no es gratis: más piezas móviles implican más complejidad para operar y monitorear, y para una app chica y estable un servidor simple puede ser la mejor opción."
+    ],
+    "analogy": "La diferencia entre trasladar tu casa vieja a un terreno alquilado y construir una casa modular pensada para ese terreno: podés sumar, cambiar o arreglar ambientes de a uno sin cerrar toda la casa.",
+    "keyPoints": [
+      "Hecho para la nube, no solo mudado a la nube.",
+      "Piezas típicas: contenedores, microservicios, Kubernetes o serverless, IaC, CI/CD.",
+      "Los servidores son descartables; las fallas se esperan y se manejan solas.",
+      "Más flexibilidad viene con más complejidad para operar."
+    ],
+    "links": [
+      { "label": "¿Qué es la tecnología nativa de la nube? (AWS)", "url": "https://aws.amazon.com/es/what-is/cloud-native/" },
+      { "label": "Aplicaciones nativas de la nube (Red Hat)", "url": "https://www.redhat.com/es/topics/cloud-native-apps" },
+      { "label": "Definición de cloud native de la CNCF (en inglés)", "url": "https://github.com/cncf/toc/blob/main/DEFINITION.md" }
+    ]
+  }
+}

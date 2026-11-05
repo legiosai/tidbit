@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-aws-direct-connect",
+  "date": "2026-11-06",
+  "subjects": ["aws", "networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["Direct Connect", "Direct Connect gateway", "Direct Connect location", "Direct Connect locations"],
+    "es": ["Direct Connect", "gateway de Direct Connect", "ubicación de Direct Connect", "ubicaciones de Direct Connect"]
+  },
+  "image": "img/2026-11-06-aws-direct-connect.svg",
+  "imageAlt": {
+    "en": "An on-premises data center linked by a private fiber line through a Direct Connect location into a VPC in an AWS Region, with a VPN over the internet drawn as a dashed backup path",
+    "es": "Un data center propio conectado por una fibra privada, a través de una ubicación de Direct Connect, a una VPC en una región de AWS, con una VPN por internet dibujada en punteado como camino de respaldo"
+  },
+  "en": {
+    "title": "AWS Direct Connect",
+    "tagline": "A private, dedicated network link from your own building straight into AWS.",
+    "explanation": [
+      "**AWS Direct Connect** gives you a physical network connection between your data center or office and AWS that does not travel over the public internet. You get a port at a **Direct Connect location**, a colocation facility where AWS has its routers, and a fiber cross-connect links your equipment (or your telecom provider's) to it. Dedicated connections come in fixed port speeds, from 1 Gbps to 100 Gbps and above; smaller hosted connections, from 50 Mbps, are sold through AWS partners.",
+      "Over that cable you create **virtual interfaces** and exchange routes with BGP. A private virtual interface reaches your VPCs, a public one reaches AWS public services like S3 without going through the internet, and a transit one connects to a Transit Gateway that fans out to many VPCs. A **Direct Connect gateway** lets one connection reach VPCs in several AWS Regions.",
+      "Companies use it for steady, heavy traffic between on-premises and the cloud: database replication, backups, hybrid apps, big migrations. Latency and throughput are more predictable than over the internet, and data sent out of AWS over Direct Connect is billed at a lower rate. Three caveats. The traffic is private but not encrypted by default: you add MACsec on supported ports or run a VPN on top. Setting it up takes weeks, because it involves physical cabling. And one link is a single point of failure, so AWS recommends redundant connections in separate locations, or at least a Site-to-Site VPN as backup."
+    ],
+    "analogy": "A private road from your warehouse to the port, instead of sharing the highway with everyone else. The trip time is predictable and nobody else is on it, but you still lock the trucks if the cargo is sensitive.",
+    "keyPoints": [
+      "A physical, dedicated link that bypasses the public internet.",
+      "Virtual interfaces and BGP decide what you reach: VPCs, public services or a Transit Gateway.",
+      "Not encrypted by default; use MACsec or a VPN over it when needed.",
+      "Plan for redundancy: two connections, two locations, or a VPN backup."
+    ],
+    "links": [
+      { "label": "What is AWS Direct Connect? (official docs)", "url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html" },
+      { "label": "AWS Direct Connect", "url": "https://aws.amazon.com/directconnect/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Direct Connect",
+    "tagline": "Un enlace de red privado y dedicado desde tu propio edificio directo a AWS.",
+    "explanation": [
+      "**AWS Direct Connect** te da una conexión de red física entre tu data center u oficina y AWS que no pasa por internet. Conseguís un puerto en una **ubicación de Direct Connect**, un centro de colocation donde AWS tiene sus routers, y una conexión cruzada de fibra une tus equipos (o los de tu proveedor de telecomunicaciones) con los de AWS. Las conexiones dedicadas vienen en velocidades de puerto fijas, de 1 Gbps a 100 Gbps y más; las conexiones alojadas (hosted), más chicas y desde 50 Mbps, las venden partners de AWS.",
+      "Sobre ese cable creás **interfaces virtuales** e intercambiás rutas con BGP. Una interfaz virtual privada llega a tus VPCs, una pública llega a servicios públicos de AWS como S3 sin pasar por internet, y una de tránsito se conecta a un Transit Gateway que reparte a muchas VPCs. Un **gateway de Direct Connect** permite que una sola conexión llegue a VPCs en varias regiones de AWS.",
+      "Las empresas lo usan para tráfico constante y pesado entre sus instalaciones y la nube: replicación de bases de datos, backups, apps híbridas, migraciones grandes. La latencia y el ancho de banda son más predecibles que por internet, y los datos que salen de AWS por Direct Connect se cobran a una tarifa más baja. Tres advertencias. El tráfico es privado pero no va cifrado por defecto: sumás MACsec en los puertos que lo soportan o corrés una VPN por encima. Instalarlo lleva semanas, porque hay cableado físico de por medio. Y un solo enlace es un punto único de falla, así que AWS recomienda conexiones redundantes en ubicaciones distintas o, como mínimo, una VPN Site-to-Site de respaldo."
+    ],
+    "analogy": "Un camino privado desde tu depósito hasta el puerto, en vez de compartir la autopista con todo el mundo. El tiempo de viaje es predecible y no hay nadie más, pero si la carga es delicada igual cerrás los camiones con candado.",
+    "keyPoints": [
+      "Un enlace físico y dedicado que no pasa por internet.",
+      "Las interfaces virtuales y BGP definen a qué llegás: VPCs, servicios públicos o un Transit Gateway.",
+      "No va cifrado por defecto; usá MACsec o una VPN encima cuando haga falta.",
+      "Pensá la redundancia: dos conexiones, dos ubicaciones o una VPN de respaldo."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Direct Connect? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/directconnect/latest/UserGuide/Welcome.html" },
+      { "label": "AWS Direct Connect", "url": "https://aws.amazon.com/es/directconnect/" }
+    ]
+  }
+}

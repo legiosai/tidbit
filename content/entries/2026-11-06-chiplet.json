@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-chiplet",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 3,
+  "aliases": {
+    "en": ["chiplets", "chiplet design", "advanced packaging", "UCIe"],
+    "es": ["chiplets", "diseño con chiplets", "empaquetado avanzado", "UCIe"]
+  },
+  "image": "img/2026-11-06-chiplet.svg",
+  "imageAlt": {
+    "en": "Left, one big monolithic chip with a defect ruining the whole piece; right, several small chiplets for compute, I/O and memory sitting side by side on a shared base and connected by short links",
+    "es": "A la izquierda, un chip monolítico grande con un defecto que arruina toda la pieza; a la derecha, varios chiplets chicos de cómputo, E/S y memoria, uno al lado del otro sobre una base común y conectados por enlaces cortos"
+  },
+  "en": {
+    "title": "Chiplet",
+    "tagline": "A small chip designed to be combined with others in one package, like a building block.",
+    "explanation": [
+      "Traditionally a processor is **monolithic**: one single piece of silicon (a die) holds everything. A **chiplet** design splits that processor into several smaller dies, each doing one job, such as a group of CPU cores, the input/output and memory controllers, or a cache, and mounts them side by side, or stacked, inside the same package. Very short, very dense connections make them work together almost as if they were one chip.",
+      "The main reason is yield. Every silicon wafer has a few random defects; on a huge die, one defect can ruin the whole thing, while on small dies it only ruins one little piece. Smaller dies mean more good chips per wafer and lower cost. Chiplets also let designers mix process nodes: the compute cores go on the newest, most expensive node, and the I/O part, which does not benefit much from it, goes on an older, cheaper one. And one set of building blocks can be reused to make a whole product line, from 8 to 96 cores, just by changing how many chiplets go in.",
+      "AMD popularized the approach in its Ryzen and EPYC processors, and today it is common: Intel's recent CPUs, Apple's largest M-series chips (two dies joined together) and the big AI accelerators from NVIDIA and AMD, which place GPU dies next to stacks of HBM memory. The hard part moved from the chip to the **advanced packaging** that joins the pieces, an area where TSMC is a key player. The UCIe standard aims to let chiplets from different companies plug into each other."
+    ],
+    "analogy": "Building a house from prefabricated modules instead of pouring it as one giant block of concrete. If one module comes out cracked you replace just that module, and you can combine the same modules into small or large houses.",
+    "keyPoints": [
+      "Splits one big chip into several small dies inside one package.",
+      "Small dies waste less silicon to defects, so they are cheaper to make.",
+      "Each part can use the process node that suits it best.",
+      "Depends on advanced packaging, now a bottleneck as important as the chips themselves."
+    ],
+    "links": [
+      { "label": "Chiplet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Chiplet" },
+      { "label": "Multi-chip module on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multi-chip_module" }
+    ]
+  },
+  "es": {
+    "title": "Chiplet",
+    "tagline": "Un chip chico pensado para combinarse con otros en un mismo encapsulado, como un bloque.",
+    "explanation": [
+      "Tradicionalmente un procesador es **monolítico**: una sola pieza de silicio (un die) tiene todo. Un diseño con **chiplets** parte ese procesador en varios dies más chicos, cada uno con una tarea, como un grupo de núcleos del CPU, los controladores de entrada/salida y de memoria, o una caché, y los monta uno al lado del otro, o apilados, dentro del mismo encapsulado. Conexiones muy cortas y muy densas hacen que trabajen juntos casi como si fueran un solo chip.",
+      "La razón principal es el rendimiento de fabricación. Toda oblea de silicio tiene algunos defectos al azar; en un die enorme, un defecto puede arruinar la pieza entera, mientras que en dies chicos arruina solo un pedacito. Dies más chicos significan más chips buenos por oblea y menos costo. Los chiplets también permiten mezclar nodos de proceso: los núcleos de cómputo van en el nodo más nuevo y caro, y la parte de entrada/salida, que no gana mucho con eso, va en uno más viejo y barato. Y con un mismo juego de bloques se arma toda una línea de productos, de 8 a 96 núcleos, cambiando solo cuántos chiplets se ponen.",
+      "AMD popularizó la idea con sus procesadores Ryzen y EPYC, y hoy es habitual: los CPU recientes de Intel, los chips más grandes de la serie M de Apple (dos dies unidos) y los grandes aceleradores de IA de NVIDIA y AMD, que ponen dies de GPU al lado de pilas de memoria HBM. Lo difícil pasó del chip al **empaquetado avanzado** que une las piezas, un terreno donde TSMC es clave. El estándar UCIe busca que chiplets de distintas empresas se puedan conectar entre sí."
+    ],
+    "analogy": "Construir una casa con módulos prefabricados en lugar de colarla entera como un solo bloque de hormigón. Si un módulo sale fisurado cambiás solo ese, y con los mismos módulos podés armar casas chicas o grandes.",
+    "keyPoints": [
+      "Parte un chip grande en varios dies chicos dentro de un mismo encapsulado.",
+      "Los dies chicos pierden menos silicio por defectos, así que salen más baratos.",
+      "Cada parte puede usar el nodo de proceso que más le conviene.",
+      "Depende del empaquetado avanzado, hoy un cuello de botella tan importante como los chips."
+    ],
+    "links": [
+      { "label": "Chiplet en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Chiplet" },
+      { "label": "Multi-chip module en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Multi-chip_module" }
+    ]
+  }
+}

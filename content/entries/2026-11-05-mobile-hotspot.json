@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-mobile-hotspot",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["mobile hotspots", "personal hotspot", "hotspot", "tethering"],
+    "es": ["hotspot", "compartir datos", "compartir internet", "punto de acceso personal", "zona Wi-Fi portátil", "anclaje de red", "tethering"]
+  },
+  "image": "img/2026-11-05-mobile-hotspot.svg",
+  "imageAlt": {
+    "en": "A phone receives mobile data from a cell tower and shares it over Wi-Fi with a laptop and a tablet",
+    "es": "Un celular recibe datos móviles de una antena y los comparte por Wi-Fi con una notebook y una tablet"
+  },
+  "en": {
+    "title": "Mobile hotspot",
+    "tagline": "Your phone turned into a small Wi-Fi router that shares its mobile data.",
+    "explanation": [
+      "A **mobile hotspot** is a phone feature that shares its mobile data connection with other devices. The phone keeps talking to the cell tower over 4G or 5G and, at the same time, creates its own small Wi-Fi network. Your laptop or tablet joins that network as if it were the one at home, and its traffic goes out through the phone.",
+      "On iPhone it is called Personal Hotspot; on Android it is usually under Hotspot and tethering. The same thing can be done with a USB cable or Bluetooth, which is what tethering originally meant. There are also small dedicated devices, often called MiFi, that do only this job and take their own SIM card.",
+      "It is the quickest fix when the café Wi-Fi fails or you need to work on the road. The costs: it drains the phone's battery, everything the laptop downloads counts against your data plan, and some plans limit or charge extra for sharing. Give the network a strong password, the same as you would at home."
+    ],
+    "analogy": "Like a power strip plugged into the only outlet in the room: one connection comes in, several devices hang off it, and they all share what that outlet can give.",
+    "keyPoints": [
+      "The phone gets internet over 4G or 5G and re-shares it over Wi-Fi, USB or Bluetooth.",
+      "Everything the connected devices use comes out of your mobile data plan.",
+      "It drains the phone's battery quickly; plugging it in helps.",
+      "Protect it with a strong password like any Wi-Fi network."
+    ],
+    "links": [
+      { "label": "Set up a Personal Hotspot on iPhone (Apple Support)", "url": "https://support.apple.com/en-us/111785" },
+      { "label": "Share a mobile connection by hotspot or tethering on Android (Google)", "url": "https://support.google.com/android/answer/9059108" },
+      { "label": "Tethering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Tethering" }
+    ]
+  },
+  "es": {
+    "title": "Hotspot móvil",
+    "tagline": "Tu celular convertido en un router Wi-Fi chiquito que comparte sus datos móviles.",
+    "explanation": [
+      "Un **hotspot móvil** es una función del celular que comparte su conexión de datos móviles con otros equipos. El teléfono sigue hablando con la antena por 4G o 5G y, al mismo tiempo, arma su propia red Wi-Fi chiquita. La notebook o la tablet se conecta a esa red como si fuera la de tu casa, y su tráfico sale por el celular.",
+      "En el iPhone se llama Punto de acceso personal o Compartir internet; en Android suele estar como Zona Wi-Fi o Hotspot y anclaje de red. Lo mismo se puede hacer con un cable USB o por Bluetooth, que es lo que originalmente se llamaba tethering. También hay aparatitos dedicados, muchas veces llamados MiFi, que hacen solo eso y llevan su propia tarjeta SIM.",
+      "Es el salvavidas cuando se cae el Wi-Fi del bar o tenés que trabajar en la ruta. Lo que cuesta: se come la batería del teléfono, todo lo que baja la notebook se descuenta de tu plan de datos, y algunos planes limitan o cobran aparte el compartir. Ponele una contraseña fuerte a la red, igual que en tu casa."
+    ],
+    "analogy": "Como una zapatilla enchufada al único tomacorriente de la habitación: entra una sola conexión, se cuelgan varios aparatos y todos se reparten lo que ese enchufe puede dar.",
+    "keyPoints": [
+      "El celular recibe internet por 4G o 5G y lo reparte por Wi-Fi, USB o Bluetooth.",
+      "Todo lo que usan los equipos conectados sale de tu plan de datos.",
+      "Gasta mucha batería; tenerlo enchufado ayuda.",
+      "Protegelo con una contraseña fuerte, como cualquier red Wi-Fi."
+    ],
+    "links": [
+      { "label": "Configurar el Punto de acceso personal en el iPhone (soporte de Apple)", "url": "https://support.apple.com/es-lamr/111785" },
+      { "label": "Compartir la conexión móvil con hotspot o tethering en Android (Google)", "url": "https://support.google.com/android/answer/9059108?hl=es-419" },
+      { "label": "Tethering en Wikipedia", "url": "https://es.wikipedia.org/wiki/Anclaje_a_red" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-captive-portal",
+  "date": "2026-11-06",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["captive portals", "Wi-Fi login page", "Wi-Fi login pages"],
+    "es": ["portales cautivos", "captive portal", "página de acceso al Wi-Fi"]
+  },
+  "image": "img/2026-11-06-captive-portal.svg",
+  "imageAlt": {
+    "en": "A phone joins hotel Wi-Fi; every request is redirected to a login page with an Accept button, and only after accepting does traffic pass through to the internet",
+    "es": "Un celular se conecta al Wi-Fi de un hotel; cada pedido se redirige a una página de acceso con un botón Aceptar, y solo después de aceptar el tráfico pasa a internet"
+  },
+  "en": {
+    "title": "Captive portal",
+    "tagline": "The page that pops up on public Wi-Fi asking you to log in or accept terms first.",
+    "explanation": [
+      "A **captive portal** is the web page you see when you join the Wi-Fi at an airport, hotel, café or hospital and it asks for your room number, an email address, a code from your ticket, or just a tap on \"Accept\". Until you get past it, you are connected to the network but not to the internet: you are held \"captive\" on that one page.",
+      "Behind the scenes, the network's gateway lets your device in but blocks or redirects all your traffic. Phones and laptops detect this on their own: right after joining, they try to load a known test address (Apple, Google and Microsoft each have one). If the answer is not what they expect, they conclude there is a portal and open a small login window automatically. Once you accept, the gateway remembers your device, usually by its MAC address, and lets your traffic through for a while.",
+      "Captive portals are useful to venues: they can show terms of use, charge for access, limit time, or collect an email for marketing. They are also a weak spot. The page itself is often not protected by HTTPS, and anyone can set up a fake hotspot with a convincing login page to steal passwords. A good habit is never to type an important password into a Wi-Fi login page, and to use a VPN on public networks when you can."
+    ],
+    "analogy": "The reception desk at a gym. You are already inside the building, but you cannot reach the machines until you show your card or sign the waiver at the counter.",
+    "keyPoints": [
+      "Common on airport, hotel and café Wi-Fi.",
+      "You are on the network but cut off from the internet until you log in or accept.",
+      "Devices detect it by loading a test page and open the login window automatically.",
+      "Fake portals are an easy phishing trick; do not reuse real passwords there."
+    ],
+    "links": [
+      { "label": "Captive portal on Wikipedia", "url": "https://en.wikipedia.org/wiki/Captive_portal" },
+      { "label": "RFC 8910, Captive-Portal Identification in DHCP and Router Advertisements", "url": "https://www.rfc-editor.org/rfc/rfc8910" }
+    ]
+  },
+  "es": {
+    "title": "Portal cautivo",
+    "tagline": "La página que aparece en el Wi-Fi público pidiéndote que entres o aceptes condiciones.",
+    "explanation": [
+      "Un **portal cautivo** es la página web que te aparece cuando te conectás al Wi-Fi de un aeropuerto, un hotel, un café o un hospital y te pide el número de habitación, un mail, un código del ticket o simplemente que toques \"Aceptar\". Hasta que no pasás esa pantalla, estás conectado a la red pero no a internet: quedás \"cautivo\" en esa única página.",
+      "Por detrás, el gateway de la red te deja entrar pero bloquea o redirige todo tu tráfico. Celulares y notebooks lo detectan solos: apenas se conectan, intentan cargar una dirección de prueba conocida (Apple, Google y Microsoft tienen cada una la suya). Si la respuesta no es la esperada, deducen que hay un portal y abren automáticamente una ventanita de acceso. Cuando aceptás, el gateway recuerda tu dispositivo, casi siempre por su dirección MAC, y deja pasar tu tráfico por un tiempo.",
+      "A los lugares les sirve: pueden mostrar condiciones de uso, cobrar el acceso, limitar el tiempo o juntar mails para marketing. También son un punto débil. Muchas veces la página no está protegida con HTTPS, y cualquiera puede montar un hotspot falso con una página de acceso convincente para robar contraseñas. Un buen hábito es no escribir nunca una contraseña importante en la página de un Wi-Fi y usar una VPN en redes públicas cuando puedas."
+    ],
+    "analogy": "La recepción de un gimnasio. Ya estás adentro del edificio, pero no llegás a las máquinas hasta que mostrás el carnet o firmás la ficha en el mostrador.",
+    "keyPoints": [
+      "Es común en el Wi-Fi de aeropuertos, hoteles y cafés.",
+      "Estás en la red pero sin internet hasta que entrás o aceptás.",
+      "Los dispositivos lo detectan cargando una página de prueba y abren solos la ventana de acceso.",
+      "Los portales falsos son un truco fácil de phishing; no reutilices ahí contraseñas reales."
+    ],
+    "links": [
+      { "label": "Portal cautivo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Portal_cautivo" },
+      { "label": "RFC 8910, identificación de portales cautivos (en inglés)", "url": "https://www.rfc-editor.org/rfc/rfc8910" }
+    ]
+  }
+}

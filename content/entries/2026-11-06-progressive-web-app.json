@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-progressive-web-app",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["PWA", "PWAs", "progressive web apps", "service worker", "service workers", "web app manifest"],
+    "es": ["PWA", "PWAs", "aplicaciones web progresivas", "app web progresiva", "progressive web app", "service worker", "service workers"]
+  },
+  "image": "img/2026-11-06-progressive-web-app.svg",
+  "imageAlt": {
+    "en": "A website in a browser gets installed as an icon on a phone's home screen; a service worker between the app and the internet keeps a cache so it still opens offline",
+    "es": "Un sitio en el navegador se instala como un ícono en la pantalla de inicio del celular; un service worker entre la app e internet guarda una caché para que abra aun sin conexión"
+  },
+  "en": {
+    "title": "Progressive web app",
+    "tagline": "A website that can be installed and used like an app, even offline.",
+    "explanation": [
+      "A **progressive web app** (PWA) is a website built so it can behave like an installed app. You visit it in the web browser, tap \"Add to home screen\" or \"Install\", and from then on it opens from its own icon, in its own window, without the address bar. Underneath it is still HTML, CSS and JavaScript served from a URL.",
+      "Two pieces make that possible. A **web app manifest** is a small JSON file with the app's name, icon and colors, which tells the device how to install it. A **service worker** is a script the browser runs in the background, between the page and the network: it can keep copies of files and data in a cache so the app opens without signal, and it can receive push notifications. PWAs must be served over HTTPS.",
+      "The appeal is one codebase for every device, no app store review, and updates that arrive the next time the user opens it. Twitter, Starbucks and Uber have all shipped PWAs, often to reach people with cheap phones or patchy data. The limits are real too: iPhones support PWAs with fewer features than Android, and some hardware access is still easier from a native mobile app."
+    ],
+    "analogy": "A food truck that can also park and become a small restaurant. Same kitchen and same menu, but once it settles on your street it has a sign, a door and a pantry that keeps working when the supply truck is late.",
+    "keyPoints": [
+      "A website that can be installed to the home screen and opened in its own window.",
+      "The manifest describes the app; the service worker handles offline caching and notifications.",
+      "Requires HTTPS and updates like a website, without an app store.",
+      "Support varies: iOS offers fewer PWA features than Android and desktop browsers."
+    ],
+    "links": [
+      { "label": "Progressive web apps (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" },
+      { "label": "Progressive Web Apps (web.dev)", "url": "https://web.dev/explore/progressive-web-apps" },
+      { "label": "Progressive web app on Wikipedia", "url": "https://en.wikipedia.org/wiki/Progressive_web_app" }
+    ]
+  },
+  "es": {
+    "title": "Aplicación web progresiva",
+    "tagline": "Un sitio web que se puede instalar y usar como una app, incluso sin conexión.",
+    "explanation": [
+      "Una **aplicación web progresiva** (PWA, por progressive web app) es un sitio web armado para comportarse como una app instalada. Entrás desde el navegador web, tocás \"Agregar a la pantalla de inicio\" o \"Instalar\", y desde ahí se abre desde su propio ícono, en su propia ventana, sin la barra de direcciones. Por debajo sigue siendo HTML, CSS y JavaScript servidos desde una URL.",
+      "Hay dos piezas que lo hacen posible. El **web app manifest** es un archivo JSON chiquito con el nombre, el ícono y los colores de la app, que le dice al dispositivo cómo instalarla. El **service worker** es un script que el navegador corre en segundo plano, entre la página y la red: puede guardar copias de archivos y datos en una caché para que la app abra sin señal, y puede recibir notificaciones push. Las PWA tienen que servirse por HTTPS.",
+      "Lo atractivo es tener un solo código para todos los dispositivos, sin revisión de una tienda de apps y con actualizaciones que llegan la próxima vez que el usuario la abre. Twitter, Starbucks y Uber lanzaron PWA, muchas veces para llegar a gente con celulares baratos o datos que van y vienen. Los límites también existen: el iPhone soporta las PWA con menos funciones que Android, y algunos accesos al hardware siguen siendo más fáciles desde una app nativa."
+    ],
+    "analogy": "Un food truck que además puede estacionarse y convertirse en un localcito. La misma cocina y el mismo menú, pero cuando se instala en tu cuadra tiene cartel, puerta y una despensa que sigue funcionando aunque el camión de proveedores se atrase.",
+    "keyPoints": [
+      "Un sitio web que se instala en la pantalla de inicio y abre en su propia ventana.",
+      "El manifest describe la app; el service worker maneja la caché offline y las notificaciones.",
+      "Necesita HTTPS y se actualiza como un sitio, sin pasar por una tienda de apps.",
+      "El soporte varía: iOS ofrece menos funciones de PWA que Android y los navegadores de escritorio."
+    ],
+    "links": [
+      { "label": "Aplicaciones web progresivas (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/Progressive_web_apps" },
+      { "label": "Progressive Web Apps (web.dev, en inglés)", "url": "https://web.dev/explore/progressive-web-apps" },
+      { "label": "Aplicación web progresiva en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aplicación_web_progresiva" }
+    ]
+  }
+}

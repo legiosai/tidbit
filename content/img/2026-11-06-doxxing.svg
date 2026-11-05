@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="28" width="100" height="34" rx="6" fill="#9ac7ea"/>
+    <rect x="20" y="76" width="100" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="20" y="124" width="100" height="34" rx="6" fill="#ffd166"/>
+    <rect x="20" y="172" width="100" height="34" rx="6" fill="#e6dfd0"/>
+    <rect x="236" y="40" width="144" height="156" rx="10" fill="#e6dfd0"/>
+    <circle cx="308" cy="82" r="22" fill="#9ac7ea"/>
+    <rect x="252" y="146" width="112" height="34" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M124 45 C170 50 190 90 228 110"/>
+    <path d="M124 93 C170 96 190 108 228 114"/>
+    <path d="M124 141 C170 138 190 122 228 118"/>
+    <path d="M124 189 C170 182 190 136 228 122"/>
+    <path d="M222 112 l7 6 -9 2"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="49">@same_user</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="97">photo, street</text>
+    <text x="70" y="145">gym check-in</text>
+    <text x="70" y="193">old post</text>
+    <text x="308" y="126">real name</text>
+    <text x="308" y="168" font-weight="bold">home address</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">harmless crumbs · one dangerous profile</text>
+</svg>

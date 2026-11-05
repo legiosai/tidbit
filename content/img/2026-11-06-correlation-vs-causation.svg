@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="200" cy="58" r="30" fill="#ffd166"/>
+    <rect x="30" y="140" width="120" height="44" rx="8" fill="#f4a7a7"/>
+    <rect x="250" y="140" width="120" height="44" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M176 76 L112 136"/><path d="M114 128 l-2 8 8 -2"/>
+    <path d="M224 76 L288 136"/><path d="M280 134 l8 2 -2 -8"/>
+    <path d="M156 162 H244" stroke-dasharray="5 5"/>
+    <path d="M190 154 l20 16 M210 154 l-20 16"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="63">hot day</text>
+    <text x="90" y="160">ice cream</text>
+    <text x="90" y="176">sales up</text>
+    <text x="310" y="160">drownings</text>
+    <text x="310" y="176">up</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="118" y="100">causes</text>
+    <text x="282" y="100">causes</text>
+    <text x="200" y="146">no direct link</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">moving together ≠ one causes the other</text>
+</svg>

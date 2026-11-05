@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="86" width="80" height="50" rx="8" fill="#9ac7ea"/>
+    <rect x="150" y="76" width="90" height="70" rx="8" fill="#ffd166"/>
+    <ellipse cx="335" cy="88" rx="40" ry="12" fill="#e6dfd0"/>
+    <path d="M295 88 V150 A40 12 0 0 0 375 150 V88" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M102 100 H144"/><path d="M138 96 l6 4 -6 4"/>
+    <path d="M144 122 H106"/><path d="M112 118 l-6 4 6 4"/>
+    <path d="M242 100 H288"/><path d="M282 96 l6 4 -6 4"/>
+    <path d="M288 130 H248"/><path d="M254 126 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="116">app</text><text x="195" y="116">cache</text><text x="335" y="128">database</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="124" y="146">hit: 1 ms</text><text x="265" y="88">miss</text><text x="265" y="150">save copy</text>
+    <text x="335" y="180">slow: 100 ms</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">ask the fast copy first</text>
+</svg>

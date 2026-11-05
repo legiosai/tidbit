@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <rect x="24" y="40" width="130" height="150" rx="8" fill="#e6dfd0" stroke="#2b2b2b" stroke-width="2"/>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="58" y="64">Jan</text><text x="118" y="64">112</text>
+    <text x="58" y="88">Feb</text><text x="118" y="88">118</text>
+    <text x="58" y="112">Mar</text><text x="118" y="112">205</text>
+    <text x="58" y="136">Apr</text><text x="118" y="136">121</text>
+    <text x="58" y="160">May</text><text x="118" y="160">124</text>
+    <text x="58" y="184">Jun</text><text x="118" y="184">119</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M164 115 H196"/><path d="M191 111 l6 4 -6 4"/>
+    <path d="M212 40 V190 H376"/>
+    <path d="M226 164 L252 158 L278 72 L304 156 L330 152 L356 156"/>
+  </g>
+  <circle cx="278" cy="72" r="14" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <circle cx="278" cy="72" r="5" fill="#f4a7a7" stroke="#2b2b2b" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="226" y="206">Jan</text><text x="278" y="206">Mar</text><text x="356" y="206">Jun</text>
+    <text x="330" y="70">spike!</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">same numbers, seen at once</text>
+</svg>

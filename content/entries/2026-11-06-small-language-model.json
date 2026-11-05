@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-small-language-model",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["small language models", "SLM", "SLMs"],
+    "es": ["modelos de lenguaje pequeños", "small language model", "SLM", "SLMs"]
+  },
+  "image": "img/2026-11-06-small-language-model.svg",
+  "imageAlt": {
+    "en": "A large language model filling a data center next to a small language model that fits inside a phone",
+    "es": "Un modelo de lenguaje grande que ocupa un data center al lado de un modelo de lenguaje pequeño que entra en un celular"
+  },
+  "en": {
+    "title": "Small language model",
+    "tagline": "A compact language model that is cheap to run, even on a laptop or a phone.",
+    "explanation": [
+      "A **small language model** (SLM) is a language model with far fewer parameters than the giant ones behind the best-known chatbots. There is no official cutoff, but the term usually means models from a few hundred million to roughly ten billion parameters, against hundreds of billions or more for the frontier models. Examples include Microsoft's Phi family, Google's Gemma and the smaller versions of Meta's Llama.",
+      "Smaller means cheaper and faster. An SLM can run on a single modest GPU, on a laptop, or directly on a phone, with no internet connection. That is useful for privacy (the text never leaves the device), for latency (no round trip to a data center) and for cost when you have to process millions of short requests, like tagging support tickets or pulling fields out of invoices.",
+      "The catch is breadth. A small model knows less about the world, gets lost more easily in long, multi-step tasks and hallucinates more on topics it barely saw. Teams often get around this by fine-tuning a small model on one narrow job, where it can match a much bigger one, or by training it to imitate a large model (a technique called distillation). A common setup is a mix: a small model handles the easy, frequent work and passes the hard cases to a large one."
+    ],
+    "analogy": "A pocket dictionary next to an encyclopedia. It will not answer everything, but it fits in your bag, opens instantly and is enough for most of what you look up every day.",
+    "keyPoints": [
+      "No official size cutoff; usually up to roughly ten billion parameters.",
+      "Can run on laptops and phones, even offline.",
+      "Cheaper, faster and more private, but with less general knowledge.",
+      "Shines when fine-tuned for one narrow, well-defined task."
+    ],
+    "links": [
+      { "label": "What are small language models? (IBM)", "url": "https://www.ibm.com/think/topics/small-language-models" },
+      { "label": "Small language model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Small_language_model" }
+    ]
+  },
+  "es": {
+    "title": "Modelo de lenguaje pequeño",
+    "tagline": "Un modelo de lenguaje compacto y barato de correr, incluso en una notebook o un celular.",
+    "explanation": [
+      "Un **modelo de lenguaje pequeño** (SLM, por small language model) es un modelo de lenguaje con muchos menos parámetros que los gigantes que hay detrás de los chatbots más conocidos. No hay un límite oficial, pero el término suele usarse para modelos de unos cientos de millones hasta más o menos diez mil millones de parámetros, contra cientos de miles de millones o más de los modelos de punta. Algunos ejemplos son la familia Phi de Microsoft, Gemma de Google y las versiones chicas de Llama, de Meta.",
+      "Más chico quiere decir más barato y más rápido. Un SLM puede correr en una sola GPU modesta, en una notebook o directamente en el celular, sin conexión a internet. Eso sirve para la privacidad (el texto nunca sale del dispositivo), para la latencia (no hay ida y vuelta a un data center) y para el costo cuando tenés que procesar millones de pedidos cortos, como clasificar tickets de soporte o sacar datos de facturas.",
+      "La contra es la amplitud. Un modelo chico sabe menos del mundo, se pierde más fácil en tareas largas de muchos pasos y alucina más en temas que casi no vio. Los equipos suelen compensarlo haciéndole fine-tuning para una sola tarea acotada, donde puede igualar a uno mucho más grande, o entrenándolo para imitar a un modelo grande (una técnica que se llama destilación). Un esquema común es combinarlos: el modelo chico resuelve lo fácil y frecuente, y le pasa los casos difíciles a uno grande."
+    ],
+    "analogy": "Un diccionario de bolsillo al lado de una enciclopedia. No te responde todo, pero entra en la mochila, se abre al toque y alcanza para casi todo lo que buscás en el día a día.",
+    "keyPoints": [
+      "No hay un tamaño oficial; en general, hasta unos diez mil millones de parámetros.",
+      "Puede correr en notebooks y celulares, incluso sin conexión.",
+      "Más barato, rápido y privado, pero con menos conocimiento general.",
+      "Rinde mejor cuando se lo ajusta para una tarea acotada y bien definida."
+    ],
+    "links": [
+      { "label": "¿Qué son los modelos de lenguaje pequeños? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/small-language-models" },
+      { "label": "Modelo de lenguaje pequeño en Wikipedia", "url": "https://es.wikipedia.org/wiki/Modelo_de_lenguaje_peque%C3%B1o" }
+    ]
+  }
+}

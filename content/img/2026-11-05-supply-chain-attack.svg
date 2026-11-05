@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="40" width="70" height="36" rx="6" fill="#e6dfd0"/>
+    <rect x="24" y="92" width="70" height="36" rx="6" fill="#f4a7a7"/>
+    <rect x="24" y="144" width="70" height="36" rx="6" fill="#e6dfd0"/>
+    <rect x="150" y="76" width="96" height="70" rx="10" fill="#9ac7ea"/>
+    <circle cx="330" cy="50" r="16" fill="#f4a7a7"/>
+    <circle cx="330" cy="111" r="16" fill="#f4a7a7"/>
+    <circle cx="330" cy="172" r="16" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M98 58 C120 58 128 90 146 96"/>
+    <path d="M98 110 H144"/><path d="M138 106 l6 4 -6 4"/>
+    <path d="M98 162 C120 162 128 132 146 126"/>
+    <path d="M250 98 C276 90 290 56 308 52"/><path d="M302 48 l7 4 -6 5"/>
+    <path d="M250 111 H308"/><path d="M302 107 l6 4 -6 4"/>
+    <path d="M250 124 C276 132 290 168 308 170"/><path d="M302 166 l6 4 -6 5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="50" y="62">lib-a</text><text x="46" y="114">lib-b</text><text x="50" y="166">lib-c</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="198" y="108">popular</text><text x="198" y="124">app</text>
+    <text x="330" y="212">users</text><text x="59" y="28">dependencies</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="59" y="198">lib-b: bad code</text><text x="198" y="164">updates</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">trusted updates carry the attack</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-supercomputer",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["supercomputers", "high-performance computing", "HPC", "TOP500", "exascale"],
+    "es": ["supercomputadoras", "supercomputador", "supercomputadores", "computación de alto rendimiento", "HPC", "TOP500", "exaescala"]
+  },
+  "image": "img/2026-11-06-supercomputer.svg",
+  "imageAlt": {
+    "en": "Rows of server racks, each full of nodes with CPUs and GPUs, tied together by a fast network and fed one big problem split into many small pieces",
+    "es": "Filas de racks de servidores, cada uno lleno de nodos con CPU y GPU, unidos por una red rápida, que reciben un problema grande partido en muchos pedazos chicos"
+  },
+  "en": {
+    "title": "Supercomputer",
+    "tagline": "Thousands of computers wired together to work on one huge calculation at once.",
+    "explanation": [
+      "A **supercomputer** is not one giant processor. It is thousands of ordinary-looking servers, called nodes, packed into rows of racks and connected by an extremely fast network so they can behave like a single machine. Each node has its own CPUs, and today most of the computing power comes from GPUs. The total can reach more than a quintillion calculations per second, the level known as **exascale**.",
+      "The trick is splitting one big problem into many small pieces that run at the same time, then combining the results. That works well for simulations: weather and climate forecasts, how a new drug molecule folds, how air flows over a wing, how a nuclear weapon ages without testing it. This field is called **high-performance computing**, or HPC. The fast network matters as much as the chips, because the pieces constantly need to exchange data with their neighbors.",
+      "Twice a year, the TOP500 list ranks the fastest public supercomputers in the world; the top spots usually belong to national laboratories in the United States, Europe, Japan and China. The line with AI has blurred: the clusters that big companies build to train large language models use the same ingredients (thousands of GPUs, fast networks, heavy cooling) and are, in practice, supercomputers. They also consume a lot of power, often tens of megawatts, roughly what a small town uses."
+    ],
+    "analogy": "Building a cathedral from Lego with ten thousand friends. Each person assembles one small section at the same time, and a very good system of runners carries pieces and instructions between tables. Nobody is fast alone; the speed comes from how many work at once and how well they coordinate.",
+    "keyPoints": [
+      "Thousands of nodes with CPUs and GPUs, connected by a very fast network.",
+      "Splits one big problem into pieces that run in parallel.",
+      "Used for climate, physics, medicine and engineering simulations, and now AI training.",
+      "The TOP500 list ranks the fastest ones twice a year."
+    ],
+    "links": [
+      { "label": "Supercomputer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Supercomputer" },
+      { "label": "TOP500 list", "url": "https://www.top500.org/" }
+    ]
+  },
+  "es": {
+    "title": "Supercomputadora",
+    "tagline": "Miles de computadoras conectadas para trabajar a la vez en un solo cálculo enorme.",
+    "explanation": [
+      "Una **supercomputadora** no es un procesador gigante. Son miles de servidores de aspecto bastante común, llamados nodos, metidos en filas de racks y conectados por una red rapidísima para que se comporten como una sola máquina. Cada nodo tiene sus propios CPU, y hoy la mayor parte de la potencia la ponen las GPU. En total puede superar un trillón de cálculos por segundo (un uno seguido de dieciocho ceros), el nivel que se conoce como **exaescala**.",
+      "El truco es partir un problema grande en muchos pedazos chicos que corren al mismo tiempo, y después juntar los resultados. Eso anda muy bien para simulaciones: pronósticos del tiempo y del clima, cómo se pliega la molécula de un remedio nuevo, cómo pasa el aire por el ala de un avión, cómo envejece un arma nuclear sin necesidad de probarla. Este campo se llama **computación de alto rendimiento**, o HPC. La red importa tanto como los chips, porque los pedazos necesitan intercambiar datos con sus vecinos todo el tiempo.",
+      "Dos veces por año, la lista TOP500 ordena las supercomputadoras públicas más rápidas del mundo; los primeros puestos suelen ser de laboratorios nacionales de Estados Unidos, Europa, Japón y China. La frontera con la IA se volvió difusa: los clusters que arman las grandes empresas para entrenar modelos de lenguaje usan los mismos ingredientes (miles de GPU, redes rápidas, mucha refrigeración) y en la práctica son supercomputadoras. También consumen mucha energía, muchas veces decenas de megavatios, más o menos lo que usa un pueblo chico."
+    ],
+    "analogy": "Armar una catedral de Lego con diez mil amigos. Cada uno arma una partecita al mismo tiempo, y un muy buen sistema de cadetes lleva piezas e instrucciones entre las mesas. Nadie es rápido solo; la velocidad sale de cuántos trabajan a la vez y de qué tan bien se coordinan.",
+    "keyPoints": [
+      "Miles de nodos con CPU y GPU, conectados por una red muy rápida.",
+      "Parte un problema grande en pedazos que corren en paralelo.",
+      "Se usa para simular clima, física, medicina e ingeniería, y ahora para entrenar IA.",
+      "La lista TOP500 ordena las más rápidas dos veces por año."
+    ],
+    "links": [
+      { "label": "Supercomputadora en Wikipedia", "url": "https://es.wikipedia.org/wiki/Supercomputadora" },
+      { "label": "Lista TOP500 (en inglés)", "url": "https://www.top500.org/" }
+    ]
+  }
+}

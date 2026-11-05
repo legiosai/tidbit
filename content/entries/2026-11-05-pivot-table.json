@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-pivot-table",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["pivot tables", "PivotTable", "PivotTables"],
+    "es": ["tablas dinámicas", "pivot table", "tabla pivot", "tablas pivot"]
+  },
+  "image": "img/2026-11-05-pivot-table.svg",
+  "imageAlt": {
+    "en": "A long list of sales rows on the left becomes a small grid on the right with regions as rows, months as columns and totals in the cells",
+    "es": "Una lista larga de ventas a la izquierda se convierte en una grilla chica a la derecha con regiones en filas, meses en columnas y totales en las celdas"
+  },
+  "en": {
+    "title": "Pivot table",
+    "tagline": "A spreadsheet tool that summarizes a long list into totals by category, in a few clicks.",
+    "explanation": [
+      "A **pivot table** takes a long list of records, like ten thousand rows of sales with date, region, product and amount, and summarizes it into a compact grid. You choose what goes in the rows (say, regions), what goes in the columns (months) and what to calculate in each cell (the sum of the amount). The result is a small table of totals that would take hours to build by hand.",
+      "The \"pivot\" part is that you can rearrange it instantly: drag product into the rows instead of region, switch the sum to an average or a count, add a filter for one year. Each change recalculates from the original data, which stays untouched. That makes it a great tool for exploring: you ask a question, look, and ask the next one.",
+      "Pivot tables are built into Excel, Google Sheets and LibreOffice, and they are often the first serious data analysis tool people learn. Under the hood they do the same thing as a `GROUP BY` query in SQL. When the data grows past what a spreadsheet handles comfortably, the same idea moves to databases and BI tools."
+    ],
+    "analogy": "Like sorting a big bag of receipts into piles by store and by month, then writing the total on top of each pile, except the computer re-sorts the whole bag any way you want in a second.",
+    "keyPoints": [
+      "Summarizes many rows into totals grouped by categories.",
+      "You pick rows, columns, the calculation and filters, and can rearrange them freely.",
+      "The original data is never changed.",
+      "It is the spreadsheet version of SQL's GROUP BY."
+    ],
+    "links": [
+      { "label": "Create and use pivot tables (Google Sheets help)", "url": "https://support.google.com/docs/answer/1272900" },
+      { "label": "Pivot table on Wikipedia", "url": "https://en.wikipedia.org/wiki/Pivot_table" }
+    ]
+  },
+  "es": {
+    "title": "Tabla dinámica",
+    "tagline": "Una herramienta de planilla que resume una lista larga en totales por categoría.",
+    "explanation": [
+      "Una **tabla dinámica** (pivot table) agarra una lista larga de registros, como diez mil filas de ventas con fecha, región, producto e importe, y la resume en una grilla compacta. Elegís qué va en las filas (por ejemplo, regiones), qué va en las columnas (meses) y qué se calcula en cada celda (la suma del importe). El resultado es una tablita de totales que a mano te llevaría horas.",
+      "Lo \"dinámico\" es que la podés reacomodar al instante: arrastrás producto a las filas en lugar de región, cambiás la suma por un promedio o un conteo, agregás un filtro para un solo año. Cada cambio se recalcula desde los datos originales, que quedan intactos. Por eso es ideal para explorar: hacés una pregunta, mirás, y hacés la siguiente.",
+      "Las tablas dinámicas vienen en Excel, Google Sheets y LibreOffice, y muchas veces son la primera herramienta seria de análisis de datos que aprende la gente. Por dentro hacen lo mismo que una consulta con `GROUP BY` en SQL. Cuando los datos crecen más de lo que una planilla banca cómodamente, la misma idea pasa a las bases de datos y a las herramientas de BI."
+    ],
+    "analogy": "Como separar una bolsa enorme de tickets en pilas por comercio y por mes, y anotar el total arriba de cada pila. Solo que la compu vuelve a ordenar toda la bolsa como quieras en un segundo.",
+    "keyPoints": [
+      "Resume muchas filas en totales agrupados por categorías.",
+      "Elegís filas, columnas, el cálculo y los filtros, y los reacomodás cuando quieras.",
+      "Los datos originales nunca se tocan.",
+      "Es la versión de planilla del GROUP BY de SQL."
+    ],
+    "links": [
+      { "label": "Crear y usar tablas dinámicas (ayuda de Google Sheets)", "url": "https://support.google.com/docs/answer/1272900?hl=es-419" },
+      { "label": "Tabla dinámica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tabla_din%C3%A1mica" }
+    ]
+  }
+}

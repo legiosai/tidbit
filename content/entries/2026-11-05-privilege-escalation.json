@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-privilege-escalation",
+  "date": "2026-11-05",
+  "subjects": ["security"],
+  "level": 3,
+  "aliases": {
+    "en": ["privilege escalation attack", "privilege escalation attacks", "escalation of privilege", "elevation of privilege", "vertical privilege escalation", "horizontal privilege escalation"],
+    "es": ["escalamiento de privilegios", "elevación de privilegios", "escalada vertical de privilegios", "escalada horizontal de privilegios", "privilege escalation"]
+  },
+  "image": "img/2026-11-05-privilege-escalation.svg",
+  "imageAlt": {
+    "en": "A staircase of access levels: guest, user, admin and root; an attacker enters at the bottom step and uses a flaw to climb to the top",
+    "es": "Una escalera de niveles de acceso: invitado, usuario, admin y root; un atacante entra por el escalón de abajo y usa una falla para subir hasta arriba"
+  },
+  "en": {
+    "title": "Privilege escalation",
+    "tagline": "Going from limited access to more power than you were given, usually by exploiting a flaw.",
+    "explanation": [
+      "Every system hands out **privileges**: a normal user can read their own files, an administrator can install software, and `root` on Linux or `SYSTEM` on Windows can do anything. **Privilege escalation** is when someone who got in with limited rights manages to obtain higher ones they were never granted. It is rarely how an attack starts; it is what turns a small foothold, such as a phished employee account or a hacked web app running as a low-privilege service, into control of the whole machine or network.",
+      "**Vertical** escalation climbs up: from user to admin, from a container to the host, from a read-only cloud role to one that can create new credentials. **Horizontal** escalation moves sideways to another account at the same level, for example changing an ID in a URL to see someone else's invoices. The usual routes are an unpatched kernel or driver vulnerability, a program that runs with high privileges and can be tricked into running the attacker's commands, misconfigured permissions, passwords or keys left in scripts, and in the cloud, IAM policies that let a role grant itself more.",
+      "That is why defenders treat it as a separate stage to block, not just the initial break-in. The core ideas are least privilege, so each account and service has only what it needs; prompt patching, since many escalation bugs are public within days; separating admin accounts from everyday ones; and monitoring for the telltale moves, such as a web server process suddenly spawning a root shell. Frameworks like MITRE ATT&CK catalog the known techniques so teams can test their defenses against each one."
+    ],
+    "analogy": "A visitor with a lobby pass who finds a master key left in a utility closet. The visit itself was legitimate; the problem is what that pass let them reach once inside.",
+    "keyPoints": [
+      "It turns limited initial access into admin or root control.",
+      "Vertical means climbing to higher rights; horizontal means taking over a peer's account.",
+      "Common routes: unpatched bugs, misconfigured permissions, exposed secrets, over-broad cloud roles.",
+      "Least privilege, fast patching and monitoring limit the damage."
+    ],
+    "links": [
+      { "label": "Privilege escalation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Privilege_escalation" },
+      { "label": "MITRE ATT&CK: Privilege Escalation tactic (TA0004)", "url": "https://attack.mitre.org/tactics/TA0004/" },
+      { "label": "CWE-269: Improper Privilege Management", "url": "https://cwe.mitre.org/data/definitions/269.html" }
+    ]
+  },
+  "es": {
+    "title": "Escalada de privilegios",
+    "tagline": "Pasar de un acceso limitado a más poder del que te dieron, casi siempre por una falla.",
+    "explanation": [
+      "Todo sistema reparte **privilegios**: un usuario común puede leer sus propios archivos, un administrador puede instalar software, y `root` en Linux o `SYSTEM` en Windows pueden hacer cualquier cosa. La **escalada de privilegios** es cuando alguien que entró con permisos limitados consigue otros más altos que nunca le dieron. Rara vez es el comienzo de un ataque; es lo que convierte un primer pie adentro, como la cuenta de un empleado que cayó en un phishing o una app web hackeada que corre como un servicio con pocos permisos, en el control de toda la máquina o la red.",
+      "La escalada **vertical** sube: de usuario a admin, de un contenedor al host, de un rol de la nube de solo lectura a uno que puede crear credenciales nuevas. La **horizontal** se mueve de costado hacia otra cuenta del mismo nivel, por ejemplo cambiando un ID en la URL para ver las facturas de otra persona. Los caminos habituales son una vulnerabilidad sin parchear en el kernel o en un driver, un programa que corre con privilegios altos y se puede engañar para que ejecute comandos del atacante, permisos mal configurados, contraseñas o claves olvidadas en scripts y, en la nube, políticas de IAM que le permiten a un rol darse más permisos a sí mismo.",
+      "Por eso los equipos de defensa la tratan como una etapa aparte que hay que bloquear, no solo la entrada inicial. Las ideas centrales son el mínimo privilegio, para que cada cuenta y cada servicio tenga solo lo que necesita; parchear rápido, porque muchas fallas de escalada se hacen públicas en días; separar las cuentas de administración de las de uso diario; y vigilar los movimientos delatores, como un proceso de servidor web que de golpe abre una consola de root. Marcos como MITRE ATT&CK catalogan las técnicas conocidas para que los equipos prueben sus defensas contra cada una."
+    ],
+    "analogy": "Una visita con un pase para el hall que encuentra una llave maestra olvidada en el cuarto de mantenimiento. La visita en sí era legítima; el problema es hasta dónde llegó con ese pase una vez adentro.",
+    "keyPoints": [
+      "Convierte un acceso inicial limitado en control de admin o root.",
+      "Vertical es subir a permisos más altos; horizontal es tomar la cuenta de un par.",
+      "Caminos comunes: fallas sin parchear, permisos mal configurados, secretos expuestos, roles de nube demasiado amplios.",
+      "El mínimo privilegio, los parches rápidos y el monitoreo limitan el daño."
+    ],
+    "links": [
+      { "label": "Escalada de privilegios en Wikipedia", "url": "https://es.wikipedia.org/wiki/Escalada_de_privilegios" },
+      { "label": "MITRE ATT&CK: táctica de escalada de privilegios (TA0004, en inglés)", "url": "https://attack.mitre.org/tactics/TA0004/" }
+    ]
+  }
+}

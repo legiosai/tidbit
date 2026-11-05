@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-cpu-cache",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["CPU caches", "processor cache", "L1 cache", "L2 cache", "L3 cache", "cache memory"],
+    "es": ["caché del procesador", "caché de la CPU", "caché L1", "caché L2", "caché L3", "memoria caché"]
+  },
+  "image": "img/2026-11-05-cpu-cache.svg",
+  "imageAlt": {
+    "en": "A CPU core with three nested boxes, L1, L2 and L3, growing bigger and slower on the way out to RAM",
+    "es": "Un núcleo de CPU con tres cajas, L1, L2 y L3, cada una más grande y más lenta en el camino hacia la RAM"
+  },
+  "en": {
+    "title": "CPU cache",
+    "tagline": "A tiny, very fast memory inside the processor that keeps the data it is about to need.",
+    "explanation": [
+      "A CPU can do billions of operations per second, but fetching data from RAM takes far longer than one operation: the processor would spend most of its time waiting. The **CPU cache** fixes that. It is a small amount of extremely fast memory built into the chip itself, holding copies of the data and instructions the processor used recently or is likely to use next.",
+      "Caches come in levels. **L1 cache** sits right next to each core: tiny (tens of kilobytes) and almost instant. **L2 cache** is bigger and a bit slower. **L3 cache** is larger still, often several megabytes or more, and usually shared by all the cores. When the CPU needs something it checks L1, then L2, then L3, and only goes to RAM if none of them has it. Finding it is a hit; going all the way out is a miss.",
+      "Caches work because programs are predictable: they tend to reuse the same data and to read memory in order. The chip loads whole neighboring chunks at once and keeps what was used lately. That is why two programs doing the same math can run at very different speeds depending on how they lay out their data, and why chipmakers advertise cache size next to cores and clock speed."
+    ],
+    "analogy": "A cook's workspace. The knife and salt are within arm's reach (L1), the spices are on the shelf behind (L2), the pantry is down the hall (L3), and the supermarket is RAM. A good cook keeps what the recipe needs next close at hand.",
+    "keyPoints": [
+      "Cache is small, very fast memory on the CPU chip itself.",
+      "L1 is the smallest and fastest, L3 the largest and usually shared.",
+      "A hit is served from cache; a miss has to wait for RAM.",
+      "Software that reads memory in order makes much better use of the cache."
+    ],
+    "links": [
+      { "label": "CPU cache on Wikipedia", "url": "https://en.wikipedia.org/wiki/CPU_cache" },
+      { "label": "Cache (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cache_(computing)" }
+    ]
+  },
+  "es": {
+    "title": "Caché de CPU",
+    "tagline": "Una memoria chiquita y rapidísima adentro del procesador, con lo que está por necesitar.",
+    "explanation": [
+      "Una CPU puede hacer miles de millones de operaciones por segundo, pero traer un dato de la RAM tarda muchísimo más que una operación: el procesador se pasaría la mayor parte del tiempo esperando. La **caché de CPU** resuelve eso. Es una cantidad chica de memoria rapidísima metida en el mismo chip, con copias de los datos e instrucciones que el procesador usó hace poco o que probablemente use enseguida.",
+      "La caché viene en niveles. La **caché L1** está pegada a cada núcleo: diminuta (decenas de kilobytes) y casi instantánea. La **caché L2** es más grande y un poco más lenta. La **caché L3** es todavía mayor, muchas veces de varios megabytes o más, y suele ser compartida por todos los núcleos. Cuando la CPU necesita algo, se fija en L1, después en L2, después en L3, y recién si no está en ninguna va a la RAM. Encontrarlo es un hit; tener que salir hasta afuera es un miss.",
+      "Funciona porque los programas son predecibles: tienden a reusar los mismos datos y a leer la memoria en orden. El chip trae de una vez bloques enteros de datos vecinos y se queda con lo que se usó último. Por eso dos programas que hacen la misma cuenta pueden correr a velocidades muy distintas según cómo ordenan sus datos, y por eso los fabricantes anuncian el tamaño de la caché al lado de los núcleos y la velocidad de reloj."
+    ],
+    "analogy": "La mesada de una cocinera. El cuchillo y la sal están al alcance de la mano (L1), las especias en el estante de atrás (L2), la despensa al fondo del pasillo (L3) y el supermercado es la RAM. Una buena cocinera tiene cerca lo que la receta pide a continuación.",
+    "keyPoints": [
+      "La caché es memoria chica y muy rápida en el mismo chip de la CPU.",
+      "L1 es la más chica y rápida; L3 la más grande y casi siempre compartida.",
+      "Un hit se sirve desde la caché; un miss tiene que esperar a la RAM.",
+      "El software que lee la memoria en orden aprovecha mucho mejor la caché."
+    ],
+    "links": [
+      { "label": "Caché de CPU en Wikipedia", "url": "https://es.wikipedia.org/wiki/Caché_de_CPU" },
+      { "label": "Caché (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Caché_(informática)" }
+    ]
+  }
+}

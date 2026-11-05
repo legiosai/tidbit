@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="90" y="40" width="70" height="56" rx="6"/>
+    <rect x="170" y="40" width="70" height="56" rx="6"/>
+    <rect x="250" y="40" width="70" height="56" rx="6"/>
+    <rect x="90" y="124" width="32" height="56" rx="5"/>
+    <rect x="130" y="124" width="32" height="56" rx="5"/>
+    <rect x="170" y="124" width="32" height="56" rx="5"/>
+    <rect x="210" y="124" width="32" height="56" rx="5"/>
+    <rect x="250" y="124" width="32" height="56" rx="5"/>
+    <rect x="290" y="124" width="32" height="56" rx="5"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#ffd166">
+    <circle cx="106" cy="68" r="8"/><circle cx="205" cy="68" r="8"/><circle cx="304" cy="68" r="8"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9bd1b9">
+    <circle cx="102" cy="152" r="7"/><circle cx="144" cy="152" r="7"/><circle cx="186" cy="152" r="7"/>
+    <circle cx="226" cy="152" r="7"/><circle cx="266" cy="152" r="7"/><circle cx="310" cy="152" r="7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="50" y="73">60 Hz</text><text x="50" y="157">120 Hz</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="205" y="112">big jumps</text><text x="205" y="196">small steps, smoother</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same motion, more pictures per second</text>
+</svg>

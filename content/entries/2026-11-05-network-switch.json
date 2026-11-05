@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-network-switch",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["network switches", "Ethernet switch", "Ethernet switches"],
+    "es": ["switches de red", "switch Ethernet", "switches Ethernet", "conmutador de red"]
+  },
+  "image": "img/2026-11-05-network-switch.svg",
+  "imageAlt": {
+    "en": "A switch with four ports connecting four computers; a message from computer A goes only to computer C, not to the others",
+    "es": "Un switch con cuatro puertos que conecta cuatro computadoras; un mensaje de la computadora A va solo a la C, no a las demás"
+  },
+  "en": {
+    "title": "Network switch",
+    "tagline": "A box with many ports that connects devices on the same local network.",
+    "explanation": [
+      "A **network switch** is a box full of Ethernet ports that joins the devices of a local network: computers, printers, cameras, access points. When one device sends data to another, the switch looks at the destination MAC address and sends it out of the single port where that device is plugged in, instead of copying it to everyone.",
+      "To do that it learns as it goes. Each time a frame arrives, it notes which MAC address came in through which port and keeps that table in memory. Older hubs simply repeated everything to every port, which wasted capacity and let anyone see everyone else's traffic.",
+      "At home you rarely buy one because the router already has a small switch built in: those three or four ports on the back. In an office or a data center, rows of switches with dozens of ports each connect hundreds of machines, and bigger models can split one physical network into several VLANs."
+    ],
+    "analogy": "A mail sorter in a building. Instead of shouting every letter in the lobby, the sorter learns which apartment each person lives in and slips each letter under the right door.",
+    "keyPoints": [
+      "A switch connects devices within one local network; a router connects different networks.",
+      "It sends each frame only to the port of its destination, using MAC addresses.",
+      "Home routers include a small switch: the extra Ethernet ports.",
+      "Managed switches can split a network into VLANs."
+    ],
+    "links": [
+      { "label": "Network switch on Wikipedia", "url": "https://en.wikipedia.org/wiki/Network_switch" }
+    ]
+  },
+  "es": {
+    "title": "Switch de red",
+    "tagline": "Una caja con muchos puertos que conecta los equipos de una misma red local.",
+    "explanation": [
+      "Un **switch de red** es una caja llena de puertos Ethernet que une los equipos de una red local: computadoras, impresoras, cámaras, puntos de acceso. Cuando un equipo le manda datos a otro, el switch mira la dirección MAC de destino y los saca solo por el puerto donde está enchufado ese equipo, en vez de copiárselos a todos.",
+      "Para eso va aprendiendo sobre la marcha. Cada vez que llega un marco, anota qué dirección MAC entró por qué puerto y guarda esa tabla en memoria. Los viejos hubs repetían todo por todos los puertos, lo que desperdiciaba capacidad y dejaba que cualquiera viera el tráfico de los demás.",
+      "En casa casi nunca comprás uno porque el router ya trae un switch chiquito adentro: son esos tres o cuatro puertos de atrás. En una oficina o un data center, filas de switches con decenas de puertos cada uno conectan cientos de máquinas, y los modelos más grandes pueden dividir una misma red física en varias VLANs."
+    ],
+    "analogy": "El encargado de la correspondencia de un edificio. En vez de gritar cada carta en el hall, aprende en qué departamento vive cada uno y pasa cada sobre por debajo de la puerta que corresponde.",
+    "keyPoints": [
+      "Un switch conecta equipos dentro de una red local; un router conecta redes distintas.",
+      "Manda cada marco solo al puerto del destino, usando direcciones MAC.",
+      "Los routers hogareños traen un switch chiquito: los puertos Ethernet extra.",
+      "Los switches administrables pueden dividir una red en VLANs."
+    ],
+    "links": [
+      { "label": "Conmutador (dispositivo de red) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Conmutador_(dispositivo_de_red)" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-outlier",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["outliers"],
+    "es": ["valores atípicos", "dato atípico", "datos atípicos", "outlier", "outliers"]
+  },
+  "image": "img/2026-11-06-outlier.svg",
+  "imageAlt": {
+    "en": "A row of dots for order amounts clustered between 20 and 60 dollars, and one lone dot far to the right at 9,000, circled with a question mark",
+    "es": "Una fila de puntos con montos de pedidos agrupados entre 20 y 60 dólares, y un punto solitario muy a la derecha en 9.000, rodeado con un signo de pregunta"
+  },
+  "en": {
+    "title": "Outlier",
+    "tagline": "A value that sits far away from the rest of the data.",
+    "explanation": [
+      "An **outlier** is a data point that is very different from the others. If a shop's orders are usually between 20 and 60 dollars and one order is for 9,000, that order is an outlier. In a chart, it is the lonely dot far away from the crowd.",
+      "Outliers have two very different origins, and telling them apart is the real work. Some are mistakes: someone typed 9000 instead of 90.00, a sensor glitched, a test order was left in. Those should be fixed or removed. Others are real and often the most interesting thing in the data: a large company buying in bulk, a fraud attempt, a server about to fail. Deleting those would hide exactly what you needed to see.",
+      "They matter because some summaries are very sensitive to them. One billionaire walking into a bar makes the average income of the room enormous, while the median (the value in the middle) barely moves. That is why analysts look at the data before averaging it, and why reports on incomes or house prices usually give the median. Detecting unusual values automatically, called anomaly detection, is used in fraud prevention, security and equipment monitoring."
+    ],
+    "analogy": "A giraffe in a class photo of school kids. It may be a costume (a mistake to fix) or a real giraffe (something worth investigating), but either way you should not include it when you calculate the class's average height.",
+    "keyPoints": [
+      "A value far from the rest, for good or bad reasons.",
+      "Could be an error to fix or a real, important event like fraud.",
+      "Distorts averages a lot; the median is much more robust.",
+      "Never delete one without first asking why it is there."
+    ],
+    "links": [
+      { "label": "Outlier on Wikipedia", "url": "https://en.wikipedia.org/wiki/Outlier" },
+      { "label": "Anomaly detection on Wikipedia", "url": "https://en.wikipedia.org/wiki/Anomaly_detection" }
+    ]
+  },
+  "es": {
+    "title": "Valor atípico",
+    "tagline": "Un valor que queda muy lejos del resto de los datos.",
+    "explanation": [
+      "Un **valor atípico** (outlier) es un dato muy distinto de los demás. Si los pedidos de un negocio suelen estar entre 20 y 60 dólares y hay uno de 9.000, ese pedido es un valor atípico. En un gráfico, es el punto solitario lejos del montón.",
+      "Los valores atípicos tienen dos orígenes muy distintos, y diferenciarlos es el verdadero trabajo. Algunos son errores: alguien escribió 9000 en lugar de 90,00, un sensor falló, quedó cargado un pedido de prueba. Esos hay que corregirlos o sacarlos. Otros son reales y muchas veces son lo más interesante de los datos: una empresa grande que compra por mayor, un intento de fraude, un servidor a punto de fallar. Borrarlos escondería justo lo que necesitabas ver.",
+      "Importan porque algunos resúmenes son muy sensibles a ellos. Si entra un multimillonario a un bar, el ingreso promedio de los presentes se vuelve enorme, mientras que la mediana (el valor del medio) casi no se mueve. Por eso los analistas miran los datos antes de promediarlos, y por eso los informes sobre sueldos o precios de casas suelen dar la mediana. Detectar valores raros de forma automática, lo que se llama detección de anomalías, se usa para prevenir fraudes, en seguridad y para vigilar equipos."
+    ],
+    "analogy": "Una jirafa en la foto de grado de un colegio. Puede ser un disfraz (un error para corregir) o una jirafa de verdad (algo para investigar), pero en cualquiera de los dos casos no la contarías para sacar la altura promedio del grado.",
+    "keyPoints": [
+      "Un valor lejos del resto, por buenas o malas razones.",
+      "Puede ser un error para corregir o un hecho real e importante, como un fraude.",
+      "Distorsiona mucho los promedios; la mediana es mucho más resistente.",
+      "Nunca borres uno sin preguntarte antes por qué está ahí."
+    ],
+    "links": [
+      { "label": "Valor atípico en Wikipedia", "url": "https://es.wikipedia.org/wiki/Valor_at%C3%ADpico" },
+      { "label": "Anomaly detection en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Anomaly_detection" }
+    ]
+  }
+}

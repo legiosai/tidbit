@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="60" y="60" width="270" height="110" rx="12" fill="#e6dfd0"/>
+    <rect x="330" y="95" width="16" height="40" rx="4" fill="#2b2b2b"/>
+    <rect x="76" y="74" width="70" height="82" rx="6" fill="#9ac7ea"/>
+    <rect x="244" y="74" width="70" height="82" rx="6" fill="#f4a7a7"/>
+    <line x1="195" y1="102" x2="195" y2="130" stroke-dasharray="4 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#ffd166">
+    <circle cx="98" cy="96" r="7"/><circle cx="124" cy="104" r="7"/><circle cx="104" cy="126" r="7"/><circle cx="128" cy="136" r="7"/>
+    <circle cx="270" cy="120" r="7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M160 92 H230"/><path d="M224 88 l6 4 -6 4"/>
+    <path d="M230 140 H160"/><path d="M166 136 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="195" y="84">use</text><text x="195" y="158">charge</text>
+    <text x="111" y="190">graphite side</text><text x="279" y="190">metal oxide side</text>
+  </g>
+  <text x="200" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b">lithium ions shuttle back and forth</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">each round trip is one charge cycle</text>
+</svg>

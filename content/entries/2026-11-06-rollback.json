@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-06-rollback",
+  "date": "2026-11-06",
+  "subjects": ["cloud", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["rollbacks", "roll back", "rolled back", "rolling back"],
+    "es": ["rollbacks", "hacer rollback"]
+  },
+  "image": "img/2026-11-06-rollback.svg",
+  "imageAlt": {
+    "en": "Three versions in a row; the newest one is broken, and an arrow goes back from it to the previous version that worked",
+    "es": "Tres versiones en fila; la más nueva está rota y una flecha vuelve de ella a la versión anterior, que funcionaba"
+  },
+  "en": {
+    "title": "Rollback",
+    "tagline": "Going back to the last version that worked when a new one causes problems.",
+    "explanation": [
+      "A **rollback** is undoing a change by returning a system to an earlier state that was known to be good. The most common case is software releases: a team publishes version 3 of an app, error reports start pouring in, and instead of hunting for the bug while users suffer, they put version 2 back. The investigation can happen calmly afterwards.",
+      "A fast rollback is one of the best safety nets a team can have, and modern tooling makes it routine. Kubernetes keeps the previous versions of a deployment and can return to one with a single command. Cloud deployment services can roll back on their own when health checks or alarms fail. Release styles like canary releases and blue-green deployments are designed partly so that going back is quick and only a few users notice the problem.",
+      "The hard part is usually data. Code can be swapped back in seconds, but if version 3 changed the database, for example by renaming a column, version 2 may no longer understand it. That is why careful teams make database changes in small, backward-compatible steps. Sometimes rolling back is not possible or not worth it, and the team \"rolls forward\" instead with a quick fix. The word is also used for databases: a transaction that fails is rolled back, so none of its changes are kept."
+    ],
+    "analogy": "Like the undo button in a text editor, but for a whole system: if the last change broke things, you go back to how it was a moment ago.",
+    "keyPoints": [
+      "Returns a system to the last version known to work.",
+      "Fixes the symptom fast; the root cause is investigated afterwards.",
+      "Database changes are what usually make rolling back hard.",
+      "In databases, a failed transaction is rolled back so nothing half-done is kept."
+    ],
+    "links": [
+      { "label": "Rolling back a Deployment (Kubernetes docs)", "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment" },
+      { "label": "Redeploy and roll back a deployment with CodeDeploy (AWS docs)", "url": "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployments-rollback-and-redeploy.html" },
+      { "label": "Rollback (data management) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Rollback_(data_management)" }
+    ]
+  },
+  "es": {
+    "title": "Rollback",
+    "tagline": "Volver a la última versión que andaba cuando una nueva trae problemas.",
+    "explanation": [
+      "Un **rollback** es deshacer un cambio devolviendo un sistema a un estado anterior que se sabe que funcionaba. El caso más común son los lanzamientos de software: un equipo publica la versión 3 de una app, empiezan a llover reportes de errores y, en lugar de buscar el bug mientras los usuarios la sufren, vuelven a poner la versión 2. La investigación se puede hacer después, con calma.",
+      "Poder hacer rollback rápido es una de las mejores redes de seguridad que puede tener un equipo, y las herramientas actuales lo vuelven rutina. Kubernetes guarda las versiones anteriores de un deployment y puede volver a una con un solo comando. Los servicios de despliegue en la nube pueden hacer rollback solos cuando fallan los chequeos de salud o saltan alarmas. Formas de lanzar como los canary releases y los despliegues blue-green están pensadas, en parte, para que volver atrás sea rápido y el problema lo noten pocos usuarios.",
+      "La parte difícil suele ser la de los datos. El código se puede cambiar en segundos, pero si la versión 3 modificó la base de datos, por ejemplo renombrando una columna, puede que la versión 2 ya no la entienda. Por eso los equipos prolijos hacen los cambios en la base en pasos chicos y compatibles hacia atrás. A veces volver no se puede o no conviene, y el equipo prefiere \"ir para adelante\" con un arreglo rápido. La palabra también se usa en bases de datos: a una transacción que falla se le hace rollback, así no queda guardado ninguno de sus cambios."
+    ],
+    "analogy": "Como el botón de deshacer de un editor de texto, pero para un sistema entero: si el último cambio rompió algo, volvés a como estaba hace un rato.",
+    "keyPoints": [
+      "Devuelve un sistema a la última versión que se sabe que funcionaba.",
+      "Corta el síntoma rápido; la causa de fondo se investiga después.",
+      "Los cambios en la base de datos son lo que suele complicar el rollback.",
+      "En bases de datos, a una transacción fallida se le hace rollback para no dejar nada a medias."
+    ],
+    "links": [
+      { "label": "Deployments en Kubernetes (documentación oficial)", "url": "https://kubernetes.io/es/docs/concepts/workloads/controllers/deployment/" },
+      { "label": "Volver a implementar y revertir una implementación con CodeDeploy (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/codedeploy/latest/userguide/deployments-rollback-and-redeploy.html" }
+    ]
+  }
+}

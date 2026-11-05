@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-spacex",
+  "date": "2026-11-05",
+  "subjects": ["companies", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["Starlink", "Space Exploration Technologies", "Falcon 9", "Starship"],
+    "es": ["Starlink", "Space Exploration Technologies", "Falcon 9", "Starship"]
+  },
+  "image": "img/2026-11-05-spacex.svg",
+  "imageAlt": {
+    "en": "A rocket launches a batch of satellites while its first stage lands back on Earth; the satellites in low orbit beam internet down to a small dish on a house roof",
+    "es": "Un cohete lanza una tanda de satélites mientras su primera etapa vuelve a aterrizar en la Tierra; los satélites en órbita baja mandan internet a una antenita en el techo de una casa"
+  },
+  "en": {
+    "title": "SpaceX",
+    "tagline": "The rocket company that also runs Starlink, internet from thousands of satellites.",
+    "explanation": [
+      "**SpaceX** is an American aerospace company founded by Elon Musk in 2002. Its main business is launching things into space for governments and companies, and its big technical bet was **reuse**: the first stage of its **Falcon 9** rocket flies back and lands upright so it can fly again, which made launches far cheaper and more frequent. Its Dragon capsule has carried astronauts to the International Space Station since 2020, and it is developing **Starship**, a fully reusable giant rocket meant for the Moon and Mars.",
+      "For most people, though, SpaceX means **Starlink**: satellite internet from a constellation of thousands of small satellites in low Earth orbit. Because they fly much closer than traditional satellites, the signal makes a shorter trip and latency is low enough for video calls and gaming. You get a small dish, point it at the open sky and it connects; it reaches rural areas, ships and planes where fiber optic or mobile networks do not.",
+      "Cheap launches and Starlink feed each other: SpaceX launches its own satellites on its own rockets, and Starlink subscriptions became its largest source of revenue. In 2026 it absorbed xAI, Musk's AI company, and went public on the Nasdaq. Astronomers have raised concerns about so many satellites crowding the night sky, and the company's control over internet access in conflict zones has turned it into a geopolitical actor."
+    ],
+    "analogy": "A trucking company that got so good at reusing its trucks that it started its own delivery business, using those trucks to build a network of stations in the sky.",
+    "keyPoints": [
+      "Founded in 2002 by Elon Musk; known for rockets that land and fly again.",
+      "Starlink provides internet from thousands of satellites in low Earth orbit.",
+      "Low orbit means lower latency than traditional satellite internet.",
+      "In 2026 it absorbed xAI and went public."
+    ],
+    "links": [
+      { "label": "SpaceX (official site)", "url": "https://www.spacex.com/" },
+      { "label": "Starlink (official site)", "url": "https://www.starlink.com/" },
+      { "label": "SpaceX on Wikipedia", "url": "https://en.wikipedia.org/wiki/SpaceX" }
+    ]
+  },
+  "es": {
+    "title": "SpaceX",
+    "tagline": "La empresa de cohetes que además opera Starlink, internet desde miles de satélites.",
+    "explanation": [
+      "**SpaceX** es una empresa aeroespacial estadounidense fundada por Elon Musk en 2002. Su negocio principal es poner cosas en el espacio para gobiernos y empresas, y su gran apuesta técnica fue la **reutilización**: la primera etapa de su cohete **Falcon 9** vuelve y aterriza parada para poder volar otra vez, lo que abarató muchísimo los lanzamientos y los volvió más frecuentes. Su cápsula Dragon lleva astronautas a la Estación Espacial Internacional desde 2020, y está desarrollando **Starship**, un cohete gigante y totalmente reutilizable pensado para ir a la Luna y a Marte.",
+      "Para la mayoría de la gente, igual, SpaceX es **Starlink**: internet satelital desde una constelación de miles de satélites chicos en órbita baja. Como vuelan mucho más cerca que los satélites tradicionales, la señal hace un viaje más corto y la latencia es lo bastante baja para videollamadas y juegos. Te llega una antenita, la apuntás al cielo abierto y se conecta; llega a zonas rurales, barcos y aviones donde no hay fibra óptica ni red móvil.",
+      "Los lanzamientos baratos y Starlink se retroalimentan: SpaceX sube sus propios satélites en sus propios cohetes, y las suscripciones de Starlink pasaron a ser su mayor fuente de ingresos. En 2026 absorbió a xAI, la empresa de IA de Musk, y salió a la bolsa en el Nasdaq. Los astrónomos se quejan de tantos satélites ensuciando el cielo nocturno, y el control de la empresa sobre el acceso a internet en zonas de guerra la convirtió en un actor geopolítico."
+    ],
+    "analogy": "Una empresa de camiones que se volvió tan buena reutilizando sus camiones que armó su propio negocio de envíos, usándolos para construir una red de estaciones en el cielo.",
+    "keyPoints": [
+      "Fundada en 2002 por Elon Musk; conocida por cohetes que aterrizan y vuelven a volar.",
+      "Starlink da internet desde miles de satélites en órbita baja.",
+      "La órbita baja implica menos latencia que el internet satelital tradicional.",
+      "En 2026 absorbió a xAI y salió a la bolsa."
+    ],
+    "links": [
+      { "label": "SpaceX en Wikipedia", "url": "https://es.wikipedia.org/wiki/SpaceX" },
+      { "label": "Starlink en Wikipedia", "url": "https://es.wikipedia.org/wiki/Starlink" },
+      { "label": "SpaceX (sitio oficial, en inglés)", "url": "https://www.spacex.com/" }
+    ]
+  }
+}

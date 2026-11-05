@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-change-data-capture",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["CDC", "Debezium"],
+    "es": ["CDC", "captura de cambios de datos", "captura de datos de cambios", "Debezium"]
+  },
+  "image": "img/2026-11-05-change-data-capture.svg",
+  "imageAlt": {
+    "en": "A database writes every change to its log; a CDC reader follows the log and streams insert, update and delete events to a warehouse and a search index",
+    "es": "Una base de datos escribe cada cambio en su log; un lector de CDC sigue el log y transmite eventos de alta, modificación y baja a un warehouse y a un índice de búsqueda"
+  },
+  "en": {
+    "title": "Change data capture",
+    "tagline": "Copying every insert, update and delete from a database to other systems as it happens.",
+    "explanation": [
+      "**Change data capture**, or **CDC**, is a technique for detecting each change made to a database and sending it elsewhere, almost in real time. Instead of copying a whole table every night, CDC sends only what changed: a new order inserted, a price updated, a customer deleted, each as a small event.",
+      "The most common method reads the database's own transaction log. Databases like PostgreSQL and MySQL already write every change to a log before applying it, for crash recovery and replication. A CDC tool such as **Debezium** or AWS Database Migration Service tails that log and turns each entry into an event, usually published to a stream. Older approaches use triggers or poll for rows with a recent `updated_at`, but they add load and can miss deletes.",
+      "CDC is how a data warehouse stays minutes behind the production database instead of a day, how a search index or a cache stays in sync with the source of truth, and how a database can be migrated with almost no downtime. The tricky parts are order, since events must be applied in the sequence they happened, schema changes in the source, and the first full copy that has to be taken before streaming changes on top of it."
+    ],
+    "analogy": "Like following a shared document's edit history instead of downloading the whole document every hour: you only receive the lines that changed, in order, as soon as they change.",
+    "keyPoints": [
+      "Sends each insert, update and delete as an event, not whole tables.",
+      "Usually reads the database's transaction log, so it adds little load.",
+      "Keeps warehouses, caches and search indexes close to real time.",
+      "Order, schema changes and the initial full copy need care."
+    ],
+    "links": [
+      { "label": "What is change data capture? (AWS)", "url": "https://aws.amazon.com/what-is/change-data-capture/" },
+      { "label": "Debezium (open-source CDC platform)", "url": "https://debezium.io/" },
+      { "label": "Change data capture on Wikipedia", "url": "https://en.wikipedia.org/wiki/Change_data_capture" }
+    ]
+  },
+  "es": {
+    "title": "Change data capture",
+    "tagline": "Copiar cada alta, cambio y baja de una base de datos a otros sistemas en el momento.",
+    "explanation": [
+      "El **change data capture**, o **CDC** (captura de cambios de datos), es una técnica para detectar cada cambio que se hace en una base de datos y mandarlo a otro lado casi en tiempo real. En lugar de copiar una tabla entera todas las noches, el CDC manda solo lo que cambió: un pedido nuevo, un precio actualizado, un cliente borrado, cada uno como un evento chiquito.",
+      "El método más común lee el log de transacciones de la propia base. Bases como PostgreSQL y MySQL ya escriben cada cambio en un log antes de aplicarlo, para recuperarse de caídas y para replicar. Una herramienta de CDC como **Debezium** o AWS Database Migration Service va leyendo ese log y convierte cada entrada en un evento, que en general se publica en un stream. Los enfoques más viejos usan triggers o buscan cada tanto filas con un `updated_at` reciente, pero cargan más a la base y se les pueden escapar los borrados.",
+      "El CDC es lo que permite que un data warehouse esté a minutos de la base de producción en vez de a un día, que un índice de búsqueda o una caché queden sincronizados con la fuente de verdad, y que una base se migre casi sin cortes. Lo delicado es el orden, porque los eventos se tienen que aplicar en la secuencia en que pasaron, los cambios de estructura en el origen, y la primera copia completa que hay que hacer antes de empezar a transmitir cambios encima."
+    ],
+    "analogy": "Como seguir el historial de cambios de un documento compartido en vez de bajarte el documento entero cada hora: recibís solo las líneas que cambiaron, en orden, apenas cambian.",
+    "keyPoints": [
+      "Manda cada alta, cambio y baja como un evento, no tablas enteras.",
+      "En general lee el log de transacciones de la base, así que la carga poco.",
+      "Mantiene warehouses, cachés e índices de búsqueda casi en tiempo real.",
+      "El orden, los cambios de estructura y la copia inicial piden cuidado."
+    ],
+    "links": [
+      { "label": "¿Qué es la captura de datos de cambios? (AWS)", "url": "https://aws.amazon.com/es/what-is/change-data-capture/" },
+      { "label": "Debezium (plataforma open source de CDC, en inglés)", "url": "https://debezium.io/" },
+      { "label": "Change data capture en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Change_data_capture" }
+    ]
+  }
+}

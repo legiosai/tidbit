@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-thermal-throttling",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["thermally throttled", "thermal throttle"],
+    "es": ["throttling térmico", "estrangulamiento térmico"]
+  },
+  "image": "img/2026-11-06-thermal-throttling.svg",
+  "imageAlt": {
+    "en": "Two lines over time: chip temperature climbs to a red limit line and flattens there, while clock speed starts high and drops as soon as the limit is reached",
+    "es": "Dos líneas en el tiempo: la temperatura del chip sube hasta una línea límite y se aplana ahí, mientras la velocidad de reloj arranca alta y baja apenas se llega al límite"
+  },
+  "en": {
+    "title": "Thermal throttling",
+    "tagline": "A chip slowing itself down on purpose so it does not overheat.",
+    "explanation": [
+      "Processors turn almost all the electricity they use into heat, and the faster they run, the more heat they make. Every chip has a maximum safe temperature, often around 95 to 105 °C for laptop and desktop CPUs. **Thermal throttling** is what happens when a chip gets close to that limit: it automatically lowers its clock speed, and often its voltage, to produce less heat and stay safe. It is a protection, not a fault.",
+      "You notice it as a device that starts fast and then slows down. A game runs smoothly for ten minutes and then stutters; a phone exports a video quickly at first and then crawls; a thin laptop finishes a short task in seconds but takes much longer on a long one. The chip did not get worse. It is running at, say, 2.5 GHz instead of 4.5 GHz because it cannot get rid of the heat any faster.",
+      "How much a device throttles depends mostly on its cooling: a big heat sink and fans, or liquid cooling, can keep a chip at full speed, while a fanless phone or tablet has to slow down sooner. Dust in the vents, dried-out thermal paste, a hot room or a laptop sitting on a blanket all make it worse. That is why benchmarks for phones and laptops often include a long \"sustained\" test, not just a quick burst."
+    ],
+    "analogy": "A runner who starts a race at a sprint and has to drop to a jog when they overheat. They are not injured; their body is protecting itself. With better cooling, like shade and cold water, they could keep the fast pace longer.",
+    "keyPoints": [
+      "The chip lowers its own speed when it nears its temperature limit.",
+      "It protects the hardware; it is not a defect.",
+      "Shows up as performance that drops after a few minutes of heavy work.",
+      "Better cooling, clean vents and fresh thermal paste reduce it."
+    ],
+    "links": [
+      { "label": "Dynamic frequency scaling on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dynamic_frequency_scaling" },
+      { "label": "Thermal design power on Wikipedia", "url": "https://en.wikipedia.org/wiki/Thermal_design_power" }
+    ]
+  },
+  "es": {
+    "title": "Thermal throttling",
+    "tagline": "Un chip que se frena a propósito para no recalentarse.",
+    "explanation": [
+      "Los procesadores convierten en calor casi toda la electricidad que usan, y cuanto más rápido andan, más calor generan. Todo chip tiene una temperatura máxima segura, muchas veces entre 95 y 105 °C en los CPU de notebooks y PCs de escritorio. El **thermal throttling** (o throttling térmico) es lo que pasa cuando un chip se acerca a ese límite: baja solo su velocidad de reloj, y muchas veces su voltaje, para generar menos calor y no dañarse. Es una protección, no una falla.",
+      "Lo notás como un aparato que arranca rápido y después se pone lento. Un juego anda fluido diez minutos y después empieza a trabarse; un celular exporta un video rápido al principio y después se arrastra; una notebook finita termina una tarea corta en segundos pero tarda mucho más en una larga. El chip no se volvió peor. Está andando, por ejemplo, a 2,5 GHz en lugar de 4,5 GHz porque no puede sacarse el calor de encima más rápido.",
+      "Cuánto se frena un aparato depende sobre todo de su refrigeración: un disipador grande con ventiladores, o la refrigeración líquida, pueden mantener un chip a toda velocidad, mientras que un celular o una tablet sin ventilador se tienen que frenar antes. El polvo en las rejillas, la pasta térmica reseca, un cuarto caluroso o una notebook apoyada sobre una frazada lo empeoran. Por eso las pruebas de rendimiento de celulares y notebooks suelen incluir un test largo y \"sostenido\", no solo un pico corto."
+    ],
+    "analogy": "Un corredor que arranca una carrera a todo lo que da y tiene que bajar a trote cuando se recalienta. No está lesionado; su cuerpo se está cuidando. Con mejor refrigeración, como sombra y agua fría, podría mantener el ritmo rápido más tiempo.",
+    "keyPoints": [
+      "El chip baja su propia velocidad cuando se acerca a su temperatura límite.",
+      "Protege el hardware; no es un defecto.",
+      "Se nota como un rendimiento que cae después de unos minutos de trabajo pesado.",
+      "Mejor refrigeración, rejillas limpias y pasta térmica nueva lo reducen."
+    ],
+    "links": [
+      { "label": "Dynamic frequency scaling en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Dynamic_frequency_scaling" },
+      { "label": "Thermal design power en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Thermal_design_power" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-markdown",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["CommonMark", "GitHub Flavored Markdown"],
+    "es": ["CommonMark", "GitHub Flavored Markdown"]
+  },
+  "image": "img/2026-11-06-markdown.svg",
+  "imageAlt": {
+    "en": "Plain text with a hash sign, asterisks and dashes on the left becomes a formatted page with a heading, bold word and bullet list on the right",
+    "es": "Texto plano con un numeral, asteriscos y guiones a la izquierda se convierte en una página con título, una palabra en negrita y una lista a la derecha"
+  },
+  "en": {
+    "title": "Markdown",
+    "tagline": "A way to format text with plain symbols like # and *, readable even before it is rendered.",
+    "explanation": [
+      "**Markdown** is a simple set of conventions for writing formatted text with an ordinary keyboard. A line that starts with `#` becomes a heading, a word between `**` becomes bold, lines starting with `-` become a bulleted list, and `[text](https://example.com)` becomes a link. A program then turns those symbols into a nicely formatted page, usually HTML.",
+      "John Gruber and Aaron Swartz created it in 2004 with one goal: the raw text should look fine on its own, like a well-written email, so you never need a preview to understand it. That is why it spread everywhere: README files on GitHub (`README.md`), notes apps like Obsidian, chat apps like Slack and Discord, documentation sites, and the answers chatbots like Claude or ChatGPT write, which come out in Markdown and get rendered on screen.",
+      "Because the original description left some cases ambiguous, there are several dialects. **CommonMark** is a precise specification that most tools now follow, and **GitHub Flavored Markdown** adds tables, checklists and strikethrough on top. Since it is plain text, a Markdown file opens in any editor, works well with git, and will still be readable decades from now."
+    ],
+    "analogy": "Handwritten proofreading marks. A line under a word means \"make it bold\", a star at the start means \"bullet point\". Anyone can read the draft as it is, and a typesetter knows exactly how to print it.",
+    "keyPoints": [
+      "Formatting with plain symbols: # for headings, ** for bold, - for lists.",
+      "The raw text is meant to be readable without rendering it.",
+      "Files usually end in `.md`; GitHub shows `README.md` on every project page.",
+      "CommonMark is the precise spec; GitHub Flavored Markdown adds tables and checklists."
+    ],
+    "links": [
+      { "label": "Markdown on Wikipedia", "url": "https://en.wikipedia.org/wiki/Markdown" },
+      { "label": "CommonMark: spec and 10-minute tutorial", "url": "https://commonmark.org/" },
+      { "label": "Markdown Guide", "url": "https://www.markdownguide.org/" }
+    ]
+  },
+  "es": {
+    "title": "Markdown",
+    "tagline": "Una forma de dar formato al texto con símbolos simples como # y *, legible tal cual.",
+    "explanation": [
+      "**Markdown** es un conjunto simple de convenciones para escribir texto con formato usando un teclado común. Una línea que empieza con `#` se vuelve un título, una palabra entre `**` queda en negrita, las líneas que arrancan con `-` forman una lista y `[texto](https://example.com)` se convierte en un link. Después un programa transforma esos símbolos en una página prolija, casi siempre en HTML.",
+      "Lo crearon John Gruber y Aaron Swartz en 2004 con una idea: que el texto crudo se vea bien por sí solo, como un mail bien escrito, sin necesitar una vista previa para entenderlo. Por eso se metió en todos lados: los archivos README de GitHub (`README.md`), apps de notas como Obsidian, chats como Slack y Discord, sitios de documentación y las respuestas de chatbots como Claude o ChatGPT, que salen en Markdown y se muestran con formato en pantalla.",
+      "Como la descripción original dejaba algunos casos ambiguos, hay varios dialectos. **CommonMark** es una especificación precisa que hoy siguen la mayoría de las herramientas, y **GitHub Flavored Markdown** le suma tablas, listas de tareas y texto tachado. Como es texto plano, un archivo Markdown se abre en cualquier editor, se lleva bien con git y se va a poder leer dentro de varias décadas."
+    ],
+    "analogy": "Las marcas de corrección a mano en un borrador. Una raya debajo de una palabra quiere decir \"en negrita\", un asterisco al principio quiere decir \"viñeta\". Cualquiera lee el borrador así como está, y quien lo imprime sabe exactamente cómo dejarlo.",
+    "keyPoints": [
+      "Formato con símbolos simples: # para títulos, ** para negrita, - para listas.",
+      "El texto crudo está pensado para leerse sin procesarlo.",
+      "Los archivos suelen terminar en `.md`; GitHub muestra el `README.md` de cada proyecto.",
+      "CommonMark es la especificación precisa; GitHub Flavored Markdown suma tablas y listas de tareas."
+    ],
+    "links": [
+      { "label": "Markdown en Wikipedia", "url": "https://es.wikipedia.org/wiki/Markdown" },
+      { "label": "CommonMark: especificación y tutorial (en inglés)", "url": "https://commonmark.org/" },
+      { "label": "Markdown Guide (en inglés)", "url": "https://www.markdownguide.org/" }
+    ]
+  }
+}

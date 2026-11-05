@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-databricks",
+  "date": "2026-11-05",
+  "subjects": ["companies", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["Databricks Inc.", "Delta Lake", "Unity Catalog"],
+    "es": ["Databricks Inc.", "Delta Lake", "Unity Catalog"]
+  },
+  "image": "img/2026-11-05-databricks.svg",
+  "imageAlt": {
+    "en": "Raw files from apps, sensors and logs land in cheap cloud storage; a Databricks layer on top runs Spark jobs, SQL dashboards and machine learning over the same data",
+    "es": "Archivos crudos de apps, sensores y logs caen en almacenamiento barato en la nube; una capa de Databricks encima corre trabajos de Spark, dashboards de SQL y machine learning sobre los mismos datos"
+  },
+  "en": {
+    "title": "Databricks",
+    "tagline": "A cloud platform for processing, analyzing and training AI on a company's data.",
+    "explanation": [
+      "**Databricks** is an American company founded in 2013 by the researchers at UC Berkeley who created Apache Spark, among them Ali Ghodsi, its CEO, Matei Zaharia and Ion Stoica. It sells a platform where companies process huge amounts of data, query it with SQL, and build and run machine learning and AI models, all in one place. It runs on top of the big clouds: AWS, Microsoft Azure and Google Cloud.",
+      "Its central idea is the **lakehouse**: keep all data as open-format files in cheap cloud storage, the way a data lake does, but add the reliability and fast queries of a data warehouse on top. Two open source projects it started make that work: **Delta Lake**, which adds transactions and version history to those files, and MLflow, which tracks machine learning experiments. **Unity Catalog** controls who can see which tables, files and models.",
+      "In practice a bank, a retailer or a hospital uses Databricks to pull data from dozens of systems, clean it, build reports and train models without copying everything between separate tools. Its main rival is Snowflake, which started from the warehouse side; over the years the two have converged, and both now pitch themselves as the place where companies build AI on their own data. Databricks expanded into that area by buying MosaicML in 2023."
+    ],
+    "analogy": "A huge shared kitchen built next to the warehouse where all the raw ingredients arrive. Instead of trucking ingredients to different restaurants, every cook, the baker, the analyst and the AI chef, works right there from the same shelves.",
+    "keyPoints": [
+      "Founded in 2013 by the creators of Apache Spark.",
+      "Popularized the lakehouse: data lake storage with data warehouse features.",
+      "Runs on AWS, Azure and Google Cloud; customers pay for the compute they use.",
+      "Its main competitor is Snowflake."
+    ],
+    "links": [
+      { "label": "Databricks (official site)", "url": "https://www.databricks.com/" },
+      { "label": "Delta Lake (open source project)", "url": "https://delta.io/" },
+      { "label": "Databricks on Wikipedia", "url": "https://en.wikipedia.org/wiki/Databricks" }
+    ]
+  },
+  "es": {
+    "title": "Databricks",
+    "tagline": "Una plataforma en la nube para procesar los datos de una empresa y entrenar IA con ellos.",
+    "explanation": [
+      "**Databricks** es una empresa estadounidense fundada en 2013 por los investigadores de UC Berkeley que crearon Apache Spark, entre ellos Ali Ghodsi, su CEO, Matei Zaharia e Ion Stoica. Vende una plataforma donde las empresas procesan cantidades enormes de datos, los consultan con SQL y arman y corren modelos de machine learning e IA, todo en el mismo lugar. Funciona arriba de las grandes nubes: AWS, Microsoft Azure y Google Cloud.",
+      "Su idea central es el **lakehouse**: guardar todos los datos como archivos en formatos abiertos en almacenamiento barato de la nube, como hace un data lake, pero sumarle encima la confiabilidad y las consultas rápidas de un data warehouse. Dos proyectos de código abierto que arrancó la empresa hacen que eso funcione: **Delta Lake**, que agrega transacciones e historial de versiones a esos archivos, y MLflow, que registra los experimentos de machine learning. **Unity Catalog** controla quién puede ver qué tablas, archivos y modelos.",
+      "En la práctica, un banco, una cadena de retail o un hospital usa Databricks para traer datos de decenas de sistemas, limpiarlos, armar reportes y entrenar modelos sin andar copiando todo entre herramientas separadas. Su gran rival es Snowflake, que arrancó desde el lado del warehouse; con los años las dos se fueron pareciendo, y hoy ambas se venden como el lugar donde las empresas construyen IA con sus propios datos. Databricks se metió de lleno en eso al comprar MosaicML en 2023."
+    ],
+    "analogy": "Una cocina enorme y compartida, construida al lado del depósito donde llegan todos los ingredientes crudos. En vez de mandar los ingredientes en camión a distintos restaurantes, todos los cocineros, el pastelero, el analista y el chef de IA, trabajan ahí mismo con los mismos estantes.",
+    "keyPoints": [
+      "Fundada en 2013 por los creadores de Apache Spark.",
+      "Popularizó el lakehouse: almacenamiento de data lake con funciones de data warehouse.",
+      "Corre sobre AWS, Azure y Google Cloud; los clientes pagan por el cómputo que usan.",
+      "Su principal competidor es Snowflake."
+    ],
+    "links": [
+      { "label": "Databricks en Wikipedia", "url": "https://es.wikipedia.org/wiki/Databricks" },
+      { "label": "Databricks (sitio oficial, en inglés)", "url": "https://www.databricks.com/" },
+      { "label": "Delta Lake (proyecto de código abierto, en inglés)", "url": "https://delta.io/" }
+    ]
+  }
+}

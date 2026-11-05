@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-06-go",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Golang", "Go language", "Go programming language"],
+    "es": ["Golang", "lenguaje Go"]
+  },
+  "image": "img/2026-11-06-go.svg",
+  "imageAlt": {
+    "en": "A Go source file compiled into a single binary that runs on a server, where many lightweight goroutines pass messages through channels",
+    "es": "Un archivo de código Go compilado a un único binario que corre en un servidor, donde muchas goroutines livianas se pasan mensajes por canales"
+  },
+  "en": {
+    "title": "Go",
+    "tagline": "A simple, fast programming language from Google, built for servers and cloud tools.",
+    "explanation": [
+      "**Go** (often called **Golang**, which is easier to search for) is a programming language created at Google by Robert Griesemer, Rob Pike and Ken Thompson and released as open source in 2009. They were tired of huge codebases that took ages to build and were hard to read, so they designed a small language with few features, strict formatting (`gofmt` makes everyone's code look the same) and a compiler that finishes in seconds.",
+      "A Go program compiles into a single file, a **binary**, that runs directly on the machine with no interpreter or extra libraries to install. That makes it easy to ship: copy one file to a server, or into a small Docker image, and run it. Its other signature feature is **goroutines**: very cheap tasks that run at the same time and talk through **channels**, which makes it natural to write a server that handles tens of thousands of connections at once.",
+      "That combination made Go the language of cloud infrastructure. Docker, Kubernetes, Terraform and many command-line tools are written in it, and companies like Uber, Cloudflare and Mercado Libre use it for backend services. It trades some expressiveness for simplicity: fewer clever tricks, more code that a new teammate can read on day one."
+    ],
+    "analogy": "A well-organized professional kitchen with a short, fixed menu. Fewer dishes than a fancy restaurant, but every cook knows where everything is, orders come out fast, and many cooks can work side by side without bumping into each other.",
+    "keyPoints": [
+      "Created at Google, open source since 2009.",
+      "Compiles fast into a single self-contained binary.",
+      "Goroutines and channels make concurrent programs easy to write.",
+      "Docker, Kubernetes and Terraform are written in Go."
+    ],
+    "links": [
+      { "label": "The Go programming language (go.dev)", "url": "https://go.dev/" },
+      { "label": "A Tour of Go", "url": "https://go.dev/tour/" },
+      { "label": "Go (programming language) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Go_(programming_language)" }
+    ]
+  },
+  "es": {
+    "title": "Go",
+    "tagline": "Un lenguaje de programación simple y rápido de Google, pensado para servidores y la nube.",
+    "explanation": [
+      "**Go** (muchas veces llamado **Golang**, que es más fácil de buscar) es un lenguaje de programación creado en Google por Robert Griesemer, Rob Pike y Ken Thompson y liberado como código abierto en 2009. Estaban cansados de bases de código gigantes que tardaban una eternidad en compilar y costaba leer, así que diseñaron un lenguaje chico, con pocas funciones, formato estricto (`gofmt` hace que el código de todos se vea igual) y un compilador que termina en segundos.",
+      "Un programa en Go se compila en un único archivo, un **binario**, que corre directo en la máquina sin intérprete ni bibliotecas extra para instalar. Eso lo hace fácil de distribuir: copiás un archivo a un servidor, o a una imagen de Docker chiquita, y lo corrés. Su otra marca registrada son las **goroutines**: tareas muy livianas que corren al mismo tiempo y se comunican por **canales** (channels), lo que hace natural escribir un servidor que atiende decenas de miles de conexiones a la vez.",
+      "Esa combinación convirtió a Go en el lenguaje de la infraestructura en la nube. Docker, Kubernetes, Terraform y un montón de herramientas de línea de comandos están escritas en Go, y empresas como Uber, Cloudflare y Mercado Libre lo usan para sus servicios de backend. Cambia algo de expresividad por simpleza: menos trucos ingeniosos y más código que alguien recién llegado al equipo puede leer el primer día."
+    ],
+    "analogy": "Una cocina profesional bien ordenada con una carta corta y fija. Hay menos platos que en un restaurante de lujo, pero cada cocinero sabe dónde está todo, los pedidos salen rápido y muchos pueden trabajar codo a codo sin chocarse.",
+    "keyPoints": [
+      "Creado en Google, de código abierto desde 2009.",
+      "Compila rápido a un único binario autocontenido.",
+      "Las goroutines y los canales simplifican los programas concurrentes.",
+      "Docker, Kubernetes y Terraform están escritos en Go."
+    ],
+    "links": [
+      { "label": "El lenguaje de programación Go (go.dev, en inglés)", "url": "https://go.dev/" },
+      { "label": "Un tour de Go (en inglés)", "url": "https://go.dev/tour/" },
+      { "label": "Go (lenguaje de programación) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Go_(lenguaje_de_programación)" }
+    ]
+  }
+}

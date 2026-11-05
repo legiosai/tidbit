@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-web-accessibility",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["accessibility", "a11y", "WCAG", "Web Content Accessibility Guidelines", "screen reader", "screen readers", "alt text"],
+    "es": ["accesibilidad", "a11y", "WCAG", "Pautas de Accesibilidad para el Contenido Web", "lector de pantalla", "lectores de pantalla", "texto alternativo"]
+  },
+  "image": "img/2026-11-06-web-accessibility.svg",
+  "imageAlt": {
+    "en": "One web page reached in four ways: a screen reader reading the alt text of a photo aloud, a keyboard, a zoomed-in view and captions on a video",
+    "es": "Una página web a la que se llega de cuatro formas: un lector de pantalla que lee en voz alta el texto alternativo de una foto, un teclado, una vista ampliada y subtítulos en un video"
+  },
+  "en": {
+    "title": "Web accessibility",
+    "tagline": "Making websites and apps usable by everyone, including people with disabilities.",
+    "explanation": [
+      "**Web accessibility** means building sites so that people can use them however they perceive and operate a computer. A blind person uses a **screen reader**, software that reads the page aloud; someone with a tremor may navigate only with the keyboard; a deaf person needs captions on videos; someone with low vision zooms the page to 300%. An accessible site works for all of them.",
+      "Much of it is careful, ordinary work. Every image gets **alt text** describing it (\"a nurse checking a patient's blood pressure\"). Buttons are real buttons in the HTML, not decorated boxes, so a keyboard and a screen reader can find them. Text has enough contrast against its background. Forms say in words what went wrong, not only in red. Nothing important depends on color, sound or a mouse alone.",
+      "The reference rulebook is **WCAG**, the Web Content Accessibility Guidelines from the W3C, and many laws point to it: the European Accessibility Act, the ADA in the United States and similar rules in Latin America. Beyond the law, it helps far more people than expected: older users, anyone on a phone in bright sunlight, someone with a broken arm. The community often shortens the word to **a11y** (an \"a\", 11 letters, a \"y\")."
+    ],
+    "analogy": "A ramp at the entrance of a building. It was put there for wheelchairs, but parents with strollers, delivery workers and travelers with suitcases use it every day too.",
+    "keyPoints": [
+      "Covers blindness, low vision, deafness, motor and cognitive disabilities.",
+      "Basics: alt text, real HTML buttons and labels, keyboard access, good contrast, captions.",
+      "WCAG is the international reference, and many laws require it.",
+      "Helps everyone, not only people with permanent disabilities."
+    ],
+    "links": [
+      { "label": "Introduction to Web Accessibility (W3C WAI)", "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/" },
+      { "label": "WCAG overview (W3C WAI)", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/" },
+      { "label": "Accessibility (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility" }
+    ]
+  },
+  "es": {
+    "title": "Accesibilidad web",
+    "tagline": "Que sitios y apps los pueda usar todo el mundo, incluidas las personas con discapacidad.",
+    "explanation": [
+      "La **accesibilidad web** es construir sitios que la gente pueda usar sin importar cómo percibe y maneja una computadora. Una persona ciega usa un **lector de pantalla**, un programa que lee la página en voz alta; alguien con temblor en las manos quizás navega solo con el teclado; una persona sorda necesita subtítulos en los videos; alguien con baja visión agranda la página al 300%. Un sitio accesible funciona para todos ellos.",
+      "Buena parte es trabajo cuidadoso y cotidiano. Cada imagen lleva un **texto alternativo** que la describe (\"una enfermera tomándole la presión a un paciente\"). Los botones son botones de verdad en el HTML, no cajas decoradas, así el teclado y el lector de pantalla los encuentran. El texto tiene suficiente contraste con el fondo. Los formularios dicen con palabras qué salió mal, no solo pintándolo de rojo. Nada importante depende únicamente del color, del sonido o del mouse.",
+      "El reglamento de referencia son las **WCAG**, las pautas de accesibilidad del W3C, y muchas leyes se apoyan en ellas: la Ley Europea de Accesibilidad, la ADA en Estados Unidos y normas parecidas en América Latina. Más allá de la ley, ayuda a mucha más gente de la que uno imagina: personas mayores, cualquiera mirando el celular a pleno sol, alguien con un brazo enyesado. En la comunidad se abrevia **a11y** (una \"a\", 11 letras y una \"y\", por la palabra en inglés)."
+    ],
+    "analogy": "La rampa en la entrada de un edificio. Se puso pensando en las sillas de ruedas, pero también la usan todos los días quienes van con cochecito, los repartidores y los viajeros con valija.",
+    "keyPoints": [
+      "Abarca ceguera, baja visión, sordera y discapacidades motrices y cognitivas.",
+      "Lo básico: texto alternativo, botones y etiquetas reales en HTML, acceso por teclado, buen contraste, subtítulos.",
+      "Las WCAG son la referencia internacional, y muchas leyes las exigen.",
+      "Ayuda a todo el mundo, no solo a quienes tienen una discapacidad permanente."
+    ],
+    "links": [
+      { "label": "Introducción a la accesibilidad web (W3C WAI)", "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/es" },
+      { "label": "Accesibilidad (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/Accessibility" },
+      { "label": "Accesibilidad web en Wikipedia", "url": "https://es.wikipedia.org/wiki/Accesibilidad_web" }
+    ]
+  }
+}

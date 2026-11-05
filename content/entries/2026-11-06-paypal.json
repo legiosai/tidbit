@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-paypal",
+  "date": "2026-11-06",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["PayPal account", "PayPal accounts", "Venmo"],
+    "es": ["cuenta de PayPal", "cuentas de PayPal", "Venmo"]
+  },
+  "image": "img/2026-11-06-paypal.svg",
+  "imageAlt": {
+    "en": "A buyer pays an online shop by logging in to PayPal with an email and password; PayPal charges the buyer's card or bank and pays the shop, which never sees the card number",
+    "es": "Un comprador le paga a una tienda online entrando a PayPal con email y contraseña; PayPal le cobra a su tarjeta o banco y le paga a la tienda, que nunca ve el número de tarjeta"
+  },
+  "en": {
+    "title": "PayPal",
+    "tagline": "An online wallet that lets you pay or send money with an email address instead of a card number.",
+    "explanation": [
+      "**PayPal** is one of the oldest online payment companies. It came from the 2000 merger of two late-1990s startups: Confinity, founded by Max Levchin, Peter Thiel and others, and X.com, founded by Elon Musk. The auction site eBay bought it in 2002, when it was already the favorite way to pay for eBay items, and spun it off as a separate company again in 2015.",
+      "The idea: you link your card or bank account to a PayPal account once. After that, to pay a shop you just log in to PayPal and confirm, and to send money to a person you only need their email address or phone number. The shop or the other person gets paid, but never sees your card number. If something you bought never arrives, PayPal has a buyer protection process to dispute the payment.",
+      "It makes money by charging fees, mostly to merchants on each payment they receive, and on things like international transfers and currency conversion. It also owns **Venmo**, a person-to-person payment app popular in the United States. Newer rivals such as Stripe, Apple Pay and the instant payment systems that many countries now run cover similar ground, but PayPal remains a familiar checkout button in many parts of the world."
+    ],
+    "analogy": "A trusted friend standing between you and the seller. You give the money to the friend, the friend pays the seller, and the seller never learns your bank details.",
+    "keyPoints": [
+      "Born from the 2000 merger of Confinity and Elon Musk's X.com; owned by eBay 2002 to 2015.",
+      "You pay with an email and password; the shop never sees your card.",
+      "Charges fees mostly to merchants, plus international transfers and conversions.",
+      "Also owns Venmo, a person-to-person payment app."
+    ],
+    "links": [
+      { "label": "PayPal (official site)", "url": "https://www.paypal.com/" },
+      { "label": "PayPal on Wikipedia", "url": "https://en.wikipedia.org/wiki/PayPal" }
+    ]
+  },
+  "es": {
+    "title": "PayPal",
+    "tagline": "Una billetera online para pagar o mandar plata con un email en lugar de un número de tarjeta.",
+    "explanation": [
+      "**PayPal** es una de las empresas de pagos online más viejas. Salió de la fusión, en 2000, de dos startups de fines de los noventa: Confinity, fundada por Max Levchin, Peter Thiel y otros, y X.com, fundada por Elon Musk. El sitio de subastas eBay la compró en 2002, cuando ya era la forma preferida de pagar lo que se compraba en eBay, y en 2015 la separó otra vez como empresa independiente.",
+      "La idea: vinculás tu tarjeta o tu cuenta bancaria a una cuenta de PayPal una sola vez. Después, para pagarle a una tienda solo entrás a PayPal y confirmás, y para mandarle plata a una persona alcanza con su email o su número de teléfono. La tienda o la otra persona cobra, pero nunca ve el número de tu tarjeta. Si algo que compraste no llega, PayPal tiene un proceso de protección al comprador para reclamar el pago.",
+      "Gana plata cobrando comisiones, sobre todo a los comercios por cada pago que reciben, y por cosas como transferencias internacionales y cambio de moneda. También es dueña de **Venmo**, una app de pagos entre personas muy usada en Estados Unidos. Competidores más nuevos como Stripe, Apple Pay y los sistemas de pagos instantáneos que hoy tienen muchos países cubren un terreno parecido, pero PayPal sigue siendo un botón de pago conocido en muchas partes del mundo."
+    ],
+    "analogy": "Un amigo de confianza parado entre vos y el vendedor. Le das la plata al amigo, el amigo le paga al vendedor y el vendedor nunca se entera de tus datos bancarios.",
+    "keyPoints": [
+      "Nació de la fusión en 2000 de Confinity y X.com, de Elon Musk; fue de eBay entre 2002 y 2015.",
+      "Pagás con email y contraseña; la tienda nunca ve tu tarjeta.",
+      "Cobra comisiones sobre todo a los comercios, y por transferencias y conversiones internacionales.",
+      "También es dueña de Venmo, una app de pagos entre personas."
+    ],
+    "links": [
+      { "label": "PayPal (sitio oficial)", "url": "https://www.paypal.com/" },
+      { "label": "PayPal en Wikipedia", "url": "https://es.wikipedia.org/wiki/PayPal" }
+    ]
+  }
+}

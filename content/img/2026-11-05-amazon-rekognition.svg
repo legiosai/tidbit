@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="26" width="320" height="170" rx="10" fill="#9ac7ea"/>
+    <path d="M40 160 Q200 130 360 160 V186 a10 10 0 0 1 -10 10 H50 a10 10 0 0 1 -10 -10 Z" fill="#9bd1b9"/>
+    <circle cx="140" cy="84" r="18" fill="#ffd166"/>
+    <path d="M112 160 V128 a28 24 0 0 1 56 0 V160" fill="#f4a7a7"/>
+    <ellipse cx="262" cy="140" rx="34" ry="18" fill="#e6dfd0"/>
+    <circle cx="300" cy="120" r="14" fill="#e6dfd0"/>
+    <path d="M238 154 v14 M286 154 v14" fill="none"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="6 4">
+    <rect x="100" y="56" width="80" height="112" rx="2"/>
+    <rect x="220" y="98" width="100" height="74" rx="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="100" y="36" width="88" height="20" rx="3" fill="#f3efe6"/>
+    <rect x="220" y="78" width="80" height="20" rx="3" fill="#f3efe6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="144" y="50">Person 99%</text><text x="260" y="92">Dog 96%</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">image in, labels out</text>
+</svg>

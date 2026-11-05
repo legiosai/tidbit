@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-man-in-the-middle-attack",
+  "date": "2026-11-06",
+  "subjects": ["security", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["man-in-the-middle", "man-in-the-middle attacks", "MITM", "MITM attack", "MITM attacks", "adversary-in-the-middle", "on-path attack", "on-path attacker"],
+    "es": ["ataques de intermediario", "man-in-the-middle", "ataque man-in-the-middle", "ataques man-in-the-middle", "MITM", "ataque MITM", "ataques MITM", "hombre en el medio"]
+  },
+  "image": "img/2026-11-06-man-in-the-middle-attack.svg",
+  "imageAlt": {
+    "en": "A laptop thinks it is talking to a bank server, but a pink attacker in the middle receives every message, reads it, changes it and passes it on",
+    "es": "Una notebook cree que habla con el servidor del banco, pero un atacante rosa en el medio recibe cada mensaje, lo lee, lo cambia y lo pasa"
+  },
+  "en": {
+    "title": "Man-in-the-middle attack",
+    "tagline": "Someone secretly sits between you and a site, reading or changing what you send.",
+    "explanation": [
+      "In a **man-in-the-middle attack** (MITM), an attacker places themselves on the path between two parties that think they are talking directly. You believe you are talking to your bank; the bank believes it is talking to you. In fact every message goes through the attacker, who can read it, keep a copy, or change it before passing it on. Security people increasingly call it an **on-path attack**.",
+      "The classic setting is public Wi-Fi. An attacker in a café sets up a hotspot named like the café's network, or tricks the other devices on the real network into sending their traffic through their laptop. Other routes in: a malicious proxy, a compromised home router, or fake DNS answers that send you to the attacker's server instead of the real one.",
+      "Encryption is what makes this attack mostly fail today. With HTTPS, the traffic is scrambled and the site has to show a TLS certificate signed by an authority your browser trusts, which the attacker cannot forge. That is why a browser warning about an invalid certificate on a public network deserves to be taken seriously: clicking through it can let the person in the middle read everything. Some attacks therefore aim at what encryption does not cover, such as stealing a session cookie after you log in."
+    ],
+    "analogy": "A mail carrier who opens your letters, reads them, sometimes rewrites a line, reseals them and delivers them as if nothing happened. Encryption is a seal they cannot reproduce.",
+    "keyPoints": [
+      "The attacker relays the conversation, so both sides think everything is normal.",
+      "Fake or compromised Wi-Fi networks are the textbook way in.",
+      "HTTPS and valid certificates block most of it; never click through certificate warnings.",
+      "Also called an on-path attack or adversary-in-the-middle."
+    ],
+    "links": [
+      { "label": "Man-in-the-middle attack on Wikipedia", "url": "https://en.wikipedia.org/wiki/Man-in-the-middle_attack" },
+      { "label": "Manipulator-in-the-middle attack (OWASP)", "url": "https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack" }
+    ]
+  },
+  "es": {
+    "title": "Ataque de intermediario",
+    "tagline": "Alguien se mete a escondidas entre vos y un sitio para leer o cambiar lo que mandás.",
+    "explanation": [
+      "En un **ataque de intermediario** (en inglés man-in-the-middle, MITM), el atacante se ubica en el camino entre dos partes que creen estar hablando directo. Vos creés que hablás con tu banco; el banco cree que habla con vos. En realidad cada mensaje pasa por el atacante, que puede leerlo, guardarse una copia o cambiarlo antes de pasarlo. En seguridad cada vez más se lo llama **on-path attack**, ataque en el camino.",
+      "El escenario clásico es el Wi-Fi público. Alguien en un bar arma un hotspot con un nombre igual al de la red del lugar, o engaña a los otros dispositivos de la red real para que manden su tráfico a través de su notebook. Hay otras puertas de entrada: un proxy malicioso, un router hogareño comprometido o respuestas de DNS falsas que te mandan al servidor del atacante en lugar del verdadero.",
+      "El cifrado es lo que hace que hoy este ataque casi siempre fracase. Con HTTPS el tráfico viaja ilegible y el sitio tiene que mostrar un certificado TLS firmado por una autoridad en la que tu navegador confía, y eso el atacante no lo puede falsificar. Por eso, si en una red pública el navegador te avisa que un certificado no es válido, tomalo en serio: si seguís de largo, el del medio puede leer todo. Algunos ataques apuntan entonces a lo que el cifrado no cubre, como robarte la cookie de sesión después de que iniciaste sesión."
+    ],
+    "analogy": "Un cartero que abre tus cartas, las lee, a veces cambia una línea, las vuelve a cerrar y las entrega como si nada. El cifrado es un sello que no puede copiar.",
+    "keyPoints": [
+      "El atacante hace de pasamanos, así que las dos puntas creen que todo está normal.",
+      "Las redes Wi-Fi falsas o comprometidas son la entrada de manual.",
+      "HTTPS y los certificados válidos frenan casi todo; nunca ignores un aviso de certificado.",
+      "También se le dice ataque en el camino (on-path) o adversary-in-the-middle."
+    ],
+    "links": [
+      { "label": "Ataque de intermediario en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ataque_de_intermediario" },
+      { "label": "Manipulator-in-the-middle attack (OWASP, en inglés)", "url": "https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack" }
+    ]
+  }
+}

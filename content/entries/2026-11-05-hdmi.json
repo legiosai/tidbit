@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-hdmi",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["HDMI cable", "HDMI cables", "HDMI port", "HDMI ports", "HDMI 2.1", "High-Definition Multimedia Interface"],
+    "es": ["cable HDMI", "cables HDMI", "puerto HDMI", "puertos HDMI", "HDMI 2.1", "High-Definition Multimedia Interface"]
+  },
+  "image": "img/2026-11-05-hdmi.svg",
+  "imageAlt": {
+    "en": "A laptop connected to a TV by one HDMI cable that carries both the picture and the sound",
+    "es": "Una notebook conectada a un televisor con un solo cable HDMI que lleva la imagen y el sonido"
+  },
+  "en": {
+    "title": "HDMI",
+    "tagline": "The standard cable and plug that carries picture and sound to a TV or monitor.",
+    "explanation": [
+      "**HDMI** (High-Definition Multimedia Interface) is the plug on the back of almost every TV, and on game consoles, streaming sticks, cable boxes, projectors and many laptops. One cable carries the digital picture and the sound together, which replaced the bundle of colored analog cables that TVs used before. It appeared in the early 2000s and became the default for anything that plugs into a screen.",
+      "HDMI has gone through several versions, and each one carries more data. More data means higher resolution and higher refresh rate: older versions top out at 4K at 30 or 60 frames per second, while **HDMI 2.1** can carry 4K at 120 Hz or even 8K, which matters for new consoles and gaming monitors. Both the devices and the cable have to support the faster version to get it; the plug looks the same.",
+      "It also does a few useful things behind the scenes. It can let the TV remote control the soundbar or the console, and it can send the TV's audio back to a soundbar through the same cable. It also carries a copy protection system, called HDCP, which is why some streaming apps refuse to play through certain adapters. Computers increasingly use USB-C or DisplayPort instead, but HDMI remains the plug of the living room."
+    ],
+    "analogy": "A single extension cord that carries both the electricity for the lamp and the music for the speaker. Before, you needed one cable per job; now everything goes through one plug.",
+    "keyPoints": [
+      "One cable for digital video and audio together.",
+      "Newer versions carry more data: higher resolution and refresh rate.",
+      "Both devices and the cable must support a version to get its features.",
+      "HDCP copy protection can block playback through some adapters."
+    ],
+    "links": [
+      { "label": "HDMI on Wikipedia", "url": "https://en.wikipedia.org/wiki/HDMI" },
+      { "label": "HDMI Licensing Administrator (official site)", "url": "https://www.hdmi.org/" }
+    ]
+  },
+  "es": {
+    "title": "HDMI",
+    "tagline": "El cable y el conector estándar que llevan imagen y sonido a un televisor o monitor.",
+    "explanation": [
+      "**HDMI** (High-Definition Multimedia Interface) es el conector que tienen atrás casi todos los televisores, y también las consolas, los sticks de streaming, los decodificadores, los proyectores y muchas notebooks. Un solo cable lleva la imagen digital y el sonido juntos, y así reemplazó al manojo de cables analógicos de colores que usaban los televisores antes. Apareció a principios de los 2000 y se volvió lo normal para todo lo que se enchufa a una pantalla.",
+      "HDMI fue pasando por varias versiones, y cada una lleva más datos. Más datos significa más resolución y más frecuencia de refresco: las versiones viejas llegan a 4K a 30 o 60 cuadros por segundo, mientras que **HDMI 2.1** puede llevar 4K a 120 Hz o incluso 8K, algo que importa para las consolas nuevas y los monitores gamer. Para aprovechar la versión más rápida la tienen que soportar los aparatos y también el cable; el conector se ve igual.",
+      "Además hace algunas cosas útiles por detrás. Puede dejar que el control remoto de la tele maneje la barra de sonido o la consola, y puede mandar el audio de la tele de vuelta a la barra por el mismo cable. También lleva un sistema de protección contra copia, llamado HDCP, y por eso algunas apps de streaming no reproducen a través de ciertos adaptadores. Las computadoras usan cada vez más USB-C o DisplayPort, pero HDMI sigue siendo el conector del living."
+    ],
+    "analogy": "Una zapatilla que lleva a la vez la electricidad para la lámpara y la música para el parlante. Antes necesitabas un cable para cada cosa; ahora todo pasa por un solo enchufe.",
+    "keyPoints": [
+      "Un solo cable para video y audio digitales juntos.",
+      "Las versiones nuevas llevan más datos: más resolución y más frecuencia de refresco.",
+      "Los aparatos y el cable tienen que soportar la versión para tener sus funciones.",
+      "La protección HDCP puede bloquear la reproducción con algunos adaptadores."
+    ],
+    "links": [
+      { "label": "HDMI en Wikipedia", "url": "https://es.wikipedia.org/wiki/HDMI" },
+      { "label": "HDMI Licensing Administrator (sitio oficial, en inglés)", "url": "https://www.hdmi.org/" }
+    ]
+  }
+}

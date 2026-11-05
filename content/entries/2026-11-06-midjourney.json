@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-midjourney",
+  "date": "2026-11-06",
+  "subjects": ["companies", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-06-midjourney.svg",
+  "imageAlt": {
+    "en": "A text prompt about a lighthouse goes into Midjourney's model, which starts from noise and returns a grid of four image options to pick from and refine",
+    "es": "Un prompt de texto sobre un faro entra al modelo de Midjourney, que arranca desde ruido y devuelve una grilla de cuatro opciones de imagen para elegir y refinar"
+  },
+  "en": {
+    "title": "Midjourney",
+    "tagline": "A small AI lab whose service turns a written description into an image.",
+    "explanation": [
+      "**Midjourney** is a San Francisco research lab founded by David Holz, who had previously co-founded Leap Motion, a company that made hand-tracking sensors. Its product, also called Midjourney, is an image generator: you write a description, a **prompt** such as \"an old lighthouse in a storm, oil painting\", and within seconds you get several images that did not exist before.",
+      "Under the hood it uses a **diffusion model**, trained on a huge collection of images paired with their descriptions. It starts from random visual noise and removes it step by step, guided by your words, until a picture appears. Midjourney shows a grid of four options; you pick one to enlarge, ask for variations, or change the wording and try again.",
+      "It opened to the public in 2022, at first only through Discord, a chat app, where you typed commands such as `/imagine` in shared channels; a web app came later. It is paid by subscription, and the company is known for being small and funded by its own revenue rather than by big investors. It also sits at the center of the debate about AI and art: an image made with it won a fine arts competition at the Colorado State Fair in 2022, and it has been sued by artists and by film studios who argue it was trained on their work without permission."
+    ],
+    "analogy": "A tireless illustrator who has seen millions of pictures. You describe what you want in a sentence, they sketch four versions in seconds, and you point at one and say \"more like this\".",
+    "keyPoints": [
+      "Turns text prompts into images using a diffusion model.",
+      "Founded by David Holz; launched publicly in 2022, first on Discord.",
+      "Subscription only; known for being small and self-funded.",
+      "Faces lawsuits over training on artists' and studios' work without permission."
+    ],
+    "links": [
+      { "label": "Midjourney (official site)", "url": "https://www.midjourney.com/" },
+      { "label": "Midjourney documentation", "url": "https://docs.midjourney.com/" },
+      { "label": "Midjourney on Wikipedia", "url": "https://en.wikipedia.org/wiki/Midjourney" }
+    ]
+  },
+  "es": {
+    "title": "Midjourney",
+    "tagline": "Un pequeño laboratorio de IA cuyo servicio convierte una descripción escrita en una imagen.",
+    "explanation": [
+      "**Midjourney** es un laboratorio de investigación de San Francisco fundado por David Holz, que antes había cofundado Leap Motion, una empresa de sensores que seguían el movimiento de las manos. Su producto, que también se llama Midjourney, es un generador de imágenes: escribís una descripción, un **prompt** como \"un faro viejo en medio de una tormenta, pintura al óleo\", y en segundos recibís varias imágenes que no existían.",
+      "Por dentro usa un **modelo de difusión**, entrenado con una colección enorme de imágenes junto con sus descripciones. Arranca de ruido visual al azar y lo va limpiando paso a paso, guiado por tus palabras, hasta que aparece una imagen. Midjourney te muestra una grilla de cuatro opciones; elegís una para agrandarla, pedís variaciones o cambiás el texto y probás de nuevo.",
+      "Se abrió al público en 2022, al principio solo a través de Discord, una app de chat, donde escribías comandos como `/imagine` en canales compartidos; después llegó una app web. Se paga por suscripción, y la empresa es conocida por ser chica y financiarse con sus propios ingresos en lugar de con grandes inversores. También está en el centro del debate sobre IA y arte: una imagen hecha con Midjourney ganó un concurso de bellas artes en la Feria Estatal de Colorado en 2022, y artistas y estudios de cine la demandaron argumentando que la entrenaron con sus obras sin permiso."
+    ],
+    "analogy": "Un ilustrador incansable que vio millones de imágenes. Le describís lo que querés en una frase, te hace cuatro bocetos en segundos y vos señalás uno y le decís \"más como este\".",
+    "keyPoints": [
+      "Convierte prompts de texto en imágenes con un modelo de difusión.",
+      "Fundada por David Holz; abrió al público en 2022, primero en Discord.",
+      "Solo por suscripción; conocida por ser chica y autofinanciada.",
+      "Enfrenta demandas por entrenar con obras de artistas y estudios sin permiso."
+    ],
+    "links": [
+      { "label": "Midjourney (sitio oficial)", "url": "https://www.midjourney.com/" },
+      { "label": "Documentación de Midjourney (en inglés)", "url": "https://docs.midjourney.com/" },
+      { "label": "Midjourney en Wikipedia", "url": "https://es.wikipedia.org/wiki/Midjourney" }
+    ]
+  }
+}

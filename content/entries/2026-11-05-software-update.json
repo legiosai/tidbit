@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-software-update",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["software updates", "system update", "system updates", "OTA update", "OTA updates", "over-the-air update", "automatic updates"],
+    "es": ["actualizaciones de software", "actualización del sistema", "actualizaciones del sistema", "actualización OTA", "actualizaciones automáticas"]
+  },
+  "image": "img/2026-11-05-software-update.svg",
+  "imageAlt": {
+    "en": "A phone receiving a new version from the company's server, which fixes a bug, closes a security hole and adds a feature",
+    "es": "Un celular recibiendo una versión nueva desde el servidor de la empresa, que arregla un bug, cierra un agujero de seguridad y suma una función"
+  },
+  "en": {
+    "title": "Software update",
+    "tagline": "A new version of a program sent to your device to fix problems or add features.",
+    "explanation": [
+      "Software is never finished. After a program ships, its makers keep finding bugs, discovering security holes and building new features. A **software update** is how those changes reach the copy already on your phone, computer, TV or car: the device downloads a newer version and replaces the old one, usually keeping your data and settings.",
+      "Updates come in sizes. A small one may fix a single bug or a single security flaw, and is often called a patch. A big one, like a new yearly version of iOS or Windows, can change how the whole system looks and works. Phones and many other devices receive them over the internet without any cable, which is called an **over-the-air update**. Many apps and systems now apply **automatic updates** at night or in the background.",
+      "The most important reason to update is security. Once a flaw is fixed and the fix is public, attackers study it and go after everyone who has not updated yet, so an old version becomes more dangerous over time. Updates can occasionally bring new problems, which is why companies release them gradually and some people wait a few days. But staying several versions behind, or using a device that no longer gets updates, is a much bigger risk."
+    ],
+    "analogy": "The recall notices a car maker sends: \"bring your car in, we found a part that can fail.\" A software update is that, except the mechanic comes to your driveway at night and swaps the part while you sleep.",
+    "keyPoints": [
+      "Updates fix bugs, close security holes and add features.",
+      "Small updates are often called patches; big ones change whole versions.",
+      "Security is the main reason not to postpone them.",
+      "A device that no longer receives updates becomes riskier every month."
+    ],
+    "links": [
+      { "label": "Patch (computing) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Patch_(computing)" },
+      { "label": "Over-the-air update on Wikipedia", "url": "https://en.wikipedia.org/wiki/Over-the-air_update" }
+    ]
+  },
+  "es": {
+    "title": "Actualización de software",
+    "tagline": "Una versión nueva de un programa que llega para arreglar problemas o sumar funciones.",
+    "explanation": [
+      "El software nunca está terminado. Después de que un programa sale, quienes lo hacen siguen encontrando bugs, descubriendo agujeros de seguridad y armando funciones nuevas. Una **actualización de software** es la forma en que esos cambios llegan a la copia que ya tenés en el celular, la compu, la tele o el auto: el aparato baja una versión más nueva y reemplaza la vieja, casi siempre conservando tus datos y tu configuración.",
+      "Las hay de distintos tamaños. Una chica puede arreglar un solo bug o una sola falla de seguridad, y muchas veces se le dice parche. Una grande, como la versión anual nueva de iOS o de Windows, puede cambiar cómo se ve y funciona todo el sistema. Los celulares y muchos otros aparatos las reciben por internet, sin cables, y eso se llama **actualización OTA** (over the air, \"por el aire\"). Muchas apps y sistemas hoy aplican **actualizaciones automáticas** de noche o en segundo plano.",
+      "La razón más importante para actualizar es la seguridad. Una vez que una falla se arregla y el arreglo se hace público, los atacantes lo estudian y van contra todos los que todavía no actualizaron, así que una versión vieja se vuelve más peligrosa con el tiempo. A veces una actualización trae problemas nuevos, y por eso las empresas las largan de a poco y hay gente que espera unos días. Pero quedarse varias versiones atrás, o usar un aparato que ya no recibe actualizaciones, es un riesgo mucho mayor."
+    ],
+    "analogy": "Los avisos de recall que manda una automotriz: \"traé el auto, encontramos una pieza que puede fallar\". Una actualización de software es eso, pero el mecánico viene a tu casa de noche y cambia la pieza mientras dormís.",
+    "keyPoints": [
+      "Las actualizaciones arreglan bugs, cierran agujeros de seguridad y suman funciones.",
+      "A las chicas se les dice parches; las grandes cambian la versión entera.",
+      "La seguridad es la razón principal para no postergarlas.",
+      "Un aparato que ya no recibe actualizaciones es más riesgoso cada mes."
+    ],
+    "links": [
+      { "label": "Parche (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Parche_(informática)" },
+      { "label": "Over-the-air update en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Over-the-air_update" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-06-tor",
+  "date": "2026-11-06",
+  "subjects": ["networks", "security"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Tor network", "The Onion Router", "onion routing", "Tor Project"],
+    "es": ["red Tor", "The Onion Router", "enrutamiento cebolla", "onion routing", "Tor Project"]
+  },
+  "image": "img/2026-11-06-tor.svg",
+  "imageAlt": {
+    "en": "A message wrapped in three layers of encryption travels from a user through a guard relay, a middle relay and an exit relay, each one peeling off one layer, before reaching the website",
+    "es": "Un mensaje envuelto en tres capas de cifrado viaja desde un usuario por un relay de entrada, uno intermedio y uno de salida, y cada uno le saca una capa antes de llegar al sitio web"
+  },
+  "en": {
+    "title": "Tor",
+    "tagline": "A volunteer network that hides who you are by bouncing traffic through three relays.",
+    "explanation": [
+      "**Tor** (originally \"The Onion Router\") is a free network that makes it hard to tell who is visiting which website. Instead of going straight from your computer to the site, your traffic hops through three relays, servers run by volunteers around the world. Roughly seven thousand relays are online at any time, and the software is maintained by the nonprofit Tor Project. Most people use it through the Tor Browser, a modified Firefox.",
+      "The trick is **onion routing**. Before sending, your browser wraps the message in three layers of encryption, one for each relay. The first relay (the guard) removes its layer and only learns that the data came from you and goes to the middle relay. The middle relay only knows the guard and the exit. The exit relay removes the last layer and sends the request to the website, which sees the exit's IP address, not yours. No single relay knows both who you are and what you are visiting.",
+      "Journalists, activists in censored countries, abuse survivors and ordinary people who value privacy use Tor; so do criminals, which is why it is often associated with the dark web, where sites with `.onion` addresses are reachable only through Tor. It is slower than a normal connection because of the extra hops. And it has limits: the exit relay can read traffic that is not protected by HTTPS, and logging into your personal accounts, or downloading files and opening them outside the browser, can reveal who you are anyway."
+    ],
+    "analogy": "A letter inside three sealed envelopes, each addressed to a different courier. Each courier opens only their envelope and finds the next address. The first knows who sent it but not where it ends up; the last knows where it goes but not who sent it.",
+    "keyPoints": [
+      "Traffic passes through three volunteer relays: guard, middle and exit.",
+      "Layered encryption means no relay knows both the sender and the destination.",
+      "Websites see the exit relay's IP address, not yours.",
+      "Slower than normal browsing, and HTTPS is still needed past the exit relay."
+    ],
+    "links": [
+      { "label": "The Tor Project", "url": "https://www.torproject.org/" },
+      { "label": "Tor support and FAQ", "url": "https://support.torproject.org/" },
+      { "label": "Tor (network) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Tor_(network)" }
+    ]
+  },
+  "es": {
+    "title": "Tor",
+    "tagline": "Una red de voluntarios que esconde quién sos haciendo rebotar el tráfico por tres relays.",
+    "explanation": [
+      "**Tor** (en su origen, \"The Onion Router\", el router cebolla) es una red gratuita que hace difícil saber quién visita qué sitio. En vez de ir directo de tu computadora al sitio, tu tráfico salta por tres relays, servidores que mantienen voluntarios de todo el mundo. Hay más o menos siete mil relays funcionando en cualquier momento, y el software lo mantiene el Tor Project, una organización sin fines de lucro. La mayoría lo usa a través del Tor Browser, un Firefox modificado.",
+      "El truco es el **enrutamiento cebolla** (onion routing). Antes de mandar nada, tu navegador envuelve el mensaje en tres capas de cifrado, una por relay. El primer relay (el de entrada, o guard) saca su capa y solo se entera de que los datos vienen de vos y van al relay del medio. El del medio solo conoce al de entrada y al de salida. El de salida saca la última capa y le manda el pedido al sitio web, que ve la dirección IP del relay de salida, no la tuya. Ningún relay sabe a la vez quién sos y qué estás visitando.",
+      "Usan Tor periodistas, activistas en países con censura, víctimas de violencia que necesitan esconderse y gente común que valora su privacidad; también lo usan delincuentes, y por eso se lo asocia con la dark web, donde los sitios con direcciones `.onion` solo se abren por Tor. Es más lento que una conexión normal por los saltos extra. Y tiene límites: el relay de salida puede leer el tráfico que no va protegido con HTTPS, y entrar a tus cuentas personales, o descargar archivos y abrirlos fuera del navegador, puede delatar quién sos igual."
+    ],
+    "analogy": "Una carta adentro de tres sobres cerrados, cada uno dirigido a un mensajero distinto. Cada mensajero abre solo su sobre y encuentra la dirección siguiente. El primero sabe quién la mandó pero no adónde termina; el último sabe adónde va pero no quién la mandó.",
+    "keyPoints": [
+      "El tráfico pasa por tres relays voluntarios: entrada, medio y salida.",
+      "Por el cifrado en capas, ningún relay conoce a la vez el origen y el destino.",
+      "Los sitios ven la IP del relay de salida, no la tuya.",
+      "Es más lento que navegar normal, y después del relay de salida sigue haciendo falta HTTPS."
+    ],
+    "links": [
+      { "label": "The Tor Project (en inglés)", "url": "https://www.torproject.org/" },
+      { "label": "Soporte y preguntas frecuentes de Tor", "url": "https://support.torproject.org/es/" },
+      { "label": "Tor (red de anonimato) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tor_(red_de_anonimato)" }
+    ]
+  }
+}

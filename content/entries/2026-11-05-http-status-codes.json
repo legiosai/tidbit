@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-http-status-codes",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["HTTP status code", "status code", "status codes", "404 error", "404 Not Found", "error 404", "500 error"],
+    "es": ["código de estado HTTP", "código de estado", "códigos de estado", "error 404", "error 500"]
+  },
+  "image": "img/2026-11-05-http-status-codes.svg",
+  "imageAlt": {
+    "en": "A browser asks a server for a page and gets back a three-digit number; a legend groups 2xx as success, 3xx as redirect, 4xx as your mistake and 5xx as the server's mistake",
+    "es": "Un navegador le pide una página a un servidor y recibe un número de tres dígitos; una referencia agrupa 2xx como éxito, 3xx como redirección, 4xx como error tuyo y 5xx como error del servidor"
+  },
+  "en": {
+    "title": "HTTP status codes",
+    "tagline": "The three-digit number a web server sends back to say how your request went.",
+    "explanation": [
+      "Every time your browser or an app asks a server for something over HTTP, the answer starts with an **HTTP status code**: a three-digit number that sums up what happened. Most of the time you never see it, because it is `200 OK` and the page simply loads. You notice it when something goes wrong, like the famous `404 Not Found`.",
+      "The first digit tells you the family. `2xx` means success. `3xx` means the thing moved and the browser should go look elsewhere, like `301 Moved Permanently`. `4xx` means the problem is on the client's side: a wrong URL (`404`), a missing login (`401`), no permission (`403`), too many requests in a row (`429`). `5xx` means the server failed: `500 Internal Server Error` is a bug or crash, and `503 Service Unavailable` usually means it is overloaded or down for maintenance.",
+      "For developers these numbers are a shared language. Monitoring tools count how many `5xx` a site returns to detect outages, search engines read `301` to know a page moved, and an API uses them to tell a program exactly why its request was rejected."
+    ],
+    "analogy": "Like the short answers at a pharmacy counter: here you go (200), we moved it to the other branch (301), that prescription does not exist (404), you need to show ID (401), sorry, our system is down (500).",
+    "keyPoints": [
+      "2xx success, 3xx redirect, 4xx client error, 5xx server error.",
+      "404 means the address points to nothing; it is not a server crash.",
+      "500 and 503 mean the problem is on the website's side, not yours.",
+      "APIs use status codes so programs know why a request failed."
+    ],
+    "links": [
+      { "label": "HTTP response status codes (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status" },
+      { "label": "List of HTTP status codes on Wikipedia", "url": "https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" },
+      { "label": "RFC 9110: HTTP Semantics", "url": "https://www.rfc-editor.org/rfc/rfc9110.html" }
+    ]
+  },
+  "es": {
+    "title": "Códigos de estado HTTP",
+    "tagline": "El número de tres dígitos con el que un servidor web te dice cómo salió tu pedido.",
+    "explanation": [
+      "Cada vez que tu navegador o una app le pide algo a un servidor por HTTP, la respuesta arranca con un **código de estado HTTP**: un número de tres dígitos que resume qué pasó. Casi nunca lo ves, porque es `200 OK` y la página carga y listo. Lo notás cuando algo sale mal, como el famoso `404 Not Found`.",
+      "El primer dígito te dice la familia. `2xx` es éxito. `3xx` quiere decir que la cosa se mudó y el navegador tiene que ir a buscarla a otro lado, como `301 Moved Permanently`. `4xx` es un problema del lado del cliente: una URL mal escrita (`404`), falta iniciar sesión (`401`), no tenés permiso (`403`), demasiados pedidos seguidos (`429`). `5xx` es que falló el servidor: `500 Internal Server Error` es un bug o una caída, y `503 Service Unavailable` suele significar que está saturado o en mantenimiento.",
+      "Para quienes desarrollan, estos números son un idioma común. Las herramientas de monitoreo cuentan cuántos `5xx` devuelve un sitio para detectar caídas, los buscadores leen el `301` para saber que una página se mudó, y una API los usa para decirle a un programa exactamente por qué rechazó su pedido."
+    ],
+    "analogy": "Como las respuestas cortas en el mostrador de una farmacia: acá tenés (200), lo pasamos a la otra sucursal (301), esa receta no existe (404), necesito ver tu DNI (401), perdón, se nos cayó el sistema (500).",
+    "keyPoints": [
+      "2xx éxito, 3xx redirección, 4xx error del cliente, 5xx error del servidor.",
+      "Un 404 significa que la dirección no apunta a nada; no es que se cayó el servidor.",
+      "Un 500 o un 503 indican que el problema es del sitio, no tuyo.",
+      "Las APIs usan códigos de estado para que los programas sepan por qué falló un pedido."
+    ],
+    "links": [
+      { "label": "Códigos de estado de respuesta HTTP (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/HTTP/Reference/Status" },
+      { "label": "Códigos de estado HTTP en Wikipedia", "url": "https://es.wikipedia.org/wiki/Anexo:Códigos_de_estado_HTTP" }
+    ]
+  }
+}

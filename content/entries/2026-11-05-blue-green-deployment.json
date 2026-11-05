@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-blue-green-deployment",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["blue-green deployments", "blue/green deployment", "blue/green deployments", "blue-green release"],
+    "es": ["blue-green deployment", "blue/green deployment", "despliegues blue-green", "despliegue azul-verde"]
+  },
+  "image": "img/2026-11-05-blue-green-deployment.svg",
+  "imageAlt": {
+    "en": "A router switch sends users to the green environment running version 2, while the blue environment with version 1 stays idle and ready",
+    "es": "Un interruptor manda a los usuarios al entorno verde con la versión 2, mientras el entorno azul con la versión 1 queda quieto y listo"
+  },
+  "en": {
+    "title": "Blue-green deployment",
+    "tagline": "Releasing a new version next to the old one and switching traffic over at once.",
+    "explanation": [
+      "A **blue-green deployment** is a way to release new software with almost no downtime. You keep two identical production environments. One, say blue, is serving users with the current version. You install the new version on the other, green, test it there with real infrastructure, and when it looks good you flip the switch: the load balancer or DNS starts sending all traffic to green.",
+      "The big advantage is the way back. If something breaks after the switch, you flip traffic back to blue, which is still running the old version untouched. Rolling back takes seconds instead of a frantic redeploy. Once green has proven itself, blue becomes the place where the next release is prepared.",
+      "The price is running two copies of everything for a while, and the database is the tricky part: both versions usually share it, so changes to its structure have to work for the old and the new code at the same time. A close cousin is the **canary release**, which moves a small share of users first instead of everyone at once. Cloud tools like AWS CodeDeploy and Kubernetes support both patterns."
+    ],
+    "analogy": "A theater with two identical stages. While the audience watches the show on one, the crew sets up the next one on the other; then the seats rotate. If the new set collapses, they rotate back.",
+    "keyPoints": [
+      "Two identical environments: one live, one with the new version.",
+      "Traffic is switched all at once, usually at the load balancer or DNS.",
+      "Rolling back is just switching back.",
+      "Costs double capacity for a while, and database changes need care."
+    ],
+    "links": [
+      { "label": "BlueGreenDeployment (Martin Fowler)", "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html" },
+      { "label": "Blue/green deployments (AWS whitepaper)", "url": "https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html" },
+      { "label": "Blue–green deployment on Wikipedia", "url": "https://en.wikipedia.org/wiki/Blue%E2%80%93green_deployment" }
+    ]
+  },
+  "es": {
+    "title": "Despliegue blue-green",
+    "tagline": "Publicar una versión nueva al lado de la vieja y pasar el tráfico de un saque.",
+    "explanation": [
+      "Un **despliegue blue-green** (blue-green deployment) es una forma de sacar software nuevo casi sin cortes. Tenés dos entornos de producción idénticos. Uno, digamos el azul, atiende a los usuarios con la versión actual. Instalás la versión nueva en el otro, el verde, la probás ahí con infraestructura real y, cuando está bien, das vuelta la llave: el balanceador de carga o el DNS empieza a mandar todo el tráfico al verde.",
+      "La gran ventaja es la vuelta atrás. Si algo se rompe después del cambio, devolvés el tráfico al azul, que sigue corriendo la versión anterior sin tocar. Volver atrás tarda segundos en vez de un redeploy a las apuradas. Cuando el verde demostró que anda, el azul pasa a ser el lugar donde se prepara la próxima versión.",
+      "El precio es tener dos copias de todo durante un rato, y la parte delicada es la base de datos: las dos versiones suelen compartirla, así que los cambios en su estructura tienen que funcionar con el código viejo y con el nuevo a la vez. Un primo cercano es el **canary release**, que primero pasa a una parte chica de los usuarios en lugar de a todos juntos. Herramientas cloud como AWS CodeDeploy y Kubernetes soportan los dos patrones."
+    ],
+    "analogy": "Un teatro con dos escenarios idénticos. Mientras el público mira la función en uno, el equipo arma la siguiente en el otro; después giran las butacas. Si la escenografía nueva se viene abajo, giran de vuelta.",
+    "keyPoints": [
+      "Dos entornos idénticos: uno en vivo y otro con la versión nueva.",
+      "El tráfico se pasa todo junto, casi siempre en el balanceador de carga o el DNS.",
+      "Volver atrás es simplemente volver a cambiar.",
+      "Cuesta el doble de capacidad por un rato, y los cambios en la base de datos piden cuidado."
+    ],
+    "links": [
+      { "label": "BlueGreenDeployment (Martin Fowler, en inglés)", "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html" },
+      { "label": "Despliegues blue/green (whitepaper de AWS, en inglés)", "url": "https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html" }
+    ]
+  }
+}

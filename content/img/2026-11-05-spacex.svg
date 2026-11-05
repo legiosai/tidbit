@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M20 200 H380" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M70 120 V40 L80 22 L90 40 V120 Z" fill="#e6dfd0"/>
+    <path d="M70 108 L60 124 H70 Z" fill="#e6dfd0"/><path d="M90 108 L100 124 H90 Z" fill="#e6dfd0"/>
+    <path d="M74 124 L80 146 L86 124 Z" fill="#ffd166"/>
+    <rect x="132" y="160" width="16" height="40" rx="3" fill="#e6dfd0"/>
+    <path d="M132 200 L124 200 M148 200 L156 200"/>
+    <rect x="196" y="36" width="20" height="12" rx="2" fill="#9ac7ea"/>
+    <rect x="256" y="26" width="20" height="12" rx="2" fill="#9ac7ea"/>
+    <rect x="316" y="36" width="20" height="12" rx="2" fill="#9ac7ea"/>
+    <path d="M290 200 V172 L320 150 L350 172 V200 Z" fill="#9bd1b9"/>
+    <path d="M306 156 L318 140 L330 150 Z" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5">
+    <line x1="186" y1="42" x2="196" y2="42"/><line x1="216" y1="42" x2="226" y2="42"/>
+    <line x1="246" y1="32" x2="256" y2="32"/><line x1="276" y1="32" x2="286" y2="32"/>
+    <line x1="306" y1="42" x2="316" y2="42"/><line x1="336" y1="42" x2="346" y2="42"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="5 5">
+    <path d="M326 50 L318 136"/>
+    <path d="M140 156 C140 120 110 120 104 110"/>
+  </g>
+  <path d="M140 150 l-4 -8 8 0 Z" fill="#2b2b2b"/>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="164">rocket</text><text x="266" y="64">Starlink</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="140" y="216">booster lands</text><text x="320" y="216">dish on roof</text>
+    <text x="266" y="78">low orbit</text>
+  </g>
+</svg>

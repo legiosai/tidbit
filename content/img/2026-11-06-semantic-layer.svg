@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="22" width="100" height="36" rx="8" fill="#9bd1b9"/>
+    <rect x="150" y="22" width="100" height="36" rx="8" fill="#9bd1b9"/>
+    <rect x="276" y="22" width="100" height="36" rx="8" fill="#9bd1b9"/>
+    <rect x="24" y="88" width="352" height="54" rx="10" fill="#ffd166"/>
+    <rect x="40" y="170" width="70" height="30" rx="4" fill="#9ac7ea"/>
+    <rect x="124" y="170" width="70" height="30" rx="4" fill="#9ac7ea"/>
+    <rect x="208" y="170" width="70" height="30" rx="4" fill="#9ac7ea"/>
+    <rect x="292" y="170" width="70" height="30" rx="4" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M74 58 V88 M200 58 V88 M326 58 V88"/>
+    <path d="M75 142 V170 M159 142 V170 M243 142 V170 M327 142 V170"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="74" y="44">dashboard</text>
+    <text x="200" y="44">spreadsheet</text>
+    <text x="326" y="44">AI assistant</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="110">revenue = sales - refunds</text>
+    <text x="200" y="128">active = bought in 30 days</text>
+    <text x="75" y="189">orders</text>
+    <text x="159" y="189">refunds</text>
+    <text x="243" y="189">users</text>
+    <text x="327" y="189">events</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="222">defined once, same number everywhere</text>
+  </g>
+</svg>

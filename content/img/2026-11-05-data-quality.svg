@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="44" width="170" height="26" fill="#9ac7ea"/>
+    <rect x="24" y="70" width="170" height="26" fill="#f3efe6"/>
+    <rect x="24" y="96" width="170" height="26" fill="#f4a7a7"/>
+    <rect x="24" y="122" width="170" height="26" fill="#f3efe6"/>
+    <rect x="24" y="148" width="170" height="26" fill="#f4a7a7"/>
+    <rect x="24" y="174" width="170" height="26" fill="#f3efe6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">
+    <text x="32" y="61">name</text><text x="100" y="61">email</text>
+    <text x="32" y="87">Ana</text><text x="100" y="87">ana@mail.com</text>
+    <text x="32" y="113">Luis</text><text x="100" y="113">(empty)</text>
+    <text x="32" y="139">Sofi</text><text x="100" y="139">sofi@mail.com</text>
+    <text x="32" y="165">Ana</text><text x="100" y="165">ana@mail.com</text>
+    <text x="32" y="191">Tomi</text><text x="100" y="191">tomi@mail.com</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M200 109 H222"/><path d="M200 161 H222"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b">
+    <text x="228" y="113">missing</text><text x="228" y="165">duplicate</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="300" y="44" width="80" height="26" rx="6" fill="#9bd1b9"/>
+    <rect x="300" y="78" width="80" height="26" rx="6" fill="#9bd1b9"/>
+    <rect x="300" y="112" width="80" height="26" rx="6" fill="#f4a7a7"/>
+    <rect x="300" y="146" width="80" height="26" rx="6" fill="#f4a7a7"/>
+    <rect x="300" y="180" width="80" height="26" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="340" y="61">valid</text><text x="340" y="95">consistent</text><text x="340" y="129">complete</text>
+    <text x="340" y="163">unique</text><text x="340" y="197">fresh</text>
+  </g>
+  <text x="200" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">checks run before anyone trusts the numbers</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">fail a check · stop · alert</text>
+</svg>

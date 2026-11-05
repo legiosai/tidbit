@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-vendor-lock-in",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["lock-in", "locked in"],
+    "es": ["lock-in", "dependencia del proveedor", "dependencia de un proveedor"]
+  },
+  "image": "img/2026-11-05-vendor-lock-in.svg",
+  "imageAlt": {
+    "en": "An app tied by chains to one cloud provider, with a steep price tag on the arrow toward another provider",
+    "es": "Una app atada con cadenas a un proveedor de nube, con un precio alto en la flecha hacia otro proveedor"
+  },
+  "en": {
+    "title": "Vendor lock-in",
+    "tagline": "When leaving a provider would cost so much that you are stuck with it.",
+    "explanation": [
+      "**Vendor lock-in** is the situation where a company depends so heavily on one supplier's products that switching to another would be slow, risky or very expensive. It is not a contract clause; it builds up quietly as you use features only that vendor has.",
+      "In the cloud it usually looks like this: an app built on a provider's own database, its own queues, its own serverless functions and its own identity system. Each service is convenient on its own, but together they mean the code only runs there. Moving the data out can also cost money, since providers often charge for data leaving their network.",
+      "Some lock-in is a fair trade: managed services save real work, and a team that avoids every one of them often ends up building and running a lot of plumbing itself. The point is to choose it with open eyes: know which pieces would be hard to move, keep data in open formats, and prefer open standards like SQL, containers or Kubernetes where switching might matter."
+    ],
+    "analogy": "Like a phone ecosystem. Your photos, apps, watch and headphones all work best together, so changing brands means much more than buying a new phone.",
+    "keyPoints": [
+      "It is the cost of switching, not a ban on switching.",
+      "It grows from using features only one provider offers.",
+      "Fees for moving data out add to the cost of leaving.",
+      "Open standards and open data formats keep the exit door open."
+    ],
+    "links": [
+      { "label": "Vendor lock-in on Wikipedia", "url": "https://en.wikipedia.org/wiki/Vendor_lock-in" }
+    ]
+  },
+  "es": {
+    "title": "Vendor lock-in",
+    "tagline": "Cuando irte de un proveedor costaría tanto que quedás atado a él.",
+    "explanation": [
+      "El **vendor lock-in**, o dependencia del proveedor, es la situación en la que una empresa depende tanto de los productos de un proveedor que cambiarse a otro sería lento, riesgoso o carísimo. No es una cláusula del contrato: se va armando de a poco, a medida que usás funciones que solo tiene ese proveedor.",
+      "En la nube suele verse así: una app armada sobre la base de datos propia de un proveedor, sus colas, sus funciones serverless y su sistema de identidades. Cada servicio por separado es cómodo, pero juntos hacen que el código solo corra ahí. Sacar los datos también puede salir plata, porque los proveedores suelen cobrar por los datos que salen de su red.",
+      "Algo de lock-in es un buen negocio: los servicios administrados ahorran trabajo real, y el equipo que esquiva todos termina armando y manteniendo un montón de cañerías por su cuenta. La idea es elegirlo con los ojos abiertos: saber qué piezas costaría mover, guardar los datos en formatos abiertos y preferir estándares abiertos como SQL, contenedores o Kubernetes donde cambiarse pueda importar."
+    ],
+    "analogy": "Como el ecosistema de un celular. Tus fotos, apps, reloj y auriculares andan mejor juntos, así que cambiar de marca es mucho más que comprarte otro teléfono.",
+    "keyPoints": [
+      "Es el costo de cambiarse, no una prohibición de cambiarse.",
+      "Crece con cada función que solo ofrece un proveedor.",
+      "Lo que cobran por sacar datos se suma al costo de irse.",
+      "Los estándares y formatos abiertos dejan la puerta de salida abierta."
+    ],
+    "links": [
+      { "label": "Dependencia del proveedor en Wikipedia", "url": "https://es.wikipedia.org/wiki/Dependencia_del_proveedor" }
+    ]
+  }
+}

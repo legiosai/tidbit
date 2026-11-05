@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M58 120 H342"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="40" cy="120" r="20" fill="#9ac7ea"/>
+    <rect x="96" y="96" width="56" height="48" rx="8" fill="#e6dfd0"/>
+    <rect x="172" y="96" width="56" height="48" rx="8" fill="#e6dfd0"/>
+    <rect x="248" y="96" width="56" height="48" rx="8" fill="#e6dfd0"/>
+    <rect x="330" y="98" width="56" height="44" rx="8" fill="#9bd1b9"/>
+    <circle cx="74" cy="64" r="22" fill="#f4a7a7"/><circle cx="74" cy="64" r="15" fill="#ffd166"/><circle cx="74" cy="64" r="8" fill="#9bd1b9"/><circle cx="74" cy="64" r="3" fill="#2b2b2b"/>
+    <circle cx="162" cy="64" r="15" fill="#ffd166"/><circle cx="162" cy="64" r="8" fill="#9bd1b9"/><circle cx="162" cy="64" r="3" fill="#2b2b2b"/>
+    <circle cx="238" cy="64" r="8" fill="#9bd1b9"/><circle cx="238" cy="64" r="3" fill="#2b2b2b"/>
+    <circle cx="316" cy="64" r="3" fill="#2b2b2b"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="40" y="160">you</text>
+    <text x="124" y="124">guard</text><text x="200" y="124">middle</text><text x="276" y="124">exit</text>
+    <text x="358" y="124">site</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="124" y="166">knows you</text><text x="200" y="166">knows little</text><text x="276" y="166">knows the site</text>
+    <text x="200" y="28">one layer peeled at each hop</text>
+  </g>
+  <text x="200" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no relay sees both ends</text>
+</svg>

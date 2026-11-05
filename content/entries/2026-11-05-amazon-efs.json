@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-amazon-efs",
+  "date": "2026-11-05",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["EFS", "Elastic File System", "Amazon Elastic File System"],
+    "es": ["EFS", "Elastic File System", "Amazon Elastic File System"]
+  },
+  "image": "img/2026-11-05-amazon-efs.svg",
+  "imageAlt": {
+    "en": "Three servers connected to the same shared folder, all reading and writing the same files",
+    "es": "Tres servidores conectados a la misma carpeta compartida, leyendo y escribiendo los mismos archivos"
+  },
+  "en": {
+    "title": "Amazon EFS",
+    "tagline": "A shared network folder in AWS that many servers can use at the same time.",
+    "explanation": [
+      "**Amazon EFS** (Elastic File System) is a managed file system that lives on the network. You create one, and then several servers can mount it at once and see the same folders and files, as if they all had the same drive plugged in. It speaks NFS, the standard protocol Linux machines use to share files.",
+      "Compare it with its neighbors. An EBS volume is like a hard disk attached to one EC2 instance. Amazon S3 stores objects that you read and write through an API, not a folder you can open with normal programs. EFS sits in between: a real file system with directories and permissions, shared by many EC2 instances, containers on ECS or EKS, and even Lambda functions.",
+      "Typical uses are content that several web servers must share, like images uploaded by users, home directories for a team, or data that a group of machines processes together. It grows and shrinks on its own as you add or delete files, and you pay for what you store. Files can move automatically to cheaper storage classes when nobody touches them for a while. It is for Linux; Windows file shares use a different service, Amazon FSx."
+    ],
+    "analogy": "The shared drive at an office. Everyone's computer sees the same folder, and when one person saves a file there, the others can open it straight away.",
+    "keyPoints": [
+      "A network file system many servers can mount at the same time.",
+      "Uses NFS and works with Linux EC2, ECS, EKS and Lambda.",
+      "Grows automatically; you pay for the storage you actually use.",
+      "EBS is one disk for one server; S3 is objects through an API; EFS is a shared folder."
+    ],
+    "links": [
+      { "label": "What is Amazon EFS? (official docs)", "url": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" },
+      { "label": "Amazon EFS product page", "url": "https://aws.amazon.com/efs/" },
+      { "label": "Network File System on Wikipedia", "url": "https://en.wikipedia.org/wiki/Network_File_System" }
+    ]
+  },
+  "es": {
+    "title": "Amazon EFS",
+    "tagline": "Una carpeta de red compartida en AWS que muchos servidores pueden usar a la vez.",
+    "explanation": [
+      "**Amazon EFS** (Elastic File System) es un sistema de archivos administrado que vive en la red. Creás uno, y después varios servidores lo pueden montar al mismo tiempo y ver las mismas carpetas y archivos, como si todos tuvieran enchufado el mismo disco. Habla NFS, el protocolo estándar que usan las máquinas Linux para compartir archivos.",
+      "Conviene compararlo con sus vecinos. Un volumen EBS es como un disco rígido conectado a una sola instancia EC2. Amazon S3 guarda objetos que leés y escribís a través de una API, no una carpeta que puedas abrir con programas comunes. EFS queda en el medio: un sistema de archivos de verdad, con directorios y permisos, compartido por muchas instancias EC2, contenedores en ECS o EKS y hasta funciones Lambda.",
+      "Los usos típicos son contenido que varios servidores web tienen que compartir, como las imágenes que suben los usuarios, las carpetas personales de un equipo o datos que procesa un grupo de máquinas en conjunto. Crece y se achica solo a medida que agregás o borrás archivos, y pagás por lo que guardás. Los archivos pueden pasar solos a clases de almacenamiento más baratas cuando nadie los toca por un tiempo. Es para Linux; las carpetas compartidas de Windows usan otro servicio, Amazon FSx."
+    ],
+    "analogy": "La unidad compartida de una oficina. Todas las computadoras ven la misma carpeta, y cuando alguien guarda un archivo ahí, el resto lo puede abrir al toque.",
+    "keyPoints": [
+      "Un sistema de archivos de red que muchos servidores montan a la vez.",
+      "Usa NFS y funciona con EC2 Linux, ECS, EKS y Lambda.",
+      "Crece solo; pagás por el espacio que de verdad usás.",
+      "EBS es un disco para un servidor; S3, objetos por API; EFS, una carpeta compartida."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon EFS? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/efs/latest/ug/whatisefs.html" },
+      { "label": "Página de Amazon EFS", "url": "https://aws.amazon.com/es/efs/" },
+      { "label": "Network File System en Wikipedia", "url": "https://es.wikipedia.org/wiki/Network_File_System" }
+    ]
+  }
+}

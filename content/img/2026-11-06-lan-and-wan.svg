@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="36" width="140" height="150" rx="14" fill="#9bd1b9"/>
+    <rect x="244" y="36" width="140" height="150" rx="14" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M56 72 L104 118"/><path d="M56 160 L104 126"/><path d="M128 72 L112 112"/>
+    <path d="M296 118 L344 72"/><path d="M296 126 L344 160"/><path d="M288 112 L272 72"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="8 6">
+    <path d="M128 122 C180 90 220 90 272 122"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="92" y="108" width="36" height="28" rx="5" fill="#ffd166"/>
+    <rect x="272" y="108" width="36" height="28" rx="5" fill="#ffd166"/>
+    <rect x="34" y="58" width="40" height="26" rx="3" fill="#9ac7ea"/>
+    <rect x="40" y="150" width="32" height="24" rx="3" fill="#e6dfd0"/>
+    <rect x="120" y="52" width="16" height="26" rx="3" fill="#f4a7a7"/>
+    <rect x="326" y="58" width="40" height="26" rx="3" fill="#9ac7ea"/>
+    <rect x="328" y="150" width="32" height="24" rx="3" fill="#e6dfd0"/>
+    <rect x="264" y="52" width="16" height="26" rx="3" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle" font-weight="bold">
+    <text x="86" y="28">LAN</text><text x="314" y="28">LAN</text><text x="200" y="84">WAN</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="86" y="204">office, Rosario</text><text x="314" y="204">office, Córdoba</text>
+    <text x="200" y="134">provider line</text><text x="200" y="148">or VPN</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">near and fast · far and costly</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-text-to-speech",
+  "date": "2026-11-05",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["TTS", "text to speech", "speech synthesis", "voice synthesis"],
+    "es": ["TTS", "text-to-speech", "síntesis de voz", "síntesis del habla"]
+  },
+  "image": "img/2026-11-05-text-to-speech.svg",
+  "imageAlt": {
+    "en": "A line of written text goes into a model and comes out of a speaker as sound waves",
+    "es": "Una línea de texto escrito entra a un modelo y sale por un parlante como ondas de sonido"
+  },
+  "en": {
+    "title": "Text-to-speech",
+    "tagline": "Technology that reads written text aloud in a synthetic voice.",
+    "explanation": [
+      "**Text-to-speech**, or TTS, turns written text into spoken audio. It is the voice of your GPS, the screen reader that lets blind people use a phone, the narrator of some audiobooks and the reply of a voice assistant.",
+      "Early systems either sounded robotic or glued together tiny recorded snippets of a real person, which gave that choppy, slightly off rhythm. Today's systems are neural networks trained on many hours of recorded speech, and they can sound remarkably natural: pauses, intonation, even a smile in the voice. Developers can tune pronunciation and pacing with a markup language called SSML. On AWS, the service is Amazon Polly.",
+      "The same progress has a darker side. Some modern models can imitate a specific person's voice from a short recording, which is useful for someone who is losing their ability to speak, and dangerous in the hands of scammers who fake a relative's voice on the phone. That is why voice cloning features usually require consent from the owner of the voice."
+    ],
+    "analogy": "A tireless voice actor who can read anything you hand them, in any of dozens of voices, instantly and at any hour.",
+    "keyPoints": [
+      "Converts written text into spoken audio.",
+      "Powers screen readers, navigation apps and voice assistants.",
+      "Neural TTS sounds far more natural than older systems.",
+      "Voice cloning makes consent and fraud real concerns."
+    ],
+    "links": [
+      { "label": "Speech synthesis on Wikipedia", "url": "https://en.wikipedia.org/wiki/Speech_synthesis" },
+      { "label": "What is Amazon Polly? (official docs)", "url": "https://docs.aws.amazon.com/polly/latest/dg/what-is.html" }
+    ]
+  },
+  "es": {
+    "title": "Texto a voz",
+    "tagline": "La tecnología que lee en voz alta un texto escrito, con una voz sintética.",
+    "explanation": [
+      "El **texto a voz**, o TTS (text-to-speech), convierte texto escrito en audio hablado. Es la voz del GPS, el lector de pantalla que le permite a una persona ciega usar el celular, el narrador de algunos audiolibros y la respuesta de un asistente de voz.",
+      "Los primeros sistemas sonaban a robot o pegaban pedacitos grabados de una persona real, y por eso tenían ese ritmo entrecortado, medio raro. Los actuales son redes neuronales entrenadas con muchas horas de voz grabada, y pueden sonar sorprendentemente naturales: pausas, entonación, hasta una sonrisa en la voz. Quien programa puede ajustar la pronunciación y el ritmo con un lenguaje de marcas que se llama SSML. En AWS, el servicio es Amazon Polly.",
+      "El mismo avance tiene un lado oscuro. Algunos modelos modernos pueden imitar la voz de una persona puntual a partir de una grabación corta: útil para alguien que está perdiendo el habla, y peligroso en manos de estafadores que falsifican la voz de un familiar por teléfono. Por eso las funciones de clonar voces suelen pedir el consentimiento de quien es dueño de esa voz."
+    ],
+    "analogy": "Un locutor incansable que lee cualquier cosa que le des, en decenas de voces distintas, al instante y a cualquier hora.",
+    "keyPoints": [
+      "Convierte texto escrito en audio hablado.",
+      "Está detrás de los lectores de pantalla, el GPS y los asistentes de voz.",
+      "El TTS neuronal suena mucho más natural que los sistemas viejos.",
+      "La clonación de voces vuelve reales los temas de consentimiento y fraude."
+    ],
+    "links": [
+      { "label": "Síntesis de habla en Wikipedia", "url": "https://es.wikipedia.org/wiki/S%C3%ADntesis_de_habla" },
+      { "label": "¿Qué es Amazon Polly? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/polly/latest/dg/what-is.html" }
+    ]
+  }
+}

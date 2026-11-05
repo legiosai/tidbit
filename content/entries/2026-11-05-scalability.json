@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-scalability",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["scalable", "horizontal scaling", "vertical scaling", "scale up", "scale horizontally", "scale vertically"],
+    "es": ["escalable", "escalables", "escalado horizontal", "escalado vertical", "escalar horizontalmente", "escalar verticalmente"]
+  },
+  "image": "img/2026-11-05-scalability.svg",
+  "imageAlt": {
+    "en": "Two ways to grow: on the left one server becomes a bigger server, on the right one server becomes four servers of the same size",
+    "es": "Dos formas de crecer: a la izquierda un servidor se convierte en uno más grande, a la derecha un servidor se convierte en cuatro del mismo tamaño"
+  },
+  "en": {
+    "title": "Scalability",
+    "tagline": "How well a system keeps working when it has to handle much more.",
+    "explanation": [
+      "**Scalability** is the ability of a system to handle more work, more users, more data, more requests, by adding resources, without being redesigned from scratch. An online shop that runs fine with a hundred visitors and also with a hundred thousand, just by adding machines, is scalable. One that slows to a crawl and needs a rewrite is not.",
+      "There are two basic ways to grow. **Vertical scaling** (scaling up) means a bigger machine: more CPU, more RAM. It is simple but has a ceiling and a single point of failure. **Horizontal scaling** (scaling out) means more machines of the same size working side by side, with a load balancer spreading the traffic. It has almost no ceiling, but the software must be built so any copy can answer any request.",
+      "The cloud made horizontal scaling cheap and quick: you can rent ten more servers in minutes and give them back tomorrow. That is why scalability is now a design question more than a hardware one. The parts that scale worst are usually the ones that share state, like a single database everyone writes to."
+    ],
+    "analogy": "A bakery that gets popular. It can buy a bigger oven (vertical) or open more branches with the same oven (horizontal). The bigger oven is easier but there is only so big an oven can get.",
+    "keyPoints": [
+      "Scalable means more load can be handled by adding resources, not by rebuilding.",
+      "Vertical: a bigger machine. Horizontal: more machines.",
+      "Horizontal scaling needs apps where any copy can serve any request.",
+      "Shared state, often the database, is the usual bottleneck."
+    ],
+    "links": [
+      { "label": "Scalability on Wikipedia", "url": "https://en.wikipedia.org/wiki/Scalability" }
+    ]
+  },
+  "es": {
+    "title": "Escalabilidad",
+    "tagline": "Qué tan bien sigue andando un sistema cuando tiene que aguantar mucho más.",
+    "explanation": [
+      "La **escalabilidad** es la capacidad de un sistema de atender más trabajo (más usuarios, más datos, más pedidos) sumando recursos, sin tener que rediseñarlo de cero. Una tienda online que anda bien con cien visitas y también con cien mil, con solo agregar máquinas, es escalable. Una que se arrastra y necesita reescribirse, no.",
+      "Hay dos formas básicas de crecer. El **escalado vertical** (scale up) es poner una máquina más grande: más CPU, más RAM. Es simple, pero tiene techo y deja un único punto de falla. El **escalado horizontal** (scale out) es sumar más máquinas del mismo tamaño trabajando en paralelo, con un balanceador de carga que reparte el tráfico. Casi no tiene techo, pero el software tiene que estar armado para que cualquier copia pueda responder cualquier pedido.",
+      "La nube hizo que escalar horizontalmente fuera barato y rápido: podés alquilar diez servidores más en minutos y devolverlos mañana. Por eso hoy la escalabilidad es más una cuestión de diseño que de hardware. Lo que peor escala suele ser lo que comparte estado, como una única base de datos donde escriben todos."
+    ],
+    "analogy": "Una panadería que se pone de moda. Puede comprar un horno más grande (vertical) o abrir más sucursales con el mismo horno (horizontal). El horno grande es más fácil, pero un horno no puede crecer para siempre.",
+    "keyPoints": [
+      "Escalable quiere decir que se aguanta más carga sumando recursos, no rehaciendo todo.",
+      "Vertical: una máquina más grande. Horizontal: más máquinas.",
+      "Escalar horizontalmente pide apps donde cualquier copia atienda cualquier pedido.",
+      "El estado compartido, muchas veces la base de datos, es el cuello de botella típico."
+    ],
+    "links": [
+      { "label": "Escalabilidad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Escalabilidad" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-time-series",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["time-series", "time series data", "time-series database", "time-series databases"],
+    "es": ["series temporales", "serie de tiempo", "series de tiempo", "time series", "base de datos de series temporales"]
+  },
+  "image": "img/2026-11-06-time-series.svg",
+  "imageAlt": {
+    "en": "A line chart of values over twelve months that rises slowly, with a repeating bump every few months and a dashed forecast continuing to the right",
+    "es": "Un gráfico de línea con valores a lo largo de doce meses que sube despacio, con una subida que se repite cada pocos meses y un pronóstico punteado que sigue hacia la derecha"
+  },
+  "en": {
+    "title": "Time series",
+    "tagline": "A list of measurements of the same thing, taken one after another in time.",
+    "explanation": [
+      "A **time series** is a sequence of values of the same quantity recorded at successive moments: the temperature every hour, a stock price every second, a website's visits per day, a server's CPU use every ten seconds. What makes it special is that the order matters. Each point only makes sense next to the ones before and after it.",
+      "Analysts look for a few typical shapes in a time series. The **trend** is the long-term direction (slowly going up). **Seasonality** is a pattern that repeats on a calendar (more ice cream sold every summer, more traffic every Monday morning). And then there is noise: the random wiggle left over. Separating these is the basis of forecasting, from predicting next month's sales to planning how many servers a holiday will need.",
+      "Because this kind of data arrives constantly and is almost always read by time range, there are databases built just for it, called **time-series databases**, like InfluxDB, TimescaleDB or Amazon Timestream. They compress the data well and make questions like \"average per minute over the last 24 hours\" very fast. Monitoring tools for servers and IoT devices are built on top of them."
+    ],
+    "analogy": "A child's height marked on the kitchen door frame every birthday. Each mark alone is just a number; together, in order, they show a trend, the growth spurts and roughly where the next mark will land.",
+    "keyPoints": [
+      "Values of one thing measured in time order; the order carries the meaning.",
+      "Trend, seasonality and noise are the three parts analysts try to separate.",
+      "The basis of forecasting: sales, demand, traffic, energy use.",
+      "Time-series databases store this kind of data and query it by time range quickly."
+    ],
+    "links": [
+      { "label": "Time series on Wikipedia", "url": "https://en.wikipedia.org/wiki/Time_series" },
+      { "label": "Time series database on Wikipedia", "url": "https://en.wikipedia.org/wiki/Time_series_database" }
+    ]
+  },
+  "es": {
+    "title": "Serie temporal",
+    "tagline": "Una lista de mediciones de una misma cosa, tomadas una detrás de otra en el tiempo.",
+    "explanation": [
+      "Una **serie temporal** (time series) es una secuencia de valores de una misma magnitud registrados en momentos sucesivos: la temperatura cada hora, el precio de una acción cada segundo, las visitas diarias a un sitio web, el uso de CPU de un servidor cada diez segundos. Lo que la hace especial es que el orden importa. Cada punto tiene sentido solo al lado del anterior y del siguiente.",
+      "En una serie temporal se buscan algunas formas típicas. La **tendencia** es la dirección de largo plazo (sube de a poco). La **estacionalidad** es un patrón que se repite según el calendario (más helado vendido cada verano, más tráfico cada lunes a la mañana). Y después está el ruido: el temblequeo al azar que queda. Separar estas partes es la base de los pronósticos, desde estimar las ventas del mes que viene hasta calcular cuántos servidores va a necesitar un fin de semana largo.",
+      "Como estos datos llegan sin parar y casi siempre se leen por rango de fechas, hay bases de datos hechas especialmente para ellos, las **bases de datos de series temporales**, como InfluxDB, TimescaleDB o Amazon Timestream. Comprimen bien los datos y hacen muy rápidas preguntas como \"promedio por minuto en las últimas 24 horas\". Las herramientas de monitoreo de servidores y de dispositivos IoT se apoyan en ellas."
+    ],
+    "analogy": "Las marcas de la altura de un chico en el marco de la puerta de la cocina, una por cumpleaños. Cada marca sola es un número; todas juntas, en orden, muestran una tendencia, los estirones y más o menos dónde va a caer la próxima.",
+    "keyPoints": [
+      "Valores de una misma cosa medidos en orden temporal; el orden es lo que les da sentido.",
+      "Tendencia, estacionalidad y ruido son las tres partes que se intentan separar.",
+      "Es la base de los pronósticos: ventas, demanda, tráfico, consumo de energía.",
+      "Las bases de datos de series temporales guardan estos datos y los consultan rápido por rango de tiempo."
+    ],
+    "links": [
+      { "label": "Serie temporal en Wikipedia", "url": "https://es.wikipedia.org/wiki/Serie_temporal" },
+      { "label": "Time series database en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Time_series_database" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-submarine-cables",
+  "date": "2026-11-06",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["submarine cable", "undersea cable", "undersea cables", "subsea cable", "subsea cables", "submarine communications cable"],
+    "es": ["cable submarino", "cable transoceánico", "cables transoceánicos"]
+  },
+  "image": "img/2026-11-06-submarine-cables.svg",
+  "imageAlt": {
+    "en": "Two coasts with landing stations joined by a cable lying on the ocean floor, with repeaters along the way and a cross-section showing the thin fibers inside the armored cable",
+    "es": "Dos costas con estaciones de amarre unidas por un cable apoyado en el fondo del océano, con repetidores a lo largo y un corte que muestra las fibras finitas dentro del cable blindado"
+  },
+  "en": {
+    "title": "Submarine cables",
+    "tagline": "Cables on the ocean floor that carry almost all the internet traffic between continents.",
+    "explanation": [
+      "When you watch a video hosted in another continent, the data almost certainly crossed the ocean through a **submarine cable**, not a satellite. There are several hundred of these cables lying on the seabed, together more than a million kilometers long, and they carry the vast majority of traffic between continents: video calls, bank transfers, cloud backups, everything.",
+      "Inside, they are surprisingly thin. The heart is a handful of fiber optic strands, each thinner than a hair, carrying light. Around them go layers of copper, plastic and, near the coast where anchors and fishing nets are a danger, steel armor; in the deep ocean the whole cable is roughly the width of a garden hose. Every 50 to 100 kilometers a **repeater** boosts the light signal, powered by electricity sent down the cable itself from the shore. Each end arrives at a **landing station** on the coast that connects it to land networks.",
+      "Cables used to be built by groups of phone companies; today Google, Meta, Amazon and Microsoft own or co-own many new ones. They break more often than you would think, mostly from ship anchors and fishing, and repair ships have to hook the cable up from the seabed. Because there are many routes, traffic usually just goes around a break, but countries served by one or two cables, especially islands, can lose most of their connection for days."
+    ],
+    "analogy": "The highways under the sea. Satellites are like small planes: useful where there are no roads, but almost all the cargo moves by truck on the highways, because they carry far more, far cheaper.",
+    "keyPoints": [
+      "Carry the vast majority of internet traffic between continents.",
+      "Fiber optic strands inside, armored near the coast, hose-thin in deep water.",
+      "Repeaters along the route boost the signal; landing stations connect them to land.",
+      "Big tech companies now own or co-own many of the newest cables."
+    ],
+    "links": [
+      { "label": "Submarine Cable Map (TeleGeography)", "url": "https://www.submarinecablemap.com/" },
+      { "label": "Submarine communications cable on Wikipedia", "url": "https://en.wikipedia.org/wiki/Submarine_communications_cable" }
+    ]
+  },
+  "es": {
+    "title": "Cables submarinos",
+    "tagline": "Cables en el fondo del mar que llevan casi todo el tráfico de internet entre continentes.",
+    "explanation": [
+      "Cuando mirás un video alojado en otro continente, casi seguro esos datos cruzaron el océano por un **cable submarino**, no por un satélite. Hay varios cientos de estos cables apoyados en el lecho marino, que suman más de un millón de kilómetros, y llevan la enorme mayoría del tráfico entre continentes: videollamadas, transferencias bancarias, backups en la nube, todo.",
+      "Por dentro son sorprendentemente finitos. El corazón es un puñado de hebras de fibra óptica, cada una más fina que un pelo, que transportan luz. Alrededor van capas de cobre, plástico y, cerca de la costa, donde las anclas y las redes de pesca son un peligro, un blindaje de acero; en aguas profundas el cable entero tiene más o menos el ancho de una manguera de jardín. Cada 50 a 100 kilómetros un **repetidor** amplifica la señal de luz, alimentado con electricidad que se manda por el mismo cable desde la costa. Cada punta llega a una **estación de amarre** que lo conecta con las redes terrestres.",
+      "Antes los construían consorcios de empresas telefónicas; hoy Google, Meta, Amazon y Microsoft son dueños o socios de muchos de los nuevos. Se cortan más seguido de lo que uno pensaría, sobre todo por anclas de barcos y pesca, y unos barcos especiales tienen que pescar el cable del fondo para repararlo. Como hay muchas rutas, el tráfico casi siempre rodea el corte, pero los países que dependen de uno o dos cables, sobre todo las islas, pueden quedarse casi sin conexión durante días."
+    ],
+    "analogy": "Las rutas bajo el mar. Los satélites son como avionetas: sirven donde no hay caminos, pero casi toda la carga viaja en camión por las rutas, porque llevan muchísimo más y mucho más barato.",
+    "keyPoints": [
+      "Llevan la enorme mayoría del tráfico de internet entre continentes.",
+      "Por dentro, hebras de fibra óptica; blindados cerca de la costa, finos como una manguera en aguas profundas.",
+      "Los repetidores amplifican la señal en el camino; las estaciones de amarre los conectan con tierra.",
+      "Las grandes tecnológicas hoy son dueñas o socias de muchos de los cables más nuevos."
+    ],
+    "links": [
+      { "label": "Submarine Cable Map (TeleGeography, en inglés)", "url": "https://www.submarinecablemap.com/" },
+      { "label": "Cable submarino en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cable_submarino" }
+    ]
+  }
+}

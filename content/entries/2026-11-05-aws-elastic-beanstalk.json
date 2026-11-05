@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-aws-elastic-beanstalk",
+  "date": "2026-11-05",
+  "subjects": ["aws", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["Elastic Beanstalk", "Beanstalk"],
+    "es": ["Elastic Beanstalk", "Beanstalk"]
+  },
+  "image": "img/2026-11-05-aws-elastic-beanstalk.svg",
+  "imageAlt": {
+    "en": "A zip of application code goes into Elastic Beanstalk, which sets up a load balancer, two servers and monitoring",
+    "es": "Un zip con el código de una aplicación entra a Elastic Beanstalk, que arma un balanceador de carga, dos servidores y el monitoreo"
+  },
+  "en": {
+    "title": "AWS Elastic Beanstalk",
+    "tagline": "Upload your web app's code and AWS sets up the servers to run it.",
+    "explanation": [
+      "**AWS Elastic Beanstalk** is a service for putting a web application online without assembling the infrastructure piece by piece. You upload your code, written in something like Python, Node.js, Java, PHP, Ruby, Go or .NET, or packaged as a Docker container. Beanstalk then creates what the app needs to run: EC2 servers, a load balancer, automatic scaling when traffic grows, health checks and CloudWatch monitoring.",
+      "What makes it different from a fully hidden platform is that nothing is a black box. Everything Beanstalk creates lives in your account, built with CloudFormation behind the scenes, and you can inspect it and tweak it. Beanstalk itself costs nothing extra; you pay for the servers and other resources it creates. It also handles updates with strategies like rolling deployments, which replace servers a few at a time so the site never goes fully down.",
+      "Beanstalk has been around since 2011, and it remains a quick path for a classic web app or API with a database behind it. Many newer projects choose containers on ECS or Fargate, or serverless with Lambda, which give more control or less to manage. Knowing Beanstalk still helps, because plenty of production systems run on it."
+    ],
+    "analogy": "Moving into a furnished apartment. You bring your suitcase and you are living there the same day; the furniture is already in place, and you can still repaint the walls if you want.",
+    "keyPoints": [
+      "Upload code; Beanstalk creates servers, load balancer and scaling for you.",
+      "Supports common languages and Docker containers.",
+      "No extra charge: you pay for the resources it creates.",
+      "Everything it builds stays visible and editable in your account."
+    ],
+    "links": [
+      { "label": "What is AWS Elastic Beanstalk? (official docs)", "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html" },
+      { "label": "AWS Elastic Beanstalk product page", "url": "https://aws.amazon.com/elasticbeanstalk/" },
+      { "label": "Platform as a service on Wikipedia", "url": "https://en.wikipedia.org/wiki/Platform_as_a_service" }
+    ]
+  },
+  "es": {
+    "title": "AWS Elastic Beanstalk",
+    "tagline": "Subís el código de tu app web y AWS arma los servidores para que corra.",
+    "explanation": [
+      "**AWS Elastic Beanstalk** es un servicio para poner una aplicación web en línea sin armar la infraestructura pieza por pieza. Subís tu código, escrito en algo como Python, Node.js, Java, PHP, Ruby, Go o .NET, o empaquetado como contenedor Docker. Beanstalk crea lo que la app necesita para correr: servidores EC2, un balanceador de carga, escalado automático cuando crece el tráfico, chequeos de salud y monitoreo con CloudWatch.",
+      "Lo que lo diferencia de una plataforma totalmente oculta es que nada es una caja negra. Todo lo que crea Beanstalk vive en tu cuenta, armado con CloudFormation por detrás, y lo podés mirar y ajustar. Beanstalk en sí no cuesta nada extra; pagás los servidores y demás recursos que crea. También se encarga de las actualizaciones con estrategias como el deploy gradual (rolling), que reemplaza los servidores de a pocos para que el sitio nunca se caiga del todo.",
+      "Beanstalk existe desde 2011 y sigue siendo un camino rápido para una app web clásica o una API con una base de datos atrás. Muchos proyectos nuevos eligen contenedores en ECS o Fargate, o serverless con Lambda, que dan más control o menos cosas que mantener. Igual conviene conocerlo, porque hay muchísimos sistemas en producción que corren ahí."
+    ],
+    "analogy": "Mudarte a un departamento amueblado. Llegás con la valija y ese mismo día ya vivís ahí; los muebles ya están puestos, y si querés igual podés pintar las paredes.",
+    "keyPoints": [
+      "Subís el código y Beanstalk crea servidores, balanceador y escalado.",
+      "Soporta los lenguajes más comunes y contenedores Docker.",
+      "No tiene costo extra: pagás los recursos que crea.",
+      "Todo lo que arma queda visible y editable en tu cuenta."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Elastic Beanstalk? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/elasticbeanstalk/latest/dg/Welcome.html" },
+      { "label": "Página de AWS Elastic Beanstalk", "url": "https://aws.amazon.com/es/elasticbeanstalk/" },
+      { "label": "Plataforma como servicio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Plataforma_como_servicio" }
+    ]
+  }
+}

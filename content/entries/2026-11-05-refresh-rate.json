@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-refresh-rate",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["refresh rates", "screen refresh rate", "60 Hz", "120 Hz", "144 Hz", "variable refresh rate", "VRR", "ProMotion"],
+    "es": ["tasa de refresco", "frecuencia de actualización", "60 Hz", "120 Hz", "144 Hz", "tasa de refresco variable", "VRR", "ProMotion"]
+  },
+  "image": "img/2026-11-05-refresh-rate.svg",
+  "imageAlt": {
+    "en": "Two strips of frames over one second: a 60 Hz screen draws a ball in fewer, bigger jumps than a 120 Hz screen",
+    "es": "Dos tiras de cuadros en un segundo: una pantalla de 60 Hz dibuja una pelota con saltos menos frecuentes y más grandes que una de 120 Hz"
+  },
+  "en": {
+    "title": "Refresh rate",
+    "tagline": "How many times per second a screen redraws its picture, measured in hertz (Hz).",
+    "explanation": [
+      "A screen does not show continuous motion. It shows still images one after another, fast enough that your eyes blend them into movement. The **refresh rate** is how many times per second the screen redraws itself. A 60 Hz screen redraws 60 times a second; a 120 Hz screen, 120 times.",
+      "For decades 60 Hz was the norm. Today many phones, tablets and laptops run at 90 or 120 Hz, and gaming monitors go to 144 Hz, 240 Hz or more. The difference is easiest to notice when things move: scrolling a long page, dragging a window, or turning the camera in a game feels smoother and more direct, because each picture is closer to the last one.",
+      "A higher refresh rate costs battery, so many phones use a **variable refresh rate**: they drop to a low rate when you are reading something still, and speed up when you scroll. The screen is only half the story, though. If the device cannot produce new images that fast, a 120 Hz screen just repeats the same picture. Refresh rate is different from resolution: one is how many times per second, the other is how many pixels."
+    ],
+    "analogy": "A flip book. Flip slowly and the drawing jerks from page to page; flip fast and it looks like smooth animation. A higher refresh rate is a flip book with more pages per second.",
+    "keyPoints": [
+      "Measured in hertz: 60 Hz means 60 new pictures per second.",
+      "Higher rates make scrolling and motion look smoother.",
+      "Variable refresh rate saves battery by slowing down when nothing moves.",
+      "Not the same as resolution, which counts pixels, not redraws."
+    ],
+    "links": [
+      { "label": "Refresh rate on Wikipedia", "url": "https://en.wikipedia.org/wiki/Refresh_rate" }
+    ]
+  },
+  "es": {
+    "title": "Frecuencia de refresco",
+    "tagline": "Cuántas veces por segundo una pantalla vuelve a dibujar su imagen, medido en hertz (Hz).",
+    "explanation": [
+      "Una pantalla no muestra movimiento continuo. Muestra imágenes quietas una atrás de otra, tan rápido que tus ojos las funden en movimiento. La **frecuencia de refresco** es cuántas veces por segundo la pantalla se vuelve a dibujar. Una pantalla de 60 Hz se redibuja 60 veces por segundo; una de 120 Hz, 120 veces.",
+      "Durante décadas lo normal fueron 60 Hz. Hoy muchos celulares, tablets y notebooks andan a 90 o 120 Hz, y los monitores gamer llegan a 144 Hz, 240 Hz o más. La diferencia se nota sobre todo cuando algo se mueve: scrollear una página larga, arrastrar una ventana o girar la cámara en un juego se siente más fluido y más directo, porque cada imagen está más cerca de la anterior.",
+      "Refrescar más rápido gasta más batería, así que muchos celulares usan **tasa de refresco variable**: bajan a una frecuencia mínima cuando estás leyendo algo quieto y aceleran cuando scrolleás. Igual la pantalla es solo la mitad de la historia: si el aparato no llega a generar imágenes nuevas tan rápido, una pantalla de 120 Hz repite la misma. Tampoco hay que confundirla con la resolución: una es cuántas veces por segundo; la otra, cuántos píxeles."
+    ],
+    "analogy": "Un flip book, esos cuadernitos con dibujos que hacés pasar con el pulgar. Si pasás las hojas despacio, el dibujo salta de una a otra; si las pasás rápido, parece una animación fluida. Más frecuencia de refresco es un flip book con más hojas por segundo.",
+    "keyPoints": [
+      "Se mide en hertz: 60 Hz son 60 imágenes nuevas por segundo.",
+      "Más frecuencia hace que el scroll y el movimiento se vean más fluidos.",
+      "La tasa variable ahorra batería bajando la velocidad cuando nada se mueve.",
+      "No es lo mismo que la resolución, que cuenta píxeles y no redibujos."
+    ],
+    "links": [
+      { "label": "Frecuencia de refresco en Wikipedia", "url": "https://es.wikipedia.org/wiki/Frecuencia_de_refresco" }
+    ]
+  }
+}

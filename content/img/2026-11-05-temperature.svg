@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M30 160 H190"/><path d="M210 160 H370"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="50" width="28" height="110" rx="3" fill="#9ac7ea"/>
+    <rect x="76" y="140" width="28" height="20" rx="3" fill="#e6dfd0"/>
+    <rect x="112" y="148" width="28" height="12" rx="3" fill="#e6dfd0"/>
+    <rect x="148" y="153" width="28" height="7" rx="3" fill="#e6dfd0"/>
+    <rect x="220" y="104" width="28" height="56" rx="3" fill="#f4a7a7"/>
+    <rect x="256" y="112" width="28" height="48" rx="3" fill="#f4a7a7"/>
+    <rect x="292" y="118" width="28" height="42" rx="3" fill="#f4a7a7"/>
+    <rect x="328" y="124" width="28" height="36" rx="3" fill="#f4a7a7"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="54" y="176">sun</text><text x="90" y="176">sky</text><text x="126" y="176">sea</text><text x="162" y="176">owl</text>
+    <text x="234" y="176">sun</text><text x="270" y="176">sky</text><text x="306" y="176">sea</text><text x="342" y="176">owl</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="110" y="200">low: 0.2</text><text x="290" y="200">high: 1.0</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">odds of each next word</text>
+</svg>

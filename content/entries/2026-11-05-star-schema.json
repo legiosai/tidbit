@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-star-schema",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["star schemas", "fact table", "fact tables", "dimension table", "dimension tables", "dimensional modeling", "dimensional model", "snowflake schema"],
+    "es": ["esquemas en estrella", "star schema", "tabla de hechos", "tablas de hechos", "tabla de dimensiones", "tablas de dimensiones", "modelo dimensional", "modelado dimensional", "esquema en copo de nieve"]
+  },
+  "image": "img/2026-11-05-star-schema.svg",
+  "imageAlt": {
+    "en": "A sales fact table in the center connected to four dimension tables around it: date, product, store and customer, forming a star",
+    "es": "Una tabla de hechos de ventas en el centro unida a cuatro tablas de dimensiones alrededor: fecha, producto, local y cliente, formando una estrella"
+  },
+  "en": {
+    "title": "Star schema",
+    "tagline": "A data warehouse layout: one table of events in the middle, descriptive tables around it.",
+    "explanation": [
+      "A **star schema** is the most common way to organize tables in a data warehouse for analysis. In the center sits a **fact table**: one row per event you want to measure, such as each sale, with numbers like quantity and amount plus keys pointing outward. Around it sit **dimension tables** that describe the context of those events: date, product, store, customer. Drawn on a whiteboard, the center and its spokes look like a star.",
+      "The design matches how people ask business questions: \"sales amount (the fact) by month and region (the dimensions)\". A query joins the fact table to the dimensions it needs, filters and groups, and that is all. BI tools like Power BI are built around this shape, and it is the core of **dimensional modeling**, the method popularized by Ralph Kimball in the 1990s.",
+      "Unlike a normalized transactional database, a star schema deliberately repeats data in the dimensions, for example storing category and brand right on each product row, to keep joins few and shallow. Fact tables can grow to billions of rows while dimensions stay comparatively small. When dimensions are themselves split into further normalized tables, the result is called a **snowflake schema**, which saves space but adds joins."
+    ],
+    "analogy": "Like a sales receipt pinned in the middle of a corkboard, with strings running to cards that explain it: the calendar for when, the product catalog for what, the store list for where, the customer file for who.",
+    "keyPoints": [
+      "Fact table in the center: measurable events like sales, with numbers and keys.",
+      "Dimension tables around it: who, what, where, when.",
+      "Repeats data in dimensions on purpose to keep queries simple and fast.",
+      "The standard layout behind most data warehouses and BI models."
+    ],
+    "links": [
+      { "label": "Understand star schema (Microsoft Power BI docs)", "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema" },
+      { "label": "Star schema on Wikipedia", "url": "https://en.wikipedia.org/wiki/Star_schema" }
+    ]
+  },
+  "es": {
+    "title": "Esquema en estrella",
+    "tagline": "Diseño de data warehouse: una tabla de eventos al centro y tablas descriptivas alrededor.",
+    "explanation": [
+      "Un **esquema en estrella** (star schema) es la forma más común de organizar las tablas de un data warehouse para análisis. En el centro hay una **tabla de hechos**: una fila por cada evento que querés medir, como cada venta, con números como cantidad e importe más claves que apuntan hacia afuera. Alrededor están las **tablas de dimensiones**, que describen el contexto de esos eventos: fecha, producto, local, cliente. Dibujado en un pizarrón, el centro con sus rayos parece una estrella.",
+      "El diseño calza con cómo se hacen las preguntas de negocio: \"importe vendido (el hecho) por mes y por región (las dimensiones)\". Una consulta une la tabla de hechos con las dimensiones que necesita, filtra y agrupa, y listo. Herramientas de BI como Power BI están pensadas alrededor de esta forma, y es el corazón del **modelado dimensional**, el método que popularizó Ralph Kimball en los noventa.",
+      "A diferencia de una base transaccional normalizada, el esquema en estrella repite datos a propósito en las dimensiones, por ejemplo guardando la categoría y la marca directamente en cada fila de producto, para que los joins sean pocos y cortos. Las tablas de hechos pueden llegar a miles de millones de filas mientras las dimensiones quedan comparativamente chicas. Cuando las dimensiones a su vez se parten en más tablas normalizadas, el resultado se llama **esquema en copo de nieve** (snowflake schema): ahorra espacio pero suma joins."
+    ],
+    "analogy": "Como un ticket de compra clavado en el medio de un corcho, con hilos que van a fichas que lo explican: el calendario para cuándo, el catálogo para qué, la lista de locales para dónde, el fichero de clientes para quién.",
+    "keyPoints": [
+      "Tabla de hechos al centro: eventos medibles como ventas, con números y claves.",
+      "Tablas de dimensiones alrededor: quién, qué, dónde, cuándo.",
+      "Repite datos en las dimensiones a propósito para que las consultas sean simples y rápidas.",
+      "Es el diseño estándar detrás de la mayoría de los data warehouses y modelos de BI."
+    ],
+    "links": [
+      { "label": "Información sobre el esquema de estrella (documentación de Power BI)", "url": "https://learn.microsoft.com/es-es/power-bi/guidance/star-schema" },
+      { "label": "Esquema en estrella en Wikipedia", "url": "https://es.wikipedia.org/wiki/Esquema_en_estrella" }
+    ]
+  }
+}

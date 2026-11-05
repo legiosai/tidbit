@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="20" width="100" height="196" rx="18" fill="#9ac7ea"/>
+    <rect x="52" y="40" width="76" height="156" rx="6" fill="#f3efe6"/>
+    <rect x="216" y="20" width="110" height="196" rx="18" fill="#e6dfd0"/>
+    <circle cx="242" cy="44" r="9" fill="#2b2b2b"/>
+    <circle cx="242" cy="66" r="9" fill="#2b2b2b"/>
+    <rect x="262" y="36" width="52" height="40" rx="4" fill="#ffd166"/>
+    <rect x="228" y="84" width="40" height="16" rx="3" fill="#9bd1b9"/>
+    <rect x="274" y="84" width="40" height="16" rx="3" fill="#9bd1b9"/>
+    <rect x="228" y="108" width="86" height="86" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M150 118 H206"/><path d="M200 114 l6 4 -6 4"/>
+    <path d="M338 60 q10 -10 0 -20 M346 66 q18 -16 0 -32"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="90" y="112">touch</text>
+    <text x="90" y="128">screen</text>
+    <text x="178" y="108">inside</text>
+    <text x="366" y="88">radios</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="288" y="60">SoC</text>
+    <text x="248" y="96">RAM</text>
+    <text x="294" y="96">flash</text>
+    <text x="271" y="156">battery</text>
+  </g>
+  <text x="186" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">cameras</text>
+  <text x="200" y="233" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a whole computer in your pocket</text>
+</svg>

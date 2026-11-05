@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-wearables",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["wearable", "wearable device", "wearable devices", "wearable technology", "smartwatch", "smartwatches", "fitness tracker", "fitness trackers", "smart ring", "smart rings"],
+    "es": ["wearable", "dispositivo vestible", "dispositivos vestibles", "tecnología vestible", "reloj inteligente", "relojes inteligentes", "smartwatch", "smartwatches", "pulsera de actividad", "pulseras de actividad", "anillo inteligente"]
+  },
+  "image": "img/2026-11-05-wearables.svg",
+  "imageAlt": {
+    "en": "A smartwatch on a wrist measuring heart rate and steps, sending the data by Bluetooth to a phone",
+    "es": "Un reloj inteligente en la muñeca midiendo pulso y pasos, y mandando los datos por Bluetooth al celular"
+  },
+  "en": {
+    "title": "Wearables",
+    "tagline": "Small computers you wear on your body, like smartwatches, fitness bands and smart rings.",
+    "explanation": [
+      "**Wearables** are electronic devices designed to be worn: a **smartwatch** on the wrist, a **fitness tracker** band, a smart ring, wireless earbuds, smart glasses. Each one is a tiny computer with a chip, a battery and, above all, sensors that touch your skin or see the world from where you are.",
+      "Those sensors are the point. An accelerometer counts steps and detects a fall; an optical sensor shines light into your skin to estimate heart rate and blood oxygen; some devices take an electrocardiogram or track skin temperature during sleep. Most wearables do not work alone: they connect to your phone by Bluetooth, which does the heavy processing, shows the history and passes on notifications.",
+      "Wearables matter because they collect data all day, every day, which no doctor's visit can do. That has real uses: some watches have alerted people to irregular heart rhythms or called emergency services after a hard fall. It also raises fair questions. Health data is sensitive, so it is worth knowing where it is stored and who can see it. And consumer devices give estimates, not medical diagnoses."
+    ],
+    "analogy": "A personal assistant that walks next to you all day with a notebook, writing down every step, every heartbeat and every hour of sleep, and hands the notebook to your phone each evening.",
+    "keyPoints": [
+      "Wearables are small computers worn on the body, packed with sensors.",
+      "Most pair with a phone over Bluetooth for processing and storage.",
+      "They measure continuously: steps, heart rate, sleep, sometimes ECG.",
+      "Readings are estimates, and the data they collect is sensitive."
+    ],
+    "links": [
+      { "label": "Wearable technology on Wikipedia", "url": "https://en.wikipedia.org/wiki/Wearable_technology" },
+      { "label": "Smartwatch on Wikipedia", "url": "https://en.wikipedia.org/wiki/Smartwatch" }
+    ]
+  },
+  "es": {
+    "title": "Wearables",
+    "tagline": "Computadoras chiquitas que llevás puestas, como relojes inteligentes, pulseras y anillos.",
+    "explanation": [
+      "Los **wearables** (o dispositivos vestibles) son aparatos electrónicos pensados para llevar puestos: un **reloj inteligente** en la muñeca, una **pulsera de actividad**, un anillo inteligente, auriculares inalámbricos, anteojos inteligentes. Cada uno es una computadora diminuta con un chip, una batería y, sobre todo, sensores que tocan tu piel o miran el mundo desde donde estás vos.",
+      "Los sensores son la gracia. Un acelerómetro cuenta pasos y detecta una caída; un sensor óptico manda luz a la piel para estimar el pulso y el oxígeno en sangre; algunos hacen un electrocardiograma o miden la temperatura de la piel mientras dormís. La mayoría no funciona sola: se conecta al celular por Bluetooth, que hace el procesamiento pesado, muestra el historial y le pasa las notificaciones.",
+      "Los wearables importan porque juntan datos todo el día, todos los días, algo que ninguna consulta médica puede hacer. Eso tiene usos reales: hay relojes que avisaron de ritmos cardíacos irregulares o llamaron a emergencias después de una caída fuerte. También abre preguntas razonables. Los datos de salud son sensibles, así que conviene saber dónde se guardan y quién los puede ver. Y un aparato de consumo da estimaciones, no diagnósticos médicos."
+    ],
+    "analogy": "Un asistente personal que camina al lado tuyo todo el día con una libreta, anotando cada paso, cada latido y cada hora de sueño, y que a la noche le pasa la libreta a tu celular.",
+    "keyPoints": [
+      "Los wearables son computadoras chiquitas que se llevan puestas, llenas de sensores.",
+      "La mayoría se empareja con el celular por Bluetooth para procesar y guardar.",
+      "Miden de forma continua: pasos, pulso, sueño y a veces electrocardiograma.",
+      "Las lecturas son estimaciones, y los datos que juntan son sensibles."
+    ],
+    "links": [
+      { "label": "Tecnología vestible en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tecnología_vestible" },
+      { "label": "Reloj inteligente en Wikipedia", "url": "https://es.wikipedia.org/wiki/Reloj_inteligente" }
+    ]
+  }
+}

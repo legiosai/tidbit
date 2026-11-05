@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-amazon-rekognition",
+  "date": "2026-11-05",
+  "subjects": ["aws", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["Rekognition", "Rekognition Custom Labels"],
+    "es": ["Rekognition", "Rekognition Custom Labels"]
+  },
+  "image": "img/2026-11-05-amazon-rekognition.svg",
+  "imageAlt": {
+    "en": "A photo with boxes drawn around a person and a dog, each tagged with a label and a confidence score",
+    "es": "Una foto con recuadros alrededor de una persona y un perro, cada uno con una etiqueta y un puntaje de confianza"
+  },
+  "en": {
+    "title": "Amazon Rekognition",
+    "tagline": "An AWS service that looks at images and videos and says what is in them.",
+    "explanation": [
+      "**Amazon Rekognition** is computer vision as an API. You send it an image or a video stored in S3, and it answers with what it found: objects and scenes (\"dog\", \"beach\", \"car\"), text written in the picture, faces and their position, and whether the content looks unsafe. Each answer comes with a confidence score, like \"Person, 99%\", and often a box marking where in the image it is.",
+      "Common uses are practical and unglamorous: tagging a photo library so it can be searched, flagging inappropriate images users upload before anyone sees them, reading text from signs or documents in photos, or checking that a selfie matches the photo on an ID during sign-up. If the built-in labels are not enough, **Custom Labels** lets you train it with your own examples, like telling apart your company's products on a shelf.",
+      "Face analysis is the sensitive part. Studies found that facial recognition systems, Rekognition among them, made more mistakes with some groups of people than others, and in 2020 Amazon paused police use of its face comparison feature. Using faces in any product raises questions of consent, privacy laws and bias, so the confidence score is something to think about, not just a number to accept."
+    ],
+    "analogy": "A tireless assistant who looks at every photo you hand them and writes sticky notes: \"two people, a dog, a beach, and the sign says Exit\". Fast and usually right, but you would not let them identify a suspect on their own.",
+    "keyPoints": [
+      "Detects objects, scenes, text, faces and unsafe content in images and video.",
+      "Every result comes with a confidence score.",
+      "Custom Labels trains it on your own categories.",
+      "Face recognition raises real questions of bias, privacy and consent."
+    ],
+    "links": [
+      { "label": "What is Amazon Rekognition? (official docs)", "url": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html" },
+      { "label": "Amazon Rekognition product page", "url": "https://aws.amazon.com/rekognition/" },
+      { "label": "Facial recognition system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Facial_recognition_system" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Rekognition",
+    "tagline": "Un servicio de AWS que mira imágenes y videos y te dice qué hay en ellos.",
+    "explanation": [
+      "**Amazon Rekognition** es visión por computadora en forma de API. Le mandás una imagen o un video guardado en S3, y te responde lo que encontró: objetos y escenas (\"perro\", \"playa\", \"auto\"), texto escrito en la imagen, caras y su posición, y si el contenido parece inapropiado. Cada respuesta viene con un puntaje de confianza, del estilo \"Persona, 99 %\", y muchas veces con un recuadro que marca dónde está en la imagen.",
+      "Los usos comunes son prácticos y nada glamorosos: etiquetar una biblioteca de fotos para poder buscar en ella, frenar imágenes inapropiadas que suben los usuarios antes de que alguien las vea, leer el texto de carteles o documentos en fotos, o verificar en un alta que una selfie coincide con la foto del documento. Si las etiquetas que trae no alcanzan, **Custom Labels** te deja entrenarlo con tus propios ejemplos, por ejemplo para distinguir los productos de tu empresa en una góndola.",
+      "El análisis de caras es la parte delicada. Distintos estudios encontraron que los sistemas de reconocimiento facial, Rekognition entre ellos, se equivocaban más con algunos grupos de personas que con otros, y en 2020 Amazon suspendió el uso policial de su función de comparación de caras. Usar caras en cualquier producto abre preguntas de consentimiento, leyes de privacidad y sesgo, así que el puntaje de confianza es algo para pensar, no solo un número para aceptar."
+    ],
+    "analogy": "Un asistente incansable que mira cada foto que le das y le pega papelitos: \"dos personas, un perro, una playa, y el cartel dice Salida\". Rápido y casi siempre acierta, pero no lo dejarías identificar a un sospechoso solo.",
+    "keyPoints": [
+      "Detecta objetos, escenas, texto, caras y contenido inapropiado en imágenes y video.",
+      "Cada resultado viene con un puntaje de confianza.",
+      "Custom Labels lo entrena con tus propias categorías.",
+      "El reconocimiento facial abre preguntas reales de sesgo, privacidad y consentimiento."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Rekognition? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/rekognition/latest/dg/what-is.html" },
+      { "label": "Página de Amazon Rekognition", "url": "https://aws.amazon.com/es/rekognition/" },
+      { "label": "Sistema de reconocimiento facial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_de_reconocimiento_facial" }
+    ]
+  }
+}

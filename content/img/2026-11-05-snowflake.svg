@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="36" width="110" height="64" rx="10" fill="#9ac7ea"/>
+    <rect x="164" y="48" width="72" height="44" rx="10" fill="#9ac7ea"/>
+    <rect x="260" y="40" width="110" height="56" rx="10" fill="#9ac7ea"/>
+    <path d="M40 150 H360 V196 Q200 212 40 196 Z" fill="#e6dfd0"/>
+    <rect x="70" y="160" width="60" height="30" rx="3" fill="#f3efe6"/>
+    <rect x="170" y="160" width="60" height="30" rx="3" fill="#f3efe6"/>
+    <rect x="270" y="160" width="60" height="30" rx="3" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.5">
+    <line x1="70" y1="170" x2="130" y2="170"/><line x1="70" y1="180" x2="130" y2="180"/>
+    <line x1="170" y1="170" x2="230" y2="170"/><line x1="170" y1="180" x2="230" y2="180"/>
+    <line x1="270" y1="170" x2="330" y2="170"/><line x1="270" y1="180" x2="330" y2="180"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M85 104 V144"/><path d="M200 96 V144"/><path d="M315 100 V144"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="85" y="66">finance</text><text x="85" y="82">large</text>
+    <text x="200" y="68">marketing</text><text x="200" y="82">small</text>
+    <text x="315" y="66">data science</text><text x="315" y="82">medium</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="24">compute: start, stop, pay per second</text>
+    <text x="257" y="128">same data</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">storage, shared once</text>
+</svg>

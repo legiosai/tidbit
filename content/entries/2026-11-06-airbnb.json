@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-airbnb",
+  "date": "2026-11-06",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Airbnb host", "Airbnb hosts"],
+    "es": ["anfitrión de Airbnb", "anfitriones de Airbnb"]
+  },
+  "image": "img/2026-11-06-airbnb.svg",
+  "imageAlt": {
+    "en": "A host lists a house on Airbnb and a traveler books it; the platform holds the payment, keeps a fee from each side and both leave reviews",
+    "es": "Una anfitriona publica una casa en Airbnb y un viajero la reserva; la plataforma retiene el pago, cobra una comisión a cada lado y los dos dejan reseñas"
+  },
+  "en": {
+    "title": "Airbnb",
+    "tagline": "A website and app where people rent out their homes, or a room, to travelers.",
+    "explanation": [
+      "**Airbnb** started in San Francisco in 2008, when Brian Chesky and Joe Gebbia, who could not afford their rent, put air mattresses on their living room floor and rented them to visitors in town for a conference. With Nathan Blecharczyk they turned the idea into a company. The name comes from that first offer: air bed and breakfast.",
+      "Like Uber, it owns almost nothing it rents out. It is a **marketplace**: hosts list a home, an apartment or a room, set a price and rules, and travelers search, book and pay through the platform. Airbnb holds the money until the guest checks in and charges service fees on the booking. Its real product is **trust between strangers**: identity checks, secure payments, and reviews that both guests and hosts write about each other after every stay.",
+      "It changed how many people travel, and also many cities. In popular neighborhoods, apartments that used to be rented to residents became short-term rentals for tourists, and critics link this to rising rents. Cities such as Barcelona, Amsterdam and New York have responded with registration rules, caps on the number of nights or outright limits. The company went public in 2020."
+    ],
+    "analogy": "A giant bulletin board where anyone can pin up \"room for rent\", backed by someone who checks IDs, holds the payment in an envelope and collects everyone's opinions afterwards.",
+    "keyPoints": [
+      "Founded in San Francisco in 2008; started with air mattresses on a living room floor.",
+      "A marketplace: hosts own the places, Airbnb runs the search, payments and reviews.",
+      "Makes money from service fees on each booking.",
+      "Many cities now regulate short-term rentals because of their effect on housing."
+    ],
+    "links": [
+      { "label": "About Airbnb (official newsroom)", "url": "https://news.airbnb.com/about-us/" },
+      { "label": "Airbnb on Wikipedia", "url": "https://en.wikipedia.org/wiki/Airbnb" }
+    ]
+  },
+  "es": {
+    "title": "Airbnb",
+    "tagline": "Un sitio y una app donde la gente le alquila su casa, o una habitación, a viajeros.",
+    "explanation": [
+      "**Airbnb** arrancó en San Francisco en 2008, cuando Brian Chesky y Joe Gebbia, que no llegaban a pagar el alquiler, pusieron colchones inflables en el piso del living y se los alquilaron a gente que venía a la ciudad por un congreso. Con Nathan Blecharczyk convirtieron la idea en empresa. El nombre sale de esa primera oferta: air bed and breakfast, colchón inflable y desayuno.",
+      "Como Uber, casi no es dueña de nada de lo que alquila. Es un **marketplace**: los anfitriones publican una casa, un departamento o una habitación, ponen precio y reglas, y los viajeros buscan, reservan y pagan a través de la plataforma. Airbnb retiene la plata hasta que el huésped llega y cobra comisiones de servicio sobre la reserva. Su verdadero producto es la **confianza entre desconocidos**: verificación de identidad, pagos seguros y reseñas que huéspedes y anfitriones escriben uno del otro después de cada estadía.",
+      "Cambió la forma de viajar de mucha gente, y también muchas ciudades. En barrios turísticos, departamentos que antes se alquilaban a vecinos pasaron a ser alquileres temporarios para turistas, y los críticos lo relacionan con la suba de los alquileres. Ciudades como Barcelona, Ámsterdam y Nueva York respondieron con registros obligatorios, topes de noches o directamente límites. La empresa salió a la bolsa en 2020."
+    ],
+    "analogy": "Una cartelera gigante donde cualquiera puede colgar \"se alquila pieza\", con alguien atrás que verifica documentos, guarda el pago en un sobre y después junta la opinión de todos.",
+    "keyPoints": [
+      "Nació en San Francisco en 2008, con colchones inflables en el piso de un living.",
+      "Un marketplace: los anfitriones son dueños de los lugares, Airbnb maneja búsqueda, pagos y reseñas.",
+      "Gana plata con comisiones de servicio sobre cada reserva.",
+      "Muchas ciudades hoy regulan los alquileres temporarios por su efecto en la vivienda."
+    ],
+    "links": [
+      { "label": "Sobre Airbnb (sala de prensa oficial, en inglés)", "url": "https://news.airbnb.com/about-us/" },
+      { "label": "Airbnb en Wikipedia", "url": "https://es.wikipedia.org/wiki/Airbnb" }
+    ]
+  }
+}

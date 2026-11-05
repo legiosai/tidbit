@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-05-online-scams",
+  "date": "2026-11-05",
+  "subjects": [
+    "security"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "online scam",
+      "scam",
+      "scams",
+      "scammer",
+      "scammers",
+      "online fraud",
+      "internet fraud"
+    ],
+    "es": [
+      "estafa online",
+      "estafa virtual",
+      "estafas virtuales",
+      "estafador",
+      "estafadores",
+      "fraude online",
+      "fraudes online"
+    ]
+  },
+  "image": "img/2026-11-05-online-scams.svg",
+  "imageAlt": {
+    "en": "A phone shows a message that says urgent, pay now; around it, three warning signs: urgency, an odd payment method and a deal too good to be true",
+    "es": "Un celular muestra un mensaje que dice urgente, pagá ya; alrededor, tres señales de alarma: el apuro, un medio de pago raro y una oferta demasiado buena"
+  },
+  "en": {
+    "title": "Online scams",
+    "tagline": "Tricks that use messages, sites and apps to get you to hand over money or data.",
+    "explanation": [
+      "An **online scam** is a lie told through a screen with one goal: getting you to send money, share a code or install something. The tools change, from email and fake websites to WhatsApp, marketplaces, social media and dating apps, but the story is usually one of a handful: a relative in trouble who needs a transfer, a package held at customs that needs a small fee, an investment or crypto opportunity with guaranteed returns, a job that pays for liking videos, a seller with an unbeatable price, or a romance that eventually needs money.",
+      "Phishing is one family, aimed at stealing passwords. Many scams skip that step and simply convince you to pay. They lean on the same levers as all social engineering: urgency, fear, greed, affection and authority. Generative AI has made them more convincing, with flawless text in any language, fake profiles with realistic photos and even deepfake voices of someone you know.",
+      "Almost every scam has at least one tell: pressure to act right now, a request for secrecy, payment by gift card, crypto or a transfer to a personal account, or an offer far better than normal. The defense is to slow down and verify through a channel you already trust: call the relative on their usual number, type the bank's address yourself, never share verification codes. If you were scammed, contact your bank right away and report it; speed matters for getting money back."
+    ],
+    "analogy": "The classic street con moved into your phone. The trick is as old as cons themselves; what changed is that now it can be tried on millions of people at once, for almost nothing.",
+    "keyPoints": [
+      "Scams aim for money or codes; phishing is the branch that steals passwords.",
+      "Red flags: urgency, secrecy, unusual payment methods, too-good offers.",
+      "Verify through a channel you already trust before paying anything.",
+      "If it happens, call your bank immediately and report it."
+    ],
+    "links": [
+      {
+        "label": "Internet fraud on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Internet_fraud"
+      },
+      {
+        "label": "FBI Internet Crime Complaint Center (IC3)",
+        "url": "https://www.ic3.gov/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Estafas online",
+    "tagline": "Engaños que usan mensajes, sitios y apps para que entregues plata o datos.",
+    "explanation": [
+      "Una **estafa online** es una mentira contada a través de una pantalla con un solo objetivo: que mandes plata, pases un código o instales algo. Las herramientas cambian, del mail y los sitios falsos a WhatsApp, los marketplaces, las redes sociales y las apps de citas, pero el cuento suele ser uno de un puñado: un familiar en apuros que necesita una transferencia, un paquete retenido en la aduana que pide un pago chiquito, una inversión o una oportunidad cripto con ganancia asegurada, un trabajo que paga por dar me gusta a videos, un vendedor con un precio imbatible o un romance que en algún momento necesita plata.",
+      "El phishing es una de las familias, la que apunta a robar contraseñas. Muchas estafas se saltean ese paso y directamente te convencen de pagar. Tiran de las mismas palancas que toda la ingeniería social: el apuro, el miedo, la codicia, el cariño y la autoridad. La IA generativa las volvió más creíbles, con textos sin errores en cualquier idioma, perfiles falsos con fotos realistas y hasta voces deepfake de alguien que conocés.",
+      "Casi toda estafa tiene al menos una señal: presión para actuar ya, pedido de que no le cuentes a nadie, pago con tarjetas de regalo, cripto o transferencia a una cuenta personal, o una oferta mucho mejor de lo normal. La defensa es frenar y verificar por un canal que ya conocés: llamá al familiar a su número de siempre, escribí vos la dirección del banco, nunca compartas códigos de verificación. Si te estafaron, comunicate con tu banco enseguida y hacé la denuncia; la velocidad importa para recuperar la plata."
+    ],
+    "analogy": "El cuento del tío de toda la vida, mudado al celular. El truco es tan viejo como los estafadores; lo que cambió es que ahora se puede probar con millones de personas a la vez, casi gratis.",
+    "keyPoints": [
+      "Las estafas buscan plata o códigos; el phishing es la rama que roba contraseñas.",
+      "Señales de alarma: apuro, secreto, medios de pago raros, ofertas demasiado buenas.",
+      "Verificá por un canal que ya conocés antes de pagar nada.",
+      "Si te pasa, llamá al banco de inmediato y hacé la denuncia."
+    ],
+    "links": [
+      {
+        "label": "INCIBE: ciberseguridad para la ciudadanía (Instituto Nacional de Ciberseguridad de España)",
+        "url": "https://www.incibe.es/ciudadania"
+      },
+      {
+        "label": "Estafa en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Estafa"
+      }
+    ]
+  }
+}

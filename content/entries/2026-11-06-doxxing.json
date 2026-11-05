@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-doxxing",
+  "date": "2026-11-06",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["doxing", "doxxed", "doxed", "dox", "doxx"],
+    "es": ["doxing", "doxeo", "doxear", "doxeado", "doxeada", "doxearon"]
+  },
+  "image": "img/2026-11-06-doxxing.svg",
+  "imageAlt": {
+    "en": "Scattered public crumbs, a username, a photo, a gym check-in and an old post, are pinned together into one profile with a home address on it",
+    "es": "Migas públicas sueltas, un nombre de usuario, una foto, un check-in en el gimnasio y un posteo viejo, se juntan en un solo perfil con una dirección de casa"
+  },
+  "en": {
+    "title": "Doxxing",
+    "tagline": "Digging up and publishing someone's private details, like home address, to target them.",
+    "explanation": [
+      "**Doxxing** is collecting private information about a person, such as their real name, home address, phone number, workplace or family members, and publishing it online without their consent, usually to scare, shame or harass them. The word comes from \"docs\", as in dropping someone's documents, and started in hacker circles in the 1990s.",
+      "Most of the time no hacking is involved. The information is assembled from crumbs that were each harmless on their own: a username reused on several sites, a photo whose background shows a street, a running app that maps the same route every morning, a public property record, an old post mentioning the kid's school. Data brokers that sell people's contact details make it even easier. Sometimes it is fed by a data breach.",
+      "The harm is real: online anger turns into people showing up at a door, calling an employer, or worse. In some places doxxing is a crime of its own; in others it falls under harassment or stalking laws. To make it harder: avoid reusing the same username for your public and private life, check what your photos and fitness apps reveal, keep your address off public profiles, and ask data broker sites to remove your listing where the law lets you."
+    ],
+    "analogy": "Someone collecting the scraps you threw away over the years, a receipt here, an envelope there, and taping them together on a public noticeboard with an arrow pointing to your front door.",
+    "keyPoints": [
+      "Publishing someone's private details without consent, usually to harass them.",
+      "Usually built from many small public crumbs, not a hack.",
+      "Reused usernames, photo backgrounds and fitness apps are common leaks.",
+      "A crime in some places, and covered by harassment laws in many others."
+    ],
+    "links": [
+      { "label": "Doxing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Doxing" },
+      { "label": "Surveillance Self-Defense (EFF)", "url": "https://ssd.eff.org/" }
+    ]
+  },
+  "es": {
+    "title": "Doxxing",
+    "tagline": "Rastrear y publicar datos privados de alguien, como dónde vive, para ir contra esa persona.",
+    "explanation": [
+      "El **doxxing** (o doxeo) es juntar información privada de una persona, como su nombre real, la dirección de su casa, su teléfono, dónde trabaja o quiénes son sus familiares, y publicarla en internet sin su consentimiento, casi siempre para asustarla, escracharla o acosarla. La palabra viene de \"docs\", de soltar los documentos de alguien, y nació en ambientes hackers en los años noventa.",
+      "La mayoría de las veces no hay ningún hackeo. La información se arma con migas que por separado eran inofensivas: un nombre de usuario repetido en varios sitios, una foto donde se ve la esquina de fondo, una app de running que marca el mismo recorrido todas las mañanas, un registro público de propiedades, un posteo viejo que menciona la escuela de los chicos. Los data brokers, empresas que venden datos de contacto de personas, lo facilitan todavía más. A veces lo alimenta una filtración de datos.",
+      "El daño es concreto: el enojo en redes se convierte en gente que aparece en tu puerta, llama a tu trabajo o algo peor. En algunos países el doxxing es un delito en sí mismo; en otros entra en las leyes de acoso u hostigamiento. Para hacerlo más difícil: no uses el mismo nombre de usuario para tu vida pública y la privada, fijate qué revelan tus fotos y tus apps de ejercicio, no pongas tu dirección en perfiles públicos y pedí que te borren de los sitios de data brokers donde la ley te lo permita."
+    ],
+    "analogy": "Alguien que junta los papelitos que fuiste tirando durante años, un ticket por acá, un sobre por allá, y los pega todos en una cartelera pública con una flecha que apunta a la puerta de tu casa.",
+    "keyPoints": [
+      "Publicar datos privados de alguien sin su consentimiento, casi siempre para acosarlo.",
+      "Suele armarse con muchas migas públicas, no con un hackeo.",
+      "Los usuarios repetidos, el fondo de las fotos y las apps de ejercicio delatan mucho.",
+      "Es delito en algunos países y en muchos otros lo cubren las leyes contra el acoso."
+    ],
+    "links": [
+      { "label": "Doxing en Wikipedia", "url": "https://es.wikipedia.org/wiki/Doxing" },
+      { "label": "Autodefensa contra la vigilancia (EFF)", "url": "https://ssd.eff.org/es" }
+    ]
+  }
+}

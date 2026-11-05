@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-ai-benchmark",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["AI benchmarks", "LLM benchmark", "LLM benchmarks"],
+    "es": ["benchmarks de IA", "AI benchmark", "benchmark de LLM", "benchmarks de LLMs"]
+  },
+  "image": "img/2026-11-06-ai-benchmark.svg",
+  "imageAlt": {
+    "en": "The same test sheet is given to three AI models, and each gets a score shown as a bar of a different length",
+    "es": "La misma hoja de examen se le toma a tres modelos de IA y cada uno saca un puntaje, dibujado como una barra de distinto largo"
+  },
+  "en": {
+    "title": "AI benchmark",
+    "tagline": "A standard test that AI models take so their skills can be compared with a score.",
+    "explanation": [
+      "An **AI benchmark** is a fixed set of tasks with known correct answers that you give to a model to measure how well it does. Every model takes the same test under the same rules, so the scores can be compared. When a company launches a model, the announcement almost always includes a table of benchmark results.",
+      "Each benchmark targets a skill. MMLU asks multiple-choice questions across dozens of school and university subjects. GPQA has graduate-level science questions written to be hard to look up. SWE-bench gives the model real bugs from open-source projects and checks whether its fix passes the tests. Others measure math, reading long documents or using a computer. A different style, like LMArena, skips the answer key: people compare two anonymous answers and vote for the better one.",
+      "Read the numbers with care. Benchmarks **saturate**: once top models score near 100%, the test stops telling them apart, and harder ones have to be invented. Test questions can leak into the training data, so a model may have seen the answers. And companies tend to report the tests where they look good. A benchmark score is a useful signal, but the best check is still trying the model on your own tasks."
+    ],
+    "analogy": "Like a standardized exam for students: everyone gets the same questions, so you can compare scores, but a high grade says more about passing that exam than about being good at the job.",
+    "keyPoints": [
+      "Same questions, same rules, comparable scores across models.",
+      "Each benchmark measures one skill: knowledge, math, coding, tool use.",
+      "Tests saturate and leak into training data, so new ones keep appearing.",
+      "Your own tasks are the benchmark that matters most for you."
+    ],
+    "links": [
+      { "label": "Language model benchmark on Wikipedia", "url": "https://en.wikipedia.org/wiki/Language_model_benchmark" },
+      { "label": "SWE-bench", "url": "https://www.swebench.com/" },
+      { "label": "HELM: Holistic Evaluation of Language Models (Stanford)", "url": "https://crfm.stanford.edu/helm/" }
+    ]
+  },
+  "es": {
+    "title": "Benchmark de IA",
+    "tagline": "Una prueba estándar que rinden los modelos de IA para comparar lo que saben hacer.",
+    "explanation": [
+      "Un **benchmark de IA** es un conjunto fijo de tareas con respuestas correctas conocidas que se le toma a un modelo para medir qué tan bien le va. Todos los modelos rinden la misma prueba con las mismas reglas, así los puntajes se pueden comparar. Cuando una empresa lanza un modelo, el anuncio casi siempre trae una tabla con resultados de benchmarks.",
+      "Cada benchmark apunta a una habilidad. MMLU hace preguntas de opción múltiple de decenas de materias de secundaria y universidad. GPQA tiene preguntas de ciencia de nivel de posgrado, pensadas para que no se puedan googlear. SWE-bench le da al modelo bugs reales de proyectos open source y revisa si su arreglo pasa los tests. Otros miden matemática, lectura de documentos largos o uso de una computadora. Un estilo distinto, como LMArena, no usa respuestas correctas: la gente compara dos respuestas anónimas y vota la mejor.",
+      "Hay que leer los números con cuidado. Los benchmarks se **saturan**: cuando los mejores modelos sacan cerca del 100%, la prueba ya no los distingue y hay que inventar otras más difíciles. Las preguntas se pueden filtrar en los datos de entrenamiento, así que un modelo puede haber visto las respuestas. Y las empresas tienden a mostrar las pruebas donde quedan bien. Un puntaje es una señal útil, pero el mejor control sigue siendo probar el modelo con tus propias tareas."
+    ],
+    "analogy": "Como un examen estandarizado para estudiantes: todos reciben las mismas preguntas y se pueden comparar las notas, pero sacarse un diez dice más de saber rendir ese examen que de ser bueno en el trabajo.",
+    "keyPoints": [
+      "Mismas preguntas, mismas reglas, puntajes comparables entre modelos.",
+      "Cada benchmark mide una habilidad: conocimiento, matemática, código, uso de herramientas.",
+      "Las pruebas se saturan y se filtran al entrenamiento, por eso aparecen nuevas todo el tiempo.",
+      "El benchmark que más te importa son tus propias tareas."
+    ],
+    "links": [
+      { "label": "Language model benchmark en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Language_model_benchmark" },
+      { "label": "SWE-bench (en inglés)", "url": "https://www.swebench.com/" },
+      { "label": "HELM: Holistic Evaluation of Language Models (Stanford, en inglés)", "url": "https://crfm.stanford.edu/helm/" }
+    ]
+  }
+}

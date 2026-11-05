@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M40 30 V186 H376"/>
+    <path d="M40 160 L60 150 L80 120 L100 150 L120 140 L140 128 L160 98 L180 128 L200 118 L220 106 L240 76 L260 106 L280 96"/>
+    <path d="M280 96 L300 84 L320 54 L340 84 L360 74" stroke-dasharray="6 5"/>
+    <path d="M40 166 L280 98" stroke-dasharray="2 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="80" cy="120" r="5" fill="#ffd166"/>
+    <circle cx="160" cy="98" r="5" fill="#ffd166"/>
+    <circle cx="240" cy="76" r="5" fill="#ffd166"/>
+    <circle cx="320" cy="54" r="5" fill="#9ac7ea"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="208" y="206">time →</text>
+    <text x="160" y="80">season peak</text>
+    <text x="150" y="160">trend</text>
+    <text x="330" y="36">forecast</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same thing, measured again and again</text>
+</svg>

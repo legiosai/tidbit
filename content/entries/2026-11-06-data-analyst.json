@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-06-data-analyst",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["data analysts"],
+    "es": ["analistas de datos", "data analyst", "data analysts"]
+  },
+  "image": "img/2026-11-06-data-analyst.svg",
+  "imageAlt": {
+    "en": "A question, why did sales drop in March, goes into a table of data, comes out as a bar chart with one low bar, and ends as a short answer",
+    "es": "Una pregunta, por qué bajaron las ventas en marzo, entra a una tabla de datos, sale como un gráfico de barras con una barra baja y termina en una respuesta corta"
+  },
+  "en": {
+    "title": "Data analyst",
+    "tagline": "The person who turns a business question into numbers, and the numbers into an answer.",
+    "explanation": [
+      "A **data analyst** takes a question someone in the business has, like \"why did sales drop in March?\" or \"which stores sell the most on weekends?\", finds the data that can answer it, and explains what the data says. The result is usually a chart, a short report or a dashboard, plus a plain-language conclusion.",
+      "The everyday toolkit is modest and powerful: spreadsheets, SQL to pull data out of databases, a business intelligence tool like Power BI, Tableau or Looker to build charts, and sometimes Python. Much of the time goes into steps nobody sees: understanding what each column really means, cleaning odd values and checking that the numbers match what finance reports.",
+      "It is often confused with data science. The line is blurry, but a data analyst mostly describes and explains what already happened, while a data scientist more often builds models that predict or automate. A good analyst is valuable less for fancy techniques than for asking the right follow-up question and saying clearly what the data does and does not show."
+    ],
+    "analogy": "A detective for numbers. Someone brings a case (\"we lost customers, why?\"), the analyst gathers clues from the records, rules out suspects and comes back with the most likely explanation and the evidence for it.",
+    "keyPoints": [
+      "Answers business questions with data, mostly about what already happened.",
+      "Typical tools: spreadsheets, SQL, BI tools, sometimes Python.",
+      "A big part of the job is understanding and cleaning the data before analyzing it.",
+      "Different from a data scientist, who more often builds predictive models."
+    ],
+    "links": [
+      { "label": "Data analysis on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_analysis" }
+    ]
+  },
+  "es": {
+    "title": "Analista de datos",
+    "tagline": "Quien convierte una pregunta del negocio en números, y los números en una respuesta.",
+    "explanation": [
+      "Un **analista de datos** (data analyst) toma una pregunta que tiene alguien del negocio, como \"¿por qué bajaron las ventas en marzo?\" o \"¿qué locales venden más los fines de semana?\", busca los datos que la pueden responder y explica qué dicen. El resultado suele ser un gráfico, un informe corto o un tablero, más una conclusión en palabras simples.",
+      "Las herramientas de todos los días son modestas y potentes: planillas de cálculo, SQL para sacar datos de las bases, una herramienta de business intelligence como Power BI, Tableau o Looker para armar gráficos, y a veces Python. Mucho del tiempo se va en pasos que nadie ve: entender qué significa de verdad cada columna, limpiar valores raros y chequear que los números coincidan con los que reporta finanzas.",
+      "Muchas veces se confunde con la ciencia de datos. El límite es difuso, pero un analista de datos sobre todo describe y explica lo que ya pasó, mientras que un científico de datos más a menudo arma modelos que predicen o automatizan. Un buen analista vale menos por las técnicas sofisticadas que por hacer la repregunta justa y decir con claridad qué muestran los datos y qué no."
+    ],
+    "analogy": "Un detective de los números. Alguien le trae un caso (\"perdimos clientes, ¿por qué?\"), el analista junta pistas en los registros, descarta sospechosos y vuelve con la explicación más probable y las pruebas que la sostienen.",
+    "keyPoints": [
+      "Responde preguntas del negocio con datos, sobre todo sobre lo que ya pasó.",
+      "Herramientas típicas: planillas, SQL, herramientas de BI, a veces Python.",
+      "Gran parte del trabajo es entender y limpiar los datos antes de analizarlos.",
+      "No es lo mismo que un científico de datos, que más seguido arma modelos predictivos."
+    ],
+    "links": [
+      { "label": "Análisis de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/An%C3%A1lisis_de_datos" },
+      { "label": "Data analysis en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Data_analysis" }
+    ]
+  }
+}

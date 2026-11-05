@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-kpi",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["KPIs", "key performance indicator", "key performance indicators"],
+    "es": ["KPIs", "indicador clave", "indicadores clave", "indicador clave de desempeño", "indicadores clave de desempeño"]
+  },
+  "image": "img/2026-11-05-kpi.svg",
+  "imageAlt": {
+    "en": "Many small numbers on the left funnel into three big gauges on the right, each with a target line",
+    "es": "Muchos números chicos a la izquierda se embudan en tres indicadores grandes a la derecha, cada uno con una línea de meta"
+  },
+  "en": {
+    "title": "KPI",
+    "tagline": "One of the few numbers a team agrees to watch to know if it is on track.",
+    "explanation": [
+      "A **KPI**, short for **key performance indicator**, is a measurable number chosen to show whether a team or company is reaching a goal. A store might track monthly sales and average ticket; a support team, how long customers wait for an answer; a hospital, average time in the emergency room. Out of all the things you could count, the KPIs are the handful you decide really matter.",
+      "A useful KPI has three parts: a precise definition (\"active customer\" means bought at least once in the last 30 days), a target (wait time under 2 minutes) and a time frame (per week). Without the definition, two departments will calculate it differently and argue about the result; without the target, nobody knows if the number is good or bad.",
+      "KPIs usually live on a dashboard and get reviewed at regular meetings. The classic trap is choosing what is easy to measure instead of what matters, or rewarding a number so hard that people game it: a call center judged only on call length learns to hang up quickly."
+    ],
+    "analogy": "Like a doctor's vital signs. A body has endless things you could measure, but pulse, temperature and blood pressure are the few checked every visit because they say a lot quickly.",
+    "keyPoints": [
+      "A small set of numbers tied to goals, not everything you can count.",
+      "Needs a precise definition, a target and a time frame.",
+      "Shared definitions keep teams from arriving with different totals.",
+      "A number that is rewarded too hard tends to get gamed."
+    ],
+    "links": [
+      { "label": "Performance indicator on Wikipedia", "url": "https://en.wikipedia.org/wiki/Performance_indicator" }
+    ]
+  },
+  "es": {
+    "title": "KPI",
+    "tagline": "Uno de los pocos números que un equipo acuerda mirar para saber si va bien.",
+    "explanation": [
+      "Un **KPI** (key performance indicator, o indicador clave de desempeño) es un número medible elegido para mostrar si un equipo o una empresa está llegando a un objetivo. Un comercio puede seguir las ventas del mes y el ticket promedio; un equipo de soporte, cuánto esperan los clientes una respuesta; un hospital, el tiempo promedio en la guardia. De todo lo que podrías contar, los KPIs son el puñado que decidís que importa de verdad.",
+      "Un KPI útil tiene tres partes: una definición precisa (\"cliente activo\" es el que compró al menos una vez en los últimos 30 días), una meta (espera de menos de 2 minutos) y un período (por semana). Sin la definición, dos áreas lo van a calcular distinto y se van a pelear por el resultado; sin la meta, nadie sabe si el número es bueno o malo.",
+      "Los KPIs suelen vivir en un dashboard y se revisan en reuniones periódicas. La trampa clásica es elegir lo que es fácil de medir en lugar de lo que importa, o premiar tanto un número que la gente lo empieza a manipular: un call center al que solo le miden la duración de las llamadas aprende a cortar rápido."
+    ],
+    "analogy": "Como los signos vitales en una consulta médica. En un cuerpo se pueden medir mil cosas, pero el pulso, la temperatura y la presión son lo que se chequea siempre porque dicen mucho en poco tiempo.",
+    "keyPoints": [
+      "Un grupo chico de números atados a objetivos, no todo lo que se pueda contar.",
+      "Necesita una definición precisa, una meta y un período.",
+      "Las definiciones compartidas evitan que cada área llegue con otro total.",
+      "Un número premiado de más tiende a manipularse."
+    ],
+    "links": [
+      { "label": "Indicador clave de rendimiento en Wikipedia", "url": "https://es.wikipedia.org/wiki/Indicador_clave_de_rendimiento" }
+    ]
+  }
+}

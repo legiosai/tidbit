@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="92" width="104" height="46" rx="6" fill="#e6dfd0"/>
+    <rect x="160" y="80" width="80" height="70" rx="12" fill="#ffd166"/>
+    <rect x="276" y="98" width="22" height="34" rx="3" fill="#9bd1b9"/>
+    <path d="M298 98 L322 80 V150 L298 132 Z" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M128 115 H154"/><path d="M148 111 l6 4 -6 4"/>
+    <path d="M244 115 H270"/><path d="M264 111 l6 4 -6 4"/>
+    <path d="M334 100 q10 15 0 30"/><path d="M346 92 q16 23 0 46"/><path d="M358 84 q22 31 0 62"/>
+  </g>
+  <text x="72" y="120" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">"turn left"</text>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="120">model</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="72" y="82">text</text><text x="320" y="172">voice</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">words in, sound out</text>
+</svg>

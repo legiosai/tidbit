@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-06-3d-printing",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["3D printer", "3D printers", "3D-printed", "additive manufacturing"],
+    "es": ["impresora 3D", "impresoras 3D", "3D printing", "manufactura aditiva", "fabricación aditiva"]
+  },
+  "image": "img/2026-11-06-3d-printing.svg",
+  "imageAlt": {
+    "en": "A 3D model on a screen is sliced into thin layers, and a nozzle melts plastic filament to build the object layer by layer on a flat bed",
+    "es": "Un modelo 3D en una pantalla se corta en capas finitas, y una boquilla derrite filamento de plástico para construir el objeto capa por capa sobre una cama plana"
+  },
+  "en": {
+    "title": "3D printing",
+    "tagline": "Making an object by stacking very thin layers of material, one on top of another.",
+    "explanation": [
+      "**3D printing** builds an object from a digital design by adding material in thin layers, each one a fraction of a millimeter thick, until the full shape appears. That is why it is also called **additive manufacturing**: instead of carving a block down (like a sculptor) or pouring into a mold, the printer only puts material where the object needs it.",
+      "The process starts with a 3D model, drawn in a design program or downloaded from a site that shares models. A program called a slicer cuts it into hundreds of horizontal layers and writes instructions for the printer. The most common home printers then melt a plastic thread, called filament, and trace each layer with a moving hot nozzle, like a very precise glue gun. Other types harden liquid resin with light for finer detail, or fuse metal powder with lasers for industrial parts.",
+      "Its strength is making one-off or custom pieces cheaply: a prototype before mass production, a replacement knob that is no longer sold, a hearing aid shaped to one person's ear, a dental aligner, a part for a rocket engine. Its weakness is speed. Printing a single object can take hours, so for making thousands of identical plastic pieces, a mold is still much faster and cheaper per unit."
+    ],
+    "analogy": "Like building a cake out of very thin crepes stacked one on top of another, each crepe cut to the exact shape of that slice of the cake. Stack enough of them and you get any shape you want, even ones a mold could never make.",
+    "keyPoints": [
+      "Builds objects layer by layer from a digital 3D model.",
+      "Home printers usually melt plastic filament; others use resin or metal powder.",
+      "Great for prototypes, spare parts and custom pieces.",
+      "Slow for mass production, where molds are still cheaper."
+    ],
+    "links": [
+      { "label": "3D printing on Wikipedia", "url": "https://en.wikipedia.org/wiki/3D_printing" }
+    ]
+  },
+  "es": {
+    "title": "Impresión 3D",
+    "tagline": "Fabricar un objeto apilando capas muy finas de material, una arriba de la otra.",
+    "explanation": [
+      "La **impresión 3D** construye un objeto a partir de un diseño digital agregando material en capas finitas, cada una de una fracción de milímetro, hasta que aparece la forma completa. Por eso también se la llama **manufactura aditiva**: en lugar de tallar un bloque (como un escultor) o volcar material en un molde, la impresora pone material solo donde el objeto lo necesita.",
+      "Todo empieza con un modelo 3D, dibujado en un programa de diseño o bajado de un sitio que comparte modelos. Un programa llamado slicer lo corta en cientos de capas horizontales y escribe las instrucciones para la impresora. Las impresoras hogareñas más comunes derriten un hilo de plástico, el filamento, y dibujan cada capa con una boquilla caliente que se mueve, como una pistola de silicona muy precisa. Otros tipos endurecen resina líquida con luz para lograr más detalle, o funden polvo de metal con láser para piezas industriales.",
+      "Su fuerte es fabricar piezas únicas o a medida sin que cueste una fortuna: un prototipo antes de producir en serie, una perilla de repuesto que ya no se vende, un audífono con la forma exacta de la oreja de una persona, una placa de ortodoncia, una pieza de un motor de cohete. Su punto débil es la velocidad. Imprimir un solo objeto puede llevar horas, así que para hacer miles de piezas de plástico iguales, un molde sigue siendo mucho más rápido y barato por unidad."
+    ],
+    "analogy": "Como armar una torta con panqueques finitos apilados uno arriba del otro, cada uno recortado con la forma exacta de esa rebanada de la torta. Con suficientes panqueques sale cualquier forma, incluso algunas que ningún molde podría hacer.",
+    "keyPoints": [
+      "Construye objetos capa por capa a partir de un modelo 3D digital.",
+      "Las impresoras hogareñas suelen derretir filamento de plástico; otras usan resina o polvo de metal.",
+      "Ideal para prototipos, repuestos y piezas a medida.",
+      "Es lenta para producir en serie, donde los moldes siguen siendo más baratos."
+    ],
+    "links": [
+      { "label": "Impresión 3D en Wikipedia", "url": "https://es.wikipedia.org/wiki/Impresi%C3%B3n_3D" },
+      { "label": "Impresora 3D en Wikipedia", "url": "https://es.wikipedia.org/wiki/Impresora_3D" }
+    ]
+  }
+}

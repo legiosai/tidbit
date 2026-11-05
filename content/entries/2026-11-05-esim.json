@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-esim",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["eSIMs", "embedded SIM", "virtual SIM"],
+    "es": ["eSIMs", "SIM virtual", "SIM integrada"]
+  },
+  "image": "img/2026-11-05-esim.svg",
+  "imageAlt": {
+    "en": "On the left, a plastic SIM card going into a phone tray; on the right, a phone that downloads its SIM profile from the carrier by scanning a QR code",
+    "es": "A la izquierda, una tarjeta SIM de plástico entrando en la bandeja de un celular; a la derecha, un celular que baja su perfil SIM de la operadora escaneando un código QR"
+  },
+  "en": {
+    "title": "eSIM",
+    "tagline": "A SIM card built into the phone, which you load by download instead of by hand.",
+    "explanation": [
+      "Every phone needs a **SIM** to join a mobile network: it holds the secret that proves to the carrier that this line is yours. For decades that was a small plastic card you pushed into a tray. An **eSIM** does the same job with a chip soldered inside the phone, and the line's details arrive as a downloadable profile.",
+      "To activate it, you scan a QR code the carrier gives you or follow the steps in its app. A single eSIM can store several profiles, so you can keep your local number and add a cheap data plan when you travel, without hunting for a shop at the airport. Many phones, tablets and smartwatches support it, and some recent iPhone models sold in the United States no longer have a tray at all.",
+      "Losing the physical card also removes a small risk: a thief cannot just pull it out and put it in another phone. The flip side is that moving to a new phone means transferring the profile through the phone's menus or asking the carrier, and that the same transfer process is a target for SIM swapping fraud if the carrier does not check who is asking."
+    ],
+    "analogy": "A plastic SIM is a physical key you carry on a keyring. An eSIM is a door with a keypad: the code is sent to you, and you can store the codes for several doors in the same place.",
+    "keyPoints": [
+      "An eSIM is a SIM built into the device; the line arrives as a downloadable profile.",
+      "It is usually activated by scanning a QR code or through the carrier's app.",
+      "One device can store several profiles, handy for travel data plans.",
+      "Changing phones means transferring the profile instead of moving a card."
+    ],
+    "links": [
+      { "label": "eSIM on Wikipedia", "url": "https://en.wikipedia.org/wiki/ESIM" },
+      { "label": "eSIM (GSMA, the mobile industry association)", "url": "https://www.gsma.com/solutions-and-impact/technologies/esim/" }
+    ]
+  },
+  "es": {
+    "title": "eSIM",
+    "tagline": "Una tarjeta SIM integrada en el celular, que se carga bajándola en vez de ponerla a mano.",
+    "explanation": [
+      "Todo celular necesita una **SIM** para entrar a la red móvil: guarda el secreto que le demuestra a la operadora que esa línea es tuya. Durante décadas fue una tarjetita de plástico que metías en una bandeja con un alfiler. Una **eSIM** hace el mismo trabajo con un componente soldado adentro del teléfono, y los datos de la línea llegan como un perfil que se descarga.",
+      "Para activarla escaneás un código QR que te da la operadora o seguís los pasos en su app. Una misma eSIM puede guardar varios perfiles, así que podés quedarte con tu número de siempre y sumar un plan de datos barato cuando viajás, sin salir a buscar un local en el aeropuerto. La soportan muchos celulares, tablets y relojes, y algunos iPhone recientes vendidos en Estados Unidos ya ni siquiera tienen bandeja.",
+      "Sin tarjeta física también desaparece un riesgo chico: un ladrón no puede sacarla y ponerla en otro teléfono. La contracara es que cambiar de celular implica transferir el perfil desde los menús o pedírselo a la operadora, y que ese mismo trámite es un blanco para el fraude de SIM swapping si la operadora no verifica bien quién lo pide."
+    ],
+    "analogy": "Una SIM de plástico es una llave física que llevás en el llavero. Una eSIM es una puerta con teclado: te mandan el código, y podés guardar los códigos de varias puertas en el mismo lugar.",
+    "keyPoints": [
+      "Una eSIM es una SIM integrada en el equipo; la línea llega como un perfil descargable.",
+      "Se suele activar escaneando un código QR o desde la app de la operadora.",
+      "Un mismo equipo puede guardar varios perfiles, útil para planes de datos de viaje.",
+      "Cambiar de celular significa transferir el perfil en vez de pasar una tarjeta."
+    ],
+    "links": [
+      { "label": "eSIM en Wikipedia", "url": "https://es.wikipedia.org/wiki/ESIM" },
+      { "label": "eSIM (GSMA, la asociación de la industria móvil, en inglés)", "url": "https://www.gsma.com/solutions-and-impact/technologies/esim/" }
+    ]
+  }
+}

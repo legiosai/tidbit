@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-observability",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["telemetry", "OpenTelemetry", "distributed tracing"],
+    "es": ["observability", "telemetría", "OpenTelemetry", "trazas distribuidas"]
+  },
+  "image": "img/2026-11-05-observability.svg",
+  "imageAlt": {
+    "en": "A running system emits three streams, logs, metrics and traces, which flow into one screen where an engineer can ask questions",
+    "es": "Un sistema en marcha emite tres flujos, logs, métricas y trazas, que llegan a una pantalla donde un ingeniero puede hacer preguntas"
+  },
+  "en": {
+    "title": "Observability",
+    "tagline": "Being able to tell what a running system is doing, and why, from what it emits.",
+    "explanation": [
+      "**Observability** is how well you can understand what is happening inside a running system just by looking at the data it sends out. With good observability, when users say checkout is slow you can find out which service, which request and which database query is to blame, without adding new code and redeploying first.",
+      "It rests on three kinds of signals. **Logs** are timestamped lines describing events (\"payment 4812 failed: card declined\"). **Metrics** are numbers measured over time, like requests per second, error rate or memory use. **Traces** follow a single request as it hops across many services, showing how long each step took. Together they are called **telemetry**.",
+      "Classic monitoring answers questions you thought of in advance: is the CPU above 90%? Observability aims to answer new ones, which matters in cloud systems made of dozens of microservices, where failures are often strange combinations nobody predicted. **OpenTelemetry** is the open standard most tools now use to collect these signals, and products like Amazon CloudWatch, Datadog or Grafana store and display them."
+    ],
+    "analogy": "A car's gauges tell you speed and fuel; a mechanic's diagnostic computer lets you ask why the engine stutters at 3,000 rpm. Monitoring is the gauges, observability is the diagnostic port.",
+    "keyPoints": [
+      "Understanding a system's inside from the data it emits.",
+      "Three signals: logs (events), metrics (numbers over time), traces (one request's path).",
+      "Monitoring checks known problems; observability helps with unknown ones.",
+      "OpenTelemetry is the common open standard for collecting telemetry."
+    ],
+    "links": [
+      { "label": "Observability primer (OpenTelemetry docs)", "url": "https://opentelemetry.io/docs/concepts/observability-primer/" },
+      { "label": "Observability (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Observability_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Observabilidad",
+    "tagline": "Poder saber qué está haciendo un sistema en marcha, y por qué, a partir de lo que emite.",
+    "explanation": [
+      "La **observabilidad** es qué tan bien podés entender lo que pasa adentro de un sistema en funcionamiento solo mirando los datos que va largando. Con buena observabilidad, cuando los usuarios dicen que el checkout anda lento, podés encontrar qué servicio, qué pedido y qué consulta a la base de datos tienen la culpa, sin tener que agregar código y volver a deployar primero.",
+      "Se apoya en tres tipos de señales. Los **logs** son líneas con fecha y hora que describen eventos (\"pago 4812 falló: tarjeta rechazada\"). Las **métricas** son números medidos en el tiempo, como pedidos por segundo, tasa de errores o uso de memoria. Las **trazas** siguen un único pedido mientras salta entre muchos servicios y muestran cuánto tardó cada paso. A todo eso junto se le dice **telemetría**.",
+      "El monitoreo clásico responde preguntas que pensaste de antemano: ¿la CPU pasó el 90%? La observabilidad apunta a responder preguntas nuevas, algo clave en sistemas cloud hechos de decenas de microservicios, donde las fallas suelen ser combinaciones raras que nadie previó. **OpenTelemetry** es el estándar abierto que hoy usan casi todas las herramientas para juntar estas señales, y productos como Amazon CloudWatch, Datadog o Grafana las guardan y las muestran."
+    ],
+    "analogy": "Los relojes del auto te dicen la velocidad y la nafta; la computadora de diagnóstico del mecánico te deja preguntar por qué el motor tironea a 3.000 vueltas. El monitoreo son los relojes; la observabilidad, el conector de diagnóstico.",
+    "keyPoints": [
+      "Entender el interior de un sistema a partir de los datos que emite.",
+      "Tres señales: logs (eventos), métricas (números en el tiempo), trazas (el recorrido de un pedido).",
+      "El monitoreo vigila problemas conocidos; la observabilidad ayuda con los desconocidos.",
+      "OpenTelemetry es el estándar abierto más común para juntar telemetría."
+    ],
+    "links": [
+      { "label": "Introducción a la observabilidad (documentación de OpenTelemetry)", "url": "https://opentelemetry.io/es/docs/concepts/observability-primer/" },
+      { "label": "Observability (software) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Observability_(software)" }
+    ]
+  }
+}

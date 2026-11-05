@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="76" width="84" height="52" rx="10" fill="#9bd1b9"/>
+    <rect x="158" y="76" width="84" height="52" rx="10" fill="#9bd1b9"/>
+    <rect x="286" y="76" width="84" height="52" rx="10" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M114 102 H154"/><path d="M148 98 l6 4 -6 4"/>
+    <path d="M242 102 H282"/><path d="M276 98 l6 4 -6 4"/>
+    <path d="M328 128 C328 186 200 186 200 134"/><path d="M196 140 l4 -6 4 6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="107">v1</text><text x="200" y="107">v2 ✓</text><text x="328" y="107">v3 ✗</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="62">last good</text><text x="328" y="62">errors spike</text><text x="72" y="62">older</text>
+    <text x="264" y="198">rollback</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">back to the version that worked</text>
+</svg>

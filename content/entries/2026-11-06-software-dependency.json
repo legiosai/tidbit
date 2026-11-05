@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-software-dependency",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["software dependencies", "transitive dependency", "transitive dependencies", "dependency hell", "lockfile", "lockfiles", "lock file"],
+    "es": ["dependencias de software", "dependencia transitiva", "dependencias transitivas", "infierno de dependencias", "lockfile", "lockfiles"]
+  },
+  "image": "img/2026-11-06-software-dependency.svg",
+  "imageAlt": {
+    "en": "A tree: my app depends directly on two packages, each of which depends on others, so one small package deep in the tree ends up inside the app too",
+    "es": "Un árbol: mi app depende directamente de dos paquetes, que a su vez dependen de otros, así que un paquete chiquito al fondo del árbol termina también dentro de la app"
+  },
+  "en": {
+    "title": "Software dependency",
+    "tagline": "Code written by someone else that your program needs in order to work.",
+    "explanation": [
+      "A **software dependency** is any outside piece of code your program relies on: a software library for dates, a framework for building web pages, a driver to talk to a database. Instead of writing everything from scratch, developers list the packages they need in a file (`package.json` in JavaScript, `requirements.txt` or `pyproject.toml` in Python, `go.mod` in Go) and a package manager downloads them.",
+      "Dependencies have dependencies of their own. Your app might use 20 packages directly, but those pull in others, and those pull in more: these are **transitive dependencies**, and a modern web app often ends up with hundreds or thousands. A **lockfile** records the exact version of every one of them, so the code that runs on a colleague's laptop and on the server is exactly the same.",
+      "This saves enormous amounts of work, and it also means trusting a lot of strangers. In 2016 a developer removed a tiny package called `left-pad` and broke builds around the world. In 2021 a flaw in Log4j, a logging library hidden inside countless Java programs, became one of the most serious vulnerabilities in years. In 2024 someone spent two years earning trust in the `xz` project before slipping in a backdoor. Teams now use tools like Dependabot to get alerts and updates, and pin versions using semantic versioning rules.",
+      "When versions clash (package A needs version 1 of something, package B needs version 2) developers call it **dependency hell**. Keeping the list short and up to date is part of the job."
+    ],
+    "analogy": "A recipe that says \"add a jar of store-bought pesto\". You save an hour, but now your dish depends on that brand's ingredients, and if they change the recipe or a batch is bad, so is your dinner.",
+    "keyPoints": [
+      "A dependency is outside code your program needs; a package manager installs it.",
+      "Transitive dependencies mean a few direct packages can pull in hundreds more.",
+      "Lockfiles pin exact versions so every machine runs the same code.",
+      "Each dependency is also a security and maintenance risk to keep an eye on."
+    ],
+    "links": [
+      { "label": "Dependabot (GitHub Docs)", "url": "https://docs.github.com/en/code-security/dependabot" },
+      { "label": "Dependency hell on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dependency_hell" }
+    ]
+  },
+  "es": {
+    "title": "Dependencia de software",
+    "tagline": "Código escrito por otra gente que tu programa necesita para funcionar.",
+    "explanation": [
+      "Una **dependencia de software** es cualquier pedazo de código externo del que depende tu programa: una biblioteca de software para manejar fechas, un framework para armar páginas web, un driver para hablar con una base de datos. En vez de escribir todo desde cero, quienes desarrollan anotan los paquetes que necesitan en un archivo (`package.json` en JavaScript, `requirements.txt` o `pyproject.toml` en Python, `go.mod` en Go) y un gestor de paquetes los descarga.",
+      "Las dependencias tienen sus propias dependencias. Tu app quizás usa 20 paquetes de forma directa, pero esos traen otros, y esos otros traen más: son las **dependencias transitivas**, y una app web moderna suele terminar con cientos o miles. Un **lockfile** registra la versión exacta de cada una, para que el código que corre en la compu de un compañero y en el servidor sea exactamente el mismo.",
+      "Esto ahorra una cantidad enorme de trabajo, y también implica confiar en un montón de desconocidos. En 2016 un desarrollador borró un paquete minúsculo llamado `left-pad` y rompió builds en todo el mundo. En 2021 una falla en Log4j, una biblioteca de logs escondida dentro de incontables programas en Java, fue una de las vulnerabilidades más graves en años. En 2024 alguien pasó dos años ganándose la confianza del proyecto `xz` antes de colar una puerta trasera. Hoy los equipos usan herramientas como Dependabot para recibir alertas y actualizaciones, y fijan versiones siguiendo las reglas del versionado semántico.",
+      "Cuando las versiones chocan (el paquete A necesita la versión 1 de algo y el paquete B, la versión 2) se habla de **infierno de dependencias**. Mantener la lista corta y al día es parte del trabajo."
+    ],
+    "analogy": "Una receta que dice \"agregá un frasco de pesto comprado\". Te ahorrás una hora, pero ahora tu plato depende de los ingredientes de esa marca, y si cambian la receta o sale un lote fallado, tu cena también sale mal.",
+    "keyPoints": [
+      "Una dependencia es código externo que tu programa necesita; la instala un gestor de paquetes.",
+      "Por las dependencias transitivas, unos pocos paquetes directos pueden traer cientos más.",
+      "El lockfile fija versiones exactas para que todas las máquinas corran el mismo código.",
+      "Cada dependencia también es un riesgo de seguridad y de mantenimiento a vigilar."
+    ],
+    "links": [
+      { "label": "Dependabot (documentación de GitHub)", "url": "https://docs.github.com/es/code-security/dependabot" },
+      { "label": "Dependency hell en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Dependency_hell" }
+    ]
+  }
+}

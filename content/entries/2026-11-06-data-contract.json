@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-data-contract",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["data contracts"],
+    "es": ["contratos de datos", "data contract", "data contracts"]
+  },
+  "image": "img/2026-11-06-data-contract.svg",
+  "imageAlt": {
+    "en": "A producer team and a consumer team connected through a signed document listing fields, types and a freshness promise, with a check that blocks a change that would break it",
+    "es": "Un equipo productor y un equipo consumidor conectados por un documento firmado con campos, tipos y una promesa de frescura, y un control que frena un cambio que lo rompería"
+  },
+  "en": {
+    "title": "Data contract",
+    "tagline": "A written, checkable promise about the shape and quality of data one team gives another.",
+    "explanation": [
+      "A **data contract** is an agreement between the team that produces some data (say, the engineers of the checkout app) and the teams that consume it (analysts, finance, a machine learning model). It spells out what the data will look like: which fields exist, their types, which ones can be empty, what values are allowed, how fresh the data will be and who to call when something goes wrong. Crucially, it is written as a file in code, usually YAML, so machines can check it.",
+      "It exists because of a very common accident. An app developer renames `customer_id` to `client_id` or changes prices from dollars to cents, which is a perfectly reasonable change for the app, and the next morning every revenue dashboard is broken. Nobody did anything wrong; the producer simply did not know who depended on that table. A contract makes the dependency explicit, and an automated check in CI/CD can block the change, or at least warn, before it ships.",
+      "Contracts are often versioned like APIs: compatible changes are fine, breaking ones need a new version and a migration period. They are a key idea in data mesh, where each domain team owns and publishes its data as a product. There are open specifications, such as the Open Data Contract Standard, and tools that validate them. The hard part is less the file than the habit: producers have to treat their data as something other people rely on."
+    ],
+    "analogy": "A supply agreement between a bakery and the café it delivers to: so many croissants, of this size, by 7 a.m. every day. If the bakery wants to change the recipe, it tells the café first instead of surprising it with baguettes.",
+    "keyPoints": [
+      "Spells out fields, types, allowed values, freshness and owner of a dataset.",
+      "Written as code, so automated checks can catch breaking changes before release.",
+      "Shifts responsibility for data quality toward the team that produces the data.",
+      "Central to data mesh and to treating data as a product."
+    ],
+    "links": [
+      { "label": "Data contract on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_contract" },
+      { "label": "Open Data Contract Standard (Bitol)", "url": "https://bitol-io.github.io/open-data-contract-standard/" }
+    ]
+  },
+  "es": {
+    "title": "Contrato de datos",
+    "tagline": "Una promesa escrita y verificable sobre la forma y la calidad de datos que se comparten.",
+    "explanation": [
+      "Un **contrato de datos** (data contract) es un acuerdo entre el equipo que produce ciertos datos (por ejemplo, los desarrolladores de la app de checkout) y los equipos que los consumen (analistas, finanzas, un modelo de machine learning). Deja por escrito cómo van a ser esos datos: qué campos hay, de qué tipo, cuáles pueden venir vacíos, qué valores se permiten, qué tan frescos van a estar y a quién llamar si algo sale mal. Y lo importante: se escribe como un archivo de código, casi siempre YAML, para que una máquina lo pueda verificar.",
+      "Existe por un accidente muy común. Alguien de la app le cambia el nombre a `customer_id` por `client_id`, o pasa los precios de pesos a centavos, un cambio totalmente razonable para la app, y a la mañana siguiente todos los tableros de facturación están rotos. Nadie hizo nada mal; el que producía los datos simplemente no sabía quién dependía de esa tabla. El contrato vuelve explícita esa dependencia, y un control automático en el CI/CD puede frenar el cambio, o al menos avisar, antes de que salga.",
+      "Los contratos suelen versionarse como las APIs: los cambios compatibles pasan, los que rompen algo necesitan una versión nueva y un período de migración. Son una idea central del data mesh, donde cada equipo de dominio es dueño de sus datos y los publica como un producto. Hay especificaciones abiertas, como el Open Data Contract Standard, y herramientas que los validan. Lo difícil no es tanto el archivo como el hábito: quien produce datos tiene que tratarlos como algo de lo que otros dependen."
+    ],
+    "analogy": "El acuerdo entre una panadería y el café al que le entrega: tantas medialunas, de este tamaño, antes de las 7 todos los días. Si la panadería quiere cambiar la receta, le avisa al café antes en lugar de sorprenderlo con baguettes.",
+    "keyPoints": [
+      "Deja por escrito campos, tipos, valores permitidos, frescura y responsable de un conjunto de datos.",
+      "Está escrito como código, así los controles automáticos detectan cambios que rompen antes de salir.",
+      "Pone la responsabilidad por la calidad del lado del equipo que produce los datos.",
+      "Es una pieza central del data mesh y de tratar los datos como un producto."
+    ],
+    "links": [
+      { "label": "Data contract en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Data_contract" },
+      { "label": "Open Data Contract Standard (Bitol, en inglés)", "url": "https://bitol-io.github.io/open-data-contract-standard/" }
+    ]
+  }
+}

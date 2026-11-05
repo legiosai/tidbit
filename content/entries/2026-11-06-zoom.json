@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-06-zoom",
+  "date": "2026-11-06",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Zoom Video Communications", "Zoom call", "Zoom calls", "Zoom meeting", "Zoom meetings"],
+    "es": ["Zoom Video Communications", "reunión de Zoom", "reuniones de Zoom", "llamada de Zoom", "llamadas de Zoom"]
+  },
+  "image": "img/2026-11-06-zoom.svg",
+  "imageAlt": {
+    "en": "Four people in different places send their video to Zoom's servers, which forward each stream to the others and show everyone in a grid",
+    "es": "Cuatro personas en lugares distintos mandan su video a los servidores de Zoom, que reenvían cada señal a los demás y muestran a todos en una grilla"
+  },
+  "en": {
+    "title": "Zoom",
+    "tagline": "A video meeting app, and the company behind it, that became a verb during the pandemic.",
+    "explanation": [
+      "**Zoom** is a video calling service made by an American company of the same name, founded in 2011 by Eric Yuan, an engineer who had worked on Cisco's WebEx video conferencing product. Its pitch was simple: meetings that just work, joined by clicking a link, with good quality even on a mediocre connection. It was popular with businesses, but the COVID-19 pandemic in 2020 made it part of everyday life: school classes, doctor's appointments, birthdays and family dinners moved to Zoom.",
+      "Behind a call, each participant's app compresses its camera and microphone into a stream and sends it to Zoom's servers in data centers around the world. Those servers forward the right streams to everyone else, often at lower quality for the small tiles and higher for whoever is speaking. That is how a laptop can show a grid of dozens of faces without having to receive every video at full resolution.",
+      "The sudden growth also exposed problems. Uninvited people joined unprotected meetings to disrupt them, a prank that got its own name, **Zoombombing**, and the company was criticized over its security and privacy claims. It responded with waiting rooms, passcodes on by default and end-to-end encryption as an option. Today it sells a family of products around meetings, such as phone systems, chat, webinars and AI assistants that summarize calls, and competes with Microsoft Teams and Google Meet."
+    ],
+    "analogy": "A switchboard operator for video: everyone calls one central number, and the operator plugs each voice and face through to everybody else in the room.",
+    "keyPoints": [
+      "Founded in 2011 by Eric Yuan, a former Cisco WebEx engineer.",
+      "Exploded during the 2020 pandemic, when classes and work went online.",
+      "Its servers forward each person's video stream to the other participants.",
+      "Zoombombing pushed it to add waiting rooms, passcodes and optional end-to-end encryption."
+    ],
+    "links": [
+      { "label": "Zoom (official site)", "url": "https://www.zoom.com/" },
+      { "label": "Zoom (company) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Zoom_Communications" }
+    ]
+  },
+  "es": {
+    "title": "Zoom",
+    "tagline": "Una app de videollamadas, y la empresa detrás, que durante la pandemia se volvió verbo.",
+    "explanation": [
+      "**Zoom** es un servicio de videollamadas de una empresa estadounidense con el mismo nombre, fundada en 2011 por Eric Yuan, un ingeniero que había trabajado en WebEx, el producto de videoconferencias de Cisco. La propuesta era simple: reuniones que funcionan y ya, a las que entrás con un clic en un link, con buena calidad aunque tu conexión sea mediocre. Era popular en empresas, pero la pandemia de COVID-19 en 2020 la metió en la vida cotidiana: clases, turnos médicos, cumpleaños y cenas familiares pasaron a hacerse por Zoom.",
+      "Detrás de una llamada, la app de cada participante comprime la cámara y el micrófono en un flujo de datos y lo manda a los servidores de Zoom, en centros de datos de todo el mundo. Esos servidores le reenvían a cada uno los flujos que necesita, muchas veces en baja calidad para los cuadraditos chicos y en alta para quien está hablando. Así una notebook puede mostrar una grilla con decenas de caras sin tener que recibir todos los videos en resolución completa.",
+      "El crecimiento de golpe también dejó ver problemas. Gente sin invitación se metía en reuniones sin protección para arruinarlas, una broma que hasta tuvo nombre propio, **Zoombombing**, y la empresa recibió críticas por lo que prometía en seguridad y privacidad. Respondió con salas de espera, contraseñas activadas por defecto y cifrado de extremo a extremo como opción. Hoy vende una familia de productos alrededor de las reuniones, como telefonía, chat, webinars y asistentes de IA que resumen llamadas, y compite con Microsoft Teams y Google Meet."
+    ],
+    "analogy": "Una operadora de conmutador pero de video: todos llaman a un número central y la operadora conecta la voz y la cara de cada uno con el resto de la sala.",
+    "keyPoints": [
+      "Fundada en 2011 por Eric Yuan, ex ingeniero de WebEx en Cisco.",
+      "Explotó con la pandemia de 2020, cuando las clases y el trabajo pasaron a ser online.",
+      "Sus servidores reenvían el video de cada persona al resto de los participantes.",
+      "El Zoombombing la llevó a sumar salas de espera, contraseñas y cifrado de extremo a extremo opcional."
+    ],
+    "links": [
+      { "label": "Zoom (sitio oficial)", "url": "https://www.zoom.com/es" },
+      { "label": "Zoom en Wikipedia", "url": "https://es.wikipedia.org/wiki/Zoom_Video_Communications" }
+    ]
+  }
+}

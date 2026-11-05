@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-nubank",
+  "date": "2026-11-06",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Nu Holdings"],
+    "es": ["Nu Holdings"]
+  },
+  "image": "img/2026-11-06-nubank.svg",
+  "imageAlt": {
+    "en": "A phone with a banking app replaces a bank branch with queues and paperwork; from the app you get a card, an account, transfers and loans",
+    "es": "Un teléfono con una app de banco reemplaza una sucursal con filas y papeles; desde la app sacás una tarjeta, una cuenta, transferencias y préstamos"
+  },
+  "en": {
+    "title": "Nubank",
+    "tagline": "A Brazilian bank that lives entirely in a phone app, with no branches.",
+    "explanation": [
+      "**Nubank** is a digital bank founded in São Paulo in 2013 by David Vélez, a Colombian, together with Cristina Junqueira and Edward Wible. It has no branches: you open an account, get a card and handle everything from an app. Its first product was a purple credit card with no annual fee, aimed at a country where banking was dominated by a few big banks known for high fees and slow service.",
+      "Being built as software rather than as a network of branches lets it run with far lower costs per customer. Sign-up takes minutes on a phone, support happens in chat, and decisions such as how much credit to give someone are made by models trained on data. From the card it grew into accounts, Pix instant transfers, personal loans, insurance and investments.",
+      "It became one of the largest digital banks in the world by number of customers, and expanded to Mexico and Colombia. The parent company, **Nu Holdings**, has been listed on the New York Stock Exchange since 2021. Nubank is the best-known example of the Latin American **fintech** wave: tech companies competing with traditional banks by making financial services simpler and cheaper to use."
+    ],
+    "analogy": "A bank that fits in your pocket: the branch, the teller and the queue are replaced by an app and a chat window that is open at 3 a.m.",
+    "keyPoints": [
+      "Founded in São Paulo in 2013; app only, no branches.",
+      "Started with a no-fee credit card, then added accounts, loans and investments.",
+      "Operates in Brazil, Mexico and Colombia.",
+      "Its parent, Nu Holdings, is listed on the New York Stock Exchange."
+    ],
+    "links": [
+      { "label": "Nubank (official site, in Portuguese)", "url": "https://nubank.com.br/" },
+      { "label": "Nubank on Wikipedia", "url": "https://en.wikipedia.org/wiki/Nubank" }
+    ]
+  },
+  "es": {
+    "title": "Nubank",
+    "tagline": "Un banco brasileño que vive entero en una app del teléfono, sin sucursales.",
+    "explanation": [
+      "**Nubank** es un banco digital fundado en São Paulo en 2013 por el colombiano David Vélez, junto con Cristina Junqueira y Edward Wible. No tiene sucursales: abrís la cuenta, sacás la tarjeta y hacés todo desde una app. Su primer producto fue una tarjeta de crédito violeta sin costo anual, en un país donde unos pocos bancos grandes dominaban el mercado y eran famosos por las comisiones altas y la atención lenta.",
+      "Estar construido como software y no como una red de sucursales le permite funcionar con costos mucho más bajos por cliente. Darse de alta lleva minutos desde el celular, la atención es por chat, y decisiones como cuánto crédito darle a alguien las toman modelos entrenados con datos. De la tarjeta pasó a cuentas, transferencias instantáneas por Pix, préstamos personales, seguros e inversiones.",
+      "Se convirtió en uno de los bancos digitales más grandes del mundo en cantidad de clientes y se expandió a México y Colombia. La empresa madre, **Nu Holdings**, cotiza en la Bolsa de Nueva York desde 2021. Nubank es el ejemplo más conocido de la ola **fintech** latinoamericana: empresas tecnológicas que compiten con los bancos tradicionales haciendo los servicios financieros más simples y baratos de usar."
+    ],
+    "analogy": "Un banco que entra en el bolsillo: la sucursal, el cajero de ventanilla y la fila se reemplazan por una app y un chat que atiende a las tres de la mañana.",
+    "keyPoints": [
+      "Fundado en São Paulo en 2013; solo app, sin sucursales.",
+      "Arrancó con una tarjeta de crédito sin costo anual y después sumó cuentas, préstamos e inversiones.",
+      "Opera en Brasil, México y Colombia.",
+      "Su empresa madre, Nu Holdings, cotiza en la Bolsa de Nueva York."
+    ],
+    "links": [
+      { "label": "Nu México (sitio oficial)", "url": "https://nu.com.mx/" },
+      { "label": "Nubank en Wikipedia", "url": "https://es.wikipedia.org/wiki/Nubank" }
+    ]
+  }
+}

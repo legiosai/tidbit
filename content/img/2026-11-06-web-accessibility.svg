@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="140" y="50" width="120" height="130" rx="10" fill="#f3efe6"/>
+    <rect x="140" y="50" width="120" height="20" rx="10" fill="#9ac7ea"/>
+    <rect x="152" y="80" width="96" height="44" rx="4" fill="#9bd1b9"/>
+    <rect x="152" y="140" width="60" height="26" rx="13" fill="#ffd166"/>
+    <rect x="22" y="36" width="96" height="44" rx="10" fill="#e6dfd0"/>
+    <rect x="22" y="146" width="96" height="44" rx="10" fill="#e6dfd0"/>
+    <rect x="282" y="36" width="96" height="44" rx="10" fill="#e6dfd0"/>
+    <rect x="282" y="146" width="96" height="44" rx="10" fill="#e6dfd0"/>
+    <rect x="296" y="168" width="68" height="14" rx="3" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M120 66 L138 76"/><path d="M120 168 L138 158"/>
+    <path d="M280 66 L262 76"/><path d="M280 168 L262 158"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="56">screen</text><text x="70" y="72">reader</text>
+    <text x="70" y="173">keyboard</text>
+    <text x="330" y="63">zoom 300%</text>
+    <text x="330" y="162">video</text>
+    <text x="182" y="158" font-size="12">Buy</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="100">alt="a nurse</text><text x="200" y="114">at work"</text>
+  </g>
+  <text x="330" y="179" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f3efe6">captions</text>
+  <text x="70" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">Tab, Enter</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one page · many ways in</text>
+</svg>

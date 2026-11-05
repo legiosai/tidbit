@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-java",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["JVM", "Java Virtual Machine", "Java language"],
+    "es": ["JVM", "máquina virtual de Java", "lenguaje Java"]
+  },
+  "image": "img/2026-11-05-java.svg",
+  "imageAlt": {
+    "en": "Java source code compiled once into bytecode, which then runs on a Java Virtual Machine on Windows, Linux and Mac",
+    "es": "Código fuente en Java compilado una vez a bytecode, que después corre sobre una máquina virtual de Java en Windows, Linux y Mac"
+  },
+  "en": {
+    "title": "Java",
+    "tagline": "A long-lived programming language behind many bank systems, big business apps and Android.",
+    "explanation": [
+      "**Java** is a programming language released by Sun Microsystems in 1995 and now owned by Oracle. Its big promise was \"write once, run anywhere\": instead of compiling a program for one specific operating system, Java compiles it into an intermediate format called bytecode, which runs on the **JVM** (Java Virtual Machine). Any computer with a JVM, whether Windows, Linux or Mac, can run the same program.",
+      "Java is strict and verbose compared to newer languages: you declare the type of everything and organize code in classes. That strictness is part of why large organizations trust it. Banks, airlines, insurers, governments and online stores run enormous systems written in Java, some of them for decades. It was also the original language for Android apps, and the JVM runs other languages like Kotlin and Scala.",
+      "It is not glamorous, but it is everywhere and still evolving: a new version comes out every six months, and some are designated long-term support releases that companies can rely on for years. Learning Java remains a common path into a programming job. Despite the similar name, it is unrelated to JavaScript."
+    ],
+    "analogy": "A universal power adapter. You build your appliance once, with a standard plug, and the adapter (the JVM) takes care of fitting it into whatever socket each country uses.",
+    "keyPoints": [
+      "Compiled into bytecode that runs on the JVM, on any operating system.",
+      "Widely used in banks, large companies and the backend of big systems.",
+      "Original language of Android; Kotlin also runs on the JVM.",
+      "Not related to JavaScript, despite the name."
+    ],
+    "links": [
+      { "label": "Learn Java (dev.java, official)", "url": "https://dev.java/learn/" },
+      { "label": "Java (programming language) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Java_(programming_language)" }
+    ]
+  },
+  "es": {
+    "title": "Java",
+    "tagline": "Un lenguaje veterano que mueve bancos, sistemas de grandes empresas y Android.",
+    "explanation": [
+      "**Java** es un lenguaje de programación que lanzó Sun Microsystems en 1995 y que hoy es de Oracle. Su gran promesa era \"escribilo una vez, correlo en cualquier lado\": en vez de compilar un programa para un sistema operativo específico, Java lo compila a un formato intermedio llamado bytecode, que corre sobre la **JVM** (máquina virtual de Java). Cualquier computadora que tenga una JVM, sea Windows, Linux o Mac, puede correr el mismo programa.",
+      "Java es estricto y verborrágico al lado de lenguajes más nuevos: declarás el tipo de todo y organizás el código en clases. Esa rigidez es parte de por qué las organizaciones grandes confían en él. Bancos, aerolíneas, aseguradoras, gobiernos y tiendas online tienen sistemas enormes escritos en Java, algunos desde hace décadas. También fue el lenguaje original de las apps de Android, y sobre la JVM corren otros lenguajes como Kotlin y Scala.",
+      "No es glamoroso, pero está en todos lados y sigue evolucionando: sale una versión nueva cada seis meses, y algunas se marcan como de soporte extendido para que las empresas se apoyen en ellas durante años. Aprender Java sigue siendo un camino habitual para conseguir un primer trabajo de programación. Pese al nombre parecido, no tiene nada que ver con JavaScript."
+    ],
+    "analogy": "Un adaptador universal de enchufes. Armás tu aparato una sola vez, con un enchufe estándar, y el adaptador (la JVM) se encarga de que entre en el tomacorriente de cada país.",
+    "keyPoints": [
+      "Se compila a bytecode que corre sobre la JVM, en cualquier sistema operativo.",
+      "Muy usado en bancos, grandes empresas y el backend de sistemas grandes.",
+      "Fue el lenguaje original de Android; Kotlin también corre sobre la JVM.",
+      "No tiene relación con JavaScript, por más que se llame parecido."
+    ],
+    "links": [
+      { "label": "Java en Wikipedia", "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programación)" },
+      { "label": "Aprendé Java (dev.java, oficial, en inglés)", "url": "https://dev.java/learn/" }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-06-smartphone",
+  "date": "2026-11-06",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["smartphones", "mobile phone", "mobile phones", "cell phone", "cell phones"],
+    "es": ["smartphones", "teléfono inteligente", "teléfonos inteligentes", "teléfono celular", "teléfonos celulares"]
+  },
+  "image": "img/2026-11-06-smartphone.svg",
+  "imageAlt": {
+    "en": "An opened-up phone showing its main parts: a touchscreen, a system on a chip, memory and storage, a battery, cameras, sensors and radios for cellular, Wi-Fi and Bluetooth",
+    "es": "Un teléfono abierto que muestra sus partes principales: pantalla táctil, sistema en un chip, memoria y almacenamiento, batería, cámaras, sensores y radios para red celular, Wi-Fi y Bluetooth"
+  },
+  "en": {
+    "title": "Smartphone",
+    "tagline": "A pocket computer that also makes phone calls.",
+    "explanation": [
+      "A **smartphone** is a full computer that fits in your hand. It has a processor, memory, storage and an operating system, just like a laptop, plus things a laptop rarely has: a cellular radio to connect to the mobile network anywhere, GPS, several cameras and a dozen sensors. Phone calls are now one of the least used things it does.",
+      "Inside, the heart is a system on a chip that holds the CPU, the GPU, an NPU for AI tasks and the modem. Around it sit the RAM and flash storage, a lithium-ion battery that takes up most of the space, a touchscreen, and radios for the cellular network, Wi-Fi, Bluetooth and NFC (for paying with your phone). Two operating systems dominate: Android, made by Google and used by many brands like Samsung and Xiaomi, and iOS, which only runs on Apple's iPhone.",
+      "The iPhone in 2007 set the shape almost every smartphone still has: a big touchscreen instead of a keyboard, and an app store to install new software. Today more than half the people on Earth own one, and for many it is their only computer and their only way onto the internet. That is why so much software is designed \"mobile first\", and why battery life, the camera and how long the maker sends updates are the things people compare most."
+    ],
+    "analogy": "A Swiss Army knife for daily life. Phone, camera, map, wallet, music player, flashlight and mailbox, all folded into one object that fits in a pocket, with each new app adding another blade.",
+    "keyPoints": [
+      "A full computer with a mobile network connection, GPS, cameras and sensors.",
+      "Built around a system on a chip, with a lithium-ion battery taking most of the space.",
+      "Android and iOS are the two dominant operating systems.",
+      "For many people it is their only computer and only way online."
+    ],
+    "links": [
+      { "label": "Smartphone on Wikipedia", "url": "https://en.wikipedia.org/wiki/Smartphone" }
+    ]
+  },
+  "es": {
+    "title": "Smartphone",
+    "tagline": "Una computadora de bolsillo que además hace llamadas.",
+    "explanation": [
+      "Un **smartphone** (teléfono inteligente) es una computadora completa que entra en la mano. Tiene procesador, memoria, almacenamiento y sistema operativo, igual que una notebook, y además cosas que una notebook casi nunca tiene: una radio para conectarse a la red celular desde cualquier lado, GPS, varias cámaras y una docena de sensores. Hoy las llamadas son de lo que menos se usa.",
+      "Por dentro, el corazón es un sistema en un chip que reúne el CPU, la GPU, una NPU para tareas de IA y el módem. Alrededor están la RAM y el almacenamiento flash, una batería de iones de litio que ocupa la mayor parte del espacio, una pantalla táctil, y radios para la red celular, el Wi-Fi, el Bluetooth y el NFC (para pagar con el teléfono). Dominan dos sistemas operativos: Android, hecho por Google y usado por muchas marcas como Samsung y Xiaomi, e iOS, que solo corre en el iPhone de Apple.",
+      "El iPhone de 2007 fijó la forma que casi todos los smartphones siguen teniendo: una pantalla táctil grande en lugar de un teclado, y una tienda de apps para instalar programas nuevos. Hoy más de la mitad de las personas del planeta tiene uno, y para muchas es su única computadora y su única forma de entrar a internet. Por eso tanto software se diseña pensando primero en el celular, y por eso la batería, la cámara y cuántos años de actualizaciones da la marca son lo que más se compara."
+    ],
+    "analogy": "Una navaja suiza para la vida diaria. Teléfono, cámara, mapa, billetera, reproductor de música, linterna y casilla de correo, todo plegado en un objeto que entra en el bolsillo, y cada app nueva suma otra hoja.",
+    "keyPoints": [
+      "Una computadora completa con red celular, GPS, cámaras y sensores.",
+      "Se arma alrededor de un sistema en un chip, y la batería de iones de litio ocupa casi todo el espacio.",
+      "Android e iOS son los dos sistemas operativos dominantes.",
+      "Para mucha gente es su única computadora y su única forma de conectarse."
+    ],
+    "links": [
+      { "label": "Teléfono inteligente en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tel%C3%A9fono_inteligente" },
+      { "label": "Smartphone en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Smartphone" }
+    ]
+  }
+}

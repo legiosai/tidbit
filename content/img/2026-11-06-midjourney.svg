@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="86" width="112" height="56" rx="8" fill="#e6dfd0"/>
+    <rect x="152" y="76" width="80" height="76" rx="10" fill="#9ac7ea"/>
+    <rect x="256" y="36" width="64" height="64" rx="4" fill="#9ac7ea"/>
+    <rect x="324" y="36" width="64" height="64" rx="4" fill="#ffd166"/>
+    <rect x="256" y="104" width="64" height="64" rx="4" fill="#9bd1b9"/>
+    <rect x="324" y="104" width="64" height="64" rx="4" fill="#f4a7a7"/>
+    <path d="M280 94 L283 60 H293 L296 94 Z" fill="#f3efe6"/>
+    <rect x="281" y="50" width="14" height="10" fill="#f3efe6"/>
+    <path d="M348 94 L351 60 H361 L364 94 Z" fill="#f3efe6"/>
+    <rect x="349" y="50" width="14" height="10" fill="#f3efe6"/>
+    <path d="M280 162 L283 128 H293 L296 162 Z" fill="#f3efe6"/>
+    <rect x="281" y="118" width="14" height="10" fill="#f3efe6"/>
+    <path d="M348 162 L351 128 H361 L364 162 Z" fill="#f3efe6"/>
+    <rect x="349" y="118" width="14" height="10" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M295 55 L312 48"/><path d="M281 55 L264 54"/>
+    <path d="M258 94 H318"/>
+    <path d="M363 55 L380 54"/><path d="M349 55 L332 48"/>
+    <path d="M326 94 H386"/>
+    <path d="M295 123 L312 116"/><path d="M281 123 L264 122"/>
+    <path d="M258 162 H318"/>
+    <path d="M363 123 L380 122"/><path d="M349 123 L332 116"/>
+    <path d="M326 162 H386"/>
+  </g>
+  <g fill="#2b2b2b">
+    <circle cx="166" cy="92" r="2"/><circle cx="180" cy="100" r="2"/><circle cx="172" cy="112" r="2"/><circle cx="188" cy="88" r="2"/>
+    <circle cx="164" cy="128" r="2"/><circle cx="182" cy="138" r="2"/><circle cx="176" cy="124" r="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M130 114 H146"/><path d="M140 110 l6 4 -6 4"/>
+    <path d="M234 102 H250"/><path d="M244 98 l6 4 -6 4"/>
+    <path d="M196 96 C206 104 206 120 218 128"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="108">lighthouse,</text><text x="72" y="124">storm, oil</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="72" y="76">prompt</text>
+    <text x="192" y="168">noise → image</text>
+    <text x="322" y="188">pick one, refine</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">words in · four pictures out</text>
+</svg>

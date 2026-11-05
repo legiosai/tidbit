@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <rect x="120" y="30" width="160" height="150" rx="12" fill="#e6dfd0" stroke="#2b2b2b" stroke-width="2"/>
+  <g fill="#f3efe6">
+    <rect x="121" y="96" width="158" height="8"/>
+    <rect x="176" y="31" width="8" height="148"/>
+    <rect x="236" y="31" width="8" height="148"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="70" width="56" height="96" rx="10" fill="#9ac7ea"/>
+    <rect x="324" y="70" width="56" height="96" rx="10" fill="#9bd1b9"/>
+    <circle cx="156" cy="136" r="8" fill="#9ac7ea"/>
+    <circle cx="214" cy="64" r="8" fill="#9bd1b9"/>
+    <circle cx="262" cy="150" r="6" fill="#f3efe6"/>
+    <circle cx="146" cy="58" r="6" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M163 130 C180 110 196 90 208 72" stroke-dasharray="5 4"/>
+    <path d="M80 118 H114"/><path d="M108 114 l6 4 -6 4"/>
+    <path d="M320 118 H286"/><path d="M292 114 l-6 4 6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="48" y="58">rider</text><text x="352" y="58">driver</text>
+    <text x="48" y="122" font-size="11">request</text><text x="352" y="122" font-size="11">accept</text>
+    <text x="200" y="22" font-size="11" fill="#6b6357">live map</text>
+    <text x="200" y="198">match + price</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">owns the app, not the cars · keeps a cut</text>
+</svg>

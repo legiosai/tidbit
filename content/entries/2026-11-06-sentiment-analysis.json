@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-sentiment-analysis",
+  "date": "2026-11-06",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["opinion mining"],
+    "es": ["sentiment analysis", "análisis de sentimientos", "minería de opiniones"]
+  },
+  "image": "img/2026-11-06-sentiment-analysis.svg",
+  "imageAlt": {
+    "en": "Three customer reviews pass through an AI model and come out tagged as positive, neutral or negative with matching faces",
+    "es": "Tres reseñas de clientes pasan por un modelo de IA y salen marcadas como positiva, neutral o negativa, con caritas que lo muestran"
+  },
+  "en": {
+    "title": "Sentiment analysis",
+    "tagline": "Software that reads text and tells whether the writer sounds happy, angry or neutral.",
+    "explanation": [
+      "**Sentiment analysis** is the use of software to read a piece of text and judge the feeling behind it: positive, negative or neutral, often with a score for how strong it is. \"Arrived fast and works great\" is positive; \"broke after two days\" is negative; \"it's a phone\" is neutral.",
+      "Companies use it because there is far too much text to read by hand. A brand can scan thousands of product reviews, social media posts or support chats each day and spot that complaints about delivery jumped this week. A call center can flag the conversations where a customer is getting angry. Finer versions look at sentiment per topic: the same review can love the camera and hate the battery.",
+      "Early systems counted happy and sad words, which failed on things like \"not bad at all\". Modern ones use machine learning, and today large language models read context much better. Sarcasm, irony, slang and mixed feelings are still hard, so results are best read as trends over many texts, not as a verdict on a single message."
+    ],
+    "analogy": "Like a friend who reads all the comments under your post and tells you the mood in one line: \"mostly happy, a few people annoyed about the price\".",
+    "keyPoints": [
+      "Labels text as positive, negative or neutral, often with a score.",
+      "Used on reviews, social media, surveys and customer support.",
+      "Sarcasm and mixed opinions are still easy to get wrong.",
+      "Most useful for spotting trends across many messages."
+    ],
+    "links": [
+      { "label": "What is sentiment analysis? (AWS)", "url": "https://aws.amazon.com/what-is/sentiment-analysis/" },
+      { "label": "Sentiment analysis on Wikipedia", "url": "https://en.wikipedia.org/wiki/Sentiment_analysis" }
+    ]
+  },
+  "es": {
+    "title": "Análisis de sentimiento",
+    "tagline": "Software que lee un texto y dice si quien lo escribió suena contento, enojado o neutral.",
+    "explanation": [
+      "El **análisis de sentimiento** es usar software para leer un texto y juzgar el sentimiento que hay detrás: positivo, negativo o neutral, muchas veces con un puntaje de qué tan fuerte es. \"Llegó rapidísimo y anda bárbaro\" es positivo; \"se rompió a los dos días\" es negativo; \"es un celular\" es neutral.",
+      "Las empresas lo usan porque hay demasiado texto para leerlo a mano. Una marca puede revisar miles de reseñas, posteos en redes o chats de soporte por día y darse cuenta de que esta semana se dispararon las quejas por el envío. Un call center puede marcar las conversaciones en las que el cliente se está enojando. Las versiones más finas miden el sentimiento por tema: la misma reseña puede amar la cámara y odiar la batería.",
+      "Los primeros sistemas contaban palabras alegres y tristes, y fallaban con cosas como \"nada mal\". Los actuales usan machine learning, y hoy los modelos de lenguaje grandes entienden el contexto mucho mejor. El sarcasmo, la ironía, el lunfardo y los sentimientos mezclados siguen costando, así que conviene leer los resultados como tendencias sobre muchos textos y no como un veredicto sobre un mensaje suelto."
+    ],
+    "analogy": "Como un amigo que lee todos los comentarios de tu posteo y te resume el clima en una línea: \"la mayoría contentos, algunos quejándose del precio\".",
+    "keyPoints": [
+      "Marca textos como positivos, negativos o neutrales, muchas veces con un puntaje.",
+      "Se usa en reseñas, redes sociales, encuestas y atención al cliente.",
+      "El sarcasmo y las opiniones mezcladas todavía lo confunden fácil.",
+      "Rinde más para ver tendencias en muchos mensajes."
+    ],
+    "links": [
+      { "label": "¿Qué es el análisis de sentimiento? (AWS)", "url": "https://aws.amazon.com/es/what-is/sentiment-analysis/" },
+      { "label": "Análisis de sentimiento en Wikipedia", "url": "https://es.wikipedia.org/wiki/An%C3%A1lisis_de_sentimiento" }
+    ]
+  }
+}

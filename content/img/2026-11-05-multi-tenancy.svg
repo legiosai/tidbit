@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M100 60 L200 24 L300 60 Z" fill="#e6dfd0"/>
+    <rect x="100" y="60" width="200" height="120" fill="#f3efe6"/>
+    <rect x="112" y="72" width="54" height="94" rx="6" fill="#9ac7ea"/>
+    <rect x="173" y="72" width="54" height="94" rx="6" fill="#9bd1b9"/>
+    <rect x="234" y="72" width="54" height="94" rx="6" fill="#f4a7a7"/>
+    <rect x="80" y="180" width="240" height="22" rx="4" fill="#ffd166"/>
+    <circle cx="139" cy="140" r="5" fill="#2b2b2b"/><circle cx="200" cy="140" r="5" fill="#2b2b2b"/><circle cx="261" cy="140" r="5" fill="#2b2b2b"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="139" y="100">A</text><text x="200" y="100">B</text><text x="261" y="100">C</text>
+    <text x="200" y="196">shared servers + database</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="139" y="118">tenant</text><text x="200" y="118">tenant</text><text x="261" y="118">tenant</text>
+    <text x="350" y="120">own lock</text><text x="350" y="134">each</text>
+  </g>
+  <path d="M320 126 H294" stroke="#6b6357" stroke-width="2" fill="none"/>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">one system · many customers · walls between them</text>
+</svg>

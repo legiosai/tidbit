@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-security-key",
+  "date": "2026-11-06",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["security keys", "hardware key", "hardware keys", "hardware security key", "hardware security keys", "physical security key", "YubiKey", "YubiKeys"],
+    "es": ["llaves de seguridad", "llave física", "llaves físicas", "llave de seguridad física", "YubiKey", "YubiKeys"]
+  },
+  "image": "img/2026-11-06-security-key.svg",
+  "imageAlt": {
+    "en": "A small USB key plugged into a laptop answers a challenge from the real bank site with a signature, while a fake look-alike site gets no answer",
+    "es": "Una llavecita USB enchufada en una notebook responde con una firma el desafío del sitio real del banco, mientras que un sitio falso parecido no recibe respuesta"
+  },
+  "en": {
+    "title": "Security key",
+    "tagline": "A small physical device you plug in or tap to prove it is really you logging in.",
+    "explanation": [
+      "A **security key** is a little gadget, about the size of a house key, that you use as a second step when you log in. You type your password, the site asks for the key, and you plug it into a USB port or hold it near your phone and touch it. The best-known brand is **YubiKey**, made by Yubico, but Google, Feitian and others sell them too.",
+      "Inside there is a tiny chip that holds a secret that never leaves the device. When you sign up, the key creates a separate key pair for that site and gives it only the public half. At each login the site sends a random challenge, the key signs it, and the site checks the signature. Nothing you could read aloud or type is ever shown, so there is no code to copy.",
+      "That is what makes it so hard to phish. The key also checks which website is asking, and it will only answer the real address it was registered with. A perfect copy of your bank's login page on a look-alike domain gets nothing. Security keys use the same FIDO2 and WebAuthn standards as passkeys; a key is basically a passkey that lives in a separate device instead of your phone."
+    ],
+    "analogy": "A house key that refuses to turn in any lock except your own front door, even if a burglar builds a perfect replica of the door.",
+    "keyPoints": [
+      "A second factor you physically hold: plug it in or tap it, and touch it to confirm.",
+      "Its secret never leaves the chip, and it only answers the real site, so phishing fails.",
+      "Works with the same FIDO2 and WebAuthn standards as passkeys.",
+      "Register a spare one: if you lose your only key, recovery can be slow."
+    ],
+    "links": [
+      { "label": "Security token on Wikipedia", "url": "https://en.wikipedia.org/wiki/Security_token" },
+      { "label": "FIDO Alliance: how FIDO works", "url": "https://fidoalliance.org/how-fido-works/" },
+      { "label": "YubiKey (Yubico)", "url": "https://www.yubico.com/" }
+    ]
+  },
+  "es": {
+    "title": "Llave de seguridad",
+    "tagline": "Un aparatito físico que enchufás o acercás para demostrar que sos vos el que entra.",
+    "explanation": [
+      "Una **llave de seguridad** es un dispositivo chiquito, del tamaño de una llave de tu casa, que usás como segundo paso al iniciar sesión. Escribís la contraseña, el sitio te pide la llave y la enchufás en un puerto USB o la acercás al teléfono y la tocás. La marca más conocida es **YubiKey**, de la empresa Yubico, pero también las venden Google, Feitian y otras.",
+      "Adentro tiene un chip que guarda un secreto que nunca sale del dispositivo. Cuando te registrás, la llave crea un par de claves propio para ese sitio y le da solo la mitad pública. En cada inicio de sesión el sitio manda un desafío al azar, la llave lo firma y el sitio verifica la firma. No hay nada que puedas leer en voz alta ni tipear, así que no hay ningún código para copiar.",
+      "Por eso es tan difícil hacerle phishing. La llave además mira qué sitio le está preguntando y solo le responde a la dirección real con la que se registró. Una copia perfecta de la página de tu banco en un dominio parecido no recibe nada. Las llaves de seguridad usan los mismos estándares FIDO2 y WebAuthn que las passkeys; una llave es, básicamente, una passkey que vive en un aparato aparte en lugar de en tu teléfono."
+    ],
+    "analogy": "Una llave de tu casa que se niega a girar en cualquier cerradura que no sea la de tu puerta, aunque un ladrón arme una réplica perfecta de la puerta.",
+    "keyPoints": [
+      "Un segundo factor que tenés en la mano: la enchufás o la acercás, y la tocás para confirmar.",
+      "Su secreto nunca sale del chip y solo le responde al sitio real, así que el phishing no funciona.",
+      "Usa los mismos estándares FIDO2 y WebAuthn que las passkeys.",
+      "Registrá una de repuesto: si perdés la única que tenés, recuperar la cuenta puede tardar."
+    ],
+    "links": [
+      { "label": "Token de seguridad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Token_de_seguridad" },
+      { "label": "FIDO Alliance: cómo funciona FIDO (en inglés)", "url": "https://fidoalliance.org/how-fido-works/" },
+      { "label": "YubiKey (Yubico, en inglés)", "url": "https://www.yubico.com/" }
+    ]
+  }
+}

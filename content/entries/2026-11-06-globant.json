@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-globant",
+  "date": "2026-11-06",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-06-globant.svg",
+  "imageAlt": {
+    "en": "A client company brings a project to a team of engineers and designers spread across offices in several countries, who build and deliver the software",
+    "es": "Una empresa cliente le lleva un proyecto a un equipo de ingenieros y diseñadores repartidos en oficinas de varios países, que construyen y entregan el software"
+  },
+  "en": {
+    "title": "Globant",
+    "tagline": "An Argentine-born company that builds software for other companies around the world.",
+    "explanation": [
+      "**Globant** was founded in Buenos Aires in 2003 by four friends: Martín Migoya, Guibert Englebienne, Martín Umaran and Néstor Nocetti. It does not sell an app of its own. It sells people and know-how: teams of developers, designers and consultants who build software for other companies, from airlines and banks to game studios and media groups.",
+      "The idea at the start was to take advantage of Argentina's engineering talent and time zone, close to the United States, to do work that American companies used to send to India. That model is called **nearshore** outsourcing. Over the years Globant opened offices across Latin America, and later in North America, Europe and Asia, and bought other firms to add skills such as design and data.",
+      "A typical project: a large company wants a new mobile app, a modernized online store or an AI feature, but lacks the people to build it. Globant assembles a team, works in short agile cycles with the client and charges for the time and the team. It was one of the first Latin American tech companies to list on the New York Stock Exchange, in 2014, and is often cited alongside Mercado Libre as a symbol of the region's tech industry."
+    ],
+    "analogy": "A construction firm you hire when you want a building but do not have architects or builders of your own. You bring the plot and the idea; they bring the crew and hand you the keys.",
+    "keyPoints": [
+      "Founded in Buenos Aires in 2003 by four co-founders.",
+      "Sells software development and consulting, not a product of its own.",
+      "Started as a nearshore alternative for US companies, then went global.",
+      "Listed on the New York Stock Exchange since 2014."
+    ],
+    "links": [
+      { "label": "Globant (official site)", "url": "https://www.globant.com/" },
+      { "label": "Globant on Wikipedia", "url": "https://en.wikipedia.org/wiki/Globant" }
+    ]
+  },
+  "es": {
+    "title": "Globant",
+    "tagline": "Una empresa nacida en Argentina que hace software para otras empresas de todo el mundo.",
+    "explanation": [
+      "**Globant** nació en Buenos Aires en 2003, fundada por cuatro amigos: Martín Migoya, Guibert Englebienne, Martín Umaran y Néstor Nocetti. No vende una app propia. Vende gente y conocimiento: equipos de desarrolladores, diseñadores y consultores que construyen software para otras empresas, desde aerolíneas y bancos hasta estudios de videojuegos y grupos de medios.",
+      "La idea al principio era aprovechar el talento de ingeniería argentino y un huso horario cercano al de Estados Unidos para hacer trabajos que las empresas estadounidenses mandaban a la India. Ese modelo se llama tercerización **nearshore**, cerca de casa. Con los años Globant abrió oficinas en toda Latinoamérica y después en Norteamérica, Europa y Asia, y compró otras empresas para sumar áreas como diseño y datos.",
+      "Un proyecto típico: una empresa grande quiere una app nueva, modernizar su tienda online o sumar una función con IA, pero no tiene gente para hacerlo. Globant arma un equipo, trabaja en ciclos cortos y ágiles junto al cliente y cobra por el tiempo y el equipo. Fue una de las primeras empresas tech latinoamericanas en cotizar en la Bolsa de Nueva York, en 2014, y suele nombrarse junto a Mercado Libre como símbolo de la industria tech de la región."
+    ],
+    "analogy": "Una constructora que contratás cuando querés un edificio pero no tenés arquitectos ni albañiles propios. Vos ponés el terreno y la idea; ellos ponen la cuadrilla y te entregan las llaves.",
+    "keyPoints": [
+      "Fundada en Buenos Aires en 2003 por cuatro socios.",
+      "Vende desarrollo de software y consultoría, no un producto propio.",
+      "Empezó como alternativa nearshore para empresas de Estados Unidos y después se hizo global.",
+      "Cotiza en la Bolsa de Nueva York desde 2014."
+    ],
+    "links": [
+      { "label": "Globant (sitio oficial)", "url": "https://www.globant.com/es" },
+      { "label": "Globant en Wikipedia", "url": "https://es.wikipedia.org/wiki/Globant" }
+    ]
+  }
+}

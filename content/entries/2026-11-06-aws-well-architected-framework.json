@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-aws-well-architected-framework",
+  "date": "2026-11-06",
+  "subjects": ["aws", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["Well-Architected Framework", "AWS Well-Architected", "Well-Architected review", "Well-Architected Tool"],
+    "es": ["Well-Architected Framework", "AWS Well-Architected", "Marco de AWS Well-Architected", "revisión Well-Architected", "Well-Architected Tool"]
+  },
+  "image": "img/2026-11-06-aws-well-architected-framework.svg",
+  "imageAlt": {
+    "en": "A building with a Well-Architected roof held up by six pillars: operations, security, reliability, performance, cost and sustainability",
+    "es": "Un edificio con un techo de Well-Architected sostenido por seis pilares: operaciones, seguridad, fiabilidad, rendimiento, costo y sostenibilidad"
+  },
+  "en": {
+    "title": "AWS Well-Architected Framework",
+    "tagline": "AWS's checklist of good practices for building systems in the cloud that hold up.",
+    "explanation": [
+      "The **AWS Well-Architected Framework** is a guide, written by AWS from thousands of customer reviews, that describes what a good cloud system looks like and which questions to ask about yours. It is not a product you switch on; it is a set of principles, best practices and questions such as \"how do you back up your data?\" or \"how do you know when something breaks?\".",
+      "It is organized in six **pillars**: operational excellence (running and improving the system day to day), security, reliability (recovering from failures), performance efficiency (using the right resources for the job), cost optimization, and sustainability (reducing the environmental impact). The pillars often pull against each other, like reliability against cost, and the framework helps make those trade-offs on purpose instead of by accident.",
+      "Teams use it in a **Well-Architected review**: they go through the questions for one workload, honestly, and end up with a list of risks ranked high and medium, plus an improvement plan. AWS offers the free Well-Architected Tool in the console to run these reviews, and \"lenses\" with extra questions for specific cases like serverless, machine learning or SaaS. It is also a common language: AWS partners, auditors and certifications all refer to it."
+    ],
+    "analogy": "A building inspector's checklist. It does not build the house for you, but walking through it room by room shows where the wiring, the plumbing or the budget will give you trouble later.",
+    "keyPoints": [
+      "Six pillars: operations, security, reliability, performance, cost and sustainability.",
+      "It is guidance and questions, not a service that changes your resources.",
+      "A review produces a list of risks and a plan to fix them.",
+      "The Well-Architected Tool in the AWS console is free to use."
+    ],
+    "links": [
+      { "label": "AWS Well-Architected Framework (official docs)", "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html" },
+      { "label": "AWS Well-Architected", "url": "https://aws.amazon.com/architecture/well-architected/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Well-Architected Framework",
+    "tagline": "La lista de buenas prácticas de AWS para armar sistemas en la nube que se sostengan.",
+    "explanation": [
+      "El **AWS Well-Architected Framework** (en la documentación en español, Marco de AWS Well-Architected) es una guía que AWS escribió a partir de miles de revisiones con clientes, y que describe cómo es un buen sistema en la nube y qué preguntas hacerte sobre el tuyo. No es un producto que se prende; es un conjunto de principios, buenas prácticas y preguntas como \"¿cómo hacés backup de tus datos?\" o \"¿cómo te enterás cuando algo se rompe?\".",
+      "Está organizado en seis **pilares**: excelencia operativa (operar y mejorar el sistema en el día a día), seguridad, fiabilidad (recuperarse de las fallas), eficiencia del rendimiento (usar los recursos adecuados para cada tarea), optimización de costos y sostenibilidad (bajar el impacto ambiental). Los pilares muchas veces tiran para lados opuestos, como fiabilidad contra costo, y el marco ayuda a tomar esas decisiones a propósito y no por accidente.",
+      "Los equipos lo usan en una **revisión Well-Architected**: recorren las preguntas para una carga de trabajo, con honestidad, y terminan con una lista de riesgos altos y medios y un plan de mejora. AWS ofrece gratis la Well-Architected Tool en la consola para hacer estas revisiones, y \"lentes\" con preguntas extra para casos puntuales como serverless, machine learning o SaaS. Además es un idioma común: los partners de AWS, los auditores y las certificaciones lo toman como referencia."
+    ],
+    "analogy": "La lista de control de un inspector de obra. No te construye la casa, pero recorrerla ambiente por ambiente te muestra dónde la instalación eléctrica, la plomería o el presupuesto te van a traer problemas más adelante.",
+    "keyPoints": [
+      "Seis pilares: operaciones, seguridad, fiabilidad, rendimiento, costo y sostenibilidad.",
+      "Son guías y preguntas, no un servicio que toca tus recursos.",
+      "Una revisión deja una lista de riesgos y un plan para resolverlos.",
+      "La Well-Architected Tool de la consola de AWS es gratuita."
+    ],
+    "links": [
+      { "label": "Marco de AWS Well-Architected (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/wellarchitected/latest/framework/welcome.html" },
+      { "label": "AWS Well-Architected", "url": "https://aws.amazon.com/es/architecture/well-architected/" }
+    ]
+  }
+}

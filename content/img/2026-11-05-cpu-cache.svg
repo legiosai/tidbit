@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="30" width="250" height="160" rx="12" fill="#e6dfd0"/>
+    <rect x="40" y="56" width="180" height="120" rx="10" fill="#9ac7ea"/>
+    <rect x="54" y="82" width="120" height="80" rx="8" fill="#9bd1b9"/>
+    <rect x="66" y="106" width="64" height="46" rx="6" fill="#ffd166"/>
+    <rect x="310" y="60" width="70" height="110" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="98" y="134">core</text>
+    <text x="152" y="100">L1</text>
+    <text x="198" y="74">L2</text>
+    <text x="248" y="50">L3</text>
+    <text x="345" y="120">RAM</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M276 115 H304"/><path d="M298 111 l6 4 -6 4"/>
+  </g>
+  <text x="345" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">far and slow</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">check L1, then L2, then L3, then RAM</text>
+</svg>

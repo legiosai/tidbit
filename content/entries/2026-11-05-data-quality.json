@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-data-quality",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data quality checks", "data quality tests"],
+    "es": ["calidad de los datos", "data quality", "controles de calidad de datos"]
+  },
+  "image": "img/2026-11-05-data-quality.svg",
+  "imageAlt": {
+    "en": "A small customer table next to a list of checks: valid, consistent, complete, unique, fresh; a row with an empty email and a duplicate row are flagged in pink, and their checks fail",
+    "es": "Una tabla chica de clientes junto a una lista de controles: válido, consistente, completo, único, al día; una fila sin mail y una fila duplicada quedan marcadas en rosa, y sus controles fallan"
+  },
+  "en": {
+    "title": "Data quality",
+    "tagline": "How far data can be trusted for the job it is used for.",
+    "explanation": [
+      "**Data quality** is the degree to which data is fit for its purpose: correct, complete and current enough that decisions built on it are sound. A customer table where a third of the emails are missing, the same person appears three times and half the addresses are from 2015 has poor quality, even if the database itself works perfectly.",
+      "It is usually broken into a few dimensions. **Completeness**: are required fields filled in? **Validity**: do values follow the rules, like a date that is a real date or an age that is not negative? **Uniqueness**: is each thing recorded once? **Consistency**: does the same fact match across systems? **Timeliness**: did today's data actually arrive today? **Accuracy**: does it match reality?",
+      "Teams protect quality with automated checks that run every time data moves through a pipeline: if yesterday's orders table suddenly has zero rows or a column full of nulls, the check fails and someone is alerted before a wrong number reaches a dashboard. Tools like dbt tests or Great Expectations do this. Fixing data downstream, through data cleaning, works, but fixing the form or system that produces the bad data is cheaper."
+    ],
+    "analogy": "Like the ingredients in a kitchen. The best chef and recipe still make a bad dish with spoiled milk, so good restaurants check deliveries at the door instead of tasting the plate at the end.",
+    "keyPoints": [
+      "Means data is fit for its use: correct, complete and current enough.",
+      "Common dimensions: completeness, validity, uniqueness, consistency, timeliness, accuracy.",
+      "Automated checks in pipelines catch problems before they reach reports.",
+      "Fixing the source beats cleaning the same errors again and again."
+    ],
+    "links": [
+      { "label": "Data quality on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_quality" }
+    ]
+  },
+  "es": {
+    "title": "Calidad de datos",
+    "tagline": "Hasta qué punto se puede confiar en los datos para lo que se los usa.",
+    "explanation": [
+      "La **calidad de datos** es qué tan aptos son los datos para su propósito: lo bastante correctos, completos y actualizados como para que las decisiones que se toman con ellos tengan sentido. Una tabla de clientes donde falta un tercio de los mails, la misma persona aparece tres veces y la mitad de las direcciones son de 2015 tiene mala calidad, aunque la base de datos en sí funcione perfecto.",
+      "Se suele dividir en algunas dimensiones. **Completitud**: ¿están cargados los campos obligatorios? **Validez**: ¿los valores respetan las reglas, como una fecha que sea una fecha real o una edad que no sea negativa? **Unicidad**: ¿cada cosa está registrada una sola vez? **Consistencia**: ¿el mismo dato coincide entre sistemas? **Oportunidad**: ¿los datos de hoy llegaron hoy? **Exactitud**: ¿coincide con la realidad?",
+      "Los equipos cuidan la calidad con controles automáticos que corren cada vez que los datos pasan por un pipeline: si la tabla de pedidos de ayer de repente tiene cero filas o una columna llena de nulos, el control falla y alguien recibe una alerta antes de que un número equivocado llegue a un dashboard. Herramientas como los tests de dbt o Great Expectations hacen esto. Arreglar los datos después, con limpieza de datos, sirve, pero arreglar el formulario o el sistema que genera los datos malos sale más barato."
+    ],
+    "analogy": "Como los ingredientes en una cocina. El mejor chef con la mejor receta igual hace un plato feo con leche cortada, por eso los buenos restaurantes revisan la mercadería en la puerta en vez de probar el plato al final.",
+    "keyPoints": [
+      "Quiere decir que los datos sirven para su uso: correctos, completos y al día.",
+      "Dimensiones típicas: completitud, validez, unicidad, consistencia, oportunidad, exactitud.",
+      "Los controles automáticos en los pipelines frenan los problemas antes de que lleguen a los reportes.",
+      "Arreglar el origen le gana a limpiar los mismos errores una y otra vez."
+    ],
+    "links": [
+      { "label": "Calidad de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Calidad_de_datos" }
+    ]
+  }
+}

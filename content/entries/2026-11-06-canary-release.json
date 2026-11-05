@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-canary-release",
+  "date": "2026-11-06",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["canary releases", "canary deployment", "canary deployments", "canary rollout"],
+    "es": ["canary releases", "canary deployment", "despliegue canario", "despliegues canarios", "lanzamiento canario"]
+  },
+  "image": "img/2026-11-06-canary-release.svg",
+  "imageAlt": {
+    "en": "A router sends 95% of users to the current version and 5% to the new one, watched over by a small canary",
+    "es": "Un router manda el 95% de los usuarios a la versión actual y el 5% a la nueva, vigilada por un canario"
+  },
+  "en": {
+    "title": "Canary release",
+    "tagline": "Releasing a new version to a small slice of users first, and widening only if it behaves.",
+    "explanation": [
+      "A **canary release** is a way to put a new version of software into production gradually. Instead of switching every user at once, you send a small share of the traffic, say 1% or 5%, to the new version while everyone else stays on the current one. Then you watch: error rates, response times, sign-ups, whatever tells you the system is healthy.",
+      "If the numbers look as good as the old version's, you widen the slice step by step, for example to 25%, then 50%, then everyone. If something goes wrong, you send all traffic back to the old version, and only a small group of users ever saw the problem. Many teams automate the whole loop: a tool shifts traffic on a schedule and rolls back on its own if a metric crosses a threshold. On AWS, CodeDeploy and Lambda can shift traffic this way; on Kubernetes, tools like Argo Rollouts and Flagger do it.",
+      "The name comes from the canaries miners once carried underground: the bird reacted to toxic gas before the people did, giving them time to get out. Compared with a blue-green deployment, which flips all traffic from one full environment to another, a canary limits how many people a bad release can hurt. The price is more complexity: two versions run at once, so they must be compatible with the same data, and you need good monitoring to know whether the canary is fine."
+    ],
+    "analogy": "A restaurant testing a new dish on a few tables before putting it on the menu. If those diners love it, it goes out to everyone; if they send it back, only a few tables noticed.",
+    "keyPoints": [
+      "A small share of real traffic goes to the new version first.",
+      "Metrics decide whether to widen the rollout or roll back.",
+      "A bad release only reaches a small group of users.",
+      "Both versions run at once, so they must work with the same data."
+    ],
+    "links": [
+      { "label": "Canary release (Martin Fowler)", "url": "https://martinfowler.com/bliki/CanaryRelease.html" },
+      { "label": "Canarying releases (Google SRE workbook)", "url": "https://sre.google/workbook/canarying-releases/" }
+    ]
+  },
+  "es": {
+    "title": "Canary release",
+    "tagline": "Lanzar una versión nueva primero a pocos usuarios y ampliar solo si anda bien.",
+    "explanation": [
+      "Un **canary release** (o despliegue canario) es una forma de poner en producción una versión nueva de un software de a poco. En vez de pasar a todos los usuarios de una, mandás una parte chica del tráfico, por ejemplo el 1% o el 5%, a la versión nueva, mientras el resto sigue en la actual. Y mirás: tasa de errores, tiempos de respuesta, registros, lo que te diga que el sistema está sano.",
+      "Si los números dan tan bien como los de la versión vieja, vas ampliando la porción de a pasos, por ejemplo al 25%, después al 50% y después a todos. Si algo sale mal, mandás todo el tráfico de vuelta a la versión vieja, y el problema solo lo vio un grupo chico de usuarios. Muchos equipos automatizan todo el ciclo: una herramienta va moviendo el tráfico según un cronograma y vuelve atrás sola si una métrica pasa un umbral. En AWS, CodeDeploy y Lambda pueden mover tráfico así; en Kubernetes lo hacen herramientas como Argo Rollouts y Flagger.",
+      "El nombre viene de los canarios que los mineros llevaban bajo tierra: el pájaro reaccionaba al gas tóxico antes que las personas y les daba tiempo de salir. Comparado con un blue-green deployment, que pasa todo el tráfico de un entorno completo a otro, el canario limita a cuánta gente puede afectar un lanzamiento fallado. El costo es más complejidad: hay dos versiones corriendo a la vez, así que tienen que ser compatibles con los mismos datos, y hace falta buen monitoreo para saber si el canario está bien."
+    ],
+    "analogy": "Un restaurante que prueba un plato nuevo en algunas mesas antes de sumarlo a la carta. Si a esos comensales les encanta, sale para todos; si lo devuelven, se enteraron unas pocas mesas.",
+    "keyPoints": [
+      "Una parte chica del tráfico real va primero a la versión nueva.",
+      "Las métricas deciden si se amplía el lanzamiento o se vuelve atrás.",
+      "Un lanzamiento fallado solo llega a un grupo chico de usuarios.",
+      "Las dos versiones corren a la vez, así que tienen que funcionar con los mismos datos."
+    ],
+    "links": [
+      { "label": "Canary release (Martin Fowler, en inglés)", "url": "https://martinfowler.com/bliki/CanaryRelease.html" },
+      { "label": "Canarying releases (libro de SRE de Google, en inglés)", "url": "https://sre.google/workbook/canarying-releases/" }
+    ]
+  }
+}

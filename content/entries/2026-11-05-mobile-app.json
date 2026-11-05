@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-mobile-app",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["mobile apps", "mobile application", "mobile applications", "phone app", "phone apps", "app store", "app stores", "native app", "native apps"],
+    "es": ["apps móviles", "aplicación móvil", "aplicaciones móviles", "app del celular", "apps del celular", "tienda de apps", "tiendas de apps", "tienda de aplicaciones", "app nativa", "apps nativas"]
+  },
+  "image": "img/2026-11-05-mobile-app.svg",
+  "imageAlt": {
+    "en": "A developer's app goes through review at an app store and then down to a phone, where it talks to a server over the internet",
+    "es": "La app de un desarrollador pasa por la revisión de una tienda de apps y baja a un celular, donde se comunica con un servidor por internet"
+  },
+  "en": {
+    "title": "Mobile app",
+    "tagline": "A program made to run on a phone or tablet, usually installed from an app store.",
+    "explanation": [
+      "A **mobile app** is a program built for a phone or tablet: your bank, WhatsApp, the maps, the camera. Unlike a website, it is installed on the device, so it can use the camera, GPS, notifications, Face ID or fingerprint, and keep working partly offline. Almost all phones run one of two operating systems, iOS (Apple) or Android (Google), and an app has to be built for each.",
+      "Apps reach your phone through an **app store**: Apple's App Store or Google Play, plus a few alternatives on Android. The developer uploads the app, the store reviews it against its rules, and then publishes it. Stores also handle payments and take a commission on purchases and subscriptions, which is why some apps send you to their website to pay.",
+      "Most apps are only the front of a bigger system. The app shows screens and reacts to your taps, but the data (your messages, your balance, your orders) lives on servers it talks to through an API. Teams build **native apps** in each platform's own language, Swift for iOS and Kotlin for Android, or use cross-platform frameworks like Flutter or React Native to write one codebase for both."
+    ],
+    "analogy": "A shop in a mall. The mall (the app store) decides who gets a space, sets the rules and takes a cut of sales; the shop itself is just the front counter, while the warehouse with the real stock (the server) is somewhere else.",
+    "keyPoints": [
+      "Built for iOS or Android, or both through a cross-platform framework.",
+      "Distributed through app stores that review it and take a commission.",
+      "Can use phone hardware: camera, GPS, notifications, biometrics.",
+      "Most of the data usually lives on a server, reached through an API."
+    ],
+    "links": [
+      { "label": "Mobile app on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mobile_app" },
+      { "label": "Android developer guides (official)", "url": "https://developer.android.com/guide" },
+      { "label": "App Store Review Guidelines (Apple)", "url": "https://developer.apple.com/app-store/review/guidelines/" }
+    ]
+  },
+  "es": {
+    "title": "App móvil",
+    "tagline": "Un programa hecho para correr en un celular o tablet, casi siempre bajado de una tienda.",
+    "explanation": [
+      "Una **app móvil** es un programa pensado para un celular o una tablet: la del banco, WhatsApp, los mapas, la cámara. A diferencia de un sitio web, se instala en el aparato, así que puede usar la cámara, el GPS, las notificaciones, Face ID o la huella, y seguir funcionando en parte sin conexión. Casi todos los celulares usan uno de dos sistemas operativos, iOS (de Apple) o Android (de Google), y una app tiene que estar hecha para cada uno.",
+      "Las apps llegan a tu celular a través de una **tienda de apps**: la App Store de Apple o Google Play, más algunas alternativas en Android. El desarrollador sube la app, la tienda la revisa según sus reglas y después la publica. Las tiendas también manejan los pagos y se quedan con una comisión de las compras y suscripciones, y por eso algunas apps te mandan a su sitio web para pagar.",
+      "La mayoría de las apps son solo la vidriera de un sistema más grande. La app muestra pantallas y reacciona a tus toques, pero los datos (tus mensajes, tu saldo, tus pedidos) viven en servidores con los que habla mediante una API. Los equipos arman **apps nativas** en el lenguaje propio de cada plataforma, Swift para iOS y Kotlin para Android, o usan frameworks multiplataforma como Flutter o React Native para escribir un solo código para las dos."
+    ],
+    "analogy": "Un local en un shopping. El shopping (la tienda de apps) decide quién entra, pone las reglas y se queda con una parte de las ventas; el local es solo el mostrador, y el depósito con la mercadería de verdad (el servidor) está en otro lado.",
+    "keyPoints": [
+      "Se hace para iOS o Android, o para los dos con un framework multiplataforma.",
+      "Se distribuye por tiendas que la revisan y cobran comisión.",
+      "Puede usar el hardware del celular: cámara, GPS, notificaciones, biometría.",
+      "Casi todos los datos suelen vivir en un servidor, al que llega por una API."
+    ],
+    "links": [
+      { "label": "Aplicación móvil en Wikipedia", "url": "https://es.wikipedia.org/wiki/Aplicación_móvil" },
+      { "label": "Guías para desarrolladores de Android (oficial)", "url": "https://developer.android.com/guide" },
+      { "label": "Pautas de revisión de la App Store (Apple, en inglés)", "url": "https://developer.apple.com/app-store/review/guidelines/" }
+    ]
+  }
+}

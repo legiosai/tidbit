@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-05-multi-tenancy",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["multitenancy", "multi-tenant", "multitenant", "single-tenant"],
+    "es": ["multitenancy", "multi-tenant", "multiinquilino", "tenencia múltiple", "single-tenant"]
+  },
+  "image": "img/2026-11-05-multi-tenancy.svg",
+  "imageAlt": {
+    "en": "One building with one shared foundation holds three apartments, each a different company with its own locked door",
+    "es": "Un edificio con una sola base compartida tiene tres departamentos, cada uno de una empresa distinta con su propia puerta con llave"
+  },
+  "en": {
+    "title": "Multi-tenancy",
+    "tagline": "One running system serving many customers, each seeing only its own data.",
+    "explanation": [
+      "**Multi-tenancy** is a design where a single installation of software, with its servers and databases, serves many customers at once. Each customer is a **tenant**. When a thousand companies use the same project management app, they are almost always on the same system, yet each one only sees its own projects and users.",
+      "It is what makes SaaS affordable: the provider runs and updates one system instead of a thousand, and spreads hardware costs across everyone. The cloud itself is multi-tenant too: your virtual machine may share a physical server with strangers' machines, kept apart by the hypervisor.",
+      "The hard part is isolation. Every query must be filtered by tenant, because one bug that forgets the filter can show one company's data to another. There is also the **noisy neighbor** problem: one tenant running a huge report can slow everyone down. Designs range from all tenants in shared tables with a `tenant_id` column, to a separate database per tenant, to a fully separate copy for big customers, which is called **single-tenant**."
+    ],
+    "analogy": "An apartment building. Everyone shares the foundation, the elevator and the water pipes, which keeps rent low, but each apartment has its own lock. A loud party upstairs is the noisy neighbor.",
+    "keyPoints": [
+      "One system, many customers (tenants), each isolated from the others.",
+      "Shared infrastructure is what makes SaaS and the cloud cheap to run.",
+      "A missing tenant filter can leak data between customers.",
+      "Isolation can be a column, a separate database or a separate deployment."
+    ],
+    "links": [
+      { "label": "Multitenancy on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multitenancy" }
+    ]
+  },
+  "es": {
+    "title": "Multi-tenancy",
+    "tagline": "Un mismo sistema atendiendo a muchos clientes, y cada uno ve solo sus datos.",
+    "explanation": [
+      "El **multi-tenancy** (o arquitectura multiinquilino) es un diseño en el que una sola instalación de un software, con sus servidores y bases de datos, atiende a muchos clientes a la vez. Cada cliente es un **tenant** (inquilino). Cuando mil empresas usan la misma app de gestión de proyectos, casi siempre están en el mismo sistema, pero cada una ve solo sus proyectos y sus usuarios.",
+      "Es lo que hace que el SaaS sea accesible: el proveedor opera y actualiza un sistema en lugar de mil, y reparte el costo del hardware entre todos. La nube en sí también es multi-tenant: tu máquina virtual puede compartir un servidor físico con máquinas de desconocidos, separadas por el hypervisor.",
+      "Lo difícil es el aislamiento. Cada consulta tiene que filtrar por tenant, porque un solo bug que se olvide el filtro puede mostrarle los datos de una empresa a otra. También está el problema del **vecino ruidoso** (noisy neighbor): un tenant que corre un reporte enorme puede hacer más lento a todos. Los diseños van desde todos los tenants en las mismas tablas con una columna `tenant_id`, a una base de datos por tenant, hasta una copia completa aparte para clientes grandes, lo que se llama **single-tenant**."
+    ],
+    "analogy": "Un edificio de departamentos. Todos comparten los cimientos, el ascensor y las cañerías, y por eso el alquiler sale menos, pero cada depto tiene su propia llave. La fiesta ruidosa del piso de arriba es el vecino ruidoso.",
+    "keyPoints": [
+      "Un sistema, muchos clientes (tenants), cada uno aislado de los demás.",
+      "La infraestructura compartida es lo que abarata el SaaS y la nube.",
+      "Un filtro por tenant olvidado puede filtrar datos entre clientes.",
+      "El aislamiento puede ser una columna, una base aparte o un despliegue aparte."
+    ],
+    "links": [
+      { "label": "Tenencia múltiple en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tenencia_m%C3%BAltiple" }
+    ]
+  }
+}

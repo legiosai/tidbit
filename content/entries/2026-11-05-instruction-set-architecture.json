@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-instruction-set-architecture",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 3,
+  "aliases": {
+    "en": ["instruction set architectures", "instruction set", "instruction sets", "ISA", "ISAs", "x86", "x86-64", "AMD64", "RISC-V", "RISC", "CISC"],
+    "es": ["arquitectura de conjunto de instrucciones", "arquitecturas de conjunto de instrucciones", "conjuntos de instrucciones", "juego de instrucciones", "ISA", "x86", "x86-64", "AMD64", "RISC-V", "RISC", "CISC"]
+  },
+  "image": "img/2026-11-05-instruction-set-architecture.svg",
+  "imageAlt": {
+    "en": "The same line of code compiled into three different instruction sets, x86, ARM and RISC-V, each understood only by its own family of chips",
+    "es": "La misma línea de código compilada a tres conjuntos de instrucciones distintos, x86, ARM y RISC-V, cada uno entendido solo por su familia de chips"
+  },
+  "en": {
+    "title": "Instruction set architecture",
+    "tagline": "The vocabulary of basic commands a processor understands, like x86, ARM or RISC-V.",
+    "explanation": [
+      "A CPU does not understand Python or JavaScript. It understands a fixed list of very small commands: add these two numbers, load this value from memory, jump to that step if the result was zero. That list, plus the rules for how each command is encoded in bits, which registers exist and how memory is addressed, is the **instruction set architecture**, or **ISA**. It is a contract: software compiled for an ISA runs on any chip that implements it, whoever made the chip and however it works inside.",
+      "Three ISAs matter today. **x86** (in its 64-bit form, **x86-64**) comes from Intel and AMD and has run most PCs and servers since the 1980s; it carries decades of backward compatibility and complex, variable-length instructions, a style called **CISC**. The **ARM architecture** follows the **RISC** idea: fewer, simpler, fixed-size instructions that are easier to execute efficiently. Arm licenses it, and it powers nearly every phone, Apple silicon Macs and a growing share of cloud servers. **RISC-V** is a newer RISC design that is an open standard: anyone can build a chip with it without paying a license, which has made it popular in microcontrollers, research and countries seeking independence from foreign IP.",
+      "The ISA is why a program is \"for\" a platform. An app compiled for x86 cannot run directly on an ARM chip; it has to be recompiled, or translated on the fly by something like Apple's Rosetta 2, at some cost. The old idea that RISC means efficient and CISC means fast has blurred: modern x86 chips translate their instructions into simpler internal ones, and modern ARM chips are very fast. Today the differences come more from the specific chip design, the manufacturing process and the software ecosystem than from the ISA alone."
+    ],
+    "analogy": "A language versus the people who speak it. The ISA is the language: its words and grammar. Each chip is a different speaker who may talk faster or slower, but any text written in that language will be understood by all of them, and by nobody who speaks a different one.",
+    "keyPoints": [
+      "The ISA is the contract between software and processor: which instructions exist and how they are encoded.",
+      "x86 dominates PCs and servers; ARM dominates phones and is growing in laptops and cloud.",
+      "RISC-V is an open, royalty-free ISA that anyone can implement.",
+      "Software must be compiled or translated for each ISA it runs on."
+    ],
+    "links": [
+      { "label": "Instruction set architecture on Wikipedia", "url": "https://en.wikipedia.org/wiki/Instruction_set_architecture" },
+      { "label": "RISC-V on Wikipedia", "url": "https://en.wikipedia.org/wiki/RISC-V" },
+      { "label": "RISC-V International (official site)", "url": "https://riscv.org/" }
+    ]
+  },
+  "es": {
+    "title": "Conjunto de instrucciones",
+    "tagline": "El vocabulario de órdenes básicas que entiende un procesador, como x86, ARM o RISC-V.",
+    "explanation": [
+      "Una CPU no entiende Python ni JavaScript. Entiende una lista fija de órdenes muy chiquitas: sumá estos dos números, traé este valor de la memoria, saltá a tal paso si el resultado dio cero. Esa lista, más las reglas de cómo se codifica cada orden en bits, qué registros existen y cómo se direcciona la memoria, es el **conjunto de instrucciones** (o arquitectura de conjunto de instrucciones), la **ISA** por sus siglas en inglés. Es un contrato: el software compilado para una ISA corre en cualquier chip que la implemente, sin importar quién lo fabricó ni cómo funciona por dentro.",
+      "Hoy importan tres. **x86** (en su versión de 64 bits, **x86-64**) viene de Intel y AMD y mueve la mayoría de las PCs y servidores desde los años 80; arrastra décadas de compatibilidad hacia atrás e instrucciones complejas y de largo variable, un estilo llamado **CISC**. La **arquitectura ARM** sigue la idea **RISC**: menos instrucciones, más simples y de tamaño fijo, más fáciles de ejecutar con eficiencia. La licencia Arm, y está en casi todos los celulares, en las Mac con Apple silicon y en una parte creciente de los servidores en la nube. **RISC-V** es un diseño RISC más nuevo y es un estándar abierto: cualquiera puede hacer un chip con él sin pagar licencia, y por eso se volvió popular en microcontroladores, investigación y países que buscan no depender de propiedad intelectual extranjera.",
+      "La ISA es la razón por la que un programa es \"para\" una plataforma. Una app compilada para x86 no corre directo en un chip ARM: hay que recompilarla, o traducirla al vuelo con algo como Rosetta 2 de Apple, con algún costo. La vieja idea de que RISC es eficiente y CISC es rápido se fue desdibujando: los x86 modernos traducen sus instrucciones a otras internas más simples, y los ARM modernos son muy rápidos. Hoy las diferencias vienen más del diseño concreto del chip, del proceso de fabricación y del ecosistema de software que de la ISA sola."
+    ],
+    "analogy": "Un idioma y la gente que lo habla. La ISA es el idioma: sus palabras y su gramática. Cada chip es un hablante distinto, que puede hablar más rápido o más lento, pero cualquier texto escrito en ese idioma lo van a entender todos, y nadie que hable otro.",
+    "keyPoints": [
+      "La ISA es el contrato entre el software y el procesador: qué instrucciones hay y cómo se codifican.",
+      "x86 domina PCs y servidores; ARM domina los celulares y crece en notebooks y nube.",
+      "RISC-V es una ISA abierta y sin regalías que cualquiera puede implementar.",
+      "El software se tiene que compilar o traducir para cada ISA donde corre."
+    ],
+    "links": [
+      { "label": "Conjunto de instrucciones en Wikipedia", "url": "https://es.wikipedia.org/wiki/Conjunto_de_instrucciones" },
+      { "label": "RISC-V en Wikipedia", "url": "https://es.wikipedia.org/wiki/RISC-V" },
+      { "label": "RISC-V International (sitio oficial, en inglés)", "url": "https://riscv.org/" }
+    ]
+  }
+}

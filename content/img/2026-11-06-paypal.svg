@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="56" cy="74" r="18" fill="#9ac7ea"/>
+    <path d="M28 124 C28 98 84 98 84 124 Z" fill="#9ac7ea"/>
+    <rect x="24" y="150" width="64" height="40" rx="6" fill="#e6dfd0"/>
+    <path d="M24 162 H88"/>
+    <rect x="146" y="60" width="108" height="96" rx="12" fill="#ffd166"/>
+    <rect x="154" y="86" width="92" height="18" rx="4" fill="#f3efe6"/>
+    <rect x="154" y="112" width="92" height="18" rx="4" fill="#f3efe6"/>
+    <rect x="300" y="72" width="80" height="70" rx="8" fill="#9bd1b9"/>
+    <path d="M300 92 H380"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 100 H140"/><path d="M134 96 l6 4 -6 4"/>
+    <path d="M180 158 C164 178 124 178 94 172"/><path d="M100 168 l-6 4 7 3"/>
+    <path d="M256 108 H294"/><path d="M288 104 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="56" y="140">buyer</text>
+    <text x="200" y="78" font-weight="bold">PayPal</text>
+    <text x="340" y="86">shop</text>
+    <text x="340" y="116" font-size="11">gets paid</text>
+    <text x="340" y="132" font-size="11">no card seen</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="99">ana@mail.com</text><text x="200" y="125">••••••••</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="115" y="92">log in</text>
+    <text x="56" y="206">card or bank</text>
+    <text x="150" y="192">charges</text>
+    <text x="275" y="100">pays</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">your card stays with PayPal, not the shop</text>
+</svg>

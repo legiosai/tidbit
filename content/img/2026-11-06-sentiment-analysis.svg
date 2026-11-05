@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="38" width="140" height="40" rx="8" fill="#e6dfd0"/>
+    <rect x="16" y="100" width="140" height="40" rx="8" fill="#e6dfd0"/>
+    <rect x="16" y="162" width="140" height="40" rx="8" fill="#e6dfd0"/>
+    <rect x="182" y="30" width="56" height="180" rx="10" fill="#ffd166"/>
+    <circle cx="290" cy="58" r="18" fill="#9bd1b9"/>
+    <circle cx="290" cy="120" r="18" fill="#e6dfd0"/>
+    <circle cx="290" cy="182" r="18" fill="#f4a7a7"/>
+  </g>
+  <g fill="#2b2b2b">
+    <circle cx="284" cy="53" r="2"/><circle cx="296" cy="53" r="2"/>
+    <circle cx="284" cy="115" r="2"/><circle cx="296" cy="115" r="2"/>
+    <circle cx="284" cy="177" r="2"/><circle cx="296" cy="177" r="2"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M282 62 q8 7 16 0"/><path d="M282 126 H298"/><path d="M282 190 q8 -7 16 0"/>
+    <path d="M156 58 H178"/><path d="M172 54 l6 4 -6 4"/>
+    <path d="M156 120 H178"/><path d="M172 116 l6 4 -6 4"/>
+    <path d="M156 182 H178"/><path d="M172 178 l6 4 -6 4"/>
+    <path d="M238 58 H266"/><path d="M260 54 l6 4 -6 4"/>
+    <path d="M238 120 H266"/><path d="M260 116 l6 4 -6 4"/>
+    <path d="M238 182 H266"/><path d="M260 178 l6 4 -6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="86" y="62">"love it!"</text><text x="86" y="124">"it's a phone"</text><text x="86" y="186">"broke in 2 days"</text>
+  </g>
+  <text x="210" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">AI</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="350" y="62">positive</text><text x="350" y="124">neutral</text><text x="350" y="186">negative</text>
+  </g>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">words in · mood out</text>
+</svg>

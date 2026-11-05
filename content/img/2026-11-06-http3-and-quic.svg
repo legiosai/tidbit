@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="34" width="140" height="24" rx="5" fill="#9ac7ea"/>
+    <rect x="30" y="58" width="140" height="24" rx="5" fill="#f4a7a7"/>
+    <rect x="30" y="82" width="140" height="24" rx="5" fill="#e6dfd0"/>
+    <rect x="30" y="106" width="140" height="24" rx="5" fill="#f3efe6"/>
+    <rect x="230" y="34" width="140" height="24" rx="5" fill="#9ac7ea"/>
+    <rect x="230" y="58" width="140" height="24" rx="5" fill="#9bd1b9"/>
+    <rect x="230" y="82" width="140" height="24" rx="5" fill="#e6dfd0"/>
+    <rect x="230" y="106" width="140" height="24" rx="5" fill="#f3efe6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="50">HTTP/2</text><text x="100" y="74">TLS</text><text x="100" y="98">TCP</text><text x="100" y="122">IP</text>
+    <text x="300" y="50">HTTP/3</text><text x="300" y="74">QUIC + TLS</text><text x="300" y="98">UDP</text><text x="300" y="122">IP</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M30 160 H170"/><path d="M30 178 H170"/><path d="M30 196 H170"/>
+    <path d="M230 160 H370"/><path d="M230 178 H370"/><path d="M230 196 H370"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="60" y="154" width="12" height="12" fill="#f4a7a7"/>
+    <rect x="96" y="172" width="12" height="12" fill="#e6dfd0"/><rect x="132" y="190" width="12" height="12" fill="#e6dfd0"/>
+    <rect x="96" y="154" width="12" height="12" fill="#e6dfd0"/>
+    <rect x="260" y="154" width="12" height="12" fill="#f4a7a7"/>
+    <rect x="320" y="172" width="12" height="12" fill="#9bd1b9"/><rect x="350" y="190" width="12" height="12" fill="#9bd1b9"/>
+    <rect x="296" y="154" width="12" height="12" fill="#e6dfd0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="148">lost packet: all wait</text><text x="300" y="148">lost packet: one waits</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same HTTP · new transport underneath</text>
+</svg>

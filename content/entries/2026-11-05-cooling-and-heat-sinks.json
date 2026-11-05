@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-cooling-and-heat-sinks",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["heat sink", "heat sinks", "heatsink", "heatsinks", "CPU cooler", "liquid cooling", "thermal paste"],
+    "es": ["disipador", "disipadores", "disipador de calor", "disipadores de calor", "refrigeración líquida", "pasta térmica"]
+  },
+  "image": "img/2026-11-05-cooling-and-heat-sinks.svg",
+  "imageAlt": {
+    "en": "A hot chip under a metal heat sink with fins, and a fan blowing air through the fins to carry the heat away",
+    "es": "Un chip caliente debajo de un disipador de metal con aletas, y un ventilador que sopla aire entre las aletas para llevarse el calor"
+  },
+  "en": {
+    "title": "Cooling and heat sinks",
+    "tagline": "How computers get rid of the heat their chips produce so they do not slow down or fail.",
+    "explanation": [
+      "Every chip turns almost all the electricity it uses into heat. A laptop processor can produce as much heat as a small light bulb, packed into a square the size of a fingernail. If that heat stays there, the chip gets too hot, so every computer needs a way to move it out: that is **cooling**.",
+      "The most common part is the **heat sink**: a block of metal, usually aluminum or copper, pressed against the chip and shaped into thin fins. The fins give the heat a big surface to escape into the air, and a fan blows fresh air through them. A thin layer of **thermal paste** fills the tiny gaps between chip and metal. Gaming PCs and servers sometimes use **liquid cooling**, which carries the heat away in a tube of fluid to a radiator. Phones and fanless laptops just spread it through the case.",
+      "When cooling cannot keep up, the chip protects itself by slowing down, which is called **thermal throttling**. That is why a laptop on a blanket feels sluggish, or a phone in the sun gets slow while recording video. Data centers face the same problem at a huge scale, and a big share of their electricity goes just to cooling."
+    ],
+    "analogy": "A radiator in an old house: hot water flows through metal folded into many thin panels, so the heat spreads into the room much faster than from a single pipe. A fan in front of it would make it even faster.",
+    "keyPoints": [
+      "Chips turn nearly all their power into heat.",
+      "A heat sink spreads that heat over metal fins; a fan moves it into the air.",
+      "Too hot and the chip slows itself down (thermal throttling).",
+      "Blocked vents and dust are the most common cause of a hot, slow computer."
+    ],
+    "links": [
+      { "label": "Computer cooling on Wikipedia", "url": "https://en.wikipedia.org/wiki/Computer_cooling" },
+      { "label": "Heat sink on Wikipedia", "url": "https://en.wikipedia.org/wiki/Heat_sink" }
+    ]
+  },
+  "es": {
+    "title": "Refrigeración y disipadores",
+    "tagline": "Cómo las computadoras se sacan de encima el calor de sus chips para no frenarse.",
+    "explanation": [
+      "Todo chip convierte en calor casi toda la electricidad que usa. El procesador de una notebook puede largar tanto calor como una lamparita chica, concentrado en un cuadrado del tamaño de una uña. Si ese calor se queda ahí, el chip se recalienta, así que toda computadora necesita una forma de sacarlo: eso es la **refrigeración**.",
+      "La pieza más común es el **disipador**: un bloque de metal, casi siempre aluminio o cobre, apoyado sobre el chip y con forma de aletas finitas. Las aletas le dan al calor mucha superficie para escaparse al aire, y un ventilador sopla aire fresco entre ellas. Una capa fina de **pasta térmica** llena los huequitos entre el chip y el metal. Las PCs gamer y los servidores a veces usan **refrigeración líquida**, que se lleva el calor por un caño con líquido hasta un radiador. Los celulares y las notebooks sin ventilador simplemente lo reparten por la carcasa.",
+      "Cuando la refrigeración no da abasto, el chip se protege bajando su velocidad; eso se llama **thermal throttling**. Por eso una notebook apoyada sobre una frazada anda lenta, o un celular al sol se pone pesado mientras filmás. Los data centers tienen el mismo problema a escala enorme, y una buena parte de su electricidad se va solo en enfriar."
+    ],
+    "analogy": "Un radiador de calefacción: el agua caliente pasa por un metal plegado en muchos paneles finitos, así el calor se reparte en la habitación mucho más rápido que desde un solo caño. Con un ventilador adelante, sería todavía más rápido.",
+    "keyPoints": [
+      "Los chips convierten casi toda su energía en calor.",
+      "El disipador reparte ese calor en aletas de metal; el ventilador lo pasa al aire.",
+      "Si se recalienta, el chip baja su velocidad solo (thermal throttling).",
+      "Rejillas tapadas y polvo son la causa más común de una compu caliente y lenta."
+    ],
+    "links": [
+      { "label": "Disipador en Wikipedia", "url": "https://es.wikipedia.org/wiki/Disipador" },
+      { "label": "Refrigeración líquida (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Refrigeración_líquida_(informática)" }
+    ]
+  }
+}

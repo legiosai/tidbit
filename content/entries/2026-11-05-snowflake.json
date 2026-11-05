@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-05-snowflake",
+  "date": "2026-11-05",
+  "subjects": ["companies", "data"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Snowflake Inc.", "Snowflake Data Cloud"],
+    "es": ["Snowflake Inc.", "Snowflake Data Cloud"]
+  },
+  "image": "img/2026-11-05-snowflake.svg",
+  "imageAlt": {
+    "en": "One shared storage layer holding tables, with three separate compute warehouses of different sizes reading from it at the same time for finance, marketing and data science",
+    "es": "Una capa de almacenamiento compartida con tablas, y tres warehouses de cómputo separados y de distintos tamaños leyendo de ella al mismo tiempo para finanzas, marketing y data science"
+  },
+  "en": {
+    "title": "Snowflake",
+    "tagline": "A data warehouse sold as a cloud service, billed by how much computing you use.",
+    "explanation": [
+      "**Snowflake** is an American company founded in 2012 by Benoit Dageville, Thierry Cruanes and Marcin Żukowski, database engineers who had worked at Oracle and on the Vectorwise engine. Its product is a data warehouse delivered entirely as a cloud service: you load your company's data, query it with SQL, and never install or tune a server. It runs on AWS, Microsoft Azure and Google Cloud, and went public in 2020 on the New York Stock Exchange.",
+      "Its key design choice was to **separate storage from compute**. All data lives once in cheap cloud storage, and you start independent groups of servers, which Snowflake calls virtual warehouses, to query it. Finance can run a big month-end report on a large warehouse while marketing runs small queries on another, without slowing each other down, and each one can be paused when idle. You pay for storage plus the seconds of compute you actually use.",
+      "That model made it easy to share data, too: one company can give another live access to a table without sending copies. Its main rival is Databricks, which came from the data lake side; both now offer warehouses, data lake features and tools for building AI on company data, and many large companies use both."
+    ],
+    "analogy": "A giant library with one shared collection and as many reading rooms as you want. Each team rents its own room, big or small, by the hour, and they all read the same books without fighting over seats.",
+    "keyPoints": [
+      "A cloud data warehouse queried with SQL, with no servers to manage.",
+      "Storage and compute are separate; each team can get its own warehouse.",
+      "Usage-based pricing: storage plus compute time actually used.",
+      "Runs on AWS, Azure and Google Cloud; competes mainly with Databricks."
+    ],
+    "links": [
+      { "label": "Snowflake (official site)", "url": "https://www.snowflake.com/" },
+      { "label": "Snowflake documentation", "url": "https://docs.snowflake.com/" },
+      { "label": "Snowflake Inc. on Wikipedia", "url": "https://en.wikipedia.org/wiki/Snowflake_Inc." }
+    ]
+  },
+  "es": {
+    "title": "Snowflake",
+    "tagline": "Un data warehouse vendido como servicio en la nube, que se cobra según el cómputo usado.",
+    "explanation": [
+      "**Snowflake** es una empresa estadounidense fundada en 2012 por Benoit Dageville, Thierry Cruanes y Marcin Żukowski, ingenieros de bases de datos que habían trabajado en Oracle y en el motor Vectorwise. Su producto es un data warehouse que se entrega entero como servicio en la nube: cargás los datos de tu empresa, los consultás con SQL y nunca instalás ni ajustás un servidor. Funciona sobre AWS, Microsoft Azure y Google Cloud, y salió a la bolsa de Nueva York en 2020.",
+      "Su decisión de diseño clave fue **separar el almacenamiento del cómputo**. Los datos viven una sola vez en almacenamiento barato de la nube, y para consultarlos prendés grupos de servidores independientes, que Snowflake llama virtual warehouses. Finanzas puede correr el cierre de mes en un warehouse grande mientras marketing hace consultas chicas en otro, sin frenarse entre sí, y cada uno se puede pausar cuando no se usa. Pagás el almacenamiento más los segundos de cómputo que realmente usaste.",
+      "Ese modelo también facilitó compartir datos: una empresa le puede dar a otra acceso en vivo a una tabla sin mandarle copias. Su gran rival es Databricks, que viene del lado del data lake; hoy las dos ofrecen warehouses, funciones de data lake y herramientas para construir IA con los datos de la empresa, y muchas compañías grandes usan ambas."
+    ],
+    "analogy": "Una biblioteca gigante con una sola colección y tantas salas de lectura como quieras. Cada equipo alquila su propia sala, grande o chica, por hora, y todos leen los mismos libros sin pelearse por las sillas.",
+    "keyPoints": [
+      "Un data warehouse en la nube que se consulta con SQL, sin servidores que administrar.",
+      "El almacenamiento y el cómputo están separados; cada equipo puede tener su propio warehouse.",
+      "Precio por uso: almacenamiento más el tiempo de cómputo efectivamente usado.",
+      "Corre sobre AWS, Azure y Google Cloud; compite sobre todo con Databricks."
+    ],
+    "links": [
+      { "label": "Snowflake Inc. en Wikipedia", "url": "https://es.wikipedia.org/wiki/Snowflake_Inc." },
+      { "label": "Snowflake (sitio oficial, en inglés)", "url": "https://www.snowflake.com/" },
+      { "label": "Documentación de Snowflake (en inglés)", "url": "https://docs.snowflake.com/" }
+    ]
+  }
+}

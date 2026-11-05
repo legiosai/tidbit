@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-data-engineering",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data engineer", "data engineers"],
+    "es": ["data engineering", "ingeniero de datos", "ingenieros de datos", "ingeniera de datos", "data engineer"]
+  },
+  "image": "img/2026-11-06-data-engineering.svg",
+  "imageAlt": {
+    "en": "Data from an app, a CRM and files flows through pipes into a cleaning and joining step, then into a warehouse, where analysts and models pick it up",
+    "es": "Datos de una app, un CRM y archivos viajan por caños hasta un paso de limpieza y cruce, después a un warehouse, de donde los toman analistas y modelos"
+  },
+  "en": {
+    "title": "Data engineering",
+    "tagline": "The work of building the pipes that move data to where people can use it.",
+    "explanation": [
+      "**Data engineering** is the discipline of collecting data from the places it is born, cleaning and reshaping it, and delivering it somewhere reliable where others can use it. A company's data starts scattered: the app's database, the payments provider, the CRM, spreadsheets, event logs. A **data engineer** builds and runs the pipelines that bring all of that together, usually into a data warehouse or a data lake.",
+      "Day to day, that means writing ETL or ELT jobs in SQL and Python, scheduling them with tools like Airflow, modeling tables with dbt, and handling large volumes with engines like Apache Spark. It also means the unglamorous part: making jobs rerun safely when they fail, noticing when a source changes its format, keeping costs under control and making sure yesterday's numbers arrive before the 9 a.m. meeting.",
+      "The role sits upstream of the analysts and data scientists. They ask the questions; data engineers make sure the answers rest on data that is complete, on time and consistent. As companies feed more of their data into AI systems, this plumbing has become more visible, because a model is only as good as the data that reaches it."
+    ],
+    "analogy": "The water utility of a city. Nobody thinks about the pipes, pumps and treatment plants until the tap runs brown; data engineers build and maintain that network so clean data comes out wherever someone opens a tap.",
+    "keyPoints": [
+      "Moves data from many sources into a warehouse or lake, cleaned and consistent.",
+      "Core tools: SQL, Python, orchestrators like Airflow, dbt, Spark.",
+      "Much of the job is reliability: failures, late data, changed sources.",
+      "Works upstream of analysts, data scientists and machine learning teams."
+    ],
+    "links": [
+      { "label": "Data engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_engineering" },
+      { "label": "Apache Airflow documentation", "url": "https://airflow.apache.org/docs/" }
+    ]
+  },
+  "es": {
+    "title": "Ingeniería de datos",
+    "tagline": "El trabajo de armar los caños que llevan los datos a donde se pueden usar.",
+    "explanation": [
+      "La **ingeniería de datos** (data engineering) es la disciplina que junta los datos de los lugares donde nacen, los limpia y los reorganiza, y los deja en un lugar confiable donde otros los puedan usar. Los datos de una empresa arrancan desparramados: la base de datos de la app, el proveedor de pagos, el CRM, planillas, registros de eventos. Un **ingeniero de datos** arma y mantiene los pipelines que traen todo eso a un mismo lugar, casi siempre un data warehouse o un data lake.",
+      "En el día a día, eso es escribir procesos ETL o ELT en SQL y Python, programarlos con herramientas como Airflow, modelar tablas con dbt y procesar grandes volúmenes con motores como Apache Spark. Y también la parte menos vistosa: que un proceso que falla se pueda volver a correr sin duplicar nada, darse cuenta cuando una fuente cambia de formato, cuidar los costos y lograr que los números de ayer estén listos antes de la reunión de las 9.",
+      "El rol está antes que los analistas y los científicos de datos. Ellos hacen las preguntas; la ingeniería de datos se asegura de que las respuestas salgan de datos completos, a tiempo y coherentes. Ahora que las empresas meten cada vez más datos en sistemas de IA, esta plomería se ve más, porque un modelo es tan bueno como los datos que le llegan."
+    ],
+    "analogy": "La empresa de agua de una ciudad. Nadie piensa en los caños, las bombas y las plantas potabilizadoras hasta que sale agua marrón de la canilla; la ingeniería de datos construye y mantiene esa red para que salgan datos limpios en cualquier canilla que alguien abra.",
+    "keyPoints": [
+      "Lleva datos de muchas fuentes a un warehouse o un lake, limpios y coherentes.",
+      "Herramientas típicas: SQL, Python, orquestadores como Airflow, dbt, Spark.",
+      "Gran parte del trabajo es confiabilidad: fallas, datos que llegan tarde, fuentes que cambian.",
+      "Trabaja antes que analistas, científicos de datos y equipos de machine learning."
+    ],
+    "links": [
+      { "label": "Data engineering en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Data_engineering" },
+      { "label": "Documentación de Apache Airflow (en inglés)", "url": "https://airflow.apache.org/docs/" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-data-lineage",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["column-level lineage", "OpenLineage"],
+    "es": ["data lineage", "linaje a nivel de columna", "OpenLineage"]
+  },
+  "image": "img/2026-11-06-data-lineage.svg",
+  "imageAlt": {
+    "en": "A graph where two sources, an app database and a payments API, feed a raw table, which feeds an orders table, which feeds two outputs: a revenue dashboard and an ML model",
+    "es": "Un grafo donde dos fuentes, la base de datos de una app y una API de pagos, alimentan una tabla cruda, que alimenta una tabla de pedidos, que a su vez alimenta un tablero de facturación y un modelo de ML"
+  },
+  "en": {
+    "title": "Data lineage",
+    "tagline": "The map of where each piece of data came from and everything that depends on it.",
+    "explanation": [
+      "**Data lineage** is the record of how data moves and changes: which sources a table was built from, which jobs transformed it, and which tables, dashboards and models read it afterwards. It is usually drawn as a graph, with arrows going from raw sources on the left to reports on the right.",
+      "It answers two questions that come up every week in a data team. Looking upstream: \"this revenue number looks wrong, where does it come from?\" Looking downstream: \"if I rename this column, what breaks?\" Without lineage, both questions mean reading SQL and pipeline code by hand. With it, you click a table and see its ancestors and its descendants.",
+      "Lineage can be table-level (this table feeds that one) or column-level (this `amount` column is computed from those two columns), which is much more precise and much harder to capture. Modern tools build it automatically by parsing SQL or by having each job report what it read and wrote, often using the open standard **OpenLineage**. dbt draws lineage for its models, and data catalogs show it next to each table. It also matters for compliance: if a customer asks to be deleted under GDPR, lineage shows every place their personal data ended up."
+    ],
+    "analogy": "The traceability label on supermarket meat: it tells you which farm, which slaughterhouse and which batch it came from, and if one farm has a problem, the store knows exactly which packages to pull from the shelves.",
+    "keyPoints": [
+      "Upstream lineage explains where a number comes from; downstream shows what a change will break.",
+      "Column-level lineage is more useful than table-level, and harder to collect.",
+      "Usually gathered automatically by parsing SQL or from jobs that report their inputs and outputs.",
+      "OpenLineage is an open standard for sharing lineage between tools."
+    ],
+    "links": [
+      { "label": "Data lineage on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_lineage" },
+      { "label": "OpenLineage (open standard)", "url": "https://openlineage.io/" }
+    ]
+  },
+  "es": {
+    "title": "Linaje de datos",
+    "tagline": "El mapa de dónde salió cada dato y de todo lo que depende de él.",
+    "explanation": [
+      "El **linaje de datos** (data lineage) es el registro de cómo se mueven y se transforman los datos: de qué fuentes se armó una tabla, qué procesos la modificaron y qué tablas, tableros y modelos la leen después. Casi siempre se dibuja como un grafo, con flechas que van de las fuentes crudas, a la izquierda, a los reportes, a la derecha.",
+      "Sirve para contestar dos preguntas que aparecen todas las semanas en un equipo de datos. Mirando hacia atrás: \"este número de facturación está raro, ¿de dónde sale?\". Mirando hacia adelante: \"si le cambio el nombre a esta columna, ¿qué se rompe?\". Sin linaje, las dos respuestas implican leer SQL y código de pipelines a mano. Con linaje, hacés clic en una tabla y ves sus ancestros y sus descendientes.",
+      "Puede ser a nivel de tabla (esta tabla alimenta a esa) o a nivel de columna (esta columna `amount` se calcula a partir de esas otras dos), que es mucho más preciso y mucho más difícil de capturar. Las herramientas actuales lo arman solas, analizando el SQL o haciendo que cada proceso informe qué leyó y qué escribió, muchas veces con el estándar abierto **OpenLineage**. dbt dibuja el linaje de sus modelos y los catálogos de datos lo muestran al lado de cada tabla. También importa para cumplir normas: si un cliente pide que borren sus datos, el linaje muestra todos los lugares adonde fueron a parar."
+    ],
+    "analogy": "La etiqueta de trazabilidad de la carne en el súper: te dice de qué campo, qué frigorífico y qué lote viene, y si un campo tiene un problema, el súper sabe exactamente qué bandejas sacar de la góndola.",
+    "keyPoints": [
+      "Hacia atrás explica de dónde sale un número; hacia adelante muestra qué rompe un cambio.",
+      "El linaje por columna sirve más que el linaje por tabla, y cuesta más conseguirlo.",
+      "Suele armarse solo, leyendo el SQL o con procesos que informan qué leen y qué escriben.",
+      "OpenLineage es un estándar abierto para compartir linaje entre herramientas."
+    ],
+    "links": [
+      { "label": "Data lineage en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Data_lineage" },
+      { "label": "OpenLineage (estándar abierto, en inglés)", "url": "https://openlineage.io/" }
+    ]
+  }
+}

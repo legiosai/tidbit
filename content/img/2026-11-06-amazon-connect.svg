@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="50" width="64" height="32" rx="8" fill="#e6dfd0"/>
+    <rect x="16" y="104" width="64" height="32" rx="8" fill="#e6dfd0"/>
+    <rect x="16" y="158" width="64" height="32" rx="8" fill="#e6dfd0"/>
+    <rect x="106" y="36" width="158" height="164" rx="14" fill="#ffd166"/>
+    <rect x="130" y="76" width="110" height="34" rx="8" fill="#9bd1b9"/>
+    <rect x="130" y="138" width="110" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="292" y="50" width="92" height="32" rx="8" fill="#9bd1b9"/>
+    <rect x="292" y="104" width="92" height="32" rx="8" fill="#9bd1b9"/>
+    <rect x="292" y="158" width="92" height="32" rx="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 66 H94 V93 H126"/><path d="M80 120 H94 V93"/><path d="M80 174 H94 V120"/>
+    <path d="M120 89 l6 4 -6 4"/>
+    <path d="M185 110 V134"/><path d="M181 128 l4 6 4 -6"/>
+    <path d="M240 155 H272 V66 H288"/><path d="M272 120 H288"/><path d="M272 155 V174 H288"/>
+    <path d="M282 62 l6 4 -6 4"/><path d="M282 116 l6 4 -6 4"/><path d="M282 170 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="48" y="70">call</text><text x="48" y="124">chat</text><text x="48" y="178">email</text>
+    <text x="185" y="97">bot / menu</text><text x="185" y="159">queue</text>
+    <text x="338" y="70">agent</text><text x="338" y="124">agent</text><text x="338" y="178">agent</text>
+  </g>
+  <text x="185" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">Amazon Connect</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a contact center rented by the minute</text>
+</svg>

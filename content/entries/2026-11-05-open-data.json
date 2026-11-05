@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-open-data",
+  "date": "2026-11-05",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["open government data", "open dataset", "open datasets"],
+    "es": ["open data", "datos públicos abiertos", "datos abiertos de gobierno"]
+  },
+  "image": "img/2026-11-05-open-data.svg",
+  "imageAlt": {
+    "en": "An open box of data files with a free tag, and arrows going to a researcher, a journalist and an app",
+    "es": "Una caja abierta de archivos de datos con una etiqueta de gratis, y flechas que van a una investigadora, un periodista y una app"
+  },
+  "en": {
+    "title": "Open data",
+    "tagline": "Data anyone can freely download, use and share, for any purpose.",
+    "explanation": [
+      "**Open data** is data published so that anyone can access it, use it, change it and share it, for free and for any purpose, usually only asking that you credit the source. Common examples are government budgets, public transport schedules, weather records, election results, census figures and scientific measurements.",
+      "To be truly open, data needs more than being visible on a website. It should come under an open license that allows reuse, and in a format machines can read, like CSV or JSON, rather than a scanned PDF. Many countries run open data portals for this, such as data.gov in the United States, data.europa.eu in the European Union or datos.gob.ar in Argentina.",
+      "Open data matters because it lets people outside the institution that collected it find value in it. Transit apps use open bus timetables, journalists cross public contracts with company registries, and researchers and AI models are trained on open datasets. It also supports transparency: citizens can check what governments spend. Personal data is the big exception and has to be anonymized or kept out."
+    ],
+    "analogy": "Like a public library compared with a private archive: the books are there for anyone to read, copy passages from and build on, not just for the people who wrote them.",
+    "keyPoints": [
+      "Free to access, use, modify and share, for any purpose.",
+      "Needs an open license and a machine-readable format like CSV.",
+      "Governments publish it in open data portals.",
+      "Personal data must be anonymized or excluded."
+    ],
+    "links": [
+      { "label": "The Open Definition", "url": "https://opendefinition.org/" },
+      { "label": "Open data on Wikipedia", "url": "https://en.wikipedia.org/wiki/Open_data" }
+    ]
+  },
+  "es": {
+    "title": "Datos abiertos",
+    "tagline": "Datos que cualquiera puede bajar, usar y compartir libremente, para lo que sea.",
+    "explanation": [
+      "Los **datos abiertos** (open data) son datos publicados para que cualquiera pueda acceder, usarlos, modificarlos y compartirlos, gratis y para cualquier fin, en general pidiendo solo que cites la fuente. Ejemplos típicos son presupuestos públicos, horarios del transporte, registros del clima, resultados electorales, cifras del censo y mediciones científicas.",
+      "Para ser abiertos de verdad, no alcanza con que se vean en una página web. Tienen que tener una licencia abierta que permita reutilizarlos y estar en un formato que una máquina pueda leer, como CSV o JSON, y no en un PDF escaneado. Muchos países tienen portales de datos abiertos para eso, como datos.gob.ar en Argentina, data.europa.eu en la Unión Europea o data.gov en Estados Unidos.",
+      "Importan porque dejan que gente de afuera de la institución que los juntó les encuentre valor. Las apps de transporte usan los horarios abiertos de los colectivos, los periodistas cruzan contrataciones públicas con registros de empresas, y con conjuntos de datos abiertos se hacen investigaciones y se entrenan modelos de IA. También ayudan a la transparencia: la ciudadanía puede ver en qué gasta el Estado. La gran excepción son los datos personales, que hay que anonimizar o dejar afuera."
+    ],
+    "analogy": "Como una biblioteca pública frente a un archivo privado: los libros están para que cualquiera los lea, copie fragmentos y construya encima, no solo quienes los escribieron.",
+    "keyPoints": [
+      "Libres para acceder, usar, modificar y compartir, para cualquier fin.",
+      "Necesitan una licencia abierta y un formato legible por máquinas, como CSV.",
+      "Los gobiernos los publican en portales de datos abiertos.",
+      "Los datos personales hay que anonimizarlos o excluirlos."
+    ],
+    "links": [
+      { "label": "Portal de datos abiertos de Argentina", "url": "https://www.datos.gob.ar/" },
+      { "label": "Datos abiertos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Datos_abiertos" }
+    ]
+  }
+}

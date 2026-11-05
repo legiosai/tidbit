@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-06-ab-testing",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["A/B test", "A/B tests", "split testing", "split test"],
+    "es": ["tests A/B", "prueba A/B", "pruebas A/B", "A/B testing", "A/B test"]
+  },
+  "image": "img/2026-11-06-ab-testing.svg",
+  "imageAlt": {
+    "en": "Visitors are split at random into two groups: group A sees a blue button and 4% buy, group B sees a yellow button and 5% buy",
+    "es": "Los visitantes se reparten al azar en dos grupos: el grupo A ve un botón azul y compra el 4%, el grupo B ve un botón amarillo y compra el 5%"
+  },
+  "en": {
+    "title": "A/B testing",
+    "tagline": "Showing two versions to two random groups and measuring which one works better.",
+    "explanation": [
+      "**A/B testing** is a simple experiment: you take two versions of something, A (the current one) and B (the change), and show each to a different group of people chosen at random. Then you compare a number that matters, like how many people sign up, click or buy. If B clearly does better, you keep B.",
+      "The random split is the key. Because chance decides who sees which version, the two groups are alike in every other way: same mix of new and old customers, phones and computers, weekdays and weekends. So if the results differ, the change itself is the most likely reason. That is what makes an A/B test stronger than comparing \"before and after\", where a holiday or a news story could explain the difference.",
+      "Websites and apps run thousands of these: button colors, prices, email subject lines, the order of search results. The common mistakes are stopping the test as soon as it looks good, running it on too few people, or checking twenty numbers until one of them looks like a win. A small difference only counts when it is larger than what chance alone would produce, which is what statistical significance measures."
+    ],
+    "analogy": "Like testing two recipes for the same cake: you bake both, give a slice of one or the other to guests picked by a coin flip, and see which plate comes back empty more often.",
+    "keyPoints": [
+      "Two versions, two random groups, one number to compare.",
+      "Random assignment is what lets you say the change caused the difference.",
+      "Needs enough people and a fixed end date to be trustworthy.",
+      "Used everywhere online: designs, prices, emails, recommendations."
+    ],
+    "links": [
+      { "label": "A/B testing on Wikipedia", "url": "https://en.wikipedia.org/wiki/A/B_testing" }
+    ]
+  },
+  "es": {
+    "title": "Test A/B",
+    "tagline": "Mostrar dos versiones a dos grupos al azar y medir cuál funciona mejor.",
+    "explanation": [
+      "Un **test A/B** (A/B testing) es un experimento simple: tomás dos versiones de algo, A (la actual) y B (el cambio), y mostrás cada una a un grupo distinto de personas elegidas al azar. Después comparás un número que importa, como cuántas personas se registran, hacen clic o compran. Si B anda claramente mejor, te quedás con B.",
+      "La clave es el reparto al azar. Como es la suerte la que decide quién ve cada versión, los dos grupos se parecen en todo lo demás: la misma mezcla de clientes nuevos y viejos, de celulares y computadoras, de días de semana y fines de semana. Entonces, si los resultados son distintos, lo más probable es que la diferencia venga del cambio. Por eso un test A/B es más sólido que comparar \"antes y después\", donde un feriado o una noticia podrían explicar la diferencia.",
+      "Los sitios y las apps corren miles de estos tests: colores de botones, precios, asuntos de mails, el orden de los resultados de búsqueda. Los errores típicos son cortar el test apenas parece que va bien, probarlo con muy poca gente o mirar veinte números hasta que alguno parezca una victoria. Una diferencia chica solo cuenta si es mayor que la que podría producir el azar solo, y eso es lo que mide la significancia estadística."
+    ],
+    "analogy": "Como probar dos recetas de la misma torta: hacés las dos, le das una porción de una u otra a cada invitado tirando una moneda y mirás qué plato vuelve vacío más seguido.",
+    "keyPoints": [
+      "Dos versiones, dos grupos al azar, un número para comparar.",
+      "El reparto al azar es lo que permite decir que el cambio causó la diferencia.",
+      "Para ser confiable necesita suficiente gente y una fecha de fin fijada de antemano.",
+      "Se usa en todos lados en internet: diseños, precios, mails, recomendaciones."
+    ],
+    "links": [
+      { "label": "Test A/B en Wikipedia", "url": "https://es.wikipedia.org/wiki/Test_A/B" },
+      { "label": "A/B testing en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/A/B_testing" }
+    ]
+  }
+}

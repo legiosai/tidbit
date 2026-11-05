@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-amazon-ses",
+  "date": "2026-11-05",
+  "subjects": ["aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["SES", "Simple Email Service", "Amazon Simple Email Service"],
+    "es": ["SES", "Simple Email Service", "Amazon Simple Email Service"]
+  },
+  "image": "img/2026-11-05-amazon-ses.svg",
+  "imageAlt": {
+    "en": "An app hands emails to SES, which delivers them to several inboxes and reports back bounces and complaints",
+    "es": "Una app le pasa mails a SES, que los entrega en varias casillas y le avisa de vuelta los rebotes y las quejas"
+  },
+  "en": {
+    "title": "Amazon SES",
+    "tagline": "The AWS service apps use to send email in bulk: receipts, alerts, newsletters.",
+    "explanation": [
+      "**Amazon SES** (Simple Email Service) sends email on behalf of your application. When a shop emails you a receipt, a password reset link or a shipping update, there is a good chance a service like SES is doing the actual sending. Your code hands over the message through an API call or plain SMTP, and SES takes care of delivering it to Gmail, Outlook and every other mailbox.",
+      "The hard part of email is not sending it, it is landing in the inbox instead of the spam folder. SES makes you prove you own the sender address or domain, and helps you set up the DNS records that mailbox providers check, such as **DKIM** and SPF. It also reports **bounces** (addresses that do not exist) and **complaints** (people who clicked \"this is spam\"), so you can stop writing to them.",
+      "New accounts start in a sandbox: you can only send to addresses you have verified, with a small daily limit, until you ask AWS for production access. After that the price is roughly ten cents per thousand emails. If your bounce or complaint rates climb too high, AWS can pause your sending to protect everyone else's reputation, so keeping your mailing lists clean is part of the job."
+    ],
+    "analogy": "A professional mailroom for your company. You drop off the letters; it stamps them, sends them out, and tells you which ones came back with \"no such address\".",
+    "keyPoints": [
+      "Sends transactional and marketing email through an API or SMTP.",
+      "You verify the sender domain and set up DKIM and SPF to reach the inbox.",
+      "New accounts start in a sandbox until you request production access.",
+      "High bounce or complaint rates can get your sending paused."
+    ],
+    "links": [
+      { "label": "What is Amazon SES? (official docs)", "url": "https://docs.aws.amazon.com/ses/latest/dg/Welcome.html" },
+      { "label": "Amazon SES product page", "url": "https://aws.amazon.com/ses/" },
+      { "label": "DomainKeys Identified Mail (DKIM) on Wikipedia", "url": "https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail" }
+    ]
+  },
+  "es": {
+    "title": "Amazon SES",
+    "tagline": "El servicio de AWS con el que las apps mandan mails: recibos, avisos, newsletters.",
+    "explanation": [
+      "**Amazon SES** (Simple Email Service) manda mails en nombre de tu aplicación. Cuando una tienda te manda el comprobante de compra, el link para cambiar la contraseña o el aviso de que salió tu pedido, es muy posible que un servicio como SES sea el que hace el envío de verdad. Tu código le pasa el mensaje con una llamada a la API o por SMTP común, y SES se encarga de entregarlo en Gmail, Outlook y cualquier otra casilla.",
+      "Lo difícil del mail no es mandarlo, es que llegue a la bandeja de entrada y no a spam. SES te hace demostrar que sos dueño de la dirección o del dominio que envía, y te ayuda a configurar los registros DNS que revisan los proveedores de correo, como **DKIM** y SPF. También te avisa los **rebotes** (direcciones que no existen) y las **quejas** (gente que tocó \"es spam\"), así dejás de escribirles.",
+      "Las cuentas nuevas arrancan en un sandbox: solo podés mandar a direcciones que verificaste, con un límite diario chico, hasta que le pedís a AWS acceso de producción. Después, el precio ronda los diez centavos de dólar cada mil mails. Si tus tasas de rebote o de quejas suben demasiado, AWS puede pausar tus envíos para cuidar la reputación de todos los demás, así que mantener limpias tus listas también es parte del laburo."
+    ],
+    "analogy": "La oficina de correspondencia profesional de tu empresa. Vos dejás las cartas; ella las franquea, las despacha y te avisa cuáles volvieron con \"destinatario inexistente\".",
+    "keyPoints": [
+      "Manda mails transaccionales y de marketing por API o por SMTP.",
+      "Verificás el dominio y configurás DKIM y SPF para llegar a la bandeja de entrada.",
+      "Las cuentas nuevas arrancan en sandbox hasta que pedís acceso de producción.",
+      "Muchos rebotes o quejas pueden hacer que te pausen los envíos."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon SES? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/ses/latest/dg/Welcome.html" },
+      { "label": "Página de Amazon SES", "url": "https://aws.amazon.com/es/ses/" },
+      { "label": "DomainKeys Identified Mail (DKIM) en Wikipedia", "url": "https://es.wikipedia.org/wiki/DomainKeys_Identified_Mail" }
+    ]
+  }
+}

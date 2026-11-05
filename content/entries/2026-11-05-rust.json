@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-rust",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Rust language", "Rust programming language", "borrow checker"],
+    "es": ["lenguaje Rust", "lenguaje de programación Rust", "borrow checker"]
+  },
+  "image": "img/2026-11-05-rust.svg",
+  "imageAlt": {
+    "en": "Code passes through the Rust compiler, which stops a memory bug at the gate and lets only safe, fast code through to the program",
+    "es": "El código pasa por el compilador de Rust, que frena un error de memoria en la puerta y solo deja pasar código seguro y rápido al programa"
+  },
+  "en": {
+    "title": "Rust",
+    "tagline": "A fast programming language whose compiler refuses to build code with memory bugs.",
+    "explanation": [
+      "**Rust** is a programming language that started at Mozilla and reached version 1.0 in 2015. It aims at the same jobs as C and C++: operating systems, browsers, databases, game engines, embedded devices, anything where speed and control over memory matter. What makes it different is that it is designed to prevent a whole family of memory bugs that have plagued those languages for decades.",
+      "In C and C++ the programmer manages memory by hand, and small mistakes, like using memory after freeing it or writing past the end of a buffer, cause crashes and many serious security holes. Languages like Java or Python avoid that with a garbage collector, which costs some speed and predictability. Rust takes a third path: strict rules about which part of the code owns each piece of data and who may borrow it. The compiler's **borrow checker** enforces those rules, so most of those bugs simply do not compile, and the final program runs as fast as C.",
+      "The price is a steep learning curve: the compiler says no often, especially at first. Even so, Rust has gained ground quickly. It is part of the Linux kernel, Windows and Android; companies like AWS, Cloudflare and Microsoft use it in critical services; and security agencies recommend memory-safe languages like it for new code. It comes with `cargo`, a tool that builds projects and manages libraries."
+    ],
+    "analogy": "A very strict building inspector who checks the plans before a single brick is laid. It is slower to get approval, but once the building goes up, a whole category of collapses simply cannot happen.",
+    "keyPoints": [
+      "As fast as C and C++, without a garbage collector.",
+      "The borrow checker rejects most memory bugs at compile time.",
+      "Used in Linux, Windows, Android and cloud infrastructure.",
+      "Harder to learn than most languages, especially at first."
+    ],
+    "links": [
+      { "label": "Rust (official site)", "url": "https://www.rust-lang.org/" },
+      { "label": "The Rust Programming Language (official book)", "url": "https://doc.rust-lang.org/book/" }
+    ]
+  },
+  "es": {
+    "title": "Rust",
+    "tagline": "Un lenguaje rápido cuyo compilador se niega a armar código con errores de memoria.",
+    "explanation": [
+      "**Rust** es un lenguaje de programación que arrancó en Mozilla y llegó a la versión 1.0 en 2015. Apunta a los mismos trabajos que C y C++: sistemas operativos, navegadores, bases de datos, motores de juegos, dispositivos embebidos, todo lo que necesita velocidad y control sobre la memoria. Lo que lo distingue es que está diseñado para evitar toda una familia de errores de memoria que vienen complicando a esos lenguajes hace décadas.",
+      "En C y C++ quien programa maneja la memoria a mano, y errores chiquitos, como usar memoria después de liberarla o escribir más allá del final de un buffer, provocan cuelgues y muchos agujeros de seguridad graves. Lenguajes como Java o Python lo evitan con un recolector de basura, que cuesta algo de velocidad y de previsibilidad. Rust toma un tercer camino: reglas estrictas sobre qué parte del código es dueña de cada dato y quién lo puede tomar prestado. El **borrow checker** del compilador hace cumplir esas reglas, así que la mayoría de esos errores directamente no compila, y el programa final corre tan rápido como C.",
+      "El precio es una curva de aprendizaje empinada: el compilador dice que no seguido, sobre todo al principio. Aun así, Rust ganó terreno rápido. Está en el kernel de Linux, en Windows y en Android; empresas como AWS, Cloudflare y Microsoft lo usan en servicios críticos; y agencias de seguridad recomiendan lenguajes con seguridad de memoria como él para el código nuevo. Viene con `cargo`, una herramienta que compila los proyectos y maneja las librerías."
+    ],
+    "analogy": "Un inspector de obra muy estricto que revisa los planos antes de poner un solo ladrillo. Conseguir la aprobación tarda más, pero una vez que el edificio está en pie, toda una categoría de derrumbes no puede pasar.",
+    "keyPoints": [
+      "Tan rápido como C y C++, sin recolector de basura.",
+      "El borrow checker rechaza la mayoría de los errores de memoria al compilar.",
+      "Se usa en Linux, Windows, Android e infraestructura de nube.",
+      "Cuesta más aprenderlo que la mayoría de los lenguajes, sobre todo al principio."
+    ],
+    "links": [
+      { "label": "Rust (sitio oficial)", "url": "https://www.rust-lang.org/es" },
+      { "label": "Rust en Wikipedia", "url": "https://es.wikipedia.org/wiki/Rust_(lenguaje_de_programación)" }
+    ]
+  }
+}

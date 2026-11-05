@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M86 62 L120 98"/><path d="M86 160 L120 124"/>
+    <path d="M190 111 H218"/><path d="M212 107 l6 4 -6 4"/>
+    <path d="M288 104 L312 70"/><path d="M288 118 L312 152"/>
+    <path d="M113 94 l7 4 -2 -8"/><path d="M113 128 l7 -4 -2 8"/>
+    <path d="M305 72 l7 -2 -1 7"/><path d="M305 150 l7 2 -1 -7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="40" width="74" height="32" rx="6" fill="#9ac7ea"/>
+    <rect x="16" y="150" width="74" height="32" rx="6" fill="#9ac7ea"/>
+    <rect x="120" y="94" width="70" height="34" rx="6" fill="#e6dfd0"/>
+    <rect x="218" y="94" width="70" height="34" rx="6" fill="#ffd166"/>
+    <rect x="312" y="50" width="76" height="32" rx="6" fill="#9bd1b9"/>
+    <rect x="312" y="140" width="76" height="32" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="53" y="60">app db</text>
+    <text x="53" y="170">payments</text>
+    <text x="155" y="115">raw</text>
+    <text x="253" y="115">orders</text>
+    <text x="350" y="70">dashboard</text>
+    <text x="350" y="160">ML model</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="90" y="28">upstream: where from?</text>
+    <text x="310" y="200">downstream: what breaks?</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">every table knows its parents and children</text>
+</svg>

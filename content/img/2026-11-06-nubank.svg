@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M24 78 L82 48 L140 78 Z" fill="#e6dfd0"/>
+    <rect x="30" y="78" width="104" height="80" fill="#e6dfd0"/>
+    <rect x="44" y="92" width="16" height="40" fill="#f3efe6"/><rect x="74" y="92" width="16" height="40" fill="#f3efe6"/><rect x="104" y="92" width="16" height="40" fill="#f3efe6"/>
+    <rect x="178" y="30" width="84" height="164" rx="14" fill="#2b2b2b"/>
+    <rect x="186" y="44" width="68" height="136" rx="6" fill="#f3efe6"/>
+    <rect x="194" y="54" width="52" height="30" rx="4" fill="#9ac7ea"/>
+    <rect x="194" y="92" width="52" height="18" rx="4" fill="#9bd1b9"/>
+    <rect x="194" y="116" width="52" height="18" rx="4" fill="#ffd166"/>
+    <rect x="194" y="140" width="52" height="18" rx="4" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M28 160 L136 58" stroke-dasharray="6 5"/>
+    <path d="M264 69 H296 M264 101 H296 M264 125 H296 M264 149 H296"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="82" y="180">branch, queue, forms</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b">
+    <text x="302" y="73">card</text><text x="302" y="105">account</text><text x="302" y="129">transfers</text><text x="302" y="153">loans</text>
+  </g>
+  <text x="220" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">the whole bank</text>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">no branches · everything in the app</text>
+</svg>

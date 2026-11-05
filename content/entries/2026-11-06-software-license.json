@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-06-software-license",
+  "date": "2026-11-06",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["software licenses", "software licence", "copyleft", "GPL", "GNU General Public License", "MIT License", "permissive license", "permissive licenses", "EULA"],
+    "es": ["licencias de software", "copyleft", "GPL", "Licencia Pública General de GNU", "licencia MIT", "licencia permisiva", "licencias permisivas", "EULA"]
+  },
+  "image": "img/2026-11-06-software-license.svg",
+  "imageAlt": {
+    "en": "A scale from closed to open: a proprietary license that only lets you use the program, a copyleft license like GPL that lets you change and share it if you keep it open, and a permissive license like MIT that allows almost anything",
+    "es": "Una escala de cerrado a abierto: una licencia propietaria que solo te deja usar el programa, una copyleft como la GPL que te deja cambiarlo y compartirlo si lo mantenés abierto, y una permisiva como la MIT que permite casi todo"
+  },
+  "en": {
+    "title": "Software license",
+    "tagline": "The legal terms that say what you may and may not do with a piece of software.",
+    "explanation": [
+      "A **software license** is the permission slip that comes with a program. Software is protected by copyright, like a book or a song, so by default you cannot copy, change or redistribute it. The license is the author's statement of which of those things you are allowed to do, and under what conditions.",
+      "**Proprietary** licenses, the long agreements you click through when installing Windows or Photoshop (an **EULA**, end-user license agreement), usually let you run the program and little else: no peeking at the source code, no copying, often a limit on how many computers. You are renting the right to use it, not buying the program.",
+      "Open source licenses go the other way and let anyone read, change and share the code, with different strings attached. **Permissive** licenses like **MIT**, Apache 2.0 or BSD ask for little more than keeping the author's name and the license text; you can even put the code inside a closed commercial product. **Copyleft** licenses like the **GPL** add one important condition: if you distribute a modified version, you must share your changes under the same license. Linux uses the GPL, which is why its improvements keep flowing back.",
+      "For companies this is not a formality. Mixing GPL code into a product you sell, or using a library whose license forbids commercial use, can mean having to publish your own code or facing a lawsuit. That is why many teams scan their dependencies' licenses automatically."
+    ],
+    "analogy": "The rules that come with a rented apartment versus a gift. A lease says what you can and cannot do with the place; a gift with a note saying \"do what you want, just mention me\" is a permissive license; \"keep it, but if you pass it on, pass it on with the same note\" is copyleft.",
+    "keyPoints": [
+      "Software is copyrighted; the license says what you are allowed to do with it.",
+      "Proprietary licenses (EULAs) usually allow only use, not copying or changing.",
+      "Permissive licenses (MIT, Apache, BSD) allow nearly anything with credit.",
+      "Copyleft licenses (GPL) require sharing modifications under the same terms."
+    ],
+    "links": [
+      { "label": "Choose an open source license (choosealicense.com)", "url": "https://choosealicense.com/" },
+      { "label": "Licenses approved by the Open Source Initiative", "url": "https://opensource.org/licenses" },
+      { "label": "Software license on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_license" }
+    ]
+  },
+  "es": {
+    "title": "Licencia de software",
+    "tagline": "Las condiciones legales que dicen qué podés hacer y qué no con un programa.",
+    "explanation": [
+      "Una **licencia de software** es el permiso que viene con un programa. El software está protegido por derechos de autor, como un libro o una canción, así que por defecto no lo podés copiar, modificar ni redistribuir. La licencia es la declaración del autor de cuáles de esas cosas te deja hacer y con qué condiciones.",
+      "Las licencias **propietarias**, esos contratos larguísimos que aceptás al instalar Windows o Photoshop (un **EULA**, end-user license agreement o contrato de licencia de usuario final), por lo general te dejan usar el programa y poco más: nada de mirar el código fuente, nada de copiarlo y muchas veces un límite de computadoras. Estás alquilando el derecho a usarlo, no comprando el programa.",
+      "Las licencias de código abierto van para el otro lado y dejan que cualquiera lea, cambie y comparta el código, con distintas condiciones. Las **permisivas**, como la **licencia MIT**, Apache 2.0 o BSD, piden poco más que mantener el nombre del autor y el texto de la licencia; hasta podés meter el código dentro de un producto comercial cerrado. Las **copyleft**, como la **GPL**, suman una condición importante: si distribuís una versión modificada, tenés que compartir tus cambios con la misma licencia. Linux usa la GPL, y por eso sus mejoras siguen volviendo a la comunidad.",
+      "Para las empresas no es un trámite. Meter código GPL en un producto que vendés, o usar una biblioteca cuya licencia prohíbe el uso comercial, puede obligarte a publicar tu propio código o terminar en un juicio. Por eso muchos equipos revisan automáticamente las licencias de sus dependencias."
+    ],
+    "analogy": "Las reglas de un departamento alquilado contra las de un regalo. El contrato de alquiler dice qué podés hacer y qué no con el lugar; un regalo con una nota que dice \"hacé lo que quieras, solo nombrame\" es una licencia permisiva; \"quedatelo, pero si lo pasás, pasalo con esta misma nota\" es copyleft.",
+    "keyPoints": [
+      "El software tiene derechos de autor; la licencia dice qué te permiten hacer con él.",
+      "Las licencias propietarias (EULA) suelen permitir solo usarlo, no copiarlo ni cambiarlo.",
+      "Las permisivas (MIT, Apache, BSD) permiten casi todo, siempre que des crédito.",
+      "Las copyleft (GPL) exigen compartir las modificaciones con las mismas condiciones."
+    ],
+    "links": [
+      { "label": "Choose an open source license (choosealicense.com, en inglés)", "url": "https://choosealicense.com/" },
+      { "label": "Licencias aprobadas por la Open Source Initiative (en inglés)", "url": "https://opensource.org/licenses" },
+      { "label": "Licencia de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Licencia_de_software" }
+    ]
+  }
+}

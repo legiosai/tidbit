@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-correlation-vs-causation",
+  "date": "2026-11-06",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["correlation does not imply causation", "correlation is not causation", "spurious correlation", "spurious correlations"],
+    "es": ["correlación no implica causalidad", "correlación no es causalidad", "correlación espuria", "correlaciones espurias", "correlación y causalidad"]
+  },
+  "image": "img/2026-11-06-correlation-vs-causation.svg",
+  "imageAlt": {
+    "en": "Ice cream sales and drownings both rise together, but an arrow shows that hot weather, a hidden third factor, drives both of them",
+    "es": "Las ventas de helado y los ahogamientos suben juntos, pero una flecha muestra que el calor, un tercer factor escondido, empuja a los dos"
+  },
+  "en": {
+    "title": "Correlation vs causation",
+    "tagline": "Two things moving together does not mean one of them causes the other.",
+    "explanation": [
+      "**Correlation** means two things tend to move together: when one goes up, the other usually goes up too (or down). **Causation** means one actually produces the other. The classic warning \"correlation does not imply causation\" exists because our brains jump from the first to the second far too easily.",
+      "The textbook example: in summer, ice cream sales and drownings both rise. Ice cream does not make people drown. A third thing, hot weather, sends more people both to the ice cream shop and to the pool. That hidden third factor is called a **confounder**, and it is the most common trap. Other traps: the arrow may point the other way (sick people take more medicine, which does not mean medicine makes people sick), or the link may be pure coincidence, which happens a lot when you compare enough unrelated numbers.",
+      "This matters every time someone reads a chart. \"Users who use feature X stay longer\" may only mean that loyal users explore more features. The reliable way to show causation is an experiment where chance decides who gets what, like an A/B test or a clinical trial. When an experiment is not possible, statisticians use careful methods to rule out confounders, and they still speak with caution."
+    ],
+    "analogy": "Every time the firefighters show up, there is a lot of damage. That does not mean firefighters cause damage: a big fire causes both the damage and the number of trucks that arrive.",
+    "keyPoints": [
+      "Correlation: two things move together. Causation: one produces the other.",
+      "A hidden third factor (a confounder) is the usual explanation.",
+      "The cause can also run backwards, or the link can be a coincidence.",
+      "Randomized experiments, like A/B tests, are the solid way to show cause."
+    ],
+    "links": [
+      { "label": "Correlation does not imply causation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation" },
+      { "label": "Spurious relationship on Wikipedia", "url": "https://en.wikipedia.org/wiki/Spurious_relationship" }
+    ]
+  },
+  "es": {
+    "title": "Correlación vs causalidad",
+    "tagline": "Que dos cosas se muevan juntas no quiere decir que una cause la otra.",
+    "explanation": [
+      "La **correlación** quiere decir que dos cosas tienden a moverse juntas: cuando una sube, la otra en general también sube (o baja). La **causalidad** quiere decir que una efectivamente produce la otra. La advertencia clásica \"correlación no implica causalidad\" existe porque el cerebro salta de lo primero a lo segundo con demasiada facilidad.",
+      "El ejemplo de manual: en verano suben tanto las ventas de helado como los ahogamientos. El helado no hace que la gente se ahogue. Una tercera cosa, el calor, manda a más gente a la heladería y también a la pileta. Ese tercer factor escondido se llama **variable de confusión**, y es la trampa más común. Hay otras: la flecha puede ir al revés (la gente enferma toma más remedios, y eso no quiere decir que los remedios enfermen), o la relación puede ser pura casualidad, algo que pasa seguido cuando comparás muchos números que no tienen nada que ver.",
+      "Esto importa cada vez que alguien lee un gráfico. \"Los usuarios que usan la función X se quedan más tiempo\" puede querer decir solamente que los usuarios fieles exploran más funciones. La forma confiable de mostrar causalidad es un experimento donde el azar decide quién recibe qué, como un test A/B o un ensayo clínico. Cuando no se puede hacer un experimento, se usan métodos estadísticos cuidadosos para descartar variables de confusión, y aun así se habla con prudencia."
+    ],
+    "analogy": "Cada vez que llegan los bomberos hay muchos daños. Eso no quiere decir que los bomberos causen daños: un incendio grande causa tanto los daños como la cantidad de autobombas que llegan.",
+    "keyPoints": [
+      "Correlación: dos cosas se mueven juntas. Causalidad: una produce la otra.",
+      "Un tercer factor escondido (variable de confusión) suele ser la explicación.",
+      "La causa también puede ir al revés, o la relación puede ser casualidad.",
+      "Los experimentos al azar, como los tests A/B, son la forma sólida de probar una causa."
+    ],
+    "links": [
+      { "label": "Correlación no implica causalidad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Correlaci%C3%B3n_no_implica_causalidad" },
+      { "label": "Relación espuria en Wikipedia", "url": "https://es.wikipedia.org/wiki/Relaci%C3%B3n_espuria" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-05-lenovo",
+  "date": "2026-11-05",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["Lenovo Group", "ThinkPad", "ThinkPads", "Motorola Mobility"],
+    "es": ["Lenovo Group", "ThinkPad", "ThinkPads", "Motorola Mobility"]
+  },
+  "image": "img/2026-11-05-lenovo.svg",
+  "imageAlt": {
+    "en": "A timeline: Legend founded in Beijing in 1984, renamed Lenovo, buys IBM's PC business with the ThinkPad in 2005, then Motorola's phone business; today it sells laptops, phones and servers worldwide",
+    "es": "Una línea de tiempo: Legend nace en Pekín en 1984, pasa a llamarse Lenovo, compra el negocio de PCs de IBM con la ThinkPad en 2005 y después el de celulares de Motorola; hoy vende notebooks, celulares y servidores en todo el mundo"
+  },
+  "en": {
+    "title": "Lenovo",
+    "tagline": "The Chinese company that sells more PCs than anyone, from ThinkPads to Motorola phones.",
+    "explanation": [
+      "**Lenovo** is a Chinese technology company founded in Beijing in 1984, under the name Legend, by a group of engineers from the Chinese Academy of Sciences led by Liu Chuanzhi. It started as a distributor and became China's largest PC maker in the 1990s. Today it has headquarters in Beijing and in Morrisville, North Carolina, and its shares trade in Hong Kong.",
+      "Its global turning point came in 2005, when it bought IBM's personal computer business, including the **ThinkPad**, the black business laptop with the red dot in the middle of the keyboard. In 2014 it bought IBM's x86 server business and Motorola's phone business from Google, which is why the Motorola phones sold across Latin America are made by Lenovo.",
+      "It has been the world's largest PC maker by units shipped for most years since 2013, selling laptops and desktops under the ThinkPad, ThinkCentre, IdeaPad, Yoga and Legion brands, plus tablets, monitors and data center servers. It mostly uses processors from Intel, AMD and Qualcomm, and builds much of its hardware in its own factories."
+    ],
+    "analogy": "A company that bought a famous foreign brand to go global, the way a local family business might buy a well-known label and then grow it into the biggest in its trade.",
+    "keyPoints": [
+      "Founded in Beijing in 1984 as Legend.",
+      "Bought IBM's PC business, and the ThinkPad, in 2005.",
+      "Owns Motorola's phone business since 2014.",
+      "The world's largest PC maker by units in most recent years."
+    ],
+    "links": [
+      { "label": "Lenovo (official site)", "url": "https://www.lenovo.com/" },
+      { "label": "About Lenovo", "url": "https://www.lenovo.com/us/en/about/" },
+      { "label": "Lenovo on Wikipedia", "url": "https://en.wikipedia.org/wiki/Lenovo" }
+    ]
+  },
+  "es": {
+    "title": "Lenovo",
+    "tagline": "La empresa china que vende más PCs que nadie, de las ThinkPad a los celulares Motorola.",
+    "explanation": [
+      "**Lenovo** es una empresa tecnológica china fundada en Pekín en 1984, con el nombre Legend, por un grupo de ingenieros de la Academia China de Ciencias encabezado por Liu Chuanzhi. Empezó como distribuidora y en los años 90 se convirtió en el mayor fabricante de PCs de China. Hoy tiene sedes en Pekín y en Morrisville, Carolina del Norte, y sus acciones cotizan en Hong Kong.",
+      "El salto global llegó en 2005, cuando compró el negocio de computadoras personales de IBM, incluida la **ThinkPad**, la notebook negra de oficina con el puntito rojo en el medio del teclado. En 2014 compró el negocio de servidores x86 de IBM y el de celulares de Motorola, que estaba en manos de Google; por eso los Motorola que se venden en toda América Latina los fabrica Lenovo.",
+      "Desde 2013 fue la mayoría de los años el mayor fabricante de PCs del mundo por unidades vendidas, con notebooks y computadoras de escritorio de las marcas ThinkPad, ThinkCentre, IdeaPad, Yoga y Legion, además de tablets, monitores y servidores para data centers. Usa sobre todo procesadores de Intel, AMD y Qualcomm, y fabrica buena parte de su hardware en plantas propias."
+    ],
+    "analogy": "Una empresa que compró una marca extranjera famosa para salir al mundo, como un negocio familiar que compra una etiqueta conocida y termina convirtiéndola en la más grande del rubro.",
+    "keyPoints": [
+      "Fundada en Pekín en 1984 como Legend.",
+      "Compró el negocio de PCs de IBM, y la ThinkPad, en 2005.",
+      "Es dueña del negocio de celulares de Motorola desde 2014.",
+      "El mayor fabricante de PCs del mundo por unidades la mayoría de los años recientes."
+    ],
+    "links": [
+      { "label": "Lenovo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Lenovo" },
+      { "label": "Lenovo (sitio oficial)", "url": "https://www.lenovo.com/" }
+    ]
+  }
+}

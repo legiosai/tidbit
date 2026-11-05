@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="100" width="70" height="20" rx="4" fill="#9ac7ea"/>
+    <rect x="30" y="124" width="70" height="20" rx="4" fill="#9ac7ea"/>
+    <rect x="150" y="84" width="90" height="76" rx="12" fill="#ffd166"/>
+    <rect x="280" y="56" width="90" height="20" rx="4" fill="#9bd1b9"/>
+    <rect x="280" y="80" width="90" height="20" rx="4" fill="#9bd1b9"/>
+    <rect x="280" y="104" width="90" height="20" rx="4" fill="#9bd1b9"/>
+    <rect x="280" y="128" width="90" height="20" rx="4" fill="#9bd1b9"/>
+    <rect x="280" y="152" width="90" height="20" rx="4" fill="#9bd1b9"/>
+    <rect x="280" y="176" width="90" height="20" rx="4" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M104 122 H144"/><path d="M138 118 l6 4 -6 4"/>
+    <path d="M244 122 H274"/><path d="M268 118 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="195" y="127">generator</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="65" y="88">real data</text><text x="325" y="44">synthetic data</text>
+    <text x="65" y="164">a little</text><text x="195" y="178">model or sim</text>
+  </g>
+  <text x="160" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">realistic, but nobody's real record</text>
+</svg>

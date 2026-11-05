@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-06-spot-instances",
+  "date": "2026-11-06",
+  "subjects": ["cloud", "aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["Spot instance", "EC2 Spot", "Spot VM", "Spot VMs"],
+    "es": ["instancia spot", "Spot Instances", "instancias de spot", "EC2 Spot", "VM spot", "VMs spot"]
+  },
+  "image": "img/2026-11-06-spot-instances.svg",
+  "imageAlt": {
+    "en": "A server rack where two slots are rented at full price and three spare slots are rented cheaply as spot, and one spot slot gets a two-minute notice to give the capacity back",
+    "es": "Un rack de servidores con dos lugares alquilados a precio completo y tres lugares libres alquilados baratos como spot, y uno de los spot recibe un aviso de dos minutos para devolver la capacidad"
+  },
+  "en": {
+    "title": "Spot instances",
+    "tagline": "Spare cloud servers rented at a deep discount, but taken back on short notice.",
+    "explanation": [
+      "Cloud providers keep far more servers than they are using at any moment, so they can always hand capacity to whoever asks. **Spot instances** are how they rent out that idle capacity: the same virtual machines as usual, at a big discount, with one condition. When the provider needs the capacity back for a full-price customer, it takes it, and your machine is stopped or shut down.",
+      "On AWS, EC2 Spot can cost up to roughly 90% less than the normal on-demand price, and the price moves slowly with supply and demand for each instance type and Availability Zone. You get a two-minute warning before an interruption, which your software can read to save its work. Google Cloud (Spot VMs) and Azure (Spot Virtual Machines) offer the same idea with their own rules.",
+      "Spot is a good fit for work that can be paused, retried or split: batch processing, rendering, data analysis, CI/CD builds, training jobs with checkpoints, or stateless web servers behind a load balancer with enough copies. It is a bad fit for a single database or anything that must not stop. The common pattern is a mix: a base of regular or reserved capacity for what must stay up, and spot on top for the rest, spread across several instance types so one shortage does not take everything at once."
+    ],
+    "analogy": "Like flying standby: you pay much less for an empty seat, but if a full-fare passenger shows up, you get off the plane.",
+    "keyPoints": [
+      "Same machines, big discount, but they can be reclaimed.",
+      "On AWS you get a two-minute notice before an interruption.",
+      "Great for batch jobs, builds and anything that can restart.",
+      "Mix with regular instances and spread across instance types."
+    ],
+    "links": [
+      { "label": "Spot Instances (Amazon EC2 docs)", "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html" },
+      { "label": "Amazon EC2 Spot Instances", "url": "https://aws.amazon.com/ec2/spot/" },
+      { "label": "Spot VMs (Google Cloud docs)", "url": "https://cloud.google.com/compute/docs/instances/spot" }
+    ]
+  },
+  "es": {
+    "title": "Instancias spot",
+    "tagline": "Servidores cloud de sobra, alquilados muy baratos pero que te pueden sacar con poco aviso.",
+    "explanation": [
+      "Los proveedores cloud tienen muchos más servidores de los que usan en cada momento, para poder darle capacidad a quien la pida. Las **instancias spot** son la forma de alquilar esa capacidad ociosa: las mismas máquinas virtuales de siempre, con un descuento grande y una condición. Cuando el proveedor necesita esa capacidad para un cliente que paga precio completo, la recupera, y tu máquina se detiene o se apaga.",
+      "En AWS, EC2 Spot puede costar hasta alrededor de un 90% menos que el precio on-demand normal, y el precio se mueve despacio según la oferta y la demanda de cada tipo de instancia y zona de disponibilidad. Antes de una interrupción recibís un aviso de dos minutos, que tu software puede leer para guardar lo que estaba haciendo. Google Cloud (Spot VMs) y Azure (Spot Virtual Machines) ofrecen la misma idea con sus propias reglas.",
+      "Spot sirve para trabajos que se pueden pausar, reintentar o partir: procesamiento por lotes, renderizado, análisis de datos, builds de CI/CD, entrenamientos con checkpoints o servidores web sin estado detrás de un load balancer con suficientes copias. No sirve para una base de datos única ni para nada que no se pueda cortar. El patrón común es mezclar: una base de capacidad normal o reservada para lo que tiene que seguir andando, y spot encima para el resto, repartido entre varios tipos de instancia para que un faltante no se lleve todo junto."
+    ],
+    "analogy": "Como volar en lista de espera: pagás mucho menos por un asiento vacío, pero si aparece un pasajero con pasaje completo, te bajás del avión.",
+    "keyPoints": [
+      "Las mismas máquinas, mucho más baratas, pero te las pueden pedir de vuelta.",
+      "En AWS te avisan dos minutos antes de una interrupción.",
+      "Ideales para procesos por lotes, builds y todo lo que pueda reiniciarse.",
+      "Combinalas con instancias normales y repartilas entre tipos de instancia."
+    ],
+    "links": [
+      { "label": "Instancias de spot (documentación de Amazon EC2)", "url": "https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/using-spot-instances.html" },
+      { "label": "Instancias de spot de Amazon EC2", "url": "https://aws.amazon.com/es/ec2/spot/" },
+      { "label": "Spot VMs (documentación de Google Cloud, en inglés)", "url": "https://cloud.google.com/compute/docs/instances/spot" }
+    ]
+  }
+}

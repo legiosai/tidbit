@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="58" y="70" width="34" height="44" rx="3" fill="#9ac7ea"/>
+    <rect x="96" y="62" width="34" height="44" rx="3" fill="#9bd1b9"/>
+    <rect x="40" y="110" width="110" height="80" rx="6" fill="#ffd166"/>
+    <path d="M40 110 L22 84 M150 110 L168 84" fill="none"/>
+    <rect x="120" y="150" width="44" height="22" rx="4" fill="#f3efe6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="96">csv</text><text x="113" y="88">json</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="142" y="165">free</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M176 120 L236 64"/><path d="M229 64 l8 -1 -2 8"/>
+    <path d="M176 130 H236"/><path d="M231 126 l6 4 -6 4"/>
+    <path d="M176 140 L236 196"/><path d="M235 188 l2 8 -8 -1"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="248" y="44" width="124" height="36" rx="8" fill="#e6dfd0"/>
+    <rect x="248" y="112" width="124" height="36" rx="8" fill="#e6dfd0"/>
+    <rect x="248" y="180" width="124" height="36" rx="8" fill="#e6dfd0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="310" y="67">research</text><text x="310" y="135">journalism</text><text x="310" y="203">transit app</text>
+    <text x="95" y="210">open license</text>
+  </g>
+  <text x="200" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">anyone can use it, for anything</text>
+</svg>

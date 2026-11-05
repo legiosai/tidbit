@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="96" height="56" rx="8" fill="#9ac7ea"/>
+    <rect x="284" y="70" width="96" height="90" rx="10" fill="#9bd1b9"/>
+    <rect x="20" y="140" width="96" height="56" rx="8" fill="#f4a7a7"/>
+    <circle cx="200" cy="68" r="16" fill="#ffd166"/>
+    <circle cx="194" cy="64" r="2" fill="#2b2b2b"/><circle cx="206" cy="66" r="2" fill="#2b2b2b"/><circle cx="198" cy="74" r="2" fill="#2b2b2b"/>
+    <circle cx="200" cy="168" r="16" fill="#ffd166"/>
+    <circle cx="194" cy="164" r="2" fill="#2b2b2b"/><circle cx="206" cy="166" r="2" fill="#2b2b2b"/><circle cx="198" cy="174" r="2" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M120 60 H278"/><path d="M272 56 l6 4 -6 4"/>
+    <path d="M68 100 V134" stroke-dasharray="5 5"/><path d="M64 128 l4 6 4 -6"/>
+    <path d="M120 168 H278"/><path d="M272 164 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="68" y="66">you</text><text x="68" y="84" font-size="11">password + 2FA</text>
+    <text x="332" y="112">site</text><text x="332" y="130" font-size="11">"welcome back"</text>
+    <text x="68" y="166">attacker</text><text x="68" y="184" font-size="11">no password</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="102">session=8f3a…</text>
+    <text x="200" y="202">same cookie</text>
+    <text x="104" y="122" text-anchor="start">malware copies</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">whoever holds the cookie is you</text>
+</svg>

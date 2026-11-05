@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="18" y="56" width="110" height="110" rx="10" fill="#e6dfd0"/>
+    <rect x="150" y="86" width="54" height="50" rx="8" fill="#ffd166"/>
+    <rect x="226" y="40" width="158" height="150" rx="12" fill="#f3efe6"/>
+    <circle cx="262" cy="80" r="15" fill="#9ac7ea"/>
+    <circle cx="262" cy="150" r="15" fill="#9ac7ea"/>
+    <circle cx="348" cy="80" r="15" fill="#9ac7ea"/>
+    <circle cx="348" cy="150" r="15" fill="#9ac7ea"/>
+    <rect x="286" y="74" width="38" height="12" rx="6" fill="#9bd1b9"/>
+    <rect x="286" y="144" width="38" height="12" rx="6" fill="#9bd1b9"/>
+    <rect x="256" y="102" width="12" height="26" rx="6" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M130 111 H146"/><path d="M140 106 l6 5 -6 5"/>
+    <path d="M206 111 H222"/><path d="M216 106 l6 5 -6 5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="73" y="84">main.go</text>
+    <text x="73" y="112">go handle()</text>
+    <text x="73" y="132">ch &lt;- msg</text>
+    <text x="177" y="115">app</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="177" y="152">1 binary</text>
+    <text x="305" y="34">server</text>
+    <text x="305" y="120">channels</text>
+    <text x="305" y="182">goroutines</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">compile once · copy one file · run many tasks</text>
+</svg>

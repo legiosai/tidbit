@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-typescript",
+  "date": "2026-11-05",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["TS", "type annotation", "type annotations"],
+    "es": ["TS", "anotación de tipos", "anotaciones de tipos"]
+  },
+  "image": "img/2026-11-05-typescript.svg",
+  "imageAlt": {
+    "en": "A TypeScript file with type labels goes through a checker that flags a mistake, then comes out as plain JavaScript",
+    "es": "Un archivo de TypeScript con etiquetas de tipos pasa por un chequeador que marca un error, y después sale como JavaScript común"
+  },
+  "en": {
+    "title": "TypeScript",
+    "tagline": "JavaScript with types added, so many mistakes are caught before the code runs.",
+    "explanation": [
+      "**TypeScript** is a programming language made by Microsoft and released in 2012. It is JavaScript plus one big addition: **types**. You can label a variable as a number, a function as taking a string, or an object as having a `name` and an `email`. Every valid JavaScript program is also valid TypeScript, so teams can adopt it gradually, one file at a time.",
+      "Browsers and Node.js run JavaScript, not TypeScript. So before running, the TypeScript compiler, `tsc`, checks the code and then strips out the types, producing plain JavaScript. The check is the point: if you pass text where a number was expected, call a function that does not exist, or forget that a value can be empty, TypeScript tells you while you type, not when a customer hits the bug.",
+      "In big projects that changes a lot. Editors use the types to autocomplete, jump to definitions and rename things safely across thousands of files. Types also work as documentation that cannot drift out of date. That is why TypeScript became the default for many web and Node.js teams. The checks only exist at build time, though: data that comes from outside at runtime, like a response from an API, still has to be validated."
+    ],
+    "analogy": "A spell checker for the logic of your program. It does not change what you meant to write, and the reader never sees it, but it underlines the mistakes before anything is printed.",
+    "keyPoints": [
+      "TypeScript is JavaScript plus optional static types.",
+      "It compiles to plain JavaScript; the types disappear at runtime.",
+      "Catches many bugs in the editor and powers autocomplete and safe refactoring.",
+      "Data arriving at runtime still needs validation."
+    ],
+    "links": [
+      { "label": "TypeScript (official site)", "url": "https://www.typescriptlang.org/" },
+      { "label": "TypeScript documentation", "url": "https://www.typescriptlang.org/docs/" }
+    ]
+  },
+  "es": {
+    "title": "TypeScript",
+    "tagline": "JavaScript con tipos agregados, para atrapar muchos errores antes de que el código corra.",
+    "explanation": [
+      "**TypeScript** es un lenguaje de programación creado por Microsoft y lanzado en 2012. Es JavaScript más un agregado grande: los **tipos**. Podés indicar que una variable es un número, que una función recibe un texto o que un objeto tiene un `name` y un `email`. Todo programa válido en JavaScript también es TypeScript válido, así que los equipos lo pueden adoptar de a poco, archivo por archivo.",
+      "Los navegadores y Node.js ejecutan JavaScript, no TypeScript. Por eso, antes de correr, el compilador de TypeScript, `tsc`, revisa el código y después le saca los tipos, y queda JavaScript común. La revisión es la gracia: si pasás un texto donde se esperaba un número, llamás a una función que no existe o te olvidás de que un valor puede venir vacío, TypeScript te avisa mientras escribís, no cuando un cliente se choca con el bug.",
+      "En proyectos grandes eso cambia mucho. Los editores usan los tipos para autocompletar, saltar a las definiciones y renombrar cosas con seguridad en miles de archivos. Los tipos además funcionan como documentación que no se puede desactualizar. Por eso TypeScript se volvió lo normal en muchos equipos de web y de Node.js. Eso sí, los chequeos existen solo al compilar: los datos que llegan de afuera mientras el programa corre, como la respuesta de una API, igual hay que validarlos."
+    ],
+    "analogy": "Un corrector ortográfico, pero para la lógica de tu programa. No cambia lo que quisiste escribir y el lector nunca lo ve, pero te subraya los errores antes de imprimir.",
+    "keyPoints": [
+      "TypeScript es JavaScript más tipos estáticos opcionales.",
+      "Se compila a JavaScript común; los tipos desaparecen al ejecutar.",
+      "Atrapa muchos bugs en el editor y hace posibles el autocompletado y los refactors seguros.",
+      "Los datos que llegan mientras corre el programa igual hay que validarlos."
+    ],
+    "links": [
+      { "label": "TypeScript (sitio oficial, en inglés)", "url": "https://www.typescriptlang.org/" },
+      { "label": "TypeScript en Wikipedia", "url": "https://es.wikipedia.org/wiki/TypeScript" }
+    ]
+  }
+}

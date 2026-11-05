@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-lithium-ion-battery",
+  "date": "2026-11-05",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["lithium-ion batteries", "Li-ion", "lithium battery", "lithium batteries", "battery", "batteries"],
+    "es": ["batería de iones de litio", "baterías de litio", "baterías de iones de litio", "batería de ion de litio", "Li-ion", "batería", "baterías"]
+  },
+  "image": "img/2026-11-05-lithium-ion-battery.svg",
+  "imageAlt": {
+    "en": "A battery cell with lithium ions moving from one side to the other while charging and back while in use",
+    "es": "Una celda de batería con iones de litio que pasan de un lado al otro al cargar y vuelven al usarla"
+  },
+  "en": {
+    "title": "Lithium-ion battery",
+    "tagline": "The rechargeable battery inside phones, laptops and electric cars.",
+    "explanation": [
+      "A **lithium-ion battery** stores energy by moving lithium ions between two sides, called electrodes. When you charge it, the charger pushes the ions to one side; when you use the device, they flow back and the battery releases that energy as electricity. The same trip can repeat hundreds or thousands of times, which is what makes it rechargeable.",
+      "It won because it packs a lot of energy into little weight and space, and it barely loses charge sitting in a drawer. That is why the same basic chemistry powers your phone, your laptop, wireless earbuds, power tools and electric cars. Its inventors received the Nobel Prize in Chemistry in 2019.",
+      "Every lithium-ion battery wears out. Each charge cycle, heat and long stretches at 100% or near 0% slowly reduce how much it can hold, so a phone that lasted a full day when new may need a charger by the afternoon after a few years. A small chip inside, the battery management system, watches temperature and voltage to keep it safe. A damaged or swollen battery can catch fire, which is why airlines ask you to carry them in the cabin."
+    ],
+    "analogy": "Two water tanks connected by a pipe with a little turbine. Charging pumps the water up into one tank; using the device lets it flow back down through the turbine. Over the years the tanks slowly shrink.",
+    "keyPoints": [
+      "Lithium ions move one way when charging and back when discharging.",
+      "Lots of energy for its weight, which is why it is everywhere.",
+      "Capacity drops over time; heat and extreme charge levels speed that up.",
+      "A swollen or damaged battery is a fire risk and should be replaced."
+    ],
+    "links": [
+      { "label": "Lithium-ion battery on Wikipedia", "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery" },
+      { "label": "Nobel Prize in Chemistry 2019 (lithium-ion batteries)", "url": "https://www.nobelprize.org/prizes/chemistry/2019/summary/" }
+    ]
+  },
+  "es": {
+    "title": "Batería de litio",
+    "tagline": "La batería recargable que tienen adentro el celular, la notebook y el auto eléctrico.",
+    "explanation": [
+      "Una **batería de iones de litio** (o batería de litio, para abreviar) guarda energía moviendo iones de litio entre dos lados, llamados electrodos. Cuando la cargás, el cargador empuja los iones hacia un lado; cuando usás el aparato, vuelven y la batería entrega esa energía como electricidad. Ese viaje se puede repetir cientos o miles de veces, y por eso es recargable.",
+      "Se impuso porque mete mucha energía en poco peso y poco espacio, y casi no pierde carga guardada en un cajón. Por eso la misma química básica alimenta tu celular, tu notebook, los auriculares inalámbricos, las herramientas eléctricas y los autos eléctricos. Sus inventores ganaron el Premio Nobel de Química en 2019.",
+      "Toda batería de iones de litio se gasta. Cada ciclo de carga, el calor y pasar mucho tiempo al 100% o cerca del 0% van reduciendo de a poco cuánto puede guardar: un celular que nuevo aguantaba todo el día, a los pocos años te pide el cargador a media tarde. Un chip adentro, el sistema de gestión de batería, vigila la temperatura y el voltaje para que funcione segura. Una batería dañada o hinchada se puede prender fuego, y por eso las aerolíneas te piden llevarlas en la cabina."
+    ],
+    "analogy": "Dos tanques de agua unidos por un caño con una turbinita. Cargar es bombear el agua hacia un tanque; usar el aparato es dejarla bajar por la turbina. Con los años, los tanques se achican un poco.",
+    "keyPoints": [
+      "Los iones de litio van para un lado al cargar y vuelven al descargar.",
+      "Mucha energía para su peso: por eso está en todos lados.",
+      "La capacidad baja con el tiempo; el calor y los extremos de carga lo aceleran.",
+      "Una batería hinchada o golpeada es riesgo de incendio y hay que cambiarla."
+    ],
+    "links": [
+      { "label": "Batería de ion de litio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Batería_de_ion_de_litio" },
+      { "label": "Premio Nobel de Química 2019 (en inglés)", "url": "https://www.nobelprize.org/prizes/chemistry/2019/summary/" }
+    ]
+  }
+}

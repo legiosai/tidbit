@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-05-service-mesh",
+  "date": "2026-11-05",
+  "subjects": ["cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["service meshes", "Istio", "Linkerd", "sidecar proxy", "sidecar proxies"],
+    "es": ["malla de servicios", "Istio", "Linkerd", "proxy sidecar", "proxies sidecar"]
+  },
+  "image": "img/2026-11-05-service-mesh.svg",
+  "imageAlt": {
+    "en": "Three services each paired with a small proxy; the proxies talk to each other over locked connections and report to a control plane above",
+    "es": "Tres servicios, cada uno con un proxy chico al lado; los proxies se hablan por conexiones con candado y le reportan a un plano de control arriba"
+  },
+  "en": {
+    "title": "Service mesh",
+    "tagline": "A network layer that handles how microservices talk, so the code does not have to.",
+    "explanation": [
+      "A **service mesh** is infrastructure that sits between the services of a microservices system and manages every call they make to each other. Instead of each team writing its own code for retries, timeouts, encryption and metrics, the mesh does it the same way for everyone, outside the application code.",
+      "The classic design puts a small proxy, a **sidecar**, next to every service instance, usually in the same Kubernetes pod. The service thinks it is calling another service directly, but the request actually goes through its sidecar, across the network, and into the other side's sidecar. Together, the sidecars are the **data plane**. A **control plane** configures them all centrally: which service may call which, how much traffic goes to a new version, which certificates to use. Newer designs drop the per-pod sidecar and share proxies per node to save resources.",
+      "What you get: mutual TLS between all services without touching the code, fine-grained traffic rules useful for canary releases, automatic retries, and uniform telemetry for observability. What it costs: another complex system to run, extra latency on every hop and more memory. It tends to pay off with dozens or hundreds of services, not with five. **Istio** and **Linkerd** are the best-known open-source meshes."
+    ],
+    "analogy": "Like giving every office in a large company its own assistant who handles all the mail. People just say \"send this to accounting\"; the assistants handle sealed envelopes, retries when nobody answers and a log of everything, following rules set by one central office.",
+    "keyPoints": [
+      "Moves retries, timeouts, encryption and metrics out of app code into the network layer.",
+      "Data plane: proxies beside each service. Control plane: central configuration.",
+      "Gives mutual TLS, traffic splitting and uniform telemetry.",
+      "Adds latency and operational complexity; worth it at larger scale."
+    ],
+    "links": [
+      { "label": "What is a service mesh? (Istio)", "url": "https://istio.io/latest/about/service-mesh/" },
+      { "label": "What is a service mesh? (Linkerd)", "url": "https://linkerd.io/what-is-a-service-mesh/" },
+      { "label": "Service mesh on Wikipedia", "url": "https://en.wikipedia.org/wiki/Service_mesh" }
+    ]
+  },
+  "es": {
+    "title": "Service mesh",
+    "tagline": "Una capa que maneja cómo se hablan los microservicios, por fuera del código.",
+    "explanation": [
+      "Un **service mesh** (malla de servicios) es infraestructura que se mete entre los servicios de un sistema de microservicios y administra cada llamada que se hacen entre ellos. En vez de que cada equipo escriba su propio código para reintentos, timeouts, cifrado y métricas, la malla lo resuelve igual para todos, por fuera del código de la aplicación.",
+      "El diseño clásico pone un proxy chico, un **sidecar**, al lado de cada instancia de un servicio, en general dentro del mismo pod de Kubernetes. El servicio cree que llama directo a otro servicio, pero el pedido en realidad pasa por su sidecar, cruza la red y entra por el sidecar del otro lado. Todos los sidecars juntos forman el **plano de datos** (data plane). Un **plano de control** (control plane) los configura desde un lugar central: qué servicio puede llamar a cuál, cuánto tráfico va a una versión nueva, qué certificados usar. Los diseños más nuevos sacan el sidecar por pod y comparten proxies por nodo para ahorrar recursos.",
+      "Lo que ganás: TLS mutuo entre todos los servicios sin tocar el código, reglas finas de tráfico útiles para canary releases, reintentos automáticos y telemetría pareja para la observabilidad. Lo que cuesta: otro sistema complejo para operar, latencia extra en cada salto y más memoria. Suele convenir con decenas o cientos de servicios, no con cinco. **Istio** y **Linkerd** son las mallas open source más conocidas."
+    ],
+    "analogy": "Como darle a cada oficina de una empresa grande su propio asistente que maneja todo el correo. La gente solo dice \"mandá esto a contaduría\"; los asistentes se ocupan de los sobres cerrados, de reintentar cuando nadie contesta y de anotar todo, siguiendo reglas que pone una oficina central.",
+    "keyPoints": [
+      "Saca reintentos, timeouts, cifrado y métricas del código y los lleva a la capa de red.",
+      "Plano de datos: proxies al lado de cada servicio. Plano de control: la configuración central.",
+      "Da TLS mutuo, reparto de tráfico y telemetría uniforme.",
+      "Suma latencia y complejidad operativa; rinde a escala grande."
+    ],
+    "links": [
+      { "label": "¿Qué es una malla de servicios? (AWS)", "url": "https://aws.amazon.com/es/what-is/service-mesh/" },
+      { "label": "What is a service mesh? (Istio, en inglés)", "url": "https://istio.io/latest/about/service-mesh/" },
+      { "label": "Service mesh en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Service_mesh" }
+    ]
+  }
+}

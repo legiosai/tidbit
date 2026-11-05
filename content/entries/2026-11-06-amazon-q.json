@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-06-amazon-q",
+  "date": "2026-11-06",
+  "subjects": ["aws", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["Amazon Q Developer", "Amazon Q Business", "Q Developer", "Q Business"],
+    "es": ["Amazon Q Developer", "Amazon Q Business", "Q Developer", "Q Business"]
+  },
+  "image": "img/2026-11-06-amazon-q.svg",
+  "imageAlt": {
+    "en": "Amazon Q in the middle, branching into Q Developer, helping inside a code editor, and Q Business, answering from company documents",
+    "es": "Amazon Q en el centro, que se abre en Q Developer, ayudando dentro de un editor de código, y Q Business, respondiendo a partir de documentos de la empresa"
+  },
+  "en": {
+    "title": "Amazon Q",
+    "tagline": "AWS's AI assistant for writing code and for answering questions about company data.",
+    "explanation": [
+      "**Amazon Q** is the name AWS gave, in 2023, to its family of generative AI assistants. Like a chatbot, you ask in plain language and it answers, but each version is connected to a specific kind of work. It runs on large language models served through Amazon Bedrock.",
+      "**Amazon Q Developer** is for people who build software. It lives inside code editors like VS Code and JetBrains, in the terminal and in the AWS console. It suggests code as you type, explains unfamiliar code, writes tests, helps fix errors and answers questions like \"why is my Lambda function timing out?\" using what it can see of your AWS account. It can also carry out longer jobs, like upgrading an old Java application to a newer version.",
+      "**Amazon Q Business** is for everyone else at a company. It connects to internal sources like document drives, wikis, ticket systems and Salesforce, and answers questions using that content, respecting who is allowed to see what. Q has also appeared inside other AWS services. AWS keeps reshaping the line-up: in 2025 it launched Kiro, a coding tool, and Amazon Quick, a workplace assistant, which overlap with parts of Q, so expect the names to keep shifting."
+    ],
+    "analogy": "A colleague who already knows your company's systems: one desk helps the programmers with their code, the other helps everyone find answers in the company's files.",
+    "keyPoints": [
+      "Q Developer helps write, explain and fix code, and answers AWS questions.",
+      "Q Business answers employees' questions from company data, respecting permissions.",
+      "It runs on models served through Amazon Bedrock.",
+      "AWS product names in this area change often; check the current docs."
+    ],
+    "links": [
+      { "label": "What is Amazon Q Developer? (official docs)", "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/what-is.html" },
+      { "label": "Amazon Q", "url": "https://aws.amazon.com/q/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Q",
+    "tagline": "El asistente de IA de AWS para escribir código y responder sobre los datos de tu empresa.",
+    "explanation": [
+      "**Amazon Q** es el nombre que AWS le puso, en 2023, a su familia de asistentes de IA generativa. Como un chatbot, le preguntás en lenguaje común y te responde, pero cada versión está conectada a un tipo de trabajo concreto. Funciona con modelos de lenguaje grandes servidos a través de Amazon Bedrock.",
+      "**Amazon Q Developer** es para quienes hacen software. Vive dentro de editores de código como VS Code y JetBrains, en la terminal y en la consola de AWS. Te sugiere código mientras escribís, te explica código que no conocés, escribe tests, ayuda a arreglar errores y responde preguntas como \"¿por qué se corta por timeout mi función Lambda?\" mirando lo que puede ver de tu cuenta de AWS. También puede encarar trabajos más largos, como actualizar una aplicación Java vieja a una versión nueva.",
+      "**Amazon Q Business** es para el resto de la empresa. Se conecta a fuentes internas como unidades de documentos, wikis, sistemas de tickets y Salesforce, y responde con ese contenido, respetando quién puede ver qué. Q también apareció dentro de otros servicios de AWS. AWS sigue reacomodando la oferta: en 2025 lanzó Kiro, una herramienta para programar, y Amazon Quick, un asistente para el trabajo, que se superponen con partes de Q, así que es esperable que los nombres sigan cambiando."
+    ],
+    "analogy": "Un compañero que ya conoce los sistemas de la empresa: en un escritorio ayuda a los programadores con su código y en el otro ayuda a todos a encontrar respuestas en los archivos de la empresa.",
+    "keyPoints": [
+      "Q Developer ayuda a escribir, explicar y arreglar código, y responde dudas sobre AWS.",
+      "Q Business responde preguntas del personal con datos de la empresa, respetando permisos.",
+      "Funciona con modelos servidos a través de Amazon Bedrock.",
+      "Los nombres de AWS en esta área cambian seguido; conviene mirar la documentación actual."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Q Developer? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/amazonq/latest/qdeveloper-ug/what-is.html" },
+      { "label": "Amazon Q", "url": "https://aws.amazon.com/es/q/" }
+    ]
+  }
+}

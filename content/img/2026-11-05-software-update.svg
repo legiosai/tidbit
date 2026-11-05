@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="60" width="90" height="110" rx="8" fill="#e6dfd0"/>
+    <line x1="36" y1="84" x2="102" y2="84"/><line x1="36" y1="110" x2="102" y2="110"/><line x1="36" y1="136" x2="102" y2="136"/>
+    <rect x="300" y="44" width="72" height="140" rx="12" fill="#9ac7ea"/>
+    <rect x="310" y="60" width="52" height="108" rx="4" fill="#f3efe6"/>
+    <rect x="150" y="50" width="110" height="28" rx="6" fill="#9bd1b9"/>
+    <rect x="150" y="100" width="110" height="28" rx="6" fill="#f4a7a7"/>
+    <rect x="150" y="150" width="110" height="28" rx="6" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M118 114 H144"/><path d="M262 114 H292"/><path d="M286 110 l6 4 -6 4"/>
+    <path d="M336 96 V128"/><path d="M328 120 l8 8 8 -8"/><path d="M324 140 H348"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="205" y="69">bug fix</text><text x="205" y="119">security fix</text><text x="205" y="169">new feature</text>
+    <text x="69" y="186">server</text><text x="336" y="202">phone</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="336" y="84">v2.1</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the old copy is replaced by a better one</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-05-ethernet",
+  "date": "2026-11-05",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["Ethernet cable", "Ethernet cables", "Ethernet port", "Ethernet ports", "network cable", "network cables"],
+    "es": ["cable Ethernet", "cables Ethernet", "puerto Ethernet", "puertos Ethernet", "cable de red", "cables de red"]
+  },
+  "image": "img/2026-11-05-ethernet.svg",
+  "imageAlt": {
+    "en": "A laptop and a desktop computer plugged with cables into a router, with the cable's eight-pin connector drawn up close",
+    "es": "Una notebook y una computadora de escritorio enchufadas con cables a un router, con el conector de ocho pines del cable dibujado de cerca"
+  },
+  "en": {
+    "title": "Ethernet",
+    "tagline": "The standard way to connect computers to a network with a cable.",
+    "explanation": [
+      "**Ethernet** is the technology behind the network cable you plug into the back of a router, a desktop computer or a TV. It defines the cable, the connector, how fast bits travel through it and how devices on the same local network take turns sending data. Each device is identified by its MAC address, and data travels in small frames that carry the sender and the receiver.",
+      "It was created at Xerox PARC in the 1970s and became the IEEE 802.3 standard. The connector most people know is the rectangular one with a little plastic clip, called RJ45. Home equipment usually runs at 1 gigabit per second, and offices and data centers use much faster versions, many of them over fiber optic instead of copper.",
+      "Wi-Fi is more convenient, but a cable is still the safe bet when the connection really matters: it does not suffer interference from walls or neighbors, its latency is lower and steadier, and nobody can listen in from the street. That is why gamers, streamers and almost every server in a data center are plugged in with Ethernet."
+    ],
+    "analogy": "Wi-Fi is talking across a crowded room; Ethernet is a private tube from your desk straight to the person you are talking to. Less freedom to move, but nothing gets lost on the way.",
+    "keyPoints": [
+      "Ethernet is the standard for wired local networks, defined as IEEE 802.3.",
+      "Typical home cables and ports run at 1 Gbps; data centers use far faster links.",
+      "A cable gives lower and more stable latency than Wi-Fi.",
+      "The common connector is RJ45, the one with the plastic clip."
+    ],
+    "links": [
+      { "label": "Ethernet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Ethernet" },
+      { "label": "IEEE 802.3 Ethernet Working Group", "url": "https://www.ieee802.org/3/" }
+    ]
+  },
+  "es": {
+    "title": "Ethernet",
+    "tagline": "La forma estándar de conectar computadoras a una red con un cable.",
+    "explanation": [
+      "**Ethernet** es la tecnología detrás del cable de red que enchufás atrás del router, de la compu de escritorio o del televisor. Define el cable, el conector, a qué velocidad viajan los bits y cómo se turnan para hablar los dispositivos de una misma red local. Cada equipo se identifica con su dirección MAC, y los datos viajan en pequeños marcos que dicen quién manda y quién recibe.",
+      "Nació en Xerox PARC en los años 70 y se convirtió en el estándar IEEE 802.3. El conector que todos conocemos es el rectangular con una trabita de plástico, que se llama RJ45. En casa lo normal es 1 gigabit por segundo, y en oficinas y data centers se usan versiones mucho más rápidas, muchas sobre fibra óptica en vez de cobre.",
+      "El Wi-Fi es más cómodo, pero el cable sigue siendo la apuesta segura cuando la conexión importa de verdad: no sufre interferencias de paredes ni de vecinos, su latencia es más baja y más pareja, y nadie puede escuchar desde la vereda. Por eso los gamers, los que hacen streaming y casi todos los servidores de un data center van enchufados por Ethernet."
+    ],
+    "analogy": "El Wi-Fi es hablar de una punta a otra de un salón lleno de gente; Ethernet es un tubo privado desde tu escritorio hasta la persona con la que hablás. Te podés mover menos, pero no se pierde nada en el camino.",
+    "keyPoints": [
+      "Ethernet es el estándar de las redes locales cableadas, definido como IEEE 802.3.",
+      "Los cables y puertos de casa suelen ir a 1 Gbps; los data centers usan enlaces muchísimo más rápidos.",
+      "El cable da una latencia más baja y más estable que el Wi-Fi.",
+      "El conector común es el RJ45, el de la trabita de plástico."
+    ],
+    "links": [
+      { "label": "Ethernet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ethernet" },
+      { "label": "Grupo de trabajo IEEE 802.3 (en inglés)", "url": "https://www.ieee802.org/3/" }
+    ]
+  }
+}
