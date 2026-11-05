@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="44" cy="92" r="14" fill="#9ac7ea"/>
+    <path d="M24 140 C24 112 64 112 64 140 Z" fill="#9ac7ea"/>
+    <ellipse cx="110" cy="70" rx="9" ry="13" fill="#ffd166"/>
+    <ellipse cx="170" cy="62" rx="9" ry="13" fill="#ffd166"/>
+    <ellipse cx="230" cy="70" rx="9" ry="13" fill="#ffd166"/>
+    <ellipse cx="110" cy="150" rx="9" ry="13" fill="#f4a7a7"/>
+    <ellipse cx="170" cy="142" rx="9" ry="13" fill="#f4a7a7"/>
+    <ellipse cx="230" cy="150" rx="9" ry="13" fill="#f4a7a7"/>
+    <path d="M318 70 V150 C318 162 380 162 380 150 V70" fill="#e6dfd0"/>
+    <ellipse cx="349" cy="70" rx="31" ry="10" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M250 70 H306"/><path d="M300 65 l7 5 -7 5"/>
+    <path d="M250 146 H306"/><path d="M300 141 l7 5 -7 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="110" y="100">posts</text><text x="170" y="92">photos</text><text x="230" y="100">reviews</text>
+    <text x="110" y="180">location</text><text x="170" y="172">cookies</text><text x="230" y="180">purchases</text>
+    <text x="349" y="112" font-size="12">profile</text><text x="349" y="128">searchable</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="170" y="34">active: on purpose</text>
+    <text x="170" y="122">passive: without noticing</text>
+    <text x="44" y="158">you</text>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">every step online leaves a trace</text>
+</svg>

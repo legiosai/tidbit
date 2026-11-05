@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-07-drone",
+  "date": "2026-11-07",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "drones",
+      "UAV",
+      "UAVs",
+      "unmanned aerial vehicle",
+      "unmanned aerial vehicles",
+      "quadcopter",
+      "quadcopters"
+    ],
+    "es": [
+      "drones",
+      "drone",
+      "UAV",
+      "vehículo aéreo no tripulado",
+      "vehículos aéreos no tripulados",
+      "cuadricóptero",
+      "cuadricópteros"
+    ]
+  },
+  "image": "img/2026-11-07-drone.svg",
+  "imageAlt": {
+    "en": "A quadcopter seen from above with four propellers, a central body holding the flight controller, GPS and battery, and a camera hanging below",
+    "es": "Un cuadricóptero visto desde arriba con cuatro hélices, un cuerpo central con el controlador de vuelo, el GPS y la batería, y una cámara colgando abajo"
+  },
+  "en": {
+    "title": "Drone",
+    "tagline": "An aircraft with no pilot on board, flown by remote control or by its own computer.",
+    "explanation": [
+      "A **drone** is an aircraft without a pilot inside. Someone flies it from the ground with a remote control or an app, or it follows a route on its own. The formal name is unmanned aerial vehicle, or **UAV**. Drones range from palm-sized toys to aircraft the size of a small plane.",
+      "The kind most people picture is the quadcopter: four propellers on arms around a small body. It steers by changing the speed of each motor. Spin the two on one side a little faster and it tilts and moves the other way. Doing that by hand would be impossible, so a flight controller, a small computer fed by a gyroscope, an accelerometer, a barometer and GPS, makes hundreds of tiny corrections every second to keep it level and in place. Fixed-wing drones look like small planes instead and can fly much longer on a charge.",
+      "Drones are used for aerial photos and film, inspecting roofs, bridges and power lines, mapping fields and spraying crops, search and rescue, deliveries in some places, and in war. Battery life is the main limit for small ones: flights are usually measured in minutes, not hours. Because they share the sky with planes and fly over people, most countries have rules on where and how high you can fly, and some require registering the drone or getting a license."
+    ],
+    "analogy": "Like a remote-controlled toy plane that grew a brain. You tell it where to go, and its own little computer handles the balancing and the wind for you.",
+    "keyPoints": [
+      "An aircraft with no pilot on board; formally a UAV.",
+      "Quadcopters steer by changing the speed of each of their four motors.",
+      "A flight controller with sensors and GPS keeps it stable.",
+      "Battery life and flight rules are the main limits."
+    ],
+    "links": [
+      {
+        "label": "Unmanned aerial vehicle on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle"
+      }
+    ]
+  },
+  "es": {
+    "title": "Dron",
+    "tagline": "Una aeronave sin piloto a bordo, manejada a distancia o por su propia computadora.",
+    "explanation": [
+      "Un **dron** es una aeronave sin piloto adentro. Alguien lo maneja desde tierra con un control remoto o una app, o sigue una ruta solo. El nombre formal es vehículo aéreo no tripulado, o **UAV** por su sigla en inglés. Hay desde drones de juguete que entran en la palma de la mano hasta aparatos del tamaño de un avión chico.",
+      "El que casi todos imaginamos es el cuadricóptero: cuatro hélices en brazos alrededor de un cuerpo chico. Se maneja cambiando la velocidad de cada motor. Si los dos de un lado giran un poco más rápido, se inclina y avanza hacia el otro lado. Hacer eso a mano sería imposible, así que un controlador de vuelo, una computadorita alimentada por un giroscopio, un acelerómetro, un barómetro y GPS, hace cientos de correcciones mínimas por segundo para mantenerlo derecho y quieto. Los drones de ala fija, en cambio, parecen avioncitos y vuelan mucho más tiempo con una carga.",
+      "Se usan para fotos y filmaciones aéreas, para inspeccionar techos, puentes y líneas eléctricas, para mapear campos y fumigar cultivos, en búsqueda y rescate, para entregas en algunos lugares y en la guerra. En los chicos, el límite principal es la batería: los vuelos se miden en minutos, no en horas. Como comparten el cielo con aviones y vuelan sobre gente, la mayoría de los países tiene reglas sobre dónde y a qué altura se puede volar, y algunos exigen registrar el dron o sacar una licencia."
+    ],
+    "analogy": "Como un avioncito a control remoto al que le pusieron cerebro. Vos le decís adónde ir y su propia computadorita se encarga del equilibrio y del viento.",
+    "keyPoints": [
+      "Una aeronave sin piloto a bordo; formalmente, un UAV.",
+      "Los cuadricópteros se manejan cambiando la velocidad de cada uno de sus cuatro motores.",
+      "Un controlador de vuelo con sensores y GPS lo mantiene estable.",
+      "La batería y las reglas de vuelo son sus límites principales."
+    ],
+    "links": [
+      {
+        "label": "Vehículo aéreo no tripulado en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Veh%C3%ADculo_a%C3%A9reo_no_tripulado"
+      },
+      {
+        "label": "Unmanned aerial vehicle en Wikipedia (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle"
+      }
+    ]
+  }
+}

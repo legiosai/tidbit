@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-quantization",
+  "date": "2026-11-07",
+  "subjects": ["ai", "hardware"],
+  "level": 3,
+  "aliases": {
+    "en": ["quantized", "quantize", "quantized model", "quantized models", "model quantization", "post-training quantization", "quantization-aware training"],
+    "es": ["quantization", "cuantizado", "cuantizada", "cuantizar", "modelo cuantizado", "modelos cuantizados", "cuantización de modelos"]
+  },
+  "image": "img/2026-11-07-quantization.svg",
+  "imageAlt": {
+    "en": "A block of 16-bit weights becomes one scale factor plus a row of small 4-bit integers, shrinking the memory bar to about a quarter",
+    "es": "Un bloque de pesos de 16 bits se convierte en un factor de escala más una fila de enteros chicos de 4 bits, y la barra de memoria se achica a un cuarto"
+  },
+  "en": {
+    "title": "Quantization",
+    "tagline": "Storing a model's numbers with fewer bits so it needs less memory and runs faster.",
+    "explanation": [
+      "A trained model is billions of numbers, its weights, usually stored as 16-bit floating point (FP16 or BF16): two bytes each. **Quantization** maps them to a smaller format, typically 8-bit or 4-bit integers. A 70-billion-parameter model shrinks from roughly 140 GB of weights to roughly 35 GB at 4 bits: the difference between needing several data-center GPUs and fitting on one large one.",
+      "The core trick is a scale factor. Weights are split into small blocks, say 32 or 128 values; each block keeps one higher-precision scale, and each weight becomes a small integer that, multiplied by that scale, approximates the original. Rounding throws information away, so methods such as GPTQ and AWQ choose the rounding carefully using a little sample data and protect the weights that matter most. Formats like GGUF, used by llama.cpp and Ollama, package these schemes for running models locally.",
+      "Most quantization happens after training (**post-training quantization**) and takes minutes to hours. **Quantization-aware training** simulates the low precision during training so the model learns to cope with it, at a higher cost. Beyond weights, activations and the KV cache can be quantized too, and recent GPUs have hardware support for 8-bit and even 4-bit floating-point math.",
+      "The speedup comes mostly from memory, not arithmetic: generating each token means reading every weight, so moving a half or a quarter of the bytes makes generation faster before any math changes. The price is quality. 8 bits is usually close to lossless; 4 bits is a popular compromise with a small, measurable drop; below that, quality falls off quickly, and small models tend to suffer more than large ones. Evaluate a quantized model on your own task, not only on a public benchmark."
+    ],
+    "analogy": "Saving a photo as a compressed JPEG instead of a RAW file. It takes a fraction of the space and looks almost the same; squeeze it too hard and blotches appear.",
+    "keyPoints": [
+      "Going from 16-bit to 4-bit cuts weight memory roughly by four.",
+      "Block-wise scale factors keep the rounding error small.",
+      "Faster generation comes mainly from reading fewer bytes per token.",
+      "8-bit is near lossless; below 4 bits quality drops fast."
+    ],
+    "links": [
+      { "label": "Quantization overview (Hugging Face Transformers docs)", "url": "https://huggingface.co/docs/transformers/main/en/quantization/overview" },
+      { "label": "Quantization concept guide (Hugging Face Optimum)", "url": "https://huggingface.co/docs/optimum/concept_guides/quantization" }
+    ]
+  },
+  "es": {
+    "title": "Cuantización",
+    "tagline": "Guardar los números de un modelo con menos bits para que ocupe menos y ande más rápido.",
+    "explanation": [
+      "Un modelo entrenado son miles de millones de números, sus pesos, guardados en general como punto flotante de 16 bits (FP16 o BF16): dos bytes cada uno. La **cuantización** los pasa a un formato más chico, típicamente enteros de 8 o de 4 bits. Un modelo de 70.000 millones de parámetros baja de unos 140 GB de pesos a unos 35 GB en 4 bits: la diferencia entre necesitar varias GPUs de data center y entrar en una sola grande.",
+      "El truco central es un factor de escala. Los pesos se parten en bloques chicos, de 32 o 128 valores por ejemplo; cada bloque guarda una escala con más precisión, y cada peso pasa a ser un entero chico que, multiplicado por esa escala, se aproxima al original. Redondear tira información, así que métodos como GPTQ y AWQ eligen el redondeo con cuidado usando unos pocos datos de muestra y protegen los pesos que más pesan en el resultado. Formatos como GGUF, el que usan llama.cpp y Ollama, empaquetan estos esquemas para correr modelos en tu propia máquina.",
+      "La mayoría de la cuantización se hace después del entrenamiento (**post-training quantization**) y lleva de minutos a horas. El **quantization-aware training** simula la baja precisión durante el entrenamiento para que el modelo aprenda a convivir con ella, a un costo mayor. Además de los pesos, se pueden cuantizar las activaciones y la caché KV, y las GPUs recientes traen soporte en hardware para cuentas en punto flotante de 8 y hasta de 4 bits.",
+      "La velocidad sale sobre todo de la memoria, no de las cuentas: generar cada token implica leer todos los pesos, así que mover la mitad o la cuarta parte de los bytes acelera la generación antes de cambiar una sola operación. El precio es la calidad. Con 8 bits la pérdida suele ser casi nula; 4 bits es un punto medio muy usado, con una caída chica pero medible; por debajo de eso la calidad se desploma rápido, y los modelos chicos tienden a sufrirlo más que los grandes. Evaluá un modelo cuantizado en tu propia tarea, no solo en un benchmark público."
+    ],
+    "analogy": "Guardar una foto como JPEG comprimido en vez de RAW. Ocupa una fracción del espacio y se ve casi igual; si la apretás demasiado, aparecen manchones.",
+    "keyPoints": [
+      "Pasar de 16 a 4 bits divide la memoria de los pesos más o menos por cuatro.",
+      "Los factores de escala por bloque mantienen chico el error de redondeo.",
+      "La generación más rápida viene sobre todo de leer menos bytes por token.",
+      "Con 8 bits casi no se pierde nada; por debajo de 4, la calidad cae rápido."
+    ],
+    "links": [
+      { "label": "Quantization overview, documentación de Hugging Face Transformers (en inglés)", "url": "https://huggingface.co/docs/transformers/main/en/quantization/overview" },
+      { "label": "Quantization concept guide, Hugging Face Optimum (en inglés)", "url": "https://huggingface.co/docs/optimum/concept_guides/quantization" }
+    ]
+  }
+}

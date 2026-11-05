@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M200 54 L105 86"/><path d="M200 54 L295 86"/>
+    <path d="M295 116 L245 150"/><path d="M295 116 L335 150"/>
+    <path d="M118 165 H202"/><path d="M197 161 l6 4 -6 4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="160" y="24" width="80" height="30" rx="8" fill="#ffd166"/>
+    <rect x="60" y="86" width="90" height="30" rx="8" fill="#9ac7ea"/>
+    <rect x="250" y="86" width="90" height="30" rx="8" fill="#9ac7ea"/>
+    <rect x="210" y="150" width="70" height="30" rx="8" fill="#f4a7a7"/>
+    <rect x="300" y="150" width="70" height="30" rx="8" fill="#9bd1b9"/>
+    <circle cx="90" cy="165" r="26" fill="#e6dfd0"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="43">App</text><text x="105" y="105">Header</text><text x="295" y="105">Feed</text>
+    <text x="245" y="169">Post</text><text x="335" y="169">Post</text>
+  </g>
+  <text x="90" y="169" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b">state</text>
+  <text x="245" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">updated</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">change the state, only that part redraws</text>
+</svg>

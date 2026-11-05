@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-function-calling",
+  "date": "2026-11-07",
+  "subjects": ["ai", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["tool use", "tool calling", "tool call", "tool calls"],
+    "es": ["tool use", "tool calling", "llamada a funciones", "llamadas a funciones", "llamada a herramientas", "llamadas a herramientas"]
+  },
+  "image": "img/2026-11-07-function-calling.svg",
+  "imageAlt": {
+    "en": "A model sends a structured get_weather request to the app, the app runs the tool and returns the result, and the model writes the answer",
+    "es": "Un modelo le manda a la app un pedido estructurado get_weather, la app ejecuta la herramienta y devuelve el resultado, y el modelo escribe la respuesta"
+  },
+  "en": {
+    "title": "Function calling",
+    "tagline": "How an AI model asks your code to run a tool and then uses the result.",
+    "explanation": [
+      "**Function calling**, also called **tool use**, lets an LLM do more than write text. You describe a few tools to the model: a name, what each one does and which arguments it takes, usually as a JSON schema. When the model decides a tool would help, instead of answering it replies with a structured request such as `get_weather(city=\"Rosario\")`.",
+      "The model never runs anything itself. Your program receives that request, runs the real function (calls a weather API, queries a database, sends an email) and passes the result back. The model reads it and continues: it may call another tool or write the final answer. That loop, repeated, is what turns a chatbot into an AI agent.",
+      "OpenAI added function calling to its API in 2023 and the other big providers followed; Anthropic's docs call it tool use. The Model Context Protocol standardizes how tools are packaged so many apps can plug in the same ones. Because the model chooses which tool to call and with what arguments, tools that change things (paying, deleting, sending) deserve a confirmation step: a model can pick the wrong one, and text it reads along the way can try to trick it."
+    ],
+    "analogy": "A manager who cannot leave the office but can fill out request slips. They write \"check the warehouse for item 42\", an assistant goes and does it, and comes back with the answer for the manager to use.",
+    "keyPoints": [
+      "The model outputs a structured request; your code runs the tool.",
+      "Each tool is described by a name, a description and an argument schema.",
+      "Call, run, return, repeat: that loop is the core of an AI agent.",
+      "Ask for confirmation before a model triggers actions that are hard to undo."
+    ],
+    "links": [
+      { "label": "Tool use with Claude (Anthropic docs)", "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview" },
+      { "label": "Function calling (OpenAI docs)", "url": "https://platform.openai.com/docs/guides/function-calling" }
+    ]
+  },
+  "es": {
+    "title": "Function calling",
+    "tagline": "Cómo un modelo de IA le pide a tu código que ejecute una herramienta y usa el resultado.",
+    "explanation": [
+      "El **function calling**, también llamado **tool use** o uso de herramientas, le permite a un LLM hacer algo más que escribir texto. Le describís al modelo algunas herramientas: un nombre, qué hace cada una y qué argumentos recibe, casi siempre como un esquema JSON. Cuando el modelo decide que una herramienta le sirve, en vez de contestar devuelve un pedido estructurado, por ejemplo `get_weather(city=\"Rosario\")`.",
+      "El modelo nunca ejecuta nada por su cuenta. Tu programa recibe ese pedido, corre la función de verdad (consulta una API del clima, busca en una base de datos, manda un mail) y le devuelve el resultado. El modelo lo lee y sigue: puede pedir otra herramienta o escribir la respuesta final. Ese ciclo, repetido, es lo que convierte a un chatbot en un agente de IA.",
+      "OpenAI sumó function calling a su API en 2023 y los demás proveedores grandes lo siguieron; la documentación de Anthropic lo llama tool use. El Model Context Protocol estandariza cómo se empaquetan las herramientas para que muchas apps puedan enchufar las mismas. Como es el modelo el que elige qué herramienta usar y con qué argumentos, las que cambian cosas (pagar, borrar, enviar) merecen un paso de confirmación: el modelo se puede equivocar de herramienta, y un texto que lee en el camino puede intentar engañarlo."
+    ],
+    "analogy": "Un gerente que no puede salir de la oficina pero sí llenar órdenes de pedido. Escribe \"fijate en el depósito si queda el artículo 42\", un asistente va, lo averigua y vuelve con la respuesta para que el gerente la use.",
+    "keyPoints": [
+      "El modelo devuelve un pedido estructurado; tu código ejecuta la herramienta.",
+      "Cada herramienta se describe con un nombre, una descripción y un esquema de argumentos.",
+      "Pedir, ejecutar, devolver, repetir: ese ciclo es el corazón de un agente de IA.",
+      "Pedí confirmación antes de que un modelo dispare acciones difíciles de deshacer."
+    ],
+    "links": [
+      { "label": "Uso de herramientas con Claude (documentación de Anthropic)", "url": "https://docs.anthropic.com/es/docs/agents-and-tools/tool-use/overview" },
+      { "label": "Function calling (documentación de OpenAI, en inglés)", "url": "https://platform.openai.com/docs/guides/function-calling" }
+    ]
+  }
+}

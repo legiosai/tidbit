@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="50" width="60" height="40" rx="6" fill="#9bd1b9"/>
+    <rect x="30" y="100" width="60" height="40" rx="6" fill="#f4a7a7"/>
+    <rect x="30" y="150" width="60" height="40" rx="6" fill="#9bd1b9"/>
+    <rect x="220" y="60" width="160" height="110" rx="8" fill="#e6dfd0"/>
+    <circle cx="150" cy="120" r="14" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M52 112 L68 128"/><path d="M68 112 L52 128"/>
+    <path d="M136 120 C120 120 112 120 96 120"/>
+    <path d="M150 104 V92"/><path d="M140 108 L132 98"/><path d="M160 108 L168 98"/>
+    <path d="M232 110 L260 106 L288 114 L316 107 L344 113 L368 110"/>
+    <path d="M232 156 H368"/><path d="M232 74 V156"/>
+  </g>
+  <g stroke="#6b6357" stroke-width="2">
+    <line x1="232" y1="96" x2="368" y2="96" stroke-dasharray="4 4"/>
+    <line x1="232" y1="124" x2="368" y2="124" stroke-dasharray="4 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="150" y="152">fault</text>
+    <text x="300" y="50">steady state</text>
+    <text x="300" y="190">still within limits?</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">break it on purpose, small, and watch</text>
+</svg>

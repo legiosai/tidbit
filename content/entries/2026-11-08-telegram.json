@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-telegram",
+  "date": "2026-11-08",
+  "subjects": ["companies", "security"],
+  "level": 1,
+  "aliases": {
+    "en": ["Telegram Messenger", "Telegram channel", "Telegram channels", "Telegram group", "Telegram groups"],
+    "es": ["Telegram Messenger", "canal de Telegram", "canales de Telegram", "grupo de Telegram", "grupos de Telegram"]
+  },
+  "image": "img/2026-11-08-telegram.svg",
+  "imageAlt": {
+    "en": "Normal chats go from two phones through Telegram's cloud, where they are stored and synced to every device; a secret chat goes directly encrypted end to end between two phones; a channel broadcasts from one sender to a crowd",
+    "es": "Los chats normales van de dos celulares a la nube de Telegram, donde quedan guardados y se sincronizan en todos los equipos; un chat secreto va cifrado de extremo a extremo directo entre dos celulares; un canal difunde de un emisor a una multitud"
+  },
+  "en": {
+    "title": "Telegram",
+    "tagline": "A messaging app built around the cloud, huge groups and public channels.",
+    "explanation": [
+      "**Telegram** is a messaging app launched in 2013 by the brothers Pavel and Nikolai Durov, who had earlier founded VKontakte, a large Russian social network. It works like other chat apps, with text, voice notes, calls, photos and files, and it is used by hundreds of millions of people around the world.",
+      "Its big difference is that it is built around the cloud. Ordinary chats are stored on Telegram's servers, encrypted between your device and the server, so you can open them from your phone, your laptop and a browser at the same time, with no backup to manage. The trade-off is that they are not end-to-end encrypted by default: Telegram could technically read them. For that you have to start a **secret chat**, which is end-to-end encrypted, lives only on the two devices and works one to one. Telegram uses its own encryption protocol, called MTProto, instead of the widely studied Signal protocol.",
+      "Telegram is also part social network. Groups can hold up to 200,000 members, and **channels** let one account broadcast to an unlimited audience, which made it popular with news outlets, communities and also with scammers and criminal groups. Anyone can build a bot on it through an open API. It is free, and makes money from a premium subscription and ads in large public channels."
+    ],
+    "analogy": "A post office that keeps a copy of all your letters in a box you can open from any branch. Very convenient, but the office holds the copies. For private letters, you hand them over sealed in an envelope only the recipient can open.",
+    "keyPoints": [
+      "Launched in 2013 by Pavel and Nikolai Durov.",
+      "Normal chats live in the cloud and sync across all your devices.",
+      "Only secret chats are end-to-end encrypted.",
+      "Huge groups, public channels and an open bot platform."
+    ],
+    "links": [
+      { "label": "Telegram FAQ (official)", "url": "https://telegram.org/faq" },
+      { "label": "Telegram (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Telegram_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Telegram",
+    "tagline": "Una app de mensajería armada alrededor de la nube, grupos enormes y canales públicos.",
+    "explanation": [
+      "**Telegram** es una app de mensajería que lanzaron en 2013 los hermanos Pavel y Nikolai Durov, que antes habían fundado VKontakte, una red social rusa muy grande. Funciona como otras apps de chat, con texto, audios, llamadas, fotos y archivos, y la usan cientos de millones de personas en todo el mundo.",
+      "Su gran diferencia es que está armada alrededor de la nube. Los chats comunes se guardan en los servidores de Telegram, cifrados entre tu equipo y el servidor, así que los podés abrir a la vez desde el celular, la notebook y el navegador, sin manejar backups. La contracara es que no tienen cifrado de extremo a extremo por defecto: técnicamente Telegram los podría leer. Para eso hay que abrir un **chat secreto**, que sí va cifrado de extremo a extremo, vive solo en los dos dispositivos y es de uno a uno. Telegram usa su propio protocolo de cifrado, MTProto, en vez del protocolo Signal, mucho más estudiado.",
+      "Telegram también es en parte una red social. Los grupos pueden tener hasta 200.000 miembros, y los **canales** permiten que una cuenta le hable a una audiencia ilimitada, lo que la hizo popular entre medios, comunidades y también estafadores y grupos criminales. Cualquiera puede hacer un bot gracias a una API abierta. Es gratis, y gana plata con una suscripción premium y con anuncios en los canales públicos grandes."
+    ],
+    "analogy": "Un correo que guarda una copia de todas tus cartas en una casilla que podés abrir desde cualquier sucursal. Muy cómodo, pero las copias las tiene el correo. Para las cartas privadas, las entregás en un sobre que solo puede abrir quien la recibe.",
+    "keyPoints": [
+      "La lanzaron en 2013 Pavel y Nikolai Durov.",
+      "Los chats comunes viven en la nube y se sincronizan en todos tus equipos.",
+      "Solo los chats secretos tienen cifrado de extremo a extremo.",
+      "Grupos enormes, canales públicos y una plataforma abierta para bots."
+    ],
+    "links": [
+      { "label": "Preguntas frecuentes de Telegram (oficial)", "url": "https://telegram.org/faq/es" },
+      { "label": "Telegram en Wikipedia", "url": "https://es.wikipedia.org/wiki/Telegram" }
+    ]
+  }
+}

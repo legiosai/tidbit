@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-mozilla",
+  "date": "2026-11-08",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Firefox", "Mozilla Firefox", "Mozilla Foundation", "Thunderbird", "MDN Web Docs"],
+    "es": ["Firefox", "Mozilla Firefox", "Fundación Mozilla", "Mozilla Foundation", "Thunderbird", "MDN Web Docs"]
+  },
+  "image": "img/2026-11-08-mozilla.svg",
+  "imageAlt": {
+    "en": "A nonprofit foundation owns a company that makes the Firefox browser; Firefox runs on its own engine, Gecko, standing apart from a big group of browsers that share the Chromium engine",
+    "es": "Una fundación sin fines de lucro es dueña de una empresa que hace el navegador Firefox; Firefox corre sobre su propio motor, Gecko, aparte de un gran grupo de navegadores que comparten el motor Chromium"
+  },
+  "en": {
+    "title": "Mozilla",
+    "tagline": "The nonprofit-owned organization behind the Firefox browser and an open web.",
+    "explanation": [
+      "**Mozilla** began in 1998, when Netscape, then a leading web browser company, released its browser's source code and started an open source project to keep developing it. Out of that came the Mozilla Foundation, a nonprofit created in 2003, and the Mozilla Corporation, a company it fully owns, which builds the products. Its mission, written in a public manifesto, is to keep the internet open and accessible to everyone, with privacy and user choice built in.",
+      "Its best-known product is **Firefox**, the web browser released in 2004. Firefox broke the near-monopoly of Internet Explorer in the 2000s and pushed the whole industry toward web standards. Today it matters for another reason: it is the last major browser that does not use Google's Chromium engine or Apple's WebKit. Firefox runs on Mozilla's own engine, Gecko, so the way the web works is not decided by just one or two companies.",
+      "Mozilla's work goes beyond the browser. It created the Thunderbird email client, runs MDN Web Docs, one of the most used references for web developers, and sponsored the early development of the Rust programming language. Most of its income has come from search deals, chiefly with Google for being Firefox's default search engine, which leaves it in the odd position of depending on its biggest competitor."
+    ],
+    "analogy": "A public library in a city dominated by two giant bookstores. It has fewer visitors, but its existence keeps the rules of reading from being written only by the stores.",
+    "keyPoints": [
+      "Born in 1998 from Netscape's open-sourced browser code.",
+      "A nonprofit foundation owns the company that makes Firefox.",
+      "Firefox runs on its own engine, Gecko, not on Chromium or WebKit.",
+      "Most of its revenue comes from default search deals."
+    ],
+    "links": [
+      { "label": "The Mozilla Manifesto (official)", "url": "https://www.mozilla.org/en-US/about/manifesto/" },
+      { "label": "Mozilla on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mozilla" }
+    ]
+  },
+  "es": {
+    "title": "Mozilla",
+    "tagline": "La organización sin fines de lucro detrás de Firefox y de una web abierta.",
+    "explanation": [
+      "**Mozilla** arrancó en 1998, cuando Netscape, por entonces una de las grandes empresas de navegadores, liberó el código fuente de su navegador y lanzó un proyecto open source para seguir desarrollándolo. De ahí salieron la Fundación Mozilla, una organización sin fines de lucro creada en 2003, y la Mozilla Corporation, una empresa que le pertenece por completo y que hace los productos. Su misión, escrita en un manifiesto público, es que internet siga abierta y accesible para todos, con privacidad y libertad de elección de fábrica.",
+      "Su producto más conocido es **Firefox**, el navegador que salió en 2004. Firefox rompió el casi monopolio de Internet Explorer en los 2000 y empujó a toda la industria hacia los estándares web. Hoy importa por otra razón: es el último navegador grande que no usa el motor Chromium de Google ni el WebKit de Apple. Firefox corre sobre el motor propio de Mozilla, Gecko, así que la manera en que funciona la web no la deciden solo una o dos empresas.",
+      "El trabajo de Mozilla va más allá del navegador. Creó el cliente de correo Thunderbird, mantiene MDN Web Docs, una de las referencias más usadas por quienes programan para la web, y patrocinó los primeros años del lenguaje de programación Rust. La mayor parte de sus ingresos vino de acuerdos de búsqueda, sobre todo con Google por ser el buscador predeterminado de Firefox, lo que la deja en la rara posición de depender de su principal competidor."
+    ],
+    "analogy": "Una biblioteca pública en una ciudad dominada por dos librerías gigantes. Tiene menos visitas, pero que exista evita que las reglas de la lectura las escriban solo las librerías.",
+    "keyPoints": [
+      "Nació en 1998 a partir del código liberado del navegador de Netscape.",
+      "Una fundación sin fines de lucro es dueña de la empresa que hace Firefox.",
+      "Firefox usa su propio motor, Gecko, no Chromium ni WebKit.",
+      "La mayor parte de sus ingresos viene de acuerdos de buscador predeterminado."
+    ],
+    "links": [
+      { "label": "El manifiesto de Mozilla (oficial)", "url": "https://www.mozilla.org/es-AR/about/manifesto/" },
+      { "label": "Mozilla en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mozilla" },
+      { "label": "Mozilla Firefox en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mozilla_Firefox" }
+    ]
+  }
+}

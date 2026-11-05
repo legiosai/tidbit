@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-stateless-and-stateful",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["stateless", "stateful", "stateless service", "stateless services", "stateful service", "stateful services"],
+    "es": ["stateless", "stateful", "sin estado", "servicio sin estado", "servicios sin estado"]
+  },
+  "image": "img/2026-11-07-stateless-and-stateful.svg",
+  "imageAlt": {
+    "en": "Requests spread across three identical stateless servers that all read and write to one shared database holding the state",
+    "es": "Pedidos repartidos entre tres servidores stateless idénticos que leen y escriben en una misma base de datos donde vive el estado"
+  },
+  "en": {
+    "title": "Stateless and stateful",
+    "tagline": "Whether a program remembers things between requests, or keeps that memory somewhere else.",
+    "explanation": [
+      "**State** is whatever a program has to remember to do its job: who is logged in, what is in the shopping cart, the rows of a database. A **stateless** component keeps none of that between requests. Each request arrives with everything needed to answer it, or the component looks it up elsewhere. A **stateful** component keeps that memory inside itself, in its RAM or on its own disk.",
+      "The difference matters a lot in the cloud. Stateless servers are interchangeable: a load balancer can send any request to any copy, autoscaling can add ten more during a spike and delete them later, and if one crashes nothing is lost. That is why the usual advice is to make web and API servers stateless and push the state into services built to hold it, like a database, a cache or object storage. HTTP itself is a stateless protocol; logins work because the browser sends a cookie or token with every request.",
+      "Stateful systems, such as databases, message queues or a multiplayer game server, are harder to run. You cannot just kill a copy or start a new one; data has to be replicated, backed up and moved carefully. In Kubernetes, for example, stateless apps use Deployments while stateful ones need StatefulSets and persistent volumes. The design goal is not to avoid state, which every useful app has, but to keep it in a few well-guarded places."
+    ],
+    "analogy": "A stateless server is like a cashier at a supermarket: any free cashier can serve you, because everything they need is in your cart. A stateful one is like your family doctor, who remembers your history, so you have to see that specific person.",
+    "keyPoints": [
+      "Stateless: remembers nothing between requests; any copy can answer.",
+      "Stateful: keeps data inside itself, so that copy matters.",
+      "Stateless servers scale and recover easily behind a load balancer.",
+      "Common design: stateless app servers, state kept in databases and caches."
+    ],
+    "links": [
+      { "label": "Stateless protocol on Wikipedia", "url": "https://en.wikipedia.org/wiki/Stateless_protocol" },
+      { "label": "State (computer science) on Wikipedia", "url": "https://en.wikipedia.org/wiki/State_(computer_science)" },
+      { "label": "The Twelve-Factor App: processes", "url": "https://12factor.net/processes" }
+    ]
+  },
+  "es": {
+    "title": "Stateless y stateful",
+    "tagline": "Si un programa recuerda cosas entre un pedido y otro, o guarda esa memoria en otro lado.",
+    "explanation": [
+      "El **estado** es todo lo que un programa necesita recordar para hacer su trabajo: quién inició sesión, qué hay en el carrito, las filas de una base de datos. Un componente **stateless** (sin estado) no guarda nada de eso entre pedidos. Cada pedido llega con todo lo necesario para responderlo, o el componente lo busca en otro lado. Uno **stateful** (con estado) guarda esa memoria adentro suyo, en su RAM o en su propio disco.",
+      "La diferencia pesa mucho en la nube. Los servidores stateless son intercambiables: un balanceador de carga puede mandar cualquier pedido a cualquier copia, el autoscaling puede sumar diez más durante un pico y borrarlas después, y si una se cae no se pierde nada. Por eso el consejo habitual es hacer stateless los servidores web y de API, y llevar el estado a servicios pensados para guardarlo, como una base de datos, una caché o un almacenamiento de objetos. El propio HTTP es un protocolo sin estado; los logins funcionan porque el navegador manda una cookie o un token en cada pedido.",
+      "Los sistemas stateful, como las bases de datos, las colas de mensajes o el servidor de un juego multijugador, son más difíciles de operar. No podés matar una copia o levantar otra así nomás; los datos hay que replicarlos, respaldarlos y moverlos con cuidado. En Kubernetes, por ejemplo, las apps stateless usan Deployments y las stateful necesitan StatefulSets y volúmenes persistentes. El objetivo no es evitar el estado, que toda app útil tiene, sino tenerlo en pocos lugares bien cuidados."
+    ],
+    "analogy": "Un servidor stateless es como una caja del supermercado: te puede atender cualquier cajera libre, porque todo lo que necesita está en tu carrito. Uno stateful es como tu médico de cabecera, que se acuerda de tu historia, así que tenés que ver a esa persona en particular.",
+    "keyPoints": [
+      "Stateless: no recuerda nada entre pedidos; cualquier copia puede responder.",
+      "Stateful: guarda datos adentro suyo, así que esa copia importa.",
+      "Los servidores stateless escalan y se recuperan fácil detrás de un balanceador.",
+      "Diseño común: servidores de aplicación stateless y el estado en bases de datos y cachés."
+    ],
+    "links": [
+      { "label": "Protocolo sin estado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Protocolo_sin_estado" },
+      { "label": "Estado (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Estado_(inform%C3%A1tica)" },
+      { "label": "The Twelve-Factor App: procesos", "url": "https://12factor.net/es/processes" }
+    ]
+  }
+}

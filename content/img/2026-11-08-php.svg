@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="64" width="110" height="90" rx="8" fill="#9ac7ea"/>
+    <path d="M24 82 H134" fill="none"/>
+    <rect x="232" y="40" width="146" height="152" rx="10" fill="#e6dfd0"/>
+    <rect x="248" y="56" width="114" height="40" rx="6" fill="#ffd166"/>
+    <path d="M271 128 V166 A34 8 0 0 0 339 166 V128" fill="#9bd1b9"/>
+    <ellipse cx="305" cy="128" rx="34" ry="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M305 98 V116"/>
+    <line x1="40" y1="100" x2="116" y2="100"/><line x1="40" y1="116" x2="104" y2="116"/><line x1="40" y1="132" x2="92" y2="132"/>
+    <path d="M138 92 H224"/><path d="M219 88 l6 4 -6 4"/>
+    <path d="M228 132 H142"/><path d="M147 128 l-6 4 6 4"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="305" y="81">index.php</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="182" y="84">GET /</text><text x="182" y="150">HTML</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="79" y="172">browser</text><text x="305" y="30">server</text>
+    <text x="305" y="160" font-size="11">database</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">PHP runs on the server; you get HTML</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-amazon-transcribe",
+  "date": "2026-11-07",
+  "subjects": ["aws", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["AWS Transcribe"],
+    "es": ["AWS Transcribe"]
+  },
+  "image": "img/2026-11-07-amazon-transcribe.svg",
+  "imageAlt": {
+    "en": "A sound wave from two speakers goes into a Transcribe box and comes out as a transcript with each line labeled by speaker",
+    "es": "Una onda de sonido con dos personas hablando entra en una caja de Transcribe y sale como una transcripción con cada línea marcada por hablante"
+  },
+  "en": {
+    "title": "Amazon Transcribe",
+    "tagline": "An AWS service that listens to audio and writes down what was said.",
+    "explanation": [
+      "**Amazon Transcribe** is speech-to-text as an API. You give it an audio or video file stored in S3, or a live audio stream, and it returns a transcript: the words spoken, with a timestamp for each one and a confidence score. It works in two modes: **batch**, for recordings you already have, and **streaming**, for audio arriving in real time, like a live call.",
+      "Beyond plain transcription, it can tell speakers apart (\"speaker 1\", \"speaker 2\"), learn your jargon through a **custom vocabulary** so product names come out right, and hide personal data like card numbers in the text. A variant called **Call Analytics** is built for contact centers and adds things like sentiment and call summaries.",
+      "Common uses are subtitles for videos, searchable archives of meetings or podcasts, notes from customer calls, and voice input inside apps. It is the mirror image of Amazon Polly, which turns text into speech. You pay per second of audio transcribed."
+    ],
+    "analogy": "A court stenographer who never takes a break: they listen to the recording, type every word, and note who said each line and at what minute.",
+    "keyPoints": [
+      "Turns recorded or live audio into text with timestamps.",
+      "Batch mode for files, streaming mode for real time.",
+      "Can separate speakers, learn custom vocabulary and redact personal data.",
+      "Billed per second of audio processed."
+    ],
+    "links": [
+      { "label": "What is Amazon Transcribe? (official docs)", "url": "https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html" },
+      { "label": "Amazon Transcribe product page", "url": "https://aws.amazon.com/transcribe/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Transcribe",
+    "tagline": "Un servicio de AWS que escucha audio y escribe lo que se dijo.",
+    "explanation": [
+      "**Amazon Transcribe** es voz a texto en forma de API. Le das un archivo de audio o video guardado en S3, o un stream de audio en vivo, y te devuelve una transcripción: las palabras dichas, cada una con su marca de tiempo y un puntaje de confianza. Trabaja de dos maneras: **batch**, para grabaciones que ya tenés, y **streaming**, para audio que llega en tiempo real, como una llamada en curso.",
+      "Además de transcribir, puede distinguir quién habla (\"hablante 1\", \"hablante 2\"), aprender tu jerga con un **vocabulario personalizado** para que los nombres de tus productos salgan bien escritos, y tapar datos personales como números de tarjeta. Una variante llamada **Call Analytics** está pensada para centros de atención y suma cosas como el sentimiento de la conversación y resúmenes de cada llamada.",
+      "Se usa para subtitular videos, armar archivos buscables de reuniones o podcasts, tomar notas de llamadas con clientes y meter entrada por voz en una app. Es el espejo de Amazon Polly, que pasa de texto a voz. Pagás por segundo de audio transcripto."
+    ],
+    "analogy": "Un taquígrafo de tribunal que no se toma descansos: escucha la grabación, tipea cada palabra y anota quién dijo cada línea y en qué minuto.",
+    "keyPoints": [
+      "Convierte audio grabado o en vivo en texto con marcas de tiempo.",
+      "Modo batch para archivos, modo streaming para tiempo real.",
+      "Separa hablantes, aprende vocabulario propio y oculta datos personales.",
+      "Se cobra por segundo de audio procesado."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Transcribe? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/transcribe/latest/dg/what-is.html" },
+      { "label": "Página de Amazon Transcribe", "url": "https://aws.amazon.com/es/transcribe/" }
+    ]
+  }
+}

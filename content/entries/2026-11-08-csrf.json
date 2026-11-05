@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-csrf",
+  "date": "2026-11-08",
+  "subjects": ["security"],
+  "level": 3,
+  "aliases": {
+    "en": ["XSRF", "cross-site request forgery", "cross site request forgery", "CSRF attack", "CSRF attacks", "CSRF token", "CSRF tokens", "anti-CSRF token", "anti-CSRF tokens", "session riding"],
+    "es": ["XSRF", "cross-site request forgery", "falsificación de petición en sitios cruzados", "falsificación de solicitudes entre sitios", "ataque CSRF", "ataques CSRF", "token CSRF", "tokens CSRF", "token anti-CSRF"]
+  },
+  "image": "img/2026-11-08-csrf.svg",
+  "imageAlt": {
+    "en": "A user logged in to their bank visits an evil page; a hidden form on that page makes the browser send a transfer request to the bank with the user's session cookie attached",
+    "es": "Un usuario con la sesión abierta en su banco entra a una página maliciosa; un formulario oculto en esa página hace que el navegador mande un pedido de transferencia al banco con la cookie de sesión del usuario"
+  },
+  "en": {
+    "title": "CSRF",
+    "tagline": "An attack that makes your browser send a request you never meant to send, as you.",
+    "explanation": [
+      "**CSRF** stands for cross-site request forgery. It abuses a habit of every web browser: when a page sends a request to a site, the browser attaches that site's cookies automatically, including the session cookie that says you are logged in. So if you are logged in to your bank in one tab and open a malicious page in another, that page can quietly submit a form to the bank, and the bank sees a perfectly normal request coming from you.",
+      "A classic example: the evil page contains a hidden form pointing at `https://bank.example/transfer` with the attacker's account as the destination, plus a line of JavaScript that submits it on load. You see nothing. The attacker never sees your password or your cookie, and cannot read the bank's answer; the attack works blind. That is the difference with cross-site scripting, where the attacker gets code running inside the site itself. CSRF only needs the target action to be predictable: change the email, change the password, make a payment.",
+      "The standard defenses are layered. Sites put a secret, random **CSRF token** in each form and reject requests that do not carry it, which a foreign page cannot guess. Cookies can be marked `SameSite=Lax` or `Strict` so the browser does not send them on requests started by other sites, and modern browsers already default to something close to that. Servers can also check the `Origin` header and ask for the password again before sensitive changes. Most web frameworks include CSRF protection out of the box; the bugs usually appear when someone switches it off or performs an important action with a simple `GET` link."
+    ],
+    "analogy": "Someone slips a pre-filled, pre-signed withdrawal slip into the pile you are carrying to the bank teller. The teller knows your face and processes it, because it came from you.",
+    "keyPoints": [
+      "Exploits the browser sending cookies automatically to the site they belong to.",
+      "The attacker triggers actions as you but cannot read the responses.",
+      "Defenses: CSRF tokens, SameSite cookies, Origin checks, re-authentication.",
+      "Never let a plain GET request change data."
+    ],
+    "links": [
+      { "label": "Cross-site request forgery on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cross-site_request_forgery" },
+      { "label": "CSRF (MDN Web Docs)", "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/CSRF" },
+      { "label": "CSRF Prevention Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html" }
+    ]
+  },
+  "es": {
+    "title": "CSRF",
+    "tagline": "Un ataque que hace que tu navegador mande, en tu nombre, un pedido que nunca quisiste.",
+    "explanation": [
+      "**CSRF** viene de cross-site request forgery, algo así como falsificación de pedidos entre sitios. Aprovecha una costumbre de todo navegador: cuando una página le manda un pedido a un sitio, el navegador le pega solo las cookies de ese sitio, incluida la cookie de sesión que dice que estás logueado. Entonces, si tenés el home banking abierto en una pestaña y entrás a una página maliciosa en otra, esa página puede enviar en silencio un formulario al banco, y el banco ve un pedido normalísimo que viene de vos.",
+      "El ejemplo clásico: la página maliciosa tiene un formulario oculto que apunta a `https://bank.example/transfer` con la cuenta del atacante como destino, y una línea de JavaScript que lo envía apenas carga. Vos no ves nada. El atacante nunca ve tu contraseña ni tu cookie, y tampoco puede leer lo que responde el banco: el ataque funciona a ciegas. Esa es la diferencia con el cross-site scripting, donde el atacante logra ejecutar código adentro del sitio. Al CSRF le alcanza con que la acción sea predecible: cambiar el mail, cambiar la contraseña, hacer un pago.",
+      "Las defensas se combinan. Los sitios ponen en cada formulario un **token CSRF**, un secreto aleatorio, y rechazan los pedidos que no lo traen; una página ajena no lo puede adivinar. Las cookies se pueden marcar `SameSite=Lax` o `Strict` para que el navegador no las mande en pedidos que arrancan en otros sitios, y los navegadores modernos ya vienen con algo parecido por defecto. El servidor también puede revisar el encabezado `Origin` y pedir la contraseña de nuevo antes de cambios delicados. Casi todos los frameworks web traen protección contra CSRF de fábrica; los agujeros suelen aparecer cuando alguien la apaga o hace una acción importante con un simple link `GET`."
+    ],
+    "analogy": "Alguien te mete una boleta de extracción ya llenada y firmada en la pila de papeles que le llevás al cajero del banco. El cajero te conoce la cara y la procesa, porque vino de vos.",
+    "keyPoints": [
+      "Explota que el navegador manda solo las cookies al sitio al que pertenecen.",
+      "El atacante dispara acciones en tu nombre pero no puede leer las respuestas.",
+      "Defensas: tokens CSRF, cookies SameSite, chequeo de Origin, volver a pedir la clave.",
+      "Un pedido GET nunca debería modificar datos."
+    ],
+    "links": [
+      { "label": "Cross-site request forgery en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cross-site_request_forgery" },
+      { "label": "CSRF (MDN Web Docs)", "url": "https://developer.mozilla.org/es/docs/Glossary/CSRF" },
+      { "label": "Guía de prevención de CSRF de OWASP (en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html" }
+    ]
+  }
+}

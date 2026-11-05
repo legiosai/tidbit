@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-07-amazon-polly",
+  "date": "2026-11-07",
+  "subjects": ["aws", "ai"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Polly"],
+    "es": ["Polly"]
+  },
+  "image": "img/2026-11-07-amazon-polly.svg",
+  "imageAlt": {
+    "en": "A line of text goes into a Polly box and comes out as a sound wave, with a choice of voices on the side",
+    "es": "Una línea de texto entra en una caja de Polly y sale como una onda de sonido, con varias voces para elegir al costado"
+  },
+  "en": {
+    "title": "Amazon Polly",
+    "tagline": "An AWS service that turns written text into spoken audio.",
+    "explanation": [
+      "**Amazon Polly** is text-to-speech as an API. You send it a sentence, pick a voice and a language, and it sends back an audio file (MP3, for example) or a stream of audio that sounds like a person reading the text aloud. You pay for the amount of text you convert, and you can keep and replay the audio you generated without paying again.",
+      "It offers several families of voices. The older **standard** voices sound clearly synthetic; the **neural**, **long-form** and **generative** voices use newer machine learning models and sound much closer to a real narrator. If you need control over how something is said, you can wrap the text in **SSML**, a small markup language that marks pauses, emphasis or how to pronounce an acronym.",
+      "Typical uses: reading news articles aloud in an app, voices for e-learning courses and games, phone menus, and accessibility features for people who cannot easily read a screen. It is the opposite direction of Amazon Transcribe, which turns speech into text."
+    ],
+    "analogy": "A voice actor on call who never gets tired: you slip a script under the door, choose who should read it, and a recording comes back a moment later.",
+    "keyPoints": [
+      "Converts text into natural-sounding speech in many languages and voices.",
+      "Standard voices are cheaper; neural and generative voices sound more human.",
+      "SSML lets you control pauses, emphasis and pronunciation.",
+      "You pay per amount of text converted; replaying saved audio is free."
+    ],
+    "links": [
+      { "label": "What is Amazon Polly? (official docs)", "url": "https://docs.aws.amazon.com/polly/latest/dg/what-is.html" },
+      { "label": "Amazon Polly product page", "url": "https://aws.amazon.com/polly/" },
+      { "label": "Speech synthesis on Wikipedia", "url": "https://en.wikipedia.org/wiki/Speech_synthesis" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Polly",
+    "tagline": "Un servicio de AWS que convierte texto escrito en audio hablado.",
+    "explanation": [
+      "**Amazon Polly** es texto a voz en forma de API. Le mandás una frase, elegís una voz y un idioma, y te devuelve un archivo de audio (un MP3, por ejemplo) o un stream que suena como una persona leyendo ese texto en voz alta. Pagás según la cantidad de texto que convertís, y el audio que generaste lo podés guardar y volver a reproducir sin pagar de nuevo.",
+      "Tiene varias familias de voces. Las **standard**, las más viejas, se notan claramente sintéticas; las **neural**, **long-form** y **generative** usan modelos de machine learning más nuevos y suenan mucho más parecidas a un locutor real. Si necesitás controlar cómo se dice algo, podés envolver el texto en **SSML**, un pequeño lenguaje de marcado para indicar pausas, énfasis o cómo pronunciar una sigla.",
+      "Usos típicos: leer en voz alta las noticias de una app, voces para cursos online y juegos, menús telefónicos y funciones de accesibilidad para personas que no pueden leer bien una pantalla. Es el camino inverso de Amazon Transcribe, que pasa de voz a texto."
+    ],
+    "analogy": "Un locutor de guardia que nunca se cansa: le pasás el guion por abajo de la puerta, elegís quién lo lee y al ratito te devuelven la grabación.",
+    "keyPoints": [
+      "Convierte texto en voz natural en muchos idiomas y voces.",
+      "Las voces standard son más baratas; las neural y generative suenan más humanas.",
+      "Con SSML controlás pausas, énfasis y pronunciación.",
+      "Pagás por cantidad de texto convertido; reproducir audio guardado no cuesta."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Polly? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/polly/latest/dg/what-is.html" },
+      { "label": "Página de Amazon Polly", "url": "https://aws.amazon.com/es/polly/" },
+      { "label": "Speech synthesis en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Speech_synthesis" }
+    ]
+  }
+}

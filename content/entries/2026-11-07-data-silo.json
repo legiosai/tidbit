@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-data-silo",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["data silos", "information silo", "information silos"],
+    "es": ["silos de datos", "silo de información", "silos de información"]
+  },
+  "image": "img/2026-11-07-data-silo.svg",
+  "imageAlt": {
+    "en": "Three closed silos labeled sales, support and billing, each holding its own copy of the same customer, with no paths between them",
+    "es": "Tres silos cerrados rotulados ventas, soporte y facturación, cada uno con su propia copia del mismo cliente y sin caminos entre ellos"
+  },
+  "en": {
+    "title": "Data silo",
+    "tagline": "Data locked inside one team or system, where the rest of the company can't use it.",
+    "explanation": [
+      "A **data silo** is a pile of data that only one team, tool or system can see. Sales keeps customers in its CRM, support keeps tickets in another app, billing keeps invoices in a third. Each works fine on its own, but none of them talks to the others.",
+      "Silos rarely come from bad intentions. They grow naturally: every team buys the tool that fits its job, every acquisition brings its own systems, every spreadsheet starts as a quick fix. Years later, nobody can answer a simple question like \"which customers who complained last month also stopped paying?\" without exporting files and matching them by hand.",
+      "The costs are real: the same customer exists five times with five different addresses, reports disagree, and work gets done twice. The usual fixes are to bring the data together in one place, such as a data warehouse or data lake, connect systems through APIs, and agree on shared definitions through data governance. The hard part is usually people and habits, not technology."
+    ],
+    "analogy": "Like a family where each person keeps their own paper calendar. Everyone knows their own plans, but nobody can see that three people booked the car for the same Saturday.",
+    "keyPoints": [
+      "Data that only one team or system can see and use.",
+      "Grows naturally from separate tools, teams and acquisitions.",
+      "Leads to duplicated records, conflicting reports and wasted work.",
+      "Fixed by centralizing data and agreeing on shared definitions."
+    ],
+    "links": [
+      { "label": "Information silo on Wikipedia", "url": "https://en.wikipedia.org/wiki/Information_silo" },
+      { "label": "What are data silos? (IBM)", "url": "https://www.ibm.com/think/topics/data-silos" }
+    ]
+  },
+  "es": {
+    "title": "Silo de datos",
+    "tagline": "Datos encerrados en un equipo o sistema, donde el resto de la empresa no los puede usar.",
+    "explanation": [
+      "Un **silo de datos** es un montón de datos que solo un equipo, una herramienta o un sistema puede ver. Ventas tiene a los clientes en su CRM, soporte tiene los reclamos en otra aplicación, facturación tiene las facturas en una tercera. Cada uno anda bien por su cuenta, pero ninguno habla con los demás.",
+      "Los silos casi nunca nacen de malas intenciones. Crecen solos: cada equipo compra la herramienta que le sirve, cada empresa que se adquiere trae sus sistemas, cada planilla arranca como un parche rápido. Años después nadie puede contestar algo simple como \"¿qué clientes que se quejaron el mes pasado también dejaron de pagar?\" sin exportar archivos y cruzarlos a mano.",
+      "El costo es concreto: el mismo cliente aparece cinco veces con cinco direcciones distintas, los reportes no coinciden y el trabajo se hace dos veces. Las soluciones habituales son juntar los datos en un solo lugar, como un data warehouse o un data lake, conectar los sistemas con APIs y acordar definiciones comunes con gobierno de datos. Lo difícil suele ser la gente y las costumbres, no la tecnología."
+    ],
+    "analogy": "Como una familia donde cada uno lleva su propia agenda de papel. Cada cual conoce sus planes, pero nadie ve que tres personas reservaron el auto para el mismo sábado.",
+    "keyPoints": [
+      "Datos que solo un equipo o sistema puede ver y usar.",
+      "Crecen solos a partir de herramientas, equipos y adquisiciones separadas.",
+      "Generan registros duplicados, reportes que no cierran y trabajo repetido.",
+      "Se resuelven centralizando los datos y acordando definiciones comunes."
+    ],
+    "links": [
+      { "label": "Information silo en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Information_silo" },
+      { "label": "Qué son los silos de datos (IBM, en inglés)", "url": "https://www.ibm.com/think/topics/data-silos" }
+    ]
+  }
+}

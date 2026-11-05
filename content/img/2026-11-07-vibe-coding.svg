@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="70" width="100" height="50" rx="10" fill="#f4a7a7"/>
+    <rect x="150" y="70" width="100" height="50" rx="10" fill="#9ac7ea"/>
+    <rect x="280" y="70" width="100" height="50" rx="10" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M123 95 H145"/><path d="M139 91 l6 4 -6 4"/>
+    <path d="M253 95 H275"/><path d="M269 91 l6 4 -6 4"/>
+    <path d="M330 123 V160 H70 V128"/><path d="M66 130 l4 -6 4 6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="100">describe</text><text x="200" y="100">AI writes</text><text x="330" y="100">run it</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="52">code nobody reads</text><text x="200" y="180">paste the error, ask again</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">describe, run, repeat</text>
+</svg>

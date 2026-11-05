@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-canva",
+  "date": "2026-11-08",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Canva Pro"],
+    "es": ["Canva Pro"]
+  },
+  "image": "img/2026-11-08-canva.svg",
+  "imageAlt": {
+    "en": "A browser window with a design editor: a row of ready-made templates on the left, and in the middle a poster being assembled by dragging in a photo, a title and shapes; on the right, the finished outputs: a post, a slide and a printed flyer",
+    "es": "Una ventana de navegador con un editor de diseño: a la izquierda una fila de plantillas listas, en el medio un afiche que se arma arrastrando una foto, un título y formas; a la derecha, lo que sale: un posteo, una diapositiva y un folleto impreso"
+  },
+  "en": {
+    "title": "Canva",
+    "tagline": "An online design tool that lets anyone make posters, posts and slides from templates.",
+    "explanation": [
+      "**Canva** is a design app that runs in the browser and on phones. You pick a template, say an Instagram post, a birthday invitation, a presentation or a restaurant menu, and change the text, photos, colors and shapes by dragging them around. No design training needed. It was founded in 2012 in Australia by Melanie Perkins, Cliff Obrecht and Cameron Adams, and launched in 2013.",
+      "The idea came from Perkins teaching students to use professional design software and seeing how hard it was for beginners. Canva bet on the opposite: a huge library of templates, photos, fonts and illustrations, and an editor simple enough for a teacher, a small shop owner or a marketing intern. Teams can share brand colors and logos so everyone's designs look consistent, and several people can edit the same design at once.",
+      "Canva is freemium: most features are free, and a paid plan unlocks premium content and tools such as background removal and resizing a design for many formats at once. It has added AI features for generating images and text, plus whiteboards, documents and simple websites. It competes with Adobe, whose tools are aimed more at professionals, and it is one of Australia's best-known tech companies."
+    ],
+    "analogy": "A craft table already stocked with cut-out shapes, stickers and nice paper, plus a pile of finished examples to copy. You do not start from a blank sheet; you start from something that already looks good.",
+    "keyPoints": [
+      "Founded in Australia in 2012 by Melanie Perkins, Cliff Obrecht and Cameron Adams.",
+      "Template-first design in the browser, aimed at non-designers.",
+      "Freemium: free basics, paid plans for premium assets and tools.",
+      "Competes with Adobe from the beginner and team end."
+    ],
+    "links": [
+      { "label": "Canva (official site)", "url": "https://www.canva.com/" },
+      { "label": "Canva on Wikipedia", "url": "https://en.wikipedia.org/wiki/Canva" }
+    ]
+  },
+  "es": {
+    "title": "Canva",
+    "tagline": "Una herramienta online para que cualquiera diseñe afiches, posteos y slides.",
+    "explanation": [
+      "**Canva** es una app de diseño que funciona en el navegador y en el celular. Elegís una plantilla, por ejemplo un posteo de Instagram, una invitación de cumpleaños, una presentación o el menú de un restaurante, y cambiás textos, fotos, colores y formas arrastrándolos. No hace falta saber diseño. La fundaron en 2012 en Australia Melanie Perkins, Cliff Obrecht y Cameron Adams, y salió en 2013.",
+      "La idea surgió cuando Perkins les enseñaba a estudiantes a usar programas de diseño profesionales y veía lo difícil que les resultaba a los principiantes. Canva apostó a lo contrario: una biblioteca enorme de plantillas, fotos, tipografías e ilustraciones, y un editor tan simple que lo puede usar una docente, el dueño de un negocio chico o alguien que recién entra a marketing. Los equipos pueden compartir colores y logos de la marca para que todos los diseños se vean parecidos, y varias personas pueden editar el mismo diseño a la vez.",
+      "Canva es freemium: casi todo es gratis, y un plan pago habilita contenido premium y herramientas como sacar el fondo de una foto o adaptar un diseño a muchos formatos de una. Fue sumando funciones de IA para generar imágenes y textos, además de pizarras, documentos y sitios web simples. Compite con Adobe, cuyas herramientas apuntan más a profesionales, y es una de las empresas tech más conocidas de Australia."
+    ],
+    "analogy": "Una mesa de manualidades que ya tiene formas recortadas, stickers y papeles lindos, más una pila de ejemplos terminados para copiar. No arrancás de la hoja en blanco; arrancás de algo que ya se ve bien.",
+    "keyPoints": [
+      "Fundada en Australia en 2012 por Melanie Perkins, Cliff Obrecht y Cameron Adams.",
+      "Diseño a partir de plantillas, en el navegador, para quienes no son diseñadores.",
+      "Freemium: lo básico gratis, planes pagos para contenido y herramientas premium.",
+      "Compite con Adobe desde el lado de principiantes y equipos."
+    ],
+    "links": [
+      { "label": "Canva (sitio oficial)", "url": "https://www.canva.com/es_419/" },
+      { "label": "Canva en Wikipedia", "url": "https://es.wikipedia.org/wiki/Canva" }
+    ]
+  }
+}

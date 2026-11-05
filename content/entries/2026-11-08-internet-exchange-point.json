@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-internet-exchange-point",
+  "date": "2026-11-08",
+  "subjects": ["networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["IXP", "IXPs", "internet exchange points", "internet exchange", "internet exchanges"],
+    "es": ["IXP", "IXPs", "puntos de intercambio de internet", "punto de intercambio de tráfico", "puntos de intercambio de tráfico", "internet exchange point"]
+  },
+  "image": "img/2026-11-08-internet-exchange-point.svg",
+  "imageAlt": {
+    "en": "Two internet providers, a CDN, a mobile operator and a cloud network all plug into one shared switch at an exchange point",
+    "es": "Dos proveedores de internet, una CDN, una operadora móvil y una red de nube se conectan a un mismo switch compartido en un punto de intercambio"
+  },
+  "en": {
+    "title": "Internet exchange point",
+    "tagline": "A place where many internet networks plug into each other to swap traffic directly.",
+    "explanation": [
+      "The internet is tens of thousands of separate networks: providers, mobile operators, universities, content companies, clouds. For your message to reach a site on another network, those networks have to connect somewhere. An **internet exchange point**, or **IXP**, is one of those places: usually a room in a data center with a big shared network switch, where many networks bring a cable and connect to each other at once.",
+      "What happens there is called **peering**: two networks agree to exchange traffic between their own users directly, usually without paying each other. The alternative is **transit**, paying a bigger provider to carry your traffic to the rest of the internet. Peering is cheaper and keeps local traffic local; without it, a message between two neighbors on different providers might cross an ocean and come back. Networks tell each other which addresses they can reach using BGP, often through a shared **route server** at the exchange.",
+      "Some of the best-known IXPs are DE-CIX in Frankfurt, AMS-IX in Amsterdam and LINX in London, and Brazil's IX.br is one of the largest systems in the world. In Argentina, CABASE runs a network of exchange points across the country. Where there is no local IXP, traffic between two local users often has to leave the country and come back, which is slower and more expensive, so building one is a common step to improve a country's internet."
+    ],
+    "analogy": "A wholesale market where trucks from many companies meet to swap cargo directly, instead of each one driving to a distant port and paying a middleman to forward it.",
+    "keyPoints": [
+      "An IXP is a physical place where many networks interconnect.",
+      "Networks peer there, swapping traffic directly and usually for free.",
+      "It cuts costs and latency by keeping local traffic local.",
+      "DE-CIX, AMS-IX, LINX and IX.br are among the biggest."
+    ],
+    "links": [
+      { "label": "Internet exchange point on Wikipedia", "url": "https://en.wikipedia.org/wiki/Internet_exchange_point" },
+      { "label": "Internet Exchange Points (Internet Society)", "url": "https://www.internetsociety.org/policybriefs/ixps/" }
+    ]
+  },
+  "es": {
+    "title": "Punto de intercambio de internet",
+    "tagline": "Un lugar donde muchas redes de internet se conectan para pasarse tráfico directo.",
+    "explanation": [
+      "Internet son decenas de miles de redes separadas: proveedores, operadoras móviles, universidades, empresas de contenido, nubes. Para que tu mensaje llegue a un sitio que está en otra red, esas redes se tienen que conectar en algún lado. Un **punto de intercambio de internet**, o **IXP** (por Internet Exchange Point), es uno de esos lugares: casi siempre una sala en un centro de datos con un gran switch de red compartido, donde muchas redes llevan un cable y se conectan todas con todas.",
+      "Lo que pasa ahí se llama **peering**: dos redes acuerdan intercambiar el tráfico entre sus usuarios en forma directa, en general sin cobrarse. La alternativa es el **tránsito**: pagarle a un proveedor más grande para que lleve tu tráfico al resto de internet. El peering sale más barato y mantiene local el tráfico local; sin eso, un mensaje entre dos vecinos con distintos proveedores podría cruzar un océano y volver. Las redes se avisan qué direcciones pueden alcanzar con BGP, muchas veces a través de un **route server** compartido del punto de intercambio.",
+      "Algunos de los IXPs más conocidos son DE-CIX en Frankfurt, AMS-IX en Ámsterdam y LINX en Londres, y el IX.br de Brasil es uno de los sistemas más grandes del mundo. En Argentina, CABASE tiene una red de puntos de intercambio en todo el país. Donde no hay un IXP local, el tráfico entre dos usuarios del mismo país muchas veces tiene que salir al exterior y volver, lo que es más lento y más caro, así que armar uno es un paso habitual para mejorar la internet de un país."
+    ],
+    "analogy": "Un mercado mayorista donde camiones de muchas empresas se encuentran para intercambiar carga directo, en vez de que cada uno maneje hasta un puerto lejano y le pague a un intermediario para reenviarla.",
+    "keyPoints": [
+      "Un IXP es un lugar físico donde muchas redes se interconectan.",
+      "Ahí las redes hacen peering: intercambian tráfico directo y casi siempre gratis.",
+      "Baja costos y latencia porque mantiene local el tráfico local.",
+      "DE-CIX, AMS-IX, LINX e IX.br están entre los más grandes."
+    ],
+    "links": [
+      { "label": "Punto neutro (IXP) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Punto_neutro" },
+      { "label": "Puntos de intercambio de internet (Internet Society)", "url": "https://www.internetsociety.org/es/policybriefs/ixps/" },
+      { "label": "CABASE, que opera IXPs en Argentina", "url": "https://www.cabase.org.ar/" }
+    ]
+  }
+}

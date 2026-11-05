@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-figma",
+  "date": "2026-11-08",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["FigJam", "Figma file", "Figma files"],
+    "es": ["FigJam", "archivo de Figma", "archivos de Figma"]
+  },
+  "image": "img/2026-11-08-figma.svg",
+  "imageAlt": {
+    "en": "A browser window with a canvas showing three phone screens of an app being designed, and the cursors of a designer, a developer and a product manager working on the same file at the same time",
+    "es": "Una ventana de navegador con un lienzo que muestra tres pantallas de celular de una app en diseño, y los cursores de una diseñadora, un desarrollador y una product manager trabajando en el mismo archivo al mismo tiempo"
+  },
+  "en": {
+    "title": "Figma",
+    "tagline": "A design tool in the browser where whole teams design apps and websites together.",
+    "explanation": [
+      "**Figma** is the tool where most app and website screens are designed today. Designers draw buttons, menus and whole screens on a big canvas, link them into clickable prototypes, and hand them to developers with exact sizes, colors and spacing. It was founded in 2012 by Dylan Field and Evan Wallace, who met at Brown University, and opened to the public in 2016.",
+      "Its key bet was to run entirely in the web browser, at a time when serious design software had to be installed on a powerful computer. That made **real-time collaboration** possible: several people can be in the same file at once, each with a visible cursor, like in a shared Google document. Developers, product managers and clients can look, comment and copy what they need without installing anything. Teams keep shared libraries of components, so a button changed once is updated everywhere.",
+      "Figma also makes FigJam, an online whiteboard, and has added AI features and tools that help turn designs into code. In 2022 Adobe agreed to buy Figma for roughly 20 billion dollars, but the deal was dropped in late 2023 after objections from regulators in Europe and the United Kingdom. Figma stayed independent and went public on the New York Stock Exchange in 2025."
+    ],
+    "analogy": "A big shared drawing board in a room where the whole team can stand at once, each with a different colored marker, instead of mailing sketches back and forth.",
+    "keyPoints": [
+      "Founded in 2012 by Dylan Field and Evan Wallace.",
+      "Runs in the browser; many people can edit the same file at once.",
+      "Used to design and prototype app and website interfaces.",
+      "Adobe's planned purchase was abandoned in 2023; Figma went public in 2025."
+    ],
+    "links": [
+      { "label": "Figma (official site)", "url": "https://www.figma.com/" },
+      { "label": "Figma on Wikipedia", "url": "https://en.wikipedia.org/wiki/Figma" }
+    ]
+  },
+  "es": {
+    "title": "Figma",
+    "tagline": "Una herramienta de diseño en el navegador donde equipos enteros diseñan apps juntos.",
+    "explanation": [
+      "**Figma** es la herramienta donde hoy se diseña la mayoría de las pantallas de apps y sitios web. Los diseñadores dibujan botones, menús y pantallas enteras en un lienzo grande, las conectan en prototipos en los que se puede hacer clic y se las pasan a los desarrolladores con medidas, colores y espaciados exactos. La fundaron en 2012 Dylan Field y Evan Wallace, que se conocieron en la Universidad Brown, y se abrió al público en 2016.",
+      "Su gran apuesta fue funcionar entero en el navegador, en una época en que el software de diseño serio había que instalarlo en una computadora potente. Eso hizo posible la **colaboración en tiempo real**: varias personas pueden estar en el mismo archivo a la vez, cada una con su cursor a la vista, como en un documento compartido de Google. Desarrolladores, product managers y clientes pueden mirar, comentar y copiar lo que necesitan sin instalar nada. Los equipos mantienen bibliotecas compartidas de componentes, así que un botón que se cambia una vez se actualiza en todos lados.",
+      "Figma también hace FigJam, una pizarra online, y fue sumando funciones de IA y herramientas que ayudan a pasar diseños a código. En 2022 Adobe acordó comprar Figma por unos 20.000 millones de dólares, pero la operación se cayó a fines de 2023 después de objeciones de los reguladores de Europa y el Reino Unido. Figma siguió independiente y salió a cotizar en la Bolsa de Nueva York en 2025."
+    ],
+    "analogy": "Un pizarrón grande compartido en una sala donde todo el equipo puede pararse a la vez, cada uno con un marcador de otro color, en vez de mandarse bocetos por mail.",
+    "keyPoints": [
+      "Fundada en 2012 por Dylan Field y Evan Wallace.",
+      "Funciona en el navegador; muchas personas editan el mismo archivo a la vez.",
+      "Se usa para diseñar y prototipar interfaces de apps y sitios.",
+      "La compra por parte de Adobe se cayó en 2023; Figma salió a la bolsa en 2025."
+    ],
+    "links": [
+      { "label": "Figma (sitio oficial)", "url": "https://www.figma.com/es-la/" },
+      { "label": "Figma en Wikipedia", "url": "https://es.wikipedia.org/wiki/Figma" }
+    ]
+  }
+}

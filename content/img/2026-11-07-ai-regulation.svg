@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M145 30 L173.75 72.5 L116.25 72.5 Z" fill="#f4a7a7"/>
+    <path d="M116.25 72.5 L173.75 72.5 L202.5 115 L87.5 115 Z" fill="#ffd166"/>
+    <path d="M87.5 115 L202.5 115 L231.25 157.5 L58.75 157.5 Z" fill="#9ac7ea"/>
+    <path d="M58.75 157.5 L231.25 157.5 L260 200 L30 200 Z" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" stroke-dasharray="3 4" fill="none">
+    <path d="M166 51 H272"/><path d="M195 94 H272"/><path d="M224 136 H272"/><path d="M253 179 H272"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="325" y="55">banned</text><text x="325" y="98">high risk</text><text x="325" y="140">transparency</text><text x="325" y="183">minimal</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">EU AI Act: rules scale with risk</text>
+</svg>

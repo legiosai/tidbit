@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="35" width="100" height="150" rx="6" fill="#e6dfd0"/>
+    <rect x="165" y="90" width="70" height="50" rx="10" fill="#ffd166"/>
+    <rect x="265" y="45" width="115" height="130" rx="8" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M45 60 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0 t10 0"/>
+    <path d="M45 85 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0"/>
+    <path d="M45 110 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0 t10 0"/>
+    <path d="M45 150 q5 -5 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0"/>
+    <path d="M133 115 H160"/><path d="M154 111 l6 4 -6 4"/>
+    <path d="M238 115 H260"/><path d="M254 111 l6 4 -6 4"/>
+  </g>
+  <text x="200" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b">OCR</text>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="322" y="75">Coffee 3.50</text><text x="322" y="100">Bread 6.00</text><text x="322" y="125">Milk 15.00</text><text x="322" y="155">TOTAL 24.50</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="80" y="203">photo</text><text x="322" y="203">text</text>
+  </g>
+  <text x="200" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">pixels in, editable text out</text>
+</svg>

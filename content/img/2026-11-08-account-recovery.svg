@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="150" y="70" width="100" height="80" rx="10" fill="#e6dfd0"/>
+    <path d="M186 104 V94 C186 80 214 80 214 94 V104" fill="none"/>
+    <rect x="180" y="104" width="40" height="30" rx="4" fill="#ffd166"/>
+    <rect x="20" y="30" width="104" height="34" rx="8" fill="#9ac7ea"/>
+    <rect x="276" y="30" width="104" height="34" rx="8" fill="#9bd1b9"/>
+    <rect x="20" y="156" width="104" height="34" rx="8" fill="#f4a7a7"/>
+    <rect x="276" y="156" width="104" height="34" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M124 56 L148 74"/><path d="M276 56 L252 74"/>
+    <path d="M124 164 L148 146"/><path d="M276 164 L252 146"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="51">recovery email</text>
+    <text x="328" y="51">recovery phone</text>
+    <text x="72" y="177">backup codes</text>
+    <text x="328" y="177">trusted contact</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="62">password forgotten?</text>
+    <text x="200" y="164">your account</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">spare keys · set them up before you need them</text>
+</svg>

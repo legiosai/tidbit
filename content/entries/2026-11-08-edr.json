@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-edr",
+  "date": "2026-11-08",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["endpoint detection and response", "EDRs", "EDR agent", "EDR agents", "XDR", "extended detection and response"],
+    "es": ["detección y respuesta en endpoints", "detección y respuesta de endpoints", "EDRs", "agente EDR", "agentes EDR", "XDR"]
+  },
+  "image": "img/2026-11-08-edr.svg",
+  "imageAlt": {
+    "en": "Laptops and a server each run a small EDR agent that streams activity to a central console; on one laptop the console spots a suspicious chain, Word launching PowerShell, and cuts that machine off the network",
+    "es": "Notebooks y un servidor tienen cada uno un pequeño agente EDR que manda su actividad a una consola central; en una notebook la consola detecta una cadena sospechosa, Word abriendo PowerShell, y aísla esa máquina de la red"
+  },
+  "en": {
+    "title": "EDR",
+    "tagline": "Security software that watches what each computer does and reacts to signs of attack.",
+    "explanation": [
+      "**EDR** stands for endpoint detection and response. An endpoint is any device people or programs work on: laptops, desktops, servers. EDR is a small program, an agent, installed on each of them. It records what happens in detail, which processes start, which files change, which network connections open, and sends that stream to a central console where software and analysts look for signs of an attack.",
+      "The difference with a classic antivirus is the focus on behavior. Antivirus mainly asks whether a file matches known malware. EDR asks whether a sequence of events makes sense: why did a Word document just launch PowerShell, which then downloaded something and started encrypting hundreds of files? Attackers often use legitimate tools already on the machine, so judging behavior catches things a file scan misses.",
+      "The response part matters as much as the detection. From the console, a security team can isolate a laptop from the network with one click, kill a process, delete a file, or go back in the recorded history to see how the intruder got in. Products such as CrowdStrike Falcon, Microsoft Defender for Endpoint and SentinelOne are common in companies, and they feed alerts to the security operations center. Because EDR runs with deep access to the operating system, a bad update can do real damage: in July 2024 a faulty CrowdStrike update crashed millions of Windows computers worldwide. **XDR** (extended detection and response) widens the same idea to email, cloud and network data."
+    ],
+    "analogy": "A security camera and a guard in every room of the building, instead of only checking IDs at the front door. When something strange happens in one office, the guard can lock that room right away.",
+    "keyPoints": [
+      "An agent on each device records processes, files and connections.",
+      "Detects suspicious behavior, not only known malicious files.",
+      "Can isolate a machine, kill processes and replay what happened.",
+      "XDR extends the idea beyond endpoints to email, cloud and network."
+    ],
+    "links": [
+      { "label": "Endpoint detection and response on Wikipedia", "url": "https://en.wikipedia.org/wiki/Endpoint_detection_and_response" },
+      { "label": "What is EDR? (IBM)", "url": "https://www.ibm.com/think/topics/edr" }
+    ]
+  },
+  "es": {
+    "title": "EDR",
+    "tagline": "Software de seguridad que vigila cada computadora y reacciona ante señales de ataque.",
+    "explanation": [
+      "**EDR** viene de endpoint detection and response, detección y respuesta en endpoints. Un endpoint es cualquier equipo donde trabajan personas o programas: notebooks, computadoras de escritorio, servidores. El EDR es un programa chico, un agente, que se instala en cada uno. Registra con mucho detalle lo que pasa, qué procesos arrancan, qué archivos cambian, qué conexiones de red se abren, y manda todo eso a una consola central donde software y analistas buscan señales de ataque.",
+      "La diferencia con un antivirus clásico es que mira el comportamiento. El antivirus pregunta sobre todo si un archivo coincide con un malware conocido. El EDR pregunta si una secuencia de eventos tiene sentido: ¿por qué un documento de Word acaba de abrir PowerShell, que después bajó algo y empezó a cifrar cientos de archivos? Los atacantes muchas veces usan herramientas legítimas que ya están en la máquina, así que juzgar el comportamiento atrapa cosas que un escaneo de archivos no ve.",
+      "La parte de respuesta importa tanto como la detección. Desde la consola, el equipo de seguridad puede aislar una notebook de la red con un clic, matar un proceso, borrar un archivo o volver atrás en el historial grabado para ver por dónde entró el intruso. Productos como CrowdStrike Falcon, Microsoft Defender for Endpoint y SentinelOne son comunes en las empresas, y le pasan sus alertas al centro de operaciones de seguridad. Como el EDR corre con acceso profundo al sistema operativo, una actualización mala puede hacer mucho daño: en julio de 2024 una actualización fallida de CrowdStrike tiró millones de computadoras con Windows en todo el mundo. El **XDR** (extended detection and response) lleva la misma idea al mail, la nube y la red."
+    ],
+    "analogy": "Una cámara y un guardia en cada sala del edificio, en vez de solo controlar documentos en la puerta. Cuando pasa algo raro en una oficina, el guardia puede cerrar esa sala en el momento.",
+    "keyPoints": [
+      "Un agente en cada equipo registra procesos, archivos y conexiones.",
+      "Detecta comportamientos sospechosos, no solo archivos maliciosos conocidos.",
+      "Puede aislar una máquina, matar procesos y reconstruir lo que pasó.",
+      "El XDR extiende la idea más allá de los equipos: mail, nube y red."
+    ],
+    "links": [
+      { "label": "Qué es EDR (IBM)", "url": "https://www.ibm.com/es-es/think/topics/edr" },
+      { "label": "Endpoint detection and response en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Endpoint_detection_and_response" }
+    ]
+  }
+}

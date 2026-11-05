@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="65" cy="115" r="38" fill="#ffd166"/>
+    <rect x="130" y="95" width="100" height="40" rx="8" fill="#9ac7ea"/>
+    <rect x="280" y="35" width="95" height="55" rx="6" fill="#9bd1b9"/>
+    <circle cx="303" cy="62" r="11" fill="#ffd166"/>
+    <rect x="280" y="140" width="95" height="55" rx="6" fill="#e6dfd0"/>
+    <circle cx="298" cy="156" r="8" fill="#f4a7a7"/><circle cx="327" cy="156" r="8" fill="#ffd166"/><circle cx="356" cy="156" r="8" fill="#9ac7ea"/>
+    <circle cx="298" cy="179" r="8" fill="#9ac7ea"/><circle cx="327" cy="179" r="8" fill="#f4a7a7"/><circle cx="356" cy="179" r="8" fill="#ffd166"/>
+  </g>
+  <g fill="#2b2b2b"><circle cx="52" cy="105" r="3"/><circle cx="78" cy="105" r="3"/></g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M50 127 q15 12 30 0"/>
+    <path d="M323 55 H362"/><path d="M323 68 H352"/>
+    <path d="M106 115 H125"/><path d="M119 111 l6 4 -6 4"/>
+    <path d="M232 105 H255 V62 H274"/><path d="M268 58 l6 4 -6 4"/>
+    <path d="M232 125 H255 V168 H274"/><path d="M268 164 l6 4 -6 4"/>
+  </g>
+  <text x="180" y="119" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">0.12 -0.8 0.5</text>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="180" y="152">face as numbers</text><text x="327" y="106">1:1 is it you?</text><text x="327" y="212">1:many who is it?</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-amazon-textract",
+  "date": "2026-11-07",
+  "subjects": ["aws", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["Textract"],
+    "es": ["Textract"]
+  },
+  "image": "img/2026-11-07-amazon-textract.svg",
+  "imageAlt": {
+    "en": "A scanned invoice goes into Textract and comes out as structured fields and a table",
+    "es": "Una factura escaneada entra en Textract y sale convertida en campos ordenados y una tabla"
+  },
+  "en": {
+    "title": "Amazon Textract",
+    "tagline": "An AWS service that reads scanned documents and pulls out text, forms and tables.",
+    "explanation": [
+      "**Amazon Textract** takes an image or a PDF of a document, such as a scanned form, a receipt or a bank statement, and returns its contents as data a program can use. At the simplest level it does **OCR**, optical character recognition: it finds the typed and handwritten words and where they sit on the page.",
+      "What sets it apart from plain OCR is that it understands layout. It can read a **form** and pair each label with its value (\"Name: Ana Pérez\"), rebuild a **table** row by row and cell by cell, and answer **queries** like \"what is the policy number?\" even when the field is in a different spot on every document. Specialized operations handle invoices and receipts, and identity documents like U.S. driver's licenses and passports.",
+      "Typical uses are automating paperwork: loading invoices into accounting systems, processing insurance claims or loan applications, or making archives of scanned files searchable. Each result comes with a confidence score, so a common pattern is to let high-confidence fields through automatically and send the doubtful ones to a person to review."
+    ],
+    "analogy": "A data-entry clerk who takes a stack of paper forms and types each one into a spreadsheet, putting every value in the right column, and puts a sticky note on any field they could not quite read.",
+    "keyPoints": [
+      "Extracts typed and handwritten text from images and PDFs.",
+      "Understands forms (label and value) and tables, not just loose words.",
+      "Queries let you ask for a specific field by question.",
+      "Confidence scores help decide what still needs human review."
+    ],
+    "links": [
+      { "label": "What is Amazon Textract? (official docs)", "url": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html" },
+      { "label": "Amazon Textract product page", "url": "https://aws.amazon.com/textract/" },
+      { "label": "Optical character recognition on Wikipedia", "url": "https://en.wikipedia.org/wiki/Optical_character_recognition" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Textract",
+    "tagline": "Un servicio de AWS que lee documentos escaneados y saca texto, formularios y tablas.",
+    "explanation": [
+      "**Amazon Textract** agarra una imagen o un PDF de un documento, como un formulario escaneado, un ticket o un resumen bancario, y te devuelve su contenido como datos que un programa puede usar. En lo más básico hace **OCR**, reconocimiento óptico de caracteres: encuentra las palabras escritas a máquina y a mano, y dónde están en la página.",
+      "Lo que lo diferencia de un OCR común es que entiende la estructura. Puede leer un **formulario** y emparejar cada etiqueta con su valor (\"Nombre: Ana Pérez\"), reconstruir una **tabla** fila por fila y celda por celda, y responder **consultas** (queries) como \"¿cuál es el número de póliza?\" aunque ese dato esté en un lugar distinto en cada documento. Tiene operaciones especiales para facturas y tickets, y para documentos de identidad como licencias de conducir y pasaportes de Estados Unidos.",
+      "Se usa sobre todo para automatizar papeleo: cargar facturas en el sistema contable, procesar reclamos de seguros o pedidos de préstamo, o hacer buscables archivos llenos de escaneos. Cada resultado trae un puntaje de confianza, así que un patrón común es dejar pasar solos los campos con confianza alta y mandar los dudosos a una persona para que los revise."
+    ],
+    "analogy": "Un administrativo que agarra una pila de formularios en papel y los pasa uno por uno a una planilla, cada dato en su columna, y le pega un papelito a cualquier campo que no pudo leer bien.",
+    "keyPoints": [
+      "Extrae texto escrito a máquina y a mano de imágenes y PDF.",
+      "Entiende formularios (etiqueta y valor) y tablas, no solo palabras sueltas.",
+      "Con queries le pedís un dato puntual en forma de pregunta.",
+      "Los puntajes de confianza ayudan a decidir qué tiene que revisar una persona."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Textract? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/textract/latest/dg/what-is.html" },
+      { "label": "Página de Amazon Textract", "url": "https://aws.amazon.com/es/textract/" },
+      { "label": "Reconocimiento óptico de caracteres en Wikipedia", "url": "https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres" }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M40 100 C40 64 96 54 112 78 C138 58 184 72 176 106 C196 116 188 146 166 146 H52 C24 146 18 112 40 100 Z" fill="#9ac7ea"/>
+    <path d="M240 100 C240 66 290 56 306 80 C330 62 370 74 364 106 C382 116 374 144 354 144 H252 C226 144 220 112 240 100 Z" fill="#9bd1b9"/>
+    <rect x="214" y="44" width="176" height="124" rx="10" fill="none" stroke-dasharray="8 5"/>
+    <circle cx="48" cy="186" r="9" fill="#f4a7a7"/>
+    <circle cx="84" cy="186" r="9" fill="#ffd166"/>
+    <circle cx="120" cy="186" r="9" fill="#e6dfd0"/>
+    <circle cx="156" cy="186" r="9" fill="#9bd1b9"/>
+    <circle cx="304" cy="196" r="9" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M48 176 L80 148"/><path d="M84 176 L96 148"/><path d="M120 176 L120 148"/><path d="M156 176 L146 148"/>
+    <path d="M304 186 V170"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="108" y="114">public</text>
+    <text x="302" y="114">private</text>
+    <text x="108" y="220">shared by many</text>
+    <text x="304" y="226">just one company</text>
+  </g>
+</svg>

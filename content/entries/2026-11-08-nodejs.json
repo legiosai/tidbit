@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-nodejs",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["NodeJS", "Node.js runtime"],
+    "es": ["NodeJS", "runtime de Node.js"]
+  },
+  "image": "img/2026-11-08-nodejs.svg",
+  "imageAlt": {
+    "en": "Requests arrive on the left, an event loop in the middle hands slow tasks to a database, files and an API on the right and keeps going",
+    "es": "A la izquierda llegan pedidos; en el medio, un event loop les pasa las tareas lentas a una base de datos, archivos y una API a la derecha, y sigue"
+  },
+  "en": {
+    "title": "Node.js",
+    "tagline": "A way to run JavaScript on servers and computers, outside the browser.",
+    "explanation": [
+      "For its first years, JavaScript lived only inside web browsers. **Node.js**, released by Ryan Dahl in 2009, took Google Chrome's JavaScript engine, called V8, and wrapped it so it could run on any computer, with access to files, the network and everything a server needs. Suddenly the same language could run both the frontend and the backend.",
+      "Node.js is built around an **event loop**. Instead of waiting for a slow task, like reading a file or querying a database, it starts the task, moves on to other work and comes back when the result arrives. That makes a single Node.js process good at juggling many connections at once, which suits APIs, chat apps and real-time tools. It is a poor fit for heavy number-crunching, which blocks the loop for everyone.",
+      "Node.js also brought **npm**, the package manager and registry where developers share ready-made code. Today most web tooling runs on Node.js, even for teams whose servers use another language: build tools, test runners and frameworks like Next.js are installed and run with it."
+    ],
+    "analogy": "A waiter serving many tables at once. They take an order, pass it to the kitchen and move on to the next table instead of standing by the stove; when a dish is ready, they bring it out.",
+    "keyPoints": [
+      "Node.js runs JavaScript outside the browser, using Chrome's V8 engine.",
+      "Its event loop handles many connections without waiting on each one.",
+      "npm, its package registry, is where most JavaScript libraries live.",
+      "It shines when work is mostly waiting on networks and disks, not heavy computing."
+    ],
+    "links": [
+      { "label": "Introduction to Node.js (official docs)", "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" },
+      { "label": "Express/Node introduction (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction" },
+      { "label": "Node.js (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Node.js" }
+    ]
+  },
+  "es": {
+    "title": "Node.js",
+    "tagline": "Una forma de correr JavaScript en servidores y computadoras, fuera del navegador.",
+    "explanation": [
+      "En sus primeros años, JavaScript vivía solo adentro de los navegadores. **Node.js**, que Ryan Dahl lanzó en 2009, agarró el motor de JavaScript de Google Chrome, llamado V8, y lo empaquetó para que pudiera correr en cualquier computadora, con acceso a archivos, a la red y a todo lo que necesita un servidor. De golpe, el mismo lenguaje servía para el frontend y para el backend.",
+      "Node.js está armado alrededor de un **event loop** (bucle de eventos). En vez de quedarse esperando una tarea lenta, como leer un archivo o consultar una base de datos, la arranca, sigue con otra cosa y vuelve cuando llega el resultado. Por eso un solo proceso de Node.js se las arregla bien con muchas conexiones a la vez, ideal para APIs, apps de chat y herramientas en tiempo real. Lo que no le sienta es hacer cuentas pesadas, porque bloquean el bucle para todos.",
+      "Node.js además trajo **npm**, el gestor de paquetes y registro donde los desarrolladores comparten código listo para usar. Hoy casi todas las herramientas de la web corren sobre Node.js, incluso en equipos cuyos servidores usan otro lenguaje: herramientas de build, test runners y frameworks como Next.js se instalan y se ejecutan con él."
+    ],
+    "analogy": "Un mozo que atiende muchas mesas a la vez. Toma el pedido, lo pasa a la cocina y va a la mesa siguiente en vez de quedarse parado al lado de la hornalla; cuando el plato está listo, lo lleva.",
+    "keyPoints": [
+      "Node.js corre JavaScript fuera del navegador, con el motor V8 de Chrome.",
+      "Su event loop maneja muchas conexiones sin quedarse esperando cada una.",
+      "npm, su registro de paquetes, es donde viven la mayoría de las bibliotecas de JavaScript.",
+      "Rinde mejor cuando el trabajo es sobre todo esperar a la red y al disco, no hacer cálculos pesados."
+    ],
+    "links": [
+      { "label": "Node.js (sitio oficial)", "url": "https://nodejs.org/es/" },
+      { "label": "Introducción a Express/Node (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction" },
+      { "label": "Node.js en Wikipedia", "url": "https://es.wikipedia.org/wiki/Node.js" }
+    ]
+  }
+}

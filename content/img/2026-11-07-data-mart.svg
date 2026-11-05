@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="60" width="110" height="110" rx="10" fill="#9ac7ea"/>
+    <rect x="216" y="30" width="96" height="44" rx="8" fill="#ffd166"/>
+    <rect x="216" y="94" width="96" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="216" y="158" width="96" height="44" rx="8" fill="#f4a7a7"/>
+    <circle cx="350" cy="52" r="12" fill="#e6dfd0"/>
+    <circle cx="350" cy="116" r="12" fill="#e6dfd0"/>
+    <circle cx="350" cy="180" r="12" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M145 100 L210 56"/><path d="M202 56 l8 0 -3 7"/>
+    <path d="M145 116 H210"/><path d="M204 112 l6 4 -6 4"/>
+    <path d="M145 132 L210 176"/><path d="M202 176 l8 0 -3 -7"/>
+    <path d="M316 52 H334"/><path d="M316 116 H334"/><path d="M316 180 H334"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="85" y="112">data</text>
+    <text x="85" y="128">warehouse</text>
+    <text x="264" y="57">sales</text>
+    <text x="264" y="121">finance</text>
+    <text x="264" y="185">marketing</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one warehouse, a mart per team</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-amazon-guardduty",
+  "date": "2026-11-07",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["GuardDuty", "GuardDuty finding", "GuardDuty findings"],
+    "es": ["GuardDuty", "hallazgo de GuardDuty", "hallazgos de GuardDuty"]
+  },
+  "image": "img/2026-11-07-amazon-guardduty.svg",
+  "imageAlt": {
+    "en": "Three streams of logs flow into a GuardDuty shield, which raises a finding about a suspicious login",
+    "es": "Tres flujos de logs entran a un escudo de GuardDuty, que levanta un hallazgo sobre un inicio de sesión sospechoso"
+  },
+  "en": {
+    "title": "Amazon GuardDuty",
+    "tagline": "An AWS service that watches your account's activity and flags signs of an attack.",
+    "explanation": [
+      "**Amazon GuardDuty** is a threat detection service for AWS. Once you turn it on, it starts reading the activity logs your account already produces, such as CloudTrail events (who called which API), VPC flow logs (which machines talked to which) and DNS queries, and looks for patterns that suggest something is wrong. You do not install agents or write rules to get started.",
+      "When it spots something suspicious it creates a **finding**: a short report with a type, a severity and the resources involved. Examples are access keys being used from an unusual country, an EC2 instance talking to a known cryptomining server, malware in a file uploaded to S3, or a sequence of small steps that together look like an attacker moving through the account. It combines lists of known bad IP addresses and domains with machine learning that learns what is normal for you.",
+      "GuardDuty only detects; it does not block. Teams usually send its findings to an alerting channel or to automation that reacts, for example disabling a leaked key. It complements, rather than replaces, good IAM permissions, AWS WAF in front of web apps, and AWS Config for checking settings."
+    ],
+    "analogy": "A security guard watching the building's cameras and badge logs all night. They do not lock doors themselves, but they call you the moment someone badges in at 3 a.m. from a door nobody uses.",
+    "keyPoints": [
+      "Detects threats by analyzing logs your AWS account already produces.",
+      "Each detection is a finding with a type, severity and affected resources.",
+      "Uses threat intelligence lists plus machine learning about your normal behavior.",
+      "It alerts but does not block; you decide or automate the response."
+    ],
+    "links": [
+      { "label": "What is Amazon GuardDuty? (official docs)", "url": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" },
+      { "label": "Amazon GuardDuty product page", "url": "https://aws.amazon.com/guardduty/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon GuardDuty",
+    "tagline": "Un servicio de AWS que vigila la actividad de tu cuenta y avisa si ve señales de ataque.",
+    "explanation": [
+      "**Amazon GuardDuty** es un servicio de detección de amenazas para AWS. Apenas lo activás, empieza a leer los registros de actividad que tu cuenta ya genera, como los eventos de CloudTrail (quién llamó a qué API), los VPC flow logs (qué máquinas hablaron con cuáles) y las consultas DNS, y busca patrones que indiquen que algo anda mal. Para arrancar no tenés que instalar agentes ni escribir reglas.",
+      "Cuando encuentra algo sospechoso crea un **hallazgo** (finding): un reporte corto con un tipo, una severidad y los recursos involucrados. Por ejemplo, claves de acceso usadas desde un país raro, una instancia de EC2 que habla con un servidor conocido de minería de criptomonedas, malware en un archivo subido a S3, o una seguidilla de pasos chicos que juntos parecen un atacante moviéndose por la cuenta. Combina listas de direcciones IP y dominios maliciosos conocidos con machine learning que aprende qué es normal para vos.",
+      "GuardDuty solo detecta; no bloquea. Lo habitual es mandar sus hallazgos a un canal de alertas o a una automatización que reaccione, por ejemplo desactivando una clave filtrada. Complementa, no reemplaza, unos buenos permisos de IAM, AWS WAF delante de las aplicaciones web y AWS Config para revisar configuraciones."
+    ],
+    "analogy": "Un guardia de seguridad que mira toda la noche las cámaras y los registros de credenciales del edificio. No cierra puertas él mismo, pero te llama apenas alguien entra a las 3 de la mañana por una puerta que nadie usa.",
+    "keyPoints": [
+      "Detecta amenazas analizando los logs que tu cuenta de AWS ya genera.",
+      "Cada detección es un hallazgo con tipo, severidad y recursos afectados.",
+      "Usa listas de amenazas conocidas y machine learning sobre tu comportamiento normal.",
+      "Avisa pero no bloquea: la respuesta la decidís o la automatizás vos."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon GuardDuty? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/guardduty/latest/ug/what-is-guardduty.html" },
+      { "label": "Página de Amazon GuardDuty", "url": "https://aws.amazon.com/es/guardduty/" }
+    ]
+  }
+}

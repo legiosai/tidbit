@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-dropbox",
+  "date": "2026-11-08",
+  "subjects": ["companies", "cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["Dropbox Inc."],
+    "es": ["Dropbox Inc."]
+  },
+  "image": "img/2026-11-08-dropbox.svg",
+  "imageAlt": {
+    "en": "A folder in the cloud in the middle, kept in sync with the same folder on a laptop, a phone and a colleague's computer; a file changed on one device appears on all the others",
+    "es": "Una carpeta en la nube en el medio, sincronizada con la misma carpeta en una notebook, un celular y la computadora de un compañero; un archivo que cambia en un equipo aparece en todos los demás"
+  },
+  "en": {
+    "title": "Dropbox",
+    "tagline": "A company that keeps a folder of your files in sync across all your devices.",
+    "explanation": [
+      "**Dropbox** was founded in 2007 by Drew Houston and Arash Ferdowsi, two MIT students. The story goes that Houston kept forgetting his USB drive, and wanted his files to just be everywhere. The product they built was simple to explain: a special folder on your computer. Anything you put in it is copied to Dropbox's servers and appears, automatically, in the same folder on your other computers and on your phone.",
+      "That idea of **file sync** sounds obvious now, but in 2008 it was a small revelation. You could also share a folder with someone and both of you would see the same files, always up to date, and recover earlier versions of a file you overwrote by mistake. Dropbox grew with a freemium model: a few free gigabytes, more space if you invited friends or paid a subscription.",
+      "Today it competes with services bundled into bigger platforms, like Google Drive, Microsoft OneDrive and Apple iCloud, and it sells more to teams and businesses: shared storage, document signing and tools for sending large files. It is listed on Nasdaq since 2018. A detail engineers like: Dropbox started out storing files on Amazon S3 and later moved most of that data to its own storage system and data centers to cut costs."
+    ],
+    "analogy": "A magic drawer that exists in your house, at the office and in your backpack at the same time. Put a paper in any of them and it is in all three.",
+    "keyPoints": [
+      "Founded in 2007 by Drew Houston and Arash Ferdowsi.",
+      "Core product: a folder that syncs across computers and phones.",
+      "Grew with a freemium model and referral bonuses.",
+      "Competes with Google Drive, OneDrive and iCloud."
+    ],
+    "links": [
+      { "label": "Dropbox (official site)", "url": "https://www.dropbox.com/" },
+      { "label": "Dropbox on Wikipedia", "url": "https://en.wikipedia.org/wiki/Dropbox" }
+    ]
+  },
+  "es": {
+    "title": "Dropbox",
+    "tagline": "Una empresa que mantiene una carpeta con tus archivos sincronizada en todos tus equipos.",
+    "explanation": [
+      "**Dropbox** nació en 2007, fundada por Drew Houston y Arash Ferdowsi, dos estudiantes del MIT. Cuenta la historia que Houston se olvidaba siempre el pendrive y quería que sus archivos estuvieran en todos lados sin pensarlo. El producto que armaron era fácil de explicar: una carpeta especial en tu computadora. Todo lo que pongas ahí se copia a los servidores de Dropbox y aparece, solo, en la misma carpeta de tus otras computadoras y de tu celular.",
+      "Esa idea de **sincronizar archivos** hoy suena obvia, pero en 2008 fue una pequeña revelación. Además podías compartir una carpeta con alguien y los dos veían los mismos archivos, siempre actualizados, y recuperar versiones anteriores de un archivo que pisaste sin querer. Dropbox creció con un modelo freemium: unos pocos gigas gratis, y más espacio si invitabas amigos o pagabas una suscripción.",
+      "Hoy compite con servicios que vienen incluidos en plataformas más grandes, como Google Drive, Microsoft OneDrive y Apple iCloud, y le vende cada vez más a equipos y empresas: almacenamiento compartido, firma de documentos y herramientas para mandar archivos pesados. Cotiza en Nasdaq desde 2018. Un detalle que les gusta a los ingenieros: Dropbox arrancó guardando los archivos en Amazon S3 y después pasó la mayor parte de esos datos a su propio sistema de almacenamiento y sus propios data centers, para bajar costos."
+    ],
+    "analogy": "Un cajón mágico que está al mismo tiempo en tu casa, en la oficina y en tu mochila. Ponés un papel en cualquiera y aparece en los tres.",
+    "keyPoints": [
+      "Fundada en 2007 por Drew Houston y Arash Ferdowsi.",
+      "Producto central: una carpeta que se sincroniza entre computadoras y celulares.",
+      "Creció con un modelo freemium y premios por invitar amigos.",
+      "Compite con Google Drive, OneDrive e iCloud."
+    ],
+    "links": [
+      { "label": "Dropbox (sitio oficial)", "url": "https://www.dropbox.com/es/" },
+      { "label": "Dropbox en Wikipedia", "url": "https://es.wikipedia.org/wiki/Dropbox" }
+    ]
+  }
+}

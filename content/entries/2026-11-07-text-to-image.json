@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-text-to-image",
+  "date": "2026-11-07",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["text to image", "text-to-image model", "text-to-image models", "image generation", "AI image generation", "image generator", "image generators", "AI image generator", "AI image generators", "AI-generated image", "AI-generated images"],
+    "es": ["text-to-image", "modelo de texto a imagen", "modelos de texto a imagen", "generación de imágenes", "generador de imágenes", "generadores de imágenes", "imagen generada por IA", "imágenes generadas por IA"]
+  },
+  "image": "img/2026-11-07-text-to-image.svg",
+  "imageAlt": {
+    "en": "A typed prompt goes into a model that turns a square of noise, step by step, into a picture of a cat under the sun",
+    "es": "Un prompt escrito entra a un modelo que convierte, paso a paso, un cuadrado de ruido en el dibujo de un gato bajo el sol"
+  },
+  "en": {
+    "title": "Text-to-image",
+    "tagline": "AI that draws a brand-new picture from a written description.",
+    "explanation": [
+      "A **text-to-image** model creates a picture from a sentence. You type \"a capybara reading the newspaper in a Buenos Aires café, watercolor\" and seconds later you get an image that never existed before. DALL·E, Midjourney, Stable Diffusion, Google's Imagen and the image features built into chatbots like ChatGPT and Gemini all do this.",
+      "These models learn from huge collections of images paired with captions. Most of them are a diffusion model: the system starts from pure random noise and removes it step by step, guided at each step by the meaning of your text, until a coherent picture appears. Some newer systems generate images inside a multimodal model, with an approach closer to how an LLM writes text.",
+      "They are handy for sketches, illustrations, mockups and ads, and they raise real questions. Many artists object that their work was used for training without permission, and there are lawsuits over copyright. Realistic fake photos, or deepfakes, can spread misinformation or be used to harass people, so many tools add a watermark or metadata marking the image as AI-made, and laws like the EU AI Act require that kind of labeling. They also still trip on some details, like exact lettering on a sign, though each generation gets better at it."
+    ],
+    "analogy": "A sketch artist working from a witness's description who has studied millions of paintings and photos. The more precise your description, the closer the drawing gets to what you had in mind.",
+    "keyPoints": [
+      "You write a description (a prompt) and get a new image.",
+      "Most use diffusion: noise refined step by step into a picture.",
+      "Trained on huge sets of captioned images, which fuels copyright debates.",
+      "Many tools mark their output as AI-generated."
+    ],
+    "links": [
+      { "label": "Text-to-image model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Text-to-image_model" },
+      { "label": "Image generation (OpenAI docs)", "url": "https://platform.openai.com/docs/guides/image-generation" }
+    ]
+  },
+  "es": {
+    "title": "Texto a imagen",
+    "tagline": "IA que dibuja una imagen nueva a partir de una descripción escrita.",
+    "explanation": [
+      "Un modelo de **texto a imagen** (text-to-image) crea una imagen a partir de una frase. Escribís \"un carpincho leyendo el diario en un café de Buenos Aires, en acuarela\" y a los pocos segundos tenés una imagen que nunca existió. DALL·E, Midjourney, Stable Diffusion, Imagen de Google y las funciones de imagen que traen chatbots como ChatGPT y Gemini hacen esto.",
+      "Estos modelos aprenden de colecciones enormes de imágenes con su descripción. La mayoría son un modelo de difusión: el sistema arranca de puro ruido al azar y lo va sacando paso a paso, guiado en cada paso por el sentido de tu texto, hasta que aparece una imagen coherente. Algunos sistemas más nuevos generan imágenes dentro de un modelo multimodal, con un enfoque más parecido a cómo un LLM escribe texto.",
+      "Sirven para bocetos, ilustraciones, maquetas y publicidad, y también abren preguntas de verdad. Muchos artistas reclaman que sus obras se usaron para entrenar sin permiso, y hay juicios por derechos de autor. Las fotos falsas pero realistas, los deepfakes, pueden desinformar o usarse para acosar a alguien, por eso muchas herramientas agregan una marca de agua o metadatos que indican que la imagen la hizo una IA, y leyes como la Ley de IA de la Unión Europea exigen ese tipo de etiquetado. Además, todavía se traban con algunos detalles, como escribir bien el texto de un cartel, aunque cada generación mejora."
+    ],
+    "analogy": "Un dibujante de identikits que trabaja con la descripción de un testigo y que estudió millones de cuadros y fotos. Cuanto más precisa es tu descripción, más se parece el dibujo a lo que tenías en la cabeza.",
+    "keyPoints": [
+      "Escribís una descripción (un prompt) y recibís una imagen nueva.",
+      "La mayoría usa difusión: ruido que se refina paso a paso hasta ser una imagen.",
+      "Se entrenan con enormes cantidades de imágenes con descripción, y eso alimenta el debate sobre derechos de autor.",
+      "Muchas herramientas marcan sus imágenes como generadas por IA."
+    ],
+    "links": [
+      { "label": "Text-to-image model en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Text-to-image_model" },
+      { "label": "Image generation, documentación de OpenAI (en inglés)", "url": "https://platform.openai.com/docs/guides/image-generation" }
+    ]
+  }
+}

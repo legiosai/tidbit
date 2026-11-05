@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-07-cohort-analysis",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["cohort", "cohorts", "cohort analyses", "cohort table", "retention curve", "retention curves"],
+    "es": ["cohorte", "cohortes", "tabla de cohortes", "curva de retención", "curvas de retención"]
+  },
+  "image": "img/2026-11-07-cohort-analysis.svg",
+  "imageAlt": {
+    "en": "A triangular table: one row per signup month, columns for month 0, 1, 2 and 3, with the share of users still active fading from 100% toward smaller numbers",
+    "es": "Una tabla en forma de triángulo: una fila por mes de alta, columnas para el mes 0, 1, 2 y 3, con el porcentaje de usuarios que siguen activos bajando desde 100%"
+  },
+  "en": {
+    "title": "Cohort analysis",
+    "tagline": "Comparing groups of users who started at the same time, to see how each one behaves.",
+    "explanation": [
+      "A **cohort** is a group of people who share a starting point: everyone who signed up in January, everyone who bought for the first time during a sale, every patient who began a treatment the same year. **Cohort analysis** follows each group over time and compares them, instead of lumping everyone together.",
+      "The classic output is a cohort table. Each row is a signup month. Each column is how many months have passed since signup. Each cell says what share of that cohort is still active. Reading across a row shows how one group fades. Reading down a column shows whether newer cohorts stick around better than older ones at the same age. Plot one row as a line and you get a retention curve.",
+      "The reason to do this is that totals hide what is going on. A company can grow its active users every month just by signing up more people, while each new group leaves faster than the last. Only by splitting users into cohorts do you see whether a product change, a price change or a new onboarding flow actually made people stay. It is a staple for subscription businesses, apps and anyone measuring churn."
+    ],
+    "analogy": "Like a school tracking each graduating class separately. Counting all students in the building tells you little; checking how many from the class of 2020 versus 2024 reached their final year tells you whether things got better.",
+    "keyPoints": [
+      "A cohort is a group that shares a starting point, usually a signup date.",
+      "The cohort table: rows are cohorts, columns are time since start.",
+      "Reveals trends that overall totals hide.",
+      "The standard way to measure retention and churn."
+    ],
+    "links": [
+      { "label": "Cohort analysis on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cohort_analysis" }
+    ]
+  },
+  "es": {
+    "title": "Análisis de cohortes",
+    "tagline": "Comparar grupos de usuarios que empezaron juntos para ver cómo se comporta cada uno.",
+    "explanation": [
+      "Una **cohorte** es un grupo de personas que comparten un punto de partida: todos los que se registraron en enero, todos los que compraron por primera vez en una promo, todos los pacientes que empezaron un tratamiento el mismo año. El **análisis de cohortes** sigue a cada grupo en el tiempo y los compara entre sí, en lugar de meter a todos en la misma bolsa.",
+      "El resultado clásico es una tabla de cohortes. Cada fila es un mes de alta. Cada columna es cuántos meses pasaron desde el alta. Cada celda dice qué porcentaje de esa cohorte sigue activo. Leyendo una fila de izquierda a derecha ves cómo se va apagando un grupo. Leyendo una columna de arriba abajo ves si las cohortes nuevas se quedan más que las viejas a la misma edad. Si graficás una fila como línea, tenés una curva de retención.",
+      "Se hace porque los totales esconden lo que pasa. Una empresa puede sumar usuarios activos todos los meses solo porque registra cada vez más gente, mientras cada grupo nuevo se va más rápido que el anterior. Recién cuando separás a los usuarios en cohortes ves si un cambio de producto, de precio o de onboarding hizo que la gente se quede de verdad. Es un clásico en negocios de suscripción, apps y cualquiera que mida churn."
+    ],
+    "analogy": "Como una escuela que sigue a cada promoción por separado. Contar a todos los alumnos del edificio dice poco; ver cuántos de la promo 2020 contra la promo 2024 llegaron a último año te dice si las cosas mejoraron.",
+    "keyPoints": [
+      "Una cohorte es un grupo con el mismo punto de partida, casi siempre la fecha de alta.",
+      "La tabla de cohortes: las filas son cohortes, las columnas el tiempo desde el inicio.",
+      "Muestra tendencias que los totales esconden.",
+      "Es la forma estándar de medir retención y churn."
+    ],
+    "links": [
+      { "label": "Cohort analysis en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Cohort_analysis" }
+    ]
+  }
+}

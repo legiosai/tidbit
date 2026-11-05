@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="50" cy="90" r="12" fill="#9ac7ea"/>
+    <path d="M30 130 C30 110 70 110 70 130 Z" fill="#9ac7ea"/>
+    <rect x="100" y="80" width="80" height="60" rx="8" fill="#e6dfd0"/>
+    <rect x="210" y="70" width="70" height="80" rx="10" fill="#ffd166"/>
+    <rect x="310" y="40" width="74" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="310" y="96" width="74" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="310" y="152" width="74" height="34" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M74 110 H96"/><path d="M90 105 l6 5 -6 5"/>
+    <path d="M182 110 H206"/><path d="M200 105 l6 5 -6 5"/>
+    <path d="M282 100 L306 60"/><path d="M282 110 H306"/><path d="M282 120 L306 165"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="140" y="106">company</text><text x="140" y="122">directory</text>
+    <text x="245" y="106">Identity</text><text x="245" y="122">Center</text>
+    <text x="347" y="62">account A</text><text x="347" y="118">account B</text><text x="347" y="174">app</text>
+    <text x="50" y="152">you</text>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">sign in once, reach what you are allowed</text>
+</svg>

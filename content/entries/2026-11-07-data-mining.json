@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-data-mining",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["knowledge discovery in databases"],
+    "es": ["data mining", "descubrimiento de conocimiento en bases de datos"]
+  },
+  "image": "img/2026-11-07-data-mining.svg",
+  "imageAlt": {
+    "en": "A pickaxe digging into a large pile of rows and pulling out three findings: a pattern, a group and an anomaly",
+    "es": "Un pico excavando una pila grande de filas y sacando tres hallazgos: un patrón, un grupo y una anomalía"
+  },
+  "en": {
+    "title": "Data mining",
+    "tagline": "Digging through large amounts of data to find patterns nobody wrote down.",
+    "explanation": [
+      "**Data mining** means searching large datasets for patterns that are useful but not obvious: which products are bought together, which customers behave alike, which transactions look strange. Nobody asks a precise question up front, like \"how much did we sell in May\"; the point is to let the data show something you did not know to ask.",
+      "A few kinds of results come up again and again. Association rules find things that happen together, like a supermarket noticing that people who buy pasta often buy grated cheese in the same trip. Clustering groups similar customers or patients without being told the groups in advance. Classification learns to sort new cases, for example a bank flagging card payments that look like past fraud. Anomaly detection spots records that do not fit any pattern.",
+      "The term became popular in the 1990s, and today most of the techniques live under machine learning and data science. The cautions are the same as ever. If you search enough data for enough patterns, some will appear by pure chance, so findings need to be checked on fresh data. And mining personal data raises privacy questions that laws like GDPR try to answer."
+    ],
+    "analogy": "Like panning for gold in a river: you shovel through huge amounts of sand and gravel, and most of it is worthless, but the few shiny bits you keep are what you came for.",
+    "keyPoints": [
+      "Finds patterns in large datasets without a precise question up front.",
+      "Common results: things that go together, groups, predictions, anomalies.",
+      "Overlaps heavily with machine learning and data science today.",
+      "Patterns found by chance must be checked on new data."
+    ],
+    "links": [
+      { "label": "Data mining on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_mining" },
+      { "label": "What is data mining? (IBM)", "url": "https://www.ibm.com/think/topics/data-mining" }
+    ]
+  },
+  "es": {
+    "title": "Minería de datos",
+    "tagline": "Excavar en grandes cantidades de datos para encontrar patrones que nadie anotó.",
+    "explanation": [
+      "La **minería de datos** (data mining) es buscar en conjuntos de datos grandes patrones útiles pero no evidentes: qué productos se compran juntos, qué clientes se comportan parecido, qué transacciones se ven raras. No se arranca con una pregunta precisa, del tipo \"¿cuánto vendimos en mayo?\"; la idea es que los datos te muestren algo que no sabías que tenías que preguntar.",
+      "Hay algunos tipos de resultado que aparecen siempre. Las reglas de asociación encuentran cosas que pasan juntas, como un supermercado que nota que quien compra fideos suele llevar queso rallado en la misma compra. El clustering agrupa clientes o pacientes parecidos sin que nadie le diga de antemano cuáles son los grupos. La clasificación aprende a ordenar casos nuevos, por ejemplo un banco que marca pagos con tarjeta que se parecen a fraudes anteriores. La detección de anomalías encuentra registros que no encajan en ningún patrón.",
+      "El término se hizo popular en los años noventa, y hoy la mayoría de estas técnicas viven bajo el paraguas del machine learning y la ciencia de datos. Las precauciones son las de siempre. Si buscás suficientes patrones en suficientes datos, algunos van a aparecer por pura casualidad, así que los hallazgos hay que comprobarlos con datos nuevos. Y minar datos personales abre preguntas de privacidad que leyes como el RGPD intentan responder."
+    ],
+    "analogy": "Como buscar oro en un río con una batea: revolvés montañas de arena y piedras, casi todo no sirve, pero las pocas pepitas que quedan son justamente lo que fuiste a buscar.",
+    "keyPoints": [
+      "Encuentra patrones en datos grandes sin una pregunta precisa de antemano.",
+      "Resultados típicos: cosas que van juntas, grupos, predicciones, anomalías.",
+      "Hoy se superpone mucho con el machine learning y la ciencia de datos.",
+      "Los patrones que salen por casualidad hay que comprobarlos con datos nuevos."
+    ],
+    "links": [
+      { "label": "Minería de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Miner%C3%ADa_de_datos" },
+      { "label": "Qué es la minería de datos (IBM, en inglés)", "url": "https://www.ibm.com/think/topics/data-mining" }
+    ]
+  }
+}

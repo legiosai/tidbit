@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-localhost",
+  "date": "2026-11-08",
+  "subjects": ["software", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["127.0.0.1", "loopback address", "loopback interface"],
+    "es": ["127.0.0.1", "dirección de loopback", "interfaz de loopback"]
+  },
+  "image": "img/2026-11-08-localhost.svg",
+  "imageAlt": {
+    "en": "A laptop showing localhost:3000 sends a message that loops straight back to itself instead of going out to the internet",
+    "es": "Una laptop que muestra localhost:3000 manda un mensaje que vuelve directo a ella misma en vez de salir a internet"
+  },
+  "en": {
+    "title": "Localhost",
+    "tagline": "The name a computer uses to talk to itself.",
+    "explanation": [
+      "**Localhost** is the name every computer uses to mean \"this same machine\". When a program connects to `localhost`, the message never goes out to the network: the operating system turns it around and delivers it right back, through a virtual connection called the **loopback** interface. Its usual address is `127.0.0.1` in IPv4 and `::1` in IPv6.",
+      "Developers use it all the time. When you build a website, you run it on your own laptop and open something like `http://localhost:3000` in the browser. The `3000` is the port, which tells the computer which program should answer. Only you can see that site: nobody on the internet can reach your localhost, because for them, localhost is their own computer.",
+      "That is also a safety feature. A database or admin panel that only listens on localhost cannot be reached from outside. And it explains a classic confusion: \"it works on my machine\" sometimes means it works on localhost and nowhere else, because the real server is set up differently."
+    ],
+    "analogy": "Writing yourself a note and leaving it on your own desk. It never goes through the post office, and nobody else can read it.",
+    "keyPoints": [
+      "Localhost always means \"this computer\".",
+      "Its address is `127.0.0.1` (IPv4) or `::1` (IPv6).",
+      "Traffic to localhost never leaves the machine.",
+      "Developers try out sites at addresses like `localhost:3000` before putting them online."
+    ],
+    "links": [
+      { "label": "Localhost on Wikipedia", "url": "https://en.wikipedia.org/wiki/Localhost" },
+      { "label": "RFC 6761, which reserves the name localhost", "url": "https://datatracker.ietf.org/doc/html/rfc6761" }
+    ]
+  },
+  "es": {
+    "title": "Localhost",
+    "tagline": "El nombre que usa una computadora para hablarse a sí misma.",
+    "explanation": [
+      "**Localhost** es el nombre que usa cualquier computadora para decir \"esta misma máquina\". Cuando un programa se conecta a `localhost`, el mensaje nunca sale a la red: el sistema operativo lo da vuelta y lo entrega ahí mismo, por una conexión virtual que se llama interfaz de **loopback**. Su dirección habitual es `127.0.0.1` en IPv4 y `::1` en IPv6.",
+      "Los desarrolladores la usan todo el tiempo. Cuando armás un sitio web, lo corrés en tu propia laptop y abrís algo como `http://localhost:3000` en el navegador. El `3000` es el puerto, que le indica a la computadora qué programa tiene que contestar. Ese sitio lo ves solo vos: nadie en internet puede llegar a tu localhost, porque para ellos localhost es su propia computadora.",
+      "Eso también es una medida de seguridad. Una base de datos o un panel de administración que solo escucha en localhost no se puede alcanzar desde afuera. Y explica una confusión clásica: \"en mi máquina anda\" a veces quiere decir que anda en localhost y en ningún otro lado, porque el servidor real está configurado distinto."
+    ],
+    "analogy": "Escribirte una nota y dejarla en tu propio escritorio. Nunca pasa por el correo y nadie más la puede leer.",
+    "keyPoints": [
+      "Localhost siempre significa \"esta computadora\".",
+      "Su dirección es `127.0.0.1` (IPv4) o `::1` (IPv6).",
+      "El tráfico a localhost nunca sale de la máquina.",
+      "Los desarrolladores prueban sitios en direcciones como `localhost:3000` antes de publicarlos."
+    ],
+    "links": [
+      { "label": "Localhost en Wikipedia", "url": "https://es.wikipedia.org/wiki/Localhost" },
+      { "label": "RFC 6761, que reserva el nombre localhost (en inglés)", "url": "https://datatracker.ietf.org/doc/html/rfc6761" }
+    ]
+  }
+}

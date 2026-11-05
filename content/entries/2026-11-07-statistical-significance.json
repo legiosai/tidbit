@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-statistical-significance",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["statistically significant", "p-value", "p-values", "significance level"],
+    "es": ["estadísticamente significativo", "estadísticamente significativa", "significación estadística", "valor p", "p-valor", "nivel de significancia"]
+  },
+  "image": "img/2026-11-07-statistical-significance.svg",
+  "imageAlt": {
+    "en": "A bell curve of results you would expect by pure chance, with a small shaded tail on the right where the observed result lands, labeled p < 0.05",
+    "es": "Una curva de campana con los resultados esperables por pura casualidad y una cola chica sombreada a la derecha donde cae el resultado observado, con la etiqueta p < 0.05"
+  },
+  "en": {
+    "title": "Statistical significance",
+    "tagline": "A test of whether a difference is probably real or could just be luck.",
+    "explanation": [
+      "When you compare two groups, they almost never come out exactly equal, even if nothing real is going on. Flip a coin 100 times and you rarely get exactly 50 heads. **Statistical significance** is a way of asking: if there were truly no difference, how surprising would a result like this be?",
+      "That surprise is measured with a **p-value**: the probability of seeing a difference at least this big by chance alone, assuming there is no real effect. A small p-value means chance is an unlikely explanation. By a long-standing convention, many fields call a result significant when p is below 0.05, that is, when a gap this big would show up by luck less than 5% of the time. In an A/B test, it is what lets a team say the new checkout button really performs better, not just that it got lucky this week.",
+      "Significance is easy to misread. It does not mean the effect is large or important: with millions of users, a tiny difference can be significant and still not worth anything. It also does not prove the effect is real, since a 5% threshold means some flukes will pass. Running many tests and only reporting the ones that cross the line, sometimes called p-hacking, makes this much worse. Good practice is to decide the test in advance and report the size of the effect along with the p-value."
+    ],
+    "analogy": "Like a friend who wins at dice three times in a row. Once is nothing, three times is a little suspicious, twenty times and you check the dice. Significance is the rule for deciding when \"just luck\" stops being a believable story.",
+    "keyPoints": [
+      "Asks how likely a result would be if there were no real effect.",
+      "Measured with a p-value; p < 0.05 is a common convention, not a law.",
+      "Significant does not mean big or important.",
+      "Running many tests guarantees some false positives."
+    ],
+    "links": [
+      { "label": "Statistical significance on Wikipedia", "url": "https://en.wikipedia.org/wiki/Statistical_significance" },
+      { "label": "P-value on Wikipedia", "url": "https://en.wikipedia.org/wiki/P-value" }
+    ]
+  },
+  "es": {
+    "title": "Significancia estadística",
+    "tagline": "Una prueba para saber si una diferencia probablemente es real o puede ser pura suerte.",
+    "explanation": [
+      "Cuando comparás dos grupos, casi nunca salen exactamente iguales, aunque no esté pasando nada real. Tirás una moneda 100 veces y rara vez salen justo 50 caras. La **significancia estadística** es una forma de preguntarse: si de verdad no hubiera diferencia, ¿qué tan sorprendente sería un resultado así?",
+      "Esa sorpresa se mide con el **valor p**: la probabilidad de ver una diferencia al menos así de grande solo por azar, suponiendo que no hay ningún efecto real. Un valor p chico quiere decir que la casualidad es una explicación poco probable. Por una convención de larga data, muchas disciplinas llaman significativo a un resultado cuando p es menor que 0,05, o sea, cuando una brecha así aparecería por suerte menos del 5% de las veces. En un test A/B es lo que le permite a un equipo decir que el botón nuevo de pago de verdad funciona mejor, y no que tuvo una semana con suerte.",
+      "La significancia es fácil de malinterpretar. No quiere decir que el efecto sea grande ni importante: con millones de usuarios, una diferencia mínima puede ser significativa y no valer nada. Tampoco prueba que el efecto sea real, porque un umbral del 5% implica que algunas casualidades van a pasar el filtro. Correr muchas pruebas y contar solo las que cruzan la línea, lo que a veces se llama p-hacking, lo empeora mucho. Lo sano es definir la prueba de antemano y reportar el tamaño del efecto junto con el valor p."
+    ],
+    "analogy": "Como un amigo que gana a los dados tres veces seguidas. Una vez no es nada, tres ya es medio sospechoso, veinte y le revisás los dados. La significancia es la regla para decidir cuándo \"fue suerte\" deja de ser una historia creíble.",
+    "keyPoints": [
+      "Pregunta qué tan probable sería un resultado si no hubiera efecto real.",
+      "Se mide con el valor p; p < 0,05 es una convención, no una ley.",
+      "Significativo no quiere decir grande ni importante.",
+      "Correr muchas pruebas garantiza algunos falsos positivos."
+    ],
+    "links": [
+      { "label": "Significación estadística en Wikipedia", "url": "https://es.wikipedia.org/wiki/Significaci%C3%B3n_estad%C3%ADstica" },
+      { "label": "Valor p en Wikipedia", "url": "https://es.wikipedia.org/wiki/Valor_p" }
+    ]
+  }
+}

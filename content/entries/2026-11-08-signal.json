@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-signal",
+  "date": "2026-11-08",
+  "subjects": ["companies", "security"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Signal app", "Signal Messenger", "Signal Foundation"],
+    "es": ["app Signal", "Signal Messenger", "Fundación Signal", "Signal Foundation"]
+  },
+  "image": "img/2026-11-08-signal.svg",
+  "imageAlt": {
+    "en": "Two phones exchange a locked message through Signal's server, which only sees scrambled data and keeps almost nothing; below, other apps like WhatsApp borrow the same encryption protocol",
+    "es": "Dos celulares se mandan un mensaje con candado a través del servidor de Signal, que solo ve datos revueltos y no guarda casi nada; abajo, otras apps como WhatsApp usan el mismo protocolo de cifrado"
+  },
+  "en": {
+    "title": "Signal",
+    "tagline": "A private messaging app run by a nonprofit, built to know as little about you as it can.",
+    "explanation": [
+      "**Signal** is a free messaging app for texts, voice notes, calls, video calls and groups, like WhatsApp, but designed around privacy above everything else. Every message and call is end-to-end encrypted, always, with no setting to turn on. Its code is open source, so outside experts can check what it does.",
+      "It is run by the Signal Foundation, a nonprofit created in 2018 with an initial donation of roughly 50 million dollars from Brian Acton, a co-founder of WhatsApp. The app itself grew out of earlier apps made by the cryptographer Moxie Marlinspike and his project Open Whisper Systems. There are no ads and no investors expecting a profit; it is funded by donations.",
+      "Signal's most important contribution may be the **Signal protocol**, the encryption design behind it, which is considered a gold standard and is also used by WhatsApp and other apps. What sets the Signal app apart is how little it collects. Beyond the encryption, it is built to store as little metadata as possible: it does not keep your contact list, your groups or who talks to whom. When authorities have demanded user data, the company says it could hand over little more than when an account was created and when it last connected."
+    ],
+    "analogy": "A courier who carries sealed boxes, does not keep a list of who sent what to whom, and forgets your address the moment the delivery is done.",
+    "keyPoints": [
+      "Everything is end-to-end encrypted by default.",
+      "Run by a nonprofit foundation, funded by donations, with no ads.",
+      "Its open protocol also protects WhatsApp and other apps.",
+      "Collects as little metadata as it can."
+    ],
+    "links": [
+      { "label": "Signal (official site)", "url": "https://signal.org/" },
+      { "label": "Signal (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Signal_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Signal",
+    "tagline": "Una app de mensajería privada, de una fundación, hecha para saber lo mínimo de vos.",
+    "explanation": [
+      "**Signal** es una app de mensajería gratuita para textos, audios, llamadas, videollamadas y grupos, como WhatsApp, pero pensada antes que nada para la privacidad. Cada mensaje y cada llamada van con cifrado de extremo a extremo, siempre, sin ningún ajuste que haya que activar. Su código es open source, así que expertos de afuera pueden revisar qué hace.",
+      "La maneja la Fundación Signal, una organización sin fines de lucro creada en 2018 con una donación inicial de unos 50 millones de dólares de Brian Acton, uno de los cofundadores de WhatsApp. La app en sí nació de apps anteriores del criptógrafo Moxie Marlinspike y su proyecto Open Whisper Systems. No tiene publicidad ni inversores que esperen ganancias; se financia con donaciones.",
+      "Su aporte más importante quizás sea el **protocolo Signal**, el diseño de cifrado que usa por dentro, considerado un estándar de referencia y que también usan WhatsApp y otras apps. Lo que distingue a la app Signal es lo poco que junta. Más allá del cifrado, está hecha para guardar la menor cantidad posible de metadatos: no guarda tu lista de contactos, ni tus grupos, ni quién habla con quién. Cuando las autoridades pidieron datos de usuarios, la empresa dice que pudo entregar poco más que la fecha de creación de la cuenta y la última vez que se conectó."
+    ],
+    "analogy": "Un mensajero que lleva cajas cerradas, no anota quién le mandó qué a quién y se olvida tu dirección apenas termina la entrega.",
+    "keyPoints": [
+      "Todo va con cifrado de extremo a extremo por defecto.",
+      "La maneja una fundación sin fines de lucro, con donaciones y sin publicidad.",
+      "Su protocolo abierto también protege a WhatsApp y otras apps.",
+      "Junta la menor cantidad de metadatos que puede."
+    ],
+    "links": [
+      { "label": "Signal (sitio oficial)", "url": "https://signal.org/es/" },
+      { "label": "Signal en Wikipedia", "url": "https://es.wikipedia.org/wiki/Signal_(software)" }
+    ]
+  }
+}

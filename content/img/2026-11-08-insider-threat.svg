@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="110" y="30" width="270" height="160" rx="12" fill="#e6dfd0"/>
+    <rect x="96" y="60" width="22" height="100" rx="3" fill="#f4a7a7"/>
+    <circle cx="40" cy="96" r="12" fill="#e6dfd0"/>
+    <path d="M22 132 C22 110 58 110 58 132 Z" fill="#e6dfd0"/>
+    <circle cx="170" cy="80" r="12" fill="#ffd166"/><path d="M152 116 C152 94 188 94 188 116 Z" fill="#ffd166"/>
+    <circle cx="250" cy="80" r="12" fill="#9ac7ea"/><path d="M232 116 C232 94 268 94 268 116 Z" fill="#9ac7ea"/>
+    <circle cx="330" cy="80" r="12" fill="#9bd1b9"/><path d="M312 116 C312 94 348 94 348 116 Z" fill="#9bd1b9"/>
+    <rect x="160" y="126" width="20" height="12" rx="2" fill="#f3efe6"/>
+    <rect x="238" y="124" width="24" height="16" rx="2" fill="#f3efe6"/>
+    <rect x="318" y="124" width="24" height="16" rx="2" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M62 104 H88"/><path d="M80 98 l8 12 M88 98 l-8 12"/>
+    <path d="M238 124 l12 8 12 -8"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="170" y="160">malicious</text><text x="170" y="174" fill="#6b6357">copies files</text>
+    <text x="250" y="160">careless</text><text x="250" y="174" fill="#6b6357">wrong email</text>
+    <text x="330" y="160">compromised</text><text x="330" y="174" fill="#6b6357">account taken</text>
+    <text x="40" y="150">outsider</text>
+    <text x="64" y="182">firewall</text>
+  </g>
+  <text x="245" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">already inside, already trusted</text>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the wall faces out · the risk is in</text>
+</svg>

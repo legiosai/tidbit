@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-net-neutrality",
+  "date": "2026-11-08",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["network neutrality", "internet neutrality"],
+    "es": ["neutralidad de red", "neutralidad de internet", "net neutrality"]
+  },
+  "image": "img/2026-11-08-net-neutrality.svg",
+  "imageAlt": {
+    "en": "A big video service, a news site and a small startup pass through an internet provider in three equal lanes to reach a home",
+    "es": "Un servicio de video grande, un sitio de noticias y una startup chica pasan por un proveedor de internet en tres carriles iguales hasta una casa"
+  },
+  "en": {
+    "title": "Net neutrality",
+    "tagline": "The principle that internet providers should treat all traffic the same way.",
+    "explanation": [
+      "**Net neutrality** is the idea that your internet provider should carry all traffic equally, no matter where it comes from or what it is. It should not block a website, slow down a video service that competes with its own, or let companies pay to have their content delivered faster than everyone else's. The provider sells you a connection; what you do with it is up to you. The law professor Tim Wu popularized the term in 2003.",
+      "Supporters say neutrality is what lets a small startup reach users on the same terms as a giant, and that it protects free expression. Critics, often the providers themselves, argue that they should be free to manage their networks and sell different tiers of service, and that strict rules discourage investment. A common gray area is **zero rating**: plans where WhatsApp or a music app does not count against your data. It feels like a gift, but it favors some services over others.",
+      "Countries have landed in different places. Chile passed one of the first net neutrality laws in 2010, Argentina wrote the principle into its Argentina Digital law in 2014, and the European Union adopted rules in 2015. In the United States the rules have been adopted and repealed several times; the latest version was struck down by a federal court in early 2025."
+    ],
+    "analogy": "A highway that cannot hand the fast lane to cars of one brand, or to whoever paid extra. Every car pays the same toll and moves at the speed of traffic.",
+    "keyPoints": [
+      "Providers should not block, slow down or sell priority to specific services.",
+      "Zero rating, free data for certain apps, is the classic gray area.",
+      "Chile, Argentina and the European Union have neutrality rules in law.",
+      "In the US the rules have flipped back and forth for years."
+    ],
+    "links": [
+      { "label": "Net neutrality on Wikipedia", "url": "https://en.wikipedia.org/wiki/Net_neutrality" },
+      { "label": "Net neutrality (Electronic Frontier Foundation)", "url": "https://www.eff.org/issues/net-neutrality" }
+    ]
+  },
+  "es": {
+    "title": "Neutralidad de la red",
+    "tagline": "El principio de que los proveedores de internet traten todo el tráfico por igual.",
+    "explanation": [
+      "La **neutralidad de la red** es la idea de que tu proveedor de internet tiene que transportar todo el tráfico por igual, sin importar de dónde viene ni qué es. No debería bloquear un sitio, ponerle el freno a un servicio de video que compite con el suyo ni cobrarles a algunas empresas para que su contenido llegue más rápido que el del resto. El proveedor te vende una conexión; lo que hacés con ella es cosa tuya. El término lo popularizó el profesor de derecho Tim Wu en 2003.",
+      "Quienes la defienden dicen que la neutralidad es lo que permite que una startup chica llegue a los usuarios en las mismas condiciones que un gigante, y que protege la libertad de expresión. Los críticos, muchas veces los propios proveedores, sostienen que deberían poder administrar sus redes y vender distintos niveles de servicio, y que las reglas estrictas desalientan la inversión. Una zona gris típica es el **zero rating**: planes donde WhatsApp o una app de música no te consumen datos. Parece un regalo, pero favorece a unos servicios sobre otros.",
+      "Cada país resolvió distinto. Chile aprobó una de las primeras leyes de neutralidad de la red en 2010, Argentina incluyó el principio en la ley Argentina Digital en 2014 y la Unión Europea adoptó reglas en 2015. En Estados Unidos las reglas se aprobaron y se derogaron varias veces; la última versión la anuló un tribunal federal a principios de 2025."
+    ],
+    "analogy": "Una autopista que no le puede dar el carril rápido a los autos de una marca, ni a quien pague extra. Todos pagan el mismo peaje y van a la velocidad del tránsito.",
+    "keyPoints": [
+      "Los proveedores no deberían bloquear, frenar ni venderles prioridad a servicios puntuales.",
+      "El zero rating, datos gratis para ciertas apps, es la zona gris clásica.",
+      "Chile, Argentina y la Unión Europea tienen reglas de neutralidad por ley.",
+      "En Estados Unidos las reglas van y vienen desde hace años."
+    ],
+    "links": [
+      { "label": "Neutralidad de red en Wikipedia", "url": "https://es.wikipedia.org/wiki/Neutralidad_de_red" },
+      { "label": "Net neutrality (Electronic Frontier Foundation, en inglés)", "url": "https://www.eff.org/issues/net-neutrality" }
+    ]
+  }
+}

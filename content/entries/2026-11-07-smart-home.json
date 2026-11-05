@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-smart-home",
+  "date": "2026-11-07",
+  "subjects": ["hardware", "networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["smart homes", "home automation", "smart home device", "smart home devices", "smart plug", "smart plugs", "smart bulb", "smart bulbs"],
+    "es": ["hogar inteligente", "hogares inteligentes", "casas inteligentes", "domótica", "automatización del hogar", "enchufe inteligente", "enchufes inteligentes", "lamparita inteligente", "lamparitas inteligentes"]
+  },
+  "image": "img/2026-11-07-smart-home.svg",
+  "imageAlt": {
+    "en": "A house with a light bulb, a thermostat, a door lock and a motion sensor, all connected to a hub that talks to a phone app",
+    "es": "Una casa con una lamparita, un termostato, una cerradura y un sensor de movimiento, todos conectados a un hub que habla con una app del celular"
+  },
+  "en": {
+    "title": "Smart home",
+    "tagline": "A home whose lights, locks and appliances run from a phone or on their own.",
+    "explanation": [
+      "A **smart home** is a home with devices that connect to a network and can be controlled remotely or set to act on their own: lights you dim from your phone, a thermostat that lowers the heat when everyone leaves, a door lock that opens with a code, a camera that sends a clip when someone rings. It is the Internet of things applied to your house.",
+      "Each device has a small chip, a radio and often a sensor. They connect over Wi-Fi or over low-power networks designed for this, such as Zigbee, Z-Wave or Thread, sometimes through a hub. An app or a voice assistant lets you control them, and simple rules tie them together: \"when the motion sensor sees nobody for 20 minutes, turn off the lights\". The appeal is comfort, saving energy, and peace of mind when you are away.",
+      "For years the big problem was that brands did not talk to each other, so a bulb from one company might not work with a speaker from another. **Matter**, a standard backed by Apple, Google, Amazon, Samsung and others and launched in 2022, aims to fix that. Other concerns remain. Many devices depend on the maker's cloud and stop working if it shuts down, and every connected camera, lock or microphone is one more thing that has to be kept updated and secure."
+    ],
+    "analogy": "Like having a house-sitter who never sleeps: turns the lights off when you forget, warms the place up before you get home, and texts you when the front door opens.",
+    "keyPoints": [
+      "Connected devices at home, controlled by app, voice or automatic rules.",
+      "Talk over Wi-Fi or low-power networks like Zigbee, Z-Wave and Thread.",
+      "Matter is the shared standard meant to make brands work together.",
+      "Depends on the maker's cloud and on keeping devices updated and secure."
+    ],
+    "links": [
+      { "label": "Home automation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Home_automation" },
+      { "label": "Matter (standard) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Matter_(standard)" }
+    ]
+  },
+  "es": {
+    "title": "Casa inteligente",
+    "tagline": "Una casa cuyas luces, cerraduras y aparatos se manejan desde el celular o solos.",
+    "explanation": [
+      "Una **casa inteligente** es una casa con aparatos que se conectan a una red y se pueden controlar a distancia o programar para que actúen solos: luces que bajás desde el celular, un termostato que baja la calefacción cuando no queda nadie, una cerradura que abre con un código, una cámara que te manda un video cuando alguien toca el timbre. Es el Internet de las cosas aplicado a tu casa. También se le dice domótica.",
+      "Cada aparato tiene un chip chiquito, una radio y muchas veces un sensor. Se conectan por Wi-Fi o por redes de bajo consumo pensadas para esto, como Zigbee, Z-Wave o Thread, a veces a través de un hub. Una app o un asistente de voz te deja manejarlos, y reglas simples los coordinan: \"si el sensor de movimiento no ve a nadie durante 20 minutos, apagá las luces\". El atractivo es la comodidad, ahorrar energía y quedarte tranquilo cuando no estás.",
+      "Durante años el gran problema fue que las marcas no se hablaban entre sí, y una lamparita de una empresa podía no funcionar con el parlante de otra. **Matter**, un estándar respaldado por Apple, Google, Amazon, Samsung y otras empresas y lanzado en 2022, apunta a resolver eso. Quedan otras preocupaciones. Muchos aparatos dependen de la nube del fabricante y dejan de andar si esa empresa los da de baja, y cada cámara, cerradura o micrófono conectado es una cosa más que hay que mantener actualizada y segura."
+    ],
+    "analogy": "Como tener alguien que te cuida la casa y nunca duerme: apaga las luces cuando te olvidás, calienta el ambiente antes de que llegues y te avisa cuando se abre la puerta.",
+    "keyPoints": [
+      "Aparatos conectados en casa, manejados por app, por voz o con reglas automáticas.",
+      "Se comunican por Wi-Fi o redes de bajo consumo como Zigbee, Z-Wave y Thread.",
+      "Matter es el estándar común para que las marcas funcionen juntas.",
+      "Depende de la nube del fabricante y de mantener los aparatos actualizados y seguros."
+    ],
+    "links": [
+      { "label": "Domótica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Dom%C3%B3tica" },
+      { "label": "Matter (estándar) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Matter_(standard)" }
+    ]
+  }
+}

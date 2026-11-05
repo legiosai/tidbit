@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-07-aws-outposts",
+  "date": "2026-11-07",
+  "subjects": ["aws", "cloud"],
+  "level": 3,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Outposts", "Outposts rack", "Outposts racks", "Outposts server", "Outposts servers"],
+    "es": ["Outposts", "rack de Outposts", "racks de Outposts", "servidor de Outposts", "servidores de Outposts"]
+  },
+  "image": "img/2026-11-07-aws-outposts.svg",
+  "imageAlt": {
+    "en": "An AWS rack inside a customer's building, connected by a service link to its parent AWS Region",
+    "es": "Un rack de AWS dentro del edificio de un cliente, conectado por un service link a su región de AWS"
+  },
+  "en": {
+    "title": "AWS Outposts",
+    "tagline": "AWS hardware installed in your own building, run by AWS as part of a Region.",
+    "explanation": [
+      "**AWS Outposts** brings a piece of AWS into your own data center, factory or office. AWS delivers and installs the equipment, either a full 42U **Outposts rack** or a smaller 1U or 2U **Outposts server**, and then operates, monitors and replaces it. On that hardware you run familiar services such as EC2 instances, EBS volumes, ECS clusters or RDS databases, using the same console, APIs and tools as in the cloud.",
+      "Each Outpost is anchored to a parent AWS Region through a network connection called the **service link**, and it appears in your VPC as one more subnet. Instances on the Outpost talk to instances in the Region over private IP addresses. The control plane, the part that decides what runs where, stays in the Region; the data and the computing can stay on your premises.",
+      "Why not just use the Region? Three usual reasons: **latency**, when a machine on a factory floor needs answers in a few milliseconds; **data residency**, when rules require data to stay in a specific building or country without a nearby Region; and **local processing**, when moving huge volumes of data to the cloud is impractical. It is a form of hybrid cloud with one big difference from running your own servers: the hardware is AWS's, and so is the job of keeping it alive. The site still has to meet AWS's power, space and network requirements."
+    ],
+    "analogy": "A bank that installs a full branch inside your company's building. The staff and the vault are the bank's, the rules are the bank's, and it is connected to headquarters, but your employees just walk downstairs.",
+    "keyPoints": [
+      "AWS-owned and AWS-managed racks or servers in your own facility.",
+      "Runs EC2, EBS, ECS, RDS and more with the same APIs as the cloud.",
+      "Connected to a parent Region by a service link; it extends your VPC.",
+      "Chosen for low latency, data residency or local data processing."
+    ],
+    "links": [
+      { "label": "What is AWS Outposts? (official docs)", "url": "https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html" },
+      { "label": "AWS Outposts product page", "url": "https://aws.amazon.com/outposts/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Outposts",
+    "tagline": "Hardware de AWS instalado en tu edificio y operado por AWS como parte de una región.",
+    "explanation": [
+      "**AWS Outposts** lleva un pedazo de AWS a tu propio data center, fábrica u oficina. AWS entrega e instala el equipamiento, ya sea un **rack de Outposts** completo de 42U o un **servidor de Outposts** más chico de 1U o 2U, y después lo opera, lo monitorea y lo reemplaza. Sobre ese hardware corrés servicios conocidos como instancias de EC2, volúmenes de EBS, clusters de ECS o bases de RDS, con la misma consola, las mismas API y las mismas herramientas que en la nube.",
+      "Cada Outpost está anclado a una región de AWS \"madre\" a través de una conexión de red llamada **service link**, y aparece en tu VPC como una subred más. Las instancias del Outpost hablan con las de la región por direcciones IP privadas. El plano de control, la parte que decide qué corre dónde, se queda en la región; los datos y el cómputo pueden quedarse en tu edificio.",
+      "¿Por qué no usar directamente la región? Tres motivos habituales: **latencia**, cuando una máquina en la planta de una fábrica necesita respuestas en pocos milisegundos; **residencia de datos**, cuando las normas exigen que los datos se queden en un edificio o país puntual y no hay una región cerca; y **procesamiento local**, cuando mover volúmenes enormes de datos a la nube no es práctico. Es una forma de nube híbrida con una gran diferencia respecto de tener tus propios servidores: el hardware es de AWS, y mantenerlo andando también es trabajo de AWS. Eso sí, el lugar tiene que cumplir los requisitos de energía, espacio y red que pide AWS."
+    ],
+    "analogy": "Un banco que instala una sucursal entera adentro del edificio de tu empresa. Los empleados y la bóveda son del banco, las reglas son del banco y está conectada con la casa central, pero tu gente solo tiene que bajar una escalera.",
+    "keyPoints": [
+      "Racks o servidores de AWS, administrados por AWS, en tu propio edificio.",
+      "Corre EC2, EBS, ECS, RDS y más con las mismas API que la nube.",
+      "Se conecta a una región madre por un service link y extiende tu VPC.",
+      "Se elige por baja latencia, residencia de datos o procesamiento local."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Outposts? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/outposts/latest/userguide/what-is-outposts.html" },
+      { "label": "Página de AWS Outposts", "url": "https://aws.amazon.com/es/outposts/" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-context-engineering",
+  "date": "2026-11-07",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["context engineer", "context engineers"],
+    "es": ["context engineering", "ingeniería del contexto"]
+  },
+  "image": "img/2026-11-07-context-engineering.svg",
+  "imageAlt": {
+    "en": "Many sources (instructions, documents, history, tools, notes) pass through a filter, and only a few selected pieces enter the model's context window",
+    "es": "Muchas fuentes (instrucciones, documentos, historial, herramientas, notas) pasan por un filtro, y solo unas pocas piezas elegidas entran a la ventana de contexto del modelo"
+  },
+  "en": {
+    "title": "Context engineering",
+    "tagline": "Choosing what goes into a model's context so it has what it needs and nothing more.",
+    "explanation": [
+      "An LLM works with two things: what it learned in training and what sits in its context window right now. **Context engineering** is the job of deciding what goes into that window at each step: the instructions, the relevant documents, the conversation so far, the tool definitions, the results of earlier tool calls. The term spread in 2025 as a broader cousin of prompt engineering, which focuses on wording a single request well.",
+      "It matters most for AI agents that work through many steps. Every tool result, file and message piles up, and even with a huge context window, more is not better: as the window fills, models get slower and more expensive, and they can lose track of details buried in the middle. A well-built agent keeps its context lean and relevant.",
+      "Common techniques: fetch only the relevant pieces with RAG or search instead of pasting whole documents; summarize or compact old turns of the conversation; let the agent write notes to a file and read them back later; give a sub-agent its own clean context for a side task and keep only its summary; load detailed tool instructions only when they are needed. The guiding question is always the same: what is the smallest set of information that lets the model do this step well?"
+    ],
+    "analogy": "Briefing a surgeon before an operation. You do not hand over the patient's whole life story; you give the scans, the allergies and today's plan, clearly organized. Too little and they have to guess; too much and the one line that matters gets lost.",
+    "keyPoints": [
+      "It decides which instructions, data and history the model sees at each step.",
+      "More context is not always better: it costs money, time and attention.",
+      "Key techniques: retrieval, summarizing, notes and sub-agents.",
+      "Prompt engineering is about wording; context engineering is about the whole input."
+    ],
+    "links": [
+      { "label": "Effective context engineering for AI agents (Anthropic)", "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" },
+      { "label": "Context engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Context_engineering" }
+    ]
+  },
+  "es": {
+    "title": "Ingeniería de contexto",
+    "tagline": "Elegir qué entra en el contexto de un modelo para que tenga lo justo y necesario.",
+    "explanation": [
+      "Un LLM trabaja con dos cosas: lo que aprendió en el entrenamiento y lo que tiene en su ventana de contexto en este momento. La **ingeniería de contexto** (context engineering) es el trabajo de decidir qué entra en esa ventana en cada paso: las instrucciones, los documentos que importan, la conversación hasta ahora, la descripción de las herramientas, los resultados de las herramientas que ya usó. El término se popularizó en 2025 como un primo más amplio de la ingeniería de prompts, que se concentra en redactar bien un pedido puntual.",
+      "Importa sobre todo en los agentes de IA que trabajan durante muchos pasos. Cada resultado de una herramienta, cada archivo y cada mensaje se van apilando, y aunque la ventana de contexto sea enorme, más no es mejor: a medida que se llena, el modelo se vuelve más lento y más caro, y puede perder de vista detalles enterrados en el medio. Un agente bien armado mantiene su contexto liviano y al grano.",
+      "Las técnicas más comunes: traer solo los pedazos relevantes con RAG o una búsqueda en vez de pegar documentos enteros; resumir o compactar los turnos viejos de la conversación; dejar que el agente tome notas en un archivo y las vuelva a leer después; darle a un subagente su propio contexto limpio para una tarea aparte y quedarse solo con su resumen; cargar las instrucciones detalladas de una herramienta recién cuando hacen falta. La pregunta que guía todo es siempre la misma: ¿cuál es la menor cantidad de información que le permite al modelo hacer bien este paso?"
+    ],
+    "analogy": "Ponerla al tanto a una cirujana antes de operar. No le das la historia de vida completa del paciente; le das los estudios, las alergias y el plan de hoy, bien ordenados. Si le das poco, tiene que adivinar; si le das de más, la línea que importa se pierde.",
+    "keyPoints": [
+      "Decide qué instrucciones, datos e historial ve el modelo en cada paso.",
+      "Más contexto no siempre es mejor: cuesta plata, tiempo y atención.",
+      "Técnicas clave: búsqueda, resúmenes, notas y subagentes.",
+      "La ingeniería de prompts cuida la redacción; la de contexto, todo lo que entra."
+    ],
+    "links": [
+      { "label": "Effective context engineering for AI agents, de Anthropic (en inglés)", "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" },
+      { "label": "Context engineering en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Context_engineering" }
+    ]
+  }
+}

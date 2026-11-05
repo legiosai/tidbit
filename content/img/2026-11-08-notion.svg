@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="20" width="170" height="186" rx="10" fill="#f3efe6"/>
+    <rect x="32" y="32" width="146" height="24" rx="4" fill="#ffd166"/>
+    <rect x="32" y="64" width="146" height="24" rx="4" fill="#e6dfd0"/>
+    <rect x="32" y="96" width="146" height="34" rx="4" fill="#9bd1b9"/>
+    <rect x="42" y="104" width="8" height="8" fill="#f3efe6"/>
+    <rect x="42" y="116" width="8" height="8" fill="#f3efe6"/>
+    <rect x="32" y="138" width="60" height="56" rx="4" fill="#9ac7ea"/>
+    <rect x="100" y="138" width="78" height="56" rx="4" fill="#f4a7a7"/>
+    <path d="M100 157 H178 M100 175 H178 M139 138 V194" fill="none"/>
+    <rect x="260" y="24" width="120" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="260" y="82" width="120" height="56" rx="8" fill="#e6dfd0"/>
+    <rect x="260" y="152" width="120" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="272" y="108" width="22" height="20" rx="2" fill="#9bd1b9"/>
+    <rect x="300" y="104" width="22" height="20" rx="2" fill="#ffd166"/>
+    <rect x="328" y="104" width="22" height="20" rx="2" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M44 111 l2 2 4 -6"/>
+    <path d="M196 70 C226 70 230 46 254 46"/><path d="M247 41 l7 5 -7 5"/>
+    <path d="M196 110 H254"/><path d="M247 105 l7 5 -7 5"/>
+    <path d="M196 150 C226 150 230 174 254 174"/><path d="M247 169 l7 5 -7 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="105" y="48">Heading</text>
+    <text x="105" y="80">a paragraph of text</text>
+    <text x="74" y="112">done</text><text x="76" y="124">to-do</text>
+    <text x="62" y="170">image</text>
+    <text x="320" y="50">team wiki</text>
+    <text x="320" y="100">task board</text>
+    <text x="320" y="178">reading list</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">everything is a block · snap them together</text>
+</svg>

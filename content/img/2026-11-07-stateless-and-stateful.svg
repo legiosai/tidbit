@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="96" width="60" height="44" rx="6" fill="#ffd166"/>
+    <rect x="140" y="40" width="80" height="40" rx="6" fill="#9ac7ea"/>
+    <rect x="140" y="98" width="80" height="40" rx="6" fill="#9ac7ea"/>
+    <rect x="140" y="156" width="80" height="40" rx="6" fill="#9ac7ea"/>
+    <ellipse cx="330" cy="88" rx="44" ry="12" fill="#9bd1b9"/>
+    <path d="M286 88 V148 C286 164 374 164 374 148 V88" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M82 110 L136 62"/><path d="M82 118 H136"/><path d="M82 126 L136 174"/>
+    <path d="M222 60 L282 100"/><path d="M222 118 H282"/><path d="M222 176 L282 136"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="50" y="123">LB</text>
+    <text x="180" y="65">app</text><text x="180" y="123">app</text><text x="180" y="181">app</text>
+    <text x="330" y="128">state</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="180" y="218">stateless: any copy works</text>
+    <text x="330" y="190">stateful</text>
+  </g>
+</svg>

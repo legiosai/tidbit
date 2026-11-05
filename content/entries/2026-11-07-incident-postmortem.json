@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-incident-postmortem",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["postmortem", "postmortems", "post-mortem", "post-mortems", "blameless postmortem", "blameless postmortems", "post-incident review"],
+    "es": ["postmortem", "postmortems", "post-mortem", "postmortem sin culpables", "postmortems sin culpables", "revisión post-incidente"]
+  },
+  "image": "img/2026-11-07-incident-postmortem.svg",
+  "imageAlt": {
+    "en": "A timeline of an outage leads to a document with sections for impact, root cause and action items",
+    "es": "Una línea de tiempo de una caída que lleva a un documento con secciones de impacto, causa raíz y acciones a seguir"
+  },
+  "en": {
+    "title": "Incident postmortem",
+    "tagline": "A written review of what went wrong in an outage and how to avoid a repeat.",
+    "explanation": [
+      "An **incident postmortem** is the document a team writes after something breaks in production: the site went down, payments failed, data was lost. Once the fire is out, people sit down and reconstruct what happened, minute by minute, so the organization learns from it instead of just moving on.",
+      "A typical postmortem has a summary, the **impact** (who was affected and for how long), a **timeline**, the **root cause** and contributing factors, what went well and badly in the response, and a list of **action items** with owners and dates, such as adding an alert, fixing a script or changing a review process. The action items are the point: a postmortem without follow-up is just a story.",
+      "The key cultural rule is that it is **blameless**. It assumes people acted reasonably with the information they had and asks why the system let a mistake cause damage, not who to punish. If engineers fear blame, they hide details, and the real causes stay buried. Many companies publish postmortems of big outages so customers can see what happened and what changed."
+    ],
+    "analogy": "Like the investigation after a plane incident: the goal is not to fire the pilot but to understand the chain of events, then change the checklist, the training or the instrument so the next crew does not end up in the same spot.",
+    "keyPoints": [
+      "Written after an outage: impact, timeline, root cause, action items.",
+      "Blameless: focuses on systems and processes, not on punishing people.",
+      "Action items with owners are what make it worth doing.",
+      "Big companies often publish theirs to keep customers informed."
+    ],
+    "links": [
+      { "label": "Postmortem culture: learning from failure (Google SRE book)", "url": "https://sre.google/sre-book/postmortem-culture/" },
+      { "label": "Postmortem documentation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Postmortem_documentation" }
+    ]
+  },
+  "es": {
+    "title": "Postmortem de incidentes",
+    "tagline": "Un análisis por escrito de qué salió mal en una caída y cómo evitar que se repita.",
+    "explanation": [
+      "Un **postmortem de incidente** es el documento que escribe un equipo después de que algo se rompe en producción: se cayó el sitio, fallaron los pagos, se perdieron datos. Una vez apagado el incendio, la gente se sienta a reconstruir qué pasó, minuto a minuto, para que la organización aprenda algo en lugar de seguir de largo.",
+      "Un postmortem típico tiene un resumen, el **impacto** (a quién afectó y por cuánto tiempo), una **línea de tiempo**, la **causa raíz** y los factores que contribuyeron, qué salió bien y qué salió mal en la respuesta, y una lista de **acciones a seguir** con responsable y fecha, como agregar una alerta, arreglar un script o cambiar un proceso de revisión. Las acciones son lo importante: un postmortem sin seguimiento es solo una anécdota.",
+      "La regla cultural clave es que sea **sin culpables** (blameless). Parte de la base de que las personas actuaron razonablemente con la información que tenían y pregunta por qué el sistema permitió que un error hiciera daño, no a quién castigar. Si los ingenieros temen que los culpen, esconden detalles y las causas reales quedan tapadas. Muchas empresas publican los postmortems de sus caídas grandes para que los clientes vean qué pasó y qué cambiaron."
+    ],
+    "analogy": "Como la investigación después de un incidente aéreo: el objetivo no es echar al piloto sino entender la cadena de hechos, y después cambiar la checklist, el entrenamiento o el instrumento para que la próxima tripulación no termine en la misma situación.",
+    "keyPoints": [
+      "Se escribe después de una caída: impacto, línea de tiempo, causa raíz, acciones.",
+      "Sin culpables: mira sistemas y procesos, no busca castigar personas.",
+      "Las acciones con responsable son lo que hace que valga la pena.",
+      "Muchas empresas grandes publican los suyos para informar a sus clientes."
+    ],
+    "links": [
+      { "label": "Postmortem culture: learning from failure, del libro de SRE de Google (en inglés)", "url": "https://sre.google/sre-book/postmortem-culture/" },
+      { "label": "Postmortem documentation en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Postmortem_documentation" }
+    ]
+  }
+}

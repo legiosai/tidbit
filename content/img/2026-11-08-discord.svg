@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="24" width="360" height="176" rx="10" fill="#f3efe6"/>
+    <path d="M110 24 V200 M230 24 V200" fill="none"/>
+    <circle cx="40" cy="56" r="12" fill="#f4a7a7"/>
+    <circle cx="40" cy="104" r="12" fill="#9ac7ea"/>
+    <circle cx="40" cy="152" r="12" fill="#9bd1b9"/>
+    <rect x="118" y="132" width="104" height="22" rx="5" fill="#ffd166"/>
+    <ellipse cx="305" cy="120" rx="62" ry="50" fill="#e6dfd0"/>
+    <circle cx="280" cy="108" r="11" fill="#ffd166"/>
+    <circle cx="330" cy="108" r="11" fill="#9ac7ea"/>
+    <circle cx="305" cy="140" r="11" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M294 100 C298 104 298 112 294 116"/>
+    <path d="M344 100 C348 104 348 112 344 116"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="78" y="60">games</text>
+    <text x="78" y="108">study</text>
+    <text x="78" y="156">code</text>
+    <text x="305" y="50" font-size="12">voice room</text>
+    <text x="170" y="147">lounge (voice)</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="170" y="56"># general</text>
+    <text x="170" y="84"># homework</text>
+    <text x="170" y="112"># memes</text>
+  </g>
+  <text x="305" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">drop in, just talk</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">servers · text channels · drop-in voice</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-deployment",
+  "date": "2026-11-08",
+  "subjects": ["software", "cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["deployments", "deploy", "deploys", "deploying", "software deployment"],
+    "es": ["deploys", "despliegue", "despliegues", "desplegar", "hacer deploy", "deployment"]
+  },
+  "image": "img/2026-11-08-deployment.svg",
+  "imageAlt": {
+    "en": "Code moves through build and staging into production, where users get it, with a rollback arrow pointing back",
+    "es": "El código pasa por build y staging hasta producción, donde lo reciben los usuarios, con una flecha de rollback que vuelve atrás"
+  },
+  "en": {
+    "title": "Deployment",
+    "tagline": "Getting a new version of software from the team's computers to real users.",
+    "explanation": [
+      "**Deployment**, or **deploy** in everyday tech talk, is the moment new code goes live. A developer finishes a change on their laptop; deploying it means building it, copying it to the servers (or the app store, or the cloud) and switching users over to the new version. Until then, the change exists only for the team.",
+      "A typical deploy has a few steps. The code is packaged into something that can run, like a container image. It often goes first to **staging**, a copy of the real system where the team can check it. Then it goes to **production**, the real thing, and someone watches error rates and dashboards to make sure nothing broke. If something did, they roll back to the previous version.",
+      "Years ago, deploys were rare, manual and scary: a long night with a checklist. Today many teams deploy several times a day, automatically, through a CI/CD pipeline, and use techniques like blue-green deployment or canary releases to move traffic over gradually. Small, frequent deploys are easier to check and easier to undo than big ones."
+    ],
+    "analogy": "Changing the menu at a restaurant that never closes. You try the new dish in the back kitchen first, serve it to a few tables, and keep the old recipe handy in case diners send it back.",
+    "keyPoints": [
+      "Deploying means putting a new version of software in front of real users.",
+      "Staging is the rehearsal; production is the real thing.",
+      "Automated pipelines let teams deploy many times a day.",
+      "Every deploy needs a way back: a rollback to the previous version."
+    ],
+    "links": [
+      { "label": "Software deployment on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_deployment" },
+      { "label": "Deploying a web app to production (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment" }
+    ]
+  },
+  "es": {
+    "title": "Deploy",
+    "tagline": "Llevar una versión nueva del software desde el equipo hasta los usuarios reales.",
+    "explanation": [
+      "El **deploy**, o **despliegue**, es el momento en que el código nuevo sale a la cancha. Un desarrollador termina un cambio en su laptop; hacer deploy significa compilarlo, copiarlo a los servidores (o a la tienda de apps, o a la nube) y pasar a los usuarios a la versión nueva. Hasta ese momento, el cambio existe solo para el equipo.",
+      "Un deploy típico tiene unos pocos pasos. El código se empaqueta en algo que se pueda ejecutar, como una imagen de contenedor. Muchas veces va primero a **staging**, una copia del sistema real donde el equipo lo puede revisar. Después pasa a **producción**, lo de verdad, y alguien mira las tasas de error y los dashboards para asegurarse de que no se rompió nada. Si algo se rompió, hacen rollback a la versión anterior.",
+      "Hace años, los deploys eran raros, manuales y daban miedo: una noche larga con una checklist. Hoy muchos equipos despliegan varias veces por día, en forma automática, con un pipeline de CI/CD, y usan técnicas como el despliegue blue-green o los canary releases para mover el tráfico de a poco. Los deploys chicos y frecuentes son más fáciles de revisar y de deshacer que los grandes."
+    ],
+    "analogy": "Cambiar el menú de un restaurante que nunca cierra. Probás el plato nuevo primero en la cocina de atrás, lo servís en algunas mesas y tenés a mano la receta vieja por si los comensales lo devuelven.",
+    "keyPoints": [
+      "Hacer deploy es poner una versión nueva del software frente a usuarios reales.",
+      "Staging es el ensayo; producción es lo de verdad.",
+      "Los pipelines automáticos permiten hacer deploy muchas veces por día.",
+      "Todo deploy necesita un camino de vuelta: un rollback a la versión anterior."
+    ],
+    "links": [
+      { "label": "Despliegue de software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Despliegue_de_software" },
+      { "label": "Poner una app web en producción (MDN, en inglés)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment" }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="26" width="76" height="44" rx="5" fill="#9ac7ea"/><path d="M16 74 H108" fill="none"/>
+    <rect x="18" y="92" width="88" height="44" rx="5" fill="#f4a7a7"/><path d="M10 140 H114" fill="none"/>
+    <rect x="34" y="158" width="56" height="50" rx="5" fill="#9bd1b9"/>
+    <circle cx="92" cy="36" r="5" fill="#ffd166"/><circle cx="92" cy="102" r="5" fill="#ffd166"/><circle cx="82" cy="168" r="5" fill="#ffd166"/>
+    <rect x="250" y="60" width="132" height="110" rx="10" fill="#e6dfd0"/>
+    <rect x="262" y="96" width="108" height="40" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M112 48 C170 48 200 80 244 86"/><path d="M237 81 l8 5 -8 4"/>
+    <path d="M112 183 C170 183 200 160 244 150"/><path d="M237 146 l8 4 -7 5"/>
+    <path d="M118 114 H150"/><path d="M160 104 l14 20 M174 104 l-14 20"/>
+    <path d="M244 116 H190"/><path d="M196 111 l-7 5 7 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="62" y="54">laptop</text><text x="62" y="186">server</text>
+    <text x="316" y="84" font-size="13">EDR console</text>
+    <text x="316" y="112">alert</text>
+    <text x="316" y="158">isolate machine</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="62" y="112">Word</text><text x="62" y="126">→PowerShell</text>
+    <text x="316" y="128">odd chain</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="190" y="40">activity</text><text x="214" y="106">cut off</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">an agent on every device · one place to act</text>
+</svg>

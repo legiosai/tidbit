@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-load-testing",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["load test", "load tests", "stress test", "stress tests", "stress testing"],
+    "es": ["prueba de carga", "test de carga", "tests de carga", "load testing", "prueba de estrés", "pruebas de estrés"]
+  },
+  "image": "img/2026-11-07-load-testing.svg",
+  "imageAlt": {
+    "en": "A graph where response time stays flat as simulated users grow, then shoots up past a breaking point",
+    "es": "Un gráfico donde el tiempo de respuesta se mantiene plano mientras crecen los usuarios simulados, y después se dispara pasado un punto de quiebre"
+  },
+  "en": {
+    "title": "Load testing",
+    "tagline": "Simulating lots of users at once to see how a system holds up before real ones arrive.",
+    "explanation": [
+      "**Load testing** means sending a large, controlled amount of fake traffic to an app or API to measure how it behaves under pressure. A tool plays the part of thousands of users, logging in, searching, paying, and records response times, error rates and how much CPU, memory and database capacity the system uses as the numbers climb.",
+      "There are a few flavors. A plain **load test** checks the traffic you expect, like a normal Monday peak. A **stress test** keeps pushing until something breaks, to find the limit and see how it fails. A **spike test** jumps from quiet to huge in seconds, like a ticket sale opening, and a **soak test** runs a steady load for hours to catch slow leaks. Popular tools include k6, JMeter, Gatling and Locust.",
+      "It matters because performance problems rarely show up with one tester clicking around. A query that takes 20 ms alone can take seconds when a thousand people run it at once. Running load tests before a launch or a big sales day tells you whether autoscaling kicks in fast enough, where the bottleneck is, and how many servers you really need. Run them against a test environment, or tell your cloud provider and your team first: to a server, a load test looks a lot like an attack."
+    ],
+    "analogy": "Before opening a new bridge, engineers drive heavy trucks over it and watch how much it bends. Load testing is the same, with fake users instead of trucks.",
+    "keyPoints": [
+      "Simulated traffic to measure speed, errors and resource use under load.",
+      "Variants: load, stress (find the limit), spike, soak (long duration).",
+      "Common tools: k6, JMeter, Gatling, Locust.",
+      "Do it before launches or peak days, and warn people first."
+    ],
+    "links": [
+      { "label": "Load testing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Load_testing" },
+      { "label": "Load testing guide (Grafana k6 docs)", "url": "https://grafana.com/docs/k6/latest/testing-guides/test-types/load-testing/" },
+      { "label": "Software performance testing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_performance_testing" }
+    ]
+  },
+  "es": {
+    "title": "Pruebas de carga",
+    "tagline": "Simular muchos usuarios a la vez para ver si el sistema aguanta antes de que lleguen.",
+    "explanation": [
+      "Las **pruebas de carga** consisten en mandarle a una app o API una cantidad grande y controlada de tráfico falso para medir cómo se comporta bajo presión. Una herramienta hace de miles de usuarios, que inician sesión, buscan, pagan, y va registrando tiempos de respuesta, tasa de errores y cuánta CPU, memoria y capacidad de base de datos usa el sistema mientras los números suben.",
+      "Hay algunas variantes. Una **prueba de carga** común revisa el tráfico que esperás, como el pico de un lunes normal. Una **prueba de estrés** sigue empujando hasta que algo se rompe, para encontrar el límite y ver cómo falla. Una **prueba de picos** (spike test) pasa de tranquilo a enorme en segundos, como cuando se abre la venta de entradas para un recital, y una **prueba de resistencia** (soak test) mantiene una carga pareja durante horas para detectar pérdidas lentas. Herramientas populares: k6, JMeter, Gatling y Locust.",
+      "Importa porque los problemas de rendimiento casi nunca aparecen con una persona probando a mano. Una consulta que tarda 20 ms sola puede tardar segundos cuando la corren mil personas al mismo tiempo. Hacer pruebas de carga antes de un lanzamiento o de un día de ofertas te dice si el autoscaling reacciona a tiempo, dónde está el cuello de botella y cuántos servidores necesitás de verdad. Hacelas contra un entorno de prueba, o avisale antes a tu proveedor cloud y a tu equipo: para un servidor, una prueba de carga se parece mucho a un ataque."
+    ],
+    "analogy": "Antes de inaugurar un puente nuevo, los ingenieros le pasan camiones pesados por encima y miran cuánto se dobla. Las pruebas de carga son lo mismo, con usuarios falsos en lugar de camiones.",
+    "keyPoints": [
+      "Tráfico simulado para medir velocidad, errores y uso de recursos bajo carga.",
+      "Variantes: carga, estrés (buscar el límite), picos y resistencia (larga duración).",
+      "Herramientas comunes: k6, JMeter, Gatling, Locust.",
+      "Conviene hacerlas antes de lanzamientos o días pico, y avisar antes."
+    ],
+    "links": [
+      { "label": "Pruebas de rendimiento del software en Wikipedia", "url": "https://es.wikipedia.org/wiki/Pruebas_de_rendimiento_del_software" },
+      { "label": "Guía de pruebas de carga, documentación de Grafana k6 (en inglés)", "url": "https://grafana.com/docs/k6/latest/testing-guides/test-types/load-testing/" },
+      { "label": "Load testing en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Load_testing" }
+    ]
+  }
+}

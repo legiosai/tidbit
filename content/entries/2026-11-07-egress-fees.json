@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-egress-fees",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["egress fee", "egress charges", "data egress", "data transfer out"],
+    "es": ["costo de egreso", "egress fees", "egress fee", "cargos por egreso de datos"]
+  },
+  "image": "img/2026-11-07-egress-fees.svg",
+  "imageAlt": {
+    "en": "Data flows into a cloud through a free gate and leaves through a toll booth that charges per gigabyte",
+    "es": "Los datos entran a una nube por una puerta gratis y salen por una cabina de peaje que cobra por gigabyte"
+  },
+  "en": {
+    "title": "Egress fees",
+    "tagline": "What a cloud provider charges you for data leaving its network.",
+    "explanation": [
+      "**Egress fees** are the charges for data that goes out of a cloud provider's network: to users on the internet, to another cloud, or back to your own office. Data coming in, called **ingress**, is usually free. So uploading a terabyte of videos to cloud storage costs nothing to transfer, but serving those videos to viewers is billed for every gigabyte that leaves.",
+      "On AWS, data sent out to the internet is priced per gigabyte, with lower rates at higher volumes, and AWS gives 100 GB a month free across its services. Traffic between regions, and in many cases between availability zones in the same region, has its own prices too. For a video platform, a download site or an API that returns large files, egress can end up bigger than the bill for the servers themselves.",
+      "Egress fees matter beyond the invoice because they make leaving expensive: moving years of data to another provider can cost a lot just in transfer. Critics see them as a source of vendor lock-in, and regulators have noticed; the EU Data Act requires providers to phase out switching charges. AWS, Google Cloud and Microsoft Azure have all announced free egress for customers who move all their data out. Common ways to cut egress are a CDN, compression, and keeping chatty services in the same region."
+    ],
+    "analogy": "A parking garage that lets you drive in for free but charges at the exit gate, and charges more the bigger your car. Putting things in is easy; getting them out is where you pay.",
+    "keyPoints": [
+      "Charged per gigabyte for data leaving the cloud; incoming data is usually free.",
+      "Traffic between regions or zones often has its own price.",
+      "Can exceed compute costs for apps that serve a lot of data.",
+      "Makes switching providers costly, so regulators are pushing back."
+    ],
+    "links": [
+      { "label": "Data transfer pricing, in Amazon EC2 On-Demand pricing", "url": "https://aws.amazon.com/ec2/pricing/on-demand/" },
+      { "label": "Free data transfer out when moving out of AWS (AWS blog)", "url": "https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/" },
+      { "label": "The EU Data Act (European Commission)", "url": "https://digital-strategy.ec.europa.eu/en/policies/data-act" }
+    ]
+  },
+  "es": {
+    "title": "Costos de egreso",
+    "tagline": "Lo que te cobra un proveedor cloud por los datos que salen de su red.",
+    "explanation": [
+      "Los **costos de egreso** (egress fees) son lo que se cobra por los datos que salen de la red de un proveedor cloud: hacia usuarios en internet, hacia otra nube o de vuelta a tu oficina. Los datos que entran, el **ingreso** (ingress), suelen ser gratis. Entonces subir un terabyte de videos al almacenamiento en la nube no cuesta nada de transferencia, pero mostrárselos a la gente se cobra por cada gigabyte que sale.",
+      "En AWS, los datos que salen a internet se cobran por gigabyte, con precios más bajos a mayor volumen, y AWS regala 100 GB por mes sumando todos sus servicios. El tráfico entre regiones, y en muchos casos entre zonas de disponibilidad de la misma región, también tiene sus propios precios. Para una plataforma de video, un sitio de descargas o una API que devuelve archivos pesados, el egreso puede terminar siendo más caro que los servidores.",
+      "Importan más allá de la factura porque encarecen irse: mudar años de datos a otro proveedor puede costar mucho solo en transferencia. Los críticos los ven como una fuente de vendor lock-in, y los reguladores tomaron nota; la Ley de Datos de la UE (Data Act) obliga a los proveedores a ir eliminando los cargos por cambiarse. AWS, Google Cloud y Microsoft Azure anunciaron que no cobran el egreso a los clientes que se llevan todos sus datos. Las formas comunes de bajarlos son una CDN, comprimir, y dejar en la misma región los servicios que hablan mucho entre sí."
+    ],
+    "analogy": "Un estacionamiento donde entrar es gratis pero se paga en la barrera de salida, y más cuanto más grande es el auto. Meter cosas es fácil; sacarlas es donde pagás.",
+    "keyPoints": [
+      "Se cobran por gigabyte que sale de la nube; lo que entra suele ser gratis.",
+      "El tráfico entre regiones o zonas muchas veces tiene su propio precio.",
+      "Pueden superar el costo de cómputo en apps que sirven muchos datos.",
+      "Encarecen cambiar de proveedor, y los reguladores están poniendo límites."
+    ],
+    "links": [
+      { "label": "Precios de transferencia de datos de Amazon EC2 (en inglés)", "url": "https://aws.amazon.com/ec2/pricing/on-demand/" },
+      { "label": "Transferencia de datos gratis al irse de AWS, blog de AWS (en inglés)", "url": "https://aws.amazon.com/blogs/aws/free-data-transfer-out-to-internet-when-moving-out-of-aws/" },
+      { "label": "La Ley de Datos de la UE (Comisión Europea)", "url": "https://digital-strategy.ec.europa.eu/es/policies/data-act" }
+    ]
+  }
+}

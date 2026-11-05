@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-07-helm",
+  "date": "2026-11-07",
+  "subjects": ["cloud"],
+  "level": 3,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Helm chart", "Helm charts", "Kubernetes Helm"],
+    "es": ["chart de Helm", "charts de Helm", "Helm chart", "Helm charts"]
+  },
+  "image": "img/2026-11-07-helm.svg",
+  "imageAlt": {
+    "en": "A Helm chart made of templates plus a values file is rendered into Kubernetes manifests and installed as a release in a cluster",
+    "es": "Un chart de Helm hecho de plantillas más un archivo de valores se convierte en manifiestos de Kubernetes y se instala como un release en un cluster"
+  },
+  "en": {
+    "title": "Helm",
+    "tagline": "The package manager for Kubernetes: install a whole app with one command.",
+    "explanation": [
+      "**Helm** is a tool that installs and upgrades applications on Kubernetes. A real app on Kubernetes needs many YAML files: Deployments, Services, ConfigMaps, Secrets, Ingress rules. Helm bundles them into a package called a **chart**, so instead of applying a dozen files by hand you run `helm install my-db bitnami/postgresql` and get a working database.",
+      "A chart is a folder of **templates** with placeholders, plus a `values.yaml` file with defaults: how many replicas, which image version, how much memory. You override what you need, for example a bigger disk in production, and Helm fills in the templates and sends the result to the cluster. Each installation is a **release** with a version history, so `helm upgrade` moves it forward and `helm rollback` returns it to an earlier version if something breaks.",
+      "Charts are shared through repositories, so popular software, from databases to monitoring stacks, usually ships an official chart. Helm is a graduated project of the Cloud Native Computing Foundation, and it is often driven by GitOps tools like Argo CD or Flux. The common complaint is that templated YAML gets hard to read; alternatives like Kustomize patch plain YAML instead."
+    ],
+    "analogy": "Like a phone's app store for a Kubernetes cluster: pick an app, adjust a few settings, tap install, and later tap update or undo the update, without assembling every piece yourself.",
+    "keyPoints": [
+      "Package manager for Kubernetes; packages are called charts.",
+      "A chart is templates plus a values.yaml file you can override.",
+      "Each install is a release you can upgrade or roll back.",
+      "Graduated CNCF project; most popular infrastructure software ships a chart."
+    ],
+    "links": [
+      { "label": "Helm documentation", "url": "https://helm.sh/docs/" },
+      { "label": "Charts (Helm docs)", "url": "https://helm.sh/docs/topics/charts/" },
+      { "label": "Helm (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Helm_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Helm",
+    "tagline": "El gestor de paquetes de Kubernetes: instalás una app entera con un comando.",
+    "explanation": [
+      "**Helm** es una herramienta para instalar y actualizar aplicaciones en Kubernetes. Una app real en Kubernetes necesita un montón de archivos YAML: Deployments, Services, ConfigMaps, Secrets, reglas de Ingress. Helm los empaqueta en algo llamado **chart**, así que en vez de aplicar una docena de archivos a mano corrés `helm install my-db bitnami/postgresql` y tenés una base de datos andando.",
+      "Un chart es una carpeta de **plantillas** con huecos para completar, más un archivo `values.yaml` con valores por defecto: cuántas réplicas, qué versión de la imagen, cuánta memoria. Vos pisás lo que necesites, por ejemplo un disco más grande en producción, y Helm completa las plantillas y manda el resultado al cluster. Cada instalación es un **release** con historial de versiones, así que `helm upgrade` lo lleva hacia adelante y `helm rollback` lo devuelve a una versión anterior si algo se rompe.",
+      "Los charts se comparten en repositorios, y el software popular, desde bases de datos hasta herramientas de monitoreo, suele publicar un chart oficial. Helm es un proyecto graduado de la Cloud Native Computing Foundation y muchas veces lo manejan herramientas de GitOps como Argo CD o Flux. La queja típica es que el YAML con plantillas se vuelve difícil de leer; alternativas como Kustomize, en cambio, parchean YAML común."
+    ],
+    "analogy": "Como la tienda de apps del celular, pero para un cluster de Kubernetes: elegís una app, ajustás un par de opciones, tocás instalar, y después tocás actualizar o deshacer la actualización, sin armar cada pieza vos.",
+    "keyPoints": [
+      "Gestor de paquetes para Kubernetes; los paquetes se llaman charts.",
+      "Un chart son plantillas más un values.yaml que podés pisar.",
+      "Cada instalación es un release que podés actualizar o volver atrás.",
+      "Proyecto graduado de la CNCF; casi todo el software de infraestructura trae su chart."
+    ],
+    "links": [
+      { "label": "Documentación de Helm (en inglés)", "url": "https://helm.sh/docs/" },
+      { "label": "Charts, en la documentación de Helm (en inglés)", "url": "https://helm.sh/docs/topics/charts/" },
+      { "label": "Helm (software) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Helm_(software)" }
+    ]
+  }
+}

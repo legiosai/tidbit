@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="36" width="96" height="36" rx="8" fill="#9bd1b9"/>
+    <rect x="24" y="98" width="96" height="36" rx="8" fill="#ffd166"/>
+    <rect x="24" y="160" width="96" height="36" rx="8" fill="#f4a7a7"/>
+    <rect x="230" y="30" width="140" height="172" rx="8" fill="#9ac7ea"/>
+    <rect x="246" y="96" width="108" height="54" rx="4" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M246 54 H354"/><path d="M246 66 H354"/><path d="M246 78 H354"/>
+    <path d="M246 170 H354"/><path d="M246 182 H354"/>
+    <path d="M124 54 L224 100"/><path d="M216 96 l8 4 -6 6"/>
+    <path d="M124 116 H224"/><path d="M218 112 l6 4 -6 4"/>
+    <path d="M124 178 L224 132"/><path d="M218 126 l6 6 -8 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="59">ATM</text>
+    <text x="72" y="121">card terminal</text>
+    <text x="72" y="183">branch</text>
+    <text x="300" y="22">mainframe</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="300" y="127">COBOL</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">small transactions, all day, never stopping</text>
+</svg>

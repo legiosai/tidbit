@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-insider-threat",
+  "date": "2026-11-08",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["insider threats", "insider attack", "insider attacks", "malicious insider", "malicious insiders", "insider risk"],
+    "es": ["amenazas internas", "insider threat", "insider threats", "riesgo interno", "atacante interno", "atacantes internos"]
+  },
+  "image": "img/2026-11-08-insider-threat.svg",
+  "imageAlt": {
+    "en": "A company building whose firewall faces outward, while the risk comes from inside: one employee copies files to a USB drive, another emails a spreadsheet to the wrong person, and a third account has been taken over",
+    "es": "El edificio de una empresa con el firewall mirando hacia afuera, mientras el riesgo viene de adentro: un empleado copia archivos a un pendrive, otro manda una planilla a la persona equivocada y una tercera cuenta fue tomada por un atacante"
+  },
+  "en": {
+    "title": "Insider threat",
+    "tagline": "A security risk that comes from someone who already has legitimate access.",
+    "explanation": [
+      "Most defenses are built to keep strangers out: firewalls, passwords, two-factor authentication. An **insider threat** is the risk that comes from people who are already in: employees, contractors, partners, anyone with a badge or a login. They do not need to break anything, because the system already trusts them.",
+      "Insiders come in three flavors. The malicious one acts on purpose: a salesperson who downloads the client list before leaving for a competitor, a disgruntled admin who deletes backups, someone paid to leak secrets. The careless one makes a mistake: emails a spreadsheet full of personal data to the wrong address, leaves a storage bucket public, falls for a phishing email. The compromised one is a real employee whose account has been taken over by an outside attacker, who now looks exactly like an insider.",
+      "Defending against insiders is mostly about limits and visibility. Give each person only the access their job needs and remove it the day they leave. Split critical powers so no single person can, say, approve and pay an invoice alone. Log who accesses what, and look for unusual patterns, like someone downloading far more files than usual at 2 a.m. And build a culture where people report mistakes quickly instead of hiding them, since many incidents start as honest errors."
+    ],
+    "analogy": "A bank vault with a perfect steel door does not help much if the employee who knows the combination decides to empty it, or writes the combination on a sticky note.",
+    "keyPoints": [
+      "Comes from people who already have legitimate access.",
+      "Three kinds: malicious, careless and compromised insiders.",
+      "Least privilege and fast offboarding are the first defenses.",
+      "Logging and spotting unusual behavior catch what permissions miss."
+    ],
+    "links": [
+      { "label": "Insider threat on Wikipedia", "url": "https://en.wikipedia.org/wiki/Insider_threat" },
+      { "label": "What are insider threats? (IBM)", "url": "https://www.ibm.com/think/topics/insider-threats" },
+      { "label": "Insider threat (NIST glossary)", "url": "https://csrc.nist.gov/glossary/term/insider_threat" }
+    ]
+  },
+  "es": {
+    "title": "Amenaza interna",
+    "tagline": "Un riesgo de seguridad que viene de alguien que ya tiene acceso legítimo.",
+    "explanation": [
+      "Casi todas las defensas están pensadas para dejar afuera a los extraños: firewalls, contraseñas, autenticación de dos factores. Una **amenaza interna** es el riesgo que viene de quienes ya están adentro: empleados, contratistas, socios, cualquiera con una credencial o un usuario. No necesitan romper nada, porque el sistema ya confía en ellos.",
+      "Hay tres tipos. El malicioso actúa a propósito: un vendedor que se baja la lista de clientes antes de irse a la competencia, un administrador resentido que borra los backups, alguien a quien le pagan por filtrar secretos. El descuidado se equivoca: manda por mail una planilla llena de datos personales a la dirección equivocada, deja público un bucket, cae en un mail de phishing. El comprometido es un empleado real cuya cuenta tomó un atacante de afuera, que ahora parece exactamente alguien de adentro.",
+      "Defenderse de esto es sobre todo cuestión de límites y visibilidad. Darle a cada persona solo el acceso que su trabajo necesita, y sacárselo el mismo día que se va. Repartir los poderes críticos para que nadie pueda, por ejemplo, aprobar y pagar una factura solo. Registrar quién accede a qué y buscar patrones raros, como alguien que descarga muchos más archivos de lo normal a las dos de la mañana. Y armar una cultura donde la gente avise rápido de sus errores en vez de esconderlos, porque muchos incidentes arrancan como equivocaciones de buena fe."
+    ],
+    "analogy": "Una bóveda con una puerta de acero perfecta no sirve de mucho si el empleado que sabe la combinación decide vaciarla, o la anota en un papelito pegado al monitor.",
+    "keyPoints": [
+      "Viene de personas que ya tienen acceso legítimo.",
+      "Tres tipos: maliciosos, descuidados y cuentas comprometidas.",
+      "Mínimo privilegio y dar de baja accesos rápido son la primera defensa.",
+      "Registrar y detectar comportamientos raros atrapa lo que los permisos no."
+    ],
+    "links": [
+      { "label": "Qué son las amenazas internas (IBM)", "url": "https://www.ibm.com/es-es/think/topics/insider-threats" },
+      { "label": "Insider threat en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Insider_threat" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-notion",
+  "date": "2026-11-08",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Notion Labs", "Notion page", "Notion pages", "Notion AI"],
+    "es": ["Notion Labs", "página de Notion", "páginas de Notion", "Notion AI"]
+  },
+  "image": "img/2026-11-08-notion.svg",
+  "imageAlt": {
+    "en": "A page built from stacked blocks: a heading, a paragraph, a to-do list, an image and a small table; the same blocks can be rearranged into a team wiki, a task board or a reading list",
+    "es": "Una página armada con bloques apilados: un título, un párrafo, una lista de tareas, una imagen y una tablita; los mismos bloques se pueden reordenar para hacer una wiki de equipo, un tablero de tareas o una lista de lecturas"
+  },
+  "en": {
+    "title": "Notion",
+    "tagline": "An all-in-one workspace for notes, documents, wikis and simple databases.",
+    "explanation": [
+      "**Notion** is an app for writing and organizing almost anything: personal notes, meeting minutes, a team wiki, a project plan, a reading list. It is made by Notion Labs, a San Francisco company founded in 2013 by Ivan Zhao and Simon Last. The version that made it popular, launched in 2018, spread first among startups and students.",
+      "Its central idea is the **block**. Every piece of a page, a paragraph, a heading, a checkbox, an image, an embedded video, is a block you can drag, nest or turn into another kind. Pages can contain other pages, so you build your own structure. And some blocks are databases: tables whose rows are themselves pages, which you can view as a list, a Kanban board, a calendar or a gallery. That is how people build trackers for tasks, clients or recipes without writing code.",
+      "Notion is freemium: free for personal use, paid for teams that need more members, permissions and history. It has a large community that shares templates, and it has added AI features that summarize pages, draft text and answer questions about a workspace's content. Its rivals include Google Docs, Microsoft's Loop and OneNote, Confluence from Atlassian, and a long list of note-taking apps."
+    ],
+    "analogy": "A box of LEGO for documents. The same bricks can become a notebook, a to-do list, a filing cabinet or a company handbook, depending on how you snap them together.",
+    "keyPoints": [
+      "Made by Notion Labs, founded in 2013 by Ivan Zhao and Simon Last.",
+      "Everything is a block; pages can nest inside pages.",
+      "Databases turn tables into boards, calendars and galleries.",
+      "Free for individuals, paid for teams, with AI features added."
+    ],
+    "links": [
+      { "label": "Notion (official site)", "url": "https://www.notion.com/" },
+      { "label": "Notion (productivity software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)" }
+    ]
+  },
+  "es": {
+    "title": "Notion",
+    "tagline": "Un espacio de trabajo todo en uno para notas, documentos, wikis y bases de datos simples.",
+    "explanation": [
+      "**Notion** es una app para escribir y ordenar casi cualquier cosa: notas personales, minutas de reuniones, la wiki de un equipo, el plan de un proyecto, una lista de lecturas. La hace Notion Labs, una empresa de San Francisco fundada en 2013 por Ivan Zhao y Simon Last. La versión que la hizo popular, de 2018, se expandió primero entre startups y estudiantes.",
+      "Su idea central es el **bloque**. Cada parte de una página, un párrafo, un título, una casilla para tildar, una imagen, un video embebido, es un bloque que podés arrastrar, anidar o convertir en otro tipo. Las páginas pueden contener otras páginas, así que la estructura la armás vos. Y algunos bloques son bases de datos: tablas cuyas filas son a su vez páginas, que podés ver como lista, tablero Kanban, calendario o galería. Así la gente arma seguimientos de tareas, clientes o recetas sin escribir código.",
+      "Notion es freemium: gratis para uso personal y pago para equipos que necesitan más miembros, permisos e historial. Tiene una comunidad grande que comparte plantillas, y fue sumando funciones de IA que resumen páginas, redactan textos y responden preguntas sobre el contenido de un espacio de trabajo. Entre sus rivales están Google Docs, Loop y OneNote de Microsoft, Confluence de Atlassian y una larga lista de apps de notas."
+    ],
+    "analogy": "Una caja de LEGO para documentos. Las mismas piezas pueden ser un cuaderno, una lista de pendientes, un fichero o el manual de una empresa, según cómo las encastres.",
+    "keyPoints": [
+      "La hace Notion Labs, fundada en 2013 por Ivan Zhao y Simon Last.",
+      "Todo es un bloque; las páginas se pueden meter dentro de otras.",
+      "Las bases de datos convierten tablas en tableros, calendarios y galerías.",
+      "Gratis para uso personal, pago para equipos, con funciones de IA."
+    ],
+    "links": [
+      { "label": "Notion (sitio oficial)", "url": "https://www.notion.com/es" },
+      { "label": "Notion en Wikipedia", "url": "https://es.wikipedia.org/wiki/Notion" }
+    ]
+  }
+}

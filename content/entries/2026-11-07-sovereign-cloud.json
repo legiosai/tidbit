@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-sovereign-cloud",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["sovereign clouds", "digital sovereignty", "data sovereignty", "AWS European Sovereign Cloud"],
+    "es": ["nubes soberanas", "sovereign cloud", "soberanía digital", "soberanía de datos", "AWS European Sovereign Cloud"]
+  },
+  "image": "img/2026-11-07-sovereign-cloud.svg",
+  "imageAlt": {
+    "en": "A cloud sits inside a country's border, with local staff and local laws, while a request from a foreign authority is stopped at the border",
+    "es": "Una nube dentro de la frontera de un país, con personal y leyes locales, mientras un pedido de una autoridad extranjera queda frenado en la frontera"
+  },
+  "en": {
+    "title": "Sovereign cloud",
+    "tagline": "A cloud built so data and its control stay under one country's or region's laws.",
+    "explanation": [
+      "A **sovereign cloud** is a cloud service designed so that the data, the operations and the legal control over it all stay inside a given jurisdiction, usually a country or the European Union. It goes further than keeping data in a local data center: the people who run it, the company that legally owns it and the keys that encrypt the data are meant to be local too.",
+      "The worry behind it is legal, not technical. Most large clouds are run by U.S. companies, and laws like the U.S. CLOUD Act can oblige those companies to hand over data they control, even when it is stored abroad. Governments, hospitals, defense contractors and banks, especially in Europe, want guarantees that a foreign authority cannot reach their data or switch off their systems. This wider goal is often called **digital sovereignty**.",
+      "There are several ways to get there: national providers, partnerships where a local company operates a big provider's technology, or big providers building separate, locally run clouds. AWS, for example, launched the **AWS European Sovereign Cloud**, physically and logically separate from its other Regions, with its first Region in Brandenburg, Germany, and operated by EU-based staff. The trade-offs are usually fewer services, later access to new features and higher prices."
+    ],
+    "analogy": "Keeping your valuables in a safe-deposit box is not the same as keeping them in a bank owned and staffed by your own country, under your country's courts. A sovereign cloud aims for the second.",
+    "keyPoints": [
+      "Data, operations and legal control stay inside one jurisdiction.",
+      "Goes beyond data location: who operates it and who owns it matter too.",
+      "Driven by concerns over foreign laws reaching data, like the U.S. CLOUD Act.",
+      "Often means fewer services and higher cost than the global cloud."
+    ],
+    "links": [
+      { "label": "Data sovereignty on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_sovereignty" },
+      { "label": "Digital sovereignty at AWS", "url": "https://aws.amazon.com/compliance/digital-sovereignty/" },
+      { "label": "AWS European Sovereign Cloud", "url": "https://www.aws.eu/" }
+    ]
+  },
+  "es": {
+    "title": "Nube soberana",
+    "tagline": "Una nube armada para que los datos y su control queden bajo las leyes de un país.",
+    "explanation": [
+      "Una **nube soberana** es un servicio cloud diseñado para que los datos, la operación y el control legal sobre ellos se queden dentro de una jurisdicción, por lo general un país o la Unión Europea. Va más allá de guardar los datos en un data center local: la gente que la opera, la empresa que es su dueña legal y las claves que cifran los datos también tienen que ser locales.",
+      "La preocupación de fondo es legal, no técnica. Las nubes más grandes son de empresas de Estados Unidos, y leyes como la CLOUD Act estadounidense pueden obligar a esas empresas a entregar datos que controlan, aunque estén guardados en otro país. Gobiernos, hospitales, empresas de defensa y bancos, sobre todo en Europa, quieren garantías de que una autoridad extranjera no pueda llegar a sus datos ni apagarles los sistemas. A ese objetivo más amplio se le suele decir **soberanía digital**.",
+      "Hay varios caminos: proveedores nacionales, acuerdos donde una empresa local opera la tecnología de un proveedor grande, o proveedores grandes que arman nubes separadas y operadas localmente. AWS, por ejemplo, lanzó la **AWS European Sovereign Cloud**, separada física y lógicamente de sus otras regiones, con su primera región en Brandeburgo, Alemania, y operada por personal radicado en la UE. Las contras suelen ser menos servicios, funciones nuevas que llegan más tarde y precios más altos."
+    ],
+    "analogy": "No es lo mismo guardar tus cosas de valor en una caja de seguridad cualquiera que en un banco de tu propio país, atendido por gente de acá y bajo los tribunales de acá. Una nube soberana apunta a lo segundo.",
+    "keyPoints": [
+      "Datos, operación y control legal se quedan dentro de una jurisdicción.",
+      "No alcanza con dónde están los datos: importa quién la opera y de quién es.",
+      "Nace del temor a leyes extranjeras que alcancen los datos, como la CLOUD Act.",
+      "Suele implicar menos servicios y más costo que la nube global."
+    ],
+    "links": [
+      { "label": "Soberanía de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Soberan%C3%ADa_de_datos" },
+      { "label": "Soberanía digital en AWS (en inglés)", "url": "https://aws.amazon.com/compliance/digital-sovereignty/" },
+      { "label": "AWS European Sovereign Cloud (en inglés)", "url": "https://www.aws.eu/" }
+    ]
+  }
+}

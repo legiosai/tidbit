@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-bit-and-byte",
+  "date": "2026-11-07",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["bits and bytes", "byte", "bytes", "kilobyte", "kilobytes", "megabyte", "megabytes", "gigabyte", "gigabytes", "terabyte", "terabytes"],
+    "es": ["bits y bytes", "bit", "bits", "byte", "bytes", "kilobyte", "kilobytes", "megabyte", "megabytes", "gigabyte", "gigabytes", "terabyte", "terabytes"]
+  },
+  "image": "img/2026-11-07-bit-and-byte.svg",
+  "imageAlt": {
+    "en": "One switch that is either 0 or 1, labeled bit, and a row of eight such switches grouped together, labeled byte, with 256 possible values",
+    "es": "Un interruptor que vale 0 o 1, rotulado bit, y una fila de ocho interruptores agrupados, rotulada byte, con 256 valores posibles"
+  },
+  "en": {
+    "title": "Bit and byte",
+    "tagline": "The smallest unit of digital information, and the group of eight that computers count in.",
+    "explanation": [
+      "A **bit** is the smallest piece of information a computer handles: a single yes or no, written as 1 or 0. Inside a chip it is a tiny switch that is either on or off, or a voltage that is either high or low. One bit alone says very little, but put them together and you can represent anything: numbers, letters, colors, sound.",
+      "A **byte** is a group of eight bits. Eight switches can be set in 256 different ways, enough for a number from 0 to 255 or for one letter of the English alphabet. Bytes are the unit computers use to measure memory and files. A kilobyte is about a thousand bytes, a megabyte about a million, a gigabyte about a billion and a terabyte about a trillion. A short text message is a few hundred bytes; a phone photo is a few megabytes.",
+      "One detail trips people up. Storage is measured in bytes (capital B, as in GB), but internet speed is measured in bits per second (small b, as in Mbps). Since a byte is eight bits, a 100 Mbps connection downloads roughly 12 megabytes per second, not 100. Another: a computer counts in powers of two, so your operating system may show a \"1 TB\" drive as about 931 GB. Nothing is missing; it is the same amount counted two ways."
+    ],
+    "analogy": "A bit is a single light switch, on or off. A byte is a row of eight switches: by choosing which ones are on, you can spell out 256 different patterns, enough to stand for any letter on a keyboard.",
+    "keyPoints": [
+      "A bit is one 0 or 1; a byte is 8 bits, with 256 possible values.",
+      "Files and memory are measured in bytes: KB, MB, GB, TB.",
+      "Network speed is measured in bits per second: Mbps, Gbps.",
+      "Divide megabits by 8 to get megabytes."
+    ],
+    "links": [
+      { "label": "Bit on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bit" },
+      { "label": "Byte on Wikipedia", "url": "https://en.wikipedia.org/wiki/Byte" }
+    ]
+  },
+  "es": {
+    "title": "Bit y byte",
+    "tagline": "La unidad mínima de información digital y el grupo de ocho que usan las computadoras.",
+    "explanation": [
+      "Un **bit** es el pedacito de información más chico que maneja una computadora: un sí o un no, escrito como 1 o 0. Adentro de un chip es un interruptor diminuto que está prendido o apagado, o un voltaje que está alto o bajo. Un bit solo dice muy poco, pero juntando muchos podés representar cualquier cosa: números, letras, colores, sonido.",
+      "Un **byte** es un grupo de ocho bits. Ocho interruptores se pueden combinar de 256 maneras distintas, suficiente para un número del 0 al 255 o para una letra del alfabeto inglés. Los bytes son la unidad con la que se mide la memoria y los archivos. Un kilobyte son unos mil bytes, un megabyte cerca de un millón, un gigabyte cerca de mil millones y un terabyte cerca de un billón. Un mensaje de texto corto ocupa unos cientos de bytes; una foto del celular, unos pocos megabytes.",
+      "Hay un detalle que confunde. El almacenamiento se mide en bytes (B mayúscula, como en GB), pero la velocidad de internet se mide en bits por segundo (b minúscula, como en Mbps). Como un byte son ocho bits, una conexión de 100 Mbps baja unos 12 megabytes por segundo, no 100. Otro: la computadora cuenta en potencias de dos, así que tu sistema operativo puede mostrar un disco de \"1 TB\" como unos 931 GB. No falta nada; es la misma cantidad contada de dos formas."
+    ],
+    "analogy": "Un bit es una sola tecla de luz, prendida o apagada. Un byte es una fila de ocho teclas: según cuáles prendas, armás 256 dibujos distintos, suficientes para representar cualquier letra del teclado.",
+    "keyPoints": [
+      "Un bit es un 0 o un 1; un byte son 8 bits, con 256 valores posibles.",
+      "Los archivos y la memoria se miden en bytes: KB, MB, GB, TB.",
+      "La velocidad de red se mide en bits por segundo: Mbps, Gbps.",
+      "Para pasar de megabits a megabytes, dividí por 8."
+    ],
+    "links": [
+      { "label": "Bit en Wikipedia", "url": "https://es.wikipedia.org/wiki/Bit" },
+      { "label": "Byte en Wikipedia", "url": "https://es.wikipedia.org/wiki/Byte" }
+    ]
+  }
+}

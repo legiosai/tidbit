@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-site-reliability-engineering",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["SRE", "SREs", "site reliability engineer", "site reliability engineers", "error budget", "error budgets"],
+    "es": ["SRE", "site reliability engineering", "presupuesto de errores", "error budget"]
+  },
+  "image": "img/2026-11-07-site-reliability-engineering.svg",
+  "imageAlt": {
+    "en": "A gauge showing an error budget partly spent, between a lever for shipping new features and a lever for reliability work",
+    "es": "Un medidor que muestra un presupuesto de errores en parte gastado, entre una palanca para sacar funciones nuevas y otra para trabajar en confiabilidad"
+  },
+  "en": {
+    "title": "Site reliability engineering",
+    "tagline": "Running production systems with software engineering, and a budget for failure.",
+    "explanation": [
+      "**Site reliability engineering**, or **SRE**, is a way of keeping online services reliable by treating operations as a software problem. It began at Google in 2003, when Ben Treynor Sloss was asked to run a production team made of software engineers. Instead of fixing servers by hand, SREs write code that deploys, scales, monitors and repairs systems, and they aim to automate away repetitive manual work, which they call **toil**.",
+      "Its best-known idea is the **error budget**. The team agrees on an SLO, a reliability target such as \"99.9% of requests succeed each month\". The remaining 0.1% is the budget: room for failures. While there is budget left, developers ship new features fast. If incidents eat it up, releases slow down and effort shifts to reliability. This turns the old fight between \"move fast\" and \"don't break things\" into a number both sides accept.",
+      "SREs also share on-call duty, lead the response when something breaks, and write blameless postmortems afterward. Many companies now have SRE teams, and the term is also used as a job title. It overlaps a lot with DevOps; one common way to put it is that SRE is a specific, measurable way of doing DevOps."
+    ],
+    "analogy": "A household with a monthly budget for eating out: as long as there is money left, you go to restaurants freely; once it is spent, you cook at home until next month. The error budget does the same with failures and new releases.",
+    "keyPoints": [
+      "Operations done by engineers who write software to run systems.",
+      "Started at Google in 2003.",
+      "Error budget: the failure allowed by the SLO, spent on moving fast.",
+      "Reduces toil, shares on-call, writes blameless postmortems."
+    ],
+    "links": [
+      { "label": "Introduction to the Site Reliability Engineering book (Google)", "url": "https://sre.google/sre-book/introduction/" },
+      { "label": "Embracing risk, on error budgets (Google SRE book)", "url": "https://sre.google/sre-book/embracing-risk/" },
+      { "label": "Site reliability engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Site_reliability_engineering" }
+    ]
+  },
+  "es": {
+    "title": "Ingeniería de confiabilidad",
+    "tagline": "Operar sistemas en producción con ingeniería de software y un presupuesto para fallar.",
+    "explanation": [
+      "La **ingeniería de confiabilidad de sitios**, conocida por su sigla en inglés **SRE** (site reliability engineering), es una forma de mantener confiables los servicios online tratando la operación como un problema de software. Nació en Google en 2003, cuando a Ben Treynor Sloss le encargaron un equipo de producción formado por ingenieros de software. En vez de arreglar servidores a mano, los SRE escriben código que despliega, escala, monitorea y repara sistemas, y buscan automatizar el trabajo manual repetitivo, al que llaman **toil**.",
+      "Su idea más conocida es el **presupuesto de errores** (error budget). El equipo acuerda un SLO, un objetivo de confiabilidad como \"el 99,9 % de los pedidos sale bien cada mes\". El 0,1 % restante es el presupuesto: el margen para fallar. Mientras quede presupuesto, los desarrolladores sacan funciones nuevas rápido. Si los incidentes se lo comen, se frenan los lanzamientos y el esfuerzo pasa a la confiabilidad. Así, la pelea de siempre entre \"ir rápido\" y \"no romper nada\" se convierte en un número que las dos partes aceptan.",
+      "Los SRE también se reparten las guardias, coordinan la respuesta cuando algo se rompe y después escriben postmortems sin culpables. Hoy muchas empresas tienen equipos de SRE, y el término también se usa como puesto de trabajo. Se superpone bastante con DevOps; una forma común de decirlo es que SRE es una manera concreta y medible de hacer DevOps."
+    ],
+    "analogy": "Una familia con un presupuesto mensual para comer afuera: mientras quede plata, van a restaurantes sin culpa; cuando se terminó, se cocina en casa hasta el mes que viene. El presupuesto de errores hace lo mismo con las fallas y los lanzamientos nuevos.",
+    "keyPoints": [
+      "Operación a cargo de ingenieros que escriben software para manejar sistemas.",
+      "Nació en Google en 2003.",
+      "Presupuesto de errores: la falla que permite el SLO, gastada en ir rápido.",
+      "Reduce el toil, reparte guardias y escribe postmortems sin culpables."
+    ],
+    "links": [
+      { "label": "Introducción al libro Site Reliability Engineering de Google (en inglés)", "url": "https://sre.google/sre-book/introduction/" },
+      { "label": "Embracing risk, sobre presupuestos de errores (en inglés)", "url": "https://sre.google/sre-book/embracing-risk/" },
+      { "label": "Site reliability engineering en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Site_reliability_engineering" }
+    ]
+  }
+}

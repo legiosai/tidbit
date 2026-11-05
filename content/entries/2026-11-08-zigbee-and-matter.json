@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-08-zigbee-and-matter",
+  "date": "2026-11-08",
+  "subjects": ["networks"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Zigbee", "Matter", "Matter standard", "Thread protocol"],
+    "es": ["Zigbee", "Matter", "estándar Matter", "protocolo Thread"]
+  },
+  "image": "img/2026-11-08-zigbee-and-matter.svg",
+  "imageAlt": {
+    "en": "A bulb, a sensor, a plug and a lock linked in a mesh connect to a hub, which speaks Matter to a phone, a smart speaker and a TV box",
+    "es": "Una lamparita, un sensor, un enchufe y una cerradura unidos en malla se conectan a un hub, que habla Matter con un teléfono, un parlante inteligente y un TV box"
+  },
+  "en": {
+    "title": "Zigbee and Matter",
+    "tagline": "Two standards that let smart home devices from different brands talk to each other.",
+    "explanation": [
+      "Smart bulbs, door sensors, plugs and locks need a way to talk to each other and to your phone. Wi-Fi drains small batteries, so the industry built lighter options. **Zigbee**, around since the mid-2000s, is a low-power radio protocol made for exactly this: tiny devices that can run for months or years on a coin battery. Zigbee devices form a **mesh**, where plugged-in devices relay messages for the others, and they reach your home network through a hub or bridge, like the one sold with Philips Hue bulbs.",
+      "The problem was fragmentation: a device built for one brand's hub often would not work with another's. **Matter**, launched in 2022, is the fix the big players agreed on. Apple, Google, Amazon and Samsung all support it, along with many device makers, and it is run by the Connectivity Standards Alliance, the same group that created Zigbee. A Matter device works with Apple Home, Google Home, Alexa and SmartThings, and it is controlled locally, inside your home, so basic control does not depend on a company's cloud.",
+      "Matter is a common language, not a radio. It runs over Wi-Fi, Ethernet and **Thread**, a low-power mesh radio similar to Zigbee. Thread needs a **border router** to reach your home network, a job many recent smart speakers and TV boxes already do. Zigbee devices are not Matter devices, but some hubs bridge them in, so older gear is not necessarily wasted."
+    ],
+    "analogy": "Zigbee is a local dialect your devices speak among themselves. Matter is the shared language everyone agreed to learn, so a lamp from one brand can finally take orders from another brand's speaker.",
+    "keyPoints": [
+      "Zigbee is a low-power mesh radio for small smart home devices.",
+      "Matter, launched in 2022, makes devices work with Apple, Google, Amazon and Samsung alike.",
+      "Matter runs over Wi-Fi, Ethernet and Thread, and works locally.",
+      "Both come from the Connectivity Standards Alliance, once called the Zigbee Alliance."
+    ],
+    "links": [
+      { "label": "Matter (Connectivity Standards Alliance)", "url": "https://csa-iot.org/all-solutions/matter/" },
+      { "label": "Zigbee (Connectivity Standards Alliance)", "url": "https://csa-iot.org/all-solutions/zigbee/" },
+      { "label": "Matter on Wikipedia", "url": "https://en.wikipedia.org/wiki/Matter_(standard)" }
+    ]
+  },
+  "es": {
+    "title": "Zigbee y Matter",
+    "tagline": "Dos estándares para que aparatos de casa inteligente de distintas marcas se entiendan.",
+    "explanation": [
+      "Las lamparitas inteligentes, los sensores de puerta, los enchufes y las cerraduras necesitan una forma de hablar entre sí y con tu teléfono. El Wi-Fi les chupa la batería a los aparatos chicos, así que la industria armó opciones más livianas. **Zigbee**, que existe desde mediados de los 2000, es un protocolo de radio de bajo consumo pensado justo para esto: dispositivos diminutos que pueden durar meses o años con una pila botón. Los dispositivos Zigbee forman una **malla**, donde los que están enchufados retransmiten los mensajes de los demás, y llegan a la red de tu casa a través de un hub o puente, como el que viene con las lamparitas Philips Hue.",
+      "El problema era la fragmentación: un aparato hecho para el hub de una marca muchas veces no andaba con el de otra. **Matter**, lanzado en 2022, es el arreglo en el que se pusieron de acuerdo los grandes. Apple, Google, Amazon y Samsung lo soportan, junto con muchos fabricantes, y lo administra la Connectivity Standards Alliance, el mismo grupo que creó Zigbee. Un dispositivo Matter funciona con Apple Home, Google Home, Alexa y SmartThings, y se controla en forma local, dentro de tu casa, así que lo básico no depende de la nube de una empresa.",
+      "Matter es un idioma común, no una radio. Funciona sobre Wi-Fi, Ethernet y **Thread**, una radio en malla de bajo consumo parecida a Zigbee. Thread necesita un **border router** para llegar a la red de tu casa, un papel que ya cumplen muchos parlantes inteligentes y TV boxes recientes. Los dispositivos Zigbee no son dispositivos Matter, pero algunos hubs los integran como puente, así que los aparatos viejos no necesariamente quedan en el olvido."
+    ],
+    "analogy": "Zigbee es un dialecto local que tus aparatos hablan entre ellos. Matter es el idioma compartido que todos acordaron aprender, para que una lámpara de una marca por fin le haga caso al parlante de otra.",
+    "keyPoints": [
+      "Zigbee es una radio en malla de bajo consumo para dispositivos chicos de casa inteligente.",
+      "Matter, lanzado en 2022, hace que los aparatos anden igual con Apple, Google, Amazon y Samsung.",
+      "Matter funciona sobre Wi-Fi, Ethernet y Thread, y trabaja en forma local.",
+      "Los dos vienen de la Connectivity Standards Alliance, que antes se llamaba Zigbee Alliance."
+    ],
+    "links": [
+      { "label": "Zigbee en Wikipedia", "url": "https://es.wikipedia.org/wiki/Zigbee" },
+      { "label": "Matter en Wikipedia", "url": "https://es.wikipedia.org/wiki/Matter_(estándar)" },
+      { "label": "Matter (Connectivity Standards Alliance, en inglés)", "url": "https://csa-iot.org/all-solutions/matter/" }
+    ]
+  }
+}

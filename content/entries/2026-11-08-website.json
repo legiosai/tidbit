@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-website",
+  "date": "2026-11-08",
+  "subjects": ["networks", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["websites", "web site", "web sites", "web page", "web pages"],
+    "es": ["sitios web", "website", "websites", "página web", "páginas web"]
+  },
+  "image": "img/2026-11-08-website.svg",
+  "imageAlt": {
+    "en": "A browser window at example.com shows one page, while three pages of the same site wait on a server",
+    "es": "Una ventana del navegador en example.com muestra una página, mientras tres páginas del mismo sitio esperan en un servidor"
+  },
+  "en": {
+    "title": "Website",
+    "tagline": "A set of web pages under one address, stored on a server and opened in a browser.",
+    "explanation": [
+      "A **website** is a collection of web pages that live together under one domain name, like `wikipedia.org`. Each **web page** is a document written in HTML, usually styled with CSS and often made interactive with JavaScript. The site is the whole thing; a page is one screen of it, with its own address.",
+      "To exist, a website needs three things. A domain name, registered for a yearly fee, so people can find it. **Web hosting**: a server, connected to the internet day and night, that stores the files and sends them out. And the files themselves. When you type the address, your browser asks DNS which server holds the site, requests the page and draws it on your screen.",
+      "Some sites are **static**: the same files go to everyone, which is cheap and fast. Others are **dynamic**: the server builds each page on the spot, so you see your own inbox or your own shopping cart. The first website went online at CERN in 1991. Today you can build one without code, with tools like WordPress, or write every line yourself."
+    ],
+    "analogy": "A shop. The domain is the street address, the hosting is the building, and the pages are the aisles people walk through.",
+    "keyPoints": [
+      "A website is a set of pages under one domain name.",
+      "It needs a domain, hosting and the files (HTML, CSS, JavaScript).",
+      "Static sites send the same files to everyone; dynamic sites build pages per visitor.",
+      "The first website went online at CERN in 1991."
+    ],
+    "links": [
+      { "label": "How the web works (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works" },
+      { "label": "Website on Wikipedia", "url": "https://en.wikipedia.org/wiki/Website" }
+    ]
+  },
+  "es": {
+    "title": "Sitio web",
+    "tagline": "Un conjunto de páginas web bajo una dirección, guardadas en un servidor.",
+    "explanation": [
+      "Un **sitio web** es un conjunto de páginas web que viven juntas bajo un mismo nombre de dominio, como `wikipedia.org`. Cada **página web** es un documento escrito en HTML, casi siempre con estilos en CSS y muchas veces con interactividad en JavaScript. El sitio es el todo; una página es una pantalla de ese todo, con su propia dirección.",
+      "Para existir, un sitio web necesita tres cosas. Un nombre de dominio, que se registra pagando una cuota anual, para que la gente lo encuentre. **Hosting**: un servidor conectado a internet día y noche que guarda los archivos y los envía. Y los archivos en sí. Cuando escribís la dirección, tu navegador le pregunta al DNS qué servidor tiene el sitio, pide la página y la dibuja en tu pantalla.",
+      "Algunos sitios son **estáticos**: los mismos archivos les llegan a todos, lo que es barato y rápido. Otros son **dinámicos**: el servidor arma cada página en el momento, y por eso ves tu propia bandeja de entrada o tu propio carrito de compras. El primer sitio web se publicó en el CERN en 1991. Hoy podés armar uno sin programar, con herramientas como WordPress, o escribir cada línea vos."
+    ],
+    "analogy": "Un negocio. El dominio es la dirección de la calle, el hosting es el local, y las páginas son los pasillos que recorre la gente.",
+    "keyPoints": [
+      "Un sitio web es un conjunto de páginas bajo un nombre de dominio.",
+      "Necesita un dominio, hosting y los archivos (HTML, CSS, JavaScript).",
+      "Los sitios estáticos mandan lo mismo a todos; los dinámicos arman las páginas para cada visitante.",
+      "El primer sitio web se publicó en el CERN en 1991."
+    ],
+    "links": [
+      { "label": "Cómo funciona la web (MDN)", "url": "https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works" },
+      { "label": "Sitio web en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sitio_web" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-duolingo",
+  "date": "2026-11-08",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Duolingo streak", "Duolingo English Test"],
+    "es": ["racha de Duolingo", "Duolingo English Test"]
+  },
+  "image": "img/2026-11-08-duolingo.svg",
+  "imageAlt": {
+    "en": "A phone shows a short language lesson with a multiple choice question; around it, the game pieces that keep people coming back: a daily streak counter, experience points, a weekly league table and a reminder notification",
+    "es": "Un celular muestra una lección corta de idiomas con una pregunta de opción múltiple; alrededor, las piezas de juego que hacen que la gente vuelva: un contador de racha diaria, puntos de experiencia, una tabla de liga semanal y una notificación de recordatorio"
+  },
+  "en": {
+    "title": "Duolingo",
+    "tagline": "A language-learning app that turns daily practice into a game.",
+    "explanation": [
+      "**Duolingo** is an app for learning languages in short lessons of a few minutes: translate a sentence, pick the right word, repeat a phrase out loud. It was created in Pittsburgh by Luis von Ahn, a Guatemalan computer scientist at Carnegie Mellon University who had earlier co-invented the CAPTCHA, and his student Severin Hacker. It launched to the public in 2012.",
+      "What made it famous is **gamification**: borrowing tricks from video games to build a habit. You keep a streak of consecutive days, earn experience points, climb weekly leagues against other learners, and get reminders from Duo, its green owl mascot, which became a meme for how insistent it can be. The lessons adapt to your mistakes, and the company runs a constant stream of A/B tests to see which changes keep people practicing.",
+      "The core app is free with ads, and a subscription removes ads and adds extras such as unlimited mistakes and AI-powered conversation practice. Duolingo has added courses in math, music and chess, and runs the Duolingo English Test, an online English exam accepted by many universities. It went public on Nasdaq in 2021. Researchers and teachers still debate how far an app alone can take you toward fluency, but few dispute that it gets millions of people to practice every day."
+    ],
+    "analogy": "A gym that gives you a sticker every day you show up and puts your name on a weekly leaderboard. The workout is short; the trick is making you not want to break the chain.",
+    "keyPoints": [
+      "Co-founded by Luis von Ahn, also a co-inventor of the CAPTCHA.",
+      "Short lessons that adapt to your mistakes.",
+      "Streaks, points and leagues turn practice into a habit.",
+      "Free with ads; a subscription adds extras."
+    ],
+    "links": [
+      { "label": "About Duolingo (official)", "url": "https://www.duolingo.com/info" },
+      { "label": "Duolingo on Wikipedia", "url": "https://en.wikipedia.org/wiki/Duolingo" }
+    ]
+  },
+  "es": {
+    "title": "Duolingo",
+    "tagline": "Una app para aprender idiomas que convierte la práctica diaria en un juego.",
+    "explanation": [
+      "**Duolingo** es una app para aprender idiomas con lecciones cortas de pocos minutos: traducir una frase, elegir la palabra correcta, repetir algo en voz alta. La crearon en Pittsburgh Luis von Ahn, un informático guatemalteco de la Universidad Carnegie Mellon que antes había sido uno de los inventores del CAPTCHA, y su alumno Severin Hacker. Se lanzó al público en 2012.",
+      "Lo que la hizo famosa es la **gamificación**: usar trucos de los videojuegos para crear un hábito. Mantenés una racha de días seguidos, sumás puntos de experiencia, subís en ligas semanales contra otros estudiantes y recibís recordatorios de Duo, su lechuza verde, que se volvió meme por lo insistente que puede ser. Las lecciones se adaptan a tus errores, y la empresa hace todo el tiempo pruebas A/B para ver qué cambios hacen que la gente siga practicando.",
+      "La app básica es gratis con publicidad, y una suscripción saca los anuncios y suma extras como errores ilimitados y práctica de conversación con IA. Duolingo agregó cursos de matemática, música y ajedrez, y tiene el Duolingo English Test, un examen de inglés online que aceptan muchas universidades. Empezó a cotizar en Nasdaq en 2021. Investigadores y docentes todavía discuten hasta dónde te puede llevar una app sola hacia la fluidez, pero pocos discuten que logra que millones de personas practiquen todos los días."
+    ],
+    "analogy": "Un gimnasio que te da un sticker por cada día que vas y pone tu nombre en una tabla semanal. El entrenamiento es corto; el truco es que no quieras cortar la racha.",
+    "keyPoints": [
+      "La cofundó Luis von Ahn, también uno de los inventores del CAPTCHA.",
+      "Lecciones cortas que se adaptan a tus errores.",
+      "Rachas, puntos y ligas convierten la práctica en hábito.",
+      "Gratis con publicidad; una suscripción suma extras."
+    ],
+    "links": [
+      { "label": "Duolingo (sitio oficial)", "url": "https://www.duolingo.com/" },
+      { "label": "Duolingo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Duolingo" }
+    ]
+  }
+}

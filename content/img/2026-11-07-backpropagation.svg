@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="85" width="70" height="60" rx="8" fill="#9ac7ea"/>
+    <rect x="120" y="85" width="70" height="60" rx="8" fill="#9ac7ea"/>
+    <rect x="210" y="85" width="70" height="60" rx="8" fill="#9ac7ea"/>
+    <rect x="300" y="85" width="70" height="60" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M30 68 H366"/><path d="M360 64 l6 4 -6 4"/>
+    <path d="M370 168 H34"/><path d="M40 164 l-6 4 6 4"/>
+    <path d="M65 166 V150"/><path d="M61 155 l4 -6 4 6"/>
+    <path d="M155 166 V150"/><path d="M151 155 l4 -6 4 6"/>
+    <path d="M245 166 V150"/><path d="M241 155 l4 -6 4 6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="65" y="120">layer 1</text><text x="155" y="120">layer 2</text><text x="245" y="120">layer 3</text><text x="335" y="120">loss</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="55">forward pass: compute the loss</text><text x="200" y="190">backward pass: gradients</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">each layer learns its share of the error</text>
+</svg>

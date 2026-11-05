@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M150 74 C130 74 130 46 154 48 C160 26 200 26 206 44 C218 32 250 40 246 58 C266 60 264 74 246 74 Z" fill="#9ac7ea"/>
+    <rect x="30" y="34" width="26" height="44" rx="5" fill="#e6dfd0"/>
+    <rect x="314" y="40" width="58" height="34" rx="4" fill="#e6dfd0"/><path d="M306 78 H380" fill="none"/>
+    <rect x="30" y="122" width="26" height="44" rx="5" fill="#e6dfd0"/>
+    <rect x="150" y="122" width="26" height="44" rx="5" fill="#e6dfd0"/>
+    <rect x="96" y="134" width="18" height="14" rx="2" fill="#ffd166"/>
+    <circle cx="272" cy="144" r="12" fill="#f4a7a7"/>
+    <circle cx="344" cy="116" r="7" fill="#9bd1b9"/><circle cx="364" cy="132" r="7" fill="#9bd1b9"/>
+    <circle cx="344" cy="148" r="7" fill="#9bd1b9"/><circle cx="364" cy="164" r="7" fill="#9bd1b9"/><circle cx="344" cy="180" r="7" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M58 56 H128"/><path d="M122 51 l7 5 -7 5"/>
+    <path d="M264 58 H300"/><path d="M294 53 l7 5 -7 5"/>
+    <path d="M58 144 H90 M120 144 H148"/><path d="M142 139 l7 5 -7 5"/>
+    <path d="M100 134 V128 C100 120 110 120 110 128 V134"/>
+    <path d="M286 144 L334 120 M286 144 L334 144 M286 144 L334 172"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="198" y="62" font-size="12">Telegram cloud</text>
+    <text x="343" y="94">every device</text>
+    <text x="103" y="186">secret chat</text>
+    <text x="272" y="182">channel</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="198" y="96">normal chats: stored, synced</text>
+    <text x="103" y="200">end-to-end, 1 to 1</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">cloud by default · secret chats on request</text>
+</svg>

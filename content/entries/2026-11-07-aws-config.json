@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-aws-config",
+  "date": "2026-11-07",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["AWS Config rule", "AWS Config rules", "conformance pack", "conformance packs"],
+    "es": ["regla de AWS Config", "reglas de AWS Config", "paquete de conformidad", "paquetes de conformidad"]
+  },
+  "image": "img/2026-11-07-aws-config.svg",
+  "imageAlt": {
+    "en": "A timeline of snapshots of the same S3 bucket's settings, with a rule marking the latest one as noncompliant",
+    "es": "Una línea de tiempo con fotos de la configuración del mismo bucket de S3, y una regla que marca la última como no conforme"
+  },
+  "en": {
+    "title": "AWS Config",
+    "tagline": "An AWS service that records how your resources are set up and checks them against rules.",
+    "explanation": [
+      "**AWS Config** keeps an inventory of the resources in your AWS account, such as EC2 instances, S3 buckets, security groups or VPCs, and records every change to their settings over time. You can look at any resource and see what it looked like last Tuesday, who changed it (by linking to CloudTrail), and which other resources it is connected to.",
+      "On top of that history you add **rules**. A rule describes how something should be configured: \"S3 buckets must not be public\", \"EBS volumes must be encrypted\", \"only approved instance types\". Config evaluates your resources against the rules whenever they change and marks each one compliant or noncompliant. AWS provides many ready-made managed rules, and you can write your own. Groups of rules for a standard can be deployed together as a **conformance pack**.",
+      "It matters because cloud resources change constantly and many people can change them. Auditors ask \"prove this was encrypted all year\", and security teams want to know the minute someone opens a database to the internet. Config answers both. It can also trigger automatic fixes, but its main job is to record and evaluate."
+    ],
+    "analogy": "A building inspector with a camera who photographs every room each time something is moved, keeps all the photos in order, and stamps a red mark on any room that breaks the fire code.",
+    "keyPoints": [
+      "Inventory plus change history of the settings of your AWS resources.",
+      "Rules mark each resource as compliant or noncompliant.",
+      "Conformance packs bundle rules for a standard or policy.",
+      "Used for audits, security checks and catching risky changes fast."
+    ],
+    "links": [
+      { "label": "What is AWS Config? (official docs)", "url": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html" },
+      { "label": "AWS Config product page", "url": "https://aws.amazon.com/config/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Config",
+    "tagline": "Un servicio de AWS que registra cómo están configurados tus recursos y los revisa.",
+    "explanation": [
+      "**AWS Config** lleva un inventario de los recursos de tu cuenta de AWS, como instancias de EC2, buckets de S3, grupos de seguridad o VPC, y registra cada cambio en su configuración a lo largo del tiempo. Podés mirar cualquier recurso y ver cómo estaba el martes pasado, quién lo cambió (enlazando con CloudTrail) y con qué otros recursos está conectado.",
+      "Sobre ese historial agregás **reglas**. Una regla describe cómo debería estar configurado algo: \"los buckets de S3 no pueden ser públicos\", \"los volúmenes de EBS tienen que estar cifrados\", \"solo estos tipos de instancia\". Config evalúa tus recursos contra las reglas cada vez que cambian y marca cada uno como conforme o no conforme. AWS trae muchas reglas administradas listas para usar, y también podés escribir las tuyas. Un conjunto de reglas para una norma se puede desplegar junto como un **paquete de conformidad** (conformance pack).",
+      "Importa porque en la nube los recursos cambian todo el tiempo y mucha gente puede tocarlos. Los auditores piden \"demostrá que esto estuvo cifrado todo el año\", y el equipo de seguridad quiere enterarse al minuto si alguien dejó una base de datos abierta a internet. Config responde las dos cosas. También puede disparar correcciones automáticas, pero su trabajo principal es registrar y evaluar."
+    ],
+    "analogy": "Un inspector municipal con una cámara que saca una foto de cada ambiente cada vez que alguien mueve algo, guarda todas las fotos en orden y le pone un sello rojo a cualquier ambiente que no cumple con las normas de incendio.",
+    "keyPoints": [
+      "Inventario más historial de cambios de la configuración de tus recursos de AWS.",
+      "Las reglas marcan cada recurso como conforme o no conforme.",
+      "Los paquetes de conformidad agrupan reglas para una norma o política.",
+      "Sirve para auditorías, controles de seguridad y detectar cambios riesgosos rápido."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Config? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/config/latest/developerguide/WhatIsConfig.html" },
+      { "label": "Página de AWS Config", "url": "https://aws.amazon.com/es/config/" }
+    ]
+  }
+}

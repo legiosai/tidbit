@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <line x1="24" y1="120" x2="190" y2="120"/>
+    <circle cx="40" cy="120" r="7" fill="#9bd1b9"/>
+    <circle cx="84" cy="120" r="7" fill="#f4a7a7"/>
+    <circle cx="128" cy="120" r="7" fill="#ffd166"/>
+    <circle cx="172" cy="120" r="7" fill="#9bd1b9"/>
+    <rect x="230" y="30" width="150" height="180" rx="8" fill="#e6dfd0"/>
+    <rect x="244" y="62" width="122" height="26" rx="4" fill="#f4a7a7"/>
+    <rect x="244" y="100" width="122" height="26" rx="4" fill="#ffd166"/>
+    <rect x="244" y="138" width="122" height="56" rx="4" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M196 120 H224"/><path d="M218 115 l6 5 -6 5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="40" y="146">14:02</text><text x="84" y="104">down</text><text x="128" y="146">fix</text><text x="172" y="104">ok</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="305" y="52">postmortem</text>
+    <text x="305" y="79">impact</text>
+    <text x="305" y="117">root cause</text>
+    <text x="305" y="158">action items</text>
+    <text x="305" y="180">owner, date</text>
+  </g>
+  <text x="110" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">learn, don't blame</text>
+</svg>

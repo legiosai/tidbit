@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M40 190 V70 Q80 30 120 70 V190 Z" fill="#ffd166"/>
+    <path d="M160 190 V70 Q200 30 240 70 V190 Z" fill="#9bd1b9"/>
+    <path d="M280 190 V70 Q320 30 360 70 V190 Z" fill="#9ac7ea"/>
+    <rect x="50" y="110" width="60" height="30" rx="4" fill="#f3efe6"/>
+    <rect x="170" y="110" width="60" height="30" rx="4" fill="#f3efe6"/>
+    <rect x="290" y="110" width="60" height="30" rx="4" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M128 125 H152"/><path d="M134 119 L146 131 M146 119 L134 131"/>
+    <path d="M248 125 H272"/><path d="M254 119 L266 131 M266 119 L254 131"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="90">sales</text>
+    <text x="200" y="90">support</text>
+    <text x="320" y="90">billing</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="129">Ana P.</text>
+    <text x="200" y="129">A. Pérez</text>
+    <text x="320" y="129">ana_p</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same customer, three walls apart</text>
+</svg>

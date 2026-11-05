@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-deduplication",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data deduplication", "dedup", "dedupe", "deduplicate", "deduplicated", "duplicate records"],
+    "es": ["deduplicación de datos", "deduplicar", "deduplicado", "dedup", "registros duplicados"]
+  },
+  "image": "img/2026-11-07-deduplication.svg",
+  "imageAlt": {
+    "en": "Three slightly different records of the same person, María González, merging into one clean record",
+    "es": "Tres registros apenas distintos de la misma persona, María González, que se funden en un único registro limpio"
+  },
+  "en": {
+    "title": "Deduplication",
+    "tagline": "Finding the copies of the same thing and keeping just one.",
+    "explanation": [
+      "**Deduplication** is spotting records or pieces of data that are really the same thing and collapsing them into one. It shows up in two quite different places: in business data, where the same customer was typed in several times, and in storage, where the same file or block of bytes is saved over and over.",
+      "In business data the hard part is that duplicates rarely match exactly. \"María González\", \"Maria Gonzalez\" and \"M. González\" with the same phone number are probably one person. Deduplication tools normalize text (accents, capitals, spaces), compare fields with fuzzy matching, and score how likely two records are the same. Above a threshold they merge; in a gray zone a human decides. This is part of data cleaning and matters a lot before counting customers or sending a mailing.",
+      "In storage and backups, deduplication works on raw bytes. The system cuts files into chunks, computes a hash of each one, and stores a chunk only the first time it sees that hash; later copies just point to it. That is how backup services can keep daily snapshots of thousands of laptops without storing every copy of the same operating system files. In data pipelines there is a third flavor: making sure an event delivered twice is not counted twice."
+    ],
+    "analogy": "Like cleaning up your phone's contacts and finding \"Mom\", \"Mamá\" and \"Mom cell\" with the same number. You merge them into one card and keep the best details from each.",
+    "keyPoints": [
+      "Collapses copies of the same thing into one.",
+      "In business data, duplicates are fuzzy and need careful matching.",
+      "In storage, identical chunks are detected by their hash and stored once.",
+      "Wrong merges can be worse than duplicates, so thresholds matter."
+    ],
+    "links": [
+      { "label": "Data deduplication on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_deduplication" },
+      { "label": "Record linkage on Wikipedia", "url": "https://en.wikipedia.org/wiki/Record_linkage" }
+    ]
+  },
+  "es": {
+    "title": "Deduplicación",
+    "tagline": "Encontrar las copias de una misma cosa y quedarse con una sola.",
+    "explanation": [
+      "La **deduplicación** es detectar registros o pedazos de datos que en realidad son lo mismo y juntarlos en uno. Aparece en dos lugares bastante distintos: en los datos de negocio, donde el mismo cliente se cargó varias veces, y en el almacenamiento, donde el mismo archivo o bloque de bytes se guarda una y otra vez.",
+      "En los datos de negocio lo difícil es que los duplicados casi nunca coinciden exacto. \"María González\", \"Maria Gonzalez\" y \"M. González\" con el mismo teléfono probablemente son la misma persona. Las herramientas de deduplicación normalizan el texto (tildes, mayúsculas, espacios), comparan campos con coincidencia aproximada y calculan qué tan probable es que dos registros sean el mismo. Arriba de cierto umbral los fusionan; en la zona gris decide una persona. Es parte de la limpieza de datos y pesa mucho antes de contar clientes o mandar un mailing.",
+      "En almacenamiento y backups, la deduplicación trabaja con bytes crudos. El sistema corta los archivos en pedazos, calcula un hash de cada uno y guarda el pedazo solo la primera vez que ve ese hash; las copias siguientes apuntan a él. Así un servicio de backup puede guardar copias diarias de miles de notebooks sin almacenar mil veces los mismos archivos del sistema operativo. En los pipelines de datos hay una tercera variante: asegurarse de que un evento que llegó dos veces no se cuente dos veces."
+    ],
+    "analogy": "Como ordenar los contactos del celular y encontrar \"Mamá\", \"Mami\" y \"Mamá cel\" con el mismo número. Los fusionás en una sola ficha y te quedás con los mejores datos de cada una.",
+    "keyPoints": [
+      "Junta en una sola las copias de una misma cosa.",
+      "En datos de negocio los duplicados son aproximados y hay que compararlos con cuidado.",
+      "En almacenamiento, los pedazos idénticos se detectan por su hash y se guardan una vez.",
+      "Fusionar mal puede ser peor que el duplicado, por eso importan los umbrales."
+    ],
+    "links": [
+      { "label": "Deduplicación de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Deduplicaci%C3%B3n_de_datos" },
+      { "label": "Record linkage en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Record_linkage" }
+    ]
+  }
+}

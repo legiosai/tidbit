@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M82 196 L100 84 L118 196 Z" fill="#e6dfd0"/>
+    <circle cx="100" cy="78" r="7" fill="#ffd166"/>
+    <rect x="140" y="104" width="172" height="36" rx="6" fill="#e6dfd0"/>
+    <rect x="148" y="111" width="48" height="22" rx="4" fill="#f4a7a7"/>
+    <rect x="202" y="111" width="48" height="22" rx="4" fill="#9bd1b9"/>
+    <rect x="256" y="111" width="48" height="22" rx="4" fill="#ffd166"/>
+    <rect x="322" y="74" width="50" height="92" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 140 H110"/><path d="M86 168 H114"/>
+    <path d="M114 66 A18 18 0 0 1 114 90"/><path d="M122 58 A30 30 0 0 1 122 98"/>
+    <path d="M86 66 A18 18 0 0 0 86 90"/><path d="M78 58 A30 30 0 0 0 78 98"/>
+    <path d="M312 122 H318"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="172" y="126">voice</text><text x="226" y="126">video</text><text x="280" y="126">maps</text>
+  </g>
+  <text x="100" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b">4G LTE</text>
+  <text x="226" y="94" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">everything travels as IP data</text>
+  <text x="347" y="184" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b">phone</text>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one network for calls and data</text>
+</svg>

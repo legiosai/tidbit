@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M140 70 L160 180 H240 L260 70 Z" fill="#e6dfd0"/>
+    <path d="M148 112 L160 180 H240 L252 112 Z" fill="#9ac7ea"/>
+    <circle cx="180" cy="40" r="8" fill="#9bd1b9"/>
+    <circle cx="200" cy="30" r="8" fill="#9bd1b9"/>
+    <circle cx="220" cy="40" r="8" fill="#9bd1b9"/>
+    <circle cx="300" cy="196" r="8" fill="#f4a7a7"/>
+    <circle cx="326" cy="204" r="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M200 48 V96"/><path d="M196 88 l4 8 4 -8"/>
+    <path d="M236 168 Q262 176 282 192"/><path d="M272 192 l10 0 -3 -9"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="90" y="44">new signups</text>
+    <text x="200" y="150">customers</text>
+    <text x="340" y="176">churn</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">pour in at the top, leak out the bottom</text>
+</svg>

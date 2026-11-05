@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-digital-footprint",
+  "date": "2026-11-08",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["digital footprints", "online footprint", "digital trail"],
+    "es": ["huellas digitales en internet", "huella en internet", "huella digital online", "rastro digital"]
+  },
+  "image": "img/2026-11-08-digital-footprint.svg",
+  "imageAlt": {
+    "en": "A person walks leaving footprints; the ones they chose to leave are posts and photos, the ones they did not notice are location, cookies and purchases, and all of them end up in a pile that others can search",
+    "es": "Una persona camina dejando huellas; las que eligió dejar son posteos y fotos, las que no notó son ubicación, cookies y compras, y todas terminan en una pila que otros pueden buscar"
+  },
+  "en": {
+    "title": "Digital footprint",
+    "tagline": "The trail of data you leave behind every time you use the internet.",
+    "explanation": [
+      "Your **digital footprint** is everything about you that ends up online or in someone's database because you used the internet. Part of it you leave on purpose: posts, photos, comments, reviews, a profile on a job site. That is the active footprint. The rest you leave without noticing: the location your phone reports, the pages you visit, what you buy, which ads you click, the cookies that follow you from site to site. That is the passive footprint, and it is usually much bigger.",
+      "It matters because it is hard to erase and easy to search. A recruiter can find an old post. A scammer can learn your pet's name, your school and your birthday, which are classic answers to security questions, and use them for phishing or identity theft. Companies called data brokers collect and sell profiles built from these traces. Even a photo can reveal where you live through its metadata or what is visible out the window.",
+      "You cannot live with zero footprint, but you can shrink it. Search your own name now and then. Review the privacy settings of your social networks, delete accounts you no longer use, and think twice before posting where you are in real time. In many countries, data protection laws such as GDPR give you the right to ask a company what it holds about you and to delete it."
+    ],
+    "analogy": "Walking on a beach of wet sand. Some footprints you make on purpose, writing your name; most you leave just by walking. The tide does not come in very often online.",
+    "keyPoints": [
+      "Active footprint: what you post on purpose. Passive: what is collected as you browse.",
+      "The passive part is usually bigger and less visible.",
+      "Old traces can feed scams, identity theft or doxxing.",
+      "Shrink it: check privacy settings, delete old accounts, search your name."
+    ],
+    "links": [
+      { "label": "Digital footprint on Wikipedia", "url": "https://en.wikipedia.org/wiki/Digital_footprint" },
+      { "label": "What is a digital footprint? (Kaspersky)", "url": "https://www.kaspersky.com/resource-center/definitions/what-is-a-digital-footprint" }
+    ]
+  },
+  "es": {
+    "title": "Huella digital en internet",
+    "tagline": "El rastro de datos que vas dejando cada vez que usás internet.",
+    "explanation": [
+      "Tu **huella digital en internet** es todo lo que queda de vos online, o en la base de datos de alguien, por el simple hecho de usar internet. Una parte la dejás a propósito: posteos, fotos, comentarios, reseñas, un perfil en un sitio de empleo. Esa es la huella activa. El resto la dejás sin darte cuenta: la ubicación que reporta tu celular, las páginas que visitás, lo que comprás, los anuncios que tocás, las cookies que te siguen de un sitio a otro. Esa es la huella pasiva, y casi siempre es mucho más grande.",
+      "Importa porque es difícil de borrar y fácil de buscar. Alguien de recursos humanos puede encontrar un posteo viejo. Un estafador puede averiguar el nombre de tu mascota, tu colegio y tu cumpleaños, que son respuestas clásicas a las preguntas de seguridad, y usarlos para phishing o robo de identidad. Hay empresas, los data brokers, que juntan y venden perfiles armados con esos rastros. Hasta una foto puede delatar dónde vivís por sus metadatos o por lo que se ve por la ventana.",
+      "No podés vivir sin huella, pero sí achicarla. Buscá tu nombre cada tanto. Revisá la configuración de privacidad de tus redes, borrá las cuentas que ya no usás y pensalo dos veces antes de publicar dónde estás en tiempo real. En muchos países, leyes de protección de datos como el RGPD te dan derecho a preguntarle a una empresa qué tiene sobre vos y a pedir que lo borre."
+    ],
+    "analogy": "Caminar por la playa en la arena mojada. Algunas huellas las hacés a propósito, escribiendo tu nombre; la mayoría las dejás solo por caminar. Y en internet la marea casi nunca sube.",
+    "keyPoints": [
+      "Huella activa: lo que publicás a propósito. Pasiva: lo que se junta mientras navegás.",
+      "La parte pasiva suele ser más grande y menos visible.",
+      "Los rastros viejos pueden alimentar estafas, robo de identidad o doxxing.",
+      "Para achicarla: revisá la privacidad, borrá cuentas viejas, buscá tu nombre."
+    ],
+    "links": [
+      { "label": "Huella digital en Internet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Huella_digital_en_Internet" },
+      { "label": "Qué es una huella digital (Kaspersky)", "url": "https://www.kaspersky.es/resource-center/definitions/what-is-a-digital-footprint" }
+    ]
+  }
+}

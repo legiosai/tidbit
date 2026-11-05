@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-07-amazon-workspaces",
+  "date": "2026-11-07",
+  "subjects": ["aws", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["WorkSpaces", "WorkSpaces Personal", "WorkSpaces Pools"],
+    "es": ["WorkSpaces", "WorkSpaces Personal", "WorkSpaces Pools"]
+  },
+  "image": "img/2026-11-07-amazon-workspaces.svg",
+  "imageAlt": {
+    "en": "A laptop, a tablet and a browser all show the same Windows desktop that actually runs on a computer in the cloud",
+    "es": "Una notebook, una tablet y un navegador muestran el mismo escritorio de Windows, que en realidad corre en una computadora en la nube"
+  },
+  "en": {
+    "title": "Amazon WorkSpaces",
+    "tagline": "A full Windows or Linux desktop that lives in AWS and that you open from any device.",
+    "explanation": [
+      "**Amazon WorkSpaces** gives each employee a computer that runs in an AWS data center instead of on their desk. They open an app or a web browser on whatever device they have, a cheap laptop, a Mac, a tablet, and see a complete Windows or Linux desktop with their programs and files. The keyboard, mouse and screen are local; the actual computing happens far away. This idea is called a **virtual desktop**.",
+      "For a company it means no shipping and repairing laptops for every new hire: IT creates a desktop in minutes and deletes it when the person leaves. Data stays in the cloud, so a lost laptop does not mean lost files. It is popular for remote teams, contractors, call centers and seasonal staff. **WorkSpaces Personal** gives each user their own persistent desktop; **WorkSpaces Pools** hands out fresh, shared desktops that reset after each session.",
+      "The trade-off is that you need a decent internet connection, and things like video editing or gaming feel worse over the network than on a local machine. You pay monthly or by the hour per desktop."
+    ],
+    "analogy": "Like streaming a movie instead of owning the DVD: the film lives on someone else's server and your TV only shows it. With WorkSpaces, the film is your whole office computer.",
+    "keyPoints": [
+      "A Windows or Linux desktop that runs in AWS, opened from any device.",
+      "IT can create or remove a desktop in minutes.",
+      "Files stay in the cloud, not on the laptop that might get lost.",
+      "Needs a good internet connection; billed monthly or hourly."
+    ],
+    "links": [
+      { "label": "What is Amazon WorkSpaces? (official docs)", "url": "https://docs.aws.amazon.com/workspaces/latest/adminguide/amazon-workspaces.html" },
+      { "label": "Amazon WorkSpaces product page", "url": "https://aws.amazon.com/workspaces/" },
+      { "label": "Desktop virtualization on Wikipedia", "url": "https://en.wikipedia.org/wiki/Desktop_virtualization" }
+    ]
+  },
+  "es": {
+    "title": "Amazon WorkSpaces",
+    "tagline": "Un escritorio de Windows o Linux que vive en AWS y abrís desde cualquier aparato.",
+    "explanation": [
+      "**Amazon WorkSpaces** le da a cada empleado una computadora que corre en un data center de AWS en lugar de estar en su escritorio. La persona abre una app o un navegador en el aparato que tenga a mano, una notebook barata, una Mac, una tablet, y ve un escritorio completo de Windows o Linux con sus programas y archivos. El teclado, el mouse y la pantalla son locales; el trabajo de cómputo pasa lejos. A esta idea se le dice **escritorio virtual**.",
+      "Para una empresa significa no tener que mandar y arreglar notebooks para cada persona que entra: el equipo de sistemas crea un escritorio en minutos y lo borra cuando la persona se va. Los datos quedan en la nube, así que perder una notebook no es perder archivos. Es común en equipos remotos, contratistas, centros de atención y personal de temporada. **WorkSpaces Personal** le da a cada usuario su propio escritorio, que se mantiene; **WorkSpaces Pools** reparte escritorios compartidos que vuelven a cero después de cada sesión.",
+      "La contra es que necesitás una conexión a internet decente, y cosas como editar video o jugar se sienten peor por la red que en una máquina local. Se paga por mes o por hora por cada escritorio."
+    ],
+    "analogy": "Es como ver una película en streaming en vez de tener el DVD: la película vive en el servidor de otro y tu tele solo la muestra. Con WorkSpaces, la película es tu computadora de la oficina entera.",
+    "keyPoints": [
+      "Un escritorio de Windows o Linux que corre en AWS y se abre desde cualquier aparato.",
+      "Sistemas puede crear o borrar un escritorio en minutos.",
+      "Los archivos quedan en la nube, no en la notebook que se puede perder.",
+      "Necesita buena conexión; se cobra por mes o por hora."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon WorkSpaces? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/workspaces/latest/adminguide/amazon-workspaces.html" },
+      { "label": "Página de Amazon WorkSpaces", "url": "https://aws.amazon.com/es/workspaces/" },
+      { "label": "Virtualización de escritorio en Wikipedia", "url": "https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_de_escritorio" }
+    ]
+  }
+}

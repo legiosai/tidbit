@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="70" width="90" height="100" rx="8" fill="#9ac7ea"/>
+    <rect x="148" y="96" width="88" height="48" rx="10" fill="#ffd166"/>
+    <rect x="292" y="22" width="32" height="56" rx="6" fill="#9bd1b9"/>
+    <rect x="282" y="100" width="52" height="34" rx="4" fill="#f4a7a7"/>
+    <rect x="274" y="134" width="68" height="7" rx="2" fill="#e6dfd0"/>
+    <rect x="301" y="156" width="14" height="10" rx="2" fill="#e6dfd0"/>
+    <rect x="301" y="198" width="14" height="10" rx="2" fill="#e6dfd0"/>
+    <rect x="294" y="166" width="28" height="32" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <line x1="38" y1="92" x2="96" y2="92"/><line x1="38" y1="108" x2="86" y2="108"/>
+    <line x1="48" y1="124" x2="100" y2="124"/><line x1="48" y1="140" x2="80" y2="140"/>
+    <line x1="38" y1="156" x2="70" y2="156"/>
+    <path d="M118 120 H142"/><path d="M137 116 l6 4 -6 4"/>
+    <path d="M240 110 C258 110 262 50 284 50"/><path d="M279 46 l6 4 -6 4"/>
+    <path d="M240 120 H274"/><path d="M269 116 l6 4 -6 4"/>
+    <path d="M240 130 C258 130 266 182 286 182"/><path d="M281 178 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="192" y="125">compiler</text>
+    <text x="362" y="55">iPhone</text><text x="368" y="124">Mac</text><text x="362" y="187">Watch</text>
+  </g>
+  <text x="69" y="60" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">app.swift</text>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one language for Apple's devices</text>
+</svg>

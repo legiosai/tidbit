@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M130 110 C130 66 196 54 214 84 C244 60 300 76 290 116 C314 128 304 166 278 166 H144 C110 166 104 124 130 110 Z" fill="#9ac7ea"/>
+    <rect x="22" y="58" width="56" height="30" rx="6" fill="#9bd1b9"/>
+    <rect x="320" y="132" width="62" height="56" rx="6" fill="#ffd166"/>
+    <line x1="320" y1="200" x2="382" y2="200"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 74 C110 74 130 86 150 100"/><path d="M142 92 l8 8 -11 2"/>
+    <path d="M280 150 H316"/><path d="M310 145 l6 5 -6 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="50" y="78">in: free</text>
+    <text x="212" y="128">cloud</text>
+    <text x="351" y="156">out:</text>
+    <text x="351" y="174">$ per GB</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">easy to put in, you pay to take out</text>
+</svg>

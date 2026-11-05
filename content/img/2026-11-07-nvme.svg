@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="84" width="64" height="64" rx="8" fill="#ffd166"/>
+    <rect x="300" y="36" width="80" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="300" y="146" width="80" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="150" y="50" width="90" height="16" rx="4" fill="#f4a7a7"/>
+    <rect x="150" y="140" width="90" height="56" rx="4" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M92 104 L146 58"/><path d="M244 58 H294"/><path d="M288 54 l6 4 -6 4"/>
+    <path d="M92 128 L146 168"/><path d="M244 168 H294"/><path d="M288 164 l6 4 -6 4"/>
+    <path d="M156 152 H234 M156 162 H234 M156 172 H234 M156 182 H234"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="56" y="121">CPU</text>
+    <text x="340" y="63">SATA SSD</text>
+    <text x="340" y="173">NVMe SSD</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="195" y="42">1 queue · ~600 MB/s</text>
+    <text x="195" y="132">many queues · PCIe</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same flash, a much wider road</text>
+</svg>

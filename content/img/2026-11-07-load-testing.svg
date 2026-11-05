@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="70" y="30" width="310" height="150" rx="8" fill="#e6dfd0"/>
+    <circle cx="28" cy="70" r="7" fill="#9ac7ea"/>
+    <circle cx="44" cy="70" r="7" fill="#9ac7ea"/>
+    <circle cx="28" cy="90" r="7" fill="#9ac7ea"/>
+    <circle cx="44" cy="90" r="7" fill="#9ac7ea"/>
+    <circle cx="28" cy="110" r="7" fill="#9ac7ea"/>
+    <circle cx="44" cy="110" r="7" fill="#9ac7ea"/>
+    <circle cx="290" cy="146" r="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 50 V164 H366"/>
+    <path d="M90 150 L150 149 L210 148 L260 146 L290 146 C310 140 325 110 336 56"/>
+  </g>
+  <g stroke="#6b6357" stroke-width="2">
+    <line x1="290" y1="60" x2="290" y2="160" stroke-dasharray="4 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="228" y="196">simulated users</text>
+    <text x="150" y="120">response time</text>
+    <text x="244" y="76">breaking point</text>
+  </g>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">find the limit before your users do</text>
+</svg>

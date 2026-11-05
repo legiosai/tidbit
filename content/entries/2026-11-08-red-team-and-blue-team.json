@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-red-team-and-blue-team",
+  "date": "2026-11-08",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["red team", "blue team", "red teams", "blue teams", "red teaming", "purple team", "purple teaming", "red team exercise", "red team exercises"],
+    "es": ["red team", "blue team", "red teaming", "purple team", "equipo rojo", "equipo azul", "equipo púrpura", "ejercicio de red team", "ejercicios de red team"]
+  },
+  "image": "img/2026-11-08-red-team-and-blue-team.svg",
+  "imageAlt": {
+    "en": "A red team on the left tries phishing, a door badge and a server exploit to reach a goal flag inside a company; a blue team on the right watches alerts and blocks them; a dashed arrow between them, labeled purple team, shows both sides replaying it together",
+    "es": "Un red team a la izquierda prueba phishing, una credencial de puerta y un exploit para llegar a una bandera dentro de la empresa; un blue team a la derecha mira alertas y los bloquea; una flecha punteada entre los dos, rotulada purple team, muestra que repasan todo juntos"
+  },
+  "en": {
+    "title": "Red team and blue team",
+    "tagline": "Hired attackers who play the real enemy, and the defenders who try to catch them.",
+    "explanation": [
+      "The names come from military war games, where one side played the enemy. In security, a **red team** is a group allowed to attack its own organization the way a real adversary would. It gets a goal, such as reaching the payroll database or the CEO's email, and can use any realistic path to get there: phishing emails, phone calls to the help desk, a borrowed badge to walk into the office, a forgotten server with a known vulnerability.",
+      "The **blue team** is the defense: the people who watch the alerts, run the security operations center, investigate odd logins and respond to incidents. During a red team exercise the blue team often does not know an attack is happening, because the point is to test whether real defenses detect and stop it, not just whether holes exist.",
+      "That is the difference with a penetration test, which usually tries to find as many weaknesses as possible in a defined system within a short window. A red team exercise is narrower and stealthier, and it measures people and processes as much as technology. When both teams sit down together to replay each step, fix the gaps and improve detection, it is called **purple teaming**. The term red teaming is also used for AI: people deliberately try to make a model misbehave so the problems can be fixed before launch."
+    ],
+    "analogy": "A football club where one squad plays as next Sunday's rival, copying its tactics, so the starting team can practice defending against them. The scrimmage only helps if both sides talk afterwards.",
+    "keyPoints": [
+      "Red team: authorized attackers with a goal who imitate a real adversary.",
+      "Blue team: the defenders who detect, investigate and respond.",
+      "Unlike a pentest, a red team tests detection and response, not only flaws.",
+      "Purple teaming: both sides working together to close the gaps."
+    ],
+    "links": [
+      { "label": "Red team on Wikipedia", "url": "https://en.wikipedia.org/wiki/Red_team" },
+      { "label": "Blue team (computer security) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Blue_team_(computer_security)" },
+      { "label": "What is red teaming? (IBM)", "url": "https://www.ibm.com/think/topics/red-teaming" }
+    ]
+  },
+  "es": {
+    "title": "Red team y blue team",
+    "tagline": "Atacantes contratados que hacen de enemigo real, y defensores que intentan atraparlos.",
+    "explanation": [
+      "Los nombres vienen de los juegos de guerra militares, donde un bando hacía de enemigo. En seguridad, un **red team** (equipo rojo) es un grupo autorizado a atacar a su propia organización como lo haría un adversario real. Recibe un objetivo, por ejemplo llegar a la base de datos de sueldos o al mail del CEO, y puede usar cualquier camino realista: correos de phishing, llamadas a la mesa de ayuda, una credencial prestada para entrar a la oficina, un servidor olvidado con una vulnerabilidad conocida.",
+      "El **blue team** (equipo azul) es la defensa: la gente que mira las alertas, maneja el centro de operaciones de seguridad, investiga logins raros y responde a incidentes. Durante un ejercicio de red team, muchas veces el blue team no sabe que hay un ataque en curso, porque la idea es probar si las defensas reales lo detectan y lo frenan, no solo si existen agujeros.",
+      "Esa es la diferencia con un pentest, que suele buscar la mayor cantidad posible de debilidades en un sistema acotado y en poco tiempo. Un ejercicio de red team es más puntual y más sigiloso, y mide a las personas y los procesos tanto como a la tecnología. Cuando los dos equipos se sientan juntos a repasar cada paso, tapar los huecos y mejorar la detección, se habla de **purple team** (equipo púrpura). El término red teaming también se usa en IA: gente que intenta a propósito que un modelo se porte mal, para corregirlo antes de lanzarlo."
+    ],
+    "analogy": "Un club de fútbol donde un grupo de jugadores hace de rival del domingo, copiando sus jugadas, para que los titulares practiquen cómo defenderse. El partido de práctica solo sirve si después los dos lados hablan.",
+    "keyPoints": [
+      "Red team: atacantes autorizados, con un objetivo, que imitan a un adversario real.",
+      "Blue team: los defensores que detectan, investigan y responden.",
+      "A diferencia de un pentest, el red team prueba la detección y la respuesta, no solo las fallas.",
+      "Purple team: los dos lados trabajando juntos para cerrar los huecos."
+    ],
+    "links": [
+      { "label": "Equipo rojo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Equipo_rojo" },
+      { "label": "Equipo azul en Wikipedia", "url": "https://es.wikipedia.org/wiki/Equipo_azul" },
+      { "label": "Qué es el red teaming (IBM)", "url": "https://www.ibm.com/es-es/think/topics/red-teaming" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-knowledge-cutoff",
+  "date": "2026-11-07",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["training cutoff", "training data cutoff", "knowledge cutoff date"],
+    "es": ["fecha de corte del conocimiento", "fecha de corte de entrenamiento", "knowledge cutoff"]
+  },
+  "image": "img/2026-11-07-knowledge-cutoff.svg",
+  "imageAlt": {
+    "en": "A timeline where training data fills the months up to a cutoff mark, followed by a blank stretch the model never saw, then the release and today",
+    "es": "Una línea de tiempo donde los datos de entrenamiento llenan los meses hasta una marca de corte, seguida de un tramo en blanco que el modelo nunca vio, el lanzamiento y hoy"
+  },
+  "en": {
+    "title": "Knowledge cutoff",
+    "tagline": "The date after which an AI model has seen no data, so it knows nothing newer.",
+    "explanation": [
+      "A model's **knowledge cutoff** is the point in time where its training data ends. An LLM learns from a huge snapshot of text collected up to a certain month; whatever happened after that is simply not in the model. Ask it about last week's news or the newest version of an app and it either says it does not know or, worse, guesses.",
+      "The gap cannot be avoided. Collecting data, training and testing a model takes months, so on the day a model is released its cutoff is already in the past, and it stays frozen while people keep using the model for a year or more. Providers usually publish the cutoff in their documentation. It is also blurrier than it sounds: the last months before the cutoff are thinly covered, because the internet had not finished writing about them yet.",
+      "The usual fix is not retraining but handing the model fresh information when you ask: a web search tool, RAG over your own documents, or simply pasting the relevant text into the prompt. When a chatbot gets a recent fact right, that is usually how. When it confidently states something outdated, the cutoff is a likely reason, so it is worth checking anything that may have changed."
+    ],
+    "analogy": "Someone coming back from six months at a research base in Antarctica. They know plenty, but everything after the day they left is a blank, and if you ask about the news they might fill the gap with what seemed likely back then.",
+    "keyPoints": [
+      "Training data stops at a date; the model knows nothing after it.",
+      "The cutoff is always months before the model's release.",
+      "Search tools, RAG or pasted text give the model fresh facts.",
+      "Outdated answers stated with confidence are a classic symptom."
+    ],
+    "links": [
+      { "label": "Knowledge cutoff on Wikipedia", "url": "https://en.wikipedia.org/wiki/Knowledge_cutoff" },
+      { "label": "Example: training data cutoff of each Claude model (Anthropic docs)", "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview" }
+    ]
+  },
+  "es": {
+    "title": "Fecha de corte",
+    "tagline": "El día en que terminan los datos de un modelo de IA: de ahí en adelante no sabe nada.",
+    "explanation": [
+      "La **fecha de corte** (knowledge cutoff) de un modelo es el momento en que terminan sus datos de entrenamiento. Un LLM aprende de una foto gigante de textos juntados hasta cierto mes; lo que pasó después, sencillamente, no está en el modelo. Si le preguntás por una noticia de la semana pasada o por la última versión de una app, te dice que no sabe o, peor, inventa.",
+      "Ese hueco es inevitable. Juntar los datos, entrenar y probar un modelo lleva meses, así que el día que sale al público su fecha de corte ya quedó atrás, y sigue congelada mientras la gente lo usa durante un año o más. Los proveedores suelen publicarla en su documentación. Además es más difusa de lo que parece: los últimos meses antes del corte están poco representados, porque internet todavía no había terminado de escribir sobre ellos.",
+      "La solución habitual no es volver a entrenar, sino darle información fresca al modelo en el momento en que preguntás: una herramienta de búsqueda web, RAG sobre tus propios documentos o, simplemente, pegar el texto que importa en el prompt. Cuando un chatbot acierta un dato reciente, casi siempre es por eso. Cuando afirma muy seguro algo desactualizado, la fecha de corte es una sospechosa clara, así que conviene chequear todo lo que pueda haber cambiado."
+    ],
+    "analogy": "Alguien que vuelve de pasar seis meses en una base en la Antártida. Sabe un montón, pero todo lo que pasó desde que se fue es un hueco, y si le preguntás por las noticias capaz que lo rellena con lo que parecía probable cuando se fue.",
+    "keyPoints": [
+      "Los datos de entrenamiento terminan en una fecha; después de eso, el modelo no sabe nada.",
+      "La fecha de corte siempre es meses anterior al lanzamiento del modelo.",
+      "La búsqueda web, RAG o un texto pegado le dan datos frescos.",
+      "Una respuesta vieja dicha con total seguridad es un síntoma clásico."
+    ],
+    "links": [
+      { "label": "Knowledge cutoff en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Knowledge_cutoff" },
+      { "label": "Ejemplo: la fecha de corte de cada modelo de Claude (documentación de Anthropic)", "url": "https://docs.anthropic.com/es/docs/about-claude/models/overview" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-facial-recognition",
+  "date": "2026-11-07",
+  "subjects": ["ai", "security"],
+  "level": 1,
+  "aliases": {
+    "en": ["face recognition", "facial recognition system", "facial recognition systems", "facial recognition technology"],
+    "es": ["reconocimiento de rostros", "sistema de reconocimiento facial", "sistemas de reconocimiento facial", "facial recognition"]
+  },
+  "image": "img/2026-11-07-facial-recognition.svg",
+  "imageAlt": {
+    "en": "A face is turned into a list of numbers and compared two ways: one to one against an ID photo, and one to many against a database of faces",
+    "es": "Una cara se convierte en una lista de números y se compara de dos maneras: uno a uno contra la foto de un documento, y uno a muchos contra una base de caras"
+  },
+  "en": {
+    "title": "Facial recognition",
+    "tagline": "AI that identifies or verifies a person by comparing their face with stored ones.",
+    "explanation": [
+      "**Facial recognition** is software that finds a face in a photo or video and works out whose it is. It does not compare pixels. A neural network turns the face into a short list of numbers, a kind of mathematical fingerprint, so that photos of the same person end up with similar numbers despite different lighting, angles or haircuts. Matching is then a question of how close two of those lists are.",
+      "There are two very different uses. **Verification** (one to one) answers \"is this the person they claim to be?\": unlocking your phone, or an airport gate that compares you with your passport photo. **Identification** (one to many) answers \"who is this?\" by searching a database of many faces, for example a police system checking a security-camera still against a file of photos.",
+      "Identification is where the controversy is. Accuracy has improved a lot, but errors still happen: tests by NIST, the US standards agency, found that many algorithms make more mistakes with some demographic groups than with others, and false matches have led to wrongful arrests in the United States. Cameras can also identify people in a crowd without their knowledge. That is why the EU AI Act sharply restricts real-time facial recognition by police in public spaces, several cities have banned or limited its use by government, and European privacy regulators have fined companies that scraped photos from the internet to build face databases."
+    ],
+    "analogy": "A doorman with a perfect memory for faces who has studied millions of photos. Checking your face against your own ID card is easy for him; picking one stranger out of a stadium crowd is much harder and much more likely to go wrong.",
+    "keyPoints": [
+      "A face becomes a list of numbers that is compared with others.",
+      "Verification (is it you?) is different from identification (who is it?).",
+      "Error rates can vary across age, sex and skin tone.",
+      "Its use in public spaces is restricted or banned in many places."
+    ],
+    "links": [
+      { "label": "Facial recognition system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Facial_recognition_system" },
+      { "label": "Face technology evaluations (NIST)", "url": "https://www.nist.gov/programs-projects/face-technology-evaluations-frtefate" }
+    ]
+  },
+  "es": {
+    "title": "Reconocimiento facial",
+    "tagline": "IA que identifica o verifica a una persona comparando su cara con otras guardadas.",
+    "explanation": [
+      "El **reconocimiento facial** es un software que encuentra una cara en una foto o un video y averigua de quién es. No compara píxeles. Una red neuronal convierte la cara en una lista corta de números, una especie de huella matemática, de modo que las fotos de una misma persona terminan con números parecidos aunque cambien la luz, el ángulo o el corte de pelo. Reconocer, después, es medir qué tan cerca están dos de esas listas.",
+      "Hay dos usos muy distintos. La **verificación** (uno a uno) responde \"¿es quien dice ser?\": desbloquear tu celular, o una puerta del aeropuerto que te compara con la foto del pasaporte. La **identificación** (uno a muchos) responde \"¿quién es?\" buscando en una base con muchas caras, por ejemplo un sistema policial que compara la imagen de una cámara de seguridad con un archivo de fotos.",
+      "La polémica está en la identificación. La precisión mejoró muchísimo, pero los errores siguen existiendo: las pruebas del NIST, el organismo de estándares de Estados Unidos, encontraron que muchos algoritmos se equivocan más con algunos grupos demográficos que con otros, y hubo coincidencias falsas que terminaron en detenciones injustas en Estados Unidos. Además, las cámaras pueden identificar gente en una multitud sin que se entere. Por eso la Ley de IA de la Unión Europea restringe fuerte el reconocimiento facial en tiempo real por parte de la policía en espacios públicos, varias ciudades prohibieron o limitaron su uso por parte del Estado, y autoridades europeas de privacidad multaron a empresas que juntaron fotos de internet para armar bases de caras."
+    ],
+    "analogy": "Un portero con una memoria perfecta para las caras que estudió millones de fotos. Comparar tu cara con tu propio DNI le resulta fácil; encontrar a un desconocido en la tribuna de una cancha llena es mucho más difícil y mucho más fácil de errar.",
+    "keyPoints": [
+      "Una cara se convierte en una lista de números que se compara con otras.",
+      "Verificar (¿sos vos?) no es lo mismo que identificar (¿quién es?).",
+      "La tasa de error puede variar según la edad, el sexo y el color de piel.",
+      "Su uso en espacios públicos está restringido o prohibido en muchos lugares."
+    ],
+    "links": [
+      { "label": "Sistema de reconocimiento facial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_de_reconocimiento_facial" },
+      { "label": "Face technology evaluations, NIST (en inglés)", "url": "https://www.nist.gov/programs-projects/face-technology-evaluations-frtefate" }
+    ]
+  }
+}

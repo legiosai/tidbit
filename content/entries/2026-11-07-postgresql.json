@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-07-postgresql",
+  "date": "2026-11-07",
+  "subjects": ["data", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["Postgres"],
+    "es": ["Postgres"]
+  },
+  "image": "img/2026-11-07-postgresql.svg",
+  "imageAlt": {
+    "en": "An app sending a SQL query to a PostgreSQL server on port 5432, which holds tables and plug-in extensions such as PostGIS and pgvector",
+    "es": "Una aplicación que manda una consulta SQL a un servidor PostgreSQL en el puerto 5432, que guarda tablas y extensiones enchufables como PostGIS y pgvector"
+  },
+  "en": {
+    "title": "PostgreSQL",
+    "tagline": "A free, open-source relational database behind a great many apps.",
+    "explanation": [
+      "**PostgreSQL**, usually just called Postgres, is a relational database: it stores data in tables with rows and columns and lets you ask questions in SQL. It is open source, free to use for any purpose, and maintained by a community of developers and companies rather than a single vendor.",
+      "It started as the POSTGRES research project at the University of California, Berkeley, in the 1980s, and took its current name in the 1990s when it gained SQL support. Its reputation rests on being careful with data: transactions either happen completely or not at all, and many people can read and write at the same time without stepping on each other. It also goes beyond plain tables, with support for JSON documents, full-text search and geographic data.",
+      "A big part of its popularity is extensions, add-ons that teach it new tricks. PostGIS turns it into a map database, and pgvector lets it store embeddings for AI search. Cloud providers offer it as a managed service, such as Amazon RDS and Aurora, so teams get Postgres without running the server themselves. For many new projects it is the default choice: if you are not sure which database to use, Postgres is rarely the wrong answer."
+    ],
+    "analogy": "Like a well-built public library with strict rules: every book is cataloged, nothing gets lost when two people borrow at once, and you can add new wings, a map room, a media room, without rebuilding the place.",
+    "keyPoints": [
+      "Open-source relational database, queried with SQL.",
+      "Born as a research project at UC Berkeley in the 1980s.",
+      "Extensible: PostGIS for maps, pgvector for AI embeddings.",
+      "Offered as a managed service by every major cloud provider."
+    ],
+    "links": [
+      { "label": "About PostgreSQL (official site)", "url": "https://www.postgresql.org/about/" },
+      { "label": "What is PostgreSQL? (official docs)", "url": "https://www.postgresql.org/docs/current/intro-whatis.html" },
+      { "label": "PostgreSQL on Wikipedia", "url": "https://en.wikipedia.org/wiki/PostgreSQL" }
+    ]
+  },
+  "es": {
+    "title": "PostgreSQL",
+    "tagline": "Una base de datos relacional gratuita y de código abierto detrás de muchísimas apps.",
+    "explanation": [
+      "**PostgreSQL**, que casi todo el mundo llama Postgres, es una base de datos relacional: guarda datos en tablas con filas y columnas y te deja hacerle preguntas en SQL. Es de código abierto, se puede usar gratis para cualquier fin y la mantiene una comunidad de desarrolladores y empresas, no un único fabricante.",
+      "Nació como el proyecto de investigación POSTGRES en la Universidad de California en Berkeley, en los años ochenta, y tomó su nombre actual en los noventa, cuando sumó soporte para SQL. Tiene fama de ser cuidadosa con los datos: las transacciones pasan completas o no pasan, y mucha gente puede leer y escribir al mismo tiempo sin pisarse. Además va más allá de las tablas simples, con soporte para documentos JSON, búsqueda de texto completo y datos geográficos.",
+      "Buena parte de su popularidad viene de las extensiones, agregados que le enseñan trucos nuevos. PostGIS la convierte en una base de datos de mapas y pgvector le permite guardar embeddings para búsquedas con IA. Los proveedores de nube la ofrecen como servicio administrado, como Amazon RDS y Aurora, así los equipos tienen Postgres sin mantener el servidor. Para muchos proyectos nuevos es la opción por defecto: si no sabés qué base usar, Postgres rara vez es la respuesta equivocada."
+    ],
+    "analogy": "Como una biblioteca pública bien armada y con reglas estrictas: cada libro está catalogado, nada se pierde cuando dos personas piden prestado a la vez, y le podés sumar alas nuevas, una mapoteca, una sala de medios, sin tirar el edificio abajo.",
+    "keyPoints": [
+      "Base de datos relacional de código abierto, que se consulta con SQL.",
+      "Nació como proyecto de investigación en Berkeley en los años ochenta.",
+      "Extensible: PostGIS para mapas, pgvector para embeddings de IA.",
+      "Todos los grandes proveedores de nube la ofrecen como servicio administrado."
+    ],
+    "links": [
+      { "label": "PostgreSQL en Wikipedia", "url": "https://es.wikipedia.org/wiki/PostgreSQL" },
+      { "label": "Sobre PostgreSQL (sitio oficial, en inglés)", "url": "https://www.postgresql.org/about/" }
+    ]
+  }
+}

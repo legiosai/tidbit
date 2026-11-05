@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <line x1="30" y1="170" x2="370" y2="170"/>
+    <rect x="40" y="80" width="80" height="60" rx="8" fill="#9bd1b9"/>
+    <rect x="160" y="80" width="80" height="60" rx="8" fill="#9bd1b9"/>
+    <rect x="280" y="80" width="80" height="60" rx="8" fill="#f4a7a7"/>
+    <circle cx="80" cy="170" r="5" fill="#2b2b2b"/>
+    <circle cx="200" cy="170" r="5" fill="#2b2b2b"/>
+    <circle cx="320" cy="170" r="5" fill="#2b2b2b"/>
+    <rect x="250" y="24" width="140" height="30" rx="6" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M80 142 V164"/><path d="M200 142 V164"/><path d="M320 142 V164"/>
+    <path d="M320 56 V76"/><path d="M315 70 l5 6 5 -6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="80" y="106">bucket</text><text x="80" y="124">private</text>
+    <text x="200" y="106">bucket</text><text x="200" y="124">private</text>
+    <text x="320" y="106">bucket</text><text x="320" y="124">public</text>
+    <text x="320" y="43">no public buckets</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="80" y="192">Mon</text><text x="200" y="192">Tue</text><text x="320" y="192">Wed</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">every change recorded, every rule checked</text>
+</svg>

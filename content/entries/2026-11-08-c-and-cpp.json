@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-c-and-cpp",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["C++", "C language", "C programming language", "C/C++"],
+    "es": ["C++", "lenguaje C", "lenguaje de programación C", "C/C++"]
+  },
+  "image": "img/2026-11-08-c-and-cpp.svg",
+  "imageAlt": {
+    "en": "Operating system kernels, browsers and game engines stacked on a C and C++ layer that sits right on top of memory and hardware",
+    "es": "Kernels de sistemas operativos, navegadores y motores de juegos apilados sobre una capa de C y C++ que está justo encima de la memoria y el hardware"
+  },
+  "en": {
+    "title": "C and C++",
+    "tagline": "Two old, fast languages that sit underneath operating systems, browsers and games.",
+    "explanation": [
+      "**C** is a programming language created by Dennis Ritchie at Bell Labs in the early 1970s to write the Unix operating system. **C++** came next: Bjarne Stroustrup started it in 1979 as \"C with Classes\", adding object-oriented programming and many other features on top of C. They are different languages, but C++ can use C code directly, so they are often named together.",
+      "Both are compiled straight to machine code and give the programmer direct control over memory: you ask for a piece of memory, you use it, you hand it back. That control is why they are fast and why they run where little else fits, from microcontrollers to the Linux kernel. The cores of Windows, macOS and Linux, browsers like Chrome and Firefox, many databases and most big game engines are written largely in C or C++.",
+      "The price of that control is risk. Forget to hand memory back, or read past the end of a list, and the program can crash or, worse, open a security hole. A large share of serious security bugs in big C and C++ projects come from exactly those mistakes, which is why newer languages like Rust aim for the same speed with memory safety built in. Still, decades of working code mean C and C++ are not going anywhere."
+    ],
+    "analogy": "A manual car with no driver aids. An expert gets every bit of performance out of it; one distracted moment and nothing stops you from stalling, or worse.",
+    "keyPoints": [
+      "C dates from the early 1970s; C++ was built on top of it starting in 1979.",
+      "Both compile to machine code and manage memory by hand.",
+      "Operating systems, browsers, databases and game engines are largely written in them.",
+      "Manual memory handling is the main source of their crashes and security bugs."
+    ],
+    "links": [
+      { "label": "C (programming language) on Wikipedia", "url": "https://en.wikipedia.org/wiki/C_(programming_language)" },
+      { "label": "C++ on Wikipedia", "url": "https://en.wikipedia.org/wiki/C%2B%2B" },
+      { "label": "Standard C++ Foundation", "url": "https://isocpp.org/" }
+    ]
+  },
+  "es": {
+    "title": "C y C++",
+    "tagline": "Dos lenguajes veteranos y rápidos debajo de sistemas operativos, navegadores y juegos.",
+    "explanation": [
+      "**C** es un lenguaje de programación que creó Dennis Ritchie en los Bell Labs a principios de los años 70 para escribir el sistema operativo Unix. **C++** vino después: Bjarne Stroustrup lo empezó en 1979 como \"C con clases\" y le sumó programación orientada a objetos y muchas otras cosas encima de C. Son lenguajes distintos, pero C++ puede usar código C directamente, así que suelen nombrarse juntos.",
+      "Los dos se compilan directo a código de máquina y le dan al programador control directo sobre la memoria: pedís un pedazo de memoria, lo usás y lo devolvés. Ese control es lo que los hace rápidos y lo que les permite correr donde casi nada más entra, desde microcontroladores hasta el kernel de Linux. El núcleo de Windows, macOS y Linux, navegadores como Chrome y Firefox, muchas bases de datos y la mayoría de los grandes motores de juegos están escritos en buena parte en C o C++.",
+      "El precio de ese control es el riesgo. Si te olvidás de devolver memoria, o leés más allá del final de una lista, el programa se puede colgar o, peor, abrir un agujero de seguridad. Una parte grande de los bugs de seguridad graves en proyectos grandes de C y C++ viene justamente de esos errores, y por eso lenguajes más nuevos como Rust buscan la misma velocidad con la seguridad de memoria incorporada. Igual, décadas de código que funciona hacen que C y C++ no se vayan a ningún lado."
+    ],
+    "analogy": "Un auto con caja manual y sin ayudas de manejo. Un experto le saca hasta la última gota de rendimiento; un segundo de distracción y nada te salva de calarte, o de algo peor.",
+    "keyPoints": [
+      "C es de principios de los 70; C++ se construyó encima a partir de 1979.",
+      "Los dos se compilan a código de máquina y manejan la memoria a mano.",
+      "Sistemas operativos, navegadores, bases de datos y motores de juegos están escritos en buena parte en ellos.",
+      "El manejo manual de la memoria es la fuente principal de sus cuelgues y bugs de seguridad."
+    ],
+    "links": [
+      { "label": "C (lenguaje de programación) en Wikipedia", "url": "https://es.wikipedia.org/wiki/C_(lenguaje_de_programación)" },
+      { "label": "C++ en Wikipedia", "url": "https://es.wikipedia.org/wiki/C%2B%2B" },
+      { "label": "Standard C++ Foundation (en inglés)", "url": "https://isocpp.org/" }
+    ]
+  }
+}

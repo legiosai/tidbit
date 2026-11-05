@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-08-swift",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Swift language", "Swift programming language"],
+    "es": ["lenguaje Swift", "lenguaje de programación Swift"]
+  },
+  "image": "img/2026-11-08-swift.svg",
+  "imageAlt": {
+    "en": "A Swift source file goes through a compiler and comes out as apps for an iPhone, a Mac and a watch",
+    "es": "Un archivo de Swift pasa por un compilador y sale como apps para un iPhone, una Mac y un reloj"
+  },
+  "en": {
+    "title": "Swift",
+    "tagline": "Apple's programming language for building apps for iPhone, Mac and its other devices.",
+    "explanation": [
+      "**Swift** is a programming language created by Apple and announced in 2014. It is the main language for writing apps for iPhone, iPad, Mac, Apple Watch and Apple TV. It took over from Objective-C, an older language from the 1980s that Apple developers had used for years, with something shorter to write and harder to get wrong.",
+      "Swift is compiled: before the app ships, the compiler turns the code into machine instructions, which keeps apps fast. It is also strict on purpose. A value that might be missing has to be marked as an **optional**, and the compiler makes you handle the empty case, which removes a whole family of crashes. Most new Apple apps pair Swift with **SwiftUI**, Apple's framework for describing screens in code.",
+      "Swift has been open source since 2015 and also runs on Linux and Windows, so some teams use it on servers. In practice, though, learning Swift almost always means you want to build something for Apple's devices, and Xcode, Apple's editor, is where that work happens."
+    ],
+    "analogy": "A house-brand tool kit. Apple designed it to fit its own furniture perfectly; you can take it to other jobs, but that furniture is where it shines.",
+    "keyPoints": [
+      "Swift is Apple's main language for iPhone, iPad, Mac, Watch and TV apps.",
+      "It took over from Objective-C, Apple's older language.",
+      "Optionals force you to handle missing values, which prevents many crashes.",
+      "It is open source and runs elsewhere, but it is mostly used for Apple apps."
+    ],
+    "links": [
+      { "label": "Swift (official site)", "url": "https://www.swift.org/" },
+      { "label": "Swift on Apple Developer", "url": "https://developer.apple.com/swift/" },
+      { "label": "The Swift Programming Language (official book)", "url": "https://docs.swift.org/swift-book/" }
+    ]
+  },
+  "es": {
+    "title": "Swift",
+    "tagline": "El lenguaje de programación de Apple para hacer apps de iPhone, Mac y sus otros equipos.",
+    "explanation": [
+      "**Swift** es un lenguaje de programación creado por Apple y presentado en 2014. Es el lenguaje principal para hacer apps de iPhone, iPad, Mac, Apple Watch y Apple TV. Vino a reemplazar a Objective-C, un lenguaje de los años 80 que los desarrolladores de Apple venían usando hacía años, con algo más corto de escribir y más difícil de usar mal.",
+      "Swift es compilado: antes de publicar la app, el compilador convierte el código en instrucciones de máquina, y por eso las apps andan rápido. Además es estricto a propósito. Un valor que puede faltar se tiene que marcar como **opcional**, y el compilador te obliga a contemplar el caso vacío, lo que elimina toda una familia de cuelgues. La mayoría de las apps nuevas de Apple combinan Swift con **SwiftUI**, el framework de Apple para describir pantallas en código.",
+      "Swift es de código abierto desde 2015 y también corre en Linux y Windows, así que algunos equipos lo usan en servidores. Pero en la práctica, aprender Swift casi siempre significa que querés hacer algo para los equipos de Apple, y eso se hace en Xcode, el editor de Apple."
+    ],
+    "analogy": "Una caja de herramientas de marca propia. Apple la diseñó para que encaje perfecto con sus muebles; la podés llevar a otros trabajos, pero donde brilla es en esos muebles.",
+    "keyPoints": [
+      "Swift es el lenguaje principal de Apple para apps de iPhone, iPad, Mac, Watch y TV.",
+      "Reemplazó a Objective-C, el lenguaje anterior de Apple.",
+      "Los opcionales te obligan a contemplar los valores que faltan y evitan muchos cuelgues.",
+      "Es de código abierto y corre en otros sistemas, pero se usa sobre todo para apps de Apple."
+    ],
+    "links": [
+      { "label": "Swift en Wikipedia", "url": "https://es.wikipedia.org/wiki/Swift_(lenguaje_de_programación)" },
+      { "label": "Swift (sitio oficial, en inglés)", "url": "https://www.swift.org/" },
+      { "label": "Swift en Apple Developer (en inglés)", "url": "https://developer.apple.com/swift/" }
+    ]
+  }
+}

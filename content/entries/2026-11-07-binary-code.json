@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-binary-code",
+  "date": "2026-11-07",
+  "subjects": ["hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["binary number", "binary numbers", "binary system", "binary digit", "binary digits", "base 2", "base-2"],
+    "es": ["sistema binario", "número binario", "números binarios", "dígito binario", "dígitos binarios", "base 2"]
+  },
+  "image": "img/2026-11-07-binary-code.svg",
+  "imageAlt": {
+    "en": "The number 13 written in binary as 1101, with each digit under its place value 8, 4, 2 and 1, and the sum 8 + 4 + 1 = 13",
+    "es": "El número 13 escrito en binario como 1101, con cada dígito debajo de su valor posicional 8, 4, 2 y 1, y la suma 8 + 4 + 1 = 13"
+  },
+  "en": {
+    "title": "Binary code",
+    "tagline": "Writing everything, numbers, text, images, with only two symbols: 0 and 1.",
+    "explanation": [
+      "**Binary code** is a way of representing information using only two symbols, 0 and 1. Computers use it because their hardware is built from billions of tiny switches, transistors, that are either on or off. Two states are easy to tell apart reliably, even when electrical signals are a bit noisy, so everything a computer stores or processes ends up as long strings of zeros and ones.",
+      "Binary numbers work like the decimal numbers you already know, just with two digits instead of ten. In decimal, each position is worth ten times the one to its right: ones, tens, hundreds. In binary, each position is worth twice as much: 1, 2, 4, 8, 16 and so on. So `1101` means one 8, one 4, no 2 and one 1, which adds up to 13.",
+      "Anything else is a matter of agreeing on a code. Text uses tables like ASCII or Unicode, where the capital letter A is the number 65, or `01000001`. An image is a grid of pixels, each with numbers for its red, green and blue. A song is thousands of sound measurements per second. Even the programs themselves are binary: the instructions a CPU runs are patterns of bits that tell it what to do next."
+    ],
+    "analogy": "Like Morse code, which spells out every letter with just dots and dashes. Binary does the same with 0 and 1, and a computer can read and write it billions of times per second.",
+    "keyPoints": [
+      "Uses only two symbols, 0 and 1, matching switches that are off or on.",
+      "Each binary position is worth double the one to its right: 1, 2, 4, 8…",
+      "Text, images, sound and programs are all stored as binary.",
+      "Codes like ASCII and Unicode decide which number means which character."
+    ],
+    "links": [
+      { "label": "Binary code on Wikipedia", "url": "https://en.wikipedia.org/wiki/Binary_code" },
+      { "label": "Binary number on Wikipedia", "url": "https://en.wikipedia.org/wiki/Binary_number" }
+    ]
+  },
+  "es": {
+    "title": "Código binario",
+    "tagline": "Escribir todo, números, texto, imágenes, con solo dos símbolos: 0 y 1.",
+    "explanation": [
+      "El **código binario** es una forma de representar información usando solo dos símbolos, 0 y 1. Las computadoras lo usan porque su hardware está hecho de miles de millones de interruptores diminutos, los transistores, que están prendidos o apagados. Dos estados son fáciles de distinguir con seguridad, aunque las señales eléctricas tengan algo de ruido, así que todo lo que una computadora guarda o procesa termina siendo largas tiras de ceros y unos.",
+      "Los números binarios funcionan como los decimales que ya conocés, solo que con dos dígitos en vez de diez. En decimal, cada posición vale diez veces lo que la de su derecha: unidades, decenas, centenas. En binario, cada posición vale el doble: 1, 2, 4, 8, 16 y así. Entonces `1101` quiere decir un 8, un 4, ningún 2 y un 1, que suman 13.",
+      "Todo lo demás es cuestión de ponerse de acuerdo en un código. El texto usa tablas como ASCII o Unicode, donde la A mayúscula es el número 65, o sea `01000001`. Una imagen es una grilla de píxeles, cada uno con números para su rojo, verde y azul. Una canción son miles de mediciones de sonido por segundo. Hasta los programas son binarios: las instrucciones que ejecuta una CPU son patrones de bits que le dicen qué hacer después."
+    ],
+    "analogy": "Como el código Morse, que arma cada letra con solo puntos y rayas. El binario hace lo mismo con 0 y 1, y una computadora lo lee y lo escribe miles de millones de veces por segundo.",
+    "keyPoints": [
+      "Usa solo dos símbolos, 0 y 1, que corresponden a interruptores apagados o prendidos.",
+      "Cada posición binaria vale el doble que la de su derecha: 1, 2, 4, 8…",
+      "El texto, las imágenes, el sonido y los programas se guardan en binario.",
+      "Códigos como ASCII y Unicode deciden qué número corresponde a cada carácter."
+    ],
+    "links": [
+      { "label": "Código binario en Wikipedia", "url": "https://es.wikipedia.org/wiki/C%C3%B3digo_binario" },
+      { "label": "Sistema binario en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_binario" }
+    ]
+  }
+}

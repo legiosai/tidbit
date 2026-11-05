@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-air-gap",
+  "date": "2026-11-08",
+  "subjects": ["security", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["air gaps", "air-gapped", "air gapped", "air-gapping", "air-gapped network", "air-gapped networks"],
+    "es": ["air-gapped", "air gapped", "red air-gapped", "redes air-gapped", "aislamiento físico de red"]
+  },
+  "image": "img/2026-11-08-air-gap.svg",
+  "imageAlt": {
+    "en": "On the left, office computers connected to the internet; on the right, a separate isolated network with control systems and an offline backup; between them there is only empty air, crossed by a USB stick that marks the weak point",
+    "es": "A la izquierda, computadoras de oficina conectadas a internet; a la derecha, una red aparte y aislada con sistemas de control y un backup offline; entre las dos solo hay aire vacío, que cruza un pendrive marcando el punto débil"
+  },
+  "en": {
+    "title": "Air gap",
+    "tagline": "Keeping a computer or network physically cut off from everything, internet included.",
+    "explanation": [
+      "An **air gap** means there is literally nothing but air between a sensitive system and the outside world: no cable, no Wi-Fi, no Bluetooth, no connection to the internet or to the office network. If an attacker cannot reach a machine over a network, a whole category of remote attacks simply does not apply. Systems built this way are called **air-gapped**.",
+      "It is used where the stakes are high: military and intelligence networks that handle classified information, the control systems of power plants and factories, voting tabulation machines in some places, and the offline copy of a company's backups. A ransomware gang that takes over the whole office network still cannot encrypt a backup that sits disconnected in a safe. Cold wallets for cryptocurrency follow the same idea.",
+      "An air gap is strong but not magic. Data still has to move in and out somehow, often on USB drives, and that is the weak point. The Stuxnet worm, discovered in 2010, is thought to have reached isolated Iranian nuclear equipment that way, then quietly damaged the centrifuges. Insiders can also carry things across, and researchers have shown exotic leaks through sound, heat or blinking lights. The cost is convenience: every update and every file transfer becomes a manual, controlled procedure."
+    ],
+    "analogy": "Keeping your most important papers in a safe deposit box instead of in a drawer at home. Nobody can get at them through the window, but someone still has to carry things in and out by hand, and that trip is where the risk is.",
+    "keyPoints": [
+      "No network connection at all: physically separated from the outside.",
+      "Used for classified networks, industrial control and offline backups.",
+      "USB drives and people crossing the gap are the usual weak point.",
+      "Stuxnet showed that an air gap reduces risk but does not erase it."
+    ],
+    "links": [
+      { "label": "Air gap (networking) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Air_gap_(networking)" },
+      { "label": "Stuxnet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Stuxnet" },
+      { "label": "Air gap (NIST glossary)", "url": "https://csrc.nist.gov/glossary/term/air_gap" }
+    ]
+  },
+  "es": {
+    "title": "Air gap",
+    "tagline": "Mantener una computadora o red físicamente desconectada de todo, internet incluida.",
+    "explanation": [
+      "Un **air gap** (literalmente, un espacio de aire) significa que entre un sistema delicado y el mundo exterior no hay nada más que aire: ni cable, ni Wi-Fi, ni Bluetooth, ni conexión a internet o a la red de la oficina. Si un atacante no puede llegar a una máquina por la red, toda una categoría de ataques remotos deja de aplicar. A los sistemas armados así se los llama **air-gapped**.",
+      "Se usa donde hay mucho en juego: redes militares y de inteligencia que manejan información clasificada, los sistemas de control de centrales eléctricas y fábricas, y la copia offline de los backups de una empresa. Una banda de ransomware que toma toda la red de la oficina igual no puede cifrar un backup que está desconectado dentro de una caja fuerte. Las billeteras frías de criptomonedas siguen la misma idea.",
+      "Un air gap es fuerte pero no es magia. Los datos tienen que entrar y salir de alguna manera, muchas veces en pendrives, y ahí está el punto débil. Se cree que el gusano Stuxnet, descubierto en 2010, llegó así a equipos nucleares iraníes aislados y después dañó en silencio las centrífugas. Alguien de adentro también puede cruzar cosas, y hay investigadores que mostraron fugas exóticas a través de sonido, calor o luces que parpadean. El precio es la comodidad: cada actualización y cada transferencia de archivos pasa a ser un procedimiento manual y controlado."
+    ],
+    "analogy": "Guardar tus papeles más importantes en una caja de seguridad del banco en vez de en un cajón de tu casa. Nadie los alcanza por la ventana, pero alguien igual tiene que llevar y traer cosas a mano, y en ese viaje está el riesgo.",
+    "keyPoints": [
+      "Ninguna conexión de red: separado físicamente del exterior.",
+      "Se usa en redes clasificadas, control industrial y backups offline.",
+      "Los pendrives y las personas que cruzan el hueco son el punto débil típico.",
+      "Stuxnet mostró que un air gap baja el riesgo pero no lo borra."
+    ],
+    "links": [
+      { "label": "Stuxnet en Wikipedia", "url": "https://es.wikipedia.org/wiki/Stuxnet" },
+      { "label": "Air gap (networking) en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Air_gap_(networking)" },
+      { "label": "Air gap, glosario del NIST (en inglés)", "url": "https://csrc.nist.gov/glossary/term/air_gap" }
+    ]
+  }
+}

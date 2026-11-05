@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-data-mart",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data marts"],
+    "es": ["data marts"]
+  },
+  "image": "img/2026-11-07-data-mart.svg",
+  "imageAlt": {
+    "en": "A big data warehouse feeding three smaller boxes labeled sales, finance and marketing, each used by its own team",
+    "es": "Un data warehouse grande que alimenta tres cajas más chicas rotuladas ventas, finanzas y marketing, cada una usada por su propio equipo"
+  },
+  "en": {
+    "title": "Data mart",
+    "tagline": "A small, focused slice of the company's data, shaped for one team.",
+    "explanation": [
+      "A **data mart** is a set of tables built for one part of a business, like sales, finance or marketing. It holds only the data that team needs, already cleaned, joined and named in the words they use. Where a data warehouse tries to cover the whole company, a data mart covers one subject.",
+      "Most data marts are carved out of a warehouse. The data team takes the raw orders, customers and payments, and builds a sales mart with a table of orders per day, per store and per product, ready to plug into a dashboard. Finance gets its own mart with invoices and margins. Today this is often just a separate schema inside the same warehouse, built with tools like dbt, rather than a separate machine.",
+      "Marts make life easier for analysts: fewer tables, clearer names, faster queries. The risk is the opposite of their strength. If every team builds its own mart with its own definition of \"revenue\", the numbers stop matching across meetings. That is why marts work best when they all come from the same warehouse and share definitions."
+    ],
+    "analogy": "If the data warehouse is a central supermarket warehouse, a data mart is the neighborhood store: fewer products, picked for the people who shop there, and easy to find.",
+    "keyPoints": [
+      "A subset of data organized for one team or subject.",
+      "Usually built from a data warehouse, often as its own schema.",
+      "Simpler and faster to query than the whole warehouse.",
+      "Marts with different definitions of the same metric cause mismatched numbers."
+    ],
+    "links": [
+      { "label": "Data mart on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_mart" },
+      { "label": "What is a data mart? (IBM)", "url": "https://www.ibm.com/think/topics/data-mart" }
+    ]
+  },
+  "es": {
+    "title": "Data mart",
+    "tagline": "Una porción chica y enfocada de los datos de la empresa, armada para un equipo.",
+    "explanation": [
+      "Un **data mart** es un conjunto de tablas armado para una parte del negocio, como ventas, finanzas o marketing. Tiene solo los datos que ese equipo necesita, ya limpios, cruzados y con los nombres que ellos usan. Mientras un data warehouse intenta cubrir toda la empresa, un data mart cubre un solo tema.",
+      "La mayoría se recorta de un data warehouse. El equipo de datos toma los pedidos, clientes y pagos en crudo y arma un mart de ventas con una tabla de pedidos por día, por sucursal y por producto, lista para enchufar a un dashboard. Finanzas tiene el suyo, con facturas y márgenes. Hoy muchas veces es solo un esquema aparte dentro del mismo warehouse, armado con herramientas como dbt, y no una máquina separada.",
+      "Los marts le simplifican la vida a quien analiza: menos tablas, nombres más claros, consultas más rápidas. El riesgo es la otra cara de esa ventaja. Si cada equipo arma su propio mart con su propia definición de \"facturación\", los números dejan de coincidir de una reunión a otra. Por eso funcionan mejor cuando salen todos del mismo warehouse y comparten definiciones."
+    ],
+    "analogy": "Si el data warehouse es el depósito central de una cadena de supermercados, el data mart es el almacén del barrio: menos productos, elegidos para la gente que compra ahí, y fáciles de encontrar.",
+    "keyPoints": [
+      "Un subconjunto de datos organizado para un equipo o un tema.",
+      "Suele salir de un data warehouse, muchas veces como un esquema propio.",
+      "Más simple y rápido de consultar que el warehouse entero.",
+      "Marts con distintas definiciones de la misma métrica generan números que no cierran."
+    ],
+    "links": [
+      { "label": "Data mart en Wikipedia", "url": "https://es.wikipedia.org/wiki/Data_mart" },
+      { "label": "Qué es un data mart (IBM, en inglés)", "url": "https://www.ibm.com/think/topics/data-mart" }
+    ]
+  }
+}

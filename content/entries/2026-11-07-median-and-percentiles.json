@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-median-and-percentiles",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["median", "percentile", "percentiles", "p95", "p99", "95th percentile", "99th percentile"],
+    "es": ["mediana", "percentil", "percentiles", "p95", "p99", "percentil 95", "percentil 99"]
+  },
+  "image": "img/2026-11-07-median-and-percentiles.svg",
+  "imageAlt": {
+    "en": "Nine bars sorted from smallest to largest, the middle one marked as the median, and a last one far taller than the rest labeled outlier",
+    "es": "Nueve barras ordenadas de menor a mayor, la del medio marcada como mediana y una última mucho más alta que el resto rotulada como valor atípico"
+  },
+  "en": {
+    "title": "Median and percentiles",
+    "tagline": "The middle value of a list, and the values that mark off the slowest or biggest slice.",
+    "explanation": [
+      "Line up a set of numbers from smallest to largest. The **median** is the one in the middle: half the values are below it and half above. It answers \"what is typical?\" better than the average when a few values are extreme. If nine people earn modest salaries and a tenth is a millionaire, the average salary jumps, but the median barely moves.",
+      "A **percentile** generalizes the same idea. The 90th percentile is the value that 90% of the data falls below. The median is simply the 50th percentile, often written p50. Pediatricians use percentiles on growth charts: a baby at the 75th percentile for height is taller than 75% of babies the same age.",
+      "In technology, percentiles are how teams talk about speed. Saying a website responds in 200 milliseconds on average hides the people who waited five seconds. So teams watch the **p95** or **p99**: the response time that 95% or 99% of requests beat. If p99 is two seconds, one request in a hundred takes longer than that, and on a busy site that is a lot of annoyed people. Percentiles keep the unlucky tail visible."
+    ],
+    "analogy": "Like lining up a class by height. The median is the kid standing exactly in the middle of the line. The 90th percentile is the kid nine tenths of the way toward the tall end.",
+    "keyPoints": [
+      "The median is the middle value once the data is sorted.",
+      "Unlike the average, the median ignores a few extreme values.",
+      "The Nth percentile is the value N% of the data falls below; the median is p50.",
+      "p95 and p99 are the standard way to measure slow requests."
+    ],
+    "links": [
+      { "label": "Median on Wikipedia", "url": "https://en.wikipedia.org/wiki/Median" },
+      { "label": "Percentile on Wikipedia", "url": "https://en.wikipedia.org/wiki/Percentile" }
+    ]
+  },
+  "es": {
+    "title": "Mediana y percentiles",
+    "tagline": "El valor del medio de una lista, y los que marcan dónde empieza la porción más lenta.",
+    "explanation": [
+      "Ordená un grupo de números de menor a mayor. La **mediana** es el que queda en el medio: la mitad de los valores está por debajo y la otra mitad por arriba. Responde \"¿qué es lo típico?\" mejor que el promedio cuando hay unos pocos valores extremos. Si nueve personas cobran sueldos modestos y la décima es millonaria, el promedio se dispara, pero la mediana casi no se mueve.",
+      "Un **percentil** generaliza la misma idea. El percentil 90 es el valor que deja por debajo al 90% de los datos. La mediana es simplemente el percentil 50, que muchas veces se escribe p50. Los pediatras usan percentiles en las curvas de crecimiento: un bebé en el percentil 75 de talla es más alto que el 75% de los bebés de su edad.",
+      "En tecnología, los percentiles son la forma de hablar de velocidad. Decir que un sitio responde en 200 milisegundos en promedio esconde a la gente que esperó cinco segundos. Por eso los equipos miran el **p95** o el **p99**: el tiempo de respuesta que superan el 95% o el 99% de los pedidos. Si el p99 es de dos segundos, uno de cada cien pedidos tarda más que eso, y en un sitio con mucho tráfico eso es mucha gente fastidiada. Los percentiles mantienen a la vista la cola de los que tuvieron mala suerte."
+    ],
+    "analogy": "Como formar a un grado por altura. La mediana es el chico que queda justo en el medio de la fila. El percentil 90 es el que está a nueve décimos del camino hacia la punta de los más altos.",
+    "keyPoints": [
+      "La mediana es el valor del medio con los datos ordenados.",
+      "A diferencia del promedio, la mediana no se deja arrastrar por unos pocos extremos.",
+      "El percentil N es el valor que deja por debajo al N% de los datos; la mediana es el p50.",
+      "El p95 y el p99 son la forma estándar de medir los pedidos lentos."
+    ],
+    "links": [
+      { "label": "Mediana en Wikipedia", "url": "https://es.wikipedia.org/wiki/Mediana_(estad%C3%ADstica)" },
+      { "label": "Percentil en Wikipedia", "url": "https://es.wikipedia.org/wiki/Percentil" }
+    ]
+  }
+}

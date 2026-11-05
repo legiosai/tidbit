@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-traceroute",
+  "date": "2026-11-08",
+  "subjects": ["networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["tracert", "trace route"],
+    "es": ["tracert"]
+  },
+  "image": "img/2026-11-08-traceroute.svg",
+  "imageAlt": {
+    "en": "A laptop runs traceroute; three routers on the way to a site each answer in turn, with a growing TTL and response time",
+    "es": "Una laptop corre traceroute; tres routers en el camino hacia un sitio contestan de a uno, con un TTL y un tiempo de respuesta que crecen"
+  },
+  "en": {
+    "title": "Traceroute",
+    "tagline": "A tool that shows every stop your data makes on the way to a destination.",
+    "explanation": [
+      "Data sent across the internet does not travel in a straight line: it hops from router to router until it arrives. **Traceroute** is a command that shows those hops. Run `traceroute example.com` on a Mac or Linux, or `tracert example.com` on Windows, and you get a numbered list of every router along the path and how long each one took to answer.",
+      "It works with a clever trick. Every packet carries a counter called **TTL** (time to live), and each router subtracts one from it; when it reaches zero, the router drops the packet and sends back an error saying so. Traceroute sends a first packet with TTL 1, so the first router replies; then TTL 2, so the second one replies; and so on until it reaches the destination. Each reply reveals one hop.",
+      "Network engineers use it to find where things go wrong. If the times jump suddenly at one hop, or the list stops at some point, the problem is probably around there. Read it with care, though: rows of asterisks, `* * *`, often just mean that router is set not to answer, not that it is broken, and the path back to you can differ from the path there."
+    ],
+    "analogy": "Sending a series of letters, each told to stop one post office further than the last, with a note asking that office to write back. The replies, in order, map the whole route.",
+    "keyPoints": [
+      "Traceroute lists every router between you and a destination.",
+      "It is `traceroute` on Mac and Linux, `tracert` on Windows.",
+      "It sends packets with a growing TTL and collects the error replies.",
+      "Asterisks usually mean a router stays silent, not that it is down."
+    ],
+    "links": [
+      { "label": "Traceroute on Wikipedia", "url": "https://en.wikipedia.org/wiki/Traceroute" },
+      { "label": "tracert (Microsoft docs)", "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert" },
+      { "label": "traceroute(8) manual page", "url": "https://man7.org/linux/man-pages/man8/traceroute.8.html" }
+    ]
+  },
+  "es": {
+    "title": "Traceroute",
+    "tagline": "Una herramienta que muestra cada parada que hacen tus datos camino a su destino.",
+    "explanation": [
+      "Los datos que mandás por internet no viajan en línea recta: van saltando de router en router hasta llegar. **Traceroute** es un comando que muestra esos saltos. Corrés `traceroute example.com` en una Mac o en Linux, o `tracert example.com` en Windows, y te devuelve una lista numerada con cada router del camino y cuánto tardó cada uno en contestar.",
+      "Funciona con un truco ingenioso. Cada paquete lleva un contador que se llama **TTL** (time to live, tiempo de vida), y cada router le resta uno; cuando llega a cero, el router descarta el paquete y manda de vuelta un error avisando. Traceroute manda un primer paquete con TTL 1, así contesta el primer router; después con TTL 2, así contesta el segundo; y así hasta llegar al destino. Cada respuesta revela un salto.",
+      "Los ingenieros de redes lo usan para encontrar dónde se rompe algo. Si los tiempos pegan un salto de golpe en un punto, o la lista se corta en algún lado, el problema probablemente esté por ahí. Eso sí, hay que leerlo con cuidado: las filas de asteriscos, `* * *`, muchas veces solo quieren decir que ese router está configurado para no contestar, no que esté roto, y el camino de vuelta puede ser distinto del de ida."
+    ],
+    "analogy": "Mandar una serie de cartas, cada una con la orden de frenar una oficina de correo más lejos que la anterior y una nota pidiéndole a esa oficina que te conteste. Las respuestas, en orden, dibujan toda la ruta.",
+    "keyPoints": [
+      "Traceroute lista cada router entre vos y un destino.",
+      "Es `traceroute` en Mac y Linux, y `tracert` en Windows.",
+      "Manda paquetes con un TTL que va creciendo y junta las respuestas de error.",
+      "Los asteriscos suelen indicar un router que no contesta, no uno caído."
+    ],
+    "links": [
+      { "label": "Traceroute en Wikipedia", "url": "https://es.wikipedia.org/wiki/Traceroute" },
+      { "label": "tracert (documentación de Microsoft)", "url": "https://learn.microsoft.com/es-es/windows-server/administration/windows-commands/tracert" }
+    ]
+  }
+}

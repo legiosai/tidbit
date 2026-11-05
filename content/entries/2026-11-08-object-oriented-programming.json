@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-object-oriented-programming",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["OOP", "object-oriented", "object oriented programming", "object-oriented language", "object-oriented languages"],
+    "es": ["POO", "orientada a objetos", "orientado a objetos", "object-oriented programming"]
+  },
+  "image": "img/2026-11-08-object-oriented-programming.svg",
+  "imageAlt": {
+    "en": "A Customer class works as a blueprint with a name, an email and a sendInvoice action, and three customer objects are made from it",
+    "es": "Una clase Customer funciona como plano con un nombre, un email y una acción sendInvoice, y de ella salen tres objetos cliente"
+  },
+  "en": {
+    "title": "Object-oriented programming",
+    "tagline": "Organizing code as objects that bundle data with the actions that use it.",
+    "explanation": [
+      "**Object-oriented programming**, or OOP, is a way of organizing code around **objects**. An object bundles some data with the functions that work on it. A `Customer` object might hold a name and an email and know how to `sendInvoice()`. A **class** is the template: you write the `Customer` class once and create thousands of customer objects from it.",
+      "Three ideas usually come with it. **Encapsulation**: an object hides its insides and shows only what others need, so you can change the internals without breaking the rest. **Inheritance**: a class can extend another, so a `PremiumCustomer` reuses everything in `Customer` and adds a discount. **Polymorphism**: different objects can answer the same request in their own way, so code can call `pay()` without caring whether it is a card or a bank transfer.",
+      "OOP grew out of languages like Simula and Smalltalk in the 1960s and 70s and became mainstream with C++ and then Java. Java, C#, Python and Swift all lean on it. It is not the only style: functional programming, which favors plain data and functions without hidden state, has gained ground, and most modern languages mix both. Leaning too hard on inheritance is a classic way to end up with code that is hard to change."
+    ],
+    "analogy": "A car factory. The blueprint is the class, each car off the line is an object, and you drive any of them with the same pedals and wheel without knowing how the engine is built.",
+    "keyPoints": [
+      "An object bundles data with the functions that act on it.",
+      "A class is the template; objects are the instances made from it.",
+      "Encapsulation, inheritance and polymorphism are the core ideas.",
+      "Java, C#, Python and Swift are object-oriented; most languages mix styles."
+    ],
+    "links": [
+      { "label": "Object-oriented programming (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming" },
+      { "label": "Object-oriented programming on Wikipedia", "url": "https://en.wikipedia.org/wiki/Object-oriented_programming" }
+    ]
+  },
+  "es": {
+    "title": "Programación orientada a objetos",
+    "tagline": "Organizar el código en objetos que juntan datos con las acciones que los usan.",
+    "explanation": [
+      "La **programación orientada a objetos**, o POO, es una forma de organizar el código alrededor de **objetos**. Un objeto junta ciertos datos con las funciones que trabajan sobre ellos. Un objeto `Customer` puede guardar un nombre y un email y saber cómo hacer `sendInvoice()`. La **clase** es el molde: escribís la clase `Customer` una vez y creás miles de objetos cliente a partir de ella.",
+      "Casi siempre vienen tres ideas con ella. **Encapsulamiento**: un objeto esconde sus tripas y muestra solo lo que los demás necesitan, así podés cambiar lo de adentro sin romper el resto. **Herencia**: una clase puede extender a otra, entonces un `PremiumCustomer` reutiliza todo lo de `Customer` y le agrega un descuento. **Polimorfismo**: objetos distintos pueden responder al mismo pedido a su manera, así el código llama a `pay()` sin importarle si es una tarjeta o una transferencia.",
+      "La POO nació con lenguajes como Simula y Smalltalk en los 60 y 70, y se volvió masiva con C++ y después con Java. Java, C#, Python y Swift se apoyan en ella. No es el único estilo: la programación funcional, que prefiere datos simples y funciones sin estado escondido, ganó terreno, y la mayoría de los lenguajes modernos mezclan los dos. Abusar de la herencia es una forma clásica de terminar con código difícil de cambiar."
+    ],
+    "analogy": "Una fábrica de autos. El plano es la clase, cada auto que sale de la línea es un objeto, y manejás cualquiera con los mismos pedales y el mismo volante sin saber cómo está hecho el motor.",
+    "keyPoints": [
+      "Un objeto junta datos con las funciones que actúan sobre ellos.",
+      "La clase es el molde; los objetos son las instancias que salen de él.",
+      "Encapsulamiento, herencia y polimorfismo son las ideas centrales.",
+      "Java, C#, Python y Swift son orientados a objetos; la mayoría de los lenguajes mezclan estilos."
+    ],
+    "links": [
+      { "label": "Programación orientada a objetos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Programación_orientada_a_objetos" },
+      { "label": "OOP (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/OOP" }
+    ]
+  }
+}

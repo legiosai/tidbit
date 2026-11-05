@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M120 160 A80 80 0 0 1 280 160 Z" fill="#e6dfd0"/>
+    <path d="M120 160 A80 80 0 0 1 200 80 L200 160 Z" fill="#f4a7a7"/>
+    <circle cx="200" cy="160" r="6" fill="#2b2b2b"/>
+    <rect x="20" y="70" width="80" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="300" y="70" width="80" height="44" rx="8" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M200 160 L200 96"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="88">budget left:</text><text x="60" y="104">ship fast</text>
+    <text x="340" y="88">budget gone:</text><text x="340" y="104">fix first</text>
+    <text x="158" y="140">spent</text>
+    <text x="244" y="140">left</text>
+  </g>
+  <text x="200" y="186" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">SLO 99.9%</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">error budget = allowed failure</text>
+</svg>

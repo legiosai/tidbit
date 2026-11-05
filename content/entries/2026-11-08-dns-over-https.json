@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-dns-over-https",
+  "date": "2026-11-08",
+  "subjects": ["networks", "security"],
+  "level": 3,
+  "aliases": {
+    "en": ["DoH", "DNS-over-HTTPS", "encrypted DNS"],
+    "es": ["DoH", "DNS-over-HTTPS", "DNS mediante HTTPS", "DNS cifrado"]
+  },
+  "image": "img/2026-11-08-dns-over-https.svg",
+  "imageAlt": {
+    "en": "Top: a plain DNS question that an eye on the network can read. Bottom: the same question sealed inside an HTTPS envelope",
+    "es": "Arriba: una consulta DNS en texto plano que un ojo en la red puede leer. Abajo: la misma consulta sellada dentro de un sobre HTTPS"
+  },
+  "en": {
+    "title": "DNS over HTTPS",
+    "tagline": "DNS lookups sent inside encrypted HTTPS, so others on the network cannot read them.",
+    "explanation": [
+      "Every time you open a site, your device first asks a **DNS** resolver which IP address belongs to that name. For decades those questions traveled in plain text. Anyone on the path, the café Wi-Fi, your internet provider, an attacker on the same network, could read the list of sites you visit and even forge the answers.",
+      "**DNS over HTTPS**, or **DoH**, wraps those questions inside HTTPS, the same encryption that protects web pages. To an observer, a DoH lookup looks like any other HTTPS traffic to the resolver. The IETF standardized it in 2018 as RFC 8484, and major browsers and operating systems can use it with public resolvers like Cloudflare's `1.1.1.1`, Google's `8.8.8.8` or Quad9. A close cousin, **DNS over TLS** (DoT), also encrypts DNS but on its own dedicated port, which makes it easier for a network to spot and block.",
+      "It is not a privacy cure-all. The resolver you send your questions to still sees every one of them, so you are moving your trust, not removing it. Your provider still sees which IP addresses you connect to, and the site's name can still leak in other parts of the connection. It also has a side effect that companies and schools dislike: filters that work by blocking DNS on the local network stop working when devices skip them, which is why many managed networks turn it off."
+    ],
+    "analogy": "Asking a librarian where a book is by handing over a sealed note instead of shouting the question across the room. The people around you cannot hear it, but the librarian still reads every note.",
+    "keyPoints": [
+      "DoH encrypts DNS lookups by sending them over HTTPS.",
+      "It was standardized in 2018 as RFC 8484 and is built into major browsers.",
+      "The resolver still sees your queries; you choose whom to trust.",
+      "It bypasses DNS filters on the local network, which some networks block."
+    ],
+    "links": [
+      { "label": "RFC 8484: DNS Queries over HTTPS", "url": "https://datatracker.ietf.org/doc/html/rfc8484" },
+      { "label": "DNS over HTTPS in Firefox (Mozilla Support)", "url": "https://support.mozilla.org/en-US/kb/firefox-dns-over-https" },
+      { "label": "DNS over HTTPS (Cloudflare docs)", "url": "https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/" }
+    ]
+  },
+  "es": {
+    "title": "DNS over HTTPS",
+    "tagline": "Consultas DNS enviadas dentro de HTTPS cifrado, para que nadie en la red las pueda leer.",
+    "explanation": [
+      "Cada vez que abrís un sitio, tu dispositivo primero le pregunta a un resolver de **DNS** qué dirección IP corresponde a ese nombre. Durante décadas esas preguntas viajaron en texto plano. Cualquiera en el camino, el Wi-Fi del bar, tu proveedor de internet, un atacante en la misma red, podía leer la lista de sitios que visitás y hasta falsificar las respuestas.",
+      "**DNS over HTTPS**, o **DoH**, mete esas preguntas adentro de HTTPS, el mismo cifrado que protege las páginas web. Para alguien que mira desde afuera, una consulta DoH parece cualquier otro tráfico HTTPS hacia el resolver. La IETF lo estandarizó en 2018 como RFC 8484, y los principales navegadores y sistemas operativos lo pueden usar con resolvers públicos como el `1.1.1.1` de Cloudflare, el `8.8.8.8` de Google o Quad9. Un primo cercano, **DNS over TLS** (DoT), también cifra el DNS pero por un puerto propio, lo que hace más fácil que una red lo detecte y lo bloquee.",
+      "No es una solución mágica para la privacidad. El resolver al que le mandás las preguntas sigue viéndolas todas, así que estás cambiando en quién confiás, no dejando de confiar. Tu proveedor sigue viendo a qué direcciones IP te conectás, y el nombre del sitio todavía se puede filtrar en otras partes de la conexión. Además tiene un efecto que a empresas y escuelas no les gusta: los filtros que funcionan bloqueando DNS en la red local dejan de andar cuando los dispositivos los esquivan, y por eso muchas redes administradas lo desactivan."
+    ],
+    "analogy": "Preguntarle a un bibliotecario dónde está un libro pasándole una nota cerrada en vez de gritar la pregunta de punta a punta de la sala. La gente alrededor no se entera, pero el bibliotecario igual lee todas las notas.",
+    "keyPoints": [
+      "DoH cifra las consultas DNS mandándolas por HTTPS.",
+      "Se estandarizó en 2018 como RFC 8484 y viene en los principales navegadores.",
+      "El resolver sigue viendo tus consultas; vos elegís en quién confiar.",
+      "Esquiva los filtros DNS de la red local, y por eso algunas redes lo bloquean."
+    ],
+    "links": [
+      { "label": "DNS over HTTPS en Firefox (Ayuda de Mozilla)", "url": "https://support.mozilla.org/es/kb/firefox-dns-over-https" },
+      { "label": "DNS mediante HTTPS en Wikipedia", "url": "https://es.wikipedia.org/wiki/DNS_mediante_HTTPS" },
+      { "label": "RFC 8484 (en inglés)", "url": "https://datatracker.ietf.org/doc/html/rfc8484" }
+    ]
+  }
+}

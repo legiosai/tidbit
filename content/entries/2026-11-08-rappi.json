@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-rappi",
+  "date": "2026-11-08",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["RappiPay", "Rappi courier", "Rappi couriers"],
+    "es": ["RappiPay", "rappitendero", "rappitenderos"]
+  },
+  "image": "img/2026-11-08-rappi.svg",
+  "imageAlt": {
+    "en": "A phone with a delivery app in the center connects restaurants, a supermarket and a pharmacy with a courier on a bike who carries the order to a customer's home",
+    "es": "Un celular con una app de delivery en el centro conecta restaurantes, un supermercado y una farmacia con un repartidor en bici que lleva el pedido a la casa de un cliente"
+  },
+  "en": {
+    "title": "Rappi",
+    "tagline": "A Latin American app for ordering food, groceries and almost anything to your door.",
+    "explanation": [
+      "**Rappi** was founded in 2015 in Bogotá, Colombia, by Simón Borrero, Sebastián Mejía and Felipe Villamarín. It is a delivery app, but a broad one: restaurant meals, supermarket shopping, pharmacy orders, liquor, and at times errands such as picking up something you forgot somewhere. It operates in several Latin American countries, including Colombia, Mexico, Brazil and Argentina.",
+      "Behind the app there is a three-sided marketplace. Stores and restaurants list their products, customers order, and independent couriers, known in Spanish as rappitenderos, pick up and deliver. Software decides which courier gets each order, estimates times and sets fees; Rappi earns commissions from the stores, delivery fees and a subscription for frequent customers. Over time it added financial services under the RappiPay name, like cards and payments.",
+      "Rappi was one of the first Colombian startups valued above a billion dollars, a so-called unicorn, and received large investments from funds such as SoftBank. It also sits at the center of the debate about gig work in the region: couriers are treated as independent contractors, and there are ongoing discussions about their pay, insurance and safety on the streets."
+    ],
+    "analogy": "A neighborhood messenger who knows every shop in town and has hundreds of colleagues on bikes. You say what you want; they find who sells it and who can bring it fastest.",
+    "keyPoints": [
+      "Founded in Bogotá in 2015.",
+      "Delivers restaurant food, groceries, pharmacy orders and more.",
+      "A marketplace linking stores, customers and independent couriers.",
+      "Part of the regional debate over gig workers' rights."
+    ],
+    "links": [
+      { "label": "Rappi on Wikipedia", "url": "https://en.wikipedia.org/wiki/Rappi" },
+      { "label": "Rappi Colombia (official site)", "url": "https://www.rappi.com.co/" }
+    ]
+  },
+  "es": {
+    "title": "Rappi",
+    "tagline": "Una app latinoamericana para pedir comida, súper y casi cualquier cosa a tu puerta.",
+    "explanation": [
+      "**Rappi** nació en 2015 en Bogotá, Colombia, fundada por Simón Borrero, Sebastián Mejía y Felipe Villamarín. Es una app de delivery, pero amplia: comida de restaurantes, compras del súper, pedidos a la farmacia, bebidas y, según el momento, mandados como ir a buscar algo que te olvidaste en algún lado. Funciona en varios países de Latinoamérica, entre ellos Colombia, México, Brasil y Argentina.",
+      "Detrás de la app hay un mercado de tres lados. Los comercios y restaurantes publican sus productos, los clientes piden y repartidores independientes, los rappitenderos, retiran y entregan. El software decide qué repartidor toma cada pedido, calcula tiempos y fija tarifas; Rappi gana con comisiones a los comercios, costos de envío y una suscripción para quienes piden seguido. Con el tiempo sumó servicios financieros bajo la marca RappiPay, como tarjetas y pagos.",
+      "Rappi fue de las primeras startups colombianas en valer más de mil millones de dólares, lo que se llama un unicornio, y recibió inversiones grandes de fondos como SoftBank. También está en el centro del debate sobre el trabajo de plataformas en la región: los repartidores figuran como independientes, y se sigue discutiendo sobre su paga, su cobertura de seguros y su seguridad en la calle."
+    ],
+    "analogy": "Un cadete de barrio que conoce todos los negocios de la ciudad y tiene cientos de compañeros en bici. Vos decís qué querés; él encuentra quién lo vende y quién te lo trae más rápido.",
+    "keyPoints": [
+      "Fundada en Bogotá en 2015.",
+      "Lleva comida, súper, farmacia y más.",
+      "Un mercado que une comercios, clientes y repartidores independientes.",
+      "Parte del debate regional sobre los derechos de los trabajadores de plataformas."
+    ],
+    "links": [
+      { "label": "Rappi en Wikipedia", "url": "https://es.wikipedia.org/wiki/Rappi" },
+      { "label": "Rappi Argentina (sitio oficial)", "url": "https://www.rappi.com.ar/" }
+    ]
+  }
+}

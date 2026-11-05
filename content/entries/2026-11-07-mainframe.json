@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-mainframe",
+  "date": "2026-11-07",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["mainframes", "mainframe computer", "mainframe computers", "IBM Z"],
+    "es": ["mainframes", "macrocomputadora", "macrocomputadoras", "computadora central", "IBM Z"]
+  },
+  "image": "img/2026-11-07-mainframe.svg",
+  "imageAlt": {
+    "en": "A tall cabinet labeled mainframe receiving a constant stream of small transactions from ATMs, card terminals and bank branches, with a COBOL program inside",
+    "es": "Un gabinete alto rotulado mainframe que recibe un flujo constante de transacciones chicas desde cajeros, posnets y sucursales bancarias, con un programa COBOL adentro"
+  },
+  "en": {
+    "title": "Mainframe",
+    "tagline": "A big, ultra-reliable central computer that banks and airlines use for their core work.",
+    "explanation": [
+      "A **mainframe** is a large central computer built to process enormous numbers of small transactions, reliably, year after year. When you pay with a card, withdraw cash or book a flight, there is a good chance that somewhere along the way a mainframe recorded it. Banks, insurers, airlines, retailers and governments still run their most critical systems on them.",
+      "Mainframes date back to the 1950s and 60s, when a computer filled a room and a whole company shared one. Today's models, mostly IBM's Z line, fit in a few refrigerator-sized cabinets, but the idea is the same: one machine with huge input and output capacity, spare parts for everything, and the ability to swap components or update software while it keeps running. What they optimize is not raw speed on one task but never stopping and never losing a transaction.",
+      "A lot of the software on them is decades old and written in COBOL, a programming language from 1959. It works, it is woven into everything, and rewriting it is risky and expensive, which is why many migrations to the cloud take years or stall. Meanwhile the people who know these systems are retiring. So mainframes are less a museum piece than a quiet backbone that the rest of the tech world still plugs into."
+    ],
+    "analogy": "Like the central vault and ledger room of an old bank. It is not flashy and not new, but every branch, ATM and teller depends on it, so it is built to never close and never make a mistake.",
+    "keyPoints": [
+      "Central computers built for huge volumes of transactions and near-zero downtime.",
+      "Still run core systems at banks, airlines, insurers and governments.",
+      "IBM's Z line dominates the market today.",
+      "Much of their software is in COBOL, which makes migrating off them slow and risky."
+    ],
+    "links": [
+      { "label": "Mainframe computer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Mainframe_computer" },
+      { "label": "What is a mainframe? (IBM)", "url": "https://www.ibm.com/think/topics/mainframe" }
+    ]
+  },
+  "es": {
+    "title": "Mainframe",
+    "tagline": "Una computadora central ultraconfiable que bancos y aerolíneas usan para lo crítico.",
+    "explanation": [
+      "Un **mainframe** (computadora central) es una computadora grande pensada para procesar cantidades enormes de transacciones chicas, sin fallar, año tras año. Cuando pagás con tarjeta, sacás plata del cajero o reservás un vuelo, hay bastantes chances de que en algún punto del camino un mainframe lo haya registrado. Bancos, aseguradoras, aerolíneas, cadenas comerciales y gobiernos siguen corriendo ahí sus sistemas más críticos.",
+      "Los mainframes vienen de los años cincuenta y sesenta, cuando una computadora ocupaba una sala entera y toda una empresa compartía una sola. Los modelos actuales, casi todos de la línea Z de IBM, entran en unos pocos gabinetes del tamaño de una heladera, pero la idea es la misma: una máquina con muchísima capacidad de entrada y salida, repuestos para todo y la posibilidad de cambiar piezas o actualizar software mientras sigue andando. Lo que optimizan no es la velocidad pura en una tarea, sino no frenar nunca y no perder ninguna transacción.",
+      "Buena parte del software que corre ahí tiene décadas y está escrito en COBOL, un lenguaje de programación de 1959. Funciona, está entrelazado con todo, y reescribirlo es caro y riesgoso; por eso muchas migraciones a la nube tardan años o se traban. Mientras tanto, la gente que conoce esos sistemas se está jubilando. Así que el mainframe es menos una pieza de museo que una columna vertebral silenciosa a la que el resto de la tecnología se sigue enchufando."
+    ],
+    "analogy": "Como la bóveda y el libro mayor de un banco antiguo. No es vistoso ni nuevo, pero cada sucursal, cajero y empleado depende de eso, así que está hecho para no cerrar nunca y no equivocarse nunca.",
+    "keyPoints": [
+      "Computadoras centrales hechas para volúmenes enormes de transacciones y casi cero caídas.",
+      "Siguen corriendo sistemas clave en bancos, aerolíneas, aseguradoras y gobiernos.",
+      "La línea Z de IBM domina el mercado hoy.",
+      "Mucho de su software está en COBOL, lo que hace lenta y riesgosa la migración."
+    ],
+    "links": [
+      { "label": "Unidad central en Wikipedia", "url": "https://es.wikipedia.org/wiki/Unidad_central" },
+      { "label": "Qué es un mainframe (IBM, en inglés)", "url": "https://www.ibm.com/think/topics/mainframe" }
+    ]
+  }
+}

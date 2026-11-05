@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="28" y="36" width="44" height="80" rx="8" fill="#9ac7ea"/>
+    <rect x="328" y="36" width="44" height="80" rx="8" fill="#9ac7ea"/>
+    <rect x="128" y="36" width="144" height="80" rx="10" fill="#e6dfd0"/>
+    <rect x="90" y="62" width="22" height="16" rx="2" fill="#ffd166"/>
+    <rect x="288" y="62" width="22" height="16" rx="2" fill="#ffd166"/>
+    <rect x="140" y="150" width="120" height="34" rx="8" fill="#9bd1b9"/>
+    <rect x="24" y="150" width="84" height="34" rx="8" fill="#f3efe6"/>
+    <rect x="292" y="150" width="84" height="34" rx="8" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M94 62 V56 C94 48 108 48 108 56 V62"/>
+    <path d="M292 62 V56 C292 48 306 48 306 56 V62"/>
+    <path d="M74 70 H86 M116 70 H122"/><path d="M116 65 l7 5 -7 5"/>
+    <path d="M274 70 H284 M314 70 H322"/><path d="M316 65 l7 5 -7 5"/>
+    <path d="M138 167 H112"/><path d="M118 162 l-7 5 7 5"/>
+    <path d="M262 167 H288"/><path d="M282 162 l7 5 -7 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="58">server</text>
+    <text x="200" y="172">Signal protocol</text>
+    <text x="66" y="172" font-size="11">WhatsApp</text>
+    <text x="334" y="172" font-size="11">other apps</text>
+    <text x="50" y="134" font-size="11">you</text><text x="350" y="134" font-size="11">friend</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="82">sees: scrambled</text>
+    <text x="200" y="100">keeps: almost nothing</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">locked by default · as little data as possible</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-08-php",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["PHP language"],
+    "es": ["lenguaje PHP"]
+  },
+  "image": "img/2026-11-08-php.svg",
+  "imageAlt": {
+    "en": "A browser asks a server for a page; on the server a PHP file reads from a database and sends back finished HTML",
+    "es": "Un navegador le pide una página a un servidor; ahí un archivo PHP lee de una base de datos y devuelve HTML terminado"
+  },
+  "en": {
+    "title": "PHP",
+    "tagline": "A language that runs on the server and builds web pages before they reach you.",
+    "explanation": [
+      "**PHP** is a programming language made for the web. Rasmus Lerdorf created it in 1994 as a few tools for his personal home page, which is where the name first came from; today it officially stands for \"PHP: Hypertext Preprocessor\". It runs on the server, not in your browser.",
+      "Here is what it does. When you open a page on a PHP site, the web server runs the PHP code for that page: it might check whether you are logged in, fetch the latest posts from a database and then put together the HTML. Your browser only receives the finished page and never sees the PHP.",
+      "Programmers love to make fun of PHP, but it quietly powers a huge part of the web. WordPress, the system behind a large share of the world's websites, is written in PHP, and so is the software that runs Wikipedia. Modern PHP, with frameworks like Laravel and Symfony, is a very different language from the messy scripts of the early 2000s."
+    ],
+    "analogy": "A cook behind the counter. You order a dish (a page), the cook takes ingredients from the fridge (the database) and hands you a finished plate. You never see the recipe.",
+    "keyPoints": [
+      "PHP runs on the server and sends finished HTML to the browser.",
+      "WordPress and the software behind Wikipedia are written in PHP.",
+      "Almost every cheap shared hosting plan supports it.",
+      "Laravel and Symfony are popular modern PHP frameworks."
+    ],
+    "links": [
+      { "label": "What is PHP? (official manual)", "url": "https://www.php.net/manual/en/introduction.php" },
+      { "label": "PHP (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/PHP" },
+      { "label": "PHP (official site)", "url": "https://www.php.net/" }
+    ]
+  },
+  "es": {
+    "title": "PHP",
+    "tagline": "Un lenguaje que corre en el servidor y arma las páginas web antes de que te lleguen.",
+    "explanation": [
+      "**PHP** es un lenguaje de programación hecho para la web. Lo creó Rasmus Lerdorf en 1994 como un puñado de herramientas para su página personal (\"Personal Home Page\", de ahí salió el nombre); hoy oficialmente significa \"PHP: Hypertext Preprocessor\". Corre en el servidor, no en tu navegador.",
+      "Lo que hace es esto. Cuando abrís una página de un sitio hecho en PHP, el servidor web ejecuta el código PHP de esa página: puede fijarse si iniciaste sesión, traer los últimos posts de una base de datos y después armar el HTML. Tu navegador recibe solo la página terminada y nunca ve el PHP.",
+      "A los programadores les encanta burlarse de PHP, pero sin hacer ruido sostiene una parte enorme de la web. WordPress, el sistema detrás de una buena porción de los sitios del mundo, está escrito en PHP, igual que el software que hace andar Wikipedia. El PHP moderno, con frameworks como Laravel y Symfony, es un lenguaje muy distinto de los scripts desprolijos de principios de los 2000."
+    ],
+    "analogy": "Un cocinero detrás del mostrador. Pedís un plato (una página), el cocinero saca ingredientes de la heladera (la base de datos) y te da el plato terminado. La receta nunca la ves.",
+    "keyPoints": [
+      "PHP corre en el servidor y le manda HTML terminado al navegador.",
+      "WordPress y el software detrás de Wikipedia están escritos en PHP.",
+      "Casi cualquier plan barato de hosting compartido lo soporta.",
+      "Laravel y Symfony son frameworks populares de PHP moderno."
+    ],
+    "links": [
+      { "label": "¿Qué es PHP? (manual oficial)", "url": "https://www.php.net/manual/es/introduction.php" },
+      { "label": "PHP (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/PHP" },
+      { "label": "PHP en Wikipedia", "url": "https://es.wikipedia.org/wiki/PHP" }
+    ]
+  }
+}

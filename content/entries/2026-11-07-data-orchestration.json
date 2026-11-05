@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-data-orchestration",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["Apache Airflow", "data orchestrator", "data orchestrators", "workflow orchestration", "Dagster"],
+    "es": ["Apache Airflow", "orquestador de datos", "orquestadores de datos", "orquestación de workflows", "Dagster"]
+  },
+  "image": "img/2026-11-07-data-orchestration.svg",
+  "imageAlt": {
+    "en": "A clock at 02:00 triggering a chain of tasks: extract orders and extract payments run in parallel, both feed a transform step, which feeds a dashboard refresh; one failed task shows a retry arrow",
+    "es": "Un reloj a las 02:00 que dispara una cadena de tareas: extraer pedidos y extraer pagos corren en paralelo, las dos alimentan un paso de transformación, que alimenta la actualización de un dashboard; una tarea fallida muestra una flecha de reintento"
+  },
+  "en": {
+    "title": "Data orchestration",
+    "tagline": "Running data jobs in the right order, at the right time, and handling it when they fail.",
+    "explanation": [
+      "A real data platform is dozens or hundreds of jobs: pull orders from the shop database, pull payments from the bank, clean both, join them, rebuild the data mart, refresh the dashboards. Each step depends on others finishing first. **Data orchestration** is the layer that knows those dependencies, starts each job when its inputs are ready, and keeps track of what ran, what failed and what is late.",
+      "Most orchestrators describe a pipeline as a DAG, a directed acyclic graph: boxes for tasks and arrows for \"this must finish before that starts\", with no loops. You write the DAG as code, the orchestrator schedules it (every night at 2 a.m., or whenever a new file lands), runs independent tasks in parallel, retries the ones that fail, and alerts someone when a retry is not enough. If the payments extract breaks, nothing downstream runs on half the data.",
+      "**Apache Airflow** is the best-known tool. It started at Airbnb in 2014, became an Apache project, and pipelines in it are written in Python. Newer tools like Dagster and Prefect put more weight on the data each task produces rather than only the tasks, and clouds offer managed versions such as Amazon MWAA. Orchestration does not transform the data itself; it calls the tools that do, such as dbt, Spark or plain SQL, and makes sure they run in order."
+    ],
+    "analogy": "Like the conductor of an orchestra. The conductor plays no instrument, but decides who comes in when, keeps everyone in time, and notices immediately when a section is missing.",
+    "keyPoints": [
+      "Runs data jobs in dependency order, on a schedule or on events.",
+      "Pipelines are usually DAGs: tasks plus \"runs after\" arrows, no loops.",
+      "Handles retries, alerts, backfills and a history of every run.",
+      "Apache Airflow is the classic tool; Dagster and Prefect are newer options."
+    ],
+    "links": [
+      { "label": "Apache Airflow documentation", "url": "https://airflow.apache.org/docs/apache-airflow/stable/index.html" },
+      { "label": "Apache Airflow on Wikipedia", "url": "https://en.wikipedia.org/wiki/Apache_Airflow" },
+      { "label": "What is data orchestration? (IBM)", "url": "https://www.ibm.com/think/topics/data-orchestration" }
+    ]
+  },
+  "es": {
+    "title": "Orquestación de datos",
+    "tagline": "Correr los procesos de datos en el orden y el momento justos, y reaccionar cuando fallan.",
+    "explanation": [
+      "Una plataforma de datos real son decenas o cientos de procesos: traer los pedidos de la base de la tienda, traer los pagos del banco, limpiar los dos, cruzarlos, reconstruir el data mart, refrescar los dashboards. Cada paso depende de que otros terminen antes. La **orquestación de datos** es la capa que conoce esas dependencias, arranca cada proceso cuando sus insumos están listos y lleva la cuenta de qué corrió, qué falló y qué viene atrasado.",
+      "La mayoría de los orquestadores describe un pipeline como un DAG, un grafo dirigido acíclico: cajas para las tareas y flechas para \"esto tiene que terminar antes de que arranque aquello\", sin ciclos. Escribís el DAG como código y el orquestador lo programa (todas las noches a las 2, o cada vez que llega un archivo nuevo), corre en paralelo las tareas independientes, reintenta las que fallan y avisa a alguien cuando reintentar no alcanza. Si se rompe la extracción de pagos, nada de lo que sigue corre con la mitad de los datos.",
+      "**Apache Airflow** es la herramienta más conocida. Nació en Airbnb en 2014, pasó a ser un proyecto de Apache y los pipelines se escriben en Python. Herramientas más nuevas como Dagster y Prefect ponen el foco en los datos que produce cada tarea y no solo en las tareas, y las nubes ofrecen versiones administradas como Amazon MWAA. La orquestación no transforma los datos: llama a las herramientas que lo hacen, como dbt, Spark o SQL a secas, y se asegura de que corran en orden."
+    ],
+    "analogy": "Como el director de una orquesta. No toca ningún instrumento, pero decide quién entra cuándo, mantiene a todos a tempo y se da cuenta enseguida si falta una sección.",
+    "keyPoints": [
+      "Corre procesos de datos según sus dependencias, por horario o por eventos.",
+      "Los pipelines suelen ser DAGs: tareas y flechas de \"va después de\", sin ciclos.",
+      "Se encarga de reintentos, alertas, reprocesos y el historial de cada corrida.",
+      "Apache Airflow es la herramienta clásica; Dagster y Prefect son opciones más nuevas."
+    ],
+    "links": [
+      { "label": "Apache Airflow en Wikipedia", "url": "https://es.wikipedia.org/wiki/Apache_Airflow" },
+      { "label": "Documentación de Apache Airflow (en inglés)", "url": "https://airflow.apache.org/docs/apache-airflow/stable/index.html" },
+      { "label": "Qué es la orquestación de datos (IBM, en inglés)", "url": "https://www.ibm.com/think/topics/data-orchestration" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-nvme",
+  "date": "2026-11-07",
+  "subjects": ["hardware"],
+  "level": 2,
+  "aliases": {
+    "en": ["NVM Express", "NVMe SSD", "NVMe SSDs", "NVMe drive", "NVMe drives"],
+    "es": ["NVM Express", "SSD NVMe", "SSDs NVMe", "disco NVMe", "discos NVMe"]
+  },
+  "image": "img/2026-11-07-nvme.svg",
+  "imageAlt": {
+    "en": "Two paths from a CPU to flash storage: an old SATA route through a single narrow lane with one queue, and an NVMe route straight over PCIe with many parallel queues",
+    "es": "Dos caminos de la CPU al almacenamiento flash: la ruta vieja SATA por un solo carril angosto con una cola, y la ruta NVMe directa por PCIe con muchas colas en paralelo"
+  },
+  "en": {
+    "title": "NVMe",
+    "tagline": "The fast way for a computer to talk to an SSD, designed for flash from the start.",
+    "explanation": [
+      "**NVMe**, short for NVM Express, is the protocol a computer uses to talk to modern SSDs. It defines how the CPU sends read and write requests to the drive and gets answers back. It runs over PCIe, the same high-speed connection that graphics cards use, which puts the drive almost directly next to the processor.",
+      "Before NVMe, SSDs plugged into SATA, a connection designed in the era of spinning hard disks. SATA tops out around 600 megabytes per second and handles requests through a single queue of up to 32 commands, which was fine when a disk's arm could only be in one place at a time. Flash memory has no moving parts and can work on many requests at once, so SATA became the bottleneck. NVMe, first published in 2011, allows up to 65,535 queues with up to 65,536 commands each, and drives over PCIe reach several gigabytes per second.",
+      "In practice, most NVMe drives in laptops and desktops are small sticks that slot into an M.2 connector on the motherboard. M.2 is just the shape, though: some M.2 drives still speak SATA, so it pays to check. In data centers, NVMe is the default for fast storage, and NVMe over Fabrics extends the same protocol across a network so servers can use remote flash almost as if it were local."
+    ],
+    "analogy": "Like replacing a single toll booth with one cashier by a highway with thousands of lanes. The cars, your data, were already fast; NVMe stopped making them wait in one line.",
+    "keyPoints": [
+      "The protocol for talking to SSDs over PCIe; replaced SATA for fast drives.",
+      "Built for flash: many parallel queues instead of one.",
+      "Usually comes as an M.2 stick, but not every M.2 drive is NVMe.",
+      "Standard in data centers; NVMe over Fabrics extends it over the network."
+    ],
+    "links": [
+      { "label": "NVM Express on Wikipedia", "url": "https://en.wikipedia.org/wiki/NVM_Express" },
+      { "label": "NVM Express (official site)", "url": "https://nvmexpress.org/" }
+    ]
+  },
+  "es": {
+    "title": "NVMe",
+    "tagline": "La forma rápida de hablarle a un SSD, pensada para memoria flash desde el principio.",
+    "explanation": [
+      "**NVMe**, abreviatura de NVM Express, es el protocolo que usa una computadora para hablar con los SSD modernos. Define cómo la CPU le manda pedidos de lectura y escritura al disco y cómo recibe las respuestas. Funciona sobre PCIe, la misma conexión de alta velocidad que usan las placas de video, lo que pone al disco casi pegado al procesador.",
+      "Antes de NVMe, los SSD se conectaban por SATA, una conexión pensada en la época de los discos rígidos que giran. SATA llega como mucho a unos 600 megabytes por segundo y atiende los pedidos en una sola cola de hasta 32 órdenes, algo razonable cuando el brazo de un disco solo podía estar en un lugar a la vez. La memoria flash no tiene partes móviles y puede atender muchos pedidos juntos, así que SATA pasó a ser el cuello de botella. NVMe, publicado por primera vez en 2011, permite hasta 65.535 colas de hasta 65.536 órdenes cada una, y los discos por PCIe llegan a varios gigabytes por segundo.",
+      "En la práctica, la mayoría de los discos NVMe de notebooks y PCs de escritorio son plaquitas que se enchufan en un conector M.2 de la placa madre. Pero M.2 es solo la forma: hay discos M.2 que siguen hablando SATA, así que conviene fijarse. En los data centers, NVMe es lo estándar para almacenamiento rápido, y NVMe over Fabrics lleva el mismo protocolo a través de la red para que los servidores usen flash remoto casi como si fuera local."
+    ],
+    "analogy": "Como cambiar una cabina de peaje con un solo cajero por una autopista con miles de carriles. Los autos, tus datos, ya eran rápidos; NVMe dejó de hacerlos esperar en una sola fila.",
+    "keyPoints": [
+      "El protocolo para hablar con SSD por PCIe; reemplazó a SATA en los discos rápidos.",
+      "Pensado para flash: muchas colas en paralelo en vez de una.",
+      "Suele venir como plaquita M.2, pero no todo disco M.2 es NVMe.",
+      "Estándar en data centers; NVMe over Fabrics lo extiende por la red."
+    ],
+    "links": [
+      { "label": "NVM Express en Wikipedia", "url": "https://es.wikipedia.org/wiki/NVM_Express" },
+      { "label": "NVM Express (sitio oficial, en inglés)", "url": "https://nvmexpress.org/" }
+    ]
+  }
+}

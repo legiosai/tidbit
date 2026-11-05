@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="24" width="100" height="40" rx="8" fill="#9ac7ea"/>
+    <rect x="150" y="24" width="100" height="40" rx="8" fill="#9bd1b9"/>
+    <rect x="260" y="24" width="100" height="40" rx="8" fill="#f4a7a7"/>
+    <rect x="40" y="76" width="320" height="42" rx="8" fill="#ffd166"/>
+    <rect x="40" y="186" width="320" height="24" rx="6" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <rect x="60" y="138" width="28" height="28"/><rect x="88" y="138" width="28" height="28"/>
+    <rect x="116" y="138" width="28" height="28"/><rect x="144" y="138" width="28" height="28" fill="#e6dfd0"/>
+    <rect x="172" y="138" width="28" height="28" fill="#e6dfd0"/><rect x="200" y="138" width="28" height="28"/>
+    <rect x="228" y="138" width="28" height="28" fill="#f4a7a7"/><rect x="256" y="138" width="28" height="28"/>
+    <rect x="284" y="138" width="28" height="28" fill="#e6dfd0"/><rect x="312" y="138" width="28" height="28" fill="#e6dfd0"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="90" y="49">OS kernel</text><text x="200" y="49">browser</text><text x="310" y="49">game engine</text>
+    <text x="200" y="102" font-size="14">C and C++</text>
+    <text x="200" y="203" font-size="12">hardware</text>
+  </g>
+  <text x="200" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">memory, handled by hand</text>
+  <text x="200" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">fast, close to the machine</text>
+</svg>

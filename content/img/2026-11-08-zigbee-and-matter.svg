@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M60 60 L150 50"/><path d="M60 60 L60 150"/><path d="M60 150 L140 150"/>
+    <path d="M150 50 L140 150"/><path d="M60 60 L140 150"/>
+    <path d="M164 54 L196 86"/><path d="M154 144 L186 122"/>
+    <path d="M246 108 L290 60"/><path d="M246 108 H290"/><path d="M246 108 L290 168"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="60" cy="60" r="14" fill="#ffd166"/>
+    <circle cx="150" cy="50" r="14" fill="#9bd1b9"/>
+    <circle cx="60" cy="150" r="14" fill="#f4a7a7"/>
+    <circle cx="140" cy="150" r="14" fill="#9ac7ea"/>
+    <rect x="186" y="86" width="60" height="44" rx="8" fill="#e6dfd0"/>
+    <rect x="290" y="44" width="92" height="32" rx="8" fill="#9ac7ea"/>
+    <rect x="290" y="92" width="92" height="32" rx="8" fill="#9bd1b9"/>
+    <rect x="290" y="152" width="92" height="32" rx="8" fill="#ffd166"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="38">bulb</text><text x="150" y="28">sensor</text>
+    <text x="60" y="180">plug</text><text x="140" y="180">lock</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="216" y="112">hub</text>
+    <text x="336" y="64">phone</text><text x="336" y="112">speaker</text><text x="336" y="172">TV box</text>
+  </g>
+  <text x="336" y="32" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">Matter</text>
+  <text x="100" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">low-power mesh</text>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">many brands, one common language</text>
+</svg>

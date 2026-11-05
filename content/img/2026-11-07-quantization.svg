@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="25" y="40" width="55" height="32" rx="5" fill="#ffd166"/>
+    <rect x="85" y="40" width="55" height="32" rx="5" fill="#ffd166"/>
+    <rect x="145" y="40" width="55" height="32" rx="5" fill="#ffd166"/>
+    <rect x="205" y="40" width="55" height="32" rx="5" fill="#ffd166"/>
+    <rect x="25" y="115" width="55" height="32" rx="5" fill="#9ac7ea"/>
+    <rect x="95" y="115" width="35" height="32" rx="5" fill="#9bd1b9"/>
+    <rect x="135" y="115" width="35" height="32" rx="5" fill="#9bd1b9"/>
+    <rect x="175" y="115" width="35" height="32" rx="5" fill="#9bd1b9"/>
+    <rect x="215" y="115" width="35" height="32" rx="5" fill="#9bd1b9"/>
+    <rect x="300" y="60" width="30" height="140" rx="4" fill="#ffd166"/>
+    <rect x="345" y="165" width="30" height="35" rx="4" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M142 78 V106"/><path d="M138 100 l4 6 4 -6"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="52" y="60">0.482</text><text x="112" y="60">-1.307</text><text x="172" y="60">0.091</text><text x="232" y="60">2.250</text>
+    <text x="52" y="135">x0.31</text><text x="112" y="135">2</text><text x="152" y="135">-4</text><text x="192" y="135">0</text><text x="232" y="135">7</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="142" y="30">16-bit weights</text><text x="52" y="165">scale</text><text x="172" y="165">4-bit integers</text>
+    <text x="337" y="48">memory</text><text x="315" y="216">16-bit</text><text x="360" y="216">4-bit</text>
+  </g>
+  <text x="142" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same weights, fewer bits</text>
+</svg>

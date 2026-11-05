@@ -1,0 +1,53 @@
+{
+  "id": "2026-11-07-churn",
+  "date": "2026-11-07",
+  "subjects": ["data"],
+  "level": 1,
+  "aliases": {
+    "en": ["churn rate", "customer churn", "customer attrition", "attrition rate"],
+    "es": ["tasa de churn", "tasa de abandono", "tasa de cancelación", "abandono de clientes"]
+  },
+  "image": "img/2026-11-07-churn.svg",
+  "imageAlt": {
+    "en": "A bucket of customers being filled from the top by new signups while some leak out of a hole in the bottom, labeled churn",
+    "es": "Un balde de clientes que se llena desde arriba con altas nuevas mientras algunos se escapan por un agujero en el fondo, rotulado churn"
+  },
+  "en": {
+    "title": "Churn",
+    "tagline": "The customers who leave, and how fast they do it.",
+    "explanation": [
+      "**Churn** is the share of customers who stop being customers over a period: they cancel a subscription, close an account, or just stop showing up. If a streaming service starts the month with 1,000 subscribers and 50 of them cancel, its monthly **churn rate** is 5%.",
+      "Churn matters most in businesses that live on recurring payments: phone plans, gyms, software subscriptions, streaming, banks. Winning a new customer usually costs money in ads and discounts, so every customer who leaves early is money spent for nothing. A business with high churn has to run faster and faster just to stay the same size, like filling a bucket with a hole in it.",
+      "Measuring it sounds simple but has traps. You have to decide what counts as leaving (a cancellation, or 30 days with no activity?) and over what period. Data teams look at churn by cohort to see whether newer customers stay longer, and build models that predict who is likely to leave, so someone can step in with a call, a fix or an offer before they go. The opposite number, the share who stay, is called retention."
+    ],
+    "analogy": "Like a bucket with a hole in the bottom. New customers pour in from the top, churn drips out from the bottom, and if the hole is big enough you never fill it no matter how fast you pour.",
+    "keyPoints": [
+      "The share of customers lost over a period, usually per month or year.",
+      "Its opposite is retention: the share who stay.",
+      "Critical for subscription businesses, where keeping customers is cheaper than winning new ones.",
+      "The definition of \"leaving\" has to be agreed before the number means anything."
+    ],
+    "links": [
+      { "label": "Customer attrition on Wikipedia", "url": "https://en.wikipedia.org/wiki/Customer_attrition" }
+    ]
+  },
+  "es": {
+    "title": "Churn",
+    "tagline": "Los clientes que se van, y qué tan rápido lo hacen.",
+    "explanation": [
+      "El **churn** es el porcentaje de clientes que dejan de serlo en un período: cancelan una suscripción, cierran una cuenta o simplemente dejan de aparecer. Si un servicio de streaming arranca el mes con 1000 suscriptores y 50 se dan de baja, su **tasa de churn** mensual es del 5%. En español también se le dice tasa de abandono o de cancelación.",
+      "Pesa sobre todo en los negocios que viven de pagos recurrentes: planes de celular, gimnasios, software por suscripción, streaming, bancos. Conseguir un cliente nuevo suele costar plata en publicidad y descuentos, así que cada cliente que se va temprano es plata gastada para nada. Un negocio con mucho churn tiene que correr cada vez más rápido solo para quedarse del mismo tamaño, como llenar un balde agujereado.",
+      "Medirlo parece fácil pero tiene trampas. Hay que decidir qué cuenta como irse (¿una baja, o 30 días sin actividad?) y en qué período. Los equipos de datos miran el churn por cohorte para ver si los clientes nuevos se quedan más, y arman modelos que predicen quién tiene chances de irse, para que alguien intervenga con un llamado, un arreglo o una oferta antes de que se vaya. El número opuesto, el porcentaje que se queda, se llama retención."
+    ],
+    "analogy": "Como un balde con un agujero en el fondo. Los clientes nuevos entran por arriba, el churn gotea por abajo, y si el agujero es grande nunca lo llenás, por más rápido que eches agua.",
+    "keyPoints": [
+      "El porcentaje de clientes que se pierden en un período, casi siempre por mes o por año.",
+      "Su opuesto es la retención: el porcentaje que se queda.",
+      "Clave en negocios de suscripción, donde retener sale más barato que conseguir clientes nuevos.",
+      "Hay que acordar qué es \"irse\" antes de que el número signifique algo."
+    ],
+    "links": [
+      { "label": "Customer attrition en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Customer_attrition" }
+    ]
+  }
+}

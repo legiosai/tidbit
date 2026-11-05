@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-autonomous-vehicles",
+  "date": "2026-11-07",
+  "subjects": ["ai", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["autonomous vehicle", "self-driving car", "self-driving cars", "driverless car", "driverless cars", "robotaxi", "robotaxis"],
+    "es": ["vehículo autónomo", "auto autónomo", "autos autónomos", "auto sin conductor", "autos sin conductor", "coche autónomo", "coches autónomos", "robotaxi", "robotaxis"]
+  },
+  "image": "img/2026-11-07-autonomous-vehicles.svg",
+  "imageAlt": {
+    "en": "A car seen from above with sensor rings around it, detecting a pedestrian and another car, and a loop of sense, predict, plan",
+    "es": "Un auto visto desde arriba con anillos de sensores alrededor, que detecta a un peatón y a otro auto, y un ciclo de percibir, predecir y planificar"
+  },
+  "en": {
+    "title": "Autonomous vehicles",
+    "tagline": "Cars and trucks that drive themselves using sensors, maps and AI.",
+    "explanation": [
+      "An **autonomous vehicle** drives without a person at the wheel, or with one who only has to step in now and then. It senses the world through cameras, radar and often **lidar**, a sensor that sweeps laser pulses to measure distances in 3D. Software built with machine learning turns those readings into a picture of the scene (that is a pedestrian, that car is braking), predicts what everyone will do next and plans the steering, braking and acceleration, many times per second.",
+      "Not every \"self-driving\" feature is the same. Engineers use the SAE scale, from level 0 to 5. Many new cars offer level 1 or 2: they keep the lane and the distance to the car ahead, but the driver must watch the road at all times and remains responsible. At level 4 the car drives itself with nobody needed at the wheel, but only inside a defined area and set of conditions. Level 5, anywhere and in any weather, does not exist yet.",
+      "Robotaxis are where level 4 is real today. Waymo carries paying passengers with nobody in the driver's seat in several US cities, and companies like Baidu do the same in China. The hard part is the long tail of rare situations: a police officer waving traffic through a red light, a mattress on the highway. How safe they are compared with human drivers, who is liable in a crash and what happens to driving jobs are all still under active debate."
+    ],
+    "analogy": "A student driver who never gets tired, sees in every direction at once and has practiced millions of virtual kilometers, but who may still freeze at a situation nobody ever taught them.",
+    "keyPoints": [
+      "Sensors (cameras, radar, lidar) plus AI that perceives, predicts and plans.",
+      "SAE levels go from 0 (no automation) to 5 (anywhere, anytime).",
+      "Most driver-assist systems are level 2: you are still the driver.",
+      "Level 4 robotaxis already carry paying passengers in some cities."
+    ],
+    "links": [
+      { "label": "Self-driving car on Wikipedia", "url": "https://en.wikipedia.org/wiki/Self-driving_car" },
+      { "label": "Automated vehicles for safety (NHTSA)", "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety" }
+    ]
+  },
+  "es": {
+    "title": "Vehículos autónomos",
+    "tagline": "Autos y camiones que se manejan solos con sensores, mapas e IA.",
+    "explanation": [
+      "Un **vehículo autónomo** maneja sin una persona al volante, o con una que solo tiene que intervenir de vez en cuando. Percibe el mundo con cámaras, radares y muchas veces **lidar**, un sensor que barre el entorno con pulsos láser para medir distancias en 3D. Un software hecho con machine learning convierte esas lecturas en una imagen de la escena (eso es un peatón, ese auto está frenando), predice qué va a hacer cada uno y planifica cómo girar, frenar y acelerar, muchas veces por segundo.",
+      "No todo lo que se vende como \"manejo autónomo\" es lo mismo. Los ingenieros usan la escala de la SAE, del nivel 0 al 5. Muchos autos nuevos ofrecen nivel 1 o 2: mantienen el carril y la distancia con el de adelante, pero quien maneja tiene que mirar la ruta todo el tiempo y sigue siendo responsable. En el nivel 4 el auto se maneja solo sin que haga falta nadie al volante, pero únicamente dentro de una zona y unas condiciones definidas. El nivel 5, en cualquier lugar y con cualquier clima, todavía no existe.",
+      "Los robotaxis son donde el nivel 4 ya es real. Waymo lleva pasajeros que pagan, sin nadie en el asiento del conductor, en varias ciudades de Estados Unidos, y empresas como Baidu hacen lo mismo en China. Lo difícil es la cola larga de situaciones raras: un agente de tránsito que te hace pasar con el semáforo en rojo, un colchón en la autopista. Qué tan seguros son comparados con conductores humanos, quién responde en un choque y qué pasa con los trabajos de manejo siguen en pleno debate."
+    ],
+    "analogy": "Un alumno de manejo que nunca se cansa, ve para todos lados a la vez y practicó millones de kilómetros virtuales, pero que igual puede quedarse duro ante una situación que nadie le enseñó.",
+    "keyPoints": [
+      "Sensores (cámaras, radar, lidar) más una IA que percibe, predice y planifica.",
+      "Los niveles de la SAE van del 0 (sin automatización) al 5 (en todos lados, siempre).",
+      "La mayoría de las asistencias al manejo son nivel 2: seguís manejando vos.",
+      "Los robotaxis de nivel 4 ya llevan pasajeros que pagan en algunas ciudades."
+    ],
+    "links": [
+      { "label": "Vehículo autónomo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Veh%C3%ADculo_aut%C3%B3nomo" },
+      { "label": "Automated vehicles for safety, NHTSA (en inglés)", "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety" }
+    ]
+  }
+}

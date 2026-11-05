@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-private-cloud",
+  "date": "2026-11-07",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["private clouds"],
+    "es": ["nubes privadas", "private cloud"]
+  },
+  "image": "img/2026-11-07-private-cloud.svg",
+  "imageAlt": {
+    "en": "A public cloud shared by many companies next to a private cloud with a fence around it, used by a single company",
+    "es": "Una nube pública compartida por muchas empresas al lado de una nube privada con una cerca alrededor, usada por una sola empresa"
+  },
+  "en": {
+    "title": "Private cloud",
+    "tagline": "Cloud-style computing reserved for a single organization.",
+    "explanation": [
+      "A **private cloud** gives one organization the conveniences of the cloud, such as creating servers and storage on demand from a portal or an API, but on infrastructure that only that organization uses. It is the opposite of a **public cloud** like AWS, Azure or Google Cloud, where the same giant data centers are shared by millions of customers, each walled off in software.",
+      "It usually lives in the company's own data center, built with software like VMware or OpenStack, but it can also be hardware a provider hosts and runs for just one customer. What makes it a cloud rather than a plain server room is self-service and automation: a team asks for a virtual machine and gets it in minutes, without filing a ticket and waiting weeks.",
+      "Banks, hospitals and governments choose private clouds when rules or risk make them want full control over where data lives and who touches the hardware. The price is that the company buys the machines up front, has to plan capacity itself and employs the people who keep it running. Many end up mixing both, which is called hybrid cloud."
+    ],
+    "analogy": "A public cloud is a big gym where you rent time on shared machines. A private cloud is a gym built in your own house: same equipment and the same way of using it, but only your family gets in, and you pay for the machines and the repairs.",
+    "keyPoints": [
+      "Cloud-style self-service on infrastructure used by one organization only.",
+      "Can run in the company's own data center or be hosted by a provider.",
+      "More control over data and hardware; more cost and work up front.",
+      "Combining it with a public cloud is called hybrid cloud."
+    ],
+    "links": [
+      { "label": "What is a private cloud? (AWS)", "url": "https://aws.amazon.com/what-is/private-cloud/" },
+      { "label": "Private cloud on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cloud_computing#Private_cloud" },
+      { "label": "The NIST definition of cloud computing", "url": "https://csrc.nist.gov/pubs/sp/800/145/final" }
+    ]
+  },
+  "es": {
+    "title": "Nube privada",
+    "tagline": "Computación al estilo de la nube, reservada para una sola organización.",
+    "explanation": [
+      "Una **nube privada** le da a una sola organización las comodidades de la nube, como crear servidores y almacenamiento a pedido desde un portal o una API, pero sobre una infraestructura que usa solo ella. Es lo contrario de una **nube pública** como AWS, Azure o Google Cloud, donde los mismos data centers gigantes los comparten millones de clientes, cada uno separado de los demás por software.",
+      "Suele estar en el data center propio de la empresa, armada con software como VMware u OpenStack, pero también puede ser hardware que un proveedor aloja y opera para un único cliente. Lo que la hace nube y no un simple cuarto de servidores es el autoservicio y la automatización: un equipo pide una máquina virtual y la tiene en minutos, sin abrir un ticket y esperar semanas.",
+      "Bancos, hospitales y gobiernos eligen nubes privadas cuando las normas o el riesgo los llevan a querer control total sobre dónde están los datos y quién toca el hardware. El precio es que la empresa compra las máquinas por adelantado, tiene que calcular ella misma cuánta capacidad necesita y paga a la gente que la mantiene andando. Muchas terminan combinando las dos cosas, y a eso se le dice nube híbrida."
+    ],
+    "analogy": "Una nube pública es un gimnasio grande donde alquilás turnos en máquinas compartidas. Una nube privada es un gimnasio armado en tu casa: los mismos aparatos y la misma forma de usarlos, pero solo entra tu familia, y las máquinas y los arreglos los pagás vos.",
+    "keyPoints": [
+      "Autoservicio estilo nube sobre infraestructura que usa una sola organización.",
+      "Puede estar en el data center de la empresa o alojada por un proveedor.",
+      "Más control sobre datos y hardware; más costo y trabajo de entrada.",
+      "Combinarla con una nube pública se llama nube híbrida."
+    ],
+    "links": [
+      { "label": "¿Qué es una nube privada? (AWS)", "url": "https://aws.amazon.com/es/what-is/private-cloud/" },
+      { "label": "Computación en la nube en Wikipedia", "url": "https://es.wikipedia.org/wiki/Computaci%C3%B3n_en_la_nube" },
+      { "label": "The NIST definition of cloud computing (en inglés)", "url": "https://csrc.nist.gov/pubs/sp/800/145/final" }
+    ]
+  }
+}

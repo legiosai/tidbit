@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-account-recovery",
+  "date": "2026-11-08",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["recover your account", "recovery email", "recovery phone number", "recovery codes", "backup codes", "recovery contact", "recovery key"],
+    "es": ["recuperar tu cuenta", "recuperar la cuenta", "correo de recuperación", "teléfono de recuperación", "códigos de recuperación", "códigos de respaldo", "contacto de recuperación", "clave de recuperación"]
+  },
+  "image": "img/2026-11-08-account-recovery.svg",
+  "imageAlt": {
+    "en": "A locked account with a forgotten password, and several spare keys that can open it: a recovery email, a recovery phone, printed backup codes and a trusted contact",
+    "es": "Una cuenta bloqueada con la contraseña olvidada, y varias llaves de repuesto que la pueden abrir: un correo de recuperación, un teléfono de recuperación, códigos de respaldo impresos y un contacto de confianza"
+  },
+  "en": {
+    "title": "Account recovery",
+    "tagline": "The way back into an account when you forget the password or lose your phone.",
+    "explanation": [
+      "**Account recovery** is the process a service offers when you cannot sign in the normal way: you forgot the password, your phone with the two-factor app was stolen, or you no longer have access to the email you signed up with. Instead of locking you out forever, the service checks your identity some other way and lets you set new credentials.",
+      "The usual spare keys are a recovery email address and a recovery phone number that receive a code, a set of one-time backup codes you print or save when you turn on two-factor authentication, and in some services a recovery contact, a trusted friend who can vouch for you, or a long recovery key. When none of that works, big providers like Google and Apple fall back to a slower process that can take days, on purpose, so that a thief cannot rush through it.",
+      "Recovery is also a door for attackers. If the recovery email is an old account with a weak password, or the recovery phone can be hijacked with SIM swapping, an attacker can use it to take over your main account without ever knowing your password. That is why it matters to set it up before you need it, keep the recovery details current, and protect them as well as the account itself."
+    ],
+    "analogy": "Leaving a spare house key with a neighbor you trust. It saves you when you lock yourself out, but only if you left it before, and only if the neighbor is careful who they hand it to.",
+    "keyPoints": [
+      "Set up recovery options before you lose access, not after.",
+      "Common options: recovery email, phone, backup codes, trusted contact.",
+      "Keep backup codes somewhere safe and offline.",
+      "Weak recovery details are a shortcut for attackers."
+    ],
+    "links": [
+      { "label": "How to recover your Google Account (Google Help)", "url": "https://support.google.com/accounts/answer/7682439" },
+      { "label": "What to expect during account recovery (Apple Support)", "url": "https://support.apple.com/en-us/118574" }
+    ]
+  },
+  "es": {
+    "title": "Recuperación de cuenta",
+    "tagline": "El camino para volver a entrar a una cuenta si olvidás la clave o perdés el celular.",
+    "explanation": [
+      "La **recuperación de cuenta** es el proceso que ofrece un servicio cuando no podés entrar de la forma normal: te olvidaste la contraseña, te robaron el celular con la app de doble factor o ya no tenés acceso al mail con el que te registraste. En lugar de dejarte afuera para siempre, el servicio verifica que sos vos de otra manera y te deja poner credenciales nuevas.",
+      "Las llaves de repuesto más comunes son un correo de recuperación y un teléfono de recuperación que reciben un código, un juego de códigos de respaldo de un solo uso que imprimís o guardás cuando activás la autenticación de dos factores, y en algunos servicios un contacto de recuperación, un amigo de confianza que puede dar fe de que sos vos, o una clave de recuperación larga. Cuando nada de eso funciona, los grandes como Google y Apple pasan a un proceso más lento que puede tardar días, a propósito, para que un ladrón no pueda apurarlo.",
+      "La recuperación también es una puerta para los atacantes. Si el correo de recuperación es una cuenta vieja con una contraseña débil, o si el teléfono de recuperación se puede secuestrar con SIM swapping, alguien puede usarlo para quedarse con tu cuenta principal sin saber nunca tu contraseña. Por eso conviene configurarla antes de necesitarla, mantener los datos al día y cuidarlos tanto como la cuenta misma."
+    ],
+    "analogy": "Dejarle una copia de la llave de tu casa a un vecino de confianza. Te salva cuando te quedás afuera, pero solo si se la dejaste antes, y solo si el vecino se fija bien a quién se la da.",
+    "keyPoints": [
+      "Configurá las opciones de recuperación antes de perder el acceso, no después.",
+      "Las más comunes: correo, teléfono, códigos de respaldo, contacto de confianza.",
+      "Guardá los códigos de respaldo en un lugar seguro y offline.",
+      "Datos de recuperación débiles son un atajo para los atacantes."
+    ],
+    "links": [
+      { "label": "Cómo recuperar tu cuenta de Google (Ayuda de Google)", "url": "https://support.google.com/accounts/answer/7682439?hl=es-419" },
+      { "label": "Qué esperar durante la recuperación de cuenta (Soporte de Apple)", "url": "https://support.apple.com/es-es/118574" }
+    ]
+  }
+}

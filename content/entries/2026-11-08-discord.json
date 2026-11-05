@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-discord",
+  "date": "2026-11-08",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["Discord server", "Discord servers", "Discord Nitro"],
+    "es": ["servidor de Discord", "servidores de Discord", "Discord Nitro"]
+  },
+  "image": "img/2026-11-08-discord.svg",
+  "imageAlt": {
+    "en": "A community server with text channels and an always-open voice room where several people are talking; a list of servers on the side shows a gaming group, a study group and an open source project",
+    "es": "Un servidor de una comunidad con canales de texto y una sala de voz siempre abierta donde varias personas están hablando; al costado, una lista de servidores muestra un grupo de gaming, un grupo de estudio y un proyecto open source"
+  },
+  "en": {
+    "title": "Discord",
+    "tagline": "An app for online communities to chat by text, voice and video in shared spaces.",
+    "explanation": [
+      "**Discord** launched in 2015, founded by Jason Citron and Stan Vishnevskiy, as a way for gamers to talk while playing. Its basic unit is the **server**: a community space, free to create, with text channels by topic and voice channels that work like open rooms. You do not call anyone; you just drop into the room and whoever is there can hear you, the way you would join friends on a couch.",
+      "It quickly outgrew gaming. Today there are Discord servers for study groups, fan clubs, artists, open source projects, crypto communities and online classes. Moderators set roles and permissions, and bots handle chores like welcoming newcomers, running polls or playing music. Midjourney, the image generator, famously ran its main interface as a bot inside a Discord server.",
+      "Discord is free to use. It makes money mainly from Nitro, a subscription that adds perks such as better video quality, bigger uploads and custom emoji, and from other paid extras. Because servers can be private and huge at the same time, moderation is a constant challenge, and the app has had to deal with harassment, scams and illegal content like any large social platform."
+    ],
+    "analogy": "A clubhouse with many rooms. Each room has a sign on the door for a different topic, there is a lounge where whoever is around is chatting out loud, and you can step in and out whenever you like.",
+    "keyPoints": [
+      "Launched in 2015 for gamers; now used by all kinds of communities.",
+      "Servers hold text channels and drop-in voice rooms.",
+      "Bots and roles help moderate and automate large groups.",
+      "Free, funded mainly by the Nitro subscription."
+    ],
+    "links": [
+      { "label": "Discord (official site)", "url": "https://discord.com/" },
+      { "label": "Discord on Wikipedia", "url": "https://en.wikipedia.org/wiki/Discord" }
+    ]
+  },
+  "es": {
+    "title": "Discord",
+    "tagline": "Una app para que comunidades online charlen por texto, voz y video.",
+    "explanation": [
+      "**Discord** salió en 2015, fundada por Jason Citron y Stan Vishnevskiy, como una forma de que los gamers hablaran mientras jugaban. Su unidad básica es el **servidor**: un espacio de una comunidad, gratis de crear, con canales de texto por tema y canales de voz que funcionan como salas abiertas. No llamás a nadie; entrás a la sala y quien esté ahí te escucha, como cuando te sumás a tus amigos en el sillón.",
+      "Enseguida dejó de ser solo para gaming. Hoy hay servidores de Discord para grupos de estudio, clubes de fans, artistas, proyectos open source, comunidades cripto y clases online. Los moderadores definen roles y permisos, y los bots se encargan de tareas como dar la bienvenida, hacer encuestas o poner música. Midjourney, el generador de imágenes, usó durante mucho tiempo un bot dentro de un servidor de Discord como su interfaz principal.",
+      "Discord es gratis. Gana plata sobre todo con Nitro, una suscripción que suma ventajas como mejor calidad de video, archivos más pesados y emojis personalizados, y con otros extras pagos. Como los servidores pueden ser privados y enormes al mismo tiempo, la moderación es un desafío constante, y la app tuvo que lidiar con acoso, estafas y contenido ilegal como cualquier plataforma social grande."
+    ],
+    "analogy": "Un club con muchas salas. Cada puerta tiene un cartel con un tema distinto, hay un living donde los que andan por ahí charlan en voz alta, y entrás y salís cuando querés.",
+    "keyPoints": [
+      "Salió en 2015 para gamers; hoy la usan todo tipo de comunidades.",
+      "Los servidores tienen canales de texto y salas de voz a las que entrás cuando querés.",
+      "Bots y roles ayudan a moderar y automatizar grupos grandes.",
+      "Es gratis y se financia sobre todo con la suscripción Nitro."
+    ],
+    "links": [
+      { "label": "Discord (sitio oficial)", "url": "https://discord.com/" },
+      { "label": "Discord en Wikipedia", "url": "https://es.wikipedia.org/wiki/Discord" }
+    ]
+  }
+}

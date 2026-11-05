@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-07-robotics",
+  "date": "2026-11-07",
+  "subjects": ["hardware", "ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["robot", "robots", "industrial robot", "industrial robots", "robot arm", "robotic arm"],
+    "es": ["robot", "robots", "robot industrial", "robots industriales", "brazo robótico", "brazos robóticos"]
+  },
+  "image": "img/2026-11-07-robotics.svg",
+  "imageAlt": {
+    "en": "A loop with three steps: sensors sense the world, a computer decides, and motors act on it, around a robot arm picking up a box",
+    "es": "Un ciclo de tres pasos: los sensores perciben el mundo, una computadora decide y los motores actúan, alrededor de un brazo robótico que levanta una caja"
+  },
+  "en": {
+    "title": "Robotics",
+    "tagline": "Building machines that sense the world, decide what to do, and move to do it.",
+    "explanation": [
+      "**Robotics** is the field of designing and building robots: machines that can sense their surroundings, decide what to do and act physically, often with no person steering them step by step. It mixes mechanical engineering (arms, wheels, joints), electronics (motors, sensors, batteries) and software (the program that ties it all together).",
+      "Almost every robot runs the same loop many times per second. Sense: cameras, distance sensors and touch sensors report what is around. Decide: a computer works out the next move. Act: motors turn wheels, bend joints or close a gripper. Then it senses again to see what changed. A robot vacuum bumping into a chair, backing up and turning is that loop in plain view.",
+      "Most robots today are not humanoids. They are arms welding car bodies or painting parts in factories, carts moving shelves in warehouses, machines helping surgeons make precise cuts, and vacuums in living rooms. Factory robots have long repeated the same exact motion in a fenced-off area. The newer push, helped by computer vision and machine learning, is robots that handle messy, changing places like a kitchen or a sidewalk. That is much harder than it looks: picking up an unfamiliar object is easy for a child and still tough for a machine."
+    ],
+    "analogy": "Like your own body reaching for a cup. Your eyes see it, your brain plans the movement, your muscles move your hand, and your eyes keep checking until your fingers close around it. A robot does the same with cameras, a computer and motors.",
+    "keyPoints": [
+      "Combines mechanics, electronics and software.",
+      "Every robot runs a loop: sense, decide, act, repeat.",
+      "Most real robots are factory arms, warehouse carts and vacuums, not humanoids.",
+      "Handling unpredictable everyday places is still the hard part."
+    ],
+    "links": [
+      { "label": "Robotics on Wikipedia", "url": "https://en.wikipedia.org/wiki/Robotics" }
+    ]
+  },
+  "es": {
+    "title": "Robótica",
+    "tagline": "Construir máquinas que perciben el mundo, deciden qué hacer y se mueven para hacerlo.",
+    "explanation": [
+      "La **robótica** es el campo que diseña y construye robots: máquinas que pueden percibir lo que las rodea, decidir qué hacer y actuar físicamente, muchas veces sin que una persona las maneje paso a paso. Mezcla ingeniería mecánica (brazos, ruedas, articulaciones), electrónica (motores, sensores, baterías) y software (el programa que une todo).",
+      "Casi todos los robots repiten el mismo ciclo muchas veces por segundo. Percibir: cámaras, sensores de distancia y de contacto informan qué hay alrededor. Decidir: una computadora calcula el próximo movimiento. Actuar: los motores giran ruedas, doblan articulaciones o cierran una pinza. Y vuelve a percibir para ver qué cambió. Una aspiradora robot que choca contra una silla, retrocede y gira es ese ciclo a la vista.",
+      "La mayoría de los robots de hoy no son humanoides. Son brazos que sueldan carrocerías o pintan piezas en fábricas, carritos que mueven estanterías en depósitos, máquinas que ayudan a cirujanos a hacer cortes precisos y aspiradoras en el living. Los robots de fábrica hace mucho que repiten el mismo movimiento exacto en un área cercada. El empuje nuevo, con ayuda de la visión por computadora y el machine learning, son robots que se manejen en lugares desordenados y cambiantes, como una cocina o una vereda. Es mucho más difícil de lo que parece: agarrar un objeto desconocido es fácil para un nene y sigue siendo complicado para una máquina."
+    ],
+    "analogy": "Como tu propio cuerpo cuando agarrás una taza. Los ojos la ven, el cerebro planea el movimiento, los músculos mueven la mano y los ojos siguen controlando hasta que los dedos la rodean. Un robot hace lo mismo con cámaras, una computadora y motores.",
+    "keyPoints": [
+      "Combina mecánica, electrónica y software.",
+      "Todo robot repite un ciclo: percibir, decidir, actuar, otra vez.",
+      "La mayoría de los robots reales son brazos de fábrica, carritos de depósito y aspiradoras, no humanoides.",
+      "Moverse en lugares cotidianos e impredecibles sigue siendo lo difícil."
+    ],
+    "links": [
+      { "label": "Robótica en Wikipedia", "url": "https://es.wikipedia.org/wiki/Rob%C3%B3tica" },
+      { "label": "Robotics en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Robotics" }
+    ]
+  }
+}

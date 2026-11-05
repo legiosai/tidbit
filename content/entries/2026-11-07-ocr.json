@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-ocr",
+  "date": "2026-11-07",
+  "subjects": ["ai", "data"],
+  "level": 1,
+  "aliases": {
+    "en": ["optical character recognition"],
+    "es": ["reconocimiento óptico de caracteres"]
+  },
+  "image": "img/2026-11-07-ocr.svg",
+  "imageAlt": {
+    "en": "A photo of a receipt goes through an OCR step and comes out as editable text lines with the total recognized",
+    "es": "La foto de un ticket pasa por un paso de OCR y sale como líneas de texto editable con el total reconocido"
+  },
+  "en": {
+    "title": "OCR",
+    "tagline": "Software that reads the text in an image so a computer can search and edit it.",
+    "explanation": [
+      "To a computer, a photo of a receipt is just colored dots. **OCR** (optical character recognition) turns those dots into real text: letters and numbers you can search, copy, paste into a spreadsheet or have read aloud. It is what lets you copy text from a photo on your phone, search inside a scanned PDF, or deposit a check by taking a picture of it.",
+      "Classic OCR worked in steps: clean up the image, find the lines of text, split them into characters and match each one against known shapes. Modern systems use neural networks that read whole words or lines at once, which copes much better with odd fonts, crooked photos and handwriting. Open-source engines like Tesseract run on any computer, and multimodal AI models can now read a document and also understand it: pull the total out of an invoice, or turn a table in a photo into a spreadsheet.",
+      "It is still not perfect. Blurry photos, faded copies, unusual layouts and messy handwriting cause errors, like a 0 read as an O or a 1 as an l, so anything important (amounts, ID numbers, medical data) deserves a human check. OCR also matters for accessibility: a screen reader can only read a scanned document aloud once OCR has turned it into text."
+    ],
+    "analogy": "A typist copying a printed letter into a word processor, character by character, except it takes a second and never gets bored. And like a tired typist, it can mix up characters that look alike.",
+    "keyPoints": [
+      "It turns pictures of text into real, searchable, editable text.",
+      "Modern OCR uses neural networks and handles handwriting better.",
+      "Multimodal models can read a document and extract the data you need.",
+      "Check important numbers: look-alike characters still get confused."
+    ],
+    "links": [
+      { "label": "Optical character recognition on Wikipedia", "url": "https://en.wikipedia.org/wiki/Optical_character_recognition" },
+      { "label": "Tesseract, an open-source OCR engine (GitHub)", "url": "https://github.com/tesseract-ocr/tesseract" }
+    ]
+  },
+  "es": {
+    "title": "OCR",
+    "tagline": "Software que lee el texto de una imagen para poder buscarlo y editarlo.",
+    "explanation": [
+      "Para una computadora, la foto de un ticket son solo puntitos de colores. El **OCR** (reconocimiento óptico de caracteres) convierte esos puntitos en texto de verdad: letras y números que podés buscar, copiar, pegar en una planilla o hacer leer en voz alta. Es lo que te deja copiar el texto de una foto en el celular, buscar dentro de un PDF escaneado o depositar un cheque sacándole una foto.",
+      "El OCR clásico trabajaba por pasos: limpiar la imagen, encontrar los renglones, separarlos en caracteres y comparar cada uno con formas conocidas. Los sistemas actuales usan redes neuronales que leen palabras o renglones enteros de una vez, y se las arreglan mucho mejor con tipografías raras, fotos torcidas y letra manuscrita. Hay motores de código abierto como Tesseract que corren en cualquier computadora, y los modelos de IA multimodal ya pueden leer un documento y además entenderlo: sacar el total de una factura o pasar a planilla una tabla de una foto.",
+      "Igual no es perfecto. Las fotos movidas, las fotocopias gastadas, los formatos raros y la letra desprolija generan errores, como un 0 leído como O o un 1 como l, así que todo lo importante (montos, números de documento, datos médicos) merece que lo revise una persona. El OCR también es clave para la accesibilidad: un lector de pantalla solo puede leer en voz alta un documento escaneado después de que el OCR lo convirtió en texto."
+    ],
+    "analogy": "Un dactilógrafo que pasa una carta impresa a la computadora letra por letra, solo que tarda un segundo y nunca se aburre. Y como un dactilógrafo cansado, puede confundir caracteres parecidos.",
+    "keyPoints": [
+      "Convierte imágenes de texto en texto real, que se puede buscar y editar.",
+      "El OCR actual usa redes neuronales y lee mejor la letra manuscrita.",
+      "Los modelos multimodales pueden leer un documento y sacar los datos que necesitás.",
+      "Revisá los números importantes: los caracteres parecidos se siguen confundiendo."
+    ],
+    "links": [
+      { "label": "Reconocimiento óptico de caracteres en Wikipedia", "url": "https://es.wikipedia.org/wiki/Reconocimiento_%C3%B3ptico_de_caracteres" },
+      { "label": "Tesseract, un motor de OCR de código abierto (GitHub, en inglés)", "url": "https://github.com/tesseract-ocr/tesseract" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-vibe-coding",
+  "date": "2026-11-07",
+  "subjects": ["ai", "software"],
+  "level": 1,
+  "aliases": {
+    "en": ["vibe coder", "vibe coders", "vibe-coded", "vibe-coding"],
+    "es": ["vibe coder", "vibe coders", "vibe-coding", "vibecoding"]
+  },
+  "image": "img/2026-11-07-vibe-coding.svg",
+  "imageAlt": {
+    "en": "A loop where a person describes an app, an AI writes code, the person runs it and pastes back the error, with the code itself left unread",
+    "es": "Un ciclo donde una persona describe una app, una IA escribe el código, la persona lo corre y le pega el error, sin leer el código"
+  },
+  "en": {
+    "title": "Vibe coding",
+    "tagline": "Building software by describing what you want to an AI and accepting its code.",
+    "explanation": [
+      "**Vibe coding** means making a program mostly by talking to an AI: you describe what you want in plain words, the AI writes the code, you run it, and if something breaks you paste the error back and ask for a fix. You barely read the code, if at all. AI researcher Andrej Karpathy coined the term in February 2025, and it caught on fast.",
+      "Coding assistants and app builders like Cursor, Claude Code, Lovable, Replit or Bolt make this possible even for people who have never programmed. A teacher can build a quiz app in an afternoon; a founder can show investors a working prototype instead of slides. For programmers, it is a quick way to try an idea or write a throwaway script.",
+      "The catch is that code nobody reads is code nobody understands. It can work in the demo and still hide security holes, leak an API key, or fall apart when real users arrive. The common view is that vibe coding is great for prototypes and personal tools, and that anything handling other people's data or money needs someone who reads, tests and understands the code. Using AI to write code that you then review carefully is AI-assisted programming, not vibe coding."
+    ],
+    "analogy": "Ordering a custom cake by describing it to the baker, tasting it and saying \"sweeter\" until you like it. You never see the recipe, which is fine for a birthday and less so if you plan to sell the cake.",
+    "keyPoints": [
+      "You describe, the AI writes, you test by running it.",
+      "Andrej Karpathy coined the term in early 2025.",
+      "Great for prototypes and personal tools.",
+      "Code nobody reviews can hide bugs and security holes."
+    ],
+    "links": [
+      { "label": "Vibe coding on Wikipedia", "url": "https://en.wikipedia.org/wiki/Vibe_coding" },
+      { "label": "Not all AI-assisted programming is vibe coding (Simon Willison)", "url": "https://simonwillison.net/2025/Mar/19/vibe-coding/" }
+    ]
+  },
+  "es": {
+    "title": "Vibe coding",
+    "tagline": "Hacer software describiéndole a una IA lo que querés y aceptando el código que escribe.",
+    "explanation": [
+      "El **vibe coding** es armar un programa casi solo charlando con una IA: describís lo que querés con palabras comunes, la IA escribe el código, lo corrés y, si algo se rompe, le pegás el error y le pedís que lo arregle. El código casi no lo leés, o directamente no lo mirás. El término lo inventó el investigador de IA Andrej Karpathy en febrero de 2025 y se popularizó enseguida.",
+      "Asistentes de programación y constructores de apps como Cursor, Claude Code, Lovable, Replit o Bolt hacen que esto sea posible incluso para gente que nunca programó. Una docente puede armar una app de preguntas en una tarde; alguien que arranca una startup puede mostrarles a los inversores un prototipo que funciona en vez de diapositivas. Para quien ya programa, es una forma rápida de probar una idea o escribir un script descartable.",
+      "La trampa es que el código que nadie lee es código que nadie entiende. Puede andar perfecto en la demo y esconder agujeros de seguridad, filtrar una API key o desarmarse cuando llegan usuarios de verdad. La mirada más extendida es que el vibe coding es buenísimo para prototipos y herramientas personales, y que todo lo que maneje datos o plata de otras personas necesita a alguien que lea, pruebe y entienda el código. Usar IA para escribir código que después revisás con cuidado es programar con asistencia de IA, no vibe coding."
+    ],
+    "analogy": "Encargar una torta describiéndosela a la pastelera, probarla y decirle \"más dulce\" hasta que te guste. La receta no la ves nunca, y eso está bien para un cumpleaños, no tanto si la pensás vender.",
+    "keyPoints": [
+      "Vos describís, la IA escribe y probás corriéndolo.",
+      "Andrej Karpathy inventó el término a principios de 2025.",
+      "Ideal para prototipos y herramientas personales.",
+      "El código que nadie revisa puede esconder bugs y agujeros de seguridad."
+    ],
+    "links": [
+      { "label": "Vibe coding en Wikipedia", "url": "https://es.wikipedia.org/wiki/Vibe_coding" },
+      { "label": "Not all AI-assisted programming is vibe coding, de Simon Willison (en inglés)", "url": "https://simonwillison.net/2025/Mar/19/vibe-coding/" }
+    ]
+  }
+}

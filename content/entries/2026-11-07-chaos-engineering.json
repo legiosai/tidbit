@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-chaos-engineering",
+  "date": "2026-11-07",
+  "subjects": ["cloud", "software"],
+  "level": 3,
+  "aliases": {
+    "en": ["chaos experiment", "chaos experiments", "fault injection", "AWS Fault Injection Service"],
+    "es": ["chaos engineering", "experimento de caos", "experimentos de caos", "inyección de fallas", "AWS Fault Injection Service"]
+  },
+  "image": "img/2026-11-07-chaos-engineering.svg",
+  "imageAlt": {
+    "en": "An engineer deliberately unplugs one of three servers while a graph of the system's steady state stays flat",
+    "es": "Una ingeniera desenchufa a propósito uno de tres servidores mientras el gráfico del estado estable del sistema sigue plano"
+  },
+  "en": {
+    "title": "Chaos engineering",
+    "tagline": "Breaking your own system on purpose, carefully, to find weak spots before outages do.",
+    "explanation": [
+      "**Chaos engineering** is the practice of running controlled experiments that inject failures into a system, such as killing a server, adding network delay, filling a disk or making a dependency return errors, to see whether it keeps working. The idea is that in large distributed systems, failures will happen anyway; better to discover how your system reacts on a Tuesday afternoon with the team watching than at 3 a.m. during a real outage.",
+      "An experiment follows a scientific shape. First you define the **steady state**: a measurable sign that things are normal, like orders per minute or error rate. Then you form a hypothesis (\"if one database replica dies, checkout keeps working\"), inject the fault, and look for a difference. Good practice keeps the **blast radius** small, starting with a fraction of traffic or a test environment, and always has a stop button that rolls everything back.",
+      "Netflix popularized the idea with Chaos Monkey, a tool that randomly shut down its production servers so engineers had to build services that survive it. Today there are open source tools like Chaos Mesh and LitmusChaos for Kubernetes, and managed ones like **AWS Fault Injection Service**. Chaos engineering only makes sense once you have solid observability; otherwise you break things and cannot tell what happened."
+    ],
+    "analogy": "A fire drill, but with a real small fire in a controlled corner of the building, so you learn whether the sprinklers, the alarms and the exits actually work before the day you need them.",
+    "keyPoints": [
+      "Controlled experiments that inject failures to test resilience.",
+      "Define a steady state, form a hypothesis, inject a fault, compare.",
+      "Keep the blast radius small and always have a way to stop.",
+      "Requires good observability to learn anything from the experiment."
+    ],
+    "links": [
+      { "label": "Principles of Chaos Engineering", "url": "https://principlesofchaos.org/" },
+      { "label": "Chaos engineering on Wikipedia", "url": "https://en.wikipedia.org/wiki/Chaos_engineering" },
+      { "label": "What is AWS Fault Injection Service? (official docs)", "url": "https://docs.aws.amazon.com/fis/latest/userguide/what-is.html" }
+    ]
+  },
+  "es": {
+    "title": "Ingeniería del caos",
+    "tagline": "Romper tu propio sistema a propósito, con cuidado, para encontrar puntos débiles.",
+    "explanation": [
+      "La **ingeniería del caos** es la práctica de hacer experimentos controlados que meten fallas en un sistema, como matar un servidor, agregar demora en la red, llenar un disco o hacer que una dependencia devuelva errores, para ver si sigue funcionando. La idea es que en los sistemas distribuidos grandes las fallas van a pasar igual; mejor descubrir cómo reacciona tu sistema un martes a la tarde con el equipo mirando que a las 3 de la mañana en medio de una caída real.",
+      "Un experimento tiene forma científica. Primero definís el **estado estable**: una señal medible de que todo está normal, como pedidos por minuto o tasa de errores. Después planteás una hipótesis (\"si se cae una réplica de la base de datos, el checkout sigue andando\"), inyectás la falla y buscás diferencias. La buena práctica es mantener chico el **radio de explosión** (blast radius), empezando por una parte del tráfico o un entorno de prueba, y tener siempre un botón de parada que vuelve todo atrás.",
+      "Netflix popularizó la idea con Chaos Monkey, una herramienta que apagaba al azar sus servidores de producción para que los ingenieros tuvieran que construir servicios capaces de sobrevivir a eso. Hoy hay herramientas open source como Chaos Mesh y LitmusChaos para Kubernetes, y servicios administrados como **AWS Fault Injection Service**. La ingeniería del caos tiene sentido recién cuando tenés buena observabilidad; si no, rompés cosas y no podés saber qué pasó."
+    ],
+    "analogy": "Un simulacro de incendio, pero con un fuego real y chiquito en un rincón controlado del edificio, para saber si los rociadores, las alarmas y las salidas de verdad funcionan antes del día en que las necesites.",
+    "keyPoints": [
+      "Experimentos controlados que inyectan fallas para probar la resiliencia.",
+      "Definís un estado estable, planteás una hipótesis, inyectás la falla y comparás.",
+      "Radio de explosión chico y siempre una forma de frenar.",
+      "Necesita buena observabilidad para aprender algo del experimento."
+    ],
+    "links": [
+      { "label": "Principios de la ingeniería del caos", "url": "https://principlesofchaos.org/es/" },
+      { "label": "Ingeniería del caos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ingenier%C3%ADa_del_caos" },
+      { "label": "¿Qué es AWS Fault Injection Service? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/fis/latest/userguide/what-is.html" }
+    ]
+  }
+}

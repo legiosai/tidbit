@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-backpropagation",
+  "date": "2026-11-07",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["backprop", "back-propagation", "backward pass"],
+    "es": ["backpropagation", "backprop", "propagación hacia atrás", "retropropagación del error"]
+  },
+  "image": "img/2026-11-07-backpropagation.svg",
+  "imageAlt": {
+    "en": "Three layers and a loss box: a forward arrow runs from input to loss along the top, and a backward arrow carries gradients from the loss to each layer along the bottom",
+    "es": "Tres capas y una caja de pérdida: una flecha hacia adelante va de la entrada a la pérdida por arriba, y una flecha hacia atrás lleva los gradientes de la pérdida a cada capa por abajo"
+  },
+  "en": {
+    "title": "Backpropagation",
+    "tagline": "The algorithm that works out how much each weight contributed to a network's error.",
+    "explanation": [
+      "To improve a neural network with gradient descent you need a gradient for every one of its weights: how much the loss would change if that weight moved a tiny bit. With millions or billions of weights, testing them one by one is hopeless. **Backpropagation** computes all of them in one sweep. It is the chain rule from calculus, applied systematically from the output back to the input.",
+      "It works in two passes. The **forward pass** runs a batch of examples through the network layer by layer and computes the loss, keeping the intermediate results (the activations) in memory. The **backward pass** starts at the loss and walks the layers in reverse. Each layer receives the gradient with respect to its output, uses its stored activations to compute the gradients for its own weights, and hands the gradient with respect to its input to the layer before it. The backward pass costs roughly twice as much as the forward pass, however many weights there are.",
+      "Nobody writes this by hand anymore. Frameworks like PyTorch and JAX record the operations of the forward pass and differentiate them automatically (**automatic differentiation**); calling `loss.backward()` in PyTorch is backpropagation. Those stored activations are a big reason training uses so much more memory than inference, and tricks like activation checkpointing trade extra computation for less memory.",
+      "Backpropagation also explains some classic failures. Multiplying many small derivatives through a deep stack of layers can make gradients shrink toward zero (**vanishing gradients**) or blow up; residual connections, normalization layers and careful initialization exist largely to keep that signal healthy. The method was discovered more than once, and a 1986 paper by David Rumelhart, Geoffrey Hinton and Ronald Williams made it the standard way to train neural networks."
+    ],
+    "analogy": "A kitchen tracing a bad dish backwards. The diner says it is too salty; the head chef asks the sauce station how much salt it added, the sauce station asks the stock station, and so on down the line, so every cook learns how much of the problem was theirs and adjusts next time.",
+    "keyPoints": [
+      "It is the chain rule applied layer by layer, from output to input.",
+      "The forward pass computes the loss; the backward pass computes every gradient.",
+      "Stored activations make training far hungrier for memory than inference.",
+      "Frameworks do it automatically: `loss.backward()` in PyTorch."
+    ],
+    "links": [
+      { "label": "Backpropagation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Backpropagation" },
+      { "label": "What is backpropagation really doing? (3Blue1Brown)", "url": "https://www.3blue1brown.com/lessons/backpropagation" }
+    ]
+  },
+  "es": {
+    "title": "Retropropagación",
+    "tagline": "El algoritmo que calcula cuánto contribuyó cada peso al error de una red neuronal.",
+    "explanation": [
+      "Para mejorar una red neuronal con descenso de gradiente necesitás un gradiente para cada uno de sus pesos: cuánto cambiaría la pérdida si ese peso se moviera un poquito. Con millones o miles de millones de pesos, probarlos de a uno es imposible. La **retropropagación** (backpropagation) los calcula todos de una sola pasada. Es la regla de la cadena del cálculo, aplicada de forma sistemática desde la salida hacia la entrada.",
+      "Funciona en dos pasadas. La **pasada hacia adelante** (forward pass) hace pasar un lote de ejemplos por la red, capa por capa, calcula la pérdida y guarda en memoria los resultados intermedios (las activaciones). La **pasada hacia atrás** (backward pass) arranca en la pérdida y recorre las capas al revés. Cada capa recibe el gradiente respecto de su salida, usa sus activaciones guardadas para calcular los gradientes de sus propios pesos y le pasa a la capa anterior el gradiente respecto de su entrada. La pasada hacia atrás cuesta más o menos el doble que la de ida, sin importar cuántos pesos haya.",
+      "Hoy nadie la programa a mano. Frameworks como PyTorch y JAX registran las operaciones de la pasada hacia adelante y las derivan solos (**diferenciación automática**); llamar a `loss.backward()` en PyTorch es hacer retropropagación. Esas activaciones guardadas son una gran razón por la que el entrenamiento usa mucha más memoria que la inferencia, y trucos como el activation checkpointing cambian cálculo extra por menos memoria.",
+      "La retropropagación también explica algunas fallas clásicas. Multiplicar muchas derivadas chiquitas a través de una pila profunda de capas puede hacer que los gradientes se achiquen hasta casi cero (**desvanecimiento del gradiente**) o que exploten; las conexiones residuales, las capas de normalización y una buena inicialización existen en buena parte para mantener sana esa señal. El método se descubrió más de una vez, y un artículo de 1986 de David Rumelhart, Geoffrey Hinton y Ronald Williams lo convirtió en la forma estándar de entrenar redes neuronales."
+    ],
+    "analogy": "Una cocina que rastrea un plato fallido hacia atrás. El cliente dice que está salado; el jefe de cocina le pregunta a la estación de salsas cuánta sal puso, la de salsas le pregunta a la del caldo, y así por toda la línea, hasta que cada cocinero sabe qué parte del problema fue suya y la corrige la próxima vez.",
+    "keyPoints": [
+      "Es la regla de la cadena aplicada capa por capa, de la salida a la entrada.",
+      "La pasada hacia adelante calcula la pérdida; la de vuelta, todos los gradientes.",
+      "Las activaciones guardadas hacen que entrenar pida mucha más memoria que inferir.",
+      "Los frameworks la hacen solos: `loss.backward()` en PyTorch."
+    ],
+    "links": [
+      { "label": "Propagación hacia atrás en Wikipedia", "url": "https://es.wikipedia.org/wiki/Propagaci%C3%B3n_hacia_atr%C3%A1s" },
+      { "label": "What is backpropagation really doing?, de 3Blue1Brown (en inglés)", "url": "https://www.3blue1brown.com/lessons/backpropagation" }
+    ]
+  }
+}

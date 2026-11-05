@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-legacy-system",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["legacy systems", "legacy code", "legacy software"],
+    "es": ["sistemas legacy", "sistema heredado", "sistemas heredados", "código legacy", "software legacy"]
+  },
+  "image": "img/2026-11-08-legacy-system.svg",
+  "imageAlt": {
+    "en": "An old mainframe running COBOL, wrapped in an API layer that connects it to a mobile app and a website",
+    "es": "Un mainframe viejo que corre COBOL, envuelto en una capa de API que lo conecta con una app móvil y un sitio web"
+  },
+  "en": {
+    "title": "Legacy system",
+    "tagline": "Old software a business still depends on and cannot easily replace.",
+    "explanation": [
+      "A **legacy system** is software, and often the hardware under it, that is old but still doing important work. Think of a bank's core accounts system written decades ago, an airline's booking engine or the program that runs a government's tax records. Many are written in old languages like COBOL and run on mainframes. Nobody would build them that way today, but they work, and the business runs on them.",
+      "The trouble is that change gets harder every year. The people who wrote the code have retired, the documentation is thin, developers who know the language are scarce and expensive, and the system may not connect easily to modern apps or the cloud. Every new feature turns into a careful operation on code nobody fully understands.",
+      "Replacing it is risky too: a full rewrite can take years and break things the old system handled quietly. So many companies modernize step by step, wrapping the old system in an API so new apps can talk to it, then moving pieces out one at a time. \"Legacy\" is not an insult; it usually means the software was useful enough to outlive its era."
+    ],
+    "analogy": "The old wiring in a house. It still carries power, but every time you want a new outlet you have to call the one electrician who understands it, and nobody wants to tear down the walls to replace it all.",
+    "keyPoints": [
+      "A legacy system is old but still critical to the business.",
+      "Banks, airlines and governments run many of them, often in COBOL on mainframes.",
+      "Changing them is slow, risky and expensive, and experts are scarce.",
+      "Most organizations modernize gradually instead of rewriting everything at once."
+    ],
+    "links": [
+      { "label": "Legacy system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Legacy_system" },
+      { "label": "COBOL on Wikipedia", "url": "https://en.wikipedia.org/wiki/COBOL" }
+    ]
+  },
+  "es": {
+    "title": "Sistema legacy",
+    "tagline": "Software viejo del que una organización depende y que no puede reemplazar fácil.",
+    "explanation": [
+      "Un **sistema legacy** (o sistema heredado) es software, y muchas veces también el hardware donde corre, que es viejo pero sigue haciendo un trabajo importante. Pensá en el sistema central de cuentas de un banco escrito hace décadas, el motor de reservas de una aerolínea o el programa que maneja los registros impositivos de un gobierno. Muchos están escritos en lenguajes viejos como COBOL y corren en mainframes. Nadie los haría así hoy, pero funcionan, y el negocio se apoya en ellos.",
+      "El problema es que cambiarlos se vuelve más difícil cada año. La gente que escribió el código se jubiló, la documentación es escasa, los desarrolladores que saben el lenguaje son pocos y caros, y el sistema puede no conectarse fácil con apps modernas o con la nube. Cada funcionalidad nueva se convierte en una operación delicada sobre código que nadie entiende del todo.",
+      "Reemplazarlo también es riesgoso: reescribir todo puede llevar años y romper cosas que el sistema viejo resolvía en silencio. Por eso muchas empresas lo modernizan de a poco: lo envuelven con una API para que las apps nuevas puedan hablarle y después van sacando partes de a una. Decir \"legacy\" no es un insulto; casi siempre significa que el software fue lo bastante útil como para sobrevivir a su época."
+    ],
+    "analogy": "La instalación eléctrica vieja de una casa. Sigue dando luz, pero cada vez que querés un enchufe nuevo tenés que llamar al único electricista que la entiende, y nadie quiere romper las paredes para cambiarla entera.",
+    "keyPoints": [
+      "Un sistema legacy es viejo pero sigue siendo clave para la organización.",
+      "Bancos, aerolíneas y gobiernos tienen muchos, a menudo en COBOL sobre mainframes.",
+      "Cambiarlos es lento, riesgoso y caro, y los expertos escasean.",
+      "La mayoría de las organizaciones los modernizan de a poco en vez de reescribir todo de una."
+    ],
+    "links": [
+      { "label": "Sistema heredado en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_heredado" },
+      { "label": "COBOL en Wikipedia", "url": "https://es.wikipedia.org/wiki/COBOL" }
+    ]
+  }
+}

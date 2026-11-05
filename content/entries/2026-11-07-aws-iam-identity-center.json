@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-07-aws-iam-identity-center",
+  "date": "2026-11-07",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["IAM Identity Center", "AWS Single Sign-On", "AWS SSO"],
+    "es": ["IAM Identity Center", "AWS Single Sign-On", "AWS SSO"]
+  },
+  "image": "img/2026-11-07-aws-iam-identity-center.svg",
+  "imageAlt": {
+    "en": "Employees sign in once through a company directory and reach several AWS accounts and apps from a single portal",
+    "es": "Empleados que inician sesión una sola vez con el directorio de la empresa y llegan a varias cuentas y aplicaciones de AWS desde un mismo portal"
+  },
+  "en": {
+    "title": "AWS IAM Identity Center",
+    "tagline": "One sign-in for a company's people to reach all its AWS accounts and apps.",
+    "explanation": [
+      "**AWS IAM Identity Center** is where a company manages how its own staff get into AWS. Instead of creating a separate IAM user with a password in every AWS account, you connect the directory you already use (Microsoft Entra ID, Okta, Google Workspace and others) or create users right in Identity Center. People then sign in once and see a portal with the accounts and applications they are allowed to use.",
+      "Access is described with **permission sets**: a named bundle of permissions such as \"read-only\" or \"database admin\". You assign a group, say \"data team\", a permission set in specific accounts, and Identity Center creates the matching IAM roles behind the scenes. When someone leaves the company and is disabled in the directory, their AWS access goes with it. Command-line tools get short-lived credentials too, so nobody needs long-term access keys on their laptop.",
+      "It used to be called **AWS Single Sign-On** (AWS SSO) and was renamed in 2022. It works hand in hand with AWS Organizations, which groups the accounts it gives access to. IAM is still the engine that decides what each role can do; Identity Center is the front door for people."
+    ],
+    "analogy": "A hotel key card system: the front desk checks your ID once and programs one card that opens your room, the gym and the pool, but not the kitchen. When you check out, the card simply stops working everywhere.",
+    "keyPoints": [
+      "Single sign-on for a workforce across many AWS accounts and apps.",
+      "Connects to an existing directory or keeps its own users.",
+      "Permission sets define what a group can do in each account.",
+      "Formerly AWS Single Sign-On; renamed in 2022."
+    ],
+    "links": [
+      { "label": "What is IAM Identity Center? (official docs)", "url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html" },
+      { "label": "AWS IAM Identity Center product page", "url": "https://aws.amazon.com/iam/identity-center/" }
+    ]
+  },
+  "es": {
+    "title": "AWS IAM Identity Center",
+    "tagline": "Un único inicio de sesión para que tu gente entre a todas las cuentas y apps de AWS.",
+    "explanation": [
+      "**AWS IAM Identity Center** es donde una empresa administra cómo entra su propia gente a AWS. En vez de crear un usuario de IAM con contraseña en cada cuenta de AWS, conectás el directorio que ya usás (Microsoft Entra ID, Okta, Google Workspace y otros) o creás los usuarios directamente en Identity Center. Después cada persona inicia sesión una vez y ve un portal con las cuentas y aplicaciones a las que tiene acceso.",
+      "Los accesos se describen con **permission sets** (conjuntos de permisos): un paquete con nombre, como \"solo lectura\" o \"admin de base de datos\". Le asignás a un grupo, digamos \"equipo de datos\", un conjunto de permisos en ciertas cuentas, e Identity Center crea por atrás los roles de IAM que hacen falta. Cuando alguien se va de la empresa y lo desactivan en el directorio, su acceso a AWS se va con él. Las herramientas de línea de comandos también reciben credenciales de corta duración, así que nadie necesita claves de acceso permanentes en su notebook.",
+      "Antes se llamaba **AWS Single Sign-On** (AWS SSO) y en 2022 le cambiaron el nombre. Trabaja de la mano con AWS Organizations, que agrupa las cuentas a las que da acceso. IAM sigue siendo el motor que decide qué puede hacer cada rol; Identity Center es la puerta de entrada para las personas."
+    ],
+    "analogy": "La tarjeta de un hotel: en la recepción te piden el documento una vez y te programan una tarjeta que abre tu habitación, el gimnasio y la pileta, pero no la cocina. Cuando hacés el checkout, deja de funcionar en todos lados.",
+    "keyPoints": [
+      "Inicio de sesión único para el personal en muchas cuentas y apps de AWS.",
+      "Se conecta a un directorio existente o maneja sus propios usuarios.",
+      "Los permission sets definen qué puede hacer un grupo en cada cuenta.",
+      "Antes se llamaba AWS Single Sign-On; cambió de nombre en 2022."
+    ],
+    "links": [
+      { "label": "¿Qué es IAM Identity Center? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/singlesignon/latest/userguide/what-is.html" },
+      { "label": "Página de AWS IAM Identity Center", "url": "https://aws.amazon.com/es/iam/identity-center/" }
+    ]
+  }
+}

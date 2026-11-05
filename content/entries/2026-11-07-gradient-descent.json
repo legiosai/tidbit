@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-gradient-descent",
+  "date": "2026-11-07",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["stochastic gradient descent", "SGD", "mini-batch gradient descent"],
+    "es": ["descenso del gradiente", "descenso por gradiente", "gradient descent", "descenso de gradiente estocástico", "SGD"]
+  },
+  "image": "img/2026-11-07-gradient-descent.svg",
+  "imageAlt": {
+    "en": "A U-shaped loss curve with a ball taking smaller and smaller steps downhill toward the minimum, opposite to the slope",
+    "es": "Una curva de pérdida en forma de U con una bolita que da pasos cada vez más cortos cuesta abajo hacia el mínimo, en contra de la pendiente"
+  },
+  "en": {
+    "title": "Gradient descent",
+    "tagline": "The method that tunes a model's weights by taking small steps downhill on its error.",
+    "explanation": [
+      "Training a neural network means finding weights that make its mistakes small. Those mistakes are summed up by a **loss function**: one number that says how wrong the model is on a batch of examples. **Gradient descent** is the standard way to lower it. The **gradient** is the list of partial derivatives of the loss with respect to every weight, and it points in the direction where the loss grows fastest. So you step the opposite way: `w = w - lr * grad`, for every weight, then repeat, often millions of times.",
+      "The **learning rate** (`lr`) sets the step size and is the most sensitive knob. Too large and the loss bounces around or blows up; too small and training crawls. It is common to warm it up at the start and lower it as training goes on. Computing the exact gradient over the whole dataset at every step would be far too slow, so **stochastic gradient descent** (SGD) estimates it from a small random mini-batch. The estimate is noisy, but cheap, and the noise even helps the model avoid getting stuck in poor regions.",
+      "Large models rarely use plain SGD. Optimizers like Adam and AdamW keep running averages of past gradients (momentum) and scale each weight's step by how large its gradients have been, which makes training far less fussy. That bookkeeping costs memory: AdamW stores two extra numbers per weight, one reason training needs several times the memory of simply running the model.",
+      "A large network's loss landscape is not a neat bowl. It has an enormous number of dimensions, flat plateaus and saddle points, and gradient descent gives no guarantee of finding the lowest point. In practice it reliably finds weights that work well on new data, which is why it trains essentially every modern model. The gradients themselves come from backpropagation; gradient descent decides what to do with them. The idea is old: the mathematician Augustin-Louis Cauchy described it in 1847."
+    ],
+    "analogy": "Walking down a mountain in thick fog. You cannot see the valley, but you can feel which way the ground tilts under your feet, so you take a step downhill, feel again and repeat. Long strides get you down faster, but they can also carry you across the valley and up the other side.",
+    "keyPoints": [
+      "Update rule: each weight minus the learning rate times its gradient.",
+      "SGD estimates the gradient on small random mini-batches.",
+      "Adam and AdamW add momentum and per-weight step sizes, at a memory cost.",
+      "There is no guarantee of the best minimum, but it works well in practice."
+    ],
+    "links": [
+      { "label": "Gradient descent on Wikipedia", "url": "https://en.wikipedia.org/wiki/Gradient_descent" },
+      { "label": "Gradient descent (Google Machine Learning Crash Course)", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent" }
+    ]
+  },
+  "es": {
+    "title": "Descenso de gradiente",
+    "tagline": "El método que ajusta los pesos de un modelo dando pasitos cuesta abajo en su error.",
+    "explanation": [
+      "Entrenar una red neuronal es encontrar pesos que hagan chicos sus errores. Esos errores se resumen en una **función de pérdida**: un solo número que dice qué tan mal le va al modelo con un lote de ejemplos. El **descenso de gradiente** es la forma estándar de bajarlo. El **gradiente** es la lista de derivadas parciales de la pérdida respecto de cada peso, y apunta hacia donde la pérdida crece más rápido. Entonces das un paso para el otro lado: `w = w - lr * grad`, para cada peso, y repetís, muchas veces millones de veces.",
+      "La **tasa de aprendizaje** (learning rate, `lr`) fija el largo del paso y es la perilla más delicada. Si es muy grande, la pérdida rebota o se dispara; si es muy chica, el entrenamiento avanza a paso de tortuga. Es común arrancar con un calentamiento y bajarla a medida que avanza el entrenamiento. Calcular el gradiente exacto sobre todo el dataset en cada paso sería lentísimo, así que el **descenso de gradiente estocástico** (SGD) lo estima con un mini-lote chico elegido al azar. La estimación tiene ruido, pero es barata, y ese ruido hasta ayuda a no quedarse trabado en zonas malas.",
+      "Los modelos grandes casi nunca usan SGD a secas. Optimizadores como Adam y AdamW llevan promedios de los gradientes anteriores (momentum) y ajustan el paso de cada peso según qué tan grandes vinieron siendo sus gradientes, lo que vuelve el entrenamiento mucho menos caprichoso. Esa contabilidad cuesta memoria: AdamW guarda dos números extra por cada peso, una de las razones por las que entrenar necesita varias veces la memoria que hace falta para solo usar el modelo.",
+      "El paisaje de pérdida de una red grande no es un bol prolijo. Tiene una cantidad enorme de dimensiones, mesetas planas y puntos de silla, y el descenso de gradiente no garantiza encontrar el punto más bajo. En la práctica encuentra, de forma confiable, pesos que andan bien con datos nuevos, y por eso entrena prácticamente todos los modelos actuales. Los gradientes salen de la retropropagación; el descenso de gradiente decide qué hacer con ellos. La idea es vieja: el matemático Augustin-Louis Cauchy la describió en 1847."
+    ],
+    "analogy": "Bajar una montaña con niebla cerrada. No ves el valle, pero sentís para qué lado se inclina el piso bajo tus pies, así que das un paso cuesta abajo, volvés a tantear y repetís. Los pasos largos te bajan más rápido, pero también te pueden hacer cruzar el valle y subir por la otra ladera.",
+    "keyPoints": [
+      "Regla de actualización: cada peso menos la tasa de aprendizaje por su gradiente.",
+      "El SGD estima el gradiente con mini-lotes chicos elegidos al azar.",
+      "Adam y AdamW suman momentum y pasos por peso, a costa de memoria.",
+      "No garantiza el mejor mínimo, pero en la práctica funciona bien."
+    ],
+    "links": [
+      { "label": "Descenso del gradiente en Wikipedia", "url": "https://es.wikipedia.org/wiki/Descenso_del_gradiente" },
+      { "label": "Descenso de gradientes (Curso intensivo de aprendizaje automático de Google)", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent?hl=es-419" }
+    ]
+  }
+}

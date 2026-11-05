@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-4g-lte",
+  "date": "2026-11-08",
+  "subjects": ["networks"],
+  "level": 1,
+  "aliases": {
+    "en": ["4G", "LTE", "Long Term Evolution", "4G network", "4G networks"],
+    "es": ["4G", "LTE", "Long Term Evolution", "red 4G", "redes 4G"]
+  },
+  "image": "img/2026-11-08-4g-lte.svg",
+  "imageAlt": {
+    "en": "A 4G tower sends voice, video and maps to a phone, all travelling in the same lane as internet data",
+    "es": "Una antena 4G le manda voz, video y mapas a un teléfono, todo viajando por el mismo carril como datos de internet"
+  },
+  "en": {
+    "title": "4G LTE",
+    "tagline": "The fourth generation of mobile networks, the one that made phones truly fast online.",
+    "explanation": [
+      "**4G** is the fourth generation of mobile phone networks, and **LTE** (Long Term Evolution) is the technology almost every 4G network runs on, so the two names travel together. The first commercial LTE networks opened in Stockholm and Oslo at the end of 2009, and within a few years LTE was the standard across most of the world.",
+      "The big change from 3G was that 4G carries everything as internet data. Earlier networks were designed around phone calls, with data added on the side; LTE is built entirely on IP, the same addressing the internet uses. Even voice calls travel as data, through a system called **VoLTE**. That is what made video streaming, video calls, maps and ride-hailing apps feel normal on a phone.",
+      "4G is far from retired. In many countries it still carries a large share of mobile traffic and covers places 5G does not reach yet, and many 5G networks lean on the 4G network underneath. When your phone shows \"LTE\" or \"4G\", it is on this generation; when coverage is weak it may drop further, to 3G or 2G where those still exist."
+    ],
+    "analogy": "A postal service that stops running separate trucks for letters and parcels. Everything, even your voice, now goes in the same kind of package, on the same roads.",
+    "keyPoints": [
+      "4G is the generation; LTE is the technology behind nearly all 4G networks.",
+      "It carries everything as internet data, even voice calls (VoLTE).",
+      "The first commercial LTE networks launched at the end of 2009.",
+      "It still covers much of the world and supports many 5G networks."
+    ],
+    "links": [
+      { "label": "LTE on Wikipedia", "url": "https://en.wikipedia.org/wiki/LTE_(telecommunication)" },
+      { "label": "4G on Wikipedia", "url": "https://en.wikipedia.org/wiki/4G" }
+    ]
+  },
+  "es": {
+    "title": "4G LTE",
+    "tagline": "La cuarta generación de redes móviles, la que hizo rápida la internet en el celular.",
+    "explanation": [
+      "**4G** es la cuarta generación de redes de telefonía móvil, y **LTE** (Long Term Evolution) es la tecnología sobre la que funcionan casi todas las redes 4G, por eso los dos nombres andan juntos. Las primeras redes LTE comerciales abrieron en Estocolmo y Oslo a fines de 2009, y en pocos años LTE ya era el estándar en casi todo el mundo.",
+      "El gran cambio respecto de 3G es que 4G lleva todo como datos de internet. Las redes anteriores estaban pensadas para llamadas, con los datos agregados al costado; LTE está construida enteramente sobre IP, el mismo sistema de direcciones que usa internet. Hasta las llamadas viajan como datos, con un sistema que se llama **VoLTE**. Eso es lo que hizo que ver videos, hacer videollamadas, usar mapas o pedir un auto desde el celular se volviera algo normal.",
+      "4G está lejos de jubilarse. En muchos países todavía lleva una parte grande del tráfico móvil y cubre lugares adonde 5G todavía no llega, y muchas redes 5G se apoyan en la red 4G que tienen debajo. Cuando tu celular muestra \"LTE\" o \"4G\", está en esta generación; si la señal es débil puede bajar más, a 3G o 2G donde todavía existen."
+    ],
+    "analogy": "Un correo que deja de tener camiones separados para cartas y para paquetes. Todo, hasta tu voz, va en el mismo tipo de paquete y por las mismas rutas.",
+    "keyPoints": [
+      "4G es la generación; LTE es la tecnología detrás de casi todas las redes 4G.",
+      "Lleva todo como datos de internet, incluso las llamadas (VoLTE).",
+      "Las primeras redes LTE comerciales arrancaron a fines de 2009.",
+      "Todavía cubre buena parte del mundo y sostiene muchas redes 5G."
+    ],
+    "links": [
+      { "label": "LTE en Wikipedia", "url": "https://es.wikipedia.org/wiki/LTE_(telecomunicaciones)" },
+      { "label": "4G en Wikipedia", "url": "https://es.wikipedia.org/wiki/4G" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-slack",
+  "date": "2026-11-08",
+  "subjects": ["companies", "software"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Slack channel", "Slack channels", "Slack workspace"],
+    "es": ["canal de Slack", "canales de Slack"]
+  },
+  "image": "img/2026-11-08-slack.svg",
+  "imageAlt": {
+    "en": "A chat app window with a list of channels on the left, such as general, design and incidents, and a conversation on the right with messages, a thread and an automatic alert posted by a bot",
+    "es": "La ventana de una app de chat con una lista de canales a la izquierda, como general, design e incidents, y a la derecha una conversación con mensajes, un hilo y una alerta automática que publicó un bot"
+  },
+  "en": {
+    "title": "Slack",
+    "tagline": "A chat app for work, organized in channels instead of endless email threads.",
+    "explanation": [
+      "**Slack** is a messaging app for teams. Instead of long email chains, conversations happen in channels named by topic or project, such as `#design`, `#sales` or `#incidents`, that anyone on the team can join, search and catch up on later. There are also direct messages, threads to keep side discussions tidy, quick voice and video calls, and file sharing.",
+      "It was born by accident. Stewart Butterfield's company was building an online game called Glitch and, to coordinate, the team had made an internal chat tool. The game failed, but the tool looked promising, and it launched as Slack in 2014. It spread fast among tech companies, partly because it was free to start and easy to try with a small team.",
+      "A big part of Slack's appeal is integrations. Other tools can post into channels: a build failing, a new sale, a server alert, a calendar reminder. Bots and AI assistants can answer questions there too. Salesforce bought Slack in a deal completed in 2021, and its main rival today is Microsoft Teams, which comes bundled with Microsoft 365."
+    ],
+    "analogy": "An office where each project has its own room with the door open. You walk into the rooms you care about, read what was said while you were away, and nobody has to forward you anything.",
+    "keyPoints": [
+      "Conversations are organized in channels by topic, plus direct messages.",
+      "Came out of an internal tool built for a game that failed.",
+      "Integrations and bots post alerts and updates into channels.",
+      "Owned by Salesforce since 2021; main rival is Microsoft Teams."
+    ],
+    "links": [
+      { "label": "Slack (official site)", "url": "https://slack.com/" },
+      { "label": "Slack (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Slack_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Slack",
+    "tagline": "Una app de chat para el trabajo, ordenada en canales en vez de cadenas eternas de mails.",
+    "explanation": [
+      "**Slack** es una app de mensajería para equipos. En vez de cadenas largas de mails, las conversaciones pasan en canales con nombre de tema o proyecto, como `#design`, `#ventas` o `#incidentes`, a los que cualquiera del equipo puede sumarse, buscar y ponerse al día después. También hay mensajes directos, hilos para que las charlas paralelas no ensucien el canal, llamadas rápidas de voz y video, y archivos compartidos.",
+      "Nació de casualidad. La empresa de Stewart Butterfield estaba haciendo un juego online llamado Glitch y, para coordinarse, el equipo había armado una herramienta de chat interna. El juego no funcionó, pero la herramienta prometía, y salió como Slack en 2014. Se expandió rápido entre las empresas tech, en parte porque era gratis para empezar y fácil de probar con un equipo chico.",
+      "Gran parte del atractivo de Slack son las integraciones. Otras herramientas pueden publicar en los canales: un build que falló, una venta nueva, una alerta de un servidor, un recordatorio del calendario. Bots y asistentes de IA también pueden responder preguntas ahí. Salesforce compró Slack en una operación que se cerró en 2021, y hoy su gran rival es Microsoft Teams, que viene incluido en Microsoft 365."
+    ],
+    "analogy": "Una oficina donde cada proyecto tiene su propia sala con la puerta abierta. Entrás a las salas que te importan, leés lo que se dijo mientras no estabas y nadie te tiene que reenviar nada.",
+    "keyPoints": [
+      "Las conversaciones se ordenan en canales por tema, más mensajes directos.",
+      "Salió de una herramienta interna hecha para un juego que fracasó.",
+      "Las integraciones y los bots publican alertas y novedades en los canales.",
+      "Es de Salesforce desde 2021; su gran rival es Microsoft Teams."
+    ],
+    "links": [
+      { "label": "Slack (sitio oficial)", "url": "https://slack.com/intl/es-ar/" },
+      { "label": "Slack en Wikipedia", "url": "https://es.wikipedia.org/wiki/Slack_(software)" }
+    ]
+  }
+}

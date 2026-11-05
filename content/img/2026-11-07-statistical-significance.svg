@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M306 150 L322 164 L340 174 L360 178 V180 H306 Z" fill="#f4a7a7"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M40 180 H360"/>
+    <path d="M40 178 C110 176 140 50 200 50 C260 50 290 176 360 178"/>
+    <path d="M200 50 V180" stroke-dasharray="4 4"/>
+    <path d="M322 120 V170"/><path d="M318 162 l4 8 4 -8"/>
+  </g>
+  <circle cx="322" cy="114" r="6" fill="#ffd166" stroke="#2b2b2b" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="38">if it were just chance</text>
+    <text x="322" y="96">our result</text>
+    <text x="200" y="198">no difference</text>
+  </g>
+  <text x="322" y="198" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">p &lt; 0.05</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">unlikely by luck, probably real</text>
+</svg>

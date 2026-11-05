@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-07-ai-regulation",
+  "date": "2026-11-07",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["AI regulations", "AI Act", "EU AI Act", "Artificial Intelligence Act", "AI law", "AI laws"],
+    "es": ["regulación de la inteligencia artificial", "AI Act", "EU AI Act", "Ley de IA", "Ley de IA de la Unión Europea", "Ley de Inteligencia Artificial", "Reglamento de IA", "Reglamento de Inteligencia Artificial"]
+  },
+  "image": "img/2026-11-07-ai-regulation.svg",
+  "imageAlt": {
+    "en": "A risk pyramid with four levels: banned uses at the top, then high risk, then transparency duties, and minimal risk at the wide base",
+    "es": "Una pirámide de riesgo con cuatro niveles: usos prohibidos arriba, después alto riesgo, después obligaciones de transparencia y riesgo mínimo en la base ancha"
+  },
+  "en": {
+    "title": "AI regulation",
+    "tagline": "The laws that set what AI systems may do, and who answers when they go wrong.",
+    "explanation": [
+      "**AI regulation** is the set of laws and rules governments write for artificial intelligence: what is forbidden, what needs extra checks, what people must be told. It is not one law but a patchwork that is changing quickly, because AI now helps decide who gets a loan, a job interview or a medical test.",
+      "The most complete example is the European Union's **AI Act**, which entered into force in August 2024 and whose obligations kick in gradually over several years. It sorts uses by risk. A few are banned outright, such as social scoring by governments or systems that manipulate people by exploiting their vulnerabilities. High-risk uses, like screening CVs, grading exams or deciding on credit, must meet requirements on data quality, human oversight and documentation. Chatbots and deepfakes carry transparency duties: people must know they are talking to a machine or looking at AI-made content. Everyday uses like spam filters get no new obligations. Fines for the worst violations can reach 35 million euros or 7% of a company's worldwide annual turnover.",
+      "Elsewhere the picture is mixed. The United States has no single federal AI law and relies on existing rules plus a growing number of state laws; China has specific rules for generative AI and recommendation algorithms; Brazil, Canada and others have debated their own bills. Older laws also still apply to AI: privacy rules like GDPR, consumer protection, anti-discrimination. For a company, the practical question is less \"is AI legal?\" and more \"what does this particular use require?\""
+    ],
+    "analogy": "Food safety rules. Nobody bans cooking, but a restaurant gets inspected, a baby formula maker gets inspected far more strictly, and a few ingredients are simply forbidden. The AI Act applies the same idea by level of risk.",
+    "keyPoints": [
+      "The EU AI Act sorts AI uses by risk: banned, high, limited, minimal.",
+      "High-risk uses (hiring, credit, exams) need human oversight and documentation.",
+      "People must be told when they talk to a bot or see AI-made content.",
+      "Privacy, consumer and anti-discrimination laws already apply to AI."
+    ],
+    "links": [
+      { "label": "AI Act (European Commission)", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" },
+      { "label": "Regulation of artificial intelligence on Wikipedia", "url": "https://en.wikipedia.org/wiki/Regulation_of_artificial_intelligence" },
+      { "label": "Artificial Intelligence Act on Wikipedia", "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act" }
+    ]
+  },
+  "es": {
+    "title": "Regulación de la IA",
+    "tagline": "Las leyes que fijan qué puede hacer la IA y quién responde cuando sale mal.",
+    "explanation": [
+      "La **regulación de la IA** es el conjunto de leyes y normas que los gobiernos escriben para la inteligencia artificial: qué está prohibido, qué necesita controles extra, qué hay que avisarle a la gente. No es una sola ley sino un mosaico que cambia rápido, porque la IA ya ayuda a decidir quién consigue un crédito, una entrevista de trabajo o un estudio médico.",
+      "El ejemplo más completo es la **Ley de IA** de la Unión Europea (el AI Act), que entró en vigor en agosto de 2024 y cuyas obligaciones se van activando de a poco a lo largo de varios años. Ordena los usos según su riesgo. Unos pocos están directamente prohibidos, como el puntaje social de ciudadanos por parte de gobiernos o los sistemas que manipulan a las personas aprovechándose de sus vulnerabilidades. Los de alto riesgo, como filtrar currículums, corregir exámenes o decidir un crédito, tienen que cumplir requisitos de calidad de datos, supervisión humana y documentación. Los chatbots y los deepfakes tienen obligaciones de transparencia: la gente tiene que saber que está hablando con una máquina o mirando contenido hecho con IA. Los usos cotidianos, como un filtro de spam, no suman obligaciones nuevas. Las multas por las peores infracciones pueden llegar a 35 millones de euros o al 7% de la facturación anual mundial de la empresa.",
+      "En el resto del mundo el panorama es desparejo. Estados Unidos no tiene una ley federal única de IA y se apoya en normas existentes y en una cantidad creciente de leyes estaduales; China tiene reglas específicas para la IA generativa y los algoritmos de recomendación; Brasil, Canadá y otros países debatieron proyectos propios. Y las leyes de siempre también alcanzan a la IA: privacidad, como el RGPD, defensa del consumidor, antidiscriminación. Para una empresa, la pregunta práctica no es tanto \"¿es legal la IA?\" sino \"¿qué exige este uso en particular?\""
+    ],
+    "analogy": "Las normas de seguridad alimentaria. Nadie prohíbe cocinar, pero a un restaurante lo inspeccionan, a una fábrica de leche para bebés la inspeccionan mucho más, y algunos ingredientes están directamente prohibidos. La Ley de IA aplica la misma idea según el nivel de riesgo.",
+    "keyPoints": [
+      "La Ley de IA europea ordena los usos por riesgo: prohibido, alto, limitado, mínimo.",
+      "Los usos de alto riesgo (contratación, créditos, exámenes) piden supervisión humana y documentación.",
+      "Hay que avisar cuando alguien habla con un bot o ve contenido hecho con IA.",
+      "Las leyes de privacidad, consumo y antidiscriminación ya se aplican a la IA."
+    ],
+    "links": [
+      { "label": "Ley de IA (Comisión Europea)", "url": "https://digital-strategy.ec.europa.eu/es/policies/regulatory-framework-ai" },
+      { "label": "Regulación de la inteligencia artificial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Regulaci%C3%B3n_de_la_inteligencia_artificial" },
+      { "label": "Ley de Inteligencia Artificial en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ley_de_Inteligencia_Artificial" }
+    ]
+  }
+}

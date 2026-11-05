@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-08-cron-job",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["cron jobs", "cron", "crontab", "cron expression", "cron expressions"],
+    "es": ["cron jobs", "cron", "crontab", "tarea cron", "tareas cron", "expresión cron", "expresiones cron"]
+  },
+  "image": "img/2026-11-08-cron-job.svg",
+  "imageAlt": {
+    "en": "A clock at 3:00 triggers a crontab line that runs a backup script, and it runs again every day",
+    "es": "Un reloj a las 3:00 dispara una línea del crontab que corre un script de backup, y se repite todos los días"
+  },
+  "en": {
+    "title": "Cron job",
+    "tagline": "A command a computer runs on its own on a schedule, like every night at 3 a.m.",
+    "explanation": [
+      "**Cron** is a scheduler that has come with Unix-like systems since the 1970s. Its job is to run commands at set times. Each scheduled task is a **cron job**: back up the database every night, send a report every Monday, clean out old files every hour. The list of jobs lives in a file called the **crontab**.",
+      "Every job has a schedule written as five fields: minute, hour, day of the month, month and day of the week. An asterisk means \"any\". So `0 3 * * *` means \"at minute 0 of hour 3, every day\", and `*/15 * * * *` means every fifteen minutes. The notation is compact and famously easy to get wrong, so people often check it with an online tool before saving.",
+      "The idea outlived the tool. Cloud schedulers, Kubernetes, GitHub Actions and many hosting platforms let you schedule tasks with the same cron syntax. Two classic traps: the schedule runs in the server's time zone, which may not be yours, and a failed cron job makes no noise unless someone set up logs or alerts to notice."
+    ],
+    "analogy": "An alarm clock with a to-do list taped to it. When it rings, the task gets done on its own, whether anyone is awake or not.",
+    "keyPoints": [
+      "A cron job is a command scheduled to run automatically.",
+      "Schedules use five fields: minute, hour, day of month, month, day of week.",
+      "`0 3 * * *` means every day at 3:00.",
+      "Check the time zone and add alerts: failures are silent by default."
+    ],
+    "links": [
+      { "label": "Cron on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cron" },
+      { "label": "crontab(5) manual page", "url": "https://man7.org/linux/man-pages/man5/crontab.5.html" }
+    ]
+  },
+  "es": {
+    "title": "Cron job",
+    "tagline": "Un comando que una computadora corre sola según un horario, como cada noche a las 3.",
+    "explanation": [
+      "**Cron** es un programador de tareas que viene con los sistemas tipo Unix desde los años 70. Su trabajo es correr comandos en horarios fijos. Cada tarea programada es un **cron job**: hacer un backup de la base de datos todas las noches, mandar un reporte cada lunes, borrar archivos viejos cada hora. La lista de tareas vive en un archivo que se llama **crontab**.",
+      "Cada tarea tiene un horario escrito en cinco campos: minuto, hora, día del mes, mes y día de la semana. Un asterisco significa \"cualquiera\". Entonces `0 3 * * *` quiere decir \"en el minuto 0 de la hora 3, todos los días\", y `*/15 * * * *` quiere decir cada quince minutos. La notación es compacta y famosa por lo fácil que es equivocarse, así que mucha gente la chequea con alguna herramienta online antes de guardarla.",
+      "La idea sobrevivió a la herramienta. Los programadores de tareas de la nube, Kubernetes, GitHub Actions y muchas plataformas de hosting te dejan agendar tareas con la misma sintaxis de cron. Dos trampas clásicas: el horario corre en la zona horaria del servidor, que puede no ser la tuya, y un cron job que falla no hace ruido, salvo que alguien haya configurado logs o alertas para enterarse."
+    ],
+    "analogy": "Un despertador con una lista de tareas pegada. Cuando suena, la tarea se hace sola, haya alguien despierto o no.",
+    "keyPoints": [
+      "Un cron job es un comando agendado para correr automáticamente.",
+      "Los horarios usan cinco campos: minuto, hora, día del mes, mes, día de la semana.",
+      "`0 3 * * *` significa todos los días a las 3:00.",
+      "Revisá la zona horaria y sumá alertas: por defecto, las fallas no avisan."
+    ],
+    "links": [
+      { "label": "Cron en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cron_(Unix)" },
+      { "label": "Página de manual de crontab(5) (en inglés)", "url": "https://man7.org/linux/man-pages/man5/crontab.5.html" }
+    ]
+  }
+}

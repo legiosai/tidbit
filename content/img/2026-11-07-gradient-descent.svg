@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <path d="M40 50 Q200 330 360 50" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="4 4">
+    <path d="M80 97 L112 140"/><path d="M128 151 L150 166"/><path d="M166 173 L176 177"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="72" cy="91" r="8" fill="#ffd166"/>
+    <circle cx="120" cy="146" r="8" fill="#ffd166"/>
+    <circle cx="158" cy="171" r="8" fill="#ffd166"/>
+    <circle cx="186" cy="180" r="8" fill="#ffd166"/>
+    <circle cx="200" cy="190" r="4" fill="#9bd1b9"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="70" y="36">high loss</text><text x="250" y="202">minimum</text>
+  </g>
+  <text x="270" y="48" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">w = w - lr * grad</text>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">step downhill, then repeat</text>
+</svg>

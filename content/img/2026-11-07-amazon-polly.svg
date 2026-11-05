@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="90" width="110" height="50" rx="8" fill="#e6dfd0"/>
+    <rect x="160" y="70" width="80" height="90" rx="10" fill="#ffd166"/>
+    <rect x="270" y="80" width="110" height="70" rx="10" fill="#9ac7ea"/>
+    <circle cx="178" cy="190" r="10" fill="#9bd1b9"/>
+    <circle cx="200" cy="190" r="10" fill="#f4a7a7"/>
+    <circle cx="222" cy="190" r="10" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M132 115 H156"/><path d="M150 110 l6 5 -6 5"/>
+    <path d="M242 115 H266"/><path d="M260 110 l6 5 -6 5"/>
+    <path d="M200 162 V178"/>
+    <path d="M284 115 L292 103 L300 127 L308 95 L316 135 L324 105 L332 123 L340 110 L348 118 L356 115 L366 115"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="120">"Hello!"</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="120">Polly</text>
+    <text x="75" y="80">text</text>
+    <text x="325" y="70">audio</text>
+  </g>
+  <text x="290" y="194" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">pick a voice</text>
+  <text x="200" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#2b2b2b">text in, speech out</text>
+</svg>

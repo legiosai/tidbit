@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-08-react",
+  "date": "2026-11-08",
+  "subjects": ["software"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["React.js", "ReactJS", "React component", "React components"],
+    "es": ["React.js", "ReactJS", "componente de React", "componentes de React"]
+  },
+  "image": "img/2026-11-08-react.svg",
+  "imageAlt": {
+    "en": "A tree of components, App with Header and Feed, Feed with two Posts; a change in state updates only one Post",
+    "es": "Un árbol de componentes, App con Header y Feed, Feed con dos Posts; un cambio de estado actualiza solo un Post"
+  },
+  "en": {
+    "title": "React",
+    "tagline": "A JavaScript library for building screens out of reusable pieces called components.",
+    "explanation": [
+      "**React** is a JavaScript library for building user interfaces, created at Facebook and released as open source in 2013. Instead of writing one big page, you build small **components**: a button, a comment, a product card. Each one is a function that takes some data and returns what should appear on screen, and components nest inside each other to make whole apps.",
+      "The key idea is that you describe what the screen should look like for the current data, and React works out what to change. When something happens, like a new message arriving or a like being added, you update the data, called **state**, and React redraws only the parts of the page that depend on it. Components are usually written in **JSX**, a syntax that mixes HTML-like tags into JavaScript.",
+      "React is one of the most widely used tools for frontend work, and a large ecosystem has grown around it. Frameworks like Next.js add routing and server rendering on top, and React Native uses the same ideas to build mobile apps. React itself is a library, not a full framework, so teams still choose other pieces, such as how to fetch data or handle forms."
+    ],
+    "analogy": "LEGO for screens. You design a few kinds of brick once, snap them together into anything, and when one part needs to change you swap that brick instead of rebuilding the whole castle.",
+    "keyPoints": [
+      "React builds interfaces out of reusable components.",
+      "You change the data (state) and React updates the screen to match.",
+      "JSX lets you write HTML-like tags inside JavaScript.",
+      "Created at Facebook, it is open source and maintained by Meta."
+    ],
+    "links": [
+      { "label": "React (official site)", "url": "https://react.dev/" },
+      { "label": "Learn React (official docs)", "url": "https://react.dev/learn" }
+    ]
+  },
+  "es": {
+    "title": "React",
+    "tagline": "Una biblioteca de JavaScript para armar pantallas con piezas reutilizables: componentes.",
+    "explanation": [
+      "**React** es una biblioteca de JavaScript para construir interfaces, creada en Facebook y liberada como código abierto en 2013. En vez de escribir una página gigante, armás **componentes** chiquitos: un botón, un comentario, la tarjeta de un producto. Cada uno es una función que recibe datos y devuelve lo que tiene que aparecer en pantalla, y los componentes se meten unos dentro de otros hasta formar apps enteras.",
+      "La idea central es que vos describís cómo tiene que verse la pantalla con los datos actuales, y React se encarga de calcular qué cambiar. Cuando pasa algo, como que llega un mensaje nuevo o alguien pone un like, actualizás los datos, que se llaman **estado** (state), y React vuelve a dibujar solo las partes de la página que dependen de eso. Los componentes casi siempre se escriben en **JSX**, una sintaxis que mezcla etiquetas parecidas a HTML con JavaScript.",
+      "React es una de las herramientas más usadas para el frontend, y alrededor creció un ecosistema enorme. Frameworks como Next.js le suman rutas y renderizado en el servidor, y React Native usa las mismas ideas para hacer apps móviles. React en sí es una biblioteca, no un framework completo, así que cada equipo igual elige otras piezas, como la forma de traer datos o de manejar formularios."
+    ],
+    "analogy": "Un LEGO para pantallas. Diseñás unos pocos tipos de ladrillo una vez, los encastrás para armar cualquier cosa y, cuando una parte tiene que cambiar, cambiás ese ladrillo en vez de rearmar todo el castillo.",
+    "keyPoints": [
+      "React arma interfaces con componentes reutilizables.",
+      "Cambiás los datos (el estado) y React actualiza la pantalla para que coincida.",
+      "JSX te deja escribir etiquetas parecidas a HTML dentro de JavaScript.",
+      "Nació en Facebook, es de código abierto y lo mantiene Meta."
+    ],
+    "links": [
+      { "label": "React (sitio oficial en español)", "url": "https://es.react.dev/" },
+      { "label": "Aprendé React (documentación oficial)", "url": "https://es.react.dev/learn" }
+    ]
+  }
+}
