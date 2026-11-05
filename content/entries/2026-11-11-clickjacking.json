@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-clickjacking",
+  "date": "2026-11-11",
+  "subjects": ["security"],
+  "level": 3,
+  "aliases": {
+    "en": ["clickjacking attack", "clickjacking attacks", "UI redressing", "UI redress attack", "likejacking"],
+    "es": ["ataque de clickjacking", "ataques de clickjacking", "secuestro de clics", "UI redressing", "likejacking"]
+  },
+  "image": "img/2026-11-11-clickjacking.svg",
+  "imageAlt": {
+    "en": "A bait page with a big 'Win a prize' button; on top of it, an invisible framed bank page lines up its 'Transfer' button exactly where the user clicks",
+    "es": "Una página trampa con un botón grande de 'Ganá un premio'; encima, una página del banco invisible dentro de un marco ubica su botón 'Transferir' justo donde el usuario hace clic"
+  },
+  "en": {
+    "title": "Clickjacking",
+    "tagline": "Tricking you into clicking something on a hidden page layered under a decoy.",
+    "explanation": [
+      "**Clickjacking** hides a real website inside an invisible frame on top of a bait page. The victim sees a harmless button, like \"Play video\" or \"Claim your prize\", but the click actually lands on a button of the hidden page: \"Delete account\", \"Confirm transfer\", \"Allow camera\". Because the victim is already logged in to that site in the same browser, the action runs with their session. The name was coined in 2008 by researchers Jeremiah Grossman and Robert Hansen; it is also called UI redressing.",
+      "The trick needs only standard web pieces: an `<iframe>` that loads the target page, CSS that makes it fully transparent and positions it precisely, and a lure that makes people click in the right spot. Variants hijack \"Like\" buttons (likejacking) or chain several clicks into a little game. It is a cousin of CSRF: both abuse the fact that the browser sends your cookies to a site even when another page started the action, but in clickjacking you click yourself.",
+      "The fix is on the target site, and it is simple: tell browsers not to show your pages inside frames from other origins. The modern way is the Content Security Policy header `frame-ancestors 'none'` (or a list of allowed origins); the older header `X-Frame-Options: DENY` or `SAMEORIGIN` does the same for legacy browsers. Cookies marked `SameSite` add another layer, since the framed page then loads without your session. Sensitive actions that ask for a password or a second confirmation are also harder to hijack."
+    ],
+    "analogy": "Someone slides a sheet of carbon paper under the raffle ticket you are signing. You think you are writing your name on a raffle stub, but the pen is also signing a check underneath.",
+    "keyPoints": [
+      "The real page sits in a transparent frame on top of a decoy.",
+      "Your click runs with your logged-in session on the hidden site.",
+      "CSP frame-ancestors or X-Frame-Options blocks framing.",
+      "The defense lives on the target site, not on the user's side."
+    ],
+    "links": [
+      { "label": "Clickjacking (OWASP)", "url": "https://owasp.org/www-community/attacks/Clickjacking" },
+      { "label": "Clickjacking (MDN Web Docs)", "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Clickjacking" },
+      { "label": "Clickjacking Defense Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html" }
+    ]
+  },
+  "es": {
+    "title": "Clickjacking",
+    "tagline": "Engañarte para que hagas clic en una página oculta debajo de un señuelo.",
+    "explanation": [
+      "El **clickjacking** (secuestro de clics) esconde un sitio real dentro de un marco invisible, encima de una página trampa. La víctima ve un botón inofensivo, tipo \"Ver video\" o \"Reclamá tu premio\", pero el clic en realidad cae sobre un botón de la página oculta: \"Borrar cuenta\", \"Confirmar transferencia\", \"Permitir cámara\". Como la víctima ya tiene la sesión iniciada en ese sitio en el mismo navegador, la acción se ejecuta con su sesión. El nombre lo inventaron en 2008 los investigadores Jeremiah Grossman y Robert Hansen; también se lo llama UI redressing.",
+      "El truco usa piezas comunes de la web: un `<iframe>` que carga la página objetivo, CSS que la vuelve totalmente transparente y la ubica al milímetro, y un anzuelo para que la gente haga clic justo ahí. Hay variantes que secuestran botones de \"Me gusta\" (likejacking) o encadenan varios clics disfrazados de jueguito. Es pariente del CSRF: los dos abusan de que el navegador manda tus cookies a un sitio aunque la acción la haya disparado otra página, pero en el clickjacking el clic lo hacés vos.",
+      "La solución está del lado del sitio atacado y es sencilla: decirle al navegador que no muestre sus páginas dentro de marcos de otros orígenes. La forma moderna es el header de Content Security Policy `frame-ancestors 'none'` (o una lista de orígenes permitidos); el header más viejo `X-Frame-Options: DENY` o `SAMEORIGIN` hace lo mismo para navegadores antiguos. Las cookies marcadas `SameSite` suman otra capa, porque la página enmarcada carga sin tu sesión. Y las acciones delicadas que piden contraseña o una segunda confirmación son más difíciles de secuestrar."
+    ],
+    "analogy": "Alguien te pone un papel carbónico debajo del talón de la rifa que estás firmando. Creés que anotás tu nombre para el sorteo, pero la birome también firma un cheque que está abajo.",
+    "keyPoints": [
+      "La página real queda en un marco transparente sobre un señuelo.",
+      "Tu clic se ejecuta con tu sesión iniciada en el sitio oculto.",
+      "CSP frame-ancestors o X-Frame-Options impiden el enmarcado.",
+      "La defensa la pone el sitio atacado, no el usuario."
+    ],
+    "links": [
+      { "label": "Clickjacking en Wikipedia", "url": "https://es.wikipedia.org/wiki/Clickjacking" },
+      { "label": "Clickjacking (MDN Web Docs)", "url": "https://developer.mozilla.org/es/docs/Web/Security/Attacks/Clickjacking" },
+      { "label": "Guía de defensa contra clickjacking (OWASP, en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html" }
+    ]
+  }
+}

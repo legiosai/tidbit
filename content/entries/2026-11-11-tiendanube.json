@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-tiendanube",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Nuvemshop", "Tienda Nube"],
+    "es": ["Nuvemshop", "Tienda Nube"]
+  },
+  "image": "img/2026-11-11-tiendanube.svg",
+  "imageAlt": {
+    "en": "A small brand builds its online store on the platform, which adds checkout, payments and shipping to customers",
+    "es": "Una marca chica arma su tienda online en la plataforma, que suma carrito, cobros y envíos a los clientes"
+  },
+  "en": {
+    "title": "Tiendanube",
+    "tagline": "The Latin American platform small brands use to open their own online store.",
+    "explanation": [
+      "**Tiendanube** is an e-commerce platform: a service that lets a business build its own online store without hiring programmers. You pick a design, upload your products and prices, connect payment and shipping, and you have a site with your own brand and domain. It was founded in Argentina in 2011, growing out of an academic project at ITBA, a technology university in Buenos Aires. In Brazil, it operates as **Nuvemshop**.",
+      "It works as a subscription, the SaaS model: the store owner pays a monthly plan and the platform takes care of hosting, security and updates. Its customers are mostly small and medium brands, from clothing and cosmetics to food, that want their own shop instead of only selling inside a marketplace like Mercado Libre.",
+      "Over time it added services around the store: Pago Nube to accept cards and other payment methods, Envío Nube to arrange shipping, plus marketing tools and integrations with social networks and WhatsApp. It plays a role in Latin America similar to the one Shopify plays in the US and Canada, and it operates in Argentina, Brazil, Mexico, Chile and Colombia."
+    ],
+    "analogy": "Renting a fully furnished shop in a mall: the walls, lights, register and security come included, and you just bring your products and your sign.",
+    "keyPoints": [
+      "Founded in Argentina in 2011; called Nuvemshop in Brazil.",
+      "Lets businesses build a branded online store without programming.",
+      "Paid as a monthly subscription; adds payments and shipping services.",
+      "Similar in role to Shopify, focused on Latin America."
+    ],
+    "links": [
+      { "label": "Tiendanube (official site, in Spanish)", "url": "https://www.tiendanube.com/" },
+      { "label": "Nuvemshop (official site, in Portuguese)", "url": "https://www.nuvemshop.com.br/" }
+    ]
+  },
+  "es": {
+    "title": "Tiendanube",
+    "tagline": "La plataforma latinoamericana con la que las marcas chicas abren su tienda online.",
+    "explanation": [
+      "**Tiendanube** es una plataforma de e-commerce: un servicio para que un negocio arme su propia tienda online sin contratar programadores. Elegís un diseño, cargás tus productos y precios, conectás cobros y envíos, y tenés un sitio con tu marca y tu dominio. Nació en Argentina en 2011, a partir de un proyecto académico del ITBA, una universidad tecnológica de Buenos Aires. En Brasil opera como **Nuvemshop**.",
+      "Funciona por suscripción, con el modelo SaaS: el dueño de la tienda paga un plan mensual y la plataforma se ocupa del hosting, la seguridad y las actualizaciones. Sus clientes son sobre todo marcas chicas y medianas, de ropa y cosmética a alimentos, que quieren su propio local online en vez de vender solo dentro de un marketplace como Mercado Libre.",
+      "Con el tiempo sumó servicios alrededor de la tienda: Pago Nube para cobrar con tarjeta y otros medios, Envío Nube para resolver los envíos, más herramientas de marketing e integraciones con redes sociales y WhatsApp. Cumple en Latinoamérica un papel parecido al de Shopify en Estados Unidos y Canadá, y opera en Argentina, Brasil, México, Chile y Colombia."
+    ],
+    "analogy": "Alquilar un local amueblado en un shopping: las paredes, la luz, la caja y la seguridad vienen incluidas, y vos solo traés tus productos y tu cartel.",
+    "keyPoints": [
+      "Fundada en Argentina en 2011; en Brasil se llama Nuvemshop.",
+      "Permite armar una tienda online con marca propia sin programar.",
+      "Se paga con una suscripción mensual; suma cobros y envíos.",
+      "Cumple un papel parecido al de Shopify, enfocada en Latinoamérica."
+    ],
+    "links": [
+      { "label": "Tiendanube en Wikipedia", "url": "https://es.wikipedia.org/wiki/Tiendanube" },
+      { "label": "Tiendanube (sitio oficial)", "url": "https://www.tiendanube.com/" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-youtube",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["YouTuber", "YouTubers", "YouTube Premium", "YouTube Shorts"],
+    "es": ["youtuber", "youtubers", "YouTube Premium", "YouTube Shorts"]
+  },
+  "image": "img/2026-11-11-youtube.svg",
+  "imageAlt": {
+    "en": "A creator uploads a video, viewers watch it with an ad, and the ad money is split between YouTube and the creator",
+    "es": "Una creadora sube un video, la gente lo mira con un anuncio y la plata del anuncio se reparte entre YouTube y la creadora"
+  },
+  "en": {
+    "title": "YouTube",
+    "tagline": "The video site where anyone can upload and the world watches for free.",
+    "explanation": [
+      "**YouTube** is a video platform where anyone with an account can upload a video and anyone with a browser can watch it. It was founded in 2005 by Chad Hurley, Steve Chen and Jawed Karim, and Google bought it in 2006. Today it covers almost everything: music, tutorials, classes, news, gaming streams, cooking, and short vertical clips called **YouTube Shorts**.",
+      "Most of it is free because it runs on ads. Before and during many videos an ad plays; through the YouTube Partner Program, creators who meet certain requirements get a share of that ad money. That deal turned uploading videos into a job: the **YouTubers**. People who don't want ads can pay for **YouTube Premium**, which also adds background play and YouTube Music.",
+      "Behind the scenes, its biggest trick is the recommendation system: most of what people watch is chosen by an algorithm that learns from what they clicked before. It is also a huge search engine in its own right, the place many people go first to learn how to do something."
+    ],
+    "analogy": "A public library where anyone can donate a film, entry is free because there are ads on the walls, and the librarian keeps handing you whatever you're most likely to watch next.",
+    "keyPoints": [
+      "Founded in 2005; owned by Google since 2006.",
+      "Free to watch, funded mainly by ads.",
+      "Creators in its Partner Program earn a share of ad revenue.",
+      "Recommendations decide much of what people end up watching."
+    ],
+    "links": [
+      { "label": "About YouTube (official)", "url": "https://about.youtube/" },
+      { "label": "YouTube on Wikipedia", "url": "https://en.wikipedia.org/wiki/YouTube" }
+    ]
+  },
+  "es": {
+    "title": "YouTube",
+    "tagline": "El sitio de videos donde cualquiera sube contenido y el mundo lo mira gratis.",
+    "explanation": [
+      "**YouTube** es una plataforma de videos donde cualquiera con una cuenta puede subir un video y cualquiera con un navegador lo puede ver. La fundaron Chad Hurley, Steve Chen y Jawed Karim en 2005, y Google la compró en 2006. Hoy tiene de todo: música, tutoriales, clases, noticias, streams de videojuegos, recetas y clips cortos verticales llamados **YouTube Shorts**.",
+      "Casi todo es gratis porque se banca con publicidad. Antes y durante muchos videos aparece un anuncio, y con el Programa de Socios de YouTube los creadores que cumplen ciertos requisitos se llevan una parte de esa plata. Ese acuerdo convirtió subir videos en un trabajo: los **youtubers**. Quien no quiere anuncios puede pagar **YouTube Premium**, que además suma reproducción en segundo plano y YouTube Music.",
+      "Detrás de escena, su gran truco es el sistema de recomendaciones: buena parte de lo que la gente mira lo elige un algoritmo que aprende de lo que clickeaste antes. También es un buscador enorme en sí mismo, el primer lugar al que mucha gente va para aprender a hacer algo."
+    ],
+    "analogy": "Una biblioteca pública donde cualquiera puede donar una película, la entrada es gratis porque hay carteles de publicidad en las paredes, y el bibliotecario te va alcanzando lo que es más probable que quieras ver después.",
+    "keyPoints": [
+      "Fundada en 2005; es de Google desde 2006.",
+      "Mirar es gratis; se financia sobre todo con publicidad.",
+      "Los creadores del Programa de Socios cobran una parte de los anuncios.",
+      "Las recomendaciones deciden buena parte de lo que la gente termina mirando."
+    ],
+    "links": [
+      { "label": "YouTube en Wikipedia", "url": "https://es.wikipedia.org/wiki/YouTube" },
+      { "label": "Acerca de YouTube (oficial, en inglés)", "url": "https://about.youtube/" }
+    ]
+  }
+}

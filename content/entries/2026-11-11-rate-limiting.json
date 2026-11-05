@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-rate-limiting",
+  "date": "2026-11-11",
+  "subjects": ["security", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["rate limit", "rate limits", "rate limiter", "rate limiters", "rate-limited", "429 Too Many Requests"],
+    "es": ["rate limit", "rate limits", "límite de solicitudes", "límites de solicitudes", "limitación de solicitudes", "429 Too Many Requests"]
+  },
+  "image": "img/2026-11-11-rate-limiting.svg",
+  "imageAlt": {
+    "en": "Many requests arrive at a gate that lets through five per second to a server; the extra ones bounce back with the code 429",
+    "es": "Muchas solicitudes llegan a una barrera que deja pasar cinco por segundo hacia un servidor; las que sobran rebotan con el código 429"
+  },
+  "en": {
+    "title": "Rate limiting",
+    "tagline": "Capping how many requests someone can make in a given time window.",
+    "explanation": [
+      "**Rate limiting** is a rule like \"at most 100 requests per minute per user\" enforced by a server or an API. Requests under the limit go through normally. Requests over it are rejected, usually with the HTTP status `429 Too Many Requests` and often a `Retry-After` header that says when to try again.",
+      "It protects in several directions at once. It slows down attacks that rely on volume, like a brute-force attack on a login form or a scraper copying a whole catalog. It keeps one buggy script or greedy customer from eating the capacity everyone shares. And it is how paid APIs enforce their plans: the free tier gets fewer calls per hour than the paid one, counted per API key.",
+      "Under the hood there are a few classic algorithms. A fixed window counts requests per calendar minute. A sliding window smooths out the burst at the edge of each minute. A token bucket refills a stash of tokens at a steady rate and lets each request spend one, which allows short bursts but caps the average. Limits can be keyed by user, by API key or by IP address. On its own it does not stop a large DDoS, whose traffic comes from thousands of addresses, but it is a cheap first line of defense."
+    ],
+    "analogy": "A bakery that gives out numbered tickets and serves five customers per minute. If you keep pushing to the counter, the clerk tells you to come back later; the bread lasts for everyone.",
+    "keyPoints": [
+      "Over the limit, servers usually answer 429 Too Many Requests.",
+      "Limits can be counted per user, per API key or per IP address.",
+      "Token bucket and sliding window are the most common algorithms.",
+      "Good clients wait and retry instead of hammering harder."
+    ],
+    "links": [
+      { "label": "Rate limiting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Rate_limiting" },
+      { "label": "429 Too Many Requests (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429" },
+      { "label": "Denial of Service Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet.html" }
+    ]
+  },
+  "es": {
+    "title": "Rate limiting",
+    "tagline": "Ponerle un tope a cuántas solicitudes puede hacer alguien en cierto tiempo.",
+    "explanation": [
+      "El **rate limiting** (limitación de solicitudes) es una regla del tipo \"como mucho 100 solicitudes por minuto por usuario\" que aplica un servidor o una API. Lo que entra por debajo del límite pasa normal. Lo que se pasa, se rechaza, casi siempre con el código HTTP `429 Too Many Requests` y muchas veces con un header `Retry-After` que dice cuándo volver a probar.",
+      "Protege para varios lados a la vez. Frena los ataques que dependen del volumen, como un ataque de fuerza bruta contra un formulario de login o un scraper que se quiere copiar un catálogo entero. Evita que un script con un bug o un cliente glotón se coma la capacidad que comparten todos. Y es la forma en que las API pagas hacen cumplir sus planes: el plan gratis tiene menos llamadas por hora que el pago, contadas por API key.",
+      "Por dentro hay unos pocos algoritmos clásicos. La ventana fija cuenta solicitudes por minuto calendario. La ventana deslizante suaviza el pico que se arma en el borde de cada minuto. El token bucket (balde de fichas) recarga fichas a ritmo constante y cada solicitud gasta una: permite ráfagas cortas pero limita el promedio. El límite se puede contar por usuario, por API key o por dirección IP. Solo no alcanza para parar un DDoS grande, que llega desde miles de direcciones, pero es una primera defensa barata."
+    ],
+    "analogy": "Una panadería que reparte números y atiende a cinco clientes por minuto. Si insistís en meterte al mostrador, te dicen que vuelvas en un rato; así el pan alcanza para todos.",
+    "keyPoints": [
+      "Pasado el límite, el servidor suele responder 429 Too Many Requests.",
+      "El límite se cuenta por usuario, por API key o por IP.",
+      "Token bucket y ventana deslizante son los algoritmos más comunes.",
+      "Un buen cliente espera y reintenta en vez de insistir más fuerte."
+    ],
+    "links": [
+      { "label": "Rate limiting en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Rate_limiting" },
+      { "label": "429 Too Many Requests (MDN, en inglés)", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429" },
+      { "label": "Guía de denegación de servicio (OWASP, en inglés)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet.html" }
+    ]
+  }
+}

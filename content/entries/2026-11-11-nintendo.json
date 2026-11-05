@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-nintendo",
+  "date": "2026-11-11",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["Nintendo Switch", "Nintendo Switch 2", "Nintendo Co."],
+    "es": ["Nintendo Switch", "Nintendo Switch 2", "Nintendo Co."]
+  },
+  "image": "img/2026-11-11-nintendo.svg",
+  "imageAlt": {
+    "en": "A timeline from playing cards in 1889 to handheld and hybrid game consoles",
+    "es": "Una línea de tiempo que va de los naipes en 1889 a las consolas portátiles e híbridas"
+  },
+  "en": {
+    "title": "Nintendo",
+    "tagline": "The Japanese company behind Mario, Zelda and the Switch consoles.",
+    "explanation": [
+      "**Nintendo** is a Japanese video game company based in Kyoto. It is older than electricity in most homes: it was founded in 1889 to make hanafuda, a kind of Japanese playing cards. It tried toys and other businesses along the way and found its calling in video games in the 1970s and 80s.",
+      "Unlike most game companies, it designs both the console and the games for it. Its machines include the NES (called Famicom in Japan), the Game Boy, the Wii and the **Nintendo Switch**, a hybrid that works as a home console and as a handheld. The **Nintendo Switch 2** followed in 2025. Its own characters, like Mario, Link from Zelda, Donkey Kong and Kirby, sell those consoles, and it is also a co-owner of the Pokémon brand.",
+      "Nintendo usually doesn't chase the most powerful hardware. It prefers cheaper chips and an unusual idea, like motion controls or a console you can lift off the TV, and leans on games that are easy to pick up for kids and parents alike."
+    ],
+    "analogy": "A toymaker that builds the playground and also invents the games played in it, so the swings and the rules are designed together.",
+    "keyPoints": [
+      "Founded in 1889 in Kyoto, making playing cards.",
+      "Makes both its consoles and many of the games for them.",
+      "Known for Mario, Zelda, Pokémon (as a co-owner) and the Switch.",
+      "Bets on new ways to play more than on raw power."
+    ],
+    "links": [
+      { "label": "Nintendo corporate information (official)", "url": "https://www.nintendo.co.jp/corporate/en/index.html" },
+      { "label": "Nintendo on Wikipedia", "url": "https://en.wikipedia.org/wiki/Nintendo" }
+    ]
+  },
+  "es": {
+    "title": "Nintendo",
+    "tagline": "La empresa japonesa detrás de Mario, Zelda y las consolas Switch.",
+    "explanation": [
+      "**Nintendo** es una empresa japonesa de videojuegos con sede en Kioto. Es más vieja que la luz eléctrica en la mayoría de las casas: nació en 1889 para fabricar hanafuda, un tipo de naipes japoneses. En el camino probó con juguetes y otros negocios, y encontró lo suyo en los videojuegos en los años 70 y 80.",
+      "A diferencia de la mayoría de las empresas de juegos, diseña tanto la consola como los juegos. Entre sus máquinas están la NES (Famicom en Japón), la Game Boy, la Wii y la **Nintendo Switch**, una híbrida que funciona como consola de living y como portátil. En 2025 llegó la **Nintendo Switch 2**. Sus propios personajes, como Mario, Link de Zelda, Donkey Kong y Kirby, son los que venden esas consolas, y además es copropietaria de la marca Pokémon.",
+      "Nintendo no suele correr detrás del hardware más potente. Prefiere chips más baratos y una idea distinta, como los controles por movimiento o una consola que sacás de la tele y te llevás, y se apoya en juegos fáciles de agarrar tanto para chicos como para grandes."
+    ],
+    "analogy": "Una juguetería que arma la plaza y además inventa los juegos que se juegan ahí, así que las hamacas y las reglas se diseñan juntas.",
+    "keyPoints": [
+      "Fundada en 1889 en Kioto, fabricando naipes.",
+      "Hace sus consolas y muchos de los juegos para ellas.",
+      "Conocida por Mario, Zelda, Pokémon (como copropietaria) y la Switch.",
+      "Apuesta a nuevas formas de jugar más que a la potencia bruta."
+    ],
+    "links": [
+      { "label": "Nintendo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Nintendo" },
+      { "label": "Nintendo Argentina (sitio oficial)", "url": "https://www.nintendo.com/es-ar/" }
+    ]
+  }
+}

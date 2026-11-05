@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="46" cy="62" r="10" fill="#9bd1b9"/><path d="M30 92 Q46 70 62 92 Z" fill="#9bd1b9"/>
+    <circle cx="46" cy="120" r="10" fill="#9bd1b9"/><path d="M30 150 Q46 128 62 150 Z" fill="#9bd1b9"/>
+    <circle cx="46" cy="178" r="10" fill="#9bd1b9"/><path d="M30 208 Q46 186 62 208 Z" fill="#9bd1b9"/>
+    <rect x="140" y="50" width="120" height="130" rx="6" fill="#f3efe6"/>
+    <rect x="152" y="62" width="60" height="10" rx="2" fill="#e6dfd0"/>
+    <rect x="300" y="60" width="70" height="90" rx="5" fill="#e6dfd0"/>
+    <rect x="310" y="72" width="50" height="16" rx="2" fill="#9ac7ea"/><rect x="310" y="96" width="50" height="16" rx="2" fill="#9ac7ea"/><rect x="310" y="120" width="50" height="16" rx="2" fill="#9ac7ea"/>
+    <circle cx="300" cy="196" r="12" fill="#ffd166"/><circle cx="326" cy="196" r="12" fill="#ffd166"/><circle cx="352" cy="196" r="12" fill="#ffd166"/>
+  </g>
+  <g stroke="#6b6357" stroke-width="2">
+    <path d="M152 86 H248 M152 98 H248 M152 110 H236 M152 122 H248 M152 134 H220 M152 146 H248 M152 158 H232"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 80 L134 100"/><path d="M70 136 H134"/><path d="M70 192 L134 168"/><path d="M128 132 l6 4 -6 4"/>
+    <path d="M296 106 H266"/><path d="M272 102 l-6 4 6 4"/>
+    <path d="M326 182 V156"/><path d="M322 162 l4 -6 4 6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="196">article</text><text x="46" y="38">volunteers</text>
+    <text x="335" y="48">servers</text><text x="258" y="200">donations</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">volunteers write, donors keep it running</text>
+</svg>

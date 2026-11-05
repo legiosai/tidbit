@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-09-lora",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 3,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Low-Rank Adaptation", "QLoRA", "LoRA adapter", "LoRA adapters", "LoRAs"],
+    "es": ["Low-Rank Adaptation", "adaptación de bajo rango", "QLoRA", "adaptador LoRA", "adaptadores LoRA", "LoRAs"]
+  },
+  "image": "img/2026-11-09-lora.svg",
+  "imageAlt": {
+    "en": "A large frozen weight matrix with a lock, plus a small update built from two thin matrices, A and B, that get trained and added on top",
+    "es": "Una matriz de pesos grande y congelada con un candado, más una actualización chica armada con dos matrices finitas, A y B, que son las que se entrenan y se suman arriba"
+  },
+  "en": {
+    "title": "LoRA",
+    "tagline": "A cheap way to fine-tune a big model by training a small add-on instead of every weight.",
+    "explanation": [
+      "Fine-tuning a large model the usual way updates all of its weights. With billions of parameters that needs a lot of GPU memory, and leaves you with a full copy of the model for every task. **LoRA** (Low-Rank Adaptation) avoids both: it freezes the original weights and trains only a small set of extra ones, an **adapter**, that is added on top.",
+      "The trick is in the shape. The weights of a layer form a big matrix, and fine-tuning changes it by an update matrix of the same size. LoRA bets that this update does not need all that freedom and writes it as the product of two thin matrices. For a 4096 x 4096 layer, instead of roughly 16.8 million numbers you train two strips of, say, 4096 x 8 each: about 65,000. That small width, 8 here, is the **rank**, the main setting you choose. When training ends, the update can be merged into the original weights, so the model runs as fast as before.",
+      "Researchers at Microsoft introduced LoRA in 2021. On GPT-3 they reported cutting the trainable parameters by about 10,000 times and the GPU memory needed by about 3 times, with quality close to full fine-tuning. **QLoRA** (2023) went further by keeping the frozen model quantized to 4 bits, which was enough to fine-tune a 65-billion-parameter model on a single 48 GB GPU.",
+      "LoRA is everywhere around open-weights models. Adapters are small files, megabytes rather than gigabytes, so you can keep one base model and swap adapters per task or per customer. In image generation, people share LoRAs that teach a diffusion model a style, a character or a product. The trade-off: a low-rank update can learn less than full fine-tuning, which shows on big changes, like heavy training on a whole new domain."
+    ],
+    "analogy": "Instead of reprinting an entire encyclopedia to update it, you clip a thin booklet of corrections to the back. The encyclopedia stays the same, the booklet is cheap to print, and each reader can have a different one.",
+    "keyPoints": [
+      "Freezes the base model and trains a small low-rank adapter.",
+      "Needs far less memory than full fine-tuning; adapters are small files.",
+      "Adapters can be merged into the weights, so inference is not slower.",
+      "QLoRA adds 4-bit quantization to fit big models on one GPU."
+    ],
+    "links": [
+      { "label": "LoRA: Low-Rank Adaptation of Large Language Models (original paper, arXiv)", "url": "https://arxiv.org/abs/2106.09685" },
+      { "label": "LoRA conceptual guide (Hugging Face PEFT)", "url": "https://huggingface.co/docs/peft/main/en/conceptual_guides/lora" },
+      { "label": "What is LoRA? (IBM)", "url": "https://www.ibm.com/think/topics/lora" }
+    ]
+  },
+  "es": {
+    "title": "LoRA",
+    "tagline": "Una forma barata de hacer fine-tuning de un modelo grande entrenando un agregado chico.",
+    "explanation": [
+      "Hacer fine-tuning de un modelo grande de la forma tradicional actualiza todos sus pesos. Con miles de millones de parámetros, eso pide muchísima memoria de GPU y te deja con una copia entera del modelo por cada tarea. **LoRA** (Low-Rank Adaptation, adaptación de bajo rango) evita las dos cosas: congela los pesos originales y entrena solo un conjunto chico de pesos extra, un **adaptador**, que se suma arriba.",
+      "El truco está en la forma. Los pesos de una capa forman una matriz grande, y el fine-tuning la cambia con una matriz de actualización del mismo tamaño. LoRA apuesta a que esa actualización no necesita tanta libertad y la escribe como el producto de dos matrices finitas. Para una capa de 4096 x 4096, en vez de unos 16,8 millones de números entrenás dos tiras de, por ejemplo, 4096 x 8 cada una: unos 65.000. Ese ancho chico, 8 en el ejemplo, es el **rango**, la configuración principal que elegís. Al terminar, la actualización se puede fusionar con los pesos originales, así que el modelo corre igual de rápido que antes.",
+      "Investigadores de Microsoft presentaron LoRA en 2021. Con GPT-3 informaron que reducía unas 10.000 veces los parámetros a entrenar y unas 3 veces la memoria de GPU necesaria, con una calidad cercana al fine-tuning completo. **QLoRA** (2023) fue más allá: mantiene el modelo congelado cuantizado a 4 bits, y con eso alcanzó para hacer fine-tuning de un modelo de 65.000 millones de parámetros en una sola GPU de 48 GB.",
+      "LoRA está en todos lados alrededor de los modelos de pesos abiertos. Los adaptadores son archivos chicos, de megas y no de gigas, así que podés tener un solo modelo base e ir cambiando de adaptador según la tarea o el cliente. En generación de imágenes, la gente comparte LoRAs que le enseñan a un modelo de difusión un estilo, un personaje o un producto. La contra: una actualización de bajo rango puede aprender menos que el fine-tuning completo, y se nota en cambios grandes, como entrenar a fondo en un área totalmente nueva."
+    ],
+    "analogy": "En vez de reimprimir una enciclopedia entera para actualizarla, le abrochás atrás un cuadernillo finito de correcciones. La enciclopedia queda igual, el cuadernillo sale barato y cada lector puede tener el suyo.",
+    "keyPoints": [
+      "Congela el modelo base y entrena un adaptador chico de bajo rango.",
+      "Pide muchísima menos memoria que el fine-tuning completo; los adaptadores pesan poco.",
+      "El adaptador se puede fusionar con los pesos, así la inferencia no es más lenta.",
+      "QLoRA suma cuantización a 4 bits para que modelos grandes entren en una GPU."
+    ],
+    "links": [
+      { "label": "¿Qué es LoRA (adaptación de bajo rango)? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/lora" },
+      { "label": "LoRA: Low-Rank Adaptation of Large Language Models (paper original, arXiv, en inglés)", "url": "https://arxiv.org/abs/2106.09685" },
+      { "label": "Guía conceptual de LoRA (Hugging Face PEFT, en inglés)", "url": "https://huggingface.co/docs/peft/main/en/conceptual_guides/lora" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-09-voice-cloning",
+  "date": "2026-11-09",
+  "subjects": ["ai", "security"],
+  "level": 1,
+  "aliases": {
+    "en": ["voice clone", "voice clones", "cloned voice", "cloned voices", "AI voice cloning"],
+    "es": ["clonación de voces", "voz clonada", "voces clonadas", "clonar una voz", "voice cloning"]
+  },
+  "image": "img/2026-11-09-voice-cloning.svg",
+  "imageAlt": {
+    "en": "A few seconds of a person's voice go into an AI, which then speaks new typed sentences with the same voice waveform",
+    "es": "Unos segundos de la voz de una persona entran a una IA, que después dice frases nuevas tipeadas con la misma forma de onda de voz"
+  },
+  "en": {
+    "title": "Voice cloning",
+    "tagline": "AI that learns to speak in a real person's voice from a short recording.",
+    "explanation": [
+      "**Voice cloning** is getting a computer to speak in a specific person's voice. You give an AI a recording of them, and from then on it can say anything you type, with their tone, accent and way of talking. It is text-to-speech with someone's real voice instead of a generic one, and a kind of deepfake made of sound.",
+      "It used to take hours of studio recordings. Not anymore: in 2023 Microsoft researchers showed a model, VALL-E, that imitated a new voice from a 3-second sample, and commercial services like ElevenLabs let anyone clone a voice from a short clip. A few seconds give a rough copy; a few minutes of clean audio sound much closer to the real person.",
+      "There are good uses. People losing their voice to an illness can record it in advance and keep speaking with it, actors can dub themselves into other languages, and creators can fix a narration without re-recording. But it also powers scams: someone grabs a few seconds of audio from a social media video, then calls a parent with their child's voice, crying and asking for money right away. In 2024, robocalls imitating President Biden's voice told voters in New Hampshire to skip the primary, and US regulators then ruled that AI-generated voices in robocalls are illegal.",
+      "The practical defense is simple. If a call asks for money or secrets in a hurry, hang up and call the person back on a number you already have, or agree on a family code word in advance. A familiar voice alone is no longer proof of who is speaking."
+    ],
+    "analogy": "A brilliant impressionist who only needs to hear you once. After that, they can leave voicemails in your name saying things you never said.",
+    "keyPoints": [
+      "A short recording is enough to make an AI speak in someone's voice.",
+      "Useful for people losing their voice, for dubbing and for narration.",
+      "Used in scams that fake a relative asking for urgent money.",
+      "Defense: hang up, call back on a known number, use a family code word."
+    ],
+    "links": [
+      { "label": "Audio deepfake on Wikipedia", "url": "https://en.wikipedia.org/wiki/Audio_deepfake" },
+      { "label": "VALL-E (Microsoft Research)", "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/" }
+    ]
+  },
+  "es": {
+    "title": "Clonación de voz",
+    "tagline": "IA que aprende a hablar con la voz de una persona real a partir de una grabación corta.",
+    "explanation": [
+      "La **clonación de voz** es lograr que una computadora hable con la voz de una persona puntual. Le das a una IA una grabación suya y desde ahí puede decir cualquier cosa que escribas, con su tono, su tonada y su forma de hablar. Es texto a voz con la voz real de alguien en vez de una genérica, y un tipo de deepfake hecho de sonido.",
+      "Antes hacían falta horas de grabación en estudio. Ya no: en 2023, investigadores de Microsoft mostraron un modelo, VALL-E, que imitaba una voz nueva a partir de una muestra de 3 segundos, y servicios comerciales como ElevenLabs le permiten a cualquiera clonar una voz con un audio corto. Con unos segundos sale una copia tosca; con unos minutos de audio limpio suena mucho más parecida a la persona real.",
+      "Tiene usos buenos. Quien está perdiendo la voz por una enfermedad puede grabarla antes y seguir hablando con ella, un actor puede doblarse a sí mismo a otros idiomas y quien hace contenido puede corregir una narración sin volver a grabar. Pero también alimenta estafas: alguien saca unos segundos de audio de un video en redes y después llama a una madre con la voz de su hijo, llorando y pidiendo plata ya. En 2024, llamadas automáticas que imitaban la voz del presidente Biden les decían a votantes de New Hampshire que no fueran a las primarias, y después los reguladores de Estados Unidos dictaminaron que las voces generadas por IA en ese tipo de llamadas son ilegales.",
+      "La defensa práctica es simple. Si una llamada te pide plata o datos con apuro, cortá y llamá vos a la persona a un número que ya tengas, o acordá de antemano una palabra clave familiar. Una voz conocida ya no alcanza como prueba de quién está hablando."
+    ],
+    "analogy": "Un imitador genial que solo necesita escucharte una vez. Después puede dejar audios a tu nombre diciendo cosas que nunca dijiste.",
+    "keyPoints": [
+      "Con una grabación corta alcanza para que una IA hable con la voz de alguien.",
+      "Sirve a personas que pierden la voz, para doblajes y para narraciones.",
+      "Se usa en estafas que simulan a un familiar pidiendo plata urgente.",
+      "Defensa: cortar, llamar vos a un número conocido, usar una palabra clave familiar."
+    ],
+    "links": [
+      { "label": "Deepfake en Wikipedia", "url": "https://es.wikipedia.org/wiki/Deepfake" },
+      { "label": "Audio deepfake en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Audio_deepfake" },
+      { "label": "VALL-E (Microsoft Research, en inglés)", "url": "https://www.microsoft.com/en-us/research/project/vall-e-x/" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-10-power-bi",
+  "date": "2026-11-10",
+  "subjects": ["data", "companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Microsoft Power BI", "Power BI Desktop"],
+    "es": ["Microsoft Power BI", "Power BI Desktop"]
+  },
+  "image": "img/2026-11-10-power-bi.svg",
+  "imageAlt": {
+    "en": "Data from a spreadsheet, a database and a cloud app flowing into Power BI, which turns it into a report with a bar chart, a number and a pie chart",
+    "es": "Datos de una planilla, una base de datos y una app en la nube entrando a Power BI, que los convierte en un informe con un gráfico de barras, un número y una torta"
+  },
+  "en": {
+    "title": "Power BI",
+    "tagline": "Microsoft's tool for turning company data into interactive charts and reports.",
+    "explanation": [
+      "**Power BI** is Microsoft's business intelligence tool. It connects to where a company's data lives, such as Excel files, databases, Salesforce or SharePoint, cleans and combines it, and turns it into interactive reports and dashboards: charts you can click to filter, totals that update, maps, tables.",
+      "A typical workflow has two halves. An analyst builds the report in **Power BI Desktop**, a free Windows app: they pull in the data, shape it with Power Query (a step-by-step cleaning tool), define relationships between tables and write measures in a formula language called DAX. Then they publish it to the **Power BI service** in the cloud, where colleagues open it in a browser, Teams or the phone app, and it refreshes on a schedule.",
+      "Microsoft launched it as a standalone product in 2015, and it spread quickly in companies that already pay for Microsoft 365. Its main competitors include Tableau and Looker. Since 2023 it is also part of Microsoft Fabric, the company's broader analytics platform. For many office workers it is the next step after Excel: same instincts, but connected to live data and shared with the whole team."
+    ],
+    "analogy": "Like a cockpit for a business: instead of reading pages of numbers, you look at gauges and dials, and you can tap any one of them to see what is behind it.",
+    "keyPoints": [
+      "Microsoft's BI tool for interactive reports and dashboards.",
+      "Reports are built in Power BI Desktop and shared through the Power BI service.",
+      "Power Query cleans the data; DAX defines calculations.",
+      "Popular in companies already using Microsoft 365; competes with Tableau and Looker."
+    ],
+    "links": [
+      { "label": "What is Power BI? (Microsoft Learn)", "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview" },
+      { "label": "Microsoft Power BI on Wikipedia", "url": "https://en.wikipedia.org/wiki/Power_BI" }
+    ]
+  },
+  "es": {
+    "title": "Power BI",
+    "tagline": "La herramienta de Microsoft para convertir datos de una empresa en informes interactivos.",
+    "explanation": [
+      "**Power BI** es la herramienta de business intelligence de Microsoft. Se conecta a donde están los datos de una empresa, como archivos de Excel, bases de datos, Salesforce o SharePoint, los limpia y los combina, y los convierte en informes y tableros interactivos: gráficos en los que hacés clic para filtrar, totales que se actualizan, mapas, tablas.",
+      "El trabajo típico tiene dos mitades. Un analista arma el informe en **Power BI Desktop**, una app gratuita para Windows: trae los datos, los acomoda con Power Query (una herramienta de limpieza paso a paso), define las relaciones entre tablas y escribe medidas en un lenguaje de fórmulas llamado DAX. Después lo publica en el **servicio Power BI** en la nube, donde sus compañeros lo abren desde el navegador, desde Teams o desde la app del celular, y se actualiza solo con la frecuencia que se configure.",
+      "Microsoft lo lanzó como producto independiente en 2015 y se expandió rápido en empresas que ya pagaban Microsoft 365. Entre sus principales competidores están Tableau y Looker. Desde 2023 también forma parte de Microsoft Fabric, la plataforma de análisis más amplia de la empresa. Para mucha gente de oficina es el paso siguiente a Excel: los mismos reflejos, pero conectado a datos vivos y compartido con todo el equipo."
+    ],
+    "analogy": "Como el tablero de un avión para un negocio: en lugar de leer páginas de números, mirás indicadores y agujas, y podés tocar cualquiera para ver qué hay detrás.",
+    "keyPoints": [
+      "La herramienta de BI de Microsoft para informes y tableros interactivos.",
+      "Los informes se arman en Power BI Desktop y se comparten en el servicio Power BI.",
+      "Power Query limpia los datos; DAX define los cálculos.",
+      "Muy usado en empresas que ya tienen Microsoft 365; compite con Tableau y Looker."
+    ],
+    "links": [
+      { "label": "¿Qué es Power BI? (Microsoft Learn)", "url": "https://learn.microsoft.com/es-es/power-bi/fundamentals/power-bi-overview" },
+      { "label": "Power BI en Wikipedia", "url": "https://es.wikipedia.org/wiki/Power_BI" }
+    ]
+  }
+}

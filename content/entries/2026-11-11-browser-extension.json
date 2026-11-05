@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-browser-extension",
+  "date": "2026-11-11",
+  "subjects": ["software", "security"],
+  "level": 1,
+  "aliases": {
+    "en": ["browser extensions", "Chrome extension", "Chrome extensions", "browser add-on", "browser add-ons"],
+    "es": ["extensiones de navegador", "extensión del navegador", "extensiones del navegador", "extensión de Chrome", "extensiones de Chrome"]
+  },
+  "image": "img/2026-11-11-browser-extension.svg",
+  "imageAlt": {
+    "en": "A browser window with small add-on pieces plugged into its toolbar: an ad blocker, a password manager and a translator, plus a permission warning",
+    "es": "Una ventana de navegador con piezas chiquitas enchufadas en la barra: un bloqueador de anuncios, un gestor de contraseñas y un traductor, más un aviso de permisos"
+  },
+  "en": {
+    "title": "Browser extension",
+    "tagline": "A small add-on that gives your web browser a new ability.",
+    "explanation": [
+      "A **browser extension** is a small program you install into your web browser to add a feature it does not have on its own. Ad blockers, password managers that fill in your logins, translators, grammar checkers, coupon finders and tools that save a page for later are all extensions. They usually show up as a small icon next to the address bar.",
+      "Extensions are built with the same languages as websites (HTML, CSS and JavaScript) plus a manifest file that declares what the extension is and what it is allowed to do. Chrome, Edge, Firefox and Safari share a common extension system, so the same extension can often be published for all of them with few changes. You install them from official stores like the Chrome Web Store or Firefox Add-ons.",
+      "The power that makes them useful is also the risk. An extension that can \"read and change all your data on all websites\" can see every page you open, including your bank and email. Extensions are sometimes sold to new owners who push a malicious update to their existing users. A good habit: install only what you really use, from developers you trust, check the permissions it asks for, and remove the ones you no longer need."
+    ],
+    "analogy": "Attachments for a kitchen mixer. The mixer works on its own, but clip on a dough hook or a pasta roller and it learns a new trick. Just make sure the attachment is from a maker you trust before you plug it in.",
+    "keyPoints": [
+      "Adds features to the browser: ad blocking, passwords, translation and more.",
+      "Built with web technologies and installed from official stores.",
+      "Chrome, Edge, Firefox and Safari share a similar extension system.",
+      "Broad permissions mean it can see everything you browse: install with care."
+    ],
+    "links": [
+      { "label": "Browser extensions (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions" },
+      { "label": "Install and manage extensions (Chrome Web Store Help)", "url": "https://support.google.com/chrome_webstore/answer/2664769?hl=en" },
+      { "label": "Browser extension on Wikipedia", "url": "https://en.wikipedia.org/wiki/Browser_extension" }
+    ]
+  },
+  "es": {
+    "title": "Extensión de navegador",
+    "tagline": "Un pequeño agregado que le suma una habilidad nueva a tu navegador.",
+    "explanation": [
+      "Una **extensión de navegador** es un programa chiquito que instalás en tu navegador web para sumarle algo que no trae de fábrica. Los bloqueadores de anuncios, los gestores de contraseñas que completan tus logins, los traductores, los correctores de ortografía, los buscadores de cupones y las herramientas para guardar una página para después son extensiones. Normalmente aparecen como un iconito al lado de la barra de direcciones.",
+      "Las extensiones se hacen con los mismos lenguajes que los sitios web (HTML, CSS y JavaScript) más un archivo de manifiesto que declara qué es la extensión y qué tiene permitido hacer. Chrome, Edge, Firefox y Safari comparten un sistema de extensiones parecido, así que muchas veces la misma extensión se publica para todos con pocos cambios. Se instalan desde tiendas oficiales como la Chrome Web Store o Firefox Add-ons.",
+      "El poder que las hace útiles también es el riesgo. Una extensión que puede \"leer y cambiar todos tus datos en todos los sitios web\" ve cada página que abrís, incluido tu banco y tu mail. A veces una extensión se vende a un dueño nuevo que manda una actualización maliciosa a todos sus usuarios. Un buen hábito: instalá solo lo que de verdad usás, de desarrolladores en los que confiás, mirá qué permisos pide y sacá las que ya no necesitás."
+    ],
+    "analogy": "Los accesorios de una batidora de pie. La batidora anda sola, pero le enganchás el gancho de amasar o el rodillo de pasta y aprende un truco nuevo. Eso sí: fijate que el accesorio sea de una marca confiable antes de enchufarlo.",
+    "keyPoints": [
+      "Le suma funciones al navegador: bloquear anuncios, contraseñas, traducción y más.",
+      "Se hacen con tecnologías web y se instalan desde tiendas oficiales.",
+      "Chrome, Edge, Firefox y Safari comparten un sistema de extensiones parecido.",
+      "Con permisos amplios puede ver todo lo que navegás: instalalas con cuidado."
+    ],
+    "links": [
+      { "label": "Extensiones del navegador (MDN)", "url": "https://developer.mozilla.org/es/docs/Mozilla/Add-ons/WebExtensions" },
+      { "label": "Instalar y administrar extensiones (Ayuda de Chrome Web Store)", "url": "https://support.google.com/chrome_webstore/answer/2664769?hl=es" },
+      { "label": "Extensión de navegador en Wikipedia", "url": "https://es.wikipedia.org/wiki/Extensión_de_navegador" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-cloud-outage",
+  "date": "2026-11-09",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["cloud outages", "service outage", "service outages"],
+    "es": ["caídas de la nube", "cloud outage", "caída del servicio", "caídas del servicio"]
+  },
+  "image": "img/2026-11-09-cloud-outage.svg",
+  "imageAlt": {
+    "en": "One cloud provider with a failure in the middle, and the many apps that depend on it, a bank, a store, a game and a chat, all going down at once",
+    "es": "Un proveedor cloud con una falla en el medio, y las muchas aplicaciones que dependen de él, un banco, una tienda, un juego y un chat, cayéndose todas a la vez"
+  },
+  "en": {
+    "title": "Cloud outage",
+    "tagline": "When a cloud provider fails and many apps and websites go down with it.",
+    "explanation": [
+      "A **cloud outage** is when part of a cloud provider stops working: servers, storage, the network or one of its key internal services. Because so many companies rent their computers from the same few providers, a single failure can knock out banks, stores, games and messaging apps at the same time, even though none of them did anything wrong.",
+      "Outages rarely start with a whole data center burning down. More often a small mistake spreads. In February 2017, a mistyped command during routine work took down Amazon S3 in AWS's Northern Virginia region (US-EAST-1) for hours, and many websites broke with it. In October 2025, a DNS problem with DynamoDB in that same region set off failures across many AWS services, and popular apps were down for many hours.",
+      "Providers run public status pages and, after big events, publish a written summary of what went wrong. For companies, the lesson is to design for failure: spread copies across availability zones or even regions, know what depends on what, and have a plan for running in a reduced mode. For everyone else, it is a reminder that the cloud is real buildings full of machines run by people."
+    ],
+    "analogy": "Like a power cut in a shopping mall: every shop is fine on its own, but they all share the same electricity, so when it fails the whole mall goes dark at once.",
+    "keyPoints": [
+      "One provider failure can take down many unrelated apps at once.",
+      "Big outages often start small, with a change or a configuration mistake.",
+      "Providers publish status pages and summaries after major events.",
+      "Spreading across zones and regions limits the damage."
+    ],
+    "links": [
+      { "label": "AWS Post-Event Summaries", "url": "https://aws.amazon.com/premiumsupport/technology/pes/" },
+      { "label": "Google Cloud Service Health", "url": "https://status.cloud.google.com/" },
+      { "label": "Downtime on Wikipedia", "url": "https://en.wikipedia.org/wiki/Downtime" }
+    ]
+  },
+  "es": {
+    "title": "Caída de la nube",
+    "tagline": "Cuando falla un proveedor cloud y se caen con él muchas apps y sitios web.",
+    "explanation": [
+      "Una **caída de la nube** es cuando una parte de un proveedor cloud deja de funcionar: los servidores, el almacenamiento, la red o alguno de sus servicios internos clave. Como muchísimas empresas alquilan sus computadoras a los mismos pocos proveedores, una sola falla puede tirar abajo bancos, tiendas, juegos y apps de mensajería al mismo tiempo, aunque ninguno de ellos haya hecho nada mal.",
+      "Las caídas casi nunca empiezan con un data center prendiéndose fuego. Lo más común es un error chico que se propaga. En febrero de 2017, un comando mal tipeado durante un trabajo de rutina dejó sin Amazon S3 a la región de Virginia del Norte de AWS (US-EAST-1) durante horas, y muchísimos sitios se rompieron con él. En octubre de 2025, un problema de DNS con DynamoDB en esa misma región desató fallas en muchos servicios de AWS, y apps muy usadas quedaron fuera de servicio durante muchas horas.",
+      "Los proveedores tienen páginas públicas de estado y, después de los eventos grandes, publican un resumen de qué salió mal. Para las empresas, la lección es diseñar pensando en que algo va a fallar: repartir copias entre zonas de disponibilidad o incluso regiones, saber qué depende de qué y tener un plan para seguir andando a media máquina. Para el resto, es un recordatorio de que la nube son edificios reales llenos de máquinas que maneja gente."
+    ],
+    "analogy": "Es como un corte de luz en un shopping: cada local anda bien por su cuenta, pero todos comparten la misma electricidad, así que cuando falla se apaga el shopping entero de golpe.",
+    "keyPoints": [
+      "Una falla de un proveedor puede tirar muchas apps sin relación entre sí.",
+      "Las grandes caídas suelen empezar chicas, con un cambio o un error de configuración.",
+      "Los proveedores publican páginas de estado y resúmenes después de eventos grandes.",
+      "Repartirse entre zonas y regiones limita el daño."
+    ],
+    "links": [
+      { "label": "Alta disponibilidad en Wikipedia", "url": "https://es.wikipedia.org/wiki/Alta_disponibilidad" },
+      { "label": "AWS Post-Event Summaries (en inglés)", "url": "https://aws.amazon.com/premiumsupport/technology/pes/" },
+      { "label": "Google Cloud Service Health (en inglés)", "url": "https://status.cloud.google.com/" }
+    ]
+  }
+}

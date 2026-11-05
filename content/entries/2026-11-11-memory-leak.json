@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-memory-leak",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["memory leaks", "leaks memory", "leaking memory"],
+    "es": ["fugas de memoria", "pérdida de memoria", "memory leak", "memory leaks"]
+  },
+  "image": "img/2026-11-11-memory-leak.svg",
+  "imageAlt": {
+    "en": "A chart of a program's memory use climbing steadily over hours until it hits the limit and crashes, then dropping after a restart",
+    "es": "Un gráfico del uso de memoria de un programa que sube sin parar durante horas hasta tocar el límite y caerse, y baja después de reiniciarlo"
+  },
+  "en": {
+    "title": "Memory leak",
+    "tagline": "A bug where a program keeps grabbing memory and never gives it back.",
+    "explanation": [
+      "A **memory leak** happens when a program reserves memory (RAM) for something, stops needing it, but never releases it. Each leak may be tiny, but if it happens every time a user clicks, a request arrives or a loop runs, the program's memory use climbs steadily. Eventually the computer slows down as it starts swapping to disk, or the operating system kills the program for using too much.",
+      "In languages like C and C++, programmers reserve and release memory by hand, so forgetting the release is the classic leak. Languages like Java, Python and JavaScript have a **garbage collector** that frees memory automatically once nothing refers to it anymore, but leaks still happen: a list or cache that only ever grows, an event listener that is never removed, or an object kept alive by one forgotten reference. The garbage collector cannot free what the program still seems to be holding.",
+      "The telltale sign is a memory graph that rises like a staircase and never comes down, and a problem that goes away after a restart, only to come back hours or days later. That is why \"have you tried turning it off and on again\" so often works, and why some services are restarted on a schedule as a stopgap. The real fix is finding the leak with a memory profiler, a tool that shows what is taking up the space and who is holding on to it."
+    ],
+    "analogy": "A tap left dripping into a sink with the plug in. No single drop matters, but leave it overnight and the bathroom floods. Pulling the plug (restarting) helps for a while; fixing the tap is the real solution.",
+    "keyPoints": [
+      "Memory that is reserved and no longer needed, but never released.",
+      "Memory use grows steadily until the app slows down or crashes.",
+      "Garbage-collected languages still leak through forgotten references.",
+      "A restart hides it temporarily; a memory profiler finds the cause."
+    ],
+    "links": [
+      { "label": "Memory leak on Wikipedia", "url": "https://en.wikipedia.org/wiki/Memory_leak" },
+      { "label": "Memory management in JavaScript (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management" }
+    ]
+  },
+  "es": {
+    "title": "Fuga de memoria",
+    "tagline": "Un error en el que un programa agarra memoria y nunca la devuelve.",
+    "explanation": [
+      "Una **fuga de memoria** (memory leak) pasa cuando un programa reserva memoria (RAM) para algo, deja de necesitarla, pero nunca la libera. Cada fuga puede ser mínima, pero si pasa cada vez que alguien hace clic, llega un pedido o corre un bucle, el consumo de memoria sube sin parar. Al final la computadora se pone lenta porque empieza a tirar del disco, o el sistema operativo mata el programa por usar demasiado.",
+      "En lenguajes como C y C++ la memoria se reserva y se libera a mano, así que olvidarse de liberarla es la fuga clásica. Lenguajes como Java, Python y JavaScript tienen un **recolector de basura** (garbage collector) que libera la memoria solo cuando nada la referencia, pero igual hay fugas: una lista o una caché que solo crece, un listener de eventos que nunca se saca, o un objeto que sigue vivo por una referencia olvidada. El recolector no puede liberar lo que el programa todavía parece estar usando.",
+      "La señal típica es un gráfico de memoria que sube como una escalera y nunca baja, y un problema que desaparece al reiniciar y vuelve horas o días después. Por eso el clásico \"¿probaste apagarlo y prenderlo?\" funciona tan seguido, y por eso algunos servicios se reinician de forma programada como parche. El arreglo de verdad es encontrar la fuga con un profiler de memoria, una herramienta que muestra qué está ocupando lugar y quién lo está reteniendo."
+    ],
+    "analogy": "Una canilla que gotea en una pileta con el tapón puesto. Ninguna gota importa sola, pero dejala toda la noche y se te inunda el baño. Sacar el tapón (reiniciar) sirve un rato; arreglar la canilla es la solución de verdad.",
+    "keyPoints": [
+      "Memoria reservada que ya no se necesita pero nunca se libera.",
+      "El consumo crece sin parar hasta que la app se pone lenta o se cae.",
+      "Los lenguajes con recolector de basura también pierden memoria por referencias olvidadas.",
+      "Reiniciar la esconde un rato; un profiler de memoria encuentra la causa."
+    ],
+    "links": [
+      { "label": "Fuga de memoria en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fuga_de_memoria" },
+      { "label": "Gestión de memoria en JavaScript (MDN)", "url": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Memory_management" }
+    ]
+  }
+}

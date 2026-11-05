@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-aws-security-hub",
+  "date": "2026-11-09",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["Security Hub", "Security Hub CSPM", "AWS Security Hub CSPM"],
+    "es": ["Security Hub", "Security Hub CSPM", "AWS Security Hub CSPM"]
+  },
+  "image": "img/2026-11-09-aws-security-hub.svg",
+  "imageAlt": {
+    "en": "Findings from GuardDuty, Inspector, Macie and posture checks flow into one hub that ranks the most urgent issue first",
+    "es": "Hallazgos de GuardDuty, Inspector, Macie y controles de postura entran a un hub que pone primero el problema más urgente"
+  },
+  "en": {
+    "title": "AWS Security Hub",
+    "tagline": "One place where AWS gathers security alerts from many services and ranks them.",
+    "explanation": [
+      "**AWS Security Hub** collects security findings from across your AWS accounts and puts them in a single view. Without it, a security team would have to check Amazon GuardDuty for threats, Amazon Inspector for vulnerable software and Amazon Macie for exposed sensitive data, each in its own console.",
+      "Today the name covers two related services. **Security Hub CSPM** (cloud security posture management) runs checks against standards such as the AWS Foundational Security Best Practices, CIS or PCI DSS, and reports which settings fail, like an S3 bucket open to the world or a root account without MFA. **Security Hub** sits on top: it correlates those failed checks with findings from the other services to spot **exposures**, combinations of problems that together make a resource actually reachable by an attacker, and helps you prioritize and respond. AWS recommends turning on both.",
+      "The point is triage. A large account can produce thousands of findings, and most teams cannot fix them all at once. Security Hub groups them, highlights what matters most, and can send them to tickets, chat or automated fixes through Amazon EventBridge."
+    ],
+    "analogy": "The control room of a building, where the feeds from cameras, smoke detectors and door sensors land on one wall, and a supervisor decides which alarm deserves someone running to it first.",
+    "keyPoints": [
+      "Combines findings from GuardDuty, Inspector, Macie, posture checks and partner tools.",
+      "Security Hub CSPM checks your settings against standards like CIS and PCI DSS.",
+      "Security Hub correlates signals to rank real exposures, not just individual alerts.",
+      "Findings can trigger tickets or automated remediation."
+    ],
+    "links": [
+      { "label": "Introduction to AWS Security Hub (official docs)", "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub-v2.html" },
+      { "label": "What are Security Hub and Security Hub CSPM? (official docs)", "url": "https://docs.aws.amazon.com/securityhub/latest/userguide/what-are-securityhub-services.html" },
+      { "label": "AWS Security Hub product page", "url": "https://aws.amazon.com/security-hub/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Security Hub",
+    "tagline": "El lugar donde AWS junta las alertas de seguridad de varios servicios y las ordena.",
+    "explanation": [
+      "**AWS Security Hub** reúne los hallazgos de seguridad de todas tus cuentas de AWS en una sola vista. Sin él, el equipo de seguridad tendría que mirar Amazon GuardDuty para amenazas, Amazon Inspector para software vulnerable y Amazon Macie para datos sensibles expuestos, cada uno en su propia consola.",
+      "Hoy el nombre abarca dos servicios relacionados. **Security Hub CSPM** (gestión de la postura de seguridad en la nube) corre controles contra estándares como AWS Foundational Security Best Practices, CIS o PCI DSS, y te dice qué configuraciones fallan, como un bucket de S3 abierto a todo el mundo o una cuenta root sin MFA. **Security Hub** va por encima: cruza esos controles fallidos con los hallazgos de los otros servicios para detectar **exposiciones**, combinaciones de problemas que juntos dejan un recurso realmente al alcance de un atacante, y te ayuda a priorizar y responder. AWS recomienda activar los dos.",
+      "La gracia es el triage. Una cuenta grande puede generar miles de hallazgos, y casi ningún equipo los puede resolver todos de una. Security Hub los agrupa, resalta lo más importante y puede mandarlos a tickets, al chat o a correcciones automáticas mediante Amazon EventBridge."
+    ],
+    "analogy": "La sala de control de un edificio, donde las cámaras, los detectores de humo y los sensores de puertas terminan todos en una misma pared, y un supervisor decide a qué alarma hay que salir corriendo primero.",
+    "keyPoints": [
+      "Junta hallazgos de GuardDuty, Inspector, Macie, controles de postura y herramientas de terceros.",
+      "Security Hub CSPM revisa tu configuración contra estándares como CIS y PCI DSS.",
+      "Security Hub cruza señales para ordenar exposiciones reales, no solo alertas sueltas.",
+      "Los hallazgos pueden disparar tickets o correcciones automáticas."
+    ],
+    "links": [
+      { "label": "Introducción a AWS Security Hub (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/securityhub/latest/userguide/what-is-securityhub-v2.html" },
+      { "label": "Introducción a Security Hub CSPM (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/securityhub/latest/userguide/what-is-securityhub.html" },
+      { "label": "Página de AWS Security Hub", "url": "https://aws.amazon.com/es/security-hub/" }
+    ]
+  }
+}

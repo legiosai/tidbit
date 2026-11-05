@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <circle cx="50" cy="58" r="12"/><path d="M30 92 C30 74 70 74 70 92 Z"/>
+    <circle cx="50" cy="120" r="12"/><path d="M30 154 C30 136 70 136 70 154 Z"/>
+    <circle cx="50" cy="182" r="12"/><path d="M30 216 C30 198 70 198 70 216 Z"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="140" y="56" width="90" height="40" rx="10" fill="#ffd166"/>
+    <rect x="140" y="146" width="90" height="40" rx="10" fill="#ffd166"/>
+    <rect x="270" y="40" width="114" height="30" rx="6" fill="#9bd1b9"/>
+    <rect x="270" y="82" width="114" height="30" rx="6" fill="#9bd1b9"/>
+    <rect x="270" y="130" width="114" height="30" rx="6" fill="#f4a7a7"/>
+    <rect x="270" y="172" width="114" height="30" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M76 76 H134"/><path d="M76 136 L134 82"/><path d="M76 196 L134 172"/>
+    <path d="M232 70 L266 56"/><path d="M232 82 L266 96"/>
+    <path d="M232 160 L266 146"/><path d="M232 172 L266 186"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="185" y="81">nurse</text><text x="185" y="171">billing</text>
+    <text x="50" y="30">people</text><text x="185" y="30">roles</text><text x="327" y="28">permissions</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="327" y="59">read charts</text><text x="327" y="101">add notes</text>
+    <text x="327" y="149">edit invoices</text><text x="327" y="191">issue refunds</text>
+  </g>
+</svg>

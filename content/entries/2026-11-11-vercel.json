@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-vercel",
+  "date": "2026-11-11",
+  "subjects": ["companies", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["Vercel Inc.", "preview deployment", "preview deployments"],
+    "es": ["Vercel Inc.", "preview deployment", "preview deployments"]
+  },
+  "image": "img/2026-11-11-vercel.svg",
+  "imageAlt": {
+    "en": "A git push turns into a preview link for each branch and a production site served from many locations",
+    "es": "Un git push se convierte en un link de preview por cada rama y en un sitio de producción servido desde muchos lugares"
+  },
+  "en": {
+    "title": "Vercel",
+    "tagline": "A cloud platform that puts web frontends online on every git push.",
+    "explanation": [
+      "**Vercel** is a cloud company that hosts websites and web apps, focused on the frontend: the part that runs in the browser and the code that renders pages. It was founded in 2015 by Argentine developer Guillermo Rauch, under the name ZEIT, and renamed Vercel in 2020. It also created and maintains Next.js, a popular framework built on React.",
+      "The workflow is the selling point. You connect a GitHub or GitLab repository, and every push triggers a build and a deploy without you touching a server. Each branch or pull request gets its own **preview deployment**, a live URL where teammates can click around before merging. Merging to the main branch updates production.",
+      "Behind that, Vercel combines a CDN that caches static files close to users with serverless functions for the dynamic parts, and it runs largely on top of big public clouds. More recently it added AI products, like v0, which generates web interfaces from a text description, and an AI SDK for developers."
+    ],
+    "analogy": "A print shop wired to your notebook: every time you save a page, it prints a proof copy for your editor to check, and once approved, it ships copies to newsstands all over town.",
+    "keyPoints": [
+      "Founded in 2015 by Guillermo Rauch as ZEIT; renamed Vercel in 2020.",
+      "Creates and maintains the Next.js framework.",
+      "Every push builds and deploys; each branch gets a preview URL.",
+      "Serves sites through a CDN plus serverless functions."
+    ],
+    "links": [
+      { "label": "Vercel documentation (official)", "url": "https://vercel.com/docs" },
+      { "label": "Vercel on Wikipedia", "url": "https://en.wikipedia.org/wiki/Vercel" },
+      { "label": "Next.js (official)", "url": "https://nextjs.org/" }
+    ]
+  },
+  "es": {
+    "title": "Vercel",
+    "tagline": "Una plataforma cloud que pone online el frontend de una web con cada git push.",
+    "explanation": [
+      "**Vercel** es una empresa de cloud que aloja sitios y aplicaciones web, enfocada en el frontend: la parte que corre en el navegador y el código que arma las páginas. La fundó en 2015 el desarrollador argentino Guillermo Rauch, con el nombre ZEIT, y en 2020 pasó a llamarse Vercel. También creó y mantiene Next.js, un framework muy usado construido sobre React.",
+      "El flujo de trabajo es lo que la vende. Conectás un repositorio de GitHub o GitLab y cada push dispara un build y un deploy sin que toques un servidor. Cada rama o pull request tiene su propio **preview deployment**, una URL viva donde el equipo puede probar antes de mergear. Cuando mergeás a la rama principal, se actualiza producción.",
+      "Por detrás, Vercel combina una CDN que guarda los archivos estáticos cerca de los usuarios con funciones serverless para las partes dinámicas, y corre en buena medida sobre las grandes nubes públicas. Más recientemente sumó productos de IA, como v0, que genera interfaces web a partir de una descripción en texto, y un AI SDK para desarrolladores."
+    ],
+    "analogy": "Una imprenta conectada a tu cuaderno: cada vez que guardás una página, imprime una prueba para que tu editor la revise y, cuando la aprueba, reparte copias a todos los kioscos de la ciudad.",
+    "keyPoints": [
+      "Fundada en 2015 por Guillermo Rauch como ZEIT; se llama Vercel desde 2020.",
+      "Crea y mantiene el framework Next.js.",
+      "Cada push hace build y deploy; cada rama tiene su URL de preview.",
+      "Sirve los sitios con una CDN más funciones serverless."
+    ],
+    "links": [
+      { "label": "Vercel en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Vercel" },
+      { "label": "Documentación de Vercel (oficial, en inglés)", "url": "https://vercel.com/docs" },
+      { "label": "Next.js (oficial, en inglés)", "url": "https://nextjs.org/" }
+    ]
+  }
+}

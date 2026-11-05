@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-workload",
+  "date": "2026-11-09",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-09-workload.svg",
+  "imageAlt": {
+    "en": "Three different workloads, a website with steady traffic, a nightly batch job and a database, each running on the cloud with its own shape of usage",
+    "es": "Tres cargas de trabajo distintas, un sitio web con tráfico parejo, un proceso nocturno por lotes y una base de datos, cada una corriendo en la nube con su propia forma de uso"
+  },
+  "en": {
+    "title": "Workload",
+    "tagline": "Any job you run on computers: an app, a database, a nightly report, an AI model.",
+    "explanation": [
+      "In cloud talk, a **workload** is any piece of work that uses computing resources: a website, the backend of a mobile app, a database, a batch job that crunches numbers every night, the training of an AI model. It is a deliberately broad word. It lets people talk about what they run without saying yet whether it lives on a virtual machine, in containers or in serverless functions.",
+      "Thinking in workloads helps decide where and how each thing should run, because they behave differently. An online store has steady traffic with spikes on sale days. A monthly report needs a lot of power for an hour and nothing the rest of the month. A database needs fast disks and must never lose data. Each one can get the size, price model and level of protection it needs, instead of one setup for everything.",
+      "You will see the word everywhere: \"migrating workloads to the cloud\", \"production workloads\", \"AI workloads\". AWS's Well-Architected guidance defines a workload as a set of components that together deliver business value, and Kubernetes uses the same word for the apps you run on a cluster."
+    ],
+    "analogy": "Like the jobs in a restaurant kitchen: baking bread overnight, frying orders during the lunch rush, making a wedding cake once a month. Each needs different ovens, people and timing, and you plan the kitchen around them.",
+    "keyPoints": [
+      "Any app, job or service that uses computing resources.",
+      "A neutral word: it does not say where or how the thing runs.",
+      "Different workloads need different sizes, prices and protection.",
+      "Common phrases: production workloads, AI workloads, migrating workloads."
+    ],
+    "links": [
+      { "label": "Definitions (AWS Well-Architected Framework)", "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html" },
+      { "label": "Workloads (Kubernetes docs)", "url": "https://kubernetes.io/docs/concepts/workloads/" },
+      { "label": "What is a workload? (IBM)", "url": "https://www.ibm.com/think/topics/workload" }
+    ]
+  },
+  "es": {
+    "title": "Carga de trabajo",
+    "tagline": "Cualquier trabajo que corrés en la nube: una app, una base de datos, un reporte, un modelo.",
+    "explanation": [
+      "En el mundo cloud, una **carga de trabajo** (workload) es cualquier trabajo que usa recursos de cómputo: un sitio web, el backend de una app, una base de datos, un proceso por lotes que hace cuentas todas las noches, el entrenamiento de un modelo de IA. Es una palabra amplia a propósito. Sirve para hablar de lo que corrés sin decir todavía si vive en una máquina virtual, en contenedores o en funciones serverless.",
+      "Pensar en cargas de trabajo ayuda a decidir dónde y cómo correr cada cosa, porque se comportan distinto. Una tienda online tiene tráfico parejo con picos en días de ofertas. Un reporte mensual necesita mucha potencia durante una hora y nada el resto del mes. Una base de datos necesita discos rápidos y no puede perder datos nunca. Cada una puede tener el tamaño, el modelo de precio y el nivel de protección que le hace falta, en vez de un mismo esquema para todo.",
+      "La palabra aparece en todos lados, muchas veces en inglés: \"migrar workloads a la nube\", \"cargas de trabajo de producción\", \"cargas de trabajo de IA\". La guía Well-Architected de AWS define una carga de trabajo como un conjunto de componentes que juntos aportan valor al negocio, y Kubernetes usa la misma palabra para las aplicaciones que corrés en un cluster."
+    ],
+    "analogy": "Es como los trabajos de la cocina de un restaurante: hornear el pan de madrugada, freír pedidos en la hora pico del mediodía, hacer una torta de casamiento una vez por mes. Cada uno necesita hornos, gente y horarios distintos, y la cocina se organiza en función de eso.",
+    "keyPoints": [
+      "Cualquier app, proceso o servicio que usa recursos de cómputo.",
+      "Una palabra neutral: no dice dónde ni cómo corre la cosa.",
+      "Cada carga de trabajo necesita su tamaño, su precio y su protección.",
+      "Frases comunes: cargas de producción, cargas de IA, migrar workloads."
+    ],
+    "links": [
+      { "label": "Definiciones (AWS Well-Architected Framework)", "url": "https://docs.aws.amazon.com/es_es/wellarchitected/latest/framework/definitions.html" },
+      { "label": "Cargas de trabajo (documentación de Kubernetes)", "url": "https://kubernetes.io/es/docs/concepts/workloads/" },
+      { "label": "What is a workload? (IBM, en inglés)", "url": "https://www.ibm.com/think/topics/workload" }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-c-sharp",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["C Sharp", "CSharp"],
+    "es": ["C Sharp", "CSharp"]
+  },
+  "image": "img/2026-11-11-c-sharp.svg",
+  "imageAlt": {
+    "en": "C# code running on .NET, which powers a Windows app, a web server and a video game",
+    "es": "Código C# corriendo sobre .NET, que mueve una app de Windows, un servidor web y un videojuego"
+  },
+  "en": {
+    "title": "C#",
+    "tagline": "Microsoft's main programming language, used for business apps, web servers and games.",
+    "explanation": [
+      "**C#** (pronounced \"C sharp\") is a programming language created by Microsoft around 2000, designed by Anders Hejlsberg. It runs on **.NET**, Microsoft's platform for building and running programs: your C# code is compiled into an intermediate format, and the .NET runtime turns it into machine instructions while the program runs, a bit like Java and its JVM.",
+      "In style it sits close to Java: you declare types, organize code in classes, and the compiler catches many mistakes before the program runs. Over the years it added features that made it pleasant to write, like a built-in way to query lists of data and `async`/`await` for doing slow work without freezing the app, an idea many other languages later copied.",
+      "For a long time C# was tied to Windows. That changed around 2016, when Microsoft released an open-source, cross-platform version of .NET, so C# now runs on Linux servers and Macs too. You find it in company back-office systems, web backends built with ASP.NET, Windows desktop apps and, notably, video games: Unity, one of the most popular game engines, uses C# for game logic."
+    ],
+    "analogy": "A professional kitchen made by a single big manufacturer. The knives, ovens and recipes (the language, .NET and its tools) are designed to fit together, so a team can cook almost anything in it.",
+    "keyPoints": [
+      "Created by Microsoft around 2000; runs on the .NET platform.",
+      "Statically typed and object-oriented, similar in spirit to Java.",
+      "Open source and cross-platform: Windows, Linux and Mac.",
+      "The language of game logic in the Unity engine."
+    ],
+    "links": [
+      { "label": "A tour of C# (Microsoft Learn)", "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" },
+      { "label": "C# on Wikipedia", "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" }
+    ]
+  },
+  "es": {
+    "title": "C#",
+    "tagline": "El lenguaje principal de Microsoft, para apps de empresa, servidores web y juegos.",
+    "explanation": [
+      "**C#** (se pronuncia \"C sharp\") es un lenguaje de programación que Microsoft creó alrededor del año 2000, diseñado por Anders Hejlsberg. Corre sobre **.NET**, la plataforma de Microsoft para armar y ejecutar programas: tu código C# se compila a un formato intermedio, y el runtime de .NET lo convierte en instrucciones de máquina mientras el programa corre, parecido a lo que hacen Java y su JVM.",
+      "En estilo se parece mucho a Java: declarás tipos, organizás el código en clases y el compilador te ataja muchos errores antes de ejecutar. Con los años sumó cosas que lo hicieron cómodo de escribir, como una forma integrada de consultar listas de datos y `async`/`await` para hacer trabajos lentos sin congelar la app, una idea que después copiaron muchos otros lenguajes.",
+      "Durante mucho tiempo C# estuvo atado a Windows. Eso cambió alrededor de 2016, cuando Microsoft sacó una versión de .NET open source y multiplataforma, así que hoy C# corre también en servidores Linux y en Mac. Lo vas a encontrar en sistemas internos de empresas, backends web hechos con ASP.NET, apps de escritorio para Windows y, sobre todo, en videojuegos: Unity, uno de los motores de juego más usados, programa la lógica del juego en C#."
+    ],
+    "analogy": "Una cocina profesional armada por un solo gran fabricante. Los cuchillos, los hornos y las recetas (el lenguaje, .NET y sus herramientas) están pensados para encajar entre sí, así que un equipo puede cocinar casi cualquier cosa ahí.",
+    "keyPoints": [
+      "Lo creó Microsoft alrededor del 2000; corre sobre la plataforma .NET.",
+      "Tipado estático y orientado a objetos, parecido en espíritu a Java.",
+      "Open source y multiplataforma: Windows, Linux y Mac.",
+      "Es el lenguaje de la lógica de juego en el motor Unity."
+    ],
+    "links": [
+      { "label": "Un recorrido por C# (Microsoft Learn)", "url": "https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/" },
+      { "label": "C# en Wikipedia", "url": "https://es.wikipedia.org/wiki/C_Sharp" }
+    ]
+  }
+}

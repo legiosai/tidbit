@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-visual-studio-code",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["VS Code", "VSCode"],
+    "es": ["VS Code", "VSCode"]
+  },
+  "image": "img/2026-11-11-visual-studio-code.svg",
+  "imageAlt": {
+    "en": "A code editor window with a file list, the code in the middle and a terminal at the bottom, with extension blocks plugging into its side",
+    "es": "Una ventana de editor de código con la lista de archivos, el código en el medio y una terminal abajo, con bloques de extensiones enchufados al costado"
+  },
+  "en": {
+    "title": "Visual Studio Code",
+    "tagline": "Microsoft's free code editor, the one most programmers have open all day.",
+    "explanation": [
+      "**Visual Studio Code**, almost always called **VS Code**, is a free code editor made by Microsoft and released in 2015. It runs on Windows, Mac and Linux. You open a folder, see its files on the left, edit the code in the middle, and have a built-in terminal at the bottom to run commands without leaving the window.",
+      "On its own it is fairly light. Its strength is the extension marketplace: you add support for Python, Java, Git, databases, themes or AI assistants one extension at a time, so the same editor can be a small notepad for a quick script or a full IDE for a large project. That flexibility is a big reason it has ranked as the most used editor in Stack Overflow's yearly developer survey for years.",
+      "Its core is open source, and it is built with web technologies (on a framework called Electron), which is why it looks the same on every operating system. Several newer AI-focused editors, such as Cursor, started as modified copies of VS Code, so learning it carries over to them. Despite the similar name, it is a different and much lighter product than Visual Studio, Microsoft's older, heavyweight IDE."
+    ],
+    "analogy": "An empty workshop bench with a good lamp and a pegboard. It comes nearly bare, and you hang exactly the tools you need for the job in front of you.",
+    "keyPoints": [
+      "Free, made by Microsoft, released in 2015, runs on Windows, Mac and Linux.",
+      "Extensions add languages, debuggers, themes and AI assistants.",
+      "Not the same product as Visual Studio, Microsoft's older full IDE.",
+      "Editors like Cursor are built on top of its open-source core."
+    ],
+    "links": [
+      { "label": "Visual Studio Code documentation (official)", "url": "https://code.visualstudio.com/docs" },
+      { "label": "Visual Studio Code on Wikipedia", "url": "https://en.wikipedia.org/wiki/Visual_Studio_Code" }
+    ]
+  },
+  "es": {
+    "title": "Visual Studio Code",
+    "tagline": "El editor de código gratis de Microsoft, el que muchos programadores usan todo el día.",
+    "explanation": [
+      "**Visual Studio Code**, casi siempre llamado **VS Code**, es un editor de código gratuito que hizo Microsoft y que salió en 2015. Funciona en Windows, Mac y Linux. Abrís una carpeta, ves sus archivos a la izquierda, editás el código en el medio y tenés una terminal integrada abajo para correr comandos sin salir de la ventana.",
+      "Solo, es bastante liviano. Su fuerte es el marketplace de extensiones: le vas sumando soporte para Python, Java, Git, bases de datos, temas o asistentes de IA de a una extensión, así que el mismo editor puede ser un anotador para un script rápido o un IDE completo para un proyecto grande. Esa flexibilidad explica en buena parte por qué hace años sale primero como el editor más usado en la encuesta anual de desarrolladores de Stack Overflow.",
+      "Su núcleo es open source y está hecho con tecnologías web (sobre un framework llamado Electron), por eso se ve igual en todos los sistemas operativos. Varios editores nuevos enfocados en IA, como Cursor, arrancaron como copias modificadas de VS Code, así que lo que aprendés en uno te sirve en los otros. Pese al nombre parecido, es un producto distinto y mucho más liviano que Visual Studio, el IDE pesado y más viejo de Microsoft."
+    ],
+    "analogy": "Un banco de taller vacío con una buena lámpara y un tablero para colgar herramientas. Viene casi pelado, y vos colgás justo las herramientas que necesitás para el trabajo que tenés adelante.",
+    "keyPoints": [
+      "Gratis, de Microsoft, salió en 2015 y anda en Windows, Mac y Linux.",
+      "Las extensiones le suman lenguajes, debuggers, temas y asistentes de IA.",
+      "No es lo mismo que Visual Studio, el IDE completo y más viejo de Microsoft.",
+      "Editores como Cursor están construidos sobre su núcleo open source."
+    ],
+    "links": [
+      { "label": "Visual Studio Code en Wikipedia", "url": "https://es.wikipedia.org/wiki/Visual_Studio_Code" },
+      { "label": "Documentación de Visual Studio Code (oficial, en inglés)", "url": "https://code.visualstudio.com/docs" }
+    ]
+  }
+}

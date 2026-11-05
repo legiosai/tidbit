@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-golden-image",
+  "date": "2026-11-09",
+  "subjects": ["cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["golden images", "golden AMI", "golden AMIs"],
+    "es": ["golden images", "imagen dorada", "imágenes doradas", "golden AMI"]
+  },
+  "image": "img/2026-11-09-golden-image.svg",
+  "imageAlt": {
+    "en": "A build pipeline that patches, tests and saves a versioned golden image, which is then copied into three identical new servers",
+    "es": "Un pipeline que parchea, prueba y guarda una golden image con versión, que después se copia en tres servidores nuevos idénticos"
+  },
+  "en": {
+    "title": "Golden image",
+    "tagline": "A pre-built, approved server template that every new machine is copied from.",
+    "explanation": [
+      "A **golden image** is a saved copy of a fully prepared server: operating system, security patches, settings, monitoring agents and often the application itself, all baked in and approved. Instead of starting each new virtual machine blank and setting it up afterward, you launch it from this template, so it is ready in minutes and identical to every other copy. On AWS the image format is called an AMI (Amazon Machine Image); other clouds and platforms like VMware have their own.",
+      "Good golden images are built by a pipeline, not by hand. A tool such as HashiCorp Packer or EC2 Image Builder starts a temporary machine, runs the setup scripts, runs tests and security scans, and saves the result as a new numbered version. The pipeline runs again whenever new patches come out, so the image does not go stale, and old versions are retired.",
+      "This fits the idea of immutable infrastructure: you do not patch running servers, you replace them with fresh ones made from the newer image. It makes autoscaling faster, since new machines do not spend minutes installing things, and it keeps fleets predictable. The trade-off is discipline: every change, even a tiny one, means building and rolling out a new image, and someone has to own the pipeline. Container images follow the same idea."
+    ],
+    "analogy": "Like a master key at a locksmith: you do not carve each new key from scratch, you copy the approved master. When the lock changes, you cut a new master and replace the copies.",
+    "keyPoints": [
+      "A pre-built, tested server template that new machines start from.",
+      "On AWS it is an AMI; Packer and EC2 Image Builder build them.",
+      "Rebuilt regularly so new patches are always included.",
+      "Servers get replaced with fresh copies instead of patched in place."
+    ],
+    "links": [
+      { "label": "What is a golden image? (Red Hat)", "url": "https://www.redhat.com/en/topics/linux/what-is-a-golden-image" },
+      { "label": "Introduction to Packer (HashiCorp)", "url": "https://developer.hashicorp.com/packer/docs/intro" },
+      { "label": "What is EC2 Image Builder? (AWS docs)", "url": "https://docs.aws.amazon.com/imagebuilder/latest/userguide/what-is-image-builder.html" }
+    ]
+  },
+  "es": {
+    "title": "Golden image",
+    "tagline": "Una plantilla de servidor ya armada y aprobada, de la que se copia cada máquina nueva.",
+    "explanation": [
+      "Una **golden image** (imagen dorada) es una copia guardada de un servidor completamente preparado: sistema operativo, parches de seguridad, configuración, agentes de monitoreo y muchas veces la aplicación misma, todo incorporado y aprobado. En vez de arrancar cada máquina virtual vacía y configurarla después, la lanzás desde esta plantilla, así que está lista en minutos y es idéntica a todas las demás copias. En AWS el formato de imagen se llama AMI (Amazon Machine Image); otras nubes y plataformas como VMware tienen el suyo.",
+      "Las buenas golden images se arman con un pipeline, no a mano. Una herramienta como HashiCorp Packer o EC2 Image Builder levanta una máquina temporal, corre los scripts de instalación, pasa pruebas y escaneos de seguridad, y guarda el resultado como una versión nueva numerada. El pipeline vuelve a correr cada vez que salen parches nuevos, así la imagen no queda vieja, y las versiones anteriores se dan de baja.",
+      "Encaja con la idea de infraestructura inmutable: no parcheás los servidores que están corriendo, los reemplazás por otros nuevos hechos con la imagen más reciente. Eso hace que el autoscaling sea más rápido, porque las máquinas nuevas no pierden minutos instalando cosas, y que la flota sea predecible. La contra es la disciplina: cada cambio, aunque sea mínimo, implica armar y desplegar una imagen nueva, y alguien tiene que hacerse cargo del pipeline. Las imágenes de contenedores siguen la misma idea."
+    ],
+    "analogy": "Es como la llave maestra de un cerrajero: no tallás cada llave nueva desde cero, copiás la maestra aprobada. Cuando cambia la cerradura, hacés una maestra nueva y reemplazás las copias.",
+    "keyPoints": [
+      "Una plantilla de servidor ya armada y probada de la que arrancan las máquinas nuevas.",
+      "En AWS es una AMI; Packer y EC2 Image Builder las construyen.",
+      "Se rearma seguido para que siempre incluya los últimos parches.",
+      "Los servidores se reemplazan por copias nuevas en vez de parchearse en vivo."
+    ],
+    "links": [
+      { "label": "¿Qué son las imágenes de referencia? (Red Hat)", "url": "https://www.redhat.com/es/topics/linux/what-is-a-golden-image" },
+      { "label": "¿Qué es EC2 Image Builder? (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/imagebuilder/latest/userguide/what-is-image-builder.html" },
+      { "label": "Imágenes de máquina de Amazon (AMI) (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/AMIs.html" }
+    ]
+  }
+}

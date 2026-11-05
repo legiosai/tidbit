@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-linkedin",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["LinkedIn profile", "LinkedIn profiles"],
+    "es": ["perfil de LinkedIn", "perfiles de LinkedIn"]
+  },
+  "image": "img/2026-11-11-linkedin.svg",
+  "imageAlt": {
+    "en": "A person's profile with job history connected to a recruiter, a company and a job ad",
+    "es": "El perfil de una persona con su historia laboral, conectado a una reclutadora, una empresa y un aviso de trabajo"
+  },
+  "en": {
+    "title": "LinkedIn",
+    "tagline": "The social network for work: your résumé online, plus jobs and contacts.",
+    "explanation": [
+      "**LinkedIn** is a social network built around professional life. Instead of vacation photos, your profile shows where you studied, where you worked and what you know how to do. You connect with colleagues, follow companies, read and post about your field, and look for jobs. It was founded in 2002 by Reid Hoffman and a few colleagues and launched in 2003.",
+      "The money comes from several places. Companies pay for recruiting tools that let them search profiles and message candidates; people pay for Premium subscriptions; brands pay for ads aimed by job title, industry or company; and LinkedIn Learning sells online courses. LinkedIn says it has more than a billion members around the world.",
+      "Since 2016 it belongs to Microsoft, which bought it for roughly 26 billion dollars, but it still runs as its own brand. For many people it has become the default place where a recruiter looks you up, which is why a tidy profile matters even if you never post anything."
+    ],
+    "analogy": "A giant office corkboard where everyone pins their résumé, companies pin their job ads, and anyone can pass by and leave a note.",
+    "keyPoints": [
+      "Founded in 2002, launched in 2003; owned by Microsoft since 2016.",
+      "Your profile works as a public, always-updated résumé.",
+      "Makes money from recruiting tools, Premium subscriptions, ads and courses.",
+      "Recruiters use it to find and contact candidates directly."
+    ],
+    "links": [
+      { "label": "About LinkedIn (official)", "url": "https://about.linkedin.com/" },
+      { "label": "LinkedIn on Wikipedia", "url": "https://en.wikipedia.org/wiki/LinkedIn" }
+    ]
+  },
+  "es": {
+    "title": "LinkedIn",
+    "tagline": "La red social del trabajo: tu currículum online, más empleos y contactos.",
+    "explanation": [
+      "**LinkedIn** es una red social pensada para la vida laboral. En lugar de fotos de vacaciones, tu perfil muestra dónde estudiaste, dónde trabajaste y qué sabés hacer. Te conectás con colegas, seguís empresas, leés y publicás sobre tu rubro y buscás trabajo. La fundaron Reid Hoffman y un grupo de colegas en 2002 y salió al público en 2003.",
+      "La plata entra por varios lados. Las empresas pagan herramientas de reclutamiento para buscar perfiles y escribirles a candidatos; las personas pagan suscripciones Premium; las marcas pagan publicidad segmentada por puesto, industria o empresa; y LinkedIn Learning vende cursos online. LinkedIn dice tener más de mil millones de miembros en todo el mundo.",
+      "Desde 2016 pertenece a Microsoft, que la compró por unos 26 mil millones de dólares, aunque sigue funcionando con su propia marca. Para mucha gente se volvió el lugar donde un reclutador te busca primero, y por eso conviene tener el perfil ordenado aunque nunca publiques nada."
+    ],
+    "analogy": "Un corcho gigante de oficina donde cada uno clava su currículum, las empresas clavan sus avisos y cualquiera puede pasar y dejar una nota.",
+    "keyPoints": [
+      "Fundada en 2002 y lanzada en 2003; es de Microsoft desde 2016.",
+      "Tu perfil funciona como un currículum público y siempre actualizado.",
+      "Gana plata con herramientas para reclutar, suscripciones Premium, publicidad y cursos.",
+      "Los reclutadores la usan para encontrar y contactar candidatos directamente."
+    ],
+    "links": [
+      { "label": "Acerca de LinkedIn (oficial)", "url": "https://about.linkedin.com/es-es" },
+      { "label": "LinkedIn en Wikipedia", "url": "https://es.wikipedia.org/wiki/LinkedIn" }
+    ]
+  }
+}

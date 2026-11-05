@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-10-slowly-changing-dimension",
+  "date": "2026-11-10",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["slowly changing dimensions", "SCD", "SCDs", "SCD Type 2", "Type 2 SCD"],
+    "es": ["dimensiones lentamente cambiantes", "dimensión de variación lenta", "dimensiones de variación lenta", "slowly changing dimension", "SCD", "SCD tipo 2"]
+  },
+  "image": "img/2026-11-10-slowly-changing-dimension.svg",
+  "imageAlt": {
+    "en": "A customer dimension table where a move from Córdoba to Rosario adds a new row; the old row gets an end date and the new one is marked current",
+    "es": "Una tabla de dimensión de clientes donde una mudanza de Córdoba a Rosario agrega una fila nueva; la fila vieja recibe fecha de fin y la nueva queda marcada como actual"
+  },
+  "en": {
+    "title": "Slowly changing dimension",
+    "tagline": "The rules a data warehouse uses when descriptive data, like a customer's city, changes.",
+    "explanation": [
+      "In a star schema, dimension tables describe the who, what and where of each event: the customer, the product, the store. Most of that barely changes, but it does change now and then. A customer moves, a product switches category, a store gets a new manager. A **slowly changing dimension**, or SCD, is a dimension that has to deal with these occasional changes, and the term usually refers to the techniques for handling them.",
+      "The choice matters because it changes history. Say Ana moved from Córdoba to Rosario in March. With **Type 1** you simply overwrite the city; it is easy, but now all her purchases from last year show up as Rosario sales. With **Type 2** you keep the old row, close it with an end date, and add a new row for Rosario with its own surrogate key, valid from March and marked as current. Old sales stay attached to Córdoba, new ones to Rosario. **Type 3** adds a \"previous city\" column, which keeps only one step of history.",
+      "Type 2 is the most common when history matters, and it is why many dimension tables carry columns like `valid_from`, `valid_to` and `is_current`. The type numbers come from Ralph Kimball's dimensional modeling, and teams often mix them in one table: overwrite a typo fix, keep history for the address. Modern tools such as dbt snapshots and Microsoft Fabric pipelines can build Type 2 tables automatically."
+    ],
+    "analogy": "Like a passport that gets a new stamp each time you move instead of erasing the old address: you can still prove where you lived when you made each trip.",
+    "keyPoints": [
+      "Type 1 overwrites the old value and loses history.",
+      "Type 2 adds a new row with validity dates, keeping full history.",
+      "Type 3 keeps only the previous value in an extra column.",
+      "The choice decides whether past reports change when a description changes."
+    ],
+    "links": [
+      { "label": "Slowly changing dimension on Wikipedia", "url": "https://en.wikipedia.org/wiki/Slowly_changing_dimension" },
+      { "label": "Type 2: add new row (Kimball Group)", "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/type-2/" },
+      { "label": "Slowly changing dimension type 2 (Microsoft Fabric docs)", "url": "https://learn.microsoft.com/en-us/fabric/data-factory/slowly-changing-dimension-type-two" }
+    ]
+  },
+  "es": {
+    "title": "Dimensión lentamente cambiante",
+    "tagline": "Cómo registra un data warehouse los cambios de datos como la ciudad de un cliente.",
+    "explanation": [
+      "En un esquema en estrella, las tablas de dimensiones describen el quién, el qué y el dónde de cada evento: el cliente, el producto, el local. Casi todo eso cambia poco, pero cambia cada tanto. Un cliente se muda, un producto pasa a otra categoría, un local cambia de encargado. Una **dimensión lentamente cambiante** (slowly changing dimension, o SCD) es una dimensión que tiene que lidiar con esos cambios ocasionales, y el término suele referirse a las técnicas para manejarlos.",
+      "La elección importa porque cambia la historia. Supongamos que Ana se mudó de Córdoba a Rosario en marzo. Con el **Tipo 1** simplemente pisás la ciudad; es fácil, pero ahora todas sus compras del año pasado aparecen como ventas en Rosario. Con el **Tipo 2** conservás la fila vieja, la cerrás con una fecha de fin y agregás una fila nueva para Rosario con su propia clave sustituta, vigente desde marzo y marcada como actual. Las ventas viejas siguen asociadas a Córdoba y las nuevas a Rosario. El **Tipo 3** agrega una columna de \"ciudad anterior\", que guarda un solo paso de historia.",
+      "El Tipo 2 es el más usado cuando la historia importa, y por eso muchas tablas de dimensiones tienen columnas como `valid_from`, `valid_to` e `is_current`. Los números de tipo vienen del modelado dimensional de Ralph Kimball, y es común mezclarlos en una misma tabla: pisar la corrección de un error de tipeo, guardar historia de la dirección. Herramientas actuales como los snapshots de dbt y los pipelines de Microsoft Fabric pueden armar tablas Tipo 2 automáticamente."
+    ],
+    "analogy": "Como un pasaporte que suma un sello nuevo cada vez que te mudás en lugar de borrar la dirección anterior: siempre podés demostrar dónde vivías cuando hiciste cada viaje.",
+    "keyPoints": [
+      "El Tipo 1 pisa el valor viejo y pierde la historia.",
+      "El Tipo 2 agrega una fila nueva con fechas de vigencia y conserva toda la historia.",
+      "El Tipo 3 guarda solo el valor anterior en una columna extra.",
+      "La elección define si los informes del pasado cambian cuando cambia una descripción."
+    ],
+    "links": [
+      { "label": "Dimensión de variación lenta de tipo 2 (documentación de Microsoft Fabric)", "url": "https://learn.microsoft.com/es-es/fabric/data-factory/slowly-changing-dimension-type-two" },
+      { "label": "Slowly changing dimension en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Slowly_changing_dimension" }
+    ]
+  }
+}

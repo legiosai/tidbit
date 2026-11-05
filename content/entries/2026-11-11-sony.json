@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-sony",
+  "date": "2026-11-11",
+  "subjects": ["companies", "hardware"],
+  "level": 1,
+  "aliases": {
+    "en": ["Sony Group", "PlayStation"],
+    "es": ["Sony Group", "PlayStation"]
+  },
+  "image": "img/2026-11-11-sony.svg",
+  "imageAlt": {
+    "en": "One company with several branches: game consoles, camera sensors, music and movies",
+    "es": "Una empresa con varias ramas: consolas de videojuegos, sensores de cámara, música y películas"
+  },
+  "en": {
+    "title": "Sony",
+    "tagline": "The Japanese giant of PlayStation, camera sensors, music and movies.",
+    "explanation": [
+      "**Sony** is a Japanese company founded in Tokyo in 1946 by Masaru Ibuka and Akio Morita. It made its name with consumer electronics: pocket transistor radios, Trinitron TVs, the Walkman, which let people carry music in their pocket from 1979, and the compact disc, which it developed together with Philips.",
+      "Today it is less a gadget maker and more a group of businesses, officially called **Sony Group** since 2021. The biggest pieces are games, with the **PlayStation** consoles and the PlayStation Network store; music, through Sony Music and its record labels and publishing catalog; movies and TV, through Sony Pictures; and electronics like cameras, headphones and TVs.",
+      "A less visible part matters a lot for tech: Sony is one of the largest makers of image sensors, the chips that turn light into a photo. Many phones from other brands take their pictures with a Sony sensor inside."
+    ],
+    "analogy": "A big family business that started out selling radios and ended up owning the record shop, the movie theater, the arcade and the factory that makes camera eyes for its competitors.",
+    "keyPoints": [
+      "Founded in Tokyo in 1946; known for the Walkman and the CD.",
+      "Runs the PlayStation consoles and their online store.",
+      "Owns Sony Music and Sony Pictures.",
+      "A major supplier of camera sensors for other companies' phones."
+    ],
+    "links": [
+      { "label": "Sony (official corporate site)", "url": "https://www.sony.net/" },
+      { "label": "Sony on Wikipedia", "url": "https://en.wikipedia.org/wiki/Sony" }
+    ]
+  },
+  "es": {
+    "title": "Sony",
+    "tagline": "El gigante japonés de PlayStation, los sensores de cámara, la música y el cine.",
+    "explanation": [
+      "**Sony** es una empresa japonesa fundada en Tokio en 1946 por Masaru Ibuka y Akio Morita. Se hizo conocida con la electrónica de consumo: radios a transistores de bolsillo, los televisores Trinitron, el Walkman, que desde 1979 permitió llevar la música en el bolsillo, y el disco compacto, que desarrolló junto con Philips.",
+      "Hoy es menos una fábrica de aparatos y más un grupo de negocios, que desde 2021 se llama oficialmente **Sony Group**. Las piezas más grandes son los videojuegos, con las consolas **PlayStation** y la tienda PlayStation Network; la música, con Sony Music, sus sellos y su catálogo de autores; el cine y la TV, con Sony Pictures; y la electrónica, como cámaras, auriculares y televisores.",
+      "Hay una parte menos visible que pesa mucho en tecnología: Sony es uno de los mayores fabricantes de sensores de imagen, los chips que convierten la luz en una foto. Muchos celulares de otras marcas sacan sus fotos con un sensor de Sony adentro."
+    ],
+    "analogy": "Una gran empresa familiar que arrancó vendiendo radios y terminó siendo dueña de la disquería, el cine, el local de fichines y la fábrica que hace los ojos de las cámaras de sus competidores.",
+    "keyPoints": [
+      "Fundada en Tokio en 1946; famosa por el Walkman y el CD.",
+      "Maneja las consolas PlayStation y su tienda online.",
+      "Es dueña de Sony Music y Sony Pictures.",
+      "Gran proveedora de sensores de cámara para celulares de otras marcas."
+    ],
+    "links": [
+      { "label": "Sony en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sony" },
+      { "label": "Sony (sitio corporativo oficial, en inglés)", "url": "https://www.sony.net/" }
+    ]
+  }
+}

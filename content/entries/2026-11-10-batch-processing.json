@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-10-batch-processing",
+  "date": "2026-11-10",
+  "subjects": ["data", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["batch job", "batch jobs", "batch processes", "batch pipeline", "batch pipelines"],
+    "es": ["procesamiento por lotes", "proceso por lotes", "procesos por lotes", "batch processing", "proceso batch", "procesos batch"]
+  },
+  "image": "img/2026-11-10-batch-processing.svg",
+  "imageAlt": {
+    "en": "Records piling up during the day into a bin, then processed all together at 2 AM into a finished report",
+    "es": "Registros que se acumulan durante el día en una bandeja y se procesan todos juntos a las 2 de la mañana para armar un informe"
+  },
+  "en": {
+    "title": "Batch processing",
+    "tagline": "Collecting data for a while and then processing it all in one big run.",
+    "explanation": [
+      "**Batch processing** means handling data in large chunks on a schedule, instead of one item at a time as it arrives. A bank collects the day's transactions and settles them overnight. A company computes payroll once a month. A data team loads yesterday's sales into the data warehouse every morning at 2 AM so the dashboards are fresh by 9.",
+      "The idea is older than screens: early computers ran stacks of punched cards as one batch. It survives because it is simple and efficient. A single big run can use machines fully and then shut them down, it is easy to rerun if something fails, and the results are consistent because everything was computed from the same snapshot. Most ETL pipelines and tools like Apache Spark are typically run this way, often triggered by a cron job or an orchestrator.",
+      "The cost is delay: a batch report is only as fresh as the last run. When minutes or seconds matter, such as fraud detection or live tracking, teams switch to stream processing, which handles each event as it comes. Many companies use both: streams for what must be immediate, batches for heavy, complete calculations."
+    ],
+    "analogy": "Like doing laundry once a week: you let clothes pile up and wash a full load, which is efficient, but if you need a specific shirt today you are out of luck.",
+    "keyPoints": [
+      "Processes accumulated data in scheduled runs, often nightly.",
+      "Efficient and easy to rerun, but results are only as fresh as the last run.",
+      "The opposite approach is streaming, which handles each event as it arrives.",
+      "Typical uses: payroll, billing, nightly ETL loads, monthly reports."
+    ],
+    "links": [
+      { "label": "What is batch processing? (AWS)", "url": "https://aws.amazon.com/what-is/batch-processing/" },
+      { "label": "Batch processing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Batch_processing" }
+    ]
+  },
+  "es": {
+    "title": "Procesamiento batch",
+    "tagline": "Juntar datos durante un rato y después procesarlos todos de una sola vez.",
+    "explanation": [
+      "El **procesamiento batch**, o por lotes, consiste en manejar los datos en bloques grandes y con horario, en lugar de uno por uno a medida que llegan. Un banco junta las operaciones del día y las liquida a la noche. Una empresa calcula los sueldos una vez por mes. Un equipo de datos carga las ventas de ayer en el data warehouse todos los días a las 2 de la mañana para que los tableros estén al día a las 9.",
+      "La idea es más vieja que las pantallas: las primeras computadoras corrían pilas de tarjetas perforadas como un solo lote. Sigue vigente porque es simple y eficiente. Una corrida grande aprovecha las máquinas al máximo y después las apaga, es fácil de repetir si algo falla, y los resultados son coherentes porque todo se calculó sobre la misma foto de los datos. La mayoría de los pipelines de ETL y herramientas como Apache Spark se suelen usar así, muchas veces disparados por un cron job o un orquestador.",
+      "El costo es la demora: un informe batch está tan fresco como su última corrida. Cuando importan los minutos o los segundos, como en la detección de fraude o el seguimiento en vivo, los equipos pasan al procesamiento de streams, que atiende cada evento apenas llega. Muchas empresas usan las dos cosas: streaming para lo que tiene que ser inmediato, batch para los cálculos pesados y completos."
+    ],
+    "analogy": "Como lavar la ropa una vez por semana: dejás que se junte y lavás un lavarropas lleno, que rinde, pero si hoy necesitás una camisa en particular, mala suerte.",
+    "keyPoints": [
+      "Procesa datos acumulados en corridas programadas, muchas veces de noche.",
+      "Es eficiente y fácil de repetir, pero los resultados son tan frescos como la última corrida.",
+      "El enfoque opuesto es el streaming, que procesa cada evento cuando llega.",
+      "Usos típicos: sueldos, facturación, cargas nocturnas de ETL, informes mensuales."
+    ],
+    "links": [
+      { "label": "¿Qué es el procesamiento por lotes? (AWS)", "url": "https://aws.amazon.com/es/what-is/batch-processing/" },
+      { "label": "Procesamiento por lotes en Wikipedia", "url": "https://es.wikipedia.org/wiki/Procesamiento_por_lotes" }
+    ]
+  }
+}

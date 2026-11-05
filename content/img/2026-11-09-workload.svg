@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="30" width="112" height="140" rx="10" fill="#9ac7ea"/>
+    <rect x="144" y="30" width="112" height="140" rx="10" fill="#ffd166"/>
+    <rect x="268" y="30" width="112" height="140" rx="10" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <line x1="32" y1="140" x2="120" y2="140"/>
+    <path d="M32 112 C44 102 52 106 62 104 S80 92 90 100 S110 104 120 98"/>
+    <line x1="156" y1="140" x2="244" y2="140"/>
+    <path d="M156 138 H190 V78 H210 V138 H244"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f3efe6">
+    <path d="M298 74 V130 A26 9 0 0 0 350 130 V74"/>
+    <ellipse cx="324" cy="74" rx="26" ry="9"/>
+    <path d="M298 102 A26 9 0 0 0 350 102" fill="none"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="76" y="56">website</text>
+    <text x="200" y="56">nightly batch</text>
+    <text x="324" y="56">database</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="76" y="158">steady traffic</text>
+    <text x="200" y="158">big spike, then idle</text>
+    <text x="324" y="158">fast disks, no loss</text>
+  </g>
+  <text x="200" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">three workloads · three different needs</text>
+</svg>

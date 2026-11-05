@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-10-forecasting",
+  "date": "2026-11-10",
+  "subjects": ["data", "ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["forecast", "forecasts", "demand forecasting", "sales forecast", "sales forecasting"],
+    "es": ["forecasting", "forecast", "pronósticos", "pronóstico de demanda", "pronóstico de ventas", "proyección de ventas", "previsión de la demanda"]
+  },
+  "image": "img/2026-11-10-forecasting.svg",
+  "imageAlt": {
+    "en": "A line chart of past monthly sales with yearly peaks, continued into the future as a dashed line inside a widening shaded band",
+    "es": "Un gráfico de líneas con las ventas mensuales pasadas y sus picos anuales, que sigue hacia el futuro como línea punteada dentro de una banda que se ensancha"
+  },
+  "en": {
+    "title": "Forecasting",
+    "tagline": "Using past data to estimate future numbers, with an honest range around the guess.",
+    "explanation": [
+      "**Forecasting** is estimating future values from past data: how many umbrellas a store will sell next month, how much electricity a city will use tomorrow at 7 PM, how many calls a support center will get on Monday. Most forecasts start from a time series, a sequence of measurements over time.",
+      "A forecasting model looks for patterns it expects to continue. **Trend** is the long-run direction, up or down. **Seasonality** is the repeating rhythm, like higher sales every December or lower traffic every Sunday. Classic methods such as moving averages, exponential smoothing and ARIMA capture these; machine learning models can add outside signals like weather, prices or holidays.",
+      "A good forecast is not one number but a range: \"between 900 and 1,100 units, most likely around 1,000\". The further ahead you look, the wider that range gets. Teams check models by **backtesting**: pretending it is last year, forecasting, and comparing with what actually happened. Forecasts drive real decisions, such as how much stock to order or how many people to schedule, so being clear about the uncertainty matters as much as the number itself."
+    ],
+    "analogy": "Like a weather forecast: it reads patterns from the past to say \"70% chance of rain tomorrow\", is quite reliable for the next day, and gets fuzzier the further out you look.",
+    "keyPoints": [
+      "Estimates future values from historical data, usually a time series.",
+      "Looks for trend and seasonality; can add outside factors like weather or holidays.",
+      "A useful forecast comes with a range, which widens the further ahead it goes.",
+      "Backtesting against past periods shows how much to trust a model."
+    ],
+    "links": [
+      { "label": "Forecasting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Forecasting" },
+      { "label": "What is forecasting? (IBM)", "url": "https://www.ibm.com/think/topics/forecasting" }
+    ]
+  },
+  "es": {
+    "title": "Pronóstico",
+    "tagline": "Usar datos del pasado para estimar números futuros, con un rango honesto alrededor.",
+    "explanation": [
+      "Hacer un **pronóstico** (en las empresas se dice mucho forecasting) es estimar valores futuros a partir de datos pasados: cuántos paraguas va a vender un local el mes que viene, cuánta electricidad va a usar una ciudad mañana a las 19, cuántos llamados va a recibir un centro de atención el lunes. La mayoría de los pronósticos parten de una serie temporal, una secuencia de mediciones a lo largo del tiempo.",
+      "Un modelo de pronóstico busca patrones que espera que sigan. La **tendencia** es la dirección de largo plazo, para arriba o para abajo. La **estacionalidad** es el ritmo que se repite, como más ventas cada diciembre o menos tráfico cada domingo. Los métodos clásicos, como promedios móviles, suavizado exponencial y ARIMA, capturan eso; los modelos de machine learning pueden sumar señales externas como el clima, los precios o los feriados.",
+      "Un buen pronóstico no es un número sino un rango: \"entre 900 y 1.100 unidades, lo más probable alrededor de 1.000\". Cuanto más lejos mirás, más se ensancha ese rango. Los equipos prueban los modelos con **backtesting**: hacen de cuenta que es el año pasado, pronostican y comparan con lo que pasó de verdad. Los pronósticos mueven decisiones reales, como cuánto stock pedir o cuánta gente poner en cada turno, así que ser claro con la incertidumbre importa tanto como el número."
+    ],
+    "analogy": "Como el pronóstico del tiempo: lee patrones del pasado para decir \"70% de probabilidad de lluvia mañana\", es bastante confiable para el día siguiente y se vuelve más borroso cuanto más lejos mirás.",
+    "keyPoints": [
+      "Estima valores futuros a partir de datos históricos, en general una serie temporal.",
+      "Busca tendencia y estacionalidad; puede sumar factores externos como clima o feriados.",
+      "Un pronóstico útil viene con un rango, que se ensancha cuanto más adelante mira.",
+      "El backtesting contra períodos pasados muestra cuánto confiar en un modelo."
+    ],
+    "links": [
+      { "label": "Pronóstico (estadística) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Pronóstico_(estadística)" },
+      { "label": "¿Qué es la previsión? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/forecasting" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-multi-region-architecture",
+  "date": "2026-11-09",
+  "subjects": ["cloud"],
+  "level": 3,
+  "aliases": {
+    "en": ["multi-region", "multi-region deployment", "multi-region deployments"],
+    "es": ["multirregión", "multi-región", "despliegue multirregión", "multi-region architecture"]
+  },
+  "image": "img/2026-11-09-multi-region-architecture.svg",
+  "imageAlt": {
+    "en": "Users sent by global DNS to two cloud regions far apart, each running the app, with their databases replicating to each other across the distance",
+    "es": "Usuarios que un DNS global manda a dos regiones cloud lejanas, cada una corriendo la aplicación, con sus bases de datos replicándose entre sí a la distancia"
+  },
+  "en": {
+    "title": "Multi-region architecture",
+    "tagline": "Running an application in several cloud regions so it survives losing a whole one.",
+    "explanation": [
+      "A cloud region is a group of data centers in one geographic area, like Northern Virginia or São Paulo. Spreading an app across availability zones inside one region already protects it from losing a single building. A **multi-region architecture** goes further: it runs the application in two or more regions, often far apart, so it keeps working even if an entire region fails, and so users far away get answers from a closer place.",
+      "There are two main styles. In active-passive, one region serves all the traffic and another keeps a copy ready to take over; DNS or a global load balancer moves users when the main one fails. In active-active, every region serves users at the same time. Active-active is faster for a global audience and fails over more smoothly, but it is much harder to build.",
+      "The hard part is the data. Copying a database between regions takes time, because distance adds latency, so at any moment the copies can be slightly behind. Two users editing the same record in different regions can conflict. Teams must choose between waiting for every region to agree, which is slow, or accepting a small window of changes that could be lost or reconciled later. On top of that you pay for servers and data transfer in every region, and some laws limit where personal data can go. That is why many companies keep multi-region for their most critical systems."
+    ],
+    "analogy": "Like a company with offices in two cities: if a storm closes one, the other keeps serving customers. But every important file has to stay in sync between them, and that is where most of the work goes.",
+    "keyPoints": [
+      "The app runs in two or more regions, far apart.",
+      "It survives a full region outage and serves distant users faster.",
+      "Active-passive keeps a standby; active-active serves from every region.",
+      "Keeping data in sync across regions is the hardest and costliest part."
+    ],
+    "links": [
+      { "label": "Disaster recovery options in the cloud (AWS whitepaper)", "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html" },
+      { "label": "Designing for redundancy (Azure Well-Architected Framework)", "url": "https://learn.microsoft.com/en-us/azure/well-architected/reliability/redundancy" },
+      { "label": "Geography and regions (Google Cloud docs)", "url": "https://docs.cloud.google.com/docs/geography-and-regions" }
+    ]
+  },
+  "es": {
+    "title": "Arquitectura multirregión",
+    "tagline": "Correr una aplicación en varias regiones cloud para que aguante perder una entera.",
+    "explanation": [
+      "Una región cloud es un grupo de data centers en una zona geográfica, como Virginia del Norte o São Paulo. Repartir una aplicación entre zonas de disponibilidad dentro de una región ya la protege de perder un edificio. Una **arquitectura multirregión** va más allá: corre la aplicación en dos o más regiones, muchas veces muy lejos entre sí, para que siga andando aunque se caiga una región entera, y para que los usuarios lejanos reciban respuestas desde un lugar más cercano.",
+      "Hay dos estilos principales. En activo-pasivo, una región atiende todo el tráfico y otra tiene una copia lista para reemplazarla; el DNS o un balanceador de carga global mueve a los usuarios cuando la principal falla. En activo-activo, todas las regiones atienden usuarios al mismo tiempo. El activo-activo es más rápido para un público global y el cambio ante una falla es más suave, pero es mucho más difícil de construir.",
+      "Lo difícil son los datos. Copiar una base de datos entre regiones lleva tiempo, porque la distancia suma latencia, así que en cualquier momento las copias pueden estar un poco atrasadas. Dos usuarios que editan el mismo registro en regiones distintas pueden chocar. Hay que elegir entre esperar a que todas las regiones se pongan de acuerdo, que es lento, o aceptar una pequeña ventana de cambios que se podrían perder o conciliar después. Encima pagás servidores y transferencia de datos en cada región, y algunas leyes limitan a dónde pueden ir los datos personales. Por eso muchas empresas reservan lo multirregión para sus sistemas más críticos."
+    ],
+    "analogy": "Es como una empresa con oficinas en dos ciudades: si una tormenta cierra una, la otra sigue atendiendo. Pero cada archivo importante tiene que estar sincronizado entre las dos, y ahí se va la mayor parte del trabajo.",
+    "keyPoints": [
+      "La aplicación corre en dos o más regiones, lejos entre sí.",
+      "Aguanta la caída de una región entera y atiende más rápido a usuarios lejanos.",
+      "Activo-pasivo tiene una de reserva; activo-activo atiende desde todas.",
+      "Mantener los datos sincronizados entre regiones es lo más difícil y caro."
+    ],
+    "links": [
+      { "label": "Fundamentos multirregionales de AWS (AWS Orientación prescriptiva)", "url": "https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/aws-multi-region-fundamentals/introduction.html" },
+      { "label": "Opciones de recuperación de desastres en la nube (AWS)", "url": "https://docs.aws.amazon.com/es_es/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html" },
+      { "label": "Estrategias para diseñar redundancia (Azure Well-Architected Framework)", "url": "https://learn.microsoft.com/es-es/azure/well-architected/reliability/redundancy" }
+    ]
+  }
+}

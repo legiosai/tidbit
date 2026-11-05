@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="96" width="50" height="40" rx="8" fill="#9ac7ea"/>
+    <circle cx="80" cy="116" r="8" fill="#f4a7a7"/>
+    <circle cx="320" cy="72" r="28" fill="#9bd1b9"/>
+    <rect x="314" y="98" width="12" height="30" fill="#e6dfd0"/>
+    <path d="M270 170 H360 V150 L344 136 H296 L282 150 H270 Z" fill="#ffd166"/>
+    <circle cx="292" cy="172" r="8" fill="#e6dfd0"/><circle cx="340" cy="172" r="8" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="6 5">
+    <path d="M90 112 L290 76"/><path d="M90 122 L272 154"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M284 72 l6 4 -7 3"/><path d="M265 149 l7 5 -8 2"/>
+  </g>
+  <g fill="#2b2b2b">
+    <circle cx="120" cy="176" r="2.5"/><circle cx="130" cy="170" r="2.5"/><circle cx="140" cy="166" r="2.5"/><circle cx="150" cy="166" r="2.5"/>
+    <circle cx="160" cy="170" r="2.5"/><circle cx="168" cy="178" r="2.5"/><circle cx="176" cy="178" r="2.5"/><circle cx="184" cy="172" r="2.5"/>
+    <circle cx="194" cy="168" r="2.5"/><circle cx="204" cy="168" r="2.5"/><circle cx="212" cy="174" r="2.5"/><circle cx="120" cy="186" r="2.5"/><circle cx="212" cy="186" r="2.5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="55" y="156">lidar</text>
+    <text x="190" y="80">laser pulse</text>
+    <text x="166" y="204">point cloud</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">time of each echo = distance</text>
+</svg>

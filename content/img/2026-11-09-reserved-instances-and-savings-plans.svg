@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <line x1="30" y1="190" x2="370" y2="190"/>
+    <rect x="70" y="50" width="90" height="140" rx="4" fill="#f4a7a7"/>
+    <rect x="240" y="88" width="90" height="102" rx="4" fill="#9bd1b9"/>
+    <rect x="240" y="50" width="90" height="38" rx="4" fill="#f4a7a7"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="115" y="124">on-demand</text>
+    <text x="285" y="66">on-demand</text><text x="285" y="80">peaks</text>
+    <text x="285" y="134">committed</text><text x="285" y="150">base</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="115" y="38">same usage</text>
+    <text x="285" y="38">same usage</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="115" y="208">full price</text>
+    <text x="285" y="208">base costs less</text>
+    <text x="285" y="224">1- or 3-year promise</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M176 120 H220"/><path d="M214 116 l6 4 -6 4"/>
+  </g>
+</svg>

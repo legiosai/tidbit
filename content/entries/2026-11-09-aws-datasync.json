@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-aws-datasync",
+  "date": "2026-11-09",
+  "subjects": ["aws", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["DataSync", "DataSync agent"],
+    "es": ["DataSync", "agente de DataSync"]
+  },
+  "image": "img/2026-11-09-aws-datasync.svg",
+  "imageAlt": {
+    "en": "Files move from an office file server through a DataSync agent over the network into S3 and EFS, with a checkmark for verified copies",
+    "es": "Archivos que pasan de un servidor de la oficina, por un agente de DataSync y por la red, a S3 y EFS, con un tilde de copia verificada"
+  },
+  "en": {
+    "title": "AWS DataSync",
+    "tagline": "An AWS service that copies large amounts of files over the network, and checks they arrived intact.",
+    "explanation": [
+      "**AWS DataSync** moves files and objects from one storage system to another over the network. The typical case is a company with years of documents, images or research data on a file server in its own office, which it wants in Amazon S3, Amazon EFS or Amazon FSx. It also works between AWS services and from other clouds, like Azure Blob Storage or Google Cloud Storage.",
+      "For on-premises storage you install a small virtual machine, the **DataSync agent**, near your file server. It reads from the usual protocols, such as NFS, SMB, HDFS or object storage, and sends the data to AWS. You define a task with a source, a destination and options, then run it once or on a schedule. Each run only copies what changed, encrypts data in transit and verifies that what landed matches what left.",
+      "You could copy files yourself with scripts, but at millions of files the hard parts are speed, retries, permissions and proving nothing got corrupted. DataSync uses many parallel streams to make the most of your link, and it handles those details. When the link is too slow for the amount of data, a physical transfer is the alternative."
+    ],
+    "analogy": "A moving company that packs your office box by box, drives back and forth as many times as needed, and checks each box against the inventory list when it reaches the new place.",
+    "keyPoints": [
+      "Copies files and objects into, out of and between AWS storage services.",
+      "Reads NFS, SMB, HDFS and object storage, plus some other clouds.",
+      "Copies only changes on repeat runs and verifies data integrity.",
+      "Uses an agent installed near your on-premises storage."
+    ],
+    "links": [
+      { "label": "What is AWS DataSync? (official docs)", "url": "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html" },
+      { "label": "AWS DataSync product page", "url": "https://aws.amazon.com/datasync/" }
+    ]
+  },
+  "es": {
+    "title": "AWS DataSync",
+    "tagline": "Un servicio de AWS que copia muchísimos archivos por la red y verifica que lleguen enteros.",
+    "explanation": [
+      "**AWS DataSync** mueve archivos y objetos de un sistema de almacenamiento a otro por la red. El caso típico es una empresa con años de documentos, imágenes o datos de investigación en un servidor de archivos en su propia oficina, que los quiere en Amazon S3, Amazon EFS o Amazon FSx. También funciona entre servicios de AWS y desde otras nubes, como Azure Blob Storage o Google Cloud Storage.",
+      "Para almacenamiento on-premises instalás una pequeña máquina virtual, el **agente de DataSync**, cerca de tu servidor de archivos. Lee con los protocolos de siempre, como NFS, SMB, HDFS o almacenamiento de objetos, y manda los datos a AWS. Definís una tarea con origen, destino y opciones, y la corrés una vez o de forma programada. En cada corrida copia solo lo que cambió, cifra los datos en tránsito y verifica que lo que llegó coincida con lo que salió.",
+      "Podrías copiar archivos vos con scripts, pero con millones de archivos lo difícil es la velocidad, los reintentos, los permisos y demostrar que nada se corrompió. DataSync usa muchas transferencias en paralelo para aprovechar tu conexión y se ocupa de esos detalles. Cuando la conexión es muy lenta para tanto volumen, la alternativa es una transferencia física."
+    ],
+    "analogy": "Una empresa de mudanzas que embala tu oficina caja por caja, hace todos los viajes que hagan falta y controla cada caja contra el inventario cuando llega al lugar nuevo.",
+    "keyPoints": [
+      "Copia archivos y objetos hacia, desde y entre servicios de almacenamiento de AWS.",
+      "Lee NFS, SMB, HDFS y almacenamiento de objetos, además de otras nubes.",
+      "En corridas repetidas copia solo los cambios y verifica la integridad.",
+      "Usa un agente instalado cerca de tu almacenamiento on-premises."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS DataSync? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/datasync/latest/userguide/what-is-datasync.html" },
+      { "label": "Página de AWS DataSync", "url": "https://aws.amazon.com/es/datasync/" }
+    ]
+  }
+}

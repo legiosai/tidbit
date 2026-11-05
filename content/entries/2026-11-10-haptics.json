@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-10-haptics",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "haptic",
+      "haptic feedback",
+      "haptic technology",
+      "haptic engine",
+      "Taptic Engine"
+    ],
+    "es": [
+      "háptico",
+      "hápticos",
+      "respuesta háptica",
+      "tecnología háptica",
+      "vibración háptica",
+      "haptics",
+      "Taptic Engine"
+    ]
+  },
+  "image": "img/2026-11-10-haptics.svg",
+  "imageAlt": {
+    "en": "A finger presses a phone screen; inside, a small motor shakes in short precise pulses, drawn as a sharp tap wave next to a long buzz wave",
+    "es": "Un dedo aprieta la pantalla de un celular; adentro, un motorcito se sacude en pulsos cortos y precisos, dibujados como una onda de toque seca al lado de una onda de zumbido larga"
+  },
+  "en": {
+    "title": "Haptics",
+    "tagline": "Technology that talks to your sense of touch with taps, buzzes and resistance.",
+    "explanation": [
+      "**Haptics** is technology that communicates through touch. The simplest example is your phone vibrating in your pocket. Modern haptics goes much further: short, precise taps when you flick a toggle, a soft click when a timer wheel passes each number, or a different rhythm for a message than for a call. The goal is to make glass and plastic feel like they respond to you.",
+      "Most of it comes from a small motor inside the device. Old phones spun a tiny off-center weight, which gives a loose, mushy buzz. Newer devices use a **linear actuator**, a mass that moves back and forth on a spring and can start and stop in a few milliseconds, so it can draw sharp, distinct patterns. Apple's Taptic Engine is one; it is also how many laptop trackpads fake a click without actually moving. Game controllers like the PlayStation 5 DualSense use haptics to let you feel rain or gravel, and add triggers that push back.",
+      "Good haptics matter more than they seem. They confirm an action without you looking, help people with low vision, and make virtual buttons feel trustworthy. Developers can trigger and design patterns through the phone's system tools, and in VR, gloves and vests with haptics try to let you feel the objects you touch."
+    ],
+    "analogy": "A friend tapping you on the shoulder instead of calling your name: one tap means \"look\", two quick taps mean \"hurry\". The message arrives through your skin, not your eyes or ears.",
+    "keyPoints": [
+      "Communicates through touch: vibrations, taps and resistance.",
+      "Linear actuators make crisp, short taps that old spinning motors could not.",
+      "Used in phones, trackpads, game controllers and VR gear.",
+      "Confirms actions without looking and helps accessibility."
+    ],
+    "links": [
+      {
+        "label": "Haptic technology on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Haptic_technology"
+      },
+      {
+        "label": "Playing haptics (Apple design guidelines)",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/playing-haptics"
+      },
+      {
+        "label": "Implement haptics on Android (Android Developers)",
+        "url": "https://developer.android.com/develop/ui/views/haptics"
+      }
+    ]
+  },
+  "es": {
+    "title": "Háptica",
+    "tagline": "Tecnología que te habla a través del tacto, con toques, vibraciones y resistencia.",
+    "explanation": [
+      "La **háptica** es la tecnología que se comunica a través del tacto. El ejemplo más simple es el celular vibrando en el bolsillo. La háptica moderna va mucho más allá: toquecitos cortos y precisos cuando movés un interruptor, un clic suave cada vez que la ruedita del temporizador pasa un número, o un ritmo distinto para un mensaje que para una llamada. La idea es que el vidrio y el plástico se sientan como si te respondieran.",
+      "Casi todo sale de un motorcito adentro del aparato. Los celulares viejos hacían girar un pesito descentrado, que da un zumbido flojo y difuso. Los más nuevos usan un **actuador lineal**, una masa que va y viene sobre un resorte y puede arrancar y frenar en pocos milisegundos, así que dibuja patrones secos y bien distintos. El Taptic Engine de Apple es uno; también es la forma en que muchos trackpads de notebook simulan un clic sin moverse de verdad. Joysticks como el DualSense de la PlayStation 5 usan háptica para que sientas la lluvia o la grava, y suman gatillos que hacen fuerza en contra.",
+      "Una buena háptica importa más de lo que parece. Te confirma una acción sin que mires, ayuda a personas con baja visión y hace que los botones virtuales se sientan confiables. Quienes desarrollan apps pueden disparar y diseñar patrones con las herramientas del sistema del celular, y en la realidad virtual hay guantes y chalecos hápticos que intentan que sientas los objetos que tocás."
+    ],
+    "analogy": "Un amigo que te toca el hombro en vez de llamarte por tu nombre: un toque significa \"mirá\", dos rápidos significan \"apurate\". El mensaje te llega por la piel, no por los ojos ni los oídos.",
+    "keyPoints": [
+      "Se comunica por el tacto: vibraciones, toques y resistencia.",
+      "Los actuadores lineales logran toques secos y cortos que los viejos motores giratorios no podían.",
+      "Se usa en celulares, trackpads, joysticks y equipos de realidad virtual.",
+      "Confirma acciones sin mirar y ayuda a la accesibilidad."
+    ],
+    "links": [
+      {
+        "label": "Háptica en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/H%C3%A1ptica"
+      },
+      {
+        "label": "Playing haptics (guía de diseño de Apple, en inglés)",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/playing-haptics"
+      },
+      {
+        "label": "Implement haptics on Android (Android Developers, en inglés)",
+        "url": "https://developer.android.com/develop/ui/views/haptics"
+      }
+    ]
+  }
+}

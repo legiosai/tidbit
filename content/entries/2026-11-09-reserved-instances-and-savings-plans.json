@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-reserved-instances-and-savings-plans",
+  "date": "2026-11-09",
+  "subjects": ["cloud", "aws"],
+  "level": 2,
+  "aliases": {
+    "en": ["Reserved Instance", "Reserved Instances", "Savings Plan", "Savings Plans", "committed use discount", "committed use discounts"],
+    "es": ["instancia reservada", "instancias reservadas", "Reserved Instances", "Savings Plan", "Savings Plans", "descuentos por compromiso de uso"]
+  },
+  "image": "img/2026-11-09-reserved-instances-and-savings-plans.svg",
+  "imageAlt": {
+    "en": "Two bars of cloud spending: on-demand at full price, and a committed base at a lower price with on-demand only for the peaks on top",
+    "es": "Dos barras de gasto en la nube: todo on-demand a precio completo, y una base comprometida más barata con on-demand solo para los picos arriba"
+  },
+  "en": {
+    "title": "Reserved instances and Savings Plans",
+    "tagline": "Cheaper cloud prices in exchange for promising to keep using it for one or three years.",
+    "explanation": [
+      "Cloud servers are normally billed on demand: you pay by the hour or second and can stop whenever you want. That freedom costs extra. If you already know you will need a certain amount of computing for a long time, providers give you a lower price in exchange for a commitment. On AWS there are two main ways to make it: **Reserved Instances** and **Savings Plans**.",
+      "A Reserved Instance is a discount tied to a specific kind of machine, for example one EC2 instance type in one region, for one or three years. A Savings Plan is more flexible: you promise to spend a fixed amount per hour, say 10 dollars, and everything you use up to that amount gets the cheaper rate. Compute Savings Plans apply whatever the instance type or region, and also cover Fargate and Lambda. AWS advertises savings of up to roughly 72% compared with on-demand, with bigger discounts for three-year terms and for paying up front.",
+      "The catch is that you pay the commitment whether you use it or not. If your app shrinks, moves to another service, or you simply overestimated, the money is spent anyway. The usual approach is to commit only to the steady base you are sure about, and leave the peaks to on-demand or spot instances. Azure calls its version reservations and also sells savings plans; Google Cloud calls them committed use discounts."
+    ],
+    "analogy": "Like a gym: paying per visit is flexible, and the yearly membership is much cheaper per visit, but only if you actually keep going.",
+    "keyPoints": [
+      "A lower price in exchange for a one- or three-year commitment.",
+      "Reserved Instances lock in a machine type; Savings Plans commit an hourly spend.",
+      "You pay the commitment even if you stop using it.",
+      "Commit to your steady base, not to your peaks."
+    ],
+    "links": [
+      { "label": "Savings Plans (AWS)", "url": "https://aws.amazon.com/savingsplans/" },
+      { "label": "Reserved Instances for Amazon EC2 (AWS docs)", "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html" },
+      { "label": "What are Azure Reservations? (Microsoft Learn)", "url": "https://learn.microsoft.com/en-us/azure/cost-management-billing/reservations/save-compute-costs-reservations" }
+    ]
+  },
+  "es": {
+    "title": "Instancias reservadas y Savings Plans",
+    "tagline": "Precios más bajos en la nube a cambio de comprometerte a usarla durante uno o tres años.",
+    "explanation": [
+      "Los servidores en la nube normalmente se cobran on-demand: pagás por hora o por segundo y podés cortar cuando quieras. Esa libertad sale más cara. Si ya sabés que vas a necesitar cierta cantidad de cómputo durante mucho tiempo, los proveedores te bajan el precio a cambio de un compromiso. En AWS hay dos formas principales de hacerlo: las **instancias reservadas** (Reserved Instances) y los **Savings Plans**.",
+      "Una instancia reservada es un descuento atado a un tipo de máquina puntual, por ejemplo un tipo de instancia de EC2 en una región, por uno o tres años. Un Savings Plan es más flexible: te comprometés a gastar un monto fijo por hora, digamos 10 dólares, y todo lo que uses hasta ese monto sale a la tarifa más baja. Los Compute Savings Plans valen para cualquier tipo de instancia o región, y además cubren Fargate y Lambda. AWS anuncia ahorros de hasta alrededor de un 72% frente a on-demand, con más descuento si el plazo es de tres años y si pagás por adelantado.",
+      "La trampa es que el compromiso lo pagás lo uses o no. Si tu aplicación se achica, se muda a otro servicio o simplemente calculaste de más, la plata se gasta igual. Lo habitual es comprometer solo la base estable de la que estás seguro y dejar los picos para on-demand o instancias spot. Azure llama a su versión reservas y también vende savings plans; Google Cloud los llama descuentos por compromiso de uso."
+    ],
+    "analogy": "Es como el gimnasio: pagar por clase es flexible, y la cuota anual sale mucho más barata por clase, pero solo si de verdad seguís yendo.",
+    "keyPoints": [
+      "Un precio más bajo a cambio de un compromiso de uno o tres años.",
+      "Las instancias reservadas fijan un tipo de máquina; los Savings Plans, un gasto por hora.",
+      "El compromiso se paga aunque dejes de usarlo.",
+      "Comprometé tu base estable, no tus picos."
+    ],
+    "links": [
+      { "label": "Savings Plans (AWS)", "url": "https://aws.amazon.com/es/savingsplans/" },
+      { "label": "Instancias reservadas para Amazon EC2 (documentación de AWS)", "url": "https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/ec2-reserved-instances.html" },
+      { "label": "¿Qué son las reservas de Azure? (Microsoft Learn)", "url": "https://learn.microsoft.com/es-es/azure/cost-management-billing/reservations/save-compute-costs-reservations" }
+    ]
+  }
+}

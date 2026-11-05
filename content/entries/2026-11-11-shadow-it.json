@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-shadow-it",
+  "date": "2026-11-11",
+  "subjects": ["security", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["shadow AI", "unsanctioned app", "unsanctioned apps"],
+    "es": ["TI en la sombra", "IT en la sombra", "TI invisible", "shadow AI", "IA en la sombra"]
+  },
+  "image": "img/2026-11-11-shadow-it.svg",
+  "imageAlt": {
+    "en": "Inside the company network, IT sees approved apps like mail, CRM, docs and chat; lines run out of it to a file-sharing site, an AI chatbot and a spreadsheet tool sitting in the shadow",
+    "es": "Dentro de la red de la empresa, IT ve las apps aprobadas como mail, CRM, documentos y chat; desde ahí salen líneas hacia un sitio para compartir archivos, un chatbot de IA y una planilla que quedan en la sombra"
+  },
+  "en": {
+    "title": "Shadow IT",
+    "tagline": "Apps and services people use for work without the IT team knowing.",
+    "explanation": [
+      "**Shadow IT** is any software, cloud service or device used for work outside the official, approved list. A sales team that tracks deals in a personal spreadsheet app, a designer who sends client files through a free transfer site, a manager who signs up for a project tool with a company credit card: none of it is malicious, and most of it starts because the official tool is slow or missing. The trouble is that the security team cannot protect what it does not know exists.",
+      "The risks are concrete. Company data ends up in accounts protected by a reused password and no 2FA. When someone leaves, their personal account with the client list goes with them. Nobody checks whether the service meets the company's legal duties for personal data. And nobody gets the alert when that service suffers a data breach. SaaS made this easy: anyone with an email address can sign up in a minute, no installation needed.",
+      "The newest version is **shadow AI**: employees pasting documents, code or customer data into public chatbots. In 2023 Samsung restricted staff use of generative AI tools after engineers pasted internal source code into ChatGPT. Banning everything rarely works; people route around it. Most companies instead discover what is in use (from network logs, expense reports, or tools called CASBs), offer approved alternatives that are actually good, and connect them to single sign-on so access ends when the job does."
+    ],
+    "analogy": "Extension cords run across an office by people who needed more outlets. Each one solved a real problem, but nobody on the building's maintenance plan knows where they are, so nobody checks whether they are overloaded.",
+    "keyPoints": [
+      "It is usually well-meant, not malicious.",
+      "IT cannot secure, back up or offboard what it cannot see.",
+      "Shadow AI is the same problem with chatbots and sensitive data.",
+      "Better approved tools beat blanket bans."
+    ],
+    "links": [
+      { "label": "Shadow IT on Wikipedia", "url": "https://en.wikipedia.org/wiki/Shadow_IT" },
+      { "label": "What is shadow IT? (IBM)", "url": "https://www.ibm.com/think/topics/shadow-it" }
+    ]
+  },
+  "es": {
+    "title": "Shadow IT",
+    "tagline": "Apps y servicios que la gente usa para trabajar sin que se entere el área de IT.",
+    "explanation": [
+      "El **shadow IT** (TI en la sombra) es cualquier software, servicio en la nube o dispositivo que se usa para trabajar por fuera de la lista oficial aprobada. Un equipo de ventas que sigue sus negocios en una app de planillas personal, una diseñadora que manda archivos de clientes por un sitio gratis de transferencias, un gerente que contrata una herramienta de proyectos con la tarjeta corporativa: nada de eso es malicioso, y casi siempre arranca porque la herramienta oficial es lenta o directamente no existe. El problema es que el equipo de seguridad no puede proteger lo que no sabe que existe.",
+      "Los riesgos son concretos. Datos de la empresa terminan en cuentas con una contraseña repetida y sin 2FA. Cuando alguien se va, se lleva su cuenta personal con la lista de clientes adentro. Nadie revisa si el servicio cumple con las obligaciones legales sobre datos personales. Y nadie recibe el aviso cuando ese servicio sufre una filtración de datos. El SaaS lo hizo facilísimo: cualquiera con un mail se registra en un minuto, sin instalar nada.",
+      "La versión más nueva es la **shadow AI** (IA en la sombra): empleados que pegan documentos, código o datos de clientes en chatbots públicos. En 2023 Samsung restringió el uso de herramientas de IA generativa después de que unos ingenieros pegaran código fuente interno en ChatGPT. Prohibir todo casi nunca funciona; la gente encuentra la vuelta. Lo que hacen la mayoría de las empresas es descubrir qué se está usando (con logs de red, rendiciones de gastos o herramientas llamadas CASB), ofrecer alternativas aprobadas que de verdad sirvan, y conectarlas al inicio de sesión único para que el acceso se corte cuando la persona se va."
+    ],
+    "analogy": "Las zapatillas eléctricas que la gente va enchufando por la oficina porque faltan tomas. Cada una resolvió un problema real, pero el de mantenimiento no sabe dónde están, así que nadie se fija si están sobrecargadas.",
+    "keyPoints": [
+      "Suele ser bienintencionado, no malicioso.",
+      "IT no puede proteger, respaldar ni dar de baja lo que no ve.",
+      "La shadow AI es el mismo problema con chatbots y datos sensibles.",
+      "Herramientas aprobadas buenas funcionan mejor que prohibir todo."
+    ],
+    "links": [
+      { "label": "¿Qué es la TI invisible? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/shadow-it" },
+      { "label": "Shadow IT en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Shadow_IT" }
+    ]
+  }
+}

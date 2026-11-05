@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-configuration-management",
+  "date": "2026-11-09",
+  "subjects": ["cloud", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["Ansible", "Ansible playbook", "Ansible playbooks", "configuration management tool", "configuration management tools"],
+    "es": ["gestión de configuración", "configuration management", "Ansible", "herramientas de gestión de configuración"]
+  },
+  "image": "img/2026-11-09-configuration-management.svg",
+  "imageAlt": {
+    "en": "A file describing the desired state of a server, and a tool pushing it to three servers, one of which had drifted and gets fixed",
+    "es": "Un archivo que describe el estado deseado de un servidor y una herramienta que lo aplica a tres servidores, uno de los cuales se había desviado y queda corregido"
+  },
+  "en": {
+    "title": "Configuration management",
+    "tagline": "Describing how servers should be set up, and letting a tool keep them that way.",
+    "explanation": [
+      "A company might have hundreds of servers that all need the same users, packages, settings and security patches. Doing that by hand, logging into each one, is slow and error-prone: sooner or later two servers that should be identical are not. **Configuration management** solves this by writing down the desired state of each machine in files, and letting a tool make every server match it.",
+      "The best-known tools are Puppet, Chef and Ansible. Puppet and Chef usually install a small agent on each server that checks in regularly and corrects anything that has drifted from the description. Ansible needs no agent: it connects over SSH and runs tasks written in YAML files called playbooks. In all of them the steps are meant to be idempotent, so running them twice changes nothing the second time: \"make sure `nginx` is installed\" rather than \"install `nginx`\".",
+      "It is a close cousin of infrastructure as code. Tools like Terraform create the servers, networks and databases; configuration management sets up what runs inside them. With containers and golden images, many teams now bake the setup in before launch instead of fixing servers afterward, but configuration management is still everywhere, especially for fleets of long-lived machines."
+    ],
+    "analogy": "Like a recipe with a photo of the finished dish: instead of each cook working from memory, everyone gets the same recipe, and a supervisor checks every plate against the photo and fixes the ones that look different.",
+    "keyPoints": [
+      "You describe the desired state; the tool makes each server match it.",
+      "Puppet and Chef use agents; Ansible connects over SSH with no agent.",
+      "Good tasks are idempotent: running them again changes nothing.",
+      "Terraform builds the servers; configuration management sets them up."
+    ],
+    "links": [
+      { "label": "What is configuration management? (Red Hat)", "url": "https://www.redhat.com/en/topics/automation/what-is-configuration-management" },
+      { "label": "Ansible documentation", "url": "https://docs.ansible.com/" },
+      { "label": "Puppet (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Puppet_(software)" }
+    ]
+  },
+  "es": {
+    "title": "Gestión de la configuración",
+    "tagline": "Describir cómo deben estar armados los servidores y que una herramienta los mantenga así.",
+    "explanation": [
+      "Una empresa puede tener cientos de servidores que necesitan los mismos usuarios, paquetes, ajustes y parches de seguridad. Hacerlo a mano, entrando a cada uno, es lento y propenso a errores: tarde o temprano dos servidores que deberían ser idénticos no lo son. La **gestión de la configuración** (configuration management) resuelve esto escribiendo en archivos el estado deseado de cada máquina y dejando que una herramienta haga que todos los servidores coincidan con él.",
+      "Las herramientas más conocidas son Puppet, Chef y Ansible. Puppet y Chef suelen instalar un pequeño agente en cada servidor que se reporta cada tanto y corrige lo que se haya desviado de la descripción. Ansible no necesita agente: se conecta por SSH y ejecuta tareas escritas en archivos YAML llamados playbooks. En todas, los pasos buscan ser idempotentes, o sea que correrlos dos veces no cambia nada la segunda vez: \"asegurate de que `nginx` esté instalado\" en lugar de \"instalá `nginx`\".",
+      "Es pariente cercana de la infraestructura como código. Herramientas como Terraform crean los servidores, las redes y las bases de datos; la gestión de la configuración prepara lo que corre adentro. Con contenedores y golden images, muchos equipos hoy dejan todo armado antes de arrancar la máquina en vez de arreglarla después, pero la gestión de la configuración sigue en todos lados, sobre todo en flotas de máquinas que viven mucho tiempo."
+    ],
+    "analogy": "Es como una receta con la foto del plato terminado: en vez de que cada cocinero cocine de memoria, todos reciben la misma receta, y un supervisor compara cada plato con la foto y corrige los que salieron distintos.",
+    "keyPoints": [
+      "Describís el estado deseado; la herramienta hace que cada servidor coincida.",
+      "Puppet y Chef usan agentes; Ansible se conecta por SSH, sin agente.",
+      "Las buenas tareas son idempotentes: correrlas de nuevo no cambia nada.",
+      "Terraform construye los servidores; la gestión de la configuración los prepara."
+    ],
+    "links": [
+      { "label": "¿Qué es la gestión de la configuración? (Red Hat)", "url": "https://www.redhat.com/es/topics/automation/what-is-configuration-management" },
+      { "label": "Ansible en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ansible_(software)" },
+      { "label": "Documentación de Ansible (en inglés)", "url": "https://docs.ansible.com/" }
+    ]
+  }
+}

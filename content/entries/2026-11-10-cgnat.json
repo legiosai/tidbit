@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-10-cgnat",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 3,
+  "aliases": {
+    "en": [
+      "carrier-grade NAT",
+      "CG-NAT",
+      "CGN",
+      "large-scale NAT"
+    ],
+    "es": [
+      "carrier-grade NAT",
+      "CG-NAT",
+      "CGN",
+      "NAT de operador",
+      "NAT a gran escala"
+    ]
+  },
+  "image": "img/2026-11-10-cgnat.svg",
+  "imageAlt": {
+    "en": "Several homes, each with its own router doing NAT, get addresses from 100.64.0.0/10 and pass through one big carrier NAT that shares a single public IP address",
+    "es": "Varias casas, cada una con su router haciendo NAT, reciben direcciones de 100.64.0.0/10 y pasan por un NAT grande de la operadora que comparte una sola dirección IP pública"
+  },
+  "en": {
+    "title": "CGNAT",
+    "tagline": "NAT done by your provider, so many customers share one public IP address.",
+    "explanation": [
+      "At home, your router uses NAT to share one public IP address among all your devices. **CGNAT** (carrier-grade NAT) adds a second layer of the same trick inside your internet provider. Your router no longer gets a public address; it gets a private one from the provider, and the provider's big NAT boxes share each public IPv4 address among many customers at once.",
+      "Providers do it because IPv4 addresses ran out and buying more is expensive, while the number of customers, especially on mobile networks, keeps growing. A special range, `100.64.0.0/10`, was reserved in 2012 (RFC 6598) for the addresses between the customer and the carrier NAT, so they do not clash with the `192.168.x.x` addresses inside homes. If your router's WAN address starts with `100.64` to `100.127`, you are almost certainly behind CGNAT.",
+      "For browsing and streaming you will not notice. The problems appear when someone outside needs to reach you: you cannot open ports to host a game server, a security camera or remote access, and some peer-to-peer apps and online games struggle. Because many people share one address, a block or ban aimed at one abusive user can hit all of them. Common ways out are asking the provider for a public IP (sometimes for a fee), using IPv6, or a tunnel or VPN service."
+    ],
+    "analogy": "A whole apartment building sharing one phone line through the front desk, where each apartment already had its own internal switchboard. Calling out works fine; but nobody outside can dial a specific apartment directly.",
+    "keyPoints": [
+      "A second layer of NAT run by the provider, sharing public IPv4 addresses among many customers.",
+      "Uses the reserved range 100.64.0.0/10 between the customer and the carrier.",
+      "Breaks port forwarding and hosting anything reachable from outside.",
+      "Ways around it: request a public IP, use IPv6, or use a tunnel."
+    ],
+    "links": [
+      {
+        "label": "Carrier-grade NAT on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Carrier-grade_NAT"
+      },
+      {
+        "label": "RFC 6598: IANA-Reserved IPv4 Prefix for Shared Address Space",
+        "url": "https://www.rfc-editor.org/info/rfc6598/"
+      },
+      {
+        "label": "RFC 6888: Common Requirements for Carrier-Grade NATs",
+        "url": "https://www.rfc-editor.org/info/rfc6888/"
+      }
+    ]
+  },
+  "es": {
+    "title": "CGNAT",
+    "tagline": "NAT hecho por tu proveedor, para que muchos clientes compartan una IP pública.",
+    "explanation": [
+      "En tu casa, el router usa NAT para que todos tus aparatos compartan una sola dirección IP pública. El **CGNAT** (carrier-grade NAT, NAT a escala de operador) agrega una segunda capa del mismo truco adentro de tu proveedor de internet. Tu router ya no recibe una dirección pública; recibe una privada del proveedor, y los equipos de NAT grandes del proveedor reparten cada dirección IPv4 pública entre muchos clientes a la vez.",
+      "Los proveedores lo hacen porque las direcciones IPv4 se agotaron y comprar más es caro, mientras la cantidad de clientes, sobre todo en las redes móviles, sigue creciendo. En 2012 se reservó un rango especial, `100.64.0.0/10` (RFC 6598), para las direcciones entre el cliente y el NAT del operador, así no chocan con las `192.168.x.x` de adentro de las casas. Si la dirección WAN de tu router empieza entre `100.64` y `100.127`, casi seguro estás detrás de CGNAT.",
+      "Para navegar o ver series no lo vas a notar. Los problemas aparecen cuando alguien de afuera necesita llegar a vos: no podés abrir puertos para hostear un servidor de juegos, una cámara de seguridad o un acceso remoto, y algunas apps peer-to-peer y juegos online se complican. Como mucha gente comparte una misma dirección, un bloqueo o un ban apuntado a un usuario abusivo puede pegarles a todos. Las salidas habituales son pedirle al proveedor una IP pública (a veces con costo), usar IPv6, o un túnel o servicio de VPN."
+    ],
+    "analogy": "Un edificio entero compartiendo una sola línea de teléfono a través de la portería, cuando cada departamento ya tenía su propia centralita. Llamar para afuera anda bien; pero nadie de afuera puede marcar directo a un departamento.",
+    "keyPoints": [
+      "Una segunda capa de NAT manejada por el proveedor, que reparte IPv4 públicas entre muchos clientes.",
+      "Usa el rango reservado 100.64.0.0/10 entre el cliente y el operador.",
+      "Rompe el port forwarding y cualquier servicio que tenga que ser accesible desde afuera.",
+      "Salidas: pedir una IP pública, usar IPv6 o usar un túnel."
+    ],
+    "links": [
+      {
+        "label": "Carrier Grade NAT en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Carrier_Grade_NAT"
+      },
+      {
+        "label": "RFC 6598: IANA-Reserved IPv4 Prefix for Shared Address Space (en inglés)",
+        "url": "https://www.rfc-editor.org/info/rfc6598/"
+      }
+    ]
+  }
+}

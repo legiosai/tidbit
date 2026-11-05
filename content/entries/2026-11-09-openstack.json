@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-openstack",
+  "date": "2026-11-09",
+  "subjects": ["cloud"],
+  "level": 3,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-09-openstack.svg",
+  "imageAlt": {
+    "en": "A row of ordinary servers with OpenStack on top, split into services for compute, network, disks, objects and identity, and a dashboard and API above",
+    "es": "Una fila de servidores comunes con OpenStack encima, dividido en servicios de cómputo, red, discos, objetos e identidad, y un panel y una API arriba"
+  },
+  "en": {
+    "title": "OpenStack",
+    "tagline": "Open source software for building your own cloud on your own servers.",
+    "explanation": [
+      "**OpenStack** is a free, open source collection of software that turns a room full of ordinary servers into a cloud. Teams can create virtual machines, disks, networks and storage on demand, through a web dashboard or an API, much as they would on AWS, but on hardware their organization controls. It started in 2010 as a joint project of Rackspace and NASA, and today it is developed by a large open community.",
+      "It is made of separate services that work together, each with its own code name. Nova runs virtual machines, Neutron handles networking, Cinder provides disks, Swift stores objects, Keystone manages identities and permissions, and Horizon is the web dashboard. New versions come out on a six-month cycle.",
+      "Telecom operators, research centers like CERN, universities and some regional cloud providers use it to run private clouds or their own public cloud services, often to keep data in a specific country or to avoid depending on a single vendor. The price is complexity: installing, upgrading and operating OpenStack well takes a skilled team, which is why many organizations buy it packaged and supported by a company such as Red Hat or Canonical."
+    ],
+    "analogy": "If AWS is a hotel where you rent rooms, OpenStack is the blueprints, furniture and booking system to run a hotel in your own building: you get the same kind of rooms, but you are the one running the place.",
+    "keyPoints": [
+      "Free software to build a private or public cloud on your own servers.",
+      "Born in 2010 as a joint project of Rackspace and NASA.",
+      "Made of services like Nova (compute), Neutron (network) and Swift (storage).",
+      "Powerful but complex: it takes a skilled team to run it."
+    ],
+    "links": [
+      { "label": "OpenStack (official site)", "url": "https://www.openstack.org/" },
+      { "label": "OpenStack software components", "url": "https://www.openstack.org/software/" },
+      { "label": "OpenStack on Wikipedia", "url": "https://en.wikipedia.org/wiki/OpenStack" }
+    ]
+  },
+  "es": {
+    "title": "OpenStack",
+    "tagline": "Software open source para armar tu propia nube sobre tus propios servidores.",
+    "explanation": [
+      "**OpenStack** es un conjunto de software libre y open source que convierte una sala llena de servidores comunes en una nube. Los equipos pueden crear máquinas virtuales, discos, redes y almacenamiento a pedido, desde un panel web o una API, más o menos como lo harían en AWS, pero sobre hardware que controla su propia organización. Nació en 2010 como un proyecto conjunto de Rackspace y la NASA, y hoy lo desarrolla una comunidad abierta muy grande.",
+      "Está hecho de servicios separados que trabajan juntos, cada uno con su nombre en clave. Nova corre las máquinas virtuales, Neutron maneja la red, Cinder da los discos, Swift guarda objetos, Keystone administra identidades y permisos, y Horizon es el panel web. Sale una versión nueva cada seis meses.",
+      "Lo usan operadoras de telecomunicaciones, centros de investigación como el CERN, universidades y algunos proveedores cloud regionales, para correr nubes privadas o sus propios servicios de nube pública, muchas veces para que los datos queden en un país determinado o para no depender de un solo proveedor. El precio es la complejidad: instalar, actualizar y operar bien OpenStack requiere un equipo con experiencia, y por eso muchas organizaciones lo compran empaquetado y con soporte de empresas como Red Hat o Canonical."
+    ],
+    "analogy": "Si AWS es un hotel donde alquilás habitaciones, OpenStack son los planos, los muebles y el sistema de reservas para poner un hotel en tu propio edificio: tenés el mismo tipo de habitaciones, pero el hotel lo manejás vos.",
+    "keyPoints": [
+      "Software libre para armar una nube privada o pública sobre tus servidores.",
+      "Nació en 2010 como proyecto conjunto de Rackspace y la NASA.",
+      "Está hecho de servicios como Nova (cómputo), Neutron (red) y Swift (almacenamiento).",
+      "Potente pero complejo: hace falta un equipo con experiencia para operarlo."
+    ],
+    "links": [
+      { "label": "OpenStack en Wikipedia", "url": "https://es.wikipedia.org/wiki/OpenStack" },
+      { "label": "OpenStack, sitio oficial (en inglés)", "url": "https://www.openstack.org/" },
+      { "label": "Componentes de OpenStack (en inglés)", "url": "https://www.openstack.org/software/" }
+    ]
+  }
+}

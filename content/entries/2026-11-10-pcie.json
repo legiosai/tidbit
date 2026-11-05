@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-10-pcie",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "PCI Express",
+      "PCIe slot",
+      "PCIe slots",
+      "PCIe lane",
+      "PCIe lanes"
+    ],
+    "es": [
+      "PCI Express",
+      "ranura PCIe",
+      "ranuras PCIe",
+      "línea PCIe",
+      "líneas PCIe"
+    ]
+  },
+  "image": "img/2026-11-10-pcie.svg",
+  "imageAlt": {
+    "en": "A CPU connected to a graphics card by a wide bundle of lanes labeled x16 and to an SSD by a narrow bundle labeled x4",
+    "es": "Una CPU conectada a una placa de video por un manojo ancho de líneas marcado x16 y a un SSD por uno angosto marcado x4"
+  },
+  "en": {
+    "title": "PCIe",
+    "tagline": "The fast internal highway that connects graphics cards and SSDs to the CPU.",
+    "explanation": [
+      "**PCIe** (PCI Express) is the main connection inside a computer for fast components. Graphics cards, NVMe SSDs, network cards and many other add-ons talk to the CPU over it. On a desktop motherboard you can see it as the long slots where a GPU plugs in; in a laptop the same links exist, just soldered or hidden under a small M.2 slot.",
+      "PCIe is built from **lanes**. Each lane is a pair of tiny two-way data paths, and a device gets a bundle of them: x1, x4, x8 or x16. A graphics card usually takes x16, the widest; an NVMe SSD usually takes x4. More lanes means more data at once, like adding lanes to a road. A CPU has a limited number of lanes to hand out, which is one of the real differences between consumer and workstation or server chips.",
+      "Since its first version in 2003, each new PCIe generation has roughly doubled the speed per lane, and devices work across generations at the speed of the slower side. That steady doubling is part of why storage got so fast: a modern SSD on PCIe moves data many times faster than old drives on SATA. In data centers, how many lanes and which generation a server offers decides how many GPUs and fast drives it can feed."
+    ],
+    "analogy": "A highway with numbered lanes between the CPU and its helpers. The graphics card gets a sixteen-lane road, the SSD a four-lane one, and every few years the speed limit on each lane doubles.",
+    "keyPoints": [
+      "Connects GPUs, NVMe SSDs and other fast parts to the CPU.",
+      "Links are bundles of lanes: x1, x4, x8, x16.",
+      "Each generation has roughly doubled the speed per lane.",
+      "Generations are compatible; a link runs at the speed of the slower side."
+    ],
+    "links": [
+      {
+        "label": "PCI Express on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/PCI_Express"
+      },
+      {
+        "label": "M.2 on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/M.2"
+      },
+      {
+        "label": "PCI-SIG specifications (the standards body)",
+        "url": "https://pcisig.com/specifications"
+      }
+    ]
+  },
+  "es": {
+    "title": "PCIe",
+    "tagline": "La autopista interna rápida que conecta placas de video y SSD con la CPU.",
+    "explanation": [
+      "**PCIe** (PCI Express) es la conexión principal dentro de una computadora para los componentes rápidos. Las placas de video, los SSD NVMe, las placas de red y muchos otros agregados hablan con la CPU por ahí. En la placa madre de una PC de escritorio la ves como las ranuras largas donde se enchufa la GPU; en una notebook existen los mismos enlaces, solo que soldados o escondidos bajo una ranurita M.2.",
+      "PCIe está hecho de **líneas** (lanes). Cada línea es un par de caminitos de datos de ida y vuelta, y cada dispositivo recibe un manojo: x1, x4, x8 o x16. Una placa de video suele usar x16, el más ancho; un SSD NVMe suele usar x4. Más líneas significa más datos a la vez, como sumarle carriles a una ruta. Una CPU tiene una cantidad limitada de líneas para repartir, y esa es una de las diferencias reales entre los chips para el hogar y los de estaciones de trabajo o servidores.",
+      "Desde su primera versión en 2003, cada nueva generación de PCIe duplicó más o menos la velocidad por línea, y los dispositivos funcionan entre generaciones a la velocidad del lado más lento. Esa duplicación constante es parte de por qué el almacenamiento se volvió tan rápido: un SSD moderno por PCIe mueve datos muchísimo más rápido que los discos viejos por SATA. En los data centers, cuántas líneas y qué generación ofrece un servidor decide cuántas GPU y discos rápidos puede alimentar."
+    ],
+    "analogy": "Una autopista con carriles numerados entre la CPU y sus ayudantes. La placa de video recibe una ruta de dieciséis carriles, el SSD una de cuatro, y cada tantos años se duplica la velocidad máxima de cada carril.",
+    "keyPoints": [
+      "Conecta GPU, SSD NVMe y otras piezas rápidas con la CPU.",
+      "Los enlaces son manojos de líneas: x1, x4, x8, x16.",
+      "Cada generación duplicó más o menos la velocidad por línea.",
+      "Las generaciones son compatibles; el enlace va a la velocidad del lado más lento."
+    ],
+    "links": [
+      {
+        "label": "PCI Express en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/PCI_Express"
+      },
+      {
+        "label": "M.2 en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/M.2"
+      },
+      {
+        "label": "Especificaciones de PCI-SIG (el organismo del estándar, en inglés)",
+        "url": "https://pcisig.com/specifications"
+      }
+    ]
+  }
+}

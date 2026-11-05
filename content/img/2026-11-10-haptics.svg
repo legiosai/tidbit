@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="50" y="40" width="96" height="160" rx="14" fill="#9ac7ea"/>
+    <rect x="70" y="140" width="56" height="22" rx="4" fill="#ffd166"/>
+    <circle cx="98" cy="80" r="14" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M62 151 h6 M128 151 h6"/>
+    <path d="M200 90 H240 L246 60 L252 120 L258 90 H340"/>
+    <path d="M200 170 H220 l5 -12 5 24 5 -24 5 24 5 -24 5 24 5 -24 5 24 5 -24 5 24 5 -24 5 24 5 -12 H340"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="98" y="128">tap</text>
+    <text x="98" y="180">actuator</text>
+    <text x="270" y="140">crisp tap</text>
+    <text x="270" y="206">old buzz</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">messages you feel, not see</text>
+</svg>

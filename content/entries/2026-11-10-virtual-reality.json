@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-10-virtual-reality",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "VR",
+      "VR headset",
+      "VR headsets",
+      "virtual reality headset",
+      "virtual reality headsets"
+    ],
+    "es": [
+      "VR",
+      "visor de realidad virtual",
+      "visores de realidad virtual",
+      "casco de realidad virtual",
+      "cascos de realidad virtual"
+    ]
+  },
+  "image": "img/2026-11-10-virtual-reality.svg",
+  "imageAlt": {
+    "en": "A person wearing a headset with two small screens, one per eye; when the head turns, the virtual scene turns with it",
+    "es": "Una persona con un visor que tiene dos pantallitas, una por ojo; cuando gira la cabeza, la escena virtual gira con ella"
+  },
+  "en": {
+    "title": "Virtual reality",
+    "tagline": "A headset that replaces what you see with a 3D world that follows your head.",
+    "explanation": [
+      "**Virtual reality** (VR) puts you inside a computer-generated world. You wear a headset that covers your eyes, with a small screen and lens in front of each eye. Each eye gets a slightly different image, which your brain combines into depth, and sensors track your head so that when you turn, the scene turns too. Many headsets also track your hands or handheld controllers.",
+      "The result is a sense of presence that a flat screen cannot give: you look down and see a cliff edge, you reach out and grab an object. That makes VR useful beyond games, for flight and surgery training, walking through a building before it is built, or rehearsing dangerous situations safely. Headsets like Meta Quest work on their own; others connect to a PC; Apple Vision Pro, released in 2024, mixes VR with views of the real room.",
+      "VR still has real limits. Headsets are heavy enough to tire you after a while, and when what you see moves but your body does not, some people feel motion sickness. The image must update very fast and with very little delay to feel natural, which demands serious graphics power. For now, VR is popular for gaming and fitness and growing in training, but it has not become an everyday device like the phone."
+    ],
+    "analogy": "A diving mask that, instead of showing you the sea, shows you any place the computer invents, and moves the view exactly as you move your head.",
+    "keyPoints": [
+      "A headset shows a separate image to each eye and tracks your head.",
+      "It replaces your view entirely, unlike augmented reality, which adds to it.",
+      "Used for games, fitness, training and design reviews.",
+      "Weight, motion sickness and graphics demands are its main limits."
+    ],
+    "links": [
+      {
+        "label": "Virtual reality on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Virtual_reality"
+      },
+      {
+        "label": "Virtual reality headset on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Virtual_reality_headset"
+      }
+    ]
+  },
+  "es": {
+    "title": "Realidad virtual",
+    "tagline": "Un visor que reemplaza lo que ves por un mundo 3D que sigue tu cabeza.",
+    "explanation": [
+      "La **realidad virtual** (VR, por sus siglas en inglés) te mete adentro de un mundo generado por computadora. Te ponés un visor que te tapa los ojos, con una pantallita y una lente delante de cada uno. Cada ojo recibe una imagen apenas distinta, que tu cerebro combina como profundidad, y unos sensores siguen tu cabeza para que, cuando girás, la escena gire también. Muchos visores también siguen tus manos o unos controles que tenés en la mano.",
+      "El resultado es una sensación de estar ahí que una pantalla plana no logra: mirás para abajo y ves el borde de un precipicio, estirás la mano y agarrás un objeto. Por eso la VR sirve más allá de los juegos: para entrenar pilotos y cirujanos, recorrer un edificio antes de que exista o ensayar situaciones peligrosas sin riesgo. Visores como Meta Quest funcionan solos; otros se conectan a una PC; el Apple Vision Pro, que salió en 2024, mezcla la VR con imágenes del cuarto real.",
+      "La VR todavía tiene límites concretos. Los visores pesan lo suficiente como para cansarte después de un rato, y cuando lo que ves se mueve pero tu cuerpo no, a algunas personas les da mareo. La imagen se tiene que actualizar muy rápido y con muy poco retraso para que se sienta natural, y eso exige mucha potencia gráfica. Por ahora la VR es popular para juegos y ejercicio y crece en capacitación, pero no se volvió un aparato de todos los días como el celular."
+    ],
+    "analogy": "Una máscara de buceo que, en vez de mostrarte el mar, te muestra cualquier lugar que invente la computadora, y mueve la vista exactamente como movés la cabeza.",
+    "keyPoints": [
+      "Un visor muestra una imagen distinta a cada ojo y sigue los movimientos de tu cabeza.",
+      "Reemplaza por completo lo que ves, a diferencia de la realidad aumentada, que le suma cosas.",
+      "Se usa para juegos, ejercicio, capacitación y revisión de diseños.",
+      "El peso, el mareo y la potencia gráfica que exige son sus límites principales."
+    ],
+    "links": [
+      {
+        "label": "Realidad virtual en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Realidad_virtual"
+      },
+      {
+        "label": "Casco de realidad virtual en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Casco_de_realidad_virtual"
+      }
+    ]
+  }
+}

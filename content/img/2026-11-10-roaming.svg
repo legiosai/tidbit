@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <line x1="200" y1="76" x2="200" y2="196" stroke="#6b6357" stroke-width="2" stroke-dasharray="4 6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M74 150 L90 74 L106 150 Z" fill="#9ac7ea"/>
+    <path d="M324 150 L340 74 L356 150 Z" fill="#9bd1b9"/>
+    <rect x="244" y="108" width="30" height="52" rx="6" fill="#ffd166"/>
+    <rect x="120" y="120" width="56" height="34" rx="4" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M280 126 C296 120 308 112 318 104"/>
+    <path d="M336 68 C280 40 140 40 98 66"/><path d="M106 59 l-8 7 10 2"/>
+    <path d="M110 137 H120"/>
+  </g>
+  <text x="148" y="141" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">bill</text>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="34">usage report</text>
+    <text x="90" y="174">home carrier</text><text x="340" y="174">foreign carrier</text>
+    <text x="259" y="180">you</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">abroad, same number</text>
+</svg>

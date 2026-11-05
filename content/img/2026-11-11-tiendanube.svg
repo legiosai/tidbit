@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="40" width="200" height="120" rx="8" fill="#f3efe6"/>
+    <path d="M30 60 H230" fill="none"/>
+    <circle cx="44" cy="50" r="3" fill="#f4a7a7"/><circle cx="56" cy="50" r="3" fill="#ffd166"/><circle cx="68" cy="50" r="3" fill="#9bd1b9"/>
+    <path d="M60 70 H200 L210 92 H50 Z" fill="#f4a7a7"/>
+    <rect x="62" y="102" width="34" height="40" rx="3" fill="#9ac7ea"/>
+    <rect x="113" y="102" width="34" height="40" rx="3" fill="#ffd166"/>
+    <rect x="164" y="102" width="34" height="40" rx="3" fill="#9bd1b9"/>
+    <rect x="30" y="182" width="72" height="30" rx="6" fill="#e6dfd0"/>
+    <rect x="114" y="182" width="72" height="30" rx="6" fill="#e6dfd0"/>
+    <rect x="198" y="182" width="72" height="30" rx="6" fill="#e6dfd0"/>
+    <circle cx="330" cy="80" r="14" fill="#9ac7ea"/>
+    <path d="M306 124 Q330 94 354 124 Z" fill="#9ac7ea"/>
+    <path d="M300 150 H312 L320 176 H352 L358 158 H316" fill="none"/>
+    <circle cx="324" cy="186" r="4" fill="#2b2b2b"/><circle cx="348" cy="186" r="4" fill="#2b2b2b"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M236 100 H290"/><path d="M284 96 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="130" y="86">your brand</text>
+    <text x="66" y="201">checkout</text><text x="150" y="201">payments</text><text x="234" y="201">shipping</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="330" y="212">customer</text><text x="130" y="28">your own online store</text>
+  </g>
+</svg>

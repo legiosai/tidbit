@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-10-network-gateway",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "network gateways",
+      "default gateway",
+      "default gateways",
+      "gateway address"
+    ],
+    "es": [
+      "puertas de enlace",
+      "puerta de enlace predeterminada",
+      "gateway de red",
+      "gateways de red",
+      "gateway predeterminado",
+      "default gateway"
+    ]
+  },
+  "image": "img/2026-11-10-network-gateway.svg",
+  "imageAlt": {
+    "en": "A laptop and a phone on a home network send traffic for the outside world to the router at 192.168.1.1, the default gateway, which passes it on to the internet",
+    "es": "Una notebook y un celular de una red hogareña mandan el tráfico hacia afuera al router en 192.168.1.1, la puerta de enlace predeterminada, que lo pasa a internet"
+  },
+  "en": {
+    "title": "Network gateway",
+    "tagline": "The device where one network ends and traffic is handed to another.",
+    "explanation": [
+      "A **network gateway** is the point where traffic leaves one network and enters another. Every device on a network knows its neighbors, but for anything outside it needs a door. That door is the gateway: usually a router that is connected to both sides and knows how to pass packets across.",
+      "At home you meet it as the **default gateway**. Your laptop looks at each destination IP address: if it is on the local network, it talks to that device directly; if not, it sends the packet to the default gateway, typically your router at an address like `192.168.1.1`, and lets it handle the rest. You can see yours in your network settings, or with `ipconfig` on Windows and `ip route` on Linux. If the gateway is wrong or down, you can still reach the printer next to you but not the internet.",
+      "The word is used more broadly too. A gateway can translate between networks that speak different protocols, like the box that connects a building's old phone system to internet calls, or the device that links smart-home gadgets on Zigbee to Wi-Fi. In the cloud, services named \"gateway\" play the same role: they are the controlled entry or exit between a private network and the outside."
+    ],
+    "analogy": "The front door of an apartment building. Neighbors visit each other through the hallways, but anything going to or coming from the street has to pass through that one door.",
+    "keyPoints": [
+      "The exit point from one network into another, usually a router.",
+      "Devices send anything not on the local network to the default gateway.",
+      "At home it is your router, often at an address like 192.168.1.1.",
+      "Broken gateway: local devices still work, the internet does not."
+    ],
+    "links": [
+      {
+        "label": "Gateway (telecommunications) on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gateway_(telecommunications)"
+      },
+      {
+        "label": "Default gateway on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Default_gateway"
+      }
+    ]
+  },
+  "es": {
+    "title": "Puerta de enlace",
+    "tagline": "El equipo donde termina una red y el tráfico pasa a otra.",
+    "explanation": [
+      "Una **puerta de enlace** (o gateway) es el punto donde el tráfico sale de una red y entra en otra. Cada aparato de una red conoce a sus vecinos, pero para todo lo que está afuera necesita una puerta. Esa puerta es el gateway: casi siempre un router conectado a los dos lados que sabe cómo pasar los paquetes de uno a otro.",
+      "En tu casa te la cruzás como **puerta de enlace predeterminada**. Tu notebook mira cada dirección IP de destino: si está en la red local, habla directo con ese aparato; si no, le manda el paquete a la puerta de enlace predeterminada, normalmente tu router en una dirección como `192.168.1.1`, y que él se encargue del resto. La podés ver en la configuración de red, o con `ipconfig` en Windows e `ip route` en Linux. Si el gateway está mal configurado o caído, todavía llegás a la impresora de al lado pero no a internet.",
+      "La palabra también se usa en un sentido más amplio. Un gateway puede traducir entre redes que hablan protocolos distintos, como el equipo que conecta la central telefónica vieja de un edificio con las llamadas por internet, o el aparato que une los dispositivos de casa inteligente que usan Zigbee con el Wi-Fi. En la nube, los servicios que se llaman \"gateway\" cumplen el mismo papel: son la entrada o salida controlada entre una red privada y el exterior."
+    ],
+    "analogy": "La puerta de calle de un edificio de departamentos. Los vecinos se visitan por los pasillos, pero todo lo que va o viene de la calle tiene que pasar por esa única puerta.",
+    "keyPoints": [
+      "El punto de salida de una red hacia otra, casi siempre un router.",
+      "Los aparatos le mandan a la puerta de enlace predeterminada todo lo que no está en la red local.",
+      "En tu casa es el router, muchas veces en una dirección como 192.168.1.1.",
+      "Si falla el gateway, la red local sigue andando pero internet no."
+    ],
+    "links": [
+      {
+        "label": "Puerta de enlace en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Puerta_de_enlace"
+      },
+      {
+        "label": "Puerta de enlace predeterminada en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Puerta_de_enlace_predeterminada"
+      }
+    ]
+  }
+}

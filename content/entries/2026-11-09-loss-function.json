@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-09-loss-function",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["loss functions", "cost function", "objective function", "training loss", "validation loss", "cross-entropy loss"],
+    "es": ["funciones de pérdida", "función de costo", "función de coste", "loss function", "pérdida de entrenamiento", "pérdida de validación"]
+  },
+  "image": "img/2026-11-09-loss-function.svg",
+  "imageAlt": {
+    "en": "A model's prediction and the correct answer go into a loss box that outputs one number; next to it, a chart where that number falls as training goes on",
+    "es": "La predicción de un modelo y la respuesta correcta entran a una caja de pérdida que devuelve un solo número; al lado, un gráfico donde ese número baja a medida que avanza el entrenamiento"
+  },
+  "en": {
+    "title": "Loss function",
+    "tagline": "The single number that says how wrong a model is, so training can shrink it.",
+    "explanation": [
+      "A **loss function** turns a model's mistakes into one number. You show the model an example, compare its answer with the right one, and the loss says how far off it was: zero for a perfect answer, larger the worse it gets. Training is, quite literally, the search for weights that make this number small across millions of examples.",
+      "Which formula you use depends on the task. To predict a quantity, like the price of a house, a common choice is **mean squared error**: the average of the squared differences, which punishes big misses much more than small ones. To pick between categories, the usual choice is **cross-entropy**: the model gives a probability to each option, and the loss is high when it gave little probability to the right one. An LLM is pretrained with cross-entropy on one question, asked over trillions of tokens: how much probability did you give to the token that actually came next?",
+      "The loss is also what gradient descent needs. Backpropagation works out how the loss changes when each weight moves a little, and gradient descent nudges every weight in the direction that lowers it. That only works if the loss changes smoothly, which is why models are not trained directly on accuracy (a count of right and wrong answers that jumps in steps) but on a smooth stand-in for it.",
+      "Watching the loss is how people monitor training. A training loss that keeps falling while the loss on held-out validation data starts rising is the classic sign of overfitting. And a low loss is not the same as a useful model: it only measures what the formula measures. If the formula rewards the wrong thing, the model gets very good at the wrong thing."
+    ],
+    "analogy": "A golf scorecard. It does not tell you how to swing; it only counts strokes. But because there is one clear number, you can try changes and keep the ones that bring it down.",
+    "keyPoints": [
+      "The loss squeezes a model's errors into one number; training tries to lower it.",
+      "Mean squared error is common for numbers, cross-entropy for categories and next tokens.",
+      "It has to change smoothly so backpropagation and gradient descent can follow its slope.",
+      "Training loss falling while validation loss rises is a sign of overfitting."
+    ],
+    "links": [
+      { "label": "Loss function on Wikipedia", "url": "https://en.wikipedia.org/wiki/Loss_function" },
+      { "label": "Linear regression: Loss (Google Machine Learning Crash Course)", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/loss" },
+      { "label": "What is a loss function? (IBM)", "url": "https://www.ibm.com/think/topics/loss-function" }
+    ]
+  },
+  "es": {
+    "title": "Función de pérdida",
+    "tagline": "El número que dice cuánto se equivoca un modelo, para que entrenar sea bajarlo.",
+    "explanation": [
+      "Una **función de pérdida** convierte los errores de un modelo en un solo número. Le mostrás un ejemplo, comparás su respuesta con la correcta y la pérdida te dice qué tan lejos quedó: cero si acertó de lleno, más grande cuanto peor le fue. Entrenar es, literalmente, buscar los pesos que hagan chico ese número en millones de ejemplos.",
+      "La fórmula depende de la tarea. Para predecir una cantidad, como el precio de una casa, una opción común es el **error cuadrático medio**: el promedio de las diferencias al cuadrado, que castiga mucho más los errores grandes que los chicos. Para elegir entre categorías, lo habitual es la **entropía cruzada**: el modelo le asigna una probabilidad a cada opción y la pérdida es alta cuando le dio poca a la correcta. Un LLM se preentrena con entropía cruzada sobre una sola pregunta, repetida a lo largo de billones de tokens: ¿cuánta probabilidad le diste al token que de verdad venía después?",
+      "La pérdida es también lo que necesita el descenso de gradiente. La retropropagación calcula cómo cambia la pérdida si cada peso se mueve un poquito, y el descenso de gradiente empuja cada peso hacia donde la pérdida baja. Eso solo funciona si la pérdida cambia de forma suave, y por eso los modelos no se entrenan directamente con la precisión (un conteo de aciertos y errores que salta de a escalones) sino con un reemplazo suave.",
+      "Mirar la pérdida es la forma de seguir un entrenamiento. Si la pérdida de entrenamiento sigue bajando mientras la pérdida con datos de validación, que el modelo no vio, empieza a subir, es la señal clásica de sobreajuste. Y una pérdida baja no es lo mismo que un modelo útil: solo mide lo que mide la fórmula. Si la fórmula premia lo que no es, el modelo se vuelve muy bueno en lo que no es."
+    ],
+    "analogy": "La tarjeta de un partido de golf. No te dice cómo pegarle a la pelota; solo cuenta golpes. Pero como hay un número claro, podés probar cambios y quedarte con los que lo bajan.",
+    "keyPoints": [
+      "La pérdida resume los errores de un modelo en un número; entrenar es intentar bajarlo.",
+      "El error cuadrático medio es común para números; la entropía cruzada, para categorías y tokens.",
+      "Tiene que cambiar de forma suave para que la retropropagación y el descenso de gradiente sigan su pendiente.",
+      "Pérdida de entrenamiento que baja y de validación que sube: señal de sobreajuste."
+    ],
+    "links": [
+      { "label": "Función de pérdida en Wikipedia", "url": "https://es.wikipedia.org/wiki/Funci%C3%B3n_de_p%C3%A9rdida" },
+      { "label": "Regresión lineal: Pérdida (Curso intensivo de aprendizaje automático de Google)", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/loss?hl=es-419" },
+      { "label": "¿Qué es la función de pérdida? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/loss-function" }
+    ]
+  }
+}

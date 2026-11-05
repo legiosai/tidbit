@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="140" y="24" width="120" height="44" rx="10" fill="#ffd166"/>
+    <rect x="30" y="140" width="90" height="44" rx="10" fill="#9ac7ea"/>
+    <rect x="155" y="140" width="90" height="44" rx="10" fill="#9bd1b9"/>
+    <rect x="280" y="140" width="90" height="44" rx="10" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M165 68 L85 136"/><path d="M80 128 l5 8 -9 1"/>
+    <path d="M200 68 V136"/><path d="M196 130 l4 6 4 -6"/>
+    <path d="M235 68 L315 136"/><path d="M324 136 l-9 1 5 -9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="4 4">
+    <path d="M40 138 Q40 46 136 46"/><path d="M360 138 Q360 46 264 46"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="51">lead agent</text>
+    <text x="75" y="167">search</text><text x="200" y="167">code</text><text x="325" y="167">review</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="146" y="112">task</text><text x="82" y="104">results</text><text x="318" y="104">results</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">split the job, run in parallel, merge</text>
+</svg>

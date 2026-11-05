@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-11-gitlab",
+  "date": "2026-11-11",
+  "subjects": [
+    "companies",
+    "software"
+  ],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [
+      "GitLab CI",
+      "GitLab CI/CD",
+      "GitLab.com"
+    ],
+    "es": [
+      "GitLab CI",
+      "GitLab CI/CD",
+      "GitLab.com"
+    ]
+  },
+  "image": "img/2026-11-11-gitlab.svg",
+  "imageAlt": {
+    "en": "One platform holding the whole path of code: repository, merge request, pipeline and deploy",
+    "es": "Una sola plataforma que contiene todo el camino del código: repositorio, merge request, pipeline y deploy"
+  },
+  "en": {
+    "title": "GitLab",
+    "tagline": "A platform for hosting code, reviewing it and shipping it, often self-hosted.",
+    "explanation": [
+      "**GitLab** is a platform where software teams keep their Git repositories and do everything around them: plan work in issues, propose changes through **merge requests** (what GitHub calls pull requests), review code, and run CI/CD pipelines that test and deploy it. It started in 2011 as an open source project by Ukrainian developer Dmytro Zaporozhets and became a company, GitLab Inc., a few years later.",
+      "Its pitch is a single application for the whole software lifecycle. **GitLab CI/CD** is built in: you add a `.gitlab-ci.yml` file to the repository describing the steps, and runners execute them on every push. On top of that it adds security scanning, a container registry, package hosting and project management.",
+      "The other big difference with GitHub is where it runs. You can use the hosted service at **GitLab.com**, but many banks, governments and large companies install GitLab on their own servers so their code never leaves their network. It follows an open core model: the Community Edition is open source, and paid tiers add enterprise features. The company is known for being fully remote and for publishing its internal handbook online."
+    ],
+    "analogy": "A workshop where the parts shelf, the review table, the test bench and the shipping dock are all in the same room, and you can choose to rent it or build an identical one in your own backyard.",
+    "keyPoints": [
+      "Hosts Git repositories with issues, merge requests and code review.",
+      "CI/CD is built in, configured with a `.gitlab-ci.yml` file.",
+      "Can be used as a service or installed on your own servers.",
+      "Open core: a free open source edition plus paid tiers."
+    ],
+    "links": [
+      {
+        "label": "GitLab Docs (official)",
+        "url": "https://docs.gitlab.com/"
+      },
+      {
+        "label": "GitLab on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/GitLab"
+      }
+    ]
+  },
+  "es": {
+    "title": "GitLab",
+    "tagline": "Una plataforma para alojar, revisar y desplegar código, a veces en servidores propios.",
+    "explanation": [
+      "**GitLab** es una plataforma donde los equipos de software guardan sus repositorios de Git y hacen todo lo que pasa alrededor: planifican el trabajo en issues, proponen cambios con **merge requests** (lo que en GitHub se llama pull request), revisan código y corren pipelines de CI/CD que lo prueban y lo despliegan. Arrancó en 2011 como un proyecto de código abierto del desarrollador ucraniano Dmytro Zaporozhets y unos años después se convirtió en una empresa, GitLab Inc.",
+      "Su propuesta es una sola aplicación para todo el ciclo de vida del software. **GitLab CI/CD** viene incluido: agregás un archivo `.gitlab-ci.yml` al repositorio con los pasos, y los runners los ejecutan en cada push. Encima de eso suma escaneo de seguridad, un registro de contenedores, alojamiento de paquetes y gestión de proyectos.",
+      "La otra gran diferencia con GitHub es dónde corre. Podés usar el servicio en **GitLab.com**, pero muchos bancos, gobiernos y empresas grandes instalan GitLab en sus propios servidores para que el código nunca salga de su red. Sigue un modelo open core: la Community Edition es de código abierto y los planes pagos suman funciones para empresas. La compañía es conocida por trabajar de forma totalmente remota y por publicar su manual interno en internet."
+    ],
+    "analogy": "Un taller donde el estante de piezas, la mesa de revisión, el banco de pruebas y el muelle de despacho están en el mismo cuarto, y podés elegir alquilarlo o armarte uno idéntico en el fondo de tu casa.",
+    "keyPoints": [
+      "Aloja repositorios de Git con issues, merge requests y revisión de código.",
+      "Trae CI/CD incluido, configurado con un archivo `.gitlab-ci.yml`.",
+      "Se usa como servicio o se instala en servidores propios.",
+      "Open core: una edición gratuita de código abierto más planes pagos."
+    ],
+    "links": [
+      {
+        "label": "GitLab en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/GitLab"
+      },
+      {
+        "label": "GitLab (sitio oficial)",
+        "url": "https://about.gitlab.com/es/"
+      },
+      {
+        "label": "Documentación de GitLab (oficial, en inglés)",
+        "url": "https://docs.gitlab.com/"
+      }
+    ]
+  }
+}

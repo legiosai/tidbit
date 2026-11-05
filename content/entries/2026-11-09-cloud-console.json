@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-cloud-console",
+  "date": "2026-11-09",
+  "subjects": ["cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["cloud consoles", "AWS Management Console", "AWS console", "Azure portal", "Google Cloud console"],
+    "es": ["consolas de la nube", "cloud console", "consola de AWS", "consola de administración de AWS", "portal de Azure", "consola de Google Cloud"]
+  },
+  "image": "img/2026-11-09-cloud-console.svg",
+  "imageAlt": {
+    "en": "A browser window showing a cloud console with a menu of services, a list of running servers, a cost chart and a button to create a new one",
+    "es": "Una ventana de navegador con una consola cloud: un menú de servicios, una lista de servidores corriendo, un gráfico de costos y un botón para crear uno nuevo"
+  },
+  "en": {
+    "title": "Cloud console",
+    "tagline": "The website where you log in to see and manage everything you rent in the cloud.",
+    "explanation": [
+      "A **cloud console** is the web page a cloud provider gives you to manage your account. On AWS it is the AWS Management Console, on Microsoft Azure the Azure portal, and on Google the Google Cloud console. You log in with your browser and can create servers, upload files, look at graphs, check the bill and change permissions by clicking instead of typing commands.",
+      "It is the friendliest way in, and the best one for learning and looking around: seeing what is running, finding out why something failed, checking how much this month will cost. Most consoles also include a built-in terminal, like AWS CloudShell or Google Cloud Shell, for running quick commands without installing anything on your computer.",
+      "For building real systems, teams usually prefer code: the command line, the API, or infrastructure as code tools like Terraform. Clicking around is hard to repeat exactly, hard to review and easy to get wrong, a habit people jokingly call \"ClickOps\". So the console often becomes the window for watching and investigating, while changes go through code. Because it can do almost anything, access to it should be protected with two-factor authentication."
+    ],
+    "analogy": "Like your online banking site: you can check balances and send a transfer with a few clicks, but a company paying thousands of salaries uploads a file instead of clicking one transfer at a time.",
+    "keyPoints": [
+      "The web page for managing a cloud account by clicking.",
+      "AWS Management Console, Azure portal and Google Cloud console.",
+      "Great for exploring and investigating; code is better for repeatable changes.",
+      "Protect it with two-factor authentication: it can do almost anything."
+    ],
+    "links": [
+      { "label": "AWS Management Console", "url": "https://aws.amazon.com/console/" },
+      { "label": "What is the Azure portal? (Microsoft Learn)", "url": "https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-overview" },
+      { "label": "Google Cloud console", "url": "https://cloud.google.com/cloud-console" }
+    ]
+  },
+  "es": {
+    "title": "Consola de la nube",
+    "tagline": "El sitio web donde entrás a ver y manejar todo lo que alquilás en la nube.",
+    "explanation": [
+      "La **consola de la nube** es la página web que te da un proveedor cloud para administrar tu cuenta. En AWS es la consola de administración de AWS (AWS Management Console), en Microsoft Azure el portal de Azure, y en Google la consola de Google Cloud. Entrás con el navegador y podés crear servidores, subir archivos, mirar gráficos, revisar la factura y cambiar permisos haciendo clics en vez de escribir comandos.",
+      "Es la puerta de entrada más amigable, y la mejor para aprender y para chusmear: ver qué está corriendo, averiguar por qué algo falló, fijarte cuánto va a salir este mes. La mayoría de las consolas trae además una terminal integrada, como AWS CloudShell o Google Cloud Shell, para correr comandos rápidos sin instalar nada en tu computadora.",
+      "Para construir sistemas en serio, los equipos suelen preferir código: la línea de comandos, la API o herramientas de infraestructura como código como Terraform. Hacer clics es difícil de repetir igual, difícil de revisar y fácil de pifiar, una costumbre a la que en broma le dicen \"ClickOps\". Por eso la consola muchas veces queda como la ventana para mirar e investigar, y los cambios pasan por código. Como puede hacer casi cualquier cosa, el acceso conviene protegerlo con autenticación en dos pasos."
+    ],
+    "analogy": "Es como el home banking: podés ver saldos y hacer una transferencia con un par de clics, pero una empresa que paga miles de sueldos sube un archivo en vez de cargar las transferencias de a una.",
+    "keyPoints": [
+      "La página web para administrar una cuenta cloud con clics.",
+      "Consola de administración de AWS, portal de Azure y consola de Google Cloud.",
+      "Ideal para explorar e investigar; para cambios repetibles, mejor código.",
+      "Protegela con autenticación en dos pasos: puede hacer casi cualquier cosa."
+    ],
+    "links": [
+      { "label": "Consola de administración de AWS", "url": "https://aws.amazon.com/es/console/" },
+      { "label": "¿Qué es el portal de Azure? (Microsoft Learn)", "url": "https://learn.microsoft.com/es-es/azure/azure-portal/azure-portal-overview" },
+      { "label": "Google Cloud console (en inglés)", "url": "https://cloud.google.com/cloud-console" }
+    ]
+  }
+}

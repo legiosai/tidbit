@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-10-master-data-management",
+  "date": "2026-11-10",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["MDM", "master data", "golden record", "golden records"],
+    "es": ["MDM", "datos maestros", "registro maestro", "golden record", "master data management"]
+  },
+  "image": "img/2026-11-10-master-data-management.svg",
+  "imageAlt": {
+    "en": "Three systems, CRM, billing and web shop, each holding a slightly different version of the same customer, merged by an MDM hub into one golden record",
+    "es": "Tres sistemas, CRM, facturación y tienda web, cada uno con una versión un poco distinta del mismo cliente, unificadas por un hub de MDM en un único registro maestro"
+  },
+  "en": {
+    "title": "Master data management",
+    "tagline": "Keeping one agreed, trusted version of a company's core records across all its systems.",
+    "explanation": [
+      "**Master data** is the core information a business runs on and reuses everywhere: customers, products, suppliers, employees, locations. Not the daily transactions, but the things those transactions are about. **Master data management**, or MDM, is the set of processes and tools that keeps one consistent version of each of those records across every system.",
+      "The problem it solves is familiar to anyone in a large company. The CRM has \"Ana Gómez, ana@mail.com\", billing has \"A. Gomez\" with an old address, and the web shop has her twice under two emails. Reports disagree on how many customers there are, and a letter goes to the wrong house. An MDM tool collects these versions, **matches** records that are probably the same entity, **merges** them using rules about which source to trust for each field, and publishes the result, often called the **golden record**, back to the other systems.",
+      "Software is only half of it. Someone has to decide what counts as one customer, which system owns the address, and who fixes conflicts; those people are often called **data stewards**, and the rules are part of data governance. Products such as Informatica MDM and SAP Master Data Governance are common, but many MDM efforts fail for organizational reasons rather than technical ones."
+    ],
+    "analogy": "Like a family deciding there is one official contact list on the fridge: whoever learns that a cousin moved updates that list, and everyone copies from it instead of keeping their own scraps of paper.",
+    "keyPoints": [
+      "Master data: core entities like customers, products and suppliers, not transactions.",
+      "MDM matches and merges duplicate records into one golden record.",
+      "Survivorship rules decide which source wins for each field.",
+      "Needs clear ownership and data stewards, not just software."
+    ],
+    "links": [
+      { "label": "Master data management on Wikipedia", "url": "https://en.wikipedia.org/wiki/Master_data_management" },
+      { "label": "What is master data management? (IBM)", "url": "https://www.ibm.com/think/topics/master-data-management" }
+    ]
+  },
+  "es": {
+    "title": "Gestión de datos maestros",
+    "tagline": "Mantener una única versión confiable de los registros centrales de una empresa.",
+    "explanation": [
+      "Los **datos maestros** son la información central con la que funciona un negocio y que se reutiliza en todos lados: clientes, productos, proveedores, empleados, sucursales. No son las operaciones del día a día, sino aquello sobre lo que tratan esas operaciones. La **gestión de datos maestros**, o MDM (master data management), es el conjunto de procesos y herramientas que mantiene una versión coherente de cada uno de esos registros en todos los sistemas.",
+      "El problema que resuelve es conocido para cualquiera que trabajó en una empresa grande. El CRM tiene a \"Ana Gómez, ana@mail.com\", facturación tiene a \"A. Gomez\" con una dirección vieja y la tienda web la tiene dos veces con dos mails distintos. Los informes no coinciden en cuántos clientes hay y una carta llega a la casa equivocada. Una herramienta de MDM junta esas versiones, **empareja** los registros que probablemente son la misma entidad, los **fusiona** con reglas sobre a qué fuente creerle en cada campo y publica el resultado, que suele llamarse **golden record** o registro maestro, de vuelta a los otros sistemas.",
+      "El software es solo la mitad. Alguien tiene que decidir qué cuenta como un mismo cliente, qué sistema es dueño de la dirección y quién resuelve los conflictos; a esas personas se las suele llamar **data stewards** (responsables de datos), y las reglas forman parte del gobierno de datos. Productos como Informatica MDM y SAP Master Data Governance son comunes, pero muchos proyectos de MDM fracasan más por cuestiones organizacionales que técnicas."
+    ],
+    "analogy": "Como una familia que decide que hay una sola lista oficial de contactos pegada en la heladera: quien se entera de que un primo se mudó actualiza esa lista, y todos copian de ahí en vez de tener sus propios papelitos.",
+    "keyPoints": [
+      "Datos maestros: entidades centrales como clientes, productos y proveedores, no transacciones.",
+      "El MDM empareja y fusiona registros duplicados en un único golden record.",
+      "Las reglas de supervivencia deciden qué fuente gana en cada campo.",
+      "Necesita responsables claros y data stewards, no solo software."
+    ],
+    "links": [
+      { "label": "¿Qué es Master Data Management? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/master-data-management" },
+      { "label": "Master data management en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Master_data_management" }
+    ]
+  }
+}

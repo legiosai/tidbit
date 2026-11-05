@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-10-mysql",
+  "date": "2026-11-10",
+  "subjects": ["data", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["MariaDB"],
+    "es": ["MariaDB"]
+  },
+  "image": "img/2026-11-10-mysql.svg",
+  "imageAlt": {
+    "en": "A web page and a PHP app sending SQL to a MySQL server on port 3306 that holds tables, with a MariaDB fork branching off to the side",
+    "es": "Una página web y una app en PHP mandando SQL a un servidor MySQL en el puerto 3306 que guarda tablas, con el fork MariaDB saliendo hacia un costado"
+  },
+  "en": {
+    "title": "MySQL",
+    "tagline": "The open-source relational database that powered the early web and still runs much of it.",
+    "explanation": [
+      "**MySQL** is a relational database: it keeps data in tables with rows and columns, and you read and change it with SQL. It runs as a server program; your application connects to it over the network, by default on port `3306`, sends queries and gets rows back.",
+      "It was created in Sweden in the mid-1990s by the company MySQL AB, and the name comes from My, the daughter of co-founder Michael Widenius. Free, fast to install and good enough for most websites, it became the M in the classic LAMP stack (Linux, Apache, MySQL, PHP) and the database behind WordPress, early Facebook and countless online shops.",
+      "Sun Microsystems bought MySQL AB in 2008, and Oracle got it when it bought Sun in 2010. Worried about its future under Oracle, Widenius started a fork called **MariaDB**, which stays largely compatible. Today MySQL is still open source under the GPL, with paid editions from Oracle, and every major cloud sells it as a managed service, such as Amazon RDS for MySQL."
+    ],
+    "analogy": "Like the classic filing cabinet every office used to buy: not the fanciest model, but sturdy, cheap, everyone knows how the drawers work, and spare parts are everywhere.",
+    "keyPoints": [
+      "Open-source relational database, queried with SQL, listening on port 3306 by default.",
+      "The M in the LAMP stack and the usual database behind WordPress sites.",
+      "Owned by Oracle since 2010; MariaDB is a community fork by its original creator.",
+      "Offered as a managed service by all major cloud providers."
+    ],
+    "links": [
+      { "label": "MySQL on Wikipedia", "url": "https://en.wikipedia.org/wiki/MySQL" },
+      { "label": "What is MySQL? (Oracle)", "url": "https://www.oracle.com/mysql/what-is-mysql/" }
+    ]
+  },
+  "es": {
+    "title": "MySQL",
+    "tagline": "La base de datos relacional open source que movió la web temprana y sigue en todos lados.",
+    "explanation": [
+      "**MySQL** es una base de datos relacional: guarda los datos en tablas con filas y columnas, y los leés y modificás con SQL. Funciona como un programa servidor; tu aplicación se conecta por la red, por defecto al puerto `3306`, manda consultas y recibe filas.",
+      "La creó en Suecia, a mediados de los noventa, la empresa MySQL AB, y el nombre viene de My, la hija del cofundador Michael Widenius. Gratis, fácil de instalar y suficiente para la mayoría de los sitios, se volvió la M del clásico stack LAMP (Linux, Apache, MySQL, PHP) y la base de datos detrás de WordPress, del Facebook de los primeros años y de incontables tiendas online.",
+      "Sun Microsystems compró MySQL AB en 2008 y Oracle se quedó con ella al comprar Sun en 2010. Preocupado por su futuro en manos de Oracle, Widenius arrancó un fork llamado **MariaDB**, que sigue siendo bastante compatible. Hoy MySQL sigue siendo código abierto bajo la licencia GPL, con ediciones pagas de Oracle, y todas las nubes grandes la venden como servicio administrado, por ejemplo Amazon RDS para MySQL."
+    ],
+    "analogy": "Como el fichero metálico clásico que compraba cualquier oficina: no es el modelo más lujoso, pero es firme, barato, todo el mundo sabe cómo andan los cajones y hay repuestos en cualquier lado.",
+    "keyPoints": [
+      "Base de datos relacional de código abierto, se consulta con SQL y escucha por defecto en el puerto 3306.",
+      "La M del stack LAMP y la base de datos de siempre detrás de los sitios WordPress.",
+      "Es de Oracle desde 2010; MariaDB es un fork comunitario de su creador original.",
+      "Todos los grandes proveedores de nube la ofrecen como servicio administrado."
+    ],
+    "links": [
+      { "label": "MySQL en Wikipedia", "url": "https://es.wikipedia.org/wiki/MySQL" },
+      { "label": "¿Qué es MySQL? (AWS)", "url": "https://aws.amazon.com/es/rds/mysql/what-is-mysql/" }
+    ]
+  }
+}

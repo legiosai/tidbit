@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-10-sim-card",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "SIM",
+      "SIM cards",
+      "nano-SIM",
+      "Subscriber Identity Module"
+    ],
+    "es": [
+      "SIM",
+      "tarjetas SIM",
+      "SIM card",
+      "nano-SIM",
+      "chip de la línea",
+      "Subscriber Identity Module"
+    ]
+  },
+  "image": "img/2026-11-10-sim-card.svg",
+  "imageAlt": {
+    "en": "Three nested SIM sizes, a full-size card, a micro-SIM and a nano-SIM, with the gold contact chip in the middle",
+    "es": "Tres tamaños de SIM uno dentro del otro, la tarjeta grande, una micro-SIM y una nano-SIM, con el chip dorado de contactos en el centro"
+  },
+  "en": {
+    "title": "SIM card",
+    "tagline": "The small chip card that tells the mobile network which line is yours.",
+    "explanation": [
+      "A **SIM card** (Subscriber Identity Module) is the little card that goes into your phone and ties it to your mobile line. On it is a tiny chip that stores an identity number for your subscription and a secret key shared only with your carrier. When the phone connects, the network sends a challenge, the SIM answers using that key, and the carrier knows it really is your line, without the key ever leaving the card.",
+      "Because the identity lives on the card, not in the phone, you can move a SIM to another phone and your number goes with it. That is also why it can be protected with a PIN: if someone steals the card, they still need the code to use it. SIMs have shrunk over the years, from credit-card size in the early 1990s to the nano-SIM used in most phones today.",
+      "The SIM is slowly giving way to the eSIM, a chip built into the phone that downloads the same information instead of holding it on removable plastic. Either way, the SIM is what criminals target in SIM swapping: if they convince your carrier to move your number to their card, they receive your calls and verification codes. A carrier PIN on the account helps prevent it."
+    ],
+    "analogy": "A membership card for your carrier's club. Whichever phone carries the card gets in under your name, and the club checks it with a secret handshake only the card and the club know.",
+    "keyPoints": [
+      "Holds your subscriber identity and a secret key that proves the line is yours.",
+      "Move the card and your number moves with it.",
+      "Sizes shrank to the nano-SIM; eSIMs are replacing the plastic card.",
+      "Protect it with a PIN and guard your account against SIM swapping."
+    ],
+    "links": [
+      {
+        "label": "SIM card on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/SIM_card"
+      },
+      {
+        "label": "International mobile subscriber identity (IMSI) on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/International_mobile_subscriber_identity"
+      }
+    ]
+  },
+  "es": {
+    "title": "Tarjeta SIM",
+    "tagline": "La tarjetita con chip que le dice a la red móvil cuál es tu línea.",
+    "explanation": [
+      "Una **tarjeta SIM** (Subscriber Identity Module, módulo de identidad del suscriptor) es la tarjetita que va dentro del celular y lo ata a tu línea. Tiene un chip diminuto que guarda un número de identidad de tu suscripción y una clave secreta que solo comparte con tu operadora. Cuando el teléfono se conecta, la red le manda un desafío, la SIM responde usando esa clave, y la operadora sabe que es de verdad tu línea, sin que la clave salga nunca de la tarjeta.",
+      "Como la identidad vive en la tarjeta y no en el teléfono, podés pasar la SIM a otro celular y tu número se va con ella. Por eso también se la puede proteger con un PIN: si alguien te roba la tarjeta, igual necesita el código para usarla. Las SIM se fueron achicando con los años, del tamaño de una tarjeta de crédito a principios de los noventa hasta la nano-SIM que usa hoy la mayoría de los celulares.",
+      "La SIM de plástico de a poco le deja lugar a la eSIM, un chip integrado en el teléfono que descarga la misma información en vez de llevarla en una tarjeta removible. En cualquier caso, la SIM es el blanco del SIM swapping: si los delincuentes convencen a tu operadora de pasar tu número a una tarjeta suya, reciben tus llamadas y tus códigos de verificación. Ponerle un PIN de operadora a la cuenta ayuda a evitarlo."
+    ],
+    "analogy": "Un carnet de socio del club de tu operadora. El teléfono que lleve el carnet entra a tu nombre, y el club lo verifica con un saludo secreto que solo conocen el carnet y el club.",
+    "keyPoints": [
+      "Guarda tu identidad de suscriptor y una clave secreta que prueba que la línea es tuya.",
+      "Si movés la tarjeta, tu número se mueve con ella.",
+      "Se achicó hasta la nano-SIM; la eSIM está reemplazando la tarjeta de plástico.",
+      "Protegela con un PIN y cuidá tu cuenta contra el SIM swapping."
+    ],
+    "links": [
+      {
+        "label": "Tarjeta SIM en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Tarjeta_SIM"
+      },
+      {
+        "label": "IMSI en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/IMSI"
+      }
+    ]
+  }
+}

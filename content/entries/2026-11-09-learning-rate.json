@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-09-learning-rate",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 3,
+  "aliases": {
+    "en": ["learning rates", "learning rate schedule", "learning rate warmup", "learning rate decay"],
+    "es": ["tasas de aprendizaje", "learning rate", "ritmo de aprendizaje", "calendario de la tasa de aprendizaje"]
+  },
+  "image": "img/2026-11-09-learning-rate.svg",
+  "imageAlt": {
+    "en": "Three paths down the same valley: tiny steps that barely move, big steps that bounce across and out, and medium steps that reach the bottom",
+    "es": "Tres caminos por el mismo valle: pasos mínimos que casi no avanzan, pasos enormes que rebotan de lado a lado y se salen, y pasos medianos que llegan al fondo"
+  },
+  "en": {
+    "title": "Learning rate",
+    "tagline": "The size of the step a model takes each time training adjusts its weights.",
+    "explanation": [
+      "Each step of gradient descent says which way every weight should move to lower the loss function. The **learning rate** says how far. It is one number, chosen by people before training starts (a **hyperparameter**, not something the model learns), and it scales every update: `w = w - lr * grad`.",
+      "Getting it right matters more than almost any other setting. Too high, and each step overshoots: the loss bounces around or suddenly shoots up, and training **diverges**. Too low, and the model learns so slowly that you run out of time or budget, or it settles somewhere mediocre. Useful values are small, roughly between 0.00001 and 0.01 depending on the model and the optimizer, and the reliable way to find a good one is to try a few on short runs and watch the loss.",
+      "In practice the learning rate is rarely constant. A **schedule** changes it over time: a short **warmup** that ramps it up from near zero, so the first chaotic steps do not wreck the weights, then a slow decay, often shaped like a cosine curve, so the last steps are fine adjustments. Optimizers like Adam also scale the step of each weight on their own, but they still sit on top of one base learning rate.",
+      "Fine-tuning usually uses a smaller learning rate than training from scratch. The model already knows a lot, and big steps can erase it; small ones adjust its behavior while keeping most of what it learned. Methods like LoRA, which train far fewer weights, tend to use somewhat higher rates than full fine-tuning."
+    ],
+    "analogy": "Parking a car. You approach at a decent speed and slow down as you get close. Keep the speed up to the end and you hit the wall; crawl the whole way and you never get there.",
+    "keyPoints": [
+      "It sets the size of each update: weight minus learning rate times gradient.",
+      "Too high and training diverges; too low and it crawls.",
+      "Schedules warm it up at the start and lower it toward the end.",
+      "Fine-tuning normally uses smaller rates than training from scratch."
+    ],
+    "links": [
+      { "label": "Learning rate on Wikipedia", "url": "https://en.wikipedia.org/wiki/Learning_rate" },
+      { "label": "Linear regression: Hyperparameters (Google Machine Learning Crash Course)", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters" },
+      { "label": "What is learning rate in machine learning? (IBM)", "url": "https://www.ibm.com/think/topics/learning-rate" }
+    ]
+  },
+  "es": {
+    "title": "Tasa de aprendizaje",
+    "tagline": "El largo del paso que da un modelo cada vez que el entrenamiento ajusta sus pesos.",
+    "explanation": [
+      "Cada paso del descenso de gradiente dice para qué lado tiene que moverse cada peso para bajar la función de pérdida. La **tasa de aprendizaje** dice cuánto. Es un solo número que eligen las personas antes de entrenar (un **hiperparámetro**, no algo que el modelo aprende) y multiplica cada actualización: `w = w - lr * grad`.",
+      "Acertarle importa más que casi cualquier otra configuración. Si es muy alta, cada paso se pasa de largo: la pérdida rebota o de golpe se dispara, y el entrenamiento **diverge**. Si es muy baja, el modelo aprende tan despacio que se te acaba el tiempo o la plata, o se queda en un lugar mediocre. Los valores útiles son chicos, más o menos entre 0,00001 y 0,01 según el modelo y el optimizador, y la forma confiable de encontrar uno bueno es probar varios en corridas cortas y mirar la pérdida.",
+      "En la práctica, la tasa de aprendizaje casi nunca es fija. Un **calendario** (schedule) la va cambiando: un **calentamiento** corto que la sube desde casi cero, para que los primeros pasos, caóticos, no arruinen los pesos, y después una bajada lenta, muchas veces con forma de coseno, para que los últimos pasos sean retoques finos. Optimizadores como Adam además ajustan solos el paso de cada peso, pero siempre arriba de una tasa base.",
+      "El fine-tuning suele usar una tasa más chica que entrenar desde cero. El modelo ya sabe mucho y los pasos grandes lo pueden borrar; los chicos ajustan su comportamiento sin perder casi nada de lo aprendido. Métodos como LoRA, que entrenan muchísimos menos pesos, suelen usar tasas algo más altas que el fine-tuning completo."
+    ],
+    "analogy": "Estacionar el auto. Te acercás a buena velocidad y vas frenando a medida que llegás. Si mantenés la velocidad hasta el final, te comés la pared; si vas a paso de hombre todo el camino, no llegás nunca.",
+    "keyPoints": [
+      "Fija el tamaño de cada actualización: peso menos tasa por gradiente.",
+      "Muy alta y el entrenamiento diverge; muy baja y no avanza.",
+      "Los calendarios la suben al principio y la bajan hacia el final.",
+      "El fine-tuning normalmente usa tasas más chicas que entrenar desde cero."
+    ],
+    "links": [
+      { "label": "¿Qué es la tasa de aprendizaje en machine learning? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/learning-rate" },
+      { "label": "Regresión lineal: Hiperparámetros (Curso intensivo de aprendizaje automático de Google)", "url": "https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters?hl=es-419" },
+      { "label": "Learning rate en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Learning_rate" }
+    ]
+  }
+}

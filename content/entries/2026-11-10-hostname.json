@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-10-hostname",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "hostnames",
+      "host name",
+      "host names",
+      "FQDN",
+      "fully qualified domain name"
+    ],
+    "es": [
+      "hostnames",
+      "nombre de host",
+      "nombres de host",
+      "nombre de equipo",
+      "FQDN",
+      "nombre de dominio completo"
+    ]
+  },
+  "image": "img/2026-11-10-hostname.svg",
+  "imageAlt": {
+    "en": "Three machines labeled laptop-ana, printer-2 and mail; the mail server full name splits into the host part mail and the domain part .example.com",
+    "es": "Tres máquinas etiquetadas laptop-ana, printer-2 y mail; el nombre completo del servidor de mail se separa en la parte del host, mail, y la del dominio, .example.com"
+  },
+  "en": {
+    "title": "Hostname",
+    "tagline": "The human-readable name a device uses on a network.",
+    "explanation": [
+      "Every device on a network has an IP address, but numbers are hard to remember. A **hostname** is the name a device goes by instead: `laptop-ana`, `printer-2`, `db01`. You choose it when you set up a computer, and you can see it on your own machine by typing `hostname` in a terminal.",
+      "On the internet, hostnames sit inside domain names. In `mail.example.com`, `mail` is the host and `example.com` is the domain it belongs to; written out in full, the whole thing is called a **fully qualified domain name** (FQDN). DNS translates that name into an IP address, so a company can move its mail server to a new machine and only update DNS, while everybody keeps typing the same name.",
+      "Hostnames have simple rules: letters, digits and hyphens, with each part up to 63 characters. They show up in many places you might not expect: in your router's list of connected devices, in log files, in error messages, and in the certificates that make HTTPS work, which are issued for specific hostnames. Picking clear, consistent names is a small habit that makes a network much easier to manage."
+    ],
+    "analogy": "The name on an apartment's doorbell versus its street address. The address is how the mail actually gets there; the name is what people remember and look up.",
+    "keyPoints": [
+      "A readable name for a device, alongside its IP address.",
+      "In mail.example.com, mail is the host and example.com the domain.",
+      "DNS turns hostnames into IP addresses.",
+      "Allowed characters: letters, digits and hyphens; up to 63 per part."
+    ],
+    "links": [
+      {
+        "label": "Hostname on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hostname"
+      },
+      {
+        "label": "RFC 1123: Requirements for Internet Hosts (RFC Editor)",
+        "url": "https://www.rfc-editor.org/info/rfc1123/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Hostname",
+    "tagline": "El nombre legible que usa un aparato dentro de una red.",
+    "explanation": [
+      "Cada aparato de una red tiene una dirección IP, pero los números cuestan recordarlos. El **hostname** (nombre de host o de equipo) es el nombre que usa en su lugar: `laptop-ana`, `impresora-2`, `db01`. Lo elegís al configurar una computadora, y podés ver el de tu máquina escribiendo `hostname` en una terminal.",
+      "En internet, los hostnames viven dentro de los nombres de dominio. En `mail.example.com`, `mail` es el host y `example.com` es el dominio al que pertenece; escrito completo, todo junto se llama **nombre de dominio completo** (FQDN, por sus siglas en inglés). El DNS traduce ese nombre a una dirección IP, así que una empresa puede mudar su servidor de mail a otra máquina y solo actualizar el DNS, mientras todo el mundo sigue escribiendo el mismo nombre.",
+      "Los hostnames tienen reglas simples: letras, números y guiones, con hasta 63 caracteres por cada parte. Aparecen en muchos lugares que quizás no esperás: en la lista de aparatos conectados de tu router, en los logs, en los mensajes de error y en los certificados que hacen funcionar HTTPS, que se emiten para hostnames específicos. Elegir nombres claros y coherentes es un hábito chico que hace mucho más fácil administrar una red."
+    ],
+    "analogy": "El nombre en el timbre de un departamento frente a su dirección. La dirección es lo que hace que la carta llegue; el nombre es lo que la gente recuerda y busca.",
+    "keyPoints": [
+      "Un nombre legible para un aparato, además de su dirección IP.",
+      "En mail.example.com, mail es el host y example.com el dominio.",
+      "El DNS convierte los hostnames en direcciones IP.",
+      "Caracteres permitidos: letras, números y guiones; hasta 63 por parte."
+    ],
+    "links": [
+      {
+        "label": "Nombre de equipo en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Nombre_de_equipo"
+      },
+      {
+        "label": "RFC 1123: Requirements for Internet Hosts (RFC Editor, en inglés)",
+        "url": "https://www.rfc-editor.org/info/rfc1123/"
+      }
+    ]
+  }
+}

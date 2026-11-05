@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-09-multi-agent-system",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["multi-agent systems", "multi-agent", "multiagent system", "subagent", "subagents", "orchestrator agent"],
+    "es": ["sistemas multiagente", "multiagente", "multi-agent", "subagente", "subagentes", "agente orquestador"]
+  },
+  "image": "img/2026-11-09-multi-agent-system.svg",
+  "imageAlt": {
+    "en": "A lead agent splits a task into three pieces for three subagents, labeled search, code and review, and their results flow back to it",
+    "es": "Un agente principal divide una tarea en tres partes para tres subagentes, rotulados buscar, programar y revisar, y los resultados vuelven a él"
+  },
+  "en": {
+    "title": "Multi-agent system",
+    "tagline": "Several AI agents splitting one job, each with its own role, instructions and tools.",
+    "explanation": [
+      "A **multi-agent system** is a setup where several AI agents work on the same task instead of one agent doing everything. Each agent is usually an LLM running a loop of thinking and calling tools, but with its own instructions, its own tools and its own context window. One might search the web, another write code, another check the result.",
+      "The most common pattern is an **orchestrator** with **subagents**: a lead agent breaks the job into pieces, hands each piece to a subagent, and combines what comes back. Because the subagents can run in parallel and each one starts with a clean context, the team can cover more ground than a single agent whose context fills up with everything it has read. Other designs pass the work along a pipeline, or have one agent review another's output.",
+      "The cost is real. Anthropic, describing the multi-agent setup behind Claude's research feature in 2025, reported that it used roughly 15 times more tokens than a normal chat, and that it paid off mainly on broad tasks that split into independent parts. Agents can also misunderstand each other, repeat work or pass errors along, and a bug is harder to trace across several conversations. Tasks where every step depends on the last one, like much of coding, often go better with one well-equipped agent.",
+      "The idea is older than LLMs: researchers have studied multi-agent systems for decades in robotics, traffic simulations and games. What is new is that each agent can now read, write and reason in plain language."
+    ],
+    "analogy": "A newsroom. The editor splits a big story into pieces, sends reporters out at the same time and stitches their notes together. It is faster than one reporter doing everything, but it costs more salaries and someone has to make the pieces fit.",
+    "keyPoints": [
+      "Several agents, each with its own instructions, tools and context.",
+      "Typical shape: an orchestrator that delegates to subagents running in parallel.",
+      "Good for broad tasks that split cleanly; overkill for tightly linked steps.",
+      "More agents means many more tokens, and so more cost."
+    ],
+    "links": [
+      { "label": "How we built our multi-agent research system (Anthropic)", "url": "https://www.anthropic.com/research/multi-agent-research-system" },
+      { "label": "Multi-agent system on Wikipedia", "url": "https://en.wikipedia.org/wiki/Multi-agent_system" },
+      { "label": "What is a multi-agent system? (IBM)", "url": "https://www.ibm.com/think/topics/multiagent-system" }
+    ]
+  },
+  "es": {
+    "title": "Sistema multiagente",
+    "tagline": "Varios agentes de IA que se reparten un trabajo, cada uno con su rol y sus herramientas.",
+    "explanation": [
+      "Un **sistema multiagente** es un armado en el que varios agentes de IA trabajan en la misma tarea, en vez de que un solo agente haga todo. Cada agente suele ser un LLM que corre un ciclo de pensar y usar herramientas, pero con sus propias instrucciones, sus propias herramientas y su propia ventana de contexto. Uno busca en la web, otro escribe código, otro revisa el resultado.",
+      "El patrón más común es un **orquestador** con **subagentes**: un agente principal divide el trabajo en partes, le pasa cada parte a un subagente y junta lo que vuelve. Como los subagentes pueden correr en paralelo y cada uno arranca con el contexto limpio, el equipo cubre más terreno que un agente solo, cuyo contexto se va llenando con todo lo que leyó. Otros diseños pasan el trabajo en cadena, o ponen a un agente a revisar lo que hizo otro.",
+      "El costo es real. Anthropic, al contar en 2025 cómo armó el sistema multiagente detrás de la función de investigación de Claude, informó que usaba más o menos 15 veces más tokens que un chat normal, y que valía la pena sobre todo en tareas amplias que se parten en piezas independientes. Además, los agentes pueden malinterpretarse, repetir trabajo o pasarse errores, y un bug es más difícil de rastrear entre varias conversaciones. Las tareas donde cada paso depende del anterior, como buena parte de la programación, muchas veces salen mejor con un solo agente bien equipado.",
+      "La idea es más vieja que los LLMs: hace décadas que se estudian sistemas multiagente en robótica, simulaciones de tránsito y juegos. Lo nuevo es que cada agente ahora puede leer, escribir y razonar en lenguaje común."
+    ],
+    "analogy": "Una redacción de diario. El editor parte una nota grande en pedazos, manda a varios periodistas a la vez y después cose sus apuntes. Es más rápido que un periodista haciendo todo, pero cuesta más sueldos y alguien tiene que hacer que las piezas encajen.",
+    "keyPoints": [
+      "Varios agentes, cada uno con sus instrucciones, herramientas y contexto.",
+      "Forma típica: un orquestador que delega en subagentes que corren en paralelo.",
+      "Sirve para tareas amplias que se dividen bien; sobra en pasos muy encadenados.",
+      "Más agentes es muchos más tokens, y por lo tanto más costo."
+    ],
+    "links": [
+      { "label": "Sistema multiagente en Wikipedia", "url": "https://es.wikipedia.org/wiki/Sistema_multiagente" },
+      { "label": "¿Qué es un sistema multiagente? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/multiagent-system" },
+      { "label": "How we built our multi-agent research system (Anthropic, en inglés)", "url": "https://www.anthropic.com/research/multi-agent-research-system" }
+    ]
+  }
+}

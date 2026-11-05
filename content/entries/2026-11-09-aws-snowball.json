@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-09-aws-snowball",
+  "date": "2026-11-09",
+  "subjects": ["aws", "cloud"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Snowball", "Snowball Edge", "AWS Snowball Edge"],
+    "es": ["Snowball", "Snowball Edge", "AWS Snowball Edge"]
+  },
+  "image": "img/2026-11-09-aws-snowball.svg",
+  "imageAlt": {
+    "en": "A rugged storage box is filled at an office, travels on a truck, and its data is loaded into S3 at AWS",
+    "es": "Una caja resistente de almacenamiento se llena en una oficina, viaja en un camión y sus datos se cargan en S3 en AWS"
+  },
+  "en": {
+    "title": "AWS Snowball",
+    "tagline": "A rugged box AWS shipped to you to move huge amounts of data by truck instead of internet.",
+    "explanation": [
+      "**AWS Snowball** is a physical device for moving data. You order one, AWS ships you a rugged, suitcase-sized box full of storage, you plug it into your network and copy your files onto it, and then you send it back with a courier. At AWS, the data is loaded into Amazon S3. The current device is called **Snowball Edge**, and the data on it is always encrypted.",
+      "Why a box? Because with enough data, the internet is the slow option. Sending hundreds of terabytes over an ordinary office connection can take months; a courier takes days. Snowball Edge devices could also run small workloads on site, with EC2-style instances, in places with poor or no connection, like ships, mines or remote field stations.",
+      "Snowball Edge is no longer available to new customers. AWS now points new customers to AWS DataSync for online transfers, AWS Data Transfer Terminal for secure physical transfers, and AWS Outposts for computing at the edge. Existing customers can keep using it, and the idea it popularized, shipping disks when the network is too slow, is still a standard trick."
+    ],
+    "analogy": "Instead of emailing a whole library one page at a time, you load the books into a moving truck and drive it across town.",
+    "keyPoints": [
+      "A physical device for moving large amounts of data into and out of AWS.",
+      "Data is encrypted and loaded into Amazon S3 on arrival.",
+      "Snowball Edge devices could also run computing jobs at remote sites.",
+      "No longer offered to new customers; AWS suggests DataSync or Data Transfer Terminal."
+    ],
+    "links": [
+      { "label": "What is Snowball Edge? (official docs)", "url": "https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html" },
+      { "label": "AWS Snowball product page", "url": "https://aws.amazon.com/snowball/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Snowball",
+    "tagline": "Una caja resistente que AWS te mandaba para mover montañas de datos en camión, no por internet.",
+    "explanation": [
+      "**AWS Snowball** es un dispositivo físico para mover datos. Lo pedís, AWS te manda una caja reforzada del tamaño de una valija llena de almacenamiento, la conectás a tu red y copiás tus archivos, y después la devolvés por correo. En AWS, los datos se cargan en Amazon S3. El dispositivo actual se llama **Snowball Edge** y los datos que lleva van siempre cifrados.",
+      "¿Por qué una caja? Porque con suficientes datos, internet es la opción lenta. Mandar cientos de terabytes por una conexión de oficina común puede llevar meses; un courier tarda días. Los Snowball Edge además podían correr cargas chicas en el lugar, con instancias al estilo EC2, en sitios con poca o ninguna conexión, como barcos, minas o estaciones de campo remotas.",
+      "Snowball Edge ya no está disponible para clientes nuevos. AWS ahora les recomienda AWS DataSync para transferencias por la red, AWS Data Transfer Terminal para transferencias físicas seguras y AWS Outposts para cómputo en el borde. Los clientes que ya lo usaban pueden seguir, y la idea que popularizó, mandar discos cuando la red no da abasto, sigue siendo un recurso clásico."
+    ],
+    "analogy": "En vez de mandar una biblioteca entera por mail, página por página, cargás los libros en un camión de mudanza y cruzás la ciudad.",
+    "keyPoints": [
+      "Un dispositivo físico para mover grandes volúmenes de datos hacia y desde AWS.",
+      "Los datos viajan cifrados y se cargan en Amazon S3 al llegar.",
+      "Los Snowball Edge también podían correr cómputo en sitios remotos.",
+      "Ya no se ofrece a clientes nuevos; AWS sugiere DataSync o Data Transfer Terminal."
+    ],
+    "links": [
+      { "label": "¿Qué es Snowball Edge? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/snowball/latest/developer-guide/whatisedge.html" },
+      { "label": "Página de AWS Snowball", "url": "https://aws.amazon.com/es/snowball/" }
+    ]
+  }
+}

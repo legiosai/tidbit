@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-jwt",
+  "date": "2026-11-11",
+  "subjects": ["security", "software"],
+  "level": 3,
+  "aliases": {
+    "en": ["JWTs", "JSON Web Token", "JSON Web Tokens"],
+    "es": ["JWTs", "JSON Web Token", "JSON Web Tokens", "token JWT", "tokens JWT"]
+  },
+  "image": "img/2026-11-11-jwt.svg",
+  "imageAlt": {
+    "en": "A token split into three colored parts separated by dots: header, payload and signature, with the payload showing a user id and an expiry time",
+    "es": "Un token dividido en tres partes de colores separadas por puntos: header, payload y firma, con el payload mostrando un id de usuario y un vencimiento"
+  },
+  "en": {
+    "title": "JWT",
+    "tagline": "A signed, self-contained pass that tells a server who you are and what you may do.",
+    "explanation": [
+      "A **JWT** (JSON Web Token, often pronounced \"jot\") is a compact string that carries a few facts about a user, called claims, plus a cryptographic signature. It has three parts separated by dots: a header that names the signing algorithm, a payload with the claims (for example `sub` for the user id and `exp` for the expiry time) and the signature. Each part is base64url-encoded JSON, so it travels easily in an HTTP header like `Authorization: Bearer eyJ...`. The format is defined in RFC 7519.",
+      "The point is that a server can check a JWT without looking anything up. The login service signs the token with a secret key (HMAC, as in `HS256`) or a private key (as in `RS256` or `ES256`), and any API that holds the matching key can verify that nobody changed a single character. That makes JWTs popular in microservices and in OpenID Connect, where the ID token you get after \"Sign in with Google\" is a JWT.",
+      "Two traps catch beginners. First, a signed JWT is not encrypted: anyone who grabs it can decode the payload and read it, so it must never hold secrets, and it should only travel over HTTPS. Second, because verification needs no database, a stolen JWT keeps working until it expires. The usual answer is short lifetimes (minutes) plus a separate refresh token that the server can revoke. Libraries must also reject tokens whose header says `\"alg\": \"none\"` or switches the algorithm, a classic source of vulnerabilities."
+    ],
+    "analogy": "A festival wristband with a hologram. The guard at each stage does not call the ticket office: they look at the hologram and the date printed on it. Anyone can read the band, nobody can forge it, and a stolen one works until the festival ends.",
+    "keyPoints": [
+      "Three dot-separated parts: header, payload and signature.",
+      "Signed, not encrypted: the payload is readable by anyone.",
+      "Servers verify it with a key, without a database lookup.",
+      "Hard to revoke, so keep lifetimes short and use refresh tokens."
+    ],
+    "links": [
+      { "label": "Introduction to JSON Web Tokens (jwt.io)", "url": "https://jwt.io/introduction" },
+      { "label": "RFC 7519: JSON Web Token (IETF)", "url": "https://datatracker.ietf.org/doc/html/rfc7519" },
+      { "label": "JSON Web Token on Wikipedia", "url": "https://en.wikipedia.org/wiki/JSON_Web_Token" }
+    ]
+  },
+  "es": {
+    "title": "JWT",
+    "tagline": "Un pase firmado y autocontenido que le dice al servidor quién sos y qué podés hacer.",
+    "explanation": [
+      "Un **JWT** (JSON Web Token, que muchos pronuncian \"yot\") es un texto compacto que lleva algunos datos sobre un usuario, llamados claims, más una firma criptográfica. Tiene tres partes separadas por puntos: un header que dice con qué algoritmo se firmó, un payload con los claims (por ejemplo `sub` para el id del usuario y `exp` para el vencimiento) y la firma. Cada parte es JSON codificado en base64url, así que viaja cómodo en un header HTTP como `Authorization: Bearer eyJ...`. El formato está definido en el RFC 7519.",
+      "La gracia es que el servidor puede validar un JWT sin consultar nada. El servicio de login lo firma con una clave secreta (HMAC, como en `HS256`) o con una clave privada (como en `RS256` o `ES256`), y cualquier API que tenga la clave correspondiente puede comprobar que nadie tocó ni un carácter. Por eso los JWT son muy usados en microservicios y en OpenID Connect: el ID token que recibís después de \"Iniciar sesión con Google\" es un JWT.",
+      "Hay dos trampas clásicas. La primera: un JWT firmado no está cifrado. Cualquiera que lo agarre puede decodificar el payload y leerlo, así que nunca tiene que llevar secretos y solo debería viajar por HTTPS. La segunda: como validarlo no requiere base de datos, un JWT robado sigue andando hasta que vence. La solución habitual es darle una vida corta (minutos) y usar aparte un refresh token que el servidor sí puede revocar. Las bibliotecas además tienen que rechazar tokens cuyo header dice `\"alg\": \"none\"` o cambia el algoritmo, una fuente histórica de vulnerabilidades."
+    ],
+    "analogy": "Una pulsera de festival con holograma. El de seguridad de cada escenario no llama a la boletería: mira el holograma y la fecha impresa. Cualquiera puede leer la pulsera, nadie puede falsificarla, y una robada sirve hasta que termina el festival.",
+    "keyPoints": [
+      "Tres partes separadas por puntos: header, payload y firma.",
+      "Firmado, no cifrado: cualquiera puede leer el payload.",
+      "El servidor lo valida con una clave, sin consultar una base de datos.",
+      "Es difícil de revocar: vida corta y refresh tokens."
+    ],
+    "links": [
+      { "label": "JSON Web Token en Wikipedia", "url": "https://es.wikipedia.org/wiki/JSON_Web_Token" },
+      { "label": "Introducción a JSON Web Tokens (jwt.io, en inglés)", "url": "https://jwt.io/introduction" },
+      { "label": "RFC 7519: JSON Web Token (IETF, en inglés)", "url": "https://datatracker.ietf.org/doc/html/rfc7519" }
+    ]
+  }
+}

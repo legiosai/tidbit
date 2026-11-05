@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-10-nas",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks",
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "network-attached storage",
+      "NAS drive",
+      "NAS drives",
+      "NAS device",
+      "NAS devices"
+    ],
+    "es": [
+      "almacenamiento conectado a la red",
+      "almacenamiento conectado en red",
+      "servidor NAS",
+      "servidores NAS",
+      "equipo NAS"
+    ]
+  },
+  "image": "img/2026-11-10-nas.svg",
+  "imageAlt": {
+    "en": "A small box with two disk drives connects to the home router; a laptop, a phone and a TV all reach it through the same router",
+    "es": "Una cajita con dos discos conectada al router de la casa; una notebook, un celular y una tele llegan a ella a través del mismo router"
+  },
+  "en": {
+    "title": "NAS",
+    "tagline": "A small box of hard drives on your network that every device can share.",
+    "explanation": [
+      "A **NAS** (network-attached storage) is a small computer whose main job is to hold disks and share them over the network. Instead of plugging a drive into one laptop, you connect the NAS to your router, and every computer, phone and TV in the house or office can open the same folders, as if they were a shared drive.",
+      "People use a NAS for family photo archives, automatic backups of every computer, a media library the TV can stream from, or shared project folders in a small office. Most NAS boxes hold two or more drives and can mirror them with **RAID**, so if one disk dies the files are still on the other. Many also run apps: photo galleries, file sync like a private Dropbox, or remote access from outside the home.",
+      "A NAS gives you a lot of storage that you own, with no monthly fee, but you are also its administrator. A mirrored NAS still is not a full backup: a fire, a theft or ransomware can take everything at once, so important files should also have a copy somewhere else. Exposing it to the internet without updates is a common way to get hacked."
+    ],
+    "analogy": "A shared filing cabinet in the hallway, instead of a drawer in each person's desk. Everyone in the house can reach it, and you choose who gets which drawers.",
+    "keyPoints": [
+      "A box of disks connected to the network, shared by every device.",
+      "Common for photos, backups, media libraries and small-office files.",
+      "Usually mirrors drives (RAID) so one failed disk does not lose data.",
+      "Still keep an off-site copy, and keep its software up to date."
+    ],
+    "links": [
+      {
+        "label": "Network-attached storage on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Network-attached_storage"
+      },
+      {
+        "label": "RAID on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/RAID"
+      }
+    ]
+  },
+  "es": {
+    "title": "NAS",
+    "tagline": "Una cajita con discos en tu red que comparten todos los aparatos.",
+    "explanation": [
+      "Un **NAS** (network-attached storage, almacenamiento conectado a la red) es una computadora chica cuyo trabajo principal es alojar discos y compartirlos por la red. En vez de enchufar un disco a una notebook, conectás el NAS al router, y todas las computadoras, celulares y teles de la casa o la oficina pueden abrir las mismas carpetas, como si fuera un disco compartido.",
+      "Se usa para el archivo de fotos familiar, los backups automáticos de cada computadora, una biblioteca de películas que la tele puede reproducir, o carpetas de proyectos compartidas en una oficina chica. La mayoría de los NAS llevan dos o más discos y los pueden espejar con **RAID**, así que si uno se muere los archivos siguen en el otro. Muchos también corren apps: galerías de fotos, sincronización de archivos como un Dropbox propio, o acceso remoto desde afuera de casa.",
+      "Un NAS te da mucho almacenamiento propio, sin pagar un abono, pero también te convierte en su administrador. Un NAS espejado todavía no es un backup completo: un incendio, un robo o un ransomware se pueden llevar todo junto, así que los archivos importantes conviene tenerlos copiados en otro lugar. Exponerlo a internet sin actualizarlo es una forma muy común de que te lo hackeen."
+    ],
+    "analogy": "Un fichero compartido en el pasillo, en vez de un cajón en el escritorio de cada uno. Todos en la casa llegan a él, y vos elegís quién puede abrir cada cajón.",
+    "keyPoints": [
+      "Una caja con discos conectada a la red, compartida por todos los aparatos.",
+      "Se usa para fotos, backups, bibliotecas de películas y archivos de oficinas chicas.",
+      "Suele espejar los discos (RAID) para que uno roto no te haga perder datos.",
+      "Igual guardá una copia en otro lugar y mantené su software actualizado."
+    ],
+    "links": [
+      {
+        "label": "Almacenamiento conectado en red en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red"
+      },
+      {
+        "label": "RAID en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/RAID"
+      }
+    ]
+  }
+}

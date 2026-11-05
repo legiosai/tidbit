@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-typosquatting",
+  "date": "2026-11-11",
+  "subjects": ["security", "networks"],
+  "level": 2,
+  "aliases": {
+    "en": ["typosquatter", "typosquatters", "typosquatted", "typosquatting domain", "typosquatting domains", "lookalike domain", "lookalike domains", "URL hijacking"],
+    "es": ["typosquatter", "typosquatters", "dominio parecido", "dominios parecidos", "dominio con error de tipeo", "dominios con errores de tipeo"]
+  },
+  "image": "img/2026-11-11-typosquatting.svg",
+  "imageAlt": {
+    "en": "A real address, mybank.com, next to three lookalikes: mybnak.com, mybank.co and my-bank.com, each pointing to a fake login page",
+    "es": "Una dirección real, mybank.com, junto a tres imitaciones: mybnak.com, mybank.co y my-bank.com, cada una apuntando a una página de login falsa"
+  },
+  "en": {
+    "title": "Typosquatting",
+    "tagline": "Registering misspelled names of real sites or packages to catch people's typos.",
+    "explanation": [
+      "**Typosquatting** means registering a domain name that is one slip away from a popular one: a swapped letter (`mybnak.com`), a missing letter, a different ending (`.co` instead of `.com`) or an extra hyphen. People who mistype the address, or who glance too quickly at a link, land on a site the attacker controls. It is a kind of cybersquatting, the broader practice of registering names that ride on someone else's brand.",
+      "What waits on the other side varies. Often it is just a page full of ads that pays per visit. Worse, it can be a perfect copy of the real login page that harvests passwords, a download of malware, or a domain used to send phishing emails that look like they come from the real company. Some lookalikes go further and use characters from other alphabets that look identical, like a Cyrillic \"а\" in place of a Latin \"a\"; that variant is called a homograph attack.",
+      "The same trick works on programmers. Attackers publish packages to registries like npm or PyPI under names close to popular ones, hoping someone types the name wrong in an install command. In 2017, for example, npm removed a package called `crossenv`, a lookalike of `cross-env` that sent the developer's environment variables to its author. That makes typosquatting a common entry point for a supply chain attack. Defenses: companies register the obvious misspellings of their own names, browsers and email filters flag lookalikes, and you can use bookmarks or a password manager, which will not autofill on the wrong domain."
+    ],
+    "analogy": "A shop called \"Starbuks\" opening next to a Starbucks, hoping some customers walk in without reading the sign carefully.",
+    "keyPoints": [
+      "It bets on typos and quick glances at addresses.",
+      "Lookalike sites serve ads, fake logins or malware.",
+      "Misspelled packages in npm or PyPI target developers.",
+      "Bookmarks and password managers help you avoid it."
+    ],
+    "links": [
+      { "label": "Typosquatting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Typosquatting" },
+      { "label": "Cybersquatting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cybersquatting" }
+    ]
+  },
+  "es": {
+    "title": "Typosquatting",
+    "tagline": "Registrar nombres mal escritos de sitios o paquetes reales para cazar errores de tipeo.",
+    "explanation": [
+      "El **typosquatting** es registrar un nombre de dominio que está a un error de distancia de uno popular: dos letras invertidas (`mybnak.com`), una letra de menos, otra terminación (`.co` en vez de `.com`) o un guion de más. La gente que tipea mal la dirección, o que mira un link demasiado rápido, cae en un sitio que controla el atacante. Es una forma de ciberocupación, la práctica más amplia de registrar nombres que se cuelgan de una marca ajena.",
+      "Lo que te espera del otro lado varía. Muchas veces es solo una página llena de publicidad que cobra por visita. Peor: puede ser una copia perfecta del login real que se queda con tu contraseña, una descarga de malware, o un dominio desde el que se mandan correos de phishing que parecen de la empresa verdadera. Algunas imitaciones van más lejos y usan letras de otros alfabetos que se ven idénticas, como una \"а\" cirílica en lugar de una \"a\" latina; esa variante se llama ataque homógrafo.",
+      "El mismo truco funciona con programadores. Los atacantes publican paquetes en registros como npm o PyPI con nombres parecidos a otros populares, esperando que alguien tipee mal el comando de instalación. En 2017, por ejemplo, npm eliminó un paquete llamado `crossenv`, imitación de `cross-env`, que le mandaba a su autor las variables de entorno del desarrollador. Por eso el typosquatting es una puerta de entrada habitual para un ataque a la cadena de suministro. Defensas: las empresas registran ellas mismas las variantes obvias de su nombre, los navegadores y filtros de correo marcan las imitaciones, y vos podés usar favoritos o un gestor de contraseñas, que no autocompleta en el dominio equivocado."
+    ],
+    "analogy": "Un local que se llama \"Starbuks\" y abre al lado de un Starbucks, esperando que algún cliente entre sin leer bien el cartel.",
+    "keyPoints": [
+      "Apuesta a los errores de tipeo y a las miradas rápidas.",
+      "Los sitios imitación muestran publicidad, logins falsos o malware.",
+      "Los paquetes mal escritos en npm o PyPI apuntan a programadores.",
+      "Los favoritos y los gestores de contraseñas ayudan a evitarlo."
+    ],
+    "links": [
+      { "label": "Typosquatting en Wikipedia", "url": "https://es.wikipedia.org/wiki/Typosquatting" },
+      { "label": "Ciberocupación en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ciberocupaci%C3%B3n" }
+    ]
+  }
+}

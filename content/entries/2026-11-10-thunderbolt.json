@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-10-thunderbolt",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [
+      "Thunderbolt 3",
+      "Thunderbolt 4",
+      "Thunderbolt 5",
+      "Thunderbolt port",
+      "Thunderbolt ports"
+    ],
+    "es": [
+      "Thunderbolt 3",
+      "Thunderbolt 4",
+      "Thunderbolt 5",
+      "puerto Thunderbolt",
+      "puertos Thunderbolt"
+    ]
+  },
+  "image": "img/2026-11-10-thunderbolt.svg",
+  "imageAlt": {
+    "en": "One cable from a laptop USB-C port marked with a lightning bolt reaches a dock that fans out to a monitor, a fast drive, a network cable and power",
+    "es": "Un solo cable desde el puerto USB-C de una notebook marcado con un rayo llega a un dock que se abre hacia un monitor, un disco rápido, un cable de red y la corriente"
+  },
+  "en": {
+    "title": "Thunderbolt",
+    "tagline": "A very fast port that carries data, video and power over one USB-C cable.",
+    "explanation": [
+      "**Thunderbolt** is a high-speed connection standard created by Intel, first launched with Apple in 2011. Since Thunderbolt 3 it uses the same oval USB-C connector as regular USB, so the port looks identical; the usual hint is a small lightning-bolt icon next to it. What changes is what travels through the cable: it can carry fast data, one or more displays and power at the same time.",
+      "The trick is that Thunderbolt tunnels the computer's own internal links outside the case. It carries PCIe, the same connection the computer uses for graphics cards and SSDs, and DisplayPort for screens. That is why an external drive over Thunderbolt can perform close to an internal one, and why one cable to a **dock** can power your laptop, drive two monitors and connect a keyboard, network and storage at once. Thunderbolt 3 and 4 reach 40 Gbit/s; Thunderbolt 5 doubles that to 80 Gbit/s.",
+      "The catch is the confusion with USB-C. A USB-C port might be plain USB, USB with video, or full Thunderbolt, and cables vary too. The good news is that recent versions of USB4 are built on Thunderbolt technology, so the two are converging. If you rely on fast storage or a single-cable desk setup, check that both the port and the cable say Thunderbolt."
+    ],
+    "analogy": "A highway lane that goes straight from the factory floor to your street. Other roads have stops and detours; Thunderbolt lets outside devices use the same internal lanes as the parts inside the computer.",
+    "keyPoints": [
+      "Made by Intel; since Thunderbolt 3 it uses the USB-C connector.",
+      "Carries PCIe data, DisplayPort video and power in one cable.",
+      "Thunderbolt 3 and 4 reach 40 Gbit/s; Thunderbolt 5 reaches 80 Gbit/s.",
+      "Look for the lightning-bolt icon: not every USB-C port is Thunderbolt."
+    ],
+    "links": [
+      {
+        "label": "Thunderbolt (interface) on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thunderbolt_(interface)"
+      },
+      {
+        "label": "Thunderbolt Technology Community (Intel)",
+        "url": "https://www.thunderbolttechnology.net/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Thunderbolt",
+    "tagline": "Un puerto muy rápido que lleva datos, video y energía por un solo cable USB-C.",
+    "explanation": [
+      "**Thunderbolt** es un estándar de conexión de alta velocidad creado por Intel, que se lanzó por primera vez junto con Apple en 2011. Desde Thunderbolt 3 usa el mismo conector ovalado USB-C que el USB común, así que el puerto se ve igual; la pista suele ser un iconito de rayo al lado. Lo que cambia es lo que viaja por el cable: puede llevar datos rápidos, una o más pantallas y energía, todo al mismo tiempo.",
+      "El truco es que Thunderbolt saca afuera de la máquina las conexiones internas de la computadora. Transporta PCIe, la misma conexión que la computadora usa para las placas de video y los SSD, y DisplayPort para las pantallas. Por eso un disco externo por Thunderbolt puede rendir casi como uno interno, y por eso un solo cable a un **dock** puede cargar tu notebook, manejar dos monitores y conectar teclado, red y almacenamiento a la vez. Thunderbolt 3 y 4 llegan a 40 Gbit/s; Thunderbolt 5 duplica eso a 80 Gbit/s.",
+      "La trampa es la confusión con el USB-C. Un puerto USB-C puede ser USB común, USB con video o Thunderbolt completo, y los cables también varían. La buena noticia es que las versiones recientes de USB4 se basan en tecnología Thunderbolt, así que los dos se están acercando. Si dependés de almacenamiento rápido o de un escritorio con un solo cable, fijate que tanto el puerto como el cable digan Thunderbolt."
+    ],
+    "analogy": "Un carril de autopista que va directo de la fábrica a tu calle. Otros caminos tienen paradas y desvíos; Thunderbolt deja que los aparatos de afuera usen los mismos carriles internos que las piezas de adentro de la computadora.",
+    "keyPoints": [
+      "Lo creó Intel; desde Thunderbolt 3 usa el conector USB-C.",
+      "Lleva datos PCIe, video DisplayPort y energía en un solo cable.",
+      "Thunderbolt 3 y 4 llegan a 40 Gbit/s; Thunderbolt 5, a 80 Gbit/s.",
+      "Buscá el iconito del rayo: no todo puerto USB-C es Thunderbolt."
+    ],
+    "links": [
+      {
+        "label": "Thunderbolt (bus) en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Thunderbolt_(bus)"
+      },
+      {
+        "label": "Thunderbolt Technology Community (Intel, en inglés)",
+        "url": "https://www.thunderbolttechnology.net/"
+      }
+    ]
+  }
+}

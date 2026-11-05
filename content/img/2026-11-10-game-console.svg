@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="220" y="36" width="150" height="96" rx="6" fill="#9ac7ea"/>
+    <rect x="285" y="132" width="20" height="12" fill="#e6dfd0"/>
+    <rect x="130" y="130" width="80" height="34" rx="6" fill="#e6dfd0"/>
+    <path d="M40 150 C40 128 110 128 110 150 L104 176 C100 186 88 186 84 176 L80 168 H70 L66 176 C62 186 50 186 46 176 Z" fill="#9bd1b9"/>
+    <circle cx="92" cy="150" r="4" fill="#f4a7a7"/>
+    <circle cx="160" cy="70" r="20" fill="#ffd166"/>
+    <circle cx="160" cy="70" r="5" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M58 150 h12 M64 144 v12"/>
+    <path d="M114 152 H124"/><path d="M118 148 l6 4 -6 4"/>
+    <path d="M170 94 V124"/><path d="M166 118 l4 6 4 -6"/>
+    <path d="M210 146 H240 V136"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="75" y="204">controller</text>
+    <text x="170" y="184">console</text>
+    <text x="110" y="74">games</text>
+  </g>
+  <text x="295" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b">TV</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one box, one job: play</text>
+</svg>

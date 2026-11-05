@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="52" cy="60" r="14" fill="#9ac7ea"/>
+    <circle cx="52" cy="160" r="14" fill="#9ac7ea"/>
+    <circle cx="130" cy="60" r="12" fill="#ffd166"/>
+    <circle cx="130" cy="160" r="12" fill="#ffd166"/>
+    <rect x="290" y="38" width="94" height="44" rx="8" fill="#9bd1b9"/>
+    <rect x="290" y="138" width="94" height="44" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M68 60 H116"/><path d="M68 160 H116"/>
+    <path d="M144 60 C200 60 230 60 284 60"/><path d="M278 55 l6 5 -6 5"/>
+    <path d="M144 160 C200 140 230 90 284 66"/><path d="M276 64 l8 1 -4 7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-dasharray="5 4">
+    <path d="M144 166 H284"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="52" y="94">Madrid</text><text x="52" y="194">Buenos Aires</text>
+    <text x="130" y="38">edge</text><text x="130" y="138">edge</text>
+    <text x="337" y="56">Region A</text><text x="337" y="156">Region B</text>
+    <text x="210" y="46">AWS network</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="337" y="72">healthy</text><text x="337" y="172">down</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">same static IPs everywhere, nearest healthy region</text>
+</svg>

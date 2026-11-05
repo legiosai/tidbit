@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-10-data-anonymization",
+  "date": "2026-11-10",
+  "subjects": ["data", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["anonymization", "anonymisation", "anonymized data", "anonymised data", "pseudonymization", "pseudonymisation", "pseudonymized data"],
+    "es": ["anonimización", "datos anonimizados", "seudonimización", "datos seudonimizados", "data anonymization"]
+  },
+  "image": "img/2026-11-10-data-anonymization.svg",
+  "imageAlt": {
+    "en": "A patient record with name, birth date and diagnosis going through a filter that removes the name and turns the exact date into an age range",
+    "es": "Un registro de paciente con nombre, fecha de nacimiento y diagnóstico pasando por un filtro que borra el nombre y convierte la fecha exacta en un rango de edad"
+  },
+  "en": {
+    "title": "Data anonymization",
+    "tagline": "Changing a dataset so nobody in it can be identified, while keeping it useful.",
+    "explanation": [
+      "**Data anonymization** means transforming personal data so that the people behind it can no longer be identified, by anyone, with reasonable effort. A hospital that wants to share patient records with researchers, or a city that publishes taxi trips, has to do this first. Done right, the data still answers useful questions, such as how many people in their forties had a given illness, without pointing at anyone.",
+      "Deleting names is not enough. In a well-known 2000 study, Latanya Sweeney estimated that roughly 87% of people in the United States could be singled out by just ZIP code, gender and birth date. So real anonymization also **generalizes** values (an age range instead of a birth date, a region instead of a street), drops rare combinations, or adds noise, as differential privacy does.",
+      "It is easy to confuse with **pseudonymization**, which swaps names for codes but keeps a key somewhere to link them back. Under the GDPR, pseudonymized data is still personal data; only truly anonymous data falls outside the law. Several famous cases, like the Netflix Prize dataset in 2006, showed that data released as anonymous could be re-identified by matching it with other public information."
+    ],
+    "analogy": "Like blurring faces in a crowd photo: you can still count people and see where they gathered, but if someone is wearing a very distinctive hat, the blur is not enough and you have to crop them out too.",
+    "keyPoints": [
+      "Removing names is not enough; combinations like ZIP, gender and birth date can identify people.",
+      "Common techniques: removal, generalization, suppression of rare cases, added noise.",
+      "Pseudonymized data can be linked back, so the GDPR still treats it as personal data.",
+      "There is always a trade-off between privacy and how useful the data stays."
+    ],
+    "links": [
+      { "label": "Data anonymization on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_anonymization" },
+      { "label": "GDPR Recital 26: not applicable to anonymous data", "url": "https://gdpr-info.eu/recitals/no-26/" },
+      { "label": "Pseudonymization on Wikipedia", "url": "https://en.wikipedia.org/wiki/Pseudonymization" }
+    ]
+  },
+  "es": {
+    "title": "Anonimización de datos",
+    "tagline": "Transformar un conjunto de datos para que nadie pueda ser identificado y siga sirviendo.",
+    "explanation": [
+      "La **anonimización de datos** consiste en transformar datos personales para que las personas que están detrás ya no puedan ser identificadas, por nadie, con un esfuerzo razonable. Un hospital que quiere compartir historias clínicas con investigadores, o una ciudad que publica los viajes en taxi, tiene que hacer esto antes. Bien hecha, los datos siguen respondiendo preguntas útiles, como cuántas personas de cuarenta y pico tuvieron cierta enfermedad, sin señalar a nadie.",
+      "Borrar los nombres no alcanza. En un estudio muy citado del año 2000, Latanya Sweeney estimó que aproximadamente el 87% de la población de Estados Unidos podía ser identificada solo con el código postal, el género y la fecha de nacimiento. Por eso una anonimización en serio también **generaliza** valores (un rango de edad en lugar de la fecha exacta, una zona en vez de la calle), descarta combinaciones raras o agrega ruido, como hace la privacidad diferencial.",
+      "Es fácil confundirla con la **seudonimización**, que cambia los nombres por códigos pero guarda una clave en algún lado para volver a unirlos. Para el RGPD, los datos seudonimizados siguen siendo datos personales; solo los datos realmente anónimos quedan fuera de la ley. Varios casos famosos, como el conjunto de datos del Netflix Prize en 2006, mostraron que datos publicados como anónimos se podían reidentificar cruzándolos con otra información pública."
+    ],
+    "analogy": "Como pixelar las caras en una foto de una multitud: todavía podés contar gente y ver dónde se juntaron, pero si alguien tiene un sombrero muy llamativo, pixelar no alcanza y lo tenés que recortar.",
+    "keyPoints": [
+      "Borrar nombres no alcanza: combinaciones como código postal, género y fecha de nacimiento identifican.",
+      "Técnicas comunes: eliminar, generalizar, suprimir casos raros, agregar ruido.",
+      "Los datos seudonimizados se pueden volver a vincular, así que el RGPD los sigue tratando como personales.",
+      "Siempre hay un equilibrio entre privacidad y cuán útiles quedan los datos."
+    ],
+    "links": [
+      { "label": "Seudonimización en Wikipedia", "url": "https://es.wikipedia.org/wiki/Seudonimización" },
+      { "label": "Data anonymization en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Data_anonymization" },
+      { "label": "Considerando 26 del RGPD (en inglés)", "url": "https://gdpr-info.eu/recitals/no-26/" }
+    ]
+  }
+}

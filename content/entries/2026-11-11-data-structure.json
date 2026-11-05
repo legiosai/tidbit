@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-data-structure",
+  "date": "2026-11-11",
+  "subjects": ["software", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["data structures"],
+    "es": ["estructuras de datos"]
+  },
+  "image": "img/2026-11-11-data-structure.svg",
+  "imageAlt": {
+    "en": "Four ways to organize the same data: an array of numbered boxes, a stack of plates, a queue of people and a tree of branches",
+    "es": "Cuatro formas de ordenar los mismos datos: un arreglo de cajas numeradas, una pila de platos, una fila de gente y un árbol de ramas"
+  },
+  "en": {
+    "title": "Data structure",
+    "tagline": "A way of organizing data in memory so the operations you need are fast.",
+    "explanation": [
+      "A **data structure** is a particular way of arranging data inside a program so it can be used efficiently. The same list of customers can be kept as a simple numbered row, sorted, grouped by city or linked in a chain, and each arrangement makes some operations fast and others slow. Choosing the right one is half of writing a good algorithm.",
+      "A few classics show up everywhere. An **array** is a row of numbered slots: jumping to slot 500 is instant, but inserting in the middle means shifting everything after it. A **hash table** (called a dictionary or map in many languages) finds a value by its key almost instantly, like looking up a phone number by name. A **stack** works like a pile of plates, last in first out, and is how programs remember which function called which. A **queue** is first in first out, like a line at the bank, and is used for jobs waiting their turn. **Trees** and **graphs** connect items to each other, for folders inside folders, database indexes or a map of roads.",
+      "You rarely build these from scratch: every modern language ships with good versions of them. What matters is knowing which to pick. Searching for a name in an unsorted list of a million entries means checking them one by one; putting the same names in a hash table makes each lookup take about the same time no matter how big it grows."
+    ],
+    "analogy": "How you organize a kitchen. Spices on a rack by name, plates in a stack, the shopping list in order of the supermarket aisles: same stuff, arranged for how you use it.",
+    "keyPoints": [
+      "The arrangement decides which operations are fast and which are slow.",
+      "Classics: array, hash table, stack, queue, tree, graph.",
+      "Languages include ready-made versions; the skill is choosing well.",
+      "Hash tables give near-instant lookup by key, even with huge amounts of data."
+    ],
+    "links": [
+      { "label": "Data structure on Wikipedia", "url": "https://en.wikipedia.org/wiki/Data_structure" },
+      { "label": "Data structures (official Python tutorial)", "url": "https://docs.python.org/3/tutorial/datastructures.html" }
+    ]
+  },
+  "es": {
+    "title": "Estructura de datos",
+    "tagline": "Una forma de organizar datos en memoria para que lo que necesitás hacer sea rápido.",
+    "explanation": [
+      "Una **estructura de datos** es una forma concreta de acomodar datos dentro de un programa para poder usarlos con eficiencia. La misma lista de clientes se puede guardar como una fila numerada, ordenada, agrupada por ciudad o enganchada en una cadena, y cada forma hace que algunas operaciones sean rápidas y otras lentas. Elegir bien es la mitad de escribir un buen algoritmo.",
+      "Hay algunas clásicas que aparecen en todos lados. Un **arreglo** (array) es una fila de casilleros numerados: saltar al casillero 500 es instantáneo, pero meter algo en el medio obliga a correr todo lo que viene después. Una **tabla hash** (en muchos lenguajes, diccionario o mapa) encuentra un valor por su clave casi al instante, como buscar un teléfono por el nombre. Una **pila** funciona como una pila de platos, el último que entra es el primero que sale, y es como los programas recuerdan qué función llamó a cuál. Una **cola** es al revés, el primero que llega es el primero que sale, como la fila del banco, y se usa para tareas que esperan su turno. Los **árboles** y los **grafos** conectan elementos entre sí, para carpetas dentro de carpetas, índices de bases de datos o un mapa de rutas.",
+      "Casi nunca las armás de cero: todos los lenguajes modernos traen buenas versiones incluidas. Lo importante es saber cuál elegir. Buscar un nombre en una lista desordenada de un millón de entradas es revisarlas de a una; si ponés los mismos nombres en una tabla hash, cada búsqueda tarda más o menos lo mismo por más que la tabla crezca."
+    ],
+    "analogy": "Cómo organizás una cocina. Las especias en un estante por nombre, los platos apilados, la lista del súper en el orden de las góndolas: las mismas cosas, acomodadas según cómo las usás.",
+    "keyPoints": [
+      "La forma de acomodar define qué operaciones son rápidas y cuáles lentas.",
+      "Clásicas: arreglo, tabla hash, pila, cola, árbol, grafo.",
+      "Los lenguajes ya las traen hechas; el arte está en elegir bien.",
+      "Las tablas hash buscan por clave casi al instante, aunque haya muchísimos datos."
+    ],
+    "links": [
+      { "label": "Estructura de datos en Wikipedia", "url": "https://es.wikipedia.org/wiki/Estructura_de_datos" },
+      { "label": "Estructuras de datos (tutorial oficial de Python)", "url": "https://docs.python.org/es/3/tutorial/datastructures.html" }
+    ]
+  }
+}

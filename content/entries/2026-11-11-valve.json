@@ -1,0 +1,58 @@
+{
+  "id": "2026-11-11-valve",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Valve Corporation", "Steam", "Steam Deck"],
+    "es": ["Valve Corporation", "Steam", "Steam Deck"]
+  },
+  "image": "img/2026-11-11-valve.svg",
+  "imageAlt": {
+    "en": "Game studios put their games in the Steam store, players buy and download them, and the store keeps a cut of each sale",
+    "es": "Los estudios ponen sus juegos en la tienda Steam, la gente los compra y descarga, y la tienda se queda con una parte de cada venta"
+  },
+  "en": {
+    "title": "Valve",
+    "tagline": "The game studio that runs Steam, the biggest store for PC games.",
+    "explanation": [
+      "**Valve** is an American video game company based in Bellevue, Washington, founded in 1996 by Gabe Newell and Mike Harrington, two former Microsoft employees. It started as a studio and made some of the most influential PC games, like Half-Life, Portal, Counter-Strike and Dota 2.",
+      "Its biggest business, though, is **Steam**, launched in 2003. Steam is an online store and launcher: you buy a game, it downloads to your computer, stays tied to your account and gets updated automatically. Thousands of studios, from giants to one-person teams, sell their games there, and Valve keeps a cut of each sale, typically 30%. Steam also handles friends lists, chat, mods and reviews.",
+      "Valve also makes hardware, most notably the **Steam Deck** (2022), a handheld PC for playing your Steam library on the go. It runs SteamOS, a Linux-based system, and uses a compatibility layer called Proton so games written for Windows still work. Valve is privately held, which is unusual for a company its size."
+    ],
+    "analogy": "A shopping mall that started as one popular shop: today most of its income comes from renting space to thousands of other stores and keeping a slice of what they sell.",
+    "keyPoints": [
+      "Founded in 1996; makers of Half-Life, Portal and Counter-Strike.",
+      "Runs Steam, the dominant store for PC games, since 2003.",
+      "Takes a share of each game sold on Steam, typically 30%.",
+      "Builds the Steam Deck, a handheld gaming PC that runs Linux."
+    ],
+    "links": [
+      { "label": "Valve (official site)", "url": "https://www.valvesoftware.com/" },
+      { "label": "Valve Corporation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Valve_Corporation" },
+      { "label": "Steam on Wikipedia", "url": "https://en.wikipedia.org/wiki/Steam_(service)" }
+    ]
+  },
+  "es": {
+    "title": "Valve",
+    "tagline": "El estudio de videojuegos que maneja Steam, la mayor tienda de juegos de PC.",
+    "explanation": [
+      "**Valve** es una empresa estadounidense de videojuegos con sede en Bellevue, Washington, fundada en 1996 por Gabe Newell y Mike Harrington, dos ex empleados de Microsoft. Arrancó como estudio e hizo algunos de los juegos de PC más influyentes, como Half-Life, Portal, Counter-Strike y Dota 2.",
+      "Pero su negocio más grande es **Steam**, que lanzó en 2003. Steam es una tienda online y un lanzador: comprás un juego, se descarga en tu compu, queda atado a tu cuenta y se actualiza solo. Miles de estudios, desde gigantes hasta equipos de una sola persona, venden sus juegos ahí, y Valve se queda con una parte de cada venta, en general el 30%. Steam también maneja la lista de amigos, el chat, los mods y las reseñas.",
+      "Valve además fabrica hardware, sobre todo la **Steam Deck** (2022), una PC portátil para jugar tu biblioteca de Steam en cualquier lado. Usa SteamOS, un sistema basado en Linux, y una capa de compatibilidad llamada Proton para que los juegos hechos para Windows sigan andando. Valve es una empresa privada que no cotiza en bolsa, algo raro para su tamaño."
+    ],
+    "analogy": "Un shopping que empezó siendo un solo local exitoso: hoy la mayor parte de sus ingresos viene de alquilarles lugar a miles de otros negocios y quedarse con una parte de lo que venden.",
+    "keyPoints": [
+      "Fundada en 1996; creadora de Half-Life, Portal y Counter-Strike.",
+      "Maneja Steam, la tienda dominante de juegos de PC, desde 2003.",
+      "Se queda con una parte de cada juego vendido en Steam, en general el 30%.",
+      "Fabrica la Steam Deck, una PC portátil para jugar que corre Linux."
+    ],
+    "links": [
+      { "label": "Valve Corporation en Wikipedia", "url": "https://es.wikipedia.org/wiki/Valve_Corporation" },
+      { "label": "Steam en Wikipedia", "url": "https://es.wikipedia.org/wiki/Steam" },
+      { "label": "Acerca de Steam (oficial)", "url": "https://store.steampowered.com/about/" }
+    ]
+  }
+}

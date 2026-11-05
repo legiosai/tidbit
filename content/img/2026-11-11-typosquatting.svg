@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="30" width="150" height="36" rx="18" fill="#9bd1b9"/>
+    <rect x="20" y="88" width="150" height="36" rx="18" fill="#f4a7a7"/>
+    <rect x="20" y="136" width="150" height="36" rx="18" fill="#f4a7a7"/>
+    <rect x="20" y="184" width="150" height="36" rx="18" fill="#f4a7a7"/>
+    <rect x="250" y="30" width="130" height="36" rx="8" fill="#9ac7ea"/>
+    <rect x="250" y="120" width="130" height="70" rx="8" fill="#e6dfd0"/>
+    <rect x="270" y="150" width="90" height="12" rx="3" fill="#f3efe6"/>
+    <rect x="270" y="168" width="90" height="12" rx="3" fill="#f3efe6"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M174 48 H244"/><path d="M238 44 l6 4 -6 4"/>
+    <path d="M174 106 C210 106 220 140 244 148"/>
+    <path d="M174 154 H244"/>
+    <path d="M174 202 C210 202 220 168 244 162"/>
+    <path d="M237 151 l7 3 -6 5"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="95" y="52">mybank.com</text>
+    <text x="95" y="110">mybnak.com</text>
+    <text x="95" y="158">mybank.co</text>
+    <text x="95" y="206">my-bank.com</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="315" y="53">real bank</text><text x="315" y="140">fake login</text>
+  </g>
+  <text x="315" y="212" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">one typo away</text>
+</svg>

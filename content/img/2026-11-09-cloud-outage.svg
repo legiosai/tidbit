@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <path d="M140 92 a26 26 0 0 1 8 -50 a36 36 0 0 1 66 -10 a30 30 0 0 1 48 22 a22 22 0 0 1 -6 38 Z"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f4a7a7">
+    <path d="M206 40 L190 66 H204 L194 88 L220 58 H206 L214 40 Z"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M168 92 L70 150"/><path d="M190 92 L160 150"/><path d="M220 92 L250 150"/><path d="M244 92 L340 150"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0">
+    <rect x="34" y="150" width="72" height="40" rx="8"/>
+    <rect x="124" y="150" width="72" height="40" rx="8"/>
+    <rect x="214" y="150" width="72" height="40" rx="8"/>
+    <rect x="304" y="150" width="72" height="40" rx="8"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="174">bank</text><text x="160" y="174">store</text><text x="250" y="174">game</text><text x="340" y="174">chat</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="70" y="204">down</text><text x="160" y="204">down</text><text x="250" y="204">down</text><text x="340" y="204">down</text>
+  </g>
+  <text x="200" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one provider fails · many apps go dark</text>
+</svg>

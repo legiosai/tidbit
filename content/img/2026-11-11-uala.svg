@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="160" y="46" width="80" height="150" rx="12" fill="#e6dfd0"/>
+    <rect x="170" y="62" width="60" height="118" rx="4" fill="#f3efe6"/>
+    <rect x="176" y="74" width="48" height="30" rx="4" fill="#9ac7ea"/>
+    <rect x="182" y="82" width="10" height="8" rx="1" fill="#ffd166"/>
+    <rect x="30" y="56" width="90" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="30" y="140" width="90" height="34" rx="6" fill="#ffd166"/>
+    <rect x="280" y="56" width="90" height="34" rx="6" fill="#9ac7ea"/>
+    <rect x="280" y="140" width="90" height="34" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M156 100 L124 80"/><path d="M156 140 L124 156"/><path d="M244 100 L276 80"/><path d="M244 140 L276 156"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="75" y="77">transfers</text><text x="75" y="161">payments</text>
+    <text x="325" y="77">savings</text><text x="325" y="161">loans</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="124">account</text><text x="200" y="140">+ card</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a bank that lives in an app</text>
+</svg>

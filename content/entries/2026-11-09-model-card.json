@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-09-model-card",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["model cards", "system card", "system cards"],
+    "es": ["model cards", "tarjeta de modelo", "tarjetas de modelo", "tarjetas de modelos", "system card", "system cards"]
+  },
+  "image": "img/2026-11-09-model-card.svg",
+  "imageAlt": {
+    "en": "A card attached to an AI model lists its intended use, training data, evaluation results and limits, with one row of results broken down by group",
+    "es": "Una ficha pegada a un modelo de IA enumera su uso previsto, datos de entrenamiento, resultados de evaluación y límites, con una fila de resultados separada por grupos"
+  },
+  "en": {
+    "title": "Model card",
+    "tagline": "The fact sheet published with an AI model: what it's for, how it was tested, its limits.",
+    "explanation": [
+      "A **model card** is a short document that comes with a machine learning model and explains it to the people who might use it. It says what the model is for, what data it was trained on, how it was evaluated, where it performs badly and what it should not be used for. Think of it as the label and the leaflet of the model.",
+      "The idea comes from a 2018 paper by Margaret Mitchell and colleagues at Google, \"Model Cards for Model Reporting\". They pointed out that models were being released with no information about, for example, whether a face analysis system worked equally well for different groups of people. A model card should report results broken down by group, so those gaps become visible.",
+      "Today it is standard practice. Every model on Hugging Face has a model card as its main page, written in Markdown with a block of metadata such as the license and languages. Big AI labs publish longer versions, often called **system cards**, with each major model: AI benchmark results, safety tests, known risks and what was done about them. Anthropic, OpenAI and Google DeepMind all publish them.",
+      "A model card is written by whoever made the model, so it shows what they chose to measure and disclose. It is a starting point for judging a model, not an independent audit. Some rules, such as the EU AI Act, now require similar technical documentation for general-purpose AI models."
+    ],
+    "analogy": "The leaflet inside a medicine box: what it is for, how it was tested, the dose and the side effects. You still decide whether to take it, but you decide knowing what you are taking.",
+    "keyPoints": [
+      "It describes purpose, training data, evaluation, limits and uses to avoid.",
+      "Proposed by Google researchers in 2018; now standard on Hugging Face.",
+      "Big labs publish longer system cards with each major model.",
+      "Written by the maker, so it informs but does not replace independent testing."
+    ],
+    "links": [
+      { "label": "Model Cards for Model Reporting (original paper, arXiv)", "url": "https://arxiv.org/abs/1810.03993" },
+      { "label": "Model cards (Hugging Face docs)", "url": "https://huggingface.co/docs/hub/model-cards" },
+      { "label": "Model system cards (Anthropic)", "url": "https://www.anthropic.com/system-cards" }
+    ]
+  },
+  "es": {
+    "title": "Model card",
+    "tagline": "La ficha que se publica con un modelo de IA: para qué sirve, cómo se probó y sus límites.",
+    "explanation": [
+      "Una **model card** (tarjeta de modelo) es un documento corto que acompaña a un modelo de machine learning y se lo explica a quienes podrían usarlo. Dice para qué sirve, con qué datos se entrenó, cómo se evaluó, dónde funciona mal y para qué no habría que usarlo. Pensala como la etiqueta y el prospecto del modelo.",
+      "La idea viene de un paper de 2018 de Margaret Mitchell y colegas de Google, \"Model Cards for Model Reporting\". Señalaban que los modelos se publicaban sin ninguna información sobre, por ejemplo, si un sistema de análisis de rostros funcionaba igual de bien para distintos grupos de personas. Una model card debería mostrar los resultados separados por grupo, para que esas diferencias queden a la vista.",
+      "Hoy es práctica habitual. Cada modelo en Hugging Face tiene una model card como página principal, escrita en Markdown con un bloque de metadatos como la licencia y los idiomas. Los grandes laboratorios de IA publican versiones más largas, muchas veces llamadas **system cards**, con cada modelo importante: resultados de benchmarks de IA, pruebas de seguridad, riesgos conocidos y qué hicieron al respecto. Anthropic, OpenAI y Google DeepMind las publican.",
+      "La model card la escribe quien hizo el modelo, así que muestra lo que eligió medir y contar. Es un punto de partida para evaluar un modelo, no una auditoría independiente. Algunas normas, como la Ley de IA de la Unión Europea, ya exigen documentación técnica parecida para los modelos de IA de uso general."
+    ],
+    "analogy": "El prospecto de un remedio: para qué sirve, cómo se probó, la dosis y los efectos adversos. La decisión de tomarlo sigue siendo tuya, pero la tomás sabiendo qué tomás.",
+    "keyPoints": [
+      "Describe propósito, datos de entrenamiento, evaluación, límites y usos a evitar.",
+      "La propusieron investigadores de Google en 2018; hoy es estándar en Hugging Face.",
+      "Los grandes laboratorios publican system cards más largas con cada modelo importante.",
+      "La escribe quien hizo el modelo: informa, pero no reemplaza pruebas independientes."
+    ],
+    "links": [
+      { "label": "Tarjetas de modelos (documentación de Hugging Face)", "url": "https://huggingface.co/docs/hub/es/model-cards" },
+      { "label": "Model Cards for Model Reporting (paper original, arXiv, en inglés)", "url": "https://arxiv.org/abs/1810.03993" },
+      { "label": "Model system cards (Anthropic, en inglés)", "url": "https://www.anthropic.com/system-cards" }
+    ]
+  }
+}

@@ -1,6 +1,3312 @@
 {
-  "count": 521,
+  "count": 616,
   "entries": [
+    {
+      "id": "2026-11-11-browser-extension",
+      "date": "2026-11-11",
+      "subjects": [
+        "software",
+        "security"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-browser-extension.svg",
+      "imageAlt": {
+        "en": "A browser window with small add-on pieces plugged into its toolbar: an ad blocker, a password manager and a translator, plus a permission warning",
+        "es": "Una ventana de navegador con piezas chiquitas enchufadas en la barra: un bloqueador de anuncios, un gestor de contraseñas y un traductor, más un aviso de permisos"
+      },
+      "title": {
+        "en": "Browser extension",
+        "es": "Extensión de navegador"
+      },
+      "tagline": {
+        "en": "A small add-on that gives your web browser a new ability.",
+        "es": "Un pequeño agregado que le suma una habilidad nueva a tu navegador."
+      },
+      "aliases": {
+        "en": [
+          "browser extensions",
+          "Chrome extension",
+          "Chrome extensions",
+          "browser add-on",
+          "browser add-ons"
+        ],
+        "es": [
+          "extensiones de navegador",
+          "extensión del navegador",
+          "extensiones del navegador",
+          "extensión de Chrome",
+          "extensiones de Chrome"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-byod",
+      "date": "2026-11-11",
+      "subjects": [
+        "security"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-byod.svg",
+      "imageAlt": {
+        "en": "A personal phone split in two areas: personal apps like photos and games on one side, and a locked work area with mail and files on the other, which the company can wipe",
+        "es": "Un celular personal dividido en dos zonas: apps personales como fotos y juegos de un lado, y una zona de trabajo con candado, con mail y archivos, que la empresa puede borrar"
+      },
+      "title": {
+        "en": "BYOD",
+        "es": "BYOD"
+      },
+      "tagline": {
+        "en": "Using your own phone or laptop for work, under rules set by your employer.",
+        "es": "Usar tu propio celular o computadora para el trabajo, con reglas que pone la empresa."
+      },
+      "aliases": {
+        "en": [
+          "bring your own device",
+          "BYOD policy",
+          "BYOD policies"
+        ],
+        "es": [
+          "bring your own device",
+          "traé tu propio dispositivo",
+          "política BYOD",
+          "políticas BYOD"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-despegar",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-despegar.svg",
+      "imageAlt": {
+        "en": "A search box compares flights and hotels from many airlines and hotels and books the chosen ones in one trip",
+        "es": "Un buscador compara vuelos y hoteles de muchas aerolíneas y hoteles y reserva los elegidos en un solo viaje"
+      },
+      "title": {
+        "en": "Despegar",
+        "es": "Despegar"
+      },
+      "tagline": {
+        "en": "The Latin American online travel agency for flights, hotels and packages.",
+        "es": "La agencia de viajes online latinoamericana de vuelos, hoteles y paquetes."
+      },
+      "aliases": {
+        "en": [
+          "Despegar.com",
+          "Decolar"
+        ],
+        "es": [
+          "Despegar.com",
+          "Decolar"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-11-hackathon",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-hackathon.svg",
+      "imageAlt": {
+        "en": "A clock showing 48 hours, small teams around laptops, and a stage where they present a working demo",
+        "es": "Un reloj que marca 48 horas, equipos chicos alrededor de laptops y un escenario donde presentan una demo que funciona"
+      },
+      "title": {
+        "en": "Hackathon",
+        "es": "Hackatón"
+      },
+      "tagline": {
+        "en": "A short, intense event where small teams build a working prototype from scratch.",
+        "es": "Un evento corto e intenso donde equipos chicos arman un prototipo que funcione desde cero."
+      },
+      "aliases": {
+        "en": [
+          "hackathons",
+          "hack day",
+          "hack week"
+        ],
+        "es": [
+          "hackatones",
+          "hackathon",
+          "hackathons"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-linkedin",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-linkedin.svg",
+      "imageAlt": {
+        "en": "A person's profile with job history connected to a recruiter, a company and a job ad",
+        "es": "El perfil de una persona con su historia laboral, conectado a una reclutadora, una empresa y un aviso de trabajo"
+      },
+      "title": {
+        "en": "LinkedIn",
+        "es": "LinkedIn"
+      },
+      "tagline": {
+        "en": "The social network for work: your résumé online, plus jobs and contacts.",
+        "es": "La red social del trabajo: tu currículum online, más empleos y contactos."
+      },
+      "aliases": {
+        "en": [
+          "LinkedIn profile",
+          "LinkedIn profiles"
+        ],
+        "es": [
+          "perfil de LinkedIn",
+          "perfiles de LinkedIn"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-nintendo",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-nintendo.svg",
+      "imageAlt": {
+        "en": "A timeline from playing cards in 1889 to handheld and hybrid game consoles",
+        "es": "Una línea de tiempo que va de los naipes en 1889 a las consolas portátiles e híbridas"
+      },
+      "title": {
+        "en": "Nintendo",
+        "es": "Nintendo"
+      },
+      "tagline": {
+        "en": "The Japanese company behind Mario, Zelda and the Switch consoles.",
+        "es": "La empresa japonesa detrás de Mario, Zelda y las consolas Switch."
+      },
+      "aliases": {
+        "en": [
+          "Nintendo Switch",
+          "Nintendo Switch 2",
+          "Nintendo Co."
+        ],
+        "es": [
+          "Nintendo Switch",
+          "Nintendo Switch 2",
+          "Nintendo Co."
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-sony",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-sony.svg",
+      "imageAlt": {
+        "en": "One company with several branches: game consoles, camera sensors, music and movies",
+        "es": "Una empresa con varias ramas: consolas de videojuegos, sensores de cámara, música y películas"
+      },
+      "title": {
+        "en": "Sony",
+        "es": "Sony"
+      },
+      "tagline": {
+        "en": "The Japanese giant of PlayStation, camera sensors, music and movies.",
+        "es": "El gigante japonés de PlayStation, los sensores de cámara, la música y el cine."
+      },
+      "aliases": {
+        "en": [
+          "Sony Group",
+          "PlayStation"
+        ],
+        "es": [
+          "Sony Group",
+          "PlayStation"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-tiendanube",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-tiendanube.svg",
+      "imageAlt": {
+        "en": "A small brand builds its online store on the platform, which adds checkout, payments and shipping to customers",
+        "es": "Una marca chica arma su tienda online en la plataforma, que suma carrito, cobros y envíos a los clientes"
+      },
+      "title": {
+        "en": "Tiendanube",
+        "es": "Tiendanube"
+      },
+      "tagline": {
+        "en": "The Latin American platform small brands use to open their own online store.",
+        "es": "La plataforma latinoamericana con la que las marcas chicas abren su tienda online."
+      },
+      "aliases": {
+        "en": [
+          "Nuvemshop",
+          "Tienda Nube"
+        ],
+        "es": [
+          "Nuvemshop",
+          "Tienda Nube"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-uala",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-uala.svg",
+      "imageAlt": {
+        "en": "A phone app with a card, from which money goes to transfers, payments, investments and loans",
+        "es": "Una app en el celular con una tarjeta, desde la que la plata va a transferencias, pagos, inversiones y préstamos"
+      },
+      "title": {
+        "en": "Ualá",
+        "es": "Ualá"
+      },
+      "tagline": {
+        "en": "An Argentine fintech that started as an app and a card, and became a bank.",
+        "es": "Una fintech argentina que arrancó como app y tarjeta y terminó siendo un banco."
+      },
+      "aliases": {
+        "en": [
+          "Uala",
+          "Ualá Bank"
+        ],
+        "es": [
+          "Uala",
+          "Ualá Bank"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-valve",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-valve.svg",
+      "imageAlt": {
+        "en": "Game studios put their games in the Steam store, players buy and download them, and the store keeps a cut of each sale",
+        "es": "Los estudios ponen sus juegos en la tienda Steam, la gente los compra y descarga, y la tienda se queda con una parte de cada venta"
+      },
+      "title": {
+        "en": "Valve",
+        "es": "Valve"
+      },
+      "tagline": {
+        "en": "The game studio that runs Steam, the biggest store for PC games.",
+        "es": "El estudio de videojuegos que maneja Steam, la mayor tienda de juegos de PC."
+      },
+      "aliases": {
+        "en": [
+          "Valve Corporation",
+          "Steam",
+          "Steam Deck"
+        ],
+        "es": [
+          "Valve Corporation",
+          "Steam",
+          "Steam Deck"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-11-visual-studio-code",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-visual-studio-code.svg",
+      "imageAlt": {
+        "en": "A code editor window with a file list, the code in the middle and a terminal at the bottom, with extension blocks plugging into its side",
+        "es": "Una ventana de editor de código con la lista de archivos, el código en el medio y una terminal abajo, con bloques de extensiones enchufados al costado"
+      },
+      "title": {
+        "en": "Visual Studio Code",
+        "es": "Visual Studio Code"
+      },
+      "tagline": {
+        "en": "Microsoft's free code editor, the one most programmers have open all day.",
+        "es": "El editor de código gratis de Microsoft, el que muchos programadores usan todo el día."
+      },
+      "aliases": {
+        "en": [
+          "VS Code",
+          "VSCode"
+        ],
+        "es": [
+          "VS Code",
+          "VSCode"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-wikimedia-foundation",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-wikimedia-foundation.svg",
+      "imageAlt": {
+        "en": "Volunteers write and edit articles, donors fund the servers, and the foundation keeps the site running for everyone",
+        "es": "Voluntarios escriben y editan artículos, los donantes pagan los servidores y la fundación mantiene el sitio andando para todos"
+      },
+      "title": {
+        "en": "Wikimedia Foundation",
+        "es": "Fundación Wikimedia"
+      },
+      "tagline": {
+        "en": "The nonprofit that keeps Wikipedia online, funded mostly by donations.",
+        "es": "La organización sin fines de lucro que mantiene Wikipedia, con donaciones."
+      },
+      "aliases": {
+        "en": [
+          "Wikipedia",
+          "Wikimedia",
+          "Wikidata",
+          "Wikimedia Commons"
+        ],
+        "es": [
+          "Wikimedia Foundation",
+          "Wikipedia",
+          "Wikimedia",
+          "Wikidata",
+          "Wikimedia Commons"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-youtube",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-11-youtube.svg",
+      "imageAlt": {
+        "en": "A creator uploads a video, viewers watch it with an ad, and the ad money is split between YouTube and the creator",
+        "es": "Una creadora sube un video, la gente lo mira con un anuncio y la plata del anuncio se reparte entre YouTube y la creadora"
+      },
+      "title": {
+        "en": "YouTube",
+        "es": "YouTube"
+      },
+      "tagline": {
+        "en": "The video site where anyone can upload and the world watches for free.",
+        "es": "El sitio de videos donde cualquiera sube contenido y el mundo lo mira gratis."
+      },
+      "aliases": {
+        "en": [
+          "YouTuber",
+          "YouTubers",
+          "YouTube Premium",
+          "YouTube Shorts"
+        ],
+        "es": [
+          "youtuber",
+          "youtubers",
+          "YouTube Premium",
+          "YouTube Shorts"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-c-sharp",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-c-sharp.svg",
+      "imageAlt": {
+        "en": "C# code running on .NET, which powers a Windows app, a web server and a video game",
+        "es": "Código C# corriendo sobre .NET, que mueve una app de Windows, un servidor web y un videojuego"
+      },
+      "title": {
+        "en": "C#",
+        "es": "C#"
+      },
+      "tagline": {
+        "en": "Microsoft's main programming language, used for business apps, web servers and games.",
+        "es": "El lenguaje principal de Microsoft, para apps de empresa, servidores web y juegos."
+      },
+      "aliases": {
+        "en": [
+          "C Sharp",
+          "CSharp"
+        ],
+        "es": [
+          "C Sharp",
+          "CSharp"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-crowdstrike",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-crowdstrike.svg",
+      "imageAlt": {
+        "en": "A small sensor on each company laptop and server reports to a cloud console that spots threats and sends back updates",
+        "es": "Un sensor chiquito en cada notebook y servidor de la empresa reporta a una consola en la nube que detecta amenazas y manda actualizaciones"
+      },
+      "title": {
+        "en": "CrowdStrike",
+        "es": "CrowdStrike"
+      },
+      "tagline": {
+        "en": "A security company that watches company computers for attacks from the cloud.",
+        "es": "Una empresa de seguridad que vigila desde la nube las computadoras de las empresas."
+      },
+      "aliases": {
+        "en": [
+          "CrowdStrike Falcon"
+        ],
+        "es": [
+          "CrowdStrike Falcon"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-cryptojacking",
+      "date": "2026-11-11",
+      "subjects": [
+        "security",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-cryptojacking.svg",
+      "imageAlt": {
+        "en": "A hidden miner inside a hot laptop and inside a cloud server sends coins to an attacker's wallet, while the victim gets the electricity and cloud bill",
+        "es": "Un minero oculto dentro de una notebook recalentada y dentro de un servidor en la nube manda monedas a la billetera del atacante, mientras la víctima paga la luz y la factura de la nube"
+      },
+      "title": {
+        "en": "Cryptojacking",
+        "es": "Cryptojacking"
+      },
+      "tagline": {
+        "en": "Secretly using someone else's computers to mine cryptocurrency for yourself.",
+        "es": "Usar a escondidas las computadoras de otro para minar criptomonedas para vos."
+      },
+      "aliases": {
+        "en": [
+          "cryptojacker",
+          "cryptojackers",
+          "cryptomining malware",
+          "coin miner malware",
+          "browser mining"
+        ],
+        "es": [
+          "criptojacking",
+          "cryptojacker",
+          "malware de minería",
+          "minería de criptomonedas maliciosa",
+          "criptominería maliciosa"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-cyber-insurance",
+      "date": "2026-11-11",
+      "subjects": [
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-cyber-insurance.svg",
+      "imageAlt": {
+        "en": "An umbrella labeled policy shields a company building from costs like forensics, lawyers and downtime; a green box lists what the insurer requires: MFA, backups, EDR and patches",
+        "es": "Un paraguas marcado como póliza protege el edificio de una empresa de costos como forense, abogados y tiempo caído; un recuadro verde lista lo que exige la aseguradora: MFA, backups, EDR y parches"
+      },
+      "title": {
+        "en": "Cyber insurance",
+        "es": "Ciberseguro"
+      },
+      "tagline": {
+        "en": "An insurance policy that pays for the costs of a cyberattack or data breach.",
+        "es": "Un seguro que paga los costos de un ciberataque o de una filtración de datos."
+      },
+      "aliases": {
+        "en": [
+          "cyber insurance policy",
+          "cyber insurance policies",
+          "cyber liability insurance",
+          "cyber risk insurance",
+          "cybersecurity insurance"
+        ],
+        "es": [
+          "ciberseguros",
+          "seguro cibernético",
+          "seguros cibernéticos",
+          "seguro de ciberriesgos",
+          "seguros de ciberriesgos",
+          "cyber insurance"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-data-structure",
+      "date": "2026-11-11",
+      "subjects": [
+        "software",
+        "data"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-data-structure.svg",
+      "imageAlt": {
+        "en": "Four ways to organize the same data: an array of numbered boxes, a stack of plates, a queue of people and a tree of branches",
+        "es": "Cuatro formas de ordenar los mismos datos: un arreglo de cajas numeradas, una pila de platos, una fila de gente y un árbol de ramas"
+      },
+      "title": {
+        "en": "Data structure",
+        "es": "Estructura de datos"
+      },
+      "tagline": {
+        "en": "A way of organizing data in memory so the operations you need are fast.",
+        "es": "Una forma de organizar datos en memoria para que lo que necesitás hacer sea rápido."
+      },
+      "aliases": {
+        "en": [
+          "data structures"
+        ],
+        "es": [
+          "estructuras de datos"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-gitlab",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-gitlab.svg",
+      "imageAlt": {
+        "en": "One platform holding the whole path of code: repository, merge request, pipeline and deploy",
+        "es": "Una sola plataforma que contiene todo el camino del código: repositorio, merge request, pipeline y deploy"
+      },
+      "title": {
+        "en": "GitLab",
+        "es": "GitLab"
+      },
+      "tagline": {
+        "en": "A platform for hosting code, reviewing it and shipping it, often self-hosted.",
+        "es": "Una plataforma para alojar, revisar y desplegar código, a veces en servidores propios."
+      },
+      "aliases": {
+        "en": [
+          "GitLab CI",
+          "GitLab CI/CD",
+          "GitLab.com"
+        ],
+        "es": [
+          "GitLab CI",
+          "GitLab CI/CD",
+          "GitLab.com"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-11-incident-response",
+      "date": "2026-11-11",
+      "subjects": [
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-incident-response.svg",
+      "imageAlt": {
+        "en": "A loop of four steps around an alert: prepare, detect, contain and recover, with the arrow from recover back to prepare labeled learn",
+        "es": "Un ciclo de cuatro pasos alrededor de una alerta: preparar, detectar, contener y recuperar, con la flecha que vuelve de recuperar a preparar marcada como aprender"
+      },
+      "title": {
+        "en": "Incident response",
+        "es": "Respuesta a incidentes"
+      },
+      "tagline": {
+        "en": "The rehearsed plan an organization follows when a security attack actually happens.",
+        "es": "El plan ensayado que sigue una organización cuando un ataque pasa de verdad."
+      },
+      "aliases": {
+        "en": [
+          "incident response plan",
+          "incident response plans",
+          "incident response team",
+          "incident response teams",
+          "CSIRT",
+          "CSIRTs",
+          "computer security incident response team"
+        ],
+        "es": [
+          "respuesta ante incidentes",
+          "plan de respuesta a incidentes",
+          "planes de respuesta a incidentes",
+          "equipo de respuesta a incidentes",
+          "equipos de respuesta a incidentes",
+          "CSIRT",
+          "incident response"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-kotlin",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-kotlin.svg",
+      "imageAlt": {
+        "en": "Kotlin code and Java code compiled into the same bytecode, which runs on the JVM and on an Android phone",
+        "es": "Código Kotlin y código Java compilados al mismo bytecode, que corre en la JVM y en un teléfono Android"
+      },
+      "title": {
+        "en": "Kotlin",
+        "es": "Kotlin"
+      },
+      "tagline": {
+        "en": "A modern, more concise language that runs where Java runs, and the main one for Android.",
+        "es": "Un lenguaje moderno y más conciso que corre donde corre Java, y el principal de Android."
+      },
+      "aliases": {
+        "en": [
+          "Kotlin language"
+        ],
+        "es": [
+          "lenguaje Kotlin"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-linter",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-linter.svg",
+      "imageAlt": {
+        "en": "Lines of code passing through a linter, which flags an unused variable and a likely bug before the code runs",
+        "es": "Líneas de código que pasan por un linter, que marca una variable sin usar y un probable error antes de que el código corra"
+      },
+      "title": {
+        "en": "Linter",
+        "es": "Linter"
+      },
+      "tagline": {
+        "en": "A tool that reads your code and points out likely bugs and messy style before it runs.",
+        "es": "Una herramienta que revisa tu código sin correrlo y marca errores y desprolijidades."
+      },
+      "aliases": {
+        "en": [
+          "linters",
+          "linting"
+        ],
+        "es": [
+          "linters",
+          "linting"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-memory-leak",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-memory-leak.svg",
+      "imageAlt": {
+        "en": "A chart of a program's memory use climbing steadily over hours until it hits the limit and crashes, then dropping after a restart",
+        "es": "Un gráfico del uso de memoria de un programa que sube sin parar durante horas hasta tocar el límite y caerse, y baja después de reiniciarlo"
+      },
+      "title": {
+        "en": "Memory leak",
+        "es": "Fuga de memoria"
+      },
+      "tagline": {
+        "en": "A bug where a program keeps grabbing memory and never gives it back.",
+        "es": "Un error en el que un programa agarra memoria y nunca la devuelve."
+      },
+      "aliases": {
+        "en": [
+          "memory leaks",
+          "leaks memory",
+          "leaking memory"
+        ],
+        "es": [
+          "fugas de memoria",
+          "pérdida de memoria",
+          "memory leak",
+          "memory leaks"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-rate-limiting",
+      "date": "2026-11-11",
+      "subjects": [
+        "security",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-rate-limiting.svg",
+      "imageAlt": {
+        "en": "Many requests arrive at a gate that lets through five per second to a server; the extra ones bounce back with the code 429",
+        "es": "Muchas solicitudes llegan a una barrera que deja pasar cinco por segundo hacia un servidor; las que sobran rebotan con el código 429"
+      },
+      "title": {
+        "en": "Rate limiting",
+        "es": "Rate limiting"
+      },
+      "tagline": {
+        "en": "Capping how many requests someone can make in a given time window.",
+        "es": "Ponerle un tope a cuántas solicitudes puede hacer alguien en cierto tiempo."
+      },
+      "aliases": {
+        "en": [
+          "rate limit",
+          "rate limits",
+          "rate limiter",
+          "rate limiters",
+          "rate-limited",
+          "429 Too Many Requests"
+        ],
+        "es": [
+          "rate limit",
+          "rate limits",
+          "límite de solicitudes",
+          "límites de solicitudes",
+          "limitación de solicitudes",
+          "429 Too Many Requests"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-recursion",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-recursion.svg",
+      "imageAlt": {
+        "en": "Nested Russian dolls showing a function that calls itself on a smaller problem until it reaches the smallest case and the answers come back up",
+        "es": "Mamushkas una dentro de otra mostrando una función que se llama a sí misma con un problema más chico hasta llegar al caso mínimo y las respuestas vuelven hacia arriba"
+      },
+      "title": {
+        "en": "Recursion",
+        "es": "Recursión"
+      },
+      "tagline": {
+        "en": "When a function solves a problem by calling itself on a smaller piece of it.",
+        "es": "Cuando una función resuelve un problema llamándose a sí misma con una parte más chica."
+      },
+      "aliases": {
+        "en": [
+          "recursive function",
+          "recursive functions",
+          "recursive call",
+          "recursive calls"
+        ],
+        "es": [
+          "recursividad",
+          "función recursiva",
+          "funciones recursivas",
+          "llamada recursiva",
+          "llamadas recursivas"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-role-based-access-control",
+      "date": "2026-11-11",
+      "subjects": [
+        "security",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-role-based-access-control.svg",
+      "imageAlt": {
+        "en": "Three people are assigned to two roles, nurse and billing; each role holds a set of permissions such as read charts or edit invoices",
+        "es": "Tres personas asignadas a dos roles, enfermería y facturación; cada rol tiene un conjunto de permisos como leer historias clínicas o editar facturas"
+      },
+      "title": {
+        "en": "Role-based access control",
+        "es": "Control de acceso basado en roles"
+      },
+      "tagline": {
+        "en": "Giving permissions to job roles, then putting people in roles, instead of one by one.",
+        "es": "Dar permisos a roles de trabajo y después asignar personas a esos roles."
+      },
+      "aliases": {
+        "en": [
+          "RBAC",
+          "role-based access",
+          "role-based permissions"
+        ],
+        "es": [
+          "RBAC",
+          "control de acceso por roles",
+          "acceso basado en roles",
+          "role-based access control"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-ruby",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-ruby.svg",
+      "imageAlt": {
+        "en": "A short line of Ruby code that reads almost like English, next to a web app built with Rails",
+        "es": "Una línea corta de código Ruby que se lee casi como inglés, al lado de una app web hecha con Rails"
+      },
+      "title": {
+        "en": "Ruby",
+        "es": "Ruby"
+      },
+      "tagline": {
+        "en": "A programming language designed to make programmers happy, famous for Ruby on Rails.",
+        "es": "Un lenguaje pensado para que programar sea un placer, famoso por Ruby on Rails."
+      },
+      "aliases": {
+        "en": [
+          "Ruby on Rails",
+          "Ruby language"
+        ],
+        "es": [
+          "Ruby on Rails",
+          "lenguaje Ruby"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-11-shadow-it",
+      "date": "2026-11-11",
+      "subjects": [
+        "security",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-shadow-it.svg",
+      "imageAlt": {
+        "en": "Inside the company network, IT sees approved apps like mail, CRM, docs and chat; lines run out of it to a file-sharing site, an AI chatbot and a spreadsheet tool sitting in the shadow",
+        "es": "Dentro de la red de la empresa, IT ve las apps aprobadas como mail, CRM, documentos y chat; desde ahí salen líneas hacia un sitio para compartir archivos, un chatbot de IA y una planilla que quedan en la sombra"
+      },
+      "title": {
+        "en": "Shadow IT",
+        "es": "Shadow IT"
+      },
+      "tagline": {
+        "en": "Apps and services people use for work without the IT team knowing.",
+        "es": "Apps y servicios que la gente usa para trabajar sin que se entere el área de IT."
+      },
+      "aliases": {
+        "en": [
+          "shadow AI",
+          "unsanctioned app",
+          "unsanctioned apps"
+        ],
+        "es": [
+          "TI en la sombra",
+          "IT en la sombra",
+          "TI invisible",
+          "shadow AI",
+          "IA en la sombra"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-shell-script",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-shell-script.svg",
+      "imageAlt": {
+        "en": "A small backup.sh file with three commands, run once from the terminal, which then copies, compresses and uploads files",
+        "es": "Un archivo backup.sh con tres comandos, que se ejecuta una vez desde la terminal y copia, comprime y sube archivos"
+      },
+      "title": {
+        "en": "Shell script",
+        "es": "Script de shell"
+      },
+      "tagline": {
+        "en": "A text file full of terminal commands that the computer runs one after another.",
+        "es": "Un archivo de texto lleno de comandos de terminal que la compu ejecuta uno tras otro."
+      },
+      "aliases": {
+        "en": [
+          "shell scripts",
+          "shell scripting",
+          "Bash script",
+          "Bash scripts"
+        ],
+        "es": [
+          "scripts de shell",
+          "script de Bash",
+          "scripts de Bash",
+          "shell script",
+          "shell scripts"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-typosquatting",
+      "date": "2026-11-11",
+      "subjects": [
+        "security",
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-typosquatting.svg",
+      "imageAlt": {
+        "en": "A real address, mybank.com, next to three lookalikes: mybnak.com, mybank.co and my-bank.com, each pointing to a fake login page",
+        "es": "Una dirección real, mybank.com, junto a tres imitaciones: mybnak.com, mybank.co y my-bank.com, cada una apuntando a una página de login falsa"
+      },
+      "title": {
+        "en": "Typosquatting",
+        "es": "Typosquatting"
+      },
+      "tagline": {
+        "en": "Registering misspelled names of real sites or packages to catch people's typos.",
+        "es": "Registrar nombres mal escritos de sitios o paquetes reales para cazar errores de tipeo."
+      },
+      "aliases": {
+        "en": [
+          "typosquatter",
+          "typosquatters",
+          "typosquatted",
+          "typosquatting domain",
+          "typosquatting domains",
+          "lookalike domain",
+          "lookalike domains",
+          "URL hijacking"
+        ],
+        "es": [
+          "typosquatter",
+          "typosquatters",
+          "dominio parecido",
+          "dominios parecidos",
+          "dominio con error de tipeo",
+          "dominios con errores de tipeo"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-vercel",
+      "date": "2026-11-11",
+      "subjects": [
+        "companies",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-11-11-vercel.svg",
+      "imageAlt": {
+        "en": "A git push turns into a preview link for each branch and a production site served from many locations",
+        "es": "Un git push se convierte en un link de preview por cada rama y en un sitio de producción servido desde muchos lugares"
+      },
+      "title": {
+        "en": "Vercel",
+        "es": "Vercel"
+      },
+      "tagline": {
+        "en": "A cloud platform that puts web frontends online on every git push.",
+        "es": "Una plataforma cloud que pone online el frontend de una web con cada git push."
+      },
+      "aliases": {
+        "en": [
+          "Vercel Inc.",
+          "preview deployment",
+          "preview deployments"
+        ],
+        "es": [
+          "Vercel Inc.",
+          "preview deployment",
+          "preview deployments"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-big-o-notation",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 3,
+      "image": "img/2026-11-11-big-o-notation.svg",
+      "imageAlt": {
+        "en": "A chart of work against input size with four curves: flat O(1), slowly rising O(log n), straight O(n) and steeply rising O(n²)",
+        "es": "Un gráfico de trabajo según el tamaño de la entrada con cuatro curvas: plana O(1), que sube despacio O(log n), recta O(n) y que se dispara O(n²)"
+      },
+      "title": {
+        "en": "Big O notation",
+        "es": "Notación Big O"
+      },
+      "tagline": {
+        "en": "A shorthand for how an algorithm's work grows as its input gets bigger.",
+        "es": "Una forma abreviada de decir cuánto crece el trabajo de un algoritmo con más datos."
+      },
+      "aliases": {
+        "en": [
+          "Big O",
+          "Big-O notation",
+          "time complexity"
+        ],
+        "es": [
+          "Big O",
+          "notación O grande",
+          "complejidad temporal"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-clickjacking",
+      "date": "2026-11-11",
+      "subjects": [
+        "security"
+      ],
+      "level": 3,
+      "image": "img/2026-11-11-clickjacking.svg",
+      "imageAlt": {
+        "en": "A bait page with a big 'Win a prize' button; on top of it, an invisible framed bank page lines up its 'Transfer' button exactly where the user clicks",
+        "es": "Una página trampa con un botón grande de 'Ganá un premio'; encima, una página del banco invisible dentro de un marco ubica su botón 'Transferir' justo donde el usuario hace clic"
+      },
+      "title": {
+        "en": "Clickjacking",
+        "es": "Clickjacking"
+      },
+      "tagline": {
+        "en": "Tricking you into clicking something on a hidden page layered under a decoy.",
+        "es": "Engañarte para que hagas clic en una página oculta debajo de un señuelo."
+      },
+      "aliases": {
+        "en": [
+          "clickjacking attack",
+          "clickjacking attacks",
+          "UI redressing",
+          "UI redress attack",
+          "likejacking"
+        ],
+        "es": [
+          "ataque de clickjacking",
+          "ataques de clickjacking",
+          "secuestro de clics",
+          "UI redressing",
+          "likejacking"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-concurrency",
+      "date": "2026-11-11",
+      "subjects": [
+        "software"
+      ],
+      "level": 3,
+      "image": "img/2026-11-11-concurrency.svg",
+      "imageAlt": {
+        "en": "Two tasks interleaving their steps on one timeline while one waits for the network, and two tasks updating a shared counter at the same time",
+        "es": "Dos tareas intercalando sus pasos en una línea de tiempo mientras una espera a la red, y dos tareas actualizando un contador compartido al mismo tiempo"
+      },
+      "title": {
+        "en": "Concurrency",
+        "es": "Concurrencia"
+      },
+      "tagline": {
+        "en": "Structuring a program so several tasks can be in progress at the same time.",
+        "es": "Organizar un programa para que varias tareas estén en marcha al mismo tiempo."
+      },
+      "aliases": {
+        "en": [
+          "concurrent programming",
+          "race condition",
+          "race conditions"
+        ],
+        "es": [
+          "programación concurrente",
+          "condición de carrera",
+          "condiciones de carrera"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-11-jwt",
+      "date": "2026-11-11",
+      "subjects": [
+        "security",
+        "software"
+      ],
+      "level": 3,
+      "image": "img/2026-11-11-jwt.svg",
+      "imageAlt": {
+        "en": "A token split into three colored parts separated by dots: header, payload and signature, with the payload showing a user id and an expiry time",
+        "es": "Un token dividido en tres partes de colores separadas por puntos: header, payload y firma, con el payload mostrando un id de usuario y un vencimiento"
+      },
+      "title": {
+        "en": "JWT",
+        "es": "JWT"
+      },
+      "tagline": {
+        "en": "A signed, self-contained pass that tells a server who you are and what you may do.",
+        "es": "Un pase firmado y autocontenido que le dice al servidor quién sos y qué podés hacer."
+      },
+      "aliases": {
+        "en": [
+          "JWTs",
+          "JSON Web Token",
+          "JSON Web Tokens"
+        ],
+        "es": [
+          "JWTs",
+          "JSON Web Token",
+          "JSON Web Tokens",
+          "token JWT",
+          "tokens JWT"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-augmented-reality",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-augmented-reality.svg",
+      "imageAlt": {
+        "en": "A phone pointed at a real room shows the same room on screen with a virtual sofa placed on the floor and a floating label",
+        "es": "Un celular apuntando a un cuarto real muestra ese mismo cuarto en pantalla, con un sillón virtual apoyado en el piso y una etiqueta flotando"
+      },
+      "title": {
+        "en": "Augmented reality",
+        "es": "Realidad aumentada"
+      },
+      "tagline": {
+        "en": "Digital images laid on top of the real world you are looking at.",
+        "es": "Imágenes digitales encima del mundo real que estás mirando."
+      },
+      "aliases": {
+        "en": [
+          "AR",
+          "AR glasses",
+          "augmented reality glasses"
+        ],
+        "es": [
+          "AR",
+          "anteojos de realidad aumentada",
+          "lentes de realidad aumentada"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-game-console",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-game-console.svg",
+      "imageAlt": {
+        "en": "A console box connected to a TV by a cable, with a wireless controller sending input to it and a game disc and download arrow feeding it games",
+        "es": "Una consola conectada a un televisor por un cable, con un joystick inalámbrico que le manda órdenes y un disco y una flecha de descarga que le dan juegos"
+      },
+      "title": {
+        "en": "Game console",
+        "es": "Consola de videojuegos"
+      },
+      "tagline": {
+        "en": "A computer built only to play video games on your TV, with a controller.",
+        "es": "Una computadora hecha solo para jugar videojuegos en la tele, con un joystick."
+      },
+      "aliases": {
+        "en": [
+          "game consoles",
+          "video game console",
+          "video game consoles",
+          "games console",
+          "games consoles"
+        ],
+        "es": [
+          "consolas de videojuegos",
+          "consola de juegos",
+          "consolas de juegos",
+          "videoconsola",
+          "videoconsolas"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-laptop",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-laptop.svg",
+      "imageAlt": {
+        "en": "An open laptop with labels pointing to the screen, the keyboard base, the hinge and the battery underneath",
+        "es": "Una notebook abierta con etiquetas que señalan la pantalla, la base con el teclado, la bisagra y la batería debajo"
+      },
+      "title": {
+        "en": "Laptop",
+        "es": "Notebook"
+      },
+      "tagline": {
+        "en": "A whole computer folded into one portable case that runs on a battery.",
+        "es": "Una computadora entera plegada en un solo estuche portátil que anda a batería."
+      },
+      "aliases": {
+        "en": [
+          "laptops",
+          "notebook computer",
+          "notebook computers"
+        ],
+        "es": [
+          "notebooks",
+          "laptop",
+          "laptops",
+          "computadora portátil",
+          "computadoras portátiles"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-nas",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks",
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-nas.svg",
+      "imageAlt": {
+        "en": "A small box with two disk drives connects to the home router; a laptop, a phone and a TV all reach it through the same router",
+        "es": "Una cajita con dos discos conectada al router de la casa; una notebook, un celular y una tele llegan a ella a través del mismo router"
+      },
+      "title": {
+        "en": "NAS",
+        "es": "NAS"
+      },
+      "tagline": {
+        "en": "A small box of hard drives on your network that every device can share.",
+        "es": "Una cajita con discos en tu red que comparten todos los aparatos."
+      },
+      "aliases": {
+        "en": [
+          "network-attached storage",
+          "NAS drive",
+          "NAS drives",
+          "NAS device",
+          "NAS devices"
+        ],
+        "es": [
+          "almacenamiento conectado a la red",
+          "almacenamiento conectado en red",
+          "servidor NAS",
+          "servidores NAS",
+          "equipo NAS"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-power-bi",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "companies"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-power-bi.svg",
+      "imageAlt": {
+        "en": "Data from a spreadsheet, a database and a cloud app flowing into Power BI, which turns it into a report with a bar chart, a number and a pie chart",
+        "es": "Datos de una planilla, una base de datos y una app en la nube entrando a Power BI, que los convierte en un informe con un gráfico de barras, un número y una torta"
+      },
+      "title": {
+        "en": "Power BI",
+        "es": "Power BI"
+      },
+      "tagline": {
+        "en": "Microsoft's tool for turning company data into interactive charts and reports.",
+        "es": "La herramienta de Microsoft para convertir datos de una empresa en informes interactivos."
+      },
+      "aliases": {
+        "en": [
+          "Microsoft Power BI",
+          "Power BI Desktop"
+        ],
+        "es": [
+          "Microsoft Power BI",
+          "Power BI Desktop"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-roaming",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-roaming.svg",
+      "imageAlt": {
+        "en": "Abroad, your phone connects to a foreign carrier tower; the foreign carrier sends a usage report back to your home carrier, which issues the bill",
+        "es": "En el exterior, tu celular se conecta a la antena de una operadora extranjera; esa operadora le manda un reporte de consumo a tu operadora, que emite la factura"
+      },
+      "title": {
+        "en": "Roaming",
+        "es": "Roaming"
+      },
+      "tagline": {
+        "en": "Using another carrier's mobile network, usually abroad, with your own number.",
+        "es": "Usar la red móvil de otra operadora, casi siempre en el exterior, con tu propio número."
+      },
+      "aliases": {
+        "en": [
+          "data roaming",
+          "international roaming",
+          "mobile roaming",
+          "roam like at home"
+        ],
+        "es": [
+          "roaming internacional",
+          "roaming de datos",
+          "itinerancia",
+          "itinerancia de datos"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-sim-card",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-sim-card.svg",
+      "imageAlt": {
+        "en": "Three nested SIM sizes, a full-size card, a micro-SIM and a nano-SIM, with the gold contact chip in the middle",
+        "es": "Tres tamaños de SIM uno dentro del otro, la tarjeta grande, una micro-SIM y una nano-SIM, con el chip dorado de contactos en el centro"
+      },
+      "title": {
+        "en": "SIM card",
+        "es": "Tarjeta SIM"
+      },
+      "tagline": {
+        "en": "The small chip card that tells the mobile network which line is yours.",
+        "es": "La tarjetita con chip que le dice a la red móvil cuál es tu línea."
+      },
+      "aliases": {
+        "en": [
+          "SIM",
+          "SIM cards",
+          "nano-SIM",
+          "Subscriber Identity Module"
+        ],
+        "es": [
+          "SIM",
+          "tarjetas SIM",
+          "SIM card",
+          "nano-SIM",
+          "chip de la línea",
+          "Subscriber Identity Module"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-tablet",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-tablet.svg",
+      "imageAlt": {
+        "en": "A tablet held sideways, a finger tapping its touchscreen, next to an optional stylus and a snap-on keyboard",
+        "es": "Una tablet acostada, un dedo tocando su pantalla táctil, al lado de un lápiz opcional y un teclado que se engancha"
+      },
+      "title": {
+        "en": "Tablet",
+        "es": "Tablet"
+      },
+      "tagline": {
+        "en": "A computer that is just a big touchscreen, between a phone and a laptop.",
+        "es": "Una computadora que es casi solo una pantalla táctil, entre el celular y la notebook."
+      },
+      "aliases": {
+        "en": [
+          "tablets",
+          "tablet computer",
+          "tablet computers"
+        ],
+        "es": [
+          "tablets",
+          "tableta",
+          "tabletas"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-virtual-reality",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 1,
+      "image": "img/2026-11-10-virtual-reality.svg",
+      "imageAlt": {
+        "en": "A person wearing a headset with two small screens, one per eye; when the head turns, the virtual scene turns with it",
+        "es": "Una persona con un visor que tiene dos pantallitas, una por ojo; cuando gira la cabeza, la escena virtual gira con ella"
+      },
+      "title": {
+        "en": "Virtual reality",
+        "es": "Realidad virtual"
+      },
+      "tagline": {
+        "en": "A headset that replaces what you see with a 3D world that follows your head.",
+        "es": "Un visor que reemplaza lo que ves por un mundo 3D que sigue tu cabeza."
+      },
+      "aliases": {
+        "en": [
+          "VR",
+          "VR headset",
+          "VR headsets",
+          "virtual reality headset",
+          "virtual reality headsets"
+        ],
+        "es": [
+          "VR",
+          "visor de realidad virtual",
+          "visores de realidad virtual",
+          "casco de realidad virtual",
+          "cascos de realidad virtual"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-batch-processing",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-batch-processing.svg",
+      "imageAlt": {
+        "en": "Records piling up during the day into a bin, then processed all together at 2 AM into a finished report",
+        "es": "Registros que se acumulan durante el día en una bandeja y se procesan todos juntos a las 2 de la mañana para armar un informe"
+      },
+      "title": {
+        "en": "Batch processing",
+        "es": "Procesamiento batch"
+      },
+      "tagline": {
+        "en": "Collecting data for a while and then processing it all in one big run.",
+        "es": "Juntar datos durante un rato y después procesarlos todos de una sola vez."
+      },
+      "aliases": {
+        "en": [
+          "batch job",
+          "batch jobs",
+          "batch processes",
+          "batch pipeline",
+          "batch pipelines"
+        ],
+        "es": [
+          "procesamiento por lotes",
+          "proceso por lotes",
+          "procesos por lotes",
+          "batch processing",
+          "proceso batch",
+          "procesos batch"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-data-anonymization",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-data-anonymization.svg",
+      "imageAlt": {
+        "en": "A patient record with name, birth date and diagnosis going through a filter that removes the name and turns the exact date into an age range",
+        "es": "Un registro de paciente con nombre, fecha de nacimiento y diagnóstico pasando por un filtro que borra el nombre y convierte la fecha exacta en un rango de edad"
+      },
+      "title": {
+        "en": "Data anonymization",
+        "es": "Anonimización de datos"
+      },
+      "tagline": {
+        "en": "Changing a dataset so nobody in it can be identified, while keeping it useful.",
+        "es": "Transformar un conjunto de datos para que nadie pueda ser identificado y siga sirviendo."
+      },
+      "aliases": {
+        "en": [
+          "anonymization",
+          "anonymisation",
+          "anonymized data",
+          "anonymised data",
+          "pseudonymization",
+          "pseudonymisation",
+          "pseudonymized data"
+        ],
+        "es": [
+          "anonimización",
+          "datos anonimizados",
+          "seudonimización",
+          "datos seudonimizados",
+          "data anonymization"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-forecasting",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "ai"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-forecasting.svg",
+      "imageAlt": {
+        "en": "A line chart of past monthly sales with yearly peaks, continued into the future as a dashed line inside a widening shaded band",
+        "es": "Un gráfico de líneas con las ventas mensuales pasadas y sus picos anuales, que sigue hacia el futuro como línea punteada dentro de una banda que se ensancha"
+      },
+      "title": {
+        "en": "Forecasting",
+        "es": "Pronóstico"
+      },
+      "tagline": {
+        "en": "Using past data to estimate future numbers, with an honest range around the guess.",
+        "es": "Usar datos del pasado para estimar números futuros, con un rango honesto alrededor."
+      },
+      "aliases": {
+        "en": [
+          "forecast",
+          "forecasts",
+          "demand forecasting",
+          "sales forecast",
+          "sales forecasting"
+        ],
+        "es": [
+          "forecasting",
+          "forecast",
+          "pronósticos",
+          "pronóstico de demanda",
+          "pronóstico de ventas",
+          "proyección de ventas",
+          "previsión de la demanda"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-haptics",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-haptics.svg",
+      "imageAlt": {
+        "en": "A finger presses a phone screen; inside, a small motor shakes in short precise pulses, drawn as a sharp tap wave next to a long buzz wave",
+        "es": "Un dedo aprieta la pantalla de un celular; adentro, un motorcito se sacude en pulsos cortos y precisos, dibujados como una onda de toque seca al lado de una onda de zumbido larga"
+      },
+      "title": {
+        "en": "Haptics",
+        "es": "Háptica"
+      },
+      "tagline": {
+        "en": "Technology that talks to your sense of touch with taps, buzzes and resistance.",
+        "es": "Tecnología que te habla a través del tacto, con toques, vibraciones y resistencia."
+      },
+      "aliases": {
+        "en": [
+          "haptic",
+          "haptic feedback",
+          "haptic technology",
+          "haptic engine",
+          "Taptic Engine"
+        ],
+        "es": [
+          "háptico",
+          "hápticos",
+          "respuesta háptica",
+          "tecnología háptica",
+          "vibración háptica",
+          "haptics",
+          "Taptic Engine"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-hostname",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-hostname.svg",
+      "imageAlt": {
+        "en": "Three machines labeled laptop-ana, printer-2 and mail; the mail server full name splits into the host part mail and the domain part .example.com",
+        "es": "Tres máquinas etiquetadas laptop-ana, printer-2 y mail; el nombre completo del servidor de mail se separa en la parte del host, mail, y la del dominio, .example.com"
+      },
+      "title": {
+        "en": "Hostname",
+        "es": "Hostname"
+      },
+      "tagline": {
+        "en": "The human-readable name a device uses on a network.",
+        "es": "El nombre legible que usa un aparato dentro de una red."
+      },
+      "aliases": {
+        "en": [
+          "hostnames",
+          "host name",
+          "host names",
+          "FQDN",
+          "fully qualified domain name"
+        ],
+        "es": [
+          "hostnames",
+          "nombre de host",
+          "nombres de host",
+          "nombre de equipo",
+          "FQDN",
+          "nombre de dominio completo"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-internet-backbone",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-internet-backbone.svg",
+      "imageAlt": {
+        "en": "A thick ring of high-capacity links joins big carriers at exchange points; thinner lines branch off to local providers and homes",
+        "es": "Un anillo grueso de enlaces de gran capacidad une a los grandes operadores en puntos de intercambio; de ahí salen líneas más finas hacia proveedores locales y casas"
+      },
+      "title": {
+        "en": "Internet backbone",
+        "es": "Backbone de internet"
+      },
+      "tagline": {
+        "en": "The highest-capacity long-distance links that carry traffic between big networks.",
+        "es": "Los enlaces de larga distancia y máxima capacidad que llevan tráfico entre redes grandes."
+      },
+      "aliases": {
+        "en": [
+          "internet backbones",
+          "backbone network",
+          "backbone networks",
+          "Tier 1 network",
+          "Tier 1 networks",
+          "Tier 1 provider",
+          "Tier 1 providers"
+        ],
+        "es": [
+          "red troncal",
+          "redes troncales",
+          "troncal de internet",
+          "red Tier 1",
+          "redes Tier 1",
+          "backbone"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-jitter",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-jitter.svg",
+      "imageAlt": {
+        "en": "Two timelines of arriving packets: on top they arrive evenly every 20 ms, labeled steady; below the gaps vary from almost none to 70 ms, labeled jitter",
+        "es": "Dos líneas de tiempo con paquetes que llegan: arriba llegan parejos cada 20 ms, con la etiqueta steady; abajo los espacios van de casi nada a 70 ms, con la etiqueta jitter"
+      },
+      "title": {
+        "en": "Jitter",
+        "es": "Jitter"
+      },
+      "tagline": {
+        "en": "How much the delay of a connection jumps around from one packet to the next.",
+        "es": "Cuánto salta el retardo de una conexión de un paquete al siguiente."
+      },
+      "aliases": {
+        "en": [
+          "network jitter",
+          "jitter buffer"
+        ],
+        "es": [
+          "jitter de red",
+          "buffer de jitter",
+          "variación del retardo"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-lidar",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-lidar.svg",
+      "imageAlt": {
+        "en": "A lidar unit fires laser pulses at a tree and a car; the pulses bounce back and the timing becomes a cloud of dots outlining both shapes",
+        "es": "Un lidar dispara pulsos láser contra un árbol y un auto; los pulsos rebotan y el tiempo que tardan se convierte en una nube de puntos con la forma de los dos"
+      },
+      "title": {
+        "en": "Lidar",
+        "es": "Lidar"
+      },
+      "tagline": {
+        "en": "A sensor that measures distances by timing laser pulses that bounce back.",
+        "es": "Un sensor que mide distancias cronometrando pulsos láser que rebotan."
+      },
+      "aliases": {
+        "en": [
+          "lidar sensor",
+          "lidar sensors",
+          "lidar scanner",
+          "light detection and ranging"
+        ],
+        "es": [
+          "sensor lidar",
+          "sensores lidar",
+          "escáner lidar",
+          "light detection and ranging"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-mongodb",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-mongodb.svg",
+      "imageAlt": {
+        "en": "A collection holding three JSON-like documents with different fields, next to a rigid table with fixed columns",
+        "es": "Una colección con tres documentos tipo JSON con campos distintos, al lado de una tabla rígida con columnas fijas"
+      },
+      "title": {
+        "en": "MongoDB",
+        "es": "MongoDB"
+      },
+      "tagline": {
+        "en": "A database that stores each record as a flexible JSON-like document, not a table row.",
+        "es": "Una base de datos que guarda cada registro como un documento flexible tipo JSON."
+      },
+      "aliases": {
+        "en": [
+          "MongoDB Atlas"
+        ],
+        "es": [
+          "MongoDB Atlas"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-mysql",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-mysql.svg",
+      "imageAlt": {
+        "en": "A web page and a PHP app sending SQL to a MySQL server on port 3306 that holds tables, with a MariaDB fork branching off to the side",
+        "es": "Una página web y una app en PHP mandando SQL a un servidor MySQL en el puerto 3306 que guarda tablas, con el fork MariaDB saliendo hacia un costado"
+      },
+      "title": {
+        "en": "MySQL",
+        "es": "MySQL"
+      },
+      "tagline": {
+        "en": "The open-source relational database that powered the early web and still runs much of it.",
+        "es": "La base de datos relacional open source que movió la web temprana y sigue en todos lados."
+      },
+      "aliases": {
+        "en": [
+          "MariaDB"
+        ],
+        "es": [
+          "MariaDB"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-network-gateway",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-network-gateway.svg",
+      "imageAlt": {
+        "en": "A laptop and a phone on a home network send traffic for the outside world to the router at 192.168.1.1, the default gateway, which passes it on to the internet",
+        "es": "Una notebook y un celular de una red hogareña mandan el tráfico hacia afuera al router en 192.168.1.1, la puerta de enlace predeterminada, que lo pasa a internet"
+      },
+      "title": {
+        "en": "Network gateway",
+        "es": "Puerta de enlace"
+      },
+      "tagline": {
+        "en": "The device where one network ends and traffic is handed to another.",
+        "es": "El equipo donde termina una red y el tráfico pasa a otra."
+      },
+      "aliases": {
+        "en": [
+          "network gateways",
+          "default gateway",
+          "default gateways",
+          "gateway address"
+        ],
+        "es": [
+          "puertas de enlace",
+          "puerta de enlace predeterminada",
+          "gateway de red",
+          "gateways de red",
+          "gateway predeterminado",
+          "default gateway"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-packet-loss",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-packet-loss.svg",
+      "imageAlt": {
+        "en": "A row of numbered packets travels from a laptop to a server; packet 3 falls out of the line and a resend arrow brings it back later",
+        "es": "Una fila de paquetes numerados viaja de una notebook a un servidor; el paquete 3 se cae de la fila y una flecha de reenvío lo trae de vuelta más tarde"
+      },
+      "title": {
+        "en": "Packet loss",
+        "es": "Pérdida de paquetes"
+      },
+      "tagline": {
+        "en": "When pieces of your data leave but never arrive.",
+        "es": "Cuando partes de tus datos salen pero nunca llegan."
+      },
+      "aliases": {
+        "en": [
+          "lost packets",
+          "dropped packets",
+          "packet drops"
+        ],
+        "es": [
+          "paquetes perdidos",
+          "paquetes descartados",
+          "packet loss"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-pcie",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-pcie.svg",
+      "imageAlt": {
+        "en": "A CPU connected to a graphics card by a wide bundle of lanes labeled x16 and to an SSD by a narrow bundle labeled x4",
+        "es": "Una CPU conectada a una placa de video por un manojo ancho de líneas marcado x16 y a un SSD por uno angosto marcado x4"
+      },
+      "title": {
+        "en": "PCIe",
+        "es": "PCIe"
+      },
+      "tagline": {
+        "en": "The fast internal highway that connects graphics cards and SSDs to the CPU.",
+        "es": "La autopista interna rápida que conecta placas de video y SSD con la CPU."
+      },
+      "aliases": {
+        "en": [
+          "PCI Express",
+          "PCIe slot",
+          "PCIe slots",
+          "PCIe lane",
+          "PCIe lanes"
+        ],
+        "es": [
+          "PCI Express",
+          "ranura PCIe",
+          "ranuras PCIe",
+          "línea PCIe",
+          "líneas PCIe"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-sql-join",
+      "date": "2026-11-10",
+      "subjects": [
+        "data"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-sql-join.svg",
+      "imageAlt": {
+        "en": "A customers table and an orders table connected by matching customer IDs, combined into one result table with names next to order amounts",
+        "es": "Una tabla de clientes y una de pedidos unidas por el mismo ID de cliente, combinadas en una tabla resultado con nombres al lado de los importes"
+      },
+      "title": {
+        "en": "SQL JOIN",
+        "es": "JOIN en SQL"
+      },
+      "tagline": {
+        "en": "The SQL command that combines rows from two tables that share a value.",
+        "es": "La instrucción de SQL que combina filas de dos tablas que comparten un valor."
+      },
+      "aliases": {
+        "en": [
+          "JOIN",
+          "JOINs",
+          "INNER JOIN",
+          "LEFT JOIN",
+          "RIGHT JOIN",
+          "FULL OUTER JOIN"
+        ],
+        "es": [
+          "SQL JOIN",
+          "JOIN",
+          "JOINs",
+          "INNER JOIN",
+          "LEFT JOIN",
+          "RIGHT JOIN",
+          "FULL OUTER JOIN"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-10-sqlite",
+      "date": "2026-11-10",
+      "subjects": [
+        "data",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-sqlite.svg",
+      "imageAlt": {
+        "en": "A phone app with the SQLite library built inside it, reading and writing a single file called app.db, with no server in between",
+        "es": "Una app de celular con la biblioteca SQLite adentro, leyendo y escribiendo un único archivo llamado app.db, sin servidor de por medio"
+      },
+      "title": {
+        "en": "SQLite",
+        "es": "SQLite"
+      },
+      "tagline": {
+        "en": "A complete SQL database that lives in a single file, with no server to run.",
+        "es": "Una base de datos SQL completa que vive en un solo archivo, sin servidor que mantener."
+      },
+      "aliases": {
+        "en": [
+          "SQLite3"
+        ],
+        "es": [
+          "SQLite3"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-thunderbolt",
+      "date": "2026-11-10",
+      "subjects": [
+        "hardware"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-thunderbolt.svg",
+      "imageAlt": {
+        "en": "One cable from a laptop USB-C port marked with a lightning bolt reaches a dock that fans out to a monitor, a fast drive, a network cable and power",
+        "es": "Un solo cable desde el puerto USB-C de una notebook marcado con un rayo llega a un dock que se abre hacia un monitor, un disco rápido, un cable de red y la corriente"
+      },
+      "title": {
+        "en": "Thunderbolt",
+        "es": "Thunderbolt"
+      },
+      "tagline": {
+        "en": "A very fast port that carries data, video and power over one USB-C cable.",
+        "es": "Un puerto muy rápido que lleva datos, video y energía por un solo cable USB-C."
+      },
+      "aliases": {
+        "en": [
+          "Thunderbolt 3",
+          "Thunderbolt 4",
+          "Thunderbolt 5",
+          "Thunderbolt port",
+          "Thunderbolt ports"
+        ],
+        "es": [
+          "Thunderbolt 3",
+          "Thunderbolt 4",
+          "Thunderbolt 5",
+          "puerto Thunderbolt",
+          "puertos Thunderbolt"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-10-whois",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 2,
+      "image": "img/2026-11-10-whois.svg",
+      "imageAlt": {
+        "en": "A lookup for a domain returns a record card listing registrar, creation date, expiry date and name server, with the owner field blacked out for privacy",
+        "es": "Una consulta por un dominio devuelve una ficha con el registrador, la fecha de alta, la de vencimiento y el name server, con el campo del titular tapado por privacidad"
+      },
+      "title": {
+        "en": "WHOIS",
+        "es": "WHOIS"
+      },
+      "tagline": {
+        "en": "The public lookup that tells you who registered a domain name and when.",
+        "es": "La consulta pública que te dice quién registró un dominio y cuándo."
+      },
+      "aliases": {
+        "en": [
+          "whois lookup",
+          "WHOIS record",
+          "WHOIS records",
+          "RDAP",
+          "Registration Data Access Protocol"
+        ],
+        "es": [
+          "consulta WHOIS",
+          "registro WHOIS",
+          "registros WHOIS",
+          "RDAP",
+          "Registration Data Access Protocol"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-cgnat",
+      "date": "2026-11-10",
+      "subjects": [
+        "networks"
+      ],
+      "level": 3,
+      "image": "img/2026-11-10-cgnat.svg",
+      "imageAlt": {
+        "en": "Several homes, each with its own router doing NAT, get addresses from 100.64.0.0/10 and pass through one big carrier NAT that shares a single public IP address",
+        "es": "Varias casas, cada una con su router haciendo NAT, reciben direcciones de 100.64.0.0/10 y pasan por un NAT grande de la operadora que comparte una sola dirección IP pública"
+      },
+      "title": {
+        "en": "CGNAT",
+        "es": "CGNAT"
+      },
+      "tagline": {
+        "en": "NAT done by your provider, so many customers share one public IP address.",
+        "es": "NAT hecho por tu proveedor, para que muchos clientes compartan una IP pública."
+      },
+      "aliases": {
+        "en": [
+          "carrier-grade NAT",
+          "CG-NAT",
+          "CGN",
+          "large-scale NAT"
+        ],
+        "es": [
+          "carrier-grade NAT",
+          "CG-NAT",
+          "CGN",
+          "NAT de operador",
+          "NAT a gran escala"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-data-partitioning",
+      "date": "2026-11-10",
+      "subjects": [
+        "data"
+      ],
+      "level": 3,
+      "image": "img/2026-11-10-data-partitioning.svg",
+      "imageAlt": {
+        "en": "A big sales table split into monthly partitions; a query for November reads only the November piece and skips the rest",
+        "es": "Una tabla de ventas grande dividida en particiones por mes; una consulta de noviembre lee solo esa parte y saltea el resto"
+      },
+      "title": {
+        "en": "Data partitioning",
+        "es": "Particionado de datos"
+      },
+      "tagline": {
+        "en": "Splitting a huge table into pieces by a key, so queries only touch what they need.",
+        "es": "Partir una tabla enorme en pedazos según una clave, para leer solo lo necesario."
+      },
+      "aliases": {
+        "en": [
+          "table partitioning",
+          "partitioned table",
+          "partitioned tables",
+          "partition pruning",
+          "sharding",
+          "sharded",
+          "database shard",
+          "database shards"
+        ],
+        "es": [
+          "particionado",
+          "particionamiento",
+          "particionamiento de datos",
+          "tabla particionada",
+          "tablas particionadas",
+          "data partitioning",
+          "sharding"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-master-data-management",
+      "date": "2026-11-10",
+      "subjects": [
+        "data"
+      ],
+      "level": 3,
+      "image": "img/2026-11-10-master-data-management.svg",
+      "imageAlt": {
+        "en": "Three systems, CRM, billing and web shop, each holding a slightly different version of the same customer, merged by an MDM hub into one golden record",
+        "es": "Tres sistemas, CRM, facturación y tienda web, cada uno con una versión un poco distinta del mismo cliente, unificadas por un hub de MDM en un único registro maestro"
+      },
+      "title": {
+        "en": "Master data management",
+        "es": "Gestión de datos maestros"
+      },
+      "tagline": {
+        "en": "Keeping one agreed, trusted version of a company's core records across all its systems.",
+        "es": "Mantener una única versión confiable de los registros centrales de una empresa."
+      },
+      "aliases": {
+        "en": [
+          "MDM",
+          "master data",
+          "golden record",
+          "golden records"
+        ],
+        "es": [
+          "MDM",
+          "datos maestros",
+          "registro maestro",
+          "golden record",
+          "master data management"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-10-slowly-changing-dimension",
+      "date": "2026-11-10",
+      "subjects": [
+        "data"
+      ],
+      "level": 3,
+      "image": "img/2026-11-10-slowly-changing-dimension.svg",
+      "imageAlt": {
+        "en": "A customer dimension table where a move from Córdoba to Rosario adds a new row; the old row gets an end date and the new one is marked current",
+        "es": "Una tabla de dimensión de clientes donde una mudanza de Córdoba a Rosario agrega una fila nueva; la fila vieja recibe fecha de fin y la nueva queda marcada como actual"
+      },
+      "title": {
+        "en": "Slowly changing dimension",
+        "es": "Dimensión lentamente cambiante"
+      },
+      "tagline": {
+        "en": "The rules a data warehouse uses when descriptive data, like a customer's city, changes.",
+        "es": "Cómo registra un data warehouse los cambios de datos como la ciudad de un cliente."
+      },
+      "aliases": {
+        "en": [
+          "slowly changing dimensions",
+          "SCD",
+          "SCDs",
+          "SCD Type 2",
+          "Type 2 SCD"
+        ],
+        "es": [
+          "dimensiones lentamente cambiantes",
+          "dimensión de variación lenta",
+          "dimensiones de variación lenta",
+          "slowly changing dimension",
+          "SCD",
+          "SCD tipo 2"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-ai-detector",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-ai-detector.svg",
+      "imageAlt": {
+        "en": "A text page goes under a magnifying glass and comes out with a meter reading 72% AI, marked as a guess",
+        "es": "Una página de texto pasa bajo una lupa y sale con un medidor que marca 72% IA, señalado como una estimación"
+      },
+      "title": {
+        "en": "AI detector",
+        "es": "Detector de IA"
+      },
+      "tagline": {
+        "en": "A tool that estimates whether a text was written by AI, and is often wrong.",
+        "es": "Una herramienta que estima si un texto lo escribió una IA, y se equivoca seguido."
+      },
+      "aliases": {
+        "en": [
+          "AI detectors",
+          "AI text detector",
+          "AI content detector",
+          "AI content detection",
+          "AI checker",
+          "GPTZero"
+        ],
+        "es": [
+          "detectores de IA",
+          "detector de texto generado por IA",
+          "detección de contenido generado por IA",
+          "AI detector",
+          "GPTZero"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-aws-cost-explorer",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-aws-cost-explorer.svg",
+      "imageAlt": {
+        "en": "A bar chart of monthly AWS spending, split by service, with a dashed forecast for the coming months",
+        "es": "Un gráfico de barras del gasto mensual en AWS, dividido por servicio, con un pronóstico punteado para los próximos meses"
+      },
+      "title": {
+        "en": "AWS Cost Explorer",
+        "es": "AWS Cost Explorer"
+      },
+      "tagline": {
+        "en": "The AWS screen that shows what you spent, on what, and what you will likely spend.",
+        "es": "La pantalla de AWS que te muestra cuánto gastaste, en qué y cuánto vas a gastar."
+      },
+      "aliases": {
+        "en": [
+          "Cost Explorer"
+        ],
+        "es": [
+          "Cost Explorer",
+          "Explorador de costos",
+          "Explorador de costos de AWS"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-aws-snowball",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-aws-snowball.svg",
+      "imageAlt": {
+        "en": "A rugged storage box is filled at an office, travels on a truck, and its data is loaded into S3 at AWS",
+        "es": "Una caja resistente de almacenamiento se llena en una oficina, viaja en un camión y sus datos se cargan en S3 en AWS"
+      },
+      "title": {
+        "en": "AWS Snowball",
+        "es": "AWS Snowball"
+      },
+      "tagline": {
+        "en": "A rugged box AWS shipped to you to move huge amounts of data by truck instead of internet.",
+        "es": "Una caja resistente que AWS te mandaba para mover montañas de datos en camión, no por internet."
+      },
+      "aliases": {
+        "en": [
+          "Snowball",
+          "Snowball Edge",
+          "AWS Snowball Edge"
+        ],
+        "es": [
+          "Snowball",
+          "Snowball Edge",
+          "AWS Snowball Edge"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-09-aws-trusted-advisor",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-aws-trusted-advisor.svg",
+      "imageAlt": {
+        "en": "A checklist for an AWS account with categories like cost, security and limits, each marked ok, warning or problem",
+        "es": "Una lista de chequeo para una cuenta de AWS con categorías como costo, seguridad y límites, cada una marcada bien, advertencia o problema"
+      },
+      "title": {
+        "en": "AWS Trusted Advisor",
+        "es": "AWS Trusted Advisor"
+      },
+      "tagline": {
+        "en": "An automatic checkup of your AWS account with tips to save money and stay safe.",
+        "es": "Un chequeo automático de tu cuenta de AWS con consejos para ahorrar y estar seguro."
+      },
+      "aliases": {
+        "en": [
+          "Trusted Advisor"
+        ],
+        "es": [
+          "Trusted Advisor"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-cloud-console",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-cloud-console.svg",
+      "imageAlt": {
+        "en": "A browser window showing a cloud console with a menu of services, a list of running servers, a cost chart and a button to create a new one",
+        "es": "Una ventana de navegador con una consola cloud: un menú de servicios, una lista de servidores corriendo, un gráfico de costos y un botón para crear uno nuevo"
+      },
+      "title": {
+        "en": "Cloud console",
+        "es": "Consola de la nube"
+      },
+      "tagline": {
+        "en": "The website where you log in to see and manage everything you rent in the cloud.",
+        "es": "El sitio web donde entrás a ver y manejar todo lo que alquilás en la nube."
+      },
+      "aliases": {
+        "en": [
+          "cloud consoles",
+          "AWS Management Console",
+          "AWS console",
+          "Azure portal",
+          "Google Cloud console"
+        ],
+        "es": [
+          "consolas de la nube",
+          "cloud console",
+          "consola de AWS",
+          "consola de administración de AWS",
+          "portal de Azure",
+          "consola de Google Cloud"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-cloud-outage",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-cloud-outage.svg",
+      "imageAlt": {
+        "en": "One cloud provider with a failure in the middle, and the many apps that depend on it, a bank, a store, a game and a chat, all going down at once",
+        "es": "Un proveedor cloud con una falla en el medio, y las muchas aplicaciones que dependen de él, un banco, una tienda, un juego y un chat, cayéndose todas a la vez"
+      },
+      "title": {
+        "en": "Cloud outage",
+        "es": "Caída de la nube"
+      },
+      "tagline": {
+        "en": "When a cloud provider fails and many apps and websites go down with it.",
+        "es": "Cuando falla un proveedor cloud y se caen con él muchas apps y sitios web."
+      },
+      "aliases": {
+        "en": [
+          "cloud outages",
+          "service outage",
+          "service outages"
+        ],
+        "es": [
+          "caídas de la nube",
+          "cloud outage",
+          "caída del servicio",
+          "caídas del servicio"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-text-to-video",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-text-to-video.svg",
+      "imageAlt": {
+        "en": "A typed prompt about a dog surfing goes into an AI model, which outputs a strip of film frames showing the dog moving across a wave",
+        "es": "Un prompt escrito sobre un perro surfeando entra a un modelo de IA, que devuelve una tira de fotogramas donde se ve al perro moverse por una ola"
+      },
+      "title": {
+        "en": "Text-to-video",
+        "es": "Texto a video"
+      },
+      "tagline": {
+        "en": "AI that turns a written description into a short video clip.",
+        "es": "IA que convierte una descripción escrita en un video corto."
+      },
+      "aliases": {
+        "en": [
+          "text to video",
+          "text-to-video model",
+          "text-to-video models",
+          "AI video generation",
+          "AI video generator",
+          "AI video generators",
+          "AI-generated video",
+          "AI-generated videos"
+        ],
+        "es": [
+          "text-to-video",
+          "texto a vídeo",
+          "modelo de texto a video",
+          "modelos de texto a video",
+          "generación de video con IA",
+          "generador de video con IA",
+          "video generado por IA",
+          "videos generados por IA"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-voice-cloning",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai",
+        "security"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-voice-cloning.svg",
+      "imageAlt": {
+        "en": "A few seconds of a person's voice go into an AI, which then speaks new typed sentences with the same voice waveform",
+        "es": "Unos segundos de la voz de una persona entran a una IA, que después dice frases nuevas tipeadas con la misma forma de onda de voz"
+      },
+      "title": {
+        "en": "Voice cloning",
+        "es": "Clonación de voz"
+      },
+      "tagline": {
+        "en": "AI that learns to speak in a real person's voice from a short recording.",
+        "es": "IA que aprende a hablar con la voz de una persona real a partir de una grabación corta."
+      },
+      "aliases": {
+        "en": [
+          "voice clone",
+          "voice clones",
+          "cloned voice",
+          "cloned voices",
+          "AI voice cloning"
+        ],
+        "es": [
+          "clonación de voces",
+          "voz clonada",
+          "voces clonadas",
+          "clonar una voz",
+          "voice cloning"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-workload",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud"
+      ],
+      "level": 1,
+      "image": "img/2026-11-09-workload.svg",
+      "imageAlt": {
+        "en": "Three different workloads, a website with steady traffic, a nightly batch job and a database, each running on the cloud with its own shape of usage",
+        "es": "Tres cargas de trabajo distintas, un sitio web con tráfico parejo, un proceso nocturno por lotes y una base de datos, cada una corriendo en la nube con su propia forma de uso"
+      },
+      "title": {
+        "en": "Workload",
+        "es": "Carga de trabajo"
+      },
+      "tagline": {
+        "en": "Any job you run on computers: an app, a database, a nightly report, an AI model.",
+        "es": "Cualquier trabajo que corrés en la nube: una app, una base de datos, un reporte, un modelo."
+      },
+      "aliases": {
+        "en": [],
+        "es": []
+      }
+    },
+    {
+      "id": "2026-11-09-ai-evals",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-ai-evals.svg",
+      "imageAlt": {
+        "en": "A list of test inputs goes through an AI app; each output is graded by code, by another model acting as judge, or by a person, and the results add up to a score",
+        "es": "Una lista de entradas de prueba pasa por una app de IA; cada salida la califica código, otro modelo que hace de juez o una persona, y los resultados suman un puntaje"
+      },
+      "title": {
+        "en": "AI evals",
+        "es": "Evals de IA"
+      },
+      "tagline": {
+        "en": "Tests you write for your own AI app to check it does its job, before and after changes.",
+        "es": "Pruebas propias para tu app de IA, que revisan si cumple antes y después de cada cambio."
+      },
+      "aliases": {
+        "en": [
+          "evals",
+          "AI eval",
+          "LLM evals",
+          "LLM evaluation",
+          "LLM-as-a-judge",
+          "LLM as a judge"
+        ],
+        "es": [
+          "evals",
+          "evaluaciones de IA",
+          "AI evals",
+          "evaluación de LLMs",
+          "LLM-as-a-judge",
+          "LLM como juez"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-ai-watermarking",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-ai-watermarking.svg",
+      "imageAlt": {
+        "en": "An AI model outputs an image with an invisible pattern hidden in it; a detector with a magnifying glass later reveals the pattern and says AI-made",
+        "es": "Un modelo de IA genera una imagen con un patrón invisible escondido; más tarde un detector con una lupa revela el patrón y dice que la hizo una IA"
+      },
+      "title": {
+        "en": "AI watermarking",
+        "es": "Marca de agua de IA"
+      },
+      "tagline": {
+        "en": "Hidden marks placed in AI-generated content so software can recognize it later.",
+        "es": "Marcas ocultas en contenido generado por IA para que un programa lo reconozca después."
+      },
+      "aliases": {
+        "en": [
+          "AI watermark",
+          "AI watermarks",
+          "SynthID"
+        ],
+        "es": [
+          "marcas de agua de IA",
+          "AI watermarking",
+          "marca de agua invisible",
+          "SynthID"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-amazon-inspector",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-amazon-inspector.svg",
+      "imageAlt": {
+        "en": "Inspector scans an EC2 server, a container image and a Lambda function and finds a CVE in one of them",
+        "es": "Inspector escanea un servidor EC2, una imagen de contenedor y una función Lambda y encuentra un CVE en una de ellas"
+      },
+      "title": {
+        "en": "Amazon Inspector",
+        "es": "Amazon Inspector"
+      },
+      "tagline": {
+        "en": "An AWS service that keeps scanning your servers and code for known vulnerabilities.",
+        "es": "Un servicio de AWS que revisa sin parar tus servidores y código buscando vulnerabilidades."
+      },
+      "aliases": {
+        "en": [
+          "Inspector"
+        ],
+        "es": [
+          "Inspector"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-09-amazon-macie",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-amazon-macie.svg",
+      "imageAlt": {
+        "en": "A magnifying glass over S3 buckets spots a file containing card numbers and raises a finding",
+        "es": "Una lupa sobre buckets de S3 detecta un archivo con números de tarjeta y levanta un hallazgo"
+      },
+      "title": {
+        "en": "Amazon Macie",
+        "es": "Amazon Macie"
+      },
+      "tagline": {
+        "en": "An AWS service that finds sensitive data in your S3 buckets and flags risky buckets.",
+        "es": "Un servicio de AWS que encuentra datos sensibles en tus buckets de S3 y marca los riesgosos."
+      },
+      "aliases": {
+        "en": [
+          "Macie"
+        ],
+        "es": [
+          "Macie"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-amazon-mq",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-amazon-mq.svg",
+      "imageAlt": {
+        "en": "Two apps exchange messages through a managed broker box that runs ActiveMQ or RabbitMQ",
+        "es": "Dos aplicaciones se pasan mensajes a través de una caja de broker administrado que corre ActiveMQ o RabbitMQ"
+      },
+      "title": {
+        "en": "Amazon MQ",
+        "es": "Amazon MQ"
+      },
+      "tagline": {
+        "en": "ActiveMQ or RabbitMQ message brokers, run for you by AWS.",
+        "es": "Brokers de mensajes ActiveMQ o RabbitMQ que AWS administra por vos."
+      },
+      "aliases": {
+        "en": [],
+        "es": []
+      }
+    },
+    {
+      "id": "2026-11-09-aws-batch",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-aws-batch.svg",
+      "imageAlt": {
+        "en": "Many jobs wait in a queue while AWS Batch starts servers to run them and shuts the servers down when the queue is empty",
+        "es": "Muchos trabajos esperan en una cola mientras AWS Batch prende servidores para correrlos y los apaga cuando la cola queda vacía"
+      },
+      "title": {
+        "en": "AWS Batch",
+        "es": "AWS Batch"
+      },
+      "tagline": {
+        "en": "An AWS service that runs big piles of jobs and rents the machines only while they work.",
+        "es": "Un servicio de AWS que corre montañas de trabajos y alquila las máquinas solo mientras trabajan."
+      },
+      "aliases": {
+        "en": [],
+        "es": []
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-09-aws-datasync",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "cloud"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-aws-datasync.svg",
+      "imageAlt": {
+        "en": "Files move from an office file server through a DataSync agent over the network into S3 and EFS, with a checkmark for verified copies",
+        "es": "Archivos que pasan de un servidor de la oficina, por un agente de DataSync y por la red, a S3 y EFS, con un tilde de copia verificada"
+      },
+      "title": {
+        "en": "AWS DataSync",
+        "es": "AWS DataSync"
+      },
+      "tagline": {
+        "en": "An AWS service that copies large amounts of files over the network, and checks they arrived intact.",
+        "es": "Un servicio de AWS que copia muchísimos archivos por la red y verifica que lleguen enteros."
+      },
+      "aliases": {
+        "en": [
+          "DataSync",
+          "DataSync agent"
+        ],
+        "es": [
+          "DataSync",
+          "agente de DataSync"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-aws-security-hub",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-aws-security-hub.svg",
+      "imageAlt": {
+        "en": "Findings from GuardDuty, Inspector, Macie and posture checks flow into one hub that ranks the most urgent issue first",
+        "es": "Hallazgos de GuardDuty, Inspector, Macie y controles de postura entran a un hub que pone primero el problema más urgente"
+      },
+      "title": {
+        "en": "AWS Security Hub",
+        "es": "AWS Security Hub"
+      },
+      "tagline": {
+        "en": "One place where AWS gathers security alerts from many services and ranks them.",
+        "es": "El lugar donde AWS junta las alertas de seguridad de varios servicios y las ordena."
+      },
+      "aliases": {
+        "en": [
+          "Security Hub",
+          "Security Hub CSPM",
+          "AWS Security Hub CSPM"
+        ],
+        "es": [
+          "Security Hub",
+          "Security Hub CSPM",
+          "AWS Security Hub CSPM"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-configuration-management",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud",
+        "software"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-configuration-management.svg",
+      "imageAlt": {
+        "en": "A file describing the desired state of a server, and a tool pushing it to three servers, one of which had drifted and gets fixed",
+        "es": "Un archivo que describe el estado deseado de un servidor y una herramienta que lo aplica a tres servidores, uno de los cuales se había desviado y queda corregido"
+      },
+      "title": {
+        "en": "Configuration management",
+        "es": "Gestión de la configuración"
+      },
+      "tagline": {
+        "en": "Describing how servers should be set up, and letting a tool keep them that way.",
+        "es": "Describir cómo deben estar armados los servidores y que una herramienta los mantenga así."
+      },
+      "aliases": {
+        "en": [
+          "Ansible",
+          "Ansible playbook",
+          "Ansible playbooks",
+          "configuration management tool",
+          "configuration management tools"
+        ],
+        "es": [
+          "gestión de configuración",
+          "configuration management",
+          "Ansible",
+          "herramientas de gestión de configuración"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-model-card",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-model-card.svg",
+      "imageAlt": {
+        "en": "A card attached to an AI model lists its intended use, training data, evaluation results and limits, with one row of results broken down by group",
+        "es": "Una ficha pegada a un modelo de IA enumera su uso previsto, datos de entrenamiento, resultados de evaluación y límites, con una fila de resultados separada por grupos"
+      },
+      "title": {
+        "en": "Model card",
+        "es": "Model card"
+      },
+      "tagline": {
+        "en": "The fact sheet published with an AI model: what it's for, how it was tested, its limits.",
+        "es": "La ficha que se publica con un modelo de IA: para qué sirve, cómo se probó y sus límites."
+      },
+      "aliases": {
+        "en": [
+          "model cards",
+          "system card",
+          "system cards"
+        ],
+        "es": [
+          "model cards",
+          "tarjeta de modelo",
+          "tarjetas de modelo",
+          "tarjetas de modelos",
+          "system card",
+          "system cards"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-multi-agent-system",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-multi-agent-system.svg",
+      "imageAlt": {
+        "en": "A lead agent splits a task into three pieces for three subagents, labeled search, code and review, and their results flow back to it",
+        "es": "Un agente principal divide una tarea en tres partes para tres subagentes, rotulados buscar, programar y revisar, y los resultados vuelven a él"
+      },
+      "title": {
+        "en": "Multi-agent system",
+        "es": "Sistema multiagente"
+      },
+      "tagline": {
+        "en": "Several AI agents splitting one job, each with its own role, instructions and tools.",
+        "es": "Varios agentes de IA que se reparten un trabajo, cada uno con su rol y sus herramientas."
+      },
+      "aliases": {
+        "en": [
+          "multi-agent systems",
+          "multi-agent",
+          "multiagent system",
+          "subagent",
+          "subagents",
+          "orchestrator agent"
+        ],
+        "es": [
+          "sistemas multiagente",
+          "multiagente",
+          "multi-agent",
+          "subagente",
+          "subagentes",
+          "agente orquestador"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-reserved-instances-and-savings-plans",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud",
+        "aws"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-reserved-instances-and-savings-plans.svg",
+      "imageAlt": {
+        "en": "Two bars of cloud spending: on-demand at full price, and a committed base at a lower price with on-demand only for the peaks on top",
+        "es": "Dos barras de gasto en la nube: todo on-demand a precio completo, y una base comprometida más barata con on-demand solo para los picos arriba"
+      },
+      "title": {
+        "en": "Reserved instances and Savings Plans",
+        "es": "Instancias reservadas y Savings Plans"
+      },
+      "tagline": {
+        "en": "Cheaper cloud prices in exchange for promising to keep using it for one or three years.",
+        "es": "Precios más bajos en la nube a cambio de comprometerte a usarla durante uno o tres años."
+      },
+      "aliases": {
+        "en": [
+          "Reserved Instance",
+          "Reserved Instances",
+          "Savings Plan",
+          "Savings Plans",
+          "committed use discount",
+          "committed use discounts"
+        ],
+        "es": [
+          "instancia reservada",
+          "instancias reservadas",
+          "Reserved Instances",
+          "Savings Plan",
+          "Savings Plans",
+          "descuentos por compromiso de uso"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-semantic-search",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai",
+        "data"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-semantic-search.svg",
+      "imageAlt": {
+        "en": "The query \"can't log in\" lands as a point on a map of meanings, right next to the document \"reset your password\" and far from \"shipping times\"",
+        "es": "La búsqueda \"can't log in\" cae como un punto en un mapa de significados, justo al lado del documento \"reset your password\" y lejos de \"shipping times\""
+      },
+      "title": {
+        "en": "Semantic search",
+        "es": "Búsqueda semántica"
+      },
+      "tagline": {
+        "en": "Search that finds results by meaning, not by matching the exact words you typed.",
+        "es": "Una búsqueda que encuentra resultados por su significado, no por las palabras exactas."
+      },
+      "aliases": {
+        "en": [
+          "vector search",
+          "similarity search",
+          "hybrid search",
+          "neural search"
+        ],
+        "es": [
+          "semantic search",
+          "búsqueda vectorial",
+          "búsqueda por similitud",
+          "búsqueda híbrida"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-shared-responsibility-model",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud",
+        "security"
+      ],
+      "level": 2,
+      "image": "img/2026-11-09-shared-responsibility-model.svg",
+      "imageAlt": {
+        "en": "A stack of layers split in two: the provider looks after the building, hardware and network at the bottom, the customer looks after data, access and settings on top",
+        "es": "Una pila de capas dividida en dos: el proveedor se ocupa del edificio, el hardware y la red abajo, y el cliente de los datos, los accesos y la configuración arriba"
+      },
+      "title": {
+        "en": "Shared responsibility model",
+        "es": "Modelo de responsabilidad compartida"
+      },
+      "tagline": {
+        "en": "Who secures what in the cloud: the provider, the customer, or both.",
+        "es": "Quién cuida qué en la nube: el proveedor, el cliente o los dos."
+      },
+      "aliases": {
+        "en": [
+          "shared responsibility"
+        ],
+        "es": [
+          "responsabilidad compartida",
+          "shared responsibility model"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-aws-global-accelerator",
+      "date": "2026-11-09",
+      "subjects": [
+        "aws",
+        "networks"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-aws-global-accelerator.svg",
+      "imageAlt": {
+        "en": "Users on two continents reach the nearest AWS edge through the same static IP, then travel over the AWS network to healthy endpoints in two regions",
+        "es": "Usuarios en dos continentes llegan al borde de AWS más cercano por la misma IP fija y de ahí viajan por la red de AWS a endpoints sanos en dos regiones"
+      },
+      "title": {
+        "en": "AWS Global Accelerator",
+        "es": "AWS Global Accelerator"
+      },
+      "tagline": {
+        "en": "Fixed IP addresses that pull users onto AWS's own network near them and route to a healthy region.",
+        "es": "IPs fijas que suben a tus usuarios a la red de AWS cerca de ellos y los llevan a una región sana."
+      },
+      "aliases": {
+        "en": [
+          "Global Accelerator"
+        ],
+        "es": [
+          "Global Accelerator"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-golden-image",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-golden-image.svg",
+      "imageAlt": {
+        "en": "A build pipeline that patches, tests and saves a versioned golden image, which is then copied into three identical new servers",
+        "es": "Un pipeline que parchea, prueba y guarda una golden image con versión, que después se copia en tres servidores nuevos idénticos"
+      },
+      "title": {
+        "en": "Golden image",
+        "es": "Golden image"
+      },
+      "tagline": {
+        "en": "A pre-built, approved server template that every new machine is copied from.",
+        "es": "Una plantilla de servidor ya armada y aprobada, de la que se copia cada máquina nueva."
+      },
+      "aliases": {
+        "en": [
+          "golden images",
+          "golden AMI",
+          "golden AMIs"
+        ],
+        "es": [
+          "golden images",
+          "imagen dorada",
+          "imágenes doradas",
+          "golden AMI"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-learning-rate",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-learning-rate.svg",
+      "imageAlt": {
+        "en": "Three paths down the same valley: tiny steps that barely move, big steps that bounce across and out, and medium steps that reach the bottom",
+        "es": "Tres caminos por el mismo valle: pasos mínimos que casi no avanzan, pasos enormes que rebotan de lado a lado y se salen, y pasos medianos que llegan al fondo"
+      },
+      "title": {
+        "en": "Learning rate",
+        "es": "Tasa de aprendizaje"
+      },
+      "tagline": {
+        "en": "The size of the step a model takes each time training adjusts its weights.",
+        "es": "El largo del paso que da un modelo cada vez que el entrenamiento ajusta sus pesos."
+      },
+      "aliases": {
+        "en": [
+          "learning rates",
+          "learning rate schedule",
+          "learning rate warmup",
+          "learning rate decay"
+        ],
+        "es": [
+          "tasas de aprendizaje",
+          "learning rate",
+          "ritmo de aprendizaje",
+          "calendario de la tasa de aprendizaje"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-lora",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-lora.svg",
+      "imageAlt": {
+        "en": "A large frozen weight matrix with a lock, plus a small update built from two thin matrices, A and B, that get trained and added on top",
+        "es": "Una matriz de pesos grande y congelada con un candado, más una actualización chica armada con dos matrices finitas, A y B, que son las que se entrenan y se suman arriba"
+      },
+      "title": {
+        "en": "LoRA",
+        "es": "LoRA"
+      },
+      "tagline": {
+        "en": "A cheap way to fine-tune a big model by training a small add-on instead of every weight.",
+        "es": "Una forma barata de hacer fine-tuning de un modelo grande entrenando un agregado chico."
+      },
+      "aliases": {
+        "en": [
+          "Low-Rank Adaptation",
+          "QLoRA",
+          "LoRA adapter",
+          "LoRA adapters",
+          "LoRAs"
+        ],
+        "es": [
+          "Low-Rank Adaptation",
+          "adaptación de bajo rango",
+          "QLoRA",
+          "adaptador LoRA",
+          "adaptadores LoRA",
+          "LoRAs"
+        ]
+      },
+      "caseSensitive": true
+    },
+    {
+      "id": "2026-11-09-loss-function",
+      "date": "2026-11-09",
+      "subjects": [
+        "ai"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-loss-function.svg",
+      "imageAlt": {
+        "en": "A model's prediction and the correct answer go into a loss box that outputs one number; next to it, a chart where that number falls as training goes on",
+        "es": "La predicción de un modelo y la respuesta correcta entran a una caja de pérdida que devuelve un solo número; al lado, un gráfico donde ese número baja a medida que avanza el entrenamiento"
+      },
+      "title": {
+        "en": "Loss function",
+        "es": "Función de pérdida"
+      },
+      "tagline": {
+        "en": "The single number that says how wrong a model is, so training can shrink it.",
+        "es": "El número que dice cuánto se equivoca un modelo, para que entrenar sea bajarlo."
+      },
+      "aliases": {
+        "en": [
+          "loss functions",
+          "cost function",
+          "objective function",
+          "training loss",
+          "validation loss",
+          "cross-entropy loss"
+        ],
+        "es": [
+          "funciones de pérdida",
+          "función de costo",
+          "función de coste",
+          "loss function",
+          "pérdida de entrenamiento",
+          "pérdida de validación"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-multi-region-architecture",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-multi-region-architecture.svg",
+      "imageAlt": {
+        "en": "Users sent by global DNS to two cloud regions far apart, each running the app, with their databases replicating to each other across the distance",
+        "es": "Usuarios que un DNS global manda a dos regiones cloud lejanas, cada una corriendo la aplicación, con sus bases de datos replicándose entre sí a la distancia"
+      },
+      "title": {
+        "en": "Multi-region architecture",
+        "es": "Arquitectura multirregión"
+      },
+      "tagline": {
+        "en": "Running an application in several cloud regions so it survives losing a whole one.",
+        "es": "Correr una aplicación en varias regiones cloud para que aguante perder una entera."
+      },
+      "aliases": {
+        "en": [
+          "multi-region",
+          "multi-region deployment",
+          "multi-region deployments"
+        ],
+        "es": [
+          "multirregión",
+          "multi-región",
+          "despliegue multirregión",
+          "multi-region architecture"
+        ]
+      }
+    },
+    {
+      "id": "2026-11-09-openstack",
+      "date": "2026-11-09",
+      "subjects": [
+        "cloud"
+      ],
+      "level": 3,
+      "image": "img/2026-11-09-openstack.svg",
+      "imageAlt": {
+        "en": "A row of ordinary servers with OpenStack on top, split into services for compute, network, disks, objects and identity, and a dashboard and API above",
+        "es": "Una fila de servidores comunes con OpenStack encima, dividido en servicios de cómputo, red, discos, objetos e identidad, y un panel y una API arriba"
+      },
+      "title": {
+        "en": "OpenStack",
+        "es": "OpenStack"
+      },
+      "tagline": {
+        "en": "Open source software for building your own cloud on your own servers.",
+        "es": "Software open source para armar tu propia nube sobre tus propios servidores."
+      },
+      "aliases": {
+        "en": [],
+        "es": []
+      }
+    },
     {
       "id": "2026-11-08-4g-lte",
       "date": "2026-11-08",

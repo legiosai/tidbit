@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <ellipse cx="200" cy="64" rx="96" ry="34" fill="#9ac7ea"/>
+    <rect x="40" y="150" width="70" height="44" rx="4" fill="#e6dfd0"/>
+    <path d="M30 202 H120 L112 194 H38 Z" fill="#e6dfd0"/>
+    <rect x="165" y="140" width="70" height="62" rx="4" fill="#e6dfd0"/>
+    <path d="M173 156 H227 M173 170 H227 M173 184 H227" fill="none"/>
+    <rect x="290" y="150" width="70" height="44" rx="4" fill="#e6dfd0"/>
+    <path d="M280 202 H370 L362 194 H298 Z" fill="#e6dfd0"/>
+    <circle cx="100" cy="160" r="6" fill="#f4a7a7"/><circle cx="225" cy="148" r="6" fill="#f4a7a7"/><circle cx="350" cy="160" r="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M88 146 L130 92"/><path d="M124 94 l6 -2 0 7"/>
+    <path d="M200 136 V100"/><path d="M196 106 l4 -6 4 6"/>
+    <path d="M312 146 L270 92"/><path d="M303 143 L312 146 L311 137"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="60">Falcon cloud</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="78">spot the attack</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="75" y="220">laptop</text><text x="200" y="220">server</text><text x="325" y="220">laptop</text>
+    <text x="90" y="118">activity</text><text x="316" y="118">updates</text>
+  </g>
+  <text x="200" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">a sensor (pink) on each machine</text>
+</svg>

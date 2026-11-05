@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <circle cx="70" cy="90" r="44" fill="#ffd166"/>
+    <rect x="140" y="60" width="60" height="38" rx="4" fill="#9ac7ea"/>
+    <rect x="132" y="98" width="76" height="8" rx="3" fill="#e6dfd0"/>
+    <circle cx="150" cy="134" r="10" fill="#f4a7a7"/><circle cx="190" cy="134" r="10" fill="#9bd1b9"/>
+    <rect x="290" y="40" width="90" height="60" rx="6" fill="#9bd1b9"/>
+    <rect x="275" y="130" width="120" height="16" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M70 90 V60"/><path d="M70 90 L92 102"/>
+    <path d="M214 90 H276"/><path d="M270 86 l6 4 -6 4"/>
+    <path d="M335 100 V130"/>
+    <path d="M300 82 L320 64 L340 76 L366 52"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="160">48 hours</text><text x="170" y="164">team</text><text x="335" y="166">demo + prizes</text>
+  </g>
+  <text x="200" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">idea → working prototype, fast</text>
+</svg>

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-10-data-partitioning",
+  "date": "2026-11-10",
+  "subjects": ["data"],
+  "level": 3,
+  "aliases": {
+    "en": ["table partitioning", "partitioned table", "partitioned tables", "partition pruning", "sharding", "sharded", "database shard", "database shards"],
+    "es": ["particionado", "particionamiento", "particionamiento de datos", "tabla particionada", "tablas particionadas", "data partitioning", "sharding"]
+  },
+  "image": "img/2026-11-10-data-partitioning.svg",
+  "imageAlt": {
+    "en": "A big sales table split into monthly partitions; a query for November reads only the November piece and skips the rest",
+    "es": "Una tabla de ventas grande dividida en particiones por mes; una consulta de noviembre lee solo esa parte y saltea el resto"
+  },
+  "en": {
+    "title": "Data partitioning",
+    "tagline": "Splitting a huge table into pieces by a key, so queries only touch what they need.",
+    "explanation": [
+      "**Data partitioning** means splitting one large table or dataset into smaller pieces, called partitions, according to a column such as date, country or customer ID. To the person writing SQL it still looks like one table, but under the hood each partition is stored separately.",
+      "The main payoff is **partition pruning**. If a sales table is partitioned by month and you ask for November, the database reads only the November partition and skips the other years of data entirely. In a data lake the same idea shows up as folders like `year=2026/month=11/` full of Parquet files, and engines like Spark or Athena read only the folders that match. Partitions also make housekeeping cheap: deleting a month of old data is dropping one partition instead of hunting for millions of rows.",
+      "When partitions are spread across different servers, it is called **sharding**, and it is how very large apps spread load beyond what one machine can handle. The hard part is picking the key. Partition by something queries rarely filter on and you get no benefit; pick a key where one value gets most of the traffic, such as one giant customer, and you create a **hot partition** that becomes the bottleneck while the others sit idle."
+    ],
+    "analogy": "Like an archive that stores invoices in one box per month instead of one giant pile: to find something from November you open one box, and to throw away 2019 you carry out twelve boxes.",
+    "keyPoints": [
+      "Splits a table by a key such as date or region; queries still see one table.",
+      "Partition pruning lets a query skip every partition it does not need.",
+      "Sharding is partitioning across several servers.",
+      "A poorly chosen key gives no speedup or creates a hot partition."
+    ],
+    "links": [
+      { "label": "Partition (database) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Partition_(database)" },
+      { "label": "Table partitioning (PostgreSQL docs)", "url": "https://www.postgresql.org/docs/current/ddl-partitioning.html" },
+      { "label": "Shard (database architecture) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Shard_(database_architecture)" }
+    ]
+  },
+  "es": {
+    "title": "Particionado de datos",
+    "tagline": "Partir una tabla enorme en pedazos según una clave, para leer solo lo necesario.",
+    "explanation": [
+      "El **particionado de datos** consiste en dividir una tabla o un conjunto de datos grande en pedazos más chicos, llamados particiones, según una columna como la fecha, el país o el ID de cliente. Para quien escribe SQL sigue pareciendo una sola tabla, pero por debajo cada partición se guarda por separado.",
+      "La ganancia principal es la **poda de particiones** (partition pruning). Si una tabla de ventas está particionada por mes y pedís noviembre, la base lee solo la partición de noviembre y saltea por completo los otros años de datos. En un data lake la misma idea aparece como carpetas del estilo `year=2026/month=11/` llenas de archivos Parquet, y motores como Spark o Athena leen solo las carpetas que coinciden. Las particiones también abaratan el mantenimiento: borrar un mes viejo es tirar una partición, no salir a buscar millones de filas.",
+      "Cuando las particiones se reparten entre distintos servidores se llama **sharding**, y es la forma en que las apps muy grandes distribuyen la carga más allá de lo que aguanta una sola máquina. Lo difícil es elegir la clave. Si particionás por algo que las consultas casi nunca filtran, no ganás nada; si elegís una clave donde un solo valor se lleva casi todo el tráfico, como un cliente gigante, armás una **partición caliente** que se vuelve el cuello de botella mientras las demás están ociosas."
+    ],
+    "analogy": "Como un archivo que guarda las facturas en una caja por mes en lugar de una pila gigante: para buscar algo de noviembre abrís una caja, y para tirar 2019 sacás doce cajas.",
+    "keyPoints": [
+      "Divide una tabla por una clave como fecha o región; las consultas la siguen viendo como una sola.",
+      "La poda de particiones permite saltear todo lo que la consulta no necesita.",
+      "El sharding es particionar repartiendo entre varios servidores.",
+      "Una clave mal elegida no acelera nada o genera una partición caliente."
+    ],
+    "links": [
+      { "label": "Partición (base de datos) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Partición_(base_de_datos)" },
+      { "label": "Particionado de tablas (documentación de PostgreSQL, en inglés)", "url": "https://www.postgresql.org/docs/current/ddl-partitioning.html" }
+    ]
+  }
+}

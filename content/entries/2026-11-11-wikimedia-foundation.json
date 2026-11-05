@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-wikimedia-foundation",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Wikipedia", "Wikimedia", "Wikidata", "Wikimedia Commons"],
+    "es": ["Wikimedia Foundation", "Wikipedia", "Wikimedia", "Wikidata", "Wikimedia Commons"]
+  },
+  "image": "img/2026-11-11-wikimedia-foundation.svg",
+  "imageAlt": {
+    "en": "Volunteers write and edit articles, donors fund the servers, and the foundation keeps the site running for everyone",
+    "es": "Voluntarios escriben y editan artículos, los donantes pagan los servidores y la fundación mantiene el sitio andando para todos"
+  },
+  "en": {
+    "title": "Wikimedia Foundation",
+    "tagline": "The nonprofit that keeps Wikipedia online, funded mostly by donations.",
+    "explanation": [
+      "The **Wikimedia Foundation** is the American nonprofit, based in San Francisco, that runs **Wikipedia** and its sister projects. Wikipedia was launched in 2001 by Jimmy Wales and Larry Sanger as a free encyclopedia anyone can edit; the foundation was created in 2003 to own and operate it.",
+      "A key detail: the foundation does not write the articles. Volunteers do, in more than 300 languages, arguing over sources and fixing each other's edits. The foundation pays for the servers and the engineers, develops MediaWiki (the open source software behind the sites), handles legal issues and supports the volunteer communities. Its other projects include Wiktionary, **Wikimedia Commons** for free images and media, and **Wikidata**, a database of facts that computers can read.",
+      "There are no ads. The money comes mostly from donations, many of them small, which is why you see those fundraising banners once a year. Wikipedia matters well beyond its readers: search engines show its text in their answer boxes, and its articles have been a common ingredient in the data used to train AI language models."
+    ],
+    "analogy": "The caretaker of a huge public library where the visitors themselves write and correct the books: the caretaker keeps the lights on and the doors open, but doesn't decide what goes on the shelves.",
+    "keyPoints": [
+      "A nonprofit founded in 2003; Wikipedia itself launched in 2001.",
+      "Volunteers write the articles; the foundation runs the infrastructure.",
+      "No ads: funded mainly by donations.",
+      "Also hosts Wiktionary, Wikimedia Commons and Wikidata."
+    ],
+    "links": [
+      { "label": "Wikimedia Foundation (official)", "url": "https://wikimediafoundation.org/" },
+      { "label": "Wikimedia Foundation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Wikimedia_Foundation" }
+    ]
+  },
+  "es": {
+    "title": "Fundación Wikimedia",
+    "tagline": "La organización sin fines de lucro que mantiene Wikipedia, con donaciones.",
+    "explanation": [
+      "La **Fundación Wikimedia** es la organización estadounidense sin fines de lucro, con sede en San Francisco, que maneja **Wikipedia** y sus proyectos hermanos. Wikipedia nació en 2001, de la mano de Jimmy Wales y Larry Sanger, como una enciclopedia libre que cualquiera puede editar; la fundación se creó en 2003 para hacerse cargo de ella.",
+      "Un detalle clave: la fundación no escribe los artículos. Los escriben voluntarios, en más de 300 idiomas, discutiendo fuentes y corrigiéndose entre ellos. La fundación paga los servidores y los ingenieros, desarrolla MediaWiki (el software de código abierto detrás de los sitios), se ocupa de los temas legales y apoya a las comunidades de voluntarios. Entre sus otros proyectos están Wikcionario, **Wikimedia Commons** para imágenes y archivos libres, y **Wikidata**, una base de datos de hechos que las computadoras pueden leer.",
+      "No tiene publicidad. La plata viene sobre todo de donaciones, muchas chiquitas, y por eso ves esos carteles pidiendo ayuda una vez por año. Wikipedia pesa mucho más allá de sus lectores: los buscadores muestran su texto en los recuadros de respuesta, y sus artículos fueron un ingrediente habitual de los datos con los que se entrenan los modelos de lenguaje de IA."
+    ],
+    "analogy": "El encargado de una enorme biblioteca pública donde los mismos visitantes escriben y corrigen los libros: mantiene la luz prendida y las puertas abiertas, pero no decide qué va en los estantes.",
+    "keyPoints": [
+      "Organización sin fines de lucro creada en 2003; Wikipedia arrancó en 2001.",
+      "Los voluntarios escriben los artículos; la fundación pone la infraestructura.",
+      "Sin publicidad: se financia sobre todo con donaciones.",
+      "También aloja Wikcionario, Wikimedia Commons y Wikidata."
+    ],
+    "links": [
+      { "label": "Fundación Wikimedia en Wikipedia", "url": "https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Wikimedia" },
+      { "label": "Wikimedia Foundation (sitio oficial, en inglés)", "url": "https://wikimediafoundation.org/" }
+    ]
+  }
+}

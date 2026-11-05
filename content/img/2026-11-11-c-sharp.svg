@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="90" width="96" height="52" rx="8" fill="#9ac7ea"/>
+    <rect x="152" y="70" width="80" height="92" rx="10" fill="#ffd166"/>
+    <rect x="276" y="28" width="104" height="46" rx="8" fill="#e6dfd0"/>
+    <rect x="276" y="94" width="104" height="46" rx="8" fill="#9bd1b9"/>
+    <rect x="276" y="160" width="104" height="46" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M122 116 H146"/><path d="M140 112 l6 4 -6 4"/>
+    <path d="M234 100 L270 54"/><path d="M262 56 l8 -2 0 8"/>
+    <path d="M234 116 H270"/><path d="M264 112 l6 4 -6 4"/>
+    <path d="M234 132 L270 178"/><path d="M262 176 l8 2 0 -8"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="72" y="121">Game.cs</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="192" y="121">.NET</text>
+    <text x="328" y="56">Windows app</text><text x="328" y="122">web server</text><text x="328" y="188">game</text>
+  </g>
+  <text x="192" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">runtime</text>
+  <text x="140" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one language, many targets</text>
+</svg>

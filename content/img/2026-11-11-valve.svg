@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="50" width="70" height="30" rx="5" fill="#9ac7ea"/>
+    <rect x="24" y="96" width="70" height="30" rx="5" fill="#9bd1b9"/>
+    <rect x="24" y="142" width="70" height="30" rx="5" fill="#f4a7a7"/>
+    <rect x="150" y="56" width="100" height="110" rx="10" fill="#ffd166"/>
+    <rect x="164" y="84" width="20" height="26" rx="2" fill="#9ac7ea"/><rect x="190" y="84" width="20" height="26" rx="2" fill="#9bd1b9"/><rect x="216" y="84" width="20" height="26" rx="2" fill="#f4a7a7"/>
+    <rect x="300" y="50" width="60" height="40" rx="3" fill="#e6dfd0"/>
+    <path d="M320 90 V100 M310 100 H340" fill="none"/>
+    <rect x="290" y="130" width="84" height="38" rx="14" fill="#e6dfd0"/>
+    <rect x="312" y="136" width="40" height="26" rx="2" fill="#9ac7ea"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M98 65 L146 90"/><path d="M98 111 H146"/><path d="M98 157 L146 132"/>
+    <path d="M140 107 l6 4 -6 4"/>
+    <path d="M254 92 L294 72"/><path d="M254 136 L286 146"/>
+    <path d="M200 170 V196 H59 V176"/><path d="M55 182 l4 -6 4 6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="59" y="69">studio</text><text x="59" y="115">studio</text><text x="59" y="161">indie dev</text>
+    <text x="200" y="76">Steam store</text><text x="200" y="130">buy</text><text x="200" y="146">download</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="330" y="118">PC</text><text x="332" y="184">Steam Deck</text>
+    <text x="130" y="212">sales minus Valve's cut</text>
+  </g>
+  <text x="200" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">a store between game makers and players</text>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-big-o-notation",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 3,
+  "aliases": {
+    "en": ["Big O", "Big-O notation", "time complexity"],
+    "es": ["Big O", "notación O grande", "complejidad temporal"]
+  },
+  "image": "img/2026-11-11-big-o-notation.svg",
+  "imageAlt": {
+    "en": "A chart of work against input size with four curves: flat O(1), slowly rising O(log n), straight O(n) and steeply rising O(n²)",
+    "es": "Un gráfico de trabajo según el tamaño de la entrada con cuatro curvas: plana O(1), que sube despacio O(log n), recta O(n) y que se dispara O(n²)"
+  },
+  "en": {
+    "title": "Big O notation",
+    "tagline": "A shorthand for how an algorithm's work grows as its input gets bigger.",
+    "explanation": [
+      "**Big O notation** describes how the running time (or memory) of an algorithm grows as the amount of data grows, ignoring the details of any particular computer. It does not say \"this takes 2 seconds\"; it says \"if you double the data, this takes roughly twice as long\" or \"four times as long\". Written as `O(n)`, `O(n²)` and so on, where `n` is the size of the input.",
+      "A few classes cover most everyday cases. `O(1)`, constant: reading item 500 of an array, or looking up a key in a hash table, takes about the same time no matter how much data there is. `O(log n)`, logarithmic: binary search on a sorted list of a million items needs only about 20 comparisons, because each step throws away half. `O(n)`, linear: checking every item once. `O(n log n)`: good general-purpose sorting. `O(n²)`, quadratic: comparing every item with every other item, fine for a hundred but painful for a million.",
+      "The notation describes the worst case and keeps only the part that dominates as `n` gets large, so `3n + 50` is simply `O(n)`. That is why it matters in practice: a quadratic piece of code that ran instantly in testing with 1,000 rows can bring a service to its knees in production with 1,000,000, because the work grew a million-fold rather than a thousand-fold. Engineers use Big O to compare approaches before writing them and to explain why something got slow."
+    ],
+    "analogy": "Planning a party. Sending one group message is the same effort for 10 or 100 guests, O(1). Writing each guest a card grows with the guest list, O(n). Introducing every guest to every other guest explodes, O(n²).",
+    "keyPoints": [
+      "Describes growth of work as data grows, not exact seconds.",
+      "Common classes: O(1), O(log n), O(n), O(n log n), O(n²).",
+      "Only the dominant term counts: 3n + 50 is O(n).",
+      "Explains why code that is fast in testing can crawl at real scale."
+    ],
+    "links": [
+      { "label": "Big O notation on Wikipedia", "url": "https://en.wikipedia.org/wiki/Big_O_notation" },
+      { "label": "Time complexity on Wikipedia", "url": "https://en.wikipedia.org/wiki/Time_complexity" }
+    ]
+  },
+  "es": {
+    "title": "Notación Big O",
+    "tagline": "Una forma abreviada de decir cuánto crece el trabajo de un algoritmo con más datos.",
+    "explanation": [
+      "La **notación Big O** (o notación O grande) describe cómo crece el tiempo (o la memoria) que usa un algoritmo a medida que crece la cantidad de datos, sin importar los detalles de una computadora en particular. No dice \"esto tarda 2 segundos\"; dice \"si duplicás los datos, tarda más o menos el doble\" o \"cuatro veces más\". Se escribe `O(n)`, `O(n²)` y así, donde `n` es el tamaño de la entrada.",
+      "Unas pocas clases cubren casi todos los casos cotidianos. `O(1)`, constante: leer el elemento 500 de un arreglo, o buscar una clave en una tabla hash, tarda más o menos lo mismo haya los datos que haya. `O(log n)`, logarítmica: la búsqueda binaria en una lista ordenada de un millón de elementos necesita unas 20 comparaciones, porque cada paso descarta la mitad. `O(n)`, lineal: revisar cada elemento una vez. `O(n log n)`: los buenos métodos de ordenamiento de uso general. `O(n²)`, cuadrática: comparar cada elemento con todos los demás, bien para cien, un sufrimiento para un millón.",
+      "La notación describe el peor caso y se queda solo con la parte que domina cuando `n` se hace grande, así que `3n + 50` es simplemente `O(n)`. Por eso importa en la práctica: un pedazo de código cuadrático que andaba al instante en las pruebas con 1.000 filas puede tumbar un servicio en producción con 1.000.000, porque el trabajo se multiplicó por un millón y no por mil. Los ingenieros usan Big O para comparar enfoques antes de escribirlos y para explicar por qué algo se puso lento."
+    ],
+    "analogy": "Organizar una fiesta. Mandar un mensaje al grupo cuesta lo mismo con 10 o con 100 invitados, O(1). Escribirle una tarjeta a cada uno crece con la lista, O(n). Presentar a cada invitado con todos los demás explota, O(n²).",
+    "keyPoints": [
+      "Describe cómo crece el trabajo con los datos, no los segundos exactos.",
+      "Clases comunes: O(1), O(log n), O(n), O(n log n), O(n²).",
+      "Solo cuenta el término que domina: 3n + 50 es O(n).",
+      "Explica por qué un código rápido en las pruebas se arrastra a escala real."
+    ],
+    "links": [
+      { "label": "Cota superior asintótica (Big O) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Cota_superior_asintótica" },
+      { "label": "Complejidad temporal en Wikipedia", "url": "https://es.wikipedia.org/wiki/Complejidad_temporal" }
+    ]
+  }
+}

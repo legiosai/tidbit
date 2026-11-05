@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-10-whois",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "whois lookup",
+      "WHOIS record",
+      "WHOIS records",
+      "RDAP",
+      "Registration Data Access Protocol"
+    ],
+    "es": [
+      "consulta WHOIS",
+      "registro WHOIS",
+      "registros WHOIS",
+      "RDAP",
+      "Registration Data Access Protocol"
+    ]
+  },
+  "image": "img/2026-11-10-whois.svg",
+  "imageAlt": {
+    "en": "A lookup for a domain returns a record card listing registrar, creation date, expiry date and name server, with the owner field blacked out for privacy",
+    "es": "Una consulta por un dominio devuelve una ficha con el registrador, la fecha de alta, la de vencimiento y el name server, con el campo del titular tapado por privacidad"
+  },
+  "en": {
+    "title": "WHOIS",
+    "tagline": "The public lookup that tells you who registered a domain name and when.",
+    "explanation": [
+      "**WHOIS** is a decades-old system for asking \"who is behind this domain or IP address?\". Type a domain into a WHOIS lookup and you get its registration record: which registrar it was bought through, when it was created, when it expires, which name servers it uses, and sometimes who the owner is.",
+      "It is a daily tool for many people. Someone checking whether a domain is free, a security analyst looking at a suspicious link (a phishing site registered three days ago is a red flag), a company chasing a trademark copycat, or a network engineer finding who runs a block of IP addresses, which regional internet registries also publish this way.",
+      "What it shows has changed. Since privacy laws like GDPR took effect in 2018, personal names, emails and phone numbers are usually hidden or replaced by a privacy service. The protocol is also being replaced by **RDAP**, which returns the same kind of data in a structured JSON format with better access control; for generic domains like `.com`, ICANN has made RDAP the official source since 2025. Most lookup websites already query RDAP behind the scenes, so to a user it looks the same."
+    ],
+    "analogy": "The land registry for internet names. You can look up a property and see when it was registered, when the lease ends and which agency handled it; the owner's home phone number is usually not on the public card anymore.",
+    "keyPoints": [
+      "Looks up registration data for a domain or IP address.",
+      "Shows registrar, creation and expiry dates, and name servers.",
+      "Owner contact details are usually redacted since GDPR (2018).",
+      "RDAP, a JSON-based successor, is replacing it."
+    ],
+    "links": [
+      {
+        "label": "WHOIS on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WHOIS"
+      },
+      {
+        "label": "ICANN Registration Data Lookup",
+        "url": "https://lookup.icann.org/"
+      },
+      {
+        "label": "Registration Data Access Protocol (ICANN)",
+        "url": "https://www.icann.org/rdap"
+      }
+    ]
+  },
+  "es": {
+    "title": "WHOIS",
+    "tagline": "La consulta pública que te dice quién registró un dominio y cuándo.",
+    "explanation": [
+      "**WHOIS** (del inglés \"who is\", quién es) es un sistema de hace décadas para preguntar \"¿quién está detrás de este dominio o esta dirección IP?\". Escribís un dominio en una consulta WHOIS y te devuelve su registro: a través de qué registrador se compró, cuándo se creó, cuándo vence, qué name servers usa y, a veces, quién es el titular.",
+      "Es una herramienta de todos los días para mucha gente. Alguien que se fija si un dominio está libre, una analista de seguridad que mira un link sospechoso (un sitio de phishing registrado hace tres días es una señal de alarma), una empresa que persigue a quien copia su marca, o un ingeniero de redes que averigua quién maneja un bloque de direcciones IP, algo que los registros regionales de internet también publican así.",
+      "Lo que muestra cambió. Desde que entraron en vigencia leyes de privacidad como el RGPD en 2018, los nombres, mails y teléfonos personales suelen estar ocultos o reemplazados por un servicio de privacidad. Además, el protocolo está siendo reemplazado por **RDAP**, que devuelve el mismo tipo de datos en un formato JSON estructurado y con mejor control de acceso; para los dominios genéricos como `.com`, ICANN hizo de RDAP la fuente oficial desde 2025. La mayoría de los sitios de consulta ya usan RDAP por detrás, así que para el usuario se ve igual."
+    ],
+    "analogy": "El registro de la propiedad de los nombres de internet. Podés buscar un inmueble y ver cuándo se registró, cuándo vence y qué escribanía lo tramitó; el teléfono particular del dueño ya no suele figurar en la ficha pública.",
+    "keyPoints": [
+      "Consulta los datos de registro de un dominio o una dirección IP.",
+      "Muestra el registrador, las fechas de alta y vencimiento, y los name servers.",
+      "Desde el RGPD (2018), los datos de contacto del titular suelen estar tapados.",
+      "RDAP, su sucesor basado en JSON, lo está reemplazando."
+    ],
+    "links": [
+      {
+        "label": "WHOIS en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/WHOIS"
+      },
+      {
+        "label": "ICANN Registration Data Lookup (en inglés)",
+        "url": "https://lookup.icann.org/"
+      },
+      {
+        "label": "Registration Data Access Protocol (ICANN, en inglés)",
+        "url": "https://www.icann.org/rdap"
+      }
+    ]
+  }
+}

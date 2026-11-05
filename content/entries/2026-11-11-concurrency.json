@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-concurrency",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 3,
+  "aliases": {
+    "en": ["concurrent programming", "race condition", "race conditions"],
+    "es": ["programación concurrente", "condición de carrera", "condiciones de carrera"]
+  },
+  "image": "img/2026-11-11-concurrency.svg",
+  "imageAlt": {
+    "en": "Two tasks interleaving their steps on one timeline while one waits for the network, and two tasks updating a shared counter at the same time",
+    "es": "Dos tareas intercalando sus pasos en una línea de tiempo mientras una espera a la red, y dos tareas actualizando un contador compartido al mismo tiempo"
+  },
+  "en": {
+    "title": "Concurrency",
+    "tagline": "Structuring a program so several tasks can be in progress at the same time.",
+    "explanation": [
+      "**Concurrency** means a program is dealing with several tasks whose lifetimes overlap: while one waits for a file, a database or the network, another can make progress. A web server handling thousands of visitors, or an app that keeps scrolling smoothly while it downloads images, depends on it. The usual tools are threads, separate processes, and `async`/`await`, which lets a single thread pause a task at each slow step and switch to another.",
+      "It is related to, but not the same as, **parallelism**. Concurrency is about structure: juggling many tasks, even on a single CPU core by switching between them. Parallelism is about execution: literally running things at the same instant on several cores. A concurrent program can run in parallel if the hardware allows it, but it does not have to. Go's co-creator Rob Pike summed it up as \"concurrency is about dealing with lots of things at once; parallelism is about doing lots of things at once\".",
+      "The hard part is shared data. If two tasks read a bank balance of 100, each adds 50, and each writes back its result, the balance ends at 150 instead of 200: a **race condition**, where the result depends on who happened to go first. Programmers prevent it with **locks** (only one task may touch the data at a time), atomic operations, or designs that avoid sharing at all, like passing messages. Overdo the locks and you risk a **deadlock**, where two tasks each wait forever for the other's lock. These bugs are notorious because they may appear once in a million runs."
+    ],
+    "analogy": "A cook preparing three dishes. While the pasta boils she chops for the salad, then checks the oven: one person, several dishes in progress. Two cooks would be parallelism, and two cooks reaching for the same pan is a race condition.",
+    "keyPoints": [
+      "Several tasks in progress at once, often while others wait on slow I/O.",
+      "Concurrency is structure; parallelism is running at the same instant.",
+      "Shared data invites race conditions; locks prevent them but can deadlock.",
+      "Concurrency bugs are often rare and hard to reproduce."
+    ],
+    "links": [
+      { "label": "Concurrent computing on Wikipedia", "url": "https://en.wikipedia.org/wiki/Concurrency_(computer_science)" },
+      { "label": "Concurrency is not parallelism (Rob Pike, Go blog)", "url": "https://go.dev/blog/waza-talk" },
+      { "label": "Race condition on Wikipedia", "url": "https://en.wikipedia.org/wiki/Race_condition" }
+    ]
+  },
+  "es": {
+    "title": "Concurrencia",
+    "tagline": "Organizar un programa para que varias tareas estén en marcha al mismo tiempo.",
+    "explanation": [
+      "La **concurrencia** es cuando un programa maneja varias tareas cuyas vidas se superponen: mientras una espera un archivo, una base de datos o la red, otra puede avanzar. Un servidor web que atiende a miles de visitantes, o una app que sigue scrolleando fluida mientras descarga imágenes, dependen de esto. Las herramientas habituales son los threads, los procesos separados y `async`/`await`, que deja que un solo thread pause una tarea en cada paso lento y pase a otra.",
+      "Se relaciona con el **paralelismo**, pero no es lo mismo. La concurrencia tiene que ver con la estructura: hacer malabares con muchas tareas, incluso en un solo núcleo de CPU, alternando entre ellas. El paralelismo tiene que ver con la ejecución: correr cosas literalmente en el mismo instante en varios núcleos. Un programa concurrente puede correr en paralelo si el hardware lo permite, pero no está obligado. Rob Pike, uno de los creadores de Go, lo resumió así: la concurrencia es lidiar con muchas cosas a la vez; el paralelismo es hacer muchas cosas a la vez.",
+      "Lo difícil son los datos compartidos. Si dos tareas leen un saldo de 100, cada una le suma 50 y cada una guarda su resultado, el saldo termina en 150 en vez de 200: una **condición de carrera**, donde el resultado depende de quién llegó primero. Se evita con **locks** (solo una tarea a la vez puede tocar el dato), operaciones atómicas o diseños que directamente no comparten, como pasarse mensajes. Si te pasás con los locks, aparece el **deadlock**: dos tareas esperando para siempre el lock que tiene la otra. Estos errores tienen mala fama porque pueden aparecer una vez cada millón de ejecuciones."
+    ],
+    "analogy": "Una cocinera preparando tres platos. Mientras hierve la pasta corta la ensalada y después mira el horno: una persona, varios platos en marcha. Dos cocineros sería paralelismo, y dos cocineros manoteando la misma sartén es una condición de carrera.",
+    "keyPoints": [
+      "Varias tareas en marcha a la vez, muchas veces mientras otras esperan entrada/salida lenta.",
+      "Concurrencia es estructura; paralelismo es ejecutar en el mismo instante.",
+      "Los datos compartidos invitan a condiciones de carrera; los locks las evitan pero pueden trabarse.",
+      "Los errores de concurrencia suelen ser raros y difíciles de reproducir."
+    ],
+    "links": [
+      { "label": "Concurrencia (informática) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Concurrencia_(informática)" },
+      { "label": "Condición de carrera en Wikipedia", "url": "https://es.wikipedia.org/wiki/Condición_de_carrera" },
+      { "label": "Concurrency is not parallelism (Rob Pike, blog de Go, en inglés)", "url": "https://go.dev/blog/waza-talk" }
+    ]
+  }
+}

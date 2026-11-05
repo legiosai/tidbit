@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-amazon-mq",
+  "date": "2026-11-09",
+  "subjects": ["aws", "software"],
+  "level": 2,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-09-amazon-mq.svg",
+  "imageAlt": {
+    "en": "Two apps exchange messages through a managed broker box that runs ActiveMQ or RabbitMQ",
+    "es": "Dos aplicaciones se pasan mensajes a través de una caja de broker administrado que corre ActiveMQ o RabbitMQ"
+  },
+  "en": {
+    "title": "Amazon MQ",
+    "tagline": "ActiveMQ or RabbitMQ message brokers, run for you by AWS.",
+    "explanation": [
+      "A **message broker** is a piece of software that sits between applications and passes messages from one to another. The order system drops a message saying \"new order 512\"; the billing and shipping systems pick it up when they are ready. If one of them is down for a minute, the message waits instead of getting lost. Apache ActiveMQ and RabbitMQ are two popular open source brokers, used in many companies for years.",
+      "**Amazon MQ** runs those same brokers for you. You choose ActiveMQ Classic or RabbitMQ, pick a size, and AWS handles the servers, patches, version upgrades, encryption and monitoring through CloudWatch. You can run a setup spread across availability zones, so a broker keeps working if one data center fails.",
+      "Its main use is moving existing applications to AWS without rewriting their messaging code, because Amazon MQ supports the standard APIs and protocols those apps already use, such as JMS, AMQP, MQTT or STOMP. For a new application built only for AWS, Amazon SQS and Amazon SNS are usually simpler and scale with less tuning."
+    ],
+    "analogy": "A building's mailroom, staffed and maintained by someone else: you keep using the same mailboxes and forms you always used, but you no longer hire the clerks or fix the sorting machine.",
+    "keyPoints": [
+      "Managed service for Apache ActiveMQ Classic and RabbitMQ brokers.",
+      "Speaks standard protocols, so existing apps can move without code changes.",
+      "AWS handles patching, upgrades, encryption and monitoring.",
+      "For brand new cloud apps, SQS and SNS are often the simpler choice."
+    ],
+    "links": [
+      { "label": "What is Amazon MQ? (official docs)", "url": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html" },
+      { "label": "Amazon MQ product page", "url": "https://aws.amazon.com/amazon-mq/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon MQ",
+    "tagline": "Brokers de mensajes ActiveMQ o RabbitMQ que AWS administra por vos.",
+    "explanation": [
+      "Un **broker de mensajes** es un software que se para entre aplicaciones y pasa mensajes de una a otra. El sistema de pedidos deja un mensaje que dice \"pedido nuevo 512\"; facturación y envíos lo levantan cuando están listos. Si uno de ellos se cae un minuto, el mensaje espera en vez de perderse. Apache ActiveMQ y RabbitMQ son dos brokers open source muy usados, presentes en muchas empresas desde hace años.",
+      "**Amazon MQ** corre esos mismos brokers por vos. Elegís ActiveMQ Classic o RabbitMQ, elegís un tamaño, y AWS se ocupa de los servidores, los parches, las actualizaciones de versión, el cifrado y el monitoreo con CloudWatch. Podés armar una configuración repartida en varias zonas de disponibilidad, para que el broker siga andando si se cae un data center.",
+      "Su uso principal es llevar aplicaciones existentes a AWS sin reescribir su código de mensajería, porque Amazon MQ soporta las APIs y protocolos estándar que esas apps ya usan, como JMS, AMQP, MQTT o STOMP. Para una aplicación nueva pensada solo para AWS, Amazon SQS y Amazon SNS suelen ser más simples y escalan con menos ajustes."
+    ],
+    "analogy": "La sala de correspondencia de un edificio que atiende y mantiene otra empresa: seguís usando los mismos casilleros y formularios de siempre, pero ya no contratás a los empleados ni arreglás la máquina clasificadora.",
+    "keyPoints": [
+      "Servicio administrado para brokers Apache ActiveMQ Classic y RabbitMQ.",
+      "Habla protocolos estándar, así que las apps existentes migran sin cambiar código.",
+      "AWS se encarga de parches, actualizaciones, cifrado y monitoreo.",
+      "Para apps nuevas en la nube, SQS y SNS suelen ser la opción más simple."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon MQ? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/amazon-mq/latest/developer-guide/welcome.html" },
+      { "label": "Página de Amazon MQ", "url": "https://aws.amazon.com/es/amazon-mq/" }
+    ]
+  }
+}

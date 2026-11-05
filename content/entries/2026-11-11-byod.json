@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-byod",
+  "date": "2026-11-11",
+  "subjects": ["security"],
+  "level": 1,
+  "aliases": {
+    "en": ["bring your own device", "BYOD policy", "BYOD policies"],
+    "es": ["bring your own device", "traé tu propio dispositivo", "política BYOD", "políticas BYOD"]
+  },
+  "image": "img/2026-11-11-byod.svg",
+  "imageAlt": {
+    "en": "A personal phone split in two areas: personal apps like photos and games on one side, and a locked work area with mail and files on the other, which the company can wipe",
+    "es": "Un celular personal dividido en dos zonas: apps personales como fotos y juegos de un lado, y una zona de trabajo con candado, con mail y archivos, que la empresa puede borrar"
+  },
+  "en": {
+    "title": "BYOD",
+    "tagline": "Using your own phone or laptop for work, under rules set by your employer.",
+    "explanation": [
+      "**BYOD** stands for \"bring your own device\": instead of handing out company phones and laptops, the employer lets people read work email, join meetings and open documents on the devices they already own. It saves money, and people like carrying one phone instead of two. It also means company data now lives on a device that is used for games, family photos and downloads the IT team never approved.",
+      "So BYOD comes with a policy. Typical rules: the device must have a screen lock and up-to-date software, work apps must be installed through the company's mobile device management (MDM) tool, and if the phone is lost the company can erase the work data. Modern phones make this less invasive with a separate work profile on Android or a managed work account on iPhone: work apps and files live in their own compartment, and a remote wipe removes only that part, not your photos.",
+      "Before you accept, it is worth reading what the company can see. A well-designed setup lets IT see that the work profile is healthy, not your personal messages or browsing. Some workplaces skip BYOD for sensitive roles, such as hospitals or banks, and give out managed devices instead, or only allow work access through a browser that keeps files off the phone."
+    ],
+    "analogy": "Using your own car for deliveries for a company. They put their logo magnet on the door and ask you to keep insurance up to date, but they should not get the keys to your glovebox.",
+    "keyPoints": [
+      "BYOD means work data on a personal device.",
+      "It usually requires a screen lock, updates and an MDM app.",
+      "Work profiles keep work apps and files in their own compartment.",
+      "A good policy lets the company wipe work data, not your photos."
+    ],
+    "links": [
+      { "label": "Bring your own device on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bring_your_own_device" },
+      { "label": "Bring your own device guidance (UK National Cyber Security Centre)", "url": "https://www.ncsc.gov.uk/collection/device-security-guidance/bring-your-own-device" },
+      { "label": "What is BYOD? (IBM)", "url": "https://www.ibm.com/think/topics/byod" }
+    ]
+  },
+  "es": {
+    "title": "BYOD",
+    "tagline": "Usar tu propio celular o computadora para el trabajo, con reglas que pone la empresa.",
+    "explanation": [
+      "**BYOD** viene de \"bring your own device\" (traé tu propio dispositivo): en vez de repartir celulares y notebooks corporativos, la empresa deja que la gente lea el mail del trabajo, entre a reuniones y abra documentos desde los equipos que ya tiene. Ahorra plata, y a la gente le gusta andar con un solo celular en vez de dos. Pero también significa que los datos de la empresa pasan a vivir en un aparato que se usa para jugar, guardar fotos familiares y bajar cosas que el área de IT nunca aprobó.",
+      "Por eso el BYOD viene con una política. Reglas típicas: el equipo tiene que tener bloqueo de pantalla y el software actualizado, las apps de trabajo se instalan a través de la herramienta de gestión de dispositivos móviles (MDM) de la empresa, y si perdés el celular la empresa puede borrar los datos laborales. Los celulares modernos hacen esto menos invasivo con un perfil de trabajo separado en Android o una cuenta de trabajo administrada en iPhone: las apps y archivos del trabajo viven en su propio compartimento, y el borrado remoto elimina solo esa parte, no tus fotos.",
+      "Antes de aceptar, conviene leer qué puede ver la empresa. Una configuración bien hecha le muestra a IT que el perfil de trabajo está sano, no tus mensajes personales ni lo que navegás. Algunos lugares no permiten BYOD para puestos sensibles, como en hospitales o bancos, y entregan equipos administrados, o solo dejan entrar a lo laboral desde un navegador que no guarda archivos en el teléfono."
+    ],
+    "analogy": "Usar tu propio auto para hacer repartos para una empresa. Te pegan el imán con su logo en la puerta y te piden el seguro al día, pero no deberían tener la llave de tu guantera.",
+    "keyPoints": [
+      "BYOD significa datos laborales en un equipo personal.",
+      "Suele exigir bloqueo de pantalla, actualizaciones y una app de MDM.",
+      "Los perfiles de trabajo separan las apps y archivos laborales.",
+      "Una buena política permite borrar lo laboral, no tus fotos."
+    ],
+    "links": [
+      { "label": "Bring your own device en Wikipedia", "url": "https://es.wikipedia.org/wiki/Bring_your_own_device" },
+      { "label": "¿Qué es Bring Your Own Device (BYOD)? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/byod" },
+      { "label": "Guía sobre BYOD (NCSC del Reino Unido, en inglés)", "url": "https://www.ncsc.gov.uk/collection/device-security-guidance/bring-your-own-device" }
+    ]
+  }
+}

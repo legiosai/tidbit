@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-11-despegar",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Despegar.com", "Decolar"],
+    "es": ["Despegar.com", "Decolar"]
+  },
+  "image": "img/2026-11-11-despegar.svg",
+  "imageAlt": {
+    "en": "A search box compares flights and hotels from many airlines and hotels and books the chosen ones in one trip",
+    "es": "Un buscador compara vuelos y hoteles de muchas aerolíneas y hoteles y reserva los elegidos en un solo viaje"
+  },
+  "en": {
+    "title": "Despegar",
+    "tagline": "The Latin American online travel agency for flights, hotels and packages.",
+    "explanation": [
+      "**Despegar** is an online travel agency founded in 1999 in Buenos Aires by Roberto Souviron and a group of partners, at the height of the first internet boom. Its name means \"to take off\" in Spanish; in Brazil, its largest market, it operates as **Decolar**, which means the same in Portuguese.",
+      "Like Booking or Expedia, it doesn't own planes or hotels. It connects to the booking systems of airlines, hotels, car rental companies and tour operators, shows their options side by side, and sells them to you, earning a commission or a margin on each sale. Its strength is local: prices in local currency, payment in installments with local cards, and customer service in Spanish and Portuguese.",
+      "It went public on the New York Stock Exchange in 2017 and grew by buying other travel businesses, like the Mexican agency Best Day in 2020. In 2025 it was acquired by Prosus, a Dutch tech investment group, and left the stock market."
+    ],
+    "analogy": "A travel agent with a phone line to every airline and hotel at once: you say where and when, they read you all the options, and they book the one you pick.",
+    "keyPoints": [
+      "Founded in Buenos Aires in 1999; called Decolar in Brazil.",
+      "Sells flights, hotels, packages and car rentals from other companies.",
+      "Earns a commission or margin on each booking.",
+      "Listed in New York in 2017; acquired by Prosus in 2025."
+    ],
+    "links": [
+      { "label": "Despegar on Wikipedia", "url": "https://en.wikipedia.org/wiki/Despegar" },
+      { "label": "Despegar (official site)", "url": "https://www.despegar.com/" }
+    ]
+  },
+  "es": {
+    "title": "Despegar",
+    "tagline": "La agencia de viajes online latinoamericana de vuelos, hoteles y paquetes.",
+    "explanation": [
+      "**Despegar** es una agencia de viajes online fundada en 1999 en Buenos Aires por Roberto Souviron y un grupo de socios, en plena primera ola de internet. En Brasil, su mercado más grande, opera como **Decolar**, que quiere decir lo mismo en portugués.",
+      "Como Booking o Expedia, no tiene aviones ni hoteles propios. Se conecta a los sistemas de reservas de aerolíneas, hoteles, alquileres de autos y operadores turísticos, te muestra las opciones lado a lado y te las vende, ganando una comisión o un margen en cada venta. Su fuerte es lo local: precios en moneda local, pago en cuotas con tarjetas del país y atención en español y portugués.",
+      "Salió a cotizar en la Bolsa de Nueva York en 2017 y creció comprando otros negocios de viajes, como la agencia mexicana Best Day en 2020. En 2025 la compró Prosus, un grupo inversor tecnológico de los Países Bajos, y dejó de cotizar en bolsa."
+    ],
+    "analogy": "Un agente de viajes con una línea directa a todas las aerolíneas y hoteles a la vez: le decís a dónde y cuándo, te lee todas las opciones y te reserva la que elegís.",
+    "keyPoints": [
+      "Fundada en Buenos Aires en 1999; en Brasil se llama Decolar.",
+      "Vende vuelos, hoteles, paquetes y alquiler de autos de otras empresas.",
+      "Gana una comisión o un margen en cada reserva.",
+      "Cotizó en Nueva York desde 2017; la compró Prosus en 2025."
+    ],
+    "links": [
+      { "label": "Despegar en Wikipedia", "url": "https://es.wikipedia.org/wiki/Despegar.com" },
+      { "label": "Despegar Argentina (sitio oficial)", "url": "https://www.despegar.com.ar/" }
+    ]
+  }
+}

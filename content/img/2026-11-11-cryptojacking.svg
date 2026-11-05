@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="40" width="110" height="66" rx="6" fill="#9ac7ea"/>
+    <path d="M18 112 H152 L144 122 H26 Z" fill="#e6dfd0"/>
+    <rect x="30" y="146" width="110" height="64" rx="8" fill="#e6dfd0"/>
+    <rect x="58" y="56" width="54" height="34" rx="4" fill="#f4a7a7"/>
+    <rect x="62" y="160" width="54" height="34" rx="4" fill="#f4a7a7"/>
+    <circle cx="320" cy="108" r="44" fill="#ffd166"/>
+    <circle cx="300" cy="100" r="11" fill="#ffd166"/>
+    <circle cx="324" cy="96" r="11" fill="#ffd166"/>
+    <circle cx="340" cy="118" r="11" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M146 76 C200 76 230 96 270 102"/><path d="M264 97 l7 5 -7 4"/>
+    <path d="M146 178 C200 178 230 128 270 116"/><path d="M262 114 l8 1 -4 7"/>
+    <path d="M150 52 c4 -6 -4 -10 0 -16"/><path d="M160 52 c4 -6 -4 -10 0 -16"/>
+    <path d="M42 162 H58"/><path d="M42 176 H58"/><path d="M42 190 H58"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="85" y="77">miner</text><text x="89" y="181">miner</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="85" y="140">cloud server</text><text x="320" y="48">attacker's wallet</text>
+    <text x="85" y="28">your laptop</text>
+  </g>
+  <text x="320" y="186" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">coins go here</text>
+  <text x="320" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">the bill goes to you</text>
+</svg>

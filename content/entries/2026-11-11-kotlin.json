@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-kotlin",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["Kotlin language"],
+    "es": ["lenguaje Kotlin"]
+  },
+  "image": "img/2026-11-11-kotlin.svg",
+  "imageAlt": {
+    "en": "Kotlin code and Java code compiled into the same bytecode, which runs on the JVM and on an Android phone",
+    "es": "Código Kotlin y código Java compilados al mismo bytecode, que corre en la JVM y en un teléfono Android"
+  },
+  "en": {
+    "title": "Kotlin",
+    "tagline": "A modern, more concise language that runs where Java runs, and the main one for Android.",
+    "explanation": [
+      "**Kotlin** is a programming language created by JetBrains, the company behind the IntelliJ IDEA editor. It was announced in 2011 and reached version 1.0 in 2016. Like Java, it compiles to bytecode that runs on the JVM, so a Kotlin program can call Java libraries directly, and a team can add Kotlin files to an existing Java project one at a time.",
+      "The point was to keep everything good about the Java world while removing the boilerplate. The same class that takes thirty lines in classic Java can take three in Kotlin. It also attacks one of Java's most common crashes: by default a variable cannot hold `null` (\"nothing\"), and if you want it to, you have to say so with a `?`, so the compiler forces you to handle the empty case before the program ever runs.",
+      "Its big moment came in 2017, when Google announced official Kotlin support for Android; two years later it declared Android development \"Kotlin-first\". Today most new Android apps and Google's own Android samples are written in Kotlin. It is also used for backend servers, and it can compile to JavaScript and to native code for sharing logic between Android and iOS."
+    ],
+    "analogy": "A renovated house on the same foundations. The plumbing and wiring (the JVM and Java libraries) are the same, but the rooms are redesigned so you walk less and trip less.",
+    "keyPoints": [
+      "Made by JetBrains; version 1.0 came out in 2016.",
+      "Runs on the JVM and mixes freely with Java code in the same project.",
+      "Google's preferred language for Android since 2019.",
+      "Built-in null safety catches a whole family of crashes at compile time."
+    ],
+    "links": [
+      { "label": "Get started with Kotlin (official docs)", "url": "https://kotlinlang.org/docs/getting-started.html" },
+      { "label": "Kotlin and Android (Android Developers)", "url": "https://developer.android.com/kotlin" },
+      { "label": "Kotlin on Wikipedia", "url": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)" }
+    ]
+  },
+  "es": {
+    "title": "Kotlin",
+    "tagline": "Un lenguaje moderno y más conciso que corre donde corre Java, y el principal de Android.",
+    "explanation": [
+      "**Kotlin** es un lenguaje de programación creado por JetBrains, la empresa que hace el editor IntelliJ IDEA. Se anunció en 2011 y llegó a la versión 1.0 en 2016. Igual que Java, se compila a bytecode que corre sobre la JVM, así que un programa en Kotlin puede usar librerías de Java directamente, y un equipo puede ir sumando archivos Kotlin a un proyecto Java de a uno.",
+      "La idea era quedarse con todo lo bueno del mundo Java pero sacarle el código de relleno. Una clase que en Java clásico lleva treinta líneas, en Kotlin puede llevar tres. También ataca uno de los errores más comunes de Java: por defecto una variable no puede valer `null` (\"nada\"), y si querés que pueda, lo tenés que marcar con un `?`, así el compilador te obliga a contemplar el caso vacío antes de que el programa llegue a correr.",
+      "Su gran momento fue en 2017, cuando Google anunció soporte oficial de Kotlin para Android; dos años después declaró que el desarrollo para Android pasaba a ser \"Kotlin-first\". Hoy la mayoría de las apps nuevas de Android y los ejemplos oficiales de Google están en Kotlin. También se usa para servidores, y puede compilarse a JavaScript y a código nativo para compartir lógica entre Android e iOS."
+    ],
+    "analogy": "Una casa reciclada sobre los mismos cimientos. La plomería y la instalación eléctrica (la JVM y las librerías de Java) son las mismas, pero los ambientes están rediseñados para que camines menos y te tropieces menos.",
+    "keyPoints": [
+      "Lo hizo JetBrains; la versión 1.0 salió en 2016.",
+      "Corre sobre la JVM y se mezcla sin problema con código Java en el mismo proyecto.",
+      "Es el lenguaje preferido de Google para Android desde 2019.",
+      "Su manejo de `null` frena toda una familia de errores antes de ejecutar."
+    ],
+    "links": [
+      { "label": "Kotlin en Wikipedia", "url": "https://es.wikipedia.org/wiki/Kotlin_(lenguaje_de_programación)" },
+      { "label": "Kotlin y Android (Android Developers)", "url": "https://developer.android.com/kotlin?hl=es-419" },
+      { "label": "Primeros pasos con Kotlin (documentación oficial, en inglés)", "url": "https://kotlinlang.org/docs/getting-started.html" }
+    ]
+  }
+}

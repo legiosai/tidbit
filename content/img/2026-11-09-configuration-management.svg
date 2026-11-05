@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M24 50 H118 L134 66 V190 H24 Z" fill="#e6dfd0"/>
+    <rect x="160" y="100" width="70" height="40" rx="8" fill="#ffd166"/>
+    <rect x="276" y="34" width="100" height="44" rx="6" fill="#9bd1b9"/>
+    <rect x="276" y="98" width="100" height="44" rx="6" fill="#9bd1b9"/>
+    <rect x="276" y="162" width="100" height="44" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b">
+    <text x="34" y="84">users: ana</text>
+    <text x="34" y="106">nginx: on</text>
+    <text x="34" y="128">port: 443</text>
+    <text x="34" y="150">tz: UTC</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="79" y="40">desired state</text>
+    <text x="195" y="160">apply</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="195" y="124">tool</text>
+    <text x="326" y="60">server 1 ✓</text>
+    <text x="326" y="124">server 2 ✓</text>
+    <text x="326" y="182">server 3</text>
+    <text x="326" y="198">drifted → fixed</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M138 120 H154"/><path d="M148 116 l6 4 -6 4"/>
+    <path d="M232 112 L270 62"/><path d="M262 63 l8 -1 -1 8"/>
+    <path d="M232 120 H270"/><path d="M264 116 l6 4 -6 4"/>
+    <path d="M232 128 L270 178"/><path d="M269 170 l1 8 -8 -1"/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-role-based-access-control",
+  "date": "2026-11-11",
+  "subjects": ["security", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["RBAC", "role-based access", "role-based permissions"],
+    "es": ["RBAC", "control de acceso por roles", "acceso basado en roles", "role-based access control"]
+  },
+  "image": "img/2026-11-11-role-based-access-control.svg",
+  "imageAlt": {
+    "en": "Three people are assigned to two roles, nurse and billing; each role holds a set of permissions such as read charts or edit invoices",
+    "es": "Tres personas asignadas a dos roles, enfermería y facturación; cada rol tiene un conjunto de permisos como leer historias clínicas o editar facturas"
+  },
+  "en": {
+    "title": "Role-based access control",
+    "tagline": "Giving permissions to job roles, then putting people in roles, instead of one by one.",
+    "explanation": [
+      "**Role-based access control**, or RBAC, organizes who can do what around roles that mirror jobs: \"nurse\", \"billing\", \"admin\", \"read-only auditor\". Permissions (read patient charts, issue refunds, delete users) are attached to the role, and people are assigned one or more roles. When Ana joins billing, she gets the billing role and instantly has exactly what her colleagues have. When she moves to another team, swapping the role removes the old access.",
+      "The alternative, granting permissions person by person, works for five employees and turns into chaos at five hundred. People pile up access as they change jobs, nobody remembers why someone can export the customer database, and audits become archaeology. RBAC makes the question \"who can touch payroll?\" answerable by looking at one role. It also makes least privilege practical: each role gets only what that job needs.",
+      "You meet RBAC everywhere: the \"Viewer\", \"Editor\" and \"Owner\" levels in a shared document, admin consoles in business software, Kubernetes roles, and cloud permission systems like IAM. NIST published a reference model in the early 2000s that became a standard. Its weak spot is rigidity: when rules depend on context (\"only patients in your own ward, only during your shift\") teams either create dozens of nearly identical roles or move to attribute-based access control (ABAC), which decides using properties of the user, the resource and the moment."
+    ],
+    "analogy": "A hotel key card system. The front desk does not program each door for each employee: it gives a card the \"housekeeping\" profile, which opens guest rooms, or the \"maintenance\" profile, which opens the boiler room. Change the profile and the card changes with it.",
+    "keyPoints": [
+      "Permissions go to roles; people get roles.",
+      "Changing jobs means swapping roles, not editing dozens of grants.",
+      "It makes least privilege and audits manageable.",
+      "When rules depend on context, ABAC is the usual next step."
+    ],
+    "links": [
+      { "label": "Role-based access control on Wikipedia", "url": "https://en.wikipedia.org/wiki/Role-based_access_control" },
+      { "label": "Role Based Access Control project (NIST)", "url": "https://csrc.nist.gov/projects/role-based-access-control" },
+      { "label": "Authorization Cheat Sheet (OWASP)", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html" }
+    ]
+  },
+  "es": {
+    "title": "Control de acceso basado en roles",
+    "tagline": "Dar permisos a roles de trabajo y después asignar personas a esos roles.",
+    "explanation": [
+      "El **control de acceso basado en roles**, o RBAC, organiza quién puede hacer qué alrededor de roles que copian los puestos de trabajo: \"enfermería\", \"facturación\", \"admin\", \"auditor de solo lectura\". Los permisos (leer historias clínicas, hacer reembolsos, borrar usuarios) se le asignan al rol, y a cada persona se le dan uno o más roles. Cuando Ana entra a facturación, recibe el rol de facturación y al toque tiene exactamente lo mismo que sus compañeros. Cuando se pasa a otro equipo, cambiarle el rol le saca el acceso viejo.",
+      "La alternativa, dar permisos persona por persona, funciona con cinco empleados y se vuelve un caos con quinientos. La gente va acumulando accesos a medida que cambia de puesto, nadie se acuerda por qué fulano puede exportar la base de clientes, y cada auditoría es arqueología. Con RBAC, la pregunta \"¿quién puede tocar los sueldos?\" se responde mirando un solo rol. Además vuelve práctico el mínimo privilegio: cada rol tiene solo lo que ese trabajo necesita.",
+      "RBAC aparece por todos lados: los niveles \"Lector\", \"Editor\" y \"Propietario\" de un documento compartido, las consolas de administración de los sistemas de gestión, los roles de Kubernetes y los sistemas de permisos de la nube como IAM. NIST publicó un modelo de referencia a principios de los 2000 que terminó siendo estándar. Su punto débil es la rigidez: cuando las reglas dependen del contexto (\"solo pacientes de tu sector, solo en tu turno\"), los equipos terminan creando decenas de roles casi iguales o pasan al control de acceso basado en atributos (ABAC), que decide según propiedades del usuario, del recurso y del momento."
+    ],
+    "analogy": "El sistema de tarjetas de un hotel. En la recepción no programan cada puerta para cada empleado: le cargan a la tarjeta el perfil \"mucamas\", que abre las habitaciones, o el perfil \"mantenimiento\", que abre la sala de calderas. Cambiás el perfil y la tarjeta cambia con él.",
+    "keyPoints": [
+      "Los permisos van a los roles; las personas reciben roles.",
+      "Cambiar de puesto es cambiar de rol, no tocar decenas de permisos.",
+      "Hace manejables el mínimo privilegio y las auditorías.",
+      "Cuando las reglas dependen del contexto, el paso siguiente suele ser ABAC."
+    ],
+    "links": [
+      { "label": "Control de acceso basado en roles en Wikipedia", "url": "https://es.wikipedia.org/wiki/Control_de_acceso_basado_en_roles" },
+      { "label": "¿Qué es el control de acceso basado en roles (RBAC)? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/rbac" },
+      { "label": "Proyecto Role Based Access Control (NIST, en inglés)", "url": "https://csrc.nist.gov/projects/role-based-access-control" }
+    ]
+  }
+}

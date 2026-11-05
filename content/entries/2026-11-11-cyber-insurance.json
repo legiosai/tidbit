@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-cyber-insurance",
+  "date": "2026-11-11",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["cyber insurance policy", "cyber insurance policies", "cyber liability insurance", "cyber risk insurance", "cybersecurity insurance"],
+    "es": ["ciberseguros", "seguro cibernético", "seguros cibernéticos", "seguro de ciberriesgos", "seguros de ciberriesgos", "cyber insurance"]
+  },
+  "image": "img/2026-11-11-cyber-insurance.svg",
+  "imageAlt": {
+    "en": "An umbrella labeled policy shields a company building from costs like forensics, lawyers and downtime; a green box lists what the insurer requires: MFA, backups, EDR and patches",
+    "es": "Un paraguas marcado como póliza protege el edificio de una empresa de costos como forense, abogados y tiempo caído; un recuadro verde lista lo que exige la aseguradora: MFA, backups, EDR y parches"
+  },
+  "en": {
+    "title": "Cyber insurance",
+    "tagline": "An insurance policy that pays for the costs of a cyberattack or data breach.",
+    "explanation": [
+      "**Cyber insurance** covers the money a company loses when it gets hacked. A serious incident is expensive in many small ways: outside experts for forensics, lawyers, notifying every affected customer, credit monitoring for them, public relations, and the revenue lost while systems are down. A policy can pay for part of that, and many include a hotline that connects the company with an incident response firm within hours. Some policies have also covered ransom payments, which is one of the most debated parts of the market.",
+      "Insurers learned the hard way during the ransomware wave of the late 2010s and early 2020s, when claims grew fast. Since then getting a policy looks a lot like a security audit: questionnaires and scans asking whether you use MFA everywhere, keep offline backups, run EDR on your computers and patch quickly. Missing a basic control can mean a higher premium, a lower limit or no policy at all, so the insurance industry has become one of the forces pushing companies toward better security.",
+      "The fine print matters. Policies have deductibles, caps and exclusions, and the most famous fights were about \"acts of war\". After the 2017 NotPetya attack, which governments attributed to Russia, the food company Mondelez sued its insurer, Zurich, for refusing to pay on those grounds. Insurance does not replace security: it pays for some of the damage, but it does not bring back lost data or customer trust."
+    ],
+    "analogy": "Home insurance for your digital house. It helps pay for the repairs and the hotel while the house is fixed, but it still expects you to lock the door, and it will not give you back the family photos.",
+    "keyPoints": [
+      "It pays for forensics, legal costs, notifications and downtime.",
+      "Insurers now require controls like MFA, backups and EDR.",
+      "Exclusions, such as acts of war, can decide whether it pays.",
+      "It covers costs, not lost data or reputation."
+    ],
+    "links": [
+      { "label": "Cyber insurance on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cyber_insurance" },
+      { "label": "Cyber insurance guidance (UK National Cyber Security Centre)", "url": "https://www.ncsc.gov.uk/guidance/cyber-insurance-guidance" },
+      { "label": "What is cyber insurance? (IBM)", "url": "https://www.ibm.com/think/topics/cyber-insurance" }
+    ]
+  },
+  "es": {
+    "title": "Ciberseguro",
+    "tagline": "Un seguro que paga los costos de un ciberataque o de una filtración de datos.",
+    "explanation": [
+      "El **ciberseguro** cubre la plata que pierde una empresa cuando la hackean. Un incidente serio sale caro por muchos lados: expertos externos para el análisis forense, abogados, avisar a cada cliente afectado, monitoreo de crédito para ellos, comunicación, y lo que se deja de facturar mientras los sistemas están caídos. Una póliza puede pagar parte de eso, y muchas incluyen una línea de emergencia que en pocas horas te conecta con una empresa de respuesta a incidentes. Algunas pólizas también llegaron a cubrir el pago de rescates, uno de los puntos más discutidos del mercado.",
+      "Las aseguradoras aprendieron a los golpes durante la ola de ransomware de fines de los 2010 y principios de los 2020, cuando los reclamos crecieron rápido. Desde entonces, conseguir una póliza se parece bastante a una auditoría de seguridad: cuestionarios y escaneos que preguntan si usás MFA en todos lados, si tenés backups fuera de línea, si corrés un EDR en las computadoras y si parchás rápido. Si falta un control básico, la prima sube, el límite baja o directamente no te aseguran, así que el seguro se volvió una de las fuerzas que empujan a las empresas a cuidarse mejor.",
+      "La letra chica importa. Las pólizas tienen franquicias, topes y exclusiones, y las peleas más famosas fueron por los \"actos de guerra\". Después del ataque NotPetya de 2017, que varios gobiernos atribuyeron a Rusia, la alimenticia Mondelez le hizo juicio a su aseguradora, Zurich, porque se negó a pagar con ese argumento. El seguro no reemplaza a la seguridad: paga parte del daño, pero no te devuelve los datos perdidos ni la confianza de los clientes."
+    ],
+    "analogy": "Un seguro de hogar para tu casa digital. Te ayuda a pagar los arreglos y el hotel mientras reparan, pero igual espera que cierres la puerta con llave, y no te devuelve las fotos familiares.",
+    "keyPoints": [
+      "Paga análisis forense, abogados, avisos a clientes y tiempo caído.",
+      "Las aseguradoras hoy exigen controles como MFA, backups y EDR.",
+      "Las exclusiones, como los actos de guerra, deciden si paga o no.",
+      "Cubre costos, no datos perdidos ni reputación."
+    ],
+    "links": [
+      { "label": "¿Qué es el ciberseguro? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/cyber-insurance" },
+      { "label": "Cyber insurance en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Cyber_insurance" },
+      { "label": "Guía sobre ciberseguros (NCSC del Reino Unido, en inglés)", "url": "https://www.ncsc.gov.uk/guidance/cyber-insurance-guidance" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-10-sql-join",
+  "date": "2026-11-10",
+  "subjects": ["data"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["JOIN", "JOINs", "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+    "es": ["SQL JOIN", "JOIN", "JOINs", "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"]
+  },
+  "image": "img/2026-11-10-sql-join.svg",
+  "imageAlt": {
+    "en": "A customers table and an orders table connected by matching customer IDs, combined into one result table with names next to order amounts",
+    "es": "Una tabla de clientes y una de pedidos unidas por el mismo ID de cliente, combinadas en una tabla resultado con nombres al lado de los importes"
+  },
+  "en": {
+    "title": "SQL JOIN",
+    "tagline": "The SQL command that combines rows from two tables that share a value.",
+    "explanation": [
+      "A **JOIN** is how SQL puts together data that lives in separate tables. A shop keeps customers in one table and orders in another, linked by a customer ID. To list each order next to the customer's name, you write `SELECT … FROM orders JOIN customers ON orders.customer_id = customers.id`, and the database matches every order with its customer.",
+      "There are a few kinds, and the difference is what happens to rows without a match. An **INNER JOIN** keeps only pairs that match: customers who have orders. A **LEFT JOIN** keeps every row from the first table and fills in blanks where the second has nothing, which is how you find customers who never bought anything. RIGHT and FULL OUTER JOIN are the mirror image and the both-sides version.",
+      "Joins are why relational databases split data into tables in the first place: store each fact once, then combine on demand. They are also a classic source of mistakes. Join on the wrong column, or on one that repeats, and rows multiply silently, so a sales total suddenly comes out double. Checking row counts before and after a join is a good habit."
+    ],
+    "analogy": "Like matching a guest list with a seating chart by name: an inner join lists only guests who have a seat, a left join lists every guest and marks who is still waiting for a chair.",
+    "keyPoints": [
+      "Combines rows from two tables using a shared column, set in the ON clause.",
+      "INNER JOIN keeps only matches; LEFT JOIN keeps every row from the first table.",
+      "Joining on a column with repeated values can multiply rows and inflate totals.",
+      "Most data models rely on primary and foreign keys to make joins reliable."
+    ],
+    "links": [
+      { "label": "Joins between tables (PostgreSQL tutorial)", "url": "https://www.postgresql.org/docs/current/tutorial-join.html" },
+      { "label": "Join (SQL) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Join_(SQL)" }
+    ]
+  },
+  "es": {
+    "title": "JOIN en SQL",
+    "tagline": "La instrucción de SQL que combina filas de dos tablas que comparten un valor.",
+    "explanation": [
+      "Un **JOIN** es la forma en que SQL junta datos que viven en tablas separadas. Una tienda guarda los clientes en una tabla y los pedidos en otra, unidos por un ID de cliente. Para ver cada pedido al lado del nombre del cliente escribís `SELECT … FROM pedidos JOIN clientes ON pedidos.cliente_id = clientes.id`, y la base empareja cada pedido con su cliente.",
+      "Hay varios tipos, y la diferencia está en qué pasa con las filas que no encuentran pareja. Un **INNER JOIN** se queda solo con los pares que coinciden: clientes que tienen pedidos. Un **LEFT JOIN** conserva todas las filas de la primera tabla y deja huecos donde la segunda no tiene nada, que es como encontrás a los clientes que nunca compraron. RIGHT y FULL OUTER JOIN son el espejo y la versión de ambos lados.",
+      "Los joins son la razón por la que las bases relacionales separan los datos en tablas: guardás cada dato una sola vez y combinás cuando lo necesitás. También son una fuente clásica de errores. Si unís por la columna equivocada, o por una que se repite, las filas se multiplican sin avisar y un total de ventas te da el doble. Contar filas antes y después de un join es un buen hábito."
+    ],
+    "analogy": "Como cruzar la lista de invitados con el plano de mesas por nombre: un inner join muestra solo a quienes tienen lugar asignado, un left join muestra a todos y marca quién todavía espera silla.",
+    "keyPoints": [
+      "Combina filas de dos tablas usando una columna compartida, indicada en la cláusula ON.",
+      "INNER JOIN se queda solo con las coincidencias; LEFT JOIN conserva todas las filas de la primera tabla.",
+      "Unir por una columna con valores repetidos puede multiplicar filas e inflar los totales.",
+      "La mayoría de los modelos de datos usan claves primarias y foráneas para que los joins sean confiables."
+    ],
+    "links": [
+      { "label": "Sentencia JOIN en SQL (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Join" },
+      { "label": "Joins entre tablas (tutorial de PostgreSQL, en inglés)", "url": "https://www.postgresql.org/docs/current/tutorial-join.html" }
+    ]
+  }
+}

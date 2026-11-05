@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-09-amazon-inspector",
+  "date": "2026-11-09",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Inspector"],
+    "es": ["Inspector"]
+  },
+  "image": "img/2026-11-09-amazon-inspector.svg",
+  "imageAlt": {
+    "en": "Inspector scans an EC2 server, a container image and a Lambda function and finds a CVE in one of them",
+    "es": "Inspector escanea un servidor EC2, una imagen de contenedor y una función Lambda y encuentra un CVE en una de ellas"
+  },
+  "en": {
+    "title": "Amazon Inspector",
+    "tagline": "An AWS service that keeps scanning your servers and code for known vulnerabilities.",
+    "explanation": [
+      "**Amazon Inspector** is AWS's vulnerability management service. It looks at the software running in your account and checks it against databases of known security holes, the CVEs. If a server has an old version of a library with a published flaw, Inspector tells you.",
+      "It discovers what to scan on its own: EC2 instances, container images stored in Amazon ECR, and Lambda functions. You do not schedule scans. It rescans when something changes, such as a new package being installed, or when a new CVE is published that affects software you already run. For EC2 it also checks network reachability, flagging, for example, a port that is open to the internet when it probably should not be.",
+      "Each issue becomes a **finding** with the affected resource, a severity score and how to fix it, usually which version to upgrade to. When you patch, Inspector notices and closes the finding. Its results also flow into AWS Security Hub, where they are combined with other signals."
+    ],
+    "analogy": "A building inspector who never leaves, rechecks every apartment whenever a new appliance is installed, and reads the recall notices each morning to see if anything in the building is on the list.",
+    "keyPoints": [
+      "Scans EC2 instances, ECR container images and Lambda functions.",
+      "Rescans automatically when software changes or a new CVE appears.",
+      "Each finding includes severity and a suggested fix.",
+      "Closes findings by itself once the vulnerability is patched."
+    ],
+    "links": [
+      { "label": "What is Amazon Inspector? (official docs)", "url": "https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html" },
+      { "label": "Amazon Inspector product page", "url": "https://aws.amazon.com/inspector/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Inspector",
+    "tagline": "Un servicio de AWS que revisa sin parar tus servidores y código buscando vulnerabilidades.",
+    "explanation": [
+      "**Amazon Inspector** es el servicio de gestión de vulnerabilidades de AWS. Mira el software que corre en tu cuenta y lo compara contra bases de datos de agujeros de seguridad conocidos, los CVE. Si un servidor tiene una versión vieja de una biblioteca con una falla publicada, Inspector te avisa.",
+      "Descubre solo qué tiene que escanear: instancias de EC2, imágenes de contenedores guardadas en Amazon ECR y funciones Lambda. No programás escaneos. Vuelve a revisar cuando algo cambia, por ejemplo si se instala un paquete nuevo, o cuando se publica un CVE nuevo que afecta software que ya tenés corriendo. En EC2 además revisa la exposición de red y marca, por ejemplo, un puerto abierto a internet que probablemente no debería estarlo.",
+      "Cada problema se convierte en un **hallazgo** (finding) con el recurso afectado, un puntaje de severidad y cómo arreglarlo, casi siempre a qué versión actualizar. Cuando parcheás, Inspector se da cuenta y cierra el hallazgo. Sus resultados también llegan a AWS Security Hub, donde se cruzan con otras señales."
+    ],
+    "analogy": "Un inspector de obra que nunca se va, revisa cada departamento cada vez que alguien instala un electrodoméstico nuevo y lee todas las mañanas los avisos de retiro de productos para ver si algo del edificio está en la lista.",
+    "keyPoints": [
+      "Escanea instancias de EC2, imágenes de contenedores en ECR y funciones Lambda.",
+      "Vuelve a escanear solo cuando cambia el software o aparece un CVE nuevo.",
+      "Cada hallazgo trae severidad y una corrección sugerida.",
+      "Cierra el hallazgo por su cuenta cuando la vulnerabilidad queda parcheada."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Inspector? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/inspector/latest/user/what-is-inspector.html" },
+      { "label": "Página de Amazon Inspector", "url": "https://aws.amazon.com/es/inspector/" }
+    ]
+  }
+}

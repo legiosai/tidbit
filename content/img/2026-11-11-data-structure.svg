@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9ac7ea">
+    <rect x="24" y="46" width="34" height="34"/><rect x="58" y="46" width="34" height="34"/>
+    <rect x="92" y="46" width="34" height="34"/><rect x="126" y="46" width="34" height="34"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#ffd166">
+    <rect x="250" y="70" width="90" height="14" rx="4"/><rect x="250" y="56" width="90" height="14" rx="4"/>
+    <rect x="250" y="42" width="90" height="14" rx="4"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f4a7a7">
+    <circle cx="44" cy="164" r="14"/><circle cx="84" cy="164" r="14"/><circle cx="124" cy="164" r="14"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M146 164 H170"/><path d="M164 160 l6 4 -6 4"/>
+    <path d="M295 30 V38"/><path d="M291 32 l4 -6 4 6"/>
+    <path d="M295 140 L265 178"/><path d="M295 140 L325 178"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9bd1b9">
+    <circle cx="295" cy="134" r="12"/><circle cx="265" cy="184" r="12"/><circle cx="325" cy="184" r="12"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="41" y="67">0</text><text x="75" y="67">1</text><text x="109" y="67">2</text><text x="143" y="67">3</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="92" y="104">array</text><text x="295" y="106">stack</text>
+    <text x="84" y="200">queue</text><text x="360" y="139">tree</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="92" y="120">jump to any slot</text><text x="295" y="22">last in, first out</text>
+    <text x="104" y="216">first in, first out</text>
+  </g>
+</svg>

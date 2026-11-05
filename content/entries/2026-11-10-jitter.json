@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-10-jitter",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "network jitter",
+      "jitter buffer"
+    ],
+    "es": [
+      "jitter de red",
+      "buffer de jitter",
+      "variación del retardo"
+    ]
+  },
+  "image": "img/2026-11-10-jitter.svg",
+  "imageAlt": {
+    "en": "Two timelines of arriving packets: on top they arrive evenly every 20 ms, labeled steady; below the gaps vary from almost none to 70 ms, labeled jitter",
+    "es": "Dos líneas de tiempo con paquetes que llegan: arriba llegan parejos cada 20 ms, con la etiqueta steady; abajo los espacios van de casi nada a 70 ms, con la etiqueta jitter"
+  },
+  "en": {
+    "title": "Jitter",
+    "tagline": "How much the delay of a connection jumps around from one packet to the next.",
+    "explanation": [
+      "Latency is how long a packet takes to cross the network. **Jitter** is how much that time varies. If packets arrive every 20 milliseconds like clockwork, jitter is close to zero. If one takes 20 ms, the next 70 ms and the next 15 ms, the connection is jittery, even if the average latency looks fine.",
+      "Jitter comes from the same places as congestion: packets waiting in router queues that fill and empty, a Wi-Fi network shared with many devices, a route that changes mid-call, or someone in the house starting a big upload. Each packet meets a slightly different wait, so they arrive unevenly and sometimes out of order.",
+      "For a download, jitter barely matters. For live audio and video it does, because the sound has to be played at a steady pace. Calling apps use a **jitter buffer**: they hold incoming packets for a moment and release them evenly, trading a little extra delay for smooth sound. When jitter is bigger than the buffer, you hear choppy audio or robotic voices. Speed tests often report jitter in milliseconds next to ping, and a wired connection usually lowers it."
+    ],
+    "analogy": "A bus that is scheduled every ten minutes. Average delay is one thing; jitter is when one bus comes after two minutes and the next after twenty. You cannot plan around it, so you leave home earlier just in case: that is the jitter buffer.",
+    "keyPoints": [
+      "Jitter is the variation in latency, not the latency itself.",
+      "Caused by changing queues, busy Wi-Fi and shifting routes.",
+      "Hurts calls, video and games; downloads barely notice.",
+      "A jitter buffer smooths it out at the cost of a little extra delay."
+    ],
+    "links": [
+      {
+        "label": "Jitter on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jitter"
+      },
+      {
+        "label": "RFC 3550: RTP, which defines how calls measure jitter",
+        "url": "https://www.rfc-editor.org/info/rfc3550/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Jitter",
+    "tagline": "Cuánto salta el retardo de una conexión de un paquete al siguiente.",
+    "explanation": [
+      "La latencia es cuánto tarda un paquete en cruzar la red. El **jitter** es cuánto varía ese tiempo. Si los paquetes llegan cada 20 milisegundos como un reloj, el jitter es casi cero. Si uno tarda 20 ms, el siguiente 70 ms y el otro 15 ms, la conexión tiene jitter, aunque la latencia promedio parezca buena.",
+      "El jitter sale de los mismos lugares que la congestión: paquetes que esperan en colas de routers que se llenan y se vacían, un Wi-Fi compartido con muchos aparatos, una ruta que cambia en medio de una llamada, o alguien en la casa que arranca a subir un archivo pesado. Cada paquete se encuentra con una espera un poco distinta, así que llegan desparejos y a veces desordenados.",
+      "Para una descarga, el jitter casi no importa. Para el audio y el video en vivo sí, porque el sonido se tiene que reproducir a un ritmo parejo. Las apps de llamadas usan un **buffer de jitter**: retienen los paquetes que llegan un instante y los sueltan de forma pareja, cambiando un poquito más de demora por un sonido prolijo. Cuando el jitter es más grande que el buffer, escuchás audio entrecortado o voces robóticas. Los tests de velocidad suelen mostrar el jitter en milisegundos al lado del ping, y una conexión por cable en general lo baja."
+    ],
+    "analogy": "Un colectivo que según el horario pasa cada diez minutos. La demora promedio es una cosa; el jitter es cuando uno pasa a los dos minutos y el siguiente a los veinte. No podés planificar con eso, así que salís antes por las dudas: ese margen es el buffer de jitter.",
+    "keyPoints": [
+      "El jitter es la variación de la latencia, no la latencia en sí.",
+      "Lo causan colas que cambian, Wi-Fi cargado y rutas que se mueven.",
+      "Afecta llamadas, video y juegos; las descargas casi ni se enteran.",
+      "Un buffer de jitter lo suaviza a cambio de un poco más de demora."
+    ],
+    "links": [
+      {
+        "label": "Jitter en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Jitter"
+      },
+      {
+        "label": "RFC 3550: RTP, que define cómo miden el jitter las llamadas (en inglés)",
+        "url": "https://www.rfc-editor.org/info/rfc3550/"
+      }
+    ]
+  }
+}

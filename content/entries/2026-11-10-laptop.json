@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-10-laptop",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "laptops",
+      "notebook computer",
+      "notebook computers"
+    ],
+    "es": [
+      "notebooks",
+      "laptop",
+      "laptops",
+      "computadora portátil",
+      "computadoras portátiles"
+    ]
+  },
+  "image": "img/2026-11-10-laptop.svg",
+  "imageAlt": {
+    "en": "An open laptop with labels pointing to the screen, the keyboard base, the hinge and the battery underneath",
+    "es": "Una notebook abierta con etiquetas que señalan la pantalla, la base con el teclado, la bisagra y la batería debajo"
+  },
+  "en": {
+    "title": "Laptop",
+    "tagline": "A whole computer folded into one portable case that runs on a battery.",
+    "explanation": [
+      "A **laptop** is a personal computer with everything built into one hinged case: screen on the lid, keyboard and trackpad on the base, and the processor, memory, storage and battery packed underneath. You open it, and it works the same at a desk, on a train or on the couch.",
+      "Inside it has the same parts as a desktop PC, just smaller and tuned to use less power. That is the main trade-off. A laptop has to fit its chips in a thin case, keep them cool with a small fan (or none at all) and make the battery last, so for the same price a desktop is usually faster and easier to upgrade. In many laptops the RAM and the SSD are soldered to the motherboard, which means you choose how much you need when you buy it.",
+      "For most people today the laptop is the main computer. Office work, school and video calls fit easily, and chips designed for efficiency, like Apple silicon and recent ARM processors, have made all-day battery life common. When you compare models, the questions that matter are battery life, weight, screen quality, how much memory it has and which ports it offers."
+    ],
+    "analogy": "A camping kitchen in a suitcase: stove, pot and utensils all folded into one box you can carry. It cooks the same food as a home kitchen, just with smaller burners.",
+    "keyPoints": [
+      "Screen, keyboard, trackpad, computer and battery in one hinged case.",
+      "Same parts as a desktop, but smaller and tuned to save power and heat.",
+      "Memory and storage are often soldered, so pick them well when you buy.",
+      "Battery life, weight, screen and ports are what usually set models apart."
+    ],
+    "links": [
+      {
+        "label": "Laptop on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Laptop"
+      },
+      {
+        "label": "2-in-1 laptop on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2-in-1_laptop"
+      }
+    ]
+  },
+  "es": {
+    "title": "Notebook",
+    "tagline": "Una computadora entera plegada en un solo estuche portátil que anda a batería.",
+    "explanation": [
+      "Una **notebook** (también llamada **laptop** o computadora portátil) es una computadora personal con todo integrado en un estuche con bisagra: la pantalla en la tapa, el teclado y el trackpad en la base, y abajo el procesador, la memoria, el almacenamiento y la batería. La abrís y funciona igual en un escritorio, en el tren o en el sillón.",
+      "Adentro tiene las mismas piezas que una PC de escritorio, solo que más chicas y pensadas para gastar menos energía. Ese es el gran trade-off. Una notebook tiene que meter sus chips en un cuerpo finito, enfriarlos con un ventilador chico (o ninguno) y hacer rendir la batería, así que por el mismo precio una de escritorio suele ser más rápida y más fácil de ampliar. En muchas notebooks la RAM y el SSD vienen soldados a la placa madre, o sea que cuánto necesitás lo decidís al comprarla.",
+      "Para la mayoría de la gente hoy la notebook es la computadora principal. El trabajo de oficina, el estudio y las videollamadas entran sin problema, y los chips pensados para la eficiencia, como Apple silicon y los procesadores ARM recientes, hicieron común una batería que dura todo el día. Al comparar modelos, lo que importa es cuánto dura la batería, cuánto pesa, la calidad de la pantalla, cuánta memoria tiene y qué puertos trae."
+    ],
+    "analogy": "Una cocina de camping en una valija: anafe, olla y cubiertos plegados en una caja que podés llevar. Cocina la misma comida que la cocina de tu casa, solo que con hornallas más chicas.",
+    "keyPoints": [
+      "Pantalla, teclado, trackpad, computadora y batería en un estuche con bisagra.",
+      "Mismas piezas que una de escritorio, pero más chicas y pensadas para ahorrar energía y calor.",
+      "La memoria y el almacenamiento suelen venir soldados: elegilos bien al comprar.",
+      "Batería, peso, pantalla y puertos son lo que suele diferenciar a los modelos."
+    ],
+    "links": [
+      {
+        "label": "Computadora portátil en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Computadora_port%C3%A1til"
+      },
+      {
+        "label": "Ultrabook en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Ultrabook"
+      }
+    ]
+  }
+}

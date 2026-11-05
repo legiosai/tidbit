@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-ai-detector",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["AI detectors", "AI text detector", "AI content detector", "AI content detection", "AI checker", "GPTZero"],
+    "es": ["detectores de IA", "detector de texto generado por IA", "detección de contenido generado por IA", "AI detector", "GPTZero"]
+  },
+  "image": "img/2026-11-09-ai-detector.svg",
+  "imageAlt": {
+    "en": "A text page goes under a magnifying glass and comes out with a meter reading 72% AI, marked as a guess",
+    "es": "Una página de texto pasa bajo una lupa y sale con un medidor que marca 72% IA, señalado como una estimación"
+  },
+  "en": {
+    "title": "AI detector",
+    "tagline": "A tool that estimates whether a text was written by AI, and is often wrong.",
+    "explanation": [
+      "An **AI detector** is a program that reads a text and estimates how likely it is that a chatbot like ChatGPT wrote it. Teachers use them on essays, editors on submissions, recruiters on cover letters. Well-known ones include GPTZero and the checker built into Turnitin. They usually give a percentage or highlight suspicious sentences, not a clear yes or no.",
+      "Most look for statistical fingerprints. Language models tend to pick the most predictable next word, so their text is often smooth and even; people write with more surprises and more variety from one sentence to the next. Some detectors are themselves AI models, trained on lots of examples of human and machine text.",
+      "The trouble is that those fingerprints are weak. A light edit, a paraphrasing tool or simply asking the chatbot for a more casual style can make AI text pass as human. And human text gets flagged: a 2023 study by Stanford researchers found that popular detectors labeled a large share of essays by non-native English writers as AI-written, because simpler vocabulary looks \"predictable\". OpenAI withdrew its own AI text classifier that same year, citing its low accuracy. A detector score is a reason for a conversation, never proof on its own."
+    ],
+    "analogy": "A lie detector at a party that only measures nerves. Calm liars pass, and honest people who get nervous fail.",
+    "keyPoints": [
+      "It gives a probability, not proof, that a text was AI-written.",
+      "It looks for the predictable, even wording typical of language models.",
+      "It is easy to fool with edits, and it wrongly flags some human writers.",
+      "AI watermarks, added when the content is created, are a sturdier signal where they exist."
+    ],
+    "links": [
+      { "label": "Artificial intelligence content detection on Wikipedia", "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_content_detection" },
+      { "label": "GPT detectors are biased against non-native English writers (Stanford study, arXiv)", "url": "https://arxiv.org/abs/2304.02819" }
+    ]
+  },
+  "es": {
+    "title": "Detector de IA",
+    "tagline": "Una herramienta que estima si un texto lo escribió una IA, y se equivoca seguido.",
+    "explanation": [
+      "Un **detector de IA** es un programa que lee un texto y estima qué tan probable es que lo haya escrito un chatbot como ChatGPT. Lo usan docentes con monografías, editoriales con manuscritos, reclutadores con cartas de presentación. Entre los conocidos están GPTZero y el que viene integrado en Turnitin. En general dan un porcentaje o resaltan oraciones sospechosas, no un sí o no tajante.",
+      "La mayoría busca huellas estadísticas. Los modelos de lenguaje tienden a elegir la palabra siguiente más previsible, así que su texto suele salir prolijo y parejo; las personas escribimos con más sorpresas y más variedad de una oración a otra. Algunos detectores son a su vez modelos de IA, entrenados con muchos ejemplos de texto humano y de máquina.",
+      "El problema es que esas huellas son débiles. Una edición liviana, una herramienta para parafrasear o simplemente pedirle al chatbot un estilo más informal alcanzan para que un texto de IA pase por humano. Y al revés, se marcan textos humanos: un estudio de 2023 de investigadores de Stanford encontró que detectores populares etiquetaban como escritos por IA una buena parte de los ensayos de personas que no tenían el inglés como lengua materna, porque un vocabulario más simple parece \"previsible\". Ese mismo año, OpenAI dio de baja su propio clasificador de texto de IA por su baja precisión. El puntaje de un detector es motivo para una charla, nunca una prueba por sí solo."
+    ],
+    "analogy": "Un detector de mentiras en una fiesta que solo mide nervios. Los mentirosos tranquilos pasan, y la gente honesta que se pone nerviosa no pasa.",
+    "keyPoints": [
+      "Da una probabilidad, no una prueba, de que un texto lo haya escrito una IA.",
+      "Busca la redacción previsible y pareja típica de los modelos de lenguaje.",
+      "Es fácil de engañar con ediciones, y marca por error a algunas personas.",
+      "Las marcas de agua de IA, puestas al crear el contenido, son una señal más firme cuando existen."
+    ],
+    "links": [
+      { "label": "Detección de contenido realizado con IA en Wikipedia", "url": "https://es.wikipedia.org/wiki/Detecci%C3%B3n_de_contenido_realizado_con_IA" },
+      { "label": "GPT detectors are biased against non-native English writers (estudio de Stanford, arXiv, en inglés)", "url": "https://arxiv.org/abs/2304.02819" }
+    ]
+  }
+}

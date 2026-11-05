@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-semantic-search",
+  "date": "2026-11-09",
+  "subjects": ["ai", "data"],
+  "level": 2,
+  "aliases": {
+    "en": ["vector search", "similarity search", "hybrid search", "neural search"],
+    "es": ["semantic search", "búsqueda vectorial", "búsqueda por similitud", "búsqueda híbrida"]
+  },
+  "image": "img/2026-11-09-semantic-search.svg",
+  "imageAlt": {
+    "en": "The query \"can't log in\" lands as a point on a map of meanings, right next to the document \"reset your password\" and far from \"shipping times\"",
+    "es": "La búsqueda \"can't log in\" cae como un punto en un mapa de significados, justo al lado del documento \"reset your password\" y lejos de \"shipping times\""
+  },
+  "en": {
+    "title": "Semantic search",
+    "tagline": "Search that finds results by meaning, not by matching the exact words you typed.",
+    "explanation": [
+      "Classic **keyword search** looks for the words you typed. Search a help center for \"can't log in\" and it may miss the article called \"Reset your password\". **Semantic search** looks for meaning instead: it recognizes that both are about the same problem and returns the article even though they share no words.",
+      "It works with embeddings. Every document, usually split into chunks of a few paragraphs, is turned by a model into a long list of numbers that captures what it is about, and stored, often in a vector database. When a query arrives it is turned into numbers the same way, and the search returns the chunks whose numbers are closest, typically measured with **cosine similarity**. Similar meaning, nearby numbers.",
+      "It is the retrieval step behind most RAG systems: before an LLM answers a question about a company's documents, semantic search finds the few passages worth reading. It also powers \"similar products\", search across languages and finding photos by description. Its weak spot is exact detail: product codes, rare names, error numbers. That is why many systems run **hybrid search**, mixing keyword and semantic results, and then reorder the top hits with a second model called a **reranker**."
+    ],
+    "analogy": "A good librarian. You ask for \"a book about someone stranded alone on an island\" and she hands you Robinson Crusoe, even though you never said the title or the author.",
+    "keyPoints": [
+      "It matches meaning, so synonyms and paraphrases still find each other.",
+      "Documents and queries become embeddings; the nearest ones win.",
+      "It is the usual retrieval step inside RAG.",
+      "It struggles with exact codes and names, hence hybrid search with keywords."
+    ],
+    "links": [
+      { "label": "Semantic search on Wikipedia", "url": "https://en.wikipedia.org/wiki/Semantic_search" },
+      { "label": "What is semantic search, and how does it work? (Google Cloud)", "url": "https://cloud.google.com/discover/what-is-semantic-search" },
+      { "label": "Semantic search (Sentence Transformers docs)", "url": "https://www.sbert.net/examples/sentence_transformer/applications/semantic-search/README.html" }
+    ]
+  },
+  "es": {
+    "title": "Búsqueda semántica",
+    "tagline": "Una búsqueda que encuentra resultados por su significado, no por las palabras exactas.",
+    "explanation": [
+      "La **búsqueda por palabras clave** clásica busca las palabras que escribiste. Si en un centro de ayuda buscás \"no puedo entrar\", capaz no te aparece el artículo que se llama \"Restablecer tu contraseña\". La **búsqueda semántica** busca el significado: entiende que los dos hablan del mismo problema y te devuelve el artículo aunque no compartan ni una palabra.",
+      "Funciona con embeddings. Cada documento, casi siempre cortado en pedazos de unos pocos párrafos, pasa por un modelo que lo convierte en una lista larga de números que captura de qué trata, y se guarda, muchas veces en una base de datos vectorial. Cuando llega una consulta, se convierte en números de la misma manera y la búsqueda devuelve los pedazos cuyos números quedan más cerca, en general medidos con la **similitud del coseno**. Significado parecido, números cercanos.",
+      "Es el paso de recuperación detrás de la mayoría de los sistemas de RAG: antes de que un LLM conteste una pregunta sobre los documentos de una empresa, la búsqueda semántica encuentra los pocos pasajes que vale la pena leer. También está detrás de los \"productos similares\", de las búsquedas entre idiomas y de encontrar fotos por descripción. Su punto débil es lo exacto: códigos de producto, nombres raros, números de error. Por eso muchos sistemas hacen **búsqueda híbrida**, que mezcla resultados por palabras clave y semánticos, y después reordenan los primeros con un segundo modelo llamado **reranker**."
+    ],
+    "analogy": "Una buena bibliotecaria. Le pedís \"un libro sobre alguien que queda solo en una isla\" y te alcanza Robinson Crusoe, aunque nunca dijiste el título ni el autor.",
+    "keyPoints": [
+      "Busca por significado, así los sinónimos y las paráfrasis se encuentran igual.",
+      "Documentos y consultas se vuelven embeddings; ganan los más cercanos.",
+      "Es el paso de recuperación habitual dentro de RAG.",
+      "Le cuestan los códigos y nombres exactos, de ahí la búsqueda híbrida con palabras clave."
+    ],
+    "links": [
+      { "label": "Búsqueda semántica en Wikipedia", "url": "https://es.wikipedia.org/wiki/B%C3%BAsqueda_sem%C3%A1ntica" },
+      { "label": "¿Qué es la búsqueda semántica y cómo funciona? (Google Cloud)", "url": "https://cloud.google.com/discover/what-is-semantic-search?hl=es" },
+      { "label": "¿Qué es la búsqueda semántica? (Elastic)", "url": "https://www.elastic.co/es/what-is/semantic-search" }
+    ]
+  }
+}

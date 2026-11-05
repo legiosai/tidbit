@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-crowdstrike",
+  "date": "2026-11-11",
+  "subjects": ["companies", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["CrowdStrike Falcon"],
+    "es": ["CrowdStrike Falcon"]
+  },
+  "image": "img/2026-11-11-crowdstrike.svg",
+  "imageAlt": {
+    "en": "A small sensor on each company laptop and server reports to a cloud console that spots threats and sends back updates",
+    "es": "Un sensor chiquito en cada notebook y servidor de la empresa reporta a una consola en la nube que detecta amenazas y manda actualizaciones"
+  },
+  "en": {
+    "title": "CrowdStrike",
+    "tagline": "A security company that watches company computers for attacks from the cloud.",
+    "explanation": [
+      "**CrowdStrike** is an American cybersecurity company founded in 2011 by George Kurtz, Dmitri Alperovitch and Gregg Marston, and based in Austin, Texas. Its main product, **CrowdStrike Falcon**, is an EDR platform: a small program called a sensor runs on each laptop, server and cloud machine of a company, records what happens there, and sends that activity to CrowdStrike's cloud, where it is analyzed for signs of an attack.",
+      "The idea was to replace the classic antivirus, which mostly compared files against a list of known malware, with something that watches behavior and can react: isolate a machine, kill a process, alert a human. Around that it sells threat intelligence, a 24/7 managed hunting team, and incident response when a company has already been breached. It became widely known for investigating high-profile breaches, like the 2016 hack of the US Democratic National Committee.",
+      "It is also the company behind one of the biggest IT outages ever. On 19 July 2024, a faulty content update for the Falcon sensor on Windows made roughly 8.5 million computers crash and fail to restart, grounding flights and disrupting hospitals, banks and TV channels. The episode showed the flip side of security software that runs deep inside the operating system: when it fails, it can take the machine down with it."
+    ],
+    "analogy": "A security company that installs a guard in every room of the building, all wired to one control center that compares what they see across thousands of buildings, and can send them all new instructions at once.",
+    "keyPoints": [
+      "Founded in 2011; based in Austin, Texas.",
+      "Falcon is a cloud-managed EDR: a sensor on each machine reports to the cloud.",
+      "Also sells threat intelligence, managed threat hunting and incident response.",
+      "A bad Falcon update on 19 July 2024 crashed roughly 8.5 million Windows PCs."
+    ],
+    "links": [
+      { "label": "CrowdStrike (official site)", "url": "https://www.crowdstrike.com/" },
+      { "label": "CrowdStrike on Wikipedia", "url": "https://en.wikipedia.org/wiki/CrowdStrike" },
+      { "label": "2024 CrowdStrike-related IT outages (Wikipedia)", "url": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages" }
+    ]
+  },
+  "es": {
+    "title": "CrowdStrike",
+    "tagline": "Una empresa de seguridad que vigila desde la nube las computadoras de las empresas.",
+    "explanation": [
+      "**CrowdStrike** es una empresa estadounidense de ciberseguridad fundada en 2011 por George Kurtz, Dmitri Alperovitch y Gregg Marston, con sede en Austin, Texas. Su producto principal, **CrowdStrike Falcon**, es una plataforma de EDR: un programa chiquito llamado sensor corre en cada notebook, servidor y máquina en la nube de una empresa, registra lo que pasa ahí y manda esa actividad a la nube de CrowdStrike, donde se analiza en busca de señales de un ataque.",
+      "La idea era reemplazar al antivirus clásico, que básicamente comparaba archivos contra una lista de malware conocido, por algo que mira comportamientos y puede reaccionar: aislar una máquina, matar un proceso, avisarle a una persona. Alrededor de eso vende inteligencia de amenazas, un equipo que busca atacantes las 24 horas y respuesta a incidentes cuando una empresa ya fue vulnerada. Se hizo muy conocida por investigar ataques famosos, como el hackeo de 2016 al Comité Nacional Demócrata de Estados Unidos.",
+      "También es la empresa detrás de una de las mayores caídas informáticas de la historia. El 19 de julio de 2024, una actualización de contenido defectuosa del sensor de Falcon para Windows hizo que unas 8,5 millones de computadoras se colgaran y no pudieran reiniciar, con vuelos cancelados y problemas en hospitales, bancos y canales de TV. El episodio mostró la otra cara del software de seguridad que corre muy adentro del sistema operativo: cuando falla, puede tirar abajo la máquina entera."
+    ],
+    "analogy": "Una empresa de seguridad que pone un guardia en cada cuarto del edificio, todos conectados a una central que compara lo que ven en miles de edificios y puede mandarles instrucciones nuevas a todos a la vez.",
+    "keyPoints": [
+      "Fundada en 2011; con sede en Austin, Texas.",
+      "Falcon es un EDR manejado desde la nube: un sensor en cada máquina reporta a la nube.",
+      "También vende inteligencia de amenazas, búsqueda de atacantes y respuesta a incidentes.",
+      "Una actualización fallida de Falcon el 19 de julio de 2024 colgó unas 8,5 millones de PCs con Windows."
+    ],
+    "links": [
+      { "label": "CrowdStrike en Wikipedia", "url": "https://es.wikipedia.org/wiki/CrowdStrike" },
+      { "label": "Incidente de CrowdStrike de 2024 (Wikipedia)", "url": "https://es.wikipedia.org/wiki/Incidente_de_CrowdStrike_de_2024" },
+      { "label": "CrowdStrike (sitio oficial)", "url": "https://www.crowdstrike.com/es-es/" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-11-incident-response",
+  "date": "2026-11-11",
+  "subjects": ["security"],
+  "level": 2,
+  "aliases": {
+    "en": ["incident response plan", "incident response plans", "incident response team", "incident response teams", "CSIRT", "CSIRTs", "computer security incident response team"],
+    "es": ["respuesta ante incidentes", "plan de respuesta a incidentes", "planes de respuesta a incidentes", "equipo de respuesta a incidentes", "equipos de respuesta a incidentes", "CSIRT", "incident response"]
+  },
+  "image": "img/2026-11-11-incident-response.svg",
+  "imageAlt": {
+    "en": "A loop of four steps around an alert: prepare, detect, contain and recover, with the arrow from recover back to prepare labeled learn",
+    "es": "Un ciclo de cuatro pasos alrededor de una alerta: preparar, detectar, contener y recuperar, con la flecha que vuelve de recuperar a preparar marcada como aprender"
+  },
+  "en": {
+    "title": "Incident response",
+    "tagline": "The rehearsed plan an organization follows when a security attack actually happens.",
+    "explanation": [
+      "**Incident response** is what a company does from the moment it suspects a security incident (ransomware on a laptop, a stolen password used at 3 a.m., customer data showing up for sale) until things are back to normal and the lesson is written down. The key word is plan: who gets called, who can shut down a server, who talks to lawyers, customers and the press. Deciding that in the middle of the crisis is how small incidents become big ones.",
+      "The classic guide is NIST SP 800-61, which describes a cycle. Preparation: contacts, tools, backups and practice drills before anything happens. Detection and analysis: alerts from a SIEM or an EDR, and figuring out what really happened and how far it spread. Containment, eradication and recovery: isolating infected machines, resetting credentials, removing the attacker's foothold and restoring clean systems. Post-incident activity: a postmortem that feeds back into preparation. The 2025 revision of the guide ties this cycle to NIST's broader Cybersecurity Framework 2.0.",
+      "Large organizations keep a dedicated team, often called a CSIRT, usually working alongside the security operations center; smaller ones hire an outside firm on retainer, sometimes through their cyber insurance. Two details matter more than people expect: evidence (logs and disk images) must be preserved before systems are wiped, and laws set deadlines. Under the GDPR, for example, a personal data breach generally has to be reported to the authority within 72 hours of becoming aware of it."
+    ],
+    "analogy": "A fire drill for computers. Everyone knows where the extinguishers are, who calls the firefighters and which door to use, so when the alarm goes off nobody wastes the first ten minutes arguing.",
+    "keyPoints": [
+      "The plan is written and rehearsed before any attack.",
+      "Typical phases: prepare, detect, contain and recover, learn.",
+      "Preserve logs and evidence before wiping anything.",
+      "Laws like the GDPR set deadlines for reporting breaches."
+    ],
+    "links": [
+      { "label": "NIST SP 800-61 Rev. 3: Incident Response Recommendations", "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final" },
+      { "label": "Incident management (UK National Cyber Security Centre)", "url": "https://www.ncsc.gov.uk/collection/incident-management" },
+      { "label": "Computer security incident management on Wikipedia", "url": "https://en.wikipedia.org/wiki/Computer_security_incident_management" }
+    ]
+  },
+  "es": {
+    "title": "Respuesta a incidentes",
+    "tagline": "El plan ensayado que sigue una organización cuando un ataque pasa de verdad.",
+    "explanation": [
+      "La **respuesta a incidentes** es todo lo que hace una empresa desde que sospecha de un incidente de seguridad (ransomware en una notebook, una contraseña robada usada a las 3 de la mañana, datos de clientes a la venta) hasta que todo vuelve a la normalidad y la lección queda por escrito. La palabra clave es plan: a quién se llama, quién puede apagar un servidor, quién habla con los abogados, los clientes y la prensa. Decidir eso en plena crisis es la receta para que un incidente chico se vuelva grande.",
+      "La guía clásica es la NIST SP 800-61, que describe un ciclo. Preparación: contactos, herramientas, backups y simulacros antes de que pase nada. Detección y análisis: alertas de un SIEM o de un EDR, y entender qué pasó de verdad y hasta dónde llegó. Contención, erradicación y recuperación: aislar las máquinas infectadas, resetear credenciales, sacar al atacante y restaurar sistemas limpios. Actividad posterior: un postmortem que vuelve a alimentar la preparación. La revisión de 2025 de la guía conecta este ciclo con el Cybersecurity Framework 2.0 de NIST.",
+      "Las organizaciones grandes tienen un equipo dedicado, muchas veces llamado CSIRT, que suele trabajar junto al centro de operaciones de seguridad; las más chicas contratan a una empresa externa con un acuerdo previo, a veces a través de su ciberseguro. Hay dos detalles que importan más de lo que parece: la evidencia (logs, imágenes de disco) se tiene que preservar antes de borrar los equipos, y la ley pone plazos. Con el RGPD europeo, por ejemplo, una filtración de datos personales en general se tiene que notificar a la autoridad dentro de las 72 horas de haberla detectado."
+    ],
+    "analogy": "Un simulacro de incendio, pero para las computadoras. Todos saben dónde están los matafuegos, quién llama a los bomberos y por qué puerta salir, así que cuando suena la alarma nadie pierde los primeros diez minutos discutiendo.",
+    "keyPoints": [
+      "El plan se escribe y se ensaya antes de cualquier ataque.",
+      "Fases típicas: preparar, detectar, contener y recuperar, aprender.",
+      "Hay que preservar logs y evidencia antes de borrar nada.",
+      "Leyes como el RGPD ponen plazos para avisar de una filtración."
+    ],
+    "links": [
+      { "label": "¿Qué es la respuesta a incidentes? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/incident-response" },
+      { "label": "NIST SP 800-61 Rev. 3: recomendaciones de respuesta a incidentes (en inglés)", "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final" },
+      { "label": "Gestión de incidentes (NCSC del Reino Unido, en inglés)", "url": "https://www.ncsc.gov.uk/collection/incident-management" }
+    ]
+  }
+}

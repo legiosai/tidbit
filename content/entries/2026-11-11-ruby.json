@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-11-ruby",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": ["Ruby on Rails", "Ruby language"],
+    "es": ["Ruby on Rails", "lenguaje Ruby"]
+  },
+  "image": "img/2026-11-11-ruby.svg",
+  "imageAlt": {
+    "en": "A short line of Ruby code that reads almost like English, next to a web app built with Rails",
+    "es": "Una línea corta de código Ruby que se lee casi como inglés, al lado de una app web hecha con Rails"
+  },
+  "en": {
+    "title": "Ruby",
+    "tagline": "A programming language designed to make programmers happy, famous for Ruby on Rails.",
+    "explanation": [
+      "**Ruby** is a programming language created by Yukihiro Matsumoto, known as Matz, in Japan and first released in 1995. His stated goal was programmer happiness: code should be pleasant to write and read. A line like `3.times { puts \"hello\" }` prints hello three times and reads almost like a sentence. Ruby is usually run by an interpreter, like Python, and everything in it, even a number, is an object you can call methods on.",
+      "Ruby became world-famous through **Ruby on Rails**, a web framework released in 2004 by David Heinemeier Hansson. Rails gave developers a ready-made structure for a database-backed website and sensible defaults for everything, so a small team could build a working product in days instead of months. That made it a favorite of startups in the late 2000s.",
+      "GitHub and Shopify are two well-known companies built on Rails, and both still run big Rails applications. Ruby is no longer the trendy choice it once was, and it is slower than compiled languages, but it remains a solid, productive tool, and many of the ideas Rails popularized now appear in web frameworks for other languages."
+    ],
+    "analogy": "A well-designed kitchen where the utensils hang exactly where your hand goes. Rails is the set menu that comes with it: follow its recipes and dinner is ready fast.",
+    "keyPoints": [
+      "Created by Yukihiro Matsumoto; first released in 1995.",
+      "Designed for readable, expressive code and programmer happiness.",
+      "Ruby on Rails (2004) made it a startup favorite for web apps.",
+      "GitHub and Shopify are built on Rails."
+    ],
+    "links": [
+      { "label": "Ruby (official site)", "url": "https://www.ruby-lang.org/en/" },
+      { "label": "Ruby on Wikipedia", "url": "https://en.wikipedia.org/wiki/Ruby_(programming_language)" }
+    ]
+  },
+  "es": {
+    "title": "Ruby",
+    "tagline": "Un lenguaje pensado para que programar sea un placer, famoso por Ruby on Rails.",
+    "explanation": [
+      "**Ruby** es un lenguaje de programación creado en Japón por Yukihiro Matsumoto, conocido como Matz, y publicado por primera vez en 1995. Su objetivo declarado era la felicidad de quien programa: que el código sea agradable de escribir y de leer. Una línea como `3.times { puts \"hola\" }` imprime hola tres veces y se lee casi como una oración. Ruby suele correr con un intérprete, como Python, y en él todo, hasta un número, es un objeto al que le podés pedir cosas.",
+      "Ruby se hizo conocido en todo el mundo gracias a **Ruby on Rails**, un framework web que David Heinemeier Hansson lanzó en 2004. Rails te daba una estructura lista para un sitio con base de datos y valores razonables para todo, así que un equipo chico podía tener un producto andando en días en vez de meses. Por eso fue el preferido de las startups a fines de los 2000.",
+      "GitHub y Shopify son dos empresas conocidas construidas sobre Rails, y las dos siguen corriendo aplicaciones Rails enormes. Ruby ya no es la opción de moda que fue, y es más lento que los lenguajes compilados, pero sigue siendo una herramienta sólida y productiva, y muchas ideas que popularizó Rails hoy aparecen en frameworks web de otros lenguajes."
+    ],
+    "analogy": "Una cocina bien pensada donde cada utensilio cuelga justo donde va tu mano. Rails es el menú fijo que viene con ella: seguís sus recetas y la cena sale rápido.",
+    "keyPoints": [
+      "Lo creó Yukihiro Matsumoto; salió por primera vez en 1995.",
+      "Pensado para código legible, expresivo y cómodo de escribir.",
+      "Ruby on Rails (2004) lo volvió el favorito de las startups para apps web.",
+      "GitHub y Shopify están construidos sobre Rails."
+    ],
+    "links": [
+      { "label": "Ruby (sitio oficial)", "url": "https://www.ruby-lang.org/es/" },
+      { "label": "Ruby en Wikipedia", "url": "https://es.wikipedia.org/wiki/Ruby" }
+    ]
+  }
+}

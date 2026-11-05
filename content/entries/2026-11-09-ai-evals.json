@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-ai-evals",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 2,
+  "aliases": {
+    "en": ["evals", "AI eval", "LLM evals", "LLM evaluation", "LLM-as-a-judge", "LLM as a judge"],
+    "es": ["evals", "evaluaciones de IA", "AI evals", "evaluación de LLMs", "LLM-as-a-judge", "LLM como juez"]
+  },
+  "image": "img/2026-11-09-ai-evals.svg",
+  "imageAlt": {
+    "en": "A list of test inputs goes through an AI app; each output is graded by code, by another model acting as judge, or by a person, and the results add up to a score",
+    "es": "Una lista de entradas de prueba pasa por una app de IA; cada salida la califica código, otro modelo que hace de juez o una persona, y los resultados suman un puntaje"
+  },
+  "en": {
+    "title": "AI evals",
+    "tagline": "Tests you write for your own AI app to check it does its job, before and after changes.",
+    "explanation": [
+      "**Evals** (short for evaluations) are the tests of an AI product. You collect a set of realistic inputs, run your system on them and score the outputs automatically. Unlike a public AI benchmark, which compares models on general skills, your evals measure the thing you care about: does the support bot answer refund questions correctly, does the summarizer keep the clause that matters.",
+      "Scoring comes in three flavors. Some checks are plain code: is the output valid JSON, does it mention the right order number, does the generated code pass its tests. Some use a second model as the grader, known as **LLM-as-a-judge**, with a clear rubric like \"does the answer cite the policy and stay polite?\". And some need people, who also make sure the automatic graders agree with human judgment.",
+      "Evals matter because an LLM's behavior is hard to predict, and a small change can break things far away. A new prompt that fixes one case may quietly ruin ten others; a new model version may be smarter overall but worse at your format. With a good eval set you can change the prompt, the model or the retrieval and know within minutes whether things got better or worse, instead of finding out from users. A useful set can start small, with a few dozen real examples, and grow every time something fails in production."
+    ],
+    "analogy": "A chef tasting every dish before service. The recipe worked yesterday, but nobody assumes it still does: someone tastes each plate against what it should be before it goes out to the dining room.",
+    "keyPoints": [
+      "An eval is a set of test cases plus a way to score them, built for your task.",
+      "Graders can be code, another LLM (LLM-as-a-judge) or people.",
+      "Run them after every prompt, model or data change to catch regressions.",
+      "Benchmarks compare models; evals check your product."
+    ],
+    "links": [
+      { "label": "Demystifying evals for AI agents (Anthropic)", "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents" },
+      { "label": "Define success criteria and build evaluations (Claude docs)", "url": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests" },
+      { "label": "Your AI product needs evals (Hamel Husain)", "url": "https://hamel.dev/blog/posts/evals/" }
+    ]
+  },
+  "es": {
+    "title": "Evals de IA",
+    "tagline": "Pruebas propias para tu app de IA, que revisan si cumple antes y después de cada cambio.",
+    "explanation": [
+      "Las **evals** (por evaluaciones) son los tests de un producto de IA. Juntás un conjunto de entradas realistas, corrés tu sistema con ellas y calificás las salidas de forma automática. A diferencia de un benchmark de IA público, que compara modelos en habilidades generales, tus evals miden lo que a vos te importa: si el bot de soporte contesta bien las preguntas sobre reembolsos, si el resumidor conserva la cláusula que importa.",
+      "Hay tres maneras de calificar. Algunos controles son código común: si la salida es JSON válido, si menciona el número de pedido correcto, si el código generado pasa sus tests. Otros usan un segundo modelo como corrector, lo que se conoce como **LLM-as-a-judge** (un LLM como juez), con una rúbrica clara del estilo \"¿la respuesta cita la política y mantiene un tono amable?\". Y otros necesitan personas, que además verifican que los correctores automáticos coincidan con el criterio humano.",
+      "Las evals importan porque el comportamiento de un LLM es difícil de prever, y un cambio chico puede romper algo lejos. Un prompt nuevo que arregla un caso puede arruinar otros diez sin que nadie se dé cuenta; una versión nueva del modelo puede ser más inteligente en general pero peor con tu formato. Con un buen set de evals podés cambiar el prompt, el modelo o la búsqueda de documentos y saber en minutos si mejoró o empeoró, en vez de enterarte por los usuarios. Un set útil puede arrancar chico, con unas decenas de ejemplos reales, y crecer cada vez que algo falla en producción."
+    ],
+    "analogy": "Un cocinero que prueba cada plato antes del servicio. La receta salió bien ayer, pero nadie da por sentado que siga saliendo: alguien prueba cada plato contra lo que tiene que ser antes de que salga al salón.",
+    "keyPoints": [
+      "Una eval es un conjunto de casos de prueba más una forma de calificarlos, hecha para tu tarea.",
+      "Pueden calificar el código, otro LLM (LLM-as-a-judge) o personas.",
+      "Se corren después de cada cambio de prompt, modelo o datos, para detectar retrocesos.",
+      "Los benchmarks comparan modelos; las evals revisan tu producto."
+    ],
+    "links": [
+      { "label": "Demystifying evals for AI agents (Anthropic, en inglés)", "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents" },
+      { "label": "Define success criteria and build evaluations (documentación de Claude, en inglés)", "url": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests" },
+      { "label": "Your AI product needs evals (Hamel Husain, en inglés)", "url": "https://hamel.dev/blog/posts/evals/" }
+    ]
+  }
+}

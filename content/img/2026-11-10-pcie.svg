@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="80" width="80" height="80" rx="8" fill="#9ac7ea"/>
+    <rect x="280" y="30" width="96" height="70" rx="8" fill="#9bd1b9"/>
+    <rect x="280" y="150" width="96" height="44" rx="6" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M110 92 H180 L230 52 H280"/><path d="M110 98 H182 L232 58 H280"/>
+    <path d="M110 104 H184 L234 64 H280"/><path d="M110 110 H186 L236 70 H280"/>
+    <path d="M110 116 H188 L238 76 H280"/><path d="M110 122 H190 L240 82 H280"/>
+    <path d="M110 140 H186 L230 166 H280"/><path d="M110 148 H184 L228 174 H280"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="70" y="125">CPU</text><text x="328" y="70">GPU</text><text x="328" y="177">SSD</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="210" y="40">x16</text><text x="210" y="190">x4</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">more lanes, more data at once</text>
+</svg>

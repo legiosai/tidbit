@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-10-lidar",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "lidar sensor",
+      "lidar sensors",
+      "lidar scanner",
+      "light detection and ranging"
+    ],
+    "es": [
+      "sensor lidar",
+      "sensores lidar",
+      "escáner lidar",
+      "light detection and ranging"
+    ]
+  },
+  "image": "img/2026-11-10-lidar.svg",
+  "imageAlt": {
+    "en": "A lidar unit fires laser pulses at a tree and a car; the pulses bounce back and the timing becomes a cloud of dots outlining both shapes",
+    "es": "Un lidar dispara pulsos láser contra un árbol y un auto; los pulsos rebotan y el tiempo que tardan se convierte en una nube de puntos con la forma de los dos"
+  },
+  "en": {
+    "title": "Lidar",
+    "tagline": "A sensor that measures distances by timing laser pulses that bounce back.",
+    "explanation": [
+      "**Lidar** (short for light detection and ranging) measures how far away things are using light. It fires very short laser pulses, usually invisible infrared, and times how long each one takes to bounce off a surface and come back. Since light travels at a known speed, that time gives the distance. Do it many thousands of times per second while sweeping across a scene and you get a **point cloud**: millions of dots, each with an exact position, that together outline the shape of everything around.",
+      "It works like radar but with light instead of radio waves, which gives much finer detail. Self-driving cars and robots use lidar to see the road, pedestrians and obstacles in 3D, day or night. Planes and drones carry it to map terrain, and because some pulses slip between leaves and reach the ground, archaeologists have used it to find ancient structures hidden under forests. Since the iPhone 12 Pro, some phones and tablets include a small lidar to help with focusing in the dark and augmented reality.",
+      "Its weak spots are cost and weather. Car-grade lidar units have long been expensive, which is why some carmakers bet on cameras alone, and rain, fog or snow scatter the laser and shorten its range. Many systems combine lidar with cameras and radar so each one covers the others' gaps."
+    ],
+    "analogy": "Like shouting in a canyon and timing the echo to know how far the wall is, except with light instead of sound, and millions of shouts per second in every direction.",
+    "keyPoints": [
+      "Measures distance by timing laser pulses on their round trip.",
+      "Produces a point cloud: a 3D map made of millions of dots.",
+      "Used in self-driving cars, robots, terrain mapping and some phones.",
+      "Fog, rain and cost are its main limits; it is often combined with cameras and radar."
+    ],
+    "links": [
+      {
+        "label": "Lidar on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lidar"
+      },
+      {
+        "label": "What is lidar? (NOAA)",
+        "url": "https://oceanservice.noaa.gov/facts/lidar.html"
+      }
+    ]
+  },
+  "es": {
+    "title": "Lidar",
+    "tagline": "Un sensor que mide distancias cronometrando pulsos láser que rebotan.",
+    "explanation": [
+      "El **lidar** (de light detection and ranging, detección y medición de distancias por luz) mide qué tan lejos están las cosas usando luz. Dispara pulsos láser cortísimos, en general infrarrojos e invisibles, y cronometra cuánto tarda cada uno en rebotar contra una superficie y volver. Como la luz viaja a una velocidad conocida, ese tiempo te da la distancia. Si lo hacés miles de veces por segundo mientras barrés una escena, obtenés una **nube de puntos**: millones de puntitos, cada uno con su posición exacta, que juntos dibujan la forma de todo lo que hay alrededor.",
+      "Funciona como un radar pero con luz en vez de ondas de radio, y eso le da mucho más detalle. Los autos autónomos y los robots usan lidar para ver en 3D la calle, los peatones y los obstáculos, de día o de noche. Aviones y drones lo llevan para mapear terrenos, y como algunos pulsos se cuelan entre las hojas y llegan al suelo, la arqueología lo usó para encontrar construcciones antiguas escondidas bajo la selva. Desde el iPhone 12 Pro, algunos celulares y tablets traen un lidar chiquito que ayuda a enfocar a oscuras y con la realidad aumentada.",
+      "Sus puntos débiles son el costo y el clima. Los lidar para autos fueron caros durante mucho tiempo, y por eso algunas automotrices apostaron solo a cámaras; además la lluvia, la niebla o la nieve dispersan el láser y le acortan el alcance. Muchos sistemas combinan lidar con cámaras y radar para que cada uno tape los huecos de los otros."
+    ],
+    "analogy": "Como gritar en un cañón y medir cuánto tarda el eco para saber a qué distancia está la pared, pero con luz en vez de sonido, y millones de gritos por segundo para todos lados.",
+    "keyPoints": [
+      "Mide distancias cronometrando el ida y vuelta de pulsos láser.",
+      "Genera una nube de puntos: un mapa 3D hecho de millones de puntitos.",
+      "Se usa en autos autónomos, robots, mapeo de terrenos y algunos celulares.",
+      "La niebla, la lluvia y el costo son sus límites; suele combinarse con cámaras y radar."
+    ],
+    "links": [
+      {
+        "label": "LiDAR en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/LIDAR"
+      },
+      {
+        "label": "What is lidar? (NOAA, en inglés)",
+        "url": "https://oceanservice.noaa.gov/facts/lidar.html"
+      }
+    ]
+  }
+}

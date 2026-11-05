@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-aws-global-accelerator",
+  "date": "2026-11-09",
+  "subjects": ["aws", "networks"],
+  "level": 3,
+  "aliases": {
+    "en": ["Global Accelerator"],
+    "es": ["Global Accelerator"]
+  },
+  "image": "img/2026-11-09-aws-global-accelerator.svg",
+  "imageAlt": {
+    "en": "Users on two continents reach the nearest AWS edge through the same static IP, then travel over the AWS network to healthy endpoints in two regions",
+    "es": "Usuarios en dos continentes llegan al borde de AWS más cercano por la misma IP fija y de ahí viajan por la red de AWS a endpoints sanos en dos regiones"
+  },
+  "en": {
+    "title": "AWS Global Accelerator",
+    "tagline": "Fixed IP addresses that pull users onto AWS's own network near them and route to a healthy region.",
+    "explanation": [
+      "**AWS Global Accelerator** gives your application a small set of static IP addresses, two IPv4 addresses by default, that are announced with anycast from AWS edge locations around the world. A user in Madrid and a user in Buenos Aires connect to the same IPs, but each one enters AWS at a nearby edge. From there, the traffic rides AWS's private global network to your servers instead of crossing many hops of the public internet, which usually means less jitter and fewer lost packets.",
+      "Behind the IPs you put **endpoints**: Application or Network Load Balancers, EC2 instances or Elastic IPs, in one or several regions. In a **standard accelerator**, Global Accelerator checks their health and sends each user to the closest healthy region, and a traffic dial lets you turn down the share of traffic a region receives. If a region fails, traffic moves to the next healthy region and clients keep using the same IPs, with no DNS change to wait for. A **custom routing accelerator** instead maps users to a specific instance and port, which multiplayer game servers use to put players in the same session.",
+      "It works at the TCP and UDP layer and does not cache anything, which is the key difference from Amazon CloudFront. CloudFront is for HTTP content that can be cached near users; Global Accelerator is for any TCP or UDP traffic, like games, VoIP or APIs, that needs stable IPs and fast regional failover."
+    ],
+    "analogy": "A highway on-ramp in every city that leads to a private toll road: everyone uses the same entrance number, gets on near home, and the road operator sends you to whichever destination is open.",
+    "keyPoints": [
+      "Provides static anycast IPs, two IPv4 by default, that stay with the accelerator while it exists.",
+      "Traffic enters AWS at the nearest edge and travels on the AWS global network.",
+      "Health checks move users to another region without DNS changes.",
+      "Works for TCP and UDP and does not cache; CloudFront is the HTTP caching option."
+    ],
+    "links": [
+      { "label": "What is AWS Global Accelerator? (official docs)", "url": "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html" },
+      { "label": "AWS Global Accelerator product page", "url": "https://aws.amazon.com/global-accelerator/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Global Accelerator",
+    "tagline": "IPs fijas que suben a tus usuarios a la red de AWS cerca de ellos y los llevan a una región sana.",
+    "explanation": [
+      "**AWS Global Accelerator** le da a tu aplicación un par de direcciones IP estáticas, dos IPv4 por defecto, que se anuncian con anycast desde las edge locations de AWS en todo el mundo. Un usuario en Madrid y otro en Buenos Aires se conectan a las mismas IPs, pero cada uno entra a AWS por un borde cercano. De ahí, el tráfico viaja por la red global privada de AWS hasta tus servidores en vez de cruzar muchos saltos de internet pública, lo que suele significar menos jitter y menos paquetes perdidos.",
+      "Detrás de las IPs ponés **endpoints**: balanceadores de carga ALB o NLB, instancias de EC2 o Elastic IPs, en una o varias regiones. En un **acelerador estándar**, Global Accelerator chequea su salud y manda a cada usuario a la región sana más cercana, y con el traffic dial podés bajar el porcentaje de tráfico que recibe una región. Si se cae una región, el tráfico pasa a la siguiente región sana y los clientes siguen usando las mismas IPs, sin esperar que se propague un cambio de DNS. Un **acelerador de enrutamiento personalizado** (custom routing), en cambio, asigna usuarios a una instancia y un puerto puntuales, algo que usan los servidores de juegos multijugador para juntar jugadores en la misma partida.",
+      "Trabaja a nivel TCP y UDP y no guarda nada en caché, que es la gran diferencia con Amazon CloudFront. CloudFront es para contenido HTTP que se puede cachear cerca del usuario; Global Accelerator es para cualquier tráfico TCP o UDP, como juegos, VoIP o APIs, que necesita IPs estables y un failover rápido entre regiones."
+    ],
+    "analogy": "Una bajada a una autopista privada en cada ciudad: todos usan el mismo número de acceso, suben cerca de su casa y el operador de la autopista te manda al destino que esté abierto.",
+    "keyPoints": [
+      "Da IPs estáticas anycast, dos IPv4 por defecto, que quedan con el acelerador mientras exista.",
+      "El tráfico entra a AWS por el borde más cercano y viaja por la red global de AWS.",
+      "Los chequeos de salud pasan usuarios a otra región sin cambios de DNS.",
+      "Sirve para TCP y UDP y no cachea; para caché HTTP está CloudFront."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Global Accelerator? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/global-accelerator/latest/dg/what-is-global-accelerator.html" },
+      { "label": "Página de AWS Global Accelerator", "url": "https://aws.amazon.com/es/global-accelerator/" }
+    ]
+  }
+}

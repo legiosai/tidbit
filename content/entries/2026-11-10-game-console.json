@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-10-game-console",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "game consoles",
+      "video game console",
+      "video game consoles",
+      "games console",
+      "games consoles"
+    ],
+    "es": [
+      "consolas de videojuegos",
+      "consola de juegos",
+      "consolas de juegos",
+      "videoconsola",
+      "videoconsolas"
+    ]
+  },
+  "image": "img/2026-11-10-game-console.svg",
+  "imageAlt": {
+    "en": "A console box connected to a TV by a cable, with a wireless controller sending input to it and a game disc and download arrow feeding it games",
+    "es": "Una consola conectada a un televisor por un cable, con un joystick inalámbrico que le manda órdenes y un disco y una flecha de descarga que le dan juegos"
+  },
+  "en": {
+    "title": "Game console",
+    "tagline": "A computer built only to play video games on your TV, with a controller.",
+    "explanation": [
+      "A **game console** is a computer designed for one job: running video games. It plugs into a TV, you hold a controller instead of a keyboard and mouse, and you turn it on and play without installing drivers or tweaking settings. The best-known families today are Sony's PlayStation, Microsoft's Xbox and the Nintendo Switch, which is also a handheld you can take out of the dock.",
+      "Inside, a console has the same kind of parts as a gaming PC: a CPU, a GPU, memory and fast storage. The difference is that every unit of a given model is identical. Game studios know exactly what hardware they are writing for, so they can squeeze performance out of it for years, while PC games have to adapt to thousands of combinations.",
+      "Consoles are also a business model. Makers often sell the hardware with thin margins, sometimes at a loss, and earn money from games, online subscriptions and a cut of every game sold in their digital store. That is why each console mostly runs games approved for its own platform, and why some games are \"exclusives\" that only exist on one of them."
+    ],
+    "analogy": "A coffee capsule machine. It does one thing, it does it with one button, and the company makes its real money selling the capsules that only fit that machine.",
+    "keyPoints": [
+      "A computer specialized in games, connected to a TV and played with a controller.",
+      "Every unit of a model is identical, so developers can optimize for it.",
+      "PlayStation, Xbox and Nintendo Switch are the main families today.",
+      "Makers earn mostly from games, subscriptions and store sales, not the box."
+    ],
+    "links": [
+      {
+        "label": "Video game console on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Video_game_console"
+      },
+      {
+        "label": "Handheld game console on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Handheld_game_console"
+      }
+    ]
+  },
+  "es": {
+    "title": "Consola de videojuegos",
+    "tagline": "Una computadora hecha solo para jugar videojuegos en la tele, con un joystick.",
+    "explanation": [
+      "Una **consola de videojuegos** es una computadora diseñada para un único trabajo: correr juegos. Se enchufa a la tele, en vez de teclado y mouse agarrás un joystick, y la prendés y jugás sin instalar drivers ni tocar configuraciones. Las familias más conocidas hoy son la PlayStation de Sony, la Xbox de Microsoft y la Nintendo Switch, que además es portátil y la podés sacar de su base.",
+      "Por dentro, una consola tiene el mismo tipo de piezas que una PC gamer: CPU, GPU, memoria y almacenamiento rápido. La diferencia es que todas las unidades de un mismo modelo son idénticas. Los estudios saben exactamente para qué hardware programan, así que le pueden exprimir rendimiento durante años, mientras que los juegos de PC se tienen que adaptar a miles de combinaciones.",
+      "Las consolas también son un modelo de negocio. Los fabricantes muchas veces venden el aparato con un margen chico, a veces a pérdida, y ganan con los juegos, las suscripciones online y una comisión por cada juego vendido en su tienda digital. Por eso cada consola corre sobre todo juegos aprobados para su plataforma, y por eso existen los \"exclusivos\", que solo salen en una de ellas."
+    ],
+    "analogy": "Una cafetera de cápsulas. Hace una sola cosa, la hace con un botón, y la empresa gana la plata de verdad vendiendo las cápsulas que solo entran en esa máquina.",
+    "keyPoints": [
+      "Una computadora especializada en juegos, conectada a la tele y manejada con joystick.",
+      "Todas las unidades de un modelo son iguales, así que los estudios pueden optimizar para ella.",
+      "PlayStation, Xbox y Nintendo Switch son las familias principales hoy.",
+      "Los fabricantes ganan sobre todo con juegos, suscripciones y su tienda, no con la consola."
+    ],
+    "links": [
+      {
+        "label": "Videoconsola en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Videoconsola"
+      },
+      {
+        "label": "Videoconsola portátil en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Videoconsola_port%C3%A1til"
+      }
+    ]
+  }
+}

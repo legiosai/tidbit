@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-cryptojacking",
+  "date": "2026-11-11",
+  "subjects": ["security", "cloud"],
+  "level": 2,
+  "aliases": {
+    "en": ["cryptojacker", "cryptojackers", "cryptomining malware", "coin miner malware", "browser mining"],
+    "es": ["criptojacking", "cryptojacker", "malware de minería", "minería de criptomonedas maliciosa", "criptominería maliciosa"]
+  },
+  "image": "img/2026-11-11-cryptojacking.svg",
+  "imageAlt": {
+    "en": "A hidden miner inside a hot laptop and inside a cloud server sends coins to an attacker's wallet, while the victim gets the electricity and cloud bill",
+    "es": "Un minero oculto dentro de una notebook recalentada y dentro de un servidor en la nube manda monedas a la billetera del atacante, mientras la víctima paga la luz y la factura de la nube"
+  },
+  "en": {
+    "title": "Cryptojacking",
+    "tagline": "Secretly using someone else's computers to mine cryptocurrency for yourself.",
+    "explanation": [
+      "**Cryptojacking** is when an attacker runs cryptocurrency mining software on computers they do not own. Mining means doing huge amounts of calculations in exchange for newly created coins; the calculations cost electricity and hardware wear. The attacker keeps the coins and the victim pays for everything else: a slower machine, loud fans, a draining battery, a higher power bill.",
+      "The first big wave lived in web browsers. Around 2017 a service called Coinhive offered a JavaScript snippet that mined the cryptocurrency Monero while a page was open; some sites used it openly, but attackers mostly injected it into hacked websites so every visitor mined for them. Coinhive shut down in 2019, and browsers and ad blockers now block known mining scripts.",
+      "Today the juiciest target is the cloud. An attacker who finds a leaked access key or an exposed admin console can spin up dozens of powerful servers or GPUs and mine on the victim's account; the first sign is often a shocking bill. A well-known case came in 2018, when researchers found miners running in Tesla's cloud environment through a Kubernetes console left without a password. Defenses: protect credentials, never commit an API key to a public repository, set billing alerts and limits, and watch for servers running at full CPU for no reason."
+    ],
+    "analogy": "A neighbor who secretly plugs a cable into your outdoor outlet to charge their electric car every night. You do not notice anything is missing until the electricity bill arrives.",
+    "keyPoints": [
+      "The attacker gets the coins; the victim pays for power and hardware.",
+      "Early attacks ran in browsers; today the cloud is the big target.",
+      "Leaked cloud credentials can turn into a huge surprise bill.",
+      "Billing alerts and constant 100% CPU are common warning signs."
+    ],
+    "links": [
+      { "label": "Cryptojacking on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cryptojacking" },
+      { "label": "What is cryptojacking? (IBM)", "url": "https://www.ibm.com/think/topics/cryptojacking" }
+    ]
+  },
+  "es": {
+    "title": "Cryptojacking",
+    "tagline": "Usar a escondidas las computadoras de otro para minar criptomonedas para vos.",
+    "explanation": [
+      "El **cryptojacking** (o criptojacking) es cuando un atacante pone a correr software de minería de criptomonedas en computadoras que no son suyas. Minar significa hacer cantidades enormes de cálculos a cambio de monedas nuevas; esos cálculos gastan electricidad y desgastan el hardware. El atacante se queda con las monedas y la víctima paga todo lo demás: una máquina más lenta, ventiladores a full, una batería que dura nada, una factura de luz más alta.",
+      "La primera gran ola fue en los navegadores. Alrededor de 2017, un servicio llamado Coinhive ofrecía un pedacito de JavaScript que minaba la criptomoneda Monero mientras la página estaba abierta; algunos sitios lo usaban a la vista, pero sobre todo los atacantes lo metían en sitios hackeados para que cada visitante minara para ellos. Coinhive cerró en 2019, y hoy los navegadores y los bloqueadores de publicidad frenan los scripts de minería conocidos.",
+      "Hoy el blanco más jugoso es la nube. Un atacante que encuentra una clave de acceso filtrada o una consola de administración expuesta puede levantar decenas de servidores potentes o GPUs y minar en la cuenta de la víctima; muchas veces la primera señal es una factura que da miedo. Un caso conocido fue en 2018, cuando unos investigadores encontraron mineros corriendo en el entorno cloud de Tesla a través de una consola de Kubernetes que había quedado sin contraseña. Defensas: cuidar las credenciales, nunca subir una API key a un repositorio público, poner alertas y topes de facturación, y sospechar de servidores al 100% de CPU sin motivo."
+    ],
+    "analogy": "Un vecino que, a escondidas, enchufa un cable en tu toma del patio para cargar su auto eléctrico todas las noches. No notás que falta nada hasta que llega la boleta de la luz.",
+    "keyPoints": [
+      "El atacante se queda con las monedas; la víctima paga luz y hardware.",
+      "Los primeros ataques eran en el navegador; hoy el blanco es la nube.",
+      "Unas credenciales cloud filtradas pueden terminar en una factura enorme.",
+      "Alertas de facturación y CPU al 100% constante son señales típicas."
+    ],
+    "links": [
+      { "label": "¿Qué es el criptojacking? (IBM)", "url": "https://www.ibm.com/es-es/think/topics/cryptojacking" },
+      { "label": "Cryptojacking en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Cryptojacking" }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-11-shell-script",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["shell scripts", "shell scripting", "Bash script", "Bash scripts"],
+    "es": ["scripts de shell", "script de Bash", "scripts de Bash", "shell script", "shell scripts"]
+  },
+  "image": "img/2026-11-11-shell-script.svg",
+  "imageAlt": {
+    "en": "A small backup.sh file with three commands, run once from the terminal, which then copies, compresses and uploads files",
+    "es": "Un archivo backup.sh con tres comandos, que se ejecuta una vez desde la terminal y copia, comprime y sube archivos"
+  },
+  "en": {
+    "title": "Shell script",
+    "tagline": "A text file full of terminal commands that the computer runs one after another.",
+    "explanation": [
+      "A **shell script** is a plain text file containing commands you could type at the command line, saved so the computer can run them all in order with a single instruction. If every morning you copy a folder, compress it and upload it to a server, you can write those three commands in a file like `backup.sh` and run just that file instead.",
+      "The first line usually says which shell should read it, for example `#!/bin/bash` for Bash, the default shell on most Linux systems (Macs have used Zsh by default since 2019, and it understands most of the same syntax). After marking the file as executable with `chmod +x backup.sh`, you run it with `./backup.sh`. Scripts can also use variables, `if` conditions and loops, so they can decide what to do and repeat steps over many files.",
+      "Shell scripts are the glue of software work. They install programs, start servers, run tests in CI pipelines, rotate logs and schedule nightly jobs. They are quick to write but easy to get subtly wrong: a missing quote around a file name with spaces can make a script act on the wrong files. For anything long or complicated, teams usually switch to a language like Python."
+    ],
+    "analogy": "A recipe card taped to the fridge. Instead of remembering each step every time, you write the steps down once and anyone (or any computer) can follow them exactly.",
+    "keyPoints": [
+      "A text file of shell commands, run in order with one instruction.",
+      "Starts with a line like `#!/bin/bash` naming the shell that runs it.",
+      "Common for installs, backups, deploys and scheduled jobs.",
+      "Great for short automation; long logic is better in a full language."
+    ],
+    "links": [
+      { "label": "Writing shell scripts (LinuxCommand.org)", "url": "https://linuxcommand.org/lc3_writing_shell_scripts.php" },
+      { "label": "Shell script on Wikipedia", "url": "https://en.wikipedia.org/wiki/Shell_script" }
+    ]
+  },
+  "es": {
+    "title": "Script de shell",
+    "tagline": "Un archivo de texto lleno de comandos de terminal que la compu ejecuta uno tras otro.",
+    "explanation": [
+      "Un **script de shell** es un archivo de texto plano con comandos que podrías escribir en la línea de comandos, guardados para que la computadora los ejecute todos en orden con una sola instrucción. Si todas las mañanas copiás una carpeta, la comprimís y la subís a un servidor, podés escribir esos tres comandos en un archivo como `backup.sh` y correr solamente ese archivo.",
+      "La primera línea suele decir qué shell lo tiene que leer, por ejemplo `#!/bin/bash` para Bash, la shell por defecto en la mayoría de los Linux (las Mac usan Zsh por defecto desde 2019, que entiende casi la misma sintaxis). Después de marcar el archivo como ejecutable con `chmod +x backup.sh`, lo corrés con `./backup.sh`. Un script también puede usar variables, condiciones `if` y bucles, así que puede decidir qué hacer y repetir pasos sobre muchos archivos.",
+      "Los scripts de shell son el pegamento del trabajo con software. Instalan programas, levantan servidores, corren tests en pipelines de CI, rotan logs y programan tareas nocturnas. Se escriben rápido pero es fácil meter un error sutil: una comilla que falta alrededor de un nombre de archivo con espacios puede hacer que el script toque los archivos equivocados. Para algo largo o complicado, los equipos suelen pasarse a un lenguaje como Python."
+    ],
+    "analogy": "Una receta pegada en la heladera. En vez de acordarte de cada paso cada vez, los escribís una sola vez y cualquiera (o cualquier computadora) los sigue al pie de la letra.",
+    "keyPoints": [
+      "Un archivo de texto con comandos de shell que se ejecutan en orden con una instrucción.",
+      "Arranca con una línea como `#!/bin/bash` que indica qué shell lo corre.",
+      "Muy usado para instalaciones, backups, deploys y tareas programadas.",
+      "Ideal para automatizar cosas cortas; la lógica larga conviene en un lenguaje completo."
+    ],
+    "links": [
+      { "label": "Script de shell en Wikipedia", "url": "https://es.wikipedia.org/wiki/Script_de_shell" },
+      { "label": "Bash en Wikipedia", "url": "https://es.wikipedia.org/wiki/Bash" },
+      { "label": "Writing shell scripts (LinuxCommand.org, en inglés)", "url": "https://linuxcommand.org/lc3_writing_shell_scripts.php" }
+    ]
+  }
+}

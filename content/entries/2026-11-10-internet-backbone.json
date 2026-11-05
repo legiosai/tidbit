@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-10-internet-backbone",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "internet backbones",
+      "backbone network",
+      "backbone networks",
+      "Tier 1 network",
+      "Tier 1 networks",
+      "Tier 1 provider",
+      "Tier 1 providers"
+    ],
+    "es": [
+      "red troncal",
+      "redes troncales",
+      "troncal de internet",
+      "red Tier 1",
+      "redes Tier 1",
+      "backbone"
+    ]
+  },
+  "image": "img/2026-11-10-internet-backbone.svg",
+  "imageAlt": {
+    "en": "A thick ring of high-capacity links joins big carriers at exchange points; thinner lines branch off to local providers and homes",
+    "es": "Un anillo grueso de enlaces de gran capacidad une a los grandes operadores en puntos de intercambio; de ahí salen líneas más finas hacia proveedores locales y casas"
+  },
+  "en": {
+    "title": "Internet backbone",
+    "tagline": "The highest-capacity long-distance links that carry traffic between big networks.",
+    "explanation": [
+      "The internet is a network of networks, and they are not all the same size. Your home connects to your local provider, which connects to bigger regional networks, which connect to a small group of very large carriers running fiber across countries and under oceans. Those core long-distance, high-capacity links are called the **internet backbone**.",
+      "There is no single owner. The backbone is many companies' networks stitched together. They meet at **internet exchange points** and in shared data centers, where they swap traffic. The biggest carriers, called **Tier 1 networks**, can reach every part of the internet just by exchanging traffic with each other for free, known as peering, without paying anyone for transit. Smaller providers pay them to carry their traffic further.",
+      "Most of the time you never think about it, but it shapes your experience. Submarine cables are part of the backbone, so when one is cut, whole regions can slow down. Its capacity grows every year to keep up with video and cloud traffic, and because routes are redundant, traffic usually finds another way around a failure, sometimes with extra latency."
+    ],
+    "analogy": "The highway system of a country. Your street leads to an avenue, the avenue to a regional road, and long trips run on a few big highways run by different companies that agree to connect at interchanges.",
+    "keyPoints": [
+      "The core long-distance links that carry traffic between big networks.",
+      "Owned by many companies, not one; they meet at exchange points.",
+      "Tier 1 networks reach the whole internet by peering, without paying for transit.",
+      "Submarine cables are part of it; redundancy routes around most failures."
+    ],
+    "links": [
+      {
+        "label": "Internet backbone on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Internet_backbone"
+      },
+      {
+        "label": "Tier 1 network on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tier_1_network"
+      }
+    ]
+  },
+  "es": {
+    "title": "Backbone de internet",
+    "tagline": "Los enlaces de larga distancia y máxima capacidad que llevan tráfico entre redes grandes.",
+    "explanation": [
+      "Internet es una red de redes, y no todas son del mismo tamaño. Tu casa se conecta a tu proveedor local, que se conecta a redes regionales más grandes, que a su vez se conectan con un grupo chico de operadores enormes que tienden fibra a través de países y bajo los océanos. Esos enlaces centrales, de larga distancia y gran capacidad, son el **backbone de internet** (o red troncal).",
+      "No tiene un único dueño. El backbone son las redes de muchas empresas cosidas entre sí. Se encuentran en **puntos de intercambio de tráfico** y en data centers compartidos, donde se pasan el tráfico. Los operadores más grandes, llamados **redes Tier 1**, pueden llegar a cualquier parte de internet solo intercambiando tráfico entre ellos sin cobrarse, lo que se llama peering, sin pagarle tránsito a nadie. Los proveedores más chicos les pagan para que les lleven el tráfico más lejos.",
+      "Casi nunca pensás en él, pero define tu experiencia. Los cables submarinos son parte del backbone, así que cuando se corta uno, regiones enteras pueden andar más lentas. Su capacidad crece todos los años para acompañar el tráfico de video y de la nube, y como las rutas son redundantes, el tráfico en general encuentra otro camino cuando algo falla, a veces con más latencia."
+    ],
+    "analogy": "El sistema de rutas de un país. Tu calle sale a una avenida, la avenida a una ruta provincial, y los viajes largos van por unas pocas autopistas manejadas por distintas empresas que acuerdan conectarse en los distribuidores.",
+    "keyPoints": [
+      "Los enlaces centrales de larga distancia que llevan tráfico entre redes grandes.",
+      "Es de muchas empresas, no de una; se cruzan en puntos de intercambio.",
+      "Las redes Tier 1 llegan a todo internet por peering, sin pagar tránsito.",
+      "Los cables submarinos son parte; la redundancia esquiva la mayoría de las fallas."
+    ],
+    "links": [
+      {
+        "label": "Backbone en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Backbone"
+      },
+      {
+        "label": "Red tier 1 en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Red_tier_1"
+      }
+    ]
+  }
+}

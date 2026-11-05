@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-10-augmented-reality",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "AR",
+      "AR glasses",
+      "augmented reality glasses"
+    ],
+    "es": [
+      "AR",
+      "anteojos de realidad aumentada",
+      "lentes de realidad aumentada"
+    ]
+  },
+  "image": "img/2026-11-10-augmented-reality.svg",
+  "imageAlt": {
+    "en": "A phone pointed at a real room shows the same room on screen with a virtual sofa placed on the floor and a floating label",
+    "es": "Un celular apuntando a un cuarto real muestra ese mismo cuarto en pantalla, con un sillón virtual apoyado en el piso y una etiqueta flotando"
+  },
+  "en": {
+    "title": "Augmented reality",
+    "tagline": "Digital images laid on top of the real world you are looking at.",
+    "explanation": [
+      "**Augmented reality** (AR) adds computer-made images to your view of the real world, instead of replacing it. You look at your room through a phone camera or through special glasses, and the device draws extra things on top: an arrow on the street showing where to turn, a virtual sofa standing on your actual floor, the name of each star in the night sky.",
+      "To make the drawing stick to the right spot, the device has to understand the space around it. It uses the camera, motion sensors and sometimes a depth sensor like lidar to find floors, walls and objects and to track how you move. That is what lets a virtual object stay put while you walk around it. Most people have met AR through phone apps and games like Pokémon Go, and through filters that put hats or masks on faces in video calls.",
+      "The long-term goal is AR glasses you would wear all day, showing directions, messages or translations in front of your eyes. Several companies sell early versions, but making glasses light, bright enough to read outdoors and with a battery that lasts is still hard. The line with virtual reality is blurring too: some headsets show the real room through cameras and add digital objects on top, often called mixed reality."
+    ],
+    "analogy": "Sticky notes that you can put on the real world: on a wall, on a street corner, on a sofa that is not there yet. Everyone with the right glasses or app can read them.",
+    "keyPoints": [
+      "Adds digital content to the real world, rather than replacing it like VR.",
+      "Needs to map the space with cameras and sensors so objects stay in place.",
+      "Most common today on phones: games, face filters, furniture previews, navigation.",
+      "Everyday AR glasses exist but still struggle with weight, brightness and battery."
+    ],
+    "links": [
+      {
+        "label": "Augmented reality on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Augmented_reality"
+      },
+      {
+        "label": "Augmented reality (Apple Developer)",
+        "url": "https://developer.apple.com/augmented-reality/"
+      }
+    ]
+  },
+  "es": {
+    "title": "Realidad aumentada",
+    "tagline": "Imágenes digitales encima del mundo real que estás mirando.",
+    "explanation": [
+      "La **realidad aumentada** (AR, por sus siglas en inglés) le suma imágenes hechas por computadora a lo que ves del mundo real, en vez de reemplazarlo. Mirás tu cuarto a través de la cámara del celular o de unos anteojos especiales, y el aparato dibuja cosas encima: una flecha en la calle que te marca dónde doblar, un sillón virtual parado sobre tu piso de verdad, el nombre de cada estrella en el cielo.",
+      "Para que el dibujo quede pegado en el lugar correcto, el aparato tiene que entender el espacio que lo rodea. Usa la cámara, los sensores de movimiento y a veces un sensor de profundidad como el lidar para encontrar pisos, paredes y objetos y seguir cómo te movés. Eso es lo que permite que un objeto virtual se quede quieto mientras caminás alrededor. La mayoría conoció la AR por apps y juegos del celular como Pokémon Go, y por los filtros que te ponen sombreros o máscaras en la cara en una videollamada.",
+      "La meta a largo plazo son anteojos de AR para usar todo el día, que te muestren indicaciones, mensajes o traducciones delante de los ojos. Varias empresas venden versiones tempranas, pero hacer anteojos livianos, con brillo suficiente para leer al aire libre y con una batería que aguante sigue siendo difícil. La frontera con la realidad virtual también se está borrando: algunos visores muestran el cuarto real a través de cámaras y le agregan objetos digitales, algo que suele llamarse realidad mixta."
+    ],
+    "analogy": "Notitas autoadhesivas que podés pegar en el mundo real: en una pared, en una esquina, en un sillón que todavía no compraste. Cualquiera con los anteojos o la app adecuada las puede leer.",
+    "keyPoints": [
+      "Le suma contenido digital al mundo real, en vez de reemplazarlo como la VR.",
+      "Necesita mapear el espacio con cámaras y sensores para que los objetos queden en su lugar.",
+      "Hoy es más común en el celular: juegos, filtros de cara, probar muebles, navegación.",
+      "Los anteojos de AR para todos los días existen, pero todavía pelean con el peso, el brillo y la batería."
+    ],
+    "links": [
+      {
+        "label": "Realidad aumentada en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Realidad_aumentada"
+      },
+      {
+        "label": "Realidad mixta en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Realidad_mixta"
+      },
+      {
+        "label": "ARCore (Google for Developers, en inglés)",
+        "url": "https://developers.google.com/ar"
+      }
+    ]
+  }
+}

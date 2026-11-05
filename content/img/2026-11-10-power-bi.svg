@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="36" width="90" height="40" rx="6" fill="#9bd1b9"/>
+    <rect x="20" y="100" width="90" height="40" rx="6" fill="#9ac7ea"/>
+    <rect x="20" y="164" width="90" height="40" rx="6" fill="#f4a7a7"/>
+    <rect x="150" y="94" width="70" height="52" rx="8" fill="#ffd166"/>
+    <rect x="252" y="36" width="132" height="168" rx="10" fill="#e6dfd0"/>
+    <rect x="266" y="98" width="14" height="36" fill="#9ac7ea"/>
+    <rect x="286" y="80" width="14" height="54" fill="#9ac7ea"/>
+    <rect x="306" y="66" width="14" height="68" fill="#9ac7ea"/>
+    <circle cx="350" cy="102" r="22" fill="#9bd1b9"/>
+    <path d="M350 102 V80 A22 22 0 0 1 370 111 Z" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M112 56 L148 106"/><path d="M112 120 H146"/><path d="M112 184 L148 134"/>
+    <path d="M222 120 H246"/><path d="M240 116 l6 4 -6 4"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="65" y="60">spreadsheet</text>
+    <text x="65" y="124">database</text>
+    <text x="65" y="188">cloud app</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="185" y="125">Power BI</text>
+    <text x="318" y="28">report</text>
+    <text x="318" y="178">1,240</text>
+  </g>
+  <text x="318" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b6357">orders this week</text>
+  <text x="185" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">connect, clean, visualize, share</text>
+</svg>

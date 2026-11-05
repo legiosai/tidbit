@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="50" width="360" height="34" fill="#9ac7ea"/>
+    <rect x="20" y="84" width="360" height="40" fill="#e6dfd0"/>
+    <rect x="20" y="124" width="360" height="40" fill="#9bd1b9"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M64 50 V164"/><path d="M164 50 V164"/><path d="M244 50 V164"/><path d="M324 50 V164"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="42" y="71">key</text><text x="114" y="71">city</text><text x="204" y="71">valid_from</text><text x="284" y="71">valid_to</text><text x="352" y="71">now?</text>
+    <text x="42" y="108">7</text><text x="114" y="108">Córdoba</text><text x="204" y="108">2021-05</text><text x="284" y="108">2026-03</text><text x="352" y="108">no</text>
+    <text x="42" y="148">19</text><text x="114" y="148">Rosario</text><text x="204" y="148">2026-03</text><text x="284" y="148">–</text><text x="352" y="148">yes</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="200" y="36">customer: Ana</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="200" y="190">Type 2: close the old row, add a new one</text>
+    <text x="200" y="212">old sales stay in Córdoba</text>
+  </g>
+</svg>

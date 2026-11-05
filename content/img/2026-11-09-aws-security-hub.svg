@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="16" y="28" width="96" height="30" rx="6" fill="#9ac7ea"/>
+    <rect x="16" y="70" width="96" height="30" rx="6" fill="#9bd1b9"/>
+    <rect x="16" y="112" width="96" height="30" rx="6" fill="#e6dfd0"/>
+    <rect x="16" y="154" width="96" height="30" rx="6" fill="#f4a7a7"/>
+    <circle cx="190" cy="106" r="40" fill="#ffd166"/>
+    <rect x="268" y="48" width="116" height="30" rx="6" fill="#f4a7a7"/>
+    <rect x="268" y="92" width="116" height="30" rx="6" fill="#ffd166"/>
+    <rect x="268" y="136" width="116" height="30" rx="6" fill="#e6dfd0"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M114 43 L156 86"/><path d="M114 85 L150 100"/><path d="M114 127 L150 112"/><path d="M114 169 L156 126"/>
+    <path d="M232 106 H260"/><path d="M254 101 l6 5 -6 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="64" y="47">GuardDuty</text><text x="64" y="89">Inspector</text><text x="64" y="131">Macie</text><text x="64" y="173">CSPM checks</text>
+    <text x="190" y="102" font-size="13">Security</text><text x="190" y="118" font-size="13">Hub</text>
+    <text x="326" y="67">1 exposure</text><text x="326" y="111">2 high</text><text x="326" y="155">3 low</text>
+  </g>
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">many alerts in, one ranked list out</text>
+</svg>

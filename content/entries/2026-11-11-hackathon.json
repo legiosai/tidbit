@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-hackathon",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 1,
+  "aliases": {
+    "en": ["hackathons", "hack day", "hack week"],
+    "es": ["hackatones", "hackathon", "hackathons"]
+  },
+  "image": "img/2026-11-11-hackathon.svg",
+  "imageAlt": {
+    "en": "A clock showing 48 hours, small teams around laptops, and a stage where they present a working demo",
+    "es": "Un reloj que marca 48 horas, equipos chicos alrededor de laptops y un escenario donde presentan una demo que funciona"
+  },
+  "en": {
+    "title": "Hackathon",
+    "tagline": "A short, intense event where small teams build a working prototype from scratch.",
+    "explanation": [
+      "A **hackathon** is an event, usually lasting a day or a weekend, where people form small teams and race to build something that works by the deadline: an app, a website, a gadget, a tool. At the end each team shows a short demo, and judges often award prizes. The word mixes \"hack\" (in its old sense of clever, playful building) and \"marathon\", and it came into use in 1999.",
+      "Teams usually mix skills: someone who codes, someone who designs, someone who knows the problem well. Some hackathons have a theme, like climate, health or a company's API, and sponsors provide tools, mentors and food. Universities, cities and nonprofits run them too, and many happen online. Companies hold internal versions, often called hack days or hack weeks, where employees can work on any idea outside their usual roadmap.",
+      "Nobody expects production-ready software from 48 hours of coffee and little sleep. The value is elsewhere: testing an idea fast, learning a new tool, meeting people and sometimes finding a cofounder or a job. Some well-known products began as hackathon projects, but most demos end when the event does, and that is fine."
+    ],
+    "analogy": "A cooking contest with a mystery basket and a timer. No one expects a restaurant from it, but you find out quickly what you can do, and who you cook well with.",
+    "keyPoints": [
+      "Small teams build a working prototype in roughly 24 to 48 hours.",
+      "Ends with demos, and often judges and prizes.",
+      "Run by universities, companies, cities and communities, in person or online.",
+      "The real payoff is learning, testing ideas fast and meeting people."
+    ],
+    "links": [
+      { "label": "Hackathon on Wikipedia", "url": "https://en.wikipedia.org/wiki/Hackathon" },
+      { "label": "Upcoming hackathons (Devpost)", "url": "https://devpost.com/hackathons" }
+    ]
+  },
+  "es": {
+    "title": "Hackatón",
+    "tagline": "Un evento corto e intenso donde equipos chicos arman un prototipo que funcione desde cero.",
+    "explanation": [
+      "Una **hackatón** es un evento, en general de un día o un fin de semana, donde la gente arma equipos chicos y corre contra el reloj para construir algo que funcione: una app, un sitio, un aparato, una herramienta. Al final cada equipo muestra una demo corta y muchas veces un jurado reparte premios. La palabra mezcla \"hack\" (en su sentido viejo de construir algo ingenioso y con juego) y \"maratón\", y empezó a usarse en 1999.",
+      "Los equipos suelen mezclar perfiles: alguien que programa, alguien que diseña, alguien que conoce bien el problema. Algunas hackatones tienen un tema, como clima, salud o la API de una empresa, y los sponsors ponen herramientas, mentores y comida. También las organizan universidades, ciudades y ONGs, y muchas son online. Las empresas hacen versiones internas, muchas veces llamadas hack days o hack weeks, donde la gente puede trabajar en cualquier idea por fuera de lo que tiene planificado.",
+      "Nadie espera software listo para producción después de 48 horas de café y poco sueño. El valor está en otro lado: probar una idea rápido, aprender una herramienta nueva, conocer gente y a veces encontrar un socio o un trabajo. Algunos productos conocidos arrancaron como proyectos de hackatón, pero la mayoría de las demos terminan cuando termina el evento, y está bien que así sea."
+    ],
+    "analogy": "Un concurso de cocina con una canasta sorpresa y un cronómetro. Nadie espera que salga un restaurante, pero descubrís rápido qué podés hacer, y con quién cocinás bien.",
+    "keyPoints": [
+      "Equipos chicos arman un prototipo que funcione en más o menos 24 a 48 horas.",
+      "Termina con demos, y muchas veces con jurado y premios.",
+      "Las hacen universidades, empresas, ciudades y comunidades, en persona u online.",
+      "La verdadera ganancia es aprender, probar ideas rápido y conocer gente."
+    ],
+    "links": [
+      { "label": "Hackatón en Wikipedia", "url": "https://es.wikipedia.org/wiki/Hackatón" },
+      { "label": "Próximas hackatones (Devpost, en inglés)", "url": "https://devpost.com/hackathons" }
+    ]
+  }
+}

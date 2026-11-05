@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M40 24 V180 H310"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="56" y="130" width="30" height="50" fill="#9ac7ea"/><rect x="56" y="110" width="30" height="20" fill="#9bd1b9"/><rect x="56" y="100" width="30" height="10" fill="#ffd166"/>
+    <rect x="102" y="124" width="30" height="56" fill="#9ac7ea"/><rect x="102" y="102" width="30" height="22" fill="#9bd1b9"/><rect x="102" y="90" width="30" height="12" fill="#ffd166"/>
+    <rect x="148" y="120" width="30" height="60" fill="#9ac7ea"/><rect x="148" y="80" width="30" height="40" fill="#9bd1b9"/><rect x="148" y="66" width="30" height="14" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#e6dfd0" stroke-dasharray="5 4">
+    <rect x="200" y="60" width="30" height="120"/>
+    <rect x="246" y="52" width="30" height="128"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="71" y="196">Aug</text><text x="117" y="196">Sep</text><text x="163" y="196">Oct</text>
+    <text x="238" y="196">forecast</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="322" y="54" width="14" height="14" fill="#ffd166"/>
+    <rect x="322" y="84" width="14" height="14" fill="#9bd1b9"/>
+    <rect x="322" y="114" width="14" height="14" fill="#9ac7ea"/>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="364" y="65">S3</text><text x="364" y="95">RDS</text><text x="364" y="125">EC2</text>
+  </g>
+  <text x="200" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">what you spent, on what, and what comes next</text>
+</svg>

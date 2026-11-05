@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="50" width="150" height="130" rx="10" fill="#ffd166"/>
+    <rect x="55" y="112" width="100" height="34" rx="8" fill="#9bd1b9"/>
+    <rect x="220" y="50" width="150" height="130" rx="10" fill="#e6dfd0" stroke-dasharray="6 5"/>
+    <rect x="245" y="112" width="100" height="34" rx="8" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M184 129 H214"/><path d="M190 125 l-6 4 6 4"/><path d="M208 125 l6 4 -6 4"/>
+    <path d="M142 139 l10 26 4 -10 10 -4 z" fill="#f3efe6"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="105" y="38">what you see</text><text x="295" y="38">invisible frame</text>
+    <text x="105" y="134">Win a prize!</text><text x="295" y="134">Transfer $</text>
+    <text x="105" y="84">bait page</text><text x="295" y="84">your bank</text>
+  </g>
+  <text x="200" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">same spot · one click hits the hidden button</text>
+</svg>

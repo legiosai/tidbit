@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <rect x="210" y="20" width="176" height="200" rx="12" fill="#e6dfd0"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="20" y="40" width="160" height="160" rx="12" fill="#9ac7ea"/>
+    <rect x="40" y="76" width="56" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="104" y="76" width="56" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="40" y="120" width="56" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="104" y="120" width="56" height="34" rx="6" fill="#9bd1b9"/>
+    <rect x="252" y="40" width="108" height="34" rx="6" fill="#f4a7a7"/>
+    <rect x="252" y="103" width="108" height="34" rx="6" fill="#f4a7a7"/>
+    <rect x="252" y="166" width="108" height="34" rx="6" fill="#f4a7a7"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M160 168 C200 168 214 70 246 58"/>
+    <path d="M160 168 C200 168 220 124 246 120"/>
+    <path d="M160 168 C200 168 222 182 246 183"/>
+  </g>
+  <g fill="#2b2b2b"><circle cx="160" cy="168" r="4"/></g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="100" y="64">approved</text>
+    <text x="68" y="98">mail</text><text x="132" y="98">CRM</text>
+    <text x="68" y="142">docs</text><text x="132" y="142">chat</text>
+    <text x="306" y="62">file drop</text><text x="306" y="125">AI chatbot</text><text x="306" y="188">sheets</text>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="100" y="186">IT sees this</text><text x="298" y="94">in the shadow</text>
+  </g>
+</svg>

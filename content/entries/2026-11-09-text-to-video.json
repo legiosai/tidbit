@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-text-to-video",
+  "date": "2026-11-09",
+  "subjects": ["ai"],
+  "level": 1,
+  "aliases": {
+    "en": ["text to video", "text-to-video model", "text-to-video models", "AI video generation", "AI video generator", "AI video generators", "AI-generated video", "AI-generated videos"],
+    "es": ["text-to-video", "texto a vídeo", "modelo de texto a video", "modelos de texto a video", "generación de video con IA", "generador de video con IA", "video generado por IA", "videos generados por IA"]
+  },
+  "image": "img/2026-11-09-text-to-video.svg",
+  "imageAlt": {
+    "en": "A typed prompt about a dog surfing goes into an AI model, which outputs a strip of film frames showing the dog moving across a wave",
+    "es": "Un prompt escrito sobre un perro surfeando entra a un modelo de IA, que devuelve una tira de fotogramas donde se ve al perro moverse por una ola"
+  },
+  "en": {
+    "title": "Text-to-video",
+    "tagline": "AI that turns a written description into a short video clip.",
+    "explanation": [
+      "**Text-to-video** models generate video from a written description. You type \"a golden retriever surfing at sunset, slow motion\" and, a few minutes later, you get a clip that nobody ever filmed. Well-known examples include OpenAI's Sora, Google's Veo and Runway. Most can also start from an image, animating a photo or a drawing.",
+      "Under the hood they are close relatives of text-to-image models. Most are built on a diffusion model: start from random noise and clean it up step by step, guided by your words. The hard part is time. Every frame has to agree with the one before, so a person keeps the same face and a glass that breaks stays broken. Video is many images plus motion, so it takes far more computing power than a single picture, which is why clips are usually seconds long and often priced by the second.",
+      "Quality has improved fast. In 2024, OpenAI's first Sora preview showed clips that looked close to real footage, and in 2025 Google's Veo 3 added generated sound and dialogue to its videos. Weak spots remain: hands, text on signs, physics that does not quite add up, and longer scenes that drift. The same realism raises deepfake worries, so companies add visible labels and AI watermarking to what their tools produce."
+    ],
+    "analogy": "Describing a scene to an animator who works incredibly fast and never asks questions. You get your shot in minutes, but if you look closely at the background, some details may not make sense.",
+    "keyPoints": [
+      "It turns a text prompt, or an image, into a short generated clip.",
+      "It is usually built on diffusion models that keep frames consistent.",
+      "It costs far more than images, so clips are typically seconds long.",
+      "Common flaws: odd physics, garbled text, hands and long scenes that drift."
+    ],
+    "links": [
+      { "label": "Text-to-video model on Wikipedia", "url": "https://en.wikipedia.org/wiki/Text-to-video_model" },
+      { "label": "Veo (Google DeepMind)", "url": "https://deepmind.google/models/veo/" },
+      { "label": "Introducing Gen-3 Alpha (Runway)", "url": "https://runway.com/research/introducing-gen-3-alpha" }
+    ]
+  },
+  "es": {
+    "title": "Texto a video",
+    "tagline": "IA que convierte una descripción escrita en un video corto.",
+    "explanation": [
+      "Los modelos de **texto a video** generan video a partir de una descripción escrita. Escribís \"un golden retriever surfeando al atardecer, en cámara lenta\" y, unos minutos después, tenés un clip que nadie filmó nunca. Entre los conocidos están Sora de OpenAI, Veo de Google y Runway. La mayoría también puede arrancar de una imagen y animar una foto o un dibujo.",
+      "Por dentro son parientes cercanos de los modelos de texto a imagen. Casi todos se basan en un modelo de difusión: arrancan de ruido al azar y lo van limpiando paso a paso, guiados por tus palabras. Lo difícil es el tiempo. Cada cuadro tiene que coincidir con el anterior, para que una persona mantenga la misma cara y un vaso que se rompe siga roto. Un video son muchas imágenes más movimiento, así que pide muchísimo más poder de cómputo que una sola foto; por eso los clips suelen durar segundos y muchas veces se cobran por segundo.",
+      "La calidad mejoró rápido. En 2024, la primera vista previa de Sora de OpenAI mostró clips que parecían casi filmación real, y en 2025 Veo 3 de Google sumó sonido y diálogos generados a sus videos. Quedan puntos débiles: las manos, los textos en carteles, una física que no termina de cerrar y las escenas largas que se van desarmando. Ese mismo realismo despierta temores de deepfakes, por eso las empresas agregan etiquetas visibles y marcas de agua de IA a lo que generan sus herramientas."
+    ],
+    "analogy": "Describirle una escena a un animador rapidísimo que nunca hace preguntas. Tenés tu toma en minutos, pero si mirás bien el fondo, puede haber detalles que no tienen sentido.",
+    "keyPoints": [
+      "Convierte un prompt de texto, o una imagen, en un clip corto generado.",
+      "Suele basarse en modelos de difusión que mantienen coherentes los cuadros.",
+      "Cuesta mucho más que una imagen, por eso los clips suelen durar segundos.",
+      "Fallas comunes: física rara, textos ilegibles, manos y escenas largas que se desarman."
+    ],
+    "links": [
+      { "label": "Modelo de texto a vídeo en Wikipedia", "url": "https://es.wikipedia.org/wiki/Modelo_de_texto_a_v%C3%ADdeo" },
+      { "label": "Veo (Google DeepMind, en inglés)", "url": "https://deepmind.google/models/veo/" },
+      { "label": "Introducing Gen-3 Alpha (Runway, en inglés)", "url": "https://runway.com/research/introducing-gen-3-alpha" }
+    ]
+  }
+}

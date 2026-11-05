@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M90 80 H370"/><path d="M90 160 H370"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#9bd1b9">
+    <rect x="100" y="66" width="24" height="28" rx="3"/><rect x="160" y="66" width="24" height="28" rx="3"/>
+    <rect x="220" y="66" width="24" height="28" rx="3"/><rect x="280" y="66" width="24" height="28" rx="3"/>
+    <rect x="340" y="66" width="24" height="28" rx="3"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="#f4a7a7">
+    <rect x="100" y="146" width="24" height="28" rx="3"/><rect x="132" y="146" width="24" height="28" rx="3"/>
+    <rect x="236" y="146" width="24" height="28" rx="3"/><rect x="268" y="146" width="24" height="28" rx="3"/>
+    <rect x="352" y="146" width="24" height="28" rx="3"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="13" fill="#2b2b2b" text-anchor="middle">
+    <text x="48" y="85">steady</text><text x="48" y="165">jitter</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#6b6357" text-anchor="middle">
+    <text x="142" y="56">20 ms</text><text x="202" y="56">20 ms</text><text x="262" y="56">20 ms</text>
+    <text x="196" y="136">70 ms</text><text x="322" y="136">50 ms</text>
+  </g>
+  <text x="200" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">uneven gaps between packets</text>
+</svg>

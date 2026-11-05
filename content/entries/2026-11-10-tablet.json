@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-10-tablet",
+  "date": "2026-11-10",
+  "subjects": [
+    "hardware"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "tablets",
+      "tablet computer",
+      "tablet computers"
+    ],
+    "es": [
+      "tablets",
+      "tableta",
+      "tabletas"
+    ]
+  },
+  "image": "img/2026-11-10-tablet.svg",
+  "imageAlt": {
+    "en": "A tablet held sideways, a finger tapping its touchscreen, next to an optional stylus and a snap-on keyboard",
+    "es": "Una tablet acostada, un dedo tocando su pantalla táctil, al lado de un lápiz opcional y un teclado que se engancha"
+  },
+  "en": {
+    "title": "Tablet",
+    "tagline": "A computer that is just a big touchscreen, between a phone and a laptop.",
+    "explanation": [
+      "A **tablet** is a thin, flat computer where almost the whole front is a touchscreen. There is no physical keyboard or mouse: you tap, swipe and type on the glass. Inside it is very close to a smartphone, with a similar chip, battery and operating system, only with a screen usually somewhere around 8 to 13 inches.",
+      "Apple's iPad, launched in 2010, turned tablets into a mainstream product, and today there are many Android models and Windows tablets too. People use them for reading, watching video, drawing with a stylus, video calls, and in shops and restaurants as point-of-sale screens. Many can take a snap-on keyboard, which brings them close to a laptop.",
+      "The trade-off is in the software. Tablet apps are built for touch first, which makes them easy and pleasant for media and quick tasks, but heavy work with many windows, files and precise editing is often still more comfortable on a laptop. Whether a tablet can replace your computer depends mostly on which apps you need."
+    ],
+    "analogy": "A sketchbook instead of a full desk. It is lighter, you can take it anywhere and use it on your lap, but for spreading out many papers at once, the desk still wins.",
+    "keyPoints": [
+      "Mostly screen: you control it by touching the glass.",
+      "Inside it resembles a large smartphone more than a laptop.",
+      "The iPad (2010) made the category popular; Android and Windows tablets followed.",
+      "Add a keyboard and stylus and it gets closer to a laptop, but apps set the limits."
+    ],
+    "links": [
+      {
+        "label": "Tablet computer on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tablet_computer"
+      },
+      {
+        "label": "iPad on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/IPad"
+      }
+    ]
+  },
+  "es": {
+    "title": "Tablet",
+    "tagline": "Una computadora que es casi solo una pantalla táctil, entre el celular y la notebook.",
+    "explanation": [
+      "Una **tablet** (o tableta) es una computadora plana y finita donde casi todo el frente es una pantalla táctil. No hay teclado físico ni mouse: tocás, deslizás y escribís sobre el vidrio. Por dentro se parece mucho a un smartphone, con un chip, una batería y un sistema operativo parecidos, solo que con una pantalla que suele andar más o menos entre 8 y 13 pulgadas.",
+      "El iPad de Apple, que salió en 2010, convirtió a las tablets en un producto masivo, y hoy también hay muchos modelos con Android y tablets con Windows. Se usan para leer, ver videos, dibujar con un lápiz, hacer videollamadas, y en negocios y restaurantes como pantalla para cobrar. Muchas aceptan un teclado que se engancha, y ahí se acercan bastante a una notebook.",
+      "El trade-off está en el software. Las apps de tablet están pensadas primero para el tacto, y eso las hace cómodas para mirar contenido y para tareas rápidas, pero el trabajo pesado con muchas ventanas, archivos y edición precisa suele seguir siendo más cómodo en una notebook. Si una tablet te puede reemplazar la computadora depende sobre todo de qué apps necesitás."
+    ],
+    "analogy": "Un cuaderno de dibujo en vez de un escritorio completo. Es más liviano, lo llevás a cualquier lado y lo usás sobre las rodillas, pero para desparramar muchos papeles a la vez, el escritorio sigue ganando.",
+    "keyPoints": [
+      "Es casi todo pantalla: la manejás tocando el vidrio.",
+      "Por dentro se parece más a un celular grande que a una notebook.",
+      "El iPad (2010) hizo popular la categoría; después llegaron las tablets con Android y Windows.",
+      "Con teclado y lápiz se acerca a una notebook, pero las apps marcan los límites."
+    ],
+    "links": [
+      {
+        "label": "Tableta (computadora) en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Tableta_(computadora)"
+      },
+      {
+        "label": "iPad en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/IPad"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-11-uala",
+  "date": "2026-11-11",
+  "subjects": ["companies"],
+  "level": 1,
+  "aliases": {
+    "en": ["Uala", "Ualá Bank"],
+    "es": ["Uala", "Ualá Bank"]
+  },
+  "image": "img/2026-11-11-uala.svg",
+  "imageAlt": {
+    "en": "A phone app with a card, from which money goes to transfers, payments, investments and loans",
+    "es": "Una app en el celular con una tarjeta, desde la que la plata va a transferencias, pagos, inversiones y préstamos"
+  },
+  "en": {
+    "title": "Ualá",
+    "tagline": "An Argentine fintech that started as an app and a card, and became a bank.",
+    "explanation": [
+      "**Ualá** is a financial technology company, a fintech, founded in Argentina in 2017 by Pierpaolo Barbieri. It started with a simple offer: download an app, open an account in minutes from your phone, and get a prepaid Mastercard card, with no branch visits and no maintenance fees. That was aimed at people that traditional banks served poorly or not at all.",
+      "From there it kept adding the things a bank does: transfers, bill payments, a place to leave your money earning interest, investments, loans and tools for small businesses to get paid. To offer all that legally it went after banking licenses: in Argentina it bought Wilobank, which became **Ualá Bank**, and in Mexico it bought ABC Capital, a local bank.",
+      "Today it operates in Argentina, Mexico and Colombia. It competes with traditional banks and with other digital players like Mercado Pago and Nubank, in a region where many people still live mostly in cash."
+    ],
+    "analogy": "A bank that fits in your pocket: instead of a building with tellers, it is an app, and the vault, the counter and the loan desk are all screens.",
+    "keyPoints": [
+      "Founded in Argentina in 2017 by Pierpaolo Barbieri.",
+      "Started as an app with a free account and a prepaid Mastercard.",
+      "Holds bank licenses in Argentina and Mexico through acquisitions.",
+      "Operates in Argentina, Mexico and Colombia."
+    ],
+    "links": [
+      { "label": "Ualá Argentina (official site)", "url": "https://www.uala.com.ar/" },
+      { "label": "Ualá on Wikipedia", "url": "https://en.wikipedia.org/wiki/Ual%C3%A1" }
+    ]
+  },
+  "es": {
+    "title": "Ualá",
+    "tagline": "Una fintech argentina que arrancó como app y tarjeta y terminó siendo un banco.",
+    "explanation": [
+      "**Ualá** es una empresa de tecnología financiera, una fintech, fundada en Argentina en 2017 por Pierpaolo Barbieri. Arrancó con una propuesta simple: bajás una app, abrís una cuenta en minutos desde el celular y te llega una tarjeta prepaga Mastercard, sin ir a una sucursal y sin costo de mantenimiento. Apuntaba a la gente que los bancos tradicionales atendían mal o directamente no atendían.",
+      "A partir de ahí fue sumando lo que hace un banco: transferencias, pago de servicios, un lugar donde dejar la plata generando rendimientos, inversiones, préstamos y herramientas para que los comercios chicos cobren. Para ofrecer todo eso dentro de la ley salió a buscar licencias bancarias: en Argentina compró Wilobank, que pasó a ser **Ualá Bank**, y en México compró ABC Capital, un banco local.",
+      "Hoy opera en Argentina, México y Colombia. Compite con los bancos tradicionales y con otros jugadores digitales como Mercado Pago y Nubank, en una región donde mucha gente todavía se maneja sobre todo en efectivo."
+    ],
+    "analogy": "Un banco que entra en el bolsillo: en lugar de un edificio con cajeros, es una app, y la bóveda, la ventanilla y el escritorio de préstamos son todas pantallas.",
+    "keyPoints": [
+      "Fundada en Argentina en 2017 por Pierpaolo Barbieri.",
+      "Arrancó como una app con cuenta gratuita y tarjeta prepaga Mastercard.",
+      "Tiene licencia bancaria en Argentina y México gracias a compras de bancos.",
+      "Opera en Argentina, México y Colombia."
+    ],
+    "links": [
+      { "label": "Ualá Argentina (sitio oficial)", "url": "https://www.uala.com.ar/" },
+      { "label": "Ualá México (sitio oficial)", "url": "https://www.uala.mx/" },
+      { "label": "Ualá en Wikipedia (en inglés)", "url": "https://en.wikipedia.org/wiki/Ual%C3%A1" }
+    ]
+  }
+}

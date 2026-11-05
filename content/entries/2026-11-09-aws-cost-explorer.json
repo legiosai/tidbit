@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-aws-cost-explorer",
+  "date": "2026-11-09",
+  "subjects": ["aws", "cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["Cost Explorer"],
+    "es": ["Cost Explorer", "Explorador de costos", "Explorador de costos de AWS"]
+  },
+  "image": "img/2026-11-09-aws-cost-explorer.svg",
+  "imageAlt": {
+    "en": "A bar chart of monthly AWS spending, split by service, with a dashed forecast for the coming months",
+    "es": "Un gráfico de barras del gasto mensual en AWS, dividido por servicio, con un pronóstico punteado para los próximos meses"
+  },
+  "en": {
+    "title": "AWS Cost Explorer",
+    "tagline": "The AWS screen that shows what you spent, on what, and what you will likely spend.",
+    "explanation": [
+      "**AWS Cost Explorer** is the tool inside the AWS console for looking at your bill as charts instead of line items. It answers questions like: how much did we spend last month, which service grew the most, which team or project is behind that jump.",
+      "You can group and filter spending by service, account, region or tag, and switch between daily and monthly views. It keeps up to the last 13 months of history and forecasts up to the next 18 months based on your trend. It also includes reports on Reserved Instances and Savings Plans, the discounts you get by committing to a level of usage, and recommendations on what to buy.",
+      "Using it in the console is free; the API, for pulling the data into your own tools, charges a small fee per request. The data refreshes at least once a day, so it is good for spotting trends and surprises, not for watching costs minute by minute. It is often the first stop when someone asks why the AWS bill went up."
+    ],
+    "analogy": "The spending charts in your bank app: instead of a long list of purchases, you see a pie of where the money went this month and a guess of how the month will end.",
+    "keyPoints": [
+      "Charts your AWS costs by service, account, region or tag.",
+      "Shows up to 13 months of history and a forecast of up to 18 months.",
+      "Free in the console; the API charges per request.",
+      "Data updates about once a day, not in real time."
+    ],
+    "links": [
+      { "label": "Analyzing your costs with AWS Cost Explorer (official docs)", "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html" },
+      { "label": "AWS Cost Explorer product page", "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Cost Explorer",
+    "tagline": "La pantalla de AWS que te muestra cuánto gastaste, en qué y cuánto vas a gastar.",
+    "explanation": [
+      "**AWS Cost Explorer** (en español, Explorador de costos) es la herramienta de la consola de AWS para mirar tu factura como gráficos en vez de como una lista de renglones. Responde preguntas como: cuánto gastamos el mes pasado, qué servicio creció más, qué equipo o proyecto está detrás de ese salto.",
+      "Podés agrupar y filtrar el gasto por servicio, cuenta, región o tag, y pasar de vista diaria a mensual. Guarda hasta los últimos 13 meses de historia y pronostica hasta 18 meses hacia adelante según tu tendencia. También trae reportes sobre Reserved Instances y Savings Plans, los descuentos que conseguís al comprometerte a un nivel de uso, y recomendaciones sobre qué conviene comprar.",
+      "Usarlo en la consola es gratis; la API, para llevar los datos a tus propias herramientas, cobra un monto chico por pedido. Los datos se actualizan al menos una vez por día, así que sirve para ver tendencias y sorpresas, no para seguir el gasto minuto a minuto. Suele ser la primera parada cuando alguien pregunta por qué subió la factura de AWS."
+    ],
+    "analogy": "Los gráficos de gastos de la app de tu banco: en vez de una lista larga de compras, ves una torta de en qué se fue la plata este mes y una estimación de cómo va a cerrar.",
+    "keyPoints": [
+      "Grafica tus costos de AWS por servicio, cuenta, región o tag.",
+      "Muestra hasta 13 meses de historia y un pronóstico de hasta 18 meses.",
+      "Gratis en la consola; la API cobra por pedido.",
+      "Los datos se actualizan más o menos una vez por día, no en tiempo real."
+    ],
+    "links": [
+      { "label": "Analizá tus costos con el Explorador de costos (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/cost-management/latest/userguide/ce-what-is.html" },
+      { "label": "Página del Explorador de costos de AWS", "url": "https://aws.amazon.com/es/aws-cost-management/aws-cost-explorer/" }
+    ]
+  }
+}

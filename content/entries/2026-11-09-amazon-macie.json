@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-amazon-macie",
+  "date": "2026-11-09",
+  "subjects": ["aws", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["Macie"],
+    "es": ["Macie"]
+  },
+  "image": "img/2026-11-09-amazon-macie.svg",
+  "imageAlt": {
+    "en": "A magnifying glass over S3 buckets spots a file containing card numbers and raises a finding",
+    "es": "Una lupa sobre buckets de S3 detecta un archivo con números de tarjeta y levanta un hallazgo"
+  },
+  "en": {
+    "title": "Amazon Macie",
+    "tagline": "An AWS service that finds sensitive data in your S3 buckets and flags risky buckets.",
+    "explanation": [
+      "**Amazon Macie** is a data security service focused on Amazon S3. Companies pile up years of files in buckets: exports, logs, backups, spreadsheets someone uploaded once. Nobody remembers which of them contain customer names, ID numbers, credit card numbers or passwords. Macie goes looking for that.",
+      "It does two jobs. First, it keeps an inventory of your buckets and watches how they are configured, for example whether one becomes publicly accessible or is not encrypted. Second, it opens objects and inspects their contents, using pattern matching and machine learning to recognize sensitive data. You can let it sample buckets automatically and continuously, or run a discovery job over specific buckets. You can also add your own patterns, like the format of your internal customer IDs.",
+      "Each problem it finds becomes a **finding** that you review in the console or send elsewhere, such as Amazon EventBridge for automation or AWS Security Hub for a combined view. Macie is especially useful for privacy rules like GDPR: you cannot protect personal data if you do not know where it is."
+    ],
+    "analogy": "An auditor walking through a warehouse of boxes, opening a sample of each, and putting a red sticker on any box that holds passports or bank statements, plus a note on any door left unlocked.",
+    "keyPoints": [
+      "Works on data stored in Amazon S3.",
+      "Detects sensitive data with built-in patterns, machine learning and your own custom rules.",
+      "Also flags bucket risks, like public access or missing encryption.",
+      "It reports findings; fixing the problem is up to you or your automation."
+    ],
+    "links": [
+      { "label": "What is Amazon Macie? (official docs)", "url": "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html" },
+      { "label": "Amazon Macie product page", "url": "https://aws.amazon.com/macie/" }
+    ]
+  },
+  "es": {
+    "title": "Amazon Macie",
+    "tagline": "Un servicio de AWS que encuentra datos sensibles en tus buckets de S3 y marca los riesgosos.",
+    "explanation": [
+      "**Amazon Macie** es un servicio de seguridad de datos enfocado en Amazon S3. Las empresas acumulan años de archivos en buckets: exportaciones, logs, backups, planillas que alguien subió una vez. Nadie se acuerda cuáles tienen nombres de clientes, números de documento, tarjetas de crédito o contraseñas. Macie sale a buscar eso.",
+      "Hace dos trabajos. Primero, mantiene un inventario de tus buckets y vigila cómo están configurados, por ejemplo si uno pasa a ser público o no está cifrado. Segundo, abre los objetos y revisa su contenido, con reconocimiento de patrones y machine learning, para detectar datos sensibles. Podés dejar que muestree los buckets de forma automática y continua, o lanzar un trabajo de descubrimiento sobre buckets puntuales. También podés sumar tus propios patrones, como el formato de tus códigos internos de cliente.",
+      "Cada problema que encuentra se convierte en un **hallazgo** (finding) que revisás en la consola o mandás a otro lado, como Amazon EventBridge para automatizar o AWS Security Hub para tener todo junto. Macie sirve mucho para normas de privacidad como el GDPR: no podés proteger datos personales si no sabés dónde están."
+    ],
+    "analogy": "Un auditor que recorre un depósito lleno de cajas, abre algunas de cada pila y le pega un sticker rojo a toda caja que tenga pasaportes o resúmenes bancarios, y deja una nota en cada puerta que quedó sin llave.",
+    "keyPoints": [
+      "Trabaja sobre datos guardados en Amazon S3.",
+      "Detecta datos sensibles con patrones incluidos, machine learning y reglas propias.",
+      "También marca riesgos del bucket, como acceso público o falta de cifrado.",
+      "Reporta hallazgos; arreglar el problema queda en tus manos o en tu automatización."
+    ],
+    "links": [
+      { "label": "¿Qué es Amazon Macie? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/macie/latest/user/what-is-macie.html" },
+      { "label": "Página de Amazon Macie", "url": "https://aws.amazon.com/es/macie/" }
+    ]
+  }
+}

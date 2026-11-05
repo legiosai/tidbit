@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-10-roaming",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 1,
+  "aliases": {
+    "en": [
+      "data roaming",
+      "international roaming",
+      "mobile roaming",
+      "roam like at home"
+    ],
+    "es": [
+      "roaming internacional",
+      "roaming de datos",
+      "itinerancia",
+      "itinerancia de datos"
+    ]
+  },
+  "image": "img/2026-11-10-roaming.svg",
+  "imageAlt": {
+    "en": "Abroad, your phone connects to a foreign carrier tower; the foreign carrier sends a usage report back to your home carrier, which issues the bill",
+    "es": "En el exterior, tu celular se conecta a la antena de una operadora extranjera; esa operadora le manda un reporte de consumo a tu operadora, que emite la factura"
+  },
+  "en": {
+    "title": "Roaming",
+    "tagline": "Using another carrier's mobile network, usually abroad, with your own number.",
+    "explanation": [
+      "**Roaming** is when your phone connects to a mobile network that is not your carrier's, usually because you are in another country. You land, turn on the phone, and it joins a local network as if it were a local customer. You keep your number, and calls, texts and data still work.",
+      "It works because carriers sign agreements with each other. The foreign network recognizes your SIM, checks with your home carrier that you are allowed to use it, carries your traffic, and later bills your carrier for it. Your carrier then charges you, often at its own roaming rates. That middle step is why roaming has a reputation for surprise bills, especially for mobile data.",
+      "Things have improved. In the European Union, \"roam like at home\" rules have let people use their plan in other EU countries at no extra cost since 2017. Elsewhere, many carriers sell daily or weekly travel packs. And with an eSIM it is easy to add a local data plan for the trip and leave roaming off. Phones have a \"data roaming\" switch: if you are not sure what your plan includes, turning it off before you travel avoids nasty surprises."
+    ],
+    "analogy": "Using your bank card at another bank's ATM abroad. It works because the banks have an agreement, but your bank may add a fee you only see on the statement.",
+    "keyPoints": [
+      "Your phone uses a partner network when your carrier has no coverage, usually abroad.",
+      "You keep your number; the foreign carrier bills your carrier, which bills you.",
+      "In the EU, roaming between member countries costs no extra since 2017.",
+      "Check your plan or switch off data roaming before traveling."
+    ],
+    "links": [
+      {
+        "label": "Roaming on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Roaming"
+      },
+      {
+        "label": "Roaming in the EU (Your Europe, European Commission)",
+        "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_en.htm"
+      }
+    ]
+  },
+  "es": {
+    "title": "Roaming",
+    "tagline": "Usar la red móvil de otra operadora, casi siempre en el exterior, con tu propio número.",
+    "explanation": [
+      "El **roaming** (o itinerancia) es cuando tu celular se conecta a una red móvil que no es la de tu operadora, normalmente porque estás en otro país. Aterrizás, prendés el teléfono y se engancha a una red local como si fueras cliente de ahí. Seguís con tu número, y las llamadas, los mensajes y los datos siguen andando.",
+      "Funciona porque las operadoras firman acuerdos entre ellas. La red extranjera reconoce tu SIM, le pregunta a tu operadora si estás habilitado, lleva tu tráfico y después le factura ese uso a tu operadora. Tu operadora te lo cobra a vos, muchas veces con sus propias tarifas de roaming. Ese paso intermedio es el que le dio al roaming la fama de facturas sorpresa, sobre todo por los datos móviles.",
+      "Las cosas mejoraron. En la Unión Europea, desde 2017 las reglas de \"roaming como en casa\" permiten usar tu plan en otros países de la UE sin costo extra. En otros lados, muchas operadoras venden paquetes de viaje por día o por semana. Y con una eSIM es fácil sumar un plan de datos local para el viaje y dejar el roaming apagado. Los celulares tienen un interruptor de \"roaming de datos\": si no sabés bien qué incluye tu plan, apagarlo antes de viajar te ahorra sorpresas feas."
+    ],
+    "analogy": "Usar tu tarjeta de débito en el cajero de otro banco en el exterior. Funciona porque los bancos tienen un acuerdo, pero el tuyo te puede cobrar una comisión que recién ves en el resumen.",
+    "keyPoints": [
+      "Tu celular usa una red asociada cuando tu operadora no tiene cobertura, casi siempre afuera del país.",
+      "Seguís con tu número; la operadora extranjera le factura a la tuya, y la tuya a vos.",
+      "En la UE, desde 2017 el roaming entre países miembros no tiene costo extra.",
+      "Revisá tu plan o apagá el roaming de datos antes de viajar."
+    ],
+    "links": [
+      {
+        "label": "Itinerancia en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Itinerancia"
+      },
+      {
+        "label": "Itinerancia en la UE (Tu Europa, Comisión Europea)",
+        "url": "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/mobile-roaming-costs/index_es.htm"
+      }
+    ]
+  }
+}

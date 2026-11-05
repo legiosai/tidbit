@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-10-packet-loss",
+  "date": "2026-11-10",
+  "subjects": [
+    "networks"
+  ],
+  "level": 2,
+  "aliases": {
+    "en": [
+      "lost packets",
+      "dropped packets",
+      "packet drops"
+    ],
+    "es": [
+      "paquetes perdidos",
+      "paquetes descartados",
+      "packet loss"
+    ]
+  },
+  "image": "img/2026-11-10-packet-loss.svg",
+  "imageAlt": {
+    "en": "A row of numbered packets travels from a laptop to a server; packet 3 falls out of the line and a resend arrow brings it back later",
+    "es": "Una fila de paquetes numerados viaja de una notebook a un servidor; el paquete 3 se cae de la fila y una flecha de reenvío lo trae de vuelta más tarde"
+  },
+  "en": {
+    "title": "Packet loss",
+    "tagline": "When pieces of your data leave but never arrive.",
+    "explanation": [
+      "Everything you send over the internet is cut into small packets that travel separately. **Packet loss** is when some of them never reach the other end. It is measured as a percentage: if 2 out of every 100 packets vanish, you have 2% packet loss.",
+      "Packets get lost for ordinary reasons. A router with a full queue during a traffic jam simply throws the extra ones away. A weak Wi-Fi signal, interference, a damaged cable or an overloaded server can corrupt or drop them too. A little loss happens all the time and the internet is designed for it; the question is how much, and what kind of app is on the receiving end.",
+      "For downloads and web pages, TCP notices the gap and asks for the missing packet again, so nothing is lost but everything slows down. Real-time apps cannot wait for resends: in a video call or an online game a lost packet becomes a robotic voice, a frozen face or a character that jumps. Even a small percentage can be noticeable. Tools like `ping` and many speed tests report packet loss, and moving closer to the router or using a cable is often the quickest fix."
+    ],
+    "analogy": "Mailing a book one page per envelope. If a few envelopes get lost, a patient reader can ask for those pages again; someone reading the pages aloud live just has to skip them.",
+    "keyPoints": [
+      "The share of packets that never arrive, given as a percentage.",
+      "Causes: congestion, weak Wi-Fi, interference, bad cables, overloaded equipment.",
+      "TCP resends lost packets, so downloads slow down instead of breaking.",
+      "Calls and games suffer most, because late packets are useless to them."
+    ],
+    "links": [
+      {
+        "label": "Packet loss on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Packet_loss"
+      },
+      {
+        "label": "Network congestion on Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Network_congestion"
+      }
+    ]
+  },
+  "es": {
+    "title": "Pérdida de paquetes",
+    "tagline": "Cuando partes de tus datos salen pero nunca llegan.",
+    "explanation": [
+      "Todo lo que mandás por internet se corta en paquetes chiquitos que viajan por separado. La **pérdida de paquetes** es cuando algunos nunca llegan al otro lado. Se mide en porcentaje: si de cada 100 paquetes desaparecen 2, tenés un 2% de pérdida.",
+      "Los paquetes se pierden por motivos bastante comunes. Un router con la cola llena en plena congestión directamente tira los que sobran. Una señal de Wi-Fi floja, interferencias, un cable dañado o un servidor saturado también los pueden corromper o descartar. Un poco de pérdida pasa todo el tiempo e internet está pensada para eso; la pregunta es cuánta, y qué tipo de app la recibe.",
+      "En las descargas y las páginas web, TCP nota el hueco y vuelve a pedir el paquete que falta, así que no se pierde nada pero todo va más lento. Las apps en tiempo real no pueden esperar un reenvío: en una videollamada o un juego online, un paquete perdido se convierte en una voz robótica, una cara congelada o un personaje que salta. Incluso un porcentaje chico se puede notar. Herramientas como `ping` y muchos tests de velocidad muestran la pérdida de paquetes, y acercarte al router o usar un cable suele ser el arreglo más rápido."
+    ],
+    "analogy": "Mandar un libro por correo con una página por sobre. Si se pierden algunos sobres, un lector paciente puede pedir esas páginas de nuevo; alguien que lo está leyendo en voz alta en vivo simplemente se las tiene que saltear.",
+    "keyPoints": [
+      "El porcentaje de paquetes que nunca llegan.",
+      "Causas: congestión, Wi-Fi débil, interferencias, cables en mal estado, equipos saturados.",
+      "TCP reenvía lo perdido, así que las descargas se ponen lentas en vez de romperse.",
+      "Las llamadas y los juegos son los que más sufren, porque un paquete tardío ya no les sirve."
+    ],
+    "links": [
+      {
+        "label": "Packet loss en Wikipedia (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Packet_loss"
+      },
+      {
+        "label": "Congestión de red en Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/Congesti%C3%B3n_de_red"
+      }
+    ]
+  }
+}

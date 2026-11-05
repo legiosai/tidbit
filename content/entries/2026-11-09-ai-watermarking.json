@@ -1,0 +1,59 @@
+{
+  "id": "2026-11-09-ai-watermarking",
+  "date": "2026-11-09",
+  "subjects": ["ai", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["AI watermark", "AI watermarks", "SynthID"],
+    "es": ["marcas de agua de IA", "AI watermarking", "marca de agua invisible", "SynthID"]
+  },
+  "image": "img/2026-11-09-ai-watermarking.svg",
+  "imageAlt": {
+    "en": "An AI model outputs an image with an invisible pattern hidden in it; a detector with a magnifying glass later reveals the pattern and says AI-made",
+    "es": "Un modelo de IA genera una imagen con un patrón invisible escondido; más tarde un detector con una lupa revela el patrón y dice que la hizo una IA"
+  },
+  "en": {
+    "title": "AI watermarking",
+    "tagline": "Hidden marks placed in AI-generated content so software can recognize it later.",
+    "explanation": [
+      "**AI watermarking** means hiding a signal inside content while an AI creates it: an image, a video, a voice, even text. People cannot see or hear it, but a matching detector can find it later and say \"this came from that model\". The goal is to tell synthetic content from real content at a time when deepfakes and text-to-image tools make them hard to tell apart.",
+      "For images and audio, the generator changes pixels or sound in tiny, patterned ways designed to survive cropping, compression or a screenshot. For text it is subtler: while choosing each next token, the model slightly favors some words over others following a secret key, and the detector checks whether a text leans that way more than chance would explain. Google DeepMind's **SynthID** works across images, audio, video and text, and Google released the text version as open source in 2024.",
+      "A related approach is **provenance metadata**, like the C2PA standard behind \"Content Credentials\": a signed label attached to the file that says who made it and with which tools. It is precise, but it lives beside the content rather than inside it, so a re-upload or a screenshot can strip it.",
+      "Watermarks have limits too. Each company's mark only works with its own detector, open-weights models can be run with no mark at all, and heavy edits or rewording can wash a mark out. So finding no watermark proves nothing. Even so, rules like the EU AI Act ask providers to mark AI-generated content in a machine-readable way, which is pushing watermarks into more products."
+    ],
+    "analogy": "The security thread inside a banknote. You never notice it while paying, but the right lamp at the bank reveals it. And a forger who does not bother with it simply prints bills without one.",
+    "keyPoints": [
+      "An invisible signal added at creation, readable by a matching detector.",
+      "Text watermarks nudge word choices in a statistically detectable way.",
+      "Metadata labels like C2PA are precise but easy to strip.",
+      "Finding no watermark does not mean a person made it."
+    ],
+    "links": [
+      { "label": "SynthID (Google DeepMind)", "url": "https://deepmind.google/models/synthid/" },
+      { "label": "C2PA: Coalition for Content Provenance and Authenticity", "url": "https://c2pa.org/" },
+      { "label": "Digital watermarking on Wikipedia", "url": "https://en.wikipedia.org/wiki/Digital_watermarking" }
+    ]
+  },
+  "es": {
+    "title": "Marca de agua de IA",
+    "tagline": "Marcas ocultas en contenido generado por IA para que un programa lo reconozca después.",
+    "explanation": [
+      "Poner una **marca de agua de IA** es esconder una señal dentro de un contenido mientras una IA lo crea: una imagen, un video, una voz, hasta un texto. Las personas no la ven ni la oyen, pero un detector que la conoce puede encontrarla después y decir \"esto salió de tal modelo\". La idea es poder distinguir lo sintético de lo real en una época en que los deepfakes y las herramientas de texto a imagen los vuelven difíciles de separar.",
+      "En imágenes y audio, el generador modifica píxeles o sonido de formas mínimas y con un patrón, pensadas para sobrevivir a un recorte, a la compresión o a una captura de pantalla. En texto es más sutil: al elegir cada token siguiente, el modelo favorece apenas algunas palabras sobre otras según una clave secreta, y el detector se fija si un texto se inclina para ese lado más de lo que explicaría el azar. **SynthID**, de Google DeepMind, funciona con imágenes, audio, video y texto, y Google liberó la versión para texto como código abierto en 2024.",
+      "Un enfoque cercano son los **metadatos de procedencia**, como el estándar C2PA detrás de las \"Content Credentials\": una etiqueta firmada pegada al archivo que dice quién lo hizo y con qué herramientas. Es precisa, pero vive al lado del contenido y no adentro, así que se puede perder al volver a subirlo o al sacarle una captura.",
+      "Las marcas de agua también tienen límites. La marca de cada empresa solo la reconoce su propio detector, los modelos de pesos abiertos se pueden correr sin ninguna marca y una edición fuerte o una reescritura pueden borrarla. Así que no encontrar marca no prueba nada. Aun así, normas como la Ley de IA de la Unión Europea piden que el contenido generado por IA esté marcado de forma legible por máquinas, y eso está empujando las marcas de agua a más productos."
+    ],
+    "analogy": "El hilo de seguridad de un billete. Nunca lo notás al pagar, pero la lámpara indicada en el banco lo revela. Y un falsificador al que no le importa directamente imprime billetes sin hilo.",
+    "keyPoints": [
+      "Una señal invisible que se agrega al crear el contenido y que lee un detector compatible.",
+      "En texto, la marca inclina la elección de palabras de una forma detectable con estadística.",
+      "Las etiquetas de metadatos como C2PA son precisas pero fáciles de perder.",
+      "No encontrar marca de agua no significa que lo haya hecho una persona."
+    ],
+    "links": [
+      { "label": "SynthID: herramientas para agregar marcas de agua y detectar texto generado por LLM (Google)", "url": "https://ai.google.dev/responsible/docs/safeguards/synthid?hl=es-419" },
+      { "label": "Marca de agua digital en Wikipedia", "url": "https://es.wikipedia.org/wiki/Marca_de_agua_digital" },
+      { "label": "C2PA: Coalition for Content Provenance and Authenticity (en inglés)", "url": "https://c2pa.org/" }
+    ]
+  }
+}

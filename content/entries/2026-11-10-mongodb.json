@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-10-mongodb",
+  "date": "2026-11-10",
+  "subjects": ["data", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["MongoDB Atlas"],
+    "es": ["MongoDB Atlas"]
+  },
+  "image": "img/2026-11-10-mongodb.svg",
+  "imageAlt": {
+    "en": "A collection holding three JSON-like documents with different fields, next to a rigid table with fixed columns",
+    "es": "Una colección con tres documentos tipo JSON con campos distintos, al lado de una tabla rígida con columnas fijas"
+  },
+  "en": {
+    "title": "MongoDB",
+    "tagline": "A database that stores each record as a flexible JSON-like document, not a table row.",
+    "explanation": [
+      "**MongoDB** is the best-known document database, a kind of NoSQL database. Instead of rows in tables with fixed columns, it stores **documents**: records that look like JSON, with fields, lists and nested objects. Similar documents live together in a **collection**, roughly what a table is in SQL.",
+      "The appeal is flexibility. A product in an online shop can be one document with its name, price, a list of sizes and an embedded set of reviews, all read in one go. Two documents in the same collection do not need the same fields, so adding a new attribute does not require changing a schema first. Under the hood it stores a binary form of JSON called BSON, and you query it with its own API rather than SQL.",
+      "It was first released in 2009 by the company now called MongoDB Inc., and the name comes from \"humongous\". Since 2018 it is licensed under the SSPL, which the company wrote and which many open-source groups do not consider open source. Most teams today use it through **MongoDB Atlas**, the company's managed cloud service. Over the years it added features once typical of relational databases, such as multi-document transactions."
+    ],
+    "analogy": "Like a folder of index cards where each card can have whatever notes it needs, instead of a printed form where every box is fixed in advance.",
+    "keyPoints": [
+      "Stores JSON-like documents grouped in collections, not rows in tables.",
+      "Documents in one collection can have different fields.",
+      "Queried with its own API, not SQL; Atlas is the managed cloud version.",
+      "Licensed under the SSPL since 2018, not a classic open-source license."
+    ],
+    "links": [
+      { "label": "What is MongoDB? (official docs)", "url": "https://www.mongodb.com/docs/manual/" },
+      { "label": "MongoDB on Wikipedia", "url": "https://en.wikipedia.org/wiki/MongoDB" }
+    ]
+  },
+  "es": {
+    "title": "MongoDB",
+    "tagline": "Una base de datos que guarda cada registro como un documento flexible tipo JSON.",
+    "explanation": [
+      "**MongoDB** es la base de datos documental más conocida, un tipo de base de datos NoSQL. En lugar de filas en tablas con columnas fijas, guarda **documentos**: registros que se ven como JSON, con campos, listas y objetos anidados. Los documentos parecidos viven juntos en una **colección**, más o menos lo que en SQL sería una tabla.",
+      "La gracia es la flexibilidad. Un producto de una tienda online puede ser un único documento con su nombre, su precio, una lista de talles y sus reseñas adentro, todo leído de una sola vez. Dos documentos de la misma colección no necesitan tener los mismos campos, así que sumar un atributo nuevo no obliga a cambiar un esquema antes. Por dentro guarda una versión binaria de JSON llamada BSON, y se consulta con su propia API, no con SQL.",
+      "Salió en 2009 de la mano de la empresa que hoy se llama MongoDB Inc., y el nombre viene de \"humongous\" (gigantesco, en inglés). Desde 2018 usa la licencia SSPL, escrita por la propia empresa, que muchas organizaciones de código abierto no reconocen como open source. Hoy la mayoría de los equipos la usa a través de **MongoDB Atlas**, el servicio administrado en la nube de la empresa. Con los años fue sumando cosas típicas de las bases relacionales, como transacciones que abarcan varios documentos."
+    ],
+    "analogy": "Como un fichero de tarjetas donde cada tarjeta lleva las anotaciones que necesite, en vez de un formulario impreso con todos los casilleros fijados de antemano.",
+    "keyPoints": [
+      "Guarda documentos tipo JSON agrupados en colecciones, no filas en tablas.",
+      "Los documentos de una misma colección pueden tener campos distintos.",
+      "Se consulta con su propia API, no con SQL; Atlas es la versión administrada en la nube.",
+      "Usa la licencia SSPL desde 2018, que no es una licencia open source clásica."
+    ],
+    "links": [
+      { "label": "¿Qué es MongoDB? (documentación oficial)", "url": "https://www.mongodb.com/es/docs/manual/" },
+      { "label": "MongoDB en Wikipedia", "url": "https://es.wikipedia.org/wiki/MongoDB" }
+    ]
+  }
+}

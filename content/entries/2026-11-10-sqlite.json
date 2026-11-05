@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-10-sqlite",
+  "date": "2026-11-10",
+  "subjects": ["data", "software"],
+  "level": 2,
+  "aliases": {
+    "en": ["SQLite3"],
+    "es": ["SQLite3"]
+  },
+  "image": "img/2026-11-10-sqlite.svg",
+  "imageAlt": {
+    "en": "A phone app with the SQLite library built inside it, reading and writing a single file called app.db, with no server in between",
+    "es": "Una app de celular con la biblioteca SQLite adentro, leyendo y escribiendo un único archivo llamado app.db, sin servidor de por medio"
+  },
+  "en": {
+    "title": "SQLite",
+    "tagline": "A complete SQL database that lives in a single file, with no server to run.",
+    "explanation": [
+      "**SQLite** is a relational database you query with SQL, but with a twist: there is no server. It is a small library that gets built into the program that uses it, and the whole database, every table and index, is one ordinary file on disk, often ending in `.db`. Opening the database means opening the file.",
+      "That makes it ideal when one app needs its own data and nobody else does. Every Android and iPhone ships with SQLite, and apps use it to keep messages, settings and offline data. Web browsers store history and bookmarks in it, and plenty of desktop programs use it as their save format. Analysts like it too: a single `.db` file is easy to email, copy or back up.",
+      "It was created by D. Richard Hipp in 2000 and is in the public domain, so anyone can use it for anything. Its own site argues it is the most widely deployed database engine in the world, since it sits inside billions of devices. It is not built for many machines writing at once over a network; for a busy multi-user website, a server database like PostgreSQL or MySQL is the usual pick."
+    ],
+    "analogy": "Like a notebook you carry in your pocket instead of a library you have to visit: everything is in one place, it goes where you go, but only one person writes in it at a time.",
+    "keyPoints": [
+      "A library inside the app, not a separate server.",
+      "The whole database is one file you can copy like any other.",
+      "Built into Android, iOS and the major web browsers.",
+      "Public domain, created by D. Richard Hipp in 2000."
+    ],
+    "links": [
+      { "label": "About SQLite (official site)", "url": "https://www.sqlite.org/about.html" },
+      { "label": "Appropriate uses for SQLite (official site)", "url": "https://www.sqlite.org/whentouse.html" },
+      { "label": "SQLite on Wikipedia", "url": "https://en.wikipedia.org/wiki/SQLite" }
+    ]
+  },
+  "es": {
+    "title": "SQLite",
+    "tagline": "Una base de datos SQL completa que vive en un solo archivo, sin servidor que mantener.",
+    "explanation": [
+      "**SQLite** es una base de datos relacional que se consulta con SQL, pero con una vuelta de tuerca: no hay servidor. Es una biblioteca chiquita que queda metida dentro del programa que la usa, y toda la base, cada tabla y cada índice, es un archivo común en el disco, muchas veces con extensión `.db`. Abrir la base es abrir el archivo.",
+      "Eso la hace ideal cuando una app necesita sus propios datos y nadie más los toca. Todos los celulares Android y iPhone traen SQLite, y las apps la usan para guardar mensajes, configuraciones y datos para usar sin conexión. Los navegadores guardan ahí el historial y los favoritos, y muchos programas de escritorio la usan como formato para guardar archivos. A los analistas también les gusta: un único `.db` se manda por mail, se copia o se respalda sin vueltas.",
+      "La creó D. Richard Hipp en el año 2000 y es de dominio público, así que cualquiera la puede usar para lo que quiera. Su propio sitio sostiene que es el motor de base de datos más desplegado del mundo, porque está adentro de miles de millones de dispositivos. No está pensada para muchas máquinas escribiendo a la vez por la red; para un sitio con muchos usuarios simultáneos lo habitual es una base con servidor, como PostgreSQL o MySQL."
+    ],
+    "analogy": "Como una libreta que llevás en el bolsillo en vez de una biblioteca a la que tenés que ir: está todo en un lugar, va con vos, pero escribe una sola persona por vez.",
+    "keyPoints": [
+      "Es una biblioteca dentro de la app, no un servidor aparte.",
+      "Toda la base es un archivo que se copia como cualquier otro.",
+      "Viene incluida en Android, iOS y los principales navegadores.",
+      "De dominio público, creada por D. Richard Hipp en el año 2000."
+    ],
+    "links": [
+      { "label": "SQLite en Wikipedia", "url": "https://es.wikipedia.org/wiki/SQLite" },
+      { "label": "Sobre SQLite (sitio oficial, en inglés)", "url": "https://www.sqlite.org/about.html" },
+      { "label": "Cuándo conviene usar SQLite (sitio oficial, en inglés)", "url": "https://www.sqlite.org/whentouse.html" }
+    ]
+  }
+}

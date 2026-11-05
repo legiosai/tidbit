@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-09-aws-batch",
+  "date": "2026-11-09",
+  "subjects": ["aws", "cloud"],
+  "level": 2,
+  "caseSensitive": true,
+  "aliases": {
+    "en": [],
+    "es": []
+  },
+  "image": "img/2026-11-09-aws-batch.svg",
+  "imageAlt": {
+    "en": "Many jobs wait in a queue while AWS Batch starts servers to run them and shuts the servers down when the queue is empty",
+    "es": "Muchos trabajos esperan en una cola mientras AWS Batch prende servidores para correrlos y los apaga cuando la cola queda vacía"
+  },
+  "en": {
+    "title": "AWS Batch",
+    "tagline": "An AWS service that runs big piles of jobs and rents the machines only while they work.",
+    "explanation": [
+      "**AWS Batch** runs batch jobs: tasks that do not need to answer a user right away, but need a lot of computing. Rendering the frames of an animation, running thousands of genome analyses, recalculating every risk model overnight, processing a month of sensor data. You send the jobs, Batch figures out where and when to run them.",
+      "You package each job as a container and submit it to a **job queue**. Batch looks at the queue and at the resources each job asks for, such as CPUs, memory or GPUs, and starts the right amount of capacity in a **compute environment**: EC2 instances, including cheaper Spot instances, or Fargate. When the queue empties, it scales back down so you are not paying for idle machines. Jobs can have priorities and can depend on each other, so step B waits until step A finishes.",
+      "Before services like this, a lab or company had to buy and maintain its own cluster plus scheduling software, and the cluster sat idle between big runs. Batch itself has no extra charge; you pay for the compute it launches."
+    ],
+    "analogy": "A print shop manager who takes every order in a tray, calls in as many temporary workers as the pile needs, and sends them home when the tray is empty.",
+    "keyPoints": [
+      "Built for jobs that need lots of compute but not an instant answer.",
+      "Jobs are containers submitted to queues, with priorities and dependencies.",
+      "Scales EC2, Spot or Fargate capacity up and down with the queue.",
+      "No charge for Batch itself; you pay for the compute it uses."
+    ],
+    "links": [
+      { "label": "What is AWS Batch? (official docs)", "url": "https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html" },
+      { "label": "AWS Batch product page", "url": "https://aws.amazon.com/batch/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Batch",
+    "tagline": "Un servicio de AWS que corre montañas de trabajos y alquila las máquinas solo mientras trabajan.",
+    "explanation": [
+      "**AWS Batch** corre trabajos por lotes: tareas que no tienen que contestarle a un usuario en el momento, pero que necesitan mucho cómputo. Renderizar los cuadros de una animación, correr miles de análisis genómicos, recalcular todos los modelos de riesgo durante la noche, procesar un mes de datos de sensores. Vos mandás los trabajos y Batch resuelve dónde y cuándo correrlos.",
+      "Empaquetás cada trabajo como un contenedor y lo mandás a una **cola de trabajos** (job queue). Batch mira la cola y lo que pide cada trabajo, como CPUs, memoria o GPUs, y levanta la capacidad justa en un **entorno de cómputo** (compute environment): instancias de EC2, incluidas las Spot que salen más baratas, o Fargate. Cuando la cola se vacía, achica todo para que no pagues máquinas ociosas. Los trabajos pueden tener prioridades y depender unos de otros, así el paso B espera a que termine el paso A.",
+      "Antes de servicios como este, un laboratorio o una empresa tenía que comprar y mantener su propio cluster más el software para repartir tareas, y el cluster quedaba parado entre corrida y corrida. Batch en sí no tiene costo extra; pagás el cómputo que lanza."
+    ],
+    "analogy": "El encargado de una imprenta que junta todos los pedidos en una bandeja, llama a tantos ayudantes temporales como pida la pila y los manda a casa cuando la bandeja queda vacía.",
+    "keyPoints": [
+      "Pensado para trabajos que necesitan mucho cómputo pero no una respuesta inmediata.",
+      "Los trabajos son contenedores que van a colas, con prioridades y dependencias.",
+      "Agranda y achica capacidad de EC2, Spot o Fargate según la cola.",
+      "Batch no se cobra aparte; pagás el cómputo que usa."
+    ],
+    "links": [
+      { "label": "¿Qué es AWS Batch? (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/batch/latest/userguide/what-is-batch.html" },
+      { "label": "Página de AWS Batch", "url": "https://aws.amazon.com/es/batch/" }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-09-shared-responsibility-model",
+  "date": "2026-11-09",
+  "subjects": ["cloud", "security"],
+  "level": 2,
+  "aliases": {
+    "en": ["shared responsibility"],
+    "es": ["responsabilidad compartida", "shared responsibility model"]
+  },
+  "image": "img/2026-11-09-shared-responsibility-model.svg",
+  "imageAlt": {
+    "en": "A stack of layers split in two: the provider looks after the building, hardware and network at the bottom, the customer looks after data, access and settings on top",
+    "es": "Una pila de capas dividida en dos: el proveedor se ocupa del edificio, el hardware y la red abajo, y el cliente de los datos, los accesos y la configuración arriba"
+  },
+  "en": {
+    "title": "Shared responsibility model",
+    "tagline": "Who secures what in the cloud: the provider, the customer, or both.",
+    "explanation": [
+      "When you run something in the cloud, keeping it safe is split between two parties. The **shared responsibility model** is the rule book for that split. The provider is responsible for the security of the cloud: the buildings, the hardware, the network and the software that runs its services. You are responsible for security in the cloud: your data, who can log in, and how you configure what you rent.",
+      "Where the line falls depends on the kind of service. With a virtual machine, the provider looks after the physical server and the virtualization layer, but you patch the operating system, set the firewall rules and manage the accounts. With a managed database, the provider also patches the database software. With a finished app like email, the provider handles almost everything, yet who has access and what data you put in it is still on you.",
+      "It matters because many cloud breaches are not the provider being hacked. They are customer mistakes: a storage bucket left public, a key with too much power, a database open to the whole internet. The provider gives you the locks, but you decide whether to lock the door. AWS, Microsoft Azure and Google Cloud each publish their own version of the model, and auditors often ask which side handles each control."
+    ],
+    "analogy": "Renting an apartment: the landlord keeps the building standing, the front door working and the pipes sound. Whether you lock your own door, and who you give a copy of the key to, is up to you.",
+    "keyPoints": [
+      "The provider secures the cloud itself; you secure what you put in it.",
+      "The more managed the service, the more the provider takes on.",
+      "Your data, accounts and access settings are always your job.",
+      "Many leaks come from customer misconfiguration, like a public bucket."
+    ],
+    "links": [
+      { "label": "Shared Responsibility Model (AWS)", "url": "https://aws.amazon.com/compliance/shared-responsibility-model/" },
+      { "label": "Shared responsibility in the cloud (Microsoft Azure)", "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility" },
+      { "label": "Shared responsibilities and shared fate (Google Cloud)", "url": "https://docs.cloud.google.com/architecture/framework/security/shared-responsibility-shared-fate" }
+    ]
+  },
+  "es": {
+    "title": "Modelo de responsabilidad compartida",
+    "tagline": "Quién cuida qué en la nube: el proveedor, el cliente o los dos.",
+    "explanation": [
+      "Cuando corrés algo en la nube, la seguridad se reparte entre dos partes. El **modelo de responsabilidad compartida** es el reglamento de ese reparto. El proveedor se ocupa de la seguridad de la nube: los edificios, el hardware, la red y el software con el que funcionan sus servicios. Vos te ocupás de la seguridad en la nube: tus datos, quién puede entrar y cómo configurás lo que alquilás.",
+      "Dónde cae la línea depende del tipo de servicio. Con una máquina virtual, el proveedor cuida el servidor físico y la capa de virtualización, pero los parches del sistema operativo, las reglas del firewall y las cuentas de usuario son tuyos. Con una base de datos administrada, el proveedor además actualiza el software de la base. Con una aplicación terminada, como el correo, el proveedor hace casi todo, pero quién tiene acceso y qué datos cargás sigue siendo cosa tuya.",
+      "Importa porque muchas filtraciones en la nube no son el proveedor hackeado. Son errores del cliente: un bucket de almacenamiento que quedó público, una clave con demasiados permisos, una base de datos abierta a todo internet. El proveedor te da las cerraduras, pero cerrar la puerta lo decidís vos. AWS, Microsoft Azure y Google Cloud publican cada uno su versión del modelo, y los auditores suelen preguntar de qué lado queda cada control."
+    ],
+    "analogy": "Es como alquilar un departamento: el dueño mantiene el edificio en pie, la puerta de calle andando y las cañerías sanas. Si cerrás con llave tu puerta y a quién le das una copia, eso ya depende de vos.",
+    "keyPoints": [
+      "El proveedor protege la nube en sí; vos protegés lo que ponés adentro.",
+      "Cuanto más administrado el servicio, más se encarga el proveedor.",
+      "Tus datos, cuentas y permisos siempre son tu responsabilidad.",
+      "Muchas filtraciones vienen de errores de configuración del cliente, como un bucket público."
+    ],
+    "links": [
+      { "label": "Modelo de responsabilidad compartida (AWS)", "url": "https://aws.amazon.com/es/compliance/shared-responsibility-model/" },
+      { "label": "Responsabilidad compartida en la nube (Microsoft Azure)", "url": "https://learn.microsoft.com/es-es/azure/security/fundamentals/shared-responsibility" },
+      { "label": "Shared responsibilities and shared fate (Google Cloud, en inglés)", "url": "https://docs.cloud.google.com/architecture/framework/security/shared-responsibility-shared-fate" }
+    ]
+  }
+}

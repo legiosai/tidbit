@@ -1,0 +1,56 @@
+{
+  "id": "2026-11-11-linter",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["linters", "linting"],
+    "es": ["linters", "linting"]
+  },
+  "image": "img/2026-11-11-linter.svg",
+  "imageAlt": {
+    "en": "Lines of code passing through a linter, which flags an unused variable and a likely bug before the code runs",
+    "es": "Líneas de código que pasan por un linter, que marca una variable sin usar y un probable error antes de que el código corra"
+  },
+  "en": {
+    "title": "Linter",
+    "tagline": "A tool that reads your code and points out likely bugs and messy style before it runs.",
+    "explanation": [
+      "A **linter** is a program that reads source code without running it and flags things that look wrong or sloppy: a variable you declared but never used, a comparison that is always true, a function called with the wrong number of arguments, a line that breaks the team's style rules. The name comes from `lint`, a tool written at Bell Labs in the late 1970s to check C programs, named after the bits of fluff a dryer's lint trap catches.",
+      "Every popular language has its linters: ESLint for JavaScript and TypeScript, Pylint and Ruff for Python, RuboCop for Ruby. They run inside the code editor, underlining problems as you type, and again in the CI pipeline, where a failed lint check can block a change from being merged until it is fixed.",
+      "A linter is different from a formatter, which only rewrites spacing and line breaks so all the code looks the same, and from tests, which actually run the code. Teams use all three. The linter's job is to catch the cheap mistakes automatically, so that code review can focus on whether the change makes sense rather than on missing semicolons."
+    ],
+    "analogy": "A spell checker for code. It will not tell you whether your essay is good, but it underlines the typos and odd sentences before your teacher sees them.",
+    "keyPoints": [
+      "Analyzes code without running it and flags likely bugs and style problems.",
+      "Named after `lint`, a 1970s Bell Labs tool for C.",
+      "Examples: ESLint (JavaScript), Ruff and Pylint (Python), RuboCop (Ruby).",
+      "Usually runs in the editor and again in CI before merging."
+    ],
+    "links": [
+      { "label": "Lint (software) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Lint_(software)" },
+      { "label": "ESLint core concepts (official docs)", "url": "https://eslint.org/docs/latest/use/core-concepts/" },
+      { "label": "The Ruff linter (official docs)", "url": "https://docs.astral.sh/ruff/linter/" }
+    ]
+  },
+  "es": {
+    "title": "Linter",
+    "tagline": "Una herramienta que revisa tu código sin correrlo y marca errores y desprolijidades.",
+    "explanation": [
+      "Un **linter** es un programa que lee código fuente sin ejecutarlo y marca lo que parece estar mal o desprolijo: una variable que declaraste y nunca usaste, una comparación que siempre da verdadero, una función llamada con la cantidad equivocada de argumentos, una línea que rompe las reglas de estilo del equipo. El nombre viene de `lint`, una herramienta escrita en Bell Labs a fines de los años 70 para revisar programas en C, y que en inglés es la pelusa que junta el filtro del secarropas.",
+      "Cada lenguaje popular tiene los suyos: ESLint para JavaScript y TypeScript, Pylint y Ruff para Python, RuboCop para Ruby. Corren dentro del editor de código, subrayando problemas mientras escribís, y de nuevo en el pipeline de CI, donde un chequeo de lint que falla puede bloquear un cambio hasta que lo arregles.",
+      "Un linter no es lo mismo que un formateador, que solo reacomoda espacios y saltos de línea para que todo el código se vea igual, ni que los tests, que sí ejecutan el código. Los equipos usan los tres. El trabajo del linter es atajar automáticamente los errores baratos, para que la revisión de código se concentre en si el cambio tiene sentido y no en un punto y coma que falta."
+    ],
+    "analogy": "Un corrector ortográfico para código. No te dice si tu ensayo es bueno, pero te subraya los errores de tipeo y las frases raras antes de que lo vea la profe.",
+    "keyPoints": [
+      "Analiza el código sin ejecutarlo y marca posibles errores y problemas de estilo.",
+      "Se llama así por `lint`, una herramienta de Bell Labs de los años 70 para C.",
+      "Ejemplos: ESLint (JavaScript), Ruff y Pylint (Python), RuboCop (Ruby).",
+      "Suele correr en el editor y otra vez en CI antes de mergear."
+    ],
+    "links": [
+      { "label": "Lint en Wikipedia", "url": "https://es.wikipedia.org/wiki/Lint" },
+      { "label": "Conceptos básicos de ESLint (documentación oficial, en inglés)", "url": "https://eslint.org/docs/latest/use/core-concepts/" }
+    ]
+  }
+}

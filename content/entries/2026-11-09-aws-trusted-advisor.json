@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-09-aws-trusted-advisor",
+  "date": "2026-11-09",
+  "subjects": ["aws", "cloud"],
+  "level": 1,
+  "aliases": {
+    "en": ["Trusted Advisor"],
+    "es": ["Trusted Advisor"]
+  },
+  "image": "img/2026-11-09-aws-trusted-advisor.svg",
+  "imageAlt": {
+    "en": "A checklist for an AWS account with categories like cost, security and limits, each marked ok, warning or problem",
+    "es": "Una lista de chequeo para una cuenta de AWS con categorías como costo, seguridad y límites, cada una marcada bien, advertencia o problema"
+  },
+  "en": {
+    "title": "AWS Trusted Advisor",
+    "tagline": "An automatic checkup of your AWS account with tips to save money and stay safe.",
+    "explanation": [
+      "**AWS Trusted Advisor** inspects your AWS account and compares it with a list of best practices. Then it gives you recommendations: here you are paying for something you do not use, here a door is open that should be closed, here you are close to a limit.",
+      "Its checks are grouped into categories: cost optimization, performance, security, fault tolerance, service limits and operational excellence. Typical examples are a server that sits almost idle all month, a security group that lets anyone on the internet reach a database port, an S3 bucket with public permissions, or a root account without MFA. Each check shows green, yellow or red.",
+      "How much you see depends on your AWS support plan. With the free Basic plan you get the service limits checks and a handful of key security and fault tolerance checks. Paid support plans unlock the full list and the API, so the results can feed alerts or automation."
+    ],
+    "analogy": "The yearly checkup at the doctor for your cloud account: a list of standard tests, each with a green, yellow or red result, and a note on what to change.",
+    "keyPoints": [
+      "Checks cost, performance, security, fault tolerance, service limits and operational excellence.",
+      "Each check is green, yellow or red, with a recommended action.",
+      "Every account gets some checks for free; the full set needs a paid support plan.",
+      "It recommends, it does not change anything by itself."
+    ],
+    "links": [
+      { "label": "AWS Trusted Advisor (official docs)", "url": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html" },
+      { "label": "AWS Trusted Advisor product page", "url": "https://aws.amazon.com/premiumsupport/technology/trusted-advisor/" }
+    ]
+  },
+  "es": {
+    "title": "AWS Trusted Advisor",
+    "tagline": "Un chequeo automático de tu cuenta de AWS con consejos para ahorrar y estar seguro.",
+    "explanation": [
+      "**AWS Trusted Advisor** revisa tu cuenta de AWS y la compara con una lista de buenas prácticas. Después te da recomendaciones: acá estás pagando algo que no usás, acá quedó una puerta abierta que debería estar cerrada, acá estás cerca de un límite.",
+      "Sus verificaciones se agrupan en categorías: optimización de costos, rendimiento, seguridad, tolerancia a fallos, límites del servicio y excelencia operativa. Ejemplos típicos: un servidor que pasa el mes casi sin hacer nada, un security group que deja que cualquiera en internet llegue al puerto de una base de datos, un bucket de S3 con permisos públicos o una cuenta root sin MFA. Cada verificación aparece en verde, amarillo o rojo.",
+      "Cuánto ves depende de tu plan de soporte de AWS. Con el plan Basic, que es gratis, tenés las verificaciones de límites del servicio y algunas clave de seguridad y tolerancia a fallos. Los planes de soporte pagos habilitan la lista completa y la API, para que los resultados alimenten alertas o automatizaciones."
+    ],
+    "analogy": "El chequeo médico anual de tu cuenta en la nube: una lista de estudios de rutina, cada uno con resultado verde, amarillo o rojo, y una nota con lo que conviene cambiar.",
+    "keyPoints": [
+      "Revisa costos, rendimiento, seguridad, tolerancia a fallos, límites y excelencia operativa.",
+      "Cada verificación sale en verde, amarillo o rojo, con una acción recomendada.",
+      "Toda cuenta tiene algunas verificaciones gratis; el set completo pide un plan de soporte pago.",
+      "Recomienda, pero no cambia nada por su cuenta."
+    ],
+    "links": [
+      { "label": "AWS Trusted Advisor (documentación oficial)", "url": "https://docs.aws.amazon.com/es_es/awssupport/latest/user/trusted-advisor.html" },
+      { "label": "Página de AWS Trusted Advisor", "url": "https://aws.amazon.com/es/premiumsupport/technology/trusted-advisor/" }
+    ]
+  }
+}

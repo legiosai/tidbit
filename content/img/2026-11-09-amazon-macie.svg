@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <path d="M24 50 H96 L90 98 H30 Z" fill="#9bd1b9"/>
+    <path d="M24 120 H96 L90 168 H30 Z" fill="#9bd1b9"/>
+    <rect x="118" y="40" width="70" height="40" rx="4" fill="#e6dfd0"/>
+    <rect x="118" y="96" width="70" height="40" rx="4" fill="#f4a7a7"/>
+    <rect x="118" y="152" width="70" height="40" rx="4" fill="#e6dfd0"/>
+    <circle cx="232" cy="110" r="26" fill="#9ac7ea"/>
+    <rect x="290" y="80" width="96" height="64" rx="8" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M96 74 L116 64"/><path d="M96 144 L116 116"/><path d="M96 150 L116 168"/>
+    <path d="M190 116 H206"/>
+    <path d="M251 129 L268 146" stroke-width="5"/>
+    <path d="M258 110 H286"/><path d="M280 105 l6 5 -6 5"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="60" y="79">bucket</text><text x="60" y="149">bucket</text>
+    <text x="232" y="115">Macie</text>
+    <text x="338" y="106" font-size="13">finding</text>
+  </g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#2b2b2b" text-anchor="middle">
+    <text x="153" y="64">photo.jpg</text>
+    <text x="153" y="120">cards.csv</text>
+    <text x="153" y="176">notes.txt</text>
+    <text x="338" y="126">card numbers</text>
+  </g>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">it looks inside files for sensitive data</text>
+</svg>

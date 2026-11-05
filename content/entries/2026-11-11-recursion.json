@@ -1,0 +1,55 @@
+{
+  "id": "2026-11-11-recursion",
+  "date": "2026-11-11",
+  "subjects": ["software"],
+  "level": 2,
+  "aliases": {
+    "en": ["recursive function", "recursive functions", "recursive call", "recursive calls"],
+    "es": ["recursividad", "función recursiva", "funciones recursivas", "llamada recursiva", "llamadas recursivas"]
+  },
+  "image": "img/2026-11-11-recursion.svg",
+  "imageAlt": {
+    "en": "Nested Russian dolls showing a function that calls itself on a smaller problem until it reaches the smallest case and the answers come back up",
+    "es": "Mamushkas una dentro de otra mostrando una función que se llama a sí misma con un problema más chico hasta llegar al caso mínimo y las respuestas vuelven hacia arriba"
+  },
+  "en": {
+    "title": "Recursion",
+    "tagline": "When a function solves a problem by calling itself on a smaller piece of it.",
+    "explanation": [
+      "**Recursion** is a way of solving a problem by breaking it into a smaller version of the same problem, and solving that one the same way. In code, it means a function that calls itself. To add up the sizes of everything in a folder, a recursive function adds the files it sees and, for each subfolder, calls itself on that subfolder, which does the same, and so on down.",
+      "Every recursive function needs a **base case**: a version of the problem so small that the answer is obvious and no further call is needed, like an empty folder whose size is zero. Without it the function keeps calling itself forever. In practice the program runs out of the memory it uses to track pending calls (the call stack) and crashes with an error known as a **stack overflow**, the same name the popular programming Q&A site took.",
+      "Recursion fits naturally anything shaped like a tree: folders inside folders, comments with replies to replies, the structure of a web page, or a sorting method that splits a list in halves, sorts each half and merges them. Anything written recursively can also be written with an ordinary loop, and sometimes the loop is faster or safer; programmers pick whichever version is clearer for the problem."
+    ],
+    "analogy": "Russian nesting dolls. To find the smallest doll you open one, and inside is the same problem again, a bit smaller, until you reach the tiny solid one that does not open: the base case.",
+    "keyPoints": [
+      "A recursive function calls itself on a smaller version of the problem.",
+      "It needs a base case that stops the calls.",
+      "Too many nested calls exhaust the call stack: a stack overflow.",
+      "Ideal for tree-shaped data like folders, threads of replies or web pages."
+    ],
+    "links": [
+      { "label": "Recursion (MDN glossary)", "url": "https://developer.mozilla.org/en-US/docs/Glossary/Recursion" },
+      { "label": "Recursion (computer science) on Wikipedia", "url": "https://en.wikipedia.org/wiki/Recursion_(computer_science)" }
+    ]
+  },
+  "es": {
+    "title": "Recursión",
+    "tagline": "Cuando una función resuelve un problema llamándose a sí misma con una parte más chica.",
+    "explanation": [
+      "La **recursión** es una forma de resolver un problema partiéndolo en una versión más chica del mismo problema, y resolviendo esa de la misma manera. En código, es una función que se llama a sí misma. Para sumar lo que pesa todo lo que hay en una carpeta, una función recursiva suma los archivos que ve y, por cada subcarpeta, se llama a sí misma con esa subcarpeta, que hace lo mismo, y así hacia abajo.",
+      "Toda función recursiva necesita un **caso base**: una versión del problema tan chica que la respuesta es obvia y no hace falta otra llamada, como una carpeta vacía que pesa cero. Sin eso, la función se llama a sí misma para siempre. En la práctica, el programa se queda sin la memoria que usa para anotar las llamadas pendientes (la pila de llamadas) y se cae con un error llamado **stack overflow**, el mismo nombre que eligió el famoso sitio de preguntas y respuestas de programación.",
+      "La recursión le queda natural a todo lo que tiene forma de árbol: carpetas dentro de carpetas, comentarios con respuestas a respuestas, la estructura de una página web, o un método de ordenamiento que parte una lista en mitades, ordena cada mitad y después las junta. Todo lo que se escribe con recursión también se puede escribir con un bucle común, y a veces el bucle es más rápido o más seguro; se elige la versión que deje más claro el problema."
+    ],
+    "analogy": "Las mamushkas. Para llegar a la muñeca más chica abrís una, y adentro está el mismo problema otra vez, un poco más chico, hasta que llegás a la mini maciza que no se abre: el caso base.",
+    "keyPoints": [
+      "Una función recursiva se llama a sí misma con una versión más chica del problema.",
+      "Necesita un caso base que corte las llamadas.",
+      "Demasiadas llamadas anidadas agotan la pila de llamadas: un stack overflow.",
+      "Ideal para datos con forma de árbol, como carpetas, hilos de respuestas o páginas web."
+    ],
+    "links": [
+      { "label": "Recursión (glosario de MDN)", "url": "https://developer.mozilla.org/es/docs/Glossary/Recursion" },
+      { "label": "Recursión (ciencias de computación) en Wikipedia", "url": "https://es.wikipedia.org/wiki/Recursión_(ciencias_de_computación)" }
+    ]
+  }
+}

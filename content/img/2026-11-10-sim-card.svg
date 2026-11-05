@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="40" y="40" width="200" height="130" rx="10" fill="#e6dfd0"/>
+    <path d="M110 76 H180 L196 92 V150 H110 Z" fill="#9ac7ea"/>
+    <path d="M128 98 H168 L178 108 V140 H128 Z" fill="#9bd1b9"/>
+    <rect x="138" y="110" width="28" height="22" rx="3" fill="#ffd166"/>
+    <path d="M152 110 V132 M138 121 H166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M250 70 H290"/><path d="M250 100 H290"/><path d="M250 128 H290"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#6b6357" text-anchor="middle">
+    <text x="334" y="74">full size</text><text x="334" y="104">micro</text><text x="334" y="132">nano</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M196 92 L250 70" stroke-dasharray="3 4"/><path d="M196 120 L250 100" stroke-dasharray="3 4"/><path d="M178 128 L250 128" stroke-dasharray="3 4"/>
+  </g>
+  <text x="140" y="196" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#2b2b2b">ID + secret key</text>
+  <text x="200" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">the chip proves the line is yours</text>
+</svg>

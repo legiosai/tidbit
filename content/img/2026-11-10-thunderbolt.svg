@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img">
+  <rect width="400" height="240" rx="16" fill="#f3efe6"/>
+  <g stroke="#2b2b2b" stroke-width="2">
+    <rect x="24" y="70" width="90" height="60" rx="6" fill="#e6dfd0"/>
+    <path d="M16 136 H122 L114 148 H24 Z" fill="#e6dfd0"/>
+    <rect x="160" y="88" width="70" height="44" rx="8" fill="#ffd166"/>
+    <rect x="300" y="28" width="76" height="40" rx="4" fill="#9ac7ea"/>
+    <rect x="300" y="78" width="76" height="30" rx="4" fill="#9bd1b9"/>
+    <rect x="300" y="118" width="76" height="30" rx="4" fill="#f4a7a7"/>
+    <rect x="300" y="158" width="76" height="30" rx="4" fill="#e6dfd0"/>
+    <path d="M136 98 L128 112 H136 L130 124 L144 108 H136 L142 98 Z" fill="#ffd166"/>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="2" fill="none">
+    <path d="M122 140 C140 140 140 110 160 110"/>
+    <path d="M230 110 C260 110 270 48 300 48"/><path d="M230 110 C260 110 270 93 300 93"/>
+    <path d="M230 110 C260 110 270 133 300 133"/><path d="M230 110 C260 110 270 173 300 173"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="12" fill="#2b2b2b" text-anchor="middle">
+    <text x="195" y="115">dock</text>
+    <text x="338" y="52">monitor</text><text x="338" y="97">fast SSD</text>
+    <text x="338" y="137">network</text><text x="338" y="177">power</text>
+  </g>
+  <text x="69" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b6357">USB-C port</text>
+  <text x="200" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#6b6357">one cable: data, video and power</text>
+</svg>
