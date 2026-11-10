@@ -7,7 +7,9 @@ name: contribution
 #     check completo y el de links, y abre un pull request con quien la escribió como coautor.
 # El cuerpo del issue es texto de cualquiera: solo se lee como JSON desde un archivo, nunca se interpola en un
 # comando. Un PR abierto con GITHUB_TOKEN no dispara site.yml, por eso este workflow corre los checks antes.
-# Requiere "Allow GitHub Actions to create and approve pull requests" en Settings → Actions → General.
+# Abrir el PR pide "Allow GitHub Actions to create and approve pull requests", que la organización legiosai tiene
+# apagado a propósito (también deja que una Action apruebe PRs). Sin ese permiso, el workflow sube la rama y
+# comenta en el issue un link que abre el PR ya armado; lo abre alguien del equipo, y ahí sí corre site.yml.
 
 on:
   issues:
@@ -109,9 +111,16 @@ jobs:
           git push --force -u origin "$branch"
           printf 'New term `%s`, written by @%s in #%s with the contribute form.\n\nThe contribution workflow already ran the entry rules, `check.mjs` and the link check on it.\n\nCloses #%s\n' \
             "$ENTRY" "$login" "$ISSUE" "$ISSUE" > "$RUNNER_TEMP/pr.md"
+          title="content: ${ENTRY:11} (from #$ISSUE)"
           url=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$branch" --json url --jq '.[0].url // empty')
-          if [ -z "$url" ]; then
-            url=$(gh pr create --repo "$GITHUB_REPOSITORY" --head "$branch" --base main --title "content: ${ENTRY:11} (from #$ISSUE)" --body-file "$RUNNER_TEMP/pr.md")
+          if [ -z "$url" ] && ! url=$(gh pr create --repo "$GITHUB_REPOSITORY" --head "$branch" --base main --title "$title" --body-file "$RUNNER_TEMP/pr.md"); then
+            # Actions may not open pull requests here: leave a link that opens it with the title and body filled in.
+            query=$(jq -rn --arg t "$title" --rawfile b "$RUNNER_TEMP/pr.md" '"title=\($t|@uri)&body=\($b|@uri)"')
+            compare="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/compare/main...$branch?expand=1&$query"
+            echo "::notice::Could not open the pull request; left a link on #$ISSUE instead"
+            gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" \
+              --body "Accepted, thanks for writing it! The entry is ready on \`$branch\` and passed every check. A maintainer opens the pull request from [this link]($compare)."
+            exit 0
           fi
           gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body "Accepted: $url. Thanks for writing it!"
       - name: Say what failed
