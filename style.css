@@ -53,6 +53,8 @@
 }
 
 * { box-sizing: border-box; }
+/* Keep layout rules from overriding elements hidden by the page's filters. */
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
